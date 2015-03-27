@@ -26,6 +26,18 @@ gov.uk
 
 Each domain with associated metadata will have a JSON file in the `metadata` directory.
 
+## Contributing
+
+Fork this repository, make changes, and send a pull request.
+
+### zonedb build tool
+
+This database is generated and validated using the [zonedb](https://github.com/zonedb/zonedb-go) build tool. To install, make sure you have a working [Go](https://golang.org) installation (1.4+) and run this command:
+
+```shell
+go install github.com/zonedb/zonedb-go/cmd/zonedb
+```
+
 ## License
 
 This database is licensed under the [Open Database License (ODBl) version 1.0](http://opendatacommons.org/licenses/odbl/1.0/). See [LICENSE.md](https://github.com/domainr/zonedb/blob/master/LICENSE.md) for more information.
