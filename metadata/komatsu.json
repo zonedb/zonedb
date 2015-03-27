@@ -4,5 +4,11 @@
 	"tags": [
 		"brand"
 	],
+	"nameServers": [
+		"a.nic.komatsu",
+		"b.nic.komatsu",
+		"c.nic.komatsu",
+		"d.nic.komatsu"
+	],
 	"codePoints": "--09az"
 }
