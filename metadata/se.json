@@ -1,0 +1,19 @@
+{
+	"domain": "se",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.iis.se",
+	"nameServers": [
+		"a.ns.se",
+		"b.ns.se",
+		"c.ns.se",
+		"d.ns.se",
+		"e.ns.se",
+		"f.ns.se",
+		"g.ns.se",
+		"i.ns.se",
+		"j.ns.se"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"domain": "hm",
+	"infoURL": "http://www.registry.hm/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "webhost1.capital.hm",
+	"nameServers": [
+		"ns1.registry.hm",
+		"ns2.registry.hm",
+		"ns3.registry.hm"
+	],
+	"codePoints": "--09az"
+}

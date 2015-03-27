@@ -1,0 +1,16 @@
+{
+	"domain": "name",
+	"whoisServer": "whois.nic.name",
+	"nameServers": [
+		"a6.nstld.com",
+		"c6.nstld.com",
+		"d6.nstld.com",
+		"f6.nstld.com",
+		"g6.nstld.com",
+		"h6.nstld.com",
+		"j6.nstld.com",
+		"k6.nstld.com",
+		"l6.nstld.com",
+		"m6.nstld.com"
+	]
+}

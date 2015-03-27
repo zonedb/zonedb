@@ -1,0 +1,18 @@
+{
+	"domain": "tm",
+	"infoURL": "http://nic.tm/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.tm",
+	"nameServers": [
+		"a.nic.tm",
+		"a.ns13.net",
+		"b.nic.ac",
+		"b.nic.io",
+		"b.ns13.net",
+		"ns1.communitydns.net",
+		"ns3.icb.co.uk"
+	]
+}

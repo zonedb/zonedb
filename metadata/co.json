@@ -1,0 +1,18 @@
+{
+	"domain": "co",
+	"infoURL": "http://www.go.co/",
+	"tags": [
+		"cctld",
+		"generic",
+		"geo"
+	],
+	"whoisServer": "whois.nic.co",
+	"nameServers": [
+		"ns1.cctld.co",
+		"ns2.cctld.co",
+		"ns3.cctld.co",
+		"ns4.cctld.co",
+		"ns5.cctld.co",
+		"ns6.cctld.co"
+	]
+}

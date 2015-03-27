@@ -1,0 +1,17 @@
+{
+	"domain": "us",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.us",
+	"nameServers": [
+		"a.cctld.us",
+		"b.cctld.us",
+		"c.cctld.us",
+		"e.cctld.us",
+		"f.cctld.us",
+		"k.cctld.us"
+	],
+	"codePoints": "--09az"
+}

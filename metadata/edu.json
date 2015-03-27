@@ -1,0 +1,16 @@
+{
+	"domain": "edu",
+	"tags": [
+		"sponsored"
+	],
+	"whoisServer": "whois.educause.net",
+	"nameServers": [
+		"a.edu-servers.net",
+		"c.edu-servers.net",
+		"d.edu-servers.net",
+		"f.edu-servers.net",
+		"g.edu-servers.net",
+		"l.edu-servers.net"
+	],
+	"codePoints": "--09az"
+}

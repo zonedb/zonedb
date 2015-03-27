@@ -1,0 +1,13 @@
+{
+	"domain": "cymru",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ns1.nic.uk",
+		"ns2.nic.uk",
+		"ns4.nic.uk",
+		"ns5.nic.uk",
+		"ns6.nic.uk",
+		"ns7.nic.uk"
+	],
+	"codePoints": "--09az"
+}

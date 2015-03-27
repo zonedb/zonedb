@@ -1,0 +1,11 @@
+{
+	"domain": "fashion",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.ns.nic.fashion",
+		"b.ns.nic.fashion",
+		"c.ns.nic.fashion",
+		"d.ns.nic.fashion"
+	],
+	"codePoints": "--09az"
+}

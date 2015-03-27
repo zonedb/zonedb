@@ -1,0 +1,11 @@
+{
+	"domain": "kim",
+	"whoisServer": "whois.nic.kim",
+	"nameServers": [
+		"a0.nic.kim",
+		"a2.nic.kim",
+		"b0.nic.kim",
+		"c0.nic.kim"
+	],
+	"codePoints": "--09az"
+}

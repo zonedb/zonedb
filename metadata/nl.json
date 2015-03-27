@@ -1,0 +1,19 @@
+{
+	"domain": "nl",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.domain-registry.nl",
+	"nameServers": [
+		"nl1.dnsnode.net",
+		"ns-nl.nic.fr",
+		"ns1.dns.nl",
+		"ns2.dns.nl",
+		"ns3.dns.nl",
+		"ns4.dns.nl",
+		"ns5.dns.nl",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,15 @@
+{
+	"domain": "tf",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.tf",
+	"nameServers": [
+		"d.ext.nic.fr",
+		"d.nic.fr",
+		"e.ext.nic.fr",
+		"f.ext.nic.fr",
+		"g.ext.nic.fr"
+	]
+}

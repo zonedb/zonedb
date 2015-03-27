@@ -1,0 +1,14 @@
+{
+	"domain": "sydney",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"geo"
+	],
+	"nameServers": [
+		"a.nic.sydney",
+		"b.nic.sydney",
+		"c.nic.sydney",
+		"d.nic.sydney"
+	],
+	"codePoints": "--09az"
+}

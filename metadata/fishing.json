@@ -1,0 +1,8 @@
+{
+	"domain": "fishing",
+	"whoisServer": "whois.nic.fishing",
+	"nameServers": [
+		"a.ns.nic.fishing",
+		"b.ns.nic.fishing"
+	]
+}

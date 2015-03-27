@@ -1,0 +1,14 @@
+{
+	"domain": "yokohama",
+	"tags": [
+		"geo"
+	],
+	"whoisServer": "whois.nic.yokohama",
+	"nameServers": [
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"c.gmoregistry.net",
+		"d.gmoregistry.net",
+		"e.gmoregistry.net"
+	]
+}

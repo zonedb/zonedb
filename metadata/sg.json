@@ -1,0 +1,14 @@
+{
+	"domain": "sg",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.net.sg",
+	"nameServers": [
+		"dsany.sgnic.sg",
+		"ns2.cuhk.edu.hk",
+		"sec3.apnic.net",
+		"sg-ns.anycast.pch.net"
+	]
+}

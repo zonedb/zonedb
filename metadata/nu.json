@@ -1,0 +1,15 @@
+{
+	"domain": "nu",
+	"infoURL": "http://www.nic.nu/",
+	"tags": [
+		"cctld",
+		"generic",
+		"geo"
+	],
+	"whoisServer": "whois.iis.nu",
+	"nameServers": [
+		"a.nic.nu",
+		"b.nic.nu",
+		"c.nic.nu"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"domain": "bg",
+	"infoURL": "https://www.register.bg/user/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.register.bg",
+	"nameServers": [
+		"bg.cctld.authdns.ripe.net",
+		"ns-ext.isc.org",
+		"ns.register.bg",
+		"ns2.register.bg",
+		"ns3.register.bg",
+		"ns4.register.bg",
+		"sns-pb.isc.org"
+	]
+}

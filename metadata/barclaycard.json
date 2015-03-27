@@ -1,0 +1,14 @@
+{
+	"domain": "barclaycard",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a.nic.barclaycard",
+		"b.nic.barclaycard",
+		"c.nic.barclaycard",
+		"d.nic.barclaycard"
+	],
+	"codePoints": "--09az"
+}

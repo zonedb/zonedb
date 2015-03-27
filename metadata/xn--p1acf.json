@@ -1,0 +1,10 @@
+{
+	"domain": "рус",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.рус.dyntld.net",
+		"b.рус.dyntld.net",
+		"tld1.coccaregistry.net",
+		"tld1.coccaregistry.org"
+	]
+}

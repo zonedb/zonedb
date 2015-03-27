@@ -1,0 +1,12 @@
+{
+	"domain": "meet",
+	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.meet",
+	"nameServers": [
+		"a0.nic.meet",
+		"a2.nic.meet",
+		"b0.nic.meet",
+		"c0.nic.meet"
+	],
+	"codePoints": "--09az"
+}

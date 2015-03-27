@@ -1,0 +1,15 @@
+{
+	"domain": "sx",
+	"infoURL": "http://en.wikipedia.org/wiki/.sx",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.sx",
+	"nameServers": [
+		"a.ns.sx",
+		"b.ns.sx",
+		"c.ns.sx"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,15 @@
+{
+	"domain": "pe",
+	"infoURL": "http://www.nic.pe/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "kero.yachay.pe",
+	"nameServers": [
+		"pch.rcp.pe",
+		"pe1.dnsnode.net",
+		"quipu.rcp.net.pe",
+		"sns-pb.isc.org"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"domain": "bzh",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"geo"
+	],
+	"nameServers": [
+		"d.nic.fr",
+		"f.ext.nic.fr",
+		"g.ext.nic.fr"
+	],
+	"codePoints": "--09az"
+}

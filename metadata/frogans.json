@@ -1,0 +1,14 @@
+{
+	"domain": "frogans",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"whoisServer": "whois.nic.frogans",
+	"nameServers": [
+		"d.nic.fr",
+		"f.ext.nic.fr",
+		"g.ext.nic.fr"
+	],
+	"codePoints": "--09az"
+}

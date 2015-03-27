@@ -1,0 +1,16 @@
+{
+	"domain": "iwc",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"ns1.dns.nic.iwc",
+		"ns2.dns.nic.iwc",
+		"ns3.dns.nic.iwc",
+		"ns4.dns.nic.iwc",
+		"ns5.dns.nic.iwc",
+		"ns6.dns.nic.iwc"
+	],
+	"codePoints": "--09az"
+}

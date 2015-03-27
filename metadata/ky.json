@@ -1,0 +1,18 @@
+{
+	"domain": "ky",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.uniregistrar.com",
+	"whoisURL": "https://uniregistry.com/whois",
+	"nameServers": [
+		"kynse01.perimeterusa.com",
+		"kynse02.perimeterusa.com",
+		"kynse03.perimeterusa.com",
+		"kynsw01.perimeterusa.com",
+		"kynsw02.perimeterusa.com",
+		"kynsw03.perimeterusa.com"
+	],
+	"codePoints": "--09az"
+}

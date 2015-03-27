@@ -1,0 +1,15 @@
+{
+	"domain": "gu",
+	"infoURL": "http://gadao.gov.gu",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"gu.cctld.authdns.ripe.net",
+		"ns.edu.gu",
+		"ns.gu",
+		"nsuog.edu.gu"
+	],
+	"codePoints": "--09az"
+}

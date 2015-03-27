@@ -1,0 +1,15 @@
+{
+	"domain": "삼성",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"b.dns.kr",
+		"c.dns.kr",
+		"d.dns.kr",
+		"e.dns.kr",
+		"f.dns.kr",
+		"g.dns.kr"
+	]
+}

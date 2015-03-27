@@ -1,0 +1,16 @@
+{
+	"domain": "yandex",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"ns1.dns.nic.yandex",
+		"ns2.dns.nic.yandex",
+		"ns3.dns.nic.yandex",
+		"ns4.dns.nic.yandex",
+		"ns5.dns.nic.yandex",
+		"ns6.dns.nic.yandex"
+	],
+	"codePoints": "--09az"
+}

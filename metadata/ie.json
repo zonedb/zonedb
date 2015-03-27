@@ -1,0 +1,19 @@
+{
+	"domain": "ie",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.domainregistry.ie",
+	"nameServers": [
+		"a.ns.ie",
+		"b.ns.ie",
+		"c.ns.ie",
+		"d.ns.ie",
+		"e.ns.ie",
+		"f.ns.ie",
+		"g.ns.ie",
+		"h.ns.ie"
+	],
+	"codePoints": "--09az"
+}

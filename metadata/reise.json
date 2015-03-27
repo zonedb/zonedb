@@ -1,0 +1,9 @@
+{
+	"domain": "reise",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.dns.nic.reise",
+		"m.dns.nic.reise"
+	],
+	"codePoints": "--09az"
+}

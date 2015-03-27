@@ -1,0 +1,11 @@
+{
+	"domain": "study",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.nic.study",
+		"b.nic.study",
+		"c.nic.study",
+		"d.nic.study"
+	],
+	"codePoints": "--09az"
+}

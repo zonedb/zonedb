@@ -1,0 +1,11 @@
+{
+	"domain": "ltda",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a0.nic.ltda",
+		"a2.nic.ltda",
+		"b0.nic.ltda",
+		"c0.nic.ltda"
+	],
+	"codePoints": "--09az"
+}

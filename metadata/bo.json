@@ -1,0 +1,14 @@
+{
+	"domain": "bo",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.bo",
+	"nameServers": [
+		"anycast.ns.nic.bo",
+		"ns.dns.br",
+		"utama.bolnet.bo"
+	],
+	"codePoints": "--09az"
+}

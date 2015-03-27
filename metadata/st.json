@@ -1,0 +1,15 @@
+{
+	"domain": "st",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.st",
+	"nameServers": [
+		"dns-au.st",
+		"dns-st.bahnhof.net",
+		"dns-us.st",
+		"ns1.bahnhof.net"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,17 @@
+{
+	"domain": "cu",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://www.nic.cu",
+	"nameServers": [
+		"cu.cctld.authdns.ripe.net",
+		"ns.ceniai.net.cu",
+		"ns.dns.br",
+		"ns2.ceniai.net.cu",
+		"ns2.gip.net",
+		"rip.psg.com"
+	],
+	"codePoints": "--09az"
+}

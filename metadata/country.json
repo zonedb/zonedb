@@ -1,0 +1,8 @@
+{
+	"domain": "country",
+	"whoisServer": "whois.nic.country",
+	"nameServers": [
+		"a.ns.nic.country",
+		"b.ns.nic.country"
+	]
+}

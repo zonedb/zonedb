@@ -1,0 +1,9 @@
+{
+	"domain": "casa",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.ns.nic.casa",
+		"b.ns.nic.casa"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,16 @@
+{
+	"domain": "gi",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"a0.cctld.afilias-nst.info",
+		"a2.cctld.afilias-nst.info",
+		"b0.cctld.afilias-nst.org",
+		"b2.cctld.afilias-nst.org",
+		"c0.cctld.afilias-nst.info",
+		"d0.cctld.afilias-nst.org"
+	],
+	"codePoints": "--09az"
+}

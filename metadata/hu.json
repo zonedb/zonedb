@@ -1,0 +1,17 @@
+{
+	"domain": "hu",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.hu",
+	"nameServers": [
+		"a.hu",
+		"b.hu",
+		"c.hu",
+		"d.hu",
+		"e.hu",
+		"ns-com.nic.hu",
+		"ns2.nic.fr"
+	]
+}

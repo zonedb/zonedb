@@ -1,0 +1,11 @@
+{
+	"domain": "science",
+	"nameServers": [
+		"ns1.dns.nic.science",
+		"ns2.dns.nic.science",
+		"ns3.dns.nic.science",
+		"ns4.dns.nic.science",
+		"ns5.dns.nic.science",
+		"ns6.dns.nic.science"
+	]
+}

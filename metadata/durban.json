@@ -1,0 +1,11 @@
+{
+	"domain": "durban",
+	"tags": [
+		"geo"
+	],
+	"nameServers": [
+		"coza1.dnsnode.net",
+		"ns.coza.net.za",
+		"ns1.coza.net.za"
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"domain": "me",
+	"infoURL": "http://domain.me/",
+	"tags": [
+		"cctld",
+		"generic",
+		"geo"
+	],
+	"whoisServer": "whois.meregistry.net",
+	"nameServers": [
+		"a0.cctld.afilias-nst.info",
+		"a2.me.afilias-nst.info",
+		"b0.cctld.afilias-nst.org",
+		"b2.me.afilias-nst.org",
+		"c0.cctld.afilias-nst.info",
+		"d0.cctld.afilias-nst.org",
+		"ns.nic.me",
+		"ns2.nic.me"
+	],
+	"codePoints": "--09az"
+}

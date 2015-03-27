@@ -1,0 +1,17 @@
+{
+	"domain": "vi",
+	"infoURL": "http://www.nic.vi/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://secure.nic.vi",
+	"nameServers": [
+		"auth100.ns.uu.net",
+		"auth110.ns.uu.net",
+		"ns0.nic.vi",
+		"ns1.nic.vi",
+		"ns3.nic.vi"
+	],
+	"codePoints": "--09az"
+}

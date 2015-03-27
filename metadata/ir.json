@@ -1,0 +1,14 @@
+{
+	"domain": "ir",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.ir",
+	"nameServers": [
+		"a.nic.ir",
+		"b.nic.ir",
+		"ir.cctld.authdns.ripe.net",
+		"ns5.univie.ac.at"
+	]
+}

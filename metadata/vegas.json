@@ -1,0 +1,10 @@
+{
+	"domain": "vegas",
+	"whoisServer": "whois.nic.vegas",
+	"nameServers": [
+		"a0.nic.vegas",
+		"a2.nic.vegas",
+		"b0.nic.vegas",
+		"c0.nic.vegas"
+	]
+}

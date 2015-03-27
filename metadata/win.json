@@ -1,0 +1,13 @@
+{
+	"domain": "win",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ns1.dns.nic.win",
+		"ns2.dns.nic.win",
+		"ns3.dns.nic.win",
+		"ns4.dns.nic.win",
+		"ns5.dns.nic.win",
+		"ns6.dns.nic.win"
+	],
+	"codePoints": "--09az"
+}

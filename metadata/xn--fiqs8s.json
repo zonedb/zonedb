@@ -1,0 +1,11 @@
+{
+	"domain": "中国",
+	"whoisServer": "cwhois.cnnic.cn",
+	"nameServers": [
+		"h.dns.cn",
+		"i.dns.cn",
+		"j.dns.cn",
+		"k.dns.cn",
+		"l.dns.cn"
+	]
+}

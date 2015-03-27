@@ -1,0 +1,15 @@
+{
+	"domain": "mu",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.mu",
+	"nameServers": [
+		"anycast1.irondns.net",
+		"fork.sth.dnsnode.net",
+		"udns1.tld.mu",
+		"udns2.tld.mu"
+	],
+	"codePoints": "--09az"
+}

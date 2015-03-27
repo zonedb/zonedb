@@ -1,0 +1,14 @@
+{
+	"domain": "okinawa",
+	"tags": [
+		"geo"
+	],
+	"whoisServer": "whois.nic.okinawa",
+	"nameServers": [
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"c.gmoregistry.net",
+		"d.gmoregistry.net",
+		"e.gmoregistry.net"
+	]
+}

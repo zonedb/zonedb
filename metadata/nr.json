@@ -1,0 +1,15 @@
+{
+	"domain": "nr",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://cenpac.net.nr/dns/",
+	"nameServers": [
+		"dns1.cenpac.net.nr",
+		"nrweb.cenpac.net.nr",
+		"ns1.net.reach.com",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,11 @@
+{
+	"domain": "ovh",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"d.nic.fr",
+		"f.ext.nic.fr",
+		"g.ext.nic.fr"
+	]
+}

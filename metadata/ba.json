@@ -1,0 +1,17 @@
+{
+	"domain": "ba",
+	"infoURL": "http://www.nic.ba/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://nic.ba",
+	"nameServers": [
+		"auth03.ns.uu.net",
+		"ba.cctld.authdns.ripe.net",
+		"munnari.oz.au",
+		"ns.ba",
+		"sava.utic.net.ba"
+	],
+	"codePoints": "--09az"
+}

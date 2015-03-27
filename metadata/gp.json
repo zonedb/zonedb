@@ -1,0 +1,14 @@
+{
+	"domain": "gp",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://www.dom-enic.com",
+	"nameServers": [
+		"gp.cctld.authdns.ripe.net",
+		"ns1.nic.gp",
+		"ns1.orangecaraibe.com"
+	],
+	"codePoints": "--09az"
+}

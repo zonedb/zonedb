@@ -1,0 +1,16 @@
+{
+	"domain": "info",
+	"infoURL": "http://info.info/",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.afilias.net",
+	"nameServers": [
+		"a0.info.afilias-nst.info",
+		"a2.info.afilias-nst.info",
+		"b0.info.afilias-nst.org",
+		"b2.info.afilias-nst.org",
+		"c0.info.afilias-nst.info",
+		"d0.info.afilias-nst.org"
+	]
+}

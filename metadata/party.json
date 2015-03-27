@@ -1,0 +1,13 @@
+{
+	"domain": "party",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ns1.dns.nic.party",
+		"ns2.dns.nic.party",
+		"ns3.dns.nic.party",
+		"ns4.dns.nic.party",
+		"ns5.dns.nic.party",
+		"ns6.dns.nic.party"
+	],
+	"codePoints": "--09az"
+}

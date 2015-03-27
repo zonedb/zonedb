@@ -1,0 +1,16 @@
+{
+	"domain": "gmo",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"whoisServer": "whois.gmoregistry.net",
+	"nameServers": [
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"c.gmoregistry.net",
+		"d.gmoregistry.net",
+		"e.gmoregistry.net"
+	],
+	"codePoints": "--09az"
+}

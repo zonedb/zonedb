@@ -1,0 +1,13 @@
+{
+	"domain": "ryukyu",
+	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.ryukyu",
+	"nameServers": [
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"c.gmoregistry.net",
+		"d.gmoregistry.net",
+		"e.gmoregistry.net"
+	],
+	"codePoints": "--09az"
+}

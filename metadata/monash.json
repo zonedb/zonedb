@@ -1,0 +1,15 @@
+{
+	"domain": "monash",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"whoisServer": "whois.nic.monash",
+	"nameServers": [
+		"a.nic.monash",
+		"b.nic.monash",
+		"c.nic.monash",
+		"d.nic.monash"
+	],
+	"codePoints": "--09az"
+}

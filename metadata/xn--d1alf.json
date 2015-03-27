@@ -1,0 +1,10 @@
+{
+	"domain": "мкд",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"d.ext.nic.cz",
+		"dns-mk.univie.ac.at",
+		"ns2.arnes.si",
+		"tld1.marnet.mk"
+	]
+}

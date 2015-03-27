@@ -1,0 +1,9 @@
+{
+	"domain": "work",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.ns.nic.work",
+		"b.ns.nic.work"
+	],
+	"codePoints": "--09az"
+}

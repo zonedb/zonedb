@@ -1,0 +1,10 @@
+{
+	"domain": "miami",
+	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.miami",
+	"nameServers": [
+		"a.ns.nic.miami",
+		"b.ns.nic.miami"
+	],
+	"codePoints": "--09az"
+}

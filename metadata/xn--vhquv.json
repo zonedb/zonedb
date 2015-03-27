@@ -1,0 +1,10 @@
+{
+	"domain": "企业",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
+	]
+}

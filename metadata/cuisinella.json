@@ -1,0 +1,14 @@
+{
+	"domain": "cuisinella",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a.nic.cuisinella",
+		"b.nic.cuisinella",
+		"c.nic.cuisinella",
+		"d.nic.cuisinella"
+	],
+	"codePoints": "--09az"
+}

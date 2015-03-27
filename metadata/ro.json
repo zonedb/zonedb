@@ -1,0 +1,17 @@
+{
+	"domain": "ro",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.rotld.ro",
+	"nameServers": [
+		"dns-at.rotld.ro",
+		"dns-ro.denic.de",
+		"primary.rotld.ro",
+		"sec-dns-a.rotld.ro",
+		"sec-dns-b.rotld.ro",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

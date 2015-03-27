@@ -1,0 +1,16 @@
+{
+	"domain": "asia",
+	"infoURL": "http://www.dotasia.org/",
+	"tags": [
+		"sponsored"
+	],
+	"whoisServer": "whois.nic.asia",
+	"nameServers": [
+		"a0.asia.afilias-nst.info",
+		"a2.asia.afilias-nst.info",
+		"b0.asia.afilias-nst.asia",
+		"b2.asia.afilias-nst.org",
+		"c0.asia.afilias-nst.info",
+		"d0.asia.afilias-nst.asia"
+	]
+}

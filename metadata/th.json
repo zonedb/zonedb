@@ -1,0 +1,18 @@
+{
+	"domain": "th",
+	"infoURL": "http://www.thnic.co.th/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.thnic.net",
+	"nameServers": [
+		"ams.sns-pb.isc.org",
+		"dns1.thnic.co.th",
+		"ns-a.thnic.co.th",
+		"ns-e.thnic.co.th",
+		"ns.thnic.net",
+		"sfba.sns-pb.isc.org",
+		"th.cctld.authdns.ripe.net"
+	]
+}

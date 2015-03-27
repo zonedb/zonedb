@@ -1,0 +1,13 @@
+{
+	"domain": "brussels",
+	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.brussels",
+	"nameServers": [
+		"a.nic.brussels",
+		"b.nic.brussels",
+		"c.ns.dns.be",
+		"d.ns.dns.be",
+		"w.nic.brussels"
+	],
+	"codePoints": "--09az"
+}

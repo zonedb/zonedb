@@ -1,0 +1,14 @@
+{
+	"domain": "top",
+	"nameServers": [
+		"a.zdnscloud.com",
+		"b.zdnscloud.com",
+		"c.zdnscloud.com",
+		"d.zdnscloud.com",
+		"e.zdnscloud.com",
+		"f.zdnscloud.com",
+		"g.zdnscloud.com",
+		"i.zdnscloud.com",
+		"j.zdnscloud.com"
+	]
+}

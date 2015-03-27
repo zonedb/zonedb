@@ -1,0 +1,14 @@
+{
+	"domain": "scb",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a.nic.scb",
+		"b.nic.scb",
+		"c.nic.scb",
+		"d.nic.scb"
+	],
+	"codePoints": "--09az"
+}

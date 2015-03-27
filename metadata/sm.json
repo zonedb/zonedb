@@ -1,0 +1,14 @@
+{
+	"domain": "sm",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"dns.intelcom.sm",
+		"dns.omniway.sm",
+		"ns3.telecomitalia.sm",
+		"sm.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

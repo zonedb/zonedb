@@ -1,0 +1,10 @@
+{
+	"domain": "xyz",
+	"whoisServer": "whois.nic.xyz",
+	"nameServers": [
+		"generationxyz.nic.xyz",
+		"x.nic.xyz",
+		"y.nic.xyz",
+		"z.nic.xyz"
+	]
+}

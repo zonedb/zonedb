@@ -1,0 +1,19 @@
+{
+	"domain": "at",
+	"infoURL": "http://www.nic.at/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.at",
+	"nameServers": [
+		"d.ns.at",
+		"j.ns.at",
+		"n.ns.at",
+		"ns1.univie.ac.at",
+		"ns2.univie.ac.at",
+		"ns9.univie.ac.at",
+		"r.ns.at",
+		"u.ns.at"
+	]
+}

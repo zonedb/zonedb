@@ -1,0 +1,14 @@
+{
+	"domain": "sr",
+	"tags": [
+		"cctld",
+		"generic",
+		"geo"
+	],
+	"whoisURL": "http://www.register.sr",
+	"nameServers": [
+		"ns1.sr.net",
+		"ns2.sr.net"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,11 @@
+{
+	"domain": "lgbt",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a0.nic.lgbt",
+		"a2.nic.lgbt",
+		"b0.nic.lgbt",
+		"c0.nic.lgbt"
+	],
+	"codePoints": "--09az"
+}

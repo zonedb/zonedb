@@ -1,0 +1,16 @@
+{
+	"domain": "sn",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.sn",
+	"nameServers": [
+		"censvrns0001.ird.fr",
+		"ns.ucad.sn",
+		"ns1.sonatel.sn",
+		"ns3.nic.fr",
+		"sn.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

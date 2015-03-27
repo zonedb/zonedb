@@ -1,0 +1,11 @@
+{
+	"domain": "blue",
+	"whoisServer": "whois.nic.blue",
+	"nameServers": [
+		"a0.nic.blue",
+		"a2.nic.blue",
+		"b0.nic.blue",
+		"c0.nic.blue"
+	],
+	"codePoints": "--09az"
+}

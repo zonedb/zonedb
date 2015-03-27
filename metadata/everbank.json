@@ -1,0 +1,16 @@
+{
+	"domain": "everbank",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"ns1.dns.nic.everbank",
+		"ns2.dns.nic.everbank",
+		"ns3.dns.nic.everbank",
+		"ns4.dns.nic.everbank",
+		"ns5.dns.nic.everbank",
+		"ns6.dns.nic.everbank"
+	],
+	"codePoints": "--09az"
+}

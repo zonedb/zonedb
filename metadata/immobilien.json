@@ -1,0 +1,10 @@
+{
+	"domain": "immobilien",
+	"whoisServer": "whois.nic.immobilien",
+	"nameServers": [
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
+	]
+}

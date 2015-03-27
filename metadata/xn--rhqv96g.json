@@ -1,0 +1,12 @@
+{
+	"domain": "世界",
+	"whoisServer": "whois.nic.世界",
+	"nameServers": [
+		"ns1.dns.nic.世界",
+		"ns2.dns.nic.世界",
+		"ns3.dns.nic.世界",
+		"ns4.dns.nic.世界",
+		"ns5.dns.nic.世界",
+		"ns6.dns.nic.世界"
+	]
+}

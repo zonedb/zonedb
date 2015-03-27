@@ -1,0 +1,16 @@
+{
+	"domain": "caravan",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"ns1.dns.nic.caravan",
+		"ns2.dns.nic.caravan",
+		"ns3.dns.nic.caravan",
+		"ns4.dns.nic.caravan",
+		"ns5.dns.nic.caravan",
+		"ns6.dns.nic.caravan"
+	],
+	"codePoints": "--09az"
+}

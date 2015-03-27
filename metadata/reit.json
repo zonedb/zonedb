@@ -1,0 +1,14 @@
+{
+	"domain": "reit",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"community"
+	],
+	"nameServers": [
+		"a.nic.reit",
+		"b.nic.reit",
+		"c.nic.reit",
+		"d.nic.reit"
+	],
+	"codePoints": "--09az"
+}

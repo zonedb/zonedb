@@ -1,0 +1,15 @@
+{
+	"domain": "ec",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.ec",
+	"nameServers": [
+		"n1.nic.ec",
+		"n2.nic.ec",
+		"n3.dns.ec",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

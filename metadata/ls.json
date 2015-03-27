@@ -1,0 +1,16 @@
+{
+	"domain": "ls",
+	"infoURL": "http://www.co.ls/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://www.co.ls",
+	"nameServers": [
+		"hippo.ru.ac.za",
+		"ls-ns.anycast.pch.net",
+		"ns-ls.afrinic.net",
+		"rain.psg.com"
+	],
+	"codePoints": "--09az"
+}

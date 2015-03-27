@@ -1,0 +1,14 @@
+{
+	"domain": "tui",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"ns1a.ksregistry.net",
+		"ns1b.ksregistry.net",
+		"ns2a.ksregistry.com",
+		"ns2b.ksregistry.com"
+	],
+	"codePoints": "--09az"
+}

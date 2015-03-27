@@ -1,0 +1,16 @@
+{
+	"domain": "mw",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://www.registrar.mw",
+	"nameServers": [
+		"chambo.sdnp.org.mw",
+		"domwe.sdn.mw",
+		"mw.cctld.authdns.ripe.net",
+		"rip.psg.com",
+		"sec3.apnic.net"
+	],
+	"codePoints": "--09az"
+}

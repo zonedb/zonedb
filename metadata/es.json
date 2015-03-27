@@ -1,0 +1,17 @@
+{
+	"domain": "es",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.es",
+	"nameServers": [
+		"a.nic.es",
+		"f.nic.es",
+		"ns-ext.nic.cl",
+		"ns1.cesca.es",
+		"ns15.communitydns.net",
+		"ns3.nic.fr",
+		"sns-pb.isc.org"
+	]
+}

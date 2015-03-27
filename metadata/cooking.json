@@ -1,0 +1,8 @@
+{
+	"domain": "cooking",
+	"whoisServer": "whois.nic.cooking",
+	"nameServers": [
+		"a.ns.nic.cooking",
+		"b.ns.nic.cooking"
+	]
+}

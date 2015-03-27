@@ -1,0 +1,17 @@
+{
+	"domain": "cm",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://antic.cm",
+	"nameServers": [
+		"auth02.ns.uu.net",
+		"cm.cctld.authdns.ripe.net",
+		"kim.camnet.cm",
+		"lom.camnet.cm",
+		"ns.itu.ch",
+		"sanaga.camnet.cm"
+	],
+	"codePoints": "--09az"
+}

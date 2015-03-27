@@ -1,0 +1,17 @@
+{
+	"domain": "ly",
+	"infoURL": "http://nic.ly/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.ly",
+	"nameServers": [
+		"dns.lttnet.net",
+		"dns1.lttnet.net",
+		"ly.cctld.authdns.ripe.net",
+		"ns-ly.afrinic.net",
+		"phloem.uoregon.edu"
+	],
+	"codePoints": "--09az"
+}

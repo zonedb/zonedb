@@ -1,0 +1,12 @@
+{
+	"domain": "firmdale",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"ns1.nic.firmdale",
+		"ns2.nic.firmdale"
+	],
+	"codePoints": "--09az"
+}

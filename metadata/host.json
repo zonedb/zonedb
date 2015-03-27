@@ -1,0 +1,9 @@
+{
+	"domain": "host",
+	"nameServers": [
+		"a.nic.host",
+		"b.nic.host",
+		"c.nic.host",
+		"d.nic.host"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"domain": "id",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "muara.idnic.net.id",
+	"nameServers": [
+		"a.dns.id",
+		"b.dns.id",
+		"c.dns.id",
+		"e.dns.id",
+		"sec3.apnic.net"
+	]
+}

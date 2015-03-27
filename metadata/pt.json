@@ -1,0 +1,18 @@
+{
+	"domain": "pt",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.dns.pt",
+	"nameServers": [
+		"auth200.ns.uu.net",
+		"auth210.ns.uu.net",
+		"ns-pt.nlnetlabs.nl",
+		"ns.dns.br",
+		"ns.dns.pt",
+		"ns2.dns.pt",
+		"ns2.nic.fr",
+		"sns-pb.isc.org"
+	]
+}

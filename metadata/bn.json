@@ -1,0 +1,15 @@
+{
+	"domain": "bn",
+	"infoURL": "http://www.brunet.bn/products_webrelated_domain_main.htm",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"bn-ns.anycast.pch.net",
+		"ns1.bnnic.bn",
+		"ns2.bnnic.bn",
+		"sec4.apnic.net"
+	],
+	"codePoints": "--09az"
+}

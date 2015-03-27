@@ -1,0 +1,14 @@
+{
+	"domain": "eg",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://lookup.egregistry.eg",
+	"nameServers": [
+		"frcu.eun.eg",
+		"ns5.univie.ac.at",
+		"rip.psg.com"
+	],
+	"codePoints": "--09az"
+}

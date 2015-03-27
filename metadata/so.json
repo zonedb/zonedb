@@ -1,0 +1,13 @@
+{
+	"domain": "so",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"a.nic.so",
+		"b.nic.so",
+		"c.nic.so"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,9 @@
+{
+	"domain": "yoga",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.ns.nic.yoga",
+		"b.ns.nic.yoga"
+	],
+	"codePoints": "--09az"
+}

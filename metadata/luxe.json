@@ -1,0 +1,9 @@
+{
+	"domain": "luxe",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.ns.nic.luxe",
+		"b.ns.nic.luxe"
+	],
+	"codePoints": "--09az"
+}

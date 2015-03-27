@@ -1,0 +1,14 @@
+{
+	"domain": "wme",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a.nic.wme",
+		"b.nic.wme",
+		"c.nic.wme",
+		"d.nic.wme"
+	],
+	"codePoints": "--09az"
+}

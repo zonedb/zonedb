@@ -1,0 +1,11 @@
+{
+	"domain": "irish",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a0.nic.irish",
+		"a2.nic.irish",
+		"b0.nic.irish",
+		"c0.nic.irish"
+	],
+	"codePoints": "--09az"
+}

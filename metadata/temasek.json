@@ -1,0 +1,14 @@
+{
+	"domain": "temasek",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a0.nic.temasek",
+		"a2.nic.temasek",
+		"b0.nic.temasek",
+		"c0.nic.temasek"
+	],
+	"codePoints": "--09az"
+}

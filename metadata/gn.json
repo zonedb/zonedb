@@ -1,0 +1,14 @@
+{
+	"domain": "gn",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"fork.sth.dnsnode.net",
+		"hippo.ru.ac.za",
+		"ns1.dns.aq",
+		"rip.psg.com"
+	],
+	"codePoints": "--09az"
+}

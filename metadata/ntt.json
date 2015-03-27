@@ -1,0 +1,13 @@
+{
+	"domain": "ntt",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"tld1.nic.ntt",
+		"tld2.nic.ntt",
+		"tld3.nic.ntt"
+	],
+	"codePoints": "--09az"
+}

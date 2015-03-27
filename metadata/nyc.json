@@ -1,0 +1,12 @@
+{
+	"domain": "nyc",
+	"whoisServer": "whois.nic.nyc",
+	"nameServers": [
+		"ns1.dns.nic.nyc",
+		"ns2.dns.nic.nyc",
+		"ns3.dns.nic.nyc",
+		"ns4.dns.nic.nyc",
+		"ns5.dns.nic.nyc",
+		"ns6.dns.nic.nyc"
+	]
+}

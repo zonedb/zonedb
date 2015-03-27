@@ -1,0 +1,14 @@
+{
+	"domain": "sew",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a0.nic.sew",
+		"a2.nic.sew",
+		"b0.nic.sew",
+		"c0.nic.sew"
+	],
+	"codePoints": "--09az"
+}

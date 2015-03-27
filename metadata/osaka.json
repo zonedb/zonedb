@@ -1,0 +1,16 @@
+{
+	"domain": "osaka",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"geo"
+	],
+	"nameServers": [
+		"ns1.dns.nic.osaka",
+		"ns2.dns.nic.osaka",
+		"ns3.dns.nic.osaka",
+		"ns4.dns.nic.osaka",
+		"ns5.dns.nic.osaka",
+		"ns6.dns.nic.osaka"
+	],
+	"codePoints": "--09az"
+}

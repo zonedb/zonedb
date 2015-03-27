@@ -1,0 +1,14 @@
+{
+	"domain": "emerck",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a0.nic.emerck",
+		"a2.nic.emerck",
+		"b0.nic.emerck",
+		"c0.nic.emerck"
+	],
+	"codePoints": "--09az"
+}

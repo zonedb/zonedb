@@ -1,0 +1,9 @@
+{
+	"domain": "abogado",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.ns.nic.abogado",
+		"b.ns.nic.abogado"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,21 @@
+{
+	"domain": "il",
+	"infoURL": "http://www.isoc.org.il/domains/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.isoc.org.il",
+	"nameServers": [
+		"ilns.ilan.net.il",
+		"lookup.iucc.ac.il",
+		"ns1.ns.il",
+		"nsa.ns.il",
+		"nsb.ns.il",
+		"nsd.ns.il",
+		"nse.ns.il",
+		"nsg.ns.il",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

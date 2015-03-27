@@ -1,0 +1,15 @@
+{
+	"domain": "nc",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"any-ns1.nc",
+		"censvrns0001.ird.fr",
+		"nc.cctld.authdns.ripe.net",
+		"ns1.nc",
+		"ns2.nc"
+	],
+	"codePoints": "--09az"
+}

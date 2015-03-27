@@ -1,0 +1,10 @@
+{
+	"domain": "luxury",
+	"whoisServer": "whois.nic.luxury",
+	"nameServers": [
+		"a.nic.luxury",
+		"b.nic.luxury",
+		"c.nic.luxury",
+		"d.nic.luxury"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"domain": "epson",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a.nic.epson",
+		"b.nic.epson",
+		"c.nic.epson",
+		"d.nic.epson"
+	],
+	"codePoints": "--09az"
+}

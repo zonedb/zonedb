@@ -1,0 +1,8 @@
+{
+	"domain": "rodeo",
+	"whoisServer": "whois.nic.rodeo",
+	"nameServers": [
+		"a.ns.nic.rodeo",
+		"b.ns.nic.rodeo"
+	]
+}

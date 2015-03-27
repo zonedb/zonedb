@@ -1,0 +1,15 @@
+{
+	"domain": "sk",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.sk-nic.sk",
+	"nameServers": [
+		"a.tld.sk",
+		"b.tld.sk",
+		"c.tld.sk",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

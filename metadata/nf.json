@@ -1,0 +1,15 @@
+{
+	"domain": "nf",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.net.nf",
+	"nameServers": [
+		"a.nf.dyntld.net",
+		"b.nf.dyntld.net",
+		"ns.anycast.nic.nf",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

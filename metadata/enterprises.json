@@ -1,0 +1,12 @@
+{
+	"domain": "enterprises",
+	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.enterprises",
+	"nameServers": [
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
+	],
+	"codePoints": "--09az"
+}

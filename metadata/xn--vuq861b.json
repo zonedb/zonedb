@@ -1,0 +1,11 @@
+{
+	"domain": "信息",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ta.ngtld.cn",
+		"tb.ngtld.cn",
+		"tc.ngtld.cn",
+		"td.ngtld.cn",
+		"te.ngtld.cn"
+	]
+}

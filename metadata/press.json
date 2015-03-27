@@ -1,0 +1,9 @@
+{
+	"domain": "press",
+	"nameServers": [
+		"a.nic.press",
+		"b.nic.press",
+		"c.nic.press",
+		"d.nic.press"
+	]
+}

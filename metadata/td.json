@@ -1,0 +1,13 @@
+{
+	"domain": "td",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"ns-td.afrinic.net",
+		"ns-td.nic.fr",
+		"ns1.nic.td"
+	],
+	"codePoints": "--09az"
+}

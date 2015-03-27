@@ -1,0 +1,15 @@
+{
+	"domain": "ht",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.ht",
+	"nameServers": [
+		"charles.cdec.polymtl.ca",
+		"dns.princeton.edu",
+		"ht-ns.anycast.pch.net",
+		"ns3.nic.fr"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,17 @@
+{
+	"domain": "om",
+	"infoURL": "http://www.omnic.om/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"cctld.alpha.aridns.net.au",
+		"cctld.beta.aridns.net.au",
+		"cctld.delta.aridns.net.au",
+		"cctld.gamma.aridns.net.au",
+		"ns1.registry.om",
+		"ns2.registry.om"
+	],
+	"codePoints": "--09az"
+}

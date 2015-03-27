@@ -1,0 +1,14 @@
+{
+	"domain": "ne",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"bow.rain.fr",
+		"ne.cctld.authdns.ripe.net",
+		"ns-ne.afrinic.net",
+		"ns.intnet.ne"
+	],
+	"codePoints": "--09az"
+}

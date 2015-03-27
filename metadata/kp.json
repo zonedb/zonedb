@@ -1,0 +1,12 @@
+{
+	"domain": "kp",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"ns1.kptc.kp",
+		"ns2.kptc.kp"
+	],
+	"codePoints": "--09az"
+}

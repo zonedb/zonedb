@@ -1,0 +1,17 @@
+{
+	"domain": "fi",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.ficora.fi",
+	"nameServers": [
+		"a.fi",
+		"b.fi",
+		"c.fi",
+		"d.fi",
+		"e.fi",
+		"f.fi",
+		"g.fi"
+	]
+}

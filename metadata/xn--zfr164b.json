@@ -1,0 +1,11 @@
+{
+	"domain": "政务",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ns1.conac.cn",
+		"ns2.conac.cn",
+		"ns3.conac.cn",
+		"ns4.conac.cn",
+		"ns5.conac.cn"
+	]
+}

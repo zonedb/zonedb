@@ -1,0 +1,11 @@
+{
+	"domain": "poker",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a0.nic.poker",
+		"a2.nic.poker",
+		"b0.nic.poker",
+		"c0.nic.poker"
+	],
+	"codePoints": "--09az"
+}

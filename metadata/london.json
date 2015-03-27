@@ -1,0 +1,11 @@
+{
+	"domain": "london",
+	"tags": [
+		"geo"
+	],
+	"whoisServer": "whois.nic.london",
+	"nameServers": [
+		"a.ns.nic.london",
+		"b.ns.nic.london"
+	]
+}

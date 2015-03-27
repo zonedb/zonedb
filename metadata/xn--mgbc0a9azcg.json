@@ -1,0 +1,11 @@
+{
+	"domain": "المغرب",
+	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.iam.net.ma",
+	"nameServers": [
+		"dns2.menara.ma",
+		"dns3.menara.ma",
+		"hariss.anrt.ma",
+		"ns2.nic.fr"
+	]
+}

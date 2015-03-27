@@ -1,0 +1,16 @@
+{
+	"domain": "praxi",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"ns1.dns.nic.praxi",
+		"ns2.dns.nic.praxi",
+		"ns3.dns.nic.praxi",
+		"ns4.dns.nic.praxi",
+		"ns5.dns.nic.praxi",
+		"ns6.dns.nic.praxi"
+	],
+	"codePoints": "--09az"
+}

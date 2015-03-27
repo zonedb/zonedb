@@ -1,0 +1,14 @@
+{
+	"domain": "schwarz",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a.ns.nic.schwarz",
+		"c.ns.nic.schwarz",
+		"x.ns.nic.schwarz",
+		"y.ns.nic.schwarz"
+	],
+	"codePoints": "--09az"
+}

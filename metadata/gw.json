@@ -1,0 +1,13 @@
+{
+	"domain": "gw",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"ns4.dns.pt",
+		"phobos.fccn.pt",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

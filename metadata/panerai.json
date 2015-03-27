@@ -1,0 +1,16 @@
+{
+	"domain": "panerai",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"ns1.dns.nic.panerai",
+		"ns2.dns.nic.panerai",
+		"ns3.dns.nic.panerai",
+		"ns4.dns.nic.panerai",
+		"ns5.dns.nic.panerai",
+		"ns6.dns.nic.panerai"
+	],
+	"codePoints": "--09az"
+}

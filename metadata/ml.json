@@ -1,0 +1,15 @@
+{
+	"domain": "ml",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.dot.ml",
+	"nameServers": [
+		"a.ns.ml",
+		"b.ns.ml",
+		"c.ns.ml",
+		"d.ns.ml"
+	],
+	"codePoints": "--09az"
+}

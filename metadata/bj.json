@@ -1,0 +1,15 @@
+{
+	"domain": "bj",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"bj.cctld.authdns.ripe.net",
+		"bow.rain.fr",
+		"nakayo.leland.bj",
+		"ns-bj.afrinic.net",
+		"ns1.intnet.bj"
+	],
+	"codePoints": "--09az"
+}

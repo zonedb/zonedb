@@ -1,0 +1,11 @@
+{
+	"domain": "xin",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a0.nic.xin",
+		"a2.nic.xin",
+		"b0.nic.xin",
+		"c0.nic.xin"
+	],
+	"codePoints": "--09az"
+}

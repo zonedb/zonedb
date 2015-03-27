@@ -1,0 +1,11 @@
+{
+	"domain": "cancerresearch",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.nic.cancerresearch",
+		"b.nic.cancerresearch",
+		"c.nic.cancerresearch",
+		"d.nic.cancerresearch"
+	],
+	"codePoints": "--09az"
+}

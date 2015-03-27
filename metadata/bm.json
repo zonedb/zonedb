@@ -1,0 +1,19 @@
+{
+	"domain": "bm",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://www.bermudanic.bm",
+	"nameServers": [
+		"auth02.ns.uu.net",
+		"ns.uu.net",
+		"ns1.bm",
+		"ns1.ibl.bm",
+		"ns2.bm",
+		"ns2.ibl.bm",
+		"ns3.bm",
+		"sunic.sunet.se"
+	],
+	"codePoints": "--09az"
+}

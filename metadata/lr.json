@@ -1,0 +1,13 @@
+{
+	"domain": "lr",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"fork.sth.dnsnode.net",
+		"hippo.ru.ac.za",
+		"rip.psg.com"
+	],
+	"codePoints": "--09az"
+}

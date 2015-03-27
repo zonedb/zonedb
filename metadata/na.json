@@ -1,0 +1,19 @@
+{
+	"domain": "na",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.na-nic.com.na",
+	"nameServers": [
+		"anyc2.irondns.net",
+		"merlin.net.na",
+		"na-ns.anycast.pch.net",
+		"na1.dyntld.net",
+		"na2.dyntld.net",
+		"ns5.nominum.com",
+		"ns6.nominum.eu",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

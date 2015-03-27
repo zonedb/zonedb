@@ -1,0 +1,15 @@
+{
+	"domain": "ga",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.dot.ga",
+	"nameServers": [
+		"a.ns.ga",
+		"b.ns.ga",
+		"c.ns.ga",
+		"d.ns.ga"
+	],
+	"codePoints": "--09az"
+}

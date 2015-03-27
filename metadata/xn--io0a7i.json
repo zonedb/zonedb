@@ -1,0 +1,10 @@
+{
+	"domain": "网络",
+	"nameServers": [
+		"a.ngtld.cn",
+		"b.ngtld.cn",
+		"c.ngtld.cn",
+		"d.ngtld.cn",
+		"e.ngtld.cn"
+	]
+}

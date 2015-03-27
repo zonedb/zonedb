@@ -1,0 +1,13 @@
+{
+	"domain": "vg",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.adamsnames.tc",
+	"nameServers": [
+		"vg-ns.anycast.pch.net",
+		"vg-ns.ksregistry.net"
+	],
+	"codePoints": "--09az"
+}

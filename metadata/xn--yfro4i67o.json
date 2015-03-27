@@ -1,0 +1,9 @@
+{
+	"domain": "新加坡",
+	"nameServers": [
+		"dsany.sgnic.sg",
+		"ns2.cuhk.edu.hk",
+		"sec3.apnic.net",
+		"sg-ns.anycast.pch.net"
+	]
+}

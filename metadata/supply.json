@@ -1,0 +1,10 @@
+{
+	"domain": "supply",
+	"whoisServer": "whois.nic.supply",
+	"nameServers": [
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
+	]
+}

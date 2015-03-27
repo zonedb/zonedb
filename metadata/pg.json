@@ -1,0 +1,15 @@
+{
+	"domain": "pg",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"munnari.oz.au",
+		"ns.uu.net",
+		"ns1.tiare.net.pg",
+		"ns1.unitech.ac.pg",
+		"ns2.tiare.net.pg"
+	],
+	"codePoints": "--09az"
+}

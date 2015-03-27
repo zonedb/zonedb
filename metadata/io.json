@@ -1,0 +1,18 @@
+{
+	"domain": "io",
+	"tags": [
+		"cctld",
+		"generic",
+		"geo"
+	],
+	"whoisServer": "whois.nic.io",
+	"nameServers": [
+		"a.nic.io",
+		"a.ns13.net",
+		"b.nic.ac",
+		"b.nic.io",
+		"b.ns13.net",
+		"ns1.communitydns.net",
+		"ns3.icb.co.uk"
+	]
+}

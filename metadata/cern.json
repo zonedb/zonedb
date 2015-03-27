@@ -1,0 +1,14 @@
+{
+	"domain": "cern",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a0.nic.cern",
+		"a2.nic.cern",
+		"b0.nic.cern",
+		"c0.nic.cern"
+	],
+	"codePoints": "--09az"
+}

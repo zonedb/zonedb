@@ -1,0 +1,16 @@
+{
+	"domain": "mil",
+	"tags": [
+		"sponsored"
+	],
+	"whoisServer": "is-1.nic.mil",
+	"nameServers": [
+		"con1.nipr.mil",
+		"con2.nipr.mil",
+		"eur1.nipr.mil",
+		"eur2.nipr.mil",
+		"pac1.nipr.mil",
+		"pac2.nipr.mil"
+	],
+	"codePoints": "--09az"
+}

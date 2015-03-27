@@ -1,0 +1,16 @@
+{
+	"domain": "ng",
+	"infoURL": "www.web4africa.com.ng",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"ns1.nic.net.ng",
+		"ns2.nic.net.ng",
+		"ns3.nic.net.ng",
+		"ns4.nic.net.ng",
+		"nsa.nic.net.ng"
+	],
+	"codePoints": "--09az"
+}

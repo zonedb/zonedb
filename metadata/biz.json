@@ -1,0 +1,15 @@
+{
+	"domain": "biz",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.biz",
+	"nameServers": [
+		"a.gtld.biz",
+		"b.gtld.biz",
+		"c.gtld.biz",
+		"e.gtld.biz",
+		"f.gtld.biz",
+		"k.gtld.biz"
+	]
+}

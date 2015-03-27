@@ -1,0 +1,16 @@
+{
+	"domain": "ke",
+	"infoURL": "http://www.kenic.or.ke/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.kenic.or.ke",
+	"nameServers": [
+		"mzizi.kenic.or.ke",
+		"ns-ke.afrinic.net",
+		"ns.anycast.kenic.or.ke",
+		"ns1.coza.net.za"
+	],
+	"codePoints": "--09az"
+}

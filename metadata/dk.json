@@ -1,0 +1,16 @@
+{
+	"domain": "dk",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.dk-hostmaster.dk",
+	"nameServers": [
+		"a.nic.dk",
+		"b.nic.dk",
+		"c.nic.dk",
+		"l.nic.dk",
+		"p.nic.dk",
+		"s.nic.dk"
+	]
+}

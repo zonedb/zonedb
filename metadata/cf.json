@@ -1,0 +1,15 @@
+{
+	"domain": "cf",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.dot.cf",
+	"nameServers": [
+		"a.ns.cf",
+		"b.ns.cf",
+		"c.ns.cf",
+		"d.ns.cf"
+	],
+	"codePoints": "--09az"
+}

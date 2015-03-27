@@ -1,0 +1,15 @@
+{
+	"domain": "museum",
+	"infoURL": "http://about.museum/",
+	"tags": [
+		"sponsored"
+	],
+	"whoisServer": "whois.museum",
+	"nameServers": [
+		"anyc1.irondns.net",
+		"nic.museum",
+		"ns.icann.org",
+		"ns5.knipp.de",
+		"sns-pb.isc.org"
+	]
+}

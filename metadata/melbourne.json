@@ -1,0 +1,12 @@
+{
+	"domain": "melbourne",
+	"tags": [
+		"geo"
+	],
+	"nameServers": [
+		"a.nic.melbourne",
+		"b.nic.melbourne",
+		"c.nic.melbourne",
+		"d.nic.melbourne"
+	]
+}

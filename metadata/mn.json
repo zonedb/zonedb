@@ -1,0 +1,21 @@
+{
+	"domain": "mn",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.afilias-grs.info",
+	"nameServers": [
+		"a0.cctld.afilias-nst.info",
+		"a2.cctld.afilias-nst.info",
+		"b0.cctld.afilias-nst.org",
+		"b2.cctld.afilias-nst.org",
+		"c0.cctld.afilias-nst.info",
+		"d0.cctld.afilias-nst.org",
+		"ns1.magic.mn",
+		"ns2.magic.mn",
+		"ns3.magic.mn",
+		"ns4.magic.mn"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,15 @@
+{
+	"domain": "pk",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://pk6.pknic.net.pk",
+	"nameServers": [
+		"n1.pknic.net.pk",
+		"n2.pknic.net.pk",
+		"ns3.pknic.net.pk",
+		"root-s.pknic.pk"
+	],
+	"codePoints": "--09az"
+}

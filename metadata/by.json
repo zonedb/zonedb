@@ -1,0 +1,18 @@
+{
+	"domain": "by",
+	"infoURL": "http://tld.by/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"dns1.tld.tutby.com",
+		"dns2.tld.tutby.com",
+		"dns3.tld.tutby.com",
+		"dns4.tld.tutby.com",
+		"dns5.tld.tutby.com",
+		"dns6.tld.tutby.com",
+		"dns7.tld.tutby.com"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,14 @@
+{
+	"domain": "gd",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.adamsnames.com",
+	"nameServers": [
+		"gd-ns.anycast.pch.net",
+		"gd-ns.ksregistry.net",
+		"gd.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

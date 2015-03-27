@@ -1,0 +1,10 @@
+{
+	"domain": "christmas",
+	"whoisServer": "whois.nic.christmas",
+	"nameServers": [
+		"a.ns.uniregistry.net",
+		"tld.isc-sns.com",
+		"tld.isc-sns.info",
+		"tld.isc-sns.net"
+	]
+}

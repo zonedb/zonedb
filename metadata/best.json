@@ -1,0 +1,12 @@
+{
+	"domain": "best",
+	"whoisServer": "whois.nic.best",
+	"nameServers": [
+		"ns1.dns.nic.best",
+		"ns2.dns.nic.best",
+		"ns3.dns.nic.best",
+		"ns4.dns.nic.best",
+		"ns5.dns.nic.best",
+		"ns6.dns.nic.best"
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"domain": "fj",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://domains.fj",
+	"nameServers": [
+		"adns1.berkeley.edu",
+		"adns2.berkeley.edu",
+		"auth00.ns.uu.net",
+		"manu.usp.ac.fj",
+		"rip.psg.com",
+		"teri.usp.ac.fj"
+	],
+	"codePoints": "--09az"
+}

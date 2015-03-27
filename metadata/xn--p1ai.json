@@ -1,0 +1,11 @@
+{
+	"domain": "рф",
+	"whoisServer": "whois.ripn.net",
+	"nameServers": [
+		"a.dns.ripn.net",
+		"b.dns.ripn.net",
+		"d.dns.ripn.net",
+		"e.dns.ripn.net",
+		"f.dns.ripn.net"
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"domain": "do",
+	"infoURL": "http://www.nic.do/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "ns.nic.do",
+	"nameServers": [
+		"do-dns.nic.pr",
+		"ns.nic.do",
+		"ns1.nic.do",
+		"ns2.nic.do",
+		"ns3.nic.do",
+		"ns3.nic.mx",
+		"phloem.uoregon.edu",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,11 @@
+{
+	"domain": "tickets",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.nic.tickets",
+		"b.nic.tickets",
+		"c.nic.tickets",
+		"d.nic.tickets"
+	],
+	"codePoints": "--09az"
+}

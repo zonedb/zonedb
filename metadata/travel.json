@@ -1,0 +1,17 @@
+{
+	"domain": "travel",
+	"infoURL": "http://www.travel.travel/",
+	"tags": [
+		"sponsored"
+	],
+	"whoisServer": "whois.nic.travel",
+	"nameServers": [
+		"a.gtld.travel",
+		"b.gtld.travel",
+		"c.gtld.travel",
+		"d.gtld.travel",
+		"e.gtld.travel",
+		"f.gtld.travel"
+	],
+	"codePoints": "--09az"
+}

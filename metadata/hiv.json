@@ -1,0 +1,9 @@
+{
+	"domain": "hiv",
+	"nameServers": [
+		"a0.nic.hiv",
+		"a2.nic.hiv",
+		"b0.nic.hiv",
+		"c0.nic.hiv"
+	]
+}

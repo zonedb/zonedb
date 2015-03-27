@@ -1,0 +1,14 @@
+{
+	"domain": "trading",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a5.nstld.com",
+		"c5.nstld.com",
+		"d5.nstld.com",
+		"f5.nstld.com",
+		"g5.nstld.com",
+		"h5.nstld.com",
+		"l5.nstld.com"
+	],
+	"codePoints": "--09az"
+}

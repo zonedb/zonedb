@@ -1,0 +1,13 @@
+{
+	"domain": "mr",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"censvrns0001.ird.fr",
+		"ns.univ-nkc.mr",
+		"ns3.nic.fr"
+	],
+	"codePoints": "--09az"
+}

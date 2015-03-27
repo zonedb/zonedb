@@ -1,0 +1,11 @@
+{
+	"domain": "lotto",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a0.nic.lotto",
+		"a2.nic.lotto",
+		"b0.nic.lotto",
+		"c0.nic.lotto"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,14 @@
+{
+	"domain": "dj",
+	"tags": [
+		"cctld",
+		"generic",
+		"geo"
+	],
+	"whoisURL": "http://www.dj",
+	"nameServers": [
+		"bow.intnet.dj",
+		"bow.rain.fr"
+	],
+	"codePoints": "--09az"
+}

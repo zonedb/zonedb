@@ -1,0 +1,14 @@
+{
+	"domain": "bnpparibas",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a0.nic.bnpparibas",
+		"a2.nic.bnpparibas",
+		"b0.nic.bnpparibas",
+		"c0.nic.bnpparibas"
+	],
+	"codePoints": "--09az"
+}

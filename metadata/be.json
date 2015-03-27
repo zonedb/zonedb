@@ -1,0 +1,16 @@
+{
+	"domain": "be",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.dns.be",
+	"nameServers": [
+		"a.ns.dns.be",
+		"b.ns.dns.be",
+		"c.ns.dns.be",
+		"d.ns.dns.be",
+		"x.ns.dns.be",
+		"y.ns.dns.be"
+	]
+}

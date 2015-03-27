@@ -1,0 +1,16 @@
+{
+	"domain": "is",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.isnic.is",
+	"nameServers": [
+		"durinn.rhnet.is",
+		"is.cctld.authdns.ripe.net",
+		"isgate.is",
+		"sab.isnic.is",
+		"sns-pb.isc.org",
+		"sunic.sunet.se"
+	]
+}

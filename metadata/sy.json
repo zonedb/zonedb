@@ -1,0 +1,15 @@
+{
+	"domain": "sy",
+	"infoURL": "http://www.ste.gov.sy/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"ns1.tld.sy",
+		"ns2.tld.sy",
+		"pch.anycast.tld.sy",
+		"sy.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

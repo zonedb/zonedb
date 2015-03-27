@@ -1,0 +1,15 @@
+{
+	"domain": "zm",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"hippo.ru.ac.za",
+		"ns-zm.afrinic.net",
+		"ns1.coppernet.zm",
+		"ns1.zamnet.zm",
+		"ns2.zamnet.zm"
+	],
+	"codePoints": "--09az"
+}

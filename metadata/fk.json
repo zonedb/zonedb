@@ -1,0 +1,15 @@
+{
+	"domain": "fk",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://whois.marcaria.com",
+	"nameServers": [
+		"euro-ns1.cw.net",
+		"euro-ns2.cw.net",
+		"euro-ns3.cw.net",
+		"ns.horizon.net.fk"
+	],
+	"codePoints": "--09az"
+}

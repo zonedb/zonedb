@@ -1,0 +1,13 @@
+{
+	"domain": "ong",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a0.nic.ong",
+		"a2.nic.ong",
+		"b0.nic.ong",
+		"b2.nic.ong",
+		"c0.nic.ong",
+		"d0.nic.ong"
+	],
+	"codePoints": "--09az"
+}

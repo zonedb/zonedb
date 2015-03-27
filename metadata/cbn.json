@@ -1,0 +1,16 @@
+{
+	"domain": "cbn",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"ns1.dns.nic.cbn",
+		"ns2.dns.nic.cbn",
+		"ns3.dns.nic.cbn",
+		"ns4.dns.nic.cbn",
+		"ns5.dns.nic.cbn",
+		"ns6.dns.nic.cbn"
+	],
+	"codePoints": "--09az"
+}

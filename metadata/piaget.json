@@ -1,0 +1,16 @@
+{
+	"domain": "piaget",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"ns1.dns.nic.piaget",
+		"ns2.dns.nic.piaget",
+		"ns3.dns.nic.piaget",
+		"ns4.dns.nic.piaget",
+		"ns5.dns.nic.piaget",
+		"ns6.dns.nic.piaget"
+	],
+	"codePoints": "--09az"
+}

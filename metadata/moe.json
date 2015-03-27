@@ -1,0 +1,12 @@
+{
+	"domain": "moe",
+	"whoisServer": "whois.nic.moe",
+	"nameServers": [
+		"ns1.dns.nic.moe",
+		"ns2.dns.nic.moe",
+		"ns3.dns.nic.moe",
+		"ns4.dns.nic.moe",
+		"ns5.dns.nic.moe",
+		"ns6.dns.nic.moe"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"domain": "la",
+	"tags": [
+		"cctld",
+		"generic",
+		"geo"
+	],
+	"whoisServer": "whois.nic.la",
+	"nameServers": [
+		"ns1.nic.la",
+		"ns2.nic.la",
+		"ns3.nic.la",
+		"ns4.nic.la"
+	]
+}

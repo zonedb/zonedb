@@ -1,0 +1,18 @@
+{
+	"domain": "tel",
+	"tags": [
+		"sponsored"
+	],
+	"whoisServer": "whois.nic.tel",
+	"nameServers": [
+		"a.dns.nic.tel",
+		"b.dns.nic.tel",
+		"c.dns.nic.tel",
+		"d.dns.nic.tel",
+		"e.dns.nic.tel",
+		"f.dns.nic.tel",
+		"g.dns.nic.tel",
+		"h.dns.nic.tel"
+	],
+	"codePoints": "--09az"
+}

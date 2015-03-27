@@ -1,0 +1,13 @@
+{
+	"domain": "cricket",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ns1.dns.nic.cricket",
+		"ns2.dns.nic.cricket",
+		"ns3.dns.nic.cricket",
+		"ns4.dns.nic.cricket",
+		"ns5.dns.nic.cricket",
+		"ns6.dns.nic.cricket"
+	],
+	"codePoints": "--09az"
+}

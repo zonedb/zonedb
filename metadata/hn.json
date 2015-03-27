@@ -1,0 +1,14 @@
+{
+	"domain": "hn",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois2.afilias-grs.net",
+	"nameServers": [
+		"nicmx-anycast.rds.org.hn",
+		"pch-anycast.rds.org.hn",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

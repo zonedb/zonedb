@@ -1,0 +1,14 @@
+{
+	"domain": "shriram",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a0.nic.shriram",
+		"a2.nic.shriram",
+		"b0.nic.shriram",
+		"c0.nic.shriram"
+	],
+	"codePoints": "--09az"
+}

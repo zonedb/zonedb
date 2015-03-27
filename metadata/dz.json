@@ -1,0 +1,15 @@
+{
+	"domain": "dz",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"dz.cctld.authdns.ripe.net",
+		"ns-dz.afrinic.net",
+		"ns1.nic.dz",
+		"ns2.nic.dz",
+		"ns3.nic.fr"
+	],
+	"codePoints": "--09az"
+}

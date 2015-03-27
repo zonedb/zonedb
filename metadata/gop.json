@@ -1,0 +1,12 @@
+{
+	"domain": "gop",
+	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.gop",
+	"nameServers": [
+		"a.ns.nic.gop",
+		"b.ns.nic.gop",
+		"c.ns.nic.gop",
+		"d.ns.nic.gop"
+	],
+	"codePoints": "--09az"
+}

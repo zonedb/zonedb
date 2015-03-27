@@ -1,0 +1,15 @@
+{
+	"domain": "ki",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.ki",
+	"nameServers": [
+		"ki1.dyntld.net",
+		"ki3.dyntld.net",
+		"pch.nic.ki",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,13 @@
+{
+	"domain": "aquarelle",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"d.nic.fr",
+		"f.ext.nic.fr",
+		"g.ext.nic.fr"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,11 @@
+{
+	"domain": "fan",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.nic.fan",
+		"b.nic.fan",
+		"c.nic.fan",
+		"d.nic.fan"
+	],
+	"codePoints": "--09az"
+}

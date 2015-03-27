@@ -1,0 +1,14 @@
+{
+	"domain": "active",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a0.nic.active",
+		"a2.nic.active",
+		"b0.nic.active",
+		"c0.nic.active"
+	],
+	"codePoints": "--09az"
+}

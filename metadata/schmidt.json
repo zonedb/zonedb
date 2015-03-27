@@ -1,0 +1,14 @@
+{
+	"domain": "schmidt",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a.nic.schmidt",
+		"b.nic.schmidt",
+		"c.nic.schmidt",
+		"d.nic.schmidt"
+	],
+	"codePoints": "--09az"
+}

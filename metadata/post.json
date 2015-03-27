@@ -1,0 +1,16 @@
+{
+	"domain": "post",
+	"infoURL": "http://en.wikipedia.org/wiki/.post",
+	"tags": [
+		"sponsored"
+	],
+	"nameServers": [
+		"a0.post.afilias-nst.info",
+		"a2.post.afilias-nst.info",
+		"b0.post.afilias-nst.org",
+		"b2.post.afilias-nst.org",
+		"c0.post.afilias-nst.info",
+		"d0.post.afilias-nst.org"
+	],
+	"codePoints": "--09az"
+}

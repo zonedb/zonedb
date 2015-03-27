@@ -1,0 +1,11 @@
+{
+	"domain": "autos",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a0.nic.autos",
+		"a2.nic.autos",
+		"b0.nic.autos",
+		"c0.nic.autos"
+	],
+	"codePoints": "--09az"
+}

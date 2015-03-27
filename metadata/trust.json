@@ -1,0 +1,11 @@
+{
+	"domain": "trust",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.nic.trust",
+		"b.nic.trust",
+		"c.nic.trust",
+		"d.nic.trust"
+	],
+	"codePoints": "--09az"
+}

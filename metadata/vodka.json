@@ -1,0 +1,8 @@
+{
+	"domain": "vodka",
+	"whoisServer": "whois.nic.vodka",
+	"nameServers": [
+		"a.ns.nic.vodka",
+		"b.ns.nic.vodka"
+	]
+}

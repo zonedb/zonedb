@@ -1,0 +1,14 @@
+{
+	"domain": "doha",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"geo"
+	],
+	"nameServers": [
+		"a.nic.doha",
+		"b.nic.doha",
+		"c.nic.doha",
+		"d.nic.doha"
+	],
+	"codePoints": "--09az"
+}

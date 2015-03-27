@@ -1,0 +1,17 @@
+{
+	"domain": "gr",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://grweb.ics.forth.gr",
+	"nameServers": [
+		"estia.ics.forth.gr",
+		"gr-at.ics.forth.gr",
+		"gr-br.ics.forth.gr",
+		"gr-ix.ics.forth.gr",
+		"gr-m.ics.forth.gr",
+		"grdns-de.denic.de",
+		"grdns.ics.forth.gr"
+	]
+}

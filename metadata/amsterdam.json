@@ -1,0 +1,12 @@
+{
+	"domain": "amsterdam",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ns1.nic.amsterdam",
+		"ns2.nic.amsterdam",
+		"ns3.nic.amsterdam",
+		"ns4.nic.amsterdam",
+		"ns5.nic.amsterdam"
+	],
+	"codePoints": "--09az"
+}

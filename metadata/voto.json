@@ -1,0 +1,12 @@
+{
+	"domain": "voto",
+	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.voto",
+	"nameServers": [
+		"a0.nic.voto",
+		"a2.nic.voto",
+		"b0.nic.voto",
+		"c0.nic.voto"
+	],
+	"codePoints": "--09az"
+}

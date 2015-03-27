@@ -1,0 +1,10 @@
+{
+	"domain": "bayern",
+	"tags": [
+		"geo"
+	],
+	"nameServers": [
+		"a.ns.nic.bayern",
+		"b.ns.nic.bayern"
+	]
+}

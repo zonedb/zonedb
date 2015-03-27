@@ -1,0 +1,15 @@
+{
+	"domain": "af",
+	"infoURL": "http://www.nic.af/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.af",
+	"nameServers": [
+		"af1.dyntld.net",
+		"af3.dyntld.net",
+		"ns.anycast.nic.af"
+	],
+	"codePoints": "--09az"
+}

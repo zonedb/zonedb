@@ -1,0 +1,19 @@
+{
+	"domain": "si",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.arnes.si",
+	"nameServers": [
+		"b.dns.si",
+		"c.dns.si",
+		"d.dns.si",
+		"e.dns.si",
+		"f.dns.si",
+		"g.dns.si",
+		"h.dns.si",
+		"sss.dns.si"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,16 @@
+{
+	"domain": "williamhill",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"ns1.dns.nic.williamhill",
+		"ns2.dns.nic.williamhill",
+		"ns3.dns.nic.williamhill",
+		"ns4.dns.nic.williamhill",
+		"ns5.dns.nic.williamhill",
+		"ns6.dns.nic.williamhill"
+	],
+	"codePoints": "--09az"
+}

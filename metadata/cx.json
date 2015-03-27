@@ -1,0 +1,15 @@
+{
+	"domain": "cx",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.cx",
+	"nameServers": [
+		"a.cx.dyntld.net",
+		"b.cx.dyntld.net",
+		"ns.anycast.nic.cx",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,14 @@
+{
+	"domain": "nagoya",
+	"tags": [
+		"geo"
+	],
+	"whoisServer": "whois.nic.nagoya",
+	"nameServers": [
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"c.gmoregistry.net",
+		"d.gmoregistry.net",
+		"e.gmoregistry.net"
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"domain": "surf",
+	"nameServers": [
+		"a.ns.nic.surf",
+		"b.ns.nic.surf"
+	]
+}

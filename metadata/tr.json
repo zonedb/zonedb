@@ -1,0 +1,17 @@
+{
+	"domain": "tr",
+	"infoURL": "https://www.nic.tr/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.tr",
+	"nameServers": [
+		"ns1.nic.tr",
+		"ns2.nic.tr",
+		"ns3.nic.tr",
+		"ns4.nic.tr",
+		"ns5.nic.tr",
+		"tr.cctld.authdns.ripe.net"
+	]
+}

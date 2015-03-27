@@ -1,0 +1,18 @@
+{
+	"domain": "np",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://register.mos.com.np",
+	"nameServers": [
+		"np-ns.anycast.pch.net",
+		"np-ns.npix.net.np",
+		"np.cctld.authdns.ripe.net",
+		"ns-ext.isc.org",
+		"sec3.apnic.net",
+		"shikhar.mos.com.np",
+		"yarrina.connect.com.au"
+	],
+	"codePoints": "--09az"
+}

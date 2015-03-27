@@ -1,0 +1,11 @@
+{
+	"domain": "red",
+	"whoisServer": "whois.nic.red",
+	"nameServers": [
+		"a0.nic.red",
+		"a2.nic.red",
+		"b0.nic.red",
+		"c0.nic.red"
+	],
+	"codePoints": "--09az"
+}

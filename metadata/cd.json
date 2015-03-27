@@ -1,0 +1,17 @@
+{
+	"domain": "cd",
+	"infoURL": "http://www.nic.cd/",
+	"tags": [
+		"cctld",
+		"generic",
+		"geo"
+	],
+	"whoisServer": "whois.cd",
+	"nameServers": [
+		"dns.princeton.edu",
+		"igubu.saix.net",
+		"ns1.pch.nic.cd",
+		"sabela.saix.net"
+	],
+	"codePoints": "--09az"
+}

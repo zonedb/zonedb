@@ -1,0 +1,16 @@
+{
+	"domain": "taipei",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"geo"
+	],
+	"nameServers": [
+		"ns1.dns.nic.taipei",
+		"ns2.dns.nic.taipei",
+		"ns3.dns.nic.taipei",
+		"ns4.dns.nic.taipei",
+		"ns5.dns.nic.taipei",
+		"ns6.dns.nic.taipei"
+	],
+	"codePoints": "--09az"
+}

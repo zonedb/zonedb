@@ -1,0 +1,11 @@
+{
+	"domain": "link",
+	"whoisServer": "whois.nic.link",
+	"nameServers": [
+		"a.ns.uniregistry.net",
+		"tld.isc-sns.com",
+		"tld.isc-sns.info",
+		"tld.isc-sns.net"
+	],
+	"codePoints": "--09az"
+}

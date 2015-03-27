@@ -1,0 +1,16 @@
+{
+	"domain": "lv",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.lv",
+	"nameServers": [
+		"a.nic.lv",
+		"b.nic.lv",
+		"c.nic.lv",
+		"d.nic.lv",
+		"lv.cctld.authdns.ripe.net",
+		"sunic.sunet.se"
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"domain": "rs",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.rnids.rs",
+	"nameServers": [
+		"a.nic.rs",
+		"b.nic.rs",
+		"d.nic.rs",
+		"f.nic.rs",
+		"g.nic.rs",
+		"h.nic.rs",
+		"k.nic.rs",
+		"l.nic.rs"
+	],
+	"codePoints": "--09az"
+}

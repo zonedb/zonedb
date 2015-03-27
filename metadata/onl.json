@@ -1,0 +1,11 @@
+{
+	"domain": "onl",
+	"whoisServer": "whois.nic.onl",
+	"nameServers": [
+		"a0.nic.onl",
+		"a2.nic.onl",
+		"b0.nic.onl",
+		"c0.nic.onl"
+	],
+	"codePoints": "--09az"
+}

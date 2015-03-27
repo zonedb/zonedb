@@ -1,0 +1,12 @@
+{
+	"domain": "black",
+	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.black",
+	"nameServers": [
+		"a0.nic.black",
+		"a2.nic.black",
+		"b0.nic.black",
+		"c0.nic.black"
+	],
+	"codePoints": "--09az"
+}

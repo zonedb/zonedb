@@ -1,0 +1,15 @@
+{
+	"domain": "cz",
+	"infoURL": "http://www.pir.org/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.cz",
+	"nameServers": [
+		"a.ns.nic.cz",
+		"b.ns.nic.cz",
+		"c.ns.nic.cz",
+		"d.ns.nic.cz"
+	]
+}

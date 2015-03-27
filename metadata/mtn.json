@@ -1,0 +1,14 @@
+{
+	"domain": "mtn",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a.nic.mtn",
+		"b.nic.mtn",
+		"c.nic.mtn",
+		"d.nic.mtn"
+	],
+	"codePoints": "--09az"
+}

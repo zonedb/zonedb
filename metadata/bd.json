@@ -1,0 +1,14 @@
+{
+	"domain": "bd",
+	"infoURL": "http://www.bttb.net.bd/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://www.whois.com.bd",
+	"nameServers": [
+		"dns.bd",
+		"jamuna.btcl.net.bd",
+		"surma.btcl.net.bd"
+	]
+}

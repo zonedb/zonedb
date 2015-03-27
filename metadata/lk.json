@@ -1,0 +1,20 @@
+{
+	"domain": "lk",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "arisen.nic.lk",
+	"nameServers": [
+		"c.nic.lk",
+		"d.nic.lk",
+		"l.nic.lk",
+		"m.nic.lk",
+		"ns1.ac.lk",
+		"p.nic.lk",
+		"pendragon.cs.purdue.edu",
+		"ripe.nic.lk",
+		"t.nic.lk"
+	],
+	"codePoints": "--09az"
+}

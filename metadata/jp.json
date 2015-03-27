@@ -1,0 +1,17 @@
+{
+	"domain": "jp",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.jprs.jp",
+	"nameServers": [
+		"a.dns.jp",
+		"b.dns.jp",
+		"c.dns.jp",
+		"d.dns.jp",
+		"e.dns.jp",
+		"f.dns.jp",
+		"g.dns.jp"
+	]
+}

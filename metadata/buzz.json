@@ -1,0 +1,14 @@
+{
+	"domain": "buzz",
+	"whoisServer": "whois.nic.buzz",
+	"nameServers": [
+		"ns1.dns.nic.buzz",
+		"ns2.dns.nic.buzz",
+		"ns3.dns.nic.buzz",
+		"ns4.dns.nic.buzz",
+		"ns5.dns.nic.buzz",
+		"ns6.dns.nic.buzz",
+		"ns7.dns.nic.buzz"
+	],
+	"codePoints": "--09az"
+}

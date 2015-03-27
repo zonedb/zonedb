@@ -1,0 +1,17 @@
+{
+	"domain": "sv",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"auth02.ns.uu.net",
+		"cir.red.sv",
+		"dns.nic.cr",
+		"ns.cr",
+		"ns.dns.br",
+		"ns.uu.net",
+		"sv.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

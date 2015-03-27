@@ -1,0 +1,14 @@
+{
+	"domain": "bv",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.norid.no",
+	"nameServers": [
+		"nac.no",
+		"nn.uninett.no",
+		"server.nordu.net"
+	],
+	"codePoints": "--09az"
+}

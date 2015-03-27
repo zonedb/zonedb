@@ -1,0 +1,18 @@
+{
+	"domain": "uz",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.cctld.uz",
+	"nameServers": [
+		"ns.uz",
+		"ns2.uz",
+		"ns3.uz",
+		"ns4.uz",
+		"ns5.uz",
+		"ns6.uz",
+		"ns7.uz"
+	],
+	"codePoints": "--09az"
+}

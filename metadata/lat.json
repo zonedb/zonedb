@@ -1,0 +1,10 @@
+{
+	"domain": "lat",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"c.mx-ns.mx",
+		"m.mx-ns.mx",
+		"o.mx-ns.mx"
+	],
+	"codePoints": "--09az"
+}

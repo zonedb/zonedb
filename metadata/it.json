@@ -1,0 +1,17 @@
+{
+	"domain": "it",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.it",
+	"nameServers": [
+		"a.dns.it",
+		"c.dns.it",
+		"dns.nic.it",
+		"m.dns.it",
+		"nameserver.cnr.it",
+		"r.dns.it",
+		"s.dns.it"
+	]
+}

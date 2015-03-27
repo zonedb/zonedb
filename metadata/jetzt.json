@@ -1,0 +1,12 @@
+{
+	"domain": "jetzt",
+	"whoisServer": "whois.nic.jetzt",
+	"nameServers": [
+		"ns1.dns.nic.jetzt",
+		"ns2.dns.nic.jetzt",
+		"ns3.dns.nic.jetzt",
+		"ns4.dns.nic.jetzt",
+		"ns5.dns.nic.jetzt",
+		"ns6.dns.nic.jetzt"
+	]
+}

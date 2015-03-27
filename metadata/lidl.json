@@ -1,0 +1,14 @@
+{
+	"domain": "lidl",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a.ns.nic.lidl",
+		"c.ns.nic.lidl",
+		"x.ns.nic.lidl",
+		"y.ns.nic.lidl"
+	],
+	"codePoints": "--09az"
+}

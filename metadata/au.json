@@ -1,0 +1,20 @@
+{
+	"domain": "au",
+	"infoURL": "http://www.auda.org.au/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.ausregistry.net",
+	"nameServers": [
+		"a.au",
+		"b.au",
+		"u.au",
+		"v.au",
+		"w.au",
+		"x.au",
+		"y.au",
+		"z.au"
+	],
+	"codePoints": "--09az"
+}

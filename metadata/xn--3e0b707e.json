@@ -1,0 +1,11 @@
+{
+	"domain": "한국",
+	"nameServers": [
+		"b.dns.kr",
+		"c.dns.kr",
+		"d.dns.kr",
+		"e.dns.kr",
+		"f.dns.kr",
+		"g.dns.kr"
+	]
+}

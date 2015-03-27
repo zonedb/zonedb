@@ -1,0 +1,16 @@
+{
+	"domain": "adult",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"adult"
+	],
+	"nameServers": [
+		"a0.nic.adult",
+		"a2.nic.adult",
+		"b0.nic.adult",
+		"b2.nic.adult",
+		"c0.nic.adult",
+		"d0.nic.adult"
+	],
+	"codePoints": "--09az"
+}

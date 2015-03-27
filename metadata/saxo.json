@@ -1,0 +1,14 @@
+{
+	"domain": "saxo",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a.nic.saxo",
+		"b.nic.saxo",
+		"c.nic.saxo",
+		"d.nic.saxo"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,17 @@
+{
+	"domain": "vn",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://whois.vnnic.vn",
+	"nameServers": [
+		"a.dns-servers.vn",
+		"b.dns-servers.vn",
+		"c.dns-servers.vn",
+		"d.dns-servers.vn",
+		"e.dns-servers.vn",
+		"f.dns-servers.vn",
+		"vn.cctld.authdns.ripe.net"
+	]
+}

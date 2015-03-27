@@ -1,0 +1,15 @@
+{
+	"domain": "wtc",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"whoisServer": "whois.nic.wtc",
+	"nameServers": [
+		"a.nic.wtc",
+		"b.nic.wtc",
+		"c.nic.wtc",
+		"d.nic.wtc"
+	],
+	"codePoints": "--09az"
+}

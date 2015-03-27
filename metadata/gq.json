@@ -1,0 +1,14 @@
+{
+	"domain": "gq",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"a.ns.gq",
+		"b.ns.gq",
+		"c.ns.gq",
+		"d.ns.gq"
+	],
+	"codePoints": "--09az"
+}

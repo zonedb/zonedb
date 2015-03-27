@@ -1,0 +1,20 @@
+{
+	"domain": "tw",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.twnic.net",
+	"nameServers": [
+		"a.dns.tw",
+		"b.dns.tw",
+		"c.dns.tw",
+		"d.dns.tw",
+		"e.dns.tw",
+		"f.dns.tw",
+		"g.dns.tw",
+		"h.dns.tw",
+		"ns.twnic.net",
+		"sec4.apnic.net"
+	]
+}

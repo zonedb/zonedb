@@ -1,0 +1,16 @@
+{
+	"domain": "gh",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"austin.gh.com",
+		"fork.sth.dnsnode.net",
+		"hippo.ru.ac.za",
+		"mantse.gh.com",
+		"ns1.dns.aq",
+		"rip.psg.com"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,15 @@
+{
+	"domain": "sb",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.net.sb",
+	"nameServers": [
+		"pch.nic.sb",
+		"sb1.dyntld.net",
+		"sb3.dyntld.net",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

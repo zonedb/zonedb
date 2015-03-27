@@ -1,0 +1,7 @@
+{
+	"domain": "hamburg",
+	"nameServers": [
+		"a.dns.nic.hamburg",
+		"m.dns.nic.hamburg"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"domain": "ye",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"ns1.yemen.net.ye",
+		"ns2.yemen.net.ye",
+		"sah1.ye",
+		"sah2.ye"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,14 @@
+{
+	"domain": "krd",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a.nic.krd",
+		"b.nic.krd",
+		"c.nic.krd",
+		"d.nic.krd"
+	],
+	"codePoints": "--09az"
+}

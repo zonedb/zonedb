@@ -1,0 +1,9 @@
+{
+	"domain": "budapest",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.ns.nic.budapest",
+		"b.ns.nic.budapest"
+	],
+	"codePoints": "--09az"
+}

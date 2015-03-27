@@ -1,0 +1,12 @@
+{
+	"domain": "kz",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"kz.cctld.authdns.ripe.net",
+		"ns.nic.kz"
+	],
+	"codePoints": "--09az"
+}

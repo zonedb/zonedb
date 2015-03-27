@@ -1,0 +1,13 @@
+{
+	"domain": "kg",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.domain.kg",
+	"nameServers": [
+		"kg.cctld.authdns.ripe.net",
+		"ns.kg"
+	],
+	"codePoints": "--09az"
+}

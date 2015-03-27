@@ -1,0 +1,17 @@
+{
+	"domain": "li",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.ch",
+	"nameServers": [
+		"a.nic.li",
+		"b.nic.li",
+		"c.nic.li",
+		"d.nic.li",
+		"e.nic.li",
+		"f.nic.li",
+		"h.nic.li"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"domain": "latrobe",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a.nic.latrobe",
+		"b.nic.latrobe",
+		"c.nic.latrobe",
+		"d.nic.latrobe"
+	],
+	"codePoints": "--09az"
+}

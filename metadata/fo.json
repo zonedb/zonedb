@@ -1,0 +1,15 @@
+{
+	"domain": "fo",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.fo",
+	"nameServers": [
+		"arnhem.nic.fo",
+		"copenhagen.nic.fo",
+		"frankfurt.nic.fo",
+		"pch.nic.fo"
+	],
+	"codePoints": "--09az"
+}

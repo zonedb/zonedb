@@ -1,0 +1,18 @@
+{
+	"domain": "tz",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.tznic.or.tz",
+	"nameServers": [
+		"d.ext.nic.cz",
+		"fork.sth.dnsnode.net",
+		"ns-tz.afrinic.net",
+		"ns.anycast.co.tz",
+		"ns2.tznic.or.tz",
+		"rip.psg.com",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

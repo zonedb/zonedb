@@ -1,0 +1,15 @@
+{
+	"domain": "vu",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"cctld-vu.orange.mu",
+		"efate.vanuatu.com.vu",
+		"ns1-cctld.vunic.vu",
+		"ns2-cctld.vunic.vu",
+		"santo.vanuatu.com.vu"
+	],
+	"codePoints": "--09az"
+}

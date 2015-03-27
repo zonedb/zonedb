@@ -1,0 +1,16 @@
+{
+	"domain": "ca",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.cira.ca",
+	"nameServers": [
+		"any.ca-servers.ca",
+		"c.ca-servers.ca",
+		"d.ca-servers.ca",
+		"e.ca-servers.ca",
+		"j.ca-servers.ca"
+	],
+	"codePoints": "--09az"
+}

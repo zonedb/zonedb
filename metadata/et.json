@@ -1,0 +1,15 @@
+{
+	"domain": "et",
+	"infoURL": "http://www.ethionet.et/EthioInternet/domainname.html",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"et.cctld.authdns.ripe.net",
+		"ns1.telecom.net.et",
+		"ns2.telecom.net.et",
+		"phloem.uoregon.edu"
+	],
+	"codePoints": "--09az"
+}

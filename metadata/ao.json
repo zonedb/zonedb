@@ -1,0 +1,17 @@
+{
+	"domain": "ao",
+	"infoURL": "http://www.dns.ao/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"auth02.ns.uu.net",
+		"ns-ext.isc.org",
+		"ns02.dns.ao",
+		"ns02.fccn.pt",
+		"ns03.fccn.pt",
+		"phobos.fccn.pt"
+	],
+	"codePoints": "--09az"
+}

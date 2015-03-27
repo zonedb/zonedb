@@ -1,0 +1,11 @@
+{
+	"domain": "boats",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a0.nic.boats",
+		"a2.nic.boats",
+		"b0.nic.boats",
+		"c0.nic.boats"
+	],
+	"codePoints": "--09az"
+}

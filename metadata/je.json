@@ -1,0 +1,16 @@
+{
+	"domain": "je",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.je",
+	"nameServers": [
+		"c.ci-servers.org",
+		"d.ci-servers.je",
+		"e.ci-servers.gg",
+		"ns0.ja.net",
+		"ns99.dns.net.nz"
+	],
+	"codePoints": "--09az"
+}

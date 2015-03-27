@@ -1,0 +1,13 @@
+{
+	"domain": "sj",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"nac.no",
+		"nn.uninett.no",
+		"server.nordu.net"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,15 @@
+{
+	"domain": "pw",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.pw",
+	"nameServers": [
+		"ns1.nic.pw",
+		"ns2.nic.pw",
+		"ns3.nic.pw",
+		"ns4.nic.pw"
+	],
+	"codePoints": "--09az"
+}

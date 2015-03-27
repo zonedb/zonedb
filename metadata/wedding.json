@@ -1,0 +1,9 @@
+{
+	"domain": "wedding",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.ns.nic.wedding",
+		"b.ns.nic.wedding"
+	],
+	"codePoints": "--09az"
+}

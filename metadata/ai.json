@@ -1,0 +1,14 @@
+{
+	"domain": "ai",
+	"infoURL": "http://nic.com.ai",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"ns1.pair.com",
+		"ns2.offshore.ai",
+		"whois.ai"
+	],
+	"codePoints": "--09az"
+}

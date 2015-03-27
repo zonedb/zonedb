@@ -1,0 +1,11 @@
+{
+	"domain": "date",
+	"nameServers": [
+		"ns1.dns.nic.date",
+		"ns2.dns.nic.date",
+		"ns3.dns.nic.date",
+		"ns4.dns.nic.date",
+		"ns5.dns.nic.date",
+		"ns6.dns.nic.date"
+	]
+}

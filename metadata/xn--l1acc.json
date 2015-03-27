@@ -1,0 +1,9 @@
+{
+	"domain": "мон",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ns1.idn.mn",
+		"ns2.idn.mn",
+		"ns3.idn.mn"
+	]
+}

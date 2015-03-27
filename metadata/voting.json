@@ -1,0 +1,8 @@
+{
+	"domain": "voting",
+	"whoisServer": "whois.nic.voting",
+	"nameServers": [
+		"a.dns.nic.voting",
+		"m.dns.nic.voting"
+	]
+}

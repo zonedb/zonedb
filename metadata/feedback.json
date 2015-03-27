@@ -1,0 +1,12 @@
+{
+	"domain": "feedback",
+	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.feedback",
+	"nameServers": [
+		"a.nic.feedback",
+		"b.nic.feedback",
+		"c.nic.feedback",
+		"d.nic.feedback"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,19 @@
+{
+	"domain": "coop",
+	"infoURL": "http://www.nic.coop/",
+	"tags": [
+		"sponsored"
+	],
+	"whoisServer": "whois.nic.coop",
+	"nameServers": [
+		"a.nic.coop",
+		"b.nic.coop",
+		"c.nic.coop",
+		"coop1.dyntld.net",
+		"coop2.dyntld.net",
+		"coop3.dyntld.net",
+		"coop4.dyntld.net",
+		"d.nic.coop"
+	],
+	"codePoints": "--09az"
+}

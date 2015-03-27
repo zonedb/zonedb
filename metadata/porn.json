@@ -1,0 +1,16 @@
+{
+	"domain": "porn",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"adult"
+	],
+	"nameServers": [
+		"a0.nic.porn",
+		"a2.nic.porn",
+		"b0.nic.porn",
+		"b2.nic.porn",
+		"c0.nic.porn",
+		"d0.nic.porn"
+	],
+	"codePoints": "--09az"
+}

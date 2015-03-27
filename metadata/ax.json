@@ -1,0 +1,15 @@
+{
+	"domain": "ax",
+	"infoURL": "http://www.regeringen.ax/axreg/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.ax",
+	"nameServers": [
+		"ns1.aalnet.net",
+		"ns2.aalnet.net",
+		"ns3.aalnet.net"
+	],
+	"codePoints": "--09az"
+}

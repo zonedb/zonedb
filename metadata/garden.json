@@ -1,0 +1,11 @@
+{
+	"domain": "garden",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.ns.nic.garden",
+		"b.ns.nic.garden",
+		"c.ns.nic.garden",
+		"d.ns.nic.garden"
+	],
+	"codePoints": "--09az"
+}

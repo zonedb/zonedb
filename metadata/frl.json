@@ -1,0 +1,11 @@
+{
+	"domain": "frl",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.ns.nic.frl",
+		"c.ns.nic.frl",
+		"x.ns.nic.frl",
+		"y.ns.nic.frl"
+	],
+	"codePoints": "--09az"
+}

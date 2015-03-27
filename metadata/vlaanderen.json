@@ -1,0 +1,13 @@
+{
+	"domain": "vlaanderen",
+	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.vlaanderen",
+	"nameServers": [
+		"a.nic.vlaanderen",
+		"b.nic.vlaanderen",
+		"c.ns.dns.be",
+		"d.ns.dns.be",
+		"w.nic.vlaanderen"
+	],
+	"codePoints": "--09az"
+}

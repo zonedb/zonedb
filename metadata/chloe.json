@@ -1,0 +1,16 @@
+{
+	"domain": "chloe",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"ns1.dns.nic.chloe",
+		"ns2.dns.nic.chloe",
+		"ns3.dns.nic.chloe",
+		"ns4.dns.nic.chloe",
+		"ns5.dns.nic.chloe",
+		"ns6.dns.nic.chloe"
+	],
+	"codePoints": "--09az"
+}

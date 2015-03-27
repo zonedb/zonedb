@@ -1,0 +1,13 @@
+{
+	"domain": "loan",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ns1.dns.nic.loan",
+		"ns2.dns.nic.loan",
+		"ns3.dns.nic.loan",
+		"ns4.dns.nic.loan",
+		"ns5.dns.nic.loan",
+		"ns6.dns.nic.loan"
+	],
+	"codePoints": "--09az"
+}

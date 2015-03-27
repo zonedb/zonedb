@@ -1,0 +1,16 @@
+{
+	"domain": "ph",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://www.dot.ph",
+	"nameServers": [
+		"ns2.cuhk.edu.hk",
+		"ph.cctld.authdns.ripe.net",
+		"ph.communitydns.net",
+		"sec4.apnic.net",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,13 @@
+{
+	"domain": "ceo",
+	"whoisServer": "whois.nic.ceo",
+	"nameServers": [
+		"ns1.dns.nic.ceo",
+		"ns2.dns.nic.ceo",
+		"ns3.dns.nic.ceo",
+		"ns4.dns.nic.ceo",
+		"ns5.dns.nic.ceo",
+		"ns6.dns.nic.ceo"
+	],
+	"codePoints": "--09az"
+}

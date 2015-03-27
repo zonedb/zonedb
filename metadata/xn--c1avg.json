@@ -1,0 +1,9 @@
+{
+	"domain": "орг",
+	"nameServers": [
+		"a0.nic.орг",
+		"a2.nic.орг",
+		"b0.nic.орг",
+		"c0.nic.орг"
+	]
+}

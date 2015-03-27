@@ -1,0 +1,9 @@
+{
+	"domain": "berlin",
+	"whoisServer": "whois.nic.berlin",
+	"nameServers": [
+		"a.dns.nic.berlin",
+		"m.dns.nic.berlin"
+	],
+	"codePoints": "--09az"
+}

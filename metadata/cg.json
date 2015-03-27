@@ -1,0 +1,13 @@
+{
+	"domain": "cg",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"dns.dnsafrica.net",
+		"dns.princeton.edu",
+		"sunic.sunet.se"
+	],
+	"codePoints": "--09az"
+}

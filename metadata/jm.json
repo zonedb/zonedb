@@ -1,0 +1,15 @@
+{
+	"domain": "jm",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"jm.cctld.authdns.ripe.net",
+		"ns.jm",
+		"ns.utechjamaica.edu.jm",
+		"ns3-jm.fsl.org.jm",
+		"phloem.uoregon.edu"
+	],
+	"codePoints": "--09az"
+}

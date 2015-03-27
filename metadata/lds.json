@@ -1,0 +1,14 @@
+{
+	"domain": "lds",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a0.nic.lds",
+		"a2.nic.lds",
+		"b0.nic.lds",
+		"c0.nic.lds"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,14 @@
+{
+	"domain": "hermes",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a0.nic.hermes",
+		"a2.nic.hermes",
+		"b0.nic.hermes",
+		"c0.nic.hermes"
+	],
+	"codePoints": "--09az"
+}

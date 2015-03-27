@@ -1,0 +1,7 @@
+{
+	"domain": "beer",
+	"nameServers": [
+		"a.ns.nic.beer",
+		"b.ns.nic.beer"
+	]
+}

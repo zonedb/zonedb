@@ -1,0 +1,11 @@
+{
+	"domain": "menu",
+	"whoisServer": "whois.nic.menu",
+	"nameServers": [
+		"a.nic.menu",
+		"b.nic.menu",
+		"c.nic.menu",
+		"d.nic.menu"
+	],
+	"codePoints": "--09az"
+}

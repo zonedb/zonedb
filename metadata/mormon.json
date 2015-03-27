@@ -1,0 +1,14 @@
+{
+	"domain": "mormon",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a0.nic.mormon",
+		"a2.nic.mormon",
+		"b0.nic.mormon",
+		"c0.nic.mormon"
+	],
+	"codePoints": "--09az"
+}

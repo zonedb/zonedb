@@ -1,0 +1,13 @@
+{
+	"domain": "gb",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"ns.uu.net",
+		"ns0.ja.net",
+		"ns4.ja.net"
+	],
+	"codePoints": "--09az"
+}

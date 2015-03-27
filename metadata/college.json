@@ -1,0 +1,12 @@
+{
+	"domain": "college",
+	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.college",
+	"nameServers": [
+		"a.nic.college",
+		"b.nic.college",
+		"c.nic.college",
+		"d.nic.college"
+	],
+	"codePoints": "--09az"
+}

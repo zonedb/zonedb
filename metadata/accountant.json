@@ -1,0 +1,13 @@
+{
+	"domain": "accountant",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ns1.dns.nic.accountant",
+		"ns2.dns.nic.accountant",
+		"ns3.dns.nic.accountant",
+		"ns4.dns.nic.accountant",
+		"ns5.dns.nic.accountant",
+		"ns6.dns.nic.accountant"
+	],
+	"codePoints": "--09az"
+}

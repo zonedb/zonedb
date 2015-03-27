@@ -1,0 +1,11 @@
+{
+	"domain": "dabur",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a0.nic.dabur",
+		"a2.nic.dabur",
+		"b0.nic.dabur",
+		"c0.nic.dabur"
+	],
+	"codePoints": "--09az"
+}

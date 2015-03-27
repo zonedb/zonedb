@@ -1,0 +1,18 @@
+{
+	"domain": "cy",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://www.nic.cy",
+	"nameServers": [
+		"cy-ns.anycast.pch.net",
+		"cynic.dns.cy",
+		"estia.ics.forth.gr",
+		"ns02.savvis.net",
+		"ns1.ucy.ac.cy",
+		"ns2.ucy.ac.cy",
+		"sec3.apnic.net"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,17 @@
+{
+	"domain": "bi",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.nic.bi",
+	"nameServers": [
+		"anyns.nic.bi",
+		"bi.cctld.authdns.ripe.net",
+		"dns.princeton.edu",
+		"ns-bi.afrinic.net",
+		"ns.nic.bi",
+		"ns1.nic.bi"
+	],
+	"codePoints": "--09az"
+}

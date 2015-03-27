@@ -1,0 +1,10 @@
+{
+	"domain": "rest",
+	"whoisServer": "whois.nic.rest",
+	"nameServers": [
+		"a.nic.rest",
+		"b.nic.rest",
+		"c.nic.rest",
+		"d.nic.rest"
+	]
+}

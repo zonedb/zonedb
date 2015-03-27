@@ -1,0 +1,8 @@
+{
+	"domain": "horse",
+	"whoisServer": "whois.nic.horse",
+	"nameServers": [
+		"a.ns.nic.horse",
+		"b.ns.nic.horse"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"domain": "neustar",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"whoisServer": "whois.nic.neustar",
+	"nameServers": [
+		"ns1.dns.nic.neustar",
+		"ns2.dns.nic.neustar",
+		"ns3.dns.nic.neustar",
+		"ns4.dns.nic.neustar",
+		"ns5.dns.nic.neustar",
+		"ns6.dns.nic.neustar",
+		"ns7.dns.nic.neustar"
+	],
+	"codePoints": "--09az"
+}

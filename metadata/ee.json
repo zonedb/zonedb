@@ -1,0 +1,17 @@
+{
+	"domain": "ee",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.tld.ee",
+	"nameServers": [
+		"b.tld.ee",
+		"e.tld.ee",
+		"ee.aso.ee",
+		"ns.eenet.ee",
+		"ns.tld.ee",
+		"sunic.sunet.se"
+	],
+	"codePoints": "--09az"
+}

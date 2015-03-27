@@ -1,0 +1,13 @@
+{
+	"domain": "sl",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://www.nic.sl",
+	"nameServers": [
+		"ns1.neoip.com",
+		"ns2.neoip.com"
+	],
+	"codePoints": "--09az"
+}

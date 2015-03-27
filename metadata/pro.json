@@ -1,0 +1,13 @@
+{
+	"domain": "pro",
+	"whoisServer": "whois.registrypro.pro",
+	"nameServers": [
+		"a0.pro.afilias-nst.info",
+		"a2.pro.afilias-nst.info",
+		"b0.pro.afilias-nst.org",
+		"b2.pro.afilias-nst.org",
+		"c0.pro.afilias-nst.info",
+		"d0.pro.afilias-nst.org"
+	],
+	"codePoints": "--09az"
+}

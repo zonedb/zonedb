@@ -1,0 +1,11 @@
+{
+	"domain": "homes",
+	"infoURL": "http://nic.homes/",
+	"nameServers": [
+		"a0.nic.homes",
+		"a2.nic.homes",
+		"b0.nic.homes",
+		"c0.nic.homes"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,17 @@
+{
+	"domain": "kw",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://www.kw",
+	"nameServers": [
+		"dns1.kw",
+		"dns2.kw",
+		"dns3.kw",
+		"kwns.kems.net",
+		"sec1.apnic.net",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

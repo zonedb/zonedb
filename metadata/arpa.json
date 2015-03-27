@@ -1,0 +1,23 @@
+{
+	"domain": "arpa",
+	"infoURL": "http://www.iana.org/domains/arpa/",
+	"tags": [
+		"infrastructure"
+	],
+	"whoisServer": "whois.iana.org",
+	"nameServers": [
+		"a.root-servers.net",
+		"b.root-servers.net",
+		"c.root-servers.net",
+		"d.root-servers.net",
+		"e.root-servers.net",
+		"f.root-servers.net",
+		"g.root-servers.net",
+		"h.root-servers.net",
+		"i.root-servers.net",
+		"k.root-servers.net",
+		"l.root-servers.net",
+		"m.root-servers.net"
+	],
+	"codePoints": "--09az"
+}

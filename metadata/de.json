@@ -1,0 +1,16 @@
+{
+	"domain": "de",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.denic.de",
+	"nameServers": [
+		"a.nic.de",
+		"f.nic.de",
+		"l.de.net",
+		"n.de.net",
+		"s.de.net",
+		"z.nic.de"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"domain": "hr",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"nameServers": [
+		"hr-ns-1.carnet.hr",
+		"pch.carnet.hr",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,17 @@
+{
+	"domain": "kred",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"community"
+	],
+	"whoisServer": "whois.nic.kred",
+	"nameServers": [
+		"ns1.dns.nic.kred",
+		"ns2.dns.nic.kred",
+		"ns3.dns.nic.kred",
+		"ns4.dns.nic.kred",
+		"ns5.dns.nic.kred",
+		"ns6.dns.nic.kred"
+	],
+	"codePoints": "--09az"
+}

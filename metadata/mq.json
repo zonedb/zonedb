@@ -1,0 +1,14 @@
+{
+	"domain": "mq",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisURL": "http://www.dom-enic.com",
+	"nameServers": [
+		"ns1-fr.mediaserv.net",
+		"ns1-gp.mediaserv.net",
+		"ns1-mq.mediaserv.net"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,10 @@
+{
+	"domain": "engineering",
+	"whoisServer": "whois.nic.engineering",
+	"nameServers": [
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
+	]
+}

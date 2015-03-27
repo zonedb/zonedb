@@ -1,0 +1,13 @@
+{
+	"domain": "qpon",
+	"whoisServer": "whois.nic.qpon",
+	"nameServers": [
+		"ns1.dns.nic.qpon",
+		"ns2.dns.nic.qpon",
+		"ns3.dns.nic.qpon",
+		"ns4.dns.nic.qpon",
+		"ns5.dns.nic.qpon",
+		"ns6.dns.nic.qpon",
+		"ns7.dns.nic.qpon"
+	]
+}

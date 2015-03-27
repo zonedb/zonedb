@@ -1,0 +1,18 @@
+{
+	"domain": "ua",
+	"infoURL": "http://www.nic.net.ua/",
+	"tags": [
+		"cctld",
+		"geo"
+	],
+	"whoisServer": "whois.ua",
+	"nameServers": [
+		"cd1.ns.ua",
+		"he1.ns.ua",
+		"ho1.ns.ua",
+		"pch.ns.ua",
+		"ripe.ns.ua",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

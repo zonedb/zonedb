@@ -1,0 +1,9 @@
+{
+	"domain": "ไทย",
+	"whoisServer": "whois.thnic.co.th",
+	"nameServers": [
+		"dns1.thnic.co.th",
+		"ns-a.thnic.co.th",
+		"ns.thnic.net"
+	]
+}

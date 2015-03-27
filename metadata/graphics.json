@@ -1,0 +1,11 @@
+{
+	"domain": "graphics",
+	"whoisServer": "whois.nic.graphics",
+	"nameServers": [
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
+	],
+	"codePoints": "--09az"
+}

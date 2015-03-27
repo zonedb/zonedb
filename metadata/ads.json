@@ -1,0 +1,12 @@
+{
+	"domain": "ads",
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ns-tld1.charlestonroadregistry.com",
+		"ns-tld2.charlestonroadregistry.com",
+		"ns-tld3.charlestonroadregistry.com",
+		"ns-tld4.charlestonroadregistry.com",
+		"ns-tld5.charlestonroadregistry.com"
+	],
+	"codePoints": "--09az"
+}

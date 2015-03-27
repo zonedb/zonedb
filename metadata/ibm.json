@@ -1,0 +1,14 @@
+{
+	"domain": "ibm",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand"
+	],
+	"nameServers": [
+		"a.nic.ibm",
+		"b.nic.ibm",
+		"c.nic.ibm",
+		"d.nic.ibm"
+	],
+	"codePoints": "--09az"
+}

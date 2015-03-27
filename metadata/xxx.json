@@ -1,0 +1,15 @@
+{
+	"domain": "xxx",
+	"tags": [
+		"adult"
+	],
+	"whoisServer": "whois.nic.xxx",
+	"nameServers": [
+		"a0.xxx.afilias-nst.info",
+		"a2.xxx.afilias-nst.info",
+		"b0.xxx.afilias-nst.org",
+		"b2.xxx.afilias-nst.org",
+		"c0.xxx.afilias-nst.info",
+		"d0.xxx.afilias-nst.org"
+	]
+}
