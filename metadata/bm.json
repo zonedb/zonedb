@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://www.bermudanic.bm",
+	"whoisURL": "http://www.bermudanic.bm/cgi-bin/lansaweb?procfun+BMWHO+BMWHO2+WHO",
 	"nameServers": [
 		"auth02.ns.uu.net",
 		"ns.uu.net",

@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://www.netmaster.tg",
+	"whoisURL": "http://www.nic.tg/",
 	"nameServers": [
 		"ns1.admin.net",
 		"ns2.admin.net",

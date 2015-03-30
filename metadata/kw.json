@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://www.kw",
+	"whoisURL": "http://www.kw/",
 	"nameServers": [
 		"dns1.kw",
 		"dns2.kw",

@@ -1,4 +1,5 @@
 {
 	"domain": "com.uy",
+	"whoisURL": "https://nic.anteldata.com.uy/dns/consultaWhois/whois.action",
 	"codePoints": "--09az"
 }

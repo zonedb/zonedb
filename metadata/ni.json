@@ -5,7 +5,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://www.nic.ni",
+	"whoisURL": "http://www.nic.ni/",
 	"nameServers": [
 		"ns.cr",
 		"ns.ibw.com.ni",

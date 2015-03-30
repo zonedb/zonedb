@@ -5,7 +5,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://nic.ar",
+	"whoisURL": "http://www.nic.ar/",
 	"nameServers": [
 		"a.dns.ar",
 		"ar.cctld.authdns.ripe.net",

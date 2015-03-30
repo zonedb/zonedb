@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://cenpac.net.nr/dns/",
+	"whoisURL": "http://www.cenpac.net.nr/dns/whois.html",
 	"nameServers": [
 		"dns1.cenpac.net.nr",
 		"nrweb.cenpac.net.nr",

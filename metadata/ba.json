@@ -5,7 +5,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://nic.ba",
+	"whoisURL": "http://nic.ba/lat/menu/view/13",
 	"nameServers": [
 		"auth03.ns.uu.net",
 		"ba.cctld.authdns.ripe.net",

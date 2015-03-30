@@ -5,7 +5,7 @@
 		"geo"
 	],
 	"whoisServer": "whois.uniregistrar.com",
-	"whoisURL": "https://uniregistry.com/whois",
+	"whoisURL": "http://kynseweb.messagesecure.com/kywebadmin/",
 	"nameServers": [
 		"kynse01.perimeterusa.com",
 		"kynse02.perimeterusa.com",

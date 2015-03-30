@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisURL": "http://www.nic.gh/customer/search_c.htm",
 	"nameServers": [
 		"austin.gh.com",
 		"fork.sth.dnsnode.net",

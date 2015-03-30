@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://www.nic.cu",
+	"whoisURL": "http://www.nic.cu/",
 	"nameServers": [
 		"cu.cctld.authdns.ripe.net",
 		"ns.ceniai.net.cu",

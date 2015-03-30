@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://register.mos.com.np",
+	"whoisURL": "http://register.mos.com.np/userSearchInc.asp",
 	"nameServers": [
 		"np-ns.anycast.pch.net",
 		"np-ns.npix.net.np",

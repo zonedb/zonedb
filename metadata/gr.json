@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://grweb.ics.forth.gr",
+	"whoisURL": "https://grweb.ics.forth.gr/Whois?lang=en",
 	"nameServers": [
 		"estia.ics.forth.gr",
 		"gr-at.ics.forth.gr",

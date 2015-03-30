@@ -6,6 +6,7 @@
 		"geo"
 	],
 	"whoisServer": "ns.nic.do",
+	"whoisURL": "http://www.nic.do/whois-h.php3",
 	"nameServers": [
 		"do-dns.nic.pr",
 		"ns.nic.do",

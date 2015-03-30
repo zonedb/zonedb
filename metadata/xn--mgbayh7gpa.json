@@ -1,5 +1,6 @@
 {
 	"domain": "الاردن",
+	"whoisURL": "http://idn.jo/whois_a.aspx",
 	"nameServers": [
 		"amra.nic.gov.jo",
 		"jo.cctld.authdns.ripe.net",

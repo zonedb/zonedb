@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisURL": "http://www.dns.jo/Whois.aspx",
 	"nameServers": [
 		"amra.nic.gov.jo",
 		"jo.cctld.authdns.ripe.net",

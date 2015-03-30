@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.usp.ac.fj",
 	"whoisURL": "http://domains.fj",
 	"nameServers": [
 		"adns1.berkeley.edu",

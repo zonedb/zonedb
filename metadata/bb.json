@@ -5,6 +5,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisURL": "http://whois.telecoms.gov.bb/search_domain.php",
 	"nameServers": [
 		"ns1.barbadosdomain.net",
 		"ns2.barbadosdomain.net"

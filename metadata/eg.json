@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://lookup.egregistry.eg",
+	"whoisURL": "http://lookup.egregistry.eg/english.aspx",
 	"nameServers": [
 		"frcu.eun.eg",
 		"ns5.univie.ac.at",

@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://www.register.bs",
+	"whoisURL": "http://www.nic.bs/cgi-bin/search.pl",
 	"nameServers": [
 		"anyns.dns.bs",
 		"anyns.pch.net",

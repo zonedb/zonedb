@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.netcom.cm",
 	"whoisURL": "http://antic.cm",
 	"nameServers": [
 		"auth02.ns.uu.net",

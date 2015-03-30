@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.nic.sl",
 	"whoisURL": "http://www.nic.sl",
 	"nameServers": [
 		"ns1.neoip.com",

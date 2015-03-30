@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://www.dom-enic.com",
+	"whoisURL": "https://www.dom-enic.com/whois.html",
 	"nameServers": [
 		"ns1-fr.mediaserv.net",
 		"ns1-gp.mediaserv.net",

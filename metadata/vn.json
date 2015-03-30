@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://whois.vnnic.vn",
+	"whoisURL": "http://www.vnnic.vn/en/domain",
 	"nameServers": [
 		"a.dns-servers.vn",
 		"b.dns-servers.vn",

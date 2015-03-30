@@ -5,7 +5,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://www.nic.pa",
+	"whoisURL": "http://www.nic.pa/",
 	"nameServers": [
 		"dns.nic.cr",
 		"ns-ext.nic.cl",

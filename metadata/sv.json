@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisURL": "http://www.uca.edu.sv/dns/",
 	"nameServers": [
 		"auth02.ns.uu.net",
 		"cir.red.sv",

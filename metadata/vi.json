@@ -5,7 +5,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://secure.nic.vi",
+	"whoisURL": "http://www.nic.vi/whoisform.htm",
 	"nameServers": [
 		"auth100.ns.uu.net",
 		"auth110.ns.uu.net",

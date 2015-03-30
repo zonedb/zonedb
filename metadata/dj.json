@@ -5,7 +5,7 @@
 		"generic",
 		"geo"
 	],
-	"whoisURL": "http://www.dj",
+	"whoisURL": "http://www.nic.dj/whois.php",
 	"nameServers": [
 		"bow.intnet.dj",
 		"bow.rain.fr"

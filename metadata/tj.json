@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://www.nic.tj",
+	"whoisURL": "http://www.nic.tj/whois.html",
 	"nameServers": [
 		"ns1.nic.tj",
 		"ns2.tojikiston.com",

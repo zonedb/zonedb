@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.nic.mz",
 	"whoisURL": "http://www.domains.co.mz",
 	"nameServers": [
 		"anyns.uem.mz",

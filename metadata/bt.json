@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://www.nic.bt",
+	"whoisURL": "http://www.nic.bt/",
 	"nameServers": [
 		"auth00.ns.uu.net",
 		"auth61.ns.uu.net",

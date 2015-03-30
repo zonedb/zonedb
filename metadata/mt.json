@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisURL": "http://www.nic.org.mt",
+	"whoisURL": "https://www.nic.org.mt/dotmt/",
 	"nameServers": [
 		"f.ns.mt",
 		"i.ns.mt",
