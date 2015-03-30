@@ -1,6 +1,7 @@
 {
 	"domain": "markets",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.markets",
 	"nameServers": [
 		"a5.nstld.com",
 		"c5.nstld.com",

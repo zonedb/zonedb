@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.shriram",
 		"a2.nic.shriram",

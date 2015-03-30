@@ -1,6 +1,6 @@
 {
 	"domain": "international",
-	"whoisServer": "whois.nic.international",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

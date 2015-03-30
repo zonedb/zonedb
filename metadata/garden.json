@@ -1,6 +1,7 @@
 {
 	"domain": "garden",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.garden",
 		"b.ns.nic.garden",

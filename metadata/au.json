@@ -5,7 +5,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.ausregistry.net",
+	"whoisServer": "whois.audns.net.au",
 	"nameServers": [
 		"a.au",
 		"b.au",

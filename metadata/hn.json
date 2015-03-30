@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois2.afilias-grs.net",
+	"whoisServer": "whois.nic.hn",
 	"nameServers": [
 		"nicmx-anycast.rds.org.hn",
 		"pch-anycast.rds.org.hn",

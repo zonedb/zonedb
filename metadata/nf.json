@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.nic.net.nf",
+	"whoisServer": "whois.nic.nf",
 	"nameServers": [
 		"a.nf.dyntld.net",
 		"b.nf.dyntld.net",

@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.iam.net.ma",
+	"whoisServer": "whois.registre.ma",
 	"nameServers": [
 		"dns.inria.fr",
 		"ma.cctld.authdns.ripe.net",

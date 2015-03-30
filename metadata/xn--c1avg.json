@@ -1,5 +1,6 @@
 {
 	"domain": "орг",
+	"whoisServer": "whois.publicinterestregistry.net",
 	"nameServers": [
 		"a0.nic.орг",
 		"a2.nic.орг",

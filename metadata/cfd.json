@@ -1,6 +1,7 @@
 {
 	"domain": "cfd",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.cfd",
 	"nameServers": [
 		"a5.nstld.com",
 		"c5.nstld.com",

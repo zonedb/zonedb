@@ -1,6 +1,6 @@
 {
 	"domain": "investments",
-	"whoisServer": "whois.nic.investments",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

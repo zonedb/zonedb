@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.aridnrs.net.au",
 	"nameServers": [
 		"a.nic.epson",
 		"b.nic.epson",

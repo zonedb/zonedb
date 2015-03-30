@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.adamsnames.com",
+	"whoisServer": "whois.nic.gd",
 	"nameServers": [
 		"gd-ns.anycast.pch.net",
 		"gd-ns.ksregistry.net",

@@ -1,6 +1,7 @@
 {
 	"domain": "时尚",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.wang",
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

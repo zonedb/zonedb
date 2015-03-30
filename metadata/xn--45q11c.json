@@ -1,6 +1,7 @@
 {
 	"domain": "八卦",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.八卦",
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

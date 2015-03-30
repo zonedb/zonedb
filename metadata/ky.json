@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.uniregistrar.com",
+	"whoisServer": "whois.kyregistry.ky",
 	"whoisURL": "http://kynseweb.messagesecure.com/kywebadmin/",
 	"nameServers": [
 		"kynse01.perimeterusa.com",

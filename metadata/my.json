@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.mynic.net.my",
+	"whoisServer": "whois.mynic.my",
 	"nameServers": [
 		"dns.mynic.net.my",
 		"ns-my.nic.fr",

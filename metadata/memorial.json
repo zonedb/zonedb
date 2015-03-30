@@ -1,6 +1,7 @@
 {
 	"domain": "memorial",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

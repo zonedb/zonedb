@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.nic.ggee",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",

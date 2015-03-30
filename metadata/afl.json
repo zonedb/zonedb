@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.nic.afl",
 	"nameServers": [
 		"a.nic.afl",
 		"b.nic.afl",

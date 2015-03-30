@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.nic.bbc",
 	"nameServers": [
 		"ns1.nic.uk",
 		"ns2.nic.uk",

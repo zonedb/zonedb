@@ -1,6 +1,7 @@
 {
 	"domain": "bank",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.bank",
 	"nameServers": [
 		"a5.nstld.com",
 		"c5.nstld.com",

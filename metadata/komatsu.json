@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.nic.komatsu",
 	"nameServers": [
 		"a.nic.komatsu",
 		"b.nic.komatsu",

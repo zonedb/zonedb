@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "muara.idnic.net.id",
+	"whoisServer": "whois.pandi.or.id",
 	"nameServers": [
 		"a.dns.id",
 		"b.dns.id",

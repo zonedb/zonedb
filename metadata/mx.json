@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.nic.mx",
+	"whoisServer": "whois.mx",
 	"nameServers": [
 		"c.mx-ns.mx",
 		"e.mx-ns.mx",

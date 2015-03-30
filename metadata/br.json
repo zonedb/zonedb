@@ -5,7 +5,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.nic.br",
+	"whoisServer": "whois.registro.br",
 	"nameServers": [
 		"a.dns.br",
 		"b.dns.br",

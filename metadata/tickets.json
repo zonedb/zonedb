@@ -1,6 +1,7 @@
 {
 	"domain": "tickets",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"a.nic.tickets",
 		"b.nic.tickets",

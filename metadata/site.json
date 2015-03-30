@@ -1,6 +1,7 @@
 {
 	"domain": "site",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"a.nic.site",
 		"b.nic.site",

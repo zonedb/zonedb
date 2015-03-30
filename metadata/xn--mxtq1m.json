@@ -1,6 +1,7 @@
 {
 	"domain": "政府",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.政府",
 	"nameServers": [
 		"a.nic.政府",
 		"b.nic.政府",

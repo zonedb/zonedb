@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.nic.latrobe",
 	"nameServers": [
 		"a.nic.latrobe",
 		"b.nic.latrobe",

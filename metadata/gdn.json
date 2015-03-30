@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.gdnregistry.com",
 	"nameServers": [
 		"ns1.nic.gdn",
 		"ns2.nic.gdn"

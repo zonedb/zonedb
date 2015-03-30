@@ -1,6 +1,6 @@
 {
 	"domain": "сайт",
-	"whoisServer": "whois.online.rs.corenic.net",
+	"whoisServer": "whois.site.rs.corenic.net",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

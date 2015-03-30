@@ -1,6 +1,7 @@
 {
 	"domain": "网店",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.网店",
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.cnnic.net.cn",
+	"whoisServer": "whois.cnnic.cn",
 	"nameServers": [
 		"a.dns.cn",
 		"b.dns.cn",

@@ -1,6 +1,6 @@
 {
 	"domain": "immobilien",
-	"whoisServer": "whois.nic.immobilien",
+	"whoisServer": "whois.unitedtld.com",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

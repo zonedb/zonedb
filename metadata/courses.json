@@ -1,6 +1,7 @@
 {
 	"domain": "courses",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.aridnrs.net.au",
 	"nameServers": [
 		"a.nic.courses",
 		"b.nic.courses",

@@ -4,7 +4,7 @@
 	"tags": [
 		"brand"
 	],
-	"whoisServer": "whois.nic.frogans",
+	"whoisServer": "whois-frogans.nic.fr",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

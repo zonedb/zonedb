@@ -1,7 +1,7 @@
 {
 	"domain": "рус",
 	"infoURL": "http://newgtlds.icann.org/",
-	"whoisServer": "whois.nic.xn--p1acf",
+	"whoisServer": "whois.nic.рус",
 	"nameServers": [
 		"a.рус.dyntld.net",
 		"b.рус.dyntld.net",

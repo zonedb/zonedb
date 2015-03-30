@@ -1,6 +1,7 @@
 {
 	"domain": "study",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.study",
 	"nameServers": [
 		"a.nic.study",
 		"b.nic.study",

@@ -1,6 +1,7 @@
 {
 	"domain": "sucks",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.sucks",
 	"nameServers": [
 		"a.nic.sucks",
 		"b.nic.sucks",

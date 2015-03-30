@@ -1,6 +1,6 @@
 {
 	"domain": "town",
-	"whoisServer": "whois.nic.town",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

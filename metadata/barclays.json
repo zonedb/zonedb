@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.nic.barclays",
 	"nameServers": [
 		"a.nic.barclays",
 		"b.nic.barclays",

@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.saudinic.net.sa",
+	"whoisServer": "whois.nic.net.sa",
 	"nameServers": [
 		"ns1.isu.net.sa",
 		"ns1.nic.net.sa",

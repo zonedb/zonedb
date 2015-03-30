@@ -1,7 +1,7 @@
 {
 	"domain": "feedback",
 	"infoURL": "http://newgtlds.icann.org/",
-	"whoisServer": "whois.centralnic.com",
+	"whoisServer": "whois.nic.feedback",
 	"nameServers": [
 		"a.nic.feedback",
 		"b.nic.feedback",
