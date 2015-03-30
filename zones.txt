@@ -172,6 +172,7 @@ ac.at
 co.at
 gv.at
 or.at
+priv.at
 athleta
 attorney
 au
@@ -525,6 +526,7 @@ bzh
 ca
 ab.ca
 bc.ca
+co.ca
 gc.ca
 mb.ca
 nb.ca
@@ -1106,13 +1108,24 @@ forum
 foundation
 fox
 fr
+aeroport.fr
 asso.fr
+avocat.fr
+chambagri.fr
+chirurgiens-dentistes.fr
 com.fr
+experts-comptables.fr
+geometre-expert.fr
 gouv.fr
+medecin.fr
 nom.fr
+notaires.fr
+pharmacien.fr
+port.fr
 prd.fr
 presse.fr
 tm.fr
+veterinaire.fr
 free
 fresenius
 frl
@@ -2162,6 +2175,7 @@ in.net
 jp.net
 se.net
 uk.net
+za.net
 netaporter
 netbank
 netflix
@@ -2454,8 +2468,10 @@ oracle
 orange
 org
 ae.org
+eu.org
 hk.org
 us.org
+za.org
 organic
 orientexpress
 origins
@@ -2578,6 +2594,7 @@ boleslawiec.pl
 bydgoszcz.pl
 bytom.pl
 cieszyn.pl
+co.pl
 com.pl
 czeladz.pl
 czest.pl
