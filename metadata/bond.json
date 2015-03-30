@@ -4,5 +4,11 @@
 	"tags": [
 		"brand"
 	],
+	"nameServers": [
+		"a.nic.bond",
+		"b.nic.bond",
+		"c.nic.bond",
+		"d.nic.bond"
+	],
 	"codePoints": "--09az"
 }

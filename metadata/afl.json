@@ -4,5 +4,11 @@
 	"tags": [
 		"brand"
 	],
+	"nameServers": [
+		"a.nic.afl",
+		"b.nic.afl",
+		"c.nic.afl",
+		"d.nic.afl"
+	],
 	"codePoints": "--09az"
 }
