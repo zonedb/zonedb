@@ -1,5 +1,6 @@
 {
 	"domain": "vet",
+	"whoisServer": "whois.rightside.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

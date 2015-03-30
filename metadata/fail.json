@@ -1,6 +1,6 @@
 {
 	"domain": "fail",
-	"whoisServer": "whois.nic.fail",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

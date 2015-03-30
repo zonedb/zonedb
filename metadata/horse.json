@@ -1,6 +1,6 @@
 {
 	"domain": "horse",
-	"whoisServer": "whois.nic.horse",
+	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.horse",
 		"b.ns.nic.horse"

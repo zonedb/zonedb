@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.nic.so",
 	"nameServers": [
 		"a.nic.so",
 		"b.nic.so",

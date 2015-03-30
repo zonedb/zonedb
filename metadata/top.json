@@ -1,5 +1,6 @@
 {
 	"domain": "top",
+	"whoisServer": "whois.nic.top",
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

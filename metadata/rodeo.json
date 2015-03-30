@@ -1,6 +1,6 @@
 {
 	"domain": "rodeo",
-	"whoisServer": "whois.nic.rodeo",
+	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.rodeo",
 		"b.ns.nic.rodeo"

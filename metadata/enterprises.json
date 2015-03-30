@@ -1,7 +1,7 @@
 {
 	"domain": "enterprises",
 	"infoURL": "http://newgtlds.icann.org/",
-	"whoisServer": "whois.nic.enterprises",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

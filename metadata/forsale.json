@@ -1,6 +1,7 @@
 {
 	"domain": "forsale",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.unitedtld.com",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

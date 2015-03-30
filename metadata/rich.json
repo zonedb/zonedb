@@ -1,6 +1,6 @@
 {
 	"domain": "rich",
-	"whoisServer": "whois.nic.rich",
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.rich",
 		"a2.nic.rich",

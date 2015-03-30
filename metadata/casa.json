@@ -1,6 +1,7 @@
 {
 	"domain": "casa",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.casa",
 		"b.ns.nic.casa"

@@ -5,7 +5,7 @@
 		"generic",
 		"geo"
 	],
-	"whoisServer": "whois2.afilias-grs.net",
+	"whoisServer": "whois.afilias-grs.info",
 	"nameServers": [
 		"a0.cctld.afilias-nst.info",
 		"a2.cctld.afilias-nst.info",

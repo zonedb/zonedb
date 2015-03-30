@@ -1,6 +1,7 @@
 {
 	"domain": "gives",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.rightside.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

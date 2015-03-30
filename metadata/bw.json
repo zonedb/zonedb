@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.nic.net.bw",
 	"nameServers": [
 		"dns1.nic.net.bw",
 		"dns2.nic.net.bw",

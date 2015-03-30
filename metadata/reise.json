@@ -1,6 +1,7 @@
 {
 	"domain": "reise",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.reise",
 	"nameServers": [
 		"a.dns.nic.reise",
 		"m.dns.nic.reise"

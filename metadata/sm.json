@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.nic.sm",
 	"nameServers": [
 		"dns.intelcom.sm",
 		"dns.omniway.sm",

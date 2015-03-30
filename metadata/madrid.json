@@ -4,6 +4,7 @@
 	"tags": [
 		"geo"
 	],
+	"whoisServer": "whois.madrid.rs.corenic.net",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

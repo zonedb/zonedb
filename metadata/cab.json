@@ -1,6 +1,6 @@
 {
 	"domain": "cab",
-	"whoisServer": "whois.nic.cab",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

@@ -1,6 +1,7 @@
 {
 	"domain": "homes",
 	"infoURL": "http://nic.homes/",
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.homes",
 		"a2.nic.homes",

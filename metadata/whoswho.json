@@ -1,6 +1,7 @@
 {
 	"domain": "whoswho",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.whoswho",
 	"nameServers": [
 		"ns1.dns.nic.whoswho",
 		"ns2.dns.nic.whoswho",

@@ -5,7 +5,7 @@
 		"generic",
 		"geo"
 	],
-	"whoisServer": "whois.ripn.net",
+	"whoisServer": "whois.tcinet.ru",
 	"nameServers": [
 		"a.dns.ripn.net",
 		"b.dns.ripn.net",

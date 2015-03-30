@@ -4,6 +4,7 @@
 	"tags": [
 		"geo"
 	],
+	"whoisServer": "whois-alsace.nic.fr",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

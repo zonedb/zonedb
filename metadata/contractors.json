@@ -1,6 +1,6 @@
 {
 	"domain": "contractors",
-	"whoisServer": "whois.nic.technology",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

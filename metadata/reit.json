@@ -4,6 +4,7 @@
 	"tags": [
 		"community"
 	],
+	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"a.nic.reit",
 		"b.nic.reit",

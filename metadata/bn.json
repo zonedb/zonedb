@@ -5,6 +5,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.bn",
 	"nameServers": [
 		"bn-ns.anycast.pch.net",
 		"ns1.bnnic.bn",

@@ -1,6 +1,7 @@
 {
 	"domain": "ltda",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.ltda",
 		"a2.nic.ltda",

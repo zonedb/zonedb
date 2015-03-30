@@ -1,6 +1,6 @@
 {
 	"domain": "limo",
-	"whoisServer": "whois.nic.limo",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

@@ -1,5 +1,6 @@
 {
 	"domain": "中文网",
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.中文网",
 		"a2.nic.中文网",

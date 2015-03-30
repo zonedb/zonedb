@@ -1,6 +1,7 @@
 {
 	"domain": "rio",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.gtlds.nic.br",
 	"nameServers": [
 		"a.dns.br",
 		"b.dns.br",

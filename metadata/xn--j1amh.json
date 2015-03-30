@@ -1,5 +1,6 @@
 {
 	"domain": "укр",
+	"whoisServer": "whois.dotukr.com",
 	"nameServers": [
 		"dns1.u-registry.com",
 		"dns2.u-registry.net",

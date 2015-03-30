@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.nic.bj",
 	"nameServers": [
 		"bj.cctld.authdns.ripe.net",
 		"bow.rain.fr",

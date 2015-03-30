@@ -1,5 +1,6 @@
 {
 	"domain": "hamburg",
+	"whoisServer": "whois.nic.hamburg",
 	"nameServers": [
 		"a.dns.nic.hamburg",
 		"m.dns.nic.hamburg"

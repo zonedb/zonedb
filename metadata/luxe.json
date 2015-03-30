@@ -1,6 +1,7 @@
 {
 	"domain": "luxe",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.luxe",
 		"b.ns.nic.luxe"

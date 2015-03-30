@@ -1,7 +1,7 @@
 {
 	"domain": "miami",
 	"infoURL": "http://newgtlds.icann.org/",
-	"whoisServer": "whois.nic.miami",
+	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.miami",
 		"b.ns.nic.miami"

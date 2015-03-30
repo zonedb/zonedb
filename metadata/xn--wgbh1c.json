@@ -1,5 +1,6 @@
 {
 	"domain": "مصر",
+	"whoisServer": "whois.dotmasr.eg",
 	"nameServers": [
 		"ns1.dotmasr.eg",
 		"ns2.dotmasr.eg",

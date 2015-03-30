@@ -1,4 +1,5 @@
 {
 	"domain": "gov.uk",
+	"whoisServer": "whois.ja.net",
 	"codePoints": "--09az"
 }

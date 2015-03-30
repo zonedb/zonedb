@@ -4,6 +4,7 @@
 	"tags": [
 		"adult"
 	],
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.adult",
 		"a2.nic.adult",

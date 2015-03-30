@@ -4,6 +4,7 @@
 	"tags": [
 		"geo"
 	],
+	"whoisServer": "whois.nic.wales",
 	"nameServers": [
 		"ns1.nic.uk",
 		"ns2.nic.uk",

@@ -1,6 +1,6 @@
 {
 	"domain": "discount",
-	"whoisServer": "whois.nic.discount",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

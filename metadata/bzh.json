@@ -4,6 +4,7 @@
 	"tags": [
 		"geo"
 	],
+	"whoisServer": "whois-bzh.nic.fr",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

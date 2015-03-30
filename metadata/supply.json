@@ -1,6 +1,6 @@
 {
 	"domain": "supply",
-	"whoisServer": "whois.nic.supply",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

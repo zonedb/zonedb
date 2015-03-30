@@ -1,5 +1,6 @@
 {
 	"domain": "surf",
+	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.surf",
 		"b.ns.nic.surf"

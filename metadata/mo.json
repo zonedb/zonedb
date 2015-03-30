@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.monic.mo",
 	"nameServers": [
 		"a.monic.mo",
 		"b.monic.mo",

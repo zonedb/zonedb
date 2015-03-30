@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.nic.tc",
 	"nameServers": [
 		"root1.zone.tc",
 		"root2.zone.tc",

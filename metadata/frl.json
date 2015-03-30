@@ -1,6 +1,7 @@
 {
 	"domain": "frl",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.frl",
 	"nameServers": [
 		"a.ns.nic.frl",
 		"c.ns.nic.frl",

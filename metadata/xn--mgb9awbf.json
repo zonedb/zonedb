@@ -1,6 +1,7 @@
 {
 	"domain": "عمان",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.registry.om",
 	"nameServers": [
 		"cctld.alpha.aridns.net.au",
 		"cctld.beta.aridns.net.au",

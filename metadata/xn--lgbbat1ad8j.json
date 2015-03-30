@@ -1,6 +1,7 @@
 {
 	"domain": "الجزائر",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.dz",
 	"nameServers": [
 		"idn1.nic.dz",
 		"idn2.nic.dz"

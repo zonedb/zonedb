@@ -3,7 +3,7 @@
 	"tags": [
 		"geo"
 	],
-	"whoisServer": "whois.nic.paris",
+	"whoisServer": "whois-paris.nic.fr",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

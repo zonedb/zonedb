@@ -1,5 +1,6 @@
 {
 	"domain": "beer",
+	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.beer",
 		"b.ns.nic.beer"

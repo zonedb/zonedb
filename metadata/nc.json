@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.nc",
 	"nameServers": [
 		"any-ns1.nc",
 		"censvrns0001.ird.fr",

@@ -1,6 +1,7 @@
 {
 	"domain": "nrw",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.nrw",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

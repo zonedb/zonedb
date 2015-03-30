@@ -6,7 +6,7 @@
 		"generic",
 		"geo"
 	],
-	"whoisServer": "whois.meregistry.net",
+	"whoisServer": "whois.nic.me",
 	"nameServers": [
 		"a0.cctld.afilias-nst.info",
 		"a2.me.afilias-nst.info",

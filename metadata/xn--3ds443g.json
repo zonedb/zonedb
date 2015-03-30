@@ -1,5 +1,6 @@
 {
 	"domain": "在线",
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.在线",
 		"a2.nic.在线",

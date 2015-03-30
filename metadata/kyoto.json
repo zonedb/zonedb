@@ -4,6 +4,7 @@
 	"tags": [
 		"geo"
 	],
+	"whoisServer": "whois.nic.tokyo",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",

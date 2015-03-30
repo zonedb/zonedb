@@ -3,6 +3,7 @@
 	"tags": [
 		"geo"
 	],
+	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.bayern",
 		"b.ns.nic.bayern"

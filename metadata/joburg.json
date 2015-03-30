@@ -1,5 +1,6 @@
 {
 	"domain": "joburg",
+	"whoisServer": "joburg-whois.registry.net.za",
 	"nameServers": [
 		"coza1.dnsnode.net",
 		"ns.coza.net.za",

@@ -1,6 +1,7 @@
 {
 	"domain": "poker",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.afilias.net",
 	"nameServers": [
 		"a0.nic.poker",
 		"a2.nic.poker",

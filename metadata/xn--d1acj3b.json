@@ -1,5 +1,6 @@
 {
 	"domain": "дети",
+	"whoisServer": "whois.nic.xn--d1acj3b",
 	"nameServers": [
 		"a.dns.ripn.net",
 		"b.dns.ripn.net",

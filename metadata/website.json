@@ -1,5 +1,6 @@
 {
 	"domain": "website",
+	"whoisServer": "whois.nic.website",
 	"nameServers": [
 		"a.nic.website",
 		"b.nic.website",

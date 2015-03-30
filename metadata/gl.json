@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.nic.gl",
 	"nameServers": [
 		"a.nuuk.nic.gl",
 		"b.nic.gl",

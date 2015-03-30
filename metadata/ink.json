@@ -1,6 +1,6 @@
 {
 	"domain": "ink",
-	"whoisServer": "whois.nic.ink",
+	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"a.nic.ink",
 		"b.nic.ink",

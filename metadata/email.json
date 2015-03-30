@@ -1,6 +1,6 @@
 {
 	"domain": "email",
-	"whoisServer": "whois.nic.email",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

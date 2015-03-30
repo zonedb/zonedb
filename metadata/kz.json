@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.nic.kz",
 	"nameServers": [
 		"kz.cctld.authdns.ripe.net",
 		"ns.nic.kz"

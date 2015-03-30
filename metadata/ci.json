@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.nic.ci",
 	"nameServers": [
 		"ci.cctld.authdns.ripe.net",
 		"ci.hosting.nic.fr",

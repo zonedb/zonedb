@@ -1,6 +1,6 @@
 {
 	"domain": "rest",
-	"whoisServer": "whois.nic.rest",
+	"whoisServer": "whois.unitedtld.com",
 	"nameServers": [
 		"a.nic.rest",
 		"b.nic.rest",

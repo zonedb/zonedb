@@ -1,6 +1,7 @@
 {
 	"domain": "ngo",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.publicinterestregistry.net",
 	"nameServers": [
 		"a0.nic.ngo",
 		"a2.nic.ngo",

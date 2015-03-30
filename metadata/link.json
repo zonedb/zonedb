@@ -1,6 +1,6 @@
 {
 	"domain": "link",
-	"whoisServer": "whois.nic.link",
+	"whoisServer": "whois.unitedtld.com",
 	"nameServers": [
 		"a.ns.uniregistry.net",
 		"tld.isc-sns.com",

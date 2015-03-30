@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.nic.schmidt",
 	"nameServers": [
 		"a.nic.schmidt",
 		"b.nic.schmidt",

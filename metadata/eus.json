@@ -1,6 +1,6 @@
 {
 	"domain": "eus",
-	"whoisServer": "whois.nic.eus",
+	"whoisServer": "whois.eus.coreregistry.net",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

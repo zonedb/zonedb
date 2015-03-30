@@ -1,6 +1,6 @@
 {
 	"domain": "rentals",
-	"whoisServer": "whois.nic.rentals",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

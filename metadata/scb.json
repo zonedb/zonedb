@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.nic.scb",
 	"nameServers": [
 		"a.nic.scb",
 		"b.nic.scb",

@@ -5,7 +5,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "webhost1.capital.hm",
+	"whoisServer": "whois.registry.hm",
 	"nameServers": [
 		"ns1.registry.hm",
 		"ns2.registry.hm",

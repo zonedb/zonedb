@@ -1,4 +1,5 @@
 {
 	"domain": "gov.za",
+	"whoisServer": "whois.gov.za",
 	"codePoints": "--09az"
 }

@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.nic.firmdale",
 	"nameServers": [
 		"ns1.nic.firmdale",
 		"ns2.nic.firmdale"

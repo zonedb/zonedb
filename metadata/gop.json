@@ -1,7 +1,7 @@
 {
 	"domain": "gop",
 	"infoURL": "http://newgtlds.icann.org/",
-	"whoisServer": "whois.nic.gop",
+	"whoisServer": "whois-cl01.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.gop",
 		"b.ns.nic.gop",

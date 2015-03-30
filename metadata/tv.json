@@ -5,7 +5,7 @@
 		"generic",
 		"geo"
 	],
-	"whoisServer": "tvwhois.verisign-grs.com",
+	"whoisServer": "whois.nic.tv",
 	"nameServers": [
 		"a5.nstld.com",
 		"c5.nstld.com",

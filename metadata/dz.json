@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.nic.dz",
 	"nameServers": [
 		"dz.cctld.authdns.ripe.net",
 		"ns-dz.afrinic.net",

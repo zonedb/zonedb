@@ -3,7 +3,7 @@
 	"tags": [
 		"geo"
 	],
-	"whoisServer": "whois.nic.london",
+	"whoisServer": "whois-lon.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.london",
 		"b.ns.nic.london"

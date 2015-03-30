@@ -1,6 +1,6 @@
 {
 	"domain": "social",
-	"whoisServer": "whois.nic.social",
+	"whoisServer": "whois.unitedtld.com",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

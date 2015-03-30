@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.dominio.gq",
 	"nameServers": [
 		"a.ns.gq",
 		"b.ns.gq",

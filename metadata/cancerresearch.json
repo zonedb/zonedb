@@ -1,6 +1,7 @@
 {
 	"domain": "cancerresearch",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.cancerresearch",
 	"nameServers": [
 		"a.nic.cancerresearch",
 		"b.nic.cancerresearch",

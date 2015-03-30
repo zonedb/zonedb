@@ -1,6 +1,6 @@
 {
 	"domain": "haus",
-	"whoisServer": "whois.nic.haus",
+	"whoisServer": "whois.unitedtld.com",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

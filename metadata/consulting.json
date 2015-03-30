@@ -1,6 +1,6 @@
 {
 	"domain": "consulting",
-	"whoisServer": "whois.nic.consulting",
+	"whoisServer": "whois.unitedtld.com",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

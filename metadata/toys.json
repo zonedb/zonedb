@@ -1,6 +1,6 @@
 {
 	"domain": "toys",
-	"whoisServer": "whois.nic.toys",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

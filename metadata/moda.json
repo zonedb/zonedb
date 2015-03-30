@@ -1,6 +1,6 @@
 {
 	"domain": "moda",
-	"whoisServer": "whois.nic.moda",
+	"whoisServer": "whois.unitedtld.com",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

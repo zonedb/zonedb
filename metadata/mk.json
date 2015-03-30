@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.marnet.mk",
 	"nameServers": [
 		"d.ext.nic.cz",
 		"dns-mk.univie.ac.at",

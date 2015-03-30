@@ -3,6 +3,7 @@
 	"tags": [
 		"geo"
 	],
+	"whoisServer": "whois.aridnrs.net.au",
 	"nameServers": [
 		"a.nic.melbourne",
 		"b.nic.melbourne",

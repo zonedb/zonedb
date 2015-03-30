@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.nic.yt",
+	"whoisServer": "whois.nic.fr",
 	"nameServers": [
 		"d.ext.nic.fr",
 		"d.nic.fr",

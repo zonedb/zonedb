@@ -1,5 +1,6 @@
 {
 	"domain": "ooo",
+	"whoisServer": "whois.nic.ooo",
 	"nameServers": [
 		"a5.nstld.com",
 		"c5.nstld.com",

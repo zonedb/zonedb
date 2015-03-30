@@ -1,6 +1,6 @@
 {
 	"domain": "fishing",
-	"whoisServer": "whois.nic.fishing",
+	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.fishing",
 		"b.ns.nic.fishing"

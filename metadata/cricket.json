@@ -1,6 +1,7 @@
 {
 	"domain": "cricket",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.cricket",
 	"nameServers": [
 		"ns1.dns.nic.cricket",
 		"ns2.dns.nic.cricket",

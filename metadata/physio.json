@@ -1,6 +1,7 @@
 {
 	"domain": "physio",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.physio",
 	"nameServers": [
 		"a.nic.physio",
 		"b.nic.physio",

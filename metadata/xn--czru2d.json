@@ -1,5 +1,6 @@
 {
 	"domain": "商城",
+	"whoisServer": "whois.gtld.knet.cn",
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

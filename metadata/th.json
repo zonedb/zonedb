@@ -5,7 +5,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.thnic.net",
+	"whoisServer": "whois.thnic.co.th",
 	"nameServers": [
 		"ams.sns-pb.isc.org",
 		"dns1.thnic.co.th",

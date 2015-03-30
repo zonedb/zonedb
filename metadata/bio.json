@@ -1,5 +1,6 @@
 {
 	"domain": "bio",
+	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net",

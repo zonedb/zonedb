@@ -1,6 +1,6 @@
 {
 	"domain": "archi",
-	"whoisServer": "whois.nic.archi",
+	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net",

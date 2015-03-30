@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.nic.zm",
 	"nameServers": [
 		"hippo.ru.ac.za",
 		"ns-zm.afrinic.net",

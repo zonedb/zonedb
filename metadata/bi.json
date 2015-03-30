@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.nic.bi",
+	"whoisServer": "whois1.nic.bi",
 	"nameServers": [
 		"anyns.nic.bi",
 		"bi.cctld.authdns.ripe.net",

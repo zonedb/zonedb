@@ -1,5 +1,6 @@
 {
 	"domain": "한국",
+	"whoisServer": "whois.kr",
 	"nameServers": [
 		"b.dns.kr",
 		"c.dns.kr",

@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"a.nic.wme",
 		"b.nic.wme",

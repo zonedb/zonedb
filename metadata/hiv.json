@@ -1,5 +1,6 @@
 {
 	"domain": "hiv",
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.hiv",
 		"a2.nic.hiv",

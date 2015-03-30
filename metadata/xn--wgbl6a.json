@@ -1,5 +1,6 @@
 {
 	"domain": "قطر",
+	"whoisServer": "whois.registry.qa",
 	"nameServers": [
 		"a.registry.qa",
 		"b.registry.qa",

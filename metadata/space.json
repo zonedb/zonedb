@@ -1,6 +1,7 @@
 {
 	"domain": "space",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.space",
 	"nameServers": [
 		"a.nic.space",
 		"b.nic.space",

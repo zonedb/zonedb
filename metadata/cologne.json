@@ -1,6 +1,6 @@
 {
 	"domain": "cologne",
-	"whoisServer": "whois.nic.cologne",
+	"whoisServer": "whois-fe1.pdt.cologne.tango.knipp.de",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

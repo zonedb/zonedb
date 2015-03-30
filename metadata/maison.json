@@ -1,6 +1,6 @@
 {
 	"domain": "maison",
-	"whoisServer": "whois.nic.maison",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

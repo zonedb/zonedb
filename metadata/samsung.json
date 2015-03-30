@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.nic.xn--cg4bki",
 	"nameServers": [
 		"e.dns.kr",
 		"g.dns.kr"

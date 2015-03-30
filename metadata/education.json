@@ -1,6 +1,6 @@
 {
 	"domain": "education",
-	"whoisServer": "whois.nic.education",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois-fe1.gmx.tango.knipp.de",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

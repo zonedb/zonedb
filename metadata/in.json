@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.inregistry.net",
+	"whoisServer": "whois.registry.in",
 	"nameServers": [
 		"a0.in.afilias-nst.info",
 		"a1.in.afilias-nst.in",

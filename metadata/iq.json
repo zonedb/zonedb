@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.cmc.iq",
 	"nameServers": [
 		"dyn1.cmc.iq",
 		"dyn2.cmc.iq",

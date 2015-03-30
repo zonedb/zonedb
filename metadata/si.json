@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.arnes.si",
+	"whoisServer": "whois.register.si",
 	"nameServers": [
 		"b.dns.si",
 		"c.dns.si",

@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.registry.qa",
 	"nameServers": [
 		"a.registry.qa",
 		"b.registry.qa",

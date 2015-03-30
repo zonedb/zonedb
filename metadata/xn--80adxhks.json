@@ -3,6 +3,7 @@
 	"tags": [
 		"geo"
 	],
+	"whoisServer": "whois.nic.xn--80adxhks",
 	"nameServers": [
 		"a.dns.ripn.net",
 		"b.dns.ripn.net",

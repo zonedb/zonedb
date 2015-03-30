@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.adamsnames.tc",
+	"whoisServer": "ccwhois.ksregistry.net",
 	"nameServers": [
 		"vg-ns.anycast.pch.net",
 		"vg-ns.ksregistry.net"

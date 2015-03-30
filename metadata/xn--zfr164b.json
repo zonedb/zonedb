@@ -1,6 +1,7 @@
 {
 	"domain": "政务",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.conac.cn",
 	"nameServers": [
 		"ns1.conac.cn",
 		"ns2.conac.cn",

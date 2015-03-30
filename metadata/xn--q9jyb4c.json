@@ -1,5 +1,6 @@
 {
 	"domain": "みんな",
+	"whoisServer": "domain-registry-whois.l.google.com",
 	"nameServers": [
 		"ns-tld1.charlestonroadregistry.com",
 		"ns-tld2.charlestonroadregistry.com",

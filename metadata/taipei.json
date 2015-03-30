@@ -4,6 +4,7 @@
 	"tags": [
 		"geo"
 	],
+	"whoisServer": "whois.nic.taipei",
 	"nameServers": [
 		"ns1.dns.nic.taipei",
 		"ns2.dns.nic.taipei",

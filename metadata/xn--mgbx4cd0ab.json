@@ -1,5 +1,6 @@
 {
 	"domain": "مليسيا",
+	"whoisServer": "whois.domainregistry.my",
 	"nameServers": [
 		"dns.mynic.net.my",
 		"ns-my.nic.fr",

@@ -1,6 +1,6 @@
 {
 	"domain": "repair",
-	"whoisServer": "whois.nic.repair",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

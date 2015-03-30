@@ -5,6 +5,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.cctld.by",
 	"nameServers": [
 		"dns1.tld.tutby.com",
 		"dns2.tld.tutby.com",

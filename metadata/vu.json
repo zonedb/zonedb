@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "vunic.vu",
 	"nameServers": [
 		"cctld-vu.orange.mu",
 		"efate.vanuatu.com.vu",

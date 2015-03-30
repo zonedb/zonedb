@@ -1,5 +1,6 @@
 {
 	"domain": "versicherung",
+	"whoisServer": "whois.nic.versicherung",
 	"nameServers": [
 		"a.dns.nic.versicherung",
 		"m.dns.nic.versicherung"

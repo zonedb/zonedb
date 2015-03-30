@@ -5,6 +5,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.nic.net.ng",
 	"nameServers": [
 		"ns1.nic.net.ng",
 		"ns2.nic.net.ng",

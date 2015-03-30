@@ -1,6 +1,6 @@
 {
 	"domain": "computer",
-	"whoisServer": "whois.nic.computer",
+	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

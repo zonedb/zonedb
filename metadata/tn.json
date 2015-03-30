@@ -4,6 +4,7 @@
 		"cctld",
 		"geo"
 	],
+	"whoisServer": "whois.ati.tn",
 	"nameServers": [
 		"ns-tn.afrinic.net",
 		"ns1.ati.tn",

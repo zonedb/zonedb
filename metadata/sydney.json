@@ -4,6 +4,7 @@
 	"tags": [
 		"geo"
 	],
+	"whoisServer": "whois.nic.sydney",
 	"nameServers": [
 		"a.nic.sydney",
 		"b.nic.sydney",

@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.gtlds.nic.br",
 	"nameServers": [
 		"a.dns.br",
 		"b.dns.br",

@@ -1,5 +1,6 @@
 {
 	"domain": "公司",
+	"whoisServer": "whois.ngtld.cn",
 	"nameServers": [
 		"a.ngtld.cn",
 		"b.ngtld.cn",

@@ -1,4 +1,5 @@
 {
 	"domain": "e164.arpa",
+	"whoisServer": "whois.ripe.net",
 	"codePoints": "--09az"
 }
