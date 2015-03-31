@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.nic.everbank",
 	"nameServers": [
 		"ns1.dns.nic.everbank",
 		"ns2.dns.nic.everbank",

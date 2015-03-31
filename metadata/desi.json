@@ -1,6 +1,6 @@
 {
 	"domain": "desi",
-	"whoisServer": "whois.ksregistry.net",
+	"whoisServer": "whois.nic.desi",
 	"nameServers": [
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net",
