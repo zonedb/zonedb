@@ -3,7 +3,7 @@
 	"tags": [
 		"geo"
 	],
-	"whoisServer": "whois.ksregistry.net",
+	"whoisServer": "whois.nic.saarland",
 	"nameServers": [
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net",
