@@ -10,17 +10,11 @@ The database consists of a list of zones (`zones.txt`) and associated metadata i
 
 ### zones.txt
 
-The `zones.txt` file is a UTF-8 encoded text file containing a list of domain names, one per line, followed by a newline (`\n`) character. Domains are lexically sorted underneath their parent domain. For example, `uk` is followed by `ac.uk`, `co.uk`, and so on:
+The `zones.txt` file is a UTF-8 encoded text file containing a list of domain names, one per line, followed by a newline (`\n`) character. The domain names in zones.txt are sorted according to the following rules:
 
-```text
-uk
-ac.uk
-bl.uk
-british-library.uk
-co.uk
-gov.uk
-...
-```
+1. Number of labels (top-level domains, followed by second- and third-level domains)
+2. Parent domain (e.g. `uk`)
+3. Subdomain (e.g. `co.uk`)
 
 ### Metadata
 
