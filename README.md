@@ -29,7 +29,7 @@ Fork this repository, make changes, and send a pull request.
 This database is generated and validated using the [zonedb](https://github.com/zonedb/zonedb-go) build tool. To install, make sure you have a working [Go](https://golang.org) installation (1.4+) and run this command:
 
 ```shell
-go install github.com/zonedb/zonedb-go/cmd/zonedb
+go get -u github.com/zonedb/zonedb-go/cmd/zonedb
 ```
 
 ## License
