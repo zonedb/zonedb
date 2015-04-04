@@ -4,5 +4,12 @@
 	"tags": [
 		"closed"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.scholarships",
+		"a2.nic.scholarships",
+		"b0.nic.scholarships",
+		"c0.nic.scholarships"
+	],
 	"codePoints": "--09az"
 }

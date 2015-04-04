@@ -1,5 +1,13 @@
 {
 	"domain": "racing",
 	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ns1.dns.nic.racing",
+		"ns2.dns.nic.racing",
+		"ns3.dns.nic.racing",
+		"ns4.dns.nic.racing",
+		"ns5.dns.nic.racing",
+		"ns6.dns.nic.racing"
+	],
 	"codePoints": "--09az"
 }

@@ -1,5 +1,12 @@
 {
 	"domain": "cyou",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.cyou",
+		"a2.nic.cyou",
+		"b0.nic.cyou",
+		"c0.nic.cyou"
+	],
 	"codePoints": "--09az"
 }

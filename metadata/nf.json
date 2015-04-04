@@ -8,8 +8,7 @@
 	"nameServers": [
 		"a.nf.dyntld.net",
 		"b.nf.dyntld.net",
-		"ns.anycast.nic.nf",
-		"sns-pb.isc.org"
+		"ns.anycast.nic.nf"
 	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,12 @@
 {
 	"domain": "健康",
-	"infoURL": "http://newgtlds.icann.org/"
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ns1.dns.nic.健康",
+		"ns2.dns.nic.健康",
+		"ns3.dns.nic.健康",
+		"ns4.dns.nic.健康",
+		"ns5.dns.nic.健康",
+		"ns6.dns.nic.健康"
+	]
 }
