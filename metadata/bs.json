@@ -7,9 +7,9 @@
 	"whoisURL": "http://www.nic.bs/cgi-bin/search.pl",
 	"nameServers": [
 		"anyns.dns.bs",
-		"anyns.pch.net",
 		"dns.nic.bs",
 		"ns36.cdns.net",
+		"anyns.pch.net",
 		"upr1.upr.clu.edu"
 	]
 }

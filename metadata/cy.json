@@ -6,13 +6,13 @@
 	],
 	"whoisURL": "http://www.nic.cy/nslookup/online_database.php",
 	"nameServers": [
-		"cy-ns.anycast.pch.net",
 		"cynic.dns.cy",
-		"estia.ics.forth.gr",
+		"sec3.apnic.net",
 		"ns02.savvis.net",
 		"ns1.ucy.ac.cy",
 		"ns2.ucy.ac.cy",
-		"sec3.apnic.net"
+		"estia.ics.forth.gr",
+		"cy-ns.anycast.pch.net"
 	],
 	"codePoints": "--09az"
 }

@@ -6,14 +6,14 @@
 	],
 	"whoisServer": "whois.na-nic.com.na",
 	"nameServers": [
-		"anyc2.irondns.net",
-		"merlin.net.na",
-		"na-ns.anycast.pch.net",
-		"na1.dyntld.net",
-		"na2.dyntld.net",
 		"ns5.nominum.com",
 		"ns6.nominum.eu",
-		"sns-pb.isc.org"
+		"merlin.net.na",
+		"na1.dyntld.net",
+		"na2.dyntld.net",
+		"anyc2.irondns.net",
+		"sns-pb.isc.org",
+		"na-ns.anycast.pch.net"
 	],
 	"codePoints": "--09az"
 }

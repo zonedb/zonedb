@@ -6,8 +6,8 @@
 	],
 	"whoisURL": "http://www.zispa.org.zw",
 	"nameServers": [
-		"ns1.telone.co.zw",
 		"ns2.gip.net",
+		"ns1.telone.co.zw",
 		"ns2.telone.co.zw",
 		"ns3.telone.co.zw"
 	],

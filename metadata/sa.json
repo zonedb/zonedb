@@ -6,11 +6,11 @@
 	],
 	"whoisServer": "whois.nic.net.sa",
 	"nameServers": [
+		"rip.psg.com",
+		"sa-ns.anycast.pch.net",
 		"ns1.isu.net.sa",
 		"ns1.nic.net.sa",
 		"ns2.nic.net.sa",
-		"rip.psg.com",
-		"sa-ns.anycast.pch.net",
 		"sa.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"

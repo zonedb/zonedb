@@ -6,10 +6,10 @@
 	],
 	"whoisServer": "whois.marnet.mk",
 	"nameServers": [
-		"d.ext.nic.cz",
-		"dns-mk.univie.ac.at",
+		"tld1.marnet.mk",
 		"ns2.arnes.si",
-		"tld1.marnet.mk"
+		"dns-mk.univie.ac.at",
+		"d.ext.nic.cz"
 	],
 	"codePoints": "--09az"
 }

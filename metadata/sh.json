@@ -6,12 +6,12 @@
 	],
 	"whoisServer": "whois.nic.sh",
 	"nameServers": [
-		"a.nic.sh",
-		"a.ns13.net",
 		"b.nic.ac",
 		"b.nic.io",
-		"b.ns13.net",
 		"ns1.communitydns.net",
+		"a.ns13.net",
+		"b.ns13.net",
+		"a.nic.sh",
 		"ns3.icb.co.uk"
 	]
 }

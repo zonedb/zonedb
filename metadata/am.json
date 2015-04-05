@@ -7,12 +7,12 @@
 	],
 	"whoisServer": "whois.amnic.net",
 	"nameServers": [
-		"am.cctld.authdns.ripe.net",
-		"fork.sth.dnsnode.net",
+		"rip.psg.com",
 		"ns-cdn.amnic.net",
 		"ns-pch.amnic.net",
 		"ns-pri.amnic.net",
-		"rip.psg.com",
-		"sns-pb.isc.org"
+		"sns-pb.isc.org",
+		"fork.sth.dnsnode.net",
+		"am.cctld.authdns.ripe.net"
 	]
 }

@@ -7,9 +7,9 @@
 	"whoisServer": "vunic.vu",
 	"nameServers": [
 		"cctld-vu.orange.mu",
-		"efate.vanuatu.com.vu",
 		"ns1-cctld.vunic.vu",
 		"ns2-cctld.vunic.vu",
+		"efate.vanuatu.com.vu",
 		"santo.vanuatu.com.vu"
 	],
 	"codePoints": "--09az"

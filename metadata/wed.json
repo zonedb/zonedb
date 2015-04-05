@@ -3,10 +3,10 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.wed",
 	"nameServers": [
-		"a.ns.nic.wed",
 		"a.wed.dyntld.net",
-		"b.ns.nic.wed",
-		"b.wed.dyntld.net"
+		"b.wed.dyntld.net",
+		"a.ns.nic.wed",
+		"b.ns.nic.wed"
 	],
 	"codePoints": "--09az"
 }

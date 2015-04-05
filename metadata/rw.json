@@ -6,12 +6,12 @@
 	],
 	"whoisURL": "http://whois.ricta.org.rw",
 	"nameServers": [
-		"fork.sth.dnsnode.net",
 		"ns-rw.afrinic.net",
+		"sns-pb.isc.org",
+		"fork.sth.dnsnode.net",
 		"ns1.ricta.org.rw",
 		"ns3.ricta.org.rw",
-		"pch.ricta.org.rw",
-		"sns-pb.isc.org"
+		"pch.ricta.org.rw"
 	],
 	"codePoints": "--09az"
 }

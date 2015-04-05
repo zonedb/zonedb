@@ -6,10 +6,10 @@
 	],
 	"whoisServer": "whois.sk-nic.sk",
 	"nameServers": [
+		"sns-pb.isc.org",
 		"a.tld.sk",
 		"b.tld.sk",
-		"c.tld.sk",
-		"sns-pb.isc.org"
+		"c.tld.sk"
 	],
 	"codePoints": "--09az"
 }

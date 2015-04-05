@@ -6,13 +6,13 @@
 	],
 	"whoisServer": "whois.cat",
 	"nameServers": [
-		"anyc1.irondns.net",
-		"cat.pch.net",
 		"dnsc.ad",
 		"ns.nic.cat",
-		"ns1.nic.es",
+		"switch.nic.cat",
 		"nsc.nic.de",
-		"sns-pb.isc.org",
-		"switch.nic.cat"
+		"ns1.nic.es",
+		"anyc1.irondns.net",
+		"cat.pch.net",
+		"sns-pb.isc.org"
 	]
 }

@@ -6,13 +6,13 @@
 	],
 	"whoisURL": "http://www.nic.py/consultas.html",
 	"nameServers": [
-		"auth00.ns.uu.net",
-		"ns.cnc.una.py",
 		"ns.dns.br",
 		"ns2.switch.ch",
 		"ns3.nic.mx",
-		"py.cctld.authdns.ripe.net",
-		"sce.cnc.una.py"
+		"auth00.ns.uu.net",
+		"ns.cnc.una.py",
+		"sce.cnc.una.py",
+		"py.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }

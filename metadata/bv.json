@@ -7,8 +7,8 @@
 	"whoisServer": "whois.norid.no",
 	"nameServers": [
 		"nac.no",
-		"nn.uninett.no",
-		"server.nordu.net"
+		"server.nordu.net",
+		"nn.uninett.no"
 	],
 	"codePoints": "--09az"
 }

@@ -7,11 +7,11 @@
 	],
 	"whoisURL": "http://nic.ba/lat/menu/view/13",
 	"nameServers": [
-		"auth03.ns.uu.net",
-		"ba.cctld.authdns.ripe.net",
-		"munnari.oz.au",
 		"ns.ba",
-		"sava.utic.net.ba"
+		"munnari.oz.au",
+		"sava.utic.net.ba",
+		"auth03.ns.uu.net",
+		"ba.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }

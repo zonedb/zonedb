@@ -6,11 +6,11 @@
 	],
 	"whoisServer": "whois.nic.zm",
 	"nameServers": [
-		"hippo.ru.ac.za",
 		"ns-zm.afrinic.net",
 		"ns1.coppernet.zm",
 		"ns1.zamnet.zm",
-		"ns2.zamnet.zm"
+		"ns2.zamnet.zm",
+		"hippo.ru.ac.za"
 	],
 	"codePoints": "--09az"
 }

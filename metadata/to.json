@@ -7,11 +7,11 @@
 	],
 	"whoisServer": "whois.tonic.to",
 	"nameServers": [
-		"auth02.ns.uu.net",
 		"colo.to",
+		"tonic.to",
 		"ns1.iafrica.com",
-		"to.cctld.authdns.ripe.net",
-		"tonic.to"
+		"auth02.ns.uu.net",
+		"to.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }

@@ -2,7 +2,7 @@
 	"domain": "ایران",
 	"whoisServer": "whois.nic.ir",
 	"nameServers": [
-		"a.nic.ir",
-		"ns.irnic.ir"
+		"ns.irnic.ir",
+		"a.nic.ir"
 	]
 }

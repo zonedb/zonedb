@@ -7,8 +7,8 @@
 	"whoisServer": "whois.nic.st",
 	"nameServers": [
 		"dns-au.st",
-		"dns-st.bahnhof.net",
 		"dns-us.st",
+		"dns-st.bahnhof.net",
 		"ns1.bahnhof.net"
 	],
 	"codePoints": "--09az"

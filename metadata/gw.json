@@ -5,9 +5,9 @@
 		"geo"
 	],
 	"nameServers": [
+		"sns-pb.isc.org",
 		"ns4.dns.pt",
-		"phobos.fccn.pt",
-		"sns-pb.isc.org"
+		"phobos.fccn.pt"
 	],
 	"codePoints": "--09az"
 }

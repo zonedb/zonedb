@@ -10,8 +10,8 @@
 	"nameServers": [
 		"dns.princeton.edu",
 		"igubu.saix.net",
-		"ns1.pch.nic.cd",
-		"sabela.saix.net"
+		"sabela.saix.net",
+		"ns1.pch.nic.cd"
 	],
 	"codePoints": "--09az"
 }

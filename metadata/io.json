@@ -7,12 +7,12 @@
 	],
 	"whoisServer": "whois.nic.io",
 	"nameServers": [
-		"a.nic.io",
-		"a.ns13.net",
 		"b.nic.ac",
+		"a.nic.io",
 		"b.nic.io",
-		"b.ns13.net",
 		"ns1.communitydns.net",
+		"a.ns13.net",
+		"b.ns13.net",
 		"ns3.icb.co.uk"
 	]
 }

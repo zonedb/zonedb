@@ -6,9 +6,9 @@
 	],
 	"whoisServer": "whois.nic.ki",
 	"nameServers": [
+		"pch.nic.ki",
 		"ki1.dyntld.net",
 		"ki3.dyntld.net",
-		"pch.nic.ki",
 		"sns-pb.isc.org"
 	],
 	"codePoints": "--09az"

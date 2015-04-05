@@ -2,9 +2,9 @@
 	"domain": "السعودية",
 	"whoisServer": "whois.nic.net.sa",
 	"nameServers": [
+		"sa-ns.anycast.pch.net",
 		"ns1.isu.net.sa",
 		"ns1.nic.net.sa",
-		"ns2.nic.net.sa",
-		"sa-ns.anycast.pch.net"
+		"ns2.nic.net.sa"
 	]
 }

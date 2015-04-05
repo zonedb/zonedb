@@ -5,11 +5,11 @@
 		"geo"
 	],
 	"nameServers": [
-		"jm.cctld.authdns.ripe.net",
 		"ns.jm",
+		"phloem.uoregon.edu",
 		"ns.utechjamaica.edu.jm",
 		"ns3-jm.fsl.org.jm",
-		"phloem.uoregon.edu"
+		"jm.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }

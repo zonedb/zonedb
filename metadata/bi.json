@@ -7,11 +7,11 @@
 	"whoisServer": "whois1.nic.bi",
 	"nameServers": [
 		"anyns.nic.bi",
-		"bi.cctld.authdns.ripe.net",
+		"ns.nic.bi",
+		"ns1.nic.bi",
 		"dns.princeton.edu",
 		"ns-bi.afrinic.net",
-		"ns.nic.bi",
-		"ns1.nic.bi"
+		"bi.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }

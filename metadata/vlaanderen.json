@@ -5,9 +5,9 @@
 	"nameServers": [
 		"a.nic.vlaanderen",
 		"b.nic.vlaanderen",
+		"w.nic.vlaanderen",
 		"c.ns.dns.be",
-		"d.ns.dns.be",
-		"w.nic.vlaanderen"
+		"d.ns.dns.be"
 	],
 	"codePoints": "--09az"
 }

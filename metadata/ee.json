@@ -6,10 +6,10 @@
 	],
 	"whoisServer": "whois.tld.ee",
 	"nameServers": [
-		"b.tld.ee",
-		"e.tld.ee",
 		"ee.aso.ee",
 		"ee.eenet.ee",
+		"b.tld.ee",
+		"e.tld.ee",
 		"ns.tld.ee"
 	],
 	"codePoints": "--09az"

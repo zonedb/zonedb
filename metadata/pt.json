@@ -6,13 +6,13 @@
 	],
 	"whoisServer": "whois.dns.pt",
 	"nameServers": [
-		"auth200.ns.uu.net",
-		"auth210.ns.uu.net",
-		"ns-pt.nlnetlabs.nl",
 		"ns.dns.br",
+		"ns2.nic.fr",
+		"ns-pt.nlnetlabs.nl",
+		"sns-pb.isc.org",
 		"ns.dns.pt",
 		"ns2.dns.pt",
-		"ns2.nic.fr",
-		"sns-pb.isc.org"
+		"auth200.ns.uu.net",
+		"auth210.ns.uu.net"
 	]
 }

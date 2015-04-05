@@ -6,10 +6,10 @@
 	],
 	"whoisURL": "https://www.nic.org.mt/dotmt/",
 	"nameServers": [
-		"f.ns.mt",
-		"i.ns.mt",
 		"ns.mt",
 		"ns1.mt",
+		"f.ns.mt",
+		"i.ns.mt",
 		"p.ns.mt",
 		"r.ns.mt"
 	],

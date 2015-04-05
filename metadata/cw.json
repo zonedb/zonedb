@@ -6,13 +6,13 @@
 		"geo"
 	],
 	"nameServers": [
-		"cw.cctld.authdns.ripe.net",
+		"kadushi.curinfo.cw",
+		"ns01-server.curinfo.cw",
 		"engine0.una.cw",
 		"engine2.una.cw",
-		"kadushi.curinfo.cw",
+		"ns1.uoc.cw",
 		"ns0.ja.net",
-		"ns01-server.curinfo.cw",
-		"ns1.uoc.cw"
+		"cw.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }

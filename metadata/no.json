@@ -7,10 +7,10 @@
 	"whoisServer": "whois.norid.no",
 	"nameServers": [
 		"i.nic.no",
-		"njet.norid.no",
-		"not.norid.no",
 		"x.nic.no",
 		"y.nic.no",
-		"z.nic.no"
+		"z.nic.no",
+		"njet.norid.no",
+		"not.norid.no"
 	]
 }

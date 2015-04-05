@@ -6,8 +6,8 @@
 	],
 	"whoisURL": "http://www.nic.cg/cgi-bin/whois.pl",
 	"nameServers": [
-		"dns.dnsafrica.net",
 		"dns.princeton.edu",
+		"dns.dnsafrica.net",
 		"sunic.sunet.se"
 	],
 	"codePoints": "--09az"

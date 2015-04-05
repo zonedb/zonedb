@@ -6,10 +6,10 @@
 		"geo"
 	],
 	"nameServers": [
-		"fork.sth.dnsnode.net",
 		"ns1.dns.aq",
-		"ns99.dns.net.nz",
-		"sns-pb.isc.org"
+		"sns-pb.isc.org",
+		"fork.sth.dnsnode.net",
+		"ns99.dns.net.nz"
 	],
 	"codePoints": "--09az"
 }

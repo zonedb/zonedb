@@ -6,12 +6,12 @@
 	],
 	"whoisServer": "whois.nic.gl",
 	"nameServers": [
-		"a.nuuk.nic.gl",
 		"b.nic.gl",
 		"d.nic.gl",
 		"gl1.dyntld.net",
 		"gl2.dyntld.net",
 		"gl3.dyntld.net",
-		"gl4.dyntld.net"
+		"gl4.dyntld.net",
+		"a.nuuk.nic.gl"
 	]
 }

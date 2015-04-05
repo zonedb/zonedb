@@ -3,9 +3,9 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.рус",
 	"nameServers": [
-		"a.рус.dyntld.net",
-		"b.рус.dyntld.net",
 		"tld1.coccaregistry.net",
-		"tld1.coccaregistry.org"
+		"tld1.coccaregistry.org",
+		"a.рус.dyntld.net",
+		"b.рус.dyntld.net"
 	]
 }

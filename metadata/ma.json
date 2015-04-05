@@ -7,11 +7,11 @@
 	"whoisServer": "whois.registre.ma",
 	"nameServers": [
 		"dns.inria.fr",
-		"ma.cctld.authdns.ripe.net",
+		"ns2.nic.fr",
 		"ns1.iam.net.ma",
 		"ns2.iam.net.ma",
-		"ns2.nic.fr",
-		"ns3.iam.net.ma"
+		"ns3.iam.net.ma",
+		"ma.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }

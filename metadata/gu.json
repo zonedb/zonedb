@@ -7,10 +7,10 @@
 	],
 	"whoisURL": "http://gadao.gov.gu/domainsearch.htm",
 	"nameServers": [
-		"gu.cctld.authdns.ripe.net",
-		"ns.edu.gu",
 		"ns.gu",
-		"nsuog.edu.gu"
+		"ns.edu.gu",
+		"nsuog.edu.gu",
+		"gu.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }

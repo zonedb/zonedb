@@ -6,8 +6,8 @@
 	],
 	"whoisServer": "whois.nic.gd",
 	"nameServers": [
-		"gd-ns.anycast.pch.net",
 		"gd-ns.ksregistry.net",
+		"gd-ns.anycast.pch.net",
 		"gd.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"

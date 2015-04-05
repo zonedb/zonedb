@@ -6,12 +6,12 @@
 	],
 	"whoisServer": "whois.nic.es",
 	"nameServers": [
-		"a.nic.es",
-		"f.nic.es",
 		"ns-ext.nic.cl",
 		"ns1.cesca.es",
-		"ns15.communitydns.net",
+		"a.nic.es",
+		"f.nic.es",
 		"ns3.nic.fr",
+		"ns15.communitydns.net",
 		"sns-pb.isc.org"
 	]
 }

@@ -8,8 +8,8 @@
 	"nameServers": [
 		"ns.dns.br",
 		"ns3.nic.mx",
-		"seciu.edu.uy",
 		"sns-pb.isc.org",
+		"seciu.edu.uy",
 		"ultra.seciu.uy",
 		"uy.cctld.authdns.ripe.net"
 	],

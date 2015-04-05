@@ -6,10 +6,10 @@
 	],
 	"whoisServer": "whois.nic.im",
 	"nameServers": [
-		"barney.advsys.co.uk",
 		"hoppy.iom.com",
+		"pebbles.iom.com",
 		"ns4.ja.net",
-		"pebbles.iom.com"
+		"barney.advsys.co.uk"
 	],
 	"codePoints": "--09az"
 }

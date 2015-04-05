@@ -6,10 +6,10 @@
 	],
 	"whoisURL": "http://www.cenpac.net.nr/dns/whois.html",
 	"nameServers": [
-		"dns1.cenpac.net.nr",
-		"nrweb.cenpac.net.nr",
+		"sns-pb.isc.org",
 		"ns1.net.reach.com",
-		"sns-pb.isc.org"
+		"dns1.cenpac.net.nr",
+		"nrweb.cenpac.net.nr"
 	],
 	"codePoints": "--09az"
 }

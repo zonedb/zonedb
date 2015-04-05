@@ -7,9 +7,9 @@
 	"whoisURL": "http://www.nic.tt/cgi-bin/search.pl",
 	"nameServers": [
 		"ns3.nic.mx",
+		"sns-pb.isc.org",
 		"pch.nic.tt",
-		"ripe.nic.tt",
-		"sns-pb.isc.org"
+		"ripe.nic.tt"
 	],
 	"codePoints": "--09az"
 }

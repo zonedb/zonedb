@@ -7,9 +7,9 @@
 	],
 	"whoisServer": "whois.ai",
 	"nameServers": [
-		"ns1.pair.com",
+		"whois.ai",
 		"ns2.offshore.ai",
-		"whois.ai"
+		"ns1.pair.com"
 	],
 	"codePoints": "--09az"
 }

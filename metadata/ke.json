@@ -7,10 +7,10 @@
 	],
 	"whoisServer": "whois.kenic.or.ke",
 	"nameServers": [
-		"mzizi.kenic.or.ke",
 		"ns-ke.afrinic.net",
-		"ns.anycast.kenic.or.ke",
-		"ns1.coza.net.za"
+		"mzizi.kenic.or.ke",
+		"ns1.coza.net.za",
+		"ns.anycast.kenic.or.ke"
 	],
 	"codePoints": "--09az"
 }

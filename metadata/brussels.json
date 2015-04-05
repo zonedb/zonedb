@@ -5,9 +5,9 @@
 	"nameServers": [
 		"a.nic.brussels",
 		"b.nic.brussels",
+		"w.nic.brussels",
 		"c.ns.dns.be",
-		"d.ns.dns.be",
-		"w.nic.brussels"
+		"d.ns.dns.be"
 	],
 	"codePoints": "--09az"
 }

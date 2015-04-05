@@ -6,9 +6,9 @@
 	],
 	"whoisServer": "whois.nic.bo",
 	"nameServers": [
-		"anycast.ns.nic.bo",
+		"utama.bolnet.bo",
 		"ns.dns.br",
-		"utama.bolnet.bo"
+		"anycast.ns.nic.bo"
 	],
 	"codePoints": "--09az"
 }

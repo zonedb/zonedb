@@ -6,13 +6,13 @@
 	],
 	"whoisServer": "whois.tznic.or.tz",
 	"nameServers": [
+		"rip.psg.com",
+		"ns-tz.afrinic.net",
+		"sns-pb.isc.org",
 		"d.ext.nic.cz",
 		"fork.sth.dnsnode.net",
-		"ns-tz.afrinic.net",
 		"ns.anycast.co.tz",
-		"ns2.tznic.or.tz",
-		"rip.psg.com",
-		"sns-pb.isc.org"
+		"ns2.tznic.or.tz"
 	],
 	"codePoints": "--09az"
 }

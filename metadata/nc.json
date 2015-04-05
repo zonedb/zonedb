@@ -7,10 +7,10 @@
 	"whoisServer": "whois.nc",
 	"nameServers": [
 		"any-ns1.nc",
-		"censvrns0001.ird.fr",
-		"nc.cctld.authdns.ripe.net",
 		"ns1.nc",
-		"ns2.nc"
+		"ns2.nc",
+		"censvrns0001.ird.fr",
+		"nc.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }

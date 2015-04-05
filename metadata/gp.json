@@ -6,9 +6,9 @@
 	],
 	"whoisURL": "http://www.dom-enic.com",
 	"nameServers": [
-		"gp.cctld.authdns.ripe.net",
+		"ns1.orangecaraibe.com",
 		"ns1.nic.gp",
-		"ns1.orangecaraibe.com"
+		"gp.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }

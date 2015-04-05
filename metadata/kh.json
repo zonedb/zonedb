@@ -5,12 +5,12 @@
 		"geo"
 	],
 	"nameServers": [
-		"dns1.online.com.kh",
+		"sec3.apnic.net",
 		"ns-kh.ripe.net",
 		"ns.camnet.com.kh",
+		"dns1.online.com.kh",
 		"ns.telesurf.com.kh",
-		"ns1.dns.net.kh",
-		"sec3.apnic.net"
+		"ns1.dns.net.kh"
 	],
 	"codePoints": "--09az"
 }

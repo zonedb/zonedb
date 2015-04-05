@@ -6,10 +6,10 @@
 	],
 	"whoisServer": "whois.museum",
 	"nameServers": [
-		"anyc1.irondns.net",
 		"nic.museum",
-		"ns.icann.org",
 		"ns5.knipp.de",
+		"anyc1.irondns.net",
+		"ns.icann.org",
 		"sns-pb.isc.org"
 	]
 }

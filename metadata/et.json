@@ -6,10 +6,10 @@
 		"geo"
 	],
 	"nameServers": [
-		"et.cctld.authdns.ripe.net",
+		"phloem.uoregon.edu",
 		"ns1.telecom.net.et",
 		"ns2.telecom.net.et",
-		"phloem.uoregon.edu"
+		"et.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }

@@ -8,11 +8,11 @@
 	"whoisServer": "whois.ai",
 	"whoisURL": "http://www.akep.al/sq/kerkoni-domain",
 	"nameServers": [
-		"al.cctld.authdns.ripe.net",
-		"munnari.oz.au",
-		"ns-al.isti.cnr.it",
 		"ns1.nic.al",
-		"rip.psg.com"
+		"munnari.oz.au",
+		"rip.psg.com",
+		"ns-al.isti.cnr.it",
+		"al.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }

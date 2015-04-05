@@ -7,12 +7,12 @@
 	],
 	"whoisServer": "whois.registry.om",
 	"nameServers": [
+		"ns1.registry.om",
+		"ns2.registry.om",
 		"cctld.alpha.aridns.net.au",
 		"cctld.beta.aridns.net.au",
 		"cctld.delta.aridns.net.au",
-		"cctld.gamma.aridns.net.au",
-		"ns1.registry.om",
-		"ns2.registry.om"
+		"cctld.gamma.aridns.net.au"
 	],
 	"codePoints": "--09az"
 }

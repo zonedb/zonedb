@@ -5,8 +5,8 @@
 		"geo"
 	],
 	"nameServers": [
-		"ns1.sispa.org.sz",
 		"rip.psg.com",
+		"ns1.sispa.org.sz",
 		"sz.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"

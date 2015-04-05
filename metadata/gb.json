@@ -5,9 +5,9 @@
 		"geo"
 	],
 	"nameServers": [
-		"ns.uu.net",
 		"ns0.ja.net",
-		"ns4.ja.net"
+		"ns4.ja.net",
+		"ns.uu.net"
 	],
 	"codePoints": "--09az"
 }

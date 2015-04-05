@@ -8,14 +8,14 @@
 	"whoisServer": "ns.nic.do",
 	"whoisURL": "http://www.nic.do/whois-h.php3",
 	"nameServers": [
-		"do-dns.nic.pr",
 		"ns.nic.do",
 		"ns1.nic.do",
 		"ns2.nic.do",
 		"ns3.nic.do",
-		"ns3.nic.mx",
 		"phloem.uoregon.edu",
-		"sns-pb.isc.org"
+		"ns3.nic.mx",
+		"sns-pb.isc.org",
+		"do-dns.nic.pr"
 	],
 	"codePoints": "--09az"
 }

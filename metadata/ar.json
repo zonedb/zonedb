@@ -7,11 +7,11 @@
 	],
 	"whoisURL": "http://www.nic.ar/",
 	"nameServers": [
-		"a.dns.ar",
-		"ar.cctld.authdns.ripe.net",
-		"c.dns.ar",
 		"ctina.ar",
+		"a.dns.ar",
+		"c.dns.ar",
 		"ns2.switch.ch",
-		"relay1.mecon.gov.ar"
+		"relay1.mecon.gov.ar",
+		"ar.cctld.authdns.ripe.net"
 	]
 }

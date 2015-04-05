@@ -6,12 +6,12 @@
 	],
 	"whoisServer": "whois.rotld.ro",
 	"nameServers": [
-		"dns-at.rotld.ro",
 		"dns-ro.denic.de",
+		"sns-pb.isc.org",
+		"dns-at.rotld.ro",
 		"primary.rotld.ro",
 		"sec-dns-a.rotld.ro",
-		"sec-dns-b.rotld.ro",
-		"sns-pb.isc.org"
+		"sec-dns-b.rotld.ro"
 	],
 	"codePoints": "--09az"
 }

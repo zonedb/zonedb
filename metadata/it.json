@@ -6,12 +6,12 @@
 	],
 	"whoisServer": "whois.nic.it",
 	"nameServers": [
+		"nameserver.cnr.it",
 		"a.dns.it",
 		"c.dns.it",
-		"dns.nic.it",
 		"m.dns.it",
-		"nameserver.cnr.it",
 		"r.dns.it",
-		"s.dns.it"
+		"s.dns.it",
+		"dns.nic.it"
 	]
 }

@@ -2,11 +2,11 @@
 	"domain": "台湾",
 	"whoisServer": "whois.twnic.net.tw",
 	"nameServers": [
+		"sec4.apnic.net",
 		"d.dns.tw",
 		"e.dns.tw",
 		"f.dns.tw",
 		"g.dns.tw",
-		"h.dns.tw",
-		"sec4.apnic.net"
+		"h.dns.tw"
 	]
 }

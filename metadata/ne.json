@@ -6,9 +6,9 @@
 	],
 	"nameServers": [
 		"bow.rain.fr",
-		"ne.cctld.authdns.ripe.net",
+		"ns.intnet.ne",
 		"ns-ne.afrinic.net",
-		"ns.intnet.ne"
+		"ne.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }

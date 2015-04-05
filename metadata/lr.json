@@ -5,9 +5,9 @@
 		"geo"
 	],
 	"nameServers": [
+		"rip.psg.com",
 		"fork.sth.dnsnode.net",
-		"hippo.ru.ac.za",
-		"rip.psg.com"
+		"hippo.ru.ac.za"
 	],
 	"codePoints": "--09az"
 }

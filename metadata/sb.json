@@ -6,10 +6,10 @@
 	],
 	"whoisServer": "whois.nic.net.sb",
 	"nameServers": [
-		"pch.nic.sb",
 		"sb1.dyntld.net",
 		"sb3.dyntld.net",
-		"sns-pb.isc.org"
+		"sns-pb.isc.org",
+		"pch.nic.sb"
 	],
 	"codePoints": "--09az"
 }

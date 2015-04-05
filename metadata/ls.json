@@ -7,10 +7,10 @@
 	],
 	"whoisURL": "http://www.co.ls/co.asp",
 	"nameServers": [
-		"hippo.ru.ac.za",
-		"ls-ns.anycast.pch.net",
+		"rain.psg.com",
 		"ns-ls.afrinic.net",
-		"rain.psg.com"
+		"ls-ns.anycast.pch.net",
+		"hippo.ru.ac.za"
 	],
 	"codePoints": "--09az"
 }

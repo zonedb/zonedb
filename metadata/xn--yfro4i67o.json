@@ -2,9 +2,9 @@
 	"domain": "新加坡",
 	"whoisServer": "whois.sgnic.sg",
 	"nameServers": [
+		"sec3.apnic.net",
 		"dsany.sgnic.sg",
 		"ns2.cuhk.edu.hk",
-		"sec3.apnic.net",
 		"sg-ns.anycast.pch.net"
 	]
 }

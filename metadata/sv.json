@@ -6,12 +6,12 @@
 	],
 	"whoisURL": "http://www.uca.edu.sv/dns/",
 	"nameServers": [
-		"auth02.ns.uu.net",
-		"cir.red.sv",
-		"dns.nic.cr",
 		"ns.cr",
 		"ns.dns.br",
+		"dns.nic.cr",
 		"ns.uu.net",
+		"cir.red.sv",
+		"auth02.ns.uu.net",
 		"sv.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
