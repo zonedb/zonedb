@@ -5,7 +5,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.nic.am",
+	"whoisServer": "whois.amnic.net",
 	"nameServers": [
 		"rip.psg.com",
 		"ns-cdn.amnic.net",
