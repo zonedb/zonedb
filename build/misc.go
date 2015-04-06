@@ -2,7 +2,6 @@ package build
 
 import (
 	"os"
-	"regexp"
 	"sort"
 	"strings"
 	"time"
@@ -28,18 +27,6 @@ func LogError(err error) {
 func LogWarning(err error) {
 	color.Fprintf(os.Stderr, "@{y!}Warning:@{y} %s\n", err)
 }
-
-// W splits a string on whitespace, returning a slice of strings.
-// Returns a nil slice if no non-whitespace characters found.
-func W(s string) []string {
-	out := whitespace.Split(s, -1)
-	if len(out) == 1 && out[0] == "" {
-		return nil
-	}
-	return out
-}
-
-var whitespace = regexp.MustCompile(`\s+`)
 
 // TLDs filters a zone set for top-level domains.
 func TLDs(zones map[string]*Zone) map[string]*Zone {
