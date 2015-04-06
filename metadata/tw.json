@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.twnic.net.tw",
+	"whoisServer": "whois.twnic.net",
 	"nameServers": [
 		"sec4.apnic.net",
 		"ns.twnic.net",

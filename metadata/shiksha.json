@@ -1,6 +1,6 @@
 {
 	"domain": "shiksha",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.shiksha",
 	"nameServers": [
 		"a0.nic.shiksha",
 		"a2.nic.shiksha",

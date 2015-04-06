@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.hkirc.hk",
+	"whoisServer": "whois.hkdnr.net.hk",
 	"nameServers": [
 		"b.hkirc.net.hk",
 		"c.hkirc.net.hk",

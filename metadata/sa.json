@@ -4,7 +4,7 @@
 		"cctld",
 		"geo"
 	],
-	"whoisServer": "whois.nic.net.sa",
+	"whoisServer": "whois.saudinic.net.sa",
 	"nameServers": [
 		"rip.psg.com",
 		"sa-ns.anycast.pch.net",

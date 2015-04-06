@@ -1,6 +1,6 @@
 {
 	"domain": "organic",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.organic",
 		"a2.nic.organic",

@@ -1,7 +1,7 @@
 {
 	"domain": "vote",
 	"infoURL": "http://newgtlds.icann.org/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.vote",
 	"nameServers": [
 		"a0.nic.vote",
 		"a2.nic.vote",

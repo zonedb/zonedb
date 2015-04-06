@@ -1,6 +1,6 @@
 {
 	"domain": "kim",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.kim",
 	"nameServers": [
 		"a0.nic.kim",
 		"a2.nic.kim",
