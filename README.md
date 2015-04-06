@@ -1,5 +1,8 @@
 # Public Zone Database
 
+[![build status](https://img.shields.io/circleci/project/zonedb/zonedb/master.svg)](https://circleci.com/gh/zonedb/zonedb)
+[![godoc](http://img.shields.io/badge/docs-GoDoc-blue.svg)](https://godoc.org/github.com/zonedb/zonedb)
+
 The Public Zone Database (zonedb) contains a list and metadata of public [DNS zones](http://en.wikipedia.org/wiki/DNS_zone) under which it is possible to register or use an internet domain name.
 
 The intended use case is programs that interface with the [public domain name system](http://en.wikipedia.org/wiki/Domain_Name_System), including registry and registrar services. The data overlaps with and shares test cases with the [Public Suffix List](http://publicsuffix.org/) maintained by the [Mozilla Foundation](https://mozilla.org/). The source data was originally derived from the internal zone database in use at [Domainr](https://domainr.com/).
