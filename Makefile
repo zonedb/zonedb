@@ -1,7 +1,9 @@
+.PHONY: test update
+
 test:
 	go test ./...
 
-zones.go: zones.txt metadata/*.json
+zones.go: zones.txt metadata/*.json build/*.go build/*/*/*.go
 	go generate
 
 update:
