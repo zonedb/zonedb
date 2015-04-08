@@ -1,6 +1,6 @@
 {
 	"domain": "red",
-	"whoisServer": "whois.nic.red",
+	"whoisServer": "whois.afilias.net",
 	"nameServers": [
 		"a0.nic.red",
 		"a2.nic.red",

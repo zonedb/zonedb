@@ -187,7 +187,7 @@ func initZones() {
 		{"blog", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
 		{"bloomberg", nil, nil, _n[195:202], "", "", "http://newgtlds.icann.org/"},
 		{"bloomingdales", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
-		{"blue", nil, nil, _n[289:293], "whois.nic.blue", "", ""},
+		{"blue", nil, nil, _n[289:293], "whois.afilias.net", "", ""},
 		{"bm", nil, _z[1929:1934], _n[293:301], "", "http://www.bermudanic.bm/cgi-bin/lansaweb?procfun+BMWHO+BMWHO2+WHO", ""},
 		{"bms", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
 		{"bmw", nil, nil, _n[80:84], "whois.ksregistry.net", "", "http://newgtlds.icann.org/"},
@@ -711,7 +711,7 @@ func initZones() {
 		{"indians", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
 		{"industries", nil, nil, _n[13:17], "whois.donuts.co", "", ""},
 		{"infiniti", nil, nil, _n[380:385], "whois.nic.gmo", "", "http://newgtlds.icann.org/"},
-		{"info", nil, _z[2524:2525], _n[952:958], "whois.afilias.info", "", "http://info.info/"},
+		{"info", nil, _z[2524:2525], _n[952:958], "whois.afilias.net", "", "http://info.info/"},
 		{"infosys", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
 		{"infy", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
 		{"ing", nil, nil, _n[33:38], "domain-registry-whois.l.google.com", "", "http://newgtlds.icann.org/"},
@@ -911,7 +911,7 @@ func initZones() {
 		{"med", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
 		{"media", nil, nil, _n[13:17], "whois.donuts.co", "", ""},
 		{"medical", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
-		{"meet", nil, nil, _n[1219:1223], "whois.nic.meet", "", "http://newgtlds.icann.org/"},
+		{"meet", nil, nil, _n[1219:1223], "whois.afilias.net", "", "http://newgtlds.icann.org/"},
 		{"melbourne", nil, nil, _n[1223:1227], "whois.aridnrs.net.au", "", ""},
 		{"meme", nil, nil, _n[33:38], "domain-registry-whois.l.google.com", "", "http://newgtlds.icann.org/"},
 		{"memorial", nil, nil, _n[13:17], "whois.donuts.co", "", "http://newgtlds.icann.org/"},
@@ -1064,7 +1064,7 @@ func initZones() {
 		{"oracle", nil, nil, _n[195:202], "whois.nic.oracle", "", "http://newgtlds.icann.org/"},
 		{"orange", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
 		{"org", nil, _z[3148:3153], _n[1495:1501], "whois.pir.org", "", "http://www.pir.org/"},
-		{"organic", nil, nil, _n[1501:1505], "whois.afilias-srs.net", "", ""},
+		{"organic", nil, nil, _n[1501:1505], "whois.afilias.net", "", ""},
 		{"orientexpress", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
 		{"origins", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
 		{"osaka", nil, nil, _n[1505:1511], "", "", "http://newgtlds.icann.org/"},
@@ -1170,7 +1170,7 @@ func initZones() {
 		{"realtor", nil, nil, _n[195:202], "", "", "https://www.claim.realtor/"},
 		{"realty", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
 		{"recipes", nil, nil, _n[13:17], "whois.donuts.co", "", ""},
-		{"red", nil, nil, _n[1668:1672], "whois.nic.red", "", ""},
+		{"red", nil, nil, _n[1668:1672], "whois.afilias.net", "", ""},
 		{"redken", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
 		{"redstone", nil, nil, _n[1672:1676], "whois.afilias-srs.net", "", "http://newgtlds.icann.org/"},
 		{"redumbrella", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
@@ -1731,7 +1731,7 @@ func initZones() {
 		{"通販", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
 		{"集团", nil, nil, _n[457:466], "whois.gtld.knet.cn", "", "http://newgtlds.icann.org/"},
 		{"電訊盈科", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
-		{"飞利浦", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
+		{"飞利浦", nil, nil, _n[2352:2356], "whois.nic.飞利浦", "", "http://newgtlds.icann.org/"},
 		{"食品", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
 		{"餐厅", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
 		{"香格里拉", nil, nil, nil, "", "", "http://newgtlds.icann.org/"},
@@ -4125,7 +4125,7 @@ func initZones() {
 }
 
 var (
-	_n = [2352]string{
+	_n = [2356]string{
 		"a0.nic.abbott",
 		"a2.nic.abbott",
 		"b0.nic.abbott",
@@ -6478,5 +6478,9 @@ var (
 		"g.zdnscloud.com",
 		"i.zdnscloud.com",
 		"j.zdnscloud.com",
+		"a.nic.飞利浦",
+		"b.nic.飞利浦",
+		"c.nic.飞利浦",
+		"d.nic.飞利浦",
 	}
 )
