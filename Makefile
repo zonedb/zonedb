@@ -1,4 +1,4 @@
-.PHONY: test update
+.PHONY: test update metadata/*.json
 
 test:
 	go test ./...
