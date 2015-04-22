@@ -20,6 +20,7 @@ type Zone struct {
 	// Exported for use in text/template
 	POffset, SOffset, SEnd int `json:"-"`
 	NSOffset, NSEnd        int `json:"-"`
+	CPOffset, CPEnd        int `json:"-"`
 }
 
 func (z *Zone) Normalize() {

@@ -6,6 +6,7 @@ type Zone struct {
 	Domain      string
 	Parent      *Zone
 	Subdomains  []Zone
+	CodePoints  []rune
 	NameServers []string
 	WhoisServer string
 	WhoisURL    string

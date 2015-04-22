@@ -100,6 +100,15 @@ func (ct CodeTable) MarshalText() ([]byte, error) {
 	return buf.Bytes(), nil
 }
 
+func (ct CodeTable) Runes() []rune {
+	var runes []rune
+	for _, cr := range ct {
+		runes = append(runes, cr.Lo)
+		runes = append(runes, cr.Hi)
+	}
+	return runes
+}
+
 func (ct CodeTable) Sort()         { sort.Sort(ct) }
 func (ct CodeTable) Len() int      { return len(ct) }
 func (ct CodeTable) Swap(i, j int) { ct[i], ct[j] = ct[j], ct[i] }
@@ -117,4 +126,33 @@ func (ct CodeTable) Less(i, j int) bool {
 type CodeRange struct {
 	Lo rune
 	Hi rune
+}
+
+// IndexOfRunes finds a slice of runes (needle)
+// within a larger slice (haystack).
+func IndexOfRunes(haystack []rune, needle []rune) int {
+outer:
+	for i := range haystack {
+		for j := range needle {
+			if needle[j] != haystack[i+j] {
+				continue outer
+			}
+		}
+		return i
+	}
+	return -1
+}
+
+// IndexOrAppendRunes finds or appends a slice of runes (needle)
+// Returns 0,0 for a zero-length needle.
+func IndexOrAppendRunes(haystack *[]rune, needle []rune) (int, int) {
+	if len(needle) == 0 {
+		return 0, 0
+	}
+	idx := IndexOfRunes(*haystack, needle)
+	if idx < 0 {
+		idx = len(*haystack)
+		*haystack = append(*haystack, needle...)
+	}
+	return idx, idx + len(needle)
 }

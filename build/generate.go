@@ -37,6 +37,7 @@ func initZones() {
 				"{{$d}}", \
 				{{if $z.ParentDomain}} &_z[{{$z.POffset}}] {{else}} nil {{end}}, \
 				{{if $z.SEnd}} _z[{{$z.SOffset}}:{{$z.SEnd}}] {{else}} nil {{end}}, \
+				{{if $z.CPEnd}} _c[{{$z.CPOffset}}:{{$z.CPEnd}}] {{else}} nil {{end}}, \
 				{{if $z.NSEnd}} _n[{{$z.NSOffset}}:{{$z.NSEnd}}] {{else}} nil {{end}}, \
 				"{{$z.WhoisServer}}", \
 				"{{$z.WhoisURL}}", \
@@ -52,15 +53,29 @@ var (
 			"{{.}}",
 		{{end}} \
 	}
+	
+	_c = [{{len .CodePoints}}]rune{
+		{{range $i, $cp := .CodePoints}} \
+			0x{{printf "%x" .}}, {{if odd $i}}
+			{{end}} \
+		{{end}} \
+	}
 )
 `
 )
 
-var goTemplate = template.Must(template.New("go").Parse(cont(goSrc)))
-
 func cont(s string) string {
 	return strings.Replace(s, "\\\n", "", -1)
 }
+
+func odd(i int) bool {
+	return (i & 0x1) != 0
+}
+
+var (
+	funcMap    = template.FuncMap{"odd": odd}
+	goTemplate = template.Must(template.New("go").Funcs(funcMap).Parse(cont(goSrc)))
+)
 
 func GenerateGo(zones map[string]*Zone) error {
 	tlds := TLDs(zones)
@@ -70,6 +85,7 @@ func GenerateGo(zones map[string]*Zone) error {
 		offsets[d] = i
 	}
 	var nameServers []string
+	var codePoints []rune
 	for _, d := range domains {
 		z := zones[d]
 		z.Normalize() // just in case
@@ -78,7 +94,8 @@ func GenerateGo(zones map[string]*Zone) error {
 			z.SOffset = offsets[z.Subdomains[0]]
 			z.SEnd = z.SOffset + len(z.Subdomains)
 		}
-		z.NSOffset, z.NSEnd = IndexOrAppend(&nameServers, z.NameServers)
+		z.NSOffset, z.NSEnd = IndexOrAppendStrings(&nameServers, z.NameServers)
+		z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, z.CodePoints.Runes())
 	}
 
 	data := struct {
@@ -86,11 +103,13 @@ func GenerateGo(zones map[string]*Zone) error {
 		TLDs        map[string]*Zone
 		Domains     []string
 		NameServers []string
+		CodePoints  []rune
 	}{
 		zones,
 		tlds,
 		domains,
 		nameServers,
+		codePoints,
 	}
 
 	buf := new(bytes.Buffer)

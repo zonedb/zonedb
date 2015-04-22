@@ -78,31 +78,28 @@ func (ds sortDomains) Less(i, j int) bool {
 	return false
 }
 
-// IndexOf finds or adds a rank-sorted slice of domain names (needle)
-// within a larger slice (haystack). By definition, the haystack is not
-// necessarily rank-sorted.
-func IndexOf(haystack []string, needle []string) int {
+// IndexOfStrings finds a rank-sorted slice of domain names (needle)
+// within a larger slice (haystack).
+func IndexOfStrings(haystack []string, needle []string) int {
 outer:
 	for i := range haystack {
 		for j := range needle {
 			if needle[j] != haystack[i+j] {
 				continue outer
 			}
-			// print(".")
 		}
-		//print("!")
 		return i
 	}
 	return -1
 }
 
-// IndexOrAppend finds or appends a slice of rank-sorted domain names (needle)
+// IndexOrAppendStrings finds or appends a slice of rank-sorted domain names (needle)
 // Returns 0,0 for a zero-length needle.
-func IndexOrAppend(haystack *[]string, needle []string) (int, int) {
+func IndexOrAppendStrings(haystack *[]string, needle []string) (int, int) {
 	if len(needle) == 0 {
 		return 0, 0
 	}
-	idx := IndexOf(*haystack, needle)
+	idx := IndexOfStrings(*haystack, needle)
 	if idx < 0 {
 		idx = len(*haystack)
 		*haystack = append(*haystack, needle...)
