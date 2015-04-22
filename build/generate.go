@@ -56,7 +56,8 @@ var (
 	
 	_c = [{{len .CodePoints}}]rune{
 		{{range $i, $cp := .CodePoints}} \
-			0x{{printf "%x" .}}, {{if odd $i}}
+			'{{printf "%c" .}}', \
+			{{if odd $i}}
 			{{end}} \
 		{{end}} \
 	}
