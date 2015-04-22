@@ -6,11 +6,11 @@
 	],
 	"whoisServer": "whois.nic.ggee",
 	"nameServers": [
-		"a.gmoregistry.net",
-		"b.gmoregistry.net",
-		"c.gmoregistry.net",
 		"d.gmoregistry.net",
-		"e.gmoregistry.net"
+		"e.gmoregistry.net",
+		"g.gmoregistry.net",
+		"h.gmoregistry.net",
+		"i.gmoregistry.net"
 	],
 	"codePoints": "--09az"
 }

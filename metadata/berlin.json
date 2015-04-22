@@ -3,7 +3,8 @@
 	"whoisServer": "whois.nic.berlin",
 	"nameServers": [
 		"a.dns.nic.berlin",
-		"m.dns.nic.berlin"
+		"m.dns.nic.berlin",
+		"n.dns.nic.berlin"
 	],
 	"codePoints": "--09az"
 }

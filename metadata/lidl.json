@@ -4,6 +4,7 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.nic.lidl",
 	"nameServers": [
 		"a.ns.nic.lidl",
 		"c.ns.nic.lidl",

@@ -6,7 +6,6 @@
 	],
 	"whoisURL": "http://www.uca.edu.sv/dns/",
 	"nameServers": [
-		"ns.cr",
 		"ns.dns.br",
 		"dns.nic.cr",
 		"ns.uu.net",

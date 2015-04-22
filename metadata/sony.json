@@ -4,5 +4,12 @@
 	"tags": [
 		"brand"
 	],
+	"whoisServer": "whois.nic.sony",
+	"nameServers": [
+		"a.nic.sony",
+		"b.nic.sony",
+		"c.nic.sony",
+		"d.nic.sony"
+	],
 	"codePoints": "--09az"
 }

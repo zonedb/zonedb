@@ -3,6 +3,7 @@
 	"whoisServer": "whois.nic.hamburg",
 	"nameServers": [
 		"a.dns.nic.hamburg",
-		"m.dns.nic.hamburg"
+		"m.dns.nic.hamburg",
+		"n.dns.nic.hamburg"
 	]
 }

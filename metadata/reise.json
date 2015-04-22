@@ -4,7 +4,8 @@
 	"whoisServer": "whois.nic.reise",
 	"nameServers": [
 		"a.dns.nic.reise",
-		"m.dns.nic.reise"
+		"m.dns.nic.reise",
+		"n.dns.nic.reise"
 	],
 	"codePoints": "--09az"
 }

@@ -7,12 +7,10 @@
 	"whoisServer": "whois.kyregistry.ky",
 	"whoisURL": "http://kynseweb.messagesecure.com/kywebadmin/",
 	"nameServers": [
-		"kynse01.perimeterusa.com",
-		"kynse02.perimeterusa.com",
-		"kynse03.perimeterusa.com",
-		"kynsw01.perimeterusa.com",
-		"kynsw02.perimeterusa.com",
-		"kynsw03.perimeterusa.com"
+		"a.ky.dyntld.net",
+		"b.ky.dyntld.net",
+		"c.ky.dyntld.net",
+		"a.ns.uniregistry.net"
 	],
 	"codePoints": "--09az"
 }

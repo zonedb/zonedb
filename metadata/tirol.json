@@ -4,7 +4,8 @@
 	"whoisServer": "whois.nic.tirol",
 	"nameServers": [
 		"a.dns.nic.tirol",
-		"m.dns.nic.tirol"
+		"m.dns.nic.tirol",
+		"n.dns.nic.tirol"
 	],
 	"codePoints": "--09az"
 }
