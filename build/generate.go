@@ -28,40 +28,40 @@ func init() {
 	initZones()
 }
 
-// Separate function to report allocs
+// Separate function to fix circular reference and report allocs
 func initZones() {
-	_z = [{{len .Zones}}]Zone{
-		{{range $d := .Domains}} \
-			{{$z := (index $.Zones $d)}} \
-			{ \
-				"{{$d}}", \
-				{{if $z.ParentDomain}} &_z[{{$z.POffset}}] {{else}} nil {{end}}, \
-				{{if $z.SEnd}} _z[{{$z.SOffset}}:{{$z.SEnd}}] {{else}} nil {{end}}, \
-				{{if $z.CPEnd}} _c[{{$z.CPOffset}}:{{$z.CPEnd}}] {{else}} nil {{end}}, \
-				{{if $z.NSEnd}} _n[{{$z.NSOffset}}:{{$z.NSEnd}}] {{else}} nil {{end}}, \
-				"{{$z.WhoisServer}}", \
-				"{{$z.WhoisURL}}", \
-				"{{$z.InfoURL}}", \
-			},
-		{{end}} \
-	}
+	_z = _y
 }
 
-var (
-	_n = [{{len .NameServers}}]string{
-		{{range .NameServers}} \
-			"{{.}}",
-		{{end}} \
-	}
+var _y = [{{len .Zones}}]Zone{
+	{{range $d := .Domains}} \
+		{{$z := (index $.Zones $d)}} \
+		{ \
+			"{{$d}}", \
+			{{if $z.ParentDomain}} &_z[{{$z.POffset}}] {{else}} nil {{end}}, \
+			{{if $z.SEnd}} _z[{{$z.SOffset}}:{{$z.SEnd}}] {{else}} nil {{end}}, \
+			{{if $z.CPEnd}} _c[{{$z.CPOffset}}:{{$z.CPEnd}}] {{else}} nil {{end}}, \
+			{{if $z.NSEnd}} _n[{{$z.NSOffset}}:{{$z.NSEnd}}] {{else}} nil {{end}}, \
+			"{{$z.WhoisServer}}", \
+			"{{$z.WhoisURL}}", \
+			"{{$z.InfoURL}}", \
+		},
+	{{end}} \
+}
+
+var _n = [{{len .NameServers}}]string{
+	{{range .NameServers}} \
+		"{{.}}",
+	{{end}} \
+}
 	
-	_c = [{{len .CodePoints}}]rune{
-		{{range $i, $cp := .CodePoints}} \
-			'{{printf "%c" .}}', \
-			{{if odd $i}}
-			{{end}} \
+var _c = [{{len .CodePoints}}]rune{
+	{{range $i, $cp := .CodePoints}} \
+		'{{printf "%c" .}}', \
+		{{if odd $i}}
 		{{end}} \
-	}
-)
+	{{end}} \
+}
 `
 )
 
