@@ -18,22 +18,27 @@ const (
 
 package zonedb
 
-var (
-	_z [{{len .Zones}}]Zone
-	Zones = _z[:]
-	TLDs = _z[:{{len .TLDs}}]
-)
-
 func init() {
 	initZones()
 }
 
-// Separate function to fix circular reference and report allocs
+// Separate function to fix circular reference and report allocs.
 func initZones() {
 	_z = _y
 }
 
-var _x = map[string]*Zone{
+// _z is a static array of Zones.
+// Other global variables have pointers into this array.
+var _z [{{len .Zones}}]Zone
+
+// Zones is a slice of all Zones in the database.
+var Zones = _z[:]
+
+// TLDs is a slice of all top-level domain Zones.
+var TLDs = _z[:{{len .TLDs}}]
+
+// ZoneMap is an index of domain names to Zones.
+var ZoneMap = map[string]*Zone{
 	{{range $d := .Domains}}  \
 		{{$o := index $.Offsets $d}} \
 		"{{$d}}": &_z[{{$o}}],
