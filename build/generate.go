@@ -33,6 +33,13 @@ func initZones() {
 	_z = _y
 }
 
+var _x = map[string]*Zone{
+	{{range $d := .Domains}}  \
+		{{$o := index $.Offsets $d}} \
+		"{{$d}}": &_z[{{$o}}],
+	{{end}} \
+}
+
 var _y = [{{len .Zones}}]Zone{
 	{{range $d := .Domains}} \
 		{{$z := (index $.Zones $d)}} \
@@ -103,12 +110,14 @@ func GenerateGo(zones map[string]*Zone) error {
 		Zones       map[string]*Zone
 		TLDs        map[string]*Zone
 		Domains     []string
+		Offsets     map[string]int
 		NameServers []string
 		CodePoints  []rune
 	}{
 		zones,
 		tlds,
 		domains,
+		offsets,
 		nameServers,
 		codePoints,
 	}
