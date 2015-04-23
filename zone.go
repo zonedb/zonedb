@@ -1,7 +1,5 @@
 package zonedb
 
-import "golang.org/x/net/idna"
-
 //go:generate go run build/cmd/zonedb/main.go -generate-go
 
 // NS represents a slice of name servers.
@@ -33,10 +31,4 @@ type Zone struct {
 
 	// Informational URL for this Zone
 	InfoURL string
-}
-
-// DomainACE returns the Zone’s domain name in ASCII Compatible Encoding (Punycode).
-func (z *Zone) DomainACE() string {
-	s, _ := idna.ToASCII(z.Domain)
-	return s
 }
