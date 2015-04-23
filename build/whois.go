@@ -176,7 +176,8 @@ func VerifyWhois(zones map[string]*Zone) {
 	color.Fprintf(os.Stderr, "@{.}Verifying whois servers for %d zones...\n", len(zones))
 	mapZones(zones, func(z *Zone) {
 		if z.WhoisServer != "" {
-			if verifyWhois(z.WhoisServer) != nil {
+			if err := verifyWhois(z.WhoisServer); err != nil {
+				LogWarning(fmt.Errorf("can’t verify whois server %s: %s", z.WhoisServer, err))
 				z.WhoisServer = ""
 			}
 		}
@@ -189,8 +190,5 @@ func verifyWhois(host string) error {
 		return err
 	}
 	err = CanDial("tcp", host+":43")
-	if err != nil {
-		LogWarning(fmt.Errorf("can’t verify whois server %s: %s", host, err))
-	}
 	return err
 }

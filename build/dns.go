@@ -20,7 +20,6 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 	}
 	defer res.Body.Close()
 
-	seen := NewSet()
 	color.Fprintf(os.Stderr, "@{.}Parsing %s\n", rootZoneURL)
 	for token := range dns.ParseZone(res.Body, "", "") {
 		if token.Error != nil {
@@ -46,15 +45,11 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 			zones[d] = z
 		}
 
-		// Nuke any preexisting name servers
-		if !seen[d] {
-			seen.Add(d)
-			z.NameServers = nil
-		}
-
 		// Extract name server
 		if ns, ok := token.RR.(*dns.NS); ok {
-			z.NameServers = append(z.NameServers, Normalize(ns.Ns))
+			if verifyNS(ns.Ns) == nil {
+				z.NameServers = append(z.NameServers, Normalize(ns.Ns))
+			}
 		}
 	}
 
@@ -89,7 +84,9 @@ func VerifyNameServers(zones map[string]*Zone) {
 	mapZones(zones, func(z *Zone) {
 		var nameServers []string
 		for _, ns := range z.NameServers {
-			if verifyNS(ns) == nil {
+			if err := verifyNS(ns); err != nil {
+				LogWarning(fmt.Errorf("can’t verify name server %s: %s", ns, err))
+			} else {
 				nameServers = append(nameServers, ns)
 			}
 		}
@@ -103,8 +100,5 @@ func verifyNS(host string) error {
 		return err
 	}
 	err = CanDial("udp", host+":53")
-	if err != nil {
-		LogWarning(fmt.Errorf("can’t verify name server %s: %s", host, err))
-	}
 	return err
 }
