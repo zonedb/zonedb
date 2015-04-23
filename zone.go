@@ -4,6 +4,10 @@ import "golang.org/x/net/idna"
 
 //go:generate go run build/cmd/zonedb/main.go -generate-go
 
+// NS represents a slice of name servers.
+type NS []string
+
+// Zone represents a single DNS zone.
 type Zone struct {
 	// Normalized UTF-8 domain name
 	Domain string
@@ -19,7 +23,7 @@ type Zone struct {
 	CodePoints []rune
 
 	// DNS name servers for the Zone
-	NameServers []string
+	NameServers NS
 
 	// Whois server responding on port 43
 	WhoisServer string

@@ -12,9 +12,7 @@ import (
 )
 
 const (
-	goVarName = "_z"
 	goSrc     = `// Automatically generated from zonedb data
-// DO NOT EDIT
 
 package zonedb
 
@@ -22,14 +20,10 @@ func init() {
 	initZones()
 }
 
-// Separate function to fix circular reference and report allocs.
+// Separate function report allocs in initialization.
 func initZones() {
 	_z = _y
 }
-
-// _z is a static array of Zones.
-// Other global variables have pointers into this array.
-var _z [{{len .Zones}}]Zone
 
 // Zones is a slice of all Zones in the database.
 var Zones = _z[:]
@@ -45,6 +39,11 @@ var ZoneMap = map[string]*Zone{
 	{{end}} \
 }
 
+// _z is a static array of Zones.
+// Other global variables have pointers into this array.
+var _z [{{len .Zones}}]Zone
+
+// _y and _z are separated to fix circular references.
 var _y = [{{len .Zones}}]Zone{
 	{{range $d := .Domains}} \
 		{{$z := (index $.Zones $d)}} \
@@ -53,7 +52,7 @@ var _y = [{{len .Zones}}]Zone{
 			{{if $z.ParentDomain}} &_z[{{$z.POffset}}] {{else}} nil {{end}}, \
 			{{if $z.SEnd}} _z[{{$z.SOffset}}:{{$z.SEnd}}] {{else}} nil {{end}}, \
 			{{if $z.CPEnd}} _c[{{$z.CPOffset}}:{{$z.CPEnd}}] {{else}} nil {{end}}, \
-			{{if $z.NSEnd}} _n[{{$z.NSOffset}}:{{$z.NSEnd}}] {{else}} nil {{end}}, \
+			{{if $z.NameServers}} NS{ {{range $z.NameServers}}"{{.}}",{{end}}} {{else}} nil {{end}}, \
 			"{{$z.WhoisServer}}", \
 			"{{$z.WhoisURL}}", \
 			"{{$z.InfoURL}}", \
@@ -61,12 +60,8 @@ var _y = [{{len .Zones}}]Zone{
 	{{end}} \
 }
 
-var _n = [{{len .NameServers}}]string{
-	{{range .NameServers}} \
-		"{{.}}",
-	{{end}} \
-}
-	
+// _c stores Unicode code point ranges allowed in each Zone by the registry.
+// Rune values alternate low, high.
 var _c = [{{len .CodePoints}}]rune{
 	{{range $i, $cp := .CodePoints}} \
 		'{{printf "%c" .}}', \
@@ -93,21 +88,20 @@ var (
 func GenerateGo(zones map[string]*Zone) error {
 	tlds := TLDs(zones)
 	domains := SortedDomains(zones)
-	zs := SortedZones(zones)
 	offsets := make(map[string]int, len(domains))
 	for i, d := range domains {
 		offsets[d] = i
 	}
 	var nameServers []string
 	var codePoints []rune
-	for _, z := range zs {
+	for _, d := range domains {
+		z := zones[d]
 		z.Normalize() // just in case
 		z.POffset = offsets[z.ParentDomain()]
 		if len(z.Subdomains) > 0 {
 			z.SOffset = offsets[z.Subdomains[0]]
 			z.SEnd = z.SOffset + len(z.Subdomains)
 		}
-		z.NSOffset, z.NSEnd = IndexOrAppendStrings(&nameServers, z.NameServers)
 		z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, z.CodePoints.Runes())
 	}
 
