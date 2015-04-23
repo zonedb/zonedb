@@ -3,7 +3,6 @@
 	"nameServers": [
 		"rip.psg.com",
 		"frcu.eun.eg",
-		"www.frcu.eun.eg",
 		"ns.idsc.gov.eg"
 	],
 	"codePoints": "--09az"

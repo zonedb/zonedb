@@ -4,7 +4,6 @@
 	"whoisServer": "whois.iam.net.ma",
 	"nameServers": [
 		"ns2.nic.fr",
-		"hariss.anrt.ma",
 		"dns2.menara.ma",
 		"dns3.menara.ma"
 	]

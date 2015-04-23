@@ -3,7 +3,6 @@
 	"nameServers": [
 		"ns.cv.ua",
 		"nix.ns.ua",
-		"ho1.ns.lutsk.ua",
 		"ns.vizor.lutsk.ua"
 	],
 	"codePoints": "--09az"

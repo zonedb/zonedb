@@ -1,5 +1,8 @@
 .PHONY: test update metadata/*.json
 
+install:
+	go install ./build/cmd/zonedb
+
 test:
 	go test ./...
 

@@ -1,8 +1,7 @@
 {
 	"domain": "unze.ba",
 	"nameServers": [
-		"pi.unze.ba",
-		"hal.zdk.ba"
+		"pi.unze.ba"
 	],
 	"codePoints": "--09az"
 }

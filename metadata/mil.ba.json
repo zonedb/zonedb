@@ -2,8 +2,7 @@
 	"domain": "mil.ba",
 	"nameServers": [
 		"bosna.utic.net.ba",
-		"sava.utic.net.ba",
-		"ohrid.cca.vu.nl"
+		"sava.utic.net.ba"
 	],
 	"codePoints": "--09az"
 }

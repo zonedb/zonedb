@@ -1,7 +1,6 @@
 {
 	"domain": "com.ar",
 	"nameServers": [
-		"athea.ar",
 		"ctina.ar",
 		"a.dns.ar",
 		"c.dns.ar",
