@@ -5,20 +5,30 @@ import (
 	"unsafe"
 )
 
-func TestZone(t *testing.T) {
+func TestSizeofZone(t *testing.T) {
 	var z Zone
 	t.Logf("sizeof Zone = %d", unsafe.Sizeof(z))
 }
 
-func TestZones(t *testing.T) {
-	t.Logf("len(zones) = %d", len(Zones))
-	t.Logf("%+v\n", Zones[1442])
-	t.Logf("len(uk Subdomains)%d\n", len(Zones[1442].Subdomains))
-	t.Logf("cap(uk Subdomains)%d\n", cap(Zones[1442].Subdomains))
+func TestTLDs(t *testing.T) {
+	t.Logf("%d top-level domains (%s to %s)", len(TLDs), TLDs[0].Domain, TLDs[len(TLDs)-1].Domain)
 }
 
-func TestTLDS(t *testing.T) {
-	t.Logf("%d top-level domains (%s to %s)", len(TLDs), TLDs[0].Domain, TLDs[len(TLDs)-1].Domain)
+func TestZone_DomainACE(t *testing.T) {
+	examples := map[string]string{
+		"com":     "com",
+		"net":     "net",
+		"org":     "org",
+		"アマゾン":    "xn--cckwcxetd",
+		"العليان": "xn--mgba7c0bbn0a",
+	}
+	for domain, expected := range examples {
+		z := ZoneMap[domain]
+		got := z.DomainACE()
+		if got != expected {
+			t.Errorf("Expected %s, got %s for %s", expected, got, domain)
+		}
+	}
 }
 
 func BenchmarkInitAllocs(b *testing.B) {
