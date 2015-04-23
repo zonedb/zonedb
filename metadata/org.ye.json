@@ -2,7 +2,9 @@
 	"domain": "org.ye",
 	"nameServers": [
 		"sah1.ye",
-		"sah2.ye"
+		"sah2.ye",
+		"ns1.yemen.net.ye",
+		"ns2.yemen.net.ye"
 	],
 	"codePoints": "--09az"
 }
