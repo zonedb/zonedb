@@ -13,12 +13,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/domainr/dnsr"
 	"github.com/wsxiaoys/terminal/color"
 	"golang.org/x/net/idna"
 )
-
-var resolver = dnsr.New(10000)
 
 func QueryWhoisServers(zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Querying whois-servers.net for %d zones...\n", len(zones))
@@ -37,7 +34,7 @@ func QueryWhoisServers(zones map[string]*Zone) error {
 			rrs := resolver.Resolve(name, "CNAME")
 			for _, rr := range rrs {
 				// whois-servers.net occasionally returns whois.ripe.net (unusable)
-				if rr.Type != "CNAME" || rr.Name != name || rr.Value == "whois.ripe.net." {
+				if rr.Type != "CNAME" || Normalize(rr.Name) != z.Domain || rr.Value == "whois.ripe.net." {
 					continue
 				}
 				if verifyWhois(rr.Value) != nil {

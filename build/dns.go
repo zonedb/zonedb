@@ -2,7 +2,10 @@ package build
 
 import (
 	"os"
+	"sync"
+	"sync/atomic"
 
+	"github.com/domainr/dnsr"
 	"github.com/miekg/dns"
 	"github.com/wsxiaoys/terminal/color"
 )
@@ -54,5 +57,36 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 		}
 	}
 
+	return nil
+}
+
+var resolver = dnsr.New(10000)
+
+func FetchNameServers(zones map[string]*Zone) error {
+	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zones...\n", len(zones))
+	var found int32
+	limiter := make(chan struct{}, Concurrency)
+	var wg sync.WaitGroup
+	for _, z := range zones {
+		limiter <- struct{}{}
+		wg.Add(1)
+		go func(z *Zone) {
+			defer func() {
+				<-limiter
+				wg.Done()
+			}()
+			name := z.ACE()
+			rrs := resolver.Resolve(name, "NS")
+			for _, rr := range rrs {
+				if rr.Type != "NS" || Normalize(rr.Name) != z.Domain {
+					continue
+				}
+				z.NameServers = append(z.NameServers, Normalize(rr.Value))
+				atomic.AddInt32(&found, 1)
+			}
+		}(z)
+	}
+	wg.Wait()
+	color.Fprintf(os.Stderr, "@{.}Found %d name servers\n", found)
 	return nil
 }

@@ -19,6 +19,7 @@ func main() {
 	addTags := flag.String("add-tags", "", "add tags to zones (comma-delimited)")
 	removeTags := flag.String("remove-tags", "", "remove tags from zones (comma-delimited)")
 	updateRoot := flag.Bool("update-root", false, "retrieve updates to the root zone file")
+	updateNS := flag.Bool("update-ns", false, "update name servers")
 	updateRubyWhois := flag.Bool("update-ruby-whois", false, "query Ruby Whois for whois servers")
 	updateWhois := flag.Bool("update-whois", false, "query whois-servers.net for whois servers")
 	verifyWhois := flag.Bool("verify-whois", false, "verify whois servers")
@@ -65,6 +66,13 @@ func main() {
 
 	if *updateRoot || *updateAll {
 		err := build.FetchRootZone(workZones, addNew)
+		if err != nil {
+			build.LogError(err)
+		}
+	}
+
+	if *updateNS || *updateAll {
+		err := build.FetchNameServers(workZones)
 		if err != nil {
 			build.LogError(err)
 		}
