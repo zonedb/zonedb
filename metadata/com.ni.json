@@ -1,4 +1,11 @@
 {
 	"domain": "com.ni",
+	"nameServers": [
+		"ns.ni",
+		"ns2.ni",
+		"dns.nic.cr",
+		"auth01.ns.uu.net",
+		"ns.ideay.net.ni"
+	],
 	"codePoints": "--09az"
 }

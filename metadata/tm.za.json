@@ -1,10 +1,16 @@
 {
 	"domain": "tm.za",
 	"nameServers": [
+		"reaper.org",
+		"ns1.iafrica.com",
+		"ns2.iafrica.com",
 		"za-ns.anycast.pch.net",
+		"ns1.dnsza.co.za",
+		"ns0.is.co.za",
 		"ns1.lolo.co.za",
 		"ns2.lolo.co.za",
-		"ns3.lolo.co.za"
+		"ns3.lolo.co.za",
+		"sticky.spider.web.za"
 	],
 	"codePoints": "--09az"
 }

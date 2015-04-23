@@ -3,7 +3,11 @@
 	"nameServers": [
 		"ns1.ird.fr",
 		"ns.dts.mg",
-		"ns.nic.mg"
+		"ns.nic.mg",
+		"mg1.dyntld.net",
+		"mg2.dyntld.net",
+		"mg3.dyntld.net",
+		"mg4.dyntld.net"
 	],
 	"codePoints": "--09az"
 }

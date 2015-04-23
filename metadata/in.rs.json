@@ -1,6 +1,7 @@
 {
 	"domain": "in.rs",
 	"nameServers": [
+		"l.nic.rs",
 		"ns1.nic.rs",
 		"ns1.rnids.rs",
 		"ns2.rnids.rs",

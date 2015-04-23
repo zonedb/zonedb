@@ -1,6 +1,7 @@
 {
 	"domain": "ac.ni",
 	"nameServers": [
+		"ns.cr",
 		"ns.ni",
 		"ns2.ni",
 		"dns.nic.cr",

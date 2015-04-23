@@ -2,6 +2,8 @@
 	"domain": "mil.rw",
 	"nameServers": [
 		"sns-pb.isc.org",
+		"ns1.rwandatel.rw",
+		"ns2.rwandatel.rw",
 		"fork.sth.dnsnode.net",
 		"ns1.ricta.org.rw",
 		"ns2.ricta.org.rw",

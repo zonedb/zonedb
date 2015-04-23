@@ -1,4 +1,8 @@
 {
 	"domain": "chiro.pro",
+	"nameServers": [
+		"dns111.ovh.net",
+		"ns111.ovh.net"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,9 @@
 {
 	"domain": "gov.fk",
+	"nameServers": [
+		"ans1.cw.net",
+		"ans2.cw.net",
+		"ns.horizon.net.fk"
+	],
 	"codePoints": "--09az"
 }
