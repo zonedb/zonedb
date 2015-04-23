@@ -4,6 +4,7 @@ install:
 	go install ./build/cmd/zonedb
 
 test:
+	go run build/cmd/zonedb/main.go
 	go test ./...
 
 zones.go: zones.txt metadata/*.json build/*.go build/*/*/*.go
