@@ -84,7 +84,7 @@ func IndexOfStrings(haystack []string, needle []string) int {
 outer:
 	for i := range haystack {
 		for j := range needle {
-			if needle[j] != haystack[i+j] {
+			if i+j >= len(haystack) || needle[j] != haystack[i+j] {
 				continue outer
 			}
 		}
