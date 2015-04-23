@@ -20,6 +20,7 @@ func main() {
 	removeTags := flag.String("remove-tags", "", "remove tags from zones (comma-delimited)")
 	updateRoot := flag.Bool("update-root", false, "retrieve updates to the root zone file")
 	updateNS := flag.Bool("update-ns", false, "update name servers")
+	verifyNS := flag.Bool("verify-ns", false, "verify name servers")
 	updateRubyWhois := flag.Bool("update-ruby-whois", false, "query Ruby Whois for whois servers")
 	updateWhois := flag.Bool("update-whois", false, "query whois-servers.net for whois servers")
 	verifyWhois := flag.Bool("verify-whois", false, "verify whois servers")
@@ -71,13 +72,6 @@ func main() {
 		}
 	}
 
-	if *updateNS || *updateAll {
-		err := build.FetchNameServers(workZones)
-		if err != nil {
-			build.LogError(err)
-		}
-	}
-
 	if *updateRubyWhois || *updateAll {
 		err := build.FetchRubyWhoisServers(workZones, addNew)
 		if err != nil {
@@ -101,6 +95,13 @@ func main() {
 		}
 	}
 
+	if *updateNS || *updateAll {
+		err := build.FetchNameServers(workZones)
+		if err != nil {
+			build.LogError(err)
+		}
+	}
+
 	if *removeTags != "" {
 		tags := strings.Split(*removeTags, ",")
 		build.RemoveTags(workZones, tags)
@@ -109,6 +110,10 @@ func main() {
 	if *addTags != "" {
 		tags := strings.Split(*addTags, ",")
 		build.AddTags(workZones, tags)
+	}
+
+	if *verifyNS {
+		build.VerifyNameServers(workZones)
 	}
 
 	if *verifyWhois {

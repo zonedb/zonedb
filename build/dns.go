@@ -1,13 +1,14 @@
 package build
 
 import (
+	"fmt"
 	"os"
-	"sync"
 	"sync/atomic"
 
 	"github.com/domainr/dnsr"
 	"github.com/miekg/dns"
 	"github.com/wsxiaoys/terminal/color"
+	"golang.org/x/net/idna"
 )
 
 const rootZoneURL = "http://www.internic.net/domain/root.zone"
@@ -65,28 +66,38 @@ var resolver = dnsr.New(10000)
 func FetchNameServers(zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zones...\n", len(zones))
 	var found int32
-	limiter := make(chan struct{}, Concurrency)
-	var wg sync.WaitGroup
-	for _, z := range zones {
-		limiter <- struct{}{}
-		wg.Add(1)
-		go func(z *Zone) {
-			defer func() {
-				<-limiter
-				wg.Done()
-			}()
-			name := z.ACE()
-			rrs := resolver.Resolve(name, "NS")
-			for _, rr := range rrs {
-				if rr.Type != "NS" || Normalize(rr.Name) != z.Domain {
-					continue
-				}
-				z.NameServers = append(z.NameServers, Normalize(rr.Value))
-				atomic.AddInt32(&found, 1)
+	mapZones(zones, func(z *Zone) {
+		name := z.ACE()
+		rrs := resolver.Resolve(name, "NS")
+		for _, rr := range rrs {
+			if rr.Type != "NS" || Normalize(rr.Name) != z.Domain {
+				continue
 			}
-		}(z)
-	}
-	wg.Wait()
+			z.NameServers = append(z.NameServers, Normalize(rr.Value))
+			atomic.AddInt32(&found, 1)
+		}
+	})
 	color.Fprintf(os.Stderr, "@{.}Found %d name servers\n", found)
 	return nil
+}
+
+func VerifyNameServers(zones map[string]*Zone) {
+	color.Fprintf(os.Stderr, "@{.}Verifying name servers for %d zones...\n", len(zones))
+	mapZones(zones, func(z *Zone) {
+		for _, ns := range z.NameServers {
+			verifyNS(ns)
+		}
+	})
+}
+
+func verifyNS(host string) error {
+	host, err := idna.ToASCII(Normalize(host))
+	if err != nil {
+		return err
+	}
+	err = CanDial("udp", host+":53")
+	if err != nil {
+		LogWarning(fmt.Errorf("can’t verify name server %s: %s", host, err))
+	}
+	return err
 }

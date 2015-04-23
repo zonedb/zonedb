@@ -20,33 +20,22 @@ import (
 func QueryWhoisServers(zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Querying whois-servers.net for %d zones...\n", len(zones))
 	var found int32
-	limiter := make(chan struct{}, Concurrency)
-	var wg sync.WaitGroup
-	for _, z := range zones {
-		limiter <- struct{}{}
-		wg.Add(1)
-		go func(z *Zone) {
-			defer func() {
-				<-limiter
-				wg.Done()
-			}()
-			name := z.ACE() + ".whois-servers.net."
-			rrs := resolver.Resolve(name, "CNAME")
-			for _, rr := range rrs {
-				// whois-servers.net occasionally returns whois.ripe.net (unusable)
-				if rr.Type != "CNAME" || Normalize(rr.Name) != z.Domain || rr.Value == "whois.ripe.net." {
-					continue
-				}
-				if verifyWhois(rr.Value) != nil {
-					continue
-				}
-				z.WhoisServer = Normalize(rr.Value)
-				atomic.AddInt32(&found, 1)
-				return
+	mapZones(zones, func(z *Zone) {
+		name := z.ACE() + ".whois-servers.net."
+		rrs := resolver.Resolve(name, "CNAME")
+		for _, rr := range rrs {
+			// whois-servers.net occasionally returns whois.ripe.net (unusable)
+			if rr.Type != "CNAME" || Normalize(rr.Name) != z.Domain || rr.Value == "whois.ripe.net." {
+				continue
 			}
-		}(z)
-	}
-	wg.Wait()
+			if verifyWhois(rr.Value) != nil {
+				continue
+			}
+			z.WhoisServer = Normalize(rr.Value)
+			atomic.AddInt32(&found, 1)
+			return
+		}
+	})
 	color.Fprintf(os.Stderr, "@{.}Found %d whois servers\n", found)
 	return nil
 }
@@ -185,22 +174,11 @@ func queryWhois(addr, query string) ([]byte, error) {
 
 func VerifyWhois(zones map[string]*Zone) {
 	color.Fprintf(os.Stderr, "@{.}Verifying whois servers for %d zones...\n", len(zones))
-	limiter := make(chan struct{}, Concurrency)
-	var wg sync.WaitGroup
-	for _, z := range zones {
-		limiter <- struct{}{}
-		wg.Add(1)
-		go func(z *Zone) {
-			defer func() {
-				<-limiter
-				wg.Done()
-			}()
-			if z.WhoisServer != "" {
-				verifyWhois(z.WhoisServer)
-			}
-		}(z)
-	}
-	wg.Wait()
+	mapZones(zones, func(z *Zone) {
+		if z.WhoisServer != "" {
+			verifyWhois(z.WhoisServer)
+		}
+	})
 }
 
 func verifyWhois(host string) error {

@@ -4,6 +4,7 @@ import (
 	"os"
 	"sort"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/wsxiaoys/terminal/color"
@@ -47,6 +48,24 @@ func SortedDomains(zones map[string]*Zone) []string {
 	}
 	Sort(domains)
 	return domains
+}
+
+// mapZones concurrently applies a function to a set of Zones.
+func mapZones(zones map[string]*Zone, fn func(*Zone)) {
+	limiter := make(chan struct{}, Concurrency)
+	var wg sync.WaitGroup
+	for _, z := range zones {
+		limiter <- struct{}{}
+		wg.Add(1)
+		go func(z *Zone) {
+			defer func() {
+				<-limiter
+				wg.Done()
+			}()
+			fn(z)
+		}(z)
+	}
+	wg.Wait()
 }
 
 // Sort sorts a slice of domain names by rank. Rank sort defined as:
