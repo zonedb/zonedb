@@ -1,4 +1,13 @@
 {
 	"domain": "ac.vn",
+	"nameServers": [
+		"a.dns-servers.vn",
+		"b.dns-servers.vn",
+		"c.dns-servers.vn",
+		"d.dns-servers.vn",
+		"e.dns-servers.vn",
+		"f.dns-servers.vn",
+		"vn.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

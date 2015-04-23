@@ -1,0 +1,7 @@
+{
+	"domain": "mil.tm",
+	"nameServers": [
+		"ns04.telecom.tm",
+		"web2.telecom.tm"
+	]
+}

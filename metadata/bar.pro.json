@@ -1,4 +1,12 @@
 {
 	"domain": "bar.pro",
+	"nameServers": [
+		"a0.pro.afilias-nst.info",
+		"a2.pro.afilias-nst.info",
+		"c0.pro.afilias-nst.info",
+		"b0.pro.afilias-nst.org",
+		"b2.pro.afilias-nst.org",
+		"d0.pro.afilias-nst.org"
+	],
 	"codePoints": "--09az"
 }

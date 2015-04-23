@@ -1,4 +1,10 @@
 {
 	"domain": "ac.gg",
+	"nameServers": [
+		"dns3.mtgsy.com",
+		"dns4.mtgsy.com",
+		"dns1.name-s.net",
+		"dns2.name-s.net"
+	],
 	"codePoints": "--09az"
 }

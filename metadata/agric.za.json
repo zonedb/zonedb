@@ -1,4 +1,9 @@
 {
 	"domain": "agric.za",
+	"nameServers": [
+		"demeter.is.co.za",
+		"jupiter.is.co.za",
+		"titan.is.co.za"
+	],
 	"codePoints": "--09az"
 }

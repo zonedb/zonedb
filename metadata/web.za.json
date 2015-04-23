@@ -1,4 +1,10 @@
 {
 	"domain": "web.za",
+	"nameServers": [
+		"za-ns.anycast.pch.net",
+		"hippo.ru.ac.za",
+		"disa.tenet.ac.za",
+		"ns0.is.co.za"
+	],
 	"codePoints": "--09az"
 }

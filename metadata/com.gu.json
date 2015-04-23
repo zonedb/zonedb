@@ -1,4 +1,10 @@
 {
 	"domain": "com.gu",
+	"nameServers": [
+		"ns.com.gu",
+		"ns.edu.gu",
+		"nsuog.edu.gu",
+		"gu.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

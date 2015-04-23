@@ -1,4 +1,10 @@
 {
 	"domain": "co.je",
+	"nameServers": [
+		"d.ci-servers.je",
+		"a.ci-servers.net",
+		"b.ci-servers.org",
+		"c.ci-servers.org"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,8 @@
 {
 	"domain": "mil.kg",
+	"nameServers": [
+		"ns.kg",
+		"as.asiainfo.kg"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,10 @@
 {
 	"domain": "org.ky",
+	"nameServers": [
+		"a.ky.dyntld.net",
+		"b.ky.dyntld.net",
+		"c.ky.dyntld.net",
+		"a.ns.uniregistry.net"
+	],
 	"codePoints": "--09az"
 }

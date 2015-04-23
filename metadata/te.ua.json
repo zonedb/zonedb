@@ -1,5 +1,12 @@
 {
 	"domain": "te.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"ns2.uar.net",
+		"ns.dn.ua",
+		"ns2.km.ua",
+		"nix.ns.ua",
+		"ns.bit.te.ua"
+	],
 	"codePoints": "--09az"
 }

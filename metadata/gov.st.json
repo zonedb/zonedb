@@ -1,4 +1,8 @@
 {
 	"domain": "gov.st",
+	"nameServers": [
+		"ns1.knox.st",
+		"ns2.knox.st"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,9 @@
 {
 	"domain": "edu.ph",
+	"nameServers": [
+		"gabriela.ph.net",
+		"gomez.ph.net",
+		"ns.skyinet.net"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,13 @@
 {
 	"domain": "gov.ru",
+	"nameServers": [
+		"ns.gov.ru",
+		"ns1.gov.ru",
+		"ns2.gov.ru",
+		"ns.relarn.ru",
+		"acl.dns.ripn.net",
+		"bcl.dns.ripn.net",
+		"ccl.dns.ripn.net"
+	],
 	"codePoints": "--09az"
 }

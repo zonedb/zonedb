@@ -1,4 +1,8 @@
 {
 	"domain": "ro.ro",
+	"nameServers": [
+		"ns.hjs.net",
+		"ns2.hjs.net"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,8 @@
 {
 	"domain": "org.bb",
+	"nameServers": [
+		"ns1.barbadosdomain.net",
+		"ns2.barbadosdomain.net"
+	],
 	"codePoints": "--09az"
 }

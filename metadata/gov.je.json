@@ -1,4 +1,8 @@
 {
 	"domain": "gov.je",
+	"nameServers": [
+		"ns1.gov.je",
+		"ns2.gov.je"
+	],
 	"codePoints": "--09az"
 }

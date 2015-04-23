@@ -1,4 +1,10 @@
 {
 	"domain": "gov.al",
+	"nameServers": [
+		"ns1.nic.al",
+		"rip.psg.com",
+		"ns-al.isti.cnr.it",
+		"al.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

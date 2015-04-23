@@ -1,4 +1,9 @@
 {
 	"domain": "odesa.ua",
+	"nameServers": [
+		"nix.ns.ua",
+		"ns.od.ua",
+		"ho1.ns.od.ua"
+	],
 	"codePoints": "--09az"
 }

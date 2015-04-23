@@ -1,5 +1,12 @@
 {
 	"domain": "od.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"ns.lucky.net",
+		"parabol.taide.net",
+		"nix.ns.ua",
+		"ns.od.ua",
+		"ho1.ns.od.ua"
+	],
 	"codePoints": "--09az"
 }

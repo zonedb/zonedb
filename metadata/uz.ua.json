@@ -1,5 +1,11 @@
 {
 	"domain": "uz.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"ns.dn.ua",
+		"ba1.ns.ua",
+		"nix.ns.ua",
+		"ho1.ns.uz.ua"
+	],
 	"codePoints": "--09az"
 }

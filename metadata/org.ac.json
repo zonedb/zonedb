@@ -1,4 +1,11 @@
 {
 	"domain": "org.ac",
+	"nameServers": [
+		"dns1.nic.ac",
+		"dns2.nic.ac",
+		"dns3.nic.ac",
+		"dns4.nic.ac",
+		"dns5.nic.ac"
+	],
 	"codePoints": "--09az"
 }

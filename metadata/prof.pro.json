@@ -1,4 +1,8 @@
 {
 	"domain": "prof.pro",
+	"nameServers": [
+		"dns1.encirca.net",
+		"dns2.encirca.net"
+	],
 	"codePoints": "--09az"
 }

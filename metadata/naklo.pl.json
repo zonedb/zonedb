@@ -1,4 +1,10 @@
 {
 	"domain": "naklo.pl",
+	"nameServers": [
+		"a-dns.pl",
+		"e-dns.pl",
+		"f-dns.pl",
+		"i-dns.pl"
+	],
 	"codePoints": "--09az"
 }

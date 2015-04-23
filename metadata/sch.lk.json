@@ -1,4 +1,9 @@
 {
 	"domain": "sch.lk",
+	"nameServers": [
+		"ns1.ac.lk",
+		"ns1.schoolnet.lk",
+		"s1.ns.slt.lk"
+	],
 	"codePoints": "--09az"
 }

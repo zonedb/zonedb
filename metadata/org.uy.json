@@ -1,4 +1,13 @@
 {
 	"domain": "org.uy",
+	"nameServers": [
+		"ns.dns.br",
+		"ns3.nic.mx",
+		"sns-pb.isc.org",
+		"seciu.edu.uy",
+		"ultra.edu.uy",
+		"ns1.anteldata.com.uy",
+		"ns2.anteldata.com.uy"
+	],
 	"codePoints": "--09az"
 }

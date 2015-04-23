@@ -1,4 +1,8 @@
 {
 	"domain": "co.cm",
+	"nameServers": [
+		"cm-in-1.dyntld.net",
+		"cm-in-2.dyntld.net"
+	],
 	"codePoints": "--09az"
 }

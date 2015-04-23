@@ -1,4 +1,8 @@
 {
 	"domain": "rnrt.tn",
+	"nameServers": [
+		"ns4.ati.tn",
+		"ns6.ati.tn"
+	],
 	"codePoints": "--09az"
 }

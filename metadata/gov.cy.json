@@ -1,4 +1,14 @@
 {
 	"domain": "gov.cy",
+	"nameServers": [
+		"cynic.dns.cy",
+		"ns01.gov.cy",
+		"ns02.gov.cy",
+		"sns0.grnet.gr",
+		"sns1.grnet.gr",
+		"ns1.ucy.ac.cy",
+		"ns2.ucy.ac.cy",
+		"dns.cit.cornell.edu"
+	],
 	"codePoints": "--09az"
 }

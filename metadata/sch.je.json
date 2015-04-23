@@ -1,4 +1,8 @@
 {
 	"domain": "sch.je",
+	"nameServers": [
+		"dns1.itex-ci.net",
+		"dns2.itex-ci.net"
+	],
 	"codePoints": "--09az"
 }

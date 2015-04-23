@@ -1,4 +1,10 @@
 {
 	"domain": "mil.kh",
+	"nameServers": [
+		"sec3.apnic.net",
+		"ns.camnet.com.kh",
+		"dns1.online.com.kh",
+		"ns1.dns.net.kh"
+	],
 	"codePoints": "--09az"
 }

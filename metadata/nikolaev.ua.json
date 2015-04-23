@@ -1,5 +1,12 @@
 {
 	"domain": "nikolaev.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"ba1.ns.ua",
+		"nix.ns.ua",
+		"ns.mk.farlep.net",
+		"ns1.mk.farlep.net",
+		"ns.tm.odessa.ua"
+	],
 	"codePoints": "--09az"
 }

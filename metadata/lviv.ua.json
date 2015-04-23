@@ -1,5 +1,12 @@
 {
 	"domain": "lviv.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"ns2.uar.net",
+		"ns5.univie.ac.at",
+		"arwena.nask.waw.pl",
+		"sigma.icmp.lviv.ua",
+		"big.litech.lviv.ua"
+	],
 	"codePoints": "--09az"
 }

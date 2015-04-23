@@ -1,4 +1,10 @@
 {
 	"domain": "com.bn",
+	"nameServers": [
+		"ns1.bnnic.bn",
+		"ns2.bnnic.bn",
+		"sec4.apnic.net",
+		"bn-ns.anycast.pch.net"
+	],
 	"codePoints": "--09az"
 }

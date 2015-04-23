@@ -1,4 +1,10 @@
 {
 	"domain": "ac.ru",
+	"nameServers": [
+		"ns-soa.darenet.dk",
+		"dns.princeton.edu",
+		"ns1.free.net",
+		"ns2.free.net"
+	],
 	"codePoints": "--09az"
 }

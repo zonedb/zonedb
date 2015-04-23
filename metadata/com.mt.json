@@ -1,4 +1,12 @@
 {
 	"domain": "com.mt",
+	"nameServers": [
+		"ns.mt",
+		"ns1.mt",
+		"f.ns.mt",
+		"i.ns.mt",
+		"p.ns.mt",
+		"r.ns.mt"
+	],
 	"codePoints": "--09az"
 }

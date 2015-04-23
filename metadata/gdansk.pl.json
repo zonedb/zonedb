@@ -1,4 +1,10 @@
 {
 	"domain": "gdansk.pl",
+	"nameServers": [
+		"ns.tpnet.pl",
+		"ns1.task.gda.pl",
+		"ns2.task.gda.pl",
+		"bilbo.nask.org.pl"
+	],
 	"codePoints": "--09az"
 }

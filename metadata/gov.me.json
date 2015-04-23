@@ -1,4 +1,8 @@
 {
 	"domain": "gov.me",
+	"nameServers": [
+		"ns.gov.me",
+		"ns1.gov.me"
+	],
 	"codePoints": "--09az"
 }

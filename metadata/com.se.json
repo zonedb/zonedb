@@ -1,4 +1,10 @@
 {
 	"domain": "com.se",
+	"nameServers": [
+		"ns1.centralnic.net",
+		"ns2.centralnic.net",
+		"ns3.centralnic.net",
+		"ns4.centralnic.net"
+	],
 	"codePoints": "--09az"
 }

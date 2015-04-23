@@ -1,4 +1,8 @@
 {
 	"domain": "com.ml",
+	"nameServers": [
+		"dns.gouv.ml",
+		"djamako.nic.ml"
+	],
 	"codePoints": "--09az"
 }

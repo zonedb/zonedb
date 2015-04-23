@@ -1,4 +1,12 @@
 {
 	"domain": "org.mz",
+	"nameServers": [
+		"phloem.uoregon.edu",
+		"anyns.uem.mz",
+		"dzowo.uem.mz",
+		"oceano.uem.mz",
+		"zebra.uem.mz",
+		"ns-mz.afrinic.net"
+	],
 	"codePoints": "--09az"
 }

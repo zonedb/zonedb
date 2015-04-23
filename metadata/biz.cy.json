@@ -1,4 +1,13 @@
 {
 	"domain": "biz.cy",
+	"nameServers": [
+		"cynic.dns.cy",
+		"sec3.apnic.net",
+		"ns02.savvis.net",
+		"ns1.ucy.ac.cy",
+		"ns2.ucy.ac.cy",
+		"estia.ics.forth.gr",
+		"cy-ns.anycast.pch.net"
+	],
 	"codePoints": "--09az"
 }

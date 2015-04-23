@@ -1,0 +1,7 @@
+{
+	"domain": "co.tm",
+	"nameServers": [
+		"ns05.telecom.tm",
+		"ns06.telecom.tm"
+	]
+}

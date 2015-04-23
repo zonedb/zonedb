@@ -1,4 +1,13 @@
 {
 	"domain": "edu.ni",
+	"nameServers": [
+		"ns.cr",
+		"ns.ni",
+		"ns2.ni",
+		"auth01.ns.uu.net",
+		"ns.ibw.com.ni",
+		"ns.tmx.com.ni",
+		"ns.ideay.net.ni"
+	],
 	"codePoints": "--09az"
 }

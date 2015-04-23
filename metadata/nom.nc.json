@@ -1,4 +1,9 @@
 {
 	"domain": "nom.nc",
+	"nameServers": [
+		"any-ns1.nc",
+		"ns1.nc",
+		"ns2.nc"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,11 @@
 {
 	"domain": "co.ls",
+	"nameServers": [
+		"ns-ls.afrinic.net",
+		"ns1.pch.net",
+		"ns2.leo.co.ls",
+		"ns3.leo.co.ls",
+		"sas.leo.co.ls"
+	],
 	"codePoints": "--09az"
 }

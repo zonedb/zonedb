@@ -1,4 +1,8 @@
 {
 	"domain": "biz.ki",
+	"nameServers": [
+		"a.ki.dyntld.net",
+		"b.ki.dyntld.net"
+	],
 	"codePoints": "--09az"
 }

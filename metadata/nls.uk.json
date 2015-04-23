@@ -1,4 +1,8 @@
 {
 	"domain": "nls.uk",
+	"nameServers": [
+		"ns.pipex.net",
+		"ns1.nls.uk"
+	],
 	"codePoints": "--09az"
 }

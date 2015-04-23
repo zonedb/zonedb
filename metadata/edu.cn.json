@@ -1,5 +1,12 @@
 {
 	"domain": "edu.cn",
 	"whoisServer": "whois.edu.cn",
+	"nameServers": [
+		"dns.edu.cn",
+		"dns2.edu.cn",
+		"deneb.dfn.de",
+		"ns2.cuhk.hk",
+		"ns2.cernet.net"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,11 @@
 {
 	"domain": "video.hu",
+	"nameServers": [
+		"a.hu",
+		"b.hu",
+		"c.hu",
+		"d.hu",
+		"ns-s.nic.hu"
+	],
 	"codePoints": "--09az"
 }

@@ -1,0 +1,10 @@
+{
+	"domain": "com.ar",
+	"nameServers": [
+		"ctina.ar",
+		"a.dns.ar",
+		"c.dns.ar",
+		"ns2.switch.ch",
+		"relay1.mecon.gov.ar"
+	]
+}

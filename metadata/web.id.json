@@ -1,4 +1,13 @@
 {
 	"domain": "web.id",
+	"nameServers": [
+		"a.dns.id",
+		"b.dns.id",
+		"c.dns.id",
+		"d.dns.id",
+		"e.dns.id",
+		"f.dns.id",
+		"g.dns.id"
+	],
 	"codePoints": "--09az"
 }

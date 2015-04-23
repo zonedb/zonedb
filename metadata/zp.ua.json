@@ -1,5 +1,12 @@
 {
 	"domain": "zp.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"ns.dn.ua",
+		"ns.kh.ua",
+		"ns.sm.ua",
+		"ns.zp.ua",
+		"ho1.eunic.net.ua"
+	],
 	"codePoints": "--09az"
 }

@@ -1,0 +1,10 @@
+{
+	"domain": "net.sh",
+	"nameServers": [
+		"dns1.nic.sh",
+		"dns2.nic.sh",
+		"dns3.nic.sh",
+		"dns4.nic.sh",
+		"dns5.nic.sh"
+	]
+}

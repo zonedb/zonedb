@@ -1,4 +1,10 @@
 {
 	"domain": "gov.tt",
+	"nameServers": [
+		"dns5.gov.tt",
+		"dns6.gov.tt",
+		"dns7.gov.tt",
+		"dns8.gov.tt"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,14 @@
 {
 	"domain": "mi.th",
+	"nameServers": [
+		"ns.thnic.net",
+		"ams.sns-pb.isc.org",
+		"sfba.sns-pb.isc.org",
+		"dns1.thnic.co.th",
+		"ns-a.thnic.co.th",
+		"ns-e.thnic.co.th",
+		"ns-f.thnic.co.th",
+		"th.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

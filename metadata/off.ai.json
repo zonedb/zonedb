@@ -1,4 +1,8 @@
 {
 	"domain": "off.ai",
+	"nameServers": [
+		"ns1.offshore.ai",
+		"ns2.offshore.ai"
+	],
 	"codePoints": "--09az"
 }

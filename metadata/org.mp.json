@@ -1,4 +1,8 @@
 {
 	"domain": "org.mp",
+	"nameServers": [
+		"ns1.nic.net.mp",
+		"ns2.nic.net.mp"
+	],
 	"codePoints": "--09az"
 }

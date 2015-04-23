@@ -1,4 +1,10 @@
 {
 	"domain": "experts-comptables.fr",
-	"whoisServer": "whois.smallregistry.net"
+	"whoisServer": "whois.smallregistry.net",
+	"nameServers": [
+		"ns1.smallregistry.net",
+		"ns2.smallregistry.net",
+		"ns3.smallregistry.net",
+		"ns4.smallregistry.net"
+	]
 }

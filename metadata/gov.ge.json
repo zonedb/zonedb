@@ -1,4 +1,9 @@
 {
 	"domain": "gov.ge",
+	"nameServers": [
+		"ns1.gov.ge",
+		"ns2.gov.ge",
+		"ns3.gov.ge"
+	],
 	"codePoints": "--09az"
 }

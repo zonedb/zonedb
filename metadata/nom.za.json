@@ -1,4 +1,10 @@
 {
 	"domain": "nom.za",
+	"nameServers": [
+		"ins1.c6dns.com",
+		"ns0.plig.net",
+		"za-ns.anycast.pch.net",
+		"secdns1.posix.co.za"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,10 @@
 {
 	"domain": "tm.za",
+	"nameServers": [
+		"za-ns.anycast.pch.net",
+		"ns1.lolo.co.za",
+		"ns2.lolo.co.za",
+		"ns3.lolo.co.za"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,9 @@
 {
 	"domain": "yalta.ua",
+	"nameServers": [
+		"ns.crimea.ua",
+		"nix.ns.ua",
+		"ho1.ns.crimea.ua"
+	],
 	"codePoints": "--09az"
 }

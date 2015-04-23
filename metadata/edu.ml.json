@@ -1,0 +1,9 @@
+{
+	"domain": "edu.ml",
+	"nameServers": [
+		"dns.gouv.ml",
+		"djamako.nic.ml",
+		"ns1.ribtelecom.net",
+		"a.ns40.microtics.pro"
+	]
+}

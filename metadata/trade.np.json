@@ -1,5 +1,11 @@
 {
 	"domain": "trade.np",
 	"infoURL": "http://register.mos.com.np/np-ccTLDs",
+	"nameServers": [
+		"sec3.apnic.net",
+		"np-ns.anycast.pch.net",
+		"shikhar.mos.com.np",
+		"np-ns.npix.net.np"
+	],
 	"codePoints": "--09az"
 }

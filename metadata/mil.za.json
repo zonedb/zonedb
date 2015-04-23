@@ -1,4 +1,9 @@
 {
 	"domain": "mil.za",
+	"nameServers": [
+		"ns1.datapro.co.za",
+		"ns2.datapro.co.za",
+		"ns3.datapro.co.za"
+	],
 	"codePoints": "--09az"
 }

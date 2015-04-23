@@ -1,4 +1,10 @@
 {
 	"domain": "stalowa-wola.pl",
+	"nameServers": [
+		"a-dns.pl",
+		"e-dns.pl",
+		"f-dns.pl",
+		"h-dns.pl"
+	],
 	"codePoints": "--09az"
 }

@@ -1,0 +1,9 @@
+{
+	"domain": "пр.срб",
+	"nameServers": [
+		"a.nic.rs",
+		"g.nic.rs",
+		"h.nic.rs",
+		"l.nic.rs"
+	]
+}

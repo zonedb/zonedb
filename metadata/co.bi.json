@@ -1,4 +1,11 @@
 {
 	"domain": "co.bi",
+	"nameServers": [
+		"anyns.nic.bi",
+		"ns.nic.bi",
+		"ns1.nic.bi",
+		"ns-bi.afrinic.net",
+		"bi.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

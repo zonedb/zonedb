@@ -1,4 +1,10 @@
 {
 	"domain": "art.dz",
+	"nameServers": [
+		"ns1.ayrade.dz",
+		"ns2.ayrade.dz",
+		"ns1.nic.dz",
+		"ns2.nic.dz"
+	],
 	"codePoints": "--09az"
 }

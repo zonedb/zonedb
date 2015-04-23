@@ -1,4 +1,8 @@
 {
 	"domain": "gov.kn",
+	"nameServers": [
+		"ns1.gov.kn",
+		"ns2.gov.kn"
+	],
 	"codePoints": "--09az"
 }

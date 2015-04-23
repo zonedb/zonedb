@@ -1,4 +1,12 @@
 {
 	"domain": "hb.cn",
+	"nameServers": [
+		"a.dns.cn",
+		"b.dns.cn",
+		"c.dns.cn",
+		"d.dns.cn",
+		"e.dns.cn",
+		"cns.cernet.net"
+	],
 	"codePoints": "--09az"
 }

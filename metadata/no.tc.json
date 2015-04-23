@@ -1,4 +1,8 @@
 {
 	"domain": "no.tc",
+	"nameServers": [
+		"ns1.iwantmyname.net",
+		"ns2.iwantmyname.net"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,10 @@
 {
 	"domain": "co.mw",
+	"nameServers": [
+		"rip.psg.com",
+		"domwe.sdn.mw",
+		"sec3.apnic.net",
+		"chambo.sdnp.org.mw"
+	],
 	"codePoints": "--09az"
 }

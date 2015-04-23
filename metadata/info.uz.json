@@ -1,4 +1,8 @@
 {
 	"domain": "info.uz",
+	"nameServers": [
+		"ns.ol.uz",
+		"ns.tshtt.uz"
+	],
 	"codePoints": "--09az"
 }

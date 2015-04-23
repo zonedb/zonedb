@@ -1,4 +1,8 @@
 {
 	"domain": "edu.gd",
+	"nameServers": [
+		"ns1.siteground132.com",
+		"ns2.siteground132.com"
+	],
 	"codePoints": "--09az"
 }

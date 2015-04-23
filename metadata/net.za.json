@@ -1,4 +1,9 @@
 {
 	"domain": "net.za",
+	"nameServers": [
+		"za-ns.anycast.pch.net",
+		"disa.tenet.ac.za",
+		"ns0.is.co.za"
+	],
 	"codePoints": "--09az"
 }

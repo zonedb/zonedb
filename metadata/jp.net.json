@@ -1,5 +1,12 @@
 {
 	"domain": "jp.net",
 	"whoisServer": "whois.centralnic.com",
+	"nameServers": [
+		"deleted-d74e7801ed95a027f943829f4bb5cfb9.dummyns.com",
+		"ns1.centralnic.net",
+		"ns2.centralnic.net",
+		"ns3.centralnic.net",
+		"ns4.centralnic.net"
+	],
 	"codePoints": "--09az"
 }

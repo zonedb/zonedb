@@ -1,4 +1,10 @@
 {
 	"domain": "gc.ca",
+	"nameServers": [
+		"gocns-kedc.gc.ca",
+		"gocns-pdp.gc.ca",
+		"dns1.nrc.ca",
+		"dns2.nrc.ca"
+	],
 	"codePoints": "--09az"
 }

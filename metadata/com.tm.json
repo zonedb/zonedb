@@ -1,4 +1,8 @@
 {
 	"domain": "com.tm",
+	"nameServers": [
+		"ns05.telecom.tm",
+		"ns06.telecom.tm"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,12 @@
 {
 	"domain": "asia.com",
+	"nameServers": [
+		"pdns5.ultradns.info",
+		"pdns1.ultradns.net",
+		"pdns2.ultradns.net",
+		"pdns3.ultradns.org",
+		"pdns4.ultradns.org",
+		"pdns6.ultradns.co.uk"
+	],
 	"codePoints": "--09az"
 }

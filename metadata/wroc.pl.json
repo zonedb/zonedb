@@ -1,4 +1,12 @@
 {
 	"domain": "wroc.pl",
+	"nameServers": [
+		"kirdan.nask.net.pl",
+		"bilbo.nask.org.pl",
+		"sun2.pwr.wroc.pl",
+		"wask.wask.wroc.pl",
+		"ns1.net.icm.edu.pl",
+		"ldhpux.immt.pwr.wroc.pl"
+	],
 	"codePoints": "--09az"
 }

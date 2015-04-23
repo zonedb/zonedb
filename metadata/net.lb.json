@@ -1,4 +1,9 @@
 {
 	"domain": "net.lb",
+	"nameServers": [
+		"rip.psg.com",
+		"elissa.aub.edu.lb",
+		"zeina.aub.edu.lb"
+	],
 	"codePoints": "--09az"
 }

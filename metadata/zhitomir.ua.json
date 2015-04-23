@@ -1,5 +1,11 @@
 {
 	"domain": "zhitomir.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"ns.lucky.net",
+		"ba1.ns.ua",
+		"nix.ns.ua",
+		"impuls.zhitomir.ua"
+	],
 	"codePoints": "--09az"
 }

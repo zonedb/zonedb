@@ -1,4 +1,12 @@
 {
 	"domain": "org.bz",
+	"nameServers": [
+		"a0.cctld.afilias-nst.info",
+		"a2.cctld.afilias-nst.info",
+		"c0.cctld.afilias-nst.info",
+		"b0.cctld.afilias-nst.org",
+		"b2.cctld.afilias-nst.org",
+		"d0.cctld.afilias-nst.org"
+	],
 	"codePoints": "--09az"
 }

@@ -1,0 +1,7 @@
+{
+	"domain": "edu.sl",
+	"nameServers": [
+		"ns1.neoip.com",
+		"ns2.neoip.com"
+	]
+}

@@ -1,4 +1,11 @@
 {
 	"domain": "erotica.hu",
+	"nameServers": [
+		"b.hu",
+		"c.hu",
+		"d.hu",
+		"ns.nic.hu",
+		"ns-s.nic.hu"
+	],
 	"codePoints": "--09az"
 }

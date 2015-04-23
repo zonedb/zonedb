@@ -1,0 +1,9 @@
+{
+	"domain": "bialowieza.pl",
+	"nameServers": [
+		"a-dns.pl",
+		"e-dns.pl",
+		"f-dns.pl",
+		"i-dns.pl"
+	]
+}

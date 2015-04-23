@@ -1,4 +1,8 @@
 {
 	"domain": "gov.ky",
+	"nameServers": [
+		"ns.gov.ky",
+		"ns2.gov.ky"
+	],
 	"codePoints": "--09az"
 }

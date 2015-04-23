@@ -1,4 +1,11 @@
 {
 	"domain": "edu.mw",
+	"nameServers": [
+		"rip.psg.com",
+		"domwe.sdn.mw",
+		"sec3.apnic.net",
+		"chambo.sdnp.org.mw",
+		"mw.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

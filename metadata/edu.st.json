@@ -1,4 +1,9 @@
 {
 	"domain": "edu.st",
+	"nameServers": [
+		"ns1.nic.st",
+		"ns2.nic.st",
+		"ns3.nic.st"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,8 @@
 {
 	"domain": "at.tt",
+	"nameServers": [
+		"a.ns.viennaweb.at",
+		"b.ns.viennaweb.at"
+	],
 	"codePoints": "--09az"
 }

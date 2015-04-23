@@ -1,4 +1,9 @@
 {
 	"domain": "nom.nl",
+	"nameServers": [
+		"ns01.is.nl",
+		"ns02.is.nl",
+		"ns03.is.nl"
+	],
 	"codePoints": "--09az"
 }

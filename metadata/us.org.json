@@ -1,5 +1,15 @@
 {
 	"domain": "us.org",
 	"whoisServer": "whois.centralnic.com",
+	"nameServers": [
+		"ns1.centralnic.net",
+		"ns2.centralnic.net",
+		"ns3.centralnic.net",
+		"ns4.centralnic.net",
+		"ns5.centralnic.net",
+		"ns6.centralnic.net",
+		"ns7.centralnic.net",
+		"ns8.centralnic.net"
+	],
 	"codePoints": "--09az"
 }

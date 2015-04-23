@@ -1,4 +1,12 @@
 {
 	"domain": "com.kw",
+	"nameServers": [
+		"dns1.kw",
+		"dns2.kw",
+		"dns3.kw",
+		"sec1.apnic.net",
+		"kwns.kems.net",
+		"sns-pb.isc.org"
+	],
 	"codePoints": "--09az"
 }

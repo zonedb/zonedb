@@ -1,4 +1,14 @@
 {
 	"domain": "edu.ar",
+	"nameServers": [
+		"ns1.uba.ar",
+		"ns2.uba.ar",
+		"ns2.switch.ch",
+		"ns1.riu.edu.ar",
+		"noc.uncu.edu.ar",
+		"unlp.unlp.edu.ar",
+		"ns1.mrecic.gov.ar",
+		"ns2.mrecic.gov.ar"
+	],
 	"codePoints": "--09az"
 }

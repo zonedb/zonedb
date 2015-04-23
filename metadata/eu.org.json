@@ -1,4 +1,13 @@
 {
 	"domain": "eu.org",
-	"whoisServer": "whois.eu.org"
+	"whoisServer": "whois.eu.org",
+	"nameServers": [
+		"canada.wolfhugel.eu",
+		"ns1.absolight.net",
+		"dns3.gandi.net",
+		"ns3.keltia.net",
+		"ns-slave.free.org",
+		"auth1.dns.elm.net",
+		"ns.bortzmeyer.eu.org"
+	]
 }

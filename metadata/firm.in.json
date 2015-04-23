@@ -1,5 +1,15 @@
 {
 	"domain": "firm.in",
 	"whoisServer": "whois.inregistry.net",
+	"nameServers": [
+		"a1.in.afilias-nst.in",
+		"b1.in.afilias-nst.in",
+		"a0.cctld.afilias-nst.info",
+		"c0.cctld.afilias-nst.info",
+		"a2.in.afilias-nst.info",
+		"b0.cctld.afilias-nst.org",
+		"d0.cctld.afilias-nst.org",
+		"b2.in.afilias-nst.org"
+	],
 	"codePoints": "--09az"
 }

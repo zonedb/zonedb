@@ -1,4 +1,10 @@
 {
 	"domain": "sa.com",
-	"whoisServer": "whois.centralnic.com"
+	"whoisServer": "whois.centralnic.com",
+	"nameServers": [
+		"ns1.centralnic.net",
+		"ns2.centralnic.net",
+		"ns3.centralnic.net",
+		"ns4.centralnic.net"
+	]
 }

@@ -1,4 +1,13 @@
 {
 	"domain": "co.rw",
+	"nameServers": [
+		"ns-rw.afrinic.net",
+		"sns-pb.isc.org",
+		"ns2.mtnonline.rw",
+		"ns3.rdb.rw",
+		"fork.sth.dnsnode.net",
+		"ns1.ricta.org.rw",
+		"pch.ricta.org.rw"
+	],
 	"codePoints": "--09az"
 }

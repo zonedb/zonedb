@@ -4,5 +4,9 @@
 	"tags": [
 		"private"
 	],
+	"nameServers": [
+		"ns1.metaregistrar.nl",
+		"ns2.metaregistrar.nl"
+	],
 	"codePoints": "--09az"
 }

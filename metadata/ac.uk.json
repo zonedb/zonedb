@@ -1,5 +1,14 @@
 {
 	"domain": "ac.uk",
 	"whoisServer": "whois.ja.net",
+	"nameServers": [
+		"ns0.ja.net",
+		"ns2.ja.net",
+		"ns3.ja.net",
+		"ns4.ja.net",
+		"ns1.surfnet.nl",
+		"ws-fra1.win-ip.dfn.de",
+		"auth03.ns.uu.net"
+	],
 	"codePoints": "--09az"
 }

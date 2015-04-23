@@ -1,4 +1,10 @@
 {
 	"domain": "upt.al",
+	"nameServers": [
+		"complab.upt.al",
+		"nic.grnet.gr",
+		"ns5.univie.ac.at",
+		"itgbox.iat.cnr.it"
+	],
 	"codePoints": "--09az"
 }

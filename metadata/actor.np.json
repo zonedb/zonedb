@@ -1,5 +1,9 @@
 {
 	"domain": "actor.np",
 	"infoURL": "http://register.mos.com.np/np-ccTLDs",
+	"nameServers": [
+		"manaslu.mos.com.np",
+		"sungava.mos.com.np"
+	],
 	"codePoints": "--09az"
 }

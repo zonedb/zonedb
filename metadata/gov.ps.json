@@ -1,4 +1,9 @@
 {
 	"domain": "gov.ps",
+	"nameServers": [
+		"ns1.palgov.net",
+		"dns1.gov.ps",
+		"ns2.pnina.ps"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,13 @@
 {
 	"domain": "press.ma",
+	"nameServers": [
+		"dns.inria.fr",
+		"ns2.nic.fr",
+		"ns4.registre.ma",
+		"ns1.iam.net.ma",
+		"ns2.iam.net.ma",
+		"ns3.iam.net.ma",
+		"ma.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

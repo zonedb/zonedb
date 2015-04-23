@@ -1,4 +1,11 @@
 {
 	"domain": "co.cu",
+	"nameServers": [
+		"ns3.etecsa.net",
+		"ns4.etecsa.net",
+		"ns5.etecsa.net",
+		"ns3.etecsa.net.cu",
+		"ns4.etecsa.net.cu"
+	],
 	"codePoints": "--09az"
 }

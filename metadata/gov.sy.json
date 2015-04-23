@@ -1,4 +1,9 @@
 {
 	"domain": "gov.sy",
+	"nameServers": [
+		"ns1.tld.sy",
+		"ns2.tld.sy",
+		"pch.anycast.tld.sy"
+	],
 	"codePoints": "--09az"
 }

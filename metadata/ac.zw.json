@@ -1,4 +1,12 @@
 {
 	"domain": "ac.zw",
+	"nameServers": [
+		"news-tokyo.gip.net",
+		"ns2.gip.net",
+		"mahobho.uz.ac.zw",
+		"shrike.uz.ac.zw",
+		"ns1.telone.co.zw",
+		"zw.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

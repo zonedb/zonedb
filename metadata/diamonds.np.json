@@ -1,5 +1,13 @@
 {
 	"domain": "diamonds.np",
 	"infoURL": "http://register.mos.com.np/np-ccTLDs",
+	"nameServers": [
+		"sec3.apnic.net",
+		"yarrina.connect.com.au",
+		"np-ns.anycast.pch.net",
+		"shikhar.mos.com.np",
+		"np-ns.npix.net.np",
+		"np.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

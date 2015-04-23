@@ -1,4 +1,10 @@
 {
 	"domain": "edu.ua",
+	"nameServers": [
+		"deneb.dfn.de",
+		"ba1.ns.ua",
+		"nix.ns.ua",
+		"ho1.ns.edu.ua"
+	],
 	"codePoints": "--09az"
 }

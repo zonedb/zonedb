@@ -1,0 +1,10 @@
+{
+	"domain": "com.er",
+	"nameServers": [
+		"ns1.punchdown.net",
+		"ns0.punchdown.org",
+		"sawanew.noc.net.er",
+		"zaranew.noc.net.er",
+		"er.cctld.authdns.ripe.net"
+	]
+}

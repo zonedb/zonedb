@@ -1,4 +1,14 @@
 {
 	"domain": "co.gy",
+	"nameServers": [
+		"phloem.uoregon.edu",
+		"sns-pb.isc.org",
+		"ns1.gtt.co.gy",
+		"ns2.gtt.co.gy",
+		"a.gy.dyntld.net",
+		"b.gy.dyntld.net",
+		"gy-ns.anycast.pch.net",
+		"gy.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

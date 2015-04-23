@@ -1,4 +1,10 @@
 {
 	"domain": "volyn.ua",
+	"nameServers": [
+		"nix.ns.ua",
+		"ns.zp.ua",
+		"ho1.ns.lutsk.ua",
+		"ns.vizor.lutsk.ua"
+	],
 	"codePoints": "--09az"
 }

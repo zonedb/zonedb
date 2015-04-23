@@ -1,4 +1,8 @@
 {
 	"domain": "gov.pt",
+	"nameServers": [
+		"ns02.fccn.pt",
+		"dns1.gov.pt"
+	],
 	"codePoints": "--09az"
 }

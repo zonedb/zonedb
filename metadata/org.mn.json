@@ -1,4 +1,8 @@
 {
 	"domain": "org.mn",
+	"nameServers": [
+		"ns1.magic.mn",
+		"ns3.magic.mn"
+	],
 	"codePoints": "--09az"
 }

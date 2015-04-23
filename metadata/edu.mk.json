@@ -1,4 +1,10 @@
 {
 	"domain": "edu.mk",
+	"nameServers": [
+		"tld1.marnet.mk",
+		"ns2.arnes.si",
+		"dns-mk.univie.ac.at",
+		"d.ext.nic.cz"
+	],
 	"codePoints": "--09az"
 }

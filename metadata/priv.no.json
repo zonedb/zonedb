@@ -1,4 +1,9 @@
 {
 	"domain": "priv.no",
+	"nameServers": [
+		"x.nic.no",
+		"y.nic.no",
+		"z.nic.no"
+	],
 	"codePoints": "--09az"
 }

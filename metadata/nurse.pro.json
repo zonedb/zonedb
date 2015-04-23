@@ -1,4 +1,8 @@
 {
 	"domain": "nurse.pro",
+	"nameServers": [
+		"ns1-parking.encirca.info",
+		"ns2-parking.encirca.info"
+	],
 	"codePoints": "--09az"
 }

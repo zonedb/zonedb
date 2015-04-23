@@ -1,4 +1,9 @@
 {
 	"domain": "net.pn",
+	"nameServers": [
+		"sns-pb.isc.org",
+		"ns0.pitcairn.net.pn",
+		"ns2.pitcairn.net.pn"
+	],
 	"codePoints": "--09az"
 }

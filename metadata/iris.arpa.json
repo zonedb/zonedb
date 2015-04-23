@@ -1,4 +1,11 @@
 {
 	"domain": "iris.arpa",
+	"nameServers": [
+		"sec3.apnic.net",
+		"a.iana-servers.net",
+		"b.iana-servers.net",
+		"c.iana-servers.net",
+		"ns2.lacnic.net"
+	],
 	"codePoints": "--09az"
 }

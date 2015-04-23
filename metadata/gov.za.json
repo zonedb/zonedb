@@ -1,5 +1,11 @@
 {
 	"domain": "gov.za",
 	"whoisServer": "whois.gov.za",
+	"nameServers": [
+		"ns1.gov.za",
+		"ns2.gov.za",
+		"ns3.gov.za",
+		"hippo.ru.ac.za"
+	],
 	"codePoints": "--09az"
 }

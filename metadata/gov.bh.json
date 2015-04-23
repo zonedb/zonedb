@@ -1,4 +1,8 @@
 {
 	"domain": "gov.bh",
+	"nameServers": [
+		"ns1.gov.bh",
+		"ns2.gov.bh"
+	],
 	"codePoints": "--09az"
 }

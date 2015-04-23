@@ -1,4 +1,9 @@
 {
 	"domain": "asso.mc",
+	"nameServers": [
+		"ns1.nic.mc",
+		"ns2.nic.mc",
+		"mc.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

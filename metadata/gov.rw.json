@@ -1,4 +1,8 @@
 {
 	"domain": "gov.rw",
+	"nameServers": [
+		"ns1.rdb.rw",
+		"ns2.rdb.rw"
+	],
 	"codePoints": "--09az"
 }

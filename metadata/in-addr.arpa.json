@@ -1,4 +1,12 @@
 {
 	"domain": "in-addr.arpa",
+	"nameServers": [
+		"a.in-addr-servers.arpa",
+		"b.in-addr-servers.arpa",
+		"c.in-addr-servers.arpa",
+		"d.in-addr-servers.arpa",
+		"e.in-addr-servers.arpa",
+		"f.in-addr-servers.arpa"
+	],
 	"codePoints": "--09az"
 }

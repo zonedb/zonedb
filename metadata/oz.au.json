@@ -1,4 +1,9 @@
 {
 	"domain": "oz.au",
+	"nameServers": [
+		"munnari.oz.au",
+		"rip.psg.com",
+		"ns.sw.oz.au"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,11 @@
 {
 	"domain": "org.jo",
+	"nameServers": [
+		"rip.psg.com",
+		"amra.nic.gov.jo",
+		"jordan1st.nic.gov.jo",
+		"petra.nic.gov.jo",
+		"jo.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,13 @@
 {
 	"domain": "net.pa",
+	"nameServers": [
+		"ns.pa",
+		"ns2.pa",
+		"ns.dns.br",
+		"ns-ext.nic.cl",
+		"dns.nic.cr",
+		"sns-pb.isc.org",
+		"ns.nic.pa"
+	],
 	"codePoints": "--09az"
 }

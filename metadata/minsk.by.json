@@ -1,4 +1,9 @@
 {
 	"domain": "minsk.by",
+	"nameServers": [
+		"ns1.minsk.by",
+		"ns1.open.by",
+		"ns2.open.by"
+	],
 	"codePoints": "--09az"
 }

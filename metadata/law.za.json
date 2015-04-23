@@ -1,4 +1,9 @@
 {
 	"domain": "law.za",
+	"nameServers": [
+		"ns0.plig.net",
+		"ns1.law.za",
+		"ns0.is.co.za"
+	],
 	"codePoints": "--09az"
 }

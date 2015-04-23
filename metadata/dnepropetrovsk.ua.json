@@ -1,5 +1,11 @@
 {
 	"domain": "dnepropetrovsk.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"ns.dp.ua",
+		"s1.ns.dp.ua",
+		"s2.ns.dp.ua",
+		"s3.ns.dp.ua"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,8 @@
 {
 	"domain": "gov.gd",
+	"nameServers": [
+		"ns25.domaincontrol.com",
+		"ns26.domaincontrol.com"
+	],
 	"codePoints": "--09az"
 }

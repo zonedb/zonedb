@@ -1,4 +1,9 @@
 {
 	"domain": "gov.by",
+	"nameServers": [
+		"u1.hoster.by",
+		"u2.hoster.by",
+		"ns1.oac.gov.by"
+	],
 	"codePoints": "--09az"
 }

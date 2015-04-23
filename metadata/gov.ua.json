@@ -1,4 +1,11 @@
 {
 	"domain": "gov.ua",
+	"nameServers": [
+		"sns-pb.isc.org",
+		"ba1.ns.ua",
+		"nix.ns.ua",
+		"ho1.ns.gov.ua",
+		"ua.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

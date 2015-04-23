@@ -1,4 +1,9 @@
 {
 	"domain": "net.af",
+	"nameServers": [
+		"ns.anycast.nic.af",
+		"a.af.dyntld.net",
+		"b.af.dyntld.net"
+	],
 	"codePoints": "--09az"
 }

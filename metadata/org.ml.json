@@ -1,4 +1,9 @@
 {
 	"domain": "org.ml",
+	"nameServers": [
+		"dns.gouv.ml",
+		"djamako.nic.ml",
+		"ns1.ribtelecom.net"
+	],
 	"codePoints": "--09az"
 }

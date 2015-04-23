@@ -1,4 +1,13 @@
 {
 	"domain": "gov.py",
+	"nameServers": [
+		"ns.dns.br",
+		"ns2.switch.ch",
+		"ns3.nic.mx",
+		"auth00.ns.uu.net",
+		"ns.cnc.una.py",
+		"sce.cnc.una.py",
+		"py.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

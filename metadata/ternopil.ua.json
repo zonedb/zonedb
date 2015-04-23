@@ -1,5 +1,13 @@
 {
 	"domain": "ternopil.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"ns.lucky.net",
+		"ns2.uar.net",
+		"ns.dn.ua",
+		"ns2.km.ua",
+		"nix.ns.ua",
+		"ns.bit.ternopil.ua"
+	],
 	"codePoints": "--09az"
 }

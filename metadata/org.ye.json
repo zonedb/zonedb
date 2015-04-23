@@ -1,4 +1,8 @@
 {
 	"domain": "org.ye",
+	"nameServers": [
+		"sah1.ye",
+		"sah2.ye"
+	],
 	"codePoints": "--09az"
 }

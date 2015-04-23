@@ -1,4 +1,12 @@
 {
 	"domain": "hk.org",
+	"nameServers": [
+		"a.udrtld.net",
+		"b.udrtld.net",
+		"c.udrtld.net",
+		"d.udrtld.net",
+		"e.udrtld.net",
+		"f.udrtld.net"
+	],
 	"codePoints": "--09az"
 }

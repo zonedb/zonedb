@@ -1,4 +1,12 @@
 {
 	"domain": "co.ca",
-	"whoisServer": "whois.co.ca"
+	"whoisServer": "whois.co.ca",
+	"nameServers": [
+		"primary.relay.co.ca",
+		"quaternary.relay.co.ca",
+		"quinary.relay.co.ca",
+		"secondary.relay.co.ca",
+		"senary.relay.co.ca",
+		"tertiary.relay.co.ca"
+	]
 }

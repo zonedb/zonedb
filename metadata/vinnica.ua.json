@@ -1,5 +1,12 @@
 {
 	"domain": "vinnica.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"nss.sovamua.com",
+		"ba1.ns.ua",
+		"nix.ns.ua",
+		"ns1.vn.ua",
+		"ns1.vsmu.vinnica.ua"
+	],
 	"codePoints": "--09az"
 }

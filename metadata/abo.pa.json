@@ -1,4 +1,12 @@
 {
 	"domain": "abo.pa",
+	"nameServers": [
+		"ns.pa",
+		"ns2.pa",
+		"ns.dns.br",
+		"ns-ext.nic.cl",
+		"dns.nic.cr",
+		"ns.nic.pa"
+	],
 	"codePoints": "--09az"
 }

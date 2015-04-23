@@ -1,5 +1,12 @@
 {
 	"domain": "org.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"sns-pb.isc.org",
+		"ns.dn.ua",
+		"ba1.ns.ua",
+		"nix.ns.ua",
+		"ho1.ns.org.ua"
+	],
 	"codePoints": "--09az"
 }

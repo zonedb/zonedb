@@ -1,5 +1,12 @@
 {
 	"domain": "org.za",
 	"whoisServer": "whois.org.za",
+	"nameServers": [
+		"ns3.iafrica.com",
+		"ns4.iafrica.com",
+		"ns0.plig.net",
+		"za-ns.anycast.pch.net",
+		"ns0.is.co.za"
+	],
 	"codePoints": "--09az"
 }

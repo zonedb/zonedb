@@ -1,4 +1,10 @@
 {
 	"domain": "org.bh",
+	"nameServers": [
+		"ns.batelco.com.bh",
+		"ns2.batelco.com.bh",
+		"ns3.batelco.com.bh",
+		"ns4.batelco.com.bh"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,14 @@
 {
 	"domain": "net.me",
+	"nameServers": [
+		"ns.nic.me",
+		"ns2.nic.me",
+		"a0.cctld.afilias-nst.info",
+		"c0.cctld.afilias-nst.info",
+		"a2.me.afilias-nst.info",
+		"b0.cctld.afilias-nst.org",
+		"d0.cctld.afilias-nst.org",
+		"b2.me.afilias-nst.org"
+	],
 	"codePoints": "--09az"
 }

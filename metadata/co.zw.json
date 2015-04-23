@@ -1,0 +1,10 @@
+{
+	"domain": "co.zw",
+	"nameServers": [
+		"hippo.ru.ac.za",
+		"ns1.zispa.org.zw",
+		"zw.cctld.authdns.ripe.net",
+		"sns-pba.dm1.sns.isc.org",
+		"sns-pba.dm3.sns.isc.org"
+	]
+}

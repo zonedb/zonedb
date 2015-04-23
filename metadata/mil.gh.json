@@ -1,4 +1,11 @@
 {
 	"domain": "mil.gh",
+	"nameServers": [
+		"austin.gh.com",
+		"mantse.gh.com",
+		"rip.psg.com",
+		"fork.sth.dnsnode.net",
+		"hippo.ru.ac.za"
+	],
 	"codePoints": "--09az"
 }

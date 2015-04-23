@@ -1,4 +1,8 @@
 {
 	"domain": "from.hr",
+	"nameServers": [
+		"dns1.from.hr",
+		"dns2.from.hr"
+	],
 	"codePoints": "--09az"
 }

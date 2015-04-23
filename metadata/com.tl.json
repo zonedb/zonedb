@@ -1,4 +1,9 @@
 {
 	"domain": "com.tl",
+	"nameServers": [
+		"a.tl.dyntld.net",
+		"b.tl.dyntld.net",
+		"ns.anycast.nic.tl"
+	],
 	"codePoints": "--09az"
 }

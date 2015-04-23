@@ -1,5 +1,10 @@
 {
 	"domain": "cn.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"ns3.cn.ua",
+		"ns.dn.ua",
+		"nix.ns.ua"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,11 @@
 {
 	"domain": "org.zw",
+	"nameServers": [
+		"news-tokyo.gip.net",
+		"ns2.gip.net",
+		"ns1.telone.co.zw",
+		"ns2.telone.co.zw",
+		"zw.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

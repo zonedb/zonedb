@@ -1,4 +1,13 @@
 {
 	"domain": "csiro.au",
+	"nameServers": [
+		"ns1.csiro.au",
+		"ns2.csiro.au",
+		"ns3.csiro.au",
+		"dns1.telstra.net",
+		"ns1.aarnet.net.au",
+		"ns2.aarnet.net.au",
+		"ns3.aarnet.net.au"
+	],
 	"codePoints": "--09az"
 }

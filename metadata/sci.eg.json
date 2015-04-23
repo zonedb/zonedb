@@ -1,4 +1,8 @@
 {
 	"domain": "sci.eg",
+	"nameServers": [
+		"rip.psg.com",
+		"frcu.eun.eg"
+	],
 	"codePoints": "--09az"
 }

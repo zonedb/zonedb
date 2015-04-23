@@ -1,4 +1,8 @@
 {
 	"domain": "edu.mn",
+	"nameServers": [
+		"ns.erdemnet.mn",
+		"ns2.erdemnet.mn"
+	],
 	"codePoints": "--09az"
 }

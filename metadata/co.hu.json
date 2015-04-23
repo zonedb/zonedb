@@ -1,4 +1,12 @@
 {
 	"domain": "co.hu",
+	"nameServers": [
+		"a.hu",
+		"b.hu",
+		"c.hu",
+		"d.hu",
+		"ns-s.nic.hu",
+		"ns12.communitydns.net"
+	],
 	"codePoints": "--09az"
 }

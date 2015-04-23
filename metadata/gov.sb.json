@@ -1,4 +1,9 @@
 {
 	"domain": "gov.sb",
+	"nameServers": [
+		"pch.nic.sb",
+		"a.sb.dyntld.net",
+		"b.sb.dyntld.net"
+	],
 	"codePoints": "--09az"
 }

@@ -1,5 +1,12 @@
 {
 	"domain": "edu.ru",
 	"whoisServer": "whois.informika.ru",
+	"nameServers": [
+		"ns2.free.net",
+		"ns.informika.ru",
+		"ns2.informika.ru",
+		"ns.msu.ru",
+		"ns.runnet.ru"
+	],
 	"codePoints": "--09az"
 }

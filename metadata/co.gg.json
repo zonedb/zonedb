@@ -1,4 +1,9 @@
 {
 	"domain": "co.gg",
+	"nameServers": [
+		"d.ci-servers.je",
+		"a.ci-servers.net",
+		"c.ci-servers.org"
+	],
 	"codePoints": "--09az"
 }

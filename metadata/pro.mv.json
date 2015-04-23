@@ -1,4 +1,7 @@
 {
 	"domain": "pro.mv",
+	"nameServers": [
+		"host13.dhivehinet.net.mv"
+	],
 	"codePoints": "--09az"
 }

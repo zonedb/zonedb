@@ -1,4 +1,8 @@
 {
 	"domain": "soros.al",
+	"nameServers": [
+		"ns1.hostmonster.com",
+		"ns2.hostmonster.com"
+	],
 	"codePoints": "--09az"
 }

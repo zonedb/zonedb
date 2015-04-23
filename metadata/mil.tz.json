@@ -1,4 +1,9 @@
 {
 	"domain": "mil.tz",
+	"nameServers": [
+		"nic.co.tz",
+		"ns.anycast.co.tz",
+		"ns2.tznic.or.tz"
+	],
 	"codePoints": "--09az"
 }

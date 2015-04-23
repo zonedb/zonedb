@@ -1,4 +1,9 @@
 {
 	"domain": "com.ru",
+	"nameServers": [
+		"ns3-com.nic.ru",
+		"ns4-com.nic.ru",
+		"ns8-com.nic.ru"
+	],
 	"codePoints": "--09az"
 }

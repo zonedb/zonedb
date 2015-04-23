@@ -1,4 +1,10 @@
 {
 	"domain": "gov.lt",
+	"nameServers": [
+		"ns2.domreg.lt",
+		"ns3.domreg.lt",
+		"ns3.is.lt",
+		"ns4.is.lt"
+	],
 	"codePoints": "--09az"
 }

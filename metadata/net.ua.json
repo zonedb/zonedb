@@ -1,4 +1,15 @@
 {
 	"domain": "net.ua",
+	"nameServers": [
+		"sns-pb.isc.org",
+		"ns.dn.ua",
+		"ns.kh.ua",
+		"ho1.net.ua",
+		"ns.net.ua",
+		"ba1.ns.ua",
+		"nix.ns.ua",
+		"ns.sm.ua",
+		"ns.zp.ua"
+	],
 	"codePoints": "--09az"
 }

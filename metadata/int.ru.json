@@ -1,4 +1,9 @@
 {
 	"domain": "int.ru",
+	"nameServers": [
+		"ns.macomnet.ru",
+		"ns2.macomnet.ru",
+		"ns3.macomnet.ru"
+	],
 	"codePoints": "--09az"
 }

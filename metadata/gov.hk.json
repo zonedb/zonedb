@@ -1,4 +1,15 @@
 {
 	"domain": "gov.hk",
+	"nameServers": [
+		"b.hkirc.net.hk",
+		"c.hkirc.net.hk",
+		"d.hkirc.net.hk",
+		"u.hkirc.net.hk",
+		"v.hkirc.net.hk",
+		"w.hkirc.net.hk",
+		"x.hkirc.net.hk",
+		"y.hkirc.net.hk",
+		"z.hkirc.net.hk"
+	],
 	"codePoints": "--09az"
 }

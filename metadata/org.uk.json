@@ -1,4 +1,16 @@
 {
 	"domain": "org.uk",
+	"nameServers": [
+		"ns1.nic.uk",
+		"ns2.nic.uk",
+		"ns4.nic.uk",
+		"ns5.nic.uk",
+		"ns6.nic.uk",
+		"ns7.nic.uk",
+		"nsa.nic.uk",
+		"nsb.nic.uk",
+		"nsc.nic.uk",
+		"nsd.nic.uk"
+	],
 	"codePoints": "--09az"
 }

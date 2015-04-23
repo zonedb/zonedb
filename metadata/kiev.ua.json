@@ -1,5 +1,12 @@
 {
 	"domain": "kiev.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"sns-pb.isc.org",
+		"ba1.ns.ua",
+		"nix.ns.ua",
+		"k.ns.com.ua",
+		"ho1.ns.kiev.ua"
+	],
 	"codePoints": "--09az"
 }

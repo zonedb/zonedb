@@ -1,4 +1,11 @@
 {
 	"domain": "gov.kh",
+	"nameServers": [
+		"sec3.apnic.net",
+		"ns.camnet.com.kh",
+		"dns1.online.com.kh",
+		"ns1.dns.net.kh",
+		"kh.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

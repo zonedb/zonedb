@@ -1,4 +1,12 @@
 {
 	"domain": "gv.at",
+	"nameServers": [
+		"ns12.govix.at",
+		"ns5.univie.ac.at",
+		"ns7.univie.ac.at",
+		"ns8.univie.ac.at",
+		"dns1.magwien.gv.at",
+		"dns1.statistik.gv.at"
+	],
 	"codePoints": "--09az"
 }

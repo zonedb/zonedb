@@ -1,4 +1,9 @@
 {
 	"domain": "gov.az",
+	"nameServers": [
+		"ns1.online.az",
+		"ns2.online.az",
+		"ns3.online.az"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,11 @@
 {
 	"domain": "edu.bi",
+	"nameServers": [
+		"ns.nic.bi",
+		"ns1.nic.bi",
+		"ns-bi.afrinic.net",
+		"ns-bi.ripe.net",
+		"bi.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

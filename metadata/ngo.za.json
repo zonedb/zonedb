@@ -1,4 +1,9 @@
 {
 	"domain": "ngo.za",
+	"nameServers": [
+		"ns1.sn.apc.org",
+		"ns2.sn.apc.org",
+		"antares.wisenet.co.za"
+	],
 	"codePoints": "--09az"
 }

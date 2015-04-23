@@ -1,4 +1,9 @@
 {
 	"domain": "gs.no",
+	"nameServers": [
+		"ns.hyp.net",
+		"ns1.kk88.no",
+		"ns2.kk88.no"
+	],
 	"codePoints": "--09az"
 }

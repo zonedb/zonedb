@@ -1,4 +1,8 @@
 {
 	"domain": "mil.kz",
+	"nameServers": [
+		"ns.nic.kz",
+		"ns2.nic.kz"
+	],
 	"codePoints": "--09az"
 }

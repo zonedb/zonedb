@@ -1,0 +1,12 @@
+{
+	"domain": "edu.tw",
+	"nameServers": [
+		"moemoon.edu.tw",
+		"moestar.edu.tw",
+		"moevax.edu.tw",
+		"a.twnic.net.tw",
+		"b.twnic.net.tw",
+		"c.twnic.net.tw",
+		"d.twnic.net.tw"
+	]
+}

@@ -1,4 +1,10 @@
 {
 	"domain": "mobi.ke",
+	"nameServers": [
+		"ns-ke.afrinic.net",
+		"mzizi.kenic.or.ke",
+		"ns1.coza.net.za",
+		"ns.anycast.kenic.or.ke"
+	],
 	"codePoints": "--09az"
 }

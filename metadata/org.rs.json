@@ -1,4 +1,12 @@
 {
 	"domain": "org.rs",
+	"nameServers": [
+		"k.nic.rs",
+		"l.nic.rs",
+		"ns1.nic.rs",
+		"ns1.rnids.rs",
+		"ns2.rnids.rs",
+		"odisej.telekom.rs"
+	],
 	"codePoints": "--09az"
 }

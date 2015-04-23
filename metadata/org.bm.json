@@ -1,4 +1,9 @@
 {
 	"domain": "org.bm",
+	"nameServers": [
+		"ns1.bm",
+		"ns2.bm",
+		"ns3.bm"
+	],
 	"codePoints": "--09az"
 }

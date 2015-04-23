@@ -1,4 +1,10 @@
 {
 	"domain": "in.net",
+	"nameServers": [
+		"ns1.nic.in.net",
+		"ns2.nic.in.net",
+		"ns3.nic.in.net",
+		"ns4.nic.in.net"
+	],
 	"codePoints": "--09az"
 }

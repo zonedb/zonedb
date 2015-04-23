@@ -1,4 +1,10 @@
 {
 	"domain": "net.ir",
+	"nameServers": [
+		"a.nic.ir",
+		"b.nic.ir",
+		"ns5.univie.ac.at",
+		"ir.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

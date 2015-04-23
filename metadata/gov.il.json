@@ -1,4 +1,15 @@
 {
 	"domain": "gov.il",
+	"nameServers": [
+		"dns3.gov.il",
+		"nsa.ns.il",
+		"nsb.ns.il",
+		"nsd.ns.il",
+		"nse.ns.il",
+		"nsg.ns.il",
+		"sns-pb.isc.org",
+		"lookup.iucc.ac.il",
+		"ilns.ilan.net.il"
+	],
 	"codePoints": "--09az"
 }

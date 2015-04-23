@@ -1,4 +1,8 @@
 {
 	"domain": "edu.ge",
+	"nameServers": [
+		"ns.nic.ge",
+		"auth02.ns.uu.net"
+	],
 	"codePoints": "--09az"
 }

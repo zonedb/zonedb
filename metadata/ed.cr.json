@@ -1,0 +1,11 @@
+{
+	"domain": "ed.cr",
+	"nameServers": [
+		"tld.isc-sns.com",
+		"dns.nic.cr",
+		"p.nic.cr",
+		"tld.isc-sns.info",
+		"tld.isc-sns.net",
+		"cr.cctld.authdns.ripe.net"
+	]
+}

@@ -1,4 +1,9 @@
 {
 	"domain": "com.kg",
+	"nameServers": [
+		"ns.kg",
+		"as.asiainfo.kg",
+		"kg.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

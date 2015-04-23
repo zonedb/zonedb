@@ -1,4 +1,10 @@
 {
 	"domain": "gov.rs",
+	"nameServers": [
+		"ns1.gov.rs",
+		"ns2.gov.rs",
+		"ns1.nic.rs",
+		"dagda1.isp.telekom.rs"
+	],
 	"codePoints": "--09az"
 }

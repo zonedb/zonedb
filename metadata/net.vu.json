@@ -1,4 +1,9 @@
 {
 	"domain": "net.vu",
+	"nameServers": [
+		"efate.vanuatu.com.vu",
+		"futuna.vanuatu.com.vu",
+		"santo.vanuatu.com.vu"
+	],
 	"codePoints": "--09az"
 }

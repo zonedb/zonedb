@@ -1,4 +1,8 @@
 {
 	"domain": "gov.mr",
+	"nameServers": [
+		"dns.mauritania.mr",
+		"dns1.univ-nkc.mr"
+	],
 	"codePoints": "--09az"
 }

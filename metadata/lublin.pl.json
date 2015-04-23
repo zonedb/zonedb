@@ -1,4 +1,9 @@
 {
 	"domain": "lublin.pl",
+	"nameServers": [
+		"ns1.lublin.pl",
+		"ns2.lublin.pl",
+		"bilbo.nask.org.pl"
+	],
 	"codePoints": "--09az"
 }

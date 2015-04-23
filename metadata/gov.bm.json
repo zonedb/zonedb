@@ -1,4 +1,9 @@
 {
 	"domain": "gov.bm",
+	"nameServers": [
+		"dns1.gov.bm",
+		"dns2.gov.bm",
+		"dns3.gov.bm"
+	],
 	"codePoints": "--09az"
 }

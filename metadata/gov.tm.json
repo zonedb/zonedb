@@ -1,4 +1,9 @@
 {
 	"domain": "gov.tm",
+	"nameServers": [
+		"ns2.public-root.net",
+		"ns05.telecom.tm",
+		"web2.telecom.tm"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,8 @@
 {
 	"domain": "au.com",
+	"nameServers": [
+		"dns103.kddi.ne.jp",
+		"dns104.kddi.ne.jp"
+	],
 	"codePoints": "--09az"
 }

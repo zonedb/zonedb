@@ -1,4 +1,13 @@
 {
 	"domain": "net.pl",
+	"nameServers": [
+		"a-dns.pl",
+		"d-dns.pl",
+		"e-dns.pl",
+		"f-dns.pl",
+		"g-dns.pl",
+		"h-dns.pl",
+		"i-dns.pl"
+	],
 	"codePoints": "--09az"
 }

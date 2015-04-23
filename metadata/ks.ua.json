@@ -1,5 +1,12 @@
 {
 	"domain": "ks.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"ns.ks-host.com",
+		"ns.dn.ua",
+		"ns.kharkov.ua",
+		"nix.ns.ua",
+		"ho1.ns.ks.ua"
+	],
 	"codePoints": "--09az"
 }

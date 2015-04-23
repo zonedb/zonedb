@@ -1,4 +1,10 @@
 {
 	"domain": "info.tz",
+	"nameServers": [
+		"sns-pb.isc.org",
+		"nic.co.tz",
+		"ns.anycast.co.tz",
+		"ns2.tznic.or.tz"
+	],
 	"codePoints": "--09az"
 }

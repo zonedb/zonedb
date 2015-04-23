@@ -1,4 +1,7 @@
 {
 	"domain": "k12.vi",
+	"nameServers": [
+		"ns1.nic.vi"
+	],
 	"codePoints": "--09az"
 }

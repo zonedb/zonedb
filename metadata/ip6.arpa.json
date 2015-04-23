@@ -1,4 +1,12 @@
 {
 	"domain": "ip6.arpa",
+	"nameServers": [
+		"a.ip6-servers.arpa",
+		"b.ip6-servers.arpa",
+		"c.ip6-servers.arpa",
+		"d.ip6-servers.arpa",
+		"e.ip6-servers.arpa",
+		"f.ip6-servers.arpa"
+	],
 	"codePoints": "--09az"
 }

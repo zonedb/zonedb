@@ -1,4 +1,8 @@
 {
 	"domain": "edu.tm",
+	"nameServers": [
+		"webns1.telecom.tm",
+		"webns2.telecom.tm"
+	],
 	"codePoints": "--09az"
 }

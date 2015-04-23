@@ -1,4 +1,13 @@
 {
 	"domain": "ind.er",
+	"nameServers": [
+		"ns1.punchdown.net",
+		"ns0.punchdown.org",
+		"sawanew.noc.net.er",
+		"sawaold.noc.net.er",
+		"zaranew.noc.net.er",
+		"zaraold.noc.net.er",
+		"er.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

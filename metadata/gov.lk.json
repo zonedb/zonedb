@@ -1,4 +1,11 @@
 {
 	"domain": "gov.lk",
+	"nameServers": [
+		"ns1.gov.lk",
+		"ns2.gov.lk",
+		"c.nic.lk",
+		"d.nic.lk",
+		"m.nic.lk"
+	],
 	"codePoints": "--09az"
 }

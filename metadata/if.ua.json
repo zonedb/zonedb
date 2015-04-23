@@ -1,5 +1,13 @@
 {
 	"domain": "if.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"ns.dn.ua",
+		"ns2.if.ua",
+		"ba1.ns.ua",
+		"nix.ns.ua",
+		"ns.zp.ua",
+		"ho1.ns.if.ua"
+	],
 	"codePoints": "--09az"
 }

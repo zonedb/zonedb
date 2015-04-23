@@ -1,4 +1,9 @@
 {
 	"domain": "cc.na",
+	"nameServers": [
+		"dns1.dic.net",
+		"dns2.dic.net",
+		"dns3.dic.net"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,8 @@
 {
 	"domain": "gov.mg",
+	"nameServers": [
+		"ns1.gov.mg",
+		"ns2.gov.mg"
+	],
 	"codePoints": "--09az"
 }

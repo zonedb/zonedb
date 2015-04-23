@@ -1,4 +1,11 @@
 {
 	"domain": "org.gh",
+	"nameServers": [
+		"austin.gh.com",
+		"mantse.gh.com",
+		"rip.psg.com",
+		"slave.sth.netnod.se",
+		"hippo.ru.ac.za"
+	],
 	"codePoints": "--09az"
 }

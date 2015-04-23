@@ -1,4 +1,9 @@
 {
 	"domain": "rs.ba",
+	"nameServers": [
+		"a.ns.rs.ba",
+		"b.ns.rs.ba",
+		"c.ns.rs.ba"
+	],
 	"codePoints": "--09az"
 }

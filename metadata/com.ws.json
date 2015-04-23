@@ -1,4 +1,10 @@
 {
 	"domain": "com.ws",
+	"nameServers": [
+		"ns2.dns.ws",
+		"ns3.dns.ws",
+		"ns4.dns.ws",
+		"ns5.dns.ws"
+	],
 	"codePoints": "--09az"
 }

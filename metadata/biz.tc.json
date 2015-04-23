@@ -1,5 +1,9 @@
 {
 	"domain": "biz.tc",
 	"infoURL": "http://www.biz.tc/",
+	"nameServers": [
+		"dns1.freehostservers.net",
+		"dns2.freehostservers.net"
+	],
 	"codePoints": "--09az"
 }

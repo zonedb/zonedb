@@ -1,4 +1,9 @@
 {
 	"domain": "gov.im",
+	"nameServers": [
+		"hoppy.iom.com",
+		"pebbles.iom.com",
+		"barney.advsys.co.uk"
+	],
 	"codePoints": "--09az"
 }

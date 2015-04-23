@@ -1,4 +1,9 @@
 {
 	"domain": "com.by",
+	"nameServers": [
+		"ns1.com.by",
+		"ns1.open.by",
+		"ns2.open.by"
+	],
 	"codePoints": "--09az"
 }

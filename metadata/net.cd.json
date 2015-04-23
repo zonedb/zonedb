@@ -1,4 +1,8 @@
 {
 	"domain": "net.cd",
+	"nameServers": [
+		"ns1.webnetafrica.net",
+		"ns2.webnetafrica.net"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,8 @@
 {
 	"domain": "ac.uz",
+	"nameServers": [
+		"ns1.sarkor.com",
+		"ns2.sarkor.com"
+	],
 	"codePoints": "--09az"
 }

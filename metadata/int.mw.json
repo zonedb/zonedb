@@ -1,4 +1,9 @@
 {
 	"domain": "int.mw",
+	"nameServers": [
+		"rip.psg.com",
+		"domwe.sdn.mw",
+		"chambo.sdnp.org.mw"
+	],
 	"codePoints": "--09az"
 }

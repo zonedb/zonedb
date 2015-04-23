@@ -1,4 +1,8 @@
 {
 	"domain": "gov.bj",
+	"nameServers": [
+		"ns1.intnet.bj",
+		"nakayo.leland.bj"
+	],
 	"codePoints": "--09az"
 }

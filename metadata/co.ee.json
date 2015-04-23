@@ -1,4 +1,8 @@
 {
 	"domain": "co.ee",
+	"nameServers": [
+		"ns.elkdata.ee",
+		"ns2.elkdata.ee"
+	],
 	"codePoints": "--09az"
 }

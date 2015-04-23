@@ -1,4 +1,9 @@
 {
 	"domain": "store.nf",
+	"nameServers": [
+		"a.nf.dyntld.net",
+		"b.nf.dyntld.net",
+		"ns.anycast.nic.nf"
+	],
 	"codePoints": "--09az"
 }

@@ -1,0 +1,13 @@
+{
+	"domain": "gov.tw",
+	"nameServers": [
+		"a.twnic.net.tw",
+		"b.twnic.net.tw",
+		"c.twnic.net.tw",
+		"d.twnic.net.tw",
+		"e.twnic.net.tw",
+		"f.twnic.net.tw",
+		"g.twnic.net.tw",
+		"h.twnic.net.tw"
+	]
+}

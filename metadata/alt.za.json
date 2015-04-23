@@ -1,4 +1,12 @@
 {
 	"domain": "alt.za",
+	"nameServers": [
+		"psg.com",
+		"ns1.iafrica.com",
+		"ns2.iafrica.com",
+		"za-ns.anycast.pch.net",
+		"hippo.ru.ac.za",
+		"mumble.proxima.alt.za"
+	],
 	"codePoints": "--09az"
 }

@@ -1,5 +1,15 @@
 {
 	"domain": "mil.np",
 	"infoURL": "http://register.mos.com.np/np-ccTLDs",
+	"nameServers": [
+		"ns-ext.vix.com",
+		"sec1.apnic.net",
+		"sec3.apnic.net",
+		"ns-ext.isc.org",
+		"yarrina.connect.com.au",
+		"np-ns.anycast.pch.net",
+		"shikhar.mos.com.np",
+		"np.cctld.authdns.ripe.net"
+	],
 	"codePoints": "--09az"
 }

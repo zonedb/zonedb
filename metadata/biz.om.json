@@ -1,4 +1,8 @@
 {
 	"domain": "biz.om",
+	"nameServers": [
+		"ns1.nwns.om",
+		"ns2.nwns.om"
+	],
 	"codePoints": "--09az"
 }

@@ -1,0 +1,8 @@
+{
+	"domain": "co.nu",
+	"nameServers": [
+		"ns1.co.nu",
+		"ns2.co.nu",
+		"ns3.co.nu"
+	]
+}

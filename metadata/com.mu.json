@@ -1,4 +1,8 @@
 {
 	"domain": "com.mu",
+	"nameServers": [
+		"udns1.tld.mu",
+		"anycast1.irondns.net"
+	],
 	"codePoints": "--09az"
 }

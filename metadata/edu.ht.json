@@ -1,4 +1,12 @@
 {
 	"domain": "edu.ht",
+	"nameServers": [
+		"dns.princeton.edu",
+		"ns3.nic.fr",
+		"charles.cdec.polymtl.ca",
+		"a.ht.dyntld.net",
+		"b.ht.dyntld.net",
+		"ht-ns.anycast.pch.net"
+	],
 	"codePoints": "--09az"
 }

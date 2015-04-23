@@ -1,4 +1,8 @@
 {
 	"domain": "eu.pn",
+	"nameServers": [
+		"ns1.freehostingeu.com",
+		"ns2.freehostingeu.com"
+	],
 	"codePoints": "--09az"
 }

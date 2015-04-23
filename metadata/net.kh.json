@@ -1,4 +1,9 @@
 {
 	"domain": "net.kh",
+	"nameServers": [
+		"sec3.apnic.net",
+		"ns.camnet.com.kh",
+		"ns1.dns.net.kh"
+	],
 	"codePoints": "--09az"
 }

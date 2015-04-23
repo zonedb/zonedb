@@ -1,4 +1,8 @@
 {
 	"domain": "edu.uz",
+	"nameServers": [
+		"ns1.edu.uz",
+		"ns2.edu.uz"
+	],
 	"codePoints": "--09az"
 }

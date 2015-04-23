@@ -1,4 +1,10 @@
 {
 	"domain": "gouv.bj",
+	"nameServers": [
+		"ben02.gouv.bj",
+		"ns1.intnet.bj",
+		"nakayo.leland.bj",
+		"rip.psg.com"
+	],
 	"codePoints": "--09az"
 }

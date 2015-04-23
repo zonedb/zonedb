@@ -1,4 +1,10 @@
 {
 	"domain": "gov.au",
+	"nameServers": [
+		"w.au",
+		"x.au",
+		"y.au",
+		"z.au"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,8 @@
 {
 	"domain": "com.kp",
+	"nameServers": [
+		"ns1.com.kp",
+		"ns2.com.kp"
+	],
 	"codePoints": "--09az"
 }

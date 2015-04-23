@@ -1,5 +1,11 @@
 {
 	"domain": "rv.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"nameServers": [
+		"nix.ns.ua",
+		"ns.telcom.net.ua",
+		"ns1.wuicc.net.ua",
+		"ns2.jb.rv.ua"
+	],
 	"codePoints": "--09az"
 }

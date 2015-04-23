@@ -1,4 +1,8 @@
 {
 	"domain": "untz.ba",
+	"nameServers": [
+		"gradina.untz.ba",
+		"slatina.untz.ba"
+	],
 	"codePoints": "--09az"
 }
