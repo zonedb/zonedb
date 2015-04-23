@@ -6,6 +6,7 @@
 	],
 	"whoisURL": "http://www.nic.cg/cgi-bin/whois.pl",
 	"nameServers": [
+		"dns.acnic.cg",
 		"dns.princeton.edu",
 		"dns.dnsafrica.net",
 		"sunic.sunet.se"
