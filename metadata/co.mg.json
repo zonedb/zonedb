@@ -1,6 +1,7 @@
 {
 	"domain": "co.mg",
 	"nameServers": [
+		"censvrns0001.ird.fr",
 		"ns1.ird.fr",
 		"ns.dts.mg",
 		"ns.nic.mg",

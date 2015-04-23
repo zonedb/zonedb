@@ -3,7 +3,9 @@
 	"nameServers": [
 		"ns1.bm",
 		"ns2.bm",
-		"ns3.bm"
+		"ns3.bm",
+		"ns1.ibl.bm",
+		"ns2.ibl.bm"
 	],
 	"codePoints": "--09az"
 }
