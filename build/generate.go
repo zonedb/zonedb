@@ -93,14 +93,14 @@ var (
 func GenerateGo(zones map[string]*Zone) error {
 	tlds := TLDs(zones)
 	domains := SortedDomains(zones)
+	zs := SortedZones(zones)
 	offsets := make(map[string]int, len(domains))
 	for i, d := range domains {
 		offsets[d] = i
 	}
 	var nameServers []string
 	var codePoints []rune
-	for _, d := range domains {
-		z := zones[d]
+	for _, z := range zs {
 		z.Normalize() // just in case
 		z.POffset = offsets[z.ParentDomain()]
 		if len(z.Subdomains) > 0 {
