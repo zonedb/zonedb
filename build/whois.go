@@ -176,7 +176,9 @@ func VerifyWhois(zones map[string]*Zone) {
 	color.Fprintf(os.Stderr, "@{.}Verifying whois servers for %d zones...\n", len(zones))
 	mapZones(zones, func(z *Zone) {
 		if z.WhoisServer != "" {
-			verifyWhois(z.WhoisServer)
+			if verifyWhois(z.WhoisServer) != nil {
+				z.WhoisServer = ""
+			}
 		}
 	})
 }

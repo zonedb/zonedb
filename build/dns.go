@@ -73,8 +73,11 @@ func FetchNameServers(zones map[string]*Zone) error {
 			if rr.Type != "NS" || Normalize(rr.Name) != z.Domain {
 				continue
 			}
-			z.NameServers = append(z.NameServers, Normalize(rr.Value))
-			atomic.AddInt32(&found, 1)
+			ns := Normalize(rr.Value)
+			if verifyNS(ns) == nil {
+				z.NameServers = append(z.NameServers, ns)
+				atomic.AddInt32(&found, 1)
+			}
 		}
 	})
 	color.Fprintf(os.Stderr, "@{.}Found %d name servers\n", found)
@@ -84,9 +87,13 @@ func FetchNameServers(zones map[string]*Zone) error {
 func VerifyNameServers(zones map[string]*Zone) {
 	color.Fprintf(os.Stderr, "@{.}Verifying name servers for %d zones...\n", len(zones))
 	mapZones(zones, func(z *Zone) {
+		var nameServers []string
 		for _, ns := range z.NameServers {
-			verifyNS(ns)
+			if verifyNS(ns) == nil {
+				nameServers = append(nameServers, ns)
+			}
 		}
+		z.NameServers = nameServers
 	})
 }
 
