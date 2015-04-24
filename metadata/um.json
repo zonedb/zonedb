@@ -2,7 +2,8 @@
 	"domain": "um",
 	"tags": [
 		"cctld",
-		"geo"
+		"geo",
+		"retired"
 	],
 	"codePoints": "--09az"
 }
