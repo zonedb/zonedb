@@ -2,7 +2,8 @@
 	"domain": "ntt",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"brand"
+		"brand",
+		"generic"
 	],
 	"nameServers": [
 		"tld1.nic.ntt",

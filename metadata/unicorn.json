@@ -2,7 +2,8 @@
 	"domain": "unicorn",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"brand"
+		"brand",
+		"generic"
 	],
 	"codePoints": "--09az"
 }

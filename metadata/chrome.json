@@ -2,7 +2,8 @@
 	"domain": "chrome",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"brand"
+		"brand",
+		"generic"
 	],
 	"whoisServer": "domain-registry-whois.l.google.com",
 	"nameServers": [

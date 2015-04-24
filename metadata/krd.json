@@ -2,7 +2,8 @@
 	"domain": "krd",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"brand"
+		"brand",
+		"generic"
 	],
 	"whoisServer": "whois.aridnrs.net.au",
 	"nameServers": [

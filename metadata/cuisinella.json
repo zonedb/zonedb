@@ -2,7 +2,8 @@
 	"domain": "cuisinella",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"brand"
+		"brand",
+		"generic"
 	],
 	"whoisServer": "whois.nic.cuisinella",
 	"nameServers": [

@@ -2,7 +2,8 @@
 	"domain": "mini",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"brand"
+		"brand",
+		"generic"
 	],
 	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [

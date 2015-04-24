@@ -2,7 +2,8 @@
 	"domain": "sew",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"brand"
+		"brand",
+		"generic"
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [

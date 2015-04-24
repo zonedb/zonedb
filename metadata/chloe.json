@@ -2,7 +2,8 @@
 	"domain": "chloe",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"brand"
+		"brand",
+		"generic"
 	],
 	"nameServers": [
 		"ns1.dns.nic.chloe",

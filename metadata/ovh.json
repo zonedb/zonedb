@@ -1,7 +1,8 @@
 {
 	"domain": "ovh",
 	"tags": [
-		"brand"
+		"brand",
+		"generic"
 	],
 	"whoisServer": "whois-ovh.nic.fr",
 	"nameServers": [

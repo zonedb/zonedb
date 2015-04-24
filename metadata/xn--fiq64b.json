@@ -2,7 +2,8 @@
 	"domain": "中信",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"brand"
+		"brand",
+		"generic"
 	],
 	"whoisServer": "whois.gtld.knet.cn",
 	"nameServers": [

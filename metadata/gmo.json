@@ -2,7 +2,8 @@
 	"domain": "gmo",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"brand"
+		"brand",
+		"generic"
 	],
 	"whoisServer": "whois.gmoregistry.net",
 	"nameServers": [
