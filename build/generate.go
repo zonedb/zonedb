@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	goSrc     = `// Automatically generated from zonedb data
+	goSrc = `// Automatically generated from zonedb data
 
 package zonedb
 
@@ -56,6 +56,7 @@ var _y = [{{len .Zones}}]Zone{
 			"{{$z.WhoisServer}}", \
 			"{{$z.WhoisURL}}", \
 			"{{$z.InfoURL}}", \
+			{{printf "0x%x" $z.TagBits}}, \
 		},
 	{{end}} \
 }
@@ -103,6 +104,7 @@ func GenerateGo(zones map[string]*Zone) error {
 			z.SEnd = z.SOffset + len(z.Subdomains)
 		}
 		z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, z.CodePoints.Runes())
+		z.TagBits = tagBits(z.Tags)
 	}
 
 	data := struct {

@@ -31,4 +31,54 @@ type Zone struct {
 
 	// Informational URL for this Zone
 	InfoURL string
+
+	// Tags stored as an integer bit field.
+	Tags uint32
+}
+
+// Tags are stored in a single integer as a bit field.
+const (
+	TagGeneric = 1 << iota
+	TagGeo
+	TagCity
+	TagRegion
+	TagCountry
+	TagCommunity
+	TagSponsored
+	TagBrand
+	TagAdult
+	TagClosed
+	TagPrivate
+	TagInfrastructure
+	TagRetired
+	TagWithdrawn
+	numTags = iota
+)
+
+// TagStrings maps integer tag values to strings.
+var TagStrings = map[uint32]string{
+	TagGeneric:        "generic",
+	TagGeo:            "geo",
+	TagCity:           "city",
+	TagRegion:         "region",
+	TagCountry:        "country",
+	TagCommunity:      "community",
+	TagSponsored:      "sponsored",
+	TagBrand:          "brand",
+	TagAdult:          "adult",
+	TagClosed:         "closed",
+	TagPrivate:        "private",
+	TagInfrastructure: "infrastructure",
+	TagRetired:        "retired",
+	TagWithdrawn:      "withdrawn",
+}
+
+// TagValues maps tag names to integer values.
+var TagValues map[string]uint32
+
+func init() {
+	TagValues = make(map[string]uint32, len(TagStrings))
+	for t, s := range TagStrings {
+		TagValues[s] = t
+	}
 }

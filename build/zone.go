@@ -18,13 +18,20 @@ type Zone struct {
 	Subdomains  []string  `json:"-"`
 
 	// Exported for use in text/template
-	POffset, SOffset, SEnd int `json:"-"`
-	CPOffset, CPEnd        int `json:"-"`
+	POffset, SOffset, SEnd int    `json:"-"`
+	CPOffset, CPEnd        int    `json:"-"`
+	TagBits                uint32 `json:"-"`
 }
 
 func (z *Zone) Normalize() {
 	z.Domain = Normalize(z.Domain)
-	z.Tags = NewSet(z.Tags...).Values()
+	var tags []string
+	for _, t := range z.Tags {
+		if verifyTag(t) {
+			tags = append(tags, t)
+		}
+	}
+	z.Tags = NewSet(tags...).Values()
 	z.NameServers = NewSet(z.NameServers...).Values()
 	z.CodePoints.Compress()
 }
