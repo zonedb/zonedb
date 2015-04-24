@@ -1,6 +1,7 @@
 {
 	"domain": "mil.tw",
 	"nameServers": [
+		"dns1.mil.tw",
 		"dns2.mil.tw"
 	]
 }

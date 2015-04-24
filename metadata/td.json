@@ -7,7 +7,8 @@
 	"whoisURL": "http://www.nic.td/",
 	"nameServers": [
 		"ns-td.nic.fr",
-		"ns-td.afrinic.net"
+		"ns-td.afrinic.net",
+		"ns1.nic.td"
 	],
 	"codePoints": "--09az"
 }

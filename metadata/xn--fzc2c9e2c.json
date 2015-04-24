@@ -3,6 +3,7 @@
 	"whoisServer": "whois.nic.lk",
 	"nameServers": [
 		"ns1.ac.lk",
+		"ns3.ac.lk",
 		"ns-c.nic.lk",
 		"ns-d.nic.lk",
 		"ns-l.nic.lk",
