@@ -2,6 +2,7 @@
 	"domain": "bv",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"whoisServer": "whois.norid.no",

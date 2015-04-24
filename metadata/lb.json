@@ -2,6 +2,7 @@
 	"domain": "lb",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"whoisURL": "http://www.aub.edu.lb/lbdr/",

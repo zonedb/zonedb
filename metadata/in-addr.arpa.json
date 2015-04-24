@@ -1,5 +1,8 @@
 {
 	"domain": "in-addr.arpa",
+	"tags": [
+		"closed"
+	],
 	"nameServers": [
 		"a.in-addr-servers.arpa",
 		"b.in-addr-servers.arpa",

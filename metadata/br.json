@@ -3,6 +3,7 @@
 	"infoURL": "http://nic.br/",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"whoisServer": "whois.registro.br",

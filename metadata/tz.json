@@ -2,6 +2,7 @@
 	"domain": "tz",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"whoisServer": "whois.tznic.or.tz",

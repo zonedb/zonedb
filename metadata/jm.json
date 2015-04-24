@@ -2,6 +2,7 @@
 	"domain": "jm",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"nameServers": [

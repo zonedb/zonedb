@@ -2,6 +2,7 @@
 	"domain": "cy",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"whoisURL": "http://www.nic.cy/nslookup/online_database.php",

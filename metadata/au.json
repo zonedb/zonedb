@@ -3,6 +3,7 @@
 	"infoURL": "http://www.auda.org.au/",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"whoisServer": "whois.audns.net.au",

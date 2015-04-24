@@ -2,6 +2,7 @@
 	"domain": "sn",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"whoisServer": "whois.nic.sn",

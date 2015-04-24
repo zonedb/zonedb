@@ -1,5 +1,8 @@
 {
 	"domain": "uri.arpa",
+	"tags": [
+		"closed"
+	],
 	"nameServers": [
 		"sec3.apnic.net",
 		"a.iana-servers.net",

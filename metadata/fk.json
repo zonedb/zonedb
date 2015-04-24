@@ -2,6 +2,7 @@
 	"domain": "fk",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"whoisURL": "http://whois.marcaria.com",

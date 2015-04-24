@@ -1,5 +1,8 @@
 {
 	"domain": "ip6.arpa",
+	"tags": [
+		"closed"
+	],
 	"nameServers": [
 		"a.ip6-servers.arpa",
 		"b.ip6-servers.arpa",

@@ -2,7 +2,8 @@
 	"domain": "scholarships",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"closed"
+		"closed",
+		"generic"
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [

@@ -3,6 +3,7 @@
 	"infoURL": "https://www.nic.tr/",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"whoisServer": "whois.nic.tr",

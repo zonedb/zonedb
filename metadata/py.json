@@ -2,6 +2,7 @@
 	"domain": "py",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"whoisURL": "http://www.nic.py/consultas.html",

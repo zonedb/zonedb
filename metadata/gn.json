@@ -2,6 +2,7 @@
 	"domain": "gn",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"nameServers": [

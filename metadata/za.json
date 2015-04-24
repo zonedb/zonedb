@@ -2,6 +2,7 @@
 	"domain": "za",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"whoisServer": "whois.registry.net.za",

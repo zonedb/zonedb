@@ -2,6 +2,7 @@
 	"domain": "gh",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"whoisURL": "http://www.nic.gh/customer/search_c.htm",

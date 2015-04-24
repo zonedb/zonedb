@@ -2,7 +2,8 @@
 	"domain": "ott",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"closed"
+		"closed",
+		"generic"
 	],
 	"codePoints": "--09az"
 }

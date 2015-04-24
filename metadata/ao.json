@@ -3,6 +3,7 @@
 	"infoURL": "http://www.dns.ao/",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"nameServers": [

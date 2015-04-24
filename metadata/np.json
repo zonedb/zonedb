@@ -2,6 +2,7 @@
 	"domain": "np",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"whoisURL": "http://register.mos.com.np/userSearchInc.asp",

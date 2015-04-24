@@ -2,6 +2,7 @@
 	"domain": "er",
 	"tags": [
 		"cctld",
+		"closed",
 		"geo"
 	],
 	"nameServers": [
