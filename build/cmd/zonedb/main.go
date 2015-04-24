@@ -25,6 +25,7 @@ func main() {
 
 	// Zone operations
 	listZones := flag.Bool("list", false, "list working zones")
+	listTags := flag.Bool("list-tags", false, "list tags in working zones")
 	addTags := flag.String("add-tags", "", "add tags to zones (comma-delimited)")
 	removeTags := flag.String("remove-tags", "", "remove tags from zones (comma-delimited)")
 	updateRoot := flag.Bool("update-root", false, "retrieve updates to the root zone file")
@@ -108,7 +109,7 @@ func main() {
 
 	if *listZones || len(workZones) < len(zones) {
 		domains := build.SortedDomains(workZones)
-		color.Fprintf(os.Stderr, "@{c}%s\n", strings.Join(domains, " "))
+		color.Fprintf(os.Stderr, "@{.}Zones: @{c}%s\n", strings.Join(domains, " "))
 	}
 
 	if *updateRoot || *updateAll {
@@ -156,6 +157,14 @@ func main() {
 	if *addTags != "" {
 		tags := strings.Split(*addTags, ",")
 		build.AddTags(workZones, tags)
+	}
+
+	if *listTags {
+		tags := build.NewSet()
+		for _, z := range workZones {
+			tags.Add(z.Tags...)
+		}
+		color.Fprintf(os.Stderr, "@{.}Tags: @{c}%s\n", strings.Join(tags.Values(), " "))
 	}
 
 	if *verifyNS {
