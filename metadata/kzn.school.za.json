@@ -1,0 +1,10 @@
+{
+	"domain": "kzn.school.za",
+	"nameServers": [
+		"sec.zadns.net",
+		"mopani.school.za",
+		"ochre.school.za",
+		"ucthpx.uct.ac.za",
+		"ns0.serendipity.org.za"
+	]
+}

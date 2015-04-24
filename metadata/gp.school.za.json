@@ -1,0 +1,9 @@
+{
+	"domain": "gp.school.za",
+	"nameServers": [
+		"mopani.school.za",
+		"ochre.school.za",
+		"ns2.obsidian.co.za",
+		"ns0.serendipity.org.za"
+	]
+}

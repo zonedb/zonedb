@@ -1,0 +1,11 @@
+{
+	"domain": "fs.school.za",
+	"nameServers": [
+		"mopani.school.za",
+		"ochre.school.za",
+		"hippo.ru.ac.za",
+		"ucthpx.uct.ac.za",
+		"nyx.marques.co.za",
+		"ns0.serendipity.org.za"
+	]
+}
