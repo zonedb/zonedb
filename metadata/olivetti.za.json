@@ -1,4 +1,7 @@
 {
 	"domain": "olivetti.za",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }

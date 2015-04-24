@@ -1,4 +1,7 @@
 {
 	"domain": "pix.za",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }

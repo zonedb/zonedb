@@ -1,5 +1,8 @@
 {
 	"domain": "ngo.za",
+	"tags": [
+		"retired"
+	],
 	"nameServers": [
 		"ns1.sn.apc.org",
 		"ns2.sn.apc.org",

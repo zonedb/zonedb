@@ -1,5 +1,8 @@
 {
 	"domain": "tm.za",
+	"tags": [
+		"retired"
+	],
 	"nameServers": [
 		"reaper.org",
 		"ns1.iafrica.com",

@@ -1,4 +1,7 @@
 {
 	"domain": "org.an",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }

@@ -1,4 +1,7 @@
 {
 	"domain": "bourse.za",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }

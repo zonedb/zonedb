@@ -1,4 +1,7 @@
 {
 	"domain": "hmg.gb",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }

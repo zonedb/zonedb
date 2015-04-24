@@ -1,5 +1,8 @@
 {
 	"domain": "info.au",
 	"infoURL": "http://www.aunic.net/",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }

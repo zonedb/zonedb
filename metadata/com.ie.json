@@ -1,4 +1,7 @@
 {
 	"domain": "com.ie",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }

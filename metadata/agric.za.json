@@ -1,5 +1,8 @@
 {
 	"domain": "agric.za",
+	"tags": [
+		"retired"
+	],
 	"nameServers": [
 		"demeter.is.co.za",
 		"jupiter.is.co.za",

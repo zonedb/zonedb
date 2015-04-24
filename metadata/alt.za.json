@@ -1,5 +1,8 @@
 {
 	"domain": "alt.za",
+	"tags": [
+		"retired"
+	],
 	"nameServers": [
 		"psg.com",
 		"ns1.iafrica.com",

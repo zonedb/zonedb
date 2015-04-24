@@ -1,5 +1,8 @@
 {
 	"domain": "nis.za",
+	"tags": [
+		"retired"
+	],
 	"nameServers": [
 		"ns1.mywebserver.co.za",
 		"ns2.mywebserver.co.za",

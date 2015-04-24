@@ -1,4 +1,7 @@
 {
 	"domain": "net.an",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }

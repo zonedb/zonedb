@@ -1,4 +1,7 @@
 {
 	"domain": "org.yu",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }

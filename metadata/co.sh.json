@@ -1,5 +1,8 @@
 {
 	"domain": "co.sh",
+	"tags": [
+		"retired"
+	],
 	"nameServers": [
 		"dns1.nic.sh",
 		"dns2.nic.sh",

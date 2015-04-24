@@ -1,4 +1,7 @@
 {
 	"domain": "gov.yu",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }

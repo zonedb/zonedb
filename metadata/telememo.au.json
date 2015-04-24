@@ -1,4 +1,7 @@
 {
 	"domain": "telememo.au",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }

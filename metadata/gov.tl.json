@@ -1,5 +1,8 @@
 {
 	"domain": "gov.tl",
+	"tags": [
+		"retired"
+	],
 	"nameServers": [
 		"a.tl.dyntld.net",
 		"b.tl.dyntld.net",

@@ -1,4 +1,7 @@
 {
 	"domain": "or.tp",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }

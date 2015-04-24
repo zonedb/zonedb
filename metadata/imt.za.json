@@ -1,4 +1,7 @@
 {
 	"domain": "imt.za",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }

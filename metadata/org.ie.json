@@ -1,4 +1,7 @@
 {
 	"domain": "org.ie",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }

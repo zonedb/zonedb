@@ -1,4 +1,7 @@
 {
 	"domain": "co.us",
+	"tags": [
+		"retired"
+	],
 	"codePoints": "--09az"
 }
