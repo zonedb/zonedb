@@ -106,7 +106,7 @@ func main() {
 	// Add newly found zones?
 	addNew := len(workZones) == len(zones)
 
-	if *listZones {
+	if *listZones || len(workZones) < len(zones) {
 		domains := build.SortedDomains(workZones)
 		color.Fprintf(os.Stderr, "@{c}%s\n", strings.Join(domains, " "))
 	}
