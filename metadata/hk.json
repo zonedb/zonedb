@@ -1,7 +1,7 @@
 {
 	"domain": "hk",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.hkirc.hk",

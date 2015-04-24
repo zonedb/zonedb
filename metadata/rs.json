@@ -1,7 +1,7 @@
 {
 	"domain": "rs",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.rnids.rs",

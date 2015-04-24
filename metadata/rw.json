@@ -1,7 +1,7 @@
 {
 	"domain": "rw",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisURL": "http://whois.ricta.org.rw",

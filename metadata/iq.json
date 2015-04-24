@@ -1,7 +1,7 @@
 {
 	"domain": "iq",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.cmc.iq",

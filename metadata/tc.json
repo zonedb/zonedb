@@ -1,7 +1,7 @@
 {
 	"domain": "tc",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.tc",

@@ -1,7 +1,7 @@
 {
 	"domain": "kg",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.domain.kg",

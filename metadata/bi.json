@@ -1,7 +1,7 @@
 {
 	"domain": "bi",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois1.nic.bi",

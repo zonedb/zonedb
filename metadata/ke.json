@@ -2,8 +2,8 @@
 	"domain": "ke",
 	"infoURL": "http://www.kenic.or.ke/",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.kenic.or.ke",

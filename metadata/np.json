@@ -1,8 +1,8 @@
 {
 	"domain": "np",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"whoisURL": "http://register.mos.com.np/userSearchInc.asp",

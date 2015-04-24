@@ -1,7 +1,7 @@
 {
 	"domain": "ci",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.ci",

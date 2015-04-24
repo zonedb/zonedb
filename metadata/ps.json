@@ -1,7 +1,7 @@
 {
 	"domain": "ps",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.pnina.ps",

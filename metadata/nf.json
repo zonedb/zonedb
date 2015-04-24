@@ -1,7 +1,7 @@
 {
 	"domain": "nf",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.nf",

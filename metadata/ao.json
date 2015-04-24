@@ -2,8 +2,8 @@
 	"domain": "ao",
 	"infoURL": "http://www.dns.ao/",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"nameServers": [

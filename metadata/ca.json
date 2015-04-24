@@ -1,7 +1,7 @@
 {
 	"domain": "ca",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.cira.ca",

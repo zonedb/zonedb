@@ -2,8 +2,8 @@
 	"domain": "il",
 	"infoURL": "http://www.isoc.org.il/domains/",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.isoc.org.il",

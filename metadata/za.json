@@ -1,8 +1,8 @@
 {
 	"domain": "za",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.registry.net.za",

@@ -1,7 +1,7 @@
 {
 	"domain": "ro",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.rotld.ro",

@@ -1,7 +1,7 @@
 {
 	"domain": "lc",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.afilias-grs.info",

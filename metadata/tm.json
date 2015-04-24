@@ -2,7 +2,7 @@
 	"domain": "tm",
 	"infoURL": "http://nic.tm/",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.tm",

@@ -1,7 +1,7 @@
 {
 	"domain": "dk",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.dk-hostmaster.dk",

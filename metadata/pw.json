@@ -1,7 +1,7 @@
 {
 	"domain": "pw",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.pw",

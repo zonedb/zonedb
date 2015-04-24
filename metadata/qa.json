@@ -1,7 +1,7 @@
 {
 	"domain": "qa",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.registry.qa",

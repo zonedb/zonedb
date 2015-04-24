@@ -1,7 +1,7 @@
 {
 	"domain": "mx",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.mx",

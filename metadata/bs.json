@@ -1,7 +1,7 @@
 {
 	"domain": "bs",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisURL": "http://www.nic.bs/cgi-bin/search.pl",

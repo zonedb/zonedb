@@ -1,8 +1,8 @@
 {
 	"domain": "mm",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.mm",

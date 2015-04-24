@@ -1,7 +1,7 @@
 {
 	"domain": "cr",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisURL": "http://www.nic.cr/niccr_publico/showRegistroDominiosScreen.do",

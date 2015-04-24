@@ -1,7 +1,7 @@
 {
 	"domain": "tw",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.twnic.net.tw",

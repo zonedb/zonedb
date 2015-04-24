@@ -2,8 +2,8 @@
 	"domain": "br",
 	"infoURL": "http://nic.br/",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.registro.br",

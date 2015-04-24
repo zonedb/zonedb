@@ -1,7 +1,7 @@
 {
 	"domain": "cn",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.cnnic.cn",

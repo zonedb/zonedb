@@ -1,7 +1,7 @@
 {
 	"domain": "gs",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.gs",

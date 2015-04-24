@@ -1,7 +1,7 @@
 {
 	"domain": "dm",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.dm",

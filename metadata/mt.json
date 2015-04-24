@@ -1,8 +1,8 @@
 {
 	"domain": "mt",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"whoisURL": "https://www.nic.org.mt/dotmt/",

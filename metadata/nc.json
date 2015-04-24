@@ -1,7 +1,7 @@
 {
 	"domain": "nc",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nc",

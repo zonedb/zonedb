@@ -2,8 +2,8 @@
 	"domain": "an",
 	"infoURL": "http://www.una.an/an_domreg/",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"nameServers": [

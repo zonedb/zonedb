@@ -1,7 +1,7 @@
 {
 	"domain": "lv",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.lv",

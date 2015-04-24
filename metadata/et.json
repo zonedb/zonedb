@@ -2,8 +2,8 @@
 	"domain": "et",
 	"infoURL": "http://www.ethionet.et/EthioInternet/domainname.html",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"nameServers": [

@@ -1,8 +1,8 @@
 {
 	"domain": "lb",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"whoisURL": "http://www.aub.edu.lb/lbdr/",

@@ -1,8 +1,8 @@
 {
 	"domain": "gh",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"whoisURL": "http://www.nic.gh/customer/search_c.htm",

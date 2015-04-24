@@ -1,7 +1,7 @@
 {
 	"domain": "lt",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.domreg.lt",

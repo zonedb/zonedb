@@ -1,8 +1,8 @@
 {
 	"domain": "ve",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.ve",

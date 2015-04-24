@@ -1,8 +1,8 @@
 {
 	"domain": "mh",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"nameServers": [

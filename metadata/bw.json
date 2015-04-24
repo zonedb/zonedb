@@ -1,7 +1,7 @@
 {
 	"domain": "bw",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.net.bw",

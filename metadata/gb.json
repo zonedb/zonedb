@@ -1,8 +1,8 @@
 {
 	"domain": "gb",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"nameServers": [

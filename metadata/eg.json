@@ -1,7 +1,7 @@
 {
 	"domain": "eg",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisURL": "http://lookup.egregistry.eg/english.aspx",

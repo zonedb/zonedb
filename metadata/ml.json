@@ -1,7 +1,7 @@
 {
 	"domain": "ml",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.dot.ml",

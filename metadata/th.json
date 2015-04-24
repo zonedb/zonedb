@@ -2,8 +2,8 @@
 	"domain": "th",
 	"infoURL": "http://www.thnic.co.th/",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.thnic.co.th",

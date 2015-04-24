@@ -1,8 +1,8 @@
 {
 	"domain": "py",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"whoisURL": "http://www.nic.py/consultas.html",

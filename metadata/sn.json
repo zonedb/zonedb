@@ -1,8 +1,8 @@
 {
 	"domain": "sn",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.sn",

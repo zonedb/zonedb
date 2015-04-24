@@ -1,7 +1,7 @@
 {
 	"domain": "gw",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"nameServers": [

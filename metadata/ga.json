@@ -1,7 +1,7 @@
 {
 	"domain": "ga",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.dot.ga",

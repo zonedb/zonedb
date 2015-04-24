@@ -1,7 +1,7 @@
 {
 	"domain": "sg",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.sgnic.sg",

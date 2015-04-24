@@ -1,7 +1,7 @@
 {
 	"domain": "sh",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.sh",

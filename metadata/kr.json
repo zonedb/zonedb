@@ -1,7 +1,7 @@
 {
 	"domain": "kr",
 	"tags": [
-		"cctld",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.kr",

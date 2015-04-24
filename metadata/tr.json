@@ -2,8 +2,8 @@
 	"domain": "tr",
 	"infoURL": "https://www.nic.tr/",
 	"tags": [
-		"cctld",
 		"closed",
+		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.tr",
