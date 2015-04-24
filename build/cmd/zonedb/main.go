@@ -4,6 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"os"
+	"regexp"
 	"strings"
 
 	"github.com/wsxiaoys/terminal/color"
@@ -11,11 +12,19 @@ import (
 )
 
 func main() {
+	// Default options
 	flag.BoolVar(&build.Verbose, "v", false, "enable verbose logging")
 	flag.StringVar(&build.BaseDir, "dir", "./", "working directory (location of zones.txt and metadata dir)")
 	flag.IntVar(&build.Concurrency, "c", build.Concurrency, "number of concurrent connections")
-	tlds := flag.Bool("tlds", false, "operate on top-level domains only")
-	fZones := flag.String("zones", "", "zones to operate on (default: all)")
+
+	// Filters
+	tlds := flag.Bool("tlds", false, "work on top-level domains only")
+	filterZones := flag.String("zones", "", "select specific working zones (comma-delimited)")
+	filterRegexp := flag.String("x", "", "select working zones on by regular expression")
+	filterTags := flag.String("tags", "", "select working zones by tags (comma-delimited)")
+
+	// Zone operations
+	listZones := flag.Bool("list", false, "list working zones")
 	addTags := flag.String("add-tags", "", "add tags to zones (comma-delimited)")
 	removeTags := flag.String("remove-tags", "", "remove tags from zones (comma-delimited)")
 	updateRoot := flag.Bool("update-root", false, "retrieve updates to the root zone file")
@@ -26,6 +35,8 @@ func main() {
 	verifyWhois := flag.Bool("verify-whois", false, "verify whois servers")
 	updateIANA := flag.Bool("update-iana", false, "query IANA for metadata")
 	updateAll := flag.Bool("update", false, "update all (root zone, whois, IANA data)")
+
+	// Write operations
 	write := flag.Bool("w", false, "write zones.txt and metadata")
 	generateGo := flag.Bool("generate-go", false, "generate Go source code to specified directory")
 
@@ -49,8 +60,8 @@ func main() {
 		color.Fprintf(os.Stderr, "@{.}Working on top-level domains\n")
 	}
 
-	if *fZones != "" {
-		domains := strings.Split(*fZones, ",")
+	if *filterZones != "" {
+		domains := strings.Split(*filterZones, ",")
 		filtered := make(map[string]*build.Zone, len(domains))
 		for _, d := range domains {
 			d = build.Normalize(d)
@@ -60,10 +71,45 @@ func main() {
 		}
 		workZones = filtered
 	}
+
+	if *filterRegexp != "" {
+		re, err := regexp.Compile(*filterRegexp)
+		if err != nil {
+			build.LogFatal(err)
+		}
+		filtered := make(map[string]*build.Zone, len(workZones))
+		for d, z := range workZones {
+			if re.MatchString(d) {
+				filtered[d] = z
+			}
+		}
+		workZones = filtered
+	}
+
+	if *filterTags != "" {
+		tags := strings.Split(*filterTags, ",")
+		filtered := make(map[string]*build.Zone, len(workZones))
+		for d, z := range workZones {
+			s := build.NewSet(z.Tags...)
+			for _, t := range tags {
+				if _, ok := s[t]; ok {
+					filtered[d] = z
+					break
+				}
+			}
+		}
+		workZones = filtered
+	}
+
 	color.Fprintf(os.Stderr, "@{.}Working on %d zone(s) out of %d\n", len(workZones), len(zones))
 
 	// Add newly found zones?
 	addNew := len(workZones) == len(zones)
+
+	if *listZones {
+		domains := build.SortedDomains(workZones)
+		color.Fprintf(os.Stderr, "@{c}%s\n", strings.Join(domains, " "))
+	}
 
 	if *updateRoot || *updateAll {
 		err := build.FetchRootZone(workZones, addNew)
