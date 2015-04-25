@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	zonesGoSrc = `// Automatically generated from zonedb data
+	goSrc = `// Automatically generated
 
 package zonedb
 
@@ -24,6 +24,28 @@ func init() {
 // Separate function report allocs in initialization.
 func initZones() {
 	_z = _y
+}
+
+// Tags are stored in a single integer as a bit field.
+const (
+	{{range $i, $t := .Tags}} \
+		Tag{{title $t}} = {{index $.TagValues $t}}
+	{{end}} \
+	numTags = {{len .Tags}}
+)
+
+// TagStrings maps integer tag values to strings.
+var TagStrings = map[uint32]string{
+	{{range $t := .Tags}} \
+		Tag{{title $t}}: "{{$t}}",
+	{{end }}
+}
+
+// TagValues maps tag names to integer values.
+var TagValues  = map[string]uint32{
+	{{range $t := .Tags}} \
+		"{{$t}}": Tag{{title $t}},
+	{{end }}
 }
 
 // Zones is a slice of all Zones in the database.
@@ -72,33 +94,6 @@ var _c = [{{len .CodePoints}}]rune{
 	{{end}} \
 }
 `
-
-	tagsGoSrc = `// Automatically generated from zonedb data
-
-package zonedb
-
-// Tags are stored in a single integer as a bit field.
-const (
-	{{range $i, $t := .Tags}} \
-		Tag{{title $t}} = {{index $.TagValues $t}}
-	{{end}} \
-	numTags = {{len .Tags}}
-)
-
-// TagStrings maps integer tag values to strings.
-var TagStrings = map[uint32]string{
-	{{range $t := .Tags}} \
-		Tag{{title $t}}: "{{$t}}",
-	{{end }}
-}
-
-// TagValues maps tag names to integer values.
-var TagValues  = map[string]uint32{
-	{{range $t := .Tags}} \
-		"{{$t}}": Tag{{title $t}},
-	{{end }}
-}
-`
 )
 
 func cont(s string) string {
@@ -111,10 +106,7 @@ func odd(i int) bool {
 
 var (
 	funcMap   = template.FuncMap{"odd": odd, "title": strings.Title}
-	templates = map[string]*template.Template{
-		"zones.go": template.Must(template.New("").Funcs(funcMap).Parse(cont(zonesGoSrc))),
-		"tags.go":  template.Must(template.New("").Funcs(funcMap).Parse(cont(tagsGoSrc))),
-	}
+	goTemplate = template.Must(template.New("").Funcs(funcMap).Parse(cont(goSrc)))
 )
 
 func GenerateGo(zones map[string]*Zone) error {
@@ -167,28 +159,26 @@ func GenerateGo(zones map[string]*Zone) error {
 		tagValues,
 	}
 
-	for name, t := range templates {
-		buf := new(bytes.Buffer)
-		err := t.Execute(buf, &data)
-		if err != nil {
-			return err
-		}
-		formatted, err := format.Source(buf.Bytes())
-		if err != nil {
-			return err
-		}
+	buf := new(bytes.Buffer)
+	err := goTemplate.Execute(buf, &data)
+	if err != nil {
+		return err
+	}
+	formatted, err := format.Source(buf.Bytes())
+	if err != nil {
+		return err
+	}
 
-		fn := filepath.Join(BaseDir, name)
-		color.Fprintf(os.Stderr, "@{.}Generating Go source code: %s\n", fn)
-		f, err := os.Create(fn)
-		if err != nil {
-			return err
-		}
-		defer f.Close()
-		_, err = f.Write(formatted)
-		if err != nil {
-			return err
-		}
+	fn := filepath.Join(BaseDir, "zones.go")
+	color.Fprintf(os.Stderr, "@{.}Generating Go source code: %s\n", fn)
+	f, err := os.Create(fn)
+	if err != nil {
+		return err
+	}
+	defer f.Close()
+	_, err = f.Write(formatted)
+	if err != nil {
+		return err
 	}
 
 	return nil
