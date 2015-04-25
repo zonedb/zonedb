@@ -23,6 +23,39 @@ func TestTags(t *testing.T) {
 	}
 }
 
+func TestZone_IsTLD(t *testing.T) {
+	data := map[string]bool{
+		"com": true,
+		"um": true,
+		"co.uk": false,
+		"org.br": false,
+	}
+	for k, v := range data {
+		g := ZoneMap[k].IsTLD()
+		if g != v {
+			t.Errorf(`Expected Zones["%s"].IsTLD() == %t, got %t`, k, v, g)
+		}
+	}
+}
+
+func TestZone_IsInRootZone(t *testing.T) {
+	data := map[string]bool{
+		"com": true,
+		"net": true,
+		"org": true,
+		"um": false,
+		"yu": false,
+		"co.uk": false,
+		"org.br": false,
+	}
+	for k, v := range data {
+		g := ZoneMap[k].IsInRootZone()
+		if g != v {
+			t.Errorf(`Expected Zones["%s"].IsInRootZone() == %t, got %t`, k, v, g)
+		}
+	}
+}
+
 func BenchmarkInitAllocs(b *testing.B) {
 	b.ReportAllocs()
 	for i := 0; i < b.N; i++ {

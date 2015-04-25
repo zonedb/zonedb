@@ -35,3 +35,14 @@ type Zone struct {
 	// Tags stored as an integer bit field.
 	Tags uint32
 }
+
+// IsTLD returns true if the Zone is a top-level domain.
+func (z *Zone) IsTLD() bool {
+	return z.Parent == nil
+}
+
+// IsInRootZone returns true if the Zone is a top-level domain
+// present in the root DNS zone.
+func (z *Zone) IsInRootZone() bool {
+	return len(z.NameServers) != 0 && z.IsTLD()
+}
