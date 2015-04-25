@@ -25,9 +25,9 @@ func TestTags(t *testing.T) {
 
 func TestZone_IsTLD(t *testing.T) {
 	data := map[string]bool{
-		"com": true,
-		"um": true,
-		"co.uk": false,
+		"com":    true,
+		"um":     true,
+		"co.uk":  false,
 		"org.br": false,
 	}
 	for k, v := range data {
@@ -38,20 +38,58 @@ func TestZone_IsTLD(t *testing.T) {
 	}
 }
 
+func TestZone_IsDelegated(t *testing.T) {
+	data := map[string]bool{
+		"com":    true,
+		"um":     false,
+		"yu":     false,
+		"co.uk":  true,
+		"org.za": true,
+		"db.za":  false,
+	}
+	for k, v := range data {
+		g := ZoneMap[k].IsDelegated()
+		if g != v {
+			t.Errorf(`Expected Zones["%s"].IsDelegated() == %t, got %t`, k, v, g)
+		}
+	}
+}
+
 func TestZone_IsInRootZone(t *testing.T) {
 	data := map[string]bool{
-		"com": true,
-		"net": true,
-		"org": true,
-		"um": false,
-		"yu": false,
-		"co.uk": false,
+		"com":    true,
+		"net":    true,
+		"org":    true,
+		"um":     false,
+		"yu":     false,
+		"co.uk":  false,
 		"org.br": false,
 	}
 	for k, v := range data {
 		g := ZoneMap[k].IsInRootZone()
 		if g != v {
 			t.Errorf(`Expected Zones["%s"].IsInRootZone() == %t, got %t`, k, v, g)
+		}
+	}
+}
+
+func TestZone_AllowsRegistration(t *testing.T) {
+	data := map[string]bool{
+		"com":          true,
+		"net":          true,
+		"org":          true,
+		"ck":           false,
+		"yu":           false,
+		"arpa":         false,
+		"cadillac":     false,
+		"amazon":       false,
+		"co.uk":        true,
+		"in-addr.arpa": false,
+	}
+	for k, v := range data {
+		g := ZoneMap[k].AllowsRegistration()
+		if g != v {
+			t.Errorf(`Expected Zones["%s"].AllowsRegistration() == %t, got %t`, k, v, g)
 		}
 	}
 }

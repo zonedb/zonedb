@@ -41,8 +41,21 @@ func (z *Zone) IsTLD() bool {
 	return z.Parent == nil
 }
 
+// IsDelegated returns true if the Zone has name servers.
+func (z *Zone) IsDelegated() bool {
+	return len(z.NameServers) != 0
+}
+
 // IsInRootZone returns true if the Zone is a top-level domain.
 // present in the root DNS zone.
 func (z *Zone) IsInRootZone() bool {
-	return len(z.NameServers) != 0 && z.IsTLD()
+	return z.IsTLD() && z.IsDelegated()
+}
+
+// AllowsRegistration returns true if the Zone’s authority (registry)
+// permits registration of subdomains of this Zone. Examples:
+// undelegated, withdrawn, retired, or infrastructure zones.
+func (z *Zone) AllowsRegistration() bool {
+	t := z.Tags & (TagClosed | TagWithdrawn | TagRetired | TagInfrastructure)
+	return t == 0 && z.IsDelegated()
 }
