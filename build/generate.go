@@ -5,6 +5,7 @@ import (
 	"go/format"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 	"text/template"
 
@@ -12,7 +13,7 @@ import (
 )
 
 const (
-	goSrc = `// Automatically generated from zonedb data
+	zonesGoSrc = `// Automatically generated from zonedb data
 
 package zonedb
 
@@ -71,6 +72,33 @@ var _c = [{{len .CodePoints}}]rune{
 	{{end}} \
 }
 `
+
+	tagsGoSrc = `// Automatically generated from zonedb data
+
+package zonedb
+
+// Tags are stored in a single integer as a bit field.
+const (
+	{{range $i, $t := .Tags}} \
+		Tag{{title $t}} = {{index $.TagValues $t}}
+	{{end}} \
+	numTags = {{len .Tags}}
+)
+
+// TagStrings maps integer tag values to strings.
+var TagStrings = map[uint32]string{
+	{{range $t := .Tags}} \
+		Tag{{title $t}}: "{{$t}}",
+	{{end }}
+}
+
+// TagValues maps tag names to integer values.
+var TagValues  = map[string]uint32{
+	{{range $t := .Tags}} \
+		"{{$t}}": Tag{{title $t}},
+	{{end }}
+}
+`
 )
 
 func cont(s string) string {
@@ -82,16 +110,28 @@ func odd(i int) bool {
 }
 
 var (
-	funcMap    = template.FuncMap{"odd": odd}
-	goTemplate = template.Must(template.New("go").Funcs(funcMap).Parse(cont(goSrc)))
+	funcMap   = template.FuncMap{"odd": odd, "title": strings.Title}
+	templates = map[string]*template.Template{
+		"zones.go": template.Must(template.New("").Funcs(funcMap).Parse(cont(zonesGoSrc))),
+		"tags.go":  template.Must(template.New("").Funcs(funcMap).Parse(cont(tagsGoSrc))),
+	}
 )
 
 func GenerateGo(zones map[string]*Zone) error {
 	tlds := TLDs(zones)
 	domains := SortedDomains(zones)
 	offsets := make(map[string]int, len(domains))
+	tagSet := NewSet()
 	for i, d := range domains {
 		offsets[d] = i
+		z := zones[d]
+		tagSet.Add(z.Tags...)
+	}
+	tags := tagSet.Values()
+	sort.Strings(tags)
+	tagValues := make(map[string]uint32)
+	for i, t := range tags {
+		tagValues[t] = 1 << uint32(i)
 	}
 	var nameServers []string
 	var codePoints []rune
@@ -104,7 +144,7 @@ func GenerateGo(zones map[string]*Zone) error {
 			z.SEnd = z.SOffset + len(z.Subdomains)
 		}
 		z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, z.CodePoints.Runes())
-		z.TagBits = tagBits(z.Tags)
+		z.TagBits = tagBits(tagValues, z.Tags)
 	}
 
 	data := struct {
@@ -114,6 +154,8 @@ func GenerateGo(zones map[string]*Zone) error {
 		Offsets     map[string]int
 		NameServers []string
 		CodePoints  []rune
+		Tags        []string
+		TagValues   map[string]uint32
 	}{
 		zones,
 		tlds,
@@ -121,26 +163,33 @@ func GenerateGo(zones map[string]*Zone) error {
 		offsets,
 		nameServers,
 		codePoints,
+		tags,
+		tagValues,
 	}
 
-	buf := new(bytes.Buffer)
-	err := goTemplate.Execute(buf, &data)
-	if err != nil {
-		return err
-	}
-	formatted, err := format.Source(buf.Bytes())
-	if err != nil {
-		return err
+	for name, t := range templates {
+		buf := new(bytes.Buffer)
+		err := t.Execute(buf, &data)
+		if err != nil {
+			return err
+		}
+		formatted, err := format.Source(buf.Bytes())
+		if err != nil {
+			return err
+		}
+
+		fn := filepath.Join(BaseDir, name)
+		color.Fprintf(os.Stderr, "@{.}Generating Go source code: %s\n", fn)
+		f, err := os.Create(fn)
+		if err != nil {
+			return err
+		}
+		defer f.Close()
+		_, err = f.Write(formatted)
+		if err != nil {
+			return err
+		}
 	}
 
-	fn := filepath.Join(BaseDir, "zones.go")
-	color.Fprintf(os.Stderr, "@{.}Generating Go source code: %s\n", fn)
-
-	f, err := os.Create(fn)
-	if err != nil {
-		return err
-	}
-	defer f.Close()
-	_, err = f.Write(formatted)
-	return err
+	return nil
 }

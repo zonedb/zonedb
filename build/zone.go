@@ -27,9 +27,7 @@ func (z *Zone) Normalize() {
 	z.Domain = Normalize(z.Domain)
 	var tags []string
 	for _, t := range z.Tags {
-		if verifyTag(t) {
-			tags = append(tags, t)
-		}
+		tags = append(tags, t)
 	}
 	z.Tags = NewSet(tags...).Values()
 	z.NameServers = NewSet(z.NameServers...).Values()
