@@ -1309,7 +1309,7 @@ var _y = [4140]Zone{
 	{"scb", nil, nil, _c[0:6], NS{"a.nic.scb", "b.nic.scb", "c.nic.scb", "d.nic.scb"}, "whois.nic.scb", "", "http://newgtlds.icann.org/", 0x22},
 	{"schaeffler", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"schmidt", nil, nil, _c[0:6], NS{"a.nic.schmidt", "b.nic.schmidt", "c.nic.schmidt", "d.nic.schmidt"}, "whois.nic.schmidt", "", "http://newgtlds.icann.org/", 0x22},
-	{"scholarships", nil, nil, _c[0:6], NS{"a0.nic.scholarships", "a2.nic.scholarships", "b0.nic.scholarships", "c0.nic.scholarships"}, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x24},
+	{"scholarships", nil, nil, _c[0:6], NS{"a0.nic.scholarships", "a2.nic.scholarships", "b0.nic.scholarships", "c0.nic.scholarships"}, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x20},
 	{"school", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x0},
 	{"schule", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.donuts.co", "", "", 0x0},
 	{"schwarz", nil, nil, _c[0:6], NS{"a.ns.nic.schwarz", "c.ns.nic.schwarz", "x.ns.nic.schwarz", "y.ns.nic.schwarz"}, "whois.nic.schwarz", "", "http://newgtlds.icann.org/", 0x22},
