@@ -41,7 +41,7 @@ func (z *Zone) IsTLD() bool {
 	return z.Parent == nil
 }
 
-// IsInRootZone returns true if the Zone is a top-level domain
+// IsInRootZone returns true if the Zone is a top-level domain.
 // present in the root DNS zone.
 func (z *Zone) IsInRootZone() bool {
 	return len(z.NameServers) != 0 && z.IsTLD()
