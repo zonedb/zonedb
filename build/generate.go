@@ -48,19 +48,21 @@ var TagValues  = map[string]uint32{
 	{{end }}
 }
 
+// _c stores Unicode code point ranges allowed in each Zone by the registry.
+// Rune values alternate low, high.
+var _c = [{{len .CodePoints}}]rune{
+	{{range $i, $cp := .CodePoints}} \
+		'{{printf "%c" .}}', \
+		{{if odd $i}}
+		{{end}} \
+	{{end}} \
+}
+
 // Zones is a slice of all Zones in the database.
 var Zones = _z[:]
 
 // TLDs is a slice of all top-level domain Zones.
 var TLDs = _z[:{{len .TLDs}}]
-
-// ZoneMap is an index of domain names to Zones.
-var ZoneMap = map[string]*Zone{
-	{{range $d := .Domains}}  \
-		{{$o := index $.Offsets $d}} \
-		"{{$d}}": &_z[{{$o}}],
-	{{end}} \
-}
 
 // _z is a static array of Zones.
 // Other global variables have pointers into this array.
@@ -84,13 +86,11 @@ var _y = [{{len .Zones}}]Zone{
 	{{end}} \
 }
 
-// _c stores Unicode code point ranges allowed in each Zone by the registry.
-// Rune values alternate low, high.
-var _c = [{{len .CodePoints}}]rune{
-	{{range $i, $cp := .CodePoints}} \
-		'{{printf "%c" .}}', \
-		{{if odd $i}}
-		{{end}} \
+// ZoneMap maps Unicode domain names to Zones.
+var ZoneMap = map[string]*Zone{
+	{{range $d := .Domains}}  \
+		{{$o := index $.Offsets $d}} \
+		"{{$d}}": &_z[{{$o}}],
 	{{end}} \
 }
 `
