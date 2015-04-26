@@ -23,17 +23,22 @@ func main() {
 	filterRegexp := flag.String("x", "", "select working zones on by regular expression")
 	filterTags := flag.String("tags", "", "select working zones by tags (comma-delimited)")
 
-	// Zone operations
+	// Query operations
 	listZones := flag.Bool("list", false, "list working zones")
 	listTags := flag.Bool("list-tags", false, "list tags in working zones")
 	addTags := flag.String("add-tags", "", "add tags to zones (comma-delimited)")
+
+	// Test operations
+	verifyNS := flag.Bool("verify-ns", false, "verify name servers")
+	verifyWhois := flag.Bool("verify-whois", false, "verify whois servers")
+	checkPS := flag.Bool("ps", false, "check against Public Suffix List")
+
+	// Mutate operations
 	removeTags := flag.String("remove-tags", "", "remove tags from zones (comma-delimited)")
 	updateRoot := flag.Bool("update-root", false, "retrieve updates to the root zone file")
 	updateNS := flag.Bool("update-ns", false, "update name servers")
-	verifyNS := flag.Bool("verify-ns", false, "verify name servers")
 	updateRubyWhois := flag.Bool("update-ruby-whois", false, "query Ruby Whois for whois servers")
 	updateWhois := flag.Bool("update-whois", false, "query whois-servers.net for whois servers")
-	verifyWhois := flag.Bool("verify-whois", false, "verify whois servers")
 	updateIANA := flag.Bool("update-iana", false, "query IANA for metadata")
 	updateAll := flag.Bool("update", false, "update all (root zone, whois, IANA data)")
 
@@ -173,6 +178,10 @@ func main() {
 
 	if *verifyWhois {
 		build.VerifyWhois(workZones)
+	}
+
+	if *checkPS {
+		build.CheckPublicSuffix(workZones)
 	}
 
 	// Fold newly added zones back in
