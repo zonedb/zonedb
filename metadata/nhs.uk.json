@@ -1,8 +1,0 @@
-{
-	"domain": "nhs.uk",
-	"nameServers": [
-		"nsa.nhs.uk",
-		"nsb.nhs.uk"
-	],
-	"codePoints": "--09az"
-}

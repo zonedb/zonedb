@@ -1,8 +1,0 @@
-{
-	"domain": "british-library.uk",
-	"nameServers": [
-		"dns1.bl.uk",
-		"dns2.bl.uk"
-	],
-	"codePoints": "--09az"
-}
