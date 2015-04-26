@@ -2,6 +2,7 @@
 	"domain": "eu.org",
 	"whoisServer": "whois.eu.org",
 	"nameServers": [
+		"hobbes.bsd-dk.dk",
 		"canada.wolfhugel.eu",
 		"ns1.absolight.net",
 		"dns3.gandi.net",
