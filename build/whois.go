@@ -60,6 +60,10 @@ func FetchRubyWhoisServers(zones map[string]*Zone, addNew bool) error {
 	}
 	var servers, urls int
 	for d, rec := range records {
+		// Skip empty records
+		if rec.Host == "" && rec.Adapter == "none" && rec.URL == "" {
+			continue
+		}
 		d = Normalize(d)
 		z := zones[d]
 		if z == nil {
