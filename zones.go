@@ -14,6 +14,7 @@ func initZones() {
 // Tags are stored in a single integer as a bit field.
 type Tags uint32
 
+// Tag values corresponding to bit shifts (1 << iota)
 const (
 	TagAdult          = 1
 	TagBrand          = 2

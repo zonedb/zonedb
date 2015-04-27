@@ -5,7 +5,7 @@ package zonedb
 // NS represents a slice of name servers.
 type NS []string
 
-// And performs a boolean AND between tags and q,
+// And performs a bitwise AND between tags and q,
 // comparing the result to zero. Returns true if any
 // tags match q.
 func (tags Tags) And(q Tags) bool {
