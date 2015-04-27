@@ -24,16 +24,29 @@ type Zone struct {
 	NameServers NS
 
 	// Whois server responding on port 43
-	WhoisServer string
+	whoisServer string
 
 	// URL to look up whois info for a subdomain of this Zone
-	WhoisURL string
+	whoisURL string
 
 	// Informational URL for this Zone
 	InfoURL string
 
 	// Tags stored as an integer bit field.
 	Tags uint32
+}
+
+// WhoisServer returns the whois server that responds on port 43
+// for the zone. It first searches the specific zone, then the parent,
+// returning an empty string if none found.
+func (z *Zone) WhoisServer() string {
+	if z.whoisServer != "" {
+		return z.whoisServer
+	}
+	if z.Parent != nil {
+		return z.Parent.WhoisServer()
+	}
+	return ""
 }
 
 // IsTLD returns true if the Zone is a top-level domain.

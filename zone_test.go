@@ -23,6 +23,24 @@ func TestTags(t *testing.T) {
 	}
 }
 
+func TestZone_WhoisServer(t *testing.T) {
+	data := map[string]string{
+		"com":    ZoneMap["net"].WhoisServer(),
+		"er":     "",
+		"uk.com": ZoneMap["us.com"].WhoisServer(),
+		"com.er": "",
+		"ac.uk":  ZoneMap["gov.uk"].WhoisServer(),
+		"co.uk":  ZoneMap["uk"].WhoisServer(),
+		"org.uk": ZoneMap["uk"].WhoisServer(),
+	}
+	for k, v := range data {
+		g := ZoneMap[k].WhoisServer()
+		if g != v {
+			t.Errorf(`Expected Zones["%s"].WhoisServer() == %s, got %s`, k, v, g)
+		}
+	}
+}
+
 func TestZone_IsTLD(t *testing.T) {
 	data := map[string]bool{
 		"com":    true,
