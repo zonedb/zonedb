@@ -2939,7 +2939,7 @@ var _y = [4132]Zone{
 	{"org.mv", &_z[966], nil, _c[0:6], NS{"ns.org.mv", "ns2.dhivehinet.net.mv", "mv-ns.anycast.pch.net"}, "", "", "", 0x0},
 	{"pro.mv", &_z[966], nil, _c[0:6], NS{"host13.dhivehinet.net.mv"}, "", "", "", 0x0},
 	{"ac.mw", &_z[967], nil, _c[0:6], NS{"rip.psg.com", "domwe.sdn.mw", "sec3.apnic.net", "chambo.sdnp.org.mw", "mw.cctld.authdns.ripe.net"}, "", "", "", 0x0},
-	{"co.mw", &_z[967], nil, _c[0:6], NS{"rip.psg.com", "domwe.sdn.mw", "sec3.apnic.net", "chambo.sdnp.org.mw"}, "", "", "", 0x0},
+	{"co.mw", &_z[967], nil, _c[0:6], NS{"rip.psg.com", "domwe.sdn.mw", "sec3.apnic.net", "sdnhq.undp.org", "chambo.sdnp.org.mw"}, "", "", "", 0x0},
 	{"com.mw", &_z[967], nil, _c[0:6], NS{"rip.psg.com", "domwe.sdn.mw", "sec3.apnic.net", "sdnhq.undp.org", "chambo.sdnp.org.mw"}, "", "", "", 0x0},
 	{"coop.mw", &_z[967], nil, _c[0:6], NS{"rip.psg.com", "domwe.sdn.mw", "chambo.sdnp.org.mw"}, "", "", "", 0x0},
 	{"edu.mw", &_z[967], nil, _c[0:6], NS{"rip.psg.com", "domwe.sdn.mw", "sec3.apnic.net", "sdnhq.undp.org", "chambo.sdnp.org.mw", "mw.cctld.authdns.ripe.net"}, "", "", "", 0x0},
