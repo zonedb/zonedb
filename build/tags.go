@@ -36,10 +36,9 @@ func RemoveTags(zones map[string]*Zone, tags []string) {
 	color.Printf("@{.}Removed %d tag(s) from %d zone(s)\n", removed, modified)
 }
 
-func tagBits(tagValues map[string]uint32, tags []string) uint32 {
-	var bits uint32
+func tagBits(tagValues map[string]uint64, tags []string) (bits uint64) {
 	for _, t := range tags {
 		bits |= tagValues[t]
 	}
-	return bits
+	return
 }

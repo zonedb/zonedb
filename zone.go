@@ -33,7 +33,7 @@ type Zone struct {
 	InfoURL string
 
 	// Tags stored as an integer bit field.
-	Tags uint32
+	Tags Tags
 }
 
 // WhoisServer returns the whois server that responds on port 43

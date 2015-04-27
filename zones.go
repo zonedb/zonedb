@@ -12,6 +12,8 @@ func initZones() {
 }
 
 // Tags are stored in a single integer as a bit field.
+type Tags uint32
+
 const (
 	TagAdult          = 1
 	TagBrand          = 2
@@ -29,7 +31,7 @@ const (
 )
 
 // TagStrings maps integer tag values to strings.
-var TagStrings = map[uint32]string{
+var TagStrings = map[Tags]string{
 	TagAdult:          "adult",
 	TagBrand:          "brand",
 	TagClosed:         "closed",
@@ -45,7 +47,7 @@ var TagStrings = map[uint32]string{
 }
 
 // TagValues maps tag names to integer values.
-var TagValues = map[string]uint32{
+var TagValues = map[string]Tags{
 	"adult":          TagAdult,
 	"brand":          TagBrand,
 	"closed":         TagClosed,

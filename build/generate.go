@@ -27,6 +27,8 @@ func initZones() {
 }
 
 // Tags are stored in a single integer as a bit field.
+type Tags {{.TagType}}
+
 const (
 	{{range $i, $t := .Tags}} \
 		Tag{{title $t}} = {{index $.TagValues $t}}
@@ -35,14 +37,14 @@ const (
 )
 
 // TagStrings maps integer tag values to strings.
-var TagStrings = map[uint32]string{
+var TagStrings = map[Tags]string{
 	{{range $t := .Tags}} \
 		Tag{{title $t}}: "{{$t}}",
 	{{end }}
 }
 
 // TagValues maps tag names to integer values.
-var TagValues  = map[string]uint32{
+var TagValues  = map[string]Tags{
 	{{range $t := .Tags}} \
 		"{{$t}}": Tag{{title $t}},
 	{{end }}
@@ -105,7 +107,7 @@ func odd(i int) bool {
 }
 
 var (
-	funcMap   = template.FuncMap{"odd": odd, "title": strings.Title}
+	funcMap    = template.FuncMap{"odd": odd, "title": strings.Title}
 	goTemplate = template.Must(template.New("").Funcs(funcMap).Parse(cont(goSrc)))
 )
 
@@ -121,9 +123,9 @@ func GenerateGo(zones map[string]*Zone) error {
 	}
 	tags := tagSet.Values()
 	sort.Strings(tags)
-	tagValues := make(map[string]uint32)
+	tagValues := make(map[string]uint64)
 	for i, t := range tags {
-		tagValues[t] = 1 << uint32(i)
+		tagValues[t] = 1 << uint64(i)
 	}
 	var nameServers []string
 	var codePoints []rune
@@ -138,6 +140,10 @@ func GenerateGo(zones map[string]*Zone) error {
 		z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, z.CodePoints.Runes())
 		z.TagBits = tagBits(tagValues, z.Tags)
 	}
+	tagType := "uint32"
+	if len(tags) > 32 {
+		tagType = "uint64"
+	}
 
 	data := struct {
 		Zones       map[string]*Zone
@@ -146,8 +152,9 @@ func GenerateGo(zones map[string]*Zone) error {
 		Offsets     map[string]int
 		NameServers []string
 		CodePoints  []rune
+		TagType     string
 		Tags        []string
-		TagValues   map[string]uint32
+		TagValues   map[string]uint64
 	}{
 		zones,
 		tlds,
@@ -155,6 +162,7 @@ func GenerateGo(zones map[string]*Zone) error {
 		offsets,
 		nameServers,
 		codePoints,
+		tagType,
 		tags,
 		tagValues,
 	}
