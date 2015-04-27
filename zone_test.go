@@ -23,20 +23,20 @@ func TestTags(t *testing.T) {
 	}
 }
 
-func TestTags_Contains(t *testing.T) {
+func TestTags_And(t *testing.T) {
 	var tags Tags
 	tags = TagGeneric | TagCountry
-	if tags.Contains(TagGeneric) != true {
-		t.Errorf("tags.Contains(TagGeneric) != true")
+	if tags.And(TagGeneric) != true {
+		t.Errorf("tags.And(TagGeneric) != true")
 	}
-	if tags.Contains(TagCountry) != true {
-		t.Errorf("tags.Contains(TagCountry) != true")
+	if tags.And(TagCountry) != true {
+		t.Errorf("tags.And(TagCountry) != true")
 	}
-	if tags.Contains(TagAdult) != false {
-		t.Errorf("tags.Contains(TagAdult) != false")
+	if tags.And(TagAdult) != false {
+		t.Errorf("tags.And(TagAdult) != false")
 	}
-	if tags.Contains(0) != false {
-		t.Errorf("tags.Contains(0) != false")
+	if tags.And(0) != false {
+		t.Errorf("tags.And(0) != false")
 	}
 }
 

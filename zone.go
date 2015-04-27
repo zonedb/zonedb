@@ -5,9 +5,10 @@ package zonedb
 // NS represents a slice of name servers.
 type NS []string
 
-// Contains returns a boolean value if the specified tag(s) are set.
-// Will always return false if passed 0.
-func (tags Tags) Contains(q Tags) bool {
+// And performs a boolean AND between tags and q,
+// comparing the result to zero. Returns true if any
+// tags match q.
+func (tags Tags) And(q Tags) bool {
 	if (tags & q) != 0 {
 		return true
 	}
