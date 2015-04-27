@@ -152,6 +152,26 @@ func TestZone_AllowsRegistration(t *testing.T) {
 	}
 }
 
+func TestList_PublicSuffix(t *testing.T) {
+	data := map[string]string{
+		"com":           "com",
+		".com":          "com",
+		"foobar.com":    "com",
+		"bar.გე":        "გე",
+		"acme.co.uk":    "co.uk",
+		"brazil.com.br": "com.br",
+		"unknown.":      "unknown.",
+		"COM":           "COM",
+		"foo.xn--node":  "foo.xn--node",
+	}
+	for k, v := range data {
+		g := List.PublicSuffix(k)
+		if g != v {
+			t.Errorf(`Expected List.PublicSuffix(%q) == %q, got %q`, k, v, g)
+		}
+	}
+}
+
 func BenchmarkInitAllocs(b *testing.B) {
 	b.ReportAllocs()
 	for i := 0; i < b.N; i++ {

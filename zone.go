@@ -1,5 +1,7 @@
 package zonedb
 
+import "strings"
+
 //go:generate go run build/cmd/zonedb/main.go -generate-go
 
 // NS represents a slice of name servers.
@@ -94,4 +96,33 @@ func (z *Zone) IsInRootZone() bool {
 func (z *Zone) AllowsRegistration() bool {
 	t := z.Tags & (TagClosed | TagWithdrawn | TagRetired | TagInfrastructure)
 	return t == 0 && z.IsDelegated()
+}
+
+// List implements the cookiejar.PublicSuffixList interface.
+var List list
+
+type list struct{}
+
+// PublicSuffix returns the public suffix (zone) for a given domain name.
+// Input must be normalized by the client (lowercase, Unicode). Malformed
+// input, IP addresses, or other non-domain name strings will be returned
+// unmodified.
+func (l list) PublicSuffix(domain string) string {
+	sfx := domain
+	for {
+		if z, ok := ZoneMap[sfx]; ok {
+			return z.Domain
+		}
+		if i := strings.Index(sfx, "."); i >= 0 {
+			sfx = sfx[i+1:]
+		} else {
+			break
+		}
+	}
+	return domain
+}
+
+// String returns a description of source of this public suffix list.
+func (l list) String() string {
+	return "ZoneDB"
 }
