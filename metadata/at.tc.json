@@ -1,4 +1,8 @@
 {
 	"domain": "at.tc",
+	"nameServers": [
+		"ns.udagdns.de",
+		"ns.udagdns.net"
+	],
 	"codePoints": "--09az"
 }
