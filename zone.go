@@ -49,6 +49,19 @@ func (z *Zone) WhoisServer() string {
 	return ""
 }
 
+// WhoisURL returns a URL to retrieve whois data for a subdomain
+// of the zone. It first searches the specific zone, then the parent,
+// returning an empty string if none found.
+func (z *Zone) WhoisURL() string {
+	if z.whoisURL != "" {
+		return z.whoisURL
+	}
+	if z.Parent != nil {
+		return z.Parent.WhoisURL()
+	}
+	return ""
+}
+
 // IsTLD returns true if the Zone is a top-level domain.
 func (z *Zone) IsTLD() bool {
 	return z.Parent == nil

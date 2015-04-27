@@ -36,7 +36,22 @@ func TestZone_WhoisServer(t *testing.T) {
 	for k, v := range data {
 		g := ZoneMap[k].WhoisServer()
 		if g != v {
-			t.Errorf(`Expected Zones["%s"].WhoisServer() == %s, got %s`, k, v, g)
+			t.Errorf(`Expected Zones[%q].WhoisServer() == %q, got %q`, k, v, g)
+		}
+	}
+}
+
+func TestZone_WhoisURL(t *testing.T) {
+	data := map[string]string{
+		"com":   "",
+		"net":   "",
+		"org":   "",
+		"co.az": ZoneMap["az"].WhoisURL(),
+	}
+	for k, v := range data {
+		g := ZoneMap[k].WhoisURL()
+		if g != v {
+			t.Errorf(`Expected Zones[%q].WhoisURL() == %q, got %q`, k, v, g)
 		}
 	}
 }
