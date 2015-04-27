@@ -23,6 +23,23 @@ func TestTags(t *testing.T) {
 	}
 }
 
+func TestTags_Contains(t *testing.T) {
+	var tags Tags
+	tags = TagGeneric | TagCountry
+	if tags.Contains(TagGeneric) != true {
+		t.Errorf("tags.Contains(TagGeneric) != true")
+	}
+	if tags.Contains(TagCountry) != true {
+		t.Errorf("tags.Contains(TagCountry) != true")
+	}
+	if tags.Contains(TagAdult) != false {
+		t.Errorf("tags.Contains(TagAdult) != false")
+	}
+	if tags.Contains(0) != false {
+		t.Errorf("tags.Contains(0) != false")
+	}
+}
+
 func TestZone_WhoisServer(t *testing.T) {
 	data := map[string]string{
 		"com":    ZoneMap["net"].WhoisServer(),

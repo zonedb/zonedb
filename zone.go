@@ -5,6 +5,15 @@ package zonedb
 // NS represents a slice of name servers.
 type NS []string
 
+// Contains returns a boolean value if the specified tag(s) are set.
+// Will always return false if passed 0.
+func (tags Tags) Contains(q Tags) bool {
+	if (tags & q) != 0 {
+		return true
+	}
+	return false
+}
+
 // Zone represents a single DNS zone.
 type Zone struct {
 	// Normalized UTF-8 domain name
