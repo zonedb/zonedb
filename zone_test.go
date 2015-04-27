@@ -66,7 +66,7 @@ func TestZone_IsTLD(t *testing.T) {
 	for k, v := range data {
 		g := ZoneMap[k].IsTLD()
 		if g != v {
-			t.Errorf(`Expected Zones["%s"].IsTLD() == %t, got %t`, k, v, g)
+			t.Errorf(`Expected Zones[%q].IsTLD() == %t, got %t`, k, v, g)
 		}
 	}
 }
@@ -83,7 +83,7 @@ func TestZone_IsDelegated(t *testing.T) {
 	for k, v := range data {
 		g := ZoneMap[k].IsDelegated()
 		if g != v {
-			t.Errorf(`Expected Zones["%s"].IsDelegated() == %t, got %t`, k, v, g)
+			t.Errorf(`Expected Zones[%q].IsDelegated() == %t, got %t`, k, v, g)
 		}
 	}
 }
@@ -101,7 +101,7 @@ func TestZone_IsInRootZone(t *testing.T) {
 	for k, v := range data {
 		g := ZoneMap[k].IsInRootZone()
 		if g != v {
-			t.Errorf(`Expected Zones["%s"].IsInRootZone() == %t, got %t`, k, v, g)
+			t.Errorf(`Expected Zones[%q].IsInRootZone() == %t, got %t`, k, v, g)
 		}
 	}
 }
@@ -122,7 +122,7 @@ func TestZone_AllowsRegistration(t *testing.T) {
 	for k, v := range data {
 		g := ZoneMap[k].AllowsRegistration()
 		if g != v {
-			t.Errorf(`Expected Zones["%s"].AllowsRegistration() == %t, got %t`, k, v, g)
+			t.Errorf(`Expected Zones[%q].AllowsRegistration() == %t, got %t`, k, v, g)
 		}
 	}
 }
