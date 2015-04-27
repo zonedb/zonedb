@@ -1,6 +1,7 @@
 package zonedb
 
 import (
+	"fmt"
 	"testing"
 	"unsafe"
 )
@@ -38,6 +39,13 @@ func TestTags_And(t *testing.T) {
 	if tags.And(0) != false {
 		t.Errorf("tags.And(0) != false")
 	}
+}
+
+func ExampleTags_And() {
+	var z *Zone
+	z = ZoneMap["bananarepublic"]
+	fmt.Println(z.Tags.And(TagBrand | TagGeo))
+	// Output: true
 }
 
 func TestZone_WhoisServer(t *testing.T) {

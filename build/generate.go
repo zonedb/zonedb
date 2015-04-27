@@ -29,6 +29,7 @@ func initZones() {
 // Tags are stored in a single integer as a bit field.
 type Tags {{.TagType}}
 
+// Tag values corresponding to bit shifts (1 << iota)
 const (
 	{{range $i, $t := .Tags}} \
 		Tag{{title $t}} = {{index $.TagValues $t}}
