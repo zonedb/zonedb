@@ -14,7 +14,7 @@ func Fetch(u string) (*http.Response, error) {
 		return nil, err
 	}
 	if res.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("HTTP error for %s: %d", u, res.Status)
+		return nil, fmt.Errorf("HTTP error for %s: %s", u, res.Status)
 	}
 	return res, nil
 }
