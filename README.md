@@ -23,11 +23,17 @@ The `zones.txt` file is a UTF-8 encoded text file containing a list of domain na
 
 Each domain with associated metadata will have a JSON file in the `metadata` directory.
 
+## Implementations
+
+### Go
+
+`go get github.com/zonedb/zonedb`
+
+This repository contains a reference implementation of the database written in [Go](https://golang.org). Unlike the source data, which is in Unicode, the Go implementation represents domain names in ASCII ([IDNA](http://en.wikipedia.org/wiki/Internationalized_domain_name#Internationalizing_Domain_Names_in_Applications)) form for interop with [existing](https://godoc.org/net) [libraries](https://godoc.org/golang.org/x/net/idna).
+
 ## Contributing
 
-Fork this repository, make changes, and send a pull request.
-
-**Note:** Before submitting a PR, run `make normalize` to normalize any changes. The data is structured to minimize diff size.
+Fork this repository, make changes, and send a pull request. Before submitting a PR, run `make normalize` to normalize any changes. The data is structured to minimize diff size.
 
 ### zonedb build tool
 

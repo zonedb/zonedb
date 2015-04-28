@@ -76,14 +76,15 @@ var _y = [{{len .Zones}}]Zone{
 	{{range $d := .Domains}} \
 		{{$z := (index $.Zones $d)}} \
 		{ \
-			"{{$d}}", \
+			"{{ascii $d}}", \
+			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
 			{{if $z.ParentDomain}} &_z[{{$z.POffset}}] {{else}} nil {{end}}, \
 			{{if $z.SEnd}} _z[{{$z.SOffset}}:{{$z.SEnd}}] {{else}} nil {{end}}, \
 			{{if $z.CPEnd}} _c[{{$z.CPOffset}}:{{$z.CPEnd}}] {{else}} nil {{end}}, \
-			{{if $z.NameServers}} NS{ {{range $z.NameServers}}"{{.}}",{{end}}} {{else}} nil {{end}}, \
-			"{{$z.WhoisServer}}", \
-			"{{$z.WhoisURL}}", \
-			"{{$z.InfoURL}}", \
+			{{if $z.NameServers}} NS{ {{range $z.NameServers}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
+			"{{ascii $z.WhoisServer}}", \
+			"{{ascii $z.WhoisURL}}", \
+			"{{ascii $z.InfoURL}}", \
 			{{printf "0x%x" $z.TagBits}}, \
 		},
 	{{end}} \
@@ -92,8 +93,10 @@ var _y = [{{len .Zones}}]Zone{
 // ZoneMap maps Unicode domain names to Zones.
 var ZoneMap = map[string]*Zone{
 	{{range $d := .Domains}}  \
+		{{$z := (index $.Zones $d)}} \
 		{{$o := index $.Offsets $d}} \
-		"{{$d}}": &_z[{{$o}}],
+		"{{ascii $d}}": &_z[{{$o}}], \
+		{{if $z.IsIDN}}// {{$d}}{{end }}
 	{{end}} \
 }
 `

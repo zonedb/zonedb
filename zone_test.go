@@ -157,12 +157,12 @@ func TestPublicZone(t *testing.T) {
 		"com":           ZoneMap["com"],
 		".com":          ZoneMap["com"],
 		"foobar.com":    ZoneMap["com"],
-		"bar.გე":        ZoneMap["გე"],
 		"acme.co.uk":    ZoneMap["co.uk"],
 		"brazil.com.br": ZoneMap["com.br"],
+		"foo.xn--node":  ZoneMap["xn--node"],
 		"unknown.":      nil,
 		"COM":           nil,
-		"foo.xn--node":  nil,
+		"bar.გე":        nil,
 	}
 	for k, v := range data {
 		g := PublicZone(k)
@@ -177,12 +177,12 @@ func TestList_PublicSuffix(t *testing.T) {
 		"com":           "com",
 		".com":          "com",
 		"foobar.com":    "com",
-		"bar.გე":        "გე",
+		"foo.xn--node":  "xn--node",
 		"acme.co.uk":    "co.uk",
 		"brazil.com.br": "com.br",
 		"unknown.":      "unknown.",
 		"COM":           "COM",
-		"foo.xn--node":  "foo.xn--node",
+		"bar.გე":        "bar.გე",
 	}
 	for k, v := range data {
 		g := List.PublicSuffix(k)
