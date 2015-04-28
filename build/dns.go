@@ -62,7 +62,7 @@ func FetchNameServers(zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zones...\n", len(zones))
 	var found int32
 	mapZones(zones, func(z *Zone) {
-		name := z.ACE()
+		name := z.ASCII()
 		rrs := resolver.Resolve(name, "NS")
 		for _, rr := range rrs {
 			if rr.Type != "NS" || Normalize(rr.Name) != z.Domain {

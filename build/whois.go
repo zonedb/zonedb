@@ -21,7 +21,7 @@ func QueryWhoisServers(zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Querying whois-servers.net for %d zones...\n", len(zones))
 	var found int32
 	mapZones(zones, func(z *Zone) {
-		name := z.ACE() + ".whois-servers.net."
+		name := z.ASCII() + ".whois-servers.net."
 		rrs := resolver.Resolve(name, "CNAME")
 		for _, rr := range rrs {
 			// whois-servers.net occasionally returns whois.ripe.net (unusable)
@@ -119,7 +119,7 @@ var (
 )
 
 func tldWhois(z *Zone) error {
-	b, err := queryWhois("whois.iana.org", z.ACE())
+	b, err := queryWhois("whois.iana.org", z.ASCII())
 	if err != nil {
 		return err
 	}

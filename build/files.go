@@ -89,7 +89,7 @@ func ReadMetadata(zones map[string]*Zone) (errs []error) {
 	paths, _ := filepath.Glob(filepath.Join(dir, "*.json"))
 	var read int
 	for _, path := range paths {
-		// Ensure filename equals ACE/punycode domain name
+		// Ensure filename equals ASCII/punycode domain name
 		base := filepath.Base(path)
 		ext := filepath.Ext(base)
 		di := strings.TrimSuffix(base, ext)
@@ -128,7 +128,7 @@ func ReadMetadata(zones map[string]*Zone) (errs []error) {
 
 		// Ensure domain name matches
 		if z.Domain != d {
-			err = fmt.Errorf("domain %s doesn’t match filename (expected %s): %s", z.Domain, z.ACE(), base)
+			err = fmt.Errorf("domain %s doesn’t match filename (expected %s): %s", z.Domain, z.ASCII(), base)
 			errs = append(errs, err)
 			LogError(err)
 			continue
@@ -166,7 +166,7 @@ func WriteMetadata(zones map[string]*Zone) error {
 	var wrote, deleted int
 	for _, z := range zones {
 		z.Normalize()
-		path := filepath.Join(BaseDir, "metadata", z.ACE()+".json")
+		path := filepath.Join(BaseDir, "metadata", z.ASCII()+".json")
 		if !z.HasMetadata() {
 			err := os.Remove(path)
 			if err == nil {

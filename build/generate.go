@@ -108,7 +108,11 @@ func odd(i int) bool {
 }
 
 var (
-	funcMap    = template.FuncMap{"odd": odd, "title": strings.Title}
+	funcMap = template.FuncMap{
+		"odd":   odd,
+		"title": strings.Title,
+		"ascii": ToASCII,
+	}
 	goTemplate = template.Must(template.New("").Funcs(funcMap).Parse(cont(goSrc)))
 )
 

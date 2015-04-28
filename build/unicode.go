@@ -20,6 +20,12 @@ func Normalize(s string) string {
 	return s
 }
 
+// ToASCII normalizes a domain name or URL to ASCII/punycode.
+func ToASCII(s string) string {
+	s, _ = idna.ToASCII(s)
+	return s
+}
+
 // ASCII is a Unicode CodeTable for ASCII domain names (a-z, 0-9, and -)
 var ASCII, _ = NewCodeTable(`--09az`)
 

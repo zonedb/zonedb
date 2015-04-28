@@ -3,6 +3,7 @@ package build
 import (
 	"encoding/json"
 	"strings"
+	"unicode/utf8"
 
 	"golang.org/x/net/idna"
 )
@@ -34,6 +35,15 @@ func (z *Zone) Normalize() {
 	z.CodePoints.Compress()
 }
 
+func (z *Zone) IsIDN() bool {
+	for i := 0; i < len(z.Domain); i++ {
+		if z.Domain[i] >= utf8.RuneSelf {
+			return true
+		}
+	}
+	return false
+}
+
 func (z *Zone) HasMetadata() bool {
 	z2 := *z
 	z2.Domain = ""
@@ -43,7 +53,7 @@ func (z *Zone) HasMetadata() bool {
 	return true
 }
 
-func (z *Zone) ACE() string {
+func (z *Zone) ASCII() string {
 	s, _ := idna.ToASCII(z.Domain)
 	return s
 }
