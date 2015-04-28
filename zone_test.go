@@ -152,6 +152,26 @@ func TestZone_AllowsRegistration(t *testing.T) {
 	}
 }
 
+func TestPublicZone(t *testing.T) {
+	data := map[string]*Zone{
+		"com":           ZoneMap["com"],
+		".com":          ZoneMap["com"],
+		"foobar.com":    ZoneMap["com"],
+		"bar.გე":        ZoneMap["გე"],
+		"acme.co.uk":    ZoneMap["co.uk"],
+		"brazil.com.br": ZoneMap["com.br"],
+		"unknown.":      nil,
+		"COM":           nil,
+		"foo.xn--node":  nil,
+	}
+	for k, v := range data {
+		g := PublicZone(k)
+		if g != v {
+			t.Errorf(`Expected List.PublicSuffix(%q) == %v, got %v`, k, v, g)
+		}
+	}
+}
+
 func TestList_PublicSuffix(t *testing.T) {
 	data := map[string]string{
 		"com":           "com",

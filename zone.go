@@ -98,20 +98,14 @@ func (z *Zone) AllowsRegistration() bool {
 	return t == 0 && z.IsDelegated()
 }
 
-// List implements the cookiejar.PublicSuffixList interface.
-var List list
-
-type list struct{}
-
-// PublicSuffix returns the public suffix (zone) for a given domain name.
-// Input must be normalized by the client (lowercase, Unicode). Malformed
-// input, IP addresses, or other non-domain name strings will be returned
-// unmodified.
-func (l list) PublicSuffix(domain string) string {
+// PublicZone returns the public zone for a given domain name
+// or nil if none found.
+// Input must be normalized by the client (lowercase, Unicode).
+func PublicZone(domain string) *Zone {
 	sfx := domain
 	for {
 		if z, ok := ZoneMap[sfx]; ok {
-			return z.Domain
+			return z
 		}
 		if i := strings.Index(sfx, "."); i >= 0 {
 			sfx = sfx[i+1:]
@@ -119,7 +113,24 @@ func (l list) PublicSuffix(domain string) string {
 			break
 		}
 	}
-	return domain
+	return nil
+}
+
+// List implements the cookiejar.PublicSuffixList interface.
+var List list
+
+type list struct{}
+
+// PublicSuffix returns the public suffix (zone) for a given domain name
+// by calling PublicZone. Input must be normalized by the client
+// (lowercase, Unicode). Malformed input, IP addresses, or other non-domain
+// name strings will be returned unmodified.
+func (l list) PublicSuffix(domain string) string {
+	z := PublicZone(domain)
+	if z == nil {
+		return domain
+	}
+	return z.Domain
 }
 
 // String returns a description of source of this public suffix list.
