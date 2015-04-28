@@ -14,3 +14,7 @@ update:
 	go run build/cmd/zonedb/main.go -update -w
 	make zones.go
 	make test
+
+normalize:
+	go run build/cmd/zonedb/main.go -w
+	make zones.go

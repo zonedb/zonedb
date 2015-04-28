@@ -27,6 +27,8 @@ Each domain with associated metadata will have a JSON file in the `metadata` dir
 
 Fork this repository, make changes, and send a pull request.
 
+**Note:** Before submitting a PR, run `make normalize` to normalize any changes. The data is structured to minimize diff size.
+
 ### zonedb build tool
 
 This database is generated and validated using the `zonedb` tool in this directory. To install, make sure you have a working [Go](https://golang.org) installation (1.4+) and run this command:
