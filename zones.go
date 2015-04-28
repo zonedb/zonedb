@@ -2453,7 +2453,7 @@ var _y = [4132]Zone{
 	{"org.gg", &_z[558], nil, _c[0:6], NS{"d.ci-servers.je", "a.ci-servers.net", "c.ci-servers.org"}, "", "", "", 0x0},
 	{"sch.gg", &_z[558], nil, _c[0:6], NS{"dns3.mtgsy.com", "dns4.mtgsy.com", "dns1.name-s.net", "dns2.name-s.net", "gsy1.ns.mtgsy.com"}, "", "", "", 0x0},
 	{"tr.gg", &_z[558], nil, _c[0:6], NS{"ns01.webme.com", "ns02.webme.com"}, "", "", "", 0x0},
-	{"com.gh", &_z[560], nil, _c[0:6], NS{"austin.gh.com", "mantse.gh.com", "rip.psg.com", "fork.sth.dnsnode.net", "hippo.ru.ac.za"}, "", "", "", 0x0},
+	{"com.gh", &_z[560], nil, _c[0:6], NS{"austin.gh.com", "mantse.gh.com", "rip.psg.com", "fork.sth.dnsnode.net", "slave.sth.netnod.se", "hippo.ru.ac.za"}, "", "", "", 0x0},
 	{"edu.gh", &_z[560], nil, _c[0:6], NS{"austin.gh.com", "mantse.gh.com", "rip.psg.com", "fork.sth.dnsnode.net", "slave.sth.netnod.se", "hippo.ru.ac.za"}, "", "", "", 0x0},
 	{"gov.gh", &_z[560], nil, _c[0:6], NS{"austin.gh.com", "mantse.gh.com", "rip.psg.com", "fork.sth.dnsnode.net", "slave.sth.netnod.se", "hippo.ru.ac.za"}, "", "", "", 0x0},
 	{"mil.gh", &_z[560], nil, _c[0:6], NS{"austin.gh.com", "mantse.gh.com", "rip.psg.com", "fork.sth.dnsnode.net", "slave.sth.netnod.se", "hippo.ru.ac.za"}, "", "", "", 0x0},
