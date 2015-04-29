@@ -2,6 +2,7 @@
 	"domain": "idv.tw",
 	"nameServers": [
 		"sec4.apnic.net",
+		"i.dns.tw",
 		"a.twnic.net.tw",
 		"b.twnic.net.tw",
 		"c.twnic.net.tw",
