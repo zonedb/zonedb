@@ -3,6 +3,7 @@
 	"whoisServer": "whois.voting.tld-box.at",
 	"nameServers": [
 		"a.dns.nic.voting",
-		"m.dns.nic.voting"
+		"m.dns.nic.voting",
+		"n.dns.nic.voting"
 	]
 }

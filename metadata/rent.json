@@ -1,5 +1,12 @@
 {
 	"domain": "rent",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.centralnic.com",
+	"nameServers": [
+		"a.nic.rent",
+		"b.nic.rent",
+		"c.nic.rent",
+		"d.nic.rent"
+	],
 	"codePoints": "--09az"
 }

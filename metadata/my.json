@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.domainregistry.my",
+	"whoisServer": "whois.mynic.my",
 	"nameServers": [
 		"ns-my.nic.fr",
 		"ns5.jaring.my",
