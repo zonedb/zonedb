@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a.nic.toray",
+		"b.nic.toray",
+		"c.nic.toray",
+		"d.nic.toray"
+	],
 	"codePoints": "--09az"
 }

@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a.nic.bridgestone",
+		"b.nic.bridgestone",
+		"c.nic.bridgestone",
+		"d.nic.bridgestone"
+	],
 	"codePoints": "--09az"
 }
