@@ -168,7 +168,7 @@ var _y = [4132]Zone{
 	{"archi", nil, nil, nil, NS{"ns2a.ksregistry.com", "ns2b.ksregistry.com", "ns1a.ksregistry.net", "ns1b.ksregistry.net"}, "whois.ksregistry.net", "", "", 0x0},
 	{"architect", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x0},
 	{"army", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.rightside.co", "", "", 0x0},
-	{"arpa", nil, _z[1797:1803], _c[0:6], NS{"a.root-servers.net", "b.root-servers.net", "c.root-servers.net", "d.root-servers.net", "e.root-servers.net", "f.root-servers.net", "g.root-servers.net", "h.root-servers.net", "i.root-servers.net", "k.root-servers.net", "l.root-servers.net", "m.root-servers.net"}, "whois.iana.org", "", "http://www.iana.org/domains/arpa/", 0x84},
+	{"arpa", nil, _z[1797:1803], _c[0:6], NS{"a.root-servers.net", "b.root-servers.net", "c.root-servers.net", "d.root-servers.net", "e.root-servers.net", "f.root-servers.net", "g.root-servers.net", "h.root-servers.net", "i.root-servers.net", "k.root-servers.net", "l.root-servers.net", "m.root-servers.net"}, "whois.iana.org", "", "https://www.iana.org/domains/arpa", 0x84},
 	{"art", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x0},
 	{"arte", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"as", nil, nil, nil, NS{"tld5.ultradns.info", "tld.gdns.net", "tld1.ultradns.net", "tld2.ultradns.net", "tld3.ultradns.org", "tld4.ultradns.org", "tld6.ultradns.co.uk"}, "whois.nic.as", "", "", 0x70},
