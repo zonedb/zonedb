@@ -95,7 +95,7 @@ func (z *Zone) IsInRootZone() bool {
 // undelegated, withdrawn, retired, or infrastructure zones.
 func (z *Zone) AllowsRegistration() bool {
 	t := z.Tags & (TagClosed | TagWithdrawn | TagRetired | TagInfrastructure)
-	return t == 0 && z.IsDelegated()
+	return t == 0 && (z.IsDelegated() || !z.IsTLD())
 }
 
 // PublicZone returns the public zone for a given domain name
