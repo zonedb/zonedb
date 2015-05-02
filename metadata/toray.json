@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.toray",
 	"nameServers": [
 		"a.nic.toray",
 		"b.nic.toray",

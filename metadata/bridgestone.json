@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.bridgestone",
 	"nameServers": [
 		"a.nic.bridgestone",
 		"b.nic.bridgestone",
