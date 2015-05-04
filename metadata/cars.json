@@ -1,5 +1,12 @@
 {
 	"domain": "cars",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.uniregistry.net",
+	"nameServers": [
+		"tld.isc-sns.com",
+		"tld.isc-sns.info",
+		"tld.isc-sns.net",
+		"a.ns.uniregistry.net"
+	],
 	"codePoints": "--09az"
 }
