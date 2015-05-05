@@ -48,6 +48,29 @@ func ExampleTags_And() {
 	// Output: true
 }
 
+func TestTags_String(t *testing.T) {
+	data := map[Tags]string{
+		(TagGeneric):                            "generic",
+		(TagWithdrawn):                          "withdrawn",
+		(TagCountry | TagGeo):                   "country geo",
+		(TagCountry | TagGeo | TagSponsored):    "country geo sponsored",
+		(TagAdult | TagGeo | TagInfrastructure): "adult geo infrastructure",
+	}
+	for tags, v := range data {
+		g := tags.String()
+		if g != v {
+			t.Errorf(`Expected tags.String() == %q, got %q`, v, g)
+		}
+	}
+}
+
+func ExampleTags_String() {
+	var z *Zone
+	z = ZoneMap["aero"]
+	fmt.Println(z.Tags.String())
+	// Output: generic sponsored
+}
+
 func TestZone_WhoisServer(t *testing.T) {
 	data := map[string]string{
 		"com":    ZoneMap["net"].WhoisServer(),

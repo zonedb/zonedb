@@ -17,6 +17,19 @@ func (tags Tags) And(q Tags) bool {
 	return false
 }
 
+// String returns a space-delimited list of values for tags.
+func (tags Tags) String() string {
+	var a [numTags]string
+	s := a[0:0]
+	for i := uint64(0); i < numTags; i++ {
+		t := Tags(1 << i)
+		if (tags & t) != 0 {
+			s = append(s, TagStrings[t])
+		}
+	}
+	return strings.Join(s, " ")
+}
+
 // Zone represents a single DNS zone.
 type Zone struct {
 	// Normalized UTF-8 domain name
