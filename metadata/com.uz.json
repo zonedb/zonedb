@@ -2,7 +2,8 @@
 	"domain": "com.uz",
 	"nameServers": [
 		"ns1.reg.uz",
-		"ns2.reg.uz"
+		"ns2.reg.uz",
+		"dns3.webspace.uz"
 	],
 	"codePoints": "--09az"
 }

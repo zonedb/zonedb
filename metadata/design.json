@@ -1,7 +1,7 @@
 {
 	"domain": "design",
 	"infoURL": "http://newgtlds.icann.org/",
-	"whoisServer": "whois.centralnic.com",
+	"whoisServer": "whois.nic.design",
 	"nameServers": [
 		"a.nic.design",
 		"b.nic.design",
