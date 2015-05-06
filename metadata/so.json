@@ -6,6 +6,9 @@
 	],
 	"whoisServer": "whois.nic.so",
 	"nameServers": [
+		"g.gmoregistry.net",
+		"h.gmoregistry.net",
+		"i.gmoregistry.net",
 		"a.nic.so",
 		"b.nic.so",
 		"c.nic.so"
