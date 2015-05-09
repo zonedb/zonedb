@@ -4065,7 +4065,7 @@ var _y = [4134]Zone{
 	{"wy.us", &_z[1452], nil, _c[0:6], nil, "", "", "", 0x0},
 	{"com.uy", &_z[1453], nil, _c[0:6], NS{"seciu.edu.uy", "ns1.anteldata.com.uy", "ns2.anteldata.com.uy"}, "", "https://nic.anteldata.com.uy/dns/consultaWhois/whois.action", "", 0x0},
 	{"edu.uy", &_z[1453], nil, _c[0:6], NS{"ns.dns.br", "ns3.nic.mx", "sns-pb.isc.org", "seciu.edu.uy", "ultra.edu.uy", "a0.uy.afilias-nst.info", "ns1.anteldata.com.uy", "ns2.anteldata.com.uy"}, "", "", "", 0x0},
-	{"gub.uy", &_z[1453], nil, _c[0:6], NS{"ns.dns.br", "ns3.nic.mx", "sns-pb.isc.org", "seciu.edu.uy", "ultra.edu.uy", "ns1.anteldata.com.uy", "ns2.anteldata.com.uy"}, "", "", "", 0x0},
+	{"gub.uy", &_z[1453], nil, _c[0:6], NS{"ns.dns.br", "ns3.nic.mx", "sns-pb.isc.org", "seciu.edu.uy", "ultra.edu.uy", "a0.uy.afilias-nst.info", "ns1.anteldata.com.uy", "ns2.anteldata.com.uy"}, "", "", "", 0x0},
 	{"mil.uy", &_z[1453], nil, _c[0:6], NS{"ns.dns.br", "ns3.nic.mx", "sns-pb.isc.org", "seciu.edu.uy", "ultra.edu.uy", "ns1.anteldata.com.uy", "ns2.anteldata.com.uy"}, "", "", "", 0x0},
 	{"net.uy", &_z[1453], nil, _c[0:6], NS{"ns.dns.br", "ns3.nic.mx", "sns-pb.isc.org", "seciu.edu.uy", "ultra.edu.uy", "a0.uy.afilias-nst.info", "ns1.anteldata.com.uy", "ns2.anteldata.com.uy"}, "", "", "", 0x0},
 	{"org.uy", &_z[1453], nil, _c[0:6], NS{"ns.dns.br", "ns3.nic.mx", "sns-pb.isc.org", "seciu.edu.uy", "ultra.edu.uy", "a0.uy.afilias-nst.info", "ns1.anteldata.com.uy", "ns2.anteldata.com.uy"}, "", "", "", 0x0},
