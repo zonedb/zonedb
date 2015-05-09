@@ -6,6 +6,7 @@ import (
 	"os"
 	"regexp"
 	"strings"
+	"time"
 
 	"github.com/wsxiaoys/terminal/color"
 	"github.com/zonedb/zonedb/build"
@@ -54,6 +55,13 @@ func main() {
 		os.Exit(1)
 	}
 	flag.Parse()
+
+	startTime := time.Now()
+	defer func() {
+		elapsed := time.Since(startTime)
+		elapsed -= elapsed % 1000000
+		color.Fprintf(os.Stderr, "@{.}Time elapsed: %s\n", elapsed)
+	}()
 
 	zones, errs := build.ReadZones()
 	if len(errs) > 0 {
