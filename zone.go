@@ -105,10 +105,9 @@ func (z *Zone) IsInRootZone() bool {
 
 // AllowsRegistration returns true if the Zone’s authority (registry)
 // permits registration of subdomains of this Zone. Examples:
-// undelegated, withdrawn, retired, or infrastructure zones.
+// closed, withdrawn, retired, or infrastructure zones.
 func (z *Zone) AllowsRegistration() bool {
-	t := z.Tags & (TagClosed | TagWithdrawn | TagRetired | TagInfrastructure)
-	return t == 0 && (z.IsDelegated() || !z.IsTLD())
+	return !z.Tags.And(TagClosed | TagWithdrawn | TagRetired | TagInfrastructure)
 }
 
 // PublicZone returns the public zone for a given domain name
