@@ -1,4 +1,11 @@
 {
 	"domain": "娱乐",
-	"infoURL": "http://newgtlds.icann.org/"
+	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.donuts.co",
+	"nameServers": [
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
+	]
 }
