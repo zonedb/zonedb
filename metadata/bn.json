@@ -5,7 +5,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.bn",
+	"whoisServer": "whois.bnnic.bn",
 	"nameServers": [
 		"ns1.bnnic.bn",
 		"ns2.bnnic.bn",
