@@ -1,5 +1,8 @@
 {
 	"domain": "jetzt",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.jetzt",
 	"nameServers": [
 		"ns1.dns.nic.jetzt",

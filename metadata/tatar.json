@@ -1,6 +1,9 @@
 {
 	"domain": "tatar",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.tatar",
 	"nameServers": [
 		"a.dns.ripn.net",

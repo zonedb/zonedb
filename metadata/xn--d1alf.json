@@ -1,6 +1,9 @@
 {
 	"domain": "мкд",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.marnet.mk",
 	"nameServers": [
 		"tld1.marnet.mk",

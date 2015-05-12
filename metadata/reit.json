@@ -2,7 +2,8 @@
 	"domain": "reit",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"community"
+		"community",
+		"generic"
 	],
 	"whoisServer": "whois.nic.reit",
 	"nameServers": [

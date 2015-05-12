@@ -1,5 +1,8 @@
 {
 	"domain": "مليسيا",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.mynic.my",
 	"nameServers": [
 		"ns-my.nic.fr",

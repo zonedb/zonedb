@@ -1,6 +1,9 @@
 {
 	"domain": "飞利浦",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.飞利浦",
 	"nameServers": [
 		"a.nic.飞利浦",

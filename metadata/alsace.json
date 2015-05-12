@@ -2,6 +2,7 @@
 	"domain": "alsace",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "whois-alsace.nic.fr",

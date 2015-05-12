@@ -1,4 +1,7 @@
 {
 	"domain": "電訊盈科",
-	"infoURL": "http://newgtlds.icann.org/"
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	]
 }

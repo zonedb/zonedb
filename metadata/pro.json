@@ -1,5 +1,8 @@
 {
 	"domain": "pro",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.dotproregistry.net",
 	"nameServers": [
 		"a0.pro.afilias-nst.info",

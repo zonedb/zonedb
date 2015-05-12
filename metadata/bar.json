@@ -1,5 +1,8 @@
 {
 	"domain": "bar",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.bar",
 	"nameServers": [
 		"a.nic.bar",

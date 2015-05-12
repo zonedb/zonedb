@@ -1,6 +1,9 @@
 {
 	"domain": "cymru",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.cymru",
 	"nameServers": [
 		"ns1.nic.uk",

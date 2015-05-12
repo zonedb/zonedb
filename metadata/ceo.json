@@ -1,5 +1,8 @@
 {
 	"domain": "ceo",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.ceo",
 	"nameServers": [
 		"ns1.dns.nic.ceo",

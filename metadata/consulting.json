@@ -1,5 +1,8 @@
 {
 	"domain": "consulting",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.unitedtld.com",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",

@@ -1,6 +1,7 @@
 {
 	"domain": "melbourne",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "whois.aridnrs.net.au",

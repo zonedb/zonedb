@@ -1,5 +1,8 @@
 {
 	"domain": "السعودية",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.net.sa",
 	"nameServers": [
 		"sa-ns.anycast.pch.net",

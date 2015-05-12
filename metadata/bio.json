@@ -1,5 +1,8 @@
 {
 	"domain": "bio",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
 		"ns2a.ksregistry.com",

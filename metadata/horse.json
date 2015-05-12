@@ -1,5 +1,8 @@
 {
 	"domain": "horse",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.horse",

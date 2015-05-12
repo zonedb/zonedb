@@ -1,6 +1,9 @@
 {
 	"domain": "love",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"a.nic.love",

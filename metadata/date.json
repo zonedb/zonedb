@@ -1,5 +1,8 @@
 {
 	"domain": "date",
+	"tags": [
+		"generic"
+	],
 	"nameServers": [
 		"ns1.dns.nic.date",
 		"ns2.dns.nic.date",

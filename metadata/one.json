@@ -1,6 +1,9 @@
 {
 	"domain": "one",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.one",
 	"nameServers": [
 		"a.nic.one",

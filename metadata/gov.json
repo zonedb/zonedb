@@ -1,6 +1,7 @@
 {
 	"domain": "gov",
 	"tags": [
+		"generic",
 		"sponsored"
 	],
 	"whoisServer": "whois.dotgov.gov",

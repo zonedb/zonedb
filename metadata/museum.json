@@ -2,6 +2,7 @@
 	"domain": "museum",
 	"infoURL": "http://about.museum/",
 	"tags": [
+		"generic",
 		"sponsored"
 	],
 	"whoisServer": "whois.museum",

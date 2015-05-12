@@ -1,5 +1,8 @@
 {
 	"domain": "global",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.global",
 	"nameServers": [
 		"a0.nic.global",

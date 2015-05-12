@@ -1,5 +1,8 @@
 {
 	"domain": "uno",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.uno",
 	"nameServers": [
 		"ns1.dns.nic.uno",

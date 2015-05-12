@@ -1,5 +1,8 @@
 {
 	"domain": "career",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.career",
 	"nameServers": [
 		"a5.nstld.com",

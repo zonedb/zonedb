@@ -1,5 +1,8 @@
 {
 	"domain": "bid",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.bid",
 	"nameServers": [
 		"ns1.dns.nic.bid",

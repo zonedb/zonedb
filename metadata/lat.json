@@ -1,6 +1,9 @@
 {
 	"domain": "lat",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.lat",
 	"nameServers": [
 		"c.mx-ns.mx",

@@ -1,5 +1,8 @@
 {
 	"domain": "quebec",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.quebec",
 	"nameServers": [
 		"anycast10.irondns.net",

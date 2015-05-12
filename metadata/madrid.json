@@ -2,6 +2,7 @@
 	"domain": "madrid",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "whois.madrid.rs.corenic.net",

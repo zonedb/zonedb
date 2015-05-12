@@ -1,5 +1,8 @@
 {
 	"domain": "հայ",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.amnic.net",
 	"nameServers": [
 		"rip.psg.com",

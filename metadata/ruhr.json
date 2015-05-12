@@ -1,5 +1,8 @@
 {
 	"domain": "ruhr",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.ruhr",
 	"nameServers": [
 		"anycast10.irondns.net",

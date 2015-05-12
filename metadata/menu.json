@@ -1,5 +1,8 @@
 {
 	"domain": "menu",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.menu",
 	"nameServers": [
 		"a.nic.menu",

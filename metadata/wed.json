@@ -1,6 +1,9 @@
 {
 	"domain": "wed",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.wed",
 	"nameServers": [
 		"a.wed.dyntld.net",

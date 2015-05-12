@@ -1,5 +1,8 @@
 {
 	"domain": "تونس",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.ati.tn",
 	"nameServers": [
 		"rip.psg.com",

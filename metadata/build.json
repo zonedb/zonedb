@@ -1,5 +1,8 @@
 {
 	"domain": "build",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.build",
 	"nameServers": [
 		"a.nic.build",

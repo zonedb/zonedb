@@ -1,5 +1,8 @@
 {
 	"domain": "link",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
 		"tld.isc-sns.com",

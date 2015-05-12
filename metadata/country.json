@@ -1,5 +1,8 @@
 {
 	"domain": "country",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.country",

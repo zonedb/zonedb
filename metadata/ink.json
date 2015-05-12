@@ -1,5 +1,8 @@
 {
 	"domain": "ink",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"a.nic.ink",

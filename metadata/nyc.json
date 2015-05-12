@@ -1,5 +1,8 @@
 {
 	"domain": "nyc",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.nyc",
 	"nameServers": [
 		"ns1.dns.nic.nyc",

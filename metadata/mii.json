@@ -2,6 +2,7 @@
 	"domain": "mii",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
+		"generic",
 		"withdrawn"
 	],
 	"codePoints": "--09az"

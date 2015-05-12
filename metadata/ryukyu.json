@@ -1,6 +1,9 @@
 {
 	"domain": "ryukyu",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.ryukyu",
 	"nameServers": [
 		"b.gmoregistry.net",

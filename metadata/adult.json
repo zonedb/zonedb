@@ -2,7 +2,8 @@
 	"domain": "adult",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"adult"
+		"adult",
+		"generic"
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [

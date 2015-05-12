@@ -1,6 +1,7 @@
 {
 	"domain": "tel",
 	"tags": [
+		"generic",
 		"sponsored"
 	],
 	"whoisServer": "whois.nic.tel",

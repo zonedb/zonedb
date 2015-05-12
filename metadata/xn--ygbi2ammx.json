@@ -1,5 +1,8 @@
 {
 	"domain": "فلسطين",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.pnina.ps",
 	"nameServers": [
 		"dns1.gov.ps",

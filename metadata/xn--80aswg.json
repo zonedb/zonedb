@@ -1,5 +1,8 @@
 {
 	"domain": "сайт",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.site.rs.corenic.net",
 	"nameServers": [
 		"anycast10.irondns.net",

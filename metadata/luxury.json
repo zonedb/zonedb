@@ -1,5 +1,8 @@
 {
 	"domain": "luxury",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.luxury",
 	"nameServers": [
 		"a.nic.luxury",

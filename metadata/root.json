@@ -1,4 +1,7 @@
 {
 	"domain": "root",
+	"tags": [
+		"generic"
+	],
 	"codePoints": "--09az"
 }

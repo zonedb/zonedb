@@ -1,5 +1,8 @@
 {
 	"domain": "срб",
+	"tags": [
+		"generic"
+	],
 	"nameServers": [
 		"a.nic.rs",
 		"f.nic.rs",

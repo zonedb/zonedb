@@ -1,5 +1,8 @@
 {
 	"domain": "ooo",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.ooo",
 	"nameServers": [
 		"a5.nstld.com",

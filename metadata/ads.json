@@ -1,6 +1,9 @@
 {
 	"domain": "ads",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "domain-registry-whois.l.google.com",
 	"nameServers": [
 		"ns-tld1.charlestonroadregistry.com",

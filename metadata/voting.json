@@ -1,5 +1,8 @@
 {
 	"domain": "voting",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.voting.tld-box.at",
 	"nameServers": [
 		"a.dns.nic.voting",

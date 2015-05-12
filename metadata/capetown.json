@@ -1,6 +1,7 @@
 {
 	"domain": "capetown",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "capetown-whois.registry.net.za",

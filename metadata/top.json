@@ -1,5 +1,8 @@
 {
 	"domain": "top",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.top",
 	"nameServers": [
 		"a.zdnscloud.com",

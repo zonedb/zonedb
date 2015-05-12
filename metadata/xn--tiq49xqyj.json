@@ -1,4 +1,7 @@
 {
 	"domain": "天主教",
-	"infoURL": "http://newgtlds.icann.org/"
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	]
 }

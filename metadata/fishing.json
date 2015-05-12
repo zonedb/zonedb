@@ -1,5 +1,8 @@
 {
 	"domain": "fishing",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.fishing",

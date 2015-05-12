@@ -1,5 +1,8 @@
 {
 	"domain": "xyz",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.xyz",
 	"nameServers": [
 		"generationxyz.nic.xyz",

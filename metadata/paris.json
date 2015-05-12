@@ -1,6 +1,7 @@
 {
 	"domain": "paris",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "whois-paris.nic.fr",

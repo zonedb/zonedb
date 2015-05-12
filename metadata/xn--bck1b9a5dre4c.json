@@ -1,4 +1,7 @@
 {
 	"domain": "ファッション",
-	"infoURL": "http://newgtlds.icann.org/"
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	]
 }

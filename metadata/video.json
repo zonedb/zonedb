@@ -1,6 +1,9 @@
 {
 	"domain": "video",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.rightside.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",

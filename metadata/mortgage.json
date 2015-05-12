@@ -1,5 +1,8 @@
 {
 	"domain": "mortgage",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.rightside.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",

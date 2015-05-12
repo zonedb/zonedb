@@ -1,6 +1,9 @@
 {
 	"domain": "broker",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.broker",
 	"nameServers": [
 		"a5.nstld.com",

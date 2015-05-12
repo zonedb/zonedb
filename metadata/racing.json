@@ -1,6 +1,9 @@
 {
 	"domain": "racing",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"nameServers": [
 		"ns1.dns.nic.racing",
 		"ns2.dns.nic.racing",

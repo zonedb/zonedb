@@ -1,5 +1,8 @@
 {
 	"domain": "versicherung",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.versicherung",
 	"nameServers": [
 		"a.dns.nic.versicherung",

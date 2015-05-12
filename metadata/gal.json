@@ -1,6 +1,7 @@
 {
 	"domain": "gal",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "whois.gal.coreregistry.net",

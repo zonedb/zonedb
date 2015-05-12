@@ -1,6 +1,9 @@
 {
 	"domain": "рус",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.рус",
 	"nameServers": [
 		"tld1.coccaregistry.net",

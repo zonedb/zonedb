@@ -1,5 +1,8 @@
 {
 	"domain": "scot",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.scot.coreregistry.net",
 	"nameServers": [
 		"anycast10.irondns.net",

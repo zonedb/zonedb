@@ -1,5 +1,8 @@
 {
 	"domain": "ایران",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.ir",
 	"nameServers": [
 		"ns.irnic.ir",

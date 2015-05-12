@@ -1,6 +1,9 @@
 {
 	"domain": "trading",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.trading",
 	"nameServers": [
 		"a5.nstld.com",

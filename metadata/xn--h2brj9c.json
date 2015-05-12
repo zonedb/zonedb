@@ -1,5 +1,8 @@
 {
 	"domain": "भारत",
+	"tags": [
+		"generic"
+	],
 	"nameServers": [
 		"a1.in.afilias-nst.in",
 		"b1.in.afilias-nst.in",

@@ -2,6 +2,7 @@
 	"domain": "asia",
 	"infoURL": "http://www.dotasia.org/",
 	"tags": [
+		"generic",
 		"sponsored"
 	],
 	"whoisServer": "whois.nic.asia",

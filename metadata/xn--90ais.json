@@ -1,5 +1,8 @@
 {
 	"domain": "бел",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.cctld.by",
 	"nameServers": [
 		"dns1.tld.tutby.com",

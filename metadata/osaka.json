@@ -2,6 +2,7 @@
 	"domain": "osaka",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"nameServers": [

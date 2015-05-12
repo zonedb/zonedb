@@ -2,6 +2,7 @@
 	"domain": "zuerich",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "whois.ksregistry.net",

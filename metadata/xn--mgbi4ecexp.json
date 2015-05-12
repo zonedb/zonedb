@@ -1,4 +1,7 @@
 {
 	"domain": "كاثوليك",
-	"infoURL": "http://newgtlds.icann.org/"
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	]
 }

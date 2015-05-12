@@ -2,6 +2,7 @@
 	"domain": "taipei",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "whois.nic.taipei",

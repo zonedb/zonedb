@@ -1,6 +1,7 @@
 {
 	"domain": "durban",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "durban-whois.registry.net.za",

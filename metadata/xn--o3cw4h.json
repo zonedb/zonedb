@@ -1,5 +1,8 @@
 {
 	"domain": "ไทย",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.thnic.co.th",
 	"nameServers": [
 		"ns.thnic.net",

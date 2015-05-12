@@ -1,6 +1,9 @@
 {
 	"domain": "amsterdam",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.amsterdam",
 	"nameServers": [
 		"ns1.nic.amsterdam",

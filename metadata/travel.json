@@ -2,6 +2,7 @@
 	"domain": "travel",
 	"infoURL": "http://www.travel.travel/",
 	"tags": [
+		"generic",
 		"sponsored"
 	],
 	"whoisServer": "whois.nic.travel",

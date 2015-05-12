@@ -1,6 +1,7 @@
 {
 	"domain": "москва",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "whois.nic.москва",

@@ -1,5 +1,8 @@
 {
 	"domain": "wien",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.wien",
 	"nameServers": [
 		"a.dns.nic.wien",

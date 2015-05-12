@@ -1,5 +1,8 @@
 {
 	"domain": "best",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.best",
 	"nameServers": [
 		"ns1.dns.nic.best",

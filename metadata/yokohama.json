@@ -1,6 +1,7 @@
 {
 	"domain": "yokohama",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "whois.nic.yokohama",

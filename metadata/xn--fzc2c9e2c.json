@@ -1,5 +1,8 @@
 {
 	"domain": "ලංකා",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.lk",
 	"nameServers": [
 		"ns1.ac.lk",

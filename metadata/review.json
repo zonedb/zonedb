@@ -1,5 +1,8 @@
 {
 	"domain": "review",
+	"tags": [
+		"generic"
+	],
 	"nameServers": [
 		"ns1.dns.nic.review",
 		"ns2.dns.nic.review",

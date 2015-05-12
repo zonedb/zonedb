@@ -1,6 +1,9 @@
 {
 	"domain": "brussels",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.brussels",
 	"nameServers": [
 		"a.nic.brussels",

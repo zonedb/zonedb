@@ -1,6 +1,9 @@
 {
 	"domain": "realtor",
 	"infoURL": "https://www.claim.realtor/",
+	"tags": [
+		"generic"
+	],
 	"nameServers": [
 		"a5.nstld.com",
 		"c5.nstld.com",

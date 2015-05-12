@@ -1,6 +1,9 @@
 {
 	"domain": "இலங்கை",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.lk",
 	"nameServers": [
 		"ns1.ac.lk",

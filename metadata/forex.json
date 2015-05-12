@@ -1,6 +1,9 @@
 {
 	"domain": "forex",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.forex",
 	"nameServers": [
 		"a5.nstld.com",

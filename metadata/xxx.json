@@ -1,7 +1,8 @@
 {
 	"domain": "xxx",
 	"tags": [
-		"adult"
+		"adult",
+		"generic"
 	],
 	"whoisServer": "whois.nic.xxx",
 	"nameServers": [

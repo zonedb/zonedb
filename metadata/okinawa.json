@@ -1,6 +1,7 @@
 {
 	"domain": "okinawa",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "whois.nic.okinawa",

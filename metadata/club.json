@@ -1,5 +1,8 @@
 {
 	"domain": "club",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.club",
 	"nameServers": [
 		"ns1.dns.nic.club",

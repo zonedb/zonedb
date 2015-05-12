@@ -1,5 +1,8 @@
 {
 	"domain": "بازار",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.bazaar.coreregistry.net",
 	"nameServers": [
 		"anycast10.irondns.net",

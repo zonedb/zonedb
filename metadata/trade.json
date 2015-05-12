@@ -1,5 +1,8 @@
 {
 	"domain": "trade",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.trade",
 	"nameServers": [
 		"ns1.dns.nic.trade",

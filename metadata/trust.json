@@ -1,6 +1,9 @@
 {
 	"domain": "trust",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.trust",
 	"nameServers": [
 		"a.nic.trust",

@@ -1,5 +1,8 @@
 {
 	"domain": "الاردن",
+	"tags": [
+		"generic"
+	],
 	"whoisURL": "http://idn.jo/whois_a.aspx",
 	"nameServers": [
 		"rip.psg.com",

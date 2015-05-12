@@ -2,6 +2,7 @@
 	"domain": "cat",
 	"infoURL": "http://www.domini.cat/",
 	"tags": [
+		"generic",
 		"sponsored"
 	],
 	"whoisServer": "whois.cat",

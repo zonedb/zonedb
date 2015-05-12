@@ -1,5 +1,8 @@
 {
 	"domain": "host",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.host",
 	"nameServers": [
 		"a.nic.host",

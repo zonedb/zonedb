@@ -1,5 +1,8 @@
 {
 	"domain": "gent",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.gent",
 	"nameServers": [
 		"a.ns.nic.gent",

@@ -1,6 +1,7 @@
 {
 	"domain": "int",
 	"tags": [
+		"generic",
 		"sponsored"
 	],
 	"whoisServer": "whois.iana.org",

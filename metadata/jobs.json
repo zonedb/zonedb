@@ -1,6 +1,7 @@
 {
 	"domain": "jobs",
 	"tags": [
+		"generic",
 		"sponsored"
 	],
 	"whoisServer": "jobswhois.verisign-grs.com",

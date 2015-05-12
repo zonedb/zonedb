@@ -1,5 +1,8 @@
 {
 	"domain": "gift",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
 		"tld.isc-sns.com",

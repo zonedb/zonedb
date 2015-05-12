@@ -1,5 +1,8 @@
 {
 	"domain": "hamburg",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.hamburg",
 	"nameServers": [
 		"a.dns.nic.hamburg",

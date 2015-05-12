@@ -1,6 +1,7 @@
 {
 	"domain": "london",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "whois-lon.mm-registry.com",

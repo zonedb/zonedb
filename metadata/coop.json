@@ -2,6 +2,7 @@
 	"domain": "coop",
 	"infoURL": "http://www.nic.coop/",
 	"tags": [
+		"generic",
 		"sponsored"
 	],
 	"whoisServer": "whois.nic.coop",

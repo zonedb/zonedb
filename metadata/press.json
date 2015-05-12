@@ -1,5 +1,8 @@
 {
 	"domain": "press",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.press",
 	"nameServers": [
 		"a.nic.press",

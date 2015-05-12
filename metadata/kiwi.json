@@ -1,5 +1,8 @@
 {
 	"domain": "kiwi",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.kiwi",
 	"nameServers": [
 		"a.ns.nic.kiwi",

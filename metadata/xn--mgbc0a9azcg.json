@@ -1,6 +1,9 @@
 {
 	"domain": "المغرب",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.iam.net.ma",
 	"nameServers": [
 		"ns2.nic.fr",

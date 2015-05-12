@@ -1,5 +1,8 @@
 {
 	"domain": "مصر",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.dotmasr.eg",
 	"nameServers": [
 		"ns1.dotmasr.eg",

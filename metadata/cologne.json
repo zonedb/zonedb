@@ -1,5 +1,8 @@
 {
 	"domain": "cologne",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois-fe1.pdt.cologne.tango.knipp.de",
 	"nameServers": [
 		"anycast10.irondns.net",

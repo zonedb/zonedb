@@ -2,7 +2,8 @@
 	"domain": "swiss",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"community"
+		"community",
+		"generic"
 	],
 	"whoisServer": "whois.nic.swiss",
 	"nameServers": [

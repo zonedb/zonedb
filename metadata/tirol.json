@@ -1,6 +1,9 @@
 {
 	"domain": "tirol",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.tirol",
 	"nameServers": [
 		"a.dns.nic.tirol",

@@ -1,6 +1,9 @@
 {
 	"domain": "film",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.film",
 	"nameServers": [
 		"a.nic.film",

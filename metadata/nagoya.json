@@ -1,6 +1,7 @@
 {
 	"domain": "nagoya",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "whois.nic.nagoya",

@@ -1,5 +1,8 @@
 {
 	"domain": "укр",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.dotukr.com",
 	"nameServers": [
 		"dns3.dotukr.com",

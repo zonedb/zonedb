@@ -1,5 +1,8 @@
 {
 	"domain": "امارات",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.aeda.net.ae",
 	"nameServers": [
 		"ns1.aedns.ae",

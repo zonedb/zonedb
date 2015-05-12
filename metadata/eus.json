@@ -1,5 +1,8 @@
 {
 	"domain": "eus",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.eus.coreregistry.net",
 	"nameServers": [
 		"anycast10.irondns.net",

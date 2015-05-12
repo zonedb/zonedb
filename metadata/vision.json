@@ -1,5 +1,8 @@
 {
 	"domain": "vision",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.donuts.co",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",

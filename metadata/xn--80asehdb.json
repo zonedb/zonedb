@@ -1,5 +1,8 @@
 {
 	"domain": "онлайн",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.online.rs.corenic.net",
 	"nameServers": [
 		"anycast10.irondns.net",

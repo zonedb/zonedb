@@ -1,5 +1,8 @@
 {
 	"domain": "medical",
 	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
 	"codePoints": "--09az"
 }

@@ -1,6 +1,7 @@
 {
 	"domain": "edu",
 	"tags": [
+		"generic",
 		"sponsored"
 	],
 	"whoisServer": "whois.educause.edu",

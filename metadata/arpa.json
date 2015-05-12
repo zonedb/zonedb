@@ -3,6 +3,7 @@
 	"infoURL": "https://www.iana.org/domains/arpa",
 	"tags": [
 		"closed",
+		"generic",
 		"infrastructure"
 	],
 	"whoisServer": "whois.iana.org",

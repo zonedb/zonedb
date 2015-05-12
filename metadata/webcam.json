@@ -1,5 +1,8 @@
 {
 	"domain": "webcam",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.webcam",
 	"nameServers": [
 		"ns1.dns.nic.webcam",

@@ -1,6 +1,7 @@
 {
 	"domain": "koeln",
 	"tags": [
+		"generic",
 		"geo"
 	],
 	"whoisServer": "whois-fe1.pdt.koeln.tango.knipp.de",

@@ -1,6 +1,9 @@
 {
 	"domain": "شبكة",
 	"infoURL": "http://www.dotshabaka.com/",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.شبكة",
 	"nameServers": [
 		"a.nic.شبكة",

@@ -1,5 +1,8 @@
 {
 	"domain": "қаз",
+	"tags": [
+		"generic"
+	],
 	"whoisServer": "whois.nic.kz",
 	"nameServers": [
 		"ns.nic.kz",
