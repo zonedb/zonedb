@@ -1134,7 +1134,7 @@ var _y = [4134]Zone{
 	{"organic", nil, nil, nil, NS{"a0.nic.organic", "a2.nic.organic", "b0.nic.organic", "c0.nic.organic"}, "whois.afilias.net", "", "", 0x20},
 	{"orientexpress", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"origins", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
-	{"osaka", nil, nil, _c[0:6], NS{"ns1.dns.nic.osaka", "ns2.dns.nic.osaka", "ns3.dns.nic.osaka", "ns4.dns.nic.osaka", "ns5.dns.nic.osaka", "ns6.dns.nic.osaka"}, "", "", "http://newgtlds.icann.org/", 0x60},
+	{"osaka", nil, nil, _c[0:6], NS{"ns1.dns.nic.osaka", "ns2.dns.nic.osaka", "ns3.dns.nic.osaka", "ns4.dns.nic.osaka", "ns5.dns.nic.osaka", "ns6.dns.nic.osaka"}, "whois.nic.osaka", "", "http://newgtlds.icann.org/", 0x60},
 	{"otsuka", nil, nil, _c[0:6], NS{"b.gmoregistry.net", "c.gmoregistry.net", "d.gmoregistry.net", "e.gmoregistry.net", "g.gmoregistry.net", "h.gmoregistry.net", "i.gmoregistry.net"}, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"ott", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x24},
 	{"overheidnl", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x822},

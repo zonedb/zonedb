@@ -5,6 +5,7 @@
 		"generic",
 		"geo"
 	],
+	"whoisServer": "whois.nic.osaka",
 	"nameServers": [
 		"ns1.dns.nic.osaka",
 		"ns2.dns.nic.osaka",
