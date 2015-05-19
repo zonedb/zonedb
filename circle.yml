@@ -1,6 +1,7 @@
 dependencies:
   pre:
-    - go get -v -u -f github.com/cee-dub/go-junit-report
+    - rm -rf ~/.go_workspace/src/*/*
+    - go get -v -t -u -f github.com/cee-dub/go-junit-report
 
 test:
   override:
