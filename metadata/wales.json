@@ -12,7 +12,11 @@
 		"ns4.nic.uk",
 		"ns5.nic.uk",
 		"ns6.nic.uk",
-		"ns7.nic.uk"
+		"ns7.nic.uk",
+		"dnsa.nic.wales",
+		"dnsb.nic.wales",
+		"dnsc.nic.wales",
+		"dnsd.nic.wales"
 	],
 	"codePoints": "--09az"
 }
