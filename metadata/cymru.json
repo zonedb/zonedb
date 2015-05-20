@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.nic.cymru",
 	"nameServers": [
+		"dnsa.nic.cymru",
+		"dnsb.nic.cymru",
+		"dnsc.nic.cymru",
+		"dnsd.nic.cymru",
 		"ns1.nic.uk",
 		"ns2.nic.uk",
 		"ns4.nic.uk",

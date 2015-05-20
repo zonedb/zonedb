@@ -11,7 +11,9 @@
 		"i.gmoregistry.net",
 		"a.nic.so",
 		"b.nic.so",
-		"c.nic.so"
+		"c.nic.so",
+		"d.nic.so",
+		"e.nic.so"
 	],
 	"codePoints": "--09az"
 }
