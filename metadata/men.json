@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.men",
 	"nameServers": [
 		"a.nic.men",
 		"b.nic.men",
