@@ -5,7 +5,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.amnic.net",
+	"whoisServer": "whois.nic.am",
 	"nameServers": [
 		"rip.psg.com",
 		"ns-cdn.amnic.net",
