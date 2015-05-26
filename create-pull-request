@@ -7,7 +7,7 @@ test -n "$GH_TOKEN"
 git diff --quiet && echo "No updates." && exit 0
 
 CREATE_PR_URL="https://api.github.com/repos/zonedb/zonedb/pulls"
-DATE="$(date -u +%Y-%m-%d)"
+DATE="$(date -u +%Y-%m-%d-%H-%M-%S)"
 BRANCH="data-${DATE}"
 CHANGED_ZONES="$(git status --short | grep metadata | cut -f 2 -d / | sed '/.json/s///' | tr '\n' ' ')"
 
@@ -15,6 +15,8 @@ git checkout -q -b $BRANCH
 git add .
 git commit --author="zonedb bot <bot@zonedb.org>" -m "Automated data update: $DATE"
 git push origin $BRANCH
+git co master
+
 PR=$(cat <<EOF
 {
   "title": "Automated data update $DATE",
