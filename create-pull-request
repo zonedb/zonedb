@@ -12,7 +12,7 @@ BRANCH="data-${DATE}"
 CHANGED_ZONES="$(git status --short | grep metadata | cut -f 2 -d / | sed '/.json/s///' | tr '\n' ' ')"
 
 git checkout -q -b $BRANCH
-git add .
+git add zones.txt metadata/*.json zones.go
 git commit --author="zonedb bot <bot@zonedb.org>" -m "Automated data update: $DATE"
 git push origin $BRANCH
 git co master
