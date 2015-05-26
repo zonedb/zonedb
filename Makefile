@@ -15,6 +15,9 @@ update:
 	make zones.go
 	make test
 
+pull-request: update
+	./create-pull-request
+
 normalize:
 	go run build/cmd/zonedb/main.go -w
 	make zones.go

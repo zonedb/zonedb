@@ -4,7 +4,6 @@ set -e
 set -u
 
 test -n "$GH_TOKEN"
-make update
 git diff --quiet && echo "No updates." && exit 0
 
 CREATE_PR_URL="https://api.github.com/repos/zonedb/zonedb/pulls"
@@ -13,7 +12,7 @@ BRANCH="data-${DATE}"
 CHANGED_ZONES="$(git status --short | grep metadata | cut -f 2 -d / | sed '/.json/s///' | tr '\n' ' ')"
 
 git checkout -q -b $BRANCH
-git add zones.go metadata/\*.json
+git add .
 git commit --author="zonedb bot <bot@zonedb.org>" -m "Automated data update: $DATE"
 git push origin $BRANCH
 PR=$(cat <<EOF
@@ -25,13 +24,15 @@ PR=$(cat <<EOF
 }
 EOF)
 
+JSON="${TMPDIR}pull-request.json"
+
 curl -sS -i \
 --header "Authorization: token ${GH_TOKEN}" \
 --data "${PR}" \
---request POST ${CREATE_PR_URL} > gh.json
+--request POST ${CREATE_PR_URL} > $JSON
 
-grep -q "201 Created" gh.json || (cat gh.json && exit 1)
-echo Created "$(grep -A1 '"self": {' gh.json | grep href | cut -f 2- -d ':')"
+grep -q "201 Created" $JSON || (cat $JSON && exit 1)
+echo Created "$(grep -A1 '"self": {' $JSON | grep href | cut -f 2- -d ':')"
 	# "_links": {
     #   "self": {
     #     "href": "..."
