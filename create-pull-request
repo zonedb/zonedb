@@ -3,8 +3,10 @@
 set -e
 set -u
 
+FILES="zones.txt metadata/*.json zones.go"
+
 test -n "$GH_TOKEN"
-git diff --quiet && echo "No updates." && exit 0
+git diff --quiet $FILES && echo "No updates." && exit 0
 
 CREATE_PR_URL="https://api.github.com/repos/zonedb/zonedb/pulls"
 DATE="$(date -u +%Y-%m-%d-%H-%M-%S)"
@@ -12,10 +14,10 @@ BRANCH="data-${DATE}"
 CHANGED_ZONES="$(git status --short | grep metadata | cut -f 2 -d / | sed '/.json/s///' | tr '\n' ' ')"
 
 git checkout -q -b $BRANCH
-git add zones.txt metadata/*.json zones.go
-git commit --author="zonedb bot <bot@zonedb.org>" -m "Automated data update: $DATE"
-git push origin $BRANCH
+git add $FILES
+git commit -m "Automated data update: $DATE"
 git co master
+git push origin $BRANCH:$BRANCH
 
 PR=$(cat <<EOF
 {
