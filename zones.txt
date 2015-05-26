@@ -4131,4 +4131,4 @@ lp.school.za
 mpm.school.za
 ncape.school.za
 nw.school.za
-wcape.school.za
+wcape.school.zan
