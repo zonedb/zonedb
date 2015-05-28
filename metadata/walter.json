@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.walter",
+	"nameServers": [
+		"a.nic.walter",
+		"b.nic.walter",
+		"c.nic.walter",
+		"d.nic.walter"
+	],
 	"codePoints": "--09az"
 }

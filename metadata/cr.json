@@ -4,6 +4,7 @@
 		"country",
 		"geo"
 	],
+	"whoisServer": "whois.nic.cr",
 	"whoisURL": "http://www.nic.cr/niccr_publico/showRegistroDominiosScreen.do",
 	"nameServers": [
 		"ns-ext.nic.cl",
