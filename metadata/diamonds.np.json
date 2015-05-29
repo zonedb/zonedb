@@ -3,6 +3,7 @@
 	"infoURL": "http://register.mos.com.np/np-ccTLDs",
 	"nameServers": [
 		"sec3.apnic.net",
+		"ns-ext.isc.org",
 		"yarrina.connect.com.au",
 		"np-ns.anycast.pch.net",
 		"shikhar.mos.com.np",
