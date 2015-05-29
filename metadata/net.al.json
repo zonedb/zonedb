@@ -2,6 +2,7 @@
 	"domain": "net.al",
 	"nameServers": [
 		"ns1.nic.al",
+		"ns2.nic.al",
 		"rip.psg.com",
 		"ns-al.isti.cnr.it",
 		"al.cctld.authdns.ripe.net"

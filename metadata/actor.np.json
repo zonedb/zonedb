@@ -2,8 +2,14 @@
 	"domain": "actor.np",
 	"infoURL": "http://register.mos.com.np/np-ccTLDs",
 	"nameServers": [
+		"sec3.apnic.net",
+		"ns-ext.isc.org",
+		"np-ns.anycast.pch.net",
 		"manaslu.mos.com.np",
-		"sungava.mos.com.np"
+		"shikhar.mos.com.np",
+		"sungava.mos.com.np",
+		"np-ns.npix.net.np",
+		"np.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }
