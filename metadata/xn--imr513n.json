@@ -1,4 +1,13 @@
 {
 	"domain": "餐厅",
-	"infoURL": "http://newgtlds.icann.org/"
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"a.zdnscloud.com",
+		"b.zdnscloud.com",
+		"c.zdnscloud.com",
+		"d.zdnscloud.com",
+		"e.zdnscloud.com",
+		"f.zdnscloud.com",
+		"g.zdnscloud.com"
+	]
 }
