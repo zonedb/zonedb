@@ -2,6 +2,9 @@
 	"domain": "solutions.np",
 	"infoURL": "http://register.mos.com.np/np-ccTLDs",
 	"nameServers": [
+		"sec2.apnic.net",
+		"sec3.apnic.net",
+		"ns-ext.isc.org",
 		"np-ns.anycast.pch.net",
 		"shikhar.mos.com.np",
 		"np-ns.npix.net.np"
