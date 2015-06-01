@@ -112,7 +112,7 @@ func (z *Zone) AllowsRegistration() bool {
 
 // PublicZone returns the public zone for a given domain name
 // or nil if none found.
-// Input must be normalized by the client (lowercase, Unicode).
+// Input must be normalized by the client (lowercase, ASCII-encoded).
 func PublicZone(domain string) *Zone {
 	sfx := domain
 	for {
