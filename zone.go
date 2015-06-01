@@ -110,6 +110,21 @@ func (z *Zone) AllowsRegistration() bool {
 	return !z.Tags.And(TagClosed | TagWithdrawn | TagRetired | TagInfrastructure)
 }
 
+// IsZone returns true if the input domain is a Zone.
+func IsZone(domain string) bool {
+	_, ok := ZoneMap[domain]
+	return ok
+}
+
+// IsTLD returns true if the input domain is a top-level domain.
+func IsTLD(domain string) bool {
+	z, ok := ZoneMap[domain]
+	if !ok {
+		return false
+	}
+	return z.IsTLD()
+}
+
 // PublicZone returns the public zone for a given domain name
 // or nil if none found.
 // Input must be normalized by the client (lowercase, ASCII-encoded).

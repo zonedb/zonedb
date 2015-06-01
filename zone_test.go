@@ -175,6 +175,40 @@ func TestZone_AllowsRegistration(t *testing.T) {
 	}
 }
 
+func TestIsZone(t *testing.T) {
+	data := map[string]bool{
+		"com":                true,
+		"um":                 true,
+		"xn--node":           true,
+		"co.uk":              true,
+		"org.br":             true,
+		"hashtag-not-a-zone": false,
+	}
+	for k, v := range data {
+		g := IsZone(k)
+		if g != v {
+			t.Errorf(`Expected IsZone(%q) == %t, got %t`, k, v, g)
+		}
+	}
+}
+
+func TestIsTLD(t *testing.T) {
+	data := map[string]bool{
+		"com":                true,
+		"um":                 true,
+		"xn--node":           true,
+		"co.uk":              false,
+		"org.br":             false,
+		"hashtag-not-a-zone": false,
+	}
+	for k, v := range data {
+		g := IsTLD(k)
+		if g != v {
+			t.Errorf(`Expected IsTLD(%q) == %t, got %t`, k, v, g)
+		}
+	}
+}
+
 func TestPublicZone(t *testing.T) {
 	data := map[string]*Zone{
 		"com":           ZoneMap["com"],
