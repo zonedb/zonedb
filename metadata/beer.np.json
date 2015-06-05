@@ -8,7 +8,8 @@
 		"ns-ext.isc.org",
 		"np-ns.anycast.pch.net",
 		"shikhar.mos.com.np",
-		"np-ns.npix.net.np"
+		"np-ns.npix.net.np",
+		"np.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }
