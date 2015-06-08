@@ -2,6 +2,10 @@
 	"domain": "biz.np",
 	"infoURL": "http://register.mos.com.np/np-ccTLDs",
 	"nameServers": [
+		"sec1.apnic.net",
+		"sec3.apnic.net",
+		"ns-ext.isc.org",
+		"yarrina.connect.com.au",
 		"np-ns.anycast.pch.net",
 		"shikhar.mos.com.np",
 		"np-ns.npix.net.np"
