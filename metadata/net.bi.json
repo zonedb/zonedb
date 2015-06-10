@@ -1,0 +1,7 @@
+{
+	"domain": "net.bi",
+	"nameServers": [
+		"ns0.cbinf.bi",
+		"ns1.cbinf.bi"
+	]
+}

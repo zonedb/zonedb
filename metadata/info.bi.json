@@ -1,0 +1,9 @@
+{
+	"domain": "info.bi",
+	"nameServers": [
+		"ns.nic.bi",
+		"ns1.nic.bi",
+		"ns-bi.afrinic.net",
+		"bi.cctld.authdns.ripe.net"
+	]
+}

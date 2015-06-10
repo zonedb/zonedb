@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.nic.wf",
+	"whoisServer": "whois.nic.fr",
 	"nameServers": [
 		"d.nic.fr",
 		"d.ext.nic.fr",

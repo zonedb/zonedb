@@ -1,4 +1,8 @@
 {
 	"domain": "it.tt",
+	"nameServers": [
+		"ns.east263.com",
+		"ns.east263.net"
+	],
 	"codePoints": "--09az"
 }
