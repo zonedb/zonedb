@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "ccwhois.ksregistry.net",
+	"whoisServer": "whois.nic.vg",
 	"nameServers": [
 		"vg-ns.ksregistry.net",
 		"vg-ns.anycast.pch.net"
