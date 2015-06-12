@@ -2,7 +2,9 @@
 	"domain": "museum.uz",
 	"nameServers": [
 		"ns3.uzinfocom.uz",
-		"rdns3.uzinfocom.uz"
+		"ns4.uzinfocom.uz",
+		"rdns3.uzinfocom.uz",
+		"rdns4.uzinfocom.uz"
 	],
 	"codePoints": "--09az"
 }
