@@ -2961,7 +2961,9 @@ pro.na
 school.na
 tv.na
 ws.na
+kyrylkov.name
 puig.name
+santos.name
 asso.nc
 nom.nc
 com.ne
