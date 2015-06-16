@@ -3,7 +3,8 @@
 	"nameServers": [
 		"ns1.tld.sy",
 		"ns2.tld.sy",
-		"pch.anycast.tld.sy"
+		"pch.anycast.tld.sy",
+		"sy.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }
