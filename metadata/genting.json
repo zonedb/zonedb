@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.genting",
 	"nameServers": [
 		"a5.nstld.com",
 		"c5.nstld.com",
