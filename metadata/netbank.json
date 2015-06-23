@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.netbank",
+	"nameServers": [
+		"a.nic.netbank",
+		"b.nic.netbank",
+		"c.nic.netbank",
+		"d.nic.netbank"
+	],
 	"codePoints": "--09az"
 }
