@@ -2124,7 +2124,7 @@ var _y = [4202]Zone{
 	{"org.bz", &_z[215], nil, _c[0:6], NS{"a0.cctld.afilias-nst.info", "a2.cctld.afilias-nst.info", "c0.cctld.afilias-nst.info", "b0.cctld.afilias-nst.org", "b2.cctld.afilias-nst.org", "d0.cctld.afilias-nst.org"}, "", "", "", 0x0},
 	{"ab.ca", &_z[217], nil, _c[0:6], nil, "", "", "", 0x0},
 	{"bc.ca", &_z[217], nil, _c[0:6], nil, "", "", "", 0x0},
-	{"co.ca", &_z[217], nil, nil, NS{"primary.relay.co.ca", "quaternary.relay.co.ca", "quinary.relay.co.ca", "secondary.relay.co.ca", "senary.relay.co.ca", "tertiary.relay.co.ca"}, "whois.co.ca", "", "", 0x0},
+	{"co.ca", &_z[217], nil, nil, NS{"primary.relay.co.ca", "quaternary.relay.co.ca", "quinary.relay.co.ca", "secondary.relay.co.ca", "senary.relay.co.ca", "tertiary.relay.co.ca"}, "whois.co.ca", "", "", 0x100},
 	{"gc.ca", &_z[217], nil, _c[0:6], NS{"gocns-kedc.gc.ca", "gocns-pdp.gc.ca", "dns1.nrc.ca", "dns2.nrc.ca"}, "", "", "", 0x0},
 	{"mb.ca", &_z[217], nil, _c[0:6], nil, "", "", "", 0x0},
 	{"nb.ca", &_z[217], nil, _c[0:6], nil, "", "", "", 0x0},
