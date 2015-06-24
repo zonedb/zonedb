@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.skype",
+		"ns2.dns.nic.skype",
+		"ns3.dns.nic.skype",
+		"ns4.dns.nic.skype",
+		"ns5.dns.nic.skype",
+		"ns6.dns.nic.skype"
+	],
 	"codePoints": "--09az"
 }
