@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.office",
+		"ns2.dns.nic.office",
+		"ns3.dns.nic.office",
+		"ns4.dns.nic.office",
+		"ns5.dns.nic.office",
+		"ns6.dns.nic.office"
+	],
 	"codePoints": "--09az"
 }
