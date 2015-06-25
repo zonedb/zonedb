@@ -140,6 +140,9 @@ func IndexOfRunes(haystack []rune, needle []rune) int {
 outer:
 	for i := range haystack {
 		for j := range needle {
+			if i+j >= len(haystack) {
+				return -1
+			}
 			if needle[j] != haystack[i+j] {
 				continue outer
 			}
