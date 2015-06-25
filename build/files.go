@@ -112,6 +112,7 @@ func ReadMetadata(zones map[string]*Zone) (errs []error) {
 		// Parse the JSON metadata
 		f, err := os.Open(path)
 		if err != nil {
+			err = fmt.Errorf("cannot load %s: %s", base, err)
 			errs = append(errs, err)
 			LogError(err)
 			continue
@@ -120,6 +121,7 @@ func ReadMetadata(zones map[string]*Zone) (errs []error) {
 		err = dec.Decode(z)
 		f.Close()
 		if err != nil && err != io.EOF {
+			err = fmt.Errorf("unable to parse %s: %s", base, err)
 			errs = append(errs, err)
 			LogError(err)
 			continue
