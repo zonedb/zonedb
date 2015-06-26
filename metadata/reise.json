@@ -8,7 +8,11 @@
 	"nameServers": [
 		"a.dns.nic.reise",
 		"m.dns.nic.reise",
-		"n.dns.nic.reise"
+		"n.dns.nic.reise",
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
 	],
 	"codePoints": "--09az"
 }

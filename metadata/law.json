@@ -4,5 +4,11 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"a.ns.nic.law",
+		"b.ns.nic.law",
+		"c.ns.nic.law",
+		"d.ns.nic.law"
+	],
 	"codePoints": "--09az"
 }
