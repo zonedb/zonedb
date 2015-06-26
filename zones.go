@@ -65,10 +65,18 @@ var TagValues = map[string]Tags{
 
 // _c stores Unicode code point ranges allowed in each Zone by the registry.
 // Rune values alternate low, high.
-var _c = [6]rune{
+var _c = [22]rune{
 	'-', '-',
 	'0', '9',
 	'a', 'z',
+	'-', '-',
+	'0', '9',
+	'a', 'z',
+	'ā', 'ā',
+	'ē', 'ē',
+	'ī', 'ī',
+	'ō', 'ō',
+	'ū', 'ū',
 }
 
 // Zones is a slice of all Zones in the database.
@@ -1108,7 +1116,7 @@ var _y = [4202]Zone{
 	{"ntt", nil, nil, _c[0:6], NS{"tld1.nic.ntt", "tld2.nic.ntt", "tld3.nic.ntt"}, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"nu", nil, _z[3182:3183], nil, NS{"a.nic.nu", "b.nic.nu", "c.nic.nu"}, "whois.iis.nu", "", "http://www.nic.nu/", 0x70},
 	{"nyc", nil, nil, nil, NS{"ns1.dns.nic.nyc", "ns2.dns.nic.nyc", "ns3.dns.nic.nyc", "ns4.dns.nic.nyc", "ns5.dns.nic.nyc", "ns6.dns.nic.nyc"}, "whois.nic.nyc", "", "", 0x20},
-	{"nz", nil, _z[3183:3197], nil, NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "whois.srs.net.nz", "", "", 0x50},
+	{"nz", nil, _z[3183:3197], _c[6:22], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "whois.srs.net.nz", "", "", 0x50},
 	{"obi", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"observer", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"off", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
@@ -3266,20 +3274,20 @@ var _y = [4202]Zone{
 	{"net.nr", &_z[1019], nil, _c[0:6], NS{"sns-pb.isc.org", "ns0.cenpac.net.nr", "ns1.cenpac.net.nr", "ns2.cenpac.net.nr"}, "", "", "", 0x0},
 	{"org.nr", &_z[1019], nil, _c[0:6], NS{"sns-pb.isc.org", "ns0.cenpac.net.nr", "ns1.cenpac.net.nr", "ns2.cenpac.net.nr"}, "", "", "", 0x0},
 	{"co.nu", &_z[1023], nil, nil, NS{"ns1.co.nu", "ns2.co.nu", "ns3.co.nu"}, "", "", "", 0x0},
-	{"ac.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
-	{"co.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
-	{"cri.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
-	{"geek.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
-	{"gen.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
+	{"ac.nz", &_z[1025], nil, _c[6:22], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
+	{"co.nz", &_z[1025], nil, _c[6:22], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
+	{"cri.nz", &_z[1025], nil, _c[6:22], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
+	{"geek.nz", &_z[1025], nil, _c[6:22], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
+	{"gen.nz", &_z[1025], nil, _c[6:22], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
 	{"govt.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
-	{"iwi.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
+	{"iwi.nz", &_z[1025], nil, _c[6:22], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
 	{"kiwi.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
 	{"maori.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
 	{"mil.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
 	{"net.nz", &_z[1025], _z[4178:4179], _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
 	{"org.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
-	{"parliament.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
-	{"school.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
+	{"parliament.nz", &_z[1025], nil, _c[6:22], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
+	{"school.nz", &_z[1025], nil, _c[6:22], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
 	{"ac.om", &_z[1036], nil, _c[0:6], nil, "", "", "", 0x0},
 	{"biz.om", &_z[1036], nil, _c[0:6], NS{"ns1.omancloud.com", "ns2.omancloud.com", "ns1.nwns.om", "ns2.nwns.om"}, "", "", "", 0x0},
 	{"co.om", &_z[1036], nil, _c[0:6], NS{"ns1.registry.om", "ns2.registry.om", "cctld.alpha.aridns.net.au", "cctld.beta.aridns.net.au", "cctld.delta.aridns.net.au", "cctld.gamma.aridns.net.au"}, "", "", "", 0x0},
