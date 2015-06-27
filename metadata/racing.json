@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.racing",
 	"nameServers": [
 		"ns1.dns.nic.racing",
 		"ns2.dns.nic.racing",

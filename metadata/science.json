@@ -3,6 +3,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.science",
 	"nameServers": [
 		"ns1.dns.nic.science",
 		"ns2.dns.nic.science",

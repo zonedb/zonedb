@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois-cl01.mm-registry.com",
+	"nameServers": [
+		"a.ns.nic.bradesco",
+		"b.ns.nic.bradesco",
+		"c.ns.nic.bradesco",
+		"d.ns.nic.bradesco"
+	],
 	"codePoints": "--09az"
 }

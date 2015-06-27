@@ -4,5 +4,12 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.cloud",
+	"nameServers": [
+		"a.nic.cloud",
+		"b.nic.cloud",
+		"c.nic.cloud",
+		"d.nic.cloud"
+	],
 	"codePoints": "--09az"
 }
