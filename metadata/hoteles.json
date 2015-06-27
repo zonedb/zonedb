@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.hoteles",
+		"ns2.dns.nic.hoteles",
+		"ns3.dns.nic.hoteles",
+		"ns4.dns.nic.hoteles",
+		"ns5.dns.nic.hoteles",
+		"ns6.dns.nic.hoteles"
+	],
 	"codePoints": "--09az"
 }

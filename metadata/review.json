@@ -3,6 +3,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.review",
 	"nameServers": [
 		"ns1.dns.nic.review",
 		"ns2.dns.nic.review",

@@ -3,6 +3,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.faith",
 	"nameServers": [
 		"ns1.dns.nic.faith",
 		"ns2.dns.nic.faith",

@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.party",
 	"nameServers": [
 		"ns1.dns.nic.party",
 		"ns2.dns.nic.party",

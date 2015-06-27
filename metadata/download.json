@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.download",
 	"nameServers": [
 		"ns1.dns.nic.download",
 		"ns2.dns.nic.download",
