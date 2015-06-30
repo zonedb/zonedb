@@ -1,6 +1,10 @@
 {
 	"domain": "presse.ml",
 	"nameServers": [
+		"ns01.freenom.com",
+		"ns02.freenom.com",
+		"ns03.freenom.com",
+		"ns04.freenom.com",
 		"os1.acquahost.com.br",
 		"os2.acquahost.com.br"
 	],
