@@ -2949,7 +2949,7 @@ var _y = [4202]Zone{
 	{"gov.ml", &_z[919], nil, _c[0:6], NS{"dns.gouv.ml", "djamako.nic.ml", "ns1.ribtelecom.net", "a.ns40.microtics.pro"}, "", "", "", 0x0},
 	{"net.ml", &_z[919], nil, _c[0:6], NS{"dns.gouv.ml", "djamako.nic.ml", "ns1.ribtelecom.net", "a.ns40.microtics.pro"}, "", "", "", 0x0},
 	{"org.ml", &_z[919], nil, _c[0:6], NS{"dns.gouv.ml", "djamako.nic.ml", "ns1.ribtelecom.net"}, "", "", "", 0x0},
-	{"presse.ml", &_z[919], nil, _c[0:6], NS{"os1.acquahost.com.br", "os2.acquahost.com.br"}, "", "", "", 0x0},
+	{"presse.ml", &_z[919], nil, _c[0:6], NS{"ns01.freenom.com", "ns02.freenom.com", "ns03.freenom.com", "ns04.freenom.com", "os1.acquahost.com.br", "os2.acquahost.com.br"}, "", "", "", 0x0},
 	{"biz.mm", &_z[922], nil, _c[0:6], NS{"ns.mmnic.net.mm"}, "", "", "", 0x0},
 	{"com.mm", &_z[922], nil, _c[0:6], NS{"ns0.nic.net.mm", "ns1.nic.net.mm", "ns2.nic.net.mm", "mm.cctld.authdns.ripe.net"}, "", "", "", 0x0},
 	{"edu.mm", &_z[922], nil, _c[0:6], NS{"ns0.nic.net.mm", "ns1.nic.net.mm", "ns2.nic.net.mm", "mm.cctld.authdns.ripe.net"}, "", "", "", 0x0},
