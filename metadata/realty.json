@@ -4,5 +4,10 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"b.nic.realty",
+		"c.nic.realty",
+		"d.nic.realty"
+	],
 	"codePoints": "--09az"
 }

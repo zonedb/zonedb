@@ -4,5 +4,11 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"a.nic.forum",
+		"b.nic.forum",
+		"c.nic.forum",
+		"d.nic.forum"
+	],
 	"codePoints": "--09az"
 }
