@@ -4,7 +4,9 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
+		"a.nic.realty",
 		"b.nic.realty",
 		"c.nic.realty",
 		"d.nic.realty"
