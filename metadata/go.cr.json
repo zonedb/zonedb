@@ -3,6 +3,9 @@
 	"nameServers": [
 		"tld.isc-sns.com",
 		"dns.nic.cr",
+		"f.nic.cr",
+		"g.nic.cr",
+		"h.nic.cr",
 		"p.nic.cr",
 		"tld.isc-sns.info",
 		"tld.isc-sns.net",
