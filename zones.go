@@ -3138,7 +3138,7 @@ var _y = [4202]Zone{
 	{"camp.np", &_z[1018], nil, _c[0:6], NS{"sec2.apnic.net", "sec3.apnic.net", "ns-ext.isc.org", "np-ns.anycast.pch.net", "shikhar.mos.com.np", "np-ns.npix.net.np"}, "", "", "http://register.mos.com.np/np-ccTLDs", 0x0},
 	{"capital.np", &_z[1018], nil, _c[0:6], NS{"sec2.apnic.net", "sec3.apnic.net", "ns-ext.isc.org", "np-ns.anycast.pch.net", "manaslu.mos.com.np", "shikhar.mos.com.np", "np-ns.npix.net.np"}, "", "", "http://register.mos.com.np/np-ccTLDs", 0x0},
 	{"cards.np", &_z[1018], nil, _c[0:6], NS{"sec2.apnic.net", "sec3.apnic.net", "ns-ext.isc.org", "np-ns.anycast.pch.net", "shikhar.mos.com.np", "np-ns.npix.net.np"}, "", "", "http://register.mos.com.np/np-ccTLDs", 0x0},
-	{"care.np", &_z[1018], nil, _c[0:6], nil, "", "", "http://register.mos.com.np/np-ccTLDs", 0x0},
+	{"care.np", &_z[1018], nil, _c[0:6], NS{"sec2.apnic.net", "sec3.apnic.net", "ns-ext.isc.org", "np-ns.anycast.pch.net", "shikhar.mos.com.np", "np-ns.npix.net.np"}, "", "", "http://register.mos.com.np/np-ccTLDs", 0x0},
 	{"careers.np", &_z[1018], nil, _c[0:6], NS{"sec2.apnic.net", "sec3.apnic.net", "ns-ext.isc.org", "np-ns.anycast.pch.net", "shikhar.mos.com.np", "np-ns.npix.net.np"}, "", "", "http://register.mos.com.np/np-ccTLDs", 0x0},
 	{"cash.np", &_z[1018], nil, _c[0:6], NS{"sec2.apnic.net", "sec3.apnic.net", "ns-ext.isc.org", "np-ns.anycast.pch.net", "shikhar.mos.com.np", "np-ns.npix.net.np"}, "", "", "http://register.mos.com.np/np-ccTLDs", 0x0},
 	{"catering.np", &_z[1018], nil, _c[0:6], NS{"sec2.apnic.net", "sec3.apnic.net", "ns-ext.isc.org", "np-ns.anycast.pch.net", "shikhar.mos.com.np", "np-ns.npix.net.np"}, "", "", "http://register.mos.com.np/np-ccTLDs", 0x0},
