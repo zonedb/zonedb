@@ -747,7 +747,7 @@ var _y = [4202]Zone{
 	{"hotels", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x20},
 	{"hotmail", nil, nil, _c[0:6], NS{"a5.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"house", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.donuts.co", "", "", 0x20},
-	{"how", nil, nil, _c[0:6], NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, "domain-registry-whois.l.google.com", "", "http://newgtlds.icann.org/", 0x20},
+	{"how", nil, nil, nil, NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, "domain-registry-whois.l.google.com", "", "http://newgtlds.icann.org/", 0x20},
 	{"hr", nil, _z[2436:2440], _c[0:6], NS{"hr-ns-1.carnet.hr", "pch.carnet.hr", "sns-pb.isc.org"}, "whois.dns.hr", "", "", 0x50},
 	{"hsbc", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"ht", nil, _z[2440:2457], _c[0:6], NS{"dns.princeton.edu", "ns3.nic.fr", "charles.cdec.polymtl.ca", "ht-ns.anycast.pch.net"}, "whois.nic.ht", "", "", 0x50},
