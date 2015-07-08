@@ -5,5 +5,10 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"tld1.nic.jprs",
+		"tld2.nic.jprs",
+		"tld3.nic.jprs"
+	],
 	"codePoints": "--09az"
 }
