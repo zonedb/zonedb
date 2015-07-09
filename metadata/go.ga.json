@@ -4,7 +4,9 @@
 		"ns01.freenom.com",
 		"ns02.freenom.com",
 		"ns03.freenom.com",
-		"ns04.freenom.com"
+		"ns04.freenom.com",
+		"ns81.rookdns.com",
+		"ns82.rookdns.com"
 	],
 	"codePoints": "--09az"
 }
