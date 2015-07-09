@@ -8,6 +8,7 @@
 	"whoisServer": "whois.nic.ly",
 	"nameServers": [
 		"phloem.uoregon.edu",
+		"pch.ltt.ly",
 		"ns-ly.afrinic.net",
 		"dns.lttnet.net",
 		"dns1.lttnet.net",
