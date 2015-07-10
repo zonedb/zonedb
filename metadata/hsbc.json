@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.hsbc",
+		"ns2.dns.nic.hsbc",
+		"ns3.dns.nic.hsbc",
+		"ns4.dns.nic.hsbc",
+		"ns5.dns.nic.hsbc",
+		"ns6.dns.nic.hsbc"
+	],
 	"codePoints": "--09az"
 }
