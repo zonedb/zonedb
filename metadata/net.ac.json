@@ -1,11 +1,14 @@
 {
 	"domain": "net.ac",
 	"nameServers": [
+		"dns01.nic.ac",
 		"dns1.nic.ac",
 		"dns2.nic.ac",
 		"dns3.nic.ac",
 		"dns4.nic.ac",
-		"dns5.nic.ac"
+		"dns5.nic.ac",
+		"dns6.nic.ac",
+		"dns7.nic.ac"
 	],
 	"codePoints": "--09az"
 }
