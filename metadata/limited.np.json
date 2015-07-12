@@ -4,10 +4,12 @@
 	"nameServers": [
 		"ns-ext.vix.com",
 		"sec1.apnic.net",
+		"sec2.apnic.net",
 		"sec3.apnic.net",
 		"ns-ext.isc.org",
 		"np-ns.anycast.pch.net",
-		"shikhar.mos.com.np"
+		"shikhar.mos.com.np",
+		"np-ns.npix.net.np"
 	],
 	"codePoints": "--09az"
 }

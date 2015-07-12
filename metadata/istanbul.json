@@ -4,5 +4,12 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.istanbul",
+		"a2.nic.istanbul",
+		"b0.nic.istanbul",
+		"c0.nic.istanbul"
+	],
 	"codePoints": "--09az"
 }

@@ -2,6 +2,8 @@
 	"domain": "at.tc",
 	"nameServers": [
 		"ns.udagdns.de",
+		"n1.vxns.de",
+		"n2.vxns.de",
 		"ns.udagdns.net"
 	],
 	"codePoints": "--09az"
