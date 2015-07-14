@@ -1,0 +1,10 @@
+{
+	"domain": "i.ng",
+	"nameServers": [
+		"ns1.nic.net.ng",
+		"ns2.nic.net.ng",
+		"ns3.nic.net.ng",
+		"ns4.nic.net.ng",
+		"nsa.nic.net.ng"
+	]
+}
