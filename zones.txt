@@ -2993,6 +2993,7 @@ web.nf
 com.ng
 edu.ng
 gov.ng
+i.ng
 mobi.ng
 name.ng
 net.ng
@@ -3903,6 +3904,7 @@ tv.tz
 biz.ua
 cherkassy.ua
 chernigov.ua
+chernivtsi.ua
 chernovtsy.ua
 ck.ua
 cn.ua
@@ -3928,6 +3930,7 @@ kirovograd.ua
 km.ua
 kr.ua
 ks.ua
+kyiv.ua
 lg.ua
 lt.ua
 lugansk.ua
@@ -3943,6 +3946,7 @@ org.ua
 pl.ua
 poltava.ua
 pp.ua
+rivne.ua
 rovno.ua
 rv.ua
 sebastopol.ua
