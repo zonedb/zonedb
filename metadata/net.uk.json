@@ -1,6 +1,7 @@
 {
 	"domain": "net.uk",
 	"nameServers": [
+		"dns2.nic.uk",
 		"dns3.nic.uk",
 		"dns4.nic.uk",
 		"ns1.nic.uk",

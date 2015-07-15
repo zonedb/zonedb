@@ -1,4 +1,8 @@
 {
 	"domain": "shop.tc",
+	"nameServers": [
+		"ns.onshore.net",
+		"ns2.onshore.net"
+	],
 	"codePoints": "--09az"
 }
