@@ -7,6 +7,11 @@
 	],
 	"whoisServer": "whois.nic.bbc",
 	"nameServers": [
+		"dns4.nic.bbc",
+		"dnsa.nic.bbc",
+		"dnsb.nic.bbc",
+		"dnsc.nic.bbc",
+		"dnsd.nic.bbc",
 		"ns1.nic.uk",
 		"ns2.nic.uk",
 		"ns4.nic.uk",
