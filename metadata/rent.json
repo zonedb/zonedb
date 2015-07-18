@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.centralnic.com",
+	"whoisServer": "whois.nic.rent",
 	"nameServers": [
 		"a.nic.rent",
 		"b.nic.rent",
