@@ -1,6 +1,7 @@
 {
 	"domain": "ltd.uk",
 	"nameServers": [
+		"dns1.nic.uk",
 		"dns2.nic.uk",
 		"dns3.nic.uk",
 		"dns4.nic.uk",
