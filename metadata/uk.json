@@ -7,6 +7,7 @@
 	],
 	"whoisServer": "whois.nic.uk",
 	"nameServers": [
+		"dns4.nic.uk",
 		"ns1.nic.uk",
 		"ns2.nic.uk",
 		"ns4.nic.uk",
