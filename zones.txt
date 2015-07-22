@@ -2431,6 +2431,7 @@ inc.hk
 ltd.hk
 net.hk
 org.hk
+公司.hk
 com.hn
 net.hn
 org.hn
@@ -3727,6 +3728,7 @@ bg.tc
 biz.tc
 br.tc
 ch.tc
+com.tc
 cz.tc
 de.tc
 dk.tc
