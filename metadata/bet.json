@@ -4,5 +4,12 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.afilias.net",
+	"nameServers": [
+		"a0.nic.bet",
+		"a2.nic.bet",
+		"b0.nic.bet",
+		"c0.nic.bet"
+	],
 	"codePoints": "--09az"
 }
