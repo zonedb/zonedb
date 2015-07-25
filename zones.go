@@ -1252,7 +1252,7 @@ var _y = [4208]Zone{
 	{"repair", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.donuts.co", "", "", 0x20},
 	{"report", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.donuts.co", "", "", 0x20},
 	{"republican", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.rightside.co", "", "", 0x20},
-	{"rest", nil, nil, nil, NS{"a.nic.rest", "b.nic.rest", "c.nic.rest", "d.nic.rest"}, "whois.centralnic.com", "", "", 0x20},
+	{"rest", nil, nil, nil, NS{"a.nic.rest", "b.nic.rest", "c.nic.rest", "d.nic.rest"}, "whois.nic.rest", "", "", 0x20},
 	{"restaurant", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.donuts.co", "", "", 0x20},
 	{"retirement", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x20},
 	{"review", nil, nil, nil, NS{"ns1.dns.nic.review", "ns2.dns.nic.review", "ns3.dns.nic.review", "ns4.dns.nic.review", "ns5.dns.nic.review", "ns6.dns.nic.review"}, "whois.nic.review", "", "", 0x20},
