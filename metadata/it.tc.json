@@ -1,8 +1,11 @@
 {
 	"domain": "it.tc",
 	"nameServers": [
+		"ns.udag.de",
 		"ns.udagdns.de",
-		"ns.udagdns.net"
+		"ns.udag.net",
+		"ns.udagdns.net",
+		"ns.udag.org"
 	],
 	"codePoints": "--09az"
 }

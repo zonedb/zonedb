@@ -5,5 +5,10 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"b.nic.toyota",
+		"c.nic.toyota",
+		"d.nic.toyota"
+	],
 	"codePoints": "--09az"
 }
