@@ -6,6 +6,7 @@
 		"generic"
 	],
 	"nameServers": [
+		"ns1.dns.nic.ipiranga",
 		"ns2.dns.nic.ipiranga",
 		"ns3.dns.nic.ipiranga",
 		"ns4.dns.nic.ipiranga",

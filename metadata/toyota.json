@@ -5,7 +5,9 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.toyota",
 	"nameServers": [
+		"a.nic.toyota",
 		"b.nic.toyota",
 		"c.nic.toyota",
 		"d.nic.toyota"

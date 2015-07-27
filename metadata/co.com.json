@@ -1,6 +1,7 @@
 {
 	"domain": "co.com",
 	"infoURL": "http://registry.co.com/",
+	"whoisServer": "whois.centralnic.net",
 	"nameServers": [
 		"ns1.nic.co.com",
 		"ns2.nic.co.com",
