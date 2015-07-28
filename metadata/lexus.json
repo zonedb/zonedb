@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.lexus",
 	"nameServers": [
 		"a.nic.lexus",
 		"b.nic.lexus",
