@@ -1,6 +1,7 @@
 {
 	"domain": "大拿",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.大拿",
 	"nameServers": [
 		"a5.nstld.com",
 		"c5.nstld.com",
