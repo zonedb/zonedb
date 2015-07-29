@@ -1,6 +1,7 @@
 {
 	"domain": "닷넷",
 	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.닷넷",
 	"nameServers": [
 		"a5.nstld.com",
 		"c5.nstld.com",

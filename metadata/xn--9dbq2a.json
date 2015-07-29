@@ -1,7 +1,6 @@
 {
-	"domain": "点看",
-	"infoURL": "http://newgtlds.icann.org/",
-	"whoisServer": "whois.nic.点看",
+	"domain": "קום",
+	"whoisServer": "whois.nic.קום",
 	"nameServers": [
 		"a5.nstld.com",
 		"c5.nstld.com",
