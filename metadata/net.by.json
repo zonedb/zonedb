@@ -1,6 +1,8 @@
 {
 	"domain": "net.by",
 	"nameServers": [
+		"ns1.domain.by",
+		"ns2.domain.by",
 		"ns1.net.by",
 		"ns1.open.by",
 		"ns2.open.by"
