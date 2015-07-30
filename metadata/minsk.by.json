@@ -1,6 +1,8 @@
 {
 	"domain": "minsk.by",
 	"nameServers": [
+		"ns1.domain.by",
+		"ns2.domain.by",
 		"ns1.minsk.by",
 		"ns1.open.by",
 		"ns2.open.by"

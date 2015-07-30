@@ -2,6 +2,8 @@
 	"domain": "com.by",
 	"nameServers": [
 		"ns1.com.by",
+		"ns1.domain.by",
+		"ns2.domain.by",
 		"ns1.open.by",
 		"ns2.open.by"
 	],
