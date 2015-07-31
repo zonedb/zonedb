@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.lixil",
+	"nameServers": [
+		"a.nic.lixil",
+		"b.nic.lixil",
+		"c.nic.lixil",
+		"d.nic.lixil"
+	],
 	"codePoints": "--09az"
 }
