@@ -1,4 +1,8 @@
 {
 	"domain": "tirana.al",
+	"nameServers": [
+		"ns1.akshi.gov.al",
+		"ns2.akshi.gov.al"
+	],
 	"codePoints": "--09az"
 }
