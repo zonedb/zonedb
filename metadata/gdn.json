@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.gdnregistry.com",
+	"whoisServer": "whois.nic.gdn",
 	"nameServers": [
 		"ns1.nic.gdn",
 		"ns2.nic.gdn"
