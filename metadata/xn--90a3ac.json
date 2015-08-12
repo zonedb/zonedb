@@ -3,6 +3,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.rnids.rs",
 	"nameServers": [
 		"a.nic.rs",
 		"f.nic.rs",
