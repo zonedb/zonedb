@@ -3267,7 +3267,7 @@ var _y = [4208]Zone{
 	{"info.nr", &_z[1019], nil, _c[0:6], NS{"sns-pb.isc.org", "ns0.cenpac.net.nr", "ns1.cenpac.net.nr", "ns2.cenpac.net.nr"}, "", "", "", 0x0},
 	{"net.nr", &_z[1019], nil, _c[0:6], NS{"sns-pb.isc.org", "ns0.cenpac.net.nr", "ns1.cenpac.net.nr", "ns2.cenpac.net.nr"}, "", "", "", 0x0},
 	{"org.nr", &_z[1019], nil, _c[0:6], NS{"sns-pb.isc.org", "ns0.cenpac.net.nr", "ns1.cenpac.net.nr", "ns2.cenpac.net.nr"}, "", "", "", 0x0},
-	{"co.nu", &_z[1023], nil, nil, NS{"ns1.co.nu", "ns2.co.nu", "ns3.co.nu"}, "", "", "", 0x0},
+	{"co.nu", &_z[1023], nil, nil, NS{"ns1.subdomain.com", "ns2.subdomain.com", "ns1.co.nu", "ns2.co.nu", "ns3.co.nu"}, "", "", "", 0x0},
 	{"ac.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
 	{"co.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
 	{"cri.nz", &_z[1025], nil, _c[0:6], NS{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, "", "", "", 0x0},
