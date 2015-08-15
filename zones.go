@@ -3017,7 +3017,7 @@ var _y = [4208]Zone{
 	{"net.mx", &_z[968], nil, _c[0:6], NS{"c.mx-ns.mx", "e.mx-ns.mx", "i.mx-ns.mx", "m.mx-ns.mx", "o.mx-ns.mx", "x.mx-ns.mx"}, "", "", "", 0x0},
 	{"org.mx", &_z[968], nil, _c[0:6], NS{"c.mx-ns.mx", "e.mx-ns.mx", "i.mx-ns.mx", "m.mx-ns.mx", "o.mx-ns.mx", "x.mx-ns.mx"}, "", "", "", 0x0},
 	{"com.my", &_z[969], nil, nil, NS{"ns5.jaring.my", "ns6.jaring.my", "ns30.cdns.net", "ns2.cuhk.edu.hk", "b.mynic.net.my", "c.mynic.net.my", "d.mynic.net.my", "dns1.mynic.net.my"}, "", "", "http://about.museum/", 0x0},
-	{"edu.my", &_z[969], nil, _c[0:6], NS{"ns5.jaring.my", "ns6.jaring.my", "ns30.cdns.net", "ns2.cuhk.edu.hk", "b.mynic.net.my", "dns1.mynic.net.my"}, "", "", "", 0x0},
+	{"edu.my", &_z[969], nil, _c[0:6], NS{"ns5.jaring.my", "ns6.jaring.my", "ns30.cdns.net", "ns2.cuhk.edu.hk", "b.mynic.net.my", "c.mynic.net.my", "d.mynic.net.my", "dns1.mynic.net.my"}, "", "", "", 0x0},
 	{"gov.my", &_z[969], nil, _c[0:6], NS{"ns5.jaring.my", "ns6.jaring.my", "ns30.cdns.net", "ns2.cuhk.edu.hk", "b.mynic.net.my", "c.mynic.net.my", "d.mynic.net.my", "dns1.mynic.net.my"}, "", "", "", 0x0},
 	{"mil.my", &_z[969], nil, _c[0:6], NS{"ns5.jaring.my", "ns6.jaring.my", "ns30.cdns.net", "ns2.cuhk.edu.hk", "b.mynic.net.my", "c.mynic.net.my", "d.mynic.net.my", "dns1.mynic.net.my"}, "", "", "", 0x0},
 	{"name.my", &_z[969], nil, _c[0:6], NS{"ns5.jaring.my", "ns6.jaring.my", "ns30.cdns.net", "ns2.cuhk.edu.hk", "b.mynic.net.my", "c.mynic.net.my", "d.mynic.net.my", "dns1.mynic.net.my"}, "", "", "", 0x0},
