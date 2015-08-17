@@ -2943,6 +2943,7 @@ adv.mz
 co.mz
 edu.mz
 gov.mz
+net.mz
 org.mz
 alt.na
 cc.na
