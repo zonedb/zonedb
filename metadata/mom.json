@@ -3,5 +3,11 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"generic"
+	],
+	"nameServers": [
+		"ns1.uniregistry.net",
+		"a.mom.dyntld.net",
+		"b.mom.dyntld.net",
+		"c.mom.dyntld.net"
 	]
 }
