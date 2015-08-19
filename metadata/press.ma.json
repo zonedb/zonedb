@@ -3,6 +3,7 @@
 	"nameServers": [
 		"dns.inria.fr",
 		"ns2.nic.fr",
+		"ns3.registre.ma",
 		"ns4.registre.ma",
 		"ns1.iam.net.ma",
 		"ns2.iam.net.ma",
