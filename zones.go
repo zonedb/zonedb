@@ -1016,7 +1016,7 @@ var _y = [4209]Zone{
 	{"moda", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.unitedtld.com", "", "", 0x20},
 	{"moe", nil, nil, nil, NS{"ns1.dns.nic.moe", "ns2.dns.nic.moe", "ns3.dns.nic.moe", "ns4.dns.nic.moe", "ns5.dns.nic.moe", "ns6.dns.nic.moe"}, "whois.nic.moe", "", "", 0x20},
 	{"moi", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
-	{"mom", nil, nil, nil, NS{"ns1.uniregistry.net", "a.mom.dyntld.net", "b.mom.dyntld.net", "c.mom.dyntld.net"}, "", "", "http://newgtlds.icann.org/", 0x20},
+	{"mom", nil, nil, nil, NS{"ns1.uniregistry.net", "a.mom.dyntld.net", "b.mom.dyntld.net", "c.mom.dyntld.net"}, "whois.uniregistry.net", "", "http://newgtlds.icann.org/", 0x20},
 	{"monash", nil, nil, _c[0:6], NS{"a.nic.monash", "b.nic.monash", "c.nic.monash", "d.nic.monash"}, "whois.nic.monash", "", "http://newgtlds.icann.org/", 0x22},
 	{"money", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x20},
 	{"monster", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
