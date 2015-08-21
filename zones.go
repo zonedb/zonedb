@@ -154,7 +154,7 @@ var _y = [4211]Zone{
 	{"anthem", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x822},
 	{"antivirus", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x20},
 	{"anz", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
-	{"ao", nil, _z[1783:1789], _c[0:6], NS{"ns02.dns.ao", "ns-ext.isc.org", "ns02.fccn.pt", "ns03.fccn.pt", "phobos.fccn.pt", "auth02.ns.uu.net"}, "", "", "http://www.dns.ao/", 0x54},
+	{"ao", nil, _z[1783:1789], _c[0:6], NS{"ns02.dns.ao", "ns-ext.isc.org", "ns02.fccn.pt", "ns03.fccn.pt", "phobos.fccn.pt", "auth02.ns.uu.net"}, "", "", "http://www.dns.ao/", 0x50},
 	{"aol", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"apartments", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x20},
 	{"app", nil, nil, nil, NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, "whois.nic.google", "", "http://newgtlds.icann.org/", 0x20},
