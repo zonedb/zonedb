@@ -933,7 +933,7 @@ var _y = [4209]Zone{
 	{"loreal", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x822},
 	{"lotte", nil, nil, _c[0:6], NS{"d.gmoregistry.net", "e.gmoregistry.net", "g.gmoregistry.net", "h.gmoregistry.net", "i.gmoregistry.net", "j.gmoregistry.net"}, "whois.nic.lotte", "", "http://newgtlds.icann.org/", 0x22},
 	{"lotto", nil, nil, _c[0:6], NS{"a0.nic.lotto", "a2.nic.lotto", "b0.nic.lotto", "c0.nic.lotto"}, "whois.afilias.net", "", "http://newgtlds.icann.org/", 0x20},
-	{"love", nil, nil, _c[0:6], NS{"a.nic.love", "b.nic.love", "c.nic.love", "d.nic.love"}, "whois.centralnic.com", "", "http://newgtlds.icann.org/", 0x20},
+	{"love", nil, nil, _c[0:6], NS{"a.nic.love", "b.nic.love", "c.nic.love", "d.nic.love"}, "whois.nic.love", "", "http://newgtlds.icann.org/", 0x20},
 	{"lpl", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"lplfinancial", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"lr", nil, _z[2802:2808], _c[0:6], NS{"rip.psg.com", "fork.sth.dnsnode.net", "hippo.ru.ac.za"}, "", "", "", 0x54},
