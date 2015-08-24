@@ -61,6 +61,7 @@ amfam
 amica
 amp
 amsterdam
+an
 analytics
 android
 anquan
@@ -1776,6 +1777,10 @@ north.am
 org.am
 radio.am
 south.am
+com.an
+edu.an
+net.an
+org.an
 co.ao
 ed.ao
 gv.ao
