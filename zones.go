@@ -146,7 +146,7 @@ var _y = [4211]Zone{
 	{"amica", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"amp", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"amsterdam", nil, nil, _c[0:6], NS{"ns1.nic.amsterdam", "ns2.nic.amsterdam", "ns3.nic.amsterdam", "ns4.nic.amsterdam", "ns5.nic.amsterdam"}, "whois.nic.amsterdam", "", "http://newgtlds.icann.org/", 0x20},
-	{"an", nil, _z[1779:1783], _c[0:6], NS{"kadushi.curinfo.an", "ns01-server.curinfo.an", "engine0.una.an", "engine2.una.an", "engine3.una.an", "ns0.ja.net", "an.cctld.authdns.ripe.net"}, "", "", "http://www.una.an/an_domreg/", 0x54},
+	{"an", nil, _z[1779:1783], _c[0:6], NS{"kadushi.curinfo.an", "ns01-server.curinfo.an", "engine0.una.an", "engine2.una.an", "engine3.una.an", "ns0.ja.net", "an.cctld.authdns.ripe.net"}, "", "", "http://www.una.an/an_domreg/", 0x254},
 	{"analytics", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x20},
 	{"android", nil, nil, nil, NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, "domain-registry-whois.l.google.com", "", "http://newgtlds.icann.org/", 0x22},
 	{"anquan", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x20},
