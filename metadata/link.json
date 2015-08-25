@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.unitedtld.com",
+	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
 		"tld.isc-sns.com",
 		"tld.isc-sns.info",

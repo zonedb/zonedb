@@ -914,7 +914,7 @@ var _y = [4211]Zone{
 	{"limo", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.donuts.co", "", "", 0x20},
 	{"lincoln", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"linde", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
-	{"link", nil, nil, nil, NS{"tld.isc-sns.com", "tld.isc-sns.info", "tld.isc-sns.net", "a.ns.uniregistry.net"}, "whois.unitedtld.com", "", "", 0x20},
+	{"link", nil, nil, nil, NS{"tld.isc-sns.com", "tld.isc-sns.info", "tld.isc-sns.net", "a.ns.uniregistry.net"}, "whois.uniregistry.net", "", "", 0x20},
 	{"lipsy", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"live", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.rightside.co", "", "http://newgtlds.icann.org/", 0x20},
 	{"livestrong", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
