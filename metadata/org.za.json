@@ -1,6 +1,6 @@
 {
 	"domain": "org.za",
-	"whoisServer": "whois.org.za",
+	"whoisServer": "org-whois.registry.net.za",
 	"nameServers": [
 		"ns3.iafrica.com",
 		"ns4.iafrica.com",
