@@ -99,7 +99,7 @@ var _y = [4211]Zone{
 	{"accountant", nil, nil, _c[0:6], NS{"ns1.dns.nic.accountant", "ns2.dns.nic.accountant", "ns3.dns.nic.accountant", "ns4.dns.nic.accountant", "ns5.dns.nic.accountant", "ns6.dns.nic.accountant"}, "whois.nic.accountant", "", "http://newgtlds.icann.org/", 0x20},
 	{"accountants", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.donuts.co", "", "", 0x20},
 	{"acer", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
-	{"aco", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
+	{"aco", nil, nil, _c[0:6], NS{"a0.nic.aco", "a2.nic.aco", "b0.nic.aco", "c0.nic.aco"}, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"active", nil, nil, _c[0:6], NS{"a0.nic.active", "a2.nic.active", "b0.nic.active", "c0.nic.active"}, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x22},
 	{"actor", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.unitedtld.com", "", "", 0x20},
 	{"ad", nil, _z[1734:1735], nil, NS{"dnsc.ad", "dnsm.ad", "ns3.nic.fr", "ns-ext.isc.org", "ad.ns.nic.es", "ad.cctld.authdns.ripe.net"}, "", "", "http://www.nic.ad/", 0x70},
