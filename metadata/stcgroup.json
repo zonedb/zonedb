@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a.nic.stcgroup",
+		"b.nic.stcgroup",
+		"c.nic.stcgroup",
+		"d.nic.stcgroup"
+	],
 	"codePoints": "--09az"
 }
