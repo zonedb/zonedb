@@ -83,7 +83,7 @@ var _z [4211]Zone
 
 // _y and _z are separated to fix circular references.
 var _y = [4211]Zone{
-	{"aaa", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
+	{"aaa", nil, nil, _c[0:6], NS{"ns1.dns.nic.aaa", "ns2.dns.nic.aaa", "ns3.dns.nic.aaa", "ns4.dns.nic.aaa", "ns5.dns.nic.aaa", "ns6.dns.nic.aaa"}, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"aarp", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"abarth", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"abb", nil, nil, _c[0:6], NS{"a5.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, "", "", "http://newgtlds.icann.org/", 0x22},
@@ -634,7 +634,7 @@ var _y = [4211]Zone{
 	{"gd", nil, _z[2356:2363], _c[0:6], NS{"gd-ns.ksregistry.net", "gd-ns.anycast.pch.net", "gd.cctld.authdns.ripe.net"}, "whois.nic.gd", "", "", 0x50},
 	{"gdn", nil, nil, _c[0:6], NS{"ns1.nic.gdn", "ns2.nic.gdn"}, "whois.nic.gdn", "", "http://newgtlds.icann.org/", 0x22},
 	{"ge", nil, _z[2363:2370], _c[0:6], NS{"ns2.nic.fr", "ns.nic.ge", "ns.uu.net", "ge.hostmaster.ua"}, "", "http://www.registration.ge/", "http://www.nic.net.ge/", 0x50},
-	{"gea", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
+	{"gea", nil, nil, _c[0:6], NS{"a0.nic.gea", "a2.nic.gea", "b0.nic.gea", "c0.nic.gea"}, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x22},
 	{"gecompany", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"ged", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"gent", nil, nil, nil, NS{"a.ns.nic.gent", "c.ns.nic.gent", "x.ns.nic.gent", "y.ns.nic.gent"}, "whois.nic.gent", "", "", 0x20},
@@ -1403,7 +1403,7 @@ var _y = [4211]Zone{
 	{"statefarm", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"statoil", nil, nil, _c[0:6], NS{"a5.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, "whois.nic.statoil", "", "http://newgtlds.icann.org/", 0x22},
 	{"stc", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
-	{"stcgroup", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
+	{"stcgroup", nil, nil, _c[0:6], NS{"a.nic.stcgroup", "b.nic.stcgroup", "c.nic.stcgroup", "d.nic.stcgroup"}, "whois.centralnic.com", "", "http://newgtlds.icann.org/", 0x22},
 	{"stockholm", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x20},
 	{"storage", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x20},
 	{"store", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x20},
@@ -1566,7 +1566,7 @@ var _y = [4211]Zone{
 	{"vision", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.donuts.co", "", "", 0x20},
 	{"vista", nil, nil, _c[0:6], NS{"a.nic.vista", "b.nic.vista", "c.nic.vista", "d.nic.vista"}, "whois.nic.vista", "", "http://newgtlds.icann.org/", 0x22},
 	{"vistaprint", nil, nil, _c[0:6], NS{"a.nic.vistaprint", "b.nic.vistaprint", "c.nic.vistaprint", "d.nic.vistaprint"}, "whois.nic.vistaprint", "", "http://newgtlds.icann.org/", 0x22},
-	{"viva", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
+	{"viva", nil, nil, _c[0:6], NS{"a.nic.viva", "b.nic.viva", "c.nic.viva", "d.nic.viva"}, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"vivo", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"vlaanderen", nil, nil, _c[0:6], NS{"a.nic.vlaanderen", "b.nic.vlaanderen", "w.nic.vlaanderen", "c.ns.dns.be", "d.ns.dns.be"}, "whois.nic.vlaanderen", "", "http://newgtlds.icann.org/", 0x20},
 	{"vn", nil, _z[4086:4098], nil, NS{"a.dns-servers.vn", "b.dns-servers.vn", "c.dns-servers.vn", "d.dns-servers.vn", "e.dns-servers.vn", "f.dns-servers.vn", "vn.cctld.authdns.ripe.net"}, "", "http://www.vnnic.vn/en/domain", "", 0x50},
