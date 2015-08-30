@@ -8,11 +8,13 @@
 	"whoisServer": "whois.nic.as",
 	"nameServers": [
 		"tld5.ultradns.info",
+		"c.ci-servers.net",
 		"tld.gdns.net",
 		"tld1.ultradns.net",
 		"tld2.ultradns.net",
 		"tld3.ultradns.org",
 		"tld4.ultradns.org",
+		"ns99.dns.net.nz",
 		"tld6.ultradns.co.uk"
 	]
 }

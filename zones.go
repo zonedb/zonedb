@@ -171,7 +171,7 @@ var _y = [4211]Zone{
 	{"arpa", nil, _z[1799:1805], _c[0:6], NS{"a.root-servers.net", "b.root-servers.net", "c.root-servers.net", "d.root-servers.net", "e.root-servers.net", "f.root-servers.net", "g.root-servers.net", "h.root-servers.net", "i.root-servers.net", "k.root-servers.net", "l.root-servers.net", "m.root-servers.net"}, "whois.iana.org", "", "https://www.iana.org/domains/arpa", 0xa4},
 	{"art", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x20},
 	{"arte", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
-	{"as", nil, nil, nil, NS{"tld5.ultradns.info", "tld.gdns.net", "tld1.ultradns.net", "tld2.ultradns.net", "tld3.ultradns.org", "tld4.ultradns.org", "tld6.ultradns.co.uk"}, "whois.nic.as", "", "", 0x70},
+	{"as", nil, nil, nil, NS{"tld5.ultradns.info", "c.ci-servers.net", "tld.gdns.net", "tld1.ultradns.net", "tld2.ultradns.net", "tld3.ultradns.org", "tld4.ultradns.org", "ns99.dns.net.nz", "tld6.ultradns.co.uk"}, "whois.nic.as", "", "", 0x70},
 	{"asda", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"asia", nil, nil, nil, NS{"b0.asia.afilias-nst.asia", "d0.asia.afilias-nst.asia", "a0.asia.afilias-nst.info", "a2.asia.afilias-nst.info", "c0.asia.afilias-nst.info", "b2.asia.afilias-nst.org"}, "whois.nic.asia", "", "http://www.dotasia.org/", 0x420},
 	{"associates", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.donuts.co", "", "", 0x20},
