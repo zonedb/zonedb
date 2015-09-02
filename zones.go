@@ -431,7 +431,7 @@ var _y = [4211]Zone{
 	{"crs", nil, nil, _c[0:6], NS{"a5.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"cruise", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x20},
 	{"cruises", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.donuts.co", "", "", 0x20},
-	{"csc", nil, nil, _c[0:6], NS{"a5.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, "", "", "http://newgtlds.icann.org/", 0x22},
+	{"csc", nil, nil, _c[0:6], NS{"a5.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, "whois.nic.csc", "", "http://newgtlds.icann.org/", 0x22},
 	{"cu", nil, _z[2167:2178], _c[0:6], NS{"ns.dns.br", "rip.psg.com", "ns2.gip.net", "ns.ceniai.net.cu", "ns2.ceniai.net.cu", "cu.cctld.authdns.ripe.net"}, "", "http://www.nic.cu/", "", 0x50},
 	{"cuisinella", nil, nil, _c[0:6], NS{"a.nic.cuisinella", "b.nic.cuisinella", "c.nic.cuisinella", "d.nic.cuisinella"}, "whois.nic.cuisinella", "", "http://newgtlds.icann.org/", 0x22},
 	{"cv", nil, _z[2178:2185], _c[0:6], NS{"ns.dns.cv", "ns-ext.isc.org", "sns-pb.isc.org", "ns01.fccn.pt", "phobos.fccn.pt", "auth02.ns.uu.net"}, "", "http://www.dns.cv/", "", 0x50},
