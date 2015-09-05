@@ -3612,7 +3612,7 @@ var _y = [4211]Zone{
 	{"vet.pro", &_z[1121], nil, _c[0:6], nil, "", "", "", 0x0},
 	{"com.ps", &_z[1132], nil, _c[0:6], NS{"rip.psg.com", "ns1.pnina.ps", "ns2.pnina.ps", "ote.pnina.ps", "ps-ns.anycast.pch.net", "ps.cctld.authdns.ripe.net"}, "", "", "http://www.pnina.ps/domains/registration-policy/", 0x0},
 	{"edu.ps", &_z[1132], nil, _c[0:6], NS{"dns1.gov.ps", "dns3.gov.ps", "ns1.pnina.ps", "ns2.pnina.ps", "ote.pnina.ps"}, "", "", "http://www.tonic.to/", 0x0},
-	{"gov.ps", &_z[1132], nil, _c[0:6], NS{"ns1.palgov.net", "dns1.gov.ps", "dns3.gov.ps", "ns2.pnina.ps"}, "", "", "", 0x0},
+	{"gov.ps", &_z[1132], nil, _c[0:6], NS{"ns1.palgov.net", "dns1.gov.ps", "dns2.gov.ps", "dns3.gov.ps", "ns2.pnina.ps"}, "", "", "", 0x0},
 	{"mun.ps", &_z[1132], nil, _c[0:6], NS{"dns1.gov.ps", "dns2.gov.ps", "ns2.pnina.ps"}, "", "", "", 0x0},
 	{"net.ps", &_z[1132], nil, _c[0:6], NS{"rip.psg.com", "ns1.pnina.ps", "ns2.pnina.ps", "ote.pnina.ps", "ps-ns.anycast.pch.net", "ps.cctld.authdns.ripe.net"}, "", "", "", 0x0},
 	{"org.ps", &_z[1132], nil, _c[0:6], NS{"rip.psg.com", "ns1.pnina.ps", "ns2.pnina.ps", "ote.pnina.ps", "ps-ns.anycast.pch.net", "ps.cctld.authdns.ripe.net"}, "", "", "", 0x0},
