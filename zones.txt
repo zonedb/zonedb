@@ -1920,6 +1920,7 @@ co.bi
 com.bi
 edu.bi
 info.bi
+mo.bi
 net.bi
 or.bi
 org.bi
