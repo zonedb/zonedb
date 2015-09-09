@@ -4,5 +4,11 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.uniregistry.net",
+		"a.car.dyntld.net",
+		"b.car.dyntld.net",
+		"c.car.dyntld.net"
+	],
 	"codePoints": "--09az"
 }
