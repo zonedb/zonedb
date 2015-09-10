@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
 		"ns1.uniregistry.net",
 		"a.car.dyntld.net",

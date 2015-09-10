@@ -1,6 +1,7 @@
 {
 	"domain": "net.ky",
 	"nameServers": [
+		"ns1.uniregistry.net",
 		"a.ky.dyntld.net",
 		"b.ky.dyntld.net",
 		"c.ky.dyntld.net",
