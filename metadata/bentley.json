@@ -7,6 +7,8 @@
 	],
 	"whoisServer": "whois.nic.bentley",
 	"nameServers": [
+		"dns3.nic.bentley",
+		"dns4.nic.bentley",
 		"dnsa.nic.bentley",
 		"dnsb.nic.bentley",
 		"dnsc.nic.bentley",
