@@ -1788,7 +1788,7 @@ var _y = [4212]Zone{
 	{"xn--hxt035cmppuel" /* 盛貿飯店 */, nil, nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x20},
 	{"xn--6frz82g" /* 移动 */, nil, nil, nil, NS{"a0.nic.xn--6frz82g", "a2.nic.xn--6frz82g", "b0.nic.xn--6frz82g", "c0.nic.xn--6frz82g"}, "whois.afilias.net", "", "", 0x0},
 	{"xn--nqv7fs00ema" /* 组织机构 */, nil, nil, nil, NS{"a0.nic.xn--nqv7fs00ema", "a2.nic.xn--nqv7fs00ema", "b0.nic.xn--nqv7fs00ema", "c0.nic.xn--nqv7fs00ema"}, "whois.publicinterestregistry.net", "", "http://newgtlds.icann.org/", 0x20},
-	{"xn--ses554g" /* 网址 */, nil, nil, nil, NS{"a.zdnscloud.com", "b.zdnscloud.com", "c.zdnscloud.com", "d.zdnscloud.com", "e.zdnscloud.com", "g.zdnscloud.com", "i.zdnscloud.com", "j.zdnscloud.com"}, "whois.gtld.knet.cn", "", "http://newgtlds.icann.org/", 0x0},
+	{"xn--ses554g" /* 网址 */, nil, nil, nil, NS{"a.zdnscloud.com", "b.zdnscloud.com", "c.zdnscloud.com", "d.zdnscloud.com", "e.zdnscloud.com", "g.zdnscloud.com", "i.zdnscloud.com", "j.zdnscloud.com"}, "whois.registry.knet.cn", "", "http://newgtlds.icann.org/", 0x0},
 	{"xn--hxt814e" /* 网店 */, nil, nil, nil, NS{"a.zdnscloud.com", "b.zdnscloud.com", "c.zdnscloud.com", "d.zdnscloud.com", "e.zdnscloud.com", "f.zdnscloud.com", "g.zdnscloud.com", "i.zdnscloud.com", "j.zdnscloud.com"}, "whois.nic.xn--hxt814e", "", "http://newgtlds.icann.org/", 0x0},
 	{"xn--5tzm5g" /* 网站 */, nil, nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x0},
 	{"xn--io0a7i" /* 网络 */, nil, nil, nil, NS{"a.ngtld.cn", "b.ngtld.cn", "c.ngtld.cn", "d.ngtld.cn", "e.ngtld.cn"}, "whois.ngtld.cn", "", "", 0x0},
