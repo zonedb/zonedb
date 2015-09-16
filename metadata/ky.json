@@ -7,6 +7,7 @@
 	"whoisServer": "whois.kyregistry.ky",
 	"whoisURL": "http://kynseweb.messagesecure.com/kywebadmin/",
 	"nameServers": [
+		"ns1.uniregistry.net",
 		"a.ky.dyntld.net",
 		"b.ky.dyntld.net",
 		"c.ky.dyntld.net",
