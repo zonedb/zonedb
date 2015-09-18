@@ -1326,7 +1326,7 @@ var _y = [4212]Zone{
 	{"search", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x20},
 	{"seat", nil, nil, _c[0:6], NS{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, "whois.nic.seat", "", "http://newgtlds.icann.org/", 0x22},
 	{"secure", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x20},
-	{"security", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x20},
+	{"security", nil, nil, _c[0:6], NS{"a.nic.security", "b.nic.security", "c.nic.security", "d.nic.security"}, "whois.centralnic.com", "", "http://newgtlds.icann.org/", 0x20},
 	{"seek", nil, nil, _c[0:6], NS{"a.nic.seek", "b.nic.seek", "c.nic.seek", "d.nic.seek"}, "whois.nic.seek", "", "http://newgtlds.icann.org/", 0x22},
 	{"select", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"sener", nil, nil, _c[0:6], NS{"a5.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, "", "", "http://newgtlds.icann.org/", 0x22},
