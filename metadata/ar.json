@@ -10,7 +10,9 @@
 	"nameServers": [
 		"ctina.ar",
 		"a.dns.ar",
+		"b.dns.ar",
 		"c.dns.ar",
+		"d.dns.ar",
 		"ns2.switch.ch",
 		"relay1.mecon.gov.ar",
 		"ar.cctld.authdns.ripe.net"
