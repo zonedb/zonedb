@@ -3,7 +3,8 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"region"
 	],
 	"whoisServer": "whois.aridnrs.net.au",
 	"nameServers": [

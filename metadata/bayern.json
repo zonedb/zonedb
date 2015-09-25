@@ -2,7 +2,8 @@
 	"domain": "bayern",
 	"tags": [
 		"generic",
-		"geo"
+		"geo",
+		"region"
 	],
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [

@@ -2,7 +2,8 @@
 	"domain": "saarland",
 	"tags": [
 		"generic",
-		"geo"
+		"geo",
+		"region"
 	],
 	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
