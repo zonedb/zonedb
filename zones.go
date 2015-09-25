@@ -1216,7 +1216,7 @@ var _y = [4212]Zone{
 	{"pru", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"prudential", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
 	{"ps", nil, _z[3528:3535], _c[0:6], NS{"rip.psg.com", "dns1.gov.ps", "ns1.pnina.ps", "fork.sth.dnsnode.net", "ps-ns.anycast.pch.net", "ps.cctld.authdns.ripe.net"}, "whois.pnina.ps", "", "", 0x50},
-	{"pt", nil, _z[3535:3543], nil, NS{"ns.dns.br", "ns2.nic.fr", "ns-pt.nlnetlabs.nl", "sns-pb.isc.org", "ns.dns.pt", "ns2.dns.pt", "auth200.ns.uu.net", "auth210.ns.uu.net"}, "whois.dns.pt", "", "", 0x50},
+	{"pt", nil, _z[3535:3543], nil, NS{"ns.dns.br", "ns2.nic.fr", "ns-pt.nlnetlabs.nl", "sns-pb.isc.org", "b.dns.pt", "c.dns.pt", "ns.dns.pt", "ns2.dns.pt", "auth200.ns.uu.net", "auth210.ns.uu.net"}, "whois.dns.pt", "", "", 0x50},
 	{"pub", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, "whois.unitedtld.com", "", "", 0x20},
 	{"pw", nil, _z[3543:3549], _c[0:6], NS{"ns1.nic.pw", "ns2.nic.pw", "ns3.nic.pw", "ns4.nic.pw"}, "whois.nic.pw", "", "", 0x50},
 	{"pwc", nil, nil, _c[0:6], nil, "", "", "http://newgtlds.icann.org/", 0x22},
