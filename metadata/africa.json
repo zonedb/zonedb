@@ -3,8 +3,7 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"generic",
-		"geo",
-		"region"
+		"geo"
 	],
 	"codePoints": "--09az"
 }
