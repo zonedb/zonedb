@@ -2,7 +2,9 @@
 	"domain": "budapest",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"generic"
+		"city",
+		"generic",
+		"geo"
 	],
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [

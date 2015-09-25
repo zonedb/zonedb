@@ -1,7 +1,9 @@
 {
 	"domain": "vegas",
 	"tags": [
-		"generic"
+		"city",
+		"generic",
+		"geo"
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [

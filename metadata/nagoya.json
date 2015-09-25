@@ -1,6 +1,7 @@
 {
 	"domain": "nagoya",
 	"tags": [
+		"city",
 		"generic",
 		"geo"
 	],

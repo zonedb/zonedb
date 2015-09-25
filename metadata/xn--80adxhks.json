@@ -1,6 +1,7 @@
 {
 	"domain": "москва",
 	"tags": [
+		"city",
 		"generic",
 		"geo"
 	],

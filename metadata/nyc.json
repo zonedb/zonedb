@@ -1,7 +1,9 @@
 {
 	"domain": "nyc",
 	"tags": [
-		"generic"
+		"city",
+		"generic",
+		"geo"
 	],
 	"whoisServer": "whois.nic.nyc",
 	"nameServers": [

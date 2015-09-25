@@ -1,8 +1,8 @@
 {
 	"domain": "la",
 	"tags": [
+		"city",
 		"country",
-		"generic",
 		"geo"
 	],
 	"whoisServer": "whois.nic.la",

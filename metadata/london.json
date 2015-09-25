@@ -1,6 +1,7 @@
 {
 	"domain": "london",
 	"tags": [
+		"city",
 		"generic",
 		"geo"
 	],

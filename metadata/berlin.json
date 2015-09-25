@@ -1,7 +1,9 @@
 {
 	"domain": "berlin",
 	"tags": [
-		"generic"
+		"city",
+		"generic",
+		"geo"
 	],
 	"whoisServer": "whois.nic.berlin",
 	"nameServers": [

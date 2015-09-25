@@ -1,7 +1,9 @@
 {
 	"domain": "quebec",
 	"tags": [
-		"generic"
+		"city",
+		"generic",
+		"geo"
 	],
 	"whoisServer": "whois.nic.quebec",
 	"nameServers": [
