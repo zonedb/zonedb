@@ -2,8 +2,7 @@
 	"domain": "lat",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"generic",
-		"region"
+		"generic"
 	],
 	"whoisServer": "whois.nic.lat",
 	"nameServers": [
