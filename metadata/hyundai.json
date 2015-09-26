@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.hyundai",
+	"nameServers": [
+		"a.nic.hyundai",
+		"b.nic.hyundai",
+		"c.nic.hyundai",
+		"d.nic.hyundai"
+	],
 	"codePoints": "--09az"
 }

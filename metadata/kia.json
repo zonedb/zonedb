@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.kia",
+	"nameServers": [
+		"a.nic.kia",
+		"b.nic.kia",
+		"c.nic.kia",
+		"d.nic.kia"
+	],
 	"codePoints": "--09az"
 }
