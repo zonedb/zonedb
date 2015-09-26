@@ -1,7 +1,8 @@
 {
 	"domain": "scot",
 	"tags": [
-		"generic"
+		"generic",
+		"region"
 	],
 	"whoisServer": "whois.scot.coreregistry.net",
 	"nameServers": [

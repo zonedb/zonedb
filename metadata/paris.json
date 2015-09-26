@@ -1,6 +1,7 @@
 {
 	"domain": "paris",
 	"tags": [
+		"city",
 		"generic",
 		"geo"
 	],

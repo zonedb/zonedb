@@ -1,6 +1,7 @@
 {
 	"domain": "osaka.jp",
 	"tags": [
+		"city",
 		"geo"
 	],
 	"codePoints": "--09az"

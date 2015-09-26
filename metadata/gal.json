@@ -2,7 +2,8 @@
 	"domain": "gal",
 	"tags": [
 		"generic",
-		"geo"
+		"geo",
+		"region"
 	],
 	"whoisServer": "whois.gal.coreregistry.net",
 	"nameServers": [

@@ -1,7 +1,9 @@
 {
 	"domain": "joburg",
 	"tags": [
-		"generic"
+		"city",
+		"generic",
+		"geo"
 	],
 	"whoisServer": "joburg-whois.registry.net.za",
 	"nameServers": [

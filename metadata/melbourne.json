@@ -1,6 +1,7 @@
 {
 	"domain": "melbourne",
 	"tags": [
+		"city",
 		"generic",
 		"geo"
 	],

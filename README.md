@@ -45,6 +45,33 @@ go get -u github.com/zonedb/zonedb/build/cmd/zonedb
 
 You can also run the `zonedb` tool directly: `go run build/cmd/zonedb/main.go`
 
+### Example commands
+
+List all zones tagged `geo`:
+
+```shell
+$ go run build/cmd/zonedb/main.go -tags geo
+```
+
+List a given zone's tags:
+
+```shell
+$ go run build/cmd/zonedb/main.go -zones capetown -list-tags
+```
+
+Add a tag to multiple zones (and write the output):
+
+```shell
+$ go run build/cmd/zonedb/main.go -zones capetown,durban,joburg -add-tags city -w
+$ make normalize
+```
+
+Remove a tag from a zone (and write the output):
+
+```shell
+$ go run build/cmd/zonedb/main.go -zones la -remove-tags generic -w
+```
+
 ## License
 
 This database is licensed under the [Open Database License (ODBl) version 1.0](http://opendatacommons.org/licenses/odbl/1.0/). See [LICENSE.md](https://github.com/domainr/zonedb/blob/master/LICENSE.md) for more information.

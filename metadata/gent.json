@@ -1,7 +1,9 @@
 {
 	"domain": "gent",
 	"tags": [
-		"generic"
+		"city",
+		"generic",
+		"geo"
 	],
 	"whoisServer": "whois.nic.gent",
 	"nameServers": [

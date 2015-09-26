@@ -2,7 +2,8 @@
 	"domain": "ryukyu",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"generic"
+		"generic",
+		"region"
 	],
 	"whoisServer": "whois.nic.ryukyu",
 	"nameServers": [

@@ -2,7 +2,8 @@
 	"domain": "vlaanderen",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"generic"
+		"generic",
+		"region"
 	],
 	"whoisServer": "whois.nic.vlaanderen",
 	"nameServers": [

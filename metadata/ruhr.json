@@ -1,7 +1,8 @@
 {
 	"domain": "ruhr",
 	"tags": [
-		"generic"
+		"generic",
+		"region"
 	],
 	"whoisServer": "whois.nic.ruhr",
 	"nameServers": [
