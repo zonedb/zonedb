@@ -1,0 +1,8 @@
+{
+	"domain": "school.fj",
+	"nameServers": [
+		"ns-ext.isc.org",
+		"homer.connect.com.fj",
+		"marge.connect.com.fj"
+	]
+}

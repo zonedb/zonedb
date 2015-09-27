@@ -1,0 +1,11 @@
+{
+	"domain": "co.ae",
+	"nameServers": [
+		"ns1.aedns.ae",
+		"ns2.aedns.ae",
+		"nsext-pch.aedns.ae",
+		"sec3.apnic.net",
+		"sns-pb.isc.org",
+		"ae.cctld.authdns.ripe.net"
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"domain": "parliament.ls",
+	"nameServers": [
+		"ns1.leo.co.ls",
+		"ns2.leo.co.ls"
+	]
+}

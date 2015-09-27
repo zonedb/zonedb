@@ -1,0 +1,9 @@
+{
+	"domain": "pro.mk",
+	"nameServers": [
+		"ns1.pro.mk",
+		"ns2.pro.mk",
+		"ns3.pro.mk",
+		"ns4.pro.mk"
+	]
+}

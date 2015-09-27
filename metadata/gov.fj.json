@@ -1,0 +1,7 @@
+{
+	"domain": "gov.fj",
+	"nameServers": [
+		"itcns2.gov.fj",
+		"dnssecondary.auth-servers.net"
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"domain": "2.fm",
+	"nameServers": [
+		"ns1.idnz.net",
+		"ns2.idnz.net",
+		"ns3.idnz.net"
+	]
+}
