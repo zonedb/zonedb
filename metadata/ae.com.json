@@ -1,0 +1,10 @@
+{
+	"domain": "ae.com",
+	"nameServers": [
+		"asia3.akam.net",
+		"eur5.akam.net",
+		"ns1-163.akam.net",
+		"usc3.akam.net",
+		"use4.akam.net"
+	]
+}

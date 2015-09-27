@@ -1,0 +1,9 @@
+{
+	"domain": "web.gu",
+	"nameServers": [
+		"nsuog.edu.gu",
+		"home.web.gu",
+		"ns.web.gu",
+		"gu.cctld.authdns.ripe.net"
+	]
+}

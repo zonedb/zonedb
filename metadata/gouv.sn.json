@@ -1,0 +1,7 @@
+{
+	"domain": "gouv.sn",
+	"nameServers": [
+		"ns.gouv.sn",
+		"ns2.gouv.sn"
+	]
+}

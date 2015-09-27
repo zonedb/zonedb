@@ -1,0 +1,7 @@
+{
+	"domain": "in.pn",
+	"nameServers": [
+		"ns.rackspace.com",
+		"ns2.rackspace.com"
+	]
+}

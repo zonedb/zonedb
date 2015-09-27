@@ -1,0 +1,8 @@
+{
+	"domain": "net.zm",
+	"nameServers": [
+		"ns-zm.afrinic.net",
+		"pch.nic.zm",
+		"ns1.zamnet.zm"
+	]
+}
