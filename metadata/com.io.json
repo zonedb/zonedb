@@ -1,11 +1,13 @@
 {
 	"domain": "com.io",
 	"nameServers": [
+		"dns01.nic.io",
 		"dns1.nic.io",
 		"dns2.nic.io",
 		"dns3.nic.io",
 		"dns4.nic.io",
 		"dns5.nic.io",
+		"dns6.nic.io",
 		"dns7.nic.io"
 	]
 }

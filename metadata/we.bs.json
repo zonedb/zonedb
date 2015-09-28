@@ -1,0 +1,7 @@
+{
+	"domain": "we.bs",
+	"nameServers": [
+		"ns1.nic.we.bs",
+		"ns2.nic.we.bs"
+	]
+}

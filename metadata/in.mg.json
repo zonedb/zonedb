@@ -1,0 +1,7 @@
+{
+	"domain": "in.mg",
+	"nameServers": [
+		"ns1.in.mg",
+		"ns2.in.mg"
+	]
+}

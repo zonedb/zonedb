@@ -1,7 +1,9 @@
 {
 	"domain": "gov.fj",
 	"nameServers": [
+		"itcns1.gov.fj",
 		"itcns2.gov.fj",
-		"dnssecondary.auth-servers.net"
+		"dnssecondary.auth-servers.net",
+		"homer.is.com.fj"
 	]
 }

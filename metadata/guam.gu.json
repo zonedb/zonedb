@@ -1,0 +1,9 @@
+{
+	"domain": "guam.gu",
+	"nameServers": [
+		"ns.gu",
+		"ns.edu.gu",
+		"nsuog.edu.gu",
+		"gu.cctld.authdns.ripe.net"
+	]
+}
