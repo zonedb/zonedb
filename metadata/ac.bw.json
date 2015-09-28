@@ -1,0 +1,10 @@
+{
+	"domain": "ac.bw",
+	"nameServers": [
+		"ns1.btc.bw",
+		"ns-bw.afrinic.net",
+		"dns1.nic.net.bw",
+		"dns2.nic.net.bw",
+		"pch.nic.net.bw"
+	]
+}

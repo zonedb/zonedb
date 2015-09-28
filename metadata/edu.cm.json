@@ -1,0 +1,7 @@
+{
+	"domain": "edu.cm",
+	"nameServers": [
+		"dns1.antic.cm",
+		"dns2.antic.cm"
+	]
+}

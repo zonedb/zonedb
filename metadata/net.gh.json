@@ -1,0 +1,10 @@
+{
+	"domain": "net.gh",
+	"nameServers": [
+		"rip.psg.com",
+		"ns1.nic.gh",
+		"ns2.nic.gh",
+		"fork.sth.dnsnode.net",
+		"hippo.ru.ac.za"
+	]
+}

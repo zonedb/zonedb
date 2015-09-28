@@ -1,0 +1,10 @@
+{
+	"domain": "name.iq",
+	"nameServers": [
+		"dyn1.cmc.iq",
+		"dyn2.cmc.iq",
+		"ns1.cmc.iq",
+		"nsp-anycast.cmc.iq",
+		"sns-pb.isc.org"
+	]
+}
