@@ -13,7 +13,7 @@ The database consists of a list of zones (`zones.txt`) and associated metadata i
 
 ### zones.txt
 
-The `zones.txt` file is a UTF-8 encoded text file containing a list of domain names, one per line, followed by a newline (`\n`) character. The domain names in zones.txt are sorted according to the following rules:
+The `zones.txt` file is a UTF-8 encoded text file containing a list of IDN & lower-case domain names, one per line, followed by a newline (`\n`) character. The domain names in zones.txt are sorted according to the following rules:
 
 1. Number of labels (top-level domains, followed by second- and third-level domains)
 2. Parent domain (e.g. `uk`)
