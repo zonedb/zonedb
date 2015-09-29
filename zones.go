@@ -4320,7 +4320,7 @@ var _y = [4339]Zone{
 	{"org.ws", &_z[1534], nil, _c[0:6], NS{"ns2.dns.ws", "ns3.dns.ws", "ns4.dns.ws", "ns5.dns.ws"}, "", "", "", 0x0},
 	{"co.ye", &_z[1549], nil, _c[0:6], nil, "", "", "", 0x0},
 	{"com.ye", &_z[1549], nil, _c[0:6], NS{"sah1.ye", "sah2.ye"}, "", "", "", 0x0},
-	{"gov.ye", &_z[1549], nil, nil, NS{"sah1.ye", "sah2.ye"}, "", "", "", 0x0},
+	{"gov.ye", &_z[1549], nil, nil, NS{"sah1.ye", "sah2.ye", "ns1.yemen.net.ye", "ns2.yemen.net.ye"}, "", "", "", 0x0},
 	{"ltd.ye", &_z[1549], nil, _c[0:6], nil, "", "", "", 0x0},
 	{"me.ye", &_z[1549], nil, _c[0:6], nil, "", "", "", 0x0},
 	{"net.ye", &_z[1549], nil, _c[0:6], NS{"sah1.ye", "sah2.ye", "ns1.yemen.net.ye", "ns2.yemen.net.ye"}, "", "", "", 0x0},
