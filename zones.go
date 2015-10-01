@@ -4362,7 +4362,7 @@ var _y = [4339]Zone{
 	{"ac.zm", &_z[1565], nil, _c[0:6], NS{"ns-zm.afrinic.net", "pch.nic.zm", "ns1.zamnet.zm"}, "", "", "", 0x0},
 	{"co.zm", &_z[1565], nil, nil, NS{"ns-zm.afrinic.net", "ns1.coppernet.zm", "pch.nic.zm", "ns1.zamnet.zm"}, "", "", "", 0x0},
 	{"com.zm", &_z[1565], nil, _c[0:6], NS{"ns-zm.afrinic.net", "pch.nic.zm", "ns1.zamnet.zm"}, "", "", "", 0x0},
-	{"edu.zm", &_z[1565], nil, nil, NS{"ns-zm.afrinic.net", "pch.nic.zm"}, "", "", "", 0x0},
+	{"edu.zm", &_z[1565], nil, nil, NS{"ns-zm.afrinic.net", "ns1.coppernet.zm", "pch.nic.zm", "ns1.zamnet.zm", "ns2.zamnet.zm"}, "", "", "", 0x0},
 	{"gov.zm", &_z[1565], nil, nil, NS{"ns-zm.afrinic.net", "pch.nic.zm", "ns1.zamnet.zm", "ns2.zamnet.zm"}, "", "", "", 0x0},
 	{"net.zm", &_z[1565], nil, nil, NS{"ns-zm.afrinic.net", "pch.nic.zm", "ns1.zamnet.zm"}, "", "", "", 0x0},
 	{"org.zm", &_z[1565], nil, _c[0:6], NS{"ns-zm.afrinic.net", "pch.nic.zm", "ns1.zamnet.zm"}, "", "", "", 0x0},
