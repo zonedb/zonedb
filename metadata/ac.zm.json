@@ -3,7 +3,8 @@
 	"nameServers": [
 		"ns-zm.afrinic.net",
 		"pch.nic.zm",
-		"ns1.zamnet.zm"
+		"ns1.zamnet.zm",
+		"ns2.zamnet.zm"
 	],
 	"codePoints": "--09az"
 }
