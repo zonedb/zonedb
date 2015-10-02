@@ -5,6 +5,10 @@
 		"generic",
 		"region"
 	],
+	"locations": [
+		"jp-46",
+		"jp-47"
+	],
 	"whoisServer": "whois.nic.ryukyu",
 	"nameServers": [
 		"b.gmoregistry.net",

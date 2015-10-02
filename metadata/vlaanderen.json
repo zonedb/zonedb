@@ -5,6 +5,9 @@
 		"generic",
 		"region"
 	],
+	"locations": [
+		"be-vlg"
+	],
 	"whoisServer": "whois.nic.vlaanderen",
 	"nameServers": [
 		"a.nic.vlaanderen",

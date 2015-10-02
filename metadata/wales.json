@@ -6,6 +6,9 @@
 		"geo",
 		"region"
 	],
+	"locations": [
+		"gb-wls"
+	],
 	"whoisServer": "whois.nic.wales",
 	"nameServers": [
 		"ns1.nic.uk",

@@ -5,6 +5,9 @@
 		"generic",
 		"region"
 	],
+	"locations": [
+		"at-7"
+	],
 	"whoisServer": "whois.nic.tirol",
 	"nameServers": [
 		"a.dns.nic.tirol",

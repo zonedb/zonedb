@@ -6,6 +6,9 @@
 		"geo",
 		"region"
 	],
+	"locations": [
+		"fr-a"
+	],
 	"whoisServer": "whois-alsace.nic.fr",
 	"nameServers": [
 		"d.nic.fr",

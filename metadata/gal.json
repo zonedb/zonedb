@@ -5,6 +5,9 @@
 		"geo",
 		"region"
 	],
+	"locations": [
+		"es-ga"
+	],
 	"whoisServer": "whois.gal.coreregistry.net",
 	"nameServers": [
 		"anycast10.irondns.net",

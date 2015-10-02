@@ -5,6 +5,9 @@
 		"generic",
 		"region"
 	],
+	"locations": [
+		"gb-wls"
+	],
 	"whoisServer": "whois.nic.cymru",
 	"nameServers": [
 		"dns1.nic.cymru",
