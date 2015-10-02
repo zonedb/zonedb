@@ -72,6 +72,12 @@ Remove a tag from a zone (and write the output):
 $ go run build/cmd/zonedb/main.go -zones la -remove-tags generic -w
 ```
 
+Add a location to a zone (and write the output):
+
+```shell
+$ go run build/cmd/zonedb/main.go -zones alsace -add-locations fr-a -w
+```
+
 ## License
 
 This database is licensed under the [Open Database License (ODBl) version 1.0](http://opendatacommons.org/licenses/odbl/1.0/). See [LICENSE.md](https://github.com/domainr/zonedb/blob/master/LICENSE.md) for more information.

@@ -6,6 +6,9 @@
 		"geo",
 		"region"
 	],
+	"locations": [
+		"fr-e"
+	],
 	"whoisServer": "whois-bzh.nic.fr",
 	"nameServers": [
 		"d.nic.fr",

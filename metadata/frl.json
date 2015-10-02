@@ -5,6 +5,9 @@
 		"generic",
 		"region"
 	],
+	"locations": [
+		"nl-fy"
+	],
 	"whoisServer": "whois.nic.frl",
 	"nameServers": [
 		"a.ns.nic.frl",

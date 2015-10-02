@@ -5,6 +5,9 @@
 		"generic",
 		"region"
 	],
+	"locations": [
+		"ru-ta"
+	],
 	"whoisServer": "whois.nic.tatar",
 	"nameServers": [
 		"a.dns.ripn.net",

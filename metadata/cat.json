@@ -6,6 +6,9 @@
 		"region",
 		"sponsored"
 	],
+	"locations": [
+		"ct"
+	],
 	"whoisServer": "whois.cat",
 	"nameServers": [
 		"dnsc.ad",
