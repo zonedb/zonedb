@@ -99,6 +99,14 @@ var ZoneMap = map[string]*Zone{
 		{{if $z.IsIDN}}// {{$d}}{{end }}
 	{{end}} \
 }
+
+// LocationMap maps location names or ISO codes to Zones.
+var LocationMap = map[string]*Zone{
+	{{range $l, $o := .Locations}}  \
+		"{{ascii $l}}": &_z[{{$o}}], \
+
+	{{end}} \
+}
 `
 )
 
@@ -122,6 +130,7 @@ var (
 func GenerateGo(zones map[string]*Zone) error {
 	tlds := TLDs(zones)
 	domains := SortedDomains(zones)
+	locations := make(map[string]int)
 	offsets := make(map[string]int, len(domains))
 	tagSet := NewSet()
 	for i, d := range domains {
@@ -147,6 +156,12 @@ func GenerateGo(zones map[string]*Zone) error {
 		}
 		z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, z.CodePoints.Runes())
 		z.TagBits = tagBits(tagValues, z.Tags)
+
+		if len(z.Locations) > 0 {
+			for _, l := range z.Locations {
+				locations[l] = offsets[d]
+			}
+		}
 	}
 	tagType := "uint32"
 	if len(tags) > 32 {
@@ -163,6 +178,7 @@ func GenerateGo(zones map[string]*Zone) error {
 		TagType     string
 		Tags        []string
 		TagValues   map[string]uint64
+		Locations   map[string]int
 	}{
 		zones,
 		tlds,
@@ -173,6 +189,7 @@ func GenerateGo(zones map[string]*Zone) error {
 		tagType,
 		tags,
 		tagValues,
+		locations,
 	}
 
 	buf := new(bytes.Buffer)
