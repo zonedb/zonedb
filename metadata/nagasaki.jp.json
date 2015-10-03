@@ -4,5 +4,8 @@
 		"city",
 		"geo"
 	],
+	"locations": [
+		"nagasaki"
+	],
 	"codePoints": "--09az"
 }

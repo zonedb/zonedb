@@ -6,6 +6,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"zurich"
+	],
 	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
 		"ns2a.ksregistry.com",

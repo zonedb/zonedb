@@ -5,6 +5,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"johannesburg"
+	],
 	"whoisServer": "joburg-whois.registry.net.za",
 	"nameServers": [
 		"coza1.dnsnode.net",

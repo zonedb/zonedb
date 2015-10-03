@@ -5,6 +5,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"quebec"
+	],
 	"whoisServer": "whois.nic.quebec",
 	"nameServers": [
 		"anycast10.irondns.net",

@@ -5,6 +5,10 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"cologne",
+		"koeln"
+	],
 	"whoisServer": "whois-fe1.pdt.koeln.tango.knipp.de",
 	"nameServers": [
 		"anycast10.irondns.net",

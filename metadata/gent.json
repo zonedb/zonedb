@@ -5,6 +5,10 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"gent",
+		"ghent"
+	],
 	"whoisServer": "whois.nic.gent",
 	"nameServers": [
 		"a.ns.nic.gent",

@@ -5,6 +5,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"capetown"
+	],
 	"whoisServer": "capetown-whois.registry.net.za",
 	"nameServers": [
 		"coza1.dnsnode.net",

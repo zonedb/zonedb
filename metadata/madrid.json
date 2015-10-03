@@ -6,6 +6,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"madrid"
+	],
 	"whoisServer": "whois.madrid.rs.corenic.net",
 	"nameServers": [
 		"anycast10.irondns.net",

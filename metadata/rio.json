@@ -6,6 +6,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"riodejaneiro"
+	],
 	"whoisServer": "whois.gtlds.nic.br",
 	"nameServers": [
 		"a.dns.br",

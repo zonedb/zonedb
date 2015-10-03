@@ -5,6 +5,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"nagoya"
+	],
 	"whoisServer": "whois.nic.nagoya",
 	"nameServers": [
 		"b.gmoregistry.net",

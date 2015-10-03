@@ -6,5 +6,8 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"abudhabi"
+	],
 	"codePoints": "--09az"
 }

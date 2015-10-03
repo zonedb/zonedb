@@ -4,5 +4,8 @@
 		"city",
 		"geo"
 	],
+	"locations": [
+		"nagano"
+	],
 	"codePoints": "--09az"
 }
