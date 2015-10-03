@@ -7,6 +7,9 @@ import "strings"
 // NS represents a slice of name servers.
 type NS []string
 
+// L represents a slice of locations.
+type L []string
+
 // And performs a bitwise AND between tags and q,
 // comparing the result to zero. Returns true if any
 // tags match q.
@@ -59,6 +62,9 @@ type Zone struct {
 
 	// Tags stored as an integer bit field.
 	Tags Tags
+
+	// Locations associated with the Zone
+	Locations L
 }
 
 // WhoisServer returns the whois server that responds on port 43

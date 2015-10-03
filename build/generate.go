@@ -86,6 +86,7 @@ var _y = [{{len .Zones}}]Zone{
 			"{{ascii $z.WhoisURL}}", \
 			"{{ascii $z.InfoURL}}", \
 			{{printf "0x%x" $z.TagBits}}, \
+			{{if $z.Locations}} L{ {{range $z.Locations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
 		},
 	{{end}} \
 }
