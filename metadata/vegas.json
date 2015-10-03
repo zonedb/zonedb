@@ -5,6 +5,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Las Vegas"
+	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.vegas",

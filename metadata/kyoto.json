@@ -6,6 +6,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Kyoto"
+	],
 	"whoisServer": "whois.nic.kyoto",
 	"nameServers": [
 		"b.gmoregistry.net",

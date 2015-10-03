@@ -6,6 +6,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Amsterdam"
+	],
 	"whoisServer": "whois.nic.amsterdam",
 	"nameServers": [
 		"ns1.nic.amsterdam",

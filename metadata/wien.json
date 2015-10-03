@@ -5,6 +5,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Vienna"
+	],
 	"whoisServer": "whois.nic.wien",
 	"nameServers": [
 		"a.dns.nic.wien",

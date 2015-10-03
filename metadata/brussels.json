@@ -6,6 +6,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Brussels"
+	],
 	"whoisServer": "whois.nic.brussels",
 	"nameServers": [
 		"a.nic.brussels",

@@ -5,6 +5,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Okinawa"
+	],
 	"whoisServer": "whois.nic.okinawa",
 	"nameServers": [
 		"b.gmoregistry.net",

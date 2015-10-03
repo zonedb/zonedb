@@ -4,5 +4,8 @@
 		"city",
 		"geo"
 	],
+	"locations": [
+		"Kyoto"
+	],
 	"codePoints": "--09az"
 }

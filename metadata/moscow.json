@@ -6,6 +6,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Moscow"
+	],
 	"whoisServer": "whois.nic.moscow",
 	"nameServers": [
 		"b.dns.flexireg.net",

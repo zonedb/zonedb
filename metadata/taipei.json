@@ -6,6 +6,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Taipei"
+	],
 	"whoisServer": "whois.nic.taipei",
 	"nameServers": [
 		"ns1.dns.nic.taipei",

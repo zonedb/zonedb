@@ -4,5 +4,8 @@
 		"city",
 		"geo"
 	],
+	"locations": [
+		"Osaka"
+	],
 	"codePoints": "--09az"
 }

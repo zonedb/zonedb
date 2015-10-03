@@ -6,6 +6,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Foshan"
+	],
 	"whoisServer": "whois.ngtld.cn",
 	"nameServers": [
 		"ta.ngtld.cn",

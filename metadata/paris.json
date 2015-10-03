@@ -5,6 +5,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Paris"
+	],
 	"whoisServer": "whois-paris.nic.fr",
 	"nameServers": [
 		"d.nic.fr",

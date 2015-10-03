@@ -6,6 +6,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Miami"
+	],
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.miami",

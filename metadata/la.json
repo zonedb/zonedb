@@ -5,6 +5,9 @@
 		"country",
 		"geo"
 	],
+	"locations": [
+		"Los Angeles"
+	],
 	"whoisServer": "whois.nic.la",
 	"nameServers": [
 		"ns1.nic.la",

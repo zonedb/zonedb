@@ -5,6 +5,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Durban"
+	],
 	"whoisServer": "durban-whois.registry.net.za",
 	"nameServers": [
 		"coza1.dnsnode.net",

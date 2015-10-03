@@ -4,5 +4,8 @@
 		"city",
 		"geo"
 	],
+	"locations": [
+		"Nagasaki"
+	],
 	"codePoints": "--09az"
 }

@@ -6,5 +6,8 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Abu Dhabi"
+	],
 	"codePoints": "--09az"
 }

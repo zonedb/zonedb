@@ -6,6 +6,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Budapest"
+	],
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.budapest",

@@ -6,6 +6,9 @@
 		"generic",
 		"geo"
 	],
+	"locations": [
+		"Doha"
+	],
 	"whoisServer": "whois.nic.doha",
 	"nameServers": [
 		"a.nic.doha",
