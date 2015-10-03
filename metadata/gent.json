@@ -6,8 +6,8 @@
 		"geo"
 	],
 	"locations": [
-		"gent",
-		"ghent"
+		"Gent",
+		"Ghent"
 	],
 	"whoisServer": "whois.nic.gent",
 	"nameServers": [

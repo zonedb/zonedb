@@ -6,8 +6,8 @@
 		"geo"
 	],
 	"locations": [
-		"cologne",
-		"koeln"
+		"Cologne",
+		"Koeln"
 	],
 	"whoisServer": "whois-fe1.pdt.cologne.tango.knipp.de",
 	"nameServers": [
