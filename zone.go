@@ -51,6 +51,9 @@ type Zone struct {
 	// DNS name servers for the Zone
 	NameServers NS
 
+	// Locations associated with the Zone
+	Locations L
+
 	// Whois server responding on port 43
 	whoisServer string
 
@@ -62,9 +65,6 @@ type Zone struct {
 
 	// Tags stored as an integer bit field.
 	Tags Tags
-
-	// Locations associated with the Zone
-	Locations L
 }
 
 // WhoisServer returns the whois server that responds on port 43

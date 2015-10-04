@@ -82,11 +82,11 @@ var _y = [{{len .Zones}}]Zone{
 			{{if $z.SEnd}} _z[{{$z.SOffset}}:{{$z.SEnd}}] {{else}} nil {{end}}, \
 			{{if $z.CPEnd}} _c[{{$z.CPOffset}}:{{$z.CPEnd}}] {{else}} nil {{end}}, \
 			{{if $z.NameServers}} NS{ {{range $z.NameServers}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
+			{{if $z.Locations}} L{ {{range $z.Locations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
 			"{{ascii $z.WhoisServer}}", \
 			"{{ascii $z.WhoisURL}}", \
 			"{{ascii $z.InfoURL}}", \
 			{{printf "0x%x" $z.TagBits}}, \
-			{{if $z.Locations}} L{ {{range $z.Locations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
 		},
 	{{end}} \
 }
