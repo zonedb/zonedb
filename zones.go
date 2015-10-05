@@ -4364,7 +4364,7 @@ var _y = [4339]Zone{
 	{"com.zm", &_z[1565], nil, _c[0:6], NS{"ns-zm.afrinic.net", "ns1.coppernet.zm", "pch.nic.zm", "ns1.zamnet.zm", "ns2.zamnet.zm"}, "", "", "", 0x0},
 	{"edu.zm", &_z[1565], nil, nil, NS{"ns-zm.afrinic.net", "ns1.coppernet.zm", "pch.nic.zm", "ns1.zamnet.zm", "ns2.zamnet.zm"}, "", "", "", 0x0},
 	{"gov.zm", &_z[1565], nil, nil, NS{"ns-zm.afrinic.net", "ns1.coppernet.zm", "pch.nic.zm", "ns1.zamnet.zm", "ns2.zamnet.zm"}, "", "", "", 0x0},
-	{"net.zm", &_z[1565], nil, nil, NS{"ns-zm.afrinic.net", "pch.nic.zm", "ns1.zamnet.zm"}, "", "", "", 0x0},
+	{"net.zm", &_z[1565], nil, nil, NS{"ns-zm.afrinic.net", "pch.nic.zm", "ns1.zamnet.zm", "ns2.zamnet.zm"}, "", "", "", 0x0},
 	{"org.zm", &_z[1565], nil, _c[0:6], NS{"ns-zm.afrinic.net", "pch.nic.zm", "ns1.zamnet.zm"}, "", "", "", 0x0},
 	{"sch.zm", &_z[1565], nil, nil, NS{"ns-zm.afrinic.net", "pch.nic.zm", "ns1.zamnet.zm"}, "", "", "", 0x0},
 	{"ac.zw", &_z[1569], nil, _c[0:6], NS{"news-tokyo.gip.net", "ns2.gip.net", "mahobho.uz.ac.zw", "shrike.uz.ac.zw", "zebra.uz.ac.zw", "ns1.telone.co.zw", "ns2.telone.co.zw", "ns3.telone.co.zw", "zw.cctld.authdns.ripe.net"}, "", "", "", 0x0},
