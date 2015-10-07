@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a.nic.virgin",
+		"b.nic.virgin",
+		"c.nic.virgin",
+		"d.nic.virgin"
+	],
 	"codePoints": "--09az"
 }
