@@ -6,9 +6,11 @@
 		"sec2.apnic.net",
 		"sec3.apnic.net",
 		"ns-ext.isc.org",
+		"yarrina.connect.com.au",
 		"np-ns.anycast.pch.net",
 		"shikhar.mos.com.np",
-		"np-ns.npix.net.np"
+		"np-ns.npix.net.np",
+		"np.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }
