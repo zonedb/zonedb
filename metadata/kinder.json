@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.kinder",
+		"ns2.dns.nic.kinder",
+		"ns3.dns.nic.kinder",
+		"ns4.dns.nic.kinder",
+		"ns5.dns.nic.kinder",
+		"ns6.dns.nic.kinder"
+	],
 	"codePoints": "--09az"
 }
