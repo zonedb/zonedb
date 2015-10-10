@@ -2077,7 +2077,10 @@ com.cc
 edu.cc
 net.cc
 org.cc
+ac.cd
 com.cd
+edu.cd
+gouv.cd
 net.cd
 org.cd
 ac.ci
@@ -2089,6 +2092,7 @@ com.ci
 ed.ci
 edu.ci
 go.ci
+gov.ci
 int.ci
 net.ci
 or.ci
