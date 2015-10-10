@@ -7,6 +7,7 @@
 	],
 	"whoisServer": "whois.nic.kddi",
 	"nameServers": [
+		"a.gmoregistry.net",
 		"b.gmoregistry.net",
 		"c.gmoregistry.net",
 		"d.gmoregistry.net",
@@ -14,7 +15,9 @@
 		"g.gmoregistry.net",
 		"h.gmoregistry.net",
 		"i.gmoregistry.net",
-		"j.gmoregistry.net"
+		"j.gmoregistry.net",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net"
 	],
 	"codePoints": "--09az"
 }
