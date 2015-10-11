@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.mtr",
+	"nameServers": [
+		"ns1.nic.mtr",
+		"ns2.nic.mtr",
+		"ns3.nic.mtr"
+	],
 	"codePoints": "--09az"
 }

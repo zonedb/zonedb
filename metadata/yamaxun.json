@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.yamaxun",
+		"ns2.dns.nic.yamaxun",
+		"ns3.dns.nic.yamaxun",
+		"ns4.dns.nic.yamaxun",
+		"ns5.dns.nic.yamaxun",
+		"ns6.dns.nic.yamaxun"
+	],
 	"codePoints": "--09az"
 }

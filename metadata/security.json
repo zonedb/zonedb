@@ -4,12 +4,14 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.centralnic.com",
+	"whoisServer": "whois.nic.security",
 	"nameServers": [
 		"a.nic.security",
 		"b.nic.security",
 		"c.nic.security",
-		"d.nic.security"
+		"d.nic.security",
+		"e.nic.security",
+		"f.nic.security"
 	],
 	"codePoints": "--09az"
 }

@@ -2,7 +2,12 @@
 	"domain": "stockholm",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"generic"
+		"city",
+		"generic",
+		"geo"
+	],
+	"locations": [
+		"Stockholm"
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
