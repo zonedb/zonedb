@@ -2,6 +2,8 @@
 	"domain": "mo.bi",
 	"nameServers": [
 		"ns1.digiinno.com",
-		"ns2.digiinno.com"
+		"ns2.digiinno.com",
+		"ns1.who.mobi",
+		"ns2.who.mobi"
 	]
 }
