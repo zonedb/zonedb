@@ -6,7 +6,8 @@
 		"geo"
 	],
 	"locations": [
-		"Okinawa"
+		"Okinawa",
+		"JP-47"
 	],
 	"whoisServer": "whois.nic.okinawa",
 	"nameServers": [

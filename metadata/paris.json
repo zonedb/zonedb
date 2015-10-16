@@ -6,7 +6,8 @@
 		"geo"
 	],
 	"locations": [
-		"Paris"
+		"Paris",
+		"FR-J"
 	],
 	"whoisServer": "whois-paris.nic.fr",
 	"nameServers": [

@@ -1,5 +1,11 @@
 {
 	"domain": "nsw.au",
+	"tags": [
+		"geo"
+	],
+	"locations": [
+		"AU-NSW"
+	],
 	"nameServers": [
 		"w.au",
 		"x.au",

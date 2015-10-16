@@ -7,7 +7,8 @@
 		"geo"
 	],
 	"locations": [
-		"Madrid"
+		"Madrid",
+		"ES-MD"
 	],
 	"whoisServer": "whois.madrid.rs.corenic.net",
 	"nameServers": [

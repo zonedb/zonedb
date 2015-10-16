@@ -7,7 +7,8 @@
 		"geo"
 	],
 	"locations": [
-		"Brussels"
+		"Brussels",
+		"BE-BRU"
 	],
 	"whoisServer": "whois.nic.brussels",
 	"nameServers": [

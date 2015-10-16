@@ -2,7 +2,13 @@
 	"domain": "dubai",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"generic"
+		"city",
+		"generic",
+		"geo"
+	],
+	"locations": [
+		"AE-DU",
+		"Dubai"
 	],
 	"codePoints": "--09az"
 }

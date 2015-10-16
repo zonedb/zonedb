@@ -7,7 +7,8 @@
 		"geo"
 	],
 	"locations": [
-		"Taipei"
+		"Taipei",
+		"TW-TPQ"
 	],
 	"whoisServer": "whois.nic.taipei",
 	"nameServers": [

@@ -6,7 +6,8 @@
 		"geo"
 	],
 	"locations": [
-		"Berlin"
+		"Berlin",
+		"DE-BE"
 	],
 	"whoisServer": "whois.nic.berlin",
 	"nameServers": [

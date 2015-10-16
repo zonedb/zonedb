@@ -6,7 +6,8 @@
 		"geo"
 	],
 	"locations": [
-		"Tokyo"
+		"Tokyo",
+		"JP-13"
 	],
 	"whoisServer": "whois.nic.tokyo",
 	"nameServers": [

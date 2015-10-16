@@ -6,7 +6,8 @@
 		"geo"
 	],
 	"locations": [
-		"Hamburg"
+		"Hamburg",
+		"DE-HH"
 	],
 	"whoisServer": "whois.nic.hamburg",
 	"nameServers": [

@@ -6,7 +6,8 @@
 		"geo"
 	],
 	"locations": [
-		"Quebec"
+		"Quebec",
+		"CA-QC"
 	],
 	"whoisServer": "whois.nic.quebec",
 	"nameServers": [

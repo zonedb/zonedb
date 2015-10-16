@@ -6,7 +6,8 @@
 		"geo"
 	],
 	"locations": [
-		"Vienna"
+		"Vienna",
+		"AT-9"
 	],
 	"whoisServer": "whois.nic.wien",
 	"nameServers": [

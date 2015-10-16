@@ -7,7 +7,8 @@
 		"geo"
 	],
 	"locations": [
-		"Zurich"
+		"Zurich",
+		"CH-ZH"
 	],
 	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [

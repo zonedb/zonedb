@@ -7,7 +7,8 @@
 		"geo"
 	],
 	"locations": [
-		"Rio de Janeiro"
+		"Rio de Janeiro",
+		"BR-RJ"
 	],
 	"whoisServer": "whois.gtlds.nic.br",
 	"nameServers": [

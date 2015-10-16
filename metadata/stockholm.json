@@ -7,7 +7,8 @@
 		"geo"
 	],
 	"locations": [
-		"Stockholm"
+		"Stockholm",
+		"SE-AB"
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
