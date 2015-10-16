@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.centralnic.com",
+	"whoisServer": "whois.nic.ink",
 	"nameServers": [
 		"a.nic.ink",
 		"b.nic.ink",
