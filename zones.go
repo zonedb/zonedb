@@ -2170,7 +2170,7 @@ var _y = [4343]Zone{
 	{"org.cc", &_z[256], nil, nil, NS{"a.cc.dyntld.net", "b.cc.dyntld.net"}, nil, "", "", "", 0x0},
 	{"ac.cd", &_z[257], nil, nil, NS{"igubu.saix.net", "sabela.saix.net", "ns1.pch.nic.cd"}, nil, "", "", "", 0x0},
 	{"com.cd", &_z[257], nil, nil, NS{"igubu.saix.net", "sabela.saix.net", "ns1.pch.nic.cd"}, nil, "", "", "", 0x0},
-	{"edu.cd", &_z[257], nil, nil, NS{"igubu.saix.net", "sabela.saix.net", "ns1.pch.nic.cd"}, nil, "", "", "", 0x0},
+	{"edu.cd", &_z[257], nil, nil, NS{"igubu.saix.net", "sabela.saix.net", "ns1.webnetafrica.net", "ns2.webnetafrica.net", "ns1.pch.nic.cd"}, nil, "", "", "", 0x0},
 	{"gouv.cd", &_z[257], nil, nil, NS{"igubu.saix.net", "sabela.saix.net", "ns1.pch.nic.cd"}, nil, "", "", "", 0x0},
 	{"net.cd", &_z[257], nil, _c[0:6], NS{"igubu.saix.net", "sabela.saix.net", "ns1.webnetafrica.net", "ns2.webnetafrica.net"}, nil, "", "", "", 0x0},
 	{"org.cd", &_z[257], nil, _c[0:6], NS{"igubu.saix.net", "sabela.saix.net", "ns1.pch.nic.cd"}, nil, "", "", "", 0x0},
