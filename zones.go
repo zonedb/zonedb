@@ -2576,7 +2576,7 @@ var _y = [4343]Zone{
 	{"net.hn", &_z[642], nil, _c[0:6], NS{"sns-pb.isc.org", "nicmx-anycast.rds.org.hn", "pch-anycast.rds.org.hn"}, nil, "", "", "", 0x0},
 	{"org.hn", &_z[642], nil, _c[0:6], NS{"sns-pb.isc.org", "nicmx-anycast.rds.org.hn", "pch-anycast.rds.org.hn"}, nil, "", "", "", 0x0},
 	{"com.hr", &_z[665], nil, _c[0:6], NS{"dns1.com.hr", "dns2.com.hr"}, nil, "", "", "", 0x0},
-	{"from.hr", &_z[665], nil, _c[0:6], NS{"dns1.from.hr", "dns2.from.hr"}, nil, "", "", "", 0x0},
+	{"from.hr", &_z[665], nil, _c[0:6], NS{"dns-ez-1.carnet.hr", "dns1.from.hr", "dns2.from.hr"}, nil, "", "", "", 0x0},
 	{"iz.hr", &_z[665], nil, _c[0:6], NS{"dns1.iz.hr", "dns2.iz.hr"}, nil, "", "", "", 0x0},
 	{"name.hr", &_z[665], nil, _c[0:6], NS{"dns1.name.hr", "dns2.name.hr"}, nil, "", "", "", 0x0},
 	{"adult.ht", &_z[667], nil, _c[0:6], NS{"dns.princeton.edu", "ns3.nic.fr", "charles.cdec.polymtl.ca", "a.ht.dyntld.net", "b.ht.dyntld.net", "ht-ns.anycast.pch.net"}, nil, "", "", "", 0x1},
