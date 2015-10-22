@@ -1218,7 +1218,7 @@ var _y = [4343]Zone{
 	{"promo", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"properties", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"property", nil, nil, nil, NS{"tld.isc-sns.com", "tld.isc-sns.info", "tld.isc-sns.net", "ns1.uniregistry.net", "a.property.dyntld.net", "b.property.dyntld.net", "c.property.dyntld.net", "a.ns.uniregistry.net"}, nil, "whois.uniregistry.net", "", "", 0x40},
-	{"protection", nil, nil, _c[0:6], NS{"a.nic.protection", "b.nic.protection", "c.nic.protection", "d.nic.protection"}, nil, "whois.centralnic.com", "", "http://newgtlds.icann.org/", 0x40},
+	{"protection", nil, nil, _c[0:6], NS{"a.nic.protection", "b.nic.protection", "c.nic.protection", "d.nic.protection"}, nil, "whois.nic.protection", "", "http://newgtlds.icann.org/", 0x40},
 	{"pru", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"prudential", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"ps", nil, _z[3623:3631], _c[0:6], NS{"rip.psg.com", "dns1.gov.ps", "ns1.pnina.ps", "fork.sth.dnsnode.net", "ps-ns.anycast.pch.net", "ps.cctld.authdns.ripe.net"}, nil, "whois.pnina.ps", "", "", 0xa0},
