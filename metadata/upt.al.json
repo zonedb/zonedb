@@ -3,6 +3,8 @@
 	"nameServers": [
 		"complab.upt.al",
 		"nic.grnet.gr",
+		"abcom.abcom.com.al",
+		"smtphub.abcom.com.al",
 		"ns5.univie.ac.at",
 		"itgbox.iat.cnr.it"
 	],
