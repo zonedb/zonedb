@@ -1054,7 +1054,7 @@ var _y = [4343]Zone{
 	{"music", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"mutual", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"mutualfunds", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
-	{"mutuelle", nil, nil, _c[0:6], NS{"d.nic.fr", "f.ext.nic.fr", "g.ext.nic.fr"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
+	{"mutuelle", nil, nil, _c[0:6], NS{"d.nic.fr", "f.ext.nic.fr", "g.ext.nic.fr"}, nil, "whois-mutuelle.nic.fr", "", "http://newgtlds.icann.org/", 0x40},
 	{"mv", nil, _z[2973:2987], _c[0:6], NS{"ns.dhivehinet.net.mv", "ns2.dhivehinet.net.mv", "mv-ns.anycast.pch.net"}, nil, "", "", "", 0xa0},
 	{"mw", nil, _z[2987:2997], _c[0:6], NS{"rip.psg.com", "domwe.sdn.mw", "sec3.apnic.net", "chambo.sdnp.org.mw", "mw.cctld.authdns.ripe.net"}, nil, "", "http://www.registrar.mw/", "", 0xa0},
 	{"mx", nil, _z[2997:3002], _c[0:6], NS{"c.mx-ns.mx", "e.mx-ns.mx", "i.mx-ns.mx", "m.mx-ns.mx", "o.mx-ns.mx", "x.mx-ns.mx"}, nil, "whois.mx", "", "", 0xa0},
