@@ -2,6 +2,7 @@
 	"domain": "org.zm",
 	"nameServers": [
 		"ns-zm.afrinic.net",
+		"ns1.coppernet.zm",
 		"pch.nic.zm",
 		"ns1.zamnet.zm",
 		"ns2.zamnet.zm"
