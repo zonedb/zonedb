@@ -4,7 +4,7 @@
 		"generic",
 		"sponsored"
 	],
-	"whoisServer": "whois.nic.gov",
+	"whoisServer": "whois.dotgov.gov",
 	"nameServers": [
 		"a.gov-servers.net",
 		"b.gov-servers.net"
