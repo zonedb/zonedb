@@ -2058,6 +2058,7 @@ edu.bz
 gov.bz
 net.bz
 org.bz
+za.bz
 ab.ca
 bc.ca
 co.ca
