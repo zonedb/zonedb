@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a0.nic.zara",
+		"a2.nic.zara",
+		"b0.nic.zara",
+		"c0.nic.zara"
+	],
 	"codePoints": "--09az"
 }
