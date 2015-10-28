@@ -3944,7 +3944,7 @@ var _y = [4345]Zone{
 	{"ie.tc", &_z[1360], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"int.tc", &_z[1360], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"it.tc", &_z[1360], nil, _c[0:6], NS{"ns.udag.de", "ns.udagdns.de", "ns.udag.net", "ns.udagdns.net", "ns.udag.org"}, nil, "", "", "", 0x0},
-	{"kr.tc", &_z[1360], nil, _c[0:6], nil, nil, "", "", "", 0x0},
+	{"kr.tc", &_z[1360], nil, _c[0:6], NS{"ns.udag.de", "ns.udag.net", "ns.udag.org"}, nil, "", "", "", 0x0},
 	{"mx.tc", &_z[1360], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"net.tc", &_z[1360], nil, _c[0:6], NS{"root1.zone.tc", "root2.zone.tc", "root3.zone.tc", "root4.zone.tc", "root5.zone.tc", "root6.zone.tc", "root7.zone.tc"}, nil, "", "", "", 0x0},
 	{"no.tc", &_z[1360], nil, _c[0:6], NS{"ns1.iwantmyname.net", "ns2.iwantmyname.net"}, nil, "", "", "", 0x0},
