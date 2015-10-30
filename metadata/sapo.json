@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a.ns.nic.sapo",
+		"c.ns.nic.sapo",
+		"x.ns.nic.sapo",
+		"y.ns.nic.sapo"
+	],
 	"codePoints": "--09az"
 }

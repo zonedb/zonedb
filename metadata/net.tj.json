@@ -1,4 +1,8 @@
 {
 	"domain": "net.tj",
+	"nameServers": [
+		"dns1.stabletransit.com",
+		"dns2.stabletransit.com"
+	],
 	"codePoints": "--09az"
 }
