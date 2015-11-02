@@ -1,6 +1,8 @@
 {
 	"domain": "net.tj",
 	"nameServers": [
+		"ns1.softlayer.com",
+		"ns2.softlayer.com",
 		"dns1.stabletransit.com",
 		"dns2.stabletransit.com"
 	],

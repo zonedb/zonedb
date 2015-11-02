@@ -3999,7 +3999,7 @@ var _y = [4345]Zone{
 	{"museum.tj", &_z[1390], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"my.tj", &_z[1390], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"name.tj", &_z[1390], nil, _c[0:6], nil, nil, "", "", "", 0x0},
-	{"net.tj", &_z[1390], nil, _c[0:6], NS{"dns1.stabletransit.com", "dns2.stabletransit.com"}, nil, "", "", "", 0x0},
+	{"net.tj", &_z[1390], nil, _c[0:6], NS{"ns1.softlayer.com", "ns2.softlayer.com", "dns1.stabletransit.com", "dns2.stabletransit.com"}, nil, "", "", "", 0x0},
 	{"org.tj", &_z[1390], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"per.tj", &_z[1390], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"pro.tj", &_z[1390], nil, _c[0:6], nil, nil, "", "", "", 0x0},
