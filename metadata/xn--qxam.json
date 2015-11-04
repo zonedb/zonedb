@@ -1,0 +1,10 @@
+{
+	"domain": "ελ",
+	"nameServers": [
+		"grdns-de.denic.de",
+		"estia.ics.forth.gr",
+		"gr-at.ics.forth.gr",
+		"gr-ix.ics.forth.gr",
+		"grdns.ics.forth.gr"
+	]
+}

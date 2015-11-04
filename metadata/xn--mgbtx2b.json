@@ -1,0 +1,10 @@
+{
+	"domain": "عراق",
+	"whoisServer": "whois.cmc.iq",
+	"nameServers": [
+		"dyn1.cmc.iq",
+		"dyn2.cmc.iq",
+		"ns1.cmc.iq",
+		"nsp-anycast.cmc.iq"
+	]
+}
