@@ -4,5 +4,10 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"a0.nic.creditunion",
+		"a2.nic.creditunion",
+		"c0.nic.creditunion"
+	],
 	"codePoints": "--09az"
 }
