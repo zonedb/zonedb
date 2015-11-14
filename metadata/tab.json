@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.tab",
+	"nameServers": [
+		"a.nic.tab",
+		"b.nic.tab",
+		"c.nic.tab",
+		"d.nic.tab"
+	],
 	"codePoints": "--09az"
 }
