@@ -4,5 +4,11 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"a.ns.nic.broadway",
+		"b.ns.nic.broadway",
+		"c.ns.nic.broadway",
+		"d.ns.nic.broadway"
+	],
 	"codePoints": "--09az"
 }

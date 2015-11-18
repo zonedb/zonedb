@@ -286,7 +286,7 @@ var _y = [4347]Zone{
 	{"br", nil, _z[1967:2036], nil, NS{"a.dns.br", "b.dns.br", "c.dns.br", "d.dns.br", "e.dns.br", "f.dns.br"}, nil, "whois.registro.br", "", "http://nic.br/", 0xa8},
 	{"bradesco", nil, nil, _c[0:6], NS{"a.ns.nic.bradesco", "b.ns.nic.bradesco", "c.ns.nic.bradesco", "d.ns.nic.bradesco"}, nil, "whois-cl01.mm-registry.com", "", "http://newgtlds.icann.org/", 0x42},
 	{"bridgestone", nil, nil, _c[0:6], NS{"a.nic.bridgestone", "b.nic.bridgestone", "c.nic.bridgestone", "d.nic.bridgestone"}, nil, "whois.nic.bridgestone", "", "http://newgtlds.icann.org/", 0x42},
-	{"broadway", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
+	{"broadway", nil, nil, _c[0:6], NS{"a.ns.nic.broadway", "b.ns.nic.broadway", "c.ns.nic.broadway", "d.ns.nic.broadway"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"broker", nil, nil, _c[0:6], NS{"a5.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "whois.nic.broker", "", "https://bostonivy.co/", 0x40},
 	{"brother", nil, nil, _c[0:6], NS{"a.nic.brother", "b.nic.brother", "c.nic.brother", "d.nic.brother"}, nil, "whois.nic.brother", "", "http://newgtlds.icann.org/", 0x42},
 	{"brussels", nil, nil, _c[0:6], NS{"a.nic.brussels", "b.nic.brussels", "w.nic.brussels", "c.ns.dns.be", "d.ns.dns.be"}, L{"Brussels", "BE-BRU"}, "whois.nic.brussels", "", "http://newgtlds.icann.org/", 0xc4},
