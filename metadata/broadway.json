@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois-cl01.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.broadway",
 		"b.ns.nic.broadway",
