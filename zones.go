@@ -2168,7 +2168,7 @@ var _y = [4347]Zone{
 	{"qc.ca", &_z[217], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"sk.ca", &_z[217], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"yk.ca", &_z[217], nil, _c[0:6], nil, nil, "", "", "", 0x0},
-	{"com.cc", &_z[256], nil, nil, NS{"ns-472.awsdns-59.com", "ns-680.awsdns-21.net", "ns-1287.awsdns-32.org", "ns-1613.awsdns-09.co.uk"}, nil, "", "", "", 0x0},
+	{"com.cc", &_z[256], nil, nil, NS{"ns-472.awsdns-59.com", "ns-680.awsdns-21.net", "ns-1287.awsdns-32.org", "ns1.p24.dynect.net", "ns2.p24.dynect.net", "ns3.p24.dynect.net", "ns4.p24.dynect.net", "ns-1613.awsdns-09.co.uk"}, nil, "", "", "", 0x0},
 	{"edu.cc", &_z[256], nil, nil, NS{"a.cc.dyntld.net", "b.cc.dyntld.net"}, nil, "", "", "", 0x0},
 	{"net.cc", &_z[256], nil, nil, NS{"ns-218.awsdns-27.com", "ns-779.awsdns-33.net", "ns-1028.awsdns-00.org", "ns-1980.awsdns-55.co.uk"}, nil, "", "", "", 0x0},
 	{"org.cc", &_z[256], nil, nil, NS{"a.cc.dyntld.net", "b.cc.dyntld.net"}, nil, "", "", "", 0x0},
