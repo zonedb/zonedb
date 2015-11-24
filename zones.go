@@ -3906,7 +3906,7 @@ var _y = [4347]Zone{
 	{"edu.st", &_z[1311], nil, _c[0:6], NS{"ns1.nic.st", "ns2.nic.st", "ns3.nic.st"}, nil, "", "", "", 0x0},
 	{"embaixada.st", &_z[1311], nil, nil, NS{"ns1.bahnhof.net", "ns2.bahnhof.net"}, nil, "", "", "", 0x0},
 	{"embaizada.st", &_z[1311], nil, _c[0:6], nil, nil, "", "", "", 0x0},
-	{"gov.st", &_z[1311], nil, _c[0:6], NS{"ns1.knox.st", "ns2.knox.st"}, nil, "", "", "", 0x0},
+	{"gov.st", &_z[1311], nil, _c[0:6], NS{"ns1.knox.st", "ns2.knox.st", "ns1-se.ns.gov.st", "ns1-us.ns.gov.st", "ns2-se.ns.gov.st"}, nil, "", "", "", 0x0},
 	{"mil.st", &_z[1311], nil, _c[0:6], NS{"ns2.bahnhof.net", "ns.bahnhof.se"}, nil, "", "", "", 0x0},
 	{"net.st", &_z[1311], nil, _c[0:6], NS{"ns1.nic.st", "ns2.nic.st", "ns3.nic.st"}, nil, "", "", "", 0x0},
 	{"org.st", &_z[1311], nil, _c[0:6], NS{"ns1.webhosting.st", "ns2.webhosting.st"}, nil, "", "", "", 0x0},
