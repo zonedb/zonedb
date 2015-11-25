@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a0.nic.audi",
+		"a2.nic.audi",
+		"b0.nic.audi",
+		"c0.nic.audi"
+	],
 	"codePoints": "--09az"
 }

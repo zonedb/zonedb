@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a0.nic.boehringer",
+		"a2.nic.boehringer",
+		"b0.nic.boehringer",
+		"c0.nic.boehringer"
+	],
 	"codePoints": "--09az"
 }
