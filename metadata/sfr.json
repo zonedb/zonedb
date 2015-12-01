@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a.ns.nic.sfr",
+		"c.ns.nic.sfr",
+		"x.ns.nic.sfr",
+		"y.ns.nic.sfr"
+	],
 	"codePoints": "--09az"
 }
