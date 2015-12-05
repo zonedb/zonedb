@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a.nowruz.dyntld.net",
+		"b.nowruz.dyntld.net",
+		"a.ns.nic.nowruz",
+		"b.ns.nic.nowruz"
+	],
 	"codePoints": "--09az"
 }

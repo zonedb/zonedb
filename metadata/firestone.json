@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a.nic.firestone",
+		"b.nic.firestone",
+		"c.nic.firestone",
+		"d.nic.firestone"
+	],
 	"codePoints": "--09az"
 }

@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a.tci.dyntld.net",
+		"b.tci.dyntld.net",
+		"a.ns.nic.tci",
+		"b.ns.nic.tci"
+	],
 	"codePoints": "--09az"
 }
