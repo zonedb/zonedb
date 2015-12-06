@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.agitsys.net",
 	"nameServers": [
 		"a.nowruz.dyntld.net",
 		"b.nowruz.dyntld.net",

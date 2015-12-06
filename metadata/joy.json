@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.joy",
+		"ns2.dns.nic.joy",
+		"ns3.dns.nic.joy",
+		"ns4.dns.nic.joy",
+		"ns5.dns.nic.joy",
+		"ns6.dns.nic.joy"
+	],
 	"codePoints": "--09az"
 }

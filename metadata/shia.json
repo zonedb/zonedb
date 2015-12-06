@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.agitsys.net",
 	"nameServers": [
 		"a.shia.dyntld.net",
 		"b.shia.dyntld.net",

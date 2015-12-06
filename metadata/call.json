@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.call",
+		"ns2.dns.nic.call",
+		"ns3.dns.nic.call",
+		"ns4.dns.nic.call",
+		"ns5.dns.nic.call",
+		"ns6.dns.nic.call"
+	],
 	"codePoints": "--09az"
 }

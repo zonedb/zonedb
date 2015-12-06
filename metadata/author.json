@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.author",
+		"ns2.dns.nic.author",
+		"ns3.dns.nic.author",
+		"ns4.dns.nic.author",
+		"ns5.dns.nic.author",
+		"ns6.dns.nic.author"
+	],
 	"codePoints": "--09az"
 }
