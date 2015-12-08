@@ -4,5 +4,12 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.agitsys.net",
+	"nameServers": [
+		"a.pars.dyntld.net",
+		"b.pars.dyntld.net",
+		"a.ns.nic.pars",
+		"b.ns.nic.pars"
+	],
 	"codePoints": "--09az"
 }
