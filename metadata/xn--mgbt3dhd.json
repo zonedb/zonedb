@@ -3,5 +3,12 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"generic"
+	],
+	"whoisServer": "whois.agitsys.net",
+	"nameServers": [
+		"a.همراه.dyntld.net",
+		"b.همراه.dyntld.net",
+		"a.ns.nic.همراه",
+		"b.ns.nic.همراه"
 	]
 }

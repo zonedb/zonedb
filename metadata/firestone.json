@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.firestone",
 	"nameServers": [
 		"a.nic.firestone",
 		"b.nic.firestone",
