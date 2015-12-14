@@ -3,5 +3,13 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"generic"
+	],
+	"nameServers": [
+		"ns1.dns.nic.ポイント",
+		"ns2.dns.nic.ポイント",
+		"ns3.dns.nic.ポイント",
+		"ns4.dns.nic.ポイント",
+		"ns5.dns.nic.ポイント",
+		"ns6.dns.nic.ポイント"
 	]
 }
