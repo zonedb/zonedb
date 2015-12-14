@@ -4069,7 +4069,7 @@ var _y = [4347]Zone{
 	{"be.tt", &_z[1428], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"biz.tt", &_z[1428], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"ca.tt", &_z[1428], nil, _c[0:6], nil, nil, "", "", "", 0x0},
-	{"cat.tt", &_z[1428], nil, nil, nil, nil, "", "", "", 0x0},
+	{"cat.tt", &_z[1428], nil, nil, NS{"ns-455.awsdns-56.com", "ns-732.awsdns-27.net", "ns-1084.awsdns-07.org", "ns-1826.awsdns-36.co.uk"}, nil, "", "", "", 0x0},
 	{"ch.tt", &_z[1428], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"co.tt", &_z[1428], nil, nil, nil, nil, "", "", "", 0x0},
 	{"com.tt", &_z[1428], nil, _c[0:6], nil, nil, "", "", "", 0x0},
