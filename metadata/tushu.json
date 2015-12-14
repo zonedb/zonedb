@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.tushu",
+		"ns2.dns.nic.tushu",
+		"ns3.dns.nic.tushu",
+		"ns4.dns.nic.tushu",
+		"ns5.dns.nic.tushu",
+		"ns6.dns.nic.tushu"
+	],
 	"codePoints": "--09az"
 }

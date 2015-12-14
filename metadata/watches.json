@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.watches",
+		"ns2.dns.nic.watches",
+		"ns3.dns.nic.watches",
+		"ns4.dns.nic.watches",
+		"ns5.dns.nic.watches",
+		"ns6.dns.nic.watches"
+	],
 	"codePoints": "--09az"
 }
