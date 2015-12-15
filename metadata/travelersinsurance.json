@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.travelersinsurance",
+		"a2.nic.travelersinsurance",
+		"b0.nic.travelersinsurance",
+		"c0.nic.travelersinsurance"
+	],
 	"codePoints": "--09az"
 }
