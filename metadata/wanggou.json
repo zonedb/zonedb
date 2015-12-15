@@ -5,5 +5,13 @@
 		"closed",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.wanggou",
+		"ns2.dns.nic.wanggou",
+		"ns3.dns.nic.wanggou",
+		"ns4.dns.nic.wanggou",
+		"ns5.dns.nic.wanggou",
+		"ns6.dns.nic.wanggou"
+	],
 	"codePoints": "--09az"
 }

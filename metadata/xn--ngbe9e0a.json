@@ -3,5 +3,12 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"generic"
+	],
+	"whoisServer": "whois.centralnic.com",
+	"nameServers": [
+		"a.nic.بيتك",
+		"b.nic.بيتك",
+		"c.nic.بيتك",
+		"d.nic.بيتك"
 	]
 }
