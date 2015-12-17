@@ -1,6 +1,7 @@
 {
 	"domain": "sc.ke",
 	"nameServers": [
+		"kenic.anycastdns.cz",
 		"ns-ke.afrinic.net",
 		"mzizi.kenic.or.ke",
 		"ns1.coza.net.za",
