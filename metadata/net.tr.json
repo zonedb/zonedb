@@ -1,6 +1,12 @@
 {
 	"domain": "net.tr",
 	"nameServers": [
+		"lns1.nic.tr",
+		"lns2.nic.tr",
+		"lns20.nic.tr",
+		"lns3.nic.tr",
+		"lns4.nic.tr",
+		"lns5.nic.tr",
 		"ns1.nic.tr",
 		"ns2.nic.tr",
 		"ns3.nic.tr",
