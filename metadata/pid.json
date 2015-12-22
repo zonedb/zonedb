@@ -4,5 +4,9 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"b.nic.pid",
+		"d.nic.pid"
+	],
 	"codePoints": "--09az"
 }
