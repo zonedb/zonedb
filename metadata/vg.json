@@ -7,6 +7,8 @@
 	"whoisServer": "whois.nic.vg",
 	"nameServers": [
 		"vg-ns.ksregistry.net",
+		"a.vg.dyntld.net",
+		"b.vg.dyntld.net",
 		"vg-ns.anycast.pch.net",
 		"vg.cctld.authdns.ripe.net"
 	],

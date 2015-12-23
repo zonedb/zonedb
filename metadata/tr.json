@@ -10,7 +10,10 @@
 	"nameServers": [
 		"ns1.nic.tr",
 		"ns2.nic.tr",
+		"ns21.nic.tr",
+		"ns22.nic.tr",
 		"ns3.nic.tr",
+		"ns31.nic.tr",
 		"ns4.nic.tr",
 		"ns5.nic.tr",
 		"ns7.nic.tr",

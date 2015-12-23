@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.weber",
 	"nameServers": [
 		"a5.nstld.com",
 		"c5.nstld.com",

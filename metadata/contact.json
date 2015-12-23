@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.contact",
 	"nameServers": [
 		"a.nic.contact",
 		"b.nic.contact",
