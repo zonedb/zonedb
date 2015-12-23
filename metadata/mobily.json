@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.mobily",
+		"ns2.dns.nic.mobily",
+		"ns3.dns.nic.mobily",
+		"ns4.dns.nic.mobily",
+		"ns5.dns.nic.mobily",
+		"ns6.dns.nic.mobily"
+	],
 	"codePoints": "--09az"
 }
