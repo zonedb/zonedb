@@ -3,5 +3,13 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"generic"
+	],
+	"nameServers": [
+		"ns1.dns.nic.موبايلي",
+		"ns2.dns.nic.موبايلي",
+		"ns3.dns.nic.موبايلي",
+		"ns4.dns.nic.موبايلي",
+		"ns5.dns.nic.موبايلي",
+		"ns6.dns.nic.موبايلي"
 	]
 }
