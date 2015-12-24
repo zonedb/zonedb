@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.dealer",
+		"ns2.dns.nic.dealer",
+		"ns3.dns.nic.dealer",
+		"ns4.dns.nic.dealer",
+		"ns5.dns.nic.dealer",
+		"ns6.dns.nic.dealer"
+	],
 	"codePoints": "--09az"
 }
