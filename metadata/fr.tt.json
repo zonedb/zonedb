@@ -1,4 +1,8 @@
 {
 	"domain": "fr.tt",
+	"nameServers": [
+		"ns.nagor.cn",
+		"ns.nagor.com.cn"
+	],
 	"codePoints": "--09az"
 }
