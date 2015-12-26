@@ -6,7 +6,7 @@
 		"country",
 		"geo"
 	],
-	"whoisURL": "http://www.nic.vi/whoisform.htm",
+	"whoisURL": "https://secure.nic.vi/whois-lookup/",
 	"nameServers": [
 		"ns0.nic.vi",
 		"ns1.nic.vi",

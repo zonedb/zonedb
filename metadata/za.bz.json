@@ -1,5 +1,6 @@
 {
 	"domain": "za.bz",
+	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns1.centralnic.net",
 		"ns2.centralnic.net",

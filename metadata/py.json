@@ -5,7 +5,7 @@
 		"country",
 		"geo"
 	],
-	"whoisURL": "http://www.nic.py/consultas.html",
+	"whoisURL": "http://www.nic.py/consulta-datos.php",
 	"nameServers": [
 		"ns.dns.br",
 		"ns2.switch.ch",

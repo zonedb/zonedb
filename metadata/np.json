@@ -5,7 +5,7 @@
 		"country",
 		"geo"
 	],
-	"whoisURL": "http://register.mos.com.np/userSearchInc.asp",
+	"whoisURL": "http://register.mos.com.np/np-whois-lookup",
 	"nameServers": [
 		"sec3.apnic.net",
 		"ns-ext.isc.org",

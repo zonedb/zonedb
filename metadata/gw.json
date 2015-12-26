@@ -4,6 +4,7 @@
 		"country",
 		"geo"
 	],
+	"whoisURL": "http://nic.gw/en/whois/",
 	"nameServers": [
 		"sns-pb.isc.org",
 		"ns4.dns.pt",
