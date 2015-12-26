@@ -1,5 +1,6 @@
 {
 	"domain": "ελ",
+	"whoisURL": "https://grweb.ics.forth.gr/public/whois.jsp?lang=en",
 	"nameServers": [
 		"grdns-de.denic.de",
 		"estia.ics.forth.gr",

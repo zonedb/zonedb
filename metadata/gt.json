@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisURL": "http://www.gt/whois.html",
+	"whoisURL": "http://www.gt/",
 	"nameServers": [
 		"pch.gt",
 		"ns.dns.br",

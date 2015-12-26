@@ -1,5 +1,6 @@
 {
 	"domain": "africa.com",
+	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns1.africa.com",
 		"ns2.africa.com",

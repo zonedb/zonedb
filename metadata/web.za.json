@@ -1,5 +1,6 @@
 {
 	"domain": "web.za",
+	"whoisServer": "web-whois.registry.net.za",
 	"nameServers": [
 		"za-ns.anycast.pch.net",
 		"hippo.ru.ac.za",

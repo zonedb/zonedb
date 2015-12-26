@@ -1,5 +1,6 @@
 {
 	"domain": "in.net",
+	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns1.nic.in.net",
 		"ns2.nic.in.net",

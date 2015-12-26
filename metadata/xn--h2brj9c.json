@@ -3,6 +3,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.inregistry.net",
 	"nameServers": [
 		"a1.in.afilias-nst.in",
 		"b1.in.afilias-nst.in",
