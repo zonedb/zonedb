@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a0.nic.clinique",
+		"a2.nic.clinique",
+		"b0.nic.clinique",
+		"c0.nic.clinique"
+	],
 	"codePoints": "--09az"
 }
