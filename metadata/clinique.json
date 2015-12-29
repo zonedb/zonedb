@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.clinique",
 		"a2.nic.clinique",
