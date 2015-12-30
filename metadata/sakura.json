@@ -7,7 +7,9 @@
 	],
 	"nameServers": [
 		"tld1.nic.sakura",
-		"tld2.nic.sakura"
+		"tld2.nic.sakura",
+		"tld3.nic.sakura",
+		"tld5.nic.sakura"
 	],
 	"codePoints": "--09az"
 }
