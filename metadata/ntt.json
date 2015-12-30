@@ -8,7 +8,8 @@
 	"nameServers": [
 		"tld1.nic.ntt",
 		"tld2.nic.ntt",
-		"tld3.nic.ntt"
+		"tld3.nic.ntt",
+		"tld5.nic.ntt"
 	],
 	"codePoints": "--09az"
 }
