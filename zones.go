@@ -1216,7 +1216,7 @@ var _y = [4348]Zone{
 	{"productions", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"prof", nil, nil, nil, NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, nil, "domain-registry-whois.l.google.com", "", "http://newgtlds.icann.org/", 0x40},
 	{"progressive", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
-	{"promo", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
+	{"promo", nil, nil, _c[0:6], NS{"a0.nic.promo", "a2.nic.promo", "b0.nic.promo", "c0.nic.promo"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"properties", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"property", nil, nil, nil, NS{"tld.isc-sns.com", "tld.isc-sns.info", "tld.isc-sns.net", "ns1.uniregistry.net", "a.property.dyntld.net", "b.property.dyntld.net", "c.property.dyntld.net", "a.ns.uniregistry.net"}, nil, "whois.uniregistry.net", "", "", 0x40},
 	{"protection", nil, nil, _c[0:6], NS{"a.nic.protection", "b.nic.protection", "c.nic.protection", "d.nic.protection"}, nil, "whois.nic.protection", "", "http://newgtlds.icann.org/", 0x40},
