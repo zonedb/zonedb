@@ -2,6 +2,12 @@
 	"domain": "ne.pw",
 	"nameServers": [
 		"ns1.4.cn",
-		"ns2.4.cn"
+		"ns2.4.cn",
+		"dns1.iidns.com",
+		"dns2.iidns.com",
+		"dns3.iidns.com",
+		"dns4.iidns.com",
+		"dns5.iidns.com",
+		"dns6.iidns.com"
 	]
 }
