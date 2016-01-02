@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.afilias.net",
 	"nameServers": [
 		"a0.nic.promo",
 		"a2.nic.promo",
