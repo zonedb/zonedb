@@ -1,4 +1,8 @@
 {
 	"domain": "hk.tc",
+	"nameServers": [
+		"ns1.alidns.com",
+		"ns2.alidns.com"
+	],
 	"codePoints": "--09az"
 }
