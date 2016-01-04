@@ -10,6 +10,9 @@ type NS []string
 // L represents a slice of locations.
 type L []string
 
+// IDNT represents a map of languages and their IDN tables
+type IDNT map[string][]rune
+
 // And performs a bitwise AND between tags and q,
 // comparing the result to zero. Returns true if any
 // tags match q.
@@ -47,6 +50,9 @@ type Zone struct {
 	// Unicode codepoint ranges allowed by the registry.
 	// Alternating low, high (inclusive)
 	CodePoints []rune
+
+	// A map of language to codepoint ranges allowed by the registry for IDNs
+	IDNTables map[string][]rune
 
 	// DNS name servers for the Zone
 	NameServers NS
