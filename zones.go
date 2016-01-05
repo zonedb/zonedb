@@ -1931,7 +1931,7 @@ var _y = [4348]Zone{
 	{"com.az", &_z[113], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"edu.az", &_z[113], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"ganja.az", &_z[113], nil, nil, NS{"ns1.splus.it", "ns2.splus.it"}, nil, "", "", "", 0x0},
-	{"gov.az", &_z[113], nil, _c[0:6], NS{"ns1.online.az", "ns2.online.az", "ns3.online.az"}, nil, "", "", "", 0x0},
+	{"gov.az", &_z[113], nil, _c[0:6], NS{"ns1.gov.az", "ns2.gov.az", "ns3.gov.az", "ns4.gov.az", "ns1.online.az", "ns2.online.az", "ns3.online.az"}, nil, "", "", "", 0x0},
 	{"imishli.az", &_z[113], nil, nil, nil, nil, "", "", "", 0x0},
 	{"info.az", &_z[113], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"int.az", &_z[113], nil, _c[0:6], nil, nil, "", "", "", 0x0},
