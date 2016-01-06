@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.ngtld.cn",
 	"nameServers": [
 		"ta.ngtld.cn",
 		"tb.ngtld.cn",
