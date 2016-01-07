@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.sfr",
 	"nameServers": [
 		"a.ns.nic.sfr",
 		"c.ns.nic.sfr",
