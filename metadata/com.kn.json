@@ -1,6 +1,9 @@
 {
 	"domain": "com.kn",
 	"nameServers": [
+		"dyntld-1.nic.kn",
+		"dyntld-2.nic.kn",
+		"pch.nic.kn",
 		"a.dns.tw",
 		"b.dns.tw",
 		"c.dns.tw"
