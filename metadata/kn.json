@@ -4,6 +4,7 @@
 		"country",
 		"geo"
 	],
+	"whoisServer": "whois.nic.kn",
 	"whoisURL": "http://www.nic.kn/",
 	"nameServers": [
 		"a.dns.tw",

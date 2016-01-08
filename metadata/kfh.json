@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.centralnic.com",
+	"whoisServer": "whois.nic.kfh",
 	"nameServers": [
 		"a.nic.kfh",
 		"b.nic.kfh",

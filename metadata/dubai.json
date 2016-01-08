@@ -10,6 +10,7 @@
 		"AE-DU",
 		"Dubai"
 	],
+	"whoisServer": "whois.nic.dubai",
 	"nameServers": [
 		"gtld.alpha.aridns.net.au",
 		"gtld.beta.aridns.net.au",
