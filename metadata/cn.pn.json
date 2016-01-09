@@ -1,6 +1,8 @@
 {
 	"domain": "cn.pn",
 	"nameServers": [
+		"pns14.cloudns.net",
+		"pns18.cloudns.net",
 		"ns1.idnscan.net",
 		"ns2.idnscan.net"
 	],
