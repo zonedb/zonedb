@@ -3614,7 +3614,7 @@ var _y = [4348]Zone{
 	{"au.pn", &_z[1109], _z[4326:4327], _c[0:6], nil, nil, "", "", "", 0x0},
 	{"ca.pn", &_z[1109], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"ch.pn", &_z[1109], nil, _c[0:6], NS{"ns1.idnscan.net", "ns2.idnscan.net"}, nil, "", "", "", 0x0},
-	{"cn.pn", &_z[1109], nil, _c[0:6], NS{"ns1.idnscan.net", "ns2.idnscan.net"}, nil, "", "", "", 0x0},
+	{"cn.pn", &_z[1109], nil, _c[0:6], NS{"pns14.cloudns.net", "pns18.cloudns.net", "ns1.idnscan.net", "ns2.idnscan.net"}, nil, "", "", "", 0x0},
 	{"co.pn", &_z[1109], nil, _c[0:6], NS{"sns-pb.isc.org", "ns0.pitcairn.net.pn", "ns2.pitcairn.net.pn"}, nil, "", "", "", 0x0},
 	{"de.pn", &_z[1109], nil, _c[0:6], NS{"ns1.idnscan.net", "ns2.idnscan.net"}, nil, "", "", "", 0x0},
 	{"edu.pn", &_z[1109], nil, _c[0:6], NS{"sns-pb.isc.org", "ns0.pitcairn.net.pn", "ns2.pitcairn.net.pn"}, nil, "", "", "", 0x0},
