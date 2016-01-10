@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a0.nic.volkswagen",
+		"a2.nic.volkswagen",
+		"b0.nic.volkswagen",
+		"c0.nic.volkswagen"
+	],
 	"codePoints": "--09az"
 }
