@@ -2014,7 +2014,7 @@ var _y = [4348]Zone{
 	{"z.bg", &_z[152], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"biz.bh", &_z[153], nil, _c[0:6], NS{"ns.batelco.com.bh", "ns2.batelco.com.bh", "ns3.batelco.com.bh", "ns4.batelco.com.bh"}, nil, "", "", "", 0x0},
 	{"cc.bh", &_z[153], nil, _c[0:6], NS{"ns.batelco.com.bh", "ns2.batelco.com.bh", "ns3.batelco.com.bh", "ns4.batelco.com.bh"}, nil, "", "", "", 0x0},
-	{"com.bh", &_z[153], nil, _c[0:6], NS{"ns.batelco.com.bh", "ns2.batelco.com.bh", "ns3.batelco.com.bh", "ns4.batelco.com.bh"}, nil, "", "", "", 0x0},
+	{"com.bh", &_z[153], nil, _c[0:6], NS{"ns1023.websitewelcome.com", "ns.batelco.com.bh", "ns2.batelco.com.bh", "ns3.batelco.com.bh", "ns4.batelco.com.bh"}, nil, "", "", "", 0x0},
 	{"edu.bh", &_z[153], nil, _c[0:6], NS{"ns.batelco.com.bh", "ns2.batelco.com.bh", "ns3.batelco.com.bh", "ns4.batelco.com.bh"}, nil, "", "", "", 0x0},
 	{"gov.bh", &_z[153], nil, _c[0:6], NS{"ns1.gov.bh", "ns2.gov.bh"}, nil, "", "", "", 0x0},
 	{"info.bh", &_z[153], nil, _c[0:6], NS{"ns.batelco.com.bh", "ns2.batelco.com.bh", "ns3.batelco.com.bh", "ns4.batelco.com.bh"}, nil, "", "", "", 0x0},
