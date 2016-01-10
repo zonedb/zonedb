@@ -1,6 +1,7 @@
 {
 	"domain": "com.bh",
 	"nameServers": [
+		"ns1023.websitewelcome.com",
 		"ns.batelco.com.bh",
 		"ns2.batelco.com.bh",
 		"ns3.batelco.com.bh",
