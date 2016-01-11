@@ -1519,7 +1519,7 @@ var _y = [4348]Zone{
 	{"trust", nil, nil, _c[0:6], NS{"a.nic.trust", "b.nic.trust", "c.nic.trust", "d.nic.trust"}, nil, "whois.nic.trust", "", "http://newgtlds.icann.org/", 0x40},
 	{"trv", nil, nil, _c[0:6], NS{"a0.nic.trv", "a2.nic.trv", "b0.nic.trv", "c0.nic.trv"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"tt", nil, _z[3975:4007], _c[0:6], NS{"ns3.nic.mx", "sns-pb.isc.org", "pch.nic.tt", "ripe.nic.tt"}, nil, "", "http://www.nic.tt/cgi-bin/search.pl", "", 0xa0},
-	{"tube", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
+	{"tube", nil, nil, _c[0:6], NS{"ns1.dns.nic.tube", "ns2.dns.nic.tube", "ns3.dns.nic.tube", "ns4.dns.nic.tube", "ns5.dns.nic.tube", "ns6.dns.nic.tube"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"tui", nil, nil, _c[0:6], NS{"ns2a.ksregistry.com", "ns2b.ksregistry.com", "ns1a.ksregistry.net", "ns1b.ksregistry.net"}, nil, "whois.ksregistry.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"tunes", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x48},
 	{"tushu", nil, nil, _c[0:6], NS{"ns1.dns.nic.tushu", "ns2.dns.nic.tushu", "ns3.dns.nic.tushu", "ns4.dns.nic.tushu", "ns5.dns.nic.tushu", "ns6.dns.nic.tushu"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
