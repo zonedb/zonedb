@@ -1,6 +1,7 @@
 {
 	"domain": "nc.tr",
 	"nameServers": [
+		"ns1.nc.tr",
 		"lns21.nic.tr",
 		"lns22.nic.tr",
 		"lns3.nic.tr",
