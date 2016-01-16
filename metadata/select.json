@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.select",
 	"nameServers": [
 		"a.nic.select",
 		"b.nic.select",

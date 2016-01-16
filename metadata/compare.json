@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.compare",
 	"nameServers": [
 		"a.nic.compare",
 		"b.nic.compare",
