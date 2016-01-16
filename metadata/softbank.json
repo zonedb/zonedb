@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.softbank",
+	"nameServers": [
+		"a.nic.softbank",
+		"b.nic.softbank",
+		"c.nic.softbank",
+		"d.nic.softbank"
+	],
 	"codePoints": "--09az"
 }

@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a0.nic.alibaba",
+		"a2.nic.alibaba",
+		"b0.nic.alibaba",
+		"c0.nic.alibaba"
+	],
 	"codePoints": "--09az"
 }

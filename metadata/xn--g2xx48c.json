@@ -1,4 +1,12 @@
 {
 	"domain": "购物",
-	"infoURL": "http://newgtlds.icann.org/"
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ns1.dns.nic.购物",
+		"ns2.dns.nic.购物",
+		"ns3.dns.nic.购物",
+		"ns4.dns.nic.购物",
+		"ns5.dns.nic.购物",
+		"ns6.dns.nic.购物"
+	]
 }
