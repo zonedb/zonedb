@@ -2256,7 +2256,7 @@ var _y = [4348]Zone{
 	{"nom.co", &_z[308], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"org.co", &_z[308], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"ae.com", &_z[314], nil, nil, NS{"asia3.akam.net", "eur2.akam.net", "eur5.akam.net", "ns1-161.akam.net", "ns1-163.akam.net", "usc3.akam.net", "use4.akam.net", "usw1.akam.net"}, nil, "", "", "", 0x0},
-	{"africa.com", &_z[314], nil, _c[0:6], NS{"ns1.africa.com", "ns2.africa.com", "ns3.africa.com", "ns4.africa.com", "ns5.africa.com", "ns.coza.net.za", "ns1.coza.net.za"}, nil, "whois.centralnic.com", "", "", 0x0},
+	{"africa.com", &_z[314], nil, _c[0:6], NS{"ns1.africa.com", "ns2.africa.com", "ns3.africa.com", "ns4.africa.com", "ns5.africa.com", "ns1.domain-name.services", "ns.coza.net.za", "ns1.coza.net.za", "ns-any.dns.net.za", "ns1.dns.net.za"}, nil, "whois.centralnic.com", "", "", 0x0},
 	{"ar.com", &_z[314], nil, nil, NS{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, nil, "whois.centralnic.com", "", "", 0x0},
 	{"asia.com", &_z[314], nil, _c[0:6], NS{"pdns5.ultradns.info", "pdns1.ultradns.net", "pdns2.ultradns.net", "pdns3.ultradns.org", "pdns4.ultradns.org", "pdns6.ultradns.co.uk"}, nil, "", "", "", 0x0},
 	{"au.com", &_z[314], nil, _c[0:6], NS{"dns103.kddi.ne.jp", "dns104.kddi.ne.jp"}, nil, "", "", "", 0x0},
