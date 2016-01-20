@@ -911,7 +911,7 @@ var _y = [4348]Zone{
 	{"liaison", nil, nil, _c[0:6], NS{"a5.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "whois.nic.liaison", "", "http://newgtlds.icann.org/", 0x42},
 	{"lidl", nil, nil, _c[0:6], NS{"a.ns.nic.lidl", "c.ns.nic.lidl", "x.ns.nic.lidl", "y.ns.nic.lidl"}, nil, "whois.nic.lidl", "", "http://newgtlds.icann.org/", 0x42},
 	{"life", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
-	{"lifeinsurance", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
+	{"lifeinsurance", nil, nil, _c[0:6], NS{"ns1.dns.nic.lifeinsurance", "ns2.dns.nic.lifeinsurance", "ns3.dns.nic.lifeinsurance", "ns4.dns.nic.lifeinsurance", "ns5.dns.nic.lifeinsurance", "ns6.dns.nic.lifeinsurance"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"lifestyle", nil, nil, _c[0:6], NS{"a5.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "whois.nic.lifestyle", "", "http://newgtlds.icann.org/", 0x40},
 	{"lighting", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"like", nil, nil, _c[0:6], NS{"ns1.dns.nic.like", "ns2.dns.nic.like", "ns3.dns.nic.like", "ns4.dns.nic.like", "ns5.dns.nic.like", "ns6.dns.nic.like"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
