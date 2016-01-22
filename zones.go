@@ -4075,7 +4075,7 @@ var _y = [4348]Zone{
 	{"co.tt", &_z[1429], nil, nil, nil, nil, "", "", "", 0x0},
 	{"com.tt", &_z[1429], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"coop.tt", &_z[1429], nil, nil, nil, nil, "", "", "", 0x0},
-	{"de.tt", &_z[1429], nil, _c[0:6], nil, nil, "", "", "", 0x0},
+	{"de.tt", &_z[1429], nil, _c[0:6], NS{"ns.nagor.cn", "ns.nagor.com.cn"}, nil, "", "", "", 0x0},
 	{"edu.tt", &_z[1429], nil, _c[0:6], NS{"ns1.edu.tt", "ns2.edu.tt", "ns3.edu.tt"}, nil, "", "", "", 0x0},
 	{"es.tt", &_z[1429], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"eu.tt", &_z[1429], nil, _c[0:6], nil, nil, "", "", "", 0x0},
