@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.삼성",
+	"whoisServer": "whois.nic.doosan",
 	"nameServers": [
 		"b.dns.kr",
 		"c.dns.kr",
