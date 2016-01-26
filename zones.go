@@ -498,7 +498,7 @@ var _y = [4348]Zone{
 	{"dog", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x40},
 	{"doha", nil, nil, _c[0:6], NS{"a.nic.doha", "b.nic.doha", "c.nic.doha", "d.nic.doha"}, L{"Doha", "QA-DA"}, "whois.nic.doha", "", "http://newgtlds.icann.org/", 0xc4},
 	{"domains", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
-	{"doosan", nil, nil, _c[0:6], NS{"b.dns.kr", "c.dns.kr", "d.dns.kr", "e.dns.kr", "f.dns.kr", "g.dns.kr"}, nil, "whois.nic.doosan", "", "http://newgtlds.icann.org/", 0x42},
+	{"doosan", nil, nil, _c[0:6], NS{"b.dns.kr", "c.dns.kr", "d.dns.kr", "e.dns.kr", "f.dns.kr", "g.dns.kr"}, nil, "whois.nic.xn--cg4bki", "", "http://newgtlds.icann.org/", 0x42},
 	{"dot", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"dotafrica", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x2040},
 	{"download", nil, nil, _c[0:6], NS{"ns1.dns.nic.download", "ns2.dns.nic.download", "ns3.dns.nic.download", "ns4.dns.nic.download", "ns5.dns.nic.download", "ns6.dns.nic.download"}, nil, "whois.nic.download", "", "http://newgtlds.icann.org/", 0x40},
