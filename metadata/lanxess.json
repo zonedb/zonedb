@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.lanxess",
+		"ns2.dns.nic.lanxess",
+		"ns3.dns.nic.lanxess",
+		"ns4.dns.nic.lanxess",
+		"ns5.dns.nic.lanxess",
+		"ns6.dns.nic.lanxess"
+	],
 	"codePoints": "--09az"
 }

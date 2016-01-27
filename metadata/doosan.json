@@ -12,7 +12,11 @@
 		"d.dns.kr",
 		"e.dns.kr",
 		"f.dns.kr",
-		"g.dns.kr"
+		"g.dns.kr",
+		"dns1.emdns.uk",
+		"dns2.emdns.uk",
+		"dns3.emdns.uk",
+		"dns4.emdns.uk"
 	],
 	"codePoints": "--09az"
 }
