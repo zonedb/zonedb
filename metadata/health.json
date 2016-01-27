@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.health",
+		"ns2.dns.nic.health",
+		"ns3.dns.nic.health",
+		"ns4.dns.nic.health",
+		"ns5.dns.nic.health",
+		"ns6.dns.nic.health"
+	],
 	"codePoints": "--09az"
 }
