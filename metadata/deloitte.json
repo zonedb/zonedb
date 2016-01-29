@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a.ns.nic.deloitte",
+		"c.ns.nic.deloitte",
+		"x.ns.nic.deloitte",
+		"y.ns.nic.deloitte"
+	],
 	"codePoints": "--09az"
 }
