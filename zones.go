@@ -3138,7 +3138,7 @@ var _y = [4348]Zone{
 	{"com.ne", &_z[983], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"info.ne", &_z[983], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"int.ne", &_z[983], nil, _c[0:6], nil, nil, "", "", "", 0x0},
-	{"org.ne", &_z[983], nil, _c[0:6], nil, nil, "", "", "", 0x0},
+	{"org.ne", &_z[983], nil, _c[0:6], NS{"sdns2.ovh.net", "vps241916.ovh.net"}, nil, "", "", "", 0x0},
 	{"perso.ne", &_z[983], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"auz.net", &_z[985], nil, _c[0:6], NS{"ns1.instradns.com", "ns2.instradns.com", "ns3.instradns.com"}, nil, "", "", "", 0x0},
 	{"gb.net", &_z[985], nil, nil, NS{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, nil, "whois.centralnic.com", "", "", 0x0},
