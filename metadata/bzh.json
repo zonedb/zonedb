@@ -9,7 +9,7 @@
 	"locations": [
 		"FR-E"
 	],
-	"whoisServer": "whois-bzh.nic.fr",
+	"whoisServer": "whois.nic.bzh",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",
