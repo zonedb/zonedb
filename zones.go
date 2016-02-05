@@ -1537,7 +1537,7 @@ var _y = [4349]Zone{
 	{"ultrabook", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"um", nil, nil, _c[0:6], nil, nil, "", "", "", 0x8a0},
 	{"ummah", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x2042},
-	{"unicom", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
+	{"unicom", nil, nil, _c[0:6], NS{"ns1.dns.nic.unicom", "ns2.dns.nic.unicom", "ns3.dns.nic.unicom", "ns4.dns.nic.unicom", "ns5.dns.nic.unicom", "ns6.dns.nic.unicom"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"unicorn", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"university", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"uno", nil, nil, _c[0:6], NS{"ns1.dns.nic.uno", "ns2.dns.nic.uno", "ns3.dns.nic.uno", "ns4.dns.nic.uno", "ns5.dns.nic.uno", "ns6.dns.nic.uno", "ns7.dns.nic.uno"}, nil, "whois.nic.uno", "", "", 0x40},
