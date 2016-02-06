@@ -2,6 +2,7 @@
 	"domain": "go.cr",
 	"nameServers": [
 		"tld.isc-sns.com",
+		"de.nic.cr",
 		"dns.nic.cr",
 		"f.nic.cr",
 		"g.nic.cr",
