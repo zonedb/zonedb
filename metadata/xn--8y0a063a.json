@@ -1,4 +1,12 @@
 {
 	"domain": "联通",
-	"infoURL": "http://newgtlds.icann.org/"
+	"infoURL": "http://newgtlds.icann.org/",
+	"nameServers": [
+		"ns1.dns.nic.联通",
+		"ns2.dns.nic.联通",
+		"ns3.dns.nic.联通",
+		"ns4.dns.nic.联通",
+		"ns5.dns.nic.联通",
+		"ns6.dns.nic.联通"
+	]
 }
