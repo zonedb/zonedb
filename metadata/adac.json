@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.adac",
 	"nameServers": [
 		"a.ns.nic.adac",
 		"c.ns.nic.adac",
