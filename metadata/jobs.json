@@ -4,7 +4,7 @@
 		"generic",
 		"sponsored"
 	],
-	"whoisServer": "jobswhois.verisign-grs.com",
+	"whoisServer": "whois.nic.jobs",
 	"nameServers": [
 		"a5.nstld.com",
 		"ac1.nstld.com",
