@@ -12,6 +12,7 @@
 	],
 	"whoisServer": "whois.nic.moscow",
 	"nameServers": [
+		"d.dns.flexireg.domains",
 		"b.dns.flexireg.net",
 		"a.dns.ripn.net",
 		"b.dns.ripn.net",

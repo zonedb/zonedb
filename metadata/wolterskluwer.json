@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.wolterskluwer",
+		"a2.nic.wolterskluwer",
+		"b0.nic.wolterskluwer",
+		"c0.nic.wolterskluwer"
+	],
 	"codePoints": "--09az"
 }
