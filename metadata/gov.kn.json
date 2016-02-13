@@ -6,7 +6,8 @@
 		"ns1.stabletransit.com",
 		"ns2.stabletransit.com",
 		"ns1.gov.kn",
-		"ns2.gov.kn"
+		"ns2.gov.kn",
+		"pch.nic.kn"
 	],
 	"codePoints": "--09az"
 }
