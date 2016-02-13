@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.flickr",
+		"ns2.dns.nic.flickr",
+		"ns3.dns.nic.flickr",
+		"ns4.dns.nic.flickr",
+		"ns5.dns.nic.flickr",
+		"ns6.dns.nic.flickr"
+	],
 	"codePoints": "--09az"
 }
