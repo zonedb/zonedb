@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.yahoo",
+		"ns2.dns.nic.yahoo",
+		"ns3.dns.nic.yahoo",
+		"ns4.dns.nic.yahoo",
+		"ns5.dns.nic.yahoo",
+		"ns6.dns.nic.yahoo"
+	],
 	"codePoints": "--09az"
 }
