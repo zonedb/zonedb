@@ -2,7 +2,9 @@
 	"domain": "it.pn",
 	"nameServers": [
 		"ns1.idnscan.net",
-		"ns2.idnscan.net"
+		"ns2.idnscan.net",
+		"ns1.afraid.org",
+		"ns2.afraid.org"
 	],
 	"codePoints": "--09az"
 }

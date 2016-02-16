@@ -3626,7 +3626,7 @@ var _y = [4351]Zone{
 	{"fr.pn", &_z[1109], nil, _c[0:6], NS{"ns1.idnscan.net", "ns2.idnscan.net"}, nil, "", "", "", 0x0},
 	{"gov.pn", &_z[1109], nil, _c[0:6], NS{"sns-pb.isc.org", "ns0.pitcairn.net.pn", "ns2.pitcairn.net.pn"}, nil, "", "", "", 0x0},
 	{"in.pn", &_z[1109], nil, nil, NS{"ns.rackspace.com", "ns2.rackspace.com"}, nil, "", "", "", 0x0},
-	{"it.pn", &_z[1109], nil, _c[0:6], NS{"ns1.idnscan.net", "ns2.idnscan.net"}, nil, "", "", "", 0x0},
+	{"it.pn", &_z[1109], nil, _c[0:6], NS{"ns1.idnscan.net", "ns2.idnscan.net", "ns1.afraid.org", "ns2.afraid.org"}, nil, "", "", "", 0x0},
 	{"jp.pn", &_z[1109], nil, _c[0:6], NS{"ns1.idnscan.net", "ns2.idnscan.net"}, nil, "", "", "", 0x0},
 	{"net.pn", &_z[1109], nil, _c[0:6], NS{"sns-pb.isc.org", "ns0.pitcairn.net.pn", "ns2.pitcairn.net.pn"}, nil, "", "", "", 0x0},
 	{"org.pn", &_z[1109], nil, _c[0:6], NS{"sns-pb.isc.org", "ns0.pitcairn.net.pn", "ns2.pitcairn.net.pn"}, nil, "", "", "", 0x0},
