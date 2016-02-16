@@ -2304,7 +2304,7 @@ var _y = [4351]Zone{
 	{"inf.cu", &_z[349], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"net.cu", &_z[349], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"org.cu", &_z[349], nil, _c[0:6], nil, nil, "", "", "", 0x0},
-	{"tur.cu", &_z[349], nil, _c[0:6], NS{"ns1.g4its.com", "ns2.g4its.com", "mail1.tur.cu", "mail2.tur.cu", "ns1.tur.cu", "ns2.tur.cu", "ns3.tur.cu", "ns.ceniai.net.cu"}, nil, "", "", "", 0x0},
+	{"tur.cu", &_z[349], nil, _c[0:6], NS{"ns1.g4its.com", "ns2.g4its.com", "mail1.tur.cu", "mail2.tur.cu", "ns1.tur.cu", "ns2.tur.cu", "ns3.tur.cu", "ns4.tur.cu", "ns.ceniai.net.cu"}, nil, "", "", "", 0x0},
 	{"com.cv", &_z[351], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"edu.cv", &_z[351], nil, nil, nil, nil, "", "", "", 0x0},
 	{"gov.cv", &_z[351], nil, _c[0:6], NS{"ns1.gov.cv", "ns2.gov.cv"}, nil, "", "", "", 0x0},
