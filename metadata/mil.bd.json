@@ -2,6 +2,7 @@
 	"domain": "mil.bd",
 	"nameServers": [
 		"dns.bd",
+		"dns2.bd",
 		"jamuna.btcl.net.bd",
 		"surma.btcl.net.bd"
 	],
