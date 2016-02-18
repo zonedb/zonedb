@@ -2880,7 +2880,7 @@ var _y = [4351]Zone{
 	{"co.kn", &_z[773], nil, nil, NS{"dyntld-1.nic.kn", "dyntld-2.nic.kn", "pch.nic.kn", "a.dns.tw", "b.dns.tw", "c.dns.tw"}, nil, "", "", "", 0x0},
 	{"com.kn", &_z[773], nil, _c[0:6], NS{"dyntld-1.nic.kn", "dyntld-2.nic.kn", "pch.nic.kn", "a.dns.tw", "b.dns.tw", "c.dns.tw"}, nil, "", "", "", 0x0},
 	{"edu.kn", &_z[773], nil, _c[0:6], NS{"dyntld-1.nic.kn", "dyntld-2.nic.kn", "pch.nic.kn", "a.dns.tw", "b.dns.tw", "c.dns.tw"}, nil, "", "", "", 0x0},
-	{"gov.kn", &_z[773], nil, _c[0:6], NS{"dns1.stabletransit.com", "dns2.stabletransit.com", "ns1.stabletransit.com", "ns2.stabletransit.com", "ns1.gov.kn", "ns2.gov.kn", "pch.nic.kn"}, nil, "", "", "", 0x0},
+	{"gov.kn", &_z[773], nil, _c[0:6], NS{"dns1.stabletransit.com", "dns2.stabletransit.com", "ns1.stabletransit.com", "ns2.stabletransit.com", "ns1.gov.kn", "ns2.gov.kn", "dyntld-1.nic.kn", "dyntld-2.nic.kn", "pch.nic.kn"}, nil, "", "", "", 0x0},
 	{"net.kn", &_z[773], nil, _c[0:6], NS{"dyntld-1.nic.kn", "dyntld-2.nic.kn", "pch.nic.kn", "a.dns.tw", "b.dns.tw", "c.dns.tw"}, nil, "", "", "", 0x0},
 	{"org.kn", &_z[773], nil, _c[0:6], NS{"dyntld-1.nic.kn", "dyntld-2.nic.kn", "pch.nic.kn", "a.dns.tw", "b.dns.tw", "c.dns.tw"}, nil, "", "", "", 0x0},
 	{"com.kp", &_z[779], nil, _c[0:6], NS{"ns1.com.kp", "ns2.com.kp"}, nil, "", "", "", 0x0},
