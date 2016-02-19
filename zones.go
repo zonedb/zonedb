@@ -1211,7 +1211,7 @@ var _y = [4351]Zone{
 	{"praxi", nil, nil, _c[0:6], NS{"ns1.dns.nic.praxi", "ns2.dns.nic.praxi", "ns3.dns.nic.praxi", "ns4.dns.nic.praxi", "ns5.dns.nic.praxi", "ns6.dns.nic.praxi"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"press", nil, nil, nil, NS{"a.nic.press", "b.nic.press", "c.nic.press", "d.nic.press"}, nil, "whois.nic.press", "", "", 0x40},
 	{"prime", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
-	{"pro", nil, _z[3595:3631], _c[0:6], NS{"a0.pro.afilias-nst.info", "a2.pro.afilias-nst.info", "c0.pro.afilias-nst.info", "b0.pro.afilias-nst.org", "b2.pro.afilias-nst.org", "d0.pro.afilias-nst.org"}, nil, "whois.dotproregistry.net", "", "", 0x40},
+	{"pro", nil, _z[3595:3631], _c[0:6], NS{"a0.pro.afilias-nst.info", "a2.pro.afilias-nst.info", "c0.pro.afilias-nst.info", "b0.pro.afilias-nst.org", "b2.pro.afilias-nst.org", "d0.pro.afilias-nst.org"}, nil, "whois.afilias.net", "", "", 0x40},
 	{"prod", nil, nil, nil, NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, nil, "domain-registry-whois.l.google.com", "", "http://newgtlds.icann.org/", 0x42},
 	{"productions", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"prof", nil, nil, nil, NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, nil, "domain-registry-whois.l.google.com", "", "http://newgtlds.icann.org/", 0x40},
