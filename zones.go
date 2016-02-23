@@ -1969,7 +1969,7 @@ var _y = [4351]Zone{
 	{"info.bb", &_z[133], nil, _c[0:6], NS{"ns1.barbadosdomain.net", "ns2.barbadosdomain.net"}, nil, "", "", "", 0x0},
 	{"net.bb", &_z[133], nil, _c[0:6], NS{"ns1.barbadosdomain.net", "ns2.barbadosdomain.net"}, nil, "", "", "", 0x0},
 	{"org.bb", &_z[133], nil, _c[0:6], NS{"ns1.barbadosdomain.net", "ns2.barbadosdomain.net"}, nil, "", "", "", 0x0},
-	{"store.bb", &_z[133], nil, _c[0:6], NS{"f1g1ns1.dnspod.net", "f1g1ns2.dnspod.net"}, nil, "", "", "", 0x0},
+	{"store.bb", &_z[133], nil, _c[0:6], NS{"pns1.cloudns.net", "pns4.cloudns.net", "pns7.cloudns.net", "f1g1ns1.dnspod.net", "f1g1ns2.dnspod.net"}, nil, "", "", "", 0x0},
 	{"tv.bb", &_z[133], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"ac.bd", &_z[140], nil, _c[0:6], NS{"dns.bd", "dns2.bd", "jamuna.btcl.net.bd", "surma.btcl.net.bd"}, nil, "", "", "", 0x0},
 	{"com.bd", &_z[140], nil, _c[0:6], NS{"dns.bd", "dns2.bd", "jamuna.btcl.net.bd", "surma.btcl.net.bd"}, nil, "", "", "", 0x0},
