@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.store",
 	"nameServers": [
 		"a.nic.store",
 		"b.nic.store",
