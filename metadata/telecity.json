@@ -5,5 +5,15 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"dns1.nic.telecity",
+		"dns2.nic.telecity",
+		"dns3.nic.telecity",
+		"dns4.nic.telecity",
+		"dnsa.nic.telecity",
+		"dnsb.nic.telecity",
+		"dnsc.nic.telecity",
+		"dnsd.nic.telecity"
+	],
 	"codePoints": "--09az"
 }

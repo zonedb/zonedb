@@ -5,5 +5,13 @@
 		"closed",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.tunes",
+		"ns2.dns.nic.tunes",
+		"ns3.dns.nic.tunes",
+		"ns4.dns.nic.tunes",
+		"ns5.dns.nic.tunes",
+		"ns6.dns.nic.tunes"
+	],
 	"codePoints": "--09az"
 }

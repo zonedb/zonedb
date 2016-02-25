@@ -1,4 +1,8 @@
 {
 	"domain": "web.fo",
+	"nameServers": [
+		"us1.rootdomain.net",
+		"us2.rootdomain.net"
+	],
 	"codePoints": "--09az"
 }
