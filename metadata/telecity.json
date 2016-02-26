@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.telecity",
 	"nameServers": [
 		"dns1.nic.telecity",
 		"dns2.nic.telecity",
