@@ -1458,7 +1458,7 @@ var _y = [4351]Zone{
 	{"tech", nil, nil, _c[0:6], NS{"a.nic.tech", "b.nic.tech", "c.nic.tech", "d.nic.tech"}, nil, "whois.nic.tech", "", "http://newgtlds.icann.org/", 0x40},
 	{"technology", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"tel", nil, nil, _c[0:6], NS{"a.dns.nic.tel", "b.dns.nic.tel", "c.dns.nic.tel", "d.dns.nic.tel", "e.dns.nic.tel", "f.dns.nic.tel", "g.dns.nic.tel", "h.dns.nic.tel"}, nil, "whois.nic.tel", "", "", 0x1040},
-	{"telecity", nil, nil, _c[0:6], NS{"dns1.nic.telecity", "dns2.nic.telecity", "dns3.nic.telecity", "dns4.nic.telecity", "dnsa.nic.telecity", "dnsb.nic.telecity", "dnsc.nic.telecity", "dnsd.nic.telecity"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
+	{"telecity", nil, nil, _c[0:6], NS{"dns1.nic.telecity", "dns2.nic.telecity", "dns3.nic.telecity", "dns4.nic.telecity", "dnsa.nic.telecity", "dnsb.nic.telecity", "dnsc.nic.telecity", "dnsd.nic.telecity"}, nil, "whois.nic.telecity", "", "http://newgtlds.icann.org/", 0x42},
 	{"telefonica", nil, nil, _c[0:6], NS{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, nil, "whois-fe.telefonica.tango.knipp.de", "", "http://newgtlds.icann.org/", 0x42},
 	{"temasek", nil, nil, _c[0:6], NS{"a0.nic.temasek", "a2.nic.temasek", "b0.nic.temasek", "c0.nic.temasek"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"tennis", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x40},
