@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.jpmorgan",
+		"ns2.dns.nic.jpmorgan",
+		"ns3.dns.nic.jpmorgan",
+		"ns4.dns.nic.jpmorgan",
+		"ns5.dns.nic.jpmorgan",
+		"ns6.dns.nic.jpmorgan"
+	],
 	"codePoints": "--09az"
 }

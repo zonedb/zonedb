@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.chase",
+		"ns2.dns.nic.chase",
+		"ns3.dns.nic.chase",
+		"ns4.dns.nic.chase",
+		"ns5.dns.nic.chase",
+		"ns6.dns.nic.chase"
+	],
 	"codePoints": "--09az"
 }
