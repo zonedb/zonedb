@@ -6,6 +6,13 @@
 	],
 	"whoisServer": "whois.nic.sh",
 	"nameServers": [
+		"ns-a1.sh",
+		"ns-a2.sh",
+		"ns-a3.sh",
+		"ns-a4.sh",
+		"ns-d1.sh",
+		"ns-l1.sh",
+		"ns-y1.sh",
 		"b.nic.ac",
 		"b.nic.io",
 		"ns1.communitydns.net",
