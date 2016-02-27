@@ -6,6 +6,10 @@
 	"whoisServer": "whois.nic.name",
 	"nameServers": [
 		"a6.nstld.com",
+		"an1.nstld.com",
+		"an2.nstld.com",
+		"an3.nstld.com",
+		"an4.nstld.com",
 		"c6.nstld.com",
 		"d6.nstld.com",
 		"f6.nstld.com",

@@ -9,6 +9,8 @@
 		"ns1.dns.aq",
 		"sns-pb.isc.org",
 		"fork.sth.dnsnode.net",
+		"a.aq.dyntld.net",
+		"b.aq.dyntld.net",
 		"ns99.dns.net.nz"
 	],
 	"codePoints": "--09az"

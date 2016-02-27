@@ -7,6 +7,13 @@
 	],
 	"whoisServer": "whois.nic.ac",
 	"nameServers": [
+		"ns-a1.ac",
+		"ns-a2.ac",
+		"ns-a3.ac",
+		"ns-a4.ac",
+		"ns-d1.ac",
+		"ns-l1.ac",
+		"ns-y1.ac",
 		"a.nic.ac",
 		"b.nic.ac",
 		"b.nic.io",
