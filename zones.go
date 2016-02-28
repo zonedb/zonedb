@@ -3957,7 +3957,7 @@ var _y = [4351]Zone{
 	{"ph.tc", &_z[1361], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"pl.tc", &_z[1361], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"pro.tc", &_z[1361], nil, _c[0:6], NS{"root1.zone.tc", "root2.zone.tc", "root3.zone.tc", "root4.zone.tc", "root5.zone.tc", "root6.zone.tc", "root7.zone.tc", "root8.zone.tc"}, nil, "", "", "", 0x0},
-	{"ru.tc", &_z[1361], nil, _c[0:6], NS{"ns1.guven.gen.tr", "ns2.guven.gen.tr"}, nil, "", "", "", 0x0},
+	{"ru.tc", &_z[1361], nil, _c[0:6], NS{"ns1.yenile.net", "ns2.yenile.net", "ns1.guven.gen.tr", "ns2.guven.gen.tr"}, nil, "", "", "", 0x0},
 	{"se.tc", &_z[1361], nil, _c[0:6], NS{"ns1.ewing.net.au", "ns2.ewing.net.au", "ns3.ewing.net.au", "ns4.ewing.net.au"}, nil, "", "", "", 0x0},
 	{"shop.tc", &_z[1361], nil, _c[0:6], NS{"ns.onshore.net", "ns2.onshore.net"}, nil, "", "", "", 0x0},
 	{"th.tc", &_z[1361], nil, _c[0:6], NS{"ns1.alidns.com", "ns2.alidns.com"}, nil, "", "", "", 0x0},
