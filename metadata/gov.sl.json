@@ -1,4 +1,7 @@
 {
 	"domain": "gov.sl",
+	"nameServers": [
+		"ns3.nic.sl"
+	],
 	"codePoints": "--09az"
 }

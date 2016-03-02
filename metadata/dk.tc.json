@@ -1,4 +1,8 @@
 {
 	"domain": "dk.tc",
+	"nameServers": [
+		"ns1.4.cn",
+		"ns2.4.cn"
+	],
 	"codePoints": "--09az"
 }
