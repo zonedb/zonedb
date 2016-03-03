@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.vuelos",
+		"ns2.dns.nic.vuelos",
+		"ns3.dns.nic.vuelos",
+		"ns4.dns.nic.vuelos",
+		"ns5.dns.nic.vuelos",
+		"ns6.dns.nic.vuelos"
+	],
 	"codePoints": "--09az"
 }
