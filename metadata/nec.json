@@ -10,7 +10,11 @@
 		"a.nic.nec",
 		"b.nic.nec",
 		"c.nic.nec",
-		"d.nic.nec"
+		"d.nic.nec",
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net"
 	],
 	"codePoints": "--09az"
 }

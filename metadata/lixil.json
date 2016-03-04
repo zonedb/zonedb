@@ -10,7 +10,11 @@
 		"a.nic.lixil",
 		"b.nic.lixil",
 		"c.nic.lixil",
-		"d.nic.lixil"
+		"d.nic.lixil",
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net"
 	],
 	"codePoints": "--09az"
 }

@@ -10,7 +10,11 @@
 		"a.nic.lexus",
 		"b.nic.lexus",
 		"c.nic.lexus",
-		"d.nic.lexus"
+		"d.nic.lexus",
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net"
 	],
 	"codePoints": "--09az"
 }

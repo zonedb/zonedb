@@ -7,6 +7,10 @@
 	],
 	"whoisServer": "whois.nic.toyota",
 	"nameServers": [
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net",
 		"a.nic.toyota",
 		"b.nic.toyota",
 		"c.nic.toyota",
