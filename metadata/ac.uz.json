@@ -2,7 +2,9 @@
 	"domain": "ac.uz",
 	"nameServers": [
 		"ns1.sarkor.com",
-		"ns2.sarkor.com"
+		"ns2.sarkor.com",
+		"ns1.sarkor.uz",
+		"ns2.sarkor.uz"
 	],
 	"codePoints": "--09az"
 }

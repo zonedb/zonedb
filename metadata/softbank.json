@@ -7,6 +7,10 @@
 	],
 	"whoisServer": "whois.nic.softbank",
 	"nameServers": [
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net",
 		"a.nic.softbank",
 		"b.nic.softbank",
 		"c.nic.softbank",
