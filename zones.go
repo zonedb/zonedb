@@ -345,7 +345,7 @@ var _y = [4352]Zone{
 	{"cbn", nil, nil, _c[0:6], NS{"ns1.dns.nic.cbn", "ns2.dns.nic.cbn", "ns3.dns.nic.cbn", "ns4.dns.nic.cbn", "ns5.dns.nic.cbn", "ns6.dns.nic.cbn"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"cbre", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"cbs", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
-	{"cc", nil, _z[2084:2088], nil, NS{"a5.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "ccwhois.verisign-grs.com", "", "", 0xe0},
+	{"cc", nil, _z[2084:2088], nil, NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "ccwhois.verisign-grs.com", "", "", 0xe0},
 	{"cd", nil, _z[2088:2094], _c[0:6], NS{"dns.princeton.edu", "igubu.saix.net", "sabela.saix.net", "ns1.pch.nic.cd"}, nil, "whois.nic.cd", "", "http://www.nic.cd/", 0xe0},
 	{"ceb", nil, nil, _c[0:6], NS{"a0.nic.ceb", "a2.nic.ceb", "b0.nic.ceb", "c0.nic.ceb"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"center", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
