@@ -23,6 +23,17 @@ The `zones.txt` file is a UTF-8 encoded text file containing a list of IDN & low
 
 Each domain with associated metadata will have a JSON file in the `metadata` directory.
 
+### Updates
+
+A Heroku app utilizing [nbio/autopull](https://github.com/nbio/autopull) runs daily, and creates Pull Requests when the zone data changes and needs to be updated.
+
+If a new SLD or third-level domain needs to be added to `zones.txt`, follow these steps locally:
+
+1. add the new zone to the bottom of the `zones.txt` file
+1. run `make normalize` to normalize the data
+1. run `make update` to run ZoneDB's update process
+1. create a pull request for the changes, and confirm the tests are passing
+
 ## Implementations
 
 ### Go
