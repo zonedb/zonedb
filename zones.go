@@ -3892,7 +3892,7 @@ var _y = [4352]Zone{
 	{"us.si", &_z[1272], nil, _c[0:6], NS{"jasico2.jasico.si", "ns.jasico.si"}, nil, "", "", "", 0x0},
 	{"com.sl", &_z[1285], nil, _c[0:6], NS{"ns1.neoip.com", "ns2.neoip.com", "ns3.nic.sl"}, nil, "", "", "", 0x0},
 	{"edu.sl", &_z[1285], nil, nil, NS{"ns1.neoip.com", "ns2.neoip.com", "ns3.nic.sl"}, nil, "", "", "", 0x0},
-	{"gov.sl", &_z[1285], nil, _c[0:6], NS{"ns3.nic.sl"}, nil, "", "", "", 0x0},
+	{"gov.sl", &_z[1285], nil, _c[0:6], NS{"ns1.neoip.com", "ns2.neoip.com", "ns3.nic.sl"}, nil, "", "", "", 0x0},
 	{"net.sl", &_z[1285], nil, _c[0:6], NS{"ns1.neoip.com", "ns2.neoip.com", "ns3.nic.sl"}, nil, "", "", "", 0x0},
 	{"org.sl", &_z[1285], nil, _c[0:6], NS{"ns1.neoip.com", "ns2.neoip.com", "ns3.nic.sl"}, nil, "", "", "", 0x0},
 	{"art.sn", &_z[1290], nil, _c[0:6], nil, nil, "", "", "", 0x0},

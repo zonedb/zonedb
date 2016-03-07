@@ -1,6 +1,8 @@
 {
 	"domain": "gov.sl",
 	"nameServers": [
+		"ns1.neoip.com",
+		"ns2.neoip.com",
 		"ns3.nic.sl"
 	],
 	"codePoints": "--09az"
