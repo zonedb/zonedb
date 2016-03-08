@@ -1,5 +1,6 @@
 {
 	"domain": "kerrylogistics",
+	"whoisServer": "whois.nic.kerrylogistics",
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",
