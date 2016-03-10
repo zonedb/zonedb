@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois-total.nic.fr",
+	"nameServers": [
+		"d.nic.fr",
+		"f.ext.nic.fr",
+		"g.ext.nic.fr"
+	],
 	"codePoints": "--09az"
 }
