@@ -5,5 +5,15 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"dns1.nic.locus",
+		"dns2.nic.locus",
+		"dns3.nic.locus",
+		"dns4.nic.locus",
+		"dnsa.nic.locus",
+		"dnsb.nic.locus",
+		"dnsc.nic.locus",
+		"dnsd.nic.locus"
+	],
 	"codePoints": "--09az"
 }
