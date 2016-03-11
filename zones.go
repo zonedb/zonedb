@@ -664,7 +664,7 @@ var _y = [4352]Zone{
 	{"globo", nil, nil, _c[0:6], NS{"a.dns.br", "b.dns.br", "c.dns.br", "d.dns.br", "e.dns.br", "f.dns.br"}, nil, "whois.gtlds.nic.br", "", "http://newgtlds.icann.org/", 0x42},
 	{"gm", nil, nil, _c[0:6], NS{"ns1.nic.gm", "ns2.nic.gm", "ns-gm.afrinic.net"}, nil, "", "http://www.nic.gm/htmlpages/whois.htm", "", 0xa0},
 	{"gmail", nil, nil, nil, NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, nil, "domain-registry-whois.l.google.com", "", "http://newgtlds.icann.org/", 0x42},
-	{"gmbh", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
+	{"gmbh", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x40},
 	{"gmc", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x2042},
 	{"gmo", nil, nil, _c[0:6], NS{"a.gmoregistry.net", "b.gmoregistry.net", "d.gmoregistry.net", "e.gmoregistry.net", "g.gmoregistry.net", "h.gmoregistry.net", "i.gmoregistry.net", "j.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, nil, "whois.gmoregistry.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"gmx", nil, nil, _c[0:6], NS{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, nil, "whois-fe1.gmx.tango.knipp.de", "", "http://newgtlds.icann.org/", 0x42},
