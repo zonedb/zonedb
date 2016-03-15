@@ -2,7 +2,8 @@
 	"domain": "cz.tc",
 	"nameServers": [
 		"f1g1ns1.dnspod.net",
-		"f1g1ns2.dnspod.net"
+		"f1g1ns2.dnspod.net",
+		"suspended.nic.tc"
 	],
 	"codePoints": "--09az"
 }
