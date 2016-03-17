@@ -9,7 +9,7 @@
 	"locations": [
 		"ES-CT"
 	],
-	"whoisServer": "whois.cat",
+	"whoisServer": "whois.nic.cat",
 	"nameServers": [
 		"dnsc.ad",
 		"ns.nic.cat",
