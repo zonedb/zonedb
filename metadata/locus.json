@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.locus",
 	"nameServers": [
 		"dns1.nic.locus",
 		"dns2.nic.locus",

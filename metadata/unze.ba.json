@@ -2,7 +2,10 @@
 	"domain": "unze.ba",
 	"nameServers": [
 		"pi.unze.ba",
-		"hal.zdk.ba"
+		"hal.zdk.ba",
+		"robotns3.second-ns.com",
+		"ns1.first-ns.de",
+		"robotns2.second-ns.de"
 	],
 	"codePoints": "--09az"
 }
