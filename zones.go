@@ -1089,7 +1089,7 @@ var _y = [4352]Zone{
 	{"nexus", nil, nil, nil, NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, nil, "domain-registry-whois.l.google.com", "", "http://newgtlds.icann.org/", 0x42},
 	{"nf", nil, _z[3063:3074], _c[0:6], NS{"a.nf.dyntld.net", "b.nf.dyntld.net", "ns.anycast.nic.nf"}, nil, "whois.nic.nf", "", "", 0xa0},
 	{"nfl", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
-	{"ng", nil, _z[3074:3084], _c[0:6], NS{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns3.nic.net.ng", "ns4.nic.net.ng", "nsa.nic.net.ng"}, nil, "whois.nic.net.ng", "", "www.web4africa.com.ng", 0xa0},
+	{"ng", nil, _z[3074:3084], _c[0:6], NS{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns3.nic.net.ng", "ns4.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, nil, "whois.nic.net.ng", "", "www.web4africa.com.ng", 0xa0},
 	{"ngo", nil, nil, _c[0:6], NS{"a0.nic.ngo", "a2.nic.ngo", "b0.nic.ngo", "b2.nic.ngo", "c0.nic.ngo", "d0.nic.ngo"}, nil, "whois.publicinterestregistry.net", "", "http://newgtlds.icann.org/", 0x40},
 	{"nhk", nil, nil, _c[0:6], NS{"a.gmoregistry.net", "b.gmoregistry.net", "c.gmoregistry.net", "d.gmoregistry.net", "e.gmoregistry.net", "g.gmoregistry.net", "h.gmoregistry.net", "i.gmoregistry.net", "j.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"ni", nil, _z[3084:3099], _c[0:6], NS{"ns.cr", "ns.ni", "ns2.ni", "ns.uu.net", "ns.ibw.com.ni", "ns.tmx.com.ni", "ns.ideay.net.ni"}, nil, "", "http://www.nic.ni/", "http://www.nic.ni/", 0xa8},
