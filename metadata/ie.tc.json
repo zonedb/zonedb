@@ -1,4 +1,8 @@
 {
 	"domain": "ie.tc",
+	"nameServers": [
+		"ns1.parkingcrew.net",
+		"ns2.parkingcrew.net"
+	],
 	"codePoints": "--09az"
 }
