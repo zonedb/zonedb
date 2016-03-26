@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.talk",
+		"ns2.dns.nic.talk",
+		"ns3.dns.nic.talk",
+		"ns4.dns.nic.talk",
+		"ns5.dns.nic.talk",
+		"ns6.dns.nic.talk"
+	],
 	"codePoints": "--09az"
 }
