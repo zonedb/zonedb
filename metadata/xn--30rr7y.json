@@ -1,7 +1,7 @@
 {
 	"domain": "慈善",
 	"infoURL": "http://newgtlds.icann.org/",
-	"whoisServer": "whois.nic.wang",
+	"whoisServer": "whois.gtld.knet.cn",
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",
