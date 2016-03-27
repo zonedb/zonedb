@@ -909,7 +909,7 @@ var _y = [4352]Zone{
 	{"lexus", nil, nil, _c[0:6], NS{"a.nic.lexus", "b.nic.lexus", "c.nic.lexus", "d.nic.lexus", "a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, nil, "whois.nic.lexus", "", "http://newgtlds.icann.org/", 0x42},
 	{"lgbt", nil, nil, _c[0:6], NS{"a0.nic.lgbt", "a2.nic.lgbt", "b0.nic.lgbt", "c0.nic.lgbt"}, nil, "whois.afilias.net", "", "http://newgtlds.icann.org/", 0x40},
 	{"li", nil, nil, nil, NS{"a.nic.li", "b.nic.li", "c.nic.li", "d.nic.li", "e.nic.li", "f.nic.li", "h.nic.li"}, nil, "whois.nic.li", "", "", 0xa0},
-	{"liaison", nil, nil, _c[0:6], NS{"a5.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "whois.nic.liaison", "", "http://newgtlds.icann.org/", 0x42},
+	{"liaison", nil, nil, _c[0:6], NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "whois.nic.liaison", "", "http://newgtlds.icann.org/", 0x42},
 	{"lidl", nil, nil, _c[0:6], NS{"a.ns.nic.lidl", "c.ns.nic.lidl", "x.ns.nic.lidl", "y.ns.nic.lidl"}, nil, "whois.nic.lidl", "", "http://newgtlds.icann.org/", 0x42},
 	{"life", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"lifeinsurance", nil, nil, _c[0:6], NS{"ns1.dns.nic.lifeinsurance", "ns2.dns.nic.lifeinsurance", "ns3.dns.nic.lifeinsurance", "ns4.dns.nic.lifeinsurance", "ns5.dns.nic.lifeinsurance", "ns6.dns.nic.lifeinsurance"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
