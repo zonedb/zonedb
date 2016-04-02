@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.htc",
+		"ns2.dns.nic.htc",
+		"ns3.dns.nic.htc",
+		"ns4.dns.nic.htc",
+		"ns5.dns.nic.htc",
+		"ns6.dns.nic.htc"
+	],
 	"codePoints": "--09az"
 }

@@ -757,7 +757,7 @@ var _y = [4352]Zone{
 	{"hr", nil, _z[2495:2499], _c[0:6], NS{"hr-ns-1.carnet.hr", "pch.carnet.hr", "sns-pb.isc.org"}, nil, "whois.dns.hr", "", "", 0xa0},
 	{"hsbc", nil, nil, _c[0:6], NS{"ns1.dns.nic.hsbc", "ns2.dns.nic.hsbc", "ns3.dns.nic.hsbc", "ns4.dns.nic.hsbc", "ns5.dns.nic.hsbc", "ns6.dns.nic.hsbc"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"ht", nil, _z[2499:2516], _c[0:6], NS{"dns.princeton.edu", "ns3.nic.fr", "charles.cdec.polymtl.ca", "ht-ns.anycast.pch.net"}, nil, "whois.nic.ht", "", "", 0xa0},
-	{"htc", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
+	{"htc", nil, nil, _c[0:6], NS{"ns1.dns.nic.htc", "ns2.dns.nic.htc", "ns3.dns.nic.htc", "ns4.dns.nic.htc", "ns5.dns.nic.htc", "ns6.dns.nic.htc"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"hu", nil, _z[2516:2550], nil, NS{"a.hu", "b.hu", "c.hu", "d.hu", "e.hu", "ns2.nic.fr", "ns-com.nic.hu"}, nil, "whois.nic.hu", "", "", 0xa0},
 	{"hughes", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"hyatt", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
