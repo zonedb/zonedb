@@ -465,7 +465,7 @@ var _y = [4352]Zone{
 	{"delivery", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x40},
 	{"dell", nil, nil, _c[0:6], NS{"ns1.dns.nic.dell", "ns2.dns.nic.dell", "ns3.dns.nic.dell", "ns4.dns.nic.dell", "ns5.dns.nic.dell", "ns6.dns.nic.dell"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"delmonte", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x2042},
-	{"deloitte", nil, nil, _c[0:6], NS{"a.ns.nic.deloitte", "c.ns.nic.deloitte", "x.ns.nic.deloitte", "y.ns.nic.deloitte"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
+	{"deloitte", nil, nil, _c[0:6], NS{"a.ns.nic.deloitte", "c.ns.nic.deloitte", "x.ns.nic.deloitte", "y.ns.nic.deloitte"}, nil, "whois.nic.deloitte", "", "http://newgtlds.icann.org/", 0x42},
 	{"delta", nil, nil, _c[0:6], NS{"a0.nic.delta", "a2.nic.delta", "b0.nic.delta", "c0.nic.delta"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"democrat", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.unitedtld.com", "", "", 0x40},
 	{"dental", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},

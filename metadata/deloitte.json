@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.deloitte",
 	"nameServers": [
 		"a.ns.nic.deloitte",
 		"c.ns.nic.deloitte",
