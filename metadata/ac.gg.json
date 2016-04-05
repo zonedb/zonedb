@@ -3,6 +3,9 @@
 	"nameServers": [
 		"dns3.mtgsy.com",
 		"dns4.mtgsy.com",
+		"ns1.rapidswitch.com",
+		"ns2.rapidswitch.com",
+		"ns3.rapidswitch.com",
 		"dns1.name-s.net",
 		"dns2.name-s.net"
 	],

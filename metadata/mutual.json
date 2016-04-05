@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.mutual",
+		"ns2.dns.nic.mutual",
+		"ns3.dns.nic.mutual",
+		"ns4.dns.nic.mutual",
+		"ns5.dns.nic.mutual",
+		"ns6.dns.nic.mutual"
+	],
 	"codePoints": "--09az"
 }
