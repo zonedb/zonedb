@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.northwesternmutual",
+		"ns2.dns.nic.northwesternmutual",
+		"ns3.dns.nic.northwesternmutual",
+		"ns4.dns.nic.northwesternmutual",
+		"ns5.dns.nic.northwesternmutual",
+		"ns6.dns.nic.northwesternmutual"
+	],
 	"codePoints": "--09az"
 }

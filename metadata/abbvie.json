@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a0.nic.abbvie",
+		"a2.nic.abbvie",
+		"b0.nic.abbvie",
+		"c0.nic.abbvie"
+	],
 	"codePoints": "--09az"
 }
