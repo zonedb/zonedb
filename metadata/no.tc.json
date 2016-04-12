@@ -2,7 +2,8 @@
 	"domain": "no.tc",
 	"nameServers": [
 		"ns1.iwantmyname.net",
-		"ns2.iwantmyname.net"
+		"ns2.iwantmyname.net",
+		"suspended.nic.tc"
 	],
 	"codePoints": "--09az"
 }

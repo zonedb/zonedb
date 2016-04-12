@@ -1,6 +1,8 @@
 {
 	"domain": "gc.ca",
 	"nameServers": [
+		"ns1.d-zone.ca",
+		"ns2.d-zone.ca",
 		"gocns-kedc.gc.ca",
 		"gocns-pdp.gc.ca",
 		"dns1.nrc.ca",
