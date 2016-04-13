@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.teva",
+		"ns2.dns.nic.teva",
+		"ns3.dns.nic.teva",
+		"ns4.dns.nic.teva",
+		"ns5.dns.nic.teva",
+		"ns6.dns.nic.teva"
+	],
 	"codePoints": "--09az"
 }
