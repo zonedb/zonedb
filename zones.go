@@ -4440,7 +4440,7 @@ var _y = [4352]Zone{
 	{"mpm.school.za", &_z[4280], nil, nil, NS{"mopani.school.za", "ochre.school.za", "lava.obsidian.co.za", "ns0.serendipity.org.za"}, nil, "", "", "", 0x0},
 	{"ncape.school.za", &_z[4280], nil, nil, NS{"mopani.school.za", "ochre.school.za", "ucthpx.uct.ac.za", "ns0.serendipity.org.za"}, nil, "", "", "", 0x0},
 	{"nw.school.za", &_z[4280], nil, nil, NS{"mopani.school.za", "ochre.school.za", "lava.obsidian.co.za", "ns0.serendipity.org.za"}, nil, "", "", "", 0x0},
-	{"wcape.school.za", &_z[4280], nil, nil, NS{"mopani.school.za", "ochre.school.za", "hippo.ru.ac.za", "ns0.serendipity.org.za"}, nil, "", "", "", 0x0},
+	{"wcape.school.za", &_z[4280], nil, nil, NS{"mopani.school.za", "ochre.school.za", "hippo.ru.ac.za", "ucthpx.uct.ac.za", "ns0.serendipity.org.za"}, nil, "", "", "", 0x0},
 }
 
 // ZoneMap maps Unicode domain names to Zones.
