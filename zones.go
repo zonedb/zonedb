@@ -3121,7 +3121,7 @@ var _y = [4352]Zone{
 	{"com.na", &_z[973], nil, _c[0:6], NS{"dns5.denic.de", "merlin.net.na", "na-ns.anycast.pch.net"}, nil, "", "", "", 0x0},
 	{"dr.na", &_z[973], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"edu.na", &_z[973], nil, _c[0:6], NS{"dns5.denic.de", "oshikoko.omadhina.net", "na-ns.anycast.pch.net"}, nil, "", "", "", 0x0},
-	{"in.na", &_z[973], nil, _c[0:6], nil, nil, "", "", "", 0x0},
+	{"in.na", &_z[973], nil, _c[0:6], NS{"ns1.aidos.net", "ns2.aidos.net"}, nil, "", "", "", 0x0},
 	{"info.na", &_z[973], nil, _c[0:6], NS{"dns1.dic.net", "dns2.dic.net", "dns3.dic.net"}, nil, "", "", "", 0x0},
 	{"mobi.na", &_z[973], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"name.na", &_z[973], nil, _c[0:6], nil, nil, "", "", "", 0x0},
