@@ -7,7 +7,9 @@
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.yoga",
-		"b.ns.nic.yoga"
+		"b.ns.nic.yoga",
+		"c.ns.nic.yoga",
+		"d.ns.nic.yoga"
 	],
 	"codePoints": "--09az"
 }

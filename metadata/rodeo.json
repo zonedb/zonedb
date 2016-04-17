@@ -6,6 +6,8 @@
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.rodeo",
-		"b.ns.nic.rodeo"
+		"b.ns.nic.rodeo",
+		"c.ns.nic.rodeo",
+		"d.ns.nic.rodeo"
 	]
 }

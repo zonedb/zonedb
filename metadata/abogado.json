@@ -7,7 +7,9 @@
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.abogado",
-		"b.ns.nic.abogado"
+		"b.ns.nic.abogado",
+		"c.ns.nic.abogado",
+		"d.ns.nic.abogado"
 	],
 	"codePoints": "--09az"
 }

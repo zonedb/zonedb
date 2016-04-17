@@ -7,7 +7,9 @@
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.wedding",
-		"b.ns.nic.wedding"
+		"b.ns.nic.wedding",
+		"c.ns.nic.wedding",
+		"d.ns.nic.wedding"
 	],
 	"codePoints": "--09az"
 }

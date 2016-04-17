@@ -44,6 +44,8 @@
 	"whoisServer": "whois-lon.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.london",
-		"b.ns.nic.london"
+		"b.ns.nic.london",
+		"c.ns.nic.london",
+		"d.ns.nic.london"
 	]
 }
