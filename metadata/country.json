@@ -6,6 +6,8 @@
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.country",
-		"b.ns.nic.country"
+		"b.ns.nic.country",
+		"c.ns.nic.country",
+		"d.ns.nic.country"
 	]
 }

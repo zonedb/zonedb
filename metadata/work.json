@@ -7,7 +7,9 @@
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.work",
-		"b.ns.nic.work"
+		"b.ns.nic.work",
+		"c.ns.nic.work",
+		"d.ns.nic.work"
 	],
 	"codePoints": "--09az"
 }

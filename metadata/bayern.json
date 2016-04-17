@@ -11,6 +11,8 @@
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.bayern",
-		"b.ns.nic.bayern"
+		"b.ns.nic.bayern",
+		"c.ns.nic.bayern",
+		"d.ns.nic.bayern"
 	]
 }

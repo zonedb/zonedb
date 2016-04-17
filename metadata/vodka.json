@@ -6,6 +6,8 @@
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.vodka",
-		"b.ns.nic.vodka"
+		"b.ns.nic.vodka",
+		"c.ns.nic.vodka",
+		"d.ns.nic.vodka"
 	]
 }

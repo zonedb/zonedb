@@ -12,7 +12,9 @@
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.miami",
-		"b.ns.nic.miami"
+		"b.ns.nic.miami",
+		"c.ns.nic.miami",
+		"d.ns.nic.miami"
 	],
 	"codePoints": "--09az"
 }

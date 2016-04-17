@@ -7,7 +7,9 @@
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
 		"a.ns.nic.casa",
-		"b.ns.nic.casa"
+		"b.ns.nic.casa",
+		"c.ns.nic.casa",
+		"d.ns.nic.casa"
 	],
 	"codePoints": "--09az"
 }

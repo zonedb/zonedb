@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.statebank",
+		"a2.nic.statebank",
+		"b0.nic.statebank",
+		"c0.nic.statebank"
+	],
 	"codePoints": "--09az"
 }
