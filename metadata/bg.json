@@ -14,5 +14,14 @@
 		"ns-ext.isc.org",
 		"sns-pb.isc.org",
 		"bg.cctld.authdns.ripe.net"
-	]
+	],
+	"codePoints": "--09аяёё",
+	"idnTables": {
+		"bg": "--09аъььюя",
+		"ru": "--09аяёё"
+	},
+	"idnTableURLs": {
+		"bg": "https://www.iana.org/domains/idn-tables/tables/bg_bg-bg_1.0.html",
+		"ru": "https://www.iana.org/domains/idn-tables/tables/bg_ru-bg_1.0.html"
+	}
 }

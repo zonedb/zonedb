@@ -71,10 +71,19 @@ var TagValues = map[string]Tags{
 
 // _c stores Unicode code point ranges allowed in each Zone by the registry.
 // Rune values alternate low, high.
-var _c = [6]rune{
+var _c = [24]rune{
 	'-', '-',
 	'0', '9',
 	'a', 'z',
+	'-', '-',
+	'0', '9',
+	'а', 'я',
+	'ё', 'ё',
+	'-', '-',
+	'0', '9',
+	'а', 'ъ',
+	'ь', 'ь',
+	'ю', 'я',
 }
 
 // Zones is a slice of all Zones in the database.
@@ -241,7 +250,7 @@ var _y = [4352]Zone{
 	{"bestbuy", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"bet", nil, nil, _c[0:6], nil, NS{"a0.nic.bet", "a2.nic.bet", "b0.nic.bet", "c0.nic.bet"}, nil, "whois.afilias.net", "", "http://newgtlds.icann.org/", 0x40},
 	{"bf", nil, _z[1890:1891], nil, nil, NS{"nahouri.onatel.bf", "ns1.ird.fr", "ns1.as6453.net", "ns2.as6453.net"}, nil, "", "", "", 0xa0},
-	{"bg", nil, _z[1891:1927], nil, nil, NS{"ns.register.bg", "ns2.register.bg", "ns3.register.bg", "ns4.register.bg", "ns-ext.isc.org", "sns-pb.isc.org", "bg.cctld.authdns.ripe.net"}, nil, "whois.register.bg", "", "https://www.register.bg/user/", 0xa0},
+	{"bg", nil, _z[1891:1927], _c[6:14], IDNT{"bg": _c[14:24], "ru": _c[6:14]}, NS{"ns.register.bg", "ns2.register.bg", "ns3.register.bg", "ns4.register.bg", "ns-ext.isc.org", "sns-pb.isc.org", "bg.cctld.authdns.ripe.net"}, nil, "whois.register.bg", "", "https://www.register.bg/user/", 0xa0},
 	{"bh", nil, _z[1927:1935], _c[0:6], nil, NS{"ns.batelco.com.bh", "ns2.batelco.com.bh", "ns3.batelco.com.bh", "ns4.batelco.com.bh"}, nil, "", "", "", 0xa0},
 	{"bharti", nil, nil, _c[0:6], nil, NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"bi", nil, _z[1935:1945], _c[0:6], nil, NS{"anyns.nic.bi", "ns.nic.bi", "ns1.nic.bi", "dns.princeton.edu", "ns-bi.afrinic.net", "bi.cctld.authdns.ripe.net"}, nil, "whois1.nic.bi", "", "", 0xa0},
