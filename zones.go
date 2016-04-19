@@ -3947,7 +3947,7 @@ var _y = [4352]Zone{
 	{"es.tc", &_z[1362], nil, nil, nil, nil, "", "", "", 0x0},
 	{"eu.tc", &_z[1362], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"hk.tc", &_z[1362], nil, _c[0:6], NS{"ns1.alidns.com", "ns2.alidns.com"}, nil, "", "", "", 0x0},
-	{"hu.tc", &_z[1362], nil, _c[0:6], nil, nil, "", "", "", 0x0},
+	{"hu.tc", &_z[1362], nil, _c[0:6], NS{"server1.domainnameinquiry.com", "server2.domainnameinquiry.com"}, nil, "", "", "", 0x0},
 	{"ie.tc", &_z[1362], nil, _c[0:6], NS{"ns1.parkingcrew.net", "ns2.parkingcrew.net"}, nil, "", "", "", 0x0},
 	{"int.tc", &_z[1362], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"it.tc", &_z[1362], nil, _c[0:6], NS{"ns.udag.de", "ns.udagdns.de", "ns.udag.net", "ns.udagdns.net", "ns.udag.org"}, nil, "", "", "", 0x0},

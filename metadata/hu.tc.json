@@ -1,4 +1,8 @@
 {
 	"domain": "hu.tc",
+	"nameServers": [
+		"server1.domainnameinquiry.com",
+		"server2.domainnameinquiry.com"
+	],
 	"codePoints": "--09az"
 }
