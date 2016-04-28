@@ -10,7 +10,11 @@
 		"a.nic.komatsu",
 		"b.nic.komatsu",
 		"c.nic.komatsu",
-		"d.nic.komatsu"
+		"d.nic.komatsu",
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net"
 	],
 	"codePoints": "--09az"
 }

@@ -10,7 +10,11 @@
 		"a.nic.kia",
 		"b.nic.kia",
 		"c.nic.kia",
-		"d.nic.kia"
+		"d.nic.kia",
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net"
 	],
 	"codePoints": "--09az"
 }
