@@ -10,7 +10,11 @@
 		"a.nic.hyundai",
 		"b.nic.hyundai",
 		"c.nic.hyundai",
-		"d.nic.hyundai"
+		"d.nic.hyundai",
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net"
 	],
 	"codePoints": "--09az"
 }

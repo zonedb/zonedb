@@ -10,7 +10,11 @@
 		"a.nic.epson",
 		"b.nic.epson",
 		"c.nic.epson",
-		"d.nic.epson"
+		"d.nic.epson",
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net"
 	],
 	"codePoints": "--09az"
 }
