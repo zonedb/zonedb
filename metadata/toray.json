@@ -7,6 +7,10 @@
 	],
 	"whoisServer": "whois.nic.toray",
 	"nameServers": [
+		"a.gmoregistry.net",
+		"b.gmoregistry.net",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net",
 		"a.nic.toray",
 		"b.nic.toray",
 		"c.nic.toray",
