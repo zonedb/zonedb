@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.teva",
 	"nameServers": [
 		"ns1.dns.nic.teva",
 		"ns2.dns.nic.teva",
