@@ -3,5 +3,12 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"generic"
+	],
+	"whoisServer": "whois.nic.العليان",
+	"nameServers": [
+		"a.nic.العليان",
+		"b.nic.العليان",
+		"c.nic.العليان",
+		"d.nic.العليان"
 	]
 }
