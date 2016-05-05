@@ -1,7 +1,6 @@
 package zonedb
 
 import (
-	"errors"
 	"fmt"
 	"testing"
 	"unsafe"
@@ -163,31 +162,15 @@ type idnTest struct {
 	Error       error
 }
 
-func TestZone_IsValidDomain(t *testing.T) {
-	data := []idnTest{
-		{Zone: "jobs", Domain: "test.jobs", Valid: true},
-		{Zone: "jobs", Domain: "tést.jobs", Valid: false},
-		{Zone: "jobs", Domain: "test.com", Valid: false},
-		{Zone: "com", Domain: "test.com", Valid: true},
-		{Zone: "com", Domain: "tést.com", Valid: true},
-	}
-	for _, d := range data {
-		res := ZoneMap[d.Zone].IsValidDomain(d.Domain)
-		if res != d.Valid {
-			t.Errorf(`Expected Zones[%q].IsValidDomain(%q) == %t, got %t`, d.Zone, d.Domain, d.Valid, res)
-		}
-	}
-}
-
 func TestZone_IDNTable(t *testing.T) {
 	data := []idnTest{
-		{Zone: "jobs", Domain: "test.jobs", ValidTables: []string{""}},
-		{Zone: "jobs", Domain: "tést.jobs", Error: errors.New("domain is not a valid member of the zone")},
-		{Zone: "jobs", Domain: "test.com", Error: errors.New("domain is not a member of the zone")},
-		{Zone: "com", Domain: "test.com", ValidTables: []string{""}},
-		{Zone: "bg", Domain: "здравей.bg", ValidTables: []string{"bg", "ru"}},
-		{Zone: "bg", Domain: "здравей.всё.bg", ValidTables: []string{"ru"}},
-		{Zone: "bg", Domain: "tést.bg", Error: errors.New("domain is not a valid member of the zone")},
+		{Zone: "jobs", Domain: "test", ValidTables: []string{""}},
+		{Zone: "jobs", Domain: "tést", Error: ErrCodePointsOutOfRange},
+		{Zone: "jobs", Domain: "test", ValidTables: []string{""}},
+		{Zone: "com", Domain: "test", ValidTables: []string{""}},
+		{Zone: "bg", Domain: "здравей", ValidTables: []string{"bg", "ru"}},
+		{Zone: "bg", Domain: "всё", ValidTables: []string{"ru"}},
+		{Zone: "bg", Domain: "tést", Error: ErrCodePointsOutOfRange},
 	}
 	for _, d := range data {
 		table, err := ZoneMap[d.Zone].IDNTable(d.Domain)

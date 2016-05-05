@@ -3,8 +3,6 @@ package zonedb
 import (
 	"errors"
 	"strings"
-
-	"golang.org/x/net/idna"
 )
 
 //go:generate go run build/cmd/zonedb/main.go -generate-go
@@ -120,83 +118,41 @@ func (z *Zone) IsInRootZone() bool {
 	return z.IsTLD() && z.IsDelegated()
 }
 
-// Checks to see if a domain is valid according to character set restriction
-// on the zone.
-// Input must be normalized by the client (lowercase, ASCII-encoded).
-func (z *Zone) IsValidDomain(domain string) bool {
-	if !z.isSubdomain(domain) {
-		return false
-	}
-	if len(z.CodePoints) == 0 {
-		return true
-	}
-	// Don't check the suffix since we've already done that
-	return labelsInCodePoints(z.unicodeLabels(domain), z.CodePoints)
-}
+var (
+	ErrCodePointsOutOfRange = errors.New("string contains Unicode code points out of range for this zone")
+	ErrIDNTableNotFound     = errors.New("matching IDN table not found")
+)
 
-var ErrNotSubdomain = errors.New("domain is not a member of the zone")
-
-// Return the IDN table language the domain matches. Returns an empty string
+// Return the IDN table for the given Unicode string s. Returns an empty string
 // if no IDN tables are defined for the zone or if the domain is not an IDN.
-// Input must be normalized by the client (lowercase, ASCII-encoded).
-func (z *Zone) IDNTable(domain string) (lang string, err error) {
-	if !z.isSubdomain(domain) {
-		return "", ErrNotSubdomain
-	}
-
+// Input string MUST be UTF-8 Unicode, not ASCII/Punycode.
+func (z *Zone) IDNTable(s string) (lang string, err error) {
 	// A blank IDN table language indicates no IDN tables are present
+	// FIXME: return "ASCII"?
 	if len(z.CodePoints) == 0 {
 		return "", nil
 	}
-
-	// Don't check the suffix since we've already done that, and make sure
-	// we are working with the unicode form, since the ASCII form will never
-	// match an IDN table
-	labels := z.unicodeLabels(domain)
 
 	// Ensure it is an IDN
-	if labelsInCodePoints(labels, asciiCodePoints) {
+	// FIXME: return "ASCII"?
+	if stringInCodePoints(s, asciiCodePoints) {
 		return "", nil
 	}
 
-	if !labelsInCodePoints(labels, z.CodePoints) {
-		return "", errors.New("domain is not a valid member of the zone")
+	if !stringInCodePoints(s, z.CodePoints) {
+		return "", ErrCodePointsOutOfRange
 	}
 
 	for lang, points := range z.IDNTables {
-		if labelsInCodePoints(labels, points) {
+		if stringInCodePoints(s, points) {
 			return lang, nil
 		}
 	}
 
-	return "", errors.New("domain is not a valid IDN of the zone")
-}
-
-func (z *Zone) isSubdomain(domain string) bool {
-	if len(domain) < len(z.Domain)+2 {
-		return false
-	}
-	if domain[len(domain)-len(z.Domain)-1] != '.' {
-		return false
-	}
-	return strings.HasSuffix(domain, z.Domain)
-}
-
-func (z *Zone) unicodeLabels(domain string) []string {
-	prefix, _ := idna.ToUnicode(domain[:len(domain)-len(z.Domain)-1])
-	return strings.Split(prefix, ".")
+	return "", ErrIDNTableNotFound
 }
 
 var asciiCodePoints = []rune{'-', '-', '0', '9', 'a', 'z'}
-
-func labelsInCodePoints(labels []string, points []rune) bool {
-	for _, l := range labels {
-		if !stringInCodePoints(l, points) {
-			return false
-		}
-	}
-	return true
-}
 
 func stringInCodePoints(s string, points []rune) bool {
 	var min rune = '\U0010FFFF'
