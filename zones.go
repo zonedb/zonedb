@@ -1122,7 +1122,7 @@ var _y = [4352]Zone{
 	{"office", nil, nil, _c[0:6], NS{"ns1.dns.nic.office", "ns2.dns.nic.office", "ns3.dns.nic.office", "ns4.dns.nic.office", "ns5.dns.nic.office", "ns6.dns.nic.office"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"okinawa", nil, nil, nil, NS{"a.gmoregistry.net", "b.gmoregistry.net", "c.gmoregistry.net", "d.gmoregistry.net", "e.gmoregistry.net", "g.gmoregistry.net", "h.gmoregistry.net", "i.gmoregistry.net", "j.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, L{"Okinawa", "JP-47"}, "whois.nic.okinawa", "", "", 0xc4},
 	{"olayan", nil, nil, _c[0:6], NS{"a.nic.olayan", "b.nic.olayan", "c.nic.olayan", "d.nic.olayan"}, nil, "whois.nic.olayan", "", "http://newgtlds.icann.org/", 0x42},
-	{"olayangroup", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
+	{"olayangroup", nil, nil, _c[0:6], NS{"a.nic.olayangroup", "b.nic.olayangroup", "c.nic.olayangroup", "d.nic.olayangroup"}, nil, "whois.nic.olayangroup", "", "http://newgtlds.icann.org/", 0x42},
 	{"oldnavy", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"ollo", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"olympus", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x2042},
