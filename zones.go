@@ -3031,7 +3031,7 @@ var _y = [4352]Zone{
 	{"gov.ml", &_z[920], nil, _c[0:6], NS{"dns.gouv.ml", "djamako.nic.ml", "ns1.ribtelecom.net", "a.ns40.microtics.pro"}, nil, "", "", "", 0x0},
 	{"net.ml", &_z[920], nil, _c[0:6], NS{"dns.gouv.ml", "djamako.nic.ml", "ns1.ribtelecom.net", "a.ns40.microtics.pro"}, nil, "", "", "", 0x0},
 	{"org.ml", &_z[920], nil, _c[0:6], NS{"dns.gouv.ml", "djamako.nic.ml", "ns1.ribtelecom.net"}, nil, "", "", "", 0x0},
-	{"presse.ml", &_z[920], nil, _c[0:6], NS{"ns01.freenom.com", "ns02.freenom.com", "ns03.freenom.com", "ns04.freenom.com", "ns1.nllander.ml", "ns2.nllander.ml", "bt1.acquahost.com.br", "bt2.acquahost.com.br", "os1.acquahost.com.br", "os2.acquahost.com.br"}, nil, "", "", "", 0x0},
+	{"presse.ml", &_z[920], nil, _c[0:6], NS{"ns01.freenom.com", "ns02.freenom.com", "ns03.freenom.com", "ns04.freenom.com", "bt1.servidordedicado.info", "bt2.servidordedicado.info", "ns1.nllander.ml", "ns2.nllander.ml", "bt1.acquahost.com.br", "bt2.acquahost.com.br", "os1.acquahost.com.br", "os2.acquahost.com.br"}, nil, "", "", "", 0x0},
 	{"biz.mm", &_z[923], nil, _c[0:6], NS{"ns.mmnic.net.mm"}, nil, "", "", "", 0x0},
 	{"com.mm", &_z[923], nil, _c[0:6], NS{"ns0.nic.net.mm", "ns1.nic.net.mm", "ns2.nic.net.mm", "mm.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"edu.mm", &_z[923], nil, _c[0:6], NS{"ns0.nic.net.mm", "ns1.nic.net.mm", "ns2.nic.net.mm", "mm.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
