@@ -590,7 +590,7 @@ var _y = [4352]Zone{
 	{"fk", nil, _z[2341:2347], _c[0:6], NS{"euro-ns1.cw.net", "euro-ns2.cw.net", "euro-ns3.cw.net", "ns.horizon.net.fk"}, nil, "", "http://whois.marcaria.com", "", 0xa8},
 	{"flickr", nil, nil, _c[0:6], NS{"ns1.dns.nic.flickr", "ns2.dns.nic.flickr", "ns3.dns.nic.flickr", "ns4.dns.nic.flickr", "ns5.dns.nic.flickr", "ns6.dns.nic.flickr"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"flights", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
-	{"flir", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
+	{"flir", nil, nil, _c[0:6], NS{"ns1.dns.nic.flir", "ns2.dns.nic.flir", "ns3.dns.nic.flir", "ns4.dns.nic.flir", "ns5.dns.nic.flir", "ns6.dns.nic.flir"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"florist", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"flowers", nil, nil, nil, NS{"tld.isc-sns.com", "tld.isc-sns.info", "tld.isc-sns.net", "ns1.uniregistry.net", "a.flowers.dyntld.net", "b.flowers.dyntld.net", "c.flowers.dyntld.net", "a.ns.uniregistry.net"}, nil, "whois.uniregistry.net", "", "http://newgtlds.icann.org/", 0x40},
 	{"fls", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x2042},

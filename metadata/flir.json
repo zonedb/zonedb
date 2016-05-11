@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.flir",
+		"ns2.dns.nic.flir",
+		"ns3.dns.nic.flir",
+		"ns4.dns.nic.flir",
+		"ns5.dns.nic.flir",
+		"ns6.dns.nic.flir"
+	],
 	"codePoints": "--09az"
 }
