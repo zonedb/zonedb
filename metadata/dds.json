@@ -4,5 +4,12 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois-dub.mm-registry.com",
+	"nameServers": [
+		"a.ns.nic.dds",
+		"b.ns.nic.dds",
+		"c.ns.nic.dds",
+		"d.ns.nic.dds"
+	],
 	"codePoints": "--09az"
 }

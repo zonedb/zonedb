@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.nowtv",
+		"a2.nic.nowtv",
+		"b0.nic.nowtv",
+		"c0.nic.nowtv"
+	],
 	"codePoints": "--09az"
 }

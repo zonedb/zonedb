@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.metlife",
+		"a2.nic.metlife",
+		"b0.nic.metlife",
+		"c0.nic.metlife"
+	],
 	"codePoints": "--09az"
 }
