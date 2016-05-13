@@ -729,7 +729,7 @@ var _y = [4352]Zone{
 	{"hitachi", nil, nil, _c[0:6], NS{"a.gmoregistry.net", "b.gmoregistry.net", "c.gmoregistry.net", "d.gmoregistry.net", "e.gmoregistry.net", "g.gmoregistry.net", "h.gmoregistry.net", "i.gmoregistry.net", "j.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, nil, "whois.nic.gmo", "", "http://newgtlds.icann.org/", 0x42},
 	{"hiv", nil, nil, nil, NS{"a0.nic.hiv", "a2.nic.hiv", "b0.nic.hiv", "c0.nic.hiv", "ns1.uniregistry.net", "a.hiv.dyntld.net", "b.hiv.dyntld.net", "c.hiv.dyntld.net"}, nil, "whois.uniregistry.net", "", "", 0x40},
 	{"hk", nil, _z[2480:2489], nil, NS{"b.hkirc.net.hk", "c.hkirc.net.hk", "d.hkirc.net.hk", "e.hkirc.net.hk", "u.hkirc.net.hk", "v.hkirc.net.hk", "w.hkirc.net.hk", "x.hkirc.net.hk", "y.hkirc.net.hk", "z.hkirc.net.hk"}, nil, "whois.hkirc.hk", "", "", 0xa0},
-	{"hkt", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
+	{"hkt", nil, nil, _c[0:6], NS{"a0.nic.hkt", "a2.nic.hkt", "b0.nic.hkt", "c0.nic.hkt"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"hm", nil, nil, _c[0:6], NS{"ns1.registry.hm", "ns2.registry.hm", "ns3.registry.hm"}, nil, "whois.registry.hm", "", "http://www.registry.hm/", 0xa0},
 	{"hn", nil, _z[2489:2495], _c[0:6], NS{"sns-pb.isc.org", "nicmx-anycast.rds.org.hn", "pch-anycast.rds.org.hn"}, nil, "whois.nic.hn", "", "", 0xa0},
 	{"hockey", nil, nil, _c[0:6], NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x40},
