@@ -696,7 +696,7 @@ var _y = [4352]Zone{
 	{"gs", nil, nil, _c[0:6], NS{"ns.anycast.nic.gs", "a.gs.dyntld.net", "b.gs.dyntld.net", "gs.cctld.authdns.ripe.net"}, nil, "whois.nic.gs", "", "", 0xa0},
 	{"gt", nil, _z[2462:2469], _c[0:6], NS{"pch.gt", "ns.dns.br", "ns3.nic.mx", "osi2.gua.net", "sns-pb.isc.org", "ns.uvg.edu.gt"}, nil, "", "http://www.gt/", "", 0xa0},
 	{"gu", nil, _z[2469:2476], _c[0:6], NS{"ns.gu", "ns.edu.gu", "nsuog.edu.gu", "gu.cctld.authdns.ripe.net"}, nil, "", "http://gadao.gov.gu/domainsearch.htm", "http://gadao.gov.gu", 0xa0},
-	{"guardian", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
+	{"guardian", nil, nil, _c[0:6], NS{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"guardianlife", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x2042},
 	{"guardianmedia", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x2042},
 	{"gucci", nil, nil, _c[0:6], NS{"ns1.dns.nic.gucci", "ns2.dns.nic.gucci", "ns3.dns.nic.gucci", "ns4.dns.nic.gucci", "ns5.dns.nic.gucci", "ns6.dns.nic.gucci"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
