@@ -3940,7 +3940,7 @@ var _y = [4352]Zone{
 	{"br.tc", &_z[1362], nil, _c[0:6], NS{"ns1.parkingcrew.net", "ns2.parkingcrew.net"}, nil, "", "", "", 0x0},
 	{"ch.tc", &_z[1362], nil, _c[0:6], NS{"ns1.alidns.com", "ns2.alidns.com"}, nil, "", "", "", 0x0},
 	{"com.tc", &_z[1362], nil, nil, NS{"root1.zone.tc", "root2.zone.tc", "root3.zone.tc", "root4.zone.tc", "root5.zone.tc", "root6.zone.tc", "root7.zone.tc", "root8.zone.tc"}, nil, "", "", "", 0x0},
-	{"cz.tc", &_z[1362], nil, _c[0:6], NS{"f1g1ns1.dnspod.net", "f1g1ns2.dnspod.net", "suspended.nic.tc"}, nil, "", "", "", 0x0},
+	{"cz.tc", &_z[1362], nil, _c[0:6], NS{"f1g1ns1.dnspod.net", "f1g1ns2.dnspod.net", "default1.nic.tc", "default2.nic.tc", "suspended.nic.tc"}, nil, "", "", "", 0x0},
 	{"de.tc", &_z[1362], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"dk.tc", &_z[1362], nil, _c[0:6], NS{"ns1.4.cn", "ns2.4.cn"}, nil, "", "", "", 0x0},
 	{"edu.tc", &_z[1362], nil, _c[0:6], nil, nil, "", "", "", 0x0},
