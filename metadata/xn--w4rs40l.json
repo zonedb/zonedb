@@ -1,4 +1,11 @@
 {
 	"domain": "嘉里",
-	"infoURL": "http://newgtlds.icann.org/"
+	"infoURL": "http://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.嘉里",
+	"nameServers": [
+		"ac1.nstld.com",
+		"ac2.nstld.com",
+		"ac3.nstld.com",
+		"ac4.nstld.com"
+	]
 }
