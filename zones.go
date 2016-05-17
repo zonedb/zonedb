@@ -1763,7 +1763,7 @@ var _y = [4352]Zone{
 	{"xn--czru2d" /* 商城 */, nil, nil, nil, NS{"a.zdnscloud.com", "b.zdnscloud.com", "c.zdnscloud.com", "d.zdnscloud.com", "e.zdnscloud.com", "f.zdnscloud.com", "g.zdnscloud.com", "i.zdnscloud.com", "j.zdnscloud.com"}, nil, "whois.gtld.knet.cn", "", "", 0x0},
 	{"xn--czrs0t" /* 商店 */, nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x0},
 	{"xn--czr694b" /* 商标 */, nil, nil, nil, NS{"a.zdnscloud.com", "b.zdnscloud.com", "c.zdnscloud.com", "d.zdnscloud.com", "e.zdnscloud.com", "f.zdnscloud.com", "g.zdnscloud.com", "i.zdnscloud.com", "j.zdnscloud.com"}, nil, "", "", "http://newgtlds.icann.org/", 0x0},
-	{"xn--w4rs40l" /* 嘉里 */, nil, nil, nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x0},
+	{"xn--w4rs40l" /* 嘉里 */, nil, nil, nil, NS{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, nil, "whois.nic.xn--w4rs40l", "", "http://newgtlds.icann.org/", 0x0},
 	{"xn--w4r85el8fhu5dnra" /* 嘉里大酒店 */, nil, nil, nil, NS{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, nil, "whois.nic.xn--w4r85el8fhu5dnra", "", "http://newgtlds.icann.org/", 0x40},
 	{"xn--3ds443g" /* 在线 */, nil, nil, nil, NS{"a0.nic.xn--3ds443g", "a2.nic.xn--3ds443g", "b0.nic.xn--3ds443g", "c0.nic.xn--3ds443g"}, nil, "whois.afilias-srs.net", "", "", 0x0},
 	{"xn--3oq18vl8pn36a" /* 大众汽车 */, nil, nil, nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
