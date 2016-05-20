@@ -1,4 +1,10 @@
 {
 	"domain": "be.tt",
+	"nameServers": [
+		"ns1.netnames.net",
+		"ns2.netnames.net",
+		"ns5.netnames.net",
+		"ns6.netnames.net"
+	],
 	"codePoints": "--09az"
 }
