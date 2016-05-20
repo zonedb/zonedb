@@ -4071,7 +4071,7 @@ var _y = [4352]Zone{
 	{"aero.tt", &_z[1431], nil, nil, nil, nil, "", "", "", 0x0},
 	{"at.tt", &_z[1431], _z[4337:4338], _c[0:6], NS{"a.ns.viennaweb.at", "b.ns.viennaweb.at"}, nil, "", "", "", 0x0},
 	{"au.tt", &_z[1431], _z[4338:4339], _c[0:6], nil, nil, "", "", "", 0x0},
-	{"be.tt", &_z[1431], nil, _c[0:6], nil, nil, "", "", "", 0x0},
+	{"be.tt", &_z[1431], nil, _c[0:6], NS{"ns1.netnames.net", "ns2.netnames.net", "ns5.netnames.net", "ns6.netnames.net"}, nil, "", "", "", 0x0},
 	{"biz.tt", &_z[1431], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"ca.tt", &_z[1431], nil, _c[0:6], nil, nil, "", "", "", 0x0},
 	{"cat.tt", &_z[1431], nil, nil, NS{"ns-455.awsdns-56.com", "ns-732.awsdns-27.net", "ns-1084.awsdns-07.org", "ns-1826.awsdns-36.co.uk"}, nil, "", "", "", 0x0},
