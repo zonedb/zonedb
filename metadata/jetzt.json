@@ -10,6 +10,10 @@
 		"ns3.dns.nic.jetzt",
 		"ns4.dns.nic.jetzt",
 		"ns5.dns.nic.jetzt",
-		"ns6.dns.nic.jetzt"
+		"ns6.dns.nic.jetzt",
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
 	]
 }
