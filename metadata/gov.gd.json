@@ -6,7 +6,9 @@
 		"ns61.domaincontrol.com",
 		"ns62.domaincontrol.com",
 		"ns73.domaincontrol.com",
-		"ns74.domaincontrol.com"
+		"ns74.domaincontrol.com",
+		"pdns07.domaincontrol.com",
+		"pdns08.domaincontrol.com"
 	],
 	"codePoints": "--09az"
 }
