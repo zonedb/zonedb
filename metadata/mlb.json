@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.mlb",
+		"ns2.dns.nic.mlb",
+		"ns3.dns.nic.mlb",
+		"ns4.dns.nic.mlb",
+		"ns5.dns.nic.mlb",
+		"ns6.dns.nic.mlb"
+	],
 	"codePoints": "--09az"
 }
