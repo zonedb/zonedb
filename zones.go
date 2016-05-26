@@ -1010,7 +1010,7 @@ var _y = [4352]Zone{
 	{"mitsubishi", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"mk", nil, _z[2929:2937], _c[0:6], NS{"tld1.marnet.mk", "ns2.arnes.si", "dns-mk.univie.ac.at", "d.ext.nic.cz"}, nil, "whois.marnet.mk", "", "", 0xa0},
 	{"ml", nil, _z[2937:2943], _c[0:6], NS{"a.ns.ml", "b.ns.ml", "c.ns.ml", "d.ns.ml"}, nil, "whois.dot.ml", "", "", 0xa0},
-	{"mlb", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
+	{"mlb", nil, nil, _c[0:6], NS{"ns1.dns.nic.mlb", "ns2.dns.nic.mlb", "ns3.dns.nic.mlb", "ns4.dns.nic.mlb", "ns5.dns.nic.mlb", "ns6.dns.nic.mlb"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"mls", nil, nil, _c[0:6], NS{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, nil, "whois.nic.mls", "", "http://newgtlds.icann.org/", 0x40},
 	{"mm", nil, _z[2943:2951], _c[0:6], NS{"ns0.nic.net.mm", "ns1.nic.net.mm", "ns2.nic.net.mm", "mm.cctld.authdns.ripe.net"}, nil, "whois.nic.mm", "", "", 0xa8},
 	{"mma", nil, nil, _c[0:6], NS{"d.nic.fr", "f.ext.nic.fr", "g.ext.nic.fr"}, nil, "whois-mma.nic.fr", "", "http://newgtlds.icann.org/", 0x42},
