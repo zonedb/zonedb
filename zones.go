@@ -569,7 +569,7 @@ var _y = [4352]Zone{
 	{"feedback", nil, nil, _c[0:6], NS{"a.nic.feedback", "b.nic.feedback", "c.nic.feedback", "d.nic.feedback"}, nil, "whois.nic.feedback", "", "http://newgtlds.icann.org/", 0x40},
 	{"ferrari", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"ferrero", nil, nil, _c[0:6], NS{"ns1.dns.nic.ferrero", "ns2.dns.nic.ferrero", "ns3.dns.nic.ferrero", "ns4.dns.nic.ferrero", "ns5.dns.nic.ferrero", "ns6.dns.nic.ferrero"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
-	{"fi", nil, nil, nil, NS{"a.fi", "b.fi", "c.fi", "d.fi", "e.fi", "f.fi", "g.fi"}, nil, "whois.fi", "", "", 0xa0},
+	{"fi", nil, nil, nil, NS{"a.fi", "b.fi", "c.fi", "d.fi", "e.fi", "f.fi", "g.fi", "h.fi"}, nil, "whois.fi", "", "", 0xa0},
 	{"fiat", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"fidelity", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"fido", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
