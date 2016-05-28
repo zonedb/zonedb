@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.locker",
+		"a2.nic.locker",
+		"b0.nic.locker",
+		"c0.nic.locker"
+	],
 	"codePoints": "--09az"
 }
