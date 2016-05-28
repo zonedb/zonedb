@@ -5,5 +5,12 @@
 		"closed",
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.ott",
+		"a2.nic.ott",
+		"b0.nic.ott",
+		"c0.nic.ott"
+	],
 	"codePoints": "--09az"
 }
