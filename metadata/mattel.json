@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.mattel",
+		"ns2.dns.nic.mattel",
+		"ns3.dns.nic.mattel",
+		"ns4.dns.nic.mattel",
+		"ns5.dns.nic.mattel",
+		"ns6.dns.nic.mattel"
+	],
 	"codePoints": "--09az"
 }
