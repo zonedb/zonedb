@@ -1543,7 +1543,7 @@ var _y = [4352]Zone{
 	{"university", nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"uno", nil, nil, _c[0:6], NS{"ns1.dns.nic.uno", "ns2.dns.nic.uno", "ns3.dns.nic.uno", "ns4.dns.nic.uno", "ns5.dns.nic.uno", "ns6.dns.nic.uno", "ns7.dns.nic.uno"}, nil, "whois.nic.uno", "", "", 0x40},
 	{"uol", nil, nil, _c[0:6], NS{"a.dns.br", "b.dns.br", "c.dns.br", "d.dns.br", "e.dns.br", "f.dns.br"}, nil, "whois.gtlds.nic.br", "", "http://newgtlds.icann.org/", 0x42},
-	{"ups", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
+	{"ups", nil, nil, _c[0:6], NS{"a0.nic.ups", "a2.nic.ups", "b0.nic.ups", "c0.nic.ups"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"us", nil, _z[4121:4181], _c[0:6], NS{"a.cctld.us", "b.cctld.us", "c.cctld.us", "e.cctld.us", "f.cctld.us", "k.cctld.us"}, nil, "whois.nic.us", "", "", 0xa0},
 	{"uy", nil, _z[4181:4187], _c[0:6], NS{"ns.dns.br", "ns3.nic.mx", "sns-pb.isc.org", "seciu.edu.uy", "a.nic.uy", "b.nic.uy", "ultra.seciu.uy", "ns1.anteldata.com.uy", "ns2.anteldata.com.uy", "uy.cctld.authdns.ripe.net"}, nil, "whois.nic.org.uy", "", "", 0xa0},
 	{"uz", nil, _z[4187:4201], _c[0:6], NS{"ns.uz", "ns2.uz", "ns3.uz", "ns4.uz", "ns5.uz", "ns6.uz", "ns7.uz"}, nil, "whois.cctld.uz", "", "", 0xa0},
