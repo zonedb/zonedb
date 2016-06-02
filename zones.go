@@ -1466,7 +1466,7 @@ var _y = [4352]Zone{
 	{"terra", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"teva", nil, nil, _c[0:6], NS{"ns1.dns.nic.teva", "ns2.dns.nic.teva", "ns3.dns.nic.teva", "ns4.dns.nic.teva", "ns5.dns.nic.teva", "ns6.dns.nic.teva"}, nil, "whois.nic.teva", "", "http://newgtlds.icann.org/", 0x42},
 	{"tf", nil, _z[3880:3894], nil, NS{"d.nic.fr", "d.ext.nic.fr", "e.ext.nic.fr", "f.ext.nic.fr", "g.ext.nic.fr"}, nil, "whois.nic.tf", "", "", 0xa0},
-	{"tg", nil, nil, _c[0:6], NS{"ns1.admin.net", "ns2.admin.net", "ns3.admin.net", "ns4.admin.net", "ns5.admin.net", "tld.cafe.tg"}, nil, "whois.nic.tg", "http://www.nic.tg/", "", 0xa0},
+	{"tg", nil, nil, _c[0:6], NS{"ns1.admin.net", "ns2.admin.net", "ns3.admin.net", "ns4.admin.net", "ns5.admin.net", "tld.cafe.tg", "ns1.nic.tg", "ns2.nic.tg"}, nil, "whois.nic.tg", "http://www.nic.tg/", "", 0xa0},
 	{"th", nil, _z[3894:3901], nil, NS{"ns.thnic.net", "ams.sns-pb.isc.org", "sfba.sns-pb.isc.org", "a.thains.co.th", "b.thains.co.th", "c.thains.co.th", "dns1.thnic.co.th", "ns-a.thnic.co.th", "ns-e.thnic.co.th", "th.cctld.authdns.ripe.net"}, nil, "whois.thnic.co.th", "", "http://www.thnic.co.th/", 0xa8},
 	{"thai", nil, nil, _c[0:6], nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"thd", nil, nil, _c[0:6], NS{"a0.nic.thd", "a2.nic.thd", "b0.nic.thd", "c0.nic.thd"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
