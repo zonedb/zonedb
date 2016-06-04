@@ -4,5 +4,12 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.rightside.co",
+	"nameServers": [
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
+	],
 	"codePoints": "--09az"
 }
