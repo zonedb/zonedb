@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a.ns.nic.dhl",
+		"c.ns.nic.dhl",
+		"x.ns.nic.dhl",
+		"y.ns.nic.dhl"
+	],
 	"codePoints": "--09az"
 }
