@@ -1666,7 +1666,7 @@ var _y = [4352]Zone{
 	{"xn--qxam" /* ελ */, nil, nil, nil, NS{"grdns-de.denic.de", "estia.ics.forth.gr", "gr-at.ics.forth.gr", "gr-ix.ics.forth.gr", "grdns.ics.forth.gr"}, nil, "", "https://grweb.ics.forth.gr/public/whois.jsp?lang=en", "", 0x0},
 	{"xn--90ais" /* бел */, nil, nil, nil, NS{"dns1.tld.tutby.com", "dns2.tld.tutby.com", "dns3.tld.tutby.com", "dns4.tld.tutby.com", "dns5.tld.tutby.com", "dns6.tld.tutby.com", "dns7.tld.tutby.com"}, nil, "whois.cctld.by", "", "", 0x40},
 	{"xn--d1acj3b" /* дети */, nil, nil, nil, NS{"a.dns.ripn.net", "b.dns.ripn.net", "d.dns.ripn.net", "e.dns.ripn.net", "f.dns.ripn.net"}, nil, "whois.nic.xn--d1acj3b", "", "", 0x40},
-	{"xn--e1a4c" /* ею */, nil, nil, nil, NS{"cz.dns.eu", "nl.dns.eu", "si.dns.eu", "uk.dns.eu", "x.dns.eu", "y.dns.eu"}, nil, "", "", "", 0x0},
+	{"xn--e1a4c" /* ею */, nil, nil, nil, NS{"cz.dns.eu", "nl.dns.eu", "si.dns.eu", "uk.dns.eu", "x.dns.eu", "y.dns.eu"}, nil, "whois.eu", "", "", 0x0},
 	{"xn--80akhbyknj4f" /* испытание */, nil, nil, nil, nil, nil, "", "", "", 0x40},
 	{"xn--80aqecdr1a" /* католик */, nil, nil, nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"xn--j1aef" /* ком */, nil, nil, nil, NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "whois.nic.xn--j1aef", "", "http://newgtlds.icann.org/", 0x40},
