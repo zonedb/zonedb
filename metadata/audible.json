@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.audible",
+		"ns2.dns.nic.audible",
+		"ns3.dns.nic.audible",
+		"ns4.dns.nic.audible",
+		"ns5.dns.nic.audible",
+		"ns6.dns.nic.audible"
+	],
 	"codePoints": "--09az"
 }
