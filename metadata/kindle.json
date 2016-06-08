@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.kindle",
+		"ns2.dns.nic.kindle",
+		"ns3.dns.nic.kindle",
+		"ns4.dns.nic.kindle",
+		"ns5.dns.nic.kindle",
+		"ns6.dns.nic.kindle"
+	],
 	"codePoints": "--09az"
 }

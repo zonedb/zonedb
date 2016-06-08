@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a.ns.nic.epost",
+		"c.ns.nic.epost",
+		"x.ns.nic.epost",
+		"y.ns.nic.epost"
+	],
 	"codePoints": "--09az"
 }

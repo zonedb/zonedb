@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.silk",
+		"ns2.dns.nic.silk",
+		"ns3.dns.nic.silk",
+		"ns4.dns.nic.silk",
+		"ns5.dns.nic.silk",
+		"ns6.dns.nic.silk"
+	],
 	"codePoints": "--09az"
 }

@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.chintai",
+		"ns2.dns.nic.chintai",
+		"ns3.dns.nic.chintai",
+		"ns4.dns.nic.chintai",
+		"ns5.dns.nic.chintai",
+		"ns6.dns.nic.chintai"
+	],
 	"codePoints": "--09az"
 }

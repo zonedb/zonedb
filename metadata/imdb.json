@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.imdb",
+		"ns2.dns.nic.imdb",
+		"ns3.dns.nic.imdb",
+		"ns4.dns.nic.imdb",
+		"ns5.dns.nic.imdb",
+		"ns6.dns.nic.imdb"
+	],
 	"codePoints": "--09az"
 }
