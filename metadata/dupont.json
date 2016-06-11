@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.dupont",
+		"ns2.dns.nic.dupont",
+		"ns3.dns.nic.dupont",
+		"ns4.dns.nic.dupont",
+		"ns5.dns.nic.dupont",
+		"ns6.dns.nic.dupont"
+	],
 	"codePoints": "--09az"
 }
