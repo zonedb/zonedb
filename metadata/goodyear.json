@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.goodyear",
+		"a2.nic.goodyear",
+		"b0.nic.goodyear",
+		"c0.nic.goodyear"
+	],
 	"codePoints": "--09az"
 }
