@@ -3954,7 +3954,7 @@ var _y = [4352]Zone{
 	{"kr.tc", &_z[1362], nil, _c[0:6], NS{"ns.udag.de", "ns.udag.net", "ns.udag.org"}, nil, "", "", "", 0x0},
 	{"mx.tc", &_z[1362], nil, _c[0:6], NS{"dns.site5.com", "dns2.site5.com"}, nil, "", "", "", 0x0},
 	{"net.tc", &_z[1362], nil, _c[0:6], NS{"root1.zone.tc", "root2.zone.tc", "root3.zone.tc", "root4.zone.tc", "root5.zone.tc", "root6.zone.tc", "root7.zone.tc"}, nil, "", "", "", 0x0},
-	{"no.tc", &_z[1362], nil, _c[0:6], NS{"ns1.iwantmyname.net", "ns2.iwantmyname.net", "suspended.nic.tc"}, nil, "", "", "", 0x0},
+	{"no.tc", &_z[1362], nil, _c[0:6], NS{"ns1.alanadlari.com", "ns2.alanadlari.com", "ns1.iwantmyname.net", "ns2.iwantmyname.net", "suspended.nic.tc"}, nil, "", "", "", 0x0},
 	{"ph.tc", &_z[1362], nil, _c[0:6], NS{"ns1.4.cn", "ns2.4.cn", "f1g1ns1.dnspod.net", "f1g1ns2.dnspod.net"}, nil, "", "", "", 0x0},
 	{"pl.tc", &_z[1362], nil, _c[0:6], NS{"ns1.4.cn", "ns2.4.cn", "f1g1ns1.dnspod.net", "f1g1ns2.dnspod.net"}, nil, "", "", "", 0x0},
 	{"pro.tc", &_z[1362], nil, _c[0:6], NS{"root1.zone.tc", "root2.zone.tc", "root3.zone.tc", "root4.zone.tc", "root5.zone.tc", "root6.zone.tc", "root7.zone.tc", "root8.zone.tc"}, nil, "", "", "", 0x0},

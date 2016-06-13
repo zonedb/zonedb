@@ -1,6 +1,8 @@
 {
 	"domain": "no.tc",
 	"nameServers": [
+		"ns1.alanadlari.com",
+		"ns2.alanadlari.com",
 		"ns1.iwantmyname.net",
 		"ns2.iwantmyname.net",
 		"suspended.nic.tc"
