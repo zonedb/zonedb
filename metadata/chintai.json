@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.chintai",
 	"nameServers": [
 		"ns1.dns.nic.chintai",
 		"ns2.dns.nic.chintai",
