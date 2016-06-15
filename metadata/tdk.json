@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.tdk",
 	"nameServers": [
 		"ns1.dns.nic.tdk",
 		"ns2.dns.nic.tdk",
