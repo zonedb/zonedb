@@ -4127,7 +4127,7 @@ var _y = [4352]Zone{
 	{"tv.tz", &_z[1439], nil, _c[0:6], NS{"nic.co.tz", "fork.sth.dnsnode.net", "ns.anycast.co.tz", "ns2.tznic.or.tz"}, nil, "", "", "", 0x0},
 	{"biz.ua", &_z[1440], nil, _c[0:6], NS{"ns1.uadns.com", "ns2.uadns.com", "ns3.uadns.com"}, nil, "", "", "", 0x0},
 	{"cherkassy.ua", &_z[1440], nil, _c[0:6], NS{"ns.ctsense.net", "ns2.km.ua", "ba1.ns.ua", "nix.ns.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
-	{"cherkasy.ua", &_z[1440], nil, nil, NS{"ns2.ck.ua", "ns2.km.ua", "nix.net.ua", "ba1.ns.ua"}, nil, "", "", "", 0x0},
+	{"cherkasy.ua", &_z[1440], nil, nil, NS{"ns2.ck.ua", "ns2.km.ua", "nix.net.ua", "ba1.ns.ua", "nix.ns.ua"}, nil, "", "", "", 0x0},
 	{"chernigov.ua", &_z[1440], nil, _c[0:6], NS{"ns3.cn.ua", "ns.dn.ua", "nix.ns.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
 	{"chernivtsi.ua", &_z[1440], nil, nil, NS{"ns.cv.ua", "ns.kharkov.ua", "ns2.km.ua", "nix.ns.ua"}, nil, "", "", "", 0x0},
 	{"chernovtsy.ua", &_z[1440], nil, _c[0:6], NS{"ns.cv.ua", "ns2.km.ua", "ba1.ns.ua", "nix.ns.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
