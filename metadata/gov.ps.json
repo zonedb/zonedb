@@ -6,7 +6,8 @@
 		"dns2.gov.ps",
 		"dns3.gov.ps",
 		"ns1.gov.ps",
-		"ns2.pnina.ps"
+		"ns2.pnina.ps",
+		"ote.pnina.ps"
 	],
 	"codePoints": "--09az"
 }
