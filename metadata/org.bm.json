@@ -5,7 +5,13 @@
 		"ns2.bm",
 		"ns3.bm",
 		"ns1.ibl.bm",
-		"ns2.ibl.bm"
+		"ns2.ibl.bm",
+		"a0.bm.afilias-nst.info",
+		"a2.bm.afilias-nst.info",
+		"c0.bm.afilias-nst.info",
+		"b0.bm.afilias-nst.org",
+		"b2.bm.afilias-nst.org",
+		"d0.bm.afilias-nst.org"
 	],
 	"codePoints": "--09az"
 }
