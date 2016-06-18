@@ -3812,6 +3812,7 @@ org.sn
 perso.sn
 univ.sn
 com.so
+edu.so
 net.so
 org.so
 co.st
