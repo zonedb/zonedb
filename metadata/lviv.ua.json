@@ -3,6 +3,7 @@
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
 		"ns2.uar.net",
+		"sigma.uar.net",
 		"ns5.univie.ac.at",
 		"arwena.nask.waw.pl",
 		"sigma.icmp.lviv.ua",
