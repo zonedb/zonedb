@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.nfl",
+		"ns2.dns.nic.nfl",
+		"ns3.dns.nic.nfl",
+		"ns4.dns.nic.nfl",
+		"ns5.dns.nic.nfl",
+		"ns6.dns.nic.nfl"
+	],
 	"codePoints": "--09az"
 }
