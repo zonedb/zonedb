@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.politie",
+	"nameServers": [
+		"ns1.nic.politie",
+		"ns2.nic.politie",
+		"ns3.nic.politie",
+		"ns4.nic.politie",
+		"ns5.nic.politie"
+	],
 	"codePoints": "--09az"
 }

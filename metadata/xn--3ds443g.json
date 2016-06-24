@@ -2,6 +2,10 @@
 	"domain": "在线",
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
+		"ns1.teleinfo.cn",
+		"ns3.teleinfo.cn",
+		"ns2.teleinfoo.com",
+		"ns4.teleinfoo.com",
 		"a0.nic.在线",
 		"a2.nic.在线",
 		"b0.nic.在线",

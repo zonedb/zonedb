@@ -5,6 +5,10 @@
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
+		"ns1.teleinfo.cn",
+		"ns3.teleinfo.cn",
+		"ns2.teleinfoo.com",
+		"ns4.teleinfoo.com",
 		"a0.nic.中文网",
 		"a2.nic.中文网",
 		"b0.nic.中文网",

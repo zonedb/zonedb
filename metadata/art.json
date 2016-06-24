@@ -4,5 +4,12 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.centralnic.com",
+	"nameServers": [
+		"a.nic.art",
+		"b.nic.art",
+		"c.nic.art",
+		"d.nic.art"
+	],
 	"codePoints": "--09az"
 }
