@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a0.nic.fedex",
+		"a2.nic.fedex",
+		"b0.nic.fedex",
+		"c0.nic.fedex"
+	],
 	"codePoints": "--09az"
 }
