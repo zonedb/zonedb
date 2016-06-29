@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.teleinfo.cn",
 	"nameServers": [
 		"ns1.teleinfo.cn",
 		"ns3.teleinfo.cn",
