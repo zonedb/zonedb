@@ -1,6 +1,7 @@
 {
 	"domain": "hk.org",
 	"nameServers": [
+		"ns101.cloudns.net",
 		"a.udrtld.net",
 		"b.udrtld.net",
 		"c.udrtld.net",
