@@ -2271,7 +2271,7 @@ var _y = [4353]Zone{
 	{"eu.com", &_z[314], nil, nil, NS{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, nil, "whois.centralnic.com", "", "", 0x0},
 	{"gb.com", &_z[314], nil, nil, NS{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, nil, "whois.centralnic.com", "", "", 0x0},
 	{"gr.com", &_z[314], nil, _c[0:6], NS{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, nil, "whois.centralnic.com", "", "", 0x0},
-	{"hk.com", &_z[314], nil, _c[0:6], NS{"a.udrtld.net", "b.udrtld.net", "c.udrtld.net", "d.udrtld.net", "e.udrtld.net", "f.udrtld.net"}, nil, "", "", "", 0x0},
+	{"hk.com", &_z[314], nil, _c[0:6], NS{"pns103.cloudns.net", "pns104.cloudns.net", "a.udrtld.net", "b.udrtld.net", "c.udrtld.net", "d.udrtld.net", "e.udrtld.net", "f.udrtld.net"}, nil, "", "", "", 0x0},
 	{"hu.com", &_z[314], nil, nil, NS{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, nil, "whois.centralnic.com", "", "", 0x0},
 	{"jpn.com", &_z[314], nil, nil, NS{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, nil, "whois.centralnic.com", "", "", 0x0},
 	{"kr.com", &_z[314], nil, nil, NS{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, nil, "whois.centralnic.com", "", "", 0x0},
