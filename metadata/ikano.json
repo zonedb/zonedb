@@ -5,5 +5,10 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a.dns.nic.ikano",
+		"m.dns.nic.ikano",
+		"n.dns.nic.ikano"
+	],
 	"codePoints": "--09az"
 }
