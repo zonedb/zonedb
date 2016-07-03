@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.ikano.tld-box.at",
 	"nameServers": [
 		"a.dns.nic.ikano",
 		"m.dns.nic.ikano",

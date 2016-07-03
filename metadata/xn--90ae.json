@@ -1,0 +1,12 @@
+{
+	"domain": "бг",
+	"whoisServer": "whois.imena.bg",
+	"nameServers": [
+		"a.nic.bg",
+		"b.nic.bg",
+		"c.nic.bg",
+		"d.nic.bg",
+		"p.nic.bg",
+		"sns-pb.isc.org"
+	]
+}
