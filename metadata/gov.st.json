@@ -1,6 +1,10 @@
 {
 	"domain": "gov.st",
 	"nameServers": [
+		"ns1.gov.cv",
+		"ns2.gov.cv",
+		"ns1.gov.st",
+		"ns2.gov.st",
 		"ns1.knox.st",
 		"ns2.knox.st",
 		"ns1-se.ns.gov.st",
