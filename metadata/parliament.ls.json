@@ -1,7 +1,12 @@
 {
 	"domain": "parliament.ls",
 	"nameServers": [
+		"ns-ls.afrinic.net",
+		"ns1.pch.net",
 		"ns1.leo.co.ls",
-		"ns2.leo.co.ls"
+		"ns2.leo.co.ls",
+		"ns3.leo.co.ls",
+		"sas.leo.co.ls",
+		"ls-ns.anycast.pch.net"
 	]
 }
