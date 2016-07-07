@@ -13,7 +13,13 @@
 		"ns2.ibl.bm",
 		"ns.uu.net",
 		"sunic.sunet.se",
-		"auth02.ns.uu.net"
+		"a0.bm.afilias-nst.info",
+		"a2.bm.afilias-nst.info",
+		"c0.bm.afilias-nst.info",
+		"auth02.ns.uu.net",
+		"b0.bm.afilias-nst.org",
+		"b2.bm.afilias-nst.org",
+		"d0.bm.afilias-nst.org"
 	],
 	"codePoints": "--09az"
 }
