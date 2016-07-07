@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a0.nic.mit",
+		"a2.nic.mit",
+		"b0.nic.mit",
+		"c0.nic.mit"
+	],
 	"codePoints": "--09az"
 }
