@@ -9,20 +9,23 @@ import (
 )
 
 type Zone struct {
-	Domain      string    `json:"domain,omitempty"`
-	InfoURL     string    `json:"infoURL,omitempty"`
-	Tags        []string  `json:"tags,omitempty"`
-	Locations   []string  `json:"locations,omitempty"`
-	WhoisServer string    `json:"whoisServer,omitempty"`
-	WhoisURL    string    `json:"whoisURL,omitempty"`
-	NameServers []string  `json:"nameServers,omitempty"`
-	CodePoints  CodeTable `json:"codePoints,omitempty"`
-	Subdomains  []string  `json:"-"`
+	Domain       string               `json:"domain,omitempty"`
+	InfoURL      string               `json:"infoURL,omitempty"`
+	Tags         []string             `json:"tags,omitempty"`
+	Locations    []string             `json:"locations,omitempty"`
+	WhoisServer  string               `json:"whoisServer,omitempty"`
+	WhoisURL     string               `json:"whoisURL,omitempty"`
+	NameServers  []string             `json:"nameServers,omitempty"`
+	CodePoints   CodeTable            `json:"codePoints,omitempty"`
+	IDNTables    map[string]CodeTable `json:"idnTables,omitempty"`
+	IDNTableURLs map[string]string    `json:"idnTableURLs,omitempty"`
+	Subdomains   []string             `json:"-"`
 
 	// Exported for use in text/template
-	POffset, SOffset, SEnd int    `json:"-"`
-	CPOffset, CPEnd        int    `json:"-"`
-	TagBits                uint64 `json:"-"`
+	POffset, SOffset, SEnd int                     `json:"-"`
+	CPOffset, CPEnd        int                     `json:"-"`
+	IDNCPs                 map[string]IDNCPIndexes `json:"-"`
+	TagBits                uint64                  `json:"-"`
 }
 
 func (z *Zone) Normalize() {
@@ -66,3 +69,5 @@ func (z *Zone) ParentDomain() string {
 	}
 	return strings.Join(labels[1:], ".")
 }
+
+type IDNCPIndexes [2]int

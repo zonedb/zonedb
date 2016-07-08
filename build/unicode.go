@@ -62,20 +62,31 @@ func (ct CodeTable) Validate() error {
 
 // Compress sorts and compresses a CodeTable, joining or eliminating overlapping CodeRanges.
 func (ct *CodeTable) Compress() {
-	if ct == nil || *ct == nil {
+	if ct == nil || *ct == nil || len(*ct) < 2 {
 		return
 	}
 	ct.Sort()
+	newCt := &CodeTable{}
 	j := 0
-	for i := 1; i < len(*ct); i++ {
+	l := len(*ct) - 1
+	for i := 1; i <= l; i++ {
 		left, right := &(*ct)[j], &(*ct)[i]
 		if right.Lo-left.Hi <= 1 {
-			left.Hi = right.Hi
+			if right.Hi > left.Hi {
+				left.Hi = right.Hi
+			}
+			if i == l {
+				*newCt = append(*newCt, *left)
+			}
 		} else {
-			j++
+			*newCt = append(*newCt, *left)
+			if i == l {
+				*newCt = append(*newCt, *right)
+			}
+			j = i
 		}
 	}
-	*ct = (*ct)[0 : j+1]
+	*ct = *newCt
 }
 
 func (ct *CodeTable) UnmarshalText(b []byte) error {
@@ -113,6 +124,28 @@ func (ct CodeTable) Runes() []rune {
 		runes = append(runes, cr.Hi)
 	}
 	return runes
+}
+
+// Adds a rune, extending the last CodeRange, if possible
+func (ct *CodeTable) AppendRune(char rune) {
+	tableLen := len(*ct)
+	if tableLen > 0 {
+		if (*ct)[tableLen-1].Hi == char-1 {
+			(*ct)[tableLen-1].Hi = char
+			return
+		}
+	}
+	*ct = append(*ct, CodeRange{char, char})
+}
+
+// Adds a range of runes
+func (ct *CodeTable) AppendRange(start, end rune) {
+	*ct = append(*ct, CodeRange{start, end})
+}
+
+// Appends another complete CodeTable
+func (ct *CodeTable) AppendTable(other *CodeTable) {
+	*ct = append(*ct, *other...)
 }
 
 func (ct CodeTable) Sort()         { sort.Sort(ct) }

@@ -81,6 +81,15 @@ var _y = [{{len .Zones}}]Zone{
 			{{if $z.ParentDomain}} &_z[{{$z.POffset}}] {{else}} nil {{end}}, \
 			{{if $z.SEnd}} _z[{{$z.SOffset}}:{{$z.SEnd}}] {{else}} nil {{end}}, \
 			{{if $z.CPEnd}} _c[{{$z.CPOffset}}:{{$z.CPEnd}}] {{else}} nil {{end}}, \
+			{{if $z.IDNCPs}} \
+				IDNT{ \
+				{{range $idnLang, $idnCPIndexes := $z.IDNCPs}} \
+					"{{ascii $idnLang}}": _c[{{index $idnCPIndexes 0}}:{{index $idnCPIndexes 1}}], \
+				{{end}} \
+				} \
+			{{else}} \
+				nil \
+			{{end}}, \
 			{{if $z.NameServers}} NS{ {{range $z.NameServers}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
 			{{if $z.Locations}} L{ {{range $z.Locations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
 			"{{ascii $z.WhoisServer}}", \
@@ -138,6 +147,7 @@ func GenerateGo(zones map[string]*Zone) error {
 	}
 	var nameServers []string
 	var codePoints []rune
+	var idnOffset, idnEnd int
 	for _, d := range domains {
 		z := zones[d]
 		z.Normalize() // just in case
@@ -147,6 +157,11 @@ func GenerateGo(zones map[string]*Zone) error {
 			z.SEnd = z.SOffset + len(z.Subdomains)
 		}
 		z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, z.CodePoints.Runes())
+		z.IDNCPs = make(map[string]IDNCPIndexes)
+		for lang, langCodePoints := range z.IDNTables {
+			idnOffset, idnEnd = IndexOrAppendRunes(&codePoints, langCodePoints.Runes())
+			z.IDNCPs[lang] = IDNCPIndexes{idnOffset, idnEnd}
+		}
 		z.TagBits = tagBits(tagValues, z.Tags)
 	}
 	tagType := "uint32"
