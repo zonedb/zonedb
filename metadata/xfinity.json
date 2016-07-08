@@ -5,5 +5,16 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.xfinity",
+	"nameServers": [
+		"dns1.nic.xfinity",
+		"dns2.nic.xfinity",
+		"dns3.nic.xfinity",
+		"dns4.nic.xfinity",
+		"dnsa.nic.xfinity",
+		"dnsb.nic.xfinity",
+		"dnsc.nic.xfinity",
+		"dnsd.nic.xfinity"
+	],
 	"codePoints": "--09az"
 }
