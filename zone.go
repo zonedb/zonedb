@@ -15,6 +15,9 @@ type NS []string
 // L represents a slice of locations.
 type L []string
 
+// M represents a slice of metros.
+type M []string
+
 // IDNT represents a map of languages and their IDN tables
 type IDNT map[string][]rune
 
@@ -64,6 +67,9 @@ type Zone struct {
 
 	// Locations associated with the Zone
 	Locations L
+
+	// Metros associated with the Zone
+	Metros M
 
 	// Whois server responding on port 43
 	whoisServer string
