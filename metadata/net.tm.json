@@ -2,7 +2,9 @@
 	"domain": "net.tm",
 	"nameServers": [
 		"ns05.telecom.tm",
-		"ns06.telecom.tm"
+		"ns06.telecom.tm",
+		"webns1.telecom.tm",
+		"webns2.telecom.tm"
 	],
 	"codePoints": "--09az"
 }
