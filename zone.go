@@ -14,9 +14,9 @@ type NS []string
 
 // L represents location metadata.
 type L struct {
-	C []string // Cities
-	I []string // ISO-3166 codes
-	M []string // US metro codes
+	Cities     []string
+	ISOCodes   []string
+	MetroCodes []string
 }
 
 // IDNT represents a map of languages and their IDN tables
