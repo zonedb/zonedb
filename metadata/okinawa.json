@@ -5,10 +5,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Okinawa",
-		"JP-47"
-	],
+	"location": {
+		"cities": [
+			"Okinawa"
+		],
+		"iso_codes": [
+			"JP-47"
+		]
+	},
 	"whoisServer": "whois.nic.okinawa",
 	"nameServers": [
 		"a.gmoregistry.net",

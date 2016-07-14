@@ -5,9 +5,11 @@
 		"generic",
 		"region"
 	],
-	"locations": [
-		"GB-WLS"
-	],
+	"location": {
+		"iso_codes": [
+			"GB-WLS"
+		]
+	},
 	"whoisServer": "whois.nic.cymru",
 	"nameServers": [
 		"dns1.nic.cymru",

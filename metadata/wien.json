@@ -5,10 +5,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Vienna",
-		"AT-9"
-	],
+	"location": {
+		"cities": [
+			"Vienna"
+		],
+		"iso_codes": [
+			"AT-9"
+		]
+	},
 	"whoisServer": "whois.nic.wien",
 	"nameServers": [
 		"a.dns.nic.wien",

@@ -24,6 +24,8 @@ func main() {
 	filterRegexp := flag.String("x", "", "select working zones on by regular expression")
 	filterTags := flag.String("tags", "", "select working zones by tags (comma-delimited)")
 
+	locationField := flag.String("location-field", "", "location field list or mutate")
+
 	// Query operations
 	listZones := flag.Bool("list", false, "list working zones")
 	listTags := flag.Bool("list-tags", false, "list tags in working zones")
@@ -191,22 +193,26 @@ func main() {
 		color.Fprintf(os.Stderr, "@{.}Tags: @{c}%s\n", strings.Join(tags.Values(), " "))
 	}
 
-	if *removeLocations != "" {
-		locations := strings.Split(*removeLocations, ",")
-		build.RemoveLocations(workZones, locations)
-	}
-
-	if *addLocations != "" {
-		locations := strings.Split(*addLocations, ",")
-		build.AddLocations(workZones, locations)
-	}
-
-	if *listLocations {
-		locations := build.NewSet()
-		for _, z := range workZones {
-			locations.Add(z.Locations...)
+	if *locationField != "" {
+		if *removeLocations != "" {
+			locations := strings.Split(*removeLocations, ",")
+			build.RemoveLocationField(workZones, *locationField, locations)
 		}
-		color.Fprintf(os.Stderr, "@{.}Locations: @{c}%s\n", strings.Join(locations.Values(), " "))
+
+		if *addLocations != "" {
+			locations := strings.Split(*addLocations, ",")
+			build.AddLocationField(workZones, *locationField, locations)
+		}
+
+		if *listLocations {
+			locations := build.NewSet()
+			for _, z := range workZones {
+				if z.Location != nil {
+					locations.Add(z.Location.GetField(*locationField)...)
+				}
+			}
+			color.Fprintf(os.Stderr, "@{.}Locations: @{c}%s\n", strings.Join(locations.Values(), " "))
+		}
 	}
 
 	if *verifyNS {

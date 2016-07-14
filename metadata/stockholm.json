@@ -6,10 +6,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Stockholm",
-		"SE-AB"
-	],
+	"location": {
+		"cities": [
+			"Stockholm"
+		],
+		"iso_codes": [
+			"SE-AB"
+		]
+	},
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.stockholm",

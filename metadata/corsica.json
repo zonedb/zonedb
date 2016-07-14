@@ -6,9 +6,11 @@
 		"geo",
 		"region"
 	],
-	"locations": [
-		"FR-H"
-	],
+	"location": {
+		"iso_codes": [
+			"FR-H"
+		]
+	},
 	"whoisServer": "whois-corsica.nic.fr",
 	"nameServers": [
 		"d.nic.fr",

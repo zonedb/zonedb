@@ -6,10 +6,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Doha",
-		"QA-DA"
-	],
+	"location": {
+		"cities": [
+			"Doha"
+		],
+		"iso_codes": [
+			"QA-DA"
+		]
+	},
 	"whoisServer": "whois.nic.doha",
 	"nameServers": [
 		"a.nic.doha",

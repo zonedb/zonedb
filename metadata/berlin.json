@@ -5,10 +5,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Berlin",
-		"DE-BE"
-	],
+	"location": {
+		"cities": [
+			"Berlin"
+		],
+		"iso_codes": [
+			"DE-BE"
+		]
+	},
 	"whoisServer": "whois.nic.berlin",
 	"nameServers": [
 		"a.dns.nic.berlin",

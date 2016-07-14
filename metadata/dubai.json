@@ -6,10 +6,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"AE-DU",
-		"Dubai"
-	],
+	"location": {
+		"cities": [
+			"Dubai"
+		],
+		"iso_codes": [
+			"AE-DU"
+		]
+	},
 	"whoisServer": "whois.nic.dubai",
 	"nameServers": [
 		"gtld.alpha.aridns.net.au",

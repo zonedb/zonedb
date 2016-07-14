@@ -5,9 +5,11 @@
 		"geo",
 		"region"
 	],
-	"locations": [
-		"ES-GA"
-	],
+	"location": {
+		"iso_codes": [
+			"ES-GA"
+		]
+	},
 	"whoisServer": "whois.gal.coreregistry.net",
 	"nameServers": [
 		"anycast10.irondns.net",

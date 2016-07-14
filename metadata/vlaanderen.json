@@ -5,9 +5,11 @@
 		"generic",
 		"region"
 	],
-	"locations": [
-		"BE-VLG"
-	],
+	"location": {
+		"iso_codes": [
+			"BE-VLG"
+		]
+	},
 	"whoisServer": "whois.nic.vlaanderen",
 	"nameServers": [
 		"a.nic.vlaanderen",

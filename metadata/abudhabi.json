@@ -6,10 +6,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Abu Dhabi",
-		"AE-AZ"
-	],
+	"location": {
+		"cities": [
+			"Abu Dhabi"
+		],
+		"iso_codes": [
+			"AE-AZ"
+		]
+	},
 	"whoisServer": "whois.nic.abudhabi",
 	"nameServers": [
 		"gtld.alpha.aridns.net.au",

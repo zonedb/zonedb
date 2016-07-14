@@ -5,10 +5,14 @@
 		"country",
 		"geo"
 	],
-	"locations": [
-		"803",
-		"Los Angeles"
-	],
+	"location": {
+		"cities": [
+			"Los Angeles"
+		],
+		"metro_codes": [
+			"803"
+		]
+	},
 	"whoisServer": "whois.nic.la",
 	"nameServers": [
 		"ns1.nic.la",

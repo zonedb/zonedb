@@ -6,10 +6,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Osaka",
-		"JP-27"
-	],
+	"location": {
+		"cities": [
+			"Osaka"
+		],
+		"iso_codes": [
+			"JP-27"
+		]
+	},
 	"whoisServer": "whois.nic.osaka",
 	"nameServers": [
 		"ns1.dns.nic.osaka",

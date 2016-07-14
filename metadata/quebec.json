@@ -5,10 +5,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Quebec",
-		"CA-QC"
-	],
+	"location": {
+		"cities": [
+			"Quebec"
+		],
+		"iso_codes": [
+			"CA-QC"
+		]
+	},
 	"whoisServer": "whois.nic.quebec",
 	"nameServers": [
 		"anycast10.irondns.net",

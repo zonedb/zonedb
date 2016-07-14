@@ -4,9 +4,11 @@
 		"generic",
 		"region"
 	],
-	"locations": [
-		"GB-SCT"
-	],
+	"location": {
+		"iso_codes": [
+			"GB-SCT"
+		]
+	},
 	"whoisServer": "whois.scot.coreregistry.net",
 	"nameServers": [
 		"anycast10.irondns.net",

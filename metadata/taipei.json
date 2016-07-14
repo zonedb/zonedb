@@ -6,10 +6,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Taipei",
-		"TW-TPQ"
-	],
+	"location": {
+		"cities": [
+			"Taipei"
+		],
+		"iso_codes": [
+			"TW-TPQ"
+		]
+	},
 	"whoisServer": "whois.nic.taipei",
 	"nameServers": [
 		"ns1.dns.nic.taipei",

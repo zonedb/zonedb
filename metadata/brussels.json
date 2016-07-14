@@ -6,10 +6,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Brussels",
-		"BE-BRU"
-	],
+	"location": {
+		"cities": [
+			"Brussels"
+		],
+		"iso_codes": [
+			"BE-BRU"
+		]
+	},
 	"whoisServer": "whois.nic.brussels",
 	"nameServers": [
 		"a.nic.brussels",

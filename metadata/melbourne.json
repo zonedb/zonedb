@@ -5,9 +5,11 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Melbourne"
-	],
+	"location": {
+		"cities": [
+			"Melbourne"
+		]
+	},
 	"whoisServer": "whois.aridnrs.net.au",
 	"nameServers": [
 		"a.nic.melbourne",

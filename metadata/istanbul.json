@@ -6,10 +6,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Istanbul",
-		"TR-34"
-	],
+	"location": {
+		"cities": [
+			"Istanbul"
+		],
+		"iso_codes": [
+			"TR-34"
+		]
+	},
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.istanbul",

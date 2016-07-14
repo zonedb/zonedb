@@ -5,9 +5,11 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Nagoya-shi"
-	],
+	"location": {
+		"cities": [
+			"Nagoya-shi"
+		]
+	},
 	"whoisServer": "whois.nic.nagoya",
 	"nameServers": [
 		"a.gmoregistry.net",

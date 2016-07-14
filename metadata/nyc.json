@@ -5,10 +5,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"501",
-		"New York City"
-	],
+	"location": {
+		"cities": [
+			"New York City"
+		],
+		"metro_codes": [
+			"501"
+		]
+	},
 	"whoisServer": "whois.nic.nyc",
 	"nameServers": [
 		"ns1.dns.nic.nyc",

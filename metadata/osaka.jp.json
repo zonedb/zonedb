@@ -4,8 +4,13 @@
 		"city",
 		"geo"
 	],
-	"locations": [
-		"Osaka"
-	],
+	"location": {
+		"cities": [
+			"Osaka"
+		],
+		"iso_codes": [
+			"JP-27"
+		]
+	},
 	"codePoints": "--09az"
 }

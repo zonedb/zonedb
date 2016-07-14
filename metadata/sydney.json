@@ -6,9 +6,11 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Sydney"
-	],
+	"location": {
+		"cities": [
+			"Sydney"
+		]
+	},
 	"whoisServer": "whois.nic.sydney",
 	"nameServers": [
 		"a.nic.sydney",

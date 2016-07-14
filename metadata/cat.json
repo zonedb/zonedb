@@ -6,9 +6,11 @@
 		"region",
 		"sponsored"
 	],
-	"locations": [
-		"ES-CT"
-	],
+	"location": {
+		"iso_codes": [
+			"ES-CT"
+		]
+	},
 	"whoisServer": "whois.nic.cat",
 	"nameServers": [
 		"dnsc.ad",

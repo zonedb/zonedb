@@ -6,10 +6,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Kyoto",
-		"JP-26"
-	],
+	"location": {
+		"cities": [
+			"Kyoto"
+		],
+		"iso_codes": [
+			"JP-26"
+		]
+	},
 	"whoisServer": "whois.nic.kyoto",
 	"nameServers": [
 		"a.gmoregistry.net",

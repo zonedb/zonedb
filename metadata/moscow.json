@@ -6,10 +6,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Moscow",
-		"RU-MOW"
-	],
+	"location": {
+		"cities": [
+			"Moscow"
+		],
+		"iso_codes": [
+			"RU-MOW"
+		]
+	},
 	"whoisServer": "whois.nic.moscow",
 	"nameServers": [
 		"d.dns.flexireg.domains",

@@ -5,9 +5,11 @@
 		"geo",
 		"region"
 	],
-	"locations": [
-		"DE-SL"
-	],
+	"location": {
+		"iso_codes": [
+			"DE-SL"
+		]
+	},
 	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
 		"ns2a.ksregistry.com",

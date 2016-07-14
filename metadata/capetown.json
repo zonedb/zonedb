@@ -5,9 +5,11 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Cape Town"
-	],
+	"location": {
+		"cities": [
+			"Cape Town"
+		]
+	},
 	"whoisServer": "capetown-whois.registry.net.za",
 	"nameServers": [
 		"coza1.dnsnode.net",

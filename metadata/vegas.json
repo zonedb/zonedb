@@ -5,10 +5,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"839",
-		"Las Vegas"
-	],
+	"location": {
+		"cities": [
+			"Las Vegas"
+		],
+		"metro_codes": [
+			"839"
+		]
+	},
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.vegas",

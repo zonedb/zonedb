@@ -6,10 +6,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Amsterdam",
-		"NL-NH"
-	],
+	"location": {
+		"cities": [
+			"Amsterdam"
+		],
+		"iso_codes": [
+			"NL-NH"
+		]
+	},
 	"whoisServer": "whois.nic.amsterdam",
 	"nameServers": [
 		"ns1.nic.amsterdam",

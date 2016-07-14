@@ -6,9 +6,11 @@
 		"geo",
 		"region"
 	],
-	"locations": [
-		"FR-E"
-	],
+	"location": {
+		"iso_codes": [
+			"FR-E"
+		]
+	},
 	"whoisServer": "whois.nic.bzh",
 	"nameServers": [
 		"d.nic.fr",

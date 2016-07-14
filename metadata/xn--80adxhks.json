@@ -5,9 +5,11 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Moscow"
-	],
+	"location": {
+		"cities": [
+			"Moscow"
+		]
+	},
 	"whoisServer": "whois.nic.москва",
 	"nameServers": [
 		"d.dns.flexireg.domains",

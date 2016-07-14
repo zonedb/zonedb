@@ -5,9 +5,11 @@
 		"generic",
 		"region"
 	],
-	"locations": [
-		"AT-7"
-	],
+	"location": {
+		"iso_codes": [
+			"AT-7"
+		]
+	},
 	"whoisServer": "whois.nic.tirol",
 	"nameServers": [
 		"a.dns.nic.tirol",

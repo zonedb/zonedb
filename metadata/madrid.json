@@ -6,10 +6,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Madrid",
-		"ES-MD"
-	],
+	"location": {
+		"cities": [
+			"Madrid"
+		],
+		"iso_codes": [
+			"ES-MD"
+		]
+	},
 	"whoisServer": "whois.madrid.rs.corenic.net",
 	"nameServers": [
 		"anycast10.irondns.net",

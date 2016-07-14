@@ -5,9 +5,11 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Yokohama"
-	],
+	"location": {
+		"cities": [
+			"Yokohama"
+		]
+	},
 	"whoisServer": "whois.nic.yokohama",
 	"nameServers": [
 		"a.gmoregistry.net",

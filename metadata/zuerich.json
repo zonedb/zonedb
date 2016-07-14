@@ -6,10 +6,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Zurich",
-		"CH-ZH"
-	],
+	"location": {
+		"cities": [
+			"Zurich"
+		],
+		"iso_codes": [
+			"CH-ZH"
+		]
+	},
 	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
 		"ns2a.ksregistry.com",

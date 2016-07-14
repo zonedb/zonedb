@@ -4,9 +4,11 @@
 		"generic",
 		"region"
 	],
-	"locations": [
-		"DE-NW"
-	],
+	"location": {
+		"iso_codes": [
+			"DE-NW"
+		]
+	},
 	"whoisServer": "whois.nic.ruhr",
 	"nameServers": [
 		"anycast10.irondns.net",

@@ -5,9 +5,11 @@
 		"generic",
 		"region"
 	],
-	"locations": [
-		"RU-TA"
-	],
+	"location": {
+		"iso_codes": [
+			"RU-TA"
+		]
+	},
 	"whoisServer": "whois.nic.tatar",
 	"nameServers": [
 		"a.dns.ripn.net",

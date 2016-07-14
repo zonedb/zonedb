@@ -5,10 +5,12 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Gent",
-		"Ghent"
-	],
+	"location": {
+		"cities": [
+			"Gent",
+			"Ghent"
+		]
+	},
 	"whoisServer": "whois.nic.gent",
 	"nameServers": [
 		"a.ns.nic.gent",

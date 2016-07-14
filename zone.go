@@ -12,8 +12,12 @@ import (
 // NS represents a slice of name servers.
 type NS []string
 
-// L represents a slice of locations.
-type L []string
+// L represents location metadata.
+type L struct {
+	C []string // Cities
+	I []string // ISO-3166 codes
+	M []string // US metro codes
+}
 
 // IDNT represents a map of languages and their IDN tables
 type IDNT map[string][]rune
@@ -62,8 +66,8 @@ type Zone struct {
 	// DNS name servers for the Zone
 	NameServers NS
 
-	// Locations associated with the Zone
-	Locations L
+	// Location metadata associated with the Zone
+	Location L
 
 	// Whois server responding on port 43
 	whoisServer string

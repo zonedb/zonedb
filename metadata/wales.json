@@ -6,9 +6,11 @@
 		"geo",
 		"region"
 	],
-	"locations": [
-		"GB-WLS"
-	],
+	"location": {
+		"iso_codes": [
+			"GB-WLS"
+		]
+	},
 	"whoisServer": "whois.nic.wales",
 	"nameServers": [
 		"ns1.nic.uk",

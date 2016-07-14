@@ -4,9 +4,13 @@
 		"city",
 		"geo"
 	],
-	"locations": [
-		"Nagano",
-		"JP-20"
-	],
+	"location": {
+		"cities": [
+			"Nagano"
+		],
+		"iso_codes": [
+			"JP-20"
+		]
+	},
 	"codePoints": "--09az"
 }

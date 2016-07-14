@@ -3,9 +3,11 @@
 	"tags": [
 		"geo"
 	],
-	"locations": [
-		"AU-NSW"
-	],
+	"location": {
+		"iso_codes": [
+			"AU-NSW"
+		]
+	},
 	"nameServers": [
 		"w.au",
 		"x.au",

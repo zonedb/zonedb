@@ -5,10 +5,14 @@
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Tokyo",
-		"JP-13"
-	],
+	"location": {
+		"cities": [
+			"Tokyo"
+		],
+		"iso_codes": [
+			"JP-13"
+		]
+	},
 	"whoisServer": "whois.nic.tokyo",
 	"nameServers": [
 		"a.gmoregistry.net",
