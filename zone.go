@@ -67,7 +67,7 @@ type Zone struct {
 	NameServers NS
 
 	// Location metadata associated with the Zone
-	Location L
+	Location *L
 
 	// Whois server responding on port 43
 	whoisServer string
