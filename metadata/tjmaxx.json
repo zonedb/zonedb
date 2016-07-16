@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.tjmaxx",
+		"ns2.dns.nic.tjmaxx",
+		"ns3.dns.nic.tjmaxx",
+		"ns4.dns.nic.tjmaxx",
+		"ns5.dns.nic.tjmaxx",
+		"ns6.dns.nic.tjmaxx"
+	],
 	"codePoints": "--09az"
 }

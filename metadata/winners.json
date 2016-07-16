@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.winners",
+		"ns2.dns.nic.winners",
+		"ns3.dns.nic.winners",
+		"ns4.dns.nic.winners",
+		"ns5.dns.nic.winners",
+		"ns6.dns.nic.winners"
+	],
 	"codePoints": "--09az"
 }

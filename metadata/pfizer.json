@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.pfizer",
+		"ns2.dns.nic.pfizer",
+		"ns3.dns.nic.pfizer",
+		"ns4.dns.nic.pfizer",
+		"ns5.dns.nic.pfizer",
+		"ns6.dns.nic.pfizer"
+	],
 	"codePoints": "--09az"
 }
