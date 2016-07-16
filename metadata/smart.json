@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"apdns1.nic.smart",
+		"apdns2.nic.smart",
+		"apdns3.nic.smart",
+		"apdns4.nic.smart"
+	],
 	"codePoints": "--09az"
 }

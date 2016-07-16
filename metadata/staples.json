@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.staples",
+		"ns2.dns.nic.staples",
+		"ns3.dns.nic.staples",
+		"ns4.dns.nic.staples",
+		"ns5.dns.nic.staples",
+		"ns6.dns.nic.staples"
+	],
 	"codePoints": "--09az"
 }

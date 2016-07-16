@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.homesense",
+		"ns2.dns.nic.homesense",
+		"ns3.dns.nic.homesense",
+		"ns4.dns.nic.homesense",
+		"ns5.dns.nic.homesense",
+		"ns6.dns.nic.homesense"
+	],
 	"codePoints": "--09az"
 }

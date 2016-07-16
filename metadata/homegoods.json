@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.homegoods",
+		"ns2.dns.nic.homegoods",
+		"ns3.dns.nic.homegoods",
+		"ns4.dns.nic.homegoods",
+		"ns5.dns.nic.homegoods",
+		"ns6.dns.nic.homegoods"
+	],
 	"codePoints": "--09az"
 }

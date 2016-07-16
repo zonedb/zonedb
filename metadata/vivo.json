@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.vivo",
+		"ns2.dns.nic.vivo",
+		"ns3.dns.nic.vivo",
+		"ns4.dns.nic.vivo",
+		"ns5.dns.nic.vivo",
+		"ns6.dns.nic.vivo"
+	],
 	"codePoints": "--09az"
 }
