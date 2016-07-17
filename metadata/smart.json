@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois-gtld.smart.com.ph",
 	"nameServers": [
 		"apdns1.nic.smart",
 		"apdns2.nic.smart",
