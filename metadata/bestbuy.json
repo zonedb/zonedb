@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.bestbuy",
+		"a2.nic.bestbuy",
+		"b0.nic.bestbuy",
+		"c0.nic.bestbuy"
+	],
 	"codePoints": "--09az"
 }
