@@ -7,6 +7,7 @@
 		"b.dns.py",
 		"c.dns.py",
 		"d.dns.py",
+		"l.dns.py",
 		"m.dns.py",
 		"p.dns.py",
 		"r.dns.py",
