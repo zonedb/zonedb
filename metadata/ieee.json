@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.ieee",
+		"ns2.dns.nic.ieee",
+		"ns3.dns.nic.ieee",
+		"ns4.dns.nic.ieee",
+		"ns5.dns.nic.ieee",
+		"ns6.dns.nic.ieee"
+	],
 	"codePoints": "--09az"
 }
