@@ -2,7 +2,9 @@
 	"domain": "com.pw",
 	"nameServers": [
 		"ns11.xincache.com",
-		"ns12.xincache.com"
+		"ns12.xincache.com",
+		"ns13.xincache.com",
+		"ns14.xincache.com"
 	],
 	"codePoints": "--09az"
 }
