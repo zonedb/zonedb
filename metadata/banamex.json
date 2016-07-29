@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.banamex",
+		"ns2.dns.nic.banamex",
+		"ns3.dns.nic.banamex",
+		"ns4.dns.nic.banamex",
+		"ns5.dns.nic.banamex",
+		"ns6.dns.nic.banamex"
+	],
 	"codePoints": "--09az"
 }

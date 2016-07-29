@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.prudential",
+		"ns2.dns.nic.prudential",
+		"ns3.dns.nic.prudential",
+		"ns4.dns.nic.prudential",
+		"ns5.dns.nic.prudential",
+		"ns6.dns.nic.prudential"
+	],
 	"codePoints": "--09az"
 }
