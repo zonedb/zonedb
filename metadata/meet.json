@@ -4,8 +4,13 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.google",
 	"nameServers": [
+		"ns-tld1.charlestonroadregistry.com",
+		"ns-tld2.charlestonroadregistry.com",
+		"ns-tld3.charlestonroadregistry.com",
+		"ns-tld4.charlestonroadregistry.com",
+		"ns-tld5.charlestonroadregistry.com",
 		"a0.nic.meet",
 		"a2.nic.meet",
 		"b0.nic.meet",
