@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.lilly",
+		"ns2.dns.nic.lilly",
+		"ns3.dns.nic.lilly",
+		"ns4.dns.nic.lilly",
+		"ns5.dns.nic.lilly",
+		"ns6.dns.nic.lilly"
+	],
 	"codePoints": "--09az"
 }
