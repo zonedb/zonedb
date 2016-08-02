@@ -1,6 +1,8 @@
 {
 	"domain": "hk.com",
 	"nameServers": [
+		"dns7.cloudns.net",
+		"dns8.cloudns.net",
 		"pns103.cloudns.net",
 		"pns104.cloudns.net",
 		"a.udrtld.net",
