@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.ferrari",
+		"a2.nic.ferrari",
+		"b0.nic.ferrari",
+		"c0.nic.ferrari"
+	],
 	"codePoints": "--09az"
 }
