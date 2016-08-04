@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "domain-registry-whois.l.google.com",
+	"whoisServer": "whois.nic.google",
 	"nameServers": [
 		"ns-tld1.charlestonroadregistry.com",
 		"ns-tld2.charlestonroadregistry.com",

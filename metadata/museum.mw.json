@@ -1,7 +1,8 @@
 {
 	"domain": "museum.mw",
 	"nameServers": [
-		"ns1.mtlonline.mw"
+		"ns1.mtlonline.mw",
+		"ns2.mtlonline.mw"
 	],
 	"codePoints": "--09az"
 }

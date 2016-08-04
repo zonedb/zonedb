@@ -3,7 +3,9 @@
 	"nameServers": [
 		"rip.psg.com",
 		"domwe.sdn.mw",
-		"chambo.sdnp.org.mw"
+		"chambo.sdnp.org.mw",
+		"nyala.sdnp.org.mw",
+		"mw.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }
