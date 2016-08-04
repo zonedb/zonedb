@@ -5,7 +5,9 @@
 		"domwe.sdn.mw",
 		"sec3.apnic.net",
 		"sdnhq.undp.org",
-		"chambo.sdnp.org.mw"
+		"chambo.sdnp.org.mw",
+		"nyala.sdnp.org.mw",
+		"mw.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }
