@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.lancia",
+		"a2.nic.lancia",
+		"b0.nic.lancia",
+		"c0.nic.lancia"
+	],
 	"codePoints": "--09az"
 }

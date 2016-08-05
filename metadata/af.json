@@ -9,7 +9,9 @@
 	"nameServers": [
 		"af1.dyntld.net",
 		"af3.dyntld.net",
-		"ns.anycast.nic.af"
+		"ns.anycast.nic.af",
+		"a.af.dyntld.net",
+		"b.af.dyntld.net"
 	],
 	"codePoints": "--09az"
 }
