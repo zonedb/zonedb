@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.abarth",
+		"a2.nic.abarth",
+		"b0.nic.abarth",
+		"c0.nic.abarth"
+	],
 	"codePoints": "--09az"
 }

@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.calvinklein",
+		"ns2.dns.nic.calvinklein",
+		"ns3.dns.nic.calvinklein",
+		"ns4.dns.nic.calvinklein",
+		"ns5.dns.nic.calvinklein",
+		"ns6.dns.nic.calvinklein"
+	],
 	"codePoints": "--09az"
 }

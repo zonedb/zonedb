@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.loft",
+		"ns2.dns.nic.loft",
+		"ns3.dns.nic.loft",
+		"ns4.dns.nic.loft",
+		"ns5.dns.nic.loft",
+		"ns6.dns.nic.loft"
+	],
 	"codePoints": "--09az"
 }
