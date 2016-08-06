@@ -8,6 +8,7 @@
 	"nameServers": [
 		"utama.bolnet.bo",
 		"ns.dns.br",
+		"ns2.nic.fr",
 		"anycast.ns.nic.bo"
 	],
 	"codePoints": "--09az"
