@@ -1,6 +1,8 @@
 {
 	"domain": "inc.hk",
 	"nameServers": [
+		"dns7.cloudns.net",
+		"dns8.cloudns.net",
 		"a.udrtld.net",
 		"b.udrtld.net",
 		"c.udrtld.net",
