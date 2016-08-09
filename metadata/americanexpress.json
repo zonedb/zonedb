@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.americanexpress",
+		"ns2.dns.nic.americanexpress",
+		"ns3.dns.nic.americanexpress",
+		"ns4.dns.nic.americanexpress",
+		"ns5.dns.nic.americanexpress",
+		"ns6.dns.nic.americanexpress"
+	],
 	"codePoints": "--09az"
 }
