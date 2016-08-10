@@ -1,6 +1,7 @@
 {
 	"domain": "kyiv.ua",
 	"nameServers": [
+		"sns-pb.isc.org",
 		"nix.ns.ua",
 		"k.ns.com.ua",
 		"ho1.ns.kiev.ua"

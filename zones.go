@@ -4168,7 +4168,7 @@ var _y = [4354]Zone{
 	{"km.ua", &_z[1440], nil, _c[0:6], nil, NS{"ns.km.ua", "ns2.km.ua", "ns3.km.ua", "ba1.ns.ua", "nix.ns.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
 	{"kr.ua", &_z[1440], nil, _c[0:6], nil, NS{"ba1.ns.ua", "nix.ns.ua", "ns.host.kr.ua", "ns.infocom.kr.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
 	{"ks.ua", &_z[1440], nil, _c[0:6], nil, NS{"ns.ks-host.com", "ns.dn.ua", "ns.kharkov.ua", "nix.ns.ua", "ho1.ns.ks.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
-	{"kyiv.ua", &_z[1440], nil, nil, nil, NS{"nix.ns.ua", "k.ns.com.ua", "ho1.ns.kiev.ua"}, nil, "", "", "", 0x0},
+	{"kyiv.ua", &_z[1440], nil, nil, nil, NS{"sns-pb.isc.org", "nix.ns.ua", "k.ns.com.ua", "ho1.ns.kiev.ua"}, nil, "", "", "", 0x0},
 	{"lg.ua", &_z[1440], nil, _c[0:6], nil, NS{"ns.dn.ua", "ns.kh.ua", "ns.sm.ua", "ns.zp.ua", "ho1.eunic.net.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
 	{"lt.ua", &_z[1440], nil, _c[0:6], nil, NS{"ns.cv.ua", "nix.ns.ua", "ho1.ns.lutsk.ua", "ns.vizor.lutsk.ua"}, nil, "", "", "", 0x0},
 	{"lugansk.ua", &_z[1440], nil, _c[0:6], nil, NS{"ns.dn.ua", "ns.kh.ua", "ns.sm.ua", "ns.zp.ua", "ho1.eunic.net.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
