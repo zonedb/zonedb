@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.pay",
+		"ns2.dns.nic.pay",
+		"ns3.dns.nic.pay",
+		"ns4.dns.nic.pay",
+		"ns5.dns.nic.pay",
+		"ns6.dns.nic.pay"
+	],
 	"codePoints": "--09az"
 }
