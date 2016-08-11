@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.hot",
+		"ns2.dns.nic.hot",
+		"ns3.dns.nic.hot",
+		"ns4.dns.nic.hot",
+		"ns5.dns.nic.hot",
+		"ns6.dns.nic.hot"
+	],
 	"codePoints": "--09az"
 }

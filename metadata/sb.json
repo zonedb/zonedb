@@ -10,7 +10,9 @@
 		"sb1.dyntld.net",
 		"sb3.dyntld.net",
 		"sns-pb.isc.org",
-		"pch.nic.sb"
+		"pch.nic.sb",
+		"a.sb.dyntld.net",
+		"b.sb.dyntld.net"
 	],
 	"codePoints": "--09az"
 }
