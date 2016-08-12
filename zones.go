@@ -3973,7 +3973,7 @@ var _y = [4354]Zone{
 	{"se.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.ewing.net.au", "ns2.ewing.net.au", "ns3.ewing.net.au", "ns4.ewing.net.au"}, nil, "", "", "", 0x0},
 	{"shop.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns.onshore.net", "ns2.onshore.net"}, nil, "", "", "", 0x0},
 	{"th.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.alidns.com", "ns2.alidns.com"}, nil, "", "", "", 0x0},
-	{"ua.tc", &_z[1362], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
+	{"ua.tc", &_z[1362], nil, _c[0:6], nil, NS{"dnsm1.nic.tc", "dnsm2.nic.tc", "dnsm3.nic.tc", "dnsm4.nic.tc"}, nil, "", "", "", 0x0},
 	{"uk.tc", &_z[1362], _z[4336:4339], _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"us.tc", &_z[1362], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"com.td", &_z[1364], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
