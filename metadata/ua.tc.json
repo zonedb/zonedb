@@ -1,4 +1,10 @@
 {
 	"domain": "ua.tc",
+	"nameServers": [
+		"dnsm1.nic.tc",
+		"dnsm2.nic.tc",
+		"dnsm3.nic.tc",
+		"dnsm4.nic.tc"
+	],
 	"codePoints": "--09az"
 }
