@@ -5,5 +5,13 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.hbo",
+		"ns2.dns.nic.hbo",
+		"ns3.dns.nic.hbo",
+		"ns4.dns.nic.hbo",
+		"ns5.dns.nic.hbo",
+		"ns6.dns.nic.hbo"
+	],
 	"codePoints": "--09az"
 }
