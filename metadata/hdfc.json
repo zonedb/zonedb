@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a0.nic.hdfc",
+		"a2.nic.hdfc",
+		"b0.nic.hdfc",
+		"c0.nic.hdfc"
+	],
 	"codePoints": "--09az"
 }
