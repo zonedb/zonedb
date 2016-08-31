@@ -1,9 +1,8 @@
 {
-	"domain": "com.sn",
+	"domain": "univ.sn",
 	"nameServers": [
 		"ns.nic.sn",
 		"dns.ucad.sn",
 		"ns.ucad.sn"
-	],
-	"codePoints": "--09az"
+	]
 }
