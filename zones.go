@@ -553,7 +553,7 @@ var _y = [4354]Zone{
 	{"esurance", nil, nil, _c[0:6], nil, NS{"a0.nic.esurance", "a2.nic.esurance", "b0.nic.esurance", "c0.nic.esurance"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"et", nil, _z[2321:2329], _c[0:6], nil, NS{"phloem.uoregon.edu", "ns1.telecom.net.et", "ns2.telecom.net.et", "et.cctld.authdns.ripe.net"}, nil, "", "", "http://www.ethionet.et/EthioInternet/domainname.html", 0xa8},
 	{"etisalat", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
-	{"eu", nil, _z[2329:2331], nil, nil, NS{"cz.dns.eu", "nl.dns.eu", "si.dns.eu", "uk.dns.eu", "x.dns.eu", "y.dns.eu"}, nil, "whois.eu", "", "", 0xa0},
+	{"eu", nil, _z[2329:2331], nil, nil, NS{"cz.dns.eu", "nl.dns.eu", "si.dns.eu", "uk.dns.eu", "x.dns.eu", "y.dns.eu", "z.dns.eu"}, nil, "whois.eu", "", "", 0xa0},
 	{"eurovision", nil, nil, _c[0:6], nil, NS{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, nil, "whois.nic.eurovision", "", "http://newgtlds.icann.org/", 0x42},
 	{"eus", nil, nil, nil, nil, NS{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, nil, "whois.eus.coreregistry.net", "", "", 0x440},
 	{"events", nil, nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
