@@ -10,8 +10,14 @@
 		"Budapest",
 		"HU-BU"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.budapest",
 	"nameServers": [
+		"dns1.nic.budapest",
+		"dns2.nic.budapest",
+		"dns3.nic.budapest",
+		"dns4.nic.budapest",
+		"dnsa.nic.budapest",
+		"dnsb.nic.budapest",
 		"a.ns.nic.budapest",
 		"b.ns.nic.budapest",
 		"c.ns.nic.budapest",
