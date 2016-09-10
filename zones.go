@@ -301,7 +301,7 @@ var _y = [4354]Zone{
 	{"brussels", nil, nil, _c[0:6], nil, NS{"a.nic.brussels", "b.nic.brussels", "w.nic.brussels", "c.ns.dns.be", "d.ns.dns.be"}, L{"Brussels", "BE-BRU"}, "whois.nic.brussels", "", "http://newgtlds.icann.org/", 0xc4},
 	{"bs", nil, _z[2042:2048], nil, nil, NS{"anyns.dns.bs", "dns.nic.bs", "ns36.cdns.net", "anyns.pch.net", "upr1.upr.clu.edu"}, nil, "", "http://www.nic.bs/cgi-bin/search.pl", "", 0xa0},
 	{"bt", nil, _z[2048:2053], _c[0:6], nil, NS{"ns1.druknet.bt", "ns2.druknet.bt", "ns3.druknet.bt", "ns.itu.ch", "auth00.ns.uu.net", "auth61.ns.uu.net", "bt.cctld.authdns.ripe.net"}, nil, "", "http://www.nic.bt/", "", 0xa0},
-	{"budapest", nil, nil, _c[0:6], nil, NS{"a.ns.nic.budapest", "b.ns.nic.budapest", "c.ns.nic.budapest", "d.ns.nic.budapest"}, L{"Budapest", "HU-BU"}, "whois-dub.mm-registry.com", "", "http://newgtlds.icann.org/", 0xc4},
+	{"budapest", nil, nil, _c[0:6], nil, NS{"dns1.nic.budapest", "dns2.nic.budapest", "dns3.nic.budapest", "dns4.nic.budapest", "dnsa.nic.budapest", "dnsb.nic.budapest", "a.ns.nic.budapest", "b.ns.nic.budapest", "c.ns.nic.budapest", "d.ns.nic.budapest"}, L{"Budapest", "HU-BU"}, "whois.nic.budapest", "", "http://newgtlds.icann.org/", 0xc4},
 	{"bugatti", nil, nil, _c[0:6], nil, NS{"a0.nic.bugatti", "a2.nic.bugatti", "b0.nic.bugatti", "c0.nic.bugatti"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"buick", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x2042},
 	{"build", nil, nil, nil, nil, NS{"a.nic.build", "b.nic.build", "c.nic.build", "d.nic.build"}, nil, "whois.nic.build", "", "", 0x40},
