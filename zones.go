@@ -3636,7 +3636,7 @@ var _y = [4354]Zone{
 	{"eu.pn", &_z[1110], nil, _c[0:6], nil, NS{"ns1.freehostingeu.com", "ns2.freehostingeu.com"}, nil, "", "", "", 0x0},
 	{"fr.pn", &_z[1110], nil, _c[0:6], nil, NS{"ns1.idnscan.net", "ns2.idnscan.net"}, nil, "", "", "", 0x0},
 	{"gov.pn", &_z[1110], nil, _c[0:6], nil, NS{"sns-pb.isc.org", "ns0.pitcairn.net.pn", "ns2.pitcairn.net.pn"}, nil, "", "", "", 0x0},
-	{"in.pn", &_z[1110], nil, nil, nil, NS{"ns.rackspace.com", "ns2.rackspace.com"}, nil, "", "", "", 0x0},
+	{"in.pn", &_z[1110], nil, nil, nil, NS{"ns-441.awsdns-55.com", "ns.rackspace.com", "ns2.rackspace.com", "ns-906.awsdns-49.net", "ns-1425.awsdns-50.org", "ns-1677.awsdns-17.co.uk"}, nil, "", "", "", 0x0},
 	{"it.pn", &_z[1110], nil, _c[0:6], nil, NS{"ns1.4.cn", "ns2.4.cn", "ns1.flippa.com", "ns2.flippa.com", "ns1.sedoparking.com", "ns2.sedoparking.com", "ns1.idnscan.net", "ns2.idnscan.net", "ns1.afraid.org", "ns2.afraid.org"}, nil, "", "", "", 0x0},
 	{"jp.pn", &_z[1110], nil, _c[0:6], nil, NS{"ns1.idnscan.net", "ns2.idnscan.net"}, nil, "", "", "", 0x0},
 	{"net.pn", &_z[1110], nil, _c[0:6], nil, NS{"sns-pb.isc.org", "ns0.pitcairn.net.pn", "ns2.pitcairn.net.pn"}, nil, "", "", "", 0x0},
