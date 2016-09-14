@@ -3,6 +3,7 @@
 	"nameServers": [
 		"ns.nic.bi",
 		"ns1.nic.bi",
+		"cni1.cbinf.com",
 		"ns-bi.afrinic.net",
 		"bi.cctld.authdns.ripe.net"
 	]
