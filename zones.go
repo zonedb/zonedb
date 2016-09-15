@@ -1035,7 +1035,7 @@ var _y = [4354]Zone{
 	{"mom", nil, nil, nil, nil, NS{"ns1.uniregistry.net", "a.mom.dyntld.net", "b.mom.dyntld.net", "c.mom.dyntld.net"}, nil, "whois.uniregistry.net", "", "http://newgtlds.icann.org/", 0x40},
 	{"monash", nil, nil, _c[0:6], nil, NS{"a.nic.monash", "b.nic.monash", "c.nic.monash", "d.nic.monash"}, nil, "whois.nic.monash", "", "http://newgtlds.icann.org/", 0x42},
 	{"money", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x40},
-	{"monster", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
+	{"monster", nil, nil, _c[0:6], nil, NS{"a0.nic.monster", "a2.nic.monster", "b0.nic.monster", "c0.nic.monster"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"montblanc", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.montblanc", "ns2.dns.nic.montblanc", "ns3.dns.nic.montblanc", "ns4.dns.nic.montblanc", "ns5.dns.nic.montblanc", "ns6.dns.nic.montblanc"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"mopar", nil, nil, _c[0:6], nil, NS{"a0.nic.mopar", "a2.nic.mopar", "b0.nic.mopar", "c0.nic.mopar"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"mormon", nil, nil, _c[0:6], nil, NS{"a0.nic.mormon", "a2.nic.mormon", "b0.nic.mormon", "c0.nic.mormon"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
