@@ -4,8 +4,14 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.luxe",
 	"nameServers": [
+		"dns1.nic.luxe",
+		"dns2.nic.luxe",
+		"dns3.nic.luxe",
+		"dns4.nic.luxe",
+		"dnsa.nic.luxe",
+		"dnsb.nic.luxe",
 		"a.ns.nic.luxe",
 		"b.ns.nic.luxe",
 		"c.ns.nic.luxe",
