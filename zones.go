@@ -340,7 +340,7 @@ var _y = [4354]Zone{
 	{"carinsurance", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x2040},
 	{"cars", nil, nil, nil, nil, NS{"tld.isc-sns.com", "tld.isc-sns.info", "tld.isc-sns.net", "ns1.uniregistry.net", "a.cars.dyntld.net", "b.cars.dyntld.net", "c.cars.dyntld.net", "a.ns.uniregistry.net"}, nil, "whois.uniregistry.net", "", "http://newgtlds.icann.org/", 0x40},
 	{"cartier", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.cartier", "ns2.dns.nic.cartier", "ns3.dns.nic.cartier", "ns4.dns.nic.cartier", "ns5.dns.nic.cartier", "ns6.dns.nic.cartier"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
-	{"casa", nil, nil, _c[0:6], nil, NS{"a.ns.nic.casa", "b.ns.nic.casa", "c.ns.nic.casa", "d.ns.nic.casa"}, nil, "whois-dub.mm-registry.com", "", "http://newgtlds.icann.org/", 0x40},
+	{"casa", nil, nil, _c[0:6], nil, NS{"dns1.nic.casa", "dns2.nic.casa", "dns3.nic.casa", "dns4.nic.casa", "dnsa.nic.casa", "dnsb.nic.casa", "a.ns.nic.casa", "b.ns.nic.casa", "c.ns.nic.casa", "d.ns.nic.casa"}, nil, "whois.nic.casa", "", "http://newgtlds.icann.org/", 0x40},
 	{"case", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"caseih", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"cash", nil, nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
