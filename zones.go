@@ -2442,7 +2442,7 @@ var _y = [4354]Zone{
 	{"school.fj", &_z[497], nil, nil, nil, NS{"ns-ext.isc.org", "homer.connect.com.fj", "marge.connect.com.fj"}, nil, "", "", "", 0x0},
 	{"ac.fk", &_z[498], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"co.fk", &_z[498], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
-	{"gov.fk", &_z[498], nil, _c[0:6], nil, NS{"ans1.cw.net", "ans2.cw.net", "ns.horizon.net.fk"}, nil, "", "", "", 0x0},
+	{"gov.fk", &_z[498], nil, _c[0:6], nil, NS{"ans1.cw.net", "ans2.cw.net", "ns.horizon.net.fk", "ns1.horizon.net.fk", "ns2.horizon.net.fk"}, nil, "", "", "", 0x0},
 	{"net.fk", &_z[498], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"nom.fk", &_z[498], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"org.fk", &_z[498], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
