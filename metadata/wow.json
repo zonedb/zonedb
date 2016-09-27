@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.wow",
+		"ns2.dns.nic.wow",
+		"ns3.dns.nic.wow",
+		"ns4.dns.nic.wow",
+		"ns5.dns.nic.wow",
+		"ns6.dns.nic.wow"
+	],
 	"codePoints": "--09az"
 }
