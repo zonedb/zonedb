@@ -4,8 +4,14 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.fit",
 	"nameServers": [
+		"dns1.nic.fit",
+		"dns2.nic.fit",
+		"dns3.nic.fit",
+		"dns4.nic.fit",
+		"dnsa.nic.fit",
+		"dnsb.nic.fit",
 		"a.ns.nic.fit",
 		"b.ns.nic.fit",
 		"c.ns.nic.fit",

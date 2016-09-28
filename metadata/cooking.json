@@ -3,8 +3,14 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.cooking",
 	"nameServers": [
+		"dns1.nic.cooking",
+		"dns2.nic.cooking",
+		"dns3.nic.cooking",
+		"dns4.nic.cooking",
+		"dnsa.nic.cooking",
+		"dnsb.nic.cooking",
 		"a.ns.nic.cooking",
 		"b.ns.nic.cooking",
 		"c.ns.nic.cooking",

@@ -4,8 +4,14 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.fashion",
 	"nameServers": [
+		"dns1.nic.fashion",
+		"dns2.nic.fashion",
+		"dns3.nic.fashion",
+		"dns4.nic.fashion",
+		"dnsa.nic.fashion",
+		"dnsb.nic.fashion",
 		"a.ns.nic.fashion",
 		"b.ns.nic.fashion",
 		"c.ns.nic.fashion",
