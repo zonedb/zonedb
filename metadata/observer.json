@@ -5,5 +5,12 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.centralnic.com",
+	"nameServers": [
+		"a.nic.observer",
+		"b.nic.observer",
+		"c.nic.observer",
+		"d.nic.observer"
+	],
 	"codePoints": "--09az"
 }

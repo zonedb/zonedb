@@ -9,8 +9,14 @@
 	"locations": [
 		"Miami"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.miami",
 	"nameServers": [
+		"dns1.nic.miami",
+		"dns2.nic.miami",
+		"dns3.nic.miami",
+		"dns4.nic.miami",
+		"dnsa.nic.miami",
+		"dnsb.nic.miami",
 		"a.ns.nic.miami",
 		"b.ns.nic.miami",
 		"c.ns.nic.miami",

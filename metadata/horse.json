@@ -3,8 +3,14 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.horse",
 	"nameServers": [
+		"dns1.nic.horse",
+		"dns2.nic.horse",
+		"dns3.nic.horse",
+		"dns4.nic.horse",
+		"dnsa.nic.horse",
+		"dnsb.nic.horse",
 		"a.ns.nic.horse",
 		"b.ns.nic.horse",
 		"c.ns.nic.horse",

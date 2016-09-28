@@ -3,8 +3,14 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.rodeo",
 	"nameServers": [
+		"dns1.nic.rodeo",
+		"dns2.nic.rodeo",
+		"dns3.nic.rodeo",
+		"dns4.nic.rodeo",
+		"dnsa.nic.rodeo",
+		"dnsb.nic.rodeo",
 		"a.ns.nic.rodeo",
 		"b.ns.nic.rodeo",
 		"c.ns.nic.rodeo",
