@@ -3177,7 +3177,7 @@ var _y = [4354]Zone{
 	{"edu.ng", &_z[1000], nil, _c[0:6], nil, NS{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns3.nic.net.ng", "ns4.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, nil, "", "", "", 0x0},
 	{"gov.ng", &_z[1000], nil, _c[0:6], nil, NS{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns3.nic.net.ng", "ns4.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, nil, "", "", "", 0x0},
 	{"i.ng", &_z[1000], nil, nil, nil, NS{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns3.nic.net.ng", "ns4.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, nil, "", "", "", 0x0},
-	{"mil.ng", &_z[1000], nil, nil, nil, NS{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns3.nic.net.ng", "ns4.nic.net.ng", "nsa.nic.net.ng"}, nil, "", "", "", 0x0},
+	{"mil.ng", &_z[1000], nil, nil, nil, NS{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns3.nic.net.ng", "ns4.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, nil, "", "", "", 0x0},
 	{"mobi.ng", &_z[1000], nil, _c[0:6], nil, NS{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns3.nic.net.ng", "ns4.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, nil, "", "", "", 0x0},
 	{"name.ng", &_z[1000], nil, _c[0:6], nil, NS{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns3.nic.net.ng", "ns4.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, nil, "", "", "", 0x0},
 	{"net.ng", &_z[1000], nil, _c[0:6], nil, NS{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns3.nic.net.ng", "ns4.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, nil, "", "", "", 0x0},
