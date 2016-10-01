@@ -6,6 +6,12 @@
 	],
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
+		"dns1.nic.yoga",
+		"dns2.nic.yoga",
+		"dns3.nic.yoga",
+		"dns4.nic.yoga",
+		"dnsa.nic.yoga",
+		"dnsb.nic.yoga",
 		"a.ns.nic.yoga",
 		"b.ns.nic.yoga",
 		"c.ns.nic.yoga",

@@ -6,6 +6,12 @@
 	],
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
+		"dns1.nic.garden",
+		"dns2.nic.garden",
+		"dns3.nic.garden",
+		"dns4.nic.garden",
+		"dnsa.nic.garden",
+		"dnsb.nic.garden",
 		"a.ns.nic.garden",
 		"b.ns.nic.garden",
 		"c.ns.nic.garden",
