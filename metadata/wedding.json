@@ -6,6 +6,12 @@
 	],
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
+		"dns1.nic.wedding",
+		"dns2.nic.wedding",
+		"dns3.nic.wedding",
+		"dns4.nic.wedding",
+		"dnsa.nic.wedding",
+		"dnsb.nic.wedding",
 		"a.ns.nic.wedding",
 		"b.ns.nic.wedding",
 		"c.ns.nic.wedding",

@@ -5,6 +5,12 @@
 	],
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
+		"dns1.nic.fishing",
+		"dns2.nic.fishing",
+		"dns3.nic.fishing",
+		"dns4.nic.fishing",
+		"dnsa.nic.fishing",
+		"dnsb.nic.fishing",
 		"a.ns.nic.fishing",
 		"b.ns.nic.fishing",
 		"c.ns.nic.fishing",
