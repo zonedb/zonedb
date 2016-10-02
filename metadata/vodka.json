@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.vodka",
 	"nameServers": [
 		"dns1.nic.vodka",
 		"dns2.nic.vodka",
