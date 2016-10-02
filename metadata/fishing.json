@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.fishing",
 	"nameServers": [
 		"dns1.nic.fishing",
 		"dns2.nic.fishing",
