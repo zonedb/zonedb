@@ -7,7 +7,9 @@
 		"gl2.dyntld.net",
 		"gl3.dyntld.net",
 		"gl4.dyntld.net",
-		"a.nuuk.nic.gl"
+		"a.nuuk.nic.gl",
+		"a.gl.dyntld.net",
+		"b.gl.dyntld.net"
 	],
 	"codePoints": "--09az"
 }
