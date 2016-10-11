@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+  "whoisServer": "whois.nic.shop",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",
