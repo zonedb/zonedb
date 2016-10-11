@@ -2542,7 +2542,7 @@ var _y = [4355]Zone{
 	{"org.gi", &_z[561], nil, _c[0:6], nil, NS{"a0.cctld.afilias-nst.info", "a2.cctld.afilias-nst.info", "c0.cctld.afilias-nst.info", "b0.cctld.afilias-nst.org", "b2.cctld.afilias-nst.org", "d0.cctld.afilias-nst.org"}, nil, "", "", "", 0x0},
 	{"co.gl", &_z[566], nil, _c[0:6], nil, NS{"b.nic.gl", "d.nic.gl", "gl1.dyntld.net", "gl2.dyntld.net", "gl3.dyntld.net", "gl4.dyntld.net", "a.nuuk.nic.gl", "a.gl.dyntld.net", "b.gl.dyntld.net"}, nil, "", "", "", 0x0},
 	{"com.gl", &_z[566], nil, _c[0:6], nil, NS{"b.nic.gl", "d.nic.gl", "gl1.dyntld.net", "gl2.dyntld.net", "gl3.dyntld.net", "gl4.dyntld.net", "a.nuuk.nic.gl", "a.gl.dyntld.net", "b.gl.dyntld.net"}, nil, "", "", "", 0x0},
-	{"edu.gl", &_z[566], nil, _c[0:6], nil, NS{"b.nic.gl", "d.nic.gl", "gl1.dyntld.net", "gl2.dyntld.net", "gl3.dyntld.net", "gl4.dyntld.net", "a.nuuk.nic.gl"}, nil, "", "", "", 0x0},
+	{"edu.gl", &_z[566], nil, _c[0:6], nil, NS{"b.nic.gl", "d.nic.gl", "gl1.dyntld.net", "gl2.dyntld.net", "gl3.dyntld.net", "gl4.dyntld.net", "a.nuuk.nic.gl", "a.gl.dyntld.net", "b.gl.dyntld.net"}, nil, "", "", "", 0x0},
 	{"net.gl", &_z[566], nil, _c[0:6], nil, NS{"b.nic.gl", "d.nic.gl", "gl1.dyntld.net", "gl2.dyntld.net", "gl3.dyntld.net", "gl4.dyntld.net", "a.nuuk.nic.gl", "a.gl.dyntld.net", "b.gl.dyntld.net"}, nil, "", "", "", 0x0},
 	{"org.gl", &_z[566], nil, _c[0:6], nil, NS{"b.nic.gl", "d.nic.gl", "gl1.dyntld.net", "gl2.dyntld.net", "gl3.dyntld.net", "gl4.dyntld.net", "a.nuuk.nic.gl", "a.gl.dyntld.net", "b.gl.dyntld.net"}, nil, "", "", "", 0x0},
 	{"ac.gn", &_z[579], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
