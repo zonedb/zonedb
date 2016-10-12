@@ -1363,7 +1363,7 @@ var _y = [4355]Zone{
 	{"shia", nil, nil, _c[0:6], nil, NS{"a.shia.dyntld.net", "b.shia.dyntld.net", "a.ns.nic.shia", "b.ns.nic.shia"}, nil, "whois.agitsys.net", "", "http://newgtlds.icann.org/", 0x40},
 	{"shiksha", nil, nil, _c[0:6], nil, NS{"a0.nic.shiksha", "a2.nic.shiksha", "b0.nic.shiksha", "c0.nic.shiksha"}, nil, "whois.afilias.net", "", "", 0x40},
 	{"shoes", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
-	{"shop", nil, nil, _c[0:6], nil, NS{"a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
+	{"shop", nil, nil, _c[0:6], nil, NS{"a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, nil, "whois.nic.shop", "", "http://newgtlds.icann.org/", 0x40},
 	{"shopping", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x40},
 	{"shopyourway", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"shouji", nil, nil, _c[0:6], nil, NS{"ns1.teleinfo.cn", "ns3.teleinfo.cn", "ns2.teleinfoo.com", "ns4.teleinfoo.com"}, nil, "whois.teleinfo.cn", "", "http://newgtlds.icann.org/", 0x42},
