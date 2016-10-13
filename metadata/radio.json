@@ -4,5 +4,12 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.radio",
+	"nameServers": [
+		"anycast10.irondns.net",
+		"anycast23.irondns.net",
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
+	],
 	"codePoints": "--09az"
 }
