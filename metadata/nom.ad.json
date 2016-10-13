@@ -2,7 +2,8 @@
 	"domain": "nom.ad",
 	"nameServers": [
 		"dnsc.ad",
-		"dnsm.ad"
+		"dnsm.ad",
+		"ad.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
 }
