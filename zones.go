@@ -1841,7 +1841,7 @@ var _y = [4355]Zone{
 	{"mil.ac", &_z[10], nil, _c[0:6], nil, NS{"dns01.nic.ac", "dns1.nic.ac", "dns2.nic.ac", "dns3.nic.ac", "dns4.nic.ac", "dns5.nic.ac", "dns6.nic.ac", "dns7.nic.ac"}, nil, "", "", "", 0x0},
 	{"net.ac", &_z[10], nil, _c[0:6], nil, NS{"dns01.nic.ac", "dns1.nic.ac", "dns2.nic.ac", "dns3.nic.ac", "dns4.nic.ac", "dns5.nic.ac", "dns6.nic.ac", "dns7.nic.ac"}, nil, "", "", "", 0x0},
 	{"org.ac", &_z[10], nil, _c[0:6], nil, NS{"dns01.nic.ac", "dns1.nic.ac", "dns2.nic.ac", "dns3.nic.ac", "dns4.nic.ac", "dns5.nic.ac", "dns6.nic.ac", "dns7.nic.ac"}, nil, "", "", "", 0x0},
-	{"nom.ad", &_z[19], nil, _c[0:6], nil, NS{"dnsc.ad", "dnsm.ad", "ad.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
+	{"nom.ad", &_z[19], nil, _c[0:6], nil, NS{"dnsc.ad", "dnsm.ad", "ns3.nic.fr", "ns-ext.isc.org", "ad.ns.nic.es", "ad.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"ac.ae", &_z[23], nil, _c[0:6], nil, NS{"ns1.aedns.ae", "ns2.aedns.ae", "nsext-pch.aedns.ae", "sec3.apnic.net", "sns-pb.isc.org", "ae.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"co.ae", &_z[23], nil, nil, nil, NS{"ns1.aedns.ae", "ns2.aedns.ae", "nsext-pch.aedns.ae", "sec3.apnic.net", "sns-pb.isc.org", "ae.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"gov.ae", &_z[23], nil, _c[0:6], nil, NS{"ns1.aedns.ae", "ns2.aedns.ae", "nsext-pch.aedns.ae", "sec3.apnic.net", "sns-pb.isc.org", "ae.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
