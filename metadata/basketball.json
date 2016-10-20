@@ -4,5 +4,12 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.centralnic.com",
+	"nameServers": [
+		"a.nic.basketball",
+		"b.nic.basketball",
+		"c.nic.basketball",
+		"d.nic.basketball"
+	],
 	"codePoints": "--09az"
 }
