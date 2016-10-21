@@ -4,8 +4,14 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois-cl01.mm-registry.com",
+	"whoisServer": "whois.nic.gop",
 	"nameServers": [
+		"dns1.nic.gop",
+		"dns2.nic.gop",
+		"dns3.nic.gop",
+		"dns4.nic.gop",
+		"dnsa.nic.gop",
+		"dnsb.nic.gop",
 		"a.ns.nic.gop",
 		"b.ns.nic.gop",
 		"c.ns.nic.gop",

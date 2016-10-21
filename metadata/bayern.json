@@ -8,8 +8,14 @@
 	"locations": [
 		"DE-BY"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.bayern",
 	"nameServers": [
+		"dns1.nic.bayern",
+		"dns2.nic.bayern",
+		"dns3.nic.bayern",
+		"dns4.nic.bayern",
+		"dnsa.nic.bayern",
+		"dnsb.nic.bayern",
 		"a.ns.nic.bayern",
 		"b.ns.nic.bayern",
 		"c.ns.nic.bayern",
