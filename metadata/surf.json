@@ -3,8 +3,14 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.surf",
 	"nameServers": [
+		"dns1.nic.surf",
+		"dns2.nic.surf",
+		"dns3.nic.surf",
+		"dns4.nic.surf",
+		"dnsa.nic.surf",
+		"dnsb.nic.surf",
 		"a.ns.nic.surf",
 		"b.ns.nic.surf",
 		"c.ns.nic.surf",

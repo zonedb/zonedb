@@ -3,8 +3,14 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.beer",
 	"nameServers": [
+		"dns1.nic.beer",
+		"dns2.nic.beer",
+		"dns3.nic.beer",
+		"dns4.nic.beer",
+		"dnsa.nic.beer",
+		"dnsb.nic.beer",
 		"a.ns.nic.beer",
 		"b.ns.nic.beer",
 		"c.ns.nic.beer",
