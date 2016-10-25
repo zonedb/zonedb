@@ -1,8 +1,7 @@
 {
 	"domain": "et",
-	"infoURL": "http://www.ethionet.et/EthioInternet/domainname.html",
+	"infoURL": "http://www.ethionet.et/?q=ipservicedomainname",
 	"tags": [
-		"closed",
 		"country",
 		"geo"
 	],
