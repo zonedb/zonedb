@@ -2274,7 +2274,7 @@ var _y = [4355]Zone{
 	{"africa.com", &_z[314], nil, _c[0:6], nil, NS{"ns1.africa.com", "ns2.africa.com", "ns3.africa.com", "ns4.africa.com", "ns5.africa.com", "ns1.domain-name.services", "ns.coza.net.za", "ns1.coza.net.za", "ns-any.dns.net.za", "ns1.dns.net.za"}, nil, "whois.centralnic.com", "", "", 0x0},
 	{"ar.com", &_z[314], nil, nil, nil, NS{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, nil, "whois.centralnic.com", "", "", 0x0},
 	{"asia.com", &_z[314], nil, _c[0:6], nil, NS{"pdns5.ultradns.info", "pdns1.ultradns.net", "pdns2.ultradns.net", "pdns3.ultradns.org", "pdns4.ultradns.org", "pdns6.ultradns.co.uk"}, nil, "", "", "", 0x0},
-	{"au.com", &_z[314], nil, _c[0:6], nil, NS{"dns103.kddi.ne.jp", "dns104.kddi.ne.jp"}, nil, "", "", "", 0x0},
+	{"au.com", &_z[314], nil, _c[0:6], nil, NS{"dns103.kddi.ne.jp", "dns104.kddi.ne.jp", "dnsa01.kddi.ne.jp", "dnsa02.kddi.ne.jp"}, nil, "", "", "", 0x0},
 	{"br.com", &_z[314], nil, nil, nil, NS{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, nil, "whois.centralnic.com", "", "", 0x0},
 	{"cn.com", &_z[314], nil, nil, nil, NS{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, nil, "whois.centralnic.com", "", "", 0x0},
 	{"co.com", &_z[314], nil, nil, nil, NS{"ns1.nic.co.com", "ns2.nic.co.com", "ns3.nic.co.com", "ns4.nic.co.com", "ns5.nic.co.com"}, nil, "whois.centralnic.net", "", "http://registry.co.com/", 0x0},
