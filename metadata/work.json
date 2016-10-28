@@ -6,6 +6,12 @@
 	],
 	"whoisServer": "whois-dub.mm-registry.com",
 	"nameServers": [
+		"dns1.nic.work",
+		"dns2.nic.work",
+		"dns3.nic.work",
+		"dns4.nic.work",
+		"dnsa.nic.work",
+		"dnsb.nic.work",
 		"a.ns.nic.work",
 		"b.ns.nic.work",
 		"c.ns.nic.work",

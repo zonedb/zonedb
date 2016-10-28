@@ -7,6 +7,7 @@
 	"whoisServer": "whois.isnic.is",
 	"nameServers": [
 		"isgate.is",
+		"bes.isnic.is",
 		"sab.isnic.is",
 		"durinn.rhnet.is",
 		"sns-pb.isc.org",
