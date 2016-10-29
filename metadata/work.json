@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.work",
 	"nameServers": [
 		"dns1.nic.work",
 		"dns2.nic.work",
