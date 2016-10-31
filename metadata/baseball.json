@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.baseball",
+		"ns2.dns.nic.baseball",
+		"ns3.dns.nic.baseball",
+		"ns4.dns.nic.baseball",
+		"ns5.dns.nic.baseball",
+		"ns6.dns.nic.baseball"
+	],
 	"codePoints": "--09az"
 }
