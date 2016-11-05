@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.centralnic.com",
+	"whoisServer": "whois.nic.observer",
 	"nameServers": [
 		"a.nic.observer",
 		"b.nic.observer",
