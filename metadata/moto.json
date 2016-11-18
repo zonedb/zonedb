@@ -4,5 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"ns1.dns.nic.moto",
+		"ns2.dns.nic.moto",
+		"ns3.dns.nic.moto",
+		"ns4.dns.nic.moto",
+		"ns5.dns.nic.moto",
+		"ns6.dns.nic.moto"
+	],
 	"codePoints": "--09az"
 }

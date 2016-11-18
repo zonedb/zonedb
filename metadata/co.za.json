@@ -1,6 +1,6 @@
 {
 	"domain": "co.za",
-	"whoisServer": "whois.registry.net.za",
+	"whoisServer": "coza-whois.registry.net.za",
 	"nameServers": [
 		"ns4.iafrica.com",
 		"coza1.dnsnode.net",

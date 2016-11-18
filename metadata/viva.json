@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.centralnic.com",
+	"whoisServer": "whois.nic.viva",
 	"nameServers": [
 		"a.nic.viva",
 		"b.nic.viva",
