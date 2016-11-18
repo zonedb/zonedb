@@ -14,7 +14,14 @@ type NS []string
 type L []string
 
 // IDNT represents a map of languages and their IDN tables
-type IDNT map[string][]rune
+type IDNT map[string]CodePoints
+
+type CodePoints []rune
+
+type IDNTable struct {
+	Lang string
+	CodePoints
+}
 
 // And performs a bitwise AND between tags and q,
 // comparing the result to zero. Returns true if any
@@ -52,10 +59,11 @@ type Zone struct {
 
 	// Unicode codepoint ranges allowed by the registry.
 	// Alternating low, high (inclusive)
-	CodePoints []rune
+	CodePoints CodePoints
 
-	// A map of language to codepoint ranges allowed by the registry for IDNs
-	IDNTables map[string][]rune
+	// Unicode codepoint ranges allowed by the registry
+	// for specific languages.
+	IDNTables []IDNTable
 
 	// DNS name servers for the Zone
 	NameServers NS
@@ -123,10 +131,10 @@ var (
 	ErrIDNTableNotFound     = errors.New("matching IDN table not found")
 )
 
-// Return the IDN table for the given Unicode string s. Returns an empty string
-// if no IDN tables are defined for the zone or if the domain is not an IDN.
-// Input string MUST be UTF-8 Unicode, not ASCII/Punycode.
-func (z *Zone) IDNTable(s string) (lang string, err error) {
+// Detect returns the IDN table(s) matching the given Unicode string s.
+// Returns an empty string if no IDN tables are defined for the zone
+// or if the domain is not an IDN. Input string must be UTF-8 Unicode.
+func (z *Zone) Detect(s string) ([]IDNTable, err error) {
 	// A blank IDN table language indicates no IDN tables are present
 	// FIXME: return "ASCII"?
 	if len(z.CodePoints) == 0 {
@@ -152,9 +160,9 @@ func (z *Zone) IDNTable(s string) (lang string, err error) {
 	return "", ErrIDNTableNotFound
 }
 
-var asciiCodePoints = []rune{'-', '-', '0', '9', 'a', 'z'}
+var asciiCodePoints = CodePoints{'-', '-', '0', '9', 'a', 'z'}
 
-func stringInCodePoints(s string, points []rune) bool {
+func stringInCodePoints(s string, points CodePoints) bool {
 	var min rune = '\U0010FFFF'
 	var max rune = 0
 
@@ -182,11 +190,11 @@ func stringInCodePoints(s string, points []rune) bool {
 	return true
 }
 
-func runeInCodePoints(c rune, points []rune) bool {
+func runeInCodePoints(c rune, points CodePoints) bool {
 	return linearRuneInCodePoints(c, points)
 }
 
-func binaryRuneInCodePoints(c rune, points []rune) bool {
+func binaryRuneInCodePoints(c rune, points CodePoints) bool {
 	var min, midMin, max int
 
 	min = 0
@@ -207,7 +215,7 @@ func binaryRuneInCodePoints(c rune, points []rune) bool {
 	return c >= points[min] && c <= points[max]
 }
 
-func linearRuneInCodePoints(c rune, points []rune) bool {
+func linearRuneInCodePoints(c rune, points CodePoints) bool {
 	i := 0
 	end := len(points) - 1
 

@@ -162,7 +162,7 @@ type idnTest struct {
 	Error       error
 }
 
-func TestZone_IDNTable(t *testing.T) {
+func TestZone_Detect(t *testing.T) {
 	data := []idnTest{
 		{Zone: "jobs", Domain: "test", ValidTables: []string{""}},
 		{Zone: "jobs", Domain: "tést", Error: ErrCodePointsOutOfRange},
@@ -173,13 +173,13 @@ func TestZone_IDNTable(t *testing.T) {
 		{Zone: "bg", Domain: "tést", Error: ErrCodePointsOutOfRange},
 	}
 	for _, d := range data {
-		table, err := ZoneMap[d.Zone].IDNTable(d.Domain)
+		table, err := ZoneMap[d.Zone].Detect(d.Domain)
 		if err != nil && d.Error == nil {
-			t.Errorf(`Expected Zones[%q].IDNTable(%q) to not error, got %q`, d.Zone, d.Domain, err.Error())
+			t.Errorf(`Expected Zones[%q].Detect(%q) to not error, got %q`, d.Zone, d.Domain, err.Error())
 		} else if err == nil && d.Error != nil {
-			t.Errorf(`Expected Zones[%q].IDNTable(%q) to error with %q, got nothing`, d.Zone, d.Domain, d.Error.Error())
+			t.Errorf(`Expected Zones[%q].Detect(%q) to error with %q, got nothing`, d.Zone, d.Domain, d.Error.Error())
 		} else if err != nil && d.Error != nil && err.Error() != d.Error.Error() {
-			t.Errorf(`Expected Zones[%q].IDNTable(%q) to error with %q, got %q`, d.Zone, d.Domain, d.Error.Error(), err.Error())
+			t.Errorf(`Expected Zones[%q].Detect(%q) to error with %q, got %q`, d.Zone, d.Domain, d.Error.Error(), err.Error())
 		}
 		if len(d.ValidTables) > 0 {
 			found := false
@@ -190,7 +190,7 @@ func TestZone_IDNTable(t *testing.T) {
 				}
 			}
 			if !found {
-				t.Errorf(`Expected Zones[%q].IDNTable(%q) table in %q, got %q`, d.Zone, d.Domain, d.ValidTables, table)
+				t.Errorf(`Expected Zones[%q].Detect(%q) table in %q, got %q`, d.Zone, d.Domain, d.ValidTables, table)
 			}
 		}
 	}
@@ -198,7 +198,7 @@ func TestZone_IDNTable(t *testing.T) {
 
 type runePointsTest struct {
 	C      rune
-	Points []rune
+	Points CodePoints
 	Result bool
 }
 
@@ -220,7 +220,7 @@ var asciiRunePointsData = []runePointsTest{
 	{C: 'ø', Points: asciiCodePoints, Result: false},
 }
 
-var unicodeCodePoints = []rune{'-', '-', '0', '9', 'а', 'ъ', 'ь', 'ь', 'ю', 'я'}
+var unicodeCodePoints = CodePoints{'-', '-', '0', '9', 'а', 'ъ', 'ь', 'ь', 'ю', 'я'}
 
 var unicodeRunePointsData = []runePointsTest{
 	{C: 0, Points: unicodeCodePoints, Result: false},
@@ -238,7 +238,7 @@ var unicodeRunePointsData = []runePointsTest{
 	{C: '~', Points: unicodeCodePoints, Result: false},
 }
 
-var manyUnicodeCodePoints = []rune{'-', '-', '0', '9', 'À', 'Á', 'Â', 'Ã', 'Ä', 'Å', 'Æ', 'Ç', 'È', 'É', 'Ê', 'Ë', 'Ì', 'Í', 'Î', 'Ï', 'Ð', 'Ñ', 'Ò', 'Ó', 'Ô', 'Õ', 'Ö', 'Ø', 'Ù', 'Ú', 'Û', 'Ü', 'Ý', 'Þ', 'Ā', 'Ă', 'Ą', 'Ć', 'Ĉ', 'Ċ', 'Č', 'Ď', 'Đ', 'Ē', 'Ĕ', 'Ė', 'Ę', 'Ě', 'Ĝ', 'Ğ', 'Ġ', 'Ģ', 'Ĥ', 'Ħ', 'Ĩ', 'Ī', 'Ĭ', 'Į', 'İ', 'Ĳ', 'Ĵ', 'Ķ', 'Ĺ', 'Ļ', 'Ľ', 'Ŀ', 'Ł', 'Ń', 'Ņ', 'Ň', 'Ŋ', 'Ō', 'Ŏ', 'Ő', 'Œ', 'Ŕ', 'Ŗ', 'Ř', 'Ś', 'Ŝ', 'Ş', 'Š', 'Ţ', 'Ť', 'Ŧ', 'Ũ', 'Ū', 'Ŭ', 'Ů', 'Ű', 'Ų', 'Ŵ', 'Ŷ', 'Ÿ', 'Ź', 'Ż', 'Ž', 'Ɓ', 'Ƃ', 'Ƅ', 'Ɔ', 'Ƈ', 'Ɖ', 'Ɗ', 'Ƌ', 'Ǝ', 'Ə', 'Ɛ', 'Ƒ', 'Ɠ', 'Ɣ', 'Ɩ', 'Ɨ', 'Ƙ', 'Ɯ', 'Ɲ', 'Ɵ', 'Ơ', 'Ƣ', 'Ƥ', 'Ʀ', 'Ƨ', 'Ʃ', 'Ƭ', 'Ʈ', 'Ư', 'Ʊ', 'Ʋ', 'Ƴ', 'Ƶ', 'Ʒ', 'Ƹ', 'Ƽ', 'Ǆ', 'Ǉ', 'Ǌ', 'Ǎ', 'Ǐ', 'Ǒ', 'Ǔ', 'Ǖ', 'Ǘ', 'Ǚ', 'Ǜ', 'Ǟ', 'Ǡ', 'Ǣ', 'Ǥ', 'Ǧ', 'Ǩ', 'Ǫ', 'Ǭ', 'Ǯ', 'Ǳ', 'Ǵ', 'Ƕ', 'Ƿ', 'Ǹ', 'Ǻ', 'Ǽ', 'Ǿ', 'Ȁ', 'Ȃ', 'Ȅ', 'Ȇ', 'Ȉ', 'Ȋ', 'Ȍ', 'Ȏ', 'Ȑ', 'Ȓ', 'Ȕ', 'Ȗ', 'Ș', 'Ȟ', 'Ƞ', 'Ȣ', 'Ȥ', 'Ȧ', 'Ȩ', 'Ȫ', 'Ȭ', 'Ȯ', 'Ȱ'}
+var manyUnicodeCodePoints = CodePoints{'-', '-', '0', '9', 'À', 'Á', 'Â', 'Ã', 'Ä', 'Å', 'Æ', 'Ç', 'È', 'É', 'Ê', 'Ë', 'Ì', 'Í', 'Î', 'Ï', 'Ð', 'Ñ', 'Ò', 'Ó', 'Ô', 'Õ', 'Ö', 'Ø', 'Ù', 'Ú', 'Û', 'Ü', 'Ý', 'Þ', 'Ā', 'Ă', 'Ą', 'Ć', 'Ĉ', 'Ċ', 'Č', 'Ď', 'Đ', 'Ē', 'Ĕ', 'Ė', 'Ę', 'Ě', 'Ĝ', 'Ğ', 'Ġ', 'Ģ', 'Ĥ', 'Ħ', 'Ĩ', 'Ī', 'Ĭ', 'Į', 'İ', 'Ĳ', 'Ĵ', 'Ķ', 'Ĺ', 'Ļ', 'Ľ', 'Ŀ', 'Ł', 'Ń', 'Ņ', 'Ň', 'Ŋ', 'Ō', 'Ŏ', 'Ő', 'Œ', 'Ŕ', 'Ŗ', 'Ř', 'Ś', 'Ŝ', 'Ş', 'Š', 'Ţ', 'Ť', 'Ŧ', 'Ũ', 'Ū', 'Ŭ', 'Ů', 'Ű', 'Ų', 'Ŵ', 'Ŷ', 'Ÿ', 'Ź', 'Ż', 'Ž', 'Ɓ', 'Ƃ', 'Ƅ', 'Ɔ', 'Ƈ', 'Ɖ', 'Ɗ', 'Ƌ', 'Ǝ', 'Ə', 'Ɛ', 'Ƒ', 'Ɠ', 'Ɣ', 'Ɩ', 'Ɨ', 'Ƙ', 'Ɯ', 'Ɲ', 'Ɵ', 'Ơ', 'Ƣ', 'Ƥ', 'Ʀ', 'Ƨ', 'Ʃ', 'Ƭ', 'Ʈ', 'Ư', 'Ʊ', 'Ʋ', 'Ƴ', 'Ƶ', 'Ʒ', 'Ƹ', 'Ƽ', 'Ǆ', 'Ǉ', 'Ǌ', 'Ǎ', 'Ǐ', 'Ǒ', 'Ǔ', 'Ǖ', 'Ǘ', 'Ǚ', 'Ǜ', 'Ǟ', 'Ǡ', 'Ǣ', 'Ǥ', 'Ǧ', 'Ǩ', 'Ǫ', 'Ǭ', 'Ǯ', 'Ǳ', 'Ǵ', 'Ƕ', 'Ƿ', 'Ǹ', 'Ǻ', 'Ǽ', 'Ǿ', 'Ȁ', 'Ȃ', 'Ȅ', 'Ȇ', 'Ȉ', 'Ȋ', 'Ȍ', 'Ȏ', 'Ȑ', 'Ȓ', 'Ȕ', 'Ȗ', 'Ș', 'Ȟ', 'Ƞ', 'Ȣ', 'Ȥ', 'Ȧ', 'Ȩ', 'Ȫ', 'Ȭ', 'Ȯ', 'Ȱ'}
 
 var manyUnicodeRunePointsData = []runePointsTest{
 	{C: 0, Points: manyUnicodeCodePoints, Result: false},
