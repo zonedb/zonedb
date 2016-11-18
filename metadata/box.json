@@ -4,5 +4,12 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.aridnrs.net.au",
+	"nameServers": [
+		"a.nic.box",
+		"b.nic.box",
+		"c.nic.box",
+		"d.nic.box"
+	],
 	"codePoints": "--09az"
 }

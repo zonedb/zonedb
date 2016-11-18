@@ -1,4 +1,14 @@
 {
 	"domain": "edu.tc",
+	"nameServers": [
+		"root1.zone.tc",
+		"root2.zone.tc",
+		"root3.zone.tc",
+		"root4.zone.tc",
+		"root5.zone.tc",
+		"root6.zone.tc",
+		"root7.zone.tc",
+		"root8.zone.tc"
+	],
 	"codePoints": "--09az"
 }

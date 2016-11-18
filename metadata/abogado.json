@@ -4,8 +4,16 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.nic.abogado",
 	"nameServers": [
+		"dns1.nic.abogado",
+		"dns2.nic.abogado",
+		"dns3.nic.abogado",
+		"dns4.nic.abogado",
+		"dnsa.nic.abogado",
+		"dnsb.nic.abogado",
+		"dnsc.nic.abogado",
+		"dnsd.nic.abogado",
 		"a.ns.nic.abogado",
 		"b.ns.nic.abogado",
 		"c.ns.nic.abogado",

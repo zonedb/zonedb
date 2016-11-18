@@ -41,8 +41,16 @@
 		"GB-WND",
 		"GB-WSM"
 	],
-	"whoisServer": "whois-lon.mm-registry.com",
+	"whoisServer": "whois.nic.london",
 	"nameServers": [
+		"dns1.nic.london",
+		"dns2.nic.london",
+		"dns3.nic.london",
+		"dns4.nic.london",
+		"dnsa.nic.london",
+		"dnsb.nic.london",
+		"dnsc.nic.london",
+		"dnsd.nic.london",
 		"a.ns.nic.london",
 		"b.ns.nic.london",
 		"c.ns.nic.london",

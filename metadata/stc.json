@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.centralnic.com",
+	"whoisServer": "whois.nic.stc",
 	"nameServers": [
 		"a.nic.stc",
 		"b.nic.stc",

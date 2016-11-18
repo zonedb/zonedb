@@ -1,5 +1,6 @@
 {
 	"domain": "hk.org",
+	"whoisServer": "whois.registry.hk.com",
 	"nameServers": [
 		"dns7.cloudns.net",
 		"dns8.cloudns.net",
