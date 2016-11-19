@@ -3965,7 +3965,7 @@ var _y = [4356]Zone{
 	{"int.tc", &_z[1362], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"it.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns.udag.de", "ns.udagdns.de", "ns.udag.net", "ns.udagdns.net", "ns.udag.org"}, nil, "", "", "", 0x0},
 	{"kr.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns.udag.de", "ns.udag.net", "ns.udag.org"}, nil, "", "", "", 0x0},
-	{"mx.tc", &_z[1362], nil, _c[0:6], nil, NS{"dns.site5.com", "dns2.site5.com"}, nil, "", "", "", 0x0},
+	{"mx.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.dreamhost.com", "ns2.dreamhost.com", "ns3.dreamhost.com", "dns.site5.com", "dns2.site5.com"}, nil, "", "", "", 0x0},
 	{"net.tc", &_z[1362], nil, _c[0:6], nil, NS{"root1.zone.tc", "root2.zone.tc", "root3.zone.tc", "root4.zone.tc", "root5.zone.tc", "root6.zone.tc", "root7.zone.tc"}, nil, "", "", "", 0x0},
 	{"no.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.alanadlari.com", "ns2.alanadlari.com", "ns1.iwantmyname.net", "ns2.iwantmyname.net", "suspended.nic.tc"}, nil, "", "", "", 0x0},
 	{"ph.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.4.cn", "ns2.4.cn", "f1g1ns1.dnspod.net", "f1g1ns2.dnspod.net"}, nil, "", "", "", 0x0},
