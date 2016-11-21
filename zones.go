@@ -2053,7 +2053,7 @@ var _y = [4356]Zone{
 	{"edu.bj", &_z[163], nil, _c[0:6], nil, NS{"ns1.intnet.bj", "nakayo.leland.bj"}, nil, "", "", "", 0x0},
 	{"gouv.bj", &_z[163], nil, _c[0:6], nil, NS{"ben02.gouv.bj", "ns1.intnet.bj", "nakayo.leland.bj", "rip.psg.com"}, nil, "", "", "", 0x0},
 	{"gov.bj", &_z[163], nil, _c[0:6], nil, NS{"ns1.intnet.bj", "nakayo.leland.bj"}, nil, "", "", "", 0x0},
-	{"mil.bj", &_z[163], nil, _c[0:6], nil, NS{"calavi.uac.bj", "ns1.uac.bj"}, nil, "", "", "", 0x0},
+	{"mil.bj", &_z[163], nil, _c[0:6], nil, NS{"emg.mil.bj", "guezo.mil.bj", "calavi.uac.bj", "ns1.uac.bj"}, nil, "", "", "", 0x0},
 	{"com.bm", &_z[172], nil, _c[0:6], nil, NS{"ns1.bm", "ns2.bm", "ns3.bm", "ns1.ibl.bm", "ns2.ibl.bm", "ns.uu.net", "sunic.sunet.se", "a0.bm.afilias-nst.info", "a2.bm.afilias-nst.info", "c0.bm.afilias-nst.info", "auth02.ns.uu.net", "b0.bm.afilias-nst.org", "b2.bm.afilias-nst.org", "d0.bm.afilias-nst.org"}, nil, "", "", "", 0x0},
 	{"edu.bm", &_z[172], nil, _c[0:6], nil, NS{"ns1.bm", "ns2.bm", "ns3.bm", "ns1.ibl.bm", "ns2.ibl.bm", "ns.uu.net", "sunic.sunet.se", "a0.bm.afilias-nst.info", "a2.bm.afilias-nst.info", "c0.bm.afilias-nst.info", "auth02.ns.uu.net", "b0.bm.afilias-nst.org", "b2.bm.afilias-nst.org", "d0.bm.afilias-nst.org"}, nil, "", "", "", 0x0},
 	{"gov.bm", &_z[172], nil, _c[0:6], nil, NS{"dns1.gov.bm", "dns2.gov.bm", "dns3.gov.bm"}, nil, "", "", "", 0x0},
