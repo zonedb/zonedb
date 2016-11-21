@@ -1,6 +1,8 @@
 {
 	"domain": "mil.bj",
 	"nameServers": [
+		"emg.mil.bj",
+		"guezo.mil.bj",
 		"calavi.uac.bj",
 		"ns1.uac.bj"
 	],
