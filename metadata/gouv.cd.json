@@ -1,6 +1,7 @@
 {
 	"domain": "gouv.cd",
 	"nameServers": [
+		"dns.princeton.edu",
 		"igubu.saix.net",
 		"sabela.saix.net",
 		"sangoma.saix.net",
