@@ -1,6 +1,8 @@
 {
 	"domain": "be.tc",
 	"nameServers": [
+		"ns1.above.com",
+		"ns2.above.com",
 		"ns.udag.de",
 		"ns.udagdns.de",
 		"ns1.parkingcrew.net",
