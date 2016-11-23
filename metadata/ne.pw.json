@@ -3,6 +3,8 @@
 	"nameServers": [
 		"ns1.4.cn",
 		"ns2.4.cn",
+		"ns01.yun-ns.cn",
+		"ns02.yun-ns.cn",
 		"dns1.iidns.com",
 		"dns2.iidns.com",
 		"dns3.iidns.com",

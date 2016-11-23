@@ -2,7 +2,9 @@
 	"domain": "hk.tc",
 	"nameServers": [
 		"ns1.alidns.com",
-		"ns2.alidns.com"
+		"ns2.alidns.com",
+		"v1s1.xundns.com",
+		"v1s2.xundns.com"
 	],
 	"codePoints": "--09az"
 }
