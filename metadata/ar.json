@@ -6,6 +6,7 @@
 		"country",
 		"geo"
 	],
+	"whoisServer": "whois.nic.ar",
 	"whoisURL": "http://www.nic.ar/",
 	"nameServers": [
 		"ctina.ar",
