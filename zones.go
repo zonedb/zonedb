@@ -4033,7 +4033,7 @@ var _y = [4356]Zone{
 	{"co.tm", &_z[1400], nil, nil, nil, NS{"ns05.telecom.tm", "ns06.telecom.tm", "webns1.telecom.tm", "webns2.telecom.tm"}, nil, "", "", "", 0x800},
 	{"com.tm", &_z[1400], nil, _c[0:6], nil, NS{"ns05.telecom.tm", "ns06.telecom.tm", "webns1.telecom.tm", "webns2.telecom.tm"}, nil, "", "", "", 0x0},
 	{"edu.tm", &_z[1400], nil, _c[0:6], nil, NS{"webns1.telecom.tm", "webns2.telecom.tm"}, nil, "", "", "", 0x0},
-	{"gov.tm", &_z[1400], nil, _c[0:6], nil, NS{"ns2.public-root.net", "ns05.telecom.tm", "web2.telecom.tm", "webns1.telecom.tm", "webns2.telecom.tm"}, nil, "", "", "", 0x0},
+	{"gov.tm", &_z[1400], nil, _c[0:6], nil, NS{"ns2.public-root.net", "ns05.telecom.tm", "web2.telecom.tm", "webns1.telecom.tm", "webns2.telecom.tm", "webns.agts.tv"}, nil, "", "", "", 0x0},
 	{"mil.tm", &_z[1400], nil, nil, nil, NS{"ns04.telecom.tm", "web2.telecom.tm", "webns1.telecom.tm", "webns2.telecom.tm"}, nil, "", "", "", 0x800},
 	{"net.tm", &_z[1400], nil, _c[0:6], nil, NS{"ns05.telecom.tm", "ns06.telecom.tm", "webns1.telecom.tm", "webns2.telecom.tm"}, nil, "", "", "", 0x0},
 	{"nom.tm", &_z[1400], nil, nil, nil, nil, nil, "", "", "", 0x800},
