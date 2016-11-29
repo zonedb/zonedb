@@ -2,6 +2,7 @@
 	"domain": "com.sg",
 	"nameServers": [
 		"dsany.sgnic.sg",
+		"dsany2.sgnic.sg",
 		"ns2.cuhk.edu.hk",
 		"sg-ns.anycast.pch.net"
 	]
