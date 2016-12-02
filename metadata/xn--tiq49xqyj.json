@@ -3,5 +3,12 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"generic"
+	],
+	"whoisServer": "whois.aridnrs.net.au",
+	"nameServers": [
+		"a.nic.天主教",
+		"b.nic.天主教",
+		"c.nic.天主教",
+		"d.nic.天主教"
 	]
 }

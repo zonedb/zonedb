@@ -3,5 +3,12 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"generic"
+	],
+	"whoisServer": "whois.aridnrs.net.au",
+	"nameServers": [
+		"a.nic.католик",
+		"b.nic.католик",
+		"c.nic.католик",
+		"d.nic.католик"
 	]
 }
