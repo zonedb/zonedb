@@ -4,5 +4,12 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.aridnrs.net.au",
+	"nameServers": [
+		"a.nic.catholic",
+		"b.nic.catholic",
+		"c.nic.catholic",
+		"d.nic.catholic"
+	],
 	"codePoints": "--09az"
 }
