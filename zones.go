@@ -715,7 +715,7 @@ var _y = [4356]Zone{
 	{"guru", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"gw", nil, nil, _c[0:6], nil, NS{"sns-pb.isc.org", "ns4.dns.pt", "phobos.fccn.pt"}, nil, "", "http://nic.gw/en/whois/", "", 0xa0},
 	{"gy", nil, _z[2479:2483], _c[0:6], nil, NS{"phloem.uoregon.edu", "sns-pb.isc.org", "ns1.gtt.co.gy", "ns2.gtt.co.gy", "gy-ns.anycast.pch.net", "gy.cctld.authdns.ripe.net"}, nil, "whois.registry.gy", "", "", 0xa0},
-	{"hair", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
+	{"hair", nil, nil, _c[0:6], nil, NS{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"halal", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"hamburg", nil, nil, nil, nil, NS{"a.dns.nic.hamburg", "m.dns.nic.hamburg", "n.dns.nic.hamburg"}, L{"Hamburg", "DE-HH"}, "whois.nic.hamburg", "", "", 0xc4},
 	{"hangout", nil, nil, nil, nil, NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, nil, "whois.nic.google", "", "http://newgtlds.icann.org/", 0x40},
