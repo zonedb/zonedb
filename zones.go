@@ -3134,7 +3134,7 @@ var _y = [4356]Zone{
 	{"dr.na", &_z[973], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"edu.na", &_z[973], nil, _c[0:6], nil, NS{"dns5.denic.de", "oshikoko.omadhina.net", "na-ns.anycast.pch.net"}, nil, "", "", "", 0x0},
 	{"in.na", &_z[973], nil, _c[0:6], nil, NS{"ns1.aidos.net", "ns2.aidos.net"}, nil, "", "", "", 0x0},
-	{"info.na", &_z[973], nil, _c[0:6], nil, NS{"dns1.dic.net", "dns2.dic.net", "dns3.dic.net"}, nil, "", "", "", 0x0},
+	{"info.na", &_z[973], nil, _c[0:6], nil, NS{"dns1.dic.net", "dns2.dic.net", "dns3.dic.net", "suspended.omadhina.co.na"}, nil, "", "", "", 0x0},
 	{"mobi.na", &_z[973], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"name.na", &_z[973], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"net.na", &_z[973], nil, _c[0:6], nil, NS{"dns5.denic.de", "oshikoko.omadhina.net", "na-ns.anycast.pch.net"}, nil, "", "", "", 0x0},
