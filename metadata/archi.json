@@ -5,6 +5,10 @@
 	],
 	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
+		"a0.nic.archi",
+		"a2.nic.archi",
+		"b0.nic.archi",
+		"c0.nic.archi",
 		"ns2a.ksregistry.com",
 		"ns2b.ksregistry.com",
 		"ns1a.ksregistry.net",
