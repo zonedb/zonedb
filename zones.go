@@ -752,7 +752,7 @@ var _y = [4356]Zone{
 	{"honda", nil, nil, _c[0:6], nil, NS{"a.nic.honda", "b.nic.honda", "c.nic.honda", "d.nic.honda", "a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, nil, "whois.nic.honda", "", "http://newgtlds.icann.org/", 0x42},
 	{"honeywell", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.honeywell", "ns2.dns.nic.honeywell", "ns3.dns.nic.honeywell", "ns4.dns.nic.honeywell", "ns5.dns.nic.honeywell", "ns6.dns.nic.honeywell"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"horse", nil, nil, nil, nil, NS{"dns1.nic.horse", "dns2.nic.horse", "dns3.nic.horse", "dns4.nic.horse", "dnsa.nic.horse", "dnsb.nic.horse", "dnsc.nic.horse", "dnsd.nic.horse", "a.ns.nic.horse", "b.ns.nic.horse", "c.ns.nic.horse", "d.ns.nic.horse"}, nil, "whois.nic.horse", "", "", 0x40},
-	{"hospital", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
+	{"hospital", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"host", nil, nil, nil, nil, NS{"a.nic.host", "b.nic.host", "c.nic.host", "d.nic.host"}, nil, "whois.nic.host", "", "", 0x40},
 	{"hosting", nil, nil, nil, nil, NS{"tld.isc-sns.com", "tld.isc-sns.info", "tld.isc-sns.net", "ns1.uniregistry.net", "a.hosting.dyntld.net", "b.hosting.dyntld.net", "c.hosting.dyntld.net", "a.ns.uniregistry.net"}, nil, "whois.uniregistry.net", "", "", 0x40},
 	{"hot", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.hot", "ns2.dns.nic.hot", "ns3.dns.nic.hot", "ns4.dns.nic.hot", "ns5.dns.nic.hot", "ns6.dns.nic.hot"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
