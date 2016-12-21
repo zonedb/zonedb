@@ -4,5 +4,12 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.mobile",
+		"a2.nic.mobile",
+		"b0.nic.mobile",
+		"c0.nic.mobile"
+	],
 	"codePoints": "--09az"
 }
