@@ -4,5 +4,12 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.centralnic.com",
+	"nameServers": [
+		"a.nic.fun",
+		"b.nic.fun",
+		"c.nic.fun",
+		"d.nic.fun"
+	],
 	"codePoints": "--09az"
 }
