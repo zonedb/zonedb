@@ -627,7 +627,7 @@ var _y = [4356]Zone{
 	{"ftr", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.ftr", "ns2.dns.nic.ftr", "ns3.dns.nic.ftr", "ns4.dns.nic.ftr", "ns5.dns.nic.ftr", "ns6.dns.nic.ftr"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"fujitsu", nil, nil, _c[0:6], nil, NS{"a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, nil, "whois.nic.gmo", "", "http://newgtlds.icann.org/", 0x42},
 	{"fujixerox", nil, nil, _c[0:6], nil, NS{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, nil, "whois.nic.fujixerox", "", "http://newgtlds.icann.org/", 0x42},
-	{"fun", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
+	{"fun", nil, nil, _c[0:6], nil, NS{"a.nic.fun", "b.nic.fun", "c.nic.fun", "d.nic.fun"}, nil, "whois.centralnic.com", "", "http://newgtlds.icann.org/", 0x40},
 	{"fund", nil, nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"furniture", nil, nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"futbol", nil, nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.unitedtld.com", "", "", 0x40},
