@@ -9,7 +9,8 @@
 		"n3.dns.ec",
 		"n1.nic.ec",
 		"n2.nic.ec",
-		"sns-pb.isc.org"
+		"sns-pb.isc.org",
+		"a.lactld.org"
 	],
 	"codePoints": "--09az"
 }
