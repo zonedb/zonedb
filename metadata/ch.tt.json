@@ -2,6 +2,8 @@
 	"domain": "ch.tt",
 	"nameServers": [
 		"ns.nagor.cn",
+		"ns1-show.myhostadmin.net",
+		"ns2-show.myhostadmin.net",
 		"ns.nagor.com.cn"
 	],
 	"codePoints": "--09az"

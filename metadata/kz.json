@@ -7,6 +7,7 @@
 	"whoisServer": "whois.nic.kz",
 	"nameServers": [
 		"ns.nic.kz",
+		"ns1.nic.kz",
 		"kz.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
