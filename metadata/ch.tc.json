@@ -2,7 +2,8 @@
 	"domain": "ch.tc",
 	"nameServers": [
 		"ns1.alidns.com",
-		"ns2.alidns.com"
+		"ns2.alidns.com",
+		"suspended.nic.tc"
 	],
 	"codePoints": "--09az"
 }
