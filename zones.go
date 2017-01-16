@@ -1784,7 +1784,7 @@ var _y = [4356]Zone{
 	{"xn--fjq720a" /* 娱乐 */, nil, nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x0},
 	{"xn--fct429k" /* 家電 */, nil, nil, nil, nil, NS{"ns1.dns.nic.xn--fct429k", "ns2.dns.nic.xn--fct429k", "ns3.dns.nic.xn--fct429k", "ns4.dns.nic.xn--fct429k", "ns5.dns.nic.xn--fct429k", "ns6.dns.nic.xn--fct429k"}, nil, "", "", "http://newgtlds.icann.org/", 0x0},
 	{"xn--estv75g" /* 工行 */, nil, nil, nil, nil, NS{"a0.nic.xn--estv75g", "a2.nic.xn--estv75g", "b0.nic.xn--estv75g", "c0.nic.xn--estv75g"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x0},
-	{"xn--xhq521b" /* 广东 */, nil, nil, nil, nil, NS{"ta.ngtld.cn", "tb.ngtld.cn", "tc.ngtld.cn", "td.ngtld.cn", "te.ngtld.cn"}, nil, "whois.ngtld.cn", "", "http://newgtlds.icann.org/", 0x0},
+	{"xn--xhq521b" /* 广东 */, nil, nil, nil, nil, NS{"ta.ngtld.cn", "tb.ngtld.cn", "tc.ngtld.cn", "td.ngtld.cn", "te.ngtld.cn"}, nil, "whois.teleinfo.cn", "", "http://newgtlds.icann.org/", 0x0},
 	{"xn--6rtwn" /* 广州 */, nil, nil, nil, nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x2000},
 	{"xn--9krt00a" /* 微博 */, nil, nil, nil, nil, NS{"a0.nic.xn--9krt00a", "a2.nic.xn--9krt00a", "b0.nic.xn--9krt00a", "c0.nic.xn--9krt00a"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x0},
 	{"xn--30rr7y" /* 慈善 */, nil, nil, nil, nil, NS{"a.zdnscloud.com", "b.zdnscloud.com", "c.zdnscloud.com", "d.zdnscloud.com", "e.zdnscloud.com", "f.zdnscloud.com", "g.zdnscloud.com", "i.zdnscloud.com", "j.zdnscloud.com"}, nil, "whois.gtld.knet.cn", "", "http://newgtlds.icann.org/", 0x0},
