@@ -1,6 +1,9 @@
 .PHONY: test update metadata/*.json
 
 GO_VERSION := 1.7.4
+GOROOT := /app/go
+GOPATH := /app/go2
+PATH := /app/go/bin:$(PATH)
 
 install-go:
 	./install-go.sh
