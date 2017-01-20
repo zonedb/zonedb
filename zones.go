@@ -1339,7 +1339,7 @@ var _y = [4356]Zone{
 	{"scor", nil, nil, _c[0:6], nil, NS{"a.nic.scor", "b.nic.scor", "c.nic.scor", "d.nic.scor"}, nil, "whois.nic.scor", "", "http://newgtlds.icann.org/", 0x42},
 	{"scot", nil, nil, nil, nil, NS{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, L{"GB-SCT"}, "whois.scot.coreregistry.net", "", "", 0x440},
 	{"sd", nil, _z[3744:3752], _c[0:6], nil, NS{"ns1.uaenic.ae", "ns2.uaenic.ae", "ns-sd.afrinic.net", "ans1.canar.sd", "ans2.canar.sd", "ans1.sis.sd", "ns1.coza.net.za", "sd.cctld.authdns.ripe.net"}, nil, "", "", "", 0xa0},
-	{"se", nil, _z[3752:3784], nil, nil, NS{"a.ns.se", "b.ns.se", "c.ns.se", "d.ns.se", "e.ns.se", "f.ns.se", "g.ns.se", "i.ns.se", "j.ns.se"}, nil, "whois.iis.se", "", "", 0xa0},
+	{"se", nil, _z[3752:3784], nil, nil, NS{"a.ns.se", "b.ns.se", "c.ns.se", "d.ns.se", "e.ns.se", "f.ns.se", "g.ns.se", "i.ns.se", "j.ns.se", "x.ns.se"}, nil, "whois.iis.se", "", "", 0xa0},
 	{"search", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"seat", nil, nil, _c[0:6], nil, NS{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, nil, "whois.nic.seat", "", "http://newgtlds.icann.org/", 0x42},
 	{"secure", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.secure", "ns2.dns.nic.secure", "ns3.dns.nic.secure", "ns4.dns.nic.secure", "ns5.dns.nic.secure", "ns6.dns.nic.secure"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
