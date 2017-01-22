@@ -1310,7 +1310,7 @@ var _y = [4356]Zone{
 	{"sale", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.rightside.co", "", "http://newgtlds.icann.org/", 0x40},
 	{"salon", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x40},
 	{"samsclub", nil, nil, _c[0:6], nil, NS{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, nil, "whois.nic.samsclub", "", "http://newgtlds.icann.org/", 0x42},
-	{"samsung", nil, nil, _c[0:6], nil, NS{"b.dns.kr", "c.dns.kr", "d.dns.kr", "e.dns.kr", "f.dns.kr", "g.dns.kr"}, nil, "whois.nic.samsung", "", "http://newgtlds.icann.org/", 0x42},
+	{"samsung", nil, nil, _c[0:6], nil, NS{"b.dns.kr", "c.dns.kr", "d.dns.kr", "e.dns.kr", "f.dns.kr", "g.dns.kr"}, nil, "whois.nic.xn--cg4bki", "", "http://newgtlds.icann.org/", 0x42},
 	{"sandvik", nil, nil, _c[0:6], nil, NS{"a.nic.sandvik", "b.nic.sandvik", "c.nic.sandvik", "d.nic.sandvik"}, nil, "whois.nic.sandvik", "", "http://newgtlds.icann.org/", 0x42},
 	{"sandvikcoromant", nil, nil, _c[0:6], nil, NS{"a.nic.sandvikcoromant", "b.nic.sandvikcoromant", "c.nic.sandvikcoromant", "d.nic.sandvikcoromant"}, nil, "whois.nic.sandvikcoromant", "", "http://newgtlds.icann.org/", 0x42},
 	{"sanofi", nil, nil, _c[0:6], nil, NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "whois.nic.sanofi", "", "http://newgtlds.icann.org/", 0x42},
