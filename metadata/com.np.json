@@ -2,6 +2,7 @@
 	"domain": "com.np",
 	"infoURL": "http://register.mos.com.np/np-ccTLDs",
 	"nameServers": [
+		"ns02.000webhost.com",
 		"ns-ext.vix.com",
 		"sec1.apnic.net",
 		"sec3.apnic.net",
