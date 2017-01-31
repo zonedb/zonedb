@@ -3756,7 +3756,7 @@ var _y = [4356]Zone{
 	{"edu.pw", &_z[1137], nil, nil, nil, nil, nil, "", "", "", 0x0},
 	{"go.pw", &_z[1137], nil, nil, nil, nil, nil, "", "", "", 0x0},
 	{"gov.pw", &_z[1137], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
-	{"ne.pw", &_z[1137], nil, nil, nil, NS{"ns1.4.cn", "ns2.4.cn", "ns01.yun-ns.cn", "ns02.yun-ns.cn", "dns1.iidns.com", "dns2.iidns.com", "dns3.iidns.com", "dns4.iidns.com", "dns5.iidns.com", "dns6.iidns.com"}, nil, "", "", "", 0x0},
+	{"ne.pw", &_z[1137], nil, nil, nil, NS{"ns1.4.cn", "ns2.4.cn", "ns01.yun-ns.cn", "ns02.yun-ns.cn", "dns1.iidns.com", "dns2.iidns.com", "dns3.iidns.com", "dns4.iidns.com", "dns5.iidns.com", "dns6.iidns.com", "ns4.myhostadmin.net", "ns5.myhostadmin.net"}, nil, "", "", "", 0x0},
 	{"net.pw", &_z[1137], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"or.pw", &_z[1137], nil, nil, nil, nil, nil, "", "", "", 0x0},
 	{"org.pw", &_z[1137], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
