@@ -10,6 +10,8 @@
 		"dns3.iidns.com",
 		"dns4.iidns.com",
 		"dns5.iidns.com",
-		"dns6.iidns.com"
+		"dns6.iidns.com",
+		"ns4.myhostadmin.net",
+		"ns5.myhostadmin.net"
 	]
 }
