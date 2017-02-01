@@ -28,6 +28,7 @@ func main() {
 	listZones := flag.Bool("list", false, "list working zones")
 	listTags := flag.Bool("list-tags", false, "list tags in working zones")
 	listLocations := flag.Bool("list-locations", false, "list locations in working zones")
+	listMetros := flag.Bool("list-metros", false, "list metros in working zones")
 
 	// Test operations
 	verifyNS := flag.Bool("verify-ns", false, "verify name servers")
@@ -37,8 +38,10 @@ func main() {
 	// Mutate operations
 	addTags := flag.String("add-tags", "", "add tags to zones (comma-delimited)")
 	addLocations := flag.String("add-locations", "", "add locations to zones (comma-delimited)")
+	addMetros := flag.String("add-metros", "", "add metros to zones (comma-delimited)")
 	removeTags := flag.String("remove-tags", "", "remove tags from zones (comma-delimited)")
 	removeLocations := flag.String("remove-locations", "", "remove locations from zones (comma-delimited)")
+	removeMetros := flag.String("remove-metros", "", "remove metros from zones (comma-delimited)")
 	updateRoot := flag.Bool("update-root", false, "retrieve updates to the root zone file")
 	updateNS := flag.Bool("update-ns", false, "update name servers")
 	updateRubyWhois := flag.Bool("update-ruby-whois", false, "query Ruby Whois for whois servers")
@@ -207,6 +210,24 @@ func main() {
 			locations.Add(z.Locations...)
 		}
 		color.Fprintf(os.Stderr, "@{.}Locations: @{c}%s\n", strings.Join(locations.Values(), " "))
+	}
+
+	if *removeMetros != "" {
+		metros := strings.Split(*removeMetros, ",")
+		build.RemoveMetros(workZones, metros)
+	}
+
+	if *addMetros != "" {
+		metros := strings.Split(*addMetros, ",")
+		build.AddMetros(workZones, metros)
+	}
+
+	if *listMetros {
+		metros := build.NewSet()
+		for _, z := range workZones {
+			metros.Add(z.Metros...)
+		}
+		color.Fprintf(os.Stderr, "@{.}Metros: @{c}%s\n", strings.Join(metros.Values(), " "))
 	}
 
 	if *verifyNS {
