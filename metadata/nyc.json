@@ -8,6 +8,9 @@
 	"locations": [
 		"New York City"
 	],
+	"metros": [
+		"501"
+	],
 	"whoisServer": "whois.nic.nyc",
 	"nameServers": [
 		"ns1.dns.nic.nyc",

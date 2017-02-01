@@ -8,6 +8,9 @@
 	"locations": [
 		"Las Vegas"
 	],
+	"metros": [
+		"839"
+	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.vegas",
