@@ -1048,7 +1048,7 @@ var _y = [4356]Zone{
 	{"movistar", nil, nil, _c[0:6], nil, NS{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, nil, "whois-fe.movistar.tango.knipp.de", "", "http://newgtlds.icann.org/", 0x42},
 	{"mozaic", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"mp", nil, _z[2963:2967], _c[0:6], nil, NS{"ns1.nic.mp", "ns2.nic.mp", "ns3.nic.mp", "ns4.nic.mp"}, nil, "whois.nic.mp", "", "http://chi.mp/", 0xa0},
-	{"mq", nil, nil, _c[0:6], nil, NS{"ns1-fr.mediaserv.net", "ns1-gp.mediaserv.net", "ns1-mq.mediaserv.net"}, nil, "", "https://www.dom-enic.com/whois.html", "", 0xa0},
+	{"mq", nil, nil, _c[0:6], nil, NS{"ns1-fr.mediaserv.net", "ns1-gp.mediaserv.net", "ns1-mq.mediaserv.net"}, nil, "whois.mediaserv.net", "https://www.dom-enic.com/whois.html", "", 0xa0},
 	{"mr", nil, _z[2967:2968], _c[0:6], nil, NS{"censvrns0001.ird.fr", "ns3.nic.fr", "ns1.nic.mr", "ns.univ-nkc.mr"}, nil, "", "", "", 0xa0},
 	{"mrmuscle", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"mrporter", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
