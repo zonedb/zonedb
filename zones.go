@@ -842,7 +842,7 @@ var _y = [4356]Zone{
 	{"joburg", nil, nil, nil, nil, NS{"coza1.dnsnode.net", "ns.coza.net.za", "ns1.coza.net.za"}, L{"Johannesburg"}, "joburg-whois.registry.net.za", "", "", 0xc4},
 	{"jot", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.jot", "ns2.dns.nic.jot", "ns3.dns.nic.jot", "ns4.dns.nic.jot", "ns5.dns.nic.jot", "ns6.dns.nic.jot"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"joy", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.joy", "ns2.dns.nic.joy", "ns3.dns.nic.joy", "ns4.dns.nic.joy", "ns5.dns.nic.joy", "ns6.dns.nic.joy"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
-	{"jp", nil, _z[2642:2745], nil, nil, NS{"a.dns.jp", "b.dns.jp", "c.dns.jp", "d.dns.jp", "e.dns.jp", "f.dns.jp", "g.dns.jp"}, nil, "whois.jprs.jp", "", "", 0xa0},
+	{"jp", nil, _z[2642:2745], nil, nil, NS{"a.dns.jp", "b.dns.jp", "c.dns.jp", "d.dns.jp", "e.dns.jp", "f.dns.jp", "g.dns.jp", "h.dns.jp"}, nil, "whois.jprs.jp", "", "", 0xa0},
 	{"jpmorgan", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.jpmorgan", "ns2.dns.nic.jpmorgan", "ns3.dns.nic.jpmorgan", "ns4.dns.nic.jpmorgan", "ns5.dns.nic.jpmorgan", "ns6.dns.nic.jpmorgan"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"jpmorganchase", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"jprs", nil, nil, _c[0:6], nil, NS{"tld1.nic.jprs", "tld2.nic.jprs", "tld3.nic.jprs", "tld4.nic.jprs", "tld5.nic.jprs"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
