@@ -9,6 +9,9 @@
 	"locations": [
 		"Miami"
 	],
+	"metros": [
+		"528"
+	],
 	"whoisServer": "whois.nic.miami",
 	"nameServers": [
 		"dns1.nic.miami",

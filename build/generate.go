@@ -91,7 +91,7 @@ var _y = [{{len .Zones}}]Zone{
 				nil \
 			{{end}}, \
 			{{if $z.NameServers}} NS{ {{range $z.NameServers}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
-			{{if $z.Locations}} L{ {{range $z.Locations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
+			{{if $z.AllLocations}} L{ {{range $z.AllLocations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
 			"{{ascii $z.WhoisServer}}", \
 			"{{ascii $z.WhoisURL}}", \
 			"{{ascii $z.InfoURL}}", \

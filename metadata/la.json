@@ -8,6 +8,9 @@
 	"locations": [
 		"Los Angeles"
 	],
+	"metros": [
+		"803"
+	],
 	"whoisServer": "whois.nic.la",
 	"nameServers": [
 		"ns1.nic.la",
