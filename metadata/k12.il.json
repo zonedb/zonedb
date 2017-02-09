@@ -2,6 +2,7 @@
 	"domain": "k12.il",
 	"nameServers": [
 		"ns1.ns.il",
+		"ns2.ns.il",
 		"nsa.ns.il",
 		"nsb.ns.il",
 		"nsd.ns.il",

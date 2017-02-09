@@ -9,7 +9,11 @@
 		"a0.nic.irish",
 		"a2.nic.irish",
 		"b0.nic.irish",
-		"c0.nic.irish"
+		"c0.nic.irish",
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
 	],
 	"codePoints": "--09az"
 }
