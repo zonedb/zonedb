@@ -4,6 +4,7 @@
 		"country",
 		"geo"
 	],
+	"whoisServer": "whois.mediaserv.net",
 	"whoisURL": "https://www.dom-enic.com/whois.html",
 	"nameServers": [
 		"ns1-gp.mediaserv.net",
