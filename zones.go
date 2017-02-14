@@ -655,7 +655,7 @@ var _y = [4356]Zone{
 	{"gent", nil, nil, nil, nil, NS{"a.ns.nic.gent", "c.ns.nic.gent", "x.ns.nic.gent", "y.ns.nic.gent"}, L{"Gent", "Ghent"}, "whois.nic.gent", "", "", 0xc4},
 	{"genting", nil, nil, _c[0:6], nil, NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "whois.nic.genting", "", "http://newgtlds.icann.org/", 0x40},
 	{"george", nil, nil, _c[0:6], nil, NS{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, nil, "whois.nic.george", "", "http://newgtlds.icann.org/", 0x42},
-	{"gf", nil, nil, _c[0:6], nil, NS{"ns1-gp.mediaserv.net", "ns1-mq.mediaserv.net"}, nil, "", "https://www.dom-enic.com/whois.html", "", 0xa0},
+	{"gf", nil, nil, _c[0:6], nil, NS{"ns1-gp.mediaserv.net", "ns1-mq.mediaserv.net"}, nil, "whois.mediaserv.net", "https://www.dom-enic.com/whois.html", "", 0xa0},
 	{"gg", nil, _z[2424:2431], _c[0:6], nil, NS{"e.ci-servers.gg", "d.ci-servers.je", "ns0.ja.net", "c.ci-servers.org", "ns99.dns.net.nz"}, nil, "whois.gg", "", "", 0xa0},
 	{"ggee", nil, nil, _c[0:6], nil, NS{"a.gmoregistry.net", "b.gmoregistry.net", "d.gmoregistry.net", "e.gmoregistry.net", "g.gmoregistry.net", "h.gmoregistry.net", "i.gmoregistry.net", "j.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, nil, "whois.nic.ggee", "", "http://newgtlds.icann.org/", 0x42},
 	{"gh", nil, _z[2431:2437], _c[0:6], nil, NS{"ns1.dns.aq", "austin.gh.com", "mantse.gh.com", "rip.psg.com", "ns1.nic.gh", "ns2.nic.gh", "fork.sth.dnsnode.net", "hippo.ru.ac.za"}, nil, "", "http://www.nic.gh/customer/search_c.htm", "", 0xa8},
