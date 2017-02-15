@@ -2041,7 +2041,7 @@ var _y = [4356]Zone{
 	{"edu.bi", &_z[155], nil, _c[0:6], nil, NS{"ns.nic.bi", "ns1.nic.bi", "ns-bi.afrinic.net", "bi.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"gov.bi", &_z[155], nil, nil, nil, NS{"anyns.nic.bi", "ns.nic.bi", "ns1.nic.bi", "ns-bi.afrinic.net", "bi.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"info.bi", &_z[155], nil, nil, nil, NS{"ns.nic.bi", "ns1.nic.bi", "cni1.cbinf.com", "ns-bi.afrinic.net", "bi.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
-	{"mo.bi", &_z[155], nil, nil, nil, NS{"ns1.digiinno.com", "ns2.digiinno.com", "ns.inmotionhosting.com", "ns2.inmotionhosting.com", "ns1.who.mobi", "ns2.who.mobi"}, nil, "", "", "", 0x0},
+	{"mo.bi", &_z[155], nil, nil, nil, NS{"ns1.digiinno.com", "ns2.digiinno.com", "ns6169.hostgator.com", "ns6170.hostgator.com", "ns.inmotionhosting.com", "ns2.inmotionhosting.com", "ns1.who.mobi", "ns2.who.mobi"}, nil, "", "", "", 0x0},
 	{"net.bi", &_z[155], nil, nil, nil, NS{"ns0.cbinf.bi", "ns1.cbinf.bi"}, nil, "", "", "", 0x0},
 	{"or.bi", &_z[155], nil, _c[0:6], nil, NS{"anyns.nic.bi", "ns.nic.bi", "ns1.nic.bi", "ns-bi.afrinic.net", "bi.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"org.bi", &_z[155], nil, _c[0:6], nil, NS{"anyns.nic.bi", "ns.nic.bi", "ns1.nic.bi", "ns-bi.afrinic.net", "bi.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
