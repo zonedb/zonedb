@@ -5,5 +5,11 @@
 		"generic",
 		"geo"
 	],
+	"whoisServer": "africa-whois.registry.net.za",
+	"nameServers": [
+		"coza1.dnsnode.net",
+		"ns.coza.net.za",
+		"ns1.coza.net.za"
+	],
 	"codePoints": "--09az"
 }
