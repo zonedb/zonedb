@@ -1,6 +1,6 @@
 .PHONY: test update metadata/*.json
 
-GO_VERSION := 1.7.4
+GO_VERSION := 1.8
 export GOROOT := /app/go
 export GOPATH := /app/go2
 export PATH := /app/go/bin:$(PATH)
