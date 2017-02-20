@@ -1,6 +1,8 @@
 {
 	"domain": "com.bh",
 	"nameServers": [
+		"ns2.fasttrackdns.com",
+		"ns3.fasttrackdns.com",
 		"ns1023.websitewelcome.com",
 		"pdns2.ultradns.net",
 		"ns.batelco.com.bh",

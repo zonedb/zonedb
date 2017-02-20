@@ -2,6 +2,8 @@
 	"domain": "gov.il",
 	"nameServers": [
 		"dns3.gov.il",
+		"ns1.ns.il",
+		"ns2.ns.il",
 		"nsa.ns.il",
 		"nsb.ns.il",
 		"nsd.ns.il",
