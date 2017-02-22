@@ -3,6 +3,7 @@
 	"whoisServer": "whois.za.net",
 	"nameServers": [
 		"ns2.iafrica.com",
+		"ns3.iafrica.com",
 		"ns0.plig.net",
 		"ns1.plig.net",
 		"ns2.plig.net",
