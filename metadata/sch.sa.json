@@ -6,6 +6,7 @@
 		"ns1.isu.net.sa",
 		"ns1.nic.net.sa",
 		"ns2.nic.net.sa",
+		"s.nic.net.sa",
 		"sa.cctld.authdns.ripe.net"
 	],
 	"codePoints": "--09az"
