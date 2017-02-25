@@ -1233,7 +1233,7 @@ var _y = [4357]Zone{
 	{"pru", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.pru", "ns2.dns.nic.pru", "ns3.dns.nic.pru", "ns4.dns.nic.pru", "ns5.dns.nic.pru", "ns6.dns.nic.pru"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"prudential", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.prudential", "ns2.dns.nic.prudential", "ns3.dns.nic.prudential", "ns4.dns.nic.prudential", "ns5.dns.nic.prudential", "ns6.dns.nic.prudential"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"ps", nil, _z[3636:3644], _c[0:6], nil, NS{"rip.psg.com", "dns1.gov.ps", "ns1.pnina.ps", "fork.sth.dnsnode.net", "ps-ns.anycast.pch.net", "ps.cctld.authdns.ripe.net"}, nil, "whois.pnina.ps", "", "", 0xa0},
-	{"pt", nil, _z[3644:3652], nil, nil, NS{"ns.dns.br", "ns2.nic.fr", "ns-pt.nlnetlabs.nl", "sns-pb.isc.org", "a.dns.pt", "b.dns.pt", "c.dns.pt", "e.dns.pt", "ns.dns.pt", "ns2.dns.pt", "auth200.ns.uu.net", "auth210.ns.uu.net"}, nil, "whois.dns.pt", "", "", 0xa0},
+	{"pt", nil, _z[3644:3652], nil, nil, NS{"ns.dns.br", "ns2.nic.fr", "ns-pt.nlnetlabs.nl", "sns-pb.isc.org", "a.dns.pt", "b.dns.pt", "c.dns.pt", "d.dns.pt", "e.dns.pt", "ns.dns.pt", "ns2.dns.pt", "auth200.ns.uu.net", "auth210.ns.uu.net"}, nil, "whois.dns.pt", "", "", 0xa0},
 	{"pub", nil, nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.unitedtld.com", "", "", 0x40},
 	{"pw", nil, _z[3652:3663], _c[0:6], nil, NS{"ns1.nic.pw", "ns2.nic.pw", "ns3.nic.pw", "ns4.nic.pw"}, nil, "whois.nic.pw", "", "", 0xa0},
 	{"pwc", nil, nil, _c[0:6], nil, NS{"a0.nic.pwc", "a2.nic.pwc", "b0.nic.pwc", "c0.nic.pwc"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
