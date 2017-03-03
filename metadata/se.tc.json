@@ -1,6 +1,7 @@
 {
 	"domain": "se.tc",
 	"nameServers": [
+		"suspended.nic.tc",
 		"ns1.ewing.net.au",
 		"ns2.ewing.net.au",
 		"ns3.ewing.net.au",

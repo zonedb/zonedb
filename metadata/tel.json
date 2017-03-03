@@ -13,7 +13,15 @@
 		"e.dns.nic.tel",
 		"f.dns.nic.tel",
 		"g.dns.nic.tel",
-		"h.dns.nic.tel"
+		"h.dns.nic.tel",
+		"ns1.dns.nic.tel",
+		"ns2.dns.nic.tel",
+		"ns3.dns.nic.tel",
+		"ns4.dns.nic.tel",
+		"ns5.dns.nic.tel",
+		"ns6.dns.nic.tel",
+		"ns7.dns.nic.tel",
+		"ns8.dns.nic.tel"
 	],
 	"codePoints": "--09az"
 }
