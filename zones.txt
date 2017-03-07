@@ -3642,6 +3642,7 @@ net.ps
 org.ps
 plo.ps
 sch.ps
+co.pt
 com.pt
 edu.pt
 gov.pt
@@ -4355,4 +4356,3 @@ mpm.school.za
 ncape.school.za
 nw.school.za
 wcape.school.za
-co.pt
