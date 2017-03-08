@@ -1,7 +1,7 @@
 {
 	"domain": "信息",
 	"infoURL": "http://newgtlds.icann.org/",
-	"whoisServer": "whois.ngtld.cn",
+	"whoisServer": "whois.teleinfo.cn",
 	"nameServers": [
 		"ta.ngtld.cn",
 		"tb.ngtld.cn",
