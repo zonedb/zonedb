@@ -3,6 +3,7 @@
 	"nameServers": [
 		"ns1.nic.al",
 		"ns2.nic.al",
+		"nsx.nic.al",
 		"rip.psg.com",
 		"ns-al.isti.cnr.it",
 		"al.cctld.authdns.ripe.net"
