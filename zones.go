@@ -2195,7 +2195,7 @@ var _y = [4358]Zone{
 	{"edu.cd", &_z[257], nil, nil, nil, NS{"igubu.saix.net", "sabela.saix.net", "sangoma.saix.net", "ns1.webnetafrica.net", "ns2.webnetafrica.net", "ns1.pch.nic.cd"}, nil, "", "", "", 0x0},
 	{"gouv.cd", &_z[257], nil, nil, nil, NS{"dns.princeton.edu", "igubu.saix.net", "sabela.saix.net", "sangoma.saix.net", "ns1.pch.nic.cd"}, nil, "", "", "", 0x0},
 	{"net.cd", &_z[257], nil, _c[0:6], nil, NS{"igubu.saix.net", "sabela.saix.net", "ns1.webnetafrica.net", "ns2.webnetafrica.net"}, nil, "", "", "", 0x0},
-	{"org.cd", &_z[257], nil, _c[0:6], nil, NS{"igubu.saix.net", "sabela.saix.net", "ns1.pch.nic.cd"}, nil, "", "", "", 0x0},
+	{"org.cd", &_z[257], nil, _c[0:6], nil, NS{"dns.princeton.edu", "igubu.saix.net", "sabela.saix.net", "sangoma.saix.net", "ns1.pch.nic.cd"}, nil, "", "", "", 0x0},
 	{"ac.ci", &_z[285], nil, _c[0:6], nil, NS{"ns.nic.ci", "ns1.nic.ci", "phloem.uoregon.edu", "censvrns0001.ird.fr", "ns-ci.afrinic.net", "ci.hosting.nic.fr", "ci.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"aeroport.ci", &_z[285], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"asso.ci", &_z[285], nil, nil, nil, nil, nil, "", "", "http://www.nic.ci/", 0x0},

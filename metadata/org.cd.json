@@ -1,8 +1,10 @@
 {
 	"domain": "org.cd",
 	"nameServers": [
+		"dns.princeton.edu",
 		"igubu.saix.net",
 		"sabela.saix.net",
+		"sangoma.saix.net",
 		"ns1.pch.nic.cd"
 	],
 	"codePoints": "--09az"
