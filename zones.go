@@ -3821,7 +3821,7 @@ var _y = [4358]Zone{
 	{"com.rw", &_z[1200], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"edu.rw", &_z[1200], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"gouv.rw", &_z[1200], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
-	{"gov.rw", &_z[1200], nil, _c[0:6], nil, NS{"ns1.rdb.rw", "ns2.rdb.rw"}, nil, "", "", "", 0x0},
+	{"gov.rw", &_z[1200], nil, _c[0:6], nil, NS{"ns2.aos.rw", "ns3.aos.rw", "ns1.rdb.rw", "ns2.rdb.rw"}, nil, "", "", "", 0x0},
 	{"int.rw", &_z[1200], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"mil.rw", &_z[1200], nil, _c[0:6], nil, NS{"sns-pb.isc.org", "ns1.rwandatel.rw", "ns2.rwandatel.rw", "fork.sth.dnsnode.net", "a.rw.dyntld.net", "b.rw.dyntld.net", "ns1.ricta.org.rw", "ns2.ricta.org.rw", "pch.ricta.org.rw"}, nil, "", "", "", 0x0},
 	{"net.rw", &_z[1200], nil, _c[0:6], nil, NS{"ns-rw.afrinic.net", "sns-pb.isc.org", "ns3.rdb.rw", "fork.sth.dnsnode.net", "a.rw.dyntld.net", "b.rw.dyntld.net", "ns1.ricta.org.rw", "pch.ricta.org.rw"}, nil, "", "", "", 0x0},
