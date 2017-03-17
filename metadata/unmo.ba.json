@@ -2,7 +2,8 @@
 	"domain": "unmo.ba",
 	"nameServers": [
 		"pdc00.unmo.ba",
-		"web02.unmo.ba"
+		"web02.unmo.ba",
+		"web2016.unmo.ba"
 	],
 	"codePoints": "--09az"
 }
