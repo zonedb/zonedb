@@ -6,6 +6,7 @@
 	"whoisServer": "whois.ripe.net",
 	"nameServers": [
 		"ns3.nic.fr",
+		"ns3.afrinic.net",
 		"sec1.apnic.net",
 		"sec3.apnic.net",
 		"tinnie.arin.net",

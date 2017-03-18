@@ -1910,7 +1910,7 @@ var _y = [4358]Zone{
 	{"net.ar", &_z[79], nil, nil, nil, NS{"ctina.ar", "a.dns.ar", "b.dns.ar", "c.dns.ar", "d.dns.ar", "e.dns.ar", "ns2.switch.ch", "relay1.mecon.gov.ar", "ar.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"org.ar", &_z[79], nil, nil, nil, NS{"ctina.ar", "a.dns.ar", "b.dns.ar", "c.dns.ar", "d.dns.ar", "e.dns.ar", "ns2.switch.ch", "relay1.mecon.gov.ar", "ar.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"tur.ar", &_z[79], nil, nil, nil, NS{"ctina.ar", "a.dns.ar", "b.dns.ar", "c.dns.ar", "d.dns.ar", "e.dns.ar", "ns2.switch.ch", "relay1.mecon.gov.ar", "ar.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
-	{"e164.arpa", &_z[85], nil, _c[0:6], nil, NS{"ns3.nic.fr", "sec1.apnic.net", "sec3.apnic.net", "tinnie.arin.net", "ns3.lacnic.net", "sns-pb.isc.org", "pri.authdns.ripe.net"}, nil, "whois.ripe.net", "", "", 0x8},
+	{"e164.arpa", &_z[85], nil, _c[0:6], nil, NS{"ns3.nic.fr", "ns3.afrinic.net", "sec1.apnic.net", "sec3.apnic.net", "tinnie.arin.net", "ns3.lacnic.net", "sns-pb.isc.org", "pri.authdns.ripe.net"}, nil, "whois.ripe.net", "", "", 0x8},
 	{"in-addr.arpa", &_z[85], nil, _c[0:6], nil, NS{"a.in-addr-servers.arpa", "b.in-addr-servers.arpa", "c.in-addr-servers.arpa", "d.in-addr-servers.arpa", "e.in-addr-servers.arpa", "f.in-addr-servers.arpa"}, nil, "", "", "", 0x8},
 	{"ip6.arpa", &_z[85], nil, _c[0:6], nil, NS{"a.ip6-servers.arpa", "b.ip6-servers.arpa", "c.ip6-servers.arpa", "d.ip6-servers.arpa", "e.ip6-servers.arpa", "f.ip6-servers.arpa"}, nil, "", "", "", 0x8},
 	{"iris.arpa", &_z[85], nil, _c[0:6], nil, NS{"sec3.apnic.net", "a.iana-servers.net", "b.iana-servers.net", "c.iana-servers.net", "ns2.lacnic.net"}, nil, "", "", "", 0x8},
