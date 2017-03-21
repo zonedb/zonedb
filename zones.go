@@ -1902,7 +1902,7 @@ var _y = [4358]Zone{
 	{"pb.ao", &_z[71], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"com.aq", &_z[76], nil, _c[0:6], nil, NS{"ns1.internet.com.pe", "ns2.internet.com.pe"}, nil, "", "", "", 0x0},
 	{"com.ar", &_z[79], nil, nil, nil, NS{"ctina.ar", "a.dns.ar", "b.dns.ar", "c.dns.ar", "d.dns.ar", "e.dns.ar", "ns2.switch.ch", "relay1.mecon.gov.ar"}, nil, "", "", "", 0x0},
-	{"edu.ar", &_z[79], _z[4322:4323], _c[0:6], nil, NS{"ns1.uba.ar", "ns2.uba.ar", "ns2.switch.ch", "ns1.riu.edu.ar", "noc.uncu.edu.ar", "unlp.unlp.edu.ar", "ns1.mrecic.gov.ar", "ns2.mrecic.gov.ar"}, nil, "", "", "", 0x0},
+	{"edu.ar", &_z[79], _z[4322:4323], _c[0:6], nil, NS{"ns1.uba.ar", "ns2.uba.ar", "ns2.switch.ch", "a.riu.edu.ar", "b.riu.edu.ar", "ns1.riu.edu.ar", "noc.uncu.edu.ar", "unlp.unlp.edu.ar", "ns1.mrecic.gov.ar", "ns2.mrecic.gov.ar"}, nil, "", "", "", 0x0},
 	{"gob.ar", &_z[79], nil, _c[0:6], nil, NS{"ctina.ar", "a.dns.ar", "b.dns.ar", "c.dns.ar", "d.dns.ar", "e.dns.ar", "ns2.switch.ch", "relay1.mecon.gov.ar", "ar.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"gov.ar", &_z[79], nil, _c[0:6], nil, NS{"ctina.ar", "a.dns.ar", "b.dns.ar", "c.dns.ar", "d.dns.ar", "e.dns.ar", "ns2.switch.ch", "relay1.mecon.gov.ar", "ar.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"int.ar", &_z[79], nil, nil, nil, NS{"ctina.ar", "a.dns.ar", "b.dns.ar", "c.dns.ar", "d.dns.ar", "e.dns.ar", "ns2.switch.ch", "relay1.mecon.gov.ar", "ar.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
