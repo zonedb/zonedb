@@ -9,7 +9,13 @@
 		"a0.nic.buy",
 		"a2.nic.buy",
 		"b0.nic.buy",
-		"c0.nic.buy"
+		"c0.nic.buy",
+		"ns1.dns.nic.buy",
+		"ns2.dns.nic.buy",
+		"ns3.dns.nic.buy",
+		"ns4.dns.nic.buy",
+		"ns5.dns.nic.buy",
+		"ns6.dns.nic.buy"
 	],
 	"codePoints": "--09az"
 }
