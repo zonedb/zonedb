@@ -2,7 +2,8 @@
 	"domain": "net.ba",
 	"nameServers": [
 		"bosna.utic.net.ba",
-		"sava.utic.net.ba"
+		"sava.utic.net.ba",
+		"una.utic.net.ba"
 	],
 	"codePoints": "--09az"
 }
