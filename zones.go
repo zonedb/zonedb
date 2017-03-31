@@ -4368,7 +4368,7 @@ var _y = [4358]Zone{
 	{"co.za", &_z[1563], nil, _c[0:6], nil, NS{"ns4.iafrica.com", "coza1.dnsnode.net", "ns0.is.co.za", "ns0.neotel.co.za", "ns.coza.net.za", "ns1.coza.net.za"}, nil, "coza-whois.registry.net.za", "", "", 0x0},
 	{"cybernet.za", &_z[1563], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"db.za", &_z[1563], nil, _c[0:6], nil, nil, nil, "", "", "", 0x800},
-	{"edu.za", &_z[1563], nil, _c[0:6], nil, NS{"ns1.iafrica.com", "ns2.iafrica.com", "rip.psg.com", "za-ns.anycast.pch.net"}, nil, "", "", "", 0x0},
+	{"edu.za", &_z[1563], nil, _c[0:6], nil, NS{"ns1.iafrica.com", "ns2.iafrica.com", "rip.psg.com", "ns-za.afrinic.net", "za-ns.anycast.pch.net"}, nil, "", "", "", 0x0},
 	{"gov.za", &_z[1563], nil, _c[0:6], nil, NS{"ns1.gov.za", "ns2.gov.za", "ns3.gov.za", "hippo.ru.ac.za"}, nil, "whois.gov.za", "", "", 0x0},
 	{"grondar.za", &_z[1563], nil, _c[0:6], nil, NS{"ns1.iafrica.com", "ns2.iafrica.com", "rip.psg.com", "grandfather.grondar.org"}, nil, "", "", "", 0x800},
 	{"iaccess.za", &_z[1563], nil, _c[0:6], nil, nil, nil, "", "", "", 0x800},
