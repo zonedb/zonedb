@@ -5,9 +5,9 @@
 		"generic",
 		"geo"
 	],
-  "locations": [
-    "Africa"
-  ],
+	"locations": [
+		"Africa"
+	],
 	"whoisServer": "africa-whois.registry.net.za",
 	"nameServers": [
 		"coza1.dnsnode.net",
