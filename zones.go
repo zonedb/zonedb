@@ -1965,7 +1965,7 @@ var _y = [4358]Zone{
 	{"zaqatala.az", &_z[113], nil, nil, nil, nil, nil, "", "", "", 0x0},
 	{"co.ba", &_z[115], nil, nil, nil, NS{"ns1.co.ba", "ns2.co.ba", "ns3.co.ba"}, nil, "", "", "", 0x0},
 	{"com.ba", &_z[115], nil, _c[0:6], nil, NS{"ns.com.ba", "ns2.com.ba", "ns3.com.ba"}, nil, "", "", "", 0x0},
-	{"edu.ba", &_z[115], nil, _c[0:6], nil, NS{"bosna.utic.net.ba", "sava.utic.net.ba"}, nil, "", "", "", 0x0},
+	{"edu.ba", &_z[115], nil, _c[0:6], nil, NS{"bosna.utic.net.ba", "sava.utic.net.ba", "una.utic.net.ba"}, nil, "", "", "", 0x0},
 	{"gov.ba", &_z[115], nil, _c[0:6], nil, NS{"bosna.utic.net.ba", "sava.utic.net.ba", "una.utic.net.ba"}, nil, "", "", "", 0x0},
 	{"mil.ba", &_z[115], nil, _c[0:6], nil, NS{"bosna.utic.net.ba", "sava.utic.net.ba"}, nil, "", "", "", 0x0},
 	{"net.ba", &_z[115], nil, _c[0:6], nil, NS{"bosna.utic.net.ba", "sava.utic.net.ba", "una.utic.net.ba"}, nil, "", "", "", 0x0},
