@@ -1,6 +1,7 @@
 {
 	"domain": "co.ma",
 	"nameServers": [
+		"mtso23tzgm.ma",
 		"dns.inria.fr",
 		"ns2.nic.fr",
 		"ns1.registre.ma",
