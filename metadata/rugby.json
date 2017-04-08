@@ -4,5 +4,11 @@
 	"tags": [
 		"generic"
 	],
+	"nameServers": [
+		"a.nic.rugby",
+		"b.nic.rugby",
+		"c.nic.rugby",
+		"d.nic.rugby"
+	],
 	"codePoints": "--09az"
 }
