@@ -2657,7 +2657,7 @@ var _y = [4358]Zone{
 	{"co.id", &_z[677], nil, _c[0:6], nil, NS{"a.dns.id", "b.dns.id", "c.dns.id", "d.dns.id", "e.dns.id", "f.dns.id"}, nil, "", "", "", 0x0},
 	{"desa.id", &_z[677], nil, nil, nil, NS{"a.dns.id", "b.dns.id", "c.dns.id", "d.dns.id", "e.dns.id", "f.dns.id", "g.dns.id"}, nil, "", "", "", 0x0},
 	{"go.id", &_z[677], nil, _c[0:6], nil, NS{"a.dns.id", "b.dns.id", "c.dns.id", "d.dns.id", "e.dns.id"}, nil, "", "", "", 0x0},
-	{"mi.id", &_z[677], nil, nil, nil, nil, nil, "", "", "", 0x0},
+	{"mi.id", &_z[677], nil, nil, nil, NS{"ns1.sedoparking.com", "ns2.sedoparking.com"}, nil, "", "", "", 0x0},
 	{"mil.id", &_z[677], nil, _c[0:6], nil, NS{"a.dns.id", "b.dns.id", "c.dns.id", "d.dns.id", "e.dns.id", "f.dns.id"}, nil, "", "", "", 0x0},
 	{"my.id", &_z[677], nil, _c[0:6], nil, NS{"a.dns.id", "b.dns.id", "c.dns.id", "d.dns.id", "e.dns.id", "f.dns.id"}, nil, "", "", "", 0x0},
 	{"net.id", &_z[677], nil, _c[0:6], nil, NS{"a.dns.id", "b.dns.id", "c.dns.id", "d.dns.id", "e.dns.id", "f.dns.id"}, nil, "", "", "", 0x0},
