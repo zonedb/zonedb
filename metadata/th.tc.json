@@ -3,6 +3,8 @@
 	"nameServers": [
 		"ns1.alidns.com",
 		"ns2.alidns.com",
+		"f1g1ns2.dndpod.net",
+		"f1g1ns1.dnspod.net",
 		"suspended.nic.tc"
 	],
 	"codePoints": "--09az"
