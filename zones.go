@@ -3718,7 +3718,7 @@ var _y = [4358]Zone{
 	{"law.pro", &_z[1123], nil, _c[0:6], nil, NS{"a0.pro.afilias-nst.info", "a2.pro.afilias-nst.info", "c0.pro.afilias-nst.info", "b0.pro.afilias-nst.org", "b2.pro.afilias-nst.org", "d0.pro.afilias-nst.org"}, nil, "", "", "", 0x0},
 	{"med.pro", &_z[1123], nil, _c[0:6], nil, NS{"a0.pro.afilias-nst.info", "a2.pro.afilias-nst.info", "c0.pro.afilias-nst.info", "b0.pro.afilias-nst.org", "b2.pro.afilias-nst.org", "d0.pro.afilias-nst.org"}, nil, "", "", "", 0x0},
 	{"min.pro", &_z[1123], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
-	{"nitr.pro", &_z[1123], nil, nil, nil, nil, nil, "", "", "", 0x0},
+	{"nitr.pro", &_z[1123], nil, nil, nil, NS{"ns15.domaincontrol.com", "ns16.domaincontrol.com"}, nil, "", "", "", 0x0},
 	{"nur.pro", &_z[1123], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"nurse.pro", &_z[1123], nil, _c[0:6], nil, NS{"ns1-parking.encirca.info", "ns2-parking.encirca.info"}, nil, "", "", "", 0x0},
 	{"opt.pro", &_z[1123], nil, nil, nil, nil, nil, "", "", "", 0x0},
