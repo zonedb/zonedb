@@ -3965,7 +3965,7 @@ var _y = [4358]Zone{
 	{"hu.tc", &_z[1362], nil, _c[0:6], nil, NS{"server1.domainnameinquiry.com", "server2.domainnameinquiry.com"}, nil, "", "", "", 0x0},
 	{"ie.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.above.com", "ns2.above.com", "ns1.parkingcrew.net", "ns2.parkingcrew.net"}, nil, "", "", "", 0x0},
 	{"int.tc", &_z[1362], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
-	{"it.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns.udag.de", "ns.udagdns.de", "ns.udag.net", "ns.udagdns.net", "ns.udag.org"}, nil, "", "", "", 0x0},
+	{"it.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns0.dnsmadeeasy.com", "ns1.dnsmadeeasy.com", "ns3.dnsmadeeasy.com", "ns4.dnsmadeeasy.com", "ns.udag.de", "ns.udagdns.de", "ns.udag.net", "ns.udagdns.net", "ns.udag.org"}, nil, "", "", "", 0x0},
 	{"kr.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns.udag.de", "ns.udag.net", "ns.udag.org"}, nil, "", "", "", 0x0},
 	{"mx.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.dreamhost.com", "ns2.dreamhost.com", "ns3.dreamhost.com", "dns.site5.com", "dns2.site5.com"}, nil, "", "", "", 0x0},
 	{"net.tc", &_z[1362], nil, _c[0:6], nil, NS{"root1.zone.tc", "root2.zone.tc", "root3.zone.tc", "root4.zone.tc", "root5.zone.tc", "root6.zone.tc", "root7.zone.tc"}, nil, "", "", "", 0x0},
