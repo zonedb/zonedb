@@ -1,4 +1,8 @@
 {
 	"domain": "belau.pw",
+	"nameServers": [
+		"ns1390.ztomy.com",
+		"ns2390.ztomy.com"
+	],
 	"codePoints": "--09az"
 }
