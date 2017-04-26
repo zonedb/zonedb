@@ -1,8 +1,7 @@
 {
-	"domain": "net.pw",
+	"domain": "edu.pw",
 	"nameServers": [
 		"ns1390.ztomy.com",
 		"ns2390.ztomy.com"
-	],
-	"codePoints": "--09az"
+	]
 }
