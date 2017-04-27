@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.gmo",
+	"whoisServer": "whois.nic.mtpc",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",
@@ -17,7 +17,11 @@
 		"i.gmoregistry.net",
 		"j.gmoregistry.net",
 		"k.gmoregistry.net",
-		"l.gmoregistry.net"
+		"l.gmoregistry.net",
+		"anycast10.irondns.net",
+		"anycast23.irondns.net",
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
 	],
 	"codePoints": "--09az"
 }
