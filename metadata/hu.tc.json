@@ -2,7 +2,8 @@
 	"domain": "hu.tc",
 	"nameServers": [
 		"server1.domainnameinquiry.com",
-		"server2.domainnameinquiry.com"
+		"server2.domainnameinquiry.com",
+		"suspended.nic.tc"
 	],
 	"codePoints": "--09az"
 }
