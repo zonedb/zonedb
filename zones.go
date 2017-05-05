@@ -3054,7 +3054,7 @@ var _y = [4358]Zone{
 	{"org.mm", &_z[923], nil, _c[0:6], nil, NS{"ns0.nic.net.mm", "ns1.nic.net.mm", "ns2.nic.net.mm", "mm.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"per.mm", &_z[923], nil, _c[0:6], nil, NS{"ns.mmnic.net.mm"}, nil, "", "", "", 0x0},
 	{"edu.mn", &_z[925], nil, _c[0:6], nil, NS{"ns.erdemnet.mn", "ns2.erdemnet.mn"}, nil, "", "", "", 0x0},
-	{"gov.mn", &_z[925], nil, _c[0:6], nil, NS{"ns.gov.mn", "ns1.gov.mn"}, nil, "", "", "", 0x0},
+	{"gov.mn", &_z[925], nil, _c[0:6], nil, NS{"ns.gov.mn", "ns1.gov.mn", "ns3.gov.mn", "ns4.gov.mn"}, nil, "", "", "", 0x0},
 	{"org.mn", &_z[925], nil, _c[0:6], nil, NS{"ns1.magic.mn", "ns3.magic.mn"}, nil, "", "", "", 0x0},
 	{"co.mo", &_z[927], nil, nil, nil, nil, nil, "", "", "", 0x0},
 	{"com.mo", &_z[927], nil, _c[0:6], nil, NS{"ns1.gov.mo", "ns2.gov.mo", "a.monic.mo", "b.monic.mo", "c.monic.mo", "d.monic.mo", "e.monic.mo", "ns17.cdns.net", "ns2.cuhk.edu.hk"}, nil, "", "", "", 0x0},

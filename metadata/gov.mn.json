@@ -2,7 +2,9 @@
 	"domain": "gov.mn",
 	"nameServers": [
 		"ns.gov.mn",
-		"ns1.gov.mn"
+		"ns1.gov.mn",
+		"ns3.gov.mn",
+		"ns4.gov.mn"
 	],
 	"codePoints": "--09az"
 }
