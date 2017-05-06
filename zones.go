@@ -213,7 +213,7 @@ var _y = [4358]Zone{
 	{"axis", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x2042},
 	{"az", nil, _z[1844:1865], _c[0:6], nil, NS{"rip.psg.com", "ns.demos.su", "az.hostmaster.ua"}, nil, "", "http://www.nic.az/", "http://www.nic.az/", 0xa0},
 	{"azure", nil, nil, _c[0:6], nil, NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
-	{"ba", nil, _z[1865:1878], _c[0:6], nil, NS{"ns.ba", "munnari.oz.au", "sava.utic.net.ba", "una.utic.net.ba", "auth03.ns.uu.net", "ba.cctld.authdns.ripe.net"}, nil, "", "http://nic.ba/lat/menu/view/13", "http://www.nic.ba/", 0xa0},
+	{"ba", nil, _z[1865:1878], _c[0:6], nil, NS{"ns.ba", "munnari.oz.au", "ba.anycastdns.cz", "sava.utic.net.ba", "una.utic.net.ba", "auth03.ns.uu.net", "ba.cctld.authdns.ripe.net"}, nil, "", "http://nic.ba/lat/menu/view/13", "http://www.nic.ba/", 0xa0},
 	{"baby", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.baby", "ns2.dns.nic.baby", "ns3.dns.nic.baby", "ns4.dns.nic.baby", "ns5.dns.nic.baby", "ns6.dns.nic.baby"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"baidu", nil, nil, _c[0:6], nil, NS{"ta.ngtld.cn", "tb.ngtld.cn", "tc.ngtld.cn", "td.ngtld.cn", "te.ngtld.cn"}, nil, "whois.ngtld.cn", "", "http://newgtlds.icann.org/", 0x42},
 	{"banamex", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.banamex", "ns2.dns.nic.banamex", "ns3.dns.nic.banamex", "ns4.dns.nic.banamex", "ns5.dns.nic.banamex", "ns6.dns.nic.banamex"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
