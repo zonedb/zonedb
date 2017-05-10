@@ -499,7 +499,7 @@ var _y = [4358]Zone{
 	{"dm", nil, _z[2250:2256], nil, nil, NS{"ns.blacknightsolutions.com", "ns2.blacknightsolutions.com", "ns2.nic.dm", "ns34.cdns.net"}, nil, "whois.nic.dm", "", "", 0xa0},
 	{"dnb", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"dnp", nil, nil, _c[0:6], nil, NS{"a.gmoregistry.net", "b.gmoregistry.net", "c.gmoregistry.net", "d.gmoregistry.net", "e.gmoregistry.net", "g.gmoregistry.net", "h.gmoregistry.net", "i.gmoregistry.net", "j.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, nil, "whois.nic.dnp", "", "http://newgtlds.icann.org/", 0x42},
-	{"do", nil, _z[2256:2267], _c[0:6], nil, NS{"ns.nic.do", "ns1.nic.do", "ns2.nic.do", "ns3.nic.do", "phloem.uoregon.edu", "ns3.nic.mx", "sns-pb.isc.org", "do-dns.nic.pr"}, nil, "ns.nic.do", "http://www.nic.do/whois-h.php3", "http://www.nic.do/", 0xa0},
+	{"do", nil, _z[2256:2267], _c[0:6], nil, NS{"ns.nic.do", "ns1.nic.do", "ns2.nic.do", "ns3.nic.do", "phloem.uoregon.edu", "ns3.nic.mx", "sns-pb.isc.org", "do-dns.nic.pr"}, nil, "whois.nic.do", "http://www.nic.do/whois-h.php3", "http://www.nic.do/", 0xa0},
 	{"docomo", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"docs", nil, nil, nil, nil, NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, nil, "whois.nic.google", "", "http://newgtlds.icann.org/", 0x40},
 	{"doctor", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x40},

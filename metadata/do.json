@@ -5,7 +5,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "ns.nic.do",
+	"whoisServer": "whois.nic.do",
 	"whoisURL": "http://www.nic.do/whois-h.php3",
 	"nameServers": [
 		"ns.nic.do",
