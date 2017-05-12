@@ -3073,7 +3073,7 @@ var _y = [4358]Zone{
 	{"org.ms", &_z[954], nil, _c[0:6], nil, NS{"a.ms.dyntld.net", "b.ms.dyntld.net"}, nil, "", "", "", 0x0},
 	{"com.mt", &_z[956], nil, _c[0:6], nil, NS{"ns.mt", "ns1.mt", "a.ns.mt", "b.ns.mt", "f.ns.mt", "i.ns.mt", "p.ns.mt", "r.ns.mt"}, nil, "", "", "", 0x0},
 	{"edu.mt", &_z[956], nil, _c[0:6], nil, NS{"ns.mt", "ns1.mt", "a.ns.mt", "b.ns.mt", "f.ns.mt", "i.ns.mt", "p.ns.mt", "r.ns.mt"}, nil, "", "", "", 0x0},
-	{"gov.mt", &_z[956], nil, _c[0:6], nil, NS{"dns1.gov.mt", "dns2.gov.mt"}, nil, "", "", "", 0x0},
+	{"gov.mt", &_z[956], nil, _c[0:6], nil, NS{"dns1.gov.mt", "dns2.gov.mt", "dns3.gov.mt"}, nil, "", "", "", 0x0},
 	{"net.mt", &_z[956], nil, _c[0:6], nil, NS{"ns.mt", "ns1.mt", "a.ns.mt", "b.ns.mt", "f.ns.mt", "i.ns.mt", "p.ns.mt", "r.ns.mt"}, nil, "", "", "", 0x0},
 	{"org.mt", &_z[956], nil, _c[0:6], nil, NS{"ns.mt", "ns1.mt", "a.ns.mt", "b.ns.mt", "f.ns.mt", "i.ns.mt", "p.ns.mt", "r.ns.mt"}, nil, "", "", "", 0x0},
 	{"ac.mu", &_z[960], nil, _c[0:6], nil, NS{"udns1.tld.mu", "mu1.dyntld.net", "mu2.dyntld.net", "mu3.dyntld.net", "mu4.dyntld.net", "anycast1.irondns.net"}, nil, "", "", "", 0x0},

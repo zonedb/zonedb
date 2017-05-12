@@ -2,7 +2,8 @@
 	"domain": "gov.mt",
 	"nameServers": [
 		"dns1.gov.mt",
-		"dns2.gov.mt"
+		"dns2.gov.mt",
+		"dns3.gov.mt"
 	],
 	"codePoints": "--09az"
 }
