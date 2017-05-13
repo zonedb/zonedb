@@ -690,7 +690,7 @@ var _y = [4358]Zone{
 	{"gop", nil, nil, _c[0:6], nil, NS{"dns1.nic.gop", "dns2.nic.gop", "dns3.nic.gop", "dns4.nic.gop", "dnsa.nic.gop", "dnsb.nic.gop", "dnsc.nic.gop", "dnsd.nic.gop", "a.ns.nic.gop", "b.ns.nic.gop", "c.ns.nic.gop", "d.ns.nic.gop"}, nil, "whois.nic.gop", "", "http://newgtlds.icann.org/", 0x40},
 	{"got", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.got", "ns2.dns.nic.got", "ns3.dns.nic.got", "ns4.dns.nic.got", "ns5.dns.nic.got", "ns6.dns.nic.got"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"gotv", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
-	{"gov", nil, nil, _c[0:6], nil, NS{"a.gov-servers.net", "b.gov-servers.net"}, nil, "whois.dotgov.gov", "", "", 0x1040},
+	{"gov", nil, nil, _c[0:6], nil, NS{"a.gov-servers.net", "b.gov-servers.net", "c.gov-servers.net", "d.gov-servers.net"}, nil, "whois.dotgov.gov", "", "", 0x1040},
 	{"gp", nil, _z[2455:2461], _c[0:6], nil, NS{"ns1.orangecaraibe.com", "ns1.nic.gp", "gp.cctld.authdns.ripe.net"}, nil, "", "https://www.dom-enic.com/whois.html", "", 0xa0},
 	{"gq", nil, nil, nil, nil, NS{"a.ns.gq", "b.ns.gq", "c.ns.gq", "d.ns.gq"}, nil, "whois.dominio.gq", "", "", 0xa0},
 	{"gr", nil, _z[2461:2466], nil, nil, NS{"grdns-de.denic.de", "estia.ics.forth.gr", "gr-at.ics.forth.gr", "gr-br.ics.forth.gr", "gr-c.ics.forth.gr", "gr-ix.ics.forth.gr", "gr-m.ics.forth.gr", "grdns.ics.forth.gr"}, nil, "", "https://grweb.ics.forth.gr/Whois?lang=en", "", 0xa0},
