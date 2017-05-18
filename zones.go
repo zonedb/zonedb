@@ -4236,7 +4236,7 @@ var _y = [4358]Zone{
 	{"dc.us", &_z[1456], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"de.us", &_z[1456], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"dni.us", &_z[1456], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
-	{"fed.us", &_z[1456], nil, _c[0:6], nil, NS{"a.gov-servers.net", "b.gov-servers.net"}, nil, "", "", "", 0x0},
+	{"fed.us", &_z[1456], nil, _c[0:6], nil, NS{"a.gov-servers.net", "b.gov-servers.net", "c.gov-servers.net", "d.gov-servers.net"}, nil, "", "", "", 0x0},
 	{"fl.us", &_z[1456], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"ga.us", &_z[1456], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"gu.us", &_z[1456], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
