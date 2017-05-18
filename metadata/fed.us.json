@@ -2,7 +2,9 @@
 	"domain": "fed.us",
 	"nameServers": [
 		"a.gov-servers.net",
-		"b.gov-servers.net"
+		"b.gov-servers.net",
+		"c.gov-servers.net",
+		"d.gov-servers.net"
 	],
 	"codePoints": "--09az"
 }
