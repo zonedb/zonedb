@@ -2,7 +2,11 @@
 	"domain": "in.na",
 	"nameServers": [
 		"ns1.aidos.net",
-		"ns2.aidos.net"
+		"ns2.aidos.net",
+		"ns21.cloudns.net",
+		"ns22.cloudns.net",
+		"ns23.cloudns.net",
+		"ns24.cloudns.net"
 	],
 	"codePoints": "--09az"
 }

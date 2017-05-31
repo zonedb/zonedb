@@ -1,6 +1,10 @@
 {
 	"domain": "com.io",
 	"nameServers": [
+		"a0.nic.io",
+		"a2.nic.io",
+		"b0.nic.io",
+		"c0.nic.io",
 		"dns01.nic.io",
 		"dns1.nic.io",
 		"dns2.nic.io",
