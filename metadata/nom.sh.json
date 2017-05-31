@@ -1,6 +1,10 @@
 {
 	"domain": "nom.sh",
 	"nameServers": [
+		"a0.nic.sh",
+		"a2.nic.sh",
+		"b0.nic.sh",
+		"c0.nic.sh",
 		"dns01.nic.sh",
 		"dns1.nic.sh",
 		"dns2.nic.sh",
