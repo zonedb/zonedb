@@ -1,6 +1,8 @@
 {
 	"domain": "ua.tc",
 	"nameServers": [
+		"ns20.imhoster.net",
+		"ns21.imhoster.net",
 		"dnsm1.nic.tc",
 		"dnsm2.nic.tc",
 		"dnsm3.nic.tc",

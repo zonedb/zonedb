@@ -5,5 +5,11 @@
 		"brand",
 		"generic"
 	],
+	"nameServers": [
+		"a.nic.etisalat",
+		"b.nic.etisalat",
+		"c.nic.etisalat",
+		"d.nic.etisalat"
+	],
 	"codePoints": "--09az"
 }
