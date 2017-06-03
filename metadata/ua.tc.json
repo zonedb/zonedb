@@ -6,7 +6,9 @@
 		"dnsm1.nic.tc",
 		"dnsm2.nic.tc",
 		"dnsm3.nic.tc",
-		"dnsm4.nic.tc"
+		"dnsm4.nic.tc",
+		"rihana.ns.cloudflare.com",
+		"zeus.ns.cloudflare.com"
 	],
 	"codePoints": "--09az"
 }
