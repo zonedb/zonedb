@@ -1,6 +1,9 @@
 {
 	"domain": "com.gu",
 	"nameServers": [
+		"gold.uog.edu",
+		"green.uog.edu",
+		"phloem.uoregon.edu",
 		"ns.com.gu",
 		"ns.edu.gu",
 		"nsuog.edu.gu",

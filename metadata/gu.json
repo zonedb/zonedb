@@ -8,6 +8,9 @@
 	"whoisURL": "http://gadao.gov.gu/domainsearch.htm",
 	"nameServers": [
 		"ns.gu",
+		"gold.uog.edu",
+		"green.uog.edu",
+		"phloem.uoregon.edu",
 		"ns.edu.gu",
 		"nsuog.edu.gu",
 		"gu.cctld.authdns.ripe.net"

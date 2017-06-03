@@ -1,6 +1,9 @@
 {
 	"domain": "web.gu",
 	"nameServers": [
+		"gold.uog.edu",
+		"green.uog.edu",
+		"phloem.uoregon.edu",
 		"nsuog.edu.gu",
 		"home.web.gu",
 		"ns.web.gu",
