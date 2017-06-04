@@ -4,7 +4,9 @@
 		"ns1.above.com",
 		"ns2.above.com",
 		"ns1.parkingcrew.net",
-		"ns2.parkingcrew.net"
+		"ns2.parkingcrew.net",
+		"default1-tr.nic.tc",
+		"default2-tr.nic.tc"
 	],
 	"codePoints": "--09az"
 }
