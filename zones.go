@@ -1698,7 +1698,7 @@ var _y = [4358]Zone{
 	{"xn--hgbk6aj7f53bba" /* آزمایشی */, nil, nil, nil, nil, nil, nil, "", "", "", 0x40},
 	{"xn--kgbechtv" /* إختبار */, nil, nil, nil, nil, nil, nil, "", "", "", 0x40},
 	{"xn--mgbca7dzdo" /* ابوظبي */, nil, nil, nil, nil, NS{"gtld.alpha.aridns.net.au", "gtld.beta.aridns.net.au", "gtld.delta.aridns.net.au", "gtld.gamma.aridns.net.au"}, nil, "whois.nic.xn--mgbca7dzdo", "", "http://newgtlds.icann.org/", 0x40},
-	{"xn--mgbaakc7dvf" /* اتصالات */, nil, nil, nil, nil, NS{"a.nic.xn--mgbaakc7dvf", "b.nic.xn--mgbaakc7dvf", "c.nic.xn--mgbaakc7dvf", "d.nic.xn--mgbaakc7dvf"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
+	{"xn--mgbaakc7dvf" /* اتصالات */, nil, nil, nil, nil, NS{"a.nic.xn--mgbaakc7dvf", "b.nic.xn--mgbaakc7dvf", "c.nic.xn--mgbaakc7dvf", "d.nic.xn--mgbaakc7dvf"}, nil, "whois.centralnic.com", "", "http://newgtlds.icann.org/", 0x40},
 	{"xn--mgba3a3ejt" /* ارامكو */, nil, nil, nil, nil, NS{"ns1.dns.nic.xn--mgba3a3ejt", "ns2.dns.nic.xn--mgba3a3ejt", "ns3.dns.nic.xn--mgba3a3ejt", "ns4.dns.nic.xn--mgba3a3ejt", "ns5.dns.nic.xn--mgba3a3ejt", "ns6.dns.nic.xn--mgba3a3ejt"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"xn--mgbayh7gpa" /* الاردن */, nil, nil, nil, nil, NS{"rip.psg.com", "amra.nic.gov.jo", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "jo.cctld.authdns.ripe.net"}, nil, "", "http://idn.jo/whois_a.aspx", "", 0x40},
 	{"xn--lgbbat1ad8j" /* الجزائر */, nil, nil, nil, nil, NS{"idn1.nic.dz", "idn2.nic.dz"}, nil, "whois.nic.dz", "", "http://newgtlds.icann.org/", 0x40},
