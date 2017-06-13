@@ -4340,7 +4340,7 @@ var _y = [4358]Zone{
 	{"co.vu", &_z[1499], nil, nil, nil, NS{"ns1.codotvu.com", "ns2.codotvu.com", "ns3.codotvu.com", "ns4.codotvu.com"}, nil, "", "", "www.co.vu", 0x0},
 	{"com.vu", &_z[1499], nil, _c[0:6], nil, NS{"efate.vanuatu.com.vu", "futuna.vanuatu.com.vu", "santo.vanuatu.com.vu"}, nil, "", "", "", 0x0},
 	{"net.vu", &_z[1499], nil, _c[0:6], nil, NS{"efate.vanuatu.com.vu", "futuna.vanuatu.com.vu", "santo.vanuatu.com.vu"}, nil, "", "", "", 0x0},
-	{"org.vu", &_z[1499], nil, _c[0:6], nil, NS{"efate.vanuatu.com.vu", "futuna.vanuatu.com.vu", "santo.vanuatu.com.vu"}, nil, "", "", "", 0x0},
+	{"org.vu", &_z[1499], nil, _c[0:6], nil, NS{"anytld.apnic.net", "efate.vanuatu.com.vu", "futuna.vanuatu.com.vu", "santo.vanuatu.com.vu"}, nil, "", "", "", 0x0},
 	{"com.ws", &_z[1538], nil, _c[0:6], nil, NS{"ns2.dns.ws", "ns3.dns.ws", "ns4.dns.ws", "ns5.dns.ws"}, nil, "", "", "", 0x0},
 	{"edu.ws", &_z[1538], nil, _c[0:6], nil, NS{"ns2.dns.ws", "ns3.dns.ws", "ns4.dns.ws", "ns5.dns.ws"}, nil, "", "", "", 0x0},
 	{"gov.ws", &_z[1538], nil, _c[0:6], nil, NS{"ns2.dns.ws", "ns3.dns.ws", "ns4.dns.ws", "ns5.dns.ws"}, nil, "", "", "", 0x0},
