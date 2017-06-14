@@ -1,6 +1,7 @@
 {
 	"domain": "net.vu",
 	"nameServers": [
+		"anytld.apnic.net",
 		"efate.vanuatu.com.vu",
 		"futuna.vanuatu.com.vu",
 		"santo.vanuatu.com.vu"
