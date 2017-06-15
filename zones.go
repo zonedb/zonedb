@@ -1422,7 +1422,7 @@ var _y = [4358]Zone{
 	{"stc", nil, nil, _c[0:6], nil, NS{"a.nic.stc", "b.nic.stc", "c.nic.stc", "d.nic.stc"}, nil, "whois.nic.stc", "", "http://newgtlds.icann.org/", 0x42},
 	{"stcgroup", nil, nil, _c[0:6], nil, NS{"a.nic.stcgroup", "b.nic.stcgroup", "c.nic.stcgroup", "d.nic.stcgroup"}, nil, "whois.nic.stcgroup", "", "http://newgtlds.icann.org/", 0x42},
 	{"stockholm", nil, nil, _c[0:6], nil, NS{"a0.nic.stockholm", "a2.nic.stockholm", "b0.nic.stockholm", "c0.nic.stockholm"}, L{"Stockholm", "SE-AB"}, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0xc4},
-	{"storage", nil, nil, _c[0:6], nil, NS{"a.nic.storage", "a0.nic.storage", "a2.nic.storage", "b.nic.storage", "b0.nic.storage", "c.nic.storage", "c0.nic.storage", "d.nic.storage"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x40},
+	{"storage", nil, nil, _c[0:6], nil, NS{"a.nic.storage", "a0.nic.storage", "a2.nic.storage", "b.nic.storage", "b0.nic.storage", "c.nic.storage", "c0.nic.storage", "d.nic.storage"}, nil, "whois.nic.storage", "", "http://newgtlds.icann.org/", 0x40},
 	{"store", nil, nil, _c[0:6], nil, NS{"a.nic.store", "b.nic.store", "c.nic.store", "d.nic.store"}, nil, "whois.nic.store", "", "http://newgtlds.icann.org/", 0x40},
 	{"stream", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.stream", "ns2.dns.nic.stream", "ns3.dns.nic.stream", "ns4.dns.nic.stream", "ns5.dns.nic.stream", "ns6.dns.nic.stream"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"stroke", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x2040},
