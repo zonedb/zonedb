@@ -7,6 +7,7 @@
 	"whoisServer": "vunic.vu",
 	"nameServers": [
 		"cctld-vu.orange.mu",
+		"anytld.apnic.net",
 		"ns1-cctld.vunic.vu",
 		"ns2-cctld.vunic.vu",
 		"efate.vanuatu.com.vu",
