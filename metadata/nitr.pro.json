@@ -2,6 +2,8 @@
 	"domain": "nitr.pro",
 	"nameServers": [
 		"ns15.domaincontrol.com",
-		"ns16.domaincontrol.com"
+		"ns16.domaincontrol.com",
+		"ns31.domaincontrol.com",
+		"ns32.domaincontrol.com"
 	]
 }
