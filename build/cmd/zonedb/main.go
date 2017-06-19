@@ -68,8 +68,13 @@ func main() {
 	}()
 
 	zones, errs := build.ReadZones()
+	defer func() {
+		if len(errs) > 0 {
+			build.LogFatal(fmt.Errorf("operation failed with %d issue(s)", len(errs)))
+		}
+	}()
 	if len(errs) > 0 {
-		build.LogFatal(fmt.Errorf("read failed with %d issue(s)", len(errs)))
+		return
 	}
 	workZones := zones
 
@@ -93,6 +98,7 @@ func main() {
 	if *filterRegexp != "" {
 		re, err := regexp.Compile(*filterRegexp)
 		if err != nil {
+			errs = append(errs, err)
 			build.LogFatal(err)
 		}
 		filtered := make(map[string]*build.Zone, len(workZones))
@@ -132,6 +138,7 @@ func main() {
 	if *updateRoot || *updateAll {
 		err := build.FetchRootZone(workZones, addNew)
 		if err != nil {
+			errs = append(errs, err)
 			build.LogError(err)
 		}
 	}
@@ -139,6 +146,7 @@ func main() {
 	if *updateRubyWhois || *updateAll {
 		err := build.FetchRubyWhoisServers(workZones, addNew)
 		if err != nil {
+			errs = append(errs, err)
 			build.LogError(err)
 		}
 	}
@@ -147,6 +155,7 @@ func main() {
 	if *updateWhois || *updateAll {
 		err := build.QueryWhoisServers(workZones)
 		if err != nil {
+			errs = append(errs, err)
 			build.LogError(err)
 		}
 	}
@@ -155,6 +164,7 @@ func main() {
 	if *updateIANA || *updateAll {
 		err := build.QueryIANA(workZones)
 		if err != nil {
+			errs = append(errs, err)
 			build.LogError(err)
 		}
 	}
@@ -169,6 +179,7 @@ func main() {
 	if *updateIDNTables || *updateAll {
 		err := build.FetchIDNTables(workZones)
 		if err != nil {
+			errs = append(errs, err)
 			build.LogError(err)
 		}
 	}
@@ -229,6 +240,7 @@ func main() {
 	if *write {
 		err := build.WriteZones(zones)
 		if err != nil {
+			errs = append(errs, err)
 			build.LogFatal(err)
 		}
 	}
@@ -236,6 +248,7 @@ func main() {
 	if *generateGo {
 		err := build.GenerateGo(zones)
 		if err != nil {
+			errs = append(errs, err)
 			build.LogFatal(err)
 		}
 	}
