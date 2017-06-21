@@ -1702,7 +1702,7 @@ var _y = [4358]Zone{
 	{"xn--mgba3a3ejt" /* ارامكو */, nil, nil, nil, nil, NS{"ns1.dns.nic.xn--mgba3a3ejt", "ns2.dns.nic.xn--mgba3a3ejt", "ns3.dns.nic.xn--mgba3a3ejt", "ns4.dns.nic.xn--mgba3a3ejt", "ns5.dns.nic.xn--mgba3a3ejt", "ns6.dns.nic.xn--mgba3a3ejt"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"xn--mgbayh7gpa" /* الاردن */, nil, nil, nil, nil, NS{"rip.psg.com", "amra.nic.gov.jo", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "jo.cctld.authdns.ripe.net"}, nil, "", "http://idn.jo/whois_a.aspx", "", 0x40},
 	{"xn--lgbbat1ad8j" /* الجزائر */, nil, nil, nil, nil, NS{"idn1.nic.dz", "idn2.nic.dz"}, nil, "whois.nic.dz", "", "http://newgtlds.icann.org/", 0x40},
-	{"xn--mgberp4a5d4ar" /* السعودية */, nil, nil, nil, nil, NS{"sa-ns.anycast.pch.net", "ns1.isu.net.sa", "ns1.nic.net.sa", "ns2.nic.net.sa", "s.nic.net.sa"}, nil, "whois.nic.net.sa", "", "", 0x40},
+	{"xn--mgberp4a5d4ar" /* السعودية */, nil, nil, nil, nil, NS{"sa-ns.anycast.pch.net", "ns1.isu.net.sa", "ns1.nic.net.sa", "ns2.nic.net.sa", "s.nic.net.sa", "s2.nic.net.sa"}, nil, "whois.nic.net.sa", "", "", 0x40},
 	{"xn--mgba7c0bbn0a" /* العليان */, nil, nil, nil, nil, NS{"a.nic.xn--mgba7c0bbn0a", "b.nic.xn--mgba7c0bbn0a", "c.nic.xn--mgba7c0bbn0a", "d.nic.xn--mgba7c0bbn0a"}, nil, "whois.nic.xn--mgba7c0bbn0a", "", "http://newgtlds.icann.org/", 0x40},
 	{"xn--mgbc0a9azcg" /* المغرب */, nil, nil, nil, nil, NS{"ns2.nic.fr", "hariss.anrt.ma", "dns2.menara.ma", "dns3.menara.ma"}, nil, "whois.iam.net.ma", "", "http://newgtlds.icann.org/", 0x40},
 	{"xn--mgbaam7a8h" /* امارات */, nil, nil, nil, nil, NS{"ns1.aedns.ae", "ns2.aedns.ae", "nsext-pch.aedns.ae", "sns-pb.isc.org"}, nil, "whois.aeda.net.ae", "", "", 0x40},
