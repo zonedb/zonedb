@@ -10,6 +10,7 @@
 	"nameServers": [
 		"a.nic.nu",
 		"b.nic.nu",
-		"c.nic.nu"
+		"c.nic.nu",
+		"d.nic.nu"
 	]
 }
