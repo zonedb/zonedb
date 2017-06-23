@@ -4338,7 +4338,7 @@ var _y = [4358]Zone{
 	{"org.vn", &_z[1490], nil, _c[0:6], nil, NS{"a.dns-servers.vn", "b.dns-servers.vn", "c.dns-servers.vn", "d.dns-servers.vn", "e.dns-servers.vn", "f.dns-servers.vn", "vn.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"pro.vn", &_z[1490], nil, _c[0:6], nil, NS{"a.dns-servers.vn", "b.dns-servers.vn", "c.dns-servers.vn", "d.dns-servers.vn", "e.dns-servers.vn", "f.dns-servers.vn", "vn.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"co.vu", &_z[1499], nil, nil, nil, NS{"ns1.codotvu.com", "ns2.codotvu.com", "ns3.codotvu.com", "ns4.codotvu.com"}, nil, "", "", "www.co.vu", 0x0},
-	{"com.vu", &_z[1499], nil, _c[0:6], nil, NS{"anytld.apnic.net", "efate.vanuatu.com.vu", "futuna.vanuatu.com.vu", "santo.vanuatu.com.vu"}, nil, "", "", "", 0x0},
+	{"com.vu", &_z[1499], nil, _c[0:6], nil, NS{"rip.psg.com", "anytld.apnic.net", "efate.vanuatu.com.vu", "futuna.vanuatu.com.vu", "santo.vanuatu.com.vu"}, nil, "", "", "", 0x0},
 	{"net.vu", &_z[1499], nil, _c[0:6], nil, NS{"anytld.apnic.net", "efate.vanuatu.com.vu", "futuna.vanuatu.com.vu", "santo.vanuatu.com.vu"}, nil, "", "", "", 0x0},
 	{"org.vu", &_z[1499], nil, _c[0:6], nil, NS{"anytld.apnic.net", "efate.vanuatu.com.vu", "futuna.vanuatu.com.vu", "santo.vanuatu.com.vu"}, nil, "", "", "", 0x0},
 	{"com.ws", &_z[1538], nil, _c[0:6], nil, NS{"ns2.dns.ws", "ns3.dns.ws", "ns4.dns.ws", "ns5.dns.ws"}, nil, "", "", "", 0x0},
