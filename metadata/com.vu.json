@@ -1,6 +1,7 @@
 {
 	"domain": "com.vu",
 	"nameServers": [
+		"rip.psg.com",
 		"anytld.apnic.net",
 		"efate.vanuatu.com.vu",
 		"futuna.vanuatu.com.vu",
