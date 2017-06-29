@@ -2,8 +2,13 @@
 	"domain": "boston",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"generic"
+		"city",
+    "generic",
+    "geo"
 	],
+  "locations": [
+    "Boston"
+  ],
 	"whoisServer": "whois.nic.boston",
 	"nameServers": [
 		"dns1.nic.boston",
