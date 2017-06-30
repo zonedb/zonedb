@@ -3,12 +3,12 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"city",
-    "generic",
-    "geo"
+		"generic",
+		"geo"
 	],
-  "locations": [
-    "Boston"
-  ],
+	"locations": [
+		"Boston"
+	],
 	"whoisServer": "whois.nic.boston",
 	"nameServers": [
 		"dns1.nic.boston",
