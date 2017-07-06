@@ -9,7 +9,9 @@
 		"pch.nic.ki",
 		"ki1.dyntld.net",
 		"ki3.dyntld.net",
-		"sns-pb.isc.org"
+		"sns-pb.isc.org",
+		"a.ki.dyntld.net",
+		"b.ki.dyntld.net"
 	],
 	"codePoints": "--09az"
 }
