@@ -861,7 +861,7 @@ var _y = [4366]Zone{
 	{"kfh", nil, nil, _c[0:6], nil, NS{"a.nic.kfh", "b.nic.kfh", "c.nic.kfh", "d.nic.kfh"}, nil, "whois.nic.kfh", "", "http://newgtlds.icann.org/", 0x42},
 	{"kg", nil, _z[2763:2769], _c[0:6], nil, NS{"ns.kg", "kg.cctld.authdns.ripe.net"}, nil, "whois.kg", "", "", 0xa0},
 	{"kh", nil, _z[2769:2776], _c[0:6], nil, NS{"sec3.apnic.net", "ns-kh.ripe.net", "ns.camnet.com.kh", "dns1.online.com.kh", "ns.telesurf.com.kh", "ns1.dns.net.kh"}, nil, "", "", "", 0xa0},
-	{"ki", nil, _z[2776:2787], _c[0:6], nil, NS{"pch.nic.ki", "ki1.dyntld.net", "ki3.dyntld.net", "sns-pb.isc.org"}, nil, "whois.nic.ki", "", "", 0xa0},
+	{"ki", nil, _z[2776:2787], _c[0:6], nil, NS{"pch.nic.ki", "ki1.dyntld.net", "ki3.dyntld.net", "sns-pb.isc.org", "a.ki.dyntld.net", "b.ki.dyntld.net"}, nil, "whois.nic.ki", "", "", 0xa0},
 	{"kia", nil, nil, _c[0:6], nil, NS{"a.nic.kia", "b.nic.kia", "c.nic.kia", "d.nic.kia", "a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, nil, "whois.nic.kia", "", "http://newgtlds.icann.org/", 0x42},
 	{"kid", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"kids", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
