@@ -15,8 +15,10 @@
 		"a.nic.brussels",
 		"b.nic.brussels",
 		"w.nic.brussels",
+		"x.nic.brussels",
 		"c.ns.dns.be",
-		"d.ns.dns.be"
+		"d.ns.dns.be",
+		"y.ns.dns.be"
 	],
 	"codePoints": "--09az"
 }
