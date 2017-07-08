@@ -8,6 +8,8 @@
 	"whoisURL": "http://www.nic.cr/niccr_publico/showRegistroDominiosScreen.do",
 	"nameServers": [
 		"ns-ext.nic.cl",
+		"ca1.nic.cr",
+		"ca2.nic.cr",
 		"de.nic.cr",
 		"f.nic.cr",
 		"g.nic.cr",
