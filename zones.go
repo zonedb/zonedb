@@ -2878,7 +2878,7 @@ var _y = [4366]Zone{
 	{"com.ki", &_z[763], nil, _c[0:6], nil, NS{"a.ki.dyntld.net", "b.ki.dyntld.net"}, nil, "", "", "", 0x0},
 	{"edu.ki", &_z[763], nil, _c[0:6], nil, NS{"a.ki.dyntld.net", "b.ki.dyntld.net"}, nil, "", "", "", 0x0},
 	{"gov.ki", &_z[763], nil, _c[0:6], nil, NS{"pch.nic.ki", "sns-pb.isc.org", "a.ki.dyntld.net", "b.ki.dyntld.net"}, nil, "", "", "", 0x0},
-	{"info.ki", &_z[763], nil, _c[0:6], nil, NS{"a.ki.dyntld.net", "b.ki.dyntld.net"}, nil, "", "", "", 0x0},
+	{"info.ki", &_z[763], nil, _c[0:6], nil, NS{"pch.nic.ki", "sns-pb.isc.org", "a.ki.dyntld.net", "b.ki.dyntld.net"}, nil, "", "", "", 0x0},
 	{"mob.ki", &_z[763], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"mobi.ki", &_z[763], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"net.ki", &_z[763], nil, _c[0:6], nil, NS{"a.ki.dyntld.net", "b.ki.dyntld.net"}, nil, "", "", "", 0x0},
