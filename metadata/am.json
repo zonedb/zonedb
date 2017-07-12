@@ -7,6 +7,7 @@
 	],
 	"whoisServer": "whois.amnic.net",
 	"nameServers": [
+		"ns-pri.nic.am",
 		"rip.psg.com",
 		"ns-cdn.amnic.net",
 		"ns-pch.amnic.net",
