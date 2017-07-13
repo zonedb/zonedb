@@ -5,7 +5,9 @@
 		"ns1.gov.za",
 		"ns2.gov.za",
 		"ns3.gov.za",
-		"hippo.ru.ac.za"
+		"hippo.ru.ac.za",
+		"ns1.inx.net.za",
+		"ns2.inx.net.za"
 	],
 	"codePoints": "--09az"
 }
