@@ -6,6 +6,9 @@
 	],
 	"whoisServer": "whois.iana.org",
 	"nameServers": [
+		"x.iana-servers.net",
+		"y.iana-servers.net",
+		"z.iana-servers.net",
 		"ns0.ja.net",
 		"ns.uu.net",
 		"ns.icann.org",

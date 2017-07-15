@@ -13,8 +13,10 @@
 		"a.nic.vlaanderen",
 		"b.nic.vlaanderen",
 		"w.nic.vlaanderen",
+		"x.nic.vlaanderen",
 		"c.ns.dns.be",
-		"d.ns.dns.be"
+		"d.ns.dns.be",
+		"y.ns.dns.be"
 	],
 	"codePoints": "--09az"
 }
