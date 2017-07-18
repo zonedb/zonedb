@@ -2,6 +2,7 @@
 	"domain": "edu.na",
 	"nameServers": [
 		"dns5.denic.de",
+		"ns-na.afrinic.net",
 		"oshikoko.omadhina.net",
 		"oshikoko.omadhina.co.na",
 		"na-ns.anycast.pch.net"

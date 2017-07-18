@@ -1,6 +1,7 @@
 {
 	"domain": "net.gh",
 	"nameServers": [
+		"ns.dns.br",
 		"rip.psg.com",
 		"ns1.nic.gh",
 		"ns2.nic.gh",
