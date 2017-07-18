@@ -1,6 +1,7 @@
 {
 	"domain": "edu.gh",
 	"nameServers": [
+		"ns.dns.br",
 		"austin.gh.com",
 		"mantse.gh.com",
 		"rip.psg.com",
