@@ -1,7 +1,7 @@
 {
 	"domain": "工行",
 	"infoURL": "http://newgtlds.icann.org/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.工行",
 	"nameServers": [
 		"a0.nic.工行",
 		"a2.nic.工行",

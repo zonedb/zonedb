@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.dtv",
 	"nameServers": [
 		"a0.nic.dtv",
 		"a2.nic.dtv",
