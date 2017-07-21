@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.wolterskluwer",
 	"nameServers": [
 		"a0.nic.wolterskluwer",
 		"a2.nic.wolterskluwer",
