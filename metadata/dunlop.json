@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.dunlop",
 	"nameServers": [
 		"a0.nic.dunlop",
 		"a2.nic.dunlop",
