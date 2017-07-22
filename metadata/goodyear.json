@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.goodyear",
 	"nameServers": [
 		"a0.nic.goodyear",
 		"a2.nic.goodyear",
