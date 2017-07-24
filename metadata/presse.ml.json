@@ -1,6 +1,8 @@
 {
 	"domain": "presse.ml",
 	"nameServers": [
+		"ns5.awardspace.com",
+		"ns6.awardspace.com",
 		"ns01.freenom.com",
 		"ns02.freenom.com",
 		"ns03.freenom.com",

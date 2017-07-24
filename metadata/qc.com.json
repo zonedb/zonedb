@@ -2,6 +2,8 @@
 	"domain": "qc.com",
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
+		"ns31.domaincontrol.com",
+		"ns32.domaincontrol.com",
 		"ns1.namefind.com",
 		"ns2.namefind.com",
 		"ns1.centralnic.net",
