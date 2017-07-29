@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.delta",
 	"nameServers": [
 		"a0.nic.delta",
 		"a2.nic.delta",
