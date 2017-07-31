@@ -15,9 +15,9 @@
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
 	],
-	"codePoints": "--09azââ",
+	"codePoints": "--09azààââääæëîïôôùùûüÿÿœœ",
 	"idnTables": {
-		"fr": "ââ"
+		"fr": "--09azààââääæëîïôôùùûüÿÿœœ"
 	},
 	"idnTableURLs": {
 		"fr": "https://www.iana.org/domains/idn-tables/tables/bzh_fr_1.txt"
