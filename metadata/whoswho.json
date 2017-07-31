@@ -13,5 +13,16 @@
 		"ns5.dns.nic.whoswho",
 		"ns6.dns.nic.whoswho"
 	],
-	"codePoints": "--09az"
+	"codePoints": "--09az",
+	"idnTableURLs": {
+		"de": "https://www.iana.org/domains/idn-tables/tables/whoswho_de_1.0.txt",
+		"es": "https://www.iana.org/domains/idn-tables/tables/whoswho_es_1.0.txt",
+		"fr": "https://www.iana.org/domains/idn-tables/tables/whoswho_fr_1.0.txt",
+		"ja": "https://www.iana.org/domains/idn-tables/tables/whoswho_ja_1.0.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/whoswho_ko_1.0.txt",
+		"pl": "https://www.iana.org/domains/idn-tables/tables/whoswho_pl_1.0.txt",
+		"pt": "https://www.iana.org/domains/idn-tables/tables/whoswho_pt_1.0.txt",
+		"ru": "https://www.iana.org/domains/idn-tables/tables/whoswho_ru_1.0.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/whoswho_zh_1.0.txt"
+	}
 }

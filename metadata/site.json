@@ -11,5 +11,17 @@
 		"c.nic.site",
 		"d.nic.site"
 	],
-	"codePoints": "--09az"
+	"codePoints": "--09az",
+	"idnTableURLs": {
+		"ar": "https://www.iana.org/domains/idn-tables/tables/site_ar_1.1.txt",
+		"cyrl": "https://www.iana.org/domains/idn-tables/tables/site_cyrl_1.0.txt",
+		"grek": "https://www.iana.org/domains/idn-tables/tables/site_grek_1.1.txt",
+		"he": "https://www.iana.org/domains/idn-tables/tables/site_he_1.0.txt",
+		"ja": "https://www.iana.org/domains/idn-tables/tables/site_ja_1.0.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/site_ko_1.0.txt",
+		"latn": "https://www.iana.org/domains/idn-tables/tables/site_latn_1.0.txt",
+		"lo": "https://www.iana.org/domains/idn-tables/tables/site_lo_1.1.txt",
+		"th": "https://www.iana.org/domains/idn-tables/tables/site_th_1.1.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/site_zh_1.2.txt"
+	}
 }

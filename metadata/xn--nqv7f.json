@@ -6,5 +6,9 @@
 		"a2.nic.机构",
 		"b0.nic.机构",
 		"c0.nic.机构"
-	]
+	],
+	"idnTableURLs": {
+		"zh-cn": "https://www.iana.org/domains/idn-tables/tables/xn--nqv7f_zh-cn_4.0.txt",
+		"zh-tw": "https://www.iana.org/domains/idn-tables/tables/xn--nqv7f_zh-tw_4.0.txt"
+	}
 }

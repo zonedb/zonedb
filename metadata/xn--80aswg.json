@@ -9,5 +9,8 @@
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
-	]
+	],
+	"idnTableURLs": {
+		"cyrl": "https://www.iana.org/domains/idn-tables/tables/xn--80aswg_cyrl_1.0.txt"
+	}
 }

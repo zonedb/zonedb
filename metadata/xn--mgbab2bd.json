@@ -9,5 +9,8 @@
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
-	]
+	],
+	"idnTableURLs": {
+		"arab": "https://www.iana.org/domains/idn-tables/tables/xn--mgbab2bd_arab_1.3.txt"
+	}
 }

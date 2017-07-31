@@ -12,5 +12,9 @@
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
 	],
-	"codePoints": "--09az"
+	"codePoints": "--09az",
+	"idnTableURLs": {
+		"de": "https://www.iana.org/domains/idn-tables/tables/ifm_de_1.0.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/ifm_zh_1.0.txt"
+	}
 }

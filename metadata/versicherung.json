@@ -8,5 +8,8 @@
 		"a.dns.nic.versicherung",
 		"m.dns.nic.versicherung",
 		"n.dns.nic.versicherung"
-	]
+	],
+	"idnTableURLs": {
+		"latn": "https://www.iana.org/domains/idn-tables/tables/versicherung_latn_1.txt"
+	}
 }

@@ -7,5 +7,21 @@
 		"demand.beta.aridns.net.au",
 		"demand.delta.aridns.net.au",
 		"demand.gamma.aridns.net.au"
-	]
+	],
+	"idnTableURLs": {
+		"arab": "https://www.iana.org/domains/idn-tables/tables/academy_arab_1.0.txt",
+		"cyrl": "https://www.iana.org/domains/idn-tables/tables/academy_cyrl_1.0.txt",
+		"de": "https://www.iana.org/domains/idn-tables/tables/academy_de_1.0.txt",
+		"deva": "https://www.iana.org/domains/idn-tables/tables/academy_deva_1.0.txt",
+		"es": "https://www.iana.org/domains/idn-tables/tables/academy_es_1.0.txt",
+		"fr": "https://www.iana.org/domains/idn-tables/tables/academy_fr_1.0.txt",
+		"grek": "https://www.iana.org/domains/idn-tables/tables/academy_grek_1.0.txt",
+		"hebr": "https://www.iana.org/domains/idn-tables/tables/academy_hebr_1.0.txt",
+		"ja": "https://www.iana.org/domains/idn-tables/tables/academy_ja_1.0.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/academy_ko_1.0.txt",
+		"latn": "https://www.iana.org/domains/idn-tables/tables/academy_latn_1.0.txt",
+		"taml": "https://www.iana.org/domains/idn-tables/tables/academy_taml_1.0.txt",
+		"thai": "https://www.iana.org/domains/idn-tables/tables/academy_thai_1.0.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/academy_zh_1.0.txt"
+	}
 }

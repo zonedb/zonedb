@@ -14,5 +14,8 @@
 		"a.dns.nic.hamburg",
 		"m.dns.nic.hamburg",
 		"n.dns.nic.hamburg"
-	]
+	],
+	"idnTableURLs": {
+		"latn": "https://www.iana.org/domains/idn-tables/tables/hamburg_latn_1.txt"
+	}
 }

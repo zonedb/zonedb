@@ -13,5 +13,10 @@
 		"a2.asia.afilias-nst.info",
 		"c0.asia.afilias-nst.info",
 		"b2.asia.afilias-nst.org"
-	]
+	],
+	"idnTableURLs": {
+		"ja": "https://www.iana.org/domains/idn-tables/tables/asia_ja_1.1.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/asia_ko_1.0.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/asia_zh_1.1.txt"
+	}
 }

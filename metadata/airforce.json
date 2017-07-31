@@ -9,5 +9,11 @@
 		"demand.beta.aridns.net.au",
 		"demand.delta.aridns.net.au",
 		"demand.gamma.aridns.net.au"
-	]
+	],
+	"idnTableURLs": {
+		"de": "https://www.iana.org/domains/idn-tables/tables/actor_de_1.0.txt",
+		"es": "https://www.iana.org/domains/idn-tables/tables/actor_es_1.0.txt",
+		"fr": "https://www.iana.org/domains/idn-tables/tables/actor_fr_1.0.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/actor_zh_1.0.txt"
+	}
 }

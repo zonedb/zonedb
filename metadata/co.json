@@ -14,5 +14,16 @@
 		"ns4.cctld.co",
 		"ns5.cctld.co",
 		"ns6.cctld.co"
-	]
+	],
+	"idnTableURLs": {
+		"da": "https://www.iana.org/domains/idn-tables/tables/co_da_1.0.txt",
+		"es": "https://www.iana.org/domains/idn-tables/tables/co_es_1.0.txt",
+		"fi": "https://www.iana.org/domains/idn-tables/tables/co_fi_1.0.txt",
+		"is": "https://www.iana.org/domains/idn-tables/tables/co_is_1.0.txt",
+		"ja": "https://www.iana.org/domains/idn-tables/tables/co_ja_1.0.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/co_ko_1.0.txt",
+		"no": "https://www.iana.org/domains/idn-tables/tables/co_no_1.0.txt",
+		"sv": "https://www.iana.org/domains/idn-tables/tables/co_sv_1.0.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/co_zh_1.0.txt"
+	}
 }

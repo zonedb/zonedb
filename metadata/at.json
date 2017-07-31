@@ -15,5 +15,8 @@
 		"ns1.univie.ac.at",
 		"ns2.univie.ac.at",
 		"ns9.univie.ac.at"
-	]
+	],
+	"idnTableURLs": {
+		"latn": "https://www.iana.org/domains/idn-tables/tables/at_latn_1.0.txt"
+	}
 }

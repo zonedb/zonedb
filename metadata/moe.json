@@ -11,5 +11,8 @@
 		"ns4.dns.nic.moe",
 		"ns5.dns.nic.moe",
 		"ns6.dns.nic.moe"
-	]
+	],
+	"idnTableURLs": {
+		"ja": "https://www.iana.org/domains/idn-tables/tables/moe_ja_1.0.txt"
+	}
 }

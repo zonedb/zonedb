@@ -13,5 +13,23 @@
 		"ns5.dns.nic.read",
 		"ns6.dns.nic.read"
 	],
-	"codePoints": "--09az"
+	"codePoints": "--09az",
+	"idnTableURLs": {
+		"da": "https://www.iana.org/domains/idn-tables/tables/read_da_1.txt",
+		"de": "https://www.iana.org/domains/idn-tables/tables/read_de_1.txt",
+		"es": "https://www.iana.org/domains/idn-tables/tables/read_es_1.txt",
+		"fi": "https://www.iana.org/domains/idn-tables/tables/read_fi_1.txt",
+		"hu": "https://www.iana.org/domains/idn-tables/tables/read_hu_1.txt",
+		"is": "https://www.iana.org/domains/idn-tables/tables/read_is_1.txt",
+		"ja": "https://www.iana.org/domains/idn-tables/tables/read_ja_1.0.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/read_ko_1.txt",
+		"lt": "https://www.iana.org/domains/idn-tables/tables/read_lt_1.txt",
+		"lv": "https://www.iana.org/domains/idn-tables/tables/read_lv_1.txt",
+		"no": "https://www.iana.org/domains/idn-tables/tables/read_no_1.0.txt",
+		"pl": "https://www.iana.org/domains/idn-tables/tables/read_pl_1.txt",
+		"pt": "https://www.iana.org/domains/idn-tables/tables/read_pt_1.txt",
+		"ru": "https://www.iana.org/domains/idn-tables/tables/read_ru_1.txt",
+		"sv": "https://www.iana.org/domains/idn-tables/tables/read_sv_1.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/read_zh_1.txt"
+	}
 }

@@ -11,5 +11,9 @@
 		"ns-tld3.charlestonroadregistry.com",
 		"ns-tld4.charlestonroadregistry.com",
 		"ns-tld5.charlestonroadregistry.com"
-	]
+	],
+	"idnTableURLs": {
+		"ja": "https://www.iana.org/domains/idn-tables/tables/how_ja_1.0.txt",
+		"latn": "https://www.iana.org/domains/idn-tables/tables/how_latn_1.0.txt"
+	}
 }

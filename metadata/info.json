@@ -12,5 +12,18 @@
 		"b0.info.afilias-nst.org",
 		"b2.info.afilias-nst.org",
 		"d0.info.afilias-nst.org"
-	]
+	],
+	"idnTableURLs": {
+		"da": "https://www.iana.org/domains/idn-tables/tables/info_da_1.txt",
+		"de": "https://www.iana.org/domains/idn-tables/tables/info_de_1.0.html",
+		"es": "https://www.iana.org/domains/idn-tables/tables/info_es_1.txt",
+		"hu": "https://www.iana.org/domains/idn-tables/tables/info_hu_1.txt",
+		"is": "https://www.iana.org/domains/idn-tables/tables/info_is_1.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/info_ko_1.txt",
+		"lt": "https://www.iana.org/domains/idn-tables/tables/info_lt_1.txt",
+		"lv": "https://www.iana.org/domains/idn-tables/tables/info_lv_1.txt",
+		"pl": "https://www.iana.org/domains/idn-tables/tables/info_pl_1.txt",
+		"sv": "https://www.iana.org/domains/idn-tables/tables/info_sv_1.txt",
+		"zh-cn": "https://www.iana.org/domains/idn-tables/tables/info_zh-cn_4.0.txt"
+	}
 }

@@ -13,5 +13,23 @@
 		"ns5.dns.nic.cartier",
 		"ns6.dns.nic.cartier"
 	],
-	"codePoints": "--09az"
+	"codePoints": "--09az",
+	"idnTableURLs": {
+		"da": "https://www.iana.org/domains/idn-tables/tables/cartier_da_1.0.txt",
+		"de": "https://www.iana.org/domains/idn-tables/tables/cartier_de_1.0.txt",
+		"es": "https://www.iana.org/domains/idn-tables/tables/cartier_es_1.0.txt",
+		"fi": "https://www.iana.org/domains/idn-tables/tables/cartier_fi_1.0.txt",
+		"hu": "https://www.iana.org/domains/idn-tables/tables/cartier_hu_1.0.txt",
+		"is": "https://www.iana.org/domains/idn-tables/tables/cartier_is_1.0.txt",
+		"ja": "https://www.iana.org/domains/idn-tables/tables/cartier_ja_1.0.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/cartier_ko_1.0.txt",
+		"lt": "https://www.iana.org/domains/idn-tables/tables/cartier_lt_1.0.txt",
+		"lv": "https://www.iana.org/domains/idn-tables/tables/cartier_lv_1.0.txt",
+		"no": "https://www.iana.org/domains/idn-tables/tables/cartier_no_1.0.txt",
+		"pl": "https://www.iana.org/domains/idn-tables/tables/cartier_pl_1.0.txt",
+		"pt": "https://www.iana.org/domains/idn-tables/tables/cartier_pt_1.0.txt",
+		"ru": "https://www.iana.org/domains/idn-tables/tables/cartier_ru_1.0.txt",
+		"sv": "https://www.iana.org/domains/idn-tables/tables/cartier_sv_1.0.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/cartier_zh_1.0.txt"
+	}
 }

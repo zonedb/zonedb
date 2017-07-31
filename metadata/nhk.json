@@ -18,5 +18,13 @@
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],
-	"codePoints": "--09az"
+	"codePoints": "--09az",
+	"idnTableURLs": {
+		"es": "https://www.iana.org/domains/idn-tables/tables/nhk_es_1.0.txt",
+		"fr": "https://www.iana.org/domains/idn-tables/tables/nhk_fr_1.0.txt",
+		"ja": "https://www.iana.org/domains/idn-tables/tables/nhk_ja_1.0.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/nhk_ko_1.0.txt",
+		"none": "https://www.iana.org/domains/idn-tables/tables/nhk_none_1.0.txt",
+		"pt": "https://www.iana.org/domains/idn-tables/tables/nhk_pt_1.0.txt"
+	}
 }

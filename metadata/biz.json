@@ -11,5 +11,22 @@
 		"e.gtld.biz",
 		"f.gtld.biz",
 		"k.gtld.biz"
-	]
+	],
+	"idnTableURLs": {
+		"da": "https://www.iana.org/domains/idn-tables/tables/biz_da_1.0.html",
+		"de": "https://www.iana.org/domains/idn-tables/tables/biz_de_1.0.html",
+		"es": "https://www.iana.org/domains/idn-tables/tables/biz_es_1.0.html",
+		"fi": "https://www.iana.org/domains/idn-tables/tables/biz_fi_1.0.html",
+		"hu": "https://www.iana.org/domains/idn-tables/tables/biz_hu_1.0.html",
+		"is": "https://www.iana.org/domains/idn-tables/tables/biz_is_1.0.html",
+		"ja": "https://www.iana.org/domains/idn-tables/tables/biz_ja_1.0.html",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/biz_ko_1.0.html",
+		"lt": "https://www.iana.org/domains/idn-tables/tables/biz_lt_1.0.html",
+		"lv": "https://www.iana.org/domains/idn-tables/tables/biz_lv_1.0.html",
+		"no": "https://www.iana.org/domains/idn-tables/tables/biz_no_1.0.html",
+		"pl": "https://www.iana.org/domains/idn-tables/tables/biz_pl_1.0.html",
+		"pt": "https://www.iana.org/domains/idn-tables/tables/biz_pt_1.0.html",
+		"sv": "https://www.iana.org/domains/idn-tables/tables/biz_sv_1.0.html",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/biz_zh_1.0.html"
+	}
 }

@@ -11,5 +11,23 @@
 		"ns4.dns.nic.ストア",
 		"ns5.dns.nic.ストア",
 		"ns6.dns.nic.ストア"
-	]
+	],
+	"idnTableURLs": {
+		"da": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_da_1.txt",
+		"de": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_de_1.txt",
+		"es": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_es_1.txt",
+		"fi": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_fi_1.txt",
+		"hu": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_hu_1.txt",
+		"is": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_is_1.txt",
+		"ja": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_ja_1.0.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_ko_1.txt",
+		"lt": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_lt_1.txt",
+		"lv": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_lv_1.txt",
+		"no": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_no_1.0.txt",
+		"pl": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_pl_1.txt",
+		"pt": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_pt_1.txt",
+		"ru": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_ru_1.txt",
+		"sv": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_sv_1.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/xn--cck2b3b_zh_1.txt"
+	}
 }

@@ -18,5 +18,8 @@
 		"ns-a.thnic.co.th",
 		"ns-e.thnic.co.th",
 		"th.cctld.authdns.ripe.net"
-	]
+	],
+	"idnTableURLs": {
+		"th-th": "https://www.iana.org/domains/idn-tables/tables/th_th-th_1.0.html"
+	}
 }

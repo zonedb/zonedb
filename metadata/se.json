@@ -16,5 +16,10 @@
 		"i.ns.se",
 		"j.ns.se",
 		"x.ns.se"
-	]
+	],
+	"idnTableURLs": {
+		"latn": "https://www.iana.org/domains/idn-tables/tables/se_latn_1.0.html",
+		"sv-se": "https://www.iana.org/domains/idn-tables/tables/se_sv-se_1.0.html",
+		"yi": "https://www.iana.org/domains/idn-tables/tables/se_yi_1.0.html"
+	}
 }

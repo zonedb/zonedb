@@ -8,5 +8,8 @@
 		"d.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
-	]
+	],
+	"idnTableURLs": {
+		"fr": "https://www.iana.org/domains/idn-tables/tables/ovh_fr_1.txt"
+	}
 }

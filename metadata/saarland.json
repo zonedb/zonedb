@@ -14,5 +14,8 @@
 		"ns2b.ksregistry.com",
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net"
-	]
+	],
+	"idnTableURLs": {
+		"de": "https://www.iana.org/domains/idn-tables/tables/saarland_de_1.0.txt"
+	}
 }

@@ -10,5 +10,8 @@
 		"d.dns.ripn.net",
 		"e.dns.ripn.net",
 		"f.dns.ripn.net"
-	]
+	],
+	"idnTableURLs": {
+		"ru": "https://www.iana.org/domains/idn-tables/tables/xn--d1acj3b_ru_1.0.txt"
+	}
 }

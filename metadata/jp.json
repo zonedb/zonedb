@@ -14,5 +14,8 @@
 		"f.dns.jp",
 		"g.dns.jp",
 		"h.dns.jp"
-	]
+	],
+	"idnTableURLs": {
+		"ja-jp": "https://www.iana.org/domains/idn-tables/tables/jp_ja-jp_1.2.html"
+	}
 }

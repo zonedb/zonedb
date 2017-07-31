@@ -9,5 +9,17 @@
 		"b.nic.host",
 		"c.nic.host",
 		"d.nic.host"
-	]
+	],
+	"idnTableURLs": {
+		"ar": "https://www.iana.org/domains/idn-tables/tables/host_ar_1.1.txt",
+		"cyrl": "https://www.iana.org/domains/idn-tables/tables/host_cyrl_1.0.txt",
+		"grek": "https://www.iana.org/domains/idn-tables/tables/host_grek_1.1.txt",
+		"he": "https://www.iana.org/domains/idn-tables/tables/host_he_1.0.txt",
+		"ja": "https://www.iana.org/domains/idn-tables/tables/host_ja_1.0.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/host_ko_1.0.txt",
+		"latn": "https://www.iana.org/domains/idn-tables/tables/host_latn_1.0.txt",
+		"lo": "https://www.iana.org/domains/idn-tables/tables/host_lo_1.1.txt",
+		"th": "https://www.iana.org/domains/idn-tables/tables/host_th_1.1.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/host_zh_1.2.txt"
+	}
 }

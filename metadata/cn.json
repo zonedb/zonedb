@@ -12,5 +12,8 @@
 		"d.dns.cn",
 		"e.dns.cn",
 		"ns.cernet.net"
-	]
+	],
+	"idnTableURLs": {
+		"zh-cn": "https://www.iana.org/domains/idn-tables/tables/cn_zh-cn_4.0.html"
+	}
 }

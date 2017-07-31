@@ -23,6 +23,8 @@
 	},
 	"idnTableURLs": {
 		"bg": "https://www.iana.org/domains/idn-tables/tables/bg_bg-bg_1.0.html",
-		"ru": "https://www.iana.org/domains/idn-tables/tables/bg_ru-bg_1.0.html"
+		"bg-bg": "https://www.iana.org/domains/idn-tables/tables/bg_bg-bg_1.0.html",
+		"ru": "https://www.iana.org/domains/idn-tables/tables/bg_ru-bg_1.0.html",
+		"ru-bg": "https://www.iana.org/domains/idn-tables/tables/bg_ru-bg_1.0.html"
 	}
 }

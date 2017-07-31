@@ -9,5 +9,33 @@
 		"a2.nic.global",
 		"b0.nic.global",
 		"c0.nic.global"
-	]
+	],
+	"idnTableURLs": {
+		"ar": "https://www.iana.org/domains/idn-tables/tables/global_ar_1.txt",
+		"be": "https://www.iana.org/domains/idn-tables/tables/global_be_1.txt",
+		"bg": "https://www.iana.org/domains/idn-tables/tables/global_bg_1.txt",
+		"bs": "https://www.iana.org/domains/idn-tables/tables/global_bs_1.txt",
+		"da": "https://www.iana.org/domains/idn-tables/tables/global_da_1.txt",
+		"de": "https://www.iana.org/domains/idn-tables/tables/global_de_1.txt",
+		"es": "https://www.iana.org/domains/idn-tables/tables/global_es_1.txt",
+		"fi": "https://www.iana.org/domains/idn-tables/tables/global_fi_1.txt",
+		"fr": "https://www.iana.org/domains/idn-tables/tables/global_fr_1.txt",
+		"hi": "https://www.iana.org/domains/idn-tables/tables/global_hi_1.txt",
+		"hu": "https://www.iana.org/domains/idn-tables/tables/global_hu_1.txt",
+		"is": "https://www.iana.org/domains/idn-tables/tables/global_is_1.txt",
+		"it": "https://www.iana.org/domains/idn-tables/tables/global_it_1.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/global_ko_1.txt",
+		"lt": "https://www.iana.org/domains/idn-tables/tables/global_lt_1.txt",
+		"lv": "https://www.iana.org/domains/idn-tables/tables/global_lv_1.txt",
+		"mk": "https://www.iana.org/domains/idn-tables/tables/global_mk_1.txt",
+		"pl": "https://www.iana.org/domains/idn-tables/tables/global_pl_1.txt",
+		"pt": "https://www.iana.org/domains/idn-tables/tables/global_pt_1.txt",
+		"ru": "https://www.iana.org/domains/idn-tables/tables/global_ru_1.txt",
+		"sr": "https://www.iana.org/domains/idn-tables/tables/global_sr_1.txt",
+		"sr-me": "https://www.iana.org/domains/idn-tables/tables/global_sr-me_1.txt",
+		"sv": "https://www.iana.org/domains/idn-tables/tables/global_sv_1.txt",
+		"uk": "https://www.iana.org/domains/idn-tables/tables/global_uk_1.txt",
+		"zh-cn": "https://www.iana.org/domains/idn-tables/tables/global_zh-cn_1.txt",
+		"zh-tw": "https://www.iana.org/domains/idn-tables/tables/global_zh-tw_1.txt"
+	}
 }

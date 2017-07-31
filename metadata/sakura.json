@@ -11,5 +11,8 @@
 		"tld3.nic.sakura",
 		"tld5.nic.sakura"
 	],
-	"codePoints": "--09az"
+	"codePoints": "--09az",
+	"idnTableURLs": {
+		"ja": "https://www.iana.org/domains/idn-tables/tables/sakura_ja_1.0.txt"
+	}
 }

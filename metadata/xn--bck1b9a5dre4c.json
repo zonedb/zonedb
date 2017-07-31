@@ -11,5 +11,23 @@
 		"ns4.dns.nic.ファッション",
 		"ns5.dns.nic.ファッション",
 		"ns6.dns.nic.ファッション"
-	]
+	],
+	"idnTableURLs": {
+		"da": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_da_1.txt",
+		"de": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_de_1.txt",
+		"es": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_es_1.txt",
+		"fi": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_fi_1.txt",
+		"hu": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_hu_1.txt",
+		"is": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_is_1.txt",
+		"ja": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_ja_1.0.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_ko_1.txt",
+		"lt": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_lt_1.txt",
+		"lv": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_lv_1.txt",
+		"no": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_no_1.0.txt",
+		"pl": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_pl_1.txt",
+		"pt": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_pt_1.txt",
+		"ru": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_ru_1.txt",
+		"sv": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_sv_1.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/xn--bck1b9a5dre4c_zh_1.txt"
+	}
 }

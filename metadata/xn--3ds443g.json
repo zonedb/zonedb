@@ -10,5 +10,9 @@
 		"a2.nic.在线",
 		"b0.nic.在线",
 		"c0.nic.在线"
-	]
+	],
+	"idnTableURLs": {
+		"zh-cn": "https://www.iana.org/domains/idn-tables/tables/xn--3ds443g_zh-cn_4.0.txt",
+		"zh-hant": "https://www.iana.org/domains/idn-tables/tables/xn--3ds443g_zh-hant_4.0.1.txt"
+	}
 }

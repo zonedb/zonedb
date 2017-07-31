@@ -11,5 +11,8 @@
 		"ns4.dns.nic.club",
 		"ns5.dns.nic.club",
 		"ns6.dns.nic.club"
-	]
+	],
+	"idnTableURLs": {
+		"es": "https://www.iana.org/domains/idn-tables/tables/club_es_1.0.txt"
+	}
 }

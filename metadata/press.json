@@ -9,5 +9,17 @@
 		"b.nic.press",
 		"c.nic.press",
 		"d.nic.press"
-	]
+	],
+	"idnTableURLs": {
+		"ar": "https://www.iana.org/domains/idn-tables/tables/press_ar_1.1.txt",
+		"cyrl": "https://www.iana.org/domains/idn-tables/tables/press_cyrl_1.0.txt",
+		"grek": "https://www.iana.org/domains/idn-tables/tables/press_grek_1.1.txt",
+		"he": "https://www.iana.org/domains/idn-tables/tables/press_he_1.0.txt",
+		"ja": "https://www.iana.org/domains/idn-tables/tables/press_ja_1.0.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/press_ko_1.0.txt",
+		"latn": "https://www.iana.org/domains/idn-tables/tables/press_latn_1.0.txt",
+		"lo": "https://www.iana.org/domains/idn-tables/tables/press_lo_1.1.txt",
+		"th": "https://www.iana.org/domains/idn-tables/tables/press_th_1.1.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/press_zh_1.2.txt"
+	}
 }

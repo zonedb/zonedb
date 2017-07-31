@@ -9,5 +9,14 @@
 		"a2.nic.орг",
 		"b0.nic.орг",
 		"c0.nic.орг"
-	]
+	],
+	"idnTableURLs": {
+		"be": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_be_1.txt",
+		"bg": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_bg_1.txt",
+		"bs": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_bs_1.txt",
+		"mk": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_mk_1.txt",
+		"ru": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_ru_1.txt",
+		"sr": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_sr_1.txt",
+		"uk": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_uk_1.txt"
+	}
 }

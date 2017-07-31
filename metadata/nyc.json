@@ -16,5 +16,8 @@
 		"ns4.dns.nic.nyc",
 		"ns5.dns.nic.nyc",
 		"ns6.dns.nic.nyc"
-	]
+	],
+	"idnTableURLs": {
+		"es": "https://www.iana.org/domains/idn-tables/tables/nyc_es_1.1.txt"
+	}
 }

@@ -18,5 +18,8 @@
 		"a.dns.nic.wien",
 		"m.dns.nic.wien",
 		"n.dns.nic.wien"
-	]
+	],
+	"idnTableURLs": {
+		"latn": "https://www.iana.org/domains/idn-tables/tables/wien_latn_1.txt"
+	}
 }

@@ -14,5 +14,26 @@
 		"c0.nic.adult",
 		"d0.nic.adult"
 	],
-	"codePoints": "--09az"
+	"codePoints": "--09az",
+	"idnTableURLs": {
+		"be": "https://www.iana.org/domains/idn-tables/tables/adult_be_1.txt",
+		"bg": "https://www.iana.org/domains/idn-tables/tables/adult_bg_1.txt",
+		"bs": "https://www.iana.org/domains/idn-tables/tables/adult_bs_1.txt",
+		"da": "https://www.iana.org/domains/idn-tables/tables/adult_da_1.txt",
+		"de": "https://www.iana.org/domains/idn-tables/tables/adult_de_1.txt",
+		"es": "https://www.iana.org/domains/idn-tables/tables/adult_es_1.txt",
+		"hu": "https://www.iana.org/domains/idn-tables/tables/adult_hu_1.txt",
+		"is": "https://www.iana.org/domains/idn-tables/tables/adult_is_1.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/adult_ko_1.txt",
+		"lt": "https://www.iana.org/domains/idn-tables/tables/adult_lt_1.txt",
+		"lv": "https://www.iana.org/domains/idn-tables/tables/adult_lv_1.txt",
+		"mk": "https://www.iana.org/domains/idn-tables/tables/adult_mk_1.txt",
+		"pl": "https://www.iana.org/domains/idn-tables/tables/adult_pl_1.txt",
+		"ru": "https://www.iana.org/domains/idn-tables/tables/adult_ru_1.txt",
+		"sr": "https://www.iana.org/domains/idn-tables/tables/adult_sr_1.txt",
+		"sv": "https://www.iana.org/domains/idn-tables/tables/adult_sv_1.txt",
+		"uk": "https://www.iana.org/domains/idn-tables/tables/adult_uk_1.txt",
+		"zh-cn": "https://www.iana.org/domains/idn-tables/tables/adult_zh-cn_4.0.txt",
+		"zh-tw": "https://www.iana.org/domains/idn-tables/tables/adult_zh-tw_4.0.txt"
+	}
 }

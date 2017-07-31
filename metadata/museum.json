@@ -12,5 +12,8 @@
 		"anyc1.irondns.net",
 		"ns.icann.org",
 		"sns-pb.isc.org"
-	]
+	],
+	"idnTableURLs": {
+		"latn": "https://www.iana.org/domains/idn-tables/tables/museum_latn_1.0.html"
+	}
 }

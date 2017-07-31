@@ -12,5 +12,26 @@
 		"b0.org.afilias-nst.org",
 		"b2.org.afilias-nst.org",
 		"d0.org.afilias-nst.org"
-	]
+	],
+	"idnTableURLs": {
+		"be": "https://www.iana.org/domains/idn-tables/tables/org_be_1.txt",
+		"bg": "https://www.iana.org/domains/idn-tables/tables/org_bg_1.txt",
+		"bs": "https://www.iana.org/domains/idn-tables/tables/org_bs_1.txt",
+		"da": "https://www.iana.org/domains/idn-tables/tables/org_da_1.0.html",
+		"de": "https://www.iana.org/domains/idn-tables/tables/org_de_1.txt",
+		"es": "https://www.iana.org/domains/idn-tables/tables/org_es_1.txt",
+		"hu": "https://www.iana.org/domains/idn-tables/tables/org_hu_1.0.html",
+		"is": "https://www.iana.org/domains/idn-tables/tables/org_is_1.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/org_ko_1.txt",
+		"lt": "https://www.iana.org/domains/idn-tables/tables/org_lt_1.0.html",
+		"lv": "https://www.iana.org/domains/idn-tables/tables/org_lv_1.0.html",
+		"mk": "https://www.iana.org/domains/idn-tables/tables/org_mk_1.txt",
+		"pl": "https://www.iana.org/domains/idn-tables/tables/org_pl_1.txt",
+		"ru": "https://www.iana.org/domains/idn-tables/tables/org_ru_1.txt",
+		"sr": "https://www.iana.org/domains/idn-tables/tables/org_sr_1.txt",
+		"sv": "https://www.iana.org/domains/idn-tables/tables/org_sv_1.0.html",
+		"uk": "https://www.iana.org/domains/idn-tables/tables/org_uk_1.txt",
+		"zh-cn": "https://www.iana.org/domains/idn-tables/tables/org_zh-cn_4.0.txt",
+		"zh-tw": "https://www.iana.org/domains/idn-tables/tables/org_zh-tw_4.0.txt"
+	}
 }

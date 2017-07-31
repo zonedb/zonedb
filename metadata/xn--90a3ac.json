@@ -11,5 +11,8 @@
 		"h.nic.rs",
 		"k.nic.rs",
 		"l.nic.rs"
-	]
+	],
+	"idnTableURLs": {
+		"sr-cyrl": "https://www.iana.org/domains/idn-tables/tables/xn--90a3ac_sr-cyrl_1.3.txt"
+	}
 }

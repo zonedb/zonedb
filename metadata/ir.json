@@ -10,5 +10,8 @@
 		"b.nic.ir",
 		"ns5.univie.ac.at",
 		"ir.cctld.authdns.ripe.net"
-	]
+	],
+	"idnTableURLs": {
+		"fa": "https://www.iana.org/domains/idn-tables/tables/ir_fa_1.0.html"
+	}
 }

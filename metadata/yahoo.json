@@ -13,5 +13,13 @@
 		"ns5.dns.nic.yahoo",
 		"ns6.dns.nic.yahoo"
 	],
-	"codePoints": "--09az"
+	"codePoints": "--09az",
+	"idnTableURLs": {
+		"de": "https://www.iana.org/domains/idn-tables/tables/yahoo_de_1.txt",
+		"es": "https://www.iana.org/domains/idn-tables/tables/yahoo_es_1.txt",
+		"ja": "https://www.iana.org/domains/idn-tables/tables/yahoo_ja_1.0.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/yahoo_ko_1.txt",
+		"ru": "https://www.iana.org/domains/idn-tables/tables/yahoo_ru_1.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/yahoo_zh_1.txt"
+	}
 }

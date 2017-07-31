@@ -12,5 +12,8 @@
 		"e.dns.kr",
 		"f.dns.kr",
 		"g.dns.kr"
-	]
+	],
+	"idnTableURLs": {
+		"ko-kr": "https://www.iana.org/domains/idn-tables/tables/kr_ko-kr_1.0.html"
+	}
 }

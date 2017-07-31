@@ -8,5 +8,9 @@
 		"a.dns.nic.voting",
 		"m.dns.nic.voting",
 		"n.dns.nic.voting"
-	]
+	],
+	"idnTableURLs": {
+		"cyrl": "https://www.iana.org/domains/idn-tables/tables/voting_cyrl_1.txt",
+		"latn": "https://www.iana.org/domains/idn-tables/tables/voting_latn_1.txt"
+	}
 }

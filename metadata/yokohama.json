@@ -23,5 +23,8 @@
 		"l.gmoregistry.net",
 		"m.gmoregistry.net",
 		"n.gmoregistry.net"
-	]
+	],
+	"idnTableURLs": {
+		"ja": "https://www.iana.org/domains/idn-tables/tables/yokohama_ja_1.0.txt"
+	}
 }

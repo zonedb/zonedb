@@ -9,5 +9,17 @@
 		"b.nic.website",
 		"c.nic.website",
 		"d.nic.website"
-	]
+	],
+	"idnTableURLs": {
+		"ar": "https://www.iana.org/domains/idn-tables/tables/website_ar_1.1.txt",
+		"cyrl": "https://www.iana.org/domains/idn-tables/tables/website_cyrl_1.0.txt",
+		"grek": "https://www.iana.org/domains/idn-tables/tables/website_grek_1.1.txt",
+		"he": "https://www.iana.org/domains/idn-tables/tables/website_he_1.0.txt",
+		"ja": "https://www.iana.org/domains/idn-tables/tables/website_ja_1.0.txt",
+		"ko": "https://www.iana.org/domains/idn-tables/tables/website_ko_1.0.txt",
+		"latn": "https://www.iana.org/domains/idn-tables/tables/website_latn_1.0.txt",
+		"lo": "https://www.iana.org/domains/idn-tables/tables/website_lo_1.1.txt",
+		"th": "https://www.iana.org/domains/idn-tables/tables/website_th_1.1.txt",
+		"zh": "https://www.iana.org/domains/idn-tables/tables/website_zh_1.2.txt"
+	}
 }
