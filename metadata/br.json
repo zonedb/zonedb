@@ -15,6 +15,10 @@
 		"e.dns.br",
 		"f.dns.br"
 	],
+	"codePoints": "--09azàãççéêííóõúúüü",
+	"idnTables": {
+		"pt-br": "--09azàãççéêííóõúúüü"
+	},
 	"idnTableURLs": {
 		"pt-br": "https://www.iana.org/domains/idn-tables/tables/br_pt-br_1.0.html"
 	}

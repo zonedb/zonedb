@@ -13,6 +13,10 @@
 		"x.ns.dns.be",
 		"y.ns.dns.be"
 	],
+	"codePoints": "--09azßöøÿœœ",
+	"idnTables": {
+		"latn": "--09azßöøÿœœ"
+	},
 	"idnTableURLs": {
 		"latn": "https://www.iana.org/domains/idn-tables/tables/be_latn_1.0.txt"
 	}

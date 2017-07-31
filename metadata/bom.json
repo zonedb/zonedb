@@ -15,6 +15,9 @@
 		"f.dns.br"
 	],
 	"codePoints": "--09az",
+	"idnTables": {
+		"pt": ""
+	},
 	"idnTableURLs": {
 		"pt": "https://www.iana.org/domains/idn-tables/tables/bom_pt_1.xml"
 	}

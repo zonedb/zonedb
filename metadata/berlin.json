@@ -15,7 +15,11 @@
 		"m.dns.nic.berlin",
 		"n.dns.nic.berlin"
 	],
-	"codePoints": "--09az",
+	"codePoints": "--09azßöøÿāāăăąąććĉĉċċččďďđđēēĕĕėėęęěěĝĝğğġġģģĥĥħħĩĩīīĭĭįįııĵĵķĸĺĺļļľľłłńńņņňňŋŋōōŏŏőőœœŕŕŗŗřřśśŝŝşşššţţťťŧŧũũūūŭŭůůűűųųŵŵŷŷźźżżžžаяёё",
+	"idnTables": {
+		"cyrl": "--09аяёё",
+		"latn": "--09azßöøÿāāăăąąććĉĉċċččďďđđēēĕĕėėęęěěĝĝğğġġģģĥĥħħĩĩīīĭĭįįııĵĵķĸĺĺļļľľłłńńņņňňŋŋōōŏŏőőœœŕŕŗŗřřśśŝŝşşššţţťťŧŧũũūūŭŭůůűűųųŵŵŷŷźźżżžž"
+	},
 	"idnTableURLs": {
 		"cyrl": "https://www.iana.org/domains/idn-tables/tables/berlin_cyrl_1.txt",
 		"latn": "https://www.iana.org/domains/idn-tables/tables/berlin_latn_1.txt"

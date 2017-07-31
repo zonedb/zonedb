@@ -19,7 +19,9 @@
 	"codePoints": "--09аяёё",
 	"idnTables": {
 		"bg": "--09аъььюя",
-		"ru": "--09аяёё"
+		"bg-bg": "--09аъььюя",
+		"ru": "--09аяёё",
+		"ru-bg": "--09аяёё"
 	},
 	"idnTableURLs": {
 		"bg": "https://www.iana.org/domains/idn-tables/tables/bg_bg-bg_1.0.html",

@@ -12,6 +12,9 @@
 		"g.ext.nic.fr"
 	],
 	"codePoints": "--09az",
+	"idnTables": {
+		"latn": ""
+	},
 	"idnTableURLs": {
 		"latn": "https://www.iana.org/domains/idn-tables/tables/aquarelle_latn_1.txt"
 	}
