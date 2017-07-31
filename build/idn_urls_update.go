@@ -8,7 +8,6 @@ import (
 	"sync/atomic"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/wsxiaoys/terminal/color"
 )
 
 const (
@@ -57,24 +56,24 @@ func FetchIDNURLs(zones map[string]*Zone) error {
 			if forLabel == "" {
 				forLabel = zone
 			}
-			color.Fprintf(os.Stderr, "@{r}FetchIDNLists: missing href for %q\n", forLabel)
+			Trace("@{r}FetchIDNLists: missing href for %q\n", forLabel)
 			return
 		}
 		u, err := baseURL.Parse(partURL)
 		if err != nil {
-			color.Fprintf(os.Stderr, "@{r}FetchIDNLists: failed to parse %q for %q\n", partURL, forLabel)
+			Trace("@{r}FetchIDNLists: failed to parse %q for %q\n", partURL, forLabel)
 			return
 		}
 
 		// At this point, "zone" looks like ".<tld>" and u should have u.String() which is an absolute working URL
 		// The partURL's last component, after directory-separator, looks like "<tld>_<languagetag>_<version.info>.txt"
 		if zone[0] != '.' {
-			color.Fprintf(os.Stderr, "@{r}FetchIDNLists: bad zone %q\n", zone)
+			Trace("@{r}FetchIDNLists: bad zone %q\n", zone)
 			return
 		}
 		zone = zone[1:]
 		if _, have := zones[zone]; !have {
-			color.Fprintf(os.Stderr, "@{r}FetchIDNLists: unrecognized zone %q\n", zone)
+			Trace("@{r}FetchIDNLists: unrecognized zone %q\n", zone)
 			return
 		}
 		if zones[zone].IDNTableURLs == nil {
@@ -83,14 +82,14 @@ func FetchIDNURLs(zones map[string]*Zone) error {
 
 		language := languageFromURL(partURL)
 		if language == "" {
-			color.Fprintf(os.Stderr, "@{r}FetchIDNLists: for zone %q unable to extract language from %q\n", zone, partURL)
+			Trace("@{r}FetchIDNLists: for zone %q unable to extract language from %q\n", zone, partURL)
 			return
 		}
 
 		zones[zone].IDNTableURLs[language] = u.String()
 		atomic.AddUint64(&extractedCount, 1)
 	})
-	color.Fprintf(os.Stderr, "@{.}FetchIDNLists: saw %d matches, extracted %d entries\n", matchCount, extractedCount)
+	Trace("@{.}FetchIDNLists: saw %d matches, extracted %d entries\n", matchCount, extractedCount)
 	if extractedCount == 0 {
 		return errors.New("failed to extract any URLs from IANA index page, HTML change?")
 	}

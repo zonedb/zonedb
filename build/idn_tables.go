@@ -3,6 +3,8 @@ package build
 import (
 	"bufio"
 	"bytes"
+	"errors"
+	"fmt"
 	"io"
 	"strconv"
 	"strings"
@@ -19,14 +21,7 @@ func FetchIDNTables(zones map[string]*Zone) error {
 			continue
 		}
 		for lang, url := range z.IDNTableURLs {
-			res, err := Fetch(url)
-			if err != nil {
-				LogWarning(err)
-				continue
-			}
-			defer res.Body.Close()
-
-			table, err := ProcessIDNTable(res.Body, strings.HasSuffix(url, ".html"))
+			table, err := cachedFetchProcessIDNTable(url)
 			if err != nil {
 				LogWarning(err)
 				continue
@@ -40,10 +35,43 @@ func FetchIDNTables(zones map[string]*Zone) error {
 		}
 		z.CodePoints.Compress()
 	}
+	Trace("@{.}FetchIDNTables: updated %d zones from %d distinct codetable URLs\n", len(zones), len(cacheURLtoCodeTable))
 	return nil
 }
 
-func ProcessIDNTable(data io.Reader, isHTML bool) (*CodeTable, error) {
+// If the value stored is nil, then we failed to parse it once, don't re-fetch on errors
+var cacheURLtoCodeTable map[string]*CodeTable
+
+var ErrAlreadyFailedToParseOnce = errors.New("already failed to parse this URL once") // should this be a type with the URL in it?
+
+func init() {
+	cacheURLtoCodeTable = make(map[string]*CodeTable, 1000)
+}
+
+func cachedFetchProcessIDNTable(url string) (*CodeTable, error) {
+	if ct, ok := cacheURLtoCodeTable[url]; ok {
+		if ct == nil {
+			return nil, ErrAlreadyFailedToParseOnce
+		}
+		return ct.Dup(), nil
+	}
+
+	res, err := Fetch(url)
+	if err != nil {
+		cacheURLtoCodeTable[url] = nil
+		return nil, err
+	}
+	defer res.Body.Close()
+	table, err := ProcessIDNTable(res.Body, strings.HasSuffix(url, ".html"), url)
+	if err == nil {
+		cacheURLtoCodeTable[url] = table
+		return table.Dup(), nil
+	}
+	cacheURLtoCodeTable[url] = nil
+	return table, err
+}
+
+func ProcessIDNTable(data io.Reader, isHTML bool, label string) (*CodeTable, error) {
 	unicodePrefix := []byte("U+")
 	hexPrefix := []byte("0x")
 	dot := byte('.')
@@ -53,7 +81,7 @@ func ProcessIDNTable(data io.Reader, isHTML bool) (*CodeTable, error) {
 	if isHTML {
 		doc, err := goquery.NewDocumentFromReader(data)
 		if err != nil {
-			LogWarning(err)
+			LogWarningFor(err, label)
 			return nil, err
 		}
 		data = strings.NewReader(doc.FindMatcher(preMatcher).Text())
@@ -61,8 +89,10 @@ func ProcessIDNTable(data io.Reader, isHTML bool) (*CodeTable, error) {
 
 	scanner := bufio.NewScanner(data)
 	table := &CodeTable{}
+	lineNum := 0
 	for scanner.Scan() {
 		line := scanner.Bytes()
+		lineNum += 1
 
 		lineLen := len(line)
 		if lineLen < 6 {
@@ -94,19 +124,25 @@ func ProcessIDNTable(data io.Reader, isHTML bool) (*CodeTable, error) {
 
 			// Most are four chars long, but some are five.
 			firstHexLen := 4
+			if lackSpace(line, firstHexOffset+firstHexLen+1, label, lineNum) {
+				continue
+			}
 			if isHexByte(line[firstHexOffset+firstHexLen]) {
 				firstHexLen = 5
 			}
 
 			codePoint, err := strconv.ParseInt(string(line[firstHexOffset:firstHexOffset+firstHexLen]), 16, 32)
 			if err != nil {
-				LogWarning(err)
+				LogWarningForAt(err, label, lineNum)
 				continue
 			}
 			charRune := rune(codePoint)
 
 			append := true
 			// Handle U+####..U+#### ranges seen in some RFC 4290 tables
+			if lackSpace(line, firstHexOffset+firstHexLen+2, label, lineNum) {
+				continue
+			}
 			if line[firstHexOffset+firstHexLen+1] == dot {
 				secondOffset := firstHexOffset + firstHexLen + 2
 				matchedSecond := false
@@ -154,4 +190,12 @@ func isHexBytes(s []byte) bool {
 
 func isHexByte(c byte) bool {
 	return (c >= 48 && c <= 57) || (c >= 65 && c <= 70) || (c >= 97 && c <= 102)
+}
+
+func lackSpace(line []byte, need int, label string, lineNum int) bool {
+	if len(line) >= need {
+		return false
+	}
+	LogWarningForAt(fmt.Errorf("line too short, have %d need %d", len(line), need), label, lineNum)
+	return true
 }

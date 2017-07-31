@@ -29,6 +29,18 @@ func LogWarning(err error) {
 	color.Fprintf(os.Stderr, "@{y!}Warning:@{y} %s\n", err)
 }
 
+func LogWarningFor(err error, label string) {
+	color.Fprintf(os.Stderr, "@{y!}Warning:@{y} %s@{|}{@.} [%s]\n", err, label)
+}
+
+func LogWarningForAt(err error, label string, offset int) {
+	color.Fprintf(os.Stderr, "@{y!}Warning:@{y} %s@{|}@{.} [%s]@@%d\n", err, label, offset)
+}
+
+func Trace(spec string, args ...interface{}) {
+	color.Fprintf(os.Stderr, spec, args...)
+}
+
 // TLDs filters a zone set for top-level domains.
 func TLDs(zones map[string]*Zone) map[string]*Zone {
 	tlds := make(map[string]*Zone)

@@ -198,3 +198,12 @@ func IndexOrAppendRunes(haystack *[]rune, needle []rune) (int, int) {
 	}
 	return idx, idx + len(needle)
 }
+
+// Dup returns a copy of a CodeTable, hiding implementation details; it must
+// recurse as much as needed such that the original and the duplicate can be
+// independently modified.
+func (ct *CodeTable) Dup() *CodeTable {
+	d := make(CodeTable, len(*ct))
+	copy(d, *ct)
+	return &d
+}
