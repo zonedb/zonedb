@@ -124,10 +124,7 @@ func ProcessIDNTable(data io.Reader, isHTML bool, label string) (*CodeTable, err
 
 			// Most are four chars long, but some are five.
 			firstHexLen := 4
-			if lackSpace(line, firstHexOffset+firstHexLen+1, label, lineNum) {
-				continue
-			}
-			if isHexByte(line[firstHexOffset+firstHexLen]) {
+			if lineLen > firstHexOffset+firstHexLen && isHexByte(line[firstHexOffset+firstHexLen]) {
 				firstHexLen = 5
 			}
 
@@ -140,10 +137,7 @@ func ProcessIDNTable(data io.Reader, isHTML bool, label string) (*CodeTable, err
 
 			append := true
 			// Handle U+####..U+#### ranges seen in some RFC 4290 tables
-			if lackSpace(line, firstHexOffset+firstHexLen+2, label, lineNum) {
-				continue
-			}
-			if line[firstHexOffset+firstHexLen+1] == dot {
+			if lineLen >= 14 && line[firstHexOffset+firstHexLen+1] == dot {
 				secondOffset := firstHexOffset + firstHexLen + 2
 				matchedSecond := false
 				if prefixLen > 0 {
