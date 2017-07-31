@@ -93,6 +93,10 @@ func FetchIDNURLs(zones map[string]*Zone) error {
 	if extractedCount == 0 {
 		return errors.New("failed to extract any URLs from IANA index page, HTML change?")
 	}
+
+	// TODO: Do we want to _remove_ URLs if zone not found here?
+	//       How do we handle multiple sources of URLs if so?
+
 	return nil
 }
 
