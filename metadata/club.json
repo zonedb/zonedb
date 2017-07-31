@@ -12,6 +12,10 @@
 		"ns5.dns.nic.club",
 		"ns6.dns.nic.club"
 	],
+	"codePoints": "--09azááééííññóóúúüü",
+	"idnTables": {
+		"es": "--09azááééííññóóúúüü"
+	},
 	"idnTableURLs": {
 		"es": "https://www.iana.org/domains/idn-tables/tables/club_es_1.0.txt"
 	}

@@ -10,6 +10,10 @@
 		"b0.nic.संगठन",
 		"c0.nic.संगठन"
 	],
+	"codePoints": "ँःअऋऍऍएऑओनपरललवह़ृॅॅेॉो्क़फ़",
+	"idnTables": {
+		"hi": "ँःअऋऍऍएऑओनपरललवह़ृॅॅेॉो्क़फ़"
+	},
 	"idnTableURLs": {
 		"hi": "https://www.iana.org/domains/idn-tables/tables/xn--i1b6b1a6a2e_hi_1.txt"
 	}

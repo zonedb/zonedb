@@ -12,7 +12,10 @@
 		"e.dns.ripn.net",
 		"f.dns.ripn.net"
 	],
-	"codePoints": "--09az",
+	"codePoints": "--09azаяёё",
+	"idnTables": {
+		"ru-ru": "--09аяёё"
+	},
 	"idnTableURLs": {
 		"ru-ru": "https://www.iana.org/domains/idn-tables/tables/ru_ru-ru_1.0.html"
 	}

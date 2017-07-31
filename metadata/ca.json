@@ -12,7 +12,10 @@
 		"e.ca-servers.ca",
 		"j.ca-servers.ca"
 	],
-	"codePoints": "--09az",
+	"codePoints": "--09azààââæëîïôôùùûüÿÿœœ",
+	"idnTables": {
+		"fr": "ààââæëîïôôùùûüÿÿœœ"
+	},
 	"idnTableURLs": {
 		"fr": "https://www.iana.org/domains/idn-tables/tables/ca_fr_1.0.html"
 	}

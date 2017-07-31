@@ -15,7 +15,10 @@
 		"k.nic.rs",
 		"l.nic.rs"
 	],
-	"codePoints": "--09az",
+	"codePoints": "--09azććččđđššžž",
+	"idnTables": {
+		"sr": "--09azććččđđššžž"
+	},
 	"idnTableURLs": {
 		"sr": "https://www.iana.org/domains/idn-tables/tables/rs_sr_1.3.txt"
 	}

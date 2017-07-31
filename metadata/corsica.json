@@ -15,7 +15,10 @@
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
 	],
-	"codePoints": "--09az",
+	"codePoints": "--09azààââääæëîïôôùùûüÿÿœœ",
+	"idnTables": {
+		"latn": "--09azààââääæëîïôôùùûüÿÿœœ"
+	},
 	"idnTableURLs": {
 		"latn": "https://www.iana.org/domains/idn-tables/tables/corsica_latn_1.txt"
 	}

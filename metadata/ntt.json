@@ -12,6 +12,9 @@
 		"tld5.nic.ntt"
 	],
 	"codePoints": "--09az",
+	"idnTables": {
+		"ja": ""
+	},
 	"idnTableURLs": {
 		"ja": "https://www.iana.org/domains/idn-tables/tables/ntt_ja_1.0.txt"
 	}

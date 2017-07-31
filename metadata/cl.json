@@ -13,6 +13,10 @@
 		"sns-pb.isc.org",
 		"cl-ns.anycast.pch.net"
 	],
+	"codePoints": "--09azááééííññóóúúüü",
+	"idnTables": {
+		"latn": "--09azááééííññóóúúüü"
+	},
 	"idnTableURLs": {
 		"latn": "https://www.iana.org/domains/idn-tables/tables/cl_latn_1.0.html"
 	}

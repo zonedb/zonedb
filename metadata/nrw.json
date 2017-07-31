@@ -15,7 +15,10 @@
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
 	],
-	"codePoints": "--09az",
+	"codePoints": "--09azßßääööüü",
+	"idnTables": {
+		"de": "--09azßßääööüü"
+	},
 	"idnTableURLs": {
 		"de": "https://www.iana.org/domains/idn-tables/tables/nrw_de_1.0.txt"
 	}

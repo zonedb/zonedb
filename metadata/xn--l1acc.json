@@ -9,6 +9,9 @@
 		"ns2.idn.mn",
 		"ns3.idn.mn"
 	],
+	"idnTables": {
+		"mn": ""
+	},
 	"idnTableURLs": {
 		"mn": "https://www.iana.org/domains/idn-tables/tables/xn--l1acc_mn_1.0.html"
 	}

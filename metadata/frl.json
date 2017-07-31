@@ -15,7 +15,10 @@
 		"x.ns.nic.frl",
 		"y.ns.nic.frl"
 	],
-	"codePoints": "--09az",
+	"codePoints": "--09azàâääèïòôööùü",
+	"idnTables": {
+		"latn": "--09azàâääèïòôööùü"
+	},
 	"idnTableURLs": {
 		"latn": "https://www.iana.org/domains/idn-tables/tables/frl_latn_1.0.txt"
 	}

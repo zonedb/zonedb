@@ -13,7 +13,11 @@
 		"c0.nic.ngo",
 		"d0.nic.ngo"
 	],
-	"codePoints": "--09az",
+	"codePoints": "--09azäæééööøøüü",
+	"idnTables": {
+		"da": "--09azåæééøøüü",
+		"de": "--09azääööüü"
+	},
 	"idnTableURLs": {
 		"da": "https://www.iana.org/domains/idn-tables/tables/ngo_da_1.txt",
 		"de": "https://www.iana.org/domains/idn-tables/tables/ngo_de_1.txt"

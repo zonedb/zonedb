@@ -10,6 +10,10 @@
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
 	],
+	"codePoints": "--09ءغفي٠٩ٹٹپپچچڈڈڑڑڕڕژژڜڜڞڞڠڠڢڢڤڥڧکڮگڴڵںںڽھہہۆۇۊۊییێۏےے۰۹ݢݢ‌‌",
+	"idnTables": {
+		"arab": "--09ءغفي٠٩ٹٹپپچچڈڈڑڑڕڕژژڜڜڞڞڠڠڢڢڤڥڧکڮگڴڵںںڽھہہۆۇۊۊییێۏےے۰۹ݢݢ‌‌"
+	},
 	"idnTableURLs": {
 		"arab": "https://www.iana.org/domains/idn-tables/tables/xn--mgbab2bd_arab_1.3.txt"
 	}

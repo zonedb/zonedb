@@ -11,6 +11,11 @@
 		"ns-tld4.charlestonroadregistry.com",
 		"ns-tld5.charlestonroadregistry.com"
 	],
+	"codePoints": "--09azàöøÿāāăăąąććċċččďďđđēēėėęęěěğğġġģģħħīīįįııķķĺĺļļľľłłńńņņňňŋŋōōőőœœŕŕŗŗřřśśşşššţţťťŧŧūūůůűűųųŵŵŷŷźźżżžžǎǎǐǐǒǒǔǔǥǥǧǧǩǩǯǯəəʒʒẁẁẃẃẅẅỳỳ",
+	"idnTables": {
+		"jpan": "",
+		"latn": "--09azàöøÿāāăăąąććċċččďďđđēēėėęęěěğğġġģģħħīīįįııķķĺĺļļľľłłńńņņňňŋŋōōőőœœŕŕŗŗřřśśşşššţţťťŧŧūūůůűűųųŵŵŷŷźźżżžžǎǎǐǐǒǒǔǔǥǥǧǧǩǩǯǯəəʒʒẁẁẃẃẅẅỳỳ"
+	},
 	"idnTableURLs": {
 		"jpan": "https://www.iana.org/domains/idn-tables/tables/xn--q9jyb4c_jpan_1.0.txt",
 		"latn": "https://www.iana.org/domains/idn-tables/tables/xn--q9jyb4c_latn_1.0.txt"

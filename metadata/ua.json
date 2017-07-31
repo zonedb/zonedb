@@ -14,7 +14,10 @@
 		"pch.ns.ua",
 		"ripe.ns.ua"
 	],
-	"codePoints": "--09az",
+	"codePoints": "--09azʼʼаџґґӂӂ",
+	"idnTables": {
+		"cyrl": "ʼʼаџґґӂӂ"
+	},
 	"idnTableURLs": {
 		"cyrl": "https://www.iana.org/domains/idn-tables/tables/ua_cyrl_1.2.txt"
 	}

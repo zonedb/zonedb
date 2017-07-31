@@ -20,6 +20,9 @@
 		"d.ns.nic.law"
 	],
 	"codePoints": "--09az",
+	"idnTables": {
+		"zh": ""
+	},
 	"idnTableURLs": {
 		"zh": "https://www.iana.org/domains/idn-tables/tables/law_zh_1.0.txt"
 	}

@@ -14,6 +14,10 @@
 		"ns6.dns.net.nz",
 		"ns7.dns.net.nz"
 	],
+	"codePoints": "--09azāāēēīīōōūū",
+	"idnTables": {
+		"latn": "--09azāāēēīīōōūū"
+	},
 	"idnTableURLs": {
 		"latn": "https://www.iana.org/domains/idn-tables/tables/nz_latn_1.0.html"
 	}

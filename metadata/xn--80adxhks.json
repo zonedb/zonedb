@@ -20,6 +20,9 @@
 		"c.dns.flexireg.org",
 		"a.dns.flexireg.ru"
 	],
+	"idnTables": {
+		"ru": ""
+	},
 	"idnTableURLs": {
 		"ru": "https://www.iana.org/domains/idn-tables/tables/xn--80adxhks_ru_1.0.txt"
 	}

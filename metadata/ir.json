@@ -11,6 +11,10 @@
 		"ns5.univie.ac.at",
 		"ir.cctld.authdns.ripe.net"
 	],
+	"codePoints": "--09ءؤئغفويي٠٩پپچچژژککگگیی۰۰‌‍",
+	"idnTables": {
+		"fa": "--09ءؤئغفويي٠٩پپچچژژککگگیی۰۰‌‍"
+	},
 	"idnTableURLs": {
 		"fa": "https://www.iana.org/domains/idn-tables/tables/ir_fa_1.0.html"
 	}

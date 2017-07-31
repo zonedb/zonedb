@@ -24,6 +24,9 @@
 		"m.gmoregistry.net",
 		"n.gmoregistry.net"
 	],
+	"idnTables": {
+		"ja": ""
+	},
 	"idnTableURLs": {
 		"ja": "https://www.iana.org/domains/idn-tables/tables/nagoya_ja_1.0.txt"
 	}

@@ -10,6 +10,16 @@
 		"b0.nic.орг",
 		"c0.nic.орг"
 	],
+	"codePoints": "--09аяёђєќўџґґ",
+	"idnTables": {
+		"be": "--09азйшыяёёііўў",
+		"bg": "--09аъььюя",
+		"bs": "--09аикшђђјћџџ",
+		"mk": "--09аикшђђѕѕјњќќџџґґ",
+		"ru": "--09аяёё",
+		"sr": "--09аикшђђјћџџ",
+		"uk": "--09аъььюяєєіїґґ"
+	},
 	"idnTableURLs": {
 		"be": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_be_1.txt",
 		"bg": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_bg_1.txt",

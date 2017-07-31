@@ -16,7 +16,10 @@
 		"g.ext.nic.fr",
 		"h.ext.nic.fr"
 	],
-	"codePoints": "--09az",
+	"codePoints": "--09azààââääæëîïôôùùûüÿÿœœ",
+	"idnTables": {
+		"fr": "--09azààââääæëîïôôùùûüÿÿœœ"
+	},
 	"idnTableURLs": {
 		"fr": "https://www.iana.org/domains/idn-tables/tables/paris_fr_1.txt"
 	}

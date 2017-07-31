@@ -14,6 +14,10 @@
 		"b0.nic.ski",
 		"c0.nic.ski"
 	],
+	"codePoints": "--09azääööüü",
+	"idnTables": {
+		"de": "--09azääööüü"
+	},
 	"idnTableURLs": {
 		"de": "https://www.iana.org/domains/idn-tables/tables/ski_de_1.0.txt"
 	}

@@ -20,6 +20,10 @@
 		"cat.pch.net",
 		"sns-pb.isc.org"
 	],
+	"codePoints": "--09az··ààçéííïïòóúúüü",
+	"idnTables": {
+		"ca": "--09az··ààçéííïïòóúúüü"
+	},
 	"idnTableURLs": {
 		"ca": "https://www.iana.org/domains/idn-tables/tables/cat_ca_1.0.html"
 	}

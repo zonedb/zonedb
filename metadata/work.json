@@ -20,6 +20,9 @@
 		"d.ns.nic.work"
 	],
 	"codePoints": "--09az",
+	"idnTables": {
+		"zh": ""
+	},
 	"idnTableURLs": {
 		"zh": "https://www.iana.org/domains/idn-tables/tables/work_zh_1.0.txt"
 	}

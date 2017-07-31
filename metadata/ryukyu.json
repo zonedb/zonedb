@@ -26,6 +26,9 @@
 		"n.gmoregistry.net"
 	],
 	"codePoints": "--09az",
+	"idnTables": {
+		"ja": ""
+	},
 	"idnTableURLs": {
 		"ja": "https://www.iana.org/domains/idn-tables/tables/ryukyu_ja_1.0.txt"
 	}

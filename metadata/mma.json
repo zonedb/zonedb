@@ -11,7 +11,10 @@
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
 	],
-	"codePoints": "--09az",
+	"codePoints": "--09azßïñöùýÿÿœœ",
+	"idnTables": {
+		"latn": "--09azßïñöùýÿÿœœ"
+	},
 	"idnTableURLs": {
 		"latn": "https://www.iana.org/domains/idn-tables/tables/mma_latn_1.txt"
 	}

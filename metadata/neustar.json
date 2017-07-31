@@ -15,7 +15,10 @@
 		"ns6.dns.nic.neustar",
 		"ns7.dns.nic.neustar"
 	],
-	"codePoints": "--09az",
+	"codePoints": "--09azááééííññóóúúüü",
+	"idnTables": {
+		"es": "--09azááééííññóóúúüü"
+	},
 	"idnTableURLs": {
 		"es": "https://www.iana.org/domains/idn-tables/tables/neustar_es_1.0.txt"
 	}
