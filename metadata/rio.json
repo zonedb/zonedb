@@ -18,9 +18,5 @@
 		"d.dns.br",
 		"e.dns.br",
 		"f.dns.br"
-	],
-	"codePoints": "--09az",
-	"idnTableURLs": {
-		"pt": "https://www.iana.org/domains/idn-tables/tables/rio_pt_1.xml"
-	}
+	]
 }
