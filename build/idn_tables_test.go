@@ -902,7 +902,7 @@ U+0451 CYRILLIC SMALL LETTER IO
 }
 
 func CheckTable(t *testing.T, data string, expected string, isHTML bool) {
-	table, err := ProcessIDNTable(strings.NewReader(data), isHTML)
+	table, err := ProcessIDNTable(strings.NewReader(data), isHTML, "testing")
 	if err != nil {
 		t.Errorf(`Error processing table: %s`, err)
 	}
