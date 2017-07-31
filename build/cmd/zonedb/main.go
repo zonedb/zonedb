@@ -45,6 +45,7 @@ func main() {
 	updateWhois := flag.Bool("update-whois", false, "query whois-servers.net for whois servers")
 	updateIANA := flag.Bool("update-iana", false, "query IANA for metadata")
 	updateIDNTables := flag.Bool("update-idn", false, "fetch IDN tables")
+	updateIDNURLs := flag.Bool("update-idn-urls", false, "fetch list of URLs for IDN for each zone")
 	updateAll := flag.Bool("update", false, "update all (root zone, whois, IANA data, IDN tables)")
 
 	// Write operations
@@ -176,7 +177,19 @@ func main() {
 		}
 	}
 
-	if *updateIDNTables || *updateAll {
+	// Explicitly _not_ under updateAll at this time, until we're confident this
+	// won't get us blacklisted on IANA's web-servers
+	if *updateIDNURLs {
+		err := build.FetchIDNURLs(workZones)
+		if err != nil {
+			errs = append(errs, err)
+			build.LogError(err)
+		}
+	}
+
+	// Explicitly _not_ under updateAll at this time, until we're confident this
+	// won't get us blacklisted on IANA's web-servers
+	if *updateIDNTables {
 		err := build.FetchIDNTables(workZones)
 		if err != nil {
 			errs = append(errs, err)
