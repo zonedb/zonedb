@@ -16,9 +16,12 @@ import (
 var preMatcher = cascadia.MustCompile("body > pre")
 
 func FetchIDNTables(zones map[string]*Zone) error {
-	for _, z := range zones {
+	for zoneName, z := range zones {
 		if len(z.IDNTableURLs) < 1 {
 			continue
+		}
+		if Verbose {
+			Trace("FetchIDNTables(%s): have %d URLs\n", zoneName, len(z.IDNTableURLs))
 		}
 		for lang, url := range z.IDNTableURLs {
 			table, err := cachedFetchProcessIDNTable(url)
@@ -45,7 +48,11 @@ var cacheURLtoCodeTable map[string]*CodeTable
 var ErrAlreadyFailedToParseOnce = errors.New("already failed to parse this URL once") // should this be a type with the URL in it?
 
 func init() {
-	cacheURLtoCodeTable = make(map[string]*CodeTable, 1000)
+	// This count is a guess; we'd need to do a complete run through all zones
+	// at once to get a better approximation.  It's close enough to at least
+	// pre-size in the ballpark.
+	// All zones starting m-w were "1773 zones from 920 distinct codetable URLs".
+	cacheURLtoCodeTable = make(map[string]*CodeTable, 3000)
 }
 
 func cachedFetchProcessIDNTable(url string) (*CodeTable, error) {
@@ -56,6 +63,9 @@ func cachedFetchProcessIDNTable(url string) (*CodeTable, error) {
 		return ct.Dup(), nil
 	}
 
+	if Verbose {
+		Trace("fetching %q\n", url)
+	}
 	res, err := Fetch(url)
 	if err != nil {
 		cacheURLtoCodeTable[url] = nil

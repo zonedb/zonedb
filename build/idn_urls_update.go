@@ -65,6 +65,10 @@ func FetchIDNURLs(zones map[string]*Zone) error {
 			return
 		}
 
+		if strings.HasSuffix(partURL, ".xml") {
+			Trace("@{y}FetchIDNLists: unhandled XML URL for %q: %q\n", forLabel, u.String())
+		}
+
 		// At this point, "zone" looks like ".<tld>" and u should have u.String() which is an absolute working URL
 		// The partURL's last component, after directory-separator, looks like "<tld>_<languagetag>_<version.info>.txt"
 		if zone[0] != '.' {

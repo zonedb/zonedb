@@ -7,9 +7,16 @@ import (
 	"sync"
 )
 
+const httpUserAgent = "zonedb/1.0 (https://github.com/zonedb/zonedb)"
+
 // Fetch fetches a URL.
 func Fetch(u string) (*http.Response, error) {
-	res, err := http.Get(u)
+	req, err := http.NewRequest("GET", u, nil)
+	if err != nil {
+		return nil, err
+	}
+	req.Header.Set("User-Agent", httpUserAgent)
+	res, err := http.DefaultClient.Do(req)
 	if err != nil {
 		return nil, err
 	}
