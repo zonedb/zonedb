@@ -3817,7 +3817,7 @@ var _y = [4366]Zone{
 	{"edu.ru", &_z[1196], nil, _c[0:6], nil, NS{"ns2.free.net", "ns.informika.ru", "ns2.informika.ru", "ns.msu.ru", "ns.runnet.ru"}, nil, "whois.informika.ru", "", "", 0x0},
 	{"gov.ru", &_z[1196], nil, _c[0:6], nil, NS{"ns.gov.ru", "ns1.gov.ru", "ns2.gov.ru", "ns.relarn.ru", "acl.dns.ripn.net", "bcl.dns.ripn.net", "ccl.dns.ripn.net"}, nil, "", "", "", 0x0},
 	{"int.ru", &_z[1196], nil, _c[0:6], nil, NS{"ns.macomnet.ru", "ns2.macomnet.ru", "ns3.macomnet.ru"}, nil, "", "", "", 0x0},
-	{"mil.ru", &_z[1196], nil, _c[0:6], nil, NS{"ns1.mil.ru", "ns2.mil.ru", "ns4.mil.ru"}, nil, "", "", "", 0x0},
+	{"mil.ru", &_z[1196], nil, _c[0:6], nil, NS{"ns1.mil.ru", "ns2.mil.ru", "ns4.mil.ru", "expirepages-kiae-1.nic.ru", "expirepages-kiae-2.nic.ru"}, nil, "", "", "", 0x0},
 	{"msk.ru", &_z[1196], nil, _c[0:6], nil, NS{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, nil, "", "", "", 0x0},
 	{"net.ru", &_z[1196], nil, _c[0:6], nil, NS{"a.dns.ripn.net", "b.dns.ripn.net", "d.dns.ripn.net", "e.dns.ripn.net", "f.dns.ripn.net"}, nil, "", "", "", 0x0},
 	{"org.ru", &_z[1196], nil, _c[0:6], nil, NS{"a.dns.ripn.net", "b.dns.ripn.net", "d.dns.ripn.net", "e.dns.ripn.net", "f.dns.ripn.net"}, nil, "", "", "", 0x0},

@@ -3,7 +3,9 @@
 	"nameServers": [
 		"ns1.mil.ru",
 		"ns2.mil.ru",
-		"ns4.mil.ru"
+		"ns4.mil.ru",
+		"expirepages-kiae-1.nic.ru",
+		"expirepages-kiae-2.nic.ru"
 	],
 	"codePoints": "--09az"
 }
