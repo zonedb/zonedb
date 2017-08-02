@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.alibaba",
 	"nameServers": [
 		"a0.nic.alibaba",
 		"a2.nic.alibaba",
