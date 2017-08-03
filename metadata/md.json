@@ -8,7 +8,9 @@
 	"nameServers": [
 		"ns-int.dns.md",
 		"nsb.dns.md",
+		"nsca.dns.md",
 		"nsf.dns.md",
+		"nsfr.dns.md",
 		"ns-ext.isc.org",
 		"dns-md.rotld.ro",
 		"md.cctld.authdns.ripe.net"

@@ -2,6 +2,7 @@
 	"domain": "pro.cy",
 	"nameServers": [
 		"cynic.dns.cy",
+		"cynic4.dns.cy",
 		"sec3.apnic.net",
 		"ns1.ucy.ac.cy",
 		"ns2.ucy.ac.cy",
