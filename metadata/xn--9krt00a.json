@@ -1,7 +1,7 @@
 {
 	"domain": "微博",
 	"infoURL": "http://newgtlds.icann.org/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.微博",
 	"nameServers": [
 		"a0.nic.微博",
 		"a2.nic.微博",
