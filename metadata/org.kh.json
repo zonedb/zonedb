@@ -1,6 +1,7 @@
 {
 	"domain": "org.kh",
 	"nameServers": [
+		"anytld.apnic.net",
 		"sec3.apnic.net",
 		"ns.camnet.com.kh",
 		"dns1.online.com.kh",

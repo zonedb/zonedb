@@ -7,9 +7,13 @@
 	],
 	"whoisServer": "whois.ax",
 	"nameServers": [
+		"ns3.alcom.fi",
+		"ns4.alcom.fi",
 		"ns1.aalnet.net",
 		"ns2.aalnet.net",
-		"ns3.aalnet.net"
+		"ns3.aalnet.net",
+		"ns1.aland.net",
+		"ns2.aland.net"
 	],
 	"codePoints": "--09az"
 }
