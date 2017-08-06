@@ -6,6 +6,7 @@
 	],
 	"whoisServer": "vunic.vu",
 	"nameServers": [
+		"rip.psg.com",
 		"cctld-vu.orange.mu",
 		"anytld.apnic.net",
 		"ns1-cctld.vunic.vu",
