@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.hdfcbank",
 	"nameServers": [
 		"a0.nic.hdfcbank",
 		"a2.nic.hdfcbank",
