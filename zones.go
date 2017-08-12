@@ -1979,7 +1979,7 @@ var _y = [4366]Zone{
 	{"net.ba", &_z[115], nil, _c[0:6], nil, NS{"ba.anycastdns.cz", "bosna.utic.net.ba", "sava.utic.net.ba", "una.utic.net.ba"}, nil, "", "", "", 0x0},
 	{"org.ba", &_z[115], nil, _c[0:6], nil, NS{"ba.anycastdns.cz", "bosna.utic.net.ba", "sava.utic.net.ba", "una.utic.net.ba"}, nil, "", "", "", 0x0},
 	{"rs.ba", &_z[115], nil, _c[0:6], nil, NS{"a.ns.rs.ba", "b.ns.rs.ba", "c.ns.rs.ba"}, nil, "", "", "", 0x0},
-	{"unbi.ba", &_z[115], nil, _c[0:6], nil, NS{"bosna.utic.net.ba", "linhost11.utic.net.ba", "linhost13.utic.net.ba", "sava.utic.net.ba"}, nil, "", "", "", 0x0},
+	{"unbi.ba", &_z[115], nil, _c[0:6], nil, NS{"bosna.utic.net.ba", "linhost01.utic.net.ba", "linhost11.utic.net.ba", "linhost13.utic.net.ba", "sava.utic.net.ba"}, nil, "", "", "", 0x0},
 	{"unmo.ba", &_z[115], nil, _c[0:6], nil, NS{"pdc00.unmo.ba", "pdc2016.unmo.ba", "web02.unmo.ba", "web2016.unmo.ba"}, nil, "", "", "", 0x0},
 	{"unsa.ba", &_z[115], nil, _c[0:6], nil, NS{"ba.anycastdns.cz", "bosna.utic.net.ba", "sava.utic.net.ba", "una.utic.net.ba"}, nil, "", "", "", 0x0},
 	{"untz.ba", &_z[115], nil, _c[0:6], nil, NS{"gradina.untz.ba", "slatina.untz.ba"}, nil, "", "", "", 0x0},
