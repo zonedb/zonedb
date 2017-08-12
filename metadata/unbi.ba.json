@@ -2,6 +2,7 @@
 	"domain": "unbi.ba",
 	"nameServers": [
 		"bosna.utic.net.ba",
+		"linhost01.utic.net.ba",
 		"linhost11.utic.net.ba",
 		"linhost13.utic.net.ba",
 		"sava.utic.net.ba"
