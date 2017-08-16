@@ -1,6 +1,7 @@
 {
 	"domain": "club.tw",
 	"nameServers": [
+		"h.dns.tw",
 		"i.dns.tw",
 		"a.twnic.net.tw",
 		"b.twnic.net.tw",
