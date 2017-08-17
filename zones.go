@@ -71,7 +71,7 @@ var TagValues = map[string]Tags{
 
 // _c stores Unicode code point ranges allowed in each Zone by the registry.
 // Rune values alternate low, high.
-var _c = [24]rune{
+var _c = [48]rune{
 	'-', '-',
 	'0', '9',
 	'a', 'z',
@@ -84,6 +84,18 @@ var _c = [24]rune{
 	'а', 'ъ',
 	'ь', 'ь',
 	'ю', 'я',
+	'-', '-',
+	'0', '9',
+	'a', 'z',
+	'à', 'â',
+	'ä', 'ä',
+	'è', 'ï',
+	'ò', 'ô',
+	'ö', 'ö',
+	'ù', 'ý',
+	'ÿ', 'ÿ',
+	'ŷ', 'ŷ',
+	'ỳ', 'ỳ',
 }
 
 // Zones is a slice of all Zones in the database.
@@ -453,7 +465,7 @@ var _y = [4366]Zone{
 	{"cw", nil, _z[2237:2239], _c[0:6], nil, NS{"kadushi.curinfo.cw", "ns01-server.curinfo.cw", "engine0.una.cw", "engine2.una.cw", "ns1.uoc.cw", "ns0.ja.net", "cw.cctld.authdns.ripe.net"}, nil, "", "", "http://en.wikipedia.org/wiki/.cw", 0xa0},
 	{"cx", nil, _z[2239:2240], _c[0:6], nil, NS{"ns.anycast.nic.cx", "a.cx.dyntld.net", "b.cx.dyntld.net"}, nil, "whois.nic.cx", "", "", 0xa0},
 	{"cy", nil, _z[2240:2253], _c[0:6], nil, NS{"cynic.dns.cy", "sec3.apnic.net", "ns02.savvis.net", "ns1.ucy.ac.cy", "ns2.ucy.ac.cy", "ns3.ucy.ac.cy", "estia.ics.forth.gr", "cy-ns.anycast.pch.net"}, nil, "", "http://www.nic.cy/nslookup/online_database.php", "", 0xa8},
-	{"cymru", nil, nil, _c[0:6], nil, NS{"dns1.nic.cymru", "dns2.nic.cymru", "dns3.nic.cymru", "dns4.nic.cymru", "dnsa.nic.cymru", "dnsb.nic.cymru", "dnsc.nic.cymru", "dnsd.nic.cymru", "ns1.nic.uk", "ns2.nic.uk", "ns4.nic.uk", "ns5.nic.uk", "ns6.nic.uk", "ns7.nic.uk"}, L{"GB-WLS"}, "whois.nic.cymru", "", "http://newgtlds.icann.org/", 0x440},
+	{"cymru", nil, nil, _c[24:48], nil, NS{"dns1.nic.cymru", "dns2.nic.cymru", "dns3.nic.cymru", "dns4.nic.cymru", "dnsa.nic.cymru", "dnsb.nic.cymru", "dnsc.nic.cymru", "dnsd.nic.cymru", "ns1.nic.uk", "ns2.nic.uk", "ns4.nic.uk", "ns5.nic.uk", "ns6.nic.uk", "ns7.nic.uk"}, L{"GB-WLS"}, "whois.nic.cymru", "", "http://newgtlds.icann.org/", 0x440},
 	{"cyou", nil, nil, _c[0:6], nil, NS{"a0.nic.cyou", "a2.nic.cyou", "b0.nic.cyou", "c0.nic.cyou"}, nil, "whois.nic.cyou", "", "http://newgtlds.icann.org/", 0x40},
 	{"cz", nil, _z[2253:2254], nil, nil, NS{"a.ns.nic.cz", "b.ns.nic.cz", "c.ns.nic.cz", "d.ns.nic.cz"}, nil, "whois.nic.cz", "", "http://www.pir.org/", 0xa0},
 	{"dabur", nil, nil, _c[0:6], nil, NS{"a0.nic.dabur", "a2.nic.dabur", "b0.nic.dabur", "c0.nic.dabur"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x40},
