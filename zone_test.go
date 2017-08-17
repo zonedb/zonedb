@@ -179,6 +179,31 @@ func TestZone_IsValidDomain(t *testing.T) {
 	}
 }
 
+func TestZone_isSubdomain(t *testing.T) {
+	tests := []struct {
+		zone   string
+		domain string
+		want   bool
+	}{
+		{zone: "com", domain: "com", want: false},
+		{zone: "com", domain: ".com", want: false},
+		{zone: "com", domain: "com.", want: false},
+		{zone: "net", domain: "test.com", want: false},
+		{zone: "net", domain: "test.com.net", want: true},
+		{zone: "com", domain: "test.com", want: true},
+		{zone: "com", domain: "tést.com", want: true},
+		{zone: "cymru", domain: "shéllo1.cymru", want: true},
+	}
+	for _, tt := range tests {
+		t.Run(tt.domain, func(t *testing.T) {
+			got := ZoneMap[tt.zone].isSubdomain(tt.domain)
+			if got != tt.want {
+				t.Errorf(`Expected Zones[%q].isSubdomain(%q) == %t, got %t`, tt.zone, tt.domain, tt.want, got)
+			}
+		})
+	}
+}
+
 func TestZone_IDNTable(t *testing.T) {
 	data := []idnTest{
 		{Zone: "jobs", Domain: "test.jobs", ValidTables: []string{""}},
