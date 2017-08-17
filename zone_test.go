@@ -170,6 +170,8 @@ func TestZone_IsValidDomain(t *testing.T) {
 		{Zone: "jobs", Domain: "test.com", Valid: false},
 		{Zone: "com", Domain: "test.com", Valid: true},
 		{Zone: "com", Domain: "tést.com", Valid: true},
+		{Zone: "cymru", Domain: "héllo.cymru", Valid: true},
+		{Zone: "cymru", Domain: "xn--ninja.cymru", Valid: false},
 	}
 	for _, d := range data {
 		res := ZoneMap[d.Zone].IsValidDomain(d.Domain)
@@ -192,7 +194,7 @@ func TestZone_isSubdomain(t *testing.T) {
 		{zone: "net", domain: "test.com.net", want: true},
 		{zone: "com", domain: "test.com", want: true},
 		{zone: "com", domain: "tést.com", want: true},
-		{zone: "cymru", domain: "shéllo1.cymru", want: true},
+		{zone: "cymru", domain: "héllo.cymru", want: true},
 	}
 	for _, tt := range tests {
 		t.Run(tt.domain, func(t *testing.T) {
