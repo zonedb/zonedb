@@ -120,8 +120,8 @@ func (z *Zone) IsInRootZone() bool {
 	return z.IsTLD() && z.IsDelegated()
 }
 
-// Checks to see if a domain is valid according to character set restriction
-// on the zone.
+// IsValidDomain determines if a domain is valid according to character
+// set restriction (if any) on the zone.
 // Input must be normalized by the client (lowercase, ASCII-encoded).
 func (z *Zone) IsValidDomain(domain string) bool {
 	if !z.isSubdomain(domain) {
@@ -134,9 +134,10 @@ func (z *Zone) IsValidDomain(domain string) bool {
 	return labelsInCodePoints(z.unicodeLabels(domain), z.CodePoints)
 }
 
+// ErrNotSubdomain is returned when a domain is not a member of the zone.
 var ErrNotSubdomain = errors.New("domain is not a member of the zone")
 
-// Return the IDN table language the domain matches. Returns an empty string
+// IDNTable returns the IDN table language the domain matches. Returns an empty string
 // if no IDN tables are defined for the zone or if the domain is not an IDN.
 // Input must be normalized by the client (lowercase, ASCII-encoded).
 func (z *Zone) IDNTable(domain string) (lang string, err error) {
