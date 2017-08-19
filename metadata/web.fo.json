@@ -1,6 +1,8 @@
 {
 	"domain": "web.fo",
 	"nameServers": [
+		"ns1.sedoparking.com",
+		"ns2.sedoparking.com",
 		"us1.rootdomain.net",
 		"us2.rootdomain.net"
 	],
