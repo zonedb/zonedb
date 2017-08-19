@@ -2483,7 +2483,7 @@ var _y = [4366]Zone{
 	{"org.fo", &_z[508], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"telenet.fo", &_z[508], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"telnet.fo", &_z[508], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
-	{"web.fo", &_z[508], nil, _c[0:6], nil, NS{"us1.rootdomain.net", "us2.rootdomain.net"}, nil, "", "", "", 0x0},
+	{"web.fo", &_z[508], nil, _c[0:6], nil, NS{"ns1.sedoparking.com", "ns2.sedoparking.com", "us1.rootdomain.net", "us2.rootdomain.net"}, nil, "", "", "", 0x0},
 	{"www.fo", &_z[508], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"aeroport.fr", &_z[519], nil, nil, nil, NS{"ns1.smallregistry.net", "ns2.smallregistry.net", "ns3.smallregistry.net", "ns4.smallregistry.net"}, nil, "whois.smallregistry.net", "", "", 0x0},
 	{"asso.fr", &_z[519], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
