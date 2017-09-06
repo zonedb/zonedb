@@ -4188,7 +4188,7 @@ var _y = [4366]Zone{
 	{"lviv.ua", &_z[1441], nil, _c[0:6], nil, NS{"ns2.uar.net", "sigma.uar.net", "ns5.univie.ac.at", "arwena.nask.waw.pl", "sigma.icmp.lviv.ua", "big.litech.lviv.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
 	{"mk.ua", &_z[1441], nil, _c[0:6], nil, NS{"ba1.ns.ua", "nix.ns.ua", "ns.mk.farlep.net", "ns1.mk.farlep.net", "epp.ns.od.ua", "ho1.ns.od.ua", "ns.tm.odessa.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
 	{"net.ua", &_z[1441], nil, _c[0:6], nil, NS{"sns-pb.isc.org", "ns.dn.ua", "ns.kh.ua", "ho1.net.ua", "ns.net.ua", "ba1.ns.ua", "nix.ns.ua", "ns.sm.ua", "ns.zp.ua"}, nil, "", "", "", 0x0},
-	{"nikolaev.ua", &_z[1441], nil, _c[0:6], nil, NS{"ba1.ns.ua", "nix.ns.ua", "ns.mk.farlep.net", "ns1.mk.farlep.net", "epp.ns.od.ua", "ns.tm.odessa.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
+	{"nikolaev.ua", &_z[1441], nil, _c[0:6], nil, NS{"ba1.ns.ua", "nix.ns.ua", "ns.mk.farlep.net", "ns1.mk.farlep.net", "epp.ns.od.ua", "ho1.ns.od.ua", "ns.tm.odessa.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
 	{"od.ua", &_z[1441], nil, _c[0:6], nil, NS{"ns.lucky.net", "parabol.taide.net", "nix.ns.ua", "ns.od.ua", "ho1.ns.od.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
 	{"odesa.ua", &_z[1441], nil, _c[0:6], nil, NS{"nix.ns.ua", "ns.od.ua", "ho1.ns.od.ua"}, nil, "", "", "", 0x0},
 	{"odessa.ua", &_z[1441], nil, _c[0:6], nil, NS{"ns.lucky.net", "parabol.taide.net", "nix.ns.ua", "ns.od.ua", "ho1.ns.od.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
