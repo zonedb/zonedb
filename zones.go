@@ -355,7 +355,7 @@ var _y = [4366]Zone{
 	{"cbre", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.cbre", "ns2.dns.nic.cbre", "ns3.dns.nic.cbre", "ns4.dns.nic.cbre", "ns5.dns.nic.cbre", "ns6.dns.nic.cbre"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"cbs", nil, nil, _c[0:6], nil, NS{"a0.nic.cbs", "a2.nic.cbs", "b0.nic.cbs", "c0.nic.cbs"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"cc", nil, _z[2096:2100], nil, nil, NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "ccwhois.verisign-grs.com", "", "", 0xe0},
-	{"cd", nil, _z[2100:2106], _c[0:6], nil, NS{"dns.princeton.edu", "igubu.saix.net", "sabela.saix.net", "sangoma.saix.net", "ns1.pch.nic.cd"}, nil, "whois.nic.cd", "", "http://www.nic.cd/", 0xe0},
+	{"cd", nil, _z[2100:2106], _c[0:6], nil, NS{"ns-root-1.scpt-network.com", "ns-root-2.scpt-network.com", "ns-root-5.scpt-network.com", "dns.princeton.edu", "igubu.saix.net", "sabela.saix.net", "sangoma.saix.net", "ns1.pch.nic.cd"}, nil, "whois.nic.cd", "", "http://www.nic.cd/", 0xe0},
 	{"ceb", nil, nil, _c[0:6], nil, NS{"a0.nic.ceb", "a2.nic.ceb", "b0.nic.ceb", "c0.nic.ceb"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"center", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"ceo", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.ceo", "ns2.dns.nic.ceo", "ns3.dns.nic.ceo", "ns4.dns.nic.ceo", "ns5.dns.nic.ceo", "ns6.dns.nic.ceo"}, nil, "whois.nic.ceo", "", "", 0x40},
