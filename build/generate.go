@@ -156,7 +156,15 @@ func GenerateGo(zones map[string]*Zone) error {
 			z.SOffset = offsets[z.Subdomains[0]]
 			z.SEnd = z.SOffset + len(z.Subdomains)
 		}
-		z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, z.CodePoints.Runes())
+		if z.ProhibitIDN {
+			asciiCT, err := NewCodeTable("--09az")
+			if err != nil {
+				panic(err)
+			}
+			z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, asciiCT.Runes())
+		} else {
+			z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, z.CodePoints.Runes())
+		}
 		z.IDNCPs = make(map[string]IDNCPIndexes)
 		for lang, langCodePoints := range z.IDNTables {
 			idnOffset, idnEnd = IndexOrAppendRunes(&codePoints, langCodePoints.Runes())

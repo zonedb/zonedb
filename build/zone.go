@@ -19,6 +19,7 @@ type Zone struct {
 	CodePoints   CodeTable            `json:"codePoints,omitempty"`
 	IDNTables    map[string]CodeTable `json:"idnTables,omitempty"`
 	IDNTableURLs map[string]string    `json:"idnTableURLs,omitempty"`
+	ProhibitIDN  bool                 `json:"prohibitIDN,omitempty"`
 	Subdomains   []string             `json:"-"`
 
 	// Exported for use in text/template
