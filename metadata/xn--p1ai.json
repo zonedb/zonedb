@@ -1,6 +1,7 @@
 {
 	"domain": "рф",
 	"whoisServer": "whois.tcinet.ru",
+	"codePoints": "--09аяёё",
 	"nameServers": [
 		"a.dns.ripn.net",
 		"b.dns.ripn.net",
