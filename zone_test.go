@@ -5,7 +5,15 @@ import (
 	"fmt"
 	"testing"
 	"unsafe"
+
+	"golang.org/x/net/idna"
 )
+
+// ToASCII normalizes a domain name or URL to ASCII/punycode.
+func ToASCII(s string) string {
+	s, _ = idna.ToASCII(s)
+	return s
+}
 
 func TestSizeofZone(t *testing.T) {
 	var z Zone
@@ -170,6 +178,8 @@ func TestZone_IsValidDomain(t *testing.T) {
 		{Zone: "jobs", Domain: "test.com", Valid: false},
 		{Zone: "com", Domain: "test.com", Valid: true},
 		{Zone: "com", Domain: "tést.com", Valid: true},
+		{Zone: ToASCII("рф"), Domain: ToASCII("russia.рф"), Valid: false},
+		{Zone: ToASCII("рф"), Domain: ToASCII("россия.рф"), Valid: true},
 	}
 	for _, d := range data {
 		res := ZoneMap[d.Zone].IsValidDomain(d.Domain)
