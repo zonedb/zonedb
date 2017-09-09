@@ -34,6 +34,9 @@ func main() {
 	verifyWhois := flag.Bool("verify-whois", false, "verify whois servers")
 	checkPS := flag.Bool("ps", false, "check against Public Suffix List")
 
+	// Show operations
+	showUnicode := flag.Bool("show-unicode", false, "show Unicode information per zone")
+
 	// Mutate operations
 	addTags := flag.String("add-tags", "", "add tags to zones (comma-delimited)")
 	addLocations := flag.String("add-locations", "", "add locations to zones (comma-delimited)")
@@ -231,6 +234,14 @@ func main() {
 			locations.Add(z.Locations...)
 		}
 		color.Fprintf(os.Stderr, "@{.}Locations: @{c}%s\n", strings.Join(locations.Values(), " "))
+	}
+
+	if *showUnicode {
+		domains := build.SortedDomains(workZones)
+		for _, n := range domains {
+			z := workZones[n]
+			color.Fprintf(os.Stderr, "@{.}For zone: @{|}@{c}%s@{|}\n\t@{/}%v@{|}\n", n, z.CodePoints)
+		}
 	}
 
 	if *verifyNS {
