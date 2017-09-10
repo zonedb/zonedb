@@ -195,8 +195,8 @@ func TestZone_IDNTable(t *testing.T) {
 		{Zone: "jobs", Domain: "tést.jobs", Error: errors.New("domain is not a valid member of the zone")},
 		{Zone: "jobs", Domain: "test.com", Error: errors.New("domain is not a member of the zone")},
 		{Zone: "com", Domain: "test.com", ValidTables: []string{""}},
-		{Zone: "bg", Domain: "здравей.bg", ValidTables: []string{"bg", "ru"}},
-		{Zone: "bg", Domain: "здравей.всё.bg", ValidTables: []string{"ru"}},
+		{Zone: "bg", Domain: "здравей.bg", ValidTables: []string{"bg", "bg-bg", "ru", "ru-bg"}},
+		{Zone: "bg", Domain: "здравей.всё.bg", ValidTables: []string{"ru", "ru-bg"}},
 		{Zone: "bg", Domain: "tést.bg", Error: errors.New("domain is not a valid member of the zone")},
 	}
 	for _, d := range data {
