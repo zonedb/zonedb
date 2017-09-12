@@ -2679,7 +2679,7 @@ var _y = [4366]Zone{
 	{"org.ie", &_z[679], nil, _c[0:6], nil, nil, nil, "", "", "", 0x800},
 	{"ac.il", &_z[684], nil, _c[0:6], nil, NS{"ns1.ns.il", "ns2.ns.il", "ns3.ns.il", "nsa.ns.il", "nsb.ns.il", "nsd.ns.il", "nse.ns.il", "nsg.ns.il", "sns-pb.isc.org", "lookup.iucc.ac.il", "ilns.ilan.net.il"}, nil, "", "", "", 0x0},
 	{"co.il", &_z[684], nil, _c[0:6], nil, NS{"ns1.ns.il", "ns2.ns.il", "ns3.ns.il", "nsa.ns.il", "nsb.ns.il", "nsd.ns.il", "nse.ns.il", "nsg.ns.il", "sns-pb.isc.org", "lookup.iucc.ac.il", "ilns.ilan.net.il"}, nil, "", "", "http://www.isoc.org.il/domains/", 0x0},
-	{"gov.il", &_z[684], nil, _c[0:6], nil, NS{"dns3.gov.il", "ns1.ns.il", "ns2.ns.il", "nsa.ns.il", "nsb.ns.il", "nsd.ns.il", "nse.ns.il", "nsg.ns.il", "sns-pb.isc.org", "lookup.iucc.ac.il", "ilns.ilan.net.il"}, nil, "", "", "", 0x0},
+	{"gov.il", &_z[684], nil, _c[0:6], nil, NS{"dns3.gov.il", "ns1.ns.il", "ns2.ns.il", "ns3.ns.il", "nsa.ns.il", "nsb.ns.il", "nsd.ns.il", "nse.ns.il", "nsg.ns.il", "sns-pb.isc.org", "lookup.iucc.ac.il", "ilns.ilan.net.il"}, nil, "", "", "", 0x0},
 	{"idf.il", &_z[684], nil, _c[0:6], nil, NS{"dns3.gov.il", "ns1.idf.il", "ns2.idf.il"}, nil, "", "", "", 0x0},
 	{"k12.il", &_z[684], nil, _c[0:6], nil, NS{"ns1.ns.il", "ns2.ns.il", "ns3.ns.il", "nsa.ns.il", "nsb.ns.il", "nsd.ns.il", "nse.ns.il", "nsg.ns.il", "sns-pb.isc.org", "lookup.iucc.ac.il", "ilns.ilan.net.il"}, nil, "", "", "", 0x0},
 	{"muni.il", &_z[684], nil, _c[0:6], nil, NS{"ns1.ns.il", "ns2.ns.il", "ns3.ns.il", "nsa.ns.il", "nsb.ns.il", "nsd.ns.il", "nse.ns.il", "nsg.ns.il", "sns-pb.isc.org", "lookup.iucc.ac.il", "ilns.ilan.net.il"}, nil, "", "", "", 0x0},
