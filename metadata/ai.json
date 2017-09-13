@@ -11,5 +11,6 @@
 		"ns2.offshore.ai",
 		"ns1.pair.com"
 	],
+	"prohibitIDN": true,
 	"codePoints": "--09az"
 }
