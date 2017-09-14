@@ -8,6 +8,7 @@
 	"whoisURL": "http://www.nic.gh/customer/search_c.htm",
 	"nameServers": [
 		"ns1.dns.aq",
+		"ns.dns.br",
 		"austin.gh.com",
 		"mantse.gh.com",
 		"rip.psg.com",
