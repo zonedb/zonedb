@@ -1597,7 +1597,7 @@ var _y = [4366]Zone{
 	{"voting", nil, nil, nil, nil, NS{"a.dns.nic.voting", "m.dns.nic.voting", "n.dns.nic.voting"}, nil, "whois.voting.tld-box.at", "", "", 0x40},
 	{"voto", nil, nil, _c[0:6], nil, NS{"a0.nic.voto", "a2.nic.voto", "b0.nic.voto", "c0.nic.voto"}, nil, "whois.afilias.net", "", "http://newgtlds.icann.org/", 0x40},
 	{"voyage", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
-	{"vu", nil, _z[4247:4251], _c[0:6], nil, NS{"rip.psg.com", "cctld-vu.orange.mu", "anytld.apnic.net", "ns1-cctld.vunic.vu", "ns2-cctld.vunic.vu", "efate.vanuatu.com.vu", "santo.vanuatu.com.vu"}, nil, "vunic.vu", "", "", 0xa0},
+	{"vu", nil, _z[4247:4251], _c[0:6], nil, NS{"rip.psg.com", "cctld-vu.orange.mu", "anytld.apnic.net", "ns1-cctld.vunic.vu", "ns2-cctld.vunic.vu", "fork.sth.dnsnode.net", "efate.vanuatu.com.vu", "santo.vanuatu.com.vu"}, nil, "vunic.vu", "", "", 0xa0},
 	{"vuelos", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.vuelos", "ns2.dns.nic.vuelos", "ns3.dns.nic.vuelos", "ns4.dns.nic.vuelos", "ns5.dns.nic.vuelos", "ns6.dns.nic.vuelos"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"wales", nil, nil, _c[0:6], nil, NS{"ns1.nic.uk", "ns2.nic.uk", "ns4.nic.uk", "ns5.nic.uk", "ns6.nic.uk", "ns7.nic.uk", "dns1.nic.wales", "dns2.nic.wales", "dns3.nic.wales", "dns4.nic.wales", "dnsa.nic.wales", "dnsb.nic.wales", "dnsc.nic.wales", "dnsd.nic.wales"}, L{"GB-WLS"}, "whois.nic.wales", "", "http://newgtlds.icann.org/", 0x4c0},
 	{"walmart", nil, nil, _c[0:6], nil, NS{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, nil, "whois.nic.walmart", "", "http://newgtlds.icann.org/", 0x42},
