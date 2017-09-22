@@ -378,7 +378,7 @@ var _y = [4366]Zone{
 	{"chevy", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x2042},
 	{"chintai", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.chintai", "ns2.dns.nic.chintai", "ns3.dns.nic.chintai", "ns4.dns.nic.chintai", "ns5.dns.nic.chintai", "ns6.dns.nic.chintai"}, nil, "whois.nic.chintai", "", "http://newgtlds.icann.org/", 0x42},
 	{"chk", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x2042},
-	{"chloe", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.chloe", "ns2.dns.nic.chloe", "ns3.dns.nic.chloe", "ns4.dns.nic.chloe", "ns5.dns.nic.chloe", "ns6.dns.nic.chloe"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
+	{"chloe", nil, nil, _c[0:6], nil, NS{"ea.ngtld.cn", "eb.ngtld.cn", "ec.ngtld.cn", "ed.ngtld.cn", "ee.ngtld.cn", "ns1.dns.nic.chloe", "ns2.dns.nic.chloe", "ns3.dns.nic.chloe", "ns4.dns.nic.chloe", "ns5.dns.nic.chloe", "ns6.dns.nic.chloe"}, nil, "whois.nic.chloe", "", "http://newgtlds.icann.org/", 0x42},
 	{"christmas", nil, nil, nil, nil, NS{"tld.isc-sns.com", "tld.isc-sns.info", "tld.isc-sns.net", "ns1.uniregistry.net", "a.christmas.dyntld.net", "b.christmas.dyntld.net", "c.christmas.dyntld.net", "a.ns.uniregistry.net"}, nil, "whois.uniregistry.net", "", "", 0x40},
 	{"chrome", nil, nil, nil, nil, NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, nil, "whois.nic.google", "", "http://newgtlds.icann.org/", 0x42},
 	{"chrysler", nil, nil, _c[0:6], nil, NS{"a0.nic.chrysler", "a2.nic.chrysler", "b0.nic.chrysler", "c0.nic.chrysler"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
