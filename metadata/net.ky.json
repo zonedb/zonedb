@@ -1,6 +1,9 @@
 {
 	"domain": "net.ky",
 	"nameServers": [
+		"uni-1-tld.d-zone.ca",
+		"uni-2-tld.d-zone.ca",
+		"ns2.uniregistry.info",
 		"ns1.uniregistry.net",
 		"a.ky.dyntld.net",
 		"b.ky.dyntld.net",
