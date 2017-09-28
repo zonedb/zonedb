@@ -1118,7 +1118,7 @@ var _y = [4366]Zone{
 	{"nowruz", nil, nil, _c[0:6], nil, NS{"a.nowruz.dyntld.net", "b.nowruz.dyntld.net", "a.ns.nic.nowruz", "b.ns.nic.nowruz"}, nil, "whois.agitsys.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"nowtv", nil, nil, _c[0:6], nil, NS{"a0.nic.nowtv", "a2.nic.nowtv", "b0.nic.nowtv", "c0.nic.nowtv"}, nil, "whois.nic.nowtv", "", "http://newgtlds.icann.org/", 0x42},
 	{"np", nil, _z[3126:3272], _c[0:6], nil, NS{"sec3.apnic.net", "ns-ext.isc.org", "yarrina.connect.com.au", "np-ns.anycast.pch.net", "shikhar.mos.com.np", "np-ns.npix.net.np", "np.cctld.authdns.ripe.net"}, nil, "", "http://register.mos.com.np/np-whois-lookup", "", 0xa8},
-	{"nr", nil, _z[3272:3279], _c[0:6], nil, NS{"sns-pb.isc.org", "ns1.net.reach.com", "dns1.cenpac.net.nr", "nrweb.cenpac.net.nr"}, nil, "", "http://www.cenpac.net.nr/dns/whois.html", "", 0xa0},
+	{"nr", nil, _z[3272:3279], _c[0:6], nil, NS{"sns-pb.isc.org", "ns1.net.reach.com", "dns1.cenpac.net.nr", "nrweb.cenpac.net.nr", "ns0.cenpac.net.nr", "ns1.cenpac.net.nr", "ns2.cenpac.net.nr"}, nil, "", "http://www.cenpac.net.nr/dns/whois.html", "", 0xa0},
 	{"nra", nil, nil, _c[0:6], nil, NS{"a0.nic.nra", "a2.nic.nra", "b0.nic.nra", "c0.nic.nra"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"nrw", nil, nil, _c[0:6], nil, NS{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, L{"DE-NW"}, "whois.nic.nrw", "", "http://newgtlds.icann.org/", 0x440},
 	{"ntt", nil, nil, _c[0:6], nil, NS{"tld1.nic.ntt", "tld2.nic.ntt", "tld3.nic.ntt", "tld5.nic.ntt"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
