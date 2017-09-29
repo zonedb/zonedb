@@ -4309,7 +4309,7 @@ var _y = [4366]Zone{
 	{"info.uz", &_z[1458], nil, _c[0:6], nil, NS{"ns.ol.uz", "ns.tshtt.uz"}, nil, "", "", "", 0x0},
 	{"int.uz", &_z[1458], nil, _c[0:6], nil, NS{"ns3.uzinfocom.uz", "rdns3.uzinfocom.uz"}, nil, "", "", "", 0x0},
 	{"museum.uz", &_z[1458], nil, _c[0:6], nil, NS{"ns3.uzinfocom.uz", "ns4.uzinfocom.uz", "rdns3.uzinfocom.uz", "rdns4.uzinfocom.uz"}, nil, "", "", "", 0x0},
-	{"name.uz", &_z[1458], nil, _c[0:6], nil, NS{"ns1.activeby.net", "ns2.activeby.net", "ns3.activeby.net"}, nil, "", "", "", 0x0},
+	{"name.uz", &_z[1458], nil, _c[0:6], nil, NS{"ns1.billur.com", "ns2.billur.com", "ns1.activeby.net", "ns2.activeby.net", "ns3.activeby.net"}, nil, "", "", "", 0x0},
 	{"net.uz", &_z[1458], nil, _c[0:6], nil, NS{"ns1.reg.uz", "ns2.reg.uz", "dns3.webspace.uz"}, nil, "", "", "", 0x0},
 	{"org.uz", &_z[1458], nil, _c[0:6], nil, NS{"ns1.reg.uz", "ns2.reg.uz", "dns3.webspace.uz"}, nil, "", "", "", 0x0},
 	{"pro.uz", &_z[1458], nil, _c[0:6], nil, NS{"ns3.uzinfocom.uz", "rdns3.uzinfocom.uz"}, nil, "", "", "", 0x0},
