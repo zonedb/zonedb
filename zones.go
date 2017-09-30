@@ -449,7 +449,7 @@ var _y = [4366]Zone{
 	{"csc", nil, nil, _c[0:6], nil, NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "whois.nic.csc", "", "http://newgtlds.icann.org/", 0x42},
 	{"cu", nil, _z[2218:2229], _c[0:6], nil, NS{"ns.dns.br", "rip.psg.com", "ns2.gip.net", "ns.ceniai.net.cu", "ns2.ceniai.net.cu", "cu.cctld.authdns.ripe.net"}, nil, "", "http://www.nic.cu/", "", 0xa0},
 	{"cuisinella", nil, nil, _c[0:6], nil, NS{"a.nic.cuisinella", "b.nic.cuisinella", "c.nic.cuisinella", "d.nic.cuisinella"}, nil, "whois.nic.cuisinella", "", "http://newgtlds.icann.org/", 0x42},
-	{"cv", nil, _z[2229:2237], _c[0:6], nil, NS{"ns.dns.cv", "ns-ext.isc.org", "sns-pb.isc.org", "ns01.fccn.pt", "phobos.fccn.pt", "auth02.ns.uu.net"}, nil, "", "http://www.dns.cv/", "", 0xa0},
+	{"cv", nil, _z[2229:2237], _c[0:6], nil, NS{"ns.dns.cv", "ns-ext.isc.org", "sns-pb.isc.org", "c.dns.pt", "cv01.dns.pt", "ns01.fccn.pt", "phobos.fccn.pt", "auth02.ns.uu.net"}, nil, "", "http://www.dns.cv/", "", 0xa0},
 	{"cw", nil, _z[2237:2239], _c[0:6], nil, NS{"kadushi.curinfo.cw", "ns01-server.curinfo.cw", "engine0.una.cw", "engine2.una.cw", "ns1.uoc.cw", "ns0.ja.net", "cw.cctld.authdns.ripe.net"}, nil, "", "", "http://en.wikipedia.org/wiki/.cw", 0xa0},
 	{"cx", nil, _z[2239:2240], _c[0:6], nil, NS{"ns.anycast.nic.cx", "a.cx.dyntld.net", "b.cx.dyntld.net"}, nil, "whois.nic.cx", "", "", 0xa0},
 	{"cy", nil, _z[2240:2253], _c[0:6], nil, NS{"cynic.dns.cy", "sec3.apnic.net", "ns02.savvis.net", "ns1.ucy.ac.cy", "ns2.ucy.ac.cy", "ns3.ucy.ac.cy", "estia.ics.forth.gr", "cy-ns.anycast.pch.net"}, nil, "", "http://www.nic.cy/nslookup/online_database.php", "", 0xa8},
