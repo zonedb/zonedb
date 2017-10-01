@@ -2320,7 +2320,7 @@ var _y = [4366]Zone{
 	{"com.cu", &_z[349], nil, _c[0:6], nil, NS{"canada.cuba.cu", "ns.citmatel.com.cu", "ns.ceniai.net.cu"}, nil, "", "", "", 0x0},
 	{"cuba.cu", &_z[349], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"cyt.cu", &_z[349], nil, _c[0:6], nil, NS{"mail1.tur.cu", "mail2.tur.cu", "ns1.tur.cu", "ns.ceniai.net.cu"}, nil, "", "", "", 0x0},
-	{"edu.cu", &_z[349], nil, _c[0:6], nil, NS{"rip.psg.com", "ns.citmatel.com.cu", "ns.ceniai.net.cu", "admin.authdns.ripe.net", "cu.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
+	{"edu.cu", &_z[349], nil, _c[0:6], nil, NS{"rip.psg.com", "canada.cuba.cu", "ns.citmatel.com.cu", "ns.ceniai.net.cu", "admin.authdns.ripe.net", "cu.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"get.cu", &_z[349], nil, _c[0:6], nil, NS{"mail1.tur.cu", "mail2.tur.cu", "ns1.tur.cu", "ns.ceniai.net.cu"}, nil, "", "", "", 0x0},
 	{"gov.cu", &_z[349], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"inf.cu", &_z[349], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
