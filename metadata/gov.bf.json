@@ -1,6 +1,7 @@
 {
 	"domain": "gov.bf",
 	"nameServers": [
+		"ntoo.gov.bf",
 		"oubri.gov.bf"
 	],
 	"codePoints": "--09az"
