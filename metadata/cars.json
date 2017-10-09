@@ -8,8 +8,11 @@
 	"nameServers": [
 		"tld.isc-sns.com",
 		"tld.isc-sns.info",
+		"ns2.uniregistry.info",
+		"ns4.uniregistry.info",
 		"tld.isc-sns.net",
 		"ns1.uniregistry.net",
+		"ns3.uniregistry.net",
 		"a.cars.dyntld.net",
 		"b.cars.dyntld.net",
 		"c.cars.dyntld.net",

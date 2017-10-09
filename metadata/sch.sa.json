@@ -2,6 +2,7 @@
 	"domain": "sch.sa",
 	"nameServers": [
 		"rip.psg.com",
+		"sa1.dnsnode.net",
 		"sa-ns.anycast.pch.net",
 		"ns1.isu.net.sa",
 		"ns1.nic.net.sa",

@@ -3,6 +3,7 @@
 	"nameServers": [
 		"ns-rw.afrinic.net",
 		"sns-pb.isc.org",
+		"ns3.aos.rw",
 		"ns2.mtnonline.rw",
 		"ns3.rdb.rw",
 		"fork.sth.dnsnode.net",
