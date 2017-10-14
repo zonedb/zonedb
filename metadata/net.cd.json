@@ -1,6 +1,9 @@
 {
 	"domain": "net.cd",
 	"nameServers": [
+		"ns-root-1.scpt-network.com",
+		"ns-root-2.scpt-network.com",
+		"ns-root-5.scpt-network.com",
 		"igubu.saix.net",
 		"sabela.saix.net",
 		"ns1.webnetafrica.net",
