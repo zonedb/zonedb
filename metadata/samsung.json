@@ -12,7 +12,12 @@
 		"d.dns.kr",
 		"e.dns.kr",
 		"f.dns.kr",
-		"g.dns.kr"
+		"g.dns.kr",
+		"ns1.dns.samsung",
+		"a.samsung.dyntld.net",
+		"b.samsung.dyntld.net",
+		"c.samsung.dyntld.net",
+		"d.samsung.dyntld.net"
 	],
 	"codePoints": "--09az"
 }
