@@ -12,6 +12,11 @@
 		"d.dns.kr",
 		"e.dns.kr",
 		"f.dns.kr",
-		"g.dns.kr"
+		"g.dns.kr",
+		"ns1.dns.samsung",
+		"a.삼성.dyntld.net",
+		"b.삼성.dyntld.net",
+		"c.삼성.dyntld.net",
+		"d.삼성.dyntld.net"
 	]
 }
