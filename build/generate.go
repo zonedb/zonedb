@@ -51,16 +51,6 @@ var TagValues  = map[string]Tags{
 	{{end }}
 }
 
-// _c stores Unicode code point ranges allowed in each Zone by the registry.
-// Rune values alternate low, high.
-var _c = [{{len .CodePoints}}]rune{ \
-	{{range $i, $cp := .CodePoints}} \
-		{{if mod0 $i 20}}
-		{{end}} \
-		'{{printf "%c" .}}', \
-	{{end}}
-}
-
 // Zones is a slice of all Zones in the database.
 var Zones = _z[:]
 
@@ -110,8 +100,15 @@ var ZoneMap = map[string]*Zone{
 		{{if $z.IsIDN}}// {{$d}}{{end }}
 	{{end}} \
 }
+
+// _c stores Unicode code point ranges allowed in each Zone by the registry.
+// Rune values alternate low, high.
+var _c = []rune("{{range .CodePoints}}{{printf "%c" .}}{{end}}")
 `
 )
+
+// {{if rewound .}}" +
+// "{{ end }}
 
 func cont(s string) string {
 	return strings.Replace(s, "\\\n", "", -1)
@@ -125,12 +122,23 @@ func mod0(i, radix int) bool {
 	return (i % radix) == 0
 }
 
+var lastC rune
+
+func rewound(c rune) (out bool) {
+	if c < lastC {
+		out = true
+	}
+	lastC = c
+	return
+}
+
 var (
 	funcMap = template.FuncMap{
-		"odd":   odd,
-		"mod0":  mod0,
-		"title": strings.Title,
-		"ascii": ToASCII,
+		"odd":     odd,
+		"mod0":    mod0,
+		"rewound": rewound,
+		"title":   strings.Title,
+		"ascii":   ToASCII,
 	}
 	goTemplate = template.Must(template.New("").Funcs(funcMap).Parse(cont(goSrc)))
 )
