@@ -14,6 +14,7 @@ import (
 	"golang.org/x/net/idna"
 )
 
+// BaseDir specifies the base working directory that contains the ZoneDB flat-file database.
 var BaseDir = "."
 
 // ReadZones reads the zone database from the local filesystem.
@@ -140,6 +141,7 @@ func ReadMetadata(zones map[string]*Zone) (errs []error) {
 	return
 }
 
+// WriteZones writes zones.txt and associated JSON metadata.
 func WriteZones(zones map[string]*Zone) error {
 	err := WriteZonesFile(zones)
 	if err != nil {
@@ -148,6 +150,7 @@ func WriteZones(zones map[string]*Zone) error {
 	return WriteMetadata(zones)
 }
 
+// WriteZonesFile writes the zones.txt file.
 func WriteZonesFile(zones map[string]*Zone) error {
 	domains := SortedDomains(zones)
 	path := filepath.Join(BaseDir, "zones.txt")
@@ -164,6 +167,7 @@ func WriteZonesFile(zones map[string]*Zone) error {
 	return nil
 }
 
+// WriteMetadata writes the metadata/*.json files.
 func WriteMetadata(zones map[string]*Zone) error {
 	var wrote, deleted int
 	for _, z := range zones {

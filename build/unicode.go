@@ -46,15 +46,24 @@ func NewCodeTable(s string) (CodeTable, error) {
 }
 
 var (
-	OddRuneCount = errors.New("odd number of runes")
-	InvalidRange = errors.New("invalid Unicode range")
+	// ErrOddRuneCount is returned when a CodeTable has an odd number of runes.
+	ErrOddRuneCount = errors.New("odd number of runes")
+
+	// OddRuneCount is retained for backward-compatibility.
+	OddRuneCount = ErrOddRuneCount
+
+	// ErrInvalidRange is returned when a CodeRange.Hi < Lo.
+	ErrInvalidRange = errors.New("invalid Unicode range")
+
+	// InvalidRange is retained for backward-compatibility.
+	InvalidRange = ErrInvalidRange
 )
 
 // Validate determines if a CodeTable is valid, returning an error if invalid.
 func (ct CodeTable) Validate() error {
 	for _, c := range ct {
 		if c.Hi < c.Lo {
-			return InvalidRange
+			return ErrInvalidRange
 		}
 	}
 	return nil
@@ -92,7 +101,7 @@ func (ct *CodeTable) Compress() {
 func (ct *CodeTable) UnmarshalText(b []byte) error {
 	runes := bytes.Runes(b)
 	if len(runes)%2 != 0 {
-		return OddRuneCount
+		return ErrOddRuneCount
 	}
 	*ct = make(CodeTable, len(runes)/2)
 	for i := 0; i < len(*ct); i++ {
