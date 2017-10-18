@@ -9,9 +9,12 @@
 		"dns1.kw",
 		"dns2.kw",
 		"dns3.kw",
+		"pch.nic.kw",
 		"sec1.apnic.net",
 		"kwns.kems.net",
-		"sns-pb.isc.org"
+		"sns-pb.isc.org",
+		"a.kw.nic.kw",
+		"b.kw.nic.kw"
 	],
 	"codePoints": "--09az"
 }
