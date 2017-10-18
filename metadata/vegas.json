@@ -10,6 +10,7 @@
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"prohibitIDN": true,
+	"codePoints": "--09az",
 	"nameServers": [
 		"a0.nic.vegas",
 		"a2.nic.vegas",
