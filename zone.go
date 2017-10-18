@@ -15,7 +15,7 @@ type NS []string
 // L represents a slice of locations.
 type L []string
 
-// IDNT represents a map of languages and their IDN tables
+// IDNT represents a map of languages and their IDN tables.
 type IDNT map[string][]rune
 
 // And performs a bitwise AND between tags and q,
@@ -41,7 +41,7 @@ func (tags Tags) String() string {
 	return strings.Join(s, " ")
 }
 
-// Zone represents a single DNS zone.
+// Zone represents a single DNS zone (a public suffix), where subdomains may be registered or created.
 type Zone struct {
 	// Normalized UTF-8 domain name
 	Domain string
