@@ -83,7 +83,8 @@ var _y = [{{len .Zones}}]Zone{
 			{{if $z.CPEnd}} _c[{{$z.CPOffset}}:{{$z.CPEnd}}] {{else}} nil {{end}}, \
 			{{if $z.IDNCPs}} \
 				IDNT{ \
-				{{range $idnLang, $idnCPIndexes := $z.IDNCPs}} \
+				{{range $idnLang := $z.Langs}} \
+					{{$idnCPIndexes := (index $z.IDNCPs $idnLang)}} \
 					"{{ascii $idnLang}}": _c[{{index $idnCPIndexes 0}}:{{index $idnCPIndexes 1}}], \
 				{{end}} \
 				} \
@@ -134,6 +135,7 @@ var (
 	goTemplate = template.Must(template.New("").Funcs(funcMap).Parse(cont(goSrc)))
 )
 
+// GenerateGo generates a Go source representation of ZoneDB.
 func GenerateGo(zones map[string]*Zone) error {
 	tlds := TLDs(zones)
 	domains := SortedDomains(zones)
@@ -152,7 +154,6 @@ func GenerateGo(zones map[string]*Zone) error {
 	}
 	var nameServers []string
 	var codePoints []rune
-	var idnOffset, idnEnd int
 	for _, d := range domains {
 		z := zones[d]
 		z.Normalize() // just in case
@@ -162,17 +163,18 @@ func GenerateGo(zones map[string]*Zone) error {
 			z.SEnd = z.SOffset + len(z.Subdomains)
 		}
 		if z.ProhibitIDN {
-			asciiCT, err := NewCodeTable("--09az")
-			if err != nil {
-				panic(err)
-			}
-			z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, asciiCT.Runes())
+			z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, ASCII.Runes())
 		} else {
 			z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, z.CodePoints.Runes())
 		}
 		z.IDNCPs = make(map[string]IDNCPIndexes)
-		for lang, langCodePoints := range z.IDNTables {
-			idnOffset, idnEnd = IndexOrAppendRunes(&codePoints, langCodePoints.Runes())
+		z.Langs = make([]string, 0, len(z.IDNTables))
+		for lang := range z.IDNTables {
+			z.Langs = append(z.Langs, lang)
+		}
+		sort.Strings(z.Langs)
+		for _, lang := range z.Langs {
+			idnOffset, idnEnd := IndexOrAppendRunes(&codePoints, z.IDNTables[lang].Runes())
 			z.IDNCPs[lang] = IDNCPIndexes{idnOffset, idnEnd}
 		}
 		z.TagBits = tagBits(tagValues, z.Tags)
