@@ -140,6 +140,7 @@ func GenerateGo(zones map[string]*Zone) error {
 	tlds := TLDs(zones)
 	domains := SortedDomains(zones)
 	offsets := make(map[string]int, len(domains))
+
 	tagSet := NewSet()
 	for i, d := range domains {
 		offsets[d] = i
@@ -152,7 +153,11 @@ func GenerateGo(zones map[string]*Zone) error {
 	for i, t := range tags {
 		tagValues[t] = 1 << uint64(i)
 	}
-	var nameServers []string
+	tagType := "uint32"
+	if len(tags) > 32 {
+		tagType = "uint64"
+	}
+
 	var codePoints []rune
 	for _, d := range domains {
 		z := zones[d]
@@ -179,27 +184,21 @@ func GenerateGo(zones map[string]*Zone) error {
 		}
 		z.TagBits = tagBits(tagValues, z.Tags)
 	}
-	tagType := "uint32"
-	if len(tags) > 32 {
-		tagType = "uint64"
-	}
 
 	data := struct {
-		Zones       map[string]*Zone
-		TLDs        map[string]*Zone
-		Domains     []string
-		Offsets     map[string]int
-		NameServers []string
-		CodePoints  []rune
-		TagType     string
-		Tags        []string
-		TagValues   map[string]uint64
+		Zones      map[string]*Zone
+		TLDs       map[string]*Zone
+		Domains    []string
+		Offsets    map[string]int
+		CodePoints []rune
+		TagType    string
+		Tags       []string
+		TagValues  map[string]uint64
 	}{
 		zones,
 		tlds,
 		domains,
 		offsets,
-		nameServers,
 		codePoints,
 		tagType,
 		tags,
