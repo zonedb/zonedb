@@ -53,12 +53,12 @@ var TagValues  = map[string]Tags{
 
 // _c stores Unicode code point ranges allowed in each Zone by the registry.
 // Rune values alternate low, high.
-var _c = [{{len .CodePoints}}]rune{
+var _c = [{{len .CodePoints}}]rune{ \
 	{{range $i, $cp := .CodePoints}} \
-		'{{printf "%c" .}}', \
-		{{if odd $i}}
+		{{if mod0 $i 20}}
 		{{end}} \
-	{{end}} \
+		'{{printf "%c" .}}',\
+	{{end}}
 }
 
 // Zones is a slice of all Zones in the database.
@@ -120,9 +120,14 @@ func odd(i int) bool {
 	return (i & 0x1) != 0
 }
 
+func mod0(i, radix int) bool {
+	return (i % radix) == 0
+}
+
 var (
 	funcMap = template.FuncMap{
 		"odd":   odd,
+		"mod0":  mod0,
 		"title": strings.Title,
 		"ascii": ToASCII,
 	}
