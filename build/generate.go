@@ -12,138 +12,6 @@ import (
 	"github.com/wsxiaoys/terminal/color"
 )
 
-const (
-	goSrc = `// Automatically generated
-
-package zonedb
-
-func init() {
-	initZones()
-}
-
-// Separate function report allocs in initialization.
-func initZones() {
-	_z = _y
-}
-
-// Tags are stored in a single integer as a bit field.
-type Tags {{.TagType}}
-
-// Tag values corresponding to bit shifts (1 << iota)
-const (
-	{{range $i, $t := .Tags}} \
-		Tag{{title $t}} = {{index $.TagValues $t}}
-	{{end}} \
-	numTags = {{len .Tags}}
-)
-
-// TagStrings maps integer tag values to strings.
-var TagStrings = map[Tags]string{
-	{{range $t := .Tags}} \
-		Tag{{title $t}}: "{{$t}}",
-	{{end }}
-}
-
-// TagValues maps tag names to integer values.
-var TagValues  = map[string]Tags{
-	{{range $t := .Tags}} \
-		"{{$t}}": Tag{{title $t}},
-	{{end }}
-}
-
-// Zones is a slice of all Zones in the database.
-var Zones = _z[:]
-
-// TLDs is a slice of all top-level domain Zones.
-var TLDs = _z[:{{len .TLDs}}]
-
-// _z is a static array of Zones.
-// Other global variables have pointers into this array.
-var _z [{{len .Zones}}]Zone
-
-// _y and _z are separated to fix circular references.
-var _y = [{{len .Zones}}]Zone{
-	{{range $d := .Domains}} \
-		{{$z := (index $.Zones $d)}} \
-		{ \
-			"{{ascii $d}}", \
-			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
-			{{if $z.ParentDomain}} &_z[{{$z.POffset}}] {{else}} nil {{end}}, \
-			{{if $z.SEnd}} _z[{{$z.SOffset}}:{{$z.SEnd}}] {{else}} nil {{end}}, \
-			{{if $z.CPEnd}} _c[{{$z.CPOffset}}:{{$z.CPEnd}}] {{else}} nil {{end}}, \
-			{{if $z.IDNCPs}} \
-				IDNT{ \
-				{{range $idnLang := $z.Langs}} \
-					{{$idnCPIndexes := (index $z.IDNCPs $idnLang)}} \
-					"{{ascii $idnLang}}": _c[{{index $idnCPIndexes 0}}:{{index $idnCPIndexes 1}}], \
-				{{end}} \
-				} \
-			{{else}} \
-				nil \
-			{{end}}, \
-			{{if $z.NameServers}} NS{ {{range $z.NameServers}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
-			{{if $z.Locations}} L{ {{range $z.Locations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
-			"{{ascii $z.WhoisServer}}", \
-			"{{ascii $z.WhoisURL}}", \
-			"{{ascii $z.InfoURL}}", \
-			{{printf "0x%x" $z.TagBits}}, \
-		},
-	{{end}} \
-}
-
-// ZoneMap maps Unicode domain names to Zones.
-var ZoneMap = map[string]*Zone{
-	{{range $d := .Domains}}  \
-		{{$z := (index $.Zones $d)}} \
-		{{$o := index $.Offsets $d}} \
-		"{{ascii $d}}": &_z[{{$o}}], \
-		{{if $z.IsIDN}}// {{$d}}{{end }}
-	{{end}} \
-}
-
-// _c stores Unicode code point ranges allowed in each Zone by the registry.
-// Rune values alternate low, high.
-var _c = []rune("{{range .CodePoints}}{{printf "%c" .}}{{end}}")
-`
-)
-
-// Experiment: split on each code point range from lo-hi
-// var _c = []rune("{{range .CodePoints}}{{if rewound .}}" +
-// 	"{{ end }}{{printf "%c" .}}{{end}}")
-
-func cont(s string) string {
-	return strings.Replace(s, "\\\n", "", -1)
-}
-
-func odd(i int) bool {
-	return (i & 0x1) != 0
-}
-
-func mod0(i, radix int) bool {
-	return (i % radix) == 0
-}
-
-var lastC rune
-
-func rewound(c rune) (out bool) {
-	if c < lastC {
-		out = true
-	}
-	lastC = c
-	return
-}
-
-var (
-	funcMap = template.FuncMap{
-		"odd":     odd,
-		"mod0":    mod0,
-		"rewound": rewound,
-		"title":   strings.Title,
-		"ascii":   ToASCII,
-	}
-	goTemplate = template.Must(template.New("").Funcs(funcMap).Parse(cont(goSrc)))
-)
-
 // GenerateGo generates a Go source representation of ZoneDB.
 func GenerateGo(zones map[string]*Zone) error {
 	tlds := TLDs(zones)
@@ -243,8 +111,56 @@ func GenerateGo(zones map[string]*Zone) error {
 		tagValues,
 	}
 
+	err := generate("zones.go", zonesGoSrc, &data)
+	if err != nil {
+		return err
+	}
+	err = generate("codepoints.go", codepointsGoSrc, &data)
+	if err != nil {
+		return err
+	}
+
+	return nil
+}
+
+// Helper funcs
+
+func cont(s string) string {
+	return strings.Replace(s, "\\\n", "", -1)
+}
+
+func odd(i int) bool {
+	return (i & 0x1) != 0
+}
+
+func mod0(i, radix int) bool {
+	return (i % radix) == 0
+}
+
+var lastC rune
+
+func rewound(c rune) (out bool) {
+	if c < lastC {
+		out = true
+	}
+	lastC = c
+	return
+}
+
+var (
+	funcMap = template.FuncMap{
+		"odd":     odd,
+		"mod0":    mod0,
+		"rewound": rewound,
+		"title":   strings.Title,
+		"ascii":   ToASCII,
+	}
+)
+
+func generate(fn, src string, data interface{}) error {
+	t := template.Must(template.New("").Funcs(funcMap).Parse(cont(src)))
 	buf := new(bytes.Buffer)
-	err := goTemplate.Execute(buf, &data)
+	err := t.Execute(buf, data)
 	if err != nil {
 		return err
 	}
@@ -252,8 +168,7 @@ func GenerateGo(zones map[string]*Zone) error {
 	if err != nil {
 		return err
 	}
-
-	fn := filepath.Join(BaseDir, "zones.go")
+	fn = filepath.Join(BaseDir, fn)
 	color.Fprintf(os.Stderr, "@{.}Generating Go source code: %s\n", fn)
 	f, err := os.Create(fn)
 	if err != nil {
@@ -261,9 +176,109 @@ func GenerateGo(zones map[string]*Zone) error {
 	}
 	defer f.Close()
 	_, err = f.Write(formatted)
-	if err != nil {
-		return err
-	}
-
-	return nil
+	return err
 }
+
+const (
+	zonesGoSrc = `// Automatically generated
+
+package zonedb
+
+func init() {
+	initZones()
+}
+
+// Separate function report allocs in initialization.
+func initZones() {
+	_z = _y
+}
+
+// Tags are stored in a single integer as a bit field.
+type Tags {{.TagType}}
+
+// Tag values corresponding to bit shifts (1 << iota)
+const (
+	{{range $i, $t := .Tags}} \
+		Tag{{title $t}} = {{index $.TagValues $t}}
+	{{end}} \
+	numTags = {{len .Tags}}
+)
+
+// TagStrings maps integer tag values to strings.
+var TagStrings = map[Tags]string{
+	{{range $t := .Tags}} \
+		Tag{{title $t}}: "{{$t}}",
+	{{end }}
+}
+
+// TagValues maps tag names to integer values.
+var TagValues  = map[string]Tags{
+	{{range $t := .Tags}} \
+		"{{$t}}": Tag{{title $t}},
+	{{end }}
+}
+
+// Zones is a slice of all Zones in the database.
+var Zones = _z[:]
+
+// TLDs is a slice of all top-level domain Zones.
+var TLDs = _z[:{{len .TLDs}}]
+
+// _z is a static array of Zones.
+// Other global variables have pointers into this array.
+var _z [{{len .Zones}}]Zone
+
+// _y and _z are separated to fix circular references.
+var _y = [{{len .Zones}}]Zone{
+	{{range $d := .Domains}} \
+		{{$z := (index $.Zones $d)}} \
+		{ \
+			"{{ascii $d}}", \
+			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
+			{{if $z.ParentDomain}} &_z[{{$z.POffset}}] {{else}} nil {{end}}, \
+			{{if $z.SEnd}} _z[{{$z.SOffset}}:{{$z.SEnd}}] {{else}} nil {{end}}, \
+			{{if $z.CPEnd}} _c[{{$z.CPOffset}}:{{$z.CPEnd}}] {{else}} nil {{end}}, \
+			{{if $z.IDNCPs}} \
+				IDNT{ \
+				{{range $idnLang := $z.Langs}} \
+					{{$idnCPIndexes := (index $z.IDNCPs $idnLang)}} \
+					"{{ascii $idnLang}}": _c[{{index $idnCPIndexes 0}}:{{index $idnCPIndexes 1}}], \
+				{{end}} \
+				} \
+			{{else}} \
+				nil \
+			{{end}}, \
+			{{if $z.NameServers}} NS{ {{range $z.NameServers}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
+			{{if $z.Locations}} L{ {{range $z.Locations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
+			"{{ascii $z.WhoisServer}}", \
+			"{{ascii $z.WhoisURL}}", \
+			"{{ascii $z.InfoURL}}", \
+			{{printf "0x%x" $z.TagBits}}, \
+		},
+	{{end}} \
+}
+
+// ZoneMap maps Unicode domain names to Zones.
+var ZoneMap = map[string]*Zone{
+	{{range $d := .Domains}}  \
+		{{$z := (index $.Zones $d)}} \
+		{{$o := index $.Offsets $d}} \
+		"{{ascii $d}}": &_z[{{$o}}], \
+		{{if $z.IsIDN}}// {{$d}}{{end }}
+	{{end}} \
+}
+`
+
+	codepointsGoSrc = `// Automatically generated
+
+package zonedb
+
+// _c stores Unicode code point ranges allowed in each Zone by the registry.
+// Rune values alternate low, high.
+var _c = []rune("{{range .CodePoints}}{{printf "%c" .}}{{end}}")
+`
+)
+
+// Experiment: split on each code point range from lo-hi
+// var _c = []rune("{{range .CodePoints}}{{if rewound .}}" +
+// 	"{{ end }}{{printf "%c" .}}{{end}}")
