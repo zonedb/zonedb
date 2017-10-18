@@ -107,8 +107,9 @@ var _c = []rune("{{range .CodePoints}}{{printf "%c" .}}{{end}}")
 `
 )
 
-// {{if rewound .}}" +
-// "{{ end }}
+// Experiment: split on each code point range from lo-hi
+// var _c = []rune("{{range .CodePoints}}{{if rewound .}}" +
+// 	"{{ end }}{{printf "%c" .}}{{end}}")
 
 func cont(s string) string {
 	return strings.Replace(s, "\\\n", "", -1)
