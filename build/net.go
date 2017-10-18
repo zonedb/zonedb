@@ -5,9 +5,18 @@ import (
 	"net"
 	"net/http"
 	"sync"
+	"time"
 )
 
 const httpUserAgent = "zonedb/1.0 (https://github.com/zonedb/zonedb)"
+
+var (
+	// Concurrency specifies the maximimum number of concurrent build operations to execute.
+	Concurrency = 32
+
+	// Timeout specifies the maximum duration to wait for network operations to complete.
+	Timeout = 10 * time.Second
+)
 
 // Fetch fetches a URL.
 func Fetch(u string) (*http.Response, error) {
@@ -47,5 +56,7 @@ func CanDial(network, addr string) error {
 	return nil
 }
 
-var dialCache = make(map[string]error)
-var mtx sync.RWMutex
+var (
+	dialCache = make(map[string]error)
+	mtx       sync.RWMutex
+)
