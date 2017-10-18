@@ -158,8 +158,16 @@ func GenerateGo(zones map[string]*Zone) error {
 		tagType = "uint64"
 	}
 
+	// Sort domains by number of code points
+	cpDomains := make([]string, len(domains))
+	copy(cpDomains, domains)
+	// Disabled for now (it doesn’t meaningfully change size of generated code)
+	// sort.SliceStable(cpDomains, func(i, j int) bool {
+	// 	return len(zones[cpDomains[j]].CodePoints) < len(zones[cpDomains[i]].CodePoints)
+	// })
+
 	var codePoints []rune
-	for _, d := range domains {
+	for _, d := range cpDomains {
 		z := zones[d]
 		z.Normalize() // just in case
 		z.POffset = offsets[z.ParentDomain()]
@@ -184,6 +192,16 @@ func GenerateGo(zones map[string]*Zone) error {
 		}
 		z.TagBits = tagBits(tagValues, z.Tags)
 	}
+
+	ranges := len(codePoints) / 2
+	var singles int
+	for i := 0; i < len(codePoints); i += 2 {
+		if codePoints[i] == codePoints[i+1] {
+			singles++
+		}
+	}
+	pct := float64(singles) / float64(ranges) * 100
+	color.Fprintf(os.Stderr, "@{.}%d / %d single code point ranges (%.2f%%)\n", singles, ranges, pct)
 
 	data := struct {
 		Zones      map[string]*Zone
