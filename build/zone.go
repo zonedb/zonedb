@@ -43,6 +43,9 @@ func (z *Zone) Normalize() {
 	z.Tags = NewSet(tags...).Values()
 	z.NameServers = NewSet(z.NameServers...).Values()
 	z.CodePoints.Compress()
+	for _, table := range z.IDNTables {
+		table.Compress()
+	}
 }
 
 // IsIDN returns true if the Zone label(s) use non-ASCII characters.
