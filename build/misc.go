@@ -55,7 +55,7 @@ func TLDs(zones map[string]*Zone) map[string]*Zone {
 // SortedDomains returns a list of domain names sorted by rank.
 func SortedDomains(zones map[string]*Zone) []string {
 	domains := make([]string, 0, len(zones))
-	for d, _ := range zones {
+	for d := range zones {
 		domains = append(domains, d)
 	}
 	Sort(domains)
