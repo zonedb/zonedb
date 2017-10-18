@@ -10,7 +10,7 @@ import (
 	"golang.org/x/net/idna"
 )
 
-// Zone represents a domain name zone
+// Zone represents a build-time DNS zone (public suffix).
 type Zone struct {
 	Domain       string               `json:"domain,omitempty"`
 	InfoURL      string               `json:"infoURL,omitempty"`
