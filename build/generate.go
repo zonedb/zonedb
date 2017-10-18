@@ -57,7 +57,7 @@ var _c = [{{len .CodePoints}}]rune{ \
 	{{range $i, $cp := .CodePoints}} \
 		{{if mod0 $i 20}}
 		{{end}} \
-		'{{printf "%c" .}}',\
+		'{{printf "%c" .}}', \
 	{{end}}
 }
 
