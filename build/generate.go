@@ -193,15 +193,26 @@ func GenerateGo(zones map[string]*Zone) error {
 		z.TagBits = tagBits(tagValues, z.Tags)
 	}
 
-	ranges := len(codePoints) / 2
 	var singles int
+	var gap int
+	var max CodeRange
 	for i := 0; i < len(codePoints); i += 2 {
 		if codePoints[i] == codePoints[i+1] {
 			singles++
+		} else {
+			n := int(codePoints[i+1] - codePoints[i])
+			gap += n
+			if n > int(max.Hi-max.Lo) {
+				max.Lo = codePoints[i]
+				max.Hi = codePoints[i+1]
+			}
 		}
 	}
+	ranges := len(codePoints) / 2
 	pct := float64(singles) / float64(ranges) * 100
-	color.Fprintf(os.Stderr, "@{.}%d / %d single code point ranges (%.2f%%)\n", singles, ranges, pct)
+	avg := float64(gap) / float64(ranges)
+	color.Fprintf(os.Stderr, "@{.}%d / %d single code point ranges (%.3f%%)\n", singles, ranges, pct)
+	color.Fprintf(os.Stderr, "@{.}Range average: %.3f Max: %d (%s%s)\n", avg, (max.Hi - max.Lo), string(max.Lo), string(max.Hi))
 
 	data := struct {
 		Zones      map[string]*Zone
