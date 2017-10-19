@@ -2,6 +2,38 @@ package zonedb
 
 import "testing"
 
+func TestStringInCodePoints(t *testing.T) {
+	testCases := []struct {
+		label  string
+		points []rune
+		want   bool
+	}{
+		{"caserocks", ZoneMap["com"].CodePoints, true},
+		{"cáserôckß", ZoneMap["com"].CodePoints, true},
+		{"cáserôckß", ZoneMap["com"].IDNTables["latn"], true},
+		{"caserock箋", ZoneMap["com"].CodePoints, true},
+		{"cásërock箋", ZoneMap["com"].IDNTables["ja"], false},
+		{"箋", ZoneMap["com"].IDNTables["ja"], true},
+		{"💩", ZoneMap["com"].CodePoints, false},
+		{"💩", ZoneMap["com"].IDNTables["ja"], false},
+		{"ünicødé", ZoneMap["ai"].CodePoints, false},
+	}
+	for _, tc := range testCases {
+		tc := tc
+		t.Run(tc.label, func(t *testing.T) {
+			t.Parallel()
+			got := StringInCodePoints(tc.label, tc.points)
+			if got != tc.want {
+				points := tc.points
+				if len(points) > 10 {
+					points = append(points[:10], '…')
+				}
+				t.Errorf(`Expected StringInCodePoints(%q, %q) == %t, got %t`, tc.label, points, tc.want, got)
+			}
+		})
+	}
+}
+
 type runePointsTest struct {
 	C      rune
 	Points []rune

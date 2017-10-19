@@ -1,7 +1,6 @@
 package zonedb
 
 import (
-	"errors"
 	"fmt"
 	"testing"
 	"unsafe"
@@ -58,14 +57,14 @@ func ExampleTags_And() {
 }
 
 func TestTags_String(t *testing.T) {
-	data := map[Tags]string{
+	tests := map[Tags]string{
 		(TagGeneric):                            "generic",
 		(TagWithdrawn):                          "withdrawn",
 		(TagCountry | TagGeo):                   "country geo",
 		(TagCountry | TagGeo | TagSponsored):    "country geo sponsored",
 		(TagAdult | TagGeo | TagInfrastructure): "adult geo infrastructure",
 	}
-	for tags, v := range data {
+	for tags, v := range tests {
 		g := tags.String()
 		if g != v {
 			t.Errorf(`Expected tags.String() == %q, got %q`, v, g)
@@ -81,7 +80,7 @@ func ExampleTags_String() {
 }
 
 func TestZone_WhoisServer(t *testing.T) {
-	data := map[string]string{
+	tests := map[string]string{
 		"com":    ZoneMap["net"].WhoisServer(),
 		"er":     "",
 		"uk.com": ZoneMap["us.com"].WhoisServer(),
@@ -90,7 +89,7 @@ func TestZone_WhoisServer(t *testing.T) {
 		"co.uk":  ZoneMap["uk"].WhoisServer(),
 		"org.uk": ZoneMap["uk"].WhoisServer(),
 	}
-	for k, v := range data {
+	for k, v := range tests {
 		g := ZoneMap[k].WhoisServer()
 		if g != v {
 			t.Errorf(`Expected Zones[%q].WhoisServer() == %q, got %q`, k, v, g)
@@ -99,13 +98,13 @@ func TestZone_WhoisServer(t *testing.T) {
 }
 
 func TestZone_WhoisURL(t *testing.T) {
-	data := map[string]string{
+	tests := map[string]string{
 		"com":   "",
 		"net":   "",
 		"org":   "",
 		"co.az": ZoneMap["az"].WhoisURL(),
 	}
-	for k, v := range data {
+	for k, v := range tests {
 		g := ZoneMap[k].WhoisURL()
 		if g != v {
 			t.Errorf(`Expected Zones[%q].WhoisURL() == %q, got %q`, k, v, g)
@@ -114,13 +113,13 @@ func TestZone_WhoisURL(t *testing.T) {
 }
 
 func TestZone_IsTLD(t *testing.T) {
-	data := map[string]bool{
+	tests := map[string]bool{
 		"com":    true,
 		"um":     true,
 		"co.uk":  false,
 		"org.br": false,
 	}
-	for k, v := range data {
+	for k, v := range tests {
 		g := ZoneMap[k].IsTLD()
 		if g != v {
 			t.Errorf(`Expected Zones[%q].IsTLD() == %t, got %t`, k, v, g)
@@ -129,7 +128,7 @@ func TestZone_IsTLD(t *testing.T) {
 }
 
 func TestZone_IsDelegated(t *testing.T) {
-	data := map[string]bool{
+	tests := map[string]bool{
 		"com":    true,
 		"um":     false,
 		"yu":     false,
@@ -137,7 +136,7 @@ func TestZone_IsDelegated(t *testing.T) {
 		"org.za": true,
 		"db.za":  false,
 	}
-	for k, v := range data {
+	for k, v := range tests {
 		g := ZoneMap[k].IsDelegated()
 		if g != v {
 			t.Errorf(`Expected Zones[%q].IsDelegated() == %t, got %t`, k, v, g)
@@ -146,7 +145,7 @@ func TestZone_IsDelegated(t *testing.T) {
 }
 
 func TestZone_IsInRootZone(t *testing.T) {
-	data := map[string]bool{
+	tests := map[string]bool{
 		"com":    true,
 		"net":    true,
 		"org":    true,
@@ -155,7 +154,7 @@ func TestZone_IsInRootZone(t *testing.T) {
 		"co.uk":  false,
 		"org.br": false,
 	}
-	for k, v := range data {
+	for k, v := range tests {
 		g := ZoneMap[k].IsInRootZone()
 		if g != v {
 			t.Errorf(`Expected Zones[%q].IsInRootZone() == %t, got %t`, k, v, g)
@@ -163,25 +162,21 @@ func TestZone_IsInRootZone(t *testing.T) {
 	}
 }
 
-type idnTest struct {
-	Zone        string
-	Domain      string
-	Valid       bool
-	ValidTables []string
-	Error       error
-}
-
 func TestZone_IsValidDomain(t *testing.T) {
-	data := []idnTest{
-		{Zone: "jobs", Domain: "test.jobs", Valid: true},
+	tests := []struct {
+		Zone   string
+		Domain string
+		Valid  bool
+	}{
+		{Zone: "jobs", Domain: "test.jobs", Valid: false},
 		{Zone: "jobs", Domain: "tést.jobs", Valid: false},
 		{Zone: "jobs", Domain: "test.com", Valid: false},
-		{Zone: "com", Domain: "test.com", Valid: true},
-		{Zone: "com", Domain: "tést.com", Valid: true},
+		{Zone: "com", Domain: "test.com", Valid: false},
+		{Zone: "com", Domain: "tést.com", Valid: false},
 		{Zone: ToASCII("рф"), Domain: ToASCII("russia.рф"), Valid: false},
-		{Zone: ToASCII("рф"), Domain: ToASCII("россия.рф"), Valid: true},
+		{Zone: ToASCII("рф"), Domain: ToASCII("россия.рф"), Valid: false},
 	}
-	for _, d := range data {
+	for _, d := range tests {
 		res := ZoneMap[d.Zone].IsValidDomain(d.Domain)
 		if res != d.Valid {
 			t.Errorf(`Expected Zones[%q].IsValidDomain(%q) == %t, got %t`, d.Zone, d.Domain, d.Valid, res)
@@ -190,17 +185,21 @@ func TestZone_IsValidDomain(t *testing.T) {
 }
 
 func TestZone_IDNTable(t *testing.T) {
-	data := []idnTest{
-		{Zone: "jobs", Domain: "test.jobs", ValidTables: []string{""}},
-		{Zone: "jobs", Domain: "tést.jobs", Error: errors.New("domain is not a valid member of the zone")},
-		{Zone: "jobs", Domain: "test.com", Error: errors.New("domain is not a member of the zone")},
-		{Zone: "com", Domain: "test.com", ValidTables: []string{""}},
-		{Zone: "bg", Domain: "здравей.bg", ValidTables: []string{"bg", "bg-bg", "ru", "ru-bg"}},
-		{Zone: "bg", Domain: "здравей.всё.bg", ValidTables: []string{"ru", "ru-bg"}},
-		{Zone: "bg", Domain: "tést.bg", Error: errors.New("domain is not a valid member of the zone")},
+	tests := []struct {
+		Zone   string
+		Domain string
+		Error  error
+	}{
+		{Zone: "jobs", Domain: "test.jobs", Error: ErrDeprecated},
+		{Zone: "jobs", Domain: "tést.jobs", Error: ErrDeprecated},
+		{Zone: "jobs", Domain: "test.com", Error: ErrDeprecated},
+		{Zone: "com", Domain: "test.com", Error: ErrDeprecated},
+		{Zone: "bg", Domain: "здравей.bg", Error: ErrDeprecated},
+		{Zone: "bg", Domain: "здравей.всё.bg", Error: ErrDeprecated},
+		{Zone: "bg", Domain: "tést.bg", Error: ErrDeprecated},
 	}
-	for _, d := range data {
-		table, err := ZoneMap[d.Zone].IDNTable(d.Domain)
+	for _, d := range tests {
+		_, err := ZoneMap[d.Zone].IDNTable(d.Domain)
 		if err != nil && d.Error == nil {
 			t.Errorf(`Expected Zones[%q].IDNTable(%q) to not error, got %q`, d.Zone, d.Domain, err.Error())
 		} else if err == nil && d.Error != nil {
@@ -208,23 +207,11 @@ func TestZone_IDNTable(t *testing.T) {
 		} else if err != nil && d.Error != nil && err.Error() != d.Error.Error() {
 			t.Errorf(`Expected Zones[%q].IDNTable(%q) to error with %q, got %q`, d.Zone, d.Domain, d.Error.Error(), err.Error())
 		}
-		if len(d.ValidTables) > 0 {
-			found := false
-			for _, validTable := range d.ValidTables {
-				if table == validTable {
-					found = true
-					break
-				}
-			}
-			if !found {
-				t.Errorf(`Expected Zones[%q].IDNTable(%q) table in %q, got %q`, d.Zone, d.Domain, d.ValidTables, table)
-			}
-		}
 	}
 }
 
 func TestZone_AllowsRegistration(t *testing.T) {
-	data := map[string]bool{
+	tests := map[string]bool{
 		"com":          true,
 		"net":          true,
 		"org":          true,
@@ -236,7 +223,7 @@ func TestZone_AllowsRegistration(t *testing.T) {
 		"co.uk":        true,
 		"in-addr.arpa": false,
 	}
-	for k, v := range data {
+	for k, v := range tests {
 		g := ZoneMap[k].AllowsRegistration()
 		if g != v {
 			t.Errorf(`Expected Zones[%q].AllowsRegistration() == %t, got %t`, k, v, g)
@@ -245,7 +232,7 @@ func TestZone_AllowsRegistration(t *testing.T) {
 }
 
 func TestIsZone(t *testing.T) {
-	data := map[string]bool{
+	tests := map[string]bool{
 		"com":                true,
 		"um":                 true,
 		"xn--node":           true,
@@ -253,7 +240,7 @@ func TestIsZone(t *testing.T) {
 		"org.br":             true,
 		"hashtag-not-a-zone": false,
 	}
-	for k, v := range data {
+	for k, v := range tests {
 		g := IsZone(k)
 		if g != v {
 			t.Errorf(`Expected IsZone(%q) == %t, got %t`, k, v, g)
@@ -262,7 +249,7 @@ func TestIsZone(t *testing.T) {
 }
 
 func TestIsTLD(t *testing.T) {
-	data := map[string]bool{
+	tests := map[string]bool{
 		"com":                true,
 		"um":                 true,
 		"xn--node":           true,
@@ -270,7 +257,7 @@ func TestIsTLD(t *testing.T) {
 		"org.br":             false,
 		"hashtag-not-a-zone": false,
 	}
-	for k, v := range data {
+	for k, v := range tests {
 		g := IsTLD(k)
 		if g != v {
 			t.Errorf(`Expected IsTLD(%q) == %t, got %t`, k, v, g)
@@ -279,7 +266,7 @@ func TestIsTLD(t *testing.T) {
 }
 
 func TestPublicZone(t *testing.T) {
-	data := map[string]*Zone{
+	tests := map[string]*Zone{
 		"com":           ZoneMap["com"],
 		".com":          ZoneMap["com"],
 		"foobar.com":    ZoneMap["com"],
@@ -290,7 +277,7 @@ func TestPublicZone(t *testing.T) {
 		"COM":           nil,
 		"bar.გე":        nil,
 	}
-	for k, v := range data {
+	for k, v := range tests {
 		g := PublicZone(k)
 		if g != v {
 			t.Errorf(`Expected List.PublicSuffix(%q) == %v, got %v`, k, v, g)
@@ -299,7 +286,7 @@ func TestPublicZone(t *testing.T) {
 }
 
 func TestList_PublicSuffix(t *testing.T) {
-	data := map[string]string{
+	tests := map[string]string{
 		"com":           "com",
 		".com":          "com",
 		"foobar.com":    "com",
@@ -310,7 +297,7 @@ func TestList_PublicSuffix(t *testing.T) {
 		"COM":           "COM",
 		"bar.გე":        "bar.გე",
 	}
-	for k, v := range data {
+	for k, v := range tests {
 		g := List.PublicSuffix(k)
 		if g != v {
 			t.Errorf(`Expected List.PublicSuffix(%q) == %q, got %q`, k, v, g)

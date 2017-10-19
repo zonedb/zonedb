@@ -3,8 +3,6 @@ package zonedb
 import (
 	"errors"
 	"strings"
-
-	"golang.org/x/net/idna"
 )
 
 //go:generate go run build/cmd/zonedb/main.go -generate-go
@@ -120,72 +118,28 @@ func (z *Zone) IsInRootZone() bool {
 	return z.IsTLD() && z.IsDelegated()
 }
 
-// Checks to see if a domain is valid according to character set restriction
-// on the zone.
-// Input must be normalized by the client (lowercase, ASCII-encoded).
-func (z *Zone) IsValidDomain(domain string) bool {
-	if !z.isSubdomain(domain) {
-		return false
-	}
-	if len(z.CodePoints) == 0 {
-		return true
-	}
-	// Don't check the suffix since we've already done that
-	return labelsInCodePoints(z.unicodeLabels(domain), z.CodePoints)
+// IsValidDomain is a deprecated API and retained only for API compatibility.
+// It returns false for all input.
+// This method may be removed in the future.
+func (z *Zone) IsValidDomain(s string) bool {
+	return false
 }
 
-var ErrNotSubdomain = errors.New("domain is not a member of the zone")
-
-// Return the IDN table language the domain matches. Returns an empty string
-// if no IDN tables are defined for the zone or if the domain is not an IDN.
-// Input must be normalized by the client (lowercase, ASCII-encoded).
-func (z *Zone) IDNTable(domain string) (lang string, err error) {
-	if !z.isSubdomain(domain) {
-		return "", ErrNotSubdomain
-	}
-
-	// A blank IDN table language indicates no IDN tables are present
-	if len(z.CodePoints) == 0 {
-		return "", nil
-	}
-
-	// Don't check the suffix since we've already done that, and make sure
-	// we are working with the unicode form, since the ASCII form will never
-	// match an IDN table
-	labels := z.unicodeLabels(domain)
-
-	// Ensure it is an IDN
-	if labelsInCodePoints(labels, asciiCodePoints) {
-		return "", nil
-	}
-
-	if !labelsInCodePoints(labels, z.CodePoints) {
-		return "", errors.New("domain is not a valid member of the zone")
-	}
-
-	for lang, points := range z.IDNTables {
-		if labelsInCodePoints(labels, points) {
-			return lang, nil
-		}
-	}
-
-	return "", errors.New("domain is not a valid IDN of the zone")
+// IDNTable is deprecated and retained for API compatibility only.
+// It will return an error (ErrDeprecated) for all input.
+// This method may be removed in the future.
+func (z *Zone) IDNTable(domain string) (string, error) {
+	return "", ErrDeprecated
 }
 
-func (z *Zone) isSubdomain(domain string) bool {
-	if len(domain) < len(z.Domain)+2 {
-		return false
-	}
-	if domain[len(domain)-len(z.Domain)-1] != '.' {
-		return false
-	}
-	return strings.HasSuffix(domain, z.Domain)
-}
+var (
+	// ErrNotSubdomain is deprecated and retained for API compatibility only.
+	// This symbol may be removed in a future version.
+	ErrNotSubdomain = errors.New("domain is not a member of the zone")
 
-func (z *Zone) unicodeLabels(domain string) []string {
-	prefix, _ := idna.ToUnicode(domain[:len(domain)-len(z.Domain)-1])
-	return strings.Split(prefix, ".")
-}
+	// ErrDeprecated is returned when a deprecated function or method is called.
+	ErrDeprecated = errors.New("deprecated API")
+)
 
 // AllowsRegistration returns true if the Zone’s authority (registry)
 // permits registration of subdomains of this Zone. Examples:

@@ -2,16 +2,10 @@ package zonedb
 
 var asciiCodePoints = []rune("--09az")
 
-func labelsInCodePoints(labels []string, points []rune) bool {
-	for _, l := range labels {
-		if !stringInCodePoints(l, points) {
-			return false
-		}
-	}
-	return true
-}
-
-func stringInCodePoints(s string, points []rune) bool {
+// StringInCodePoints determines if a string falls within the range(s) specified in points.
+// Points must be an even-numbered set of sorted Unicode code points (low, high).
+// Note: This is an experimental API and may change.
+func StringInCodePoints(s string, points []rune) bool {
 	min := rune('\U0010FFFF')
 	max := rune(0)
 
