@@ -44,18 +44,14 @@ func runeInCodePoints(c rune, points []rune) bool {
 }
 
 func linearRuneInCodePoints(c rune, points []rune) bool {
-	i := 0
 	end := len(points) - 1
-
 	if c > points[end] || c < points[0] {
 		return false
 	}
-
-	for i < end {
+	for i := 0; i < end; i += 2 {
 		if c >= points[i] && c <= points[i+1] {
 			return true
 		}
-		i += 2
 	}
 	return false
 }

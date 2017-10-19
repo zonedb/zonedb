@@ -52,11 +52,11 @@ type Zone struct {
 	// Slice of subdomain (child) Zones (nil if empty)
 	Subdomains []Zone
 
-	// Unicode codepoint ranges allowed by the registry.
+	// Unicode code point ranges allowed by the registry
 	// Alternating low, high (inclusive)
 	CodePoints []rune
 
-	// A map of language to codepoint ranges allowed by the registry for IDNs
+	// A map of language to code point ranges allowed by the registry for IDNs
 	IDNTables map[string][]rune
 
 	// DNS name servers for the Zone
@@ -74,7 +74,7 @@ type Zone struct {
 	// Informational URL for this Zone
 	InfoURL string
 
-	// Tags stored as an integer bit field.
+	// Tags stored as an integer bit field
 	Tags Tags
 }
 

@@ -26,7 +26,7 @@ var asciiRunePointsData = []runePointsTest{
 	{C: 'ø', Points: asciiCodePoints, Result: false},
 }
 
-var unicodeCodePoints = []rune{'-', '-', '0', '9', 'а', 'ъ', 'ь', 'ь', 'ю', 'я'}
+var unicodeCodePoints = []rune("--09аъььюя")
 
 var unicodeRunePointsData = []runePointsTest{
 	{C: 0, Points: unicodeCodePoints, Result: false},
@@ -39,12 +39,12 @@ var unicodeRunePointsData = []runePointsTest{
 	{C: 'й', Points: unicodeCodePoints, Result: true},
 	{C: 'в', Points: unicodeCodePoints, Result: true},
 	{C: 'с', Points: unicodeCodePoints, Result: true},
-	{C: 'ё', Points: unicodeCodePoints, Result: true},
+	{C: 'ё', Points: unicodeCodePoints, Result: false},
 	{C: '{', Points: unicodeCodePoints, Result: false},
 	{C: '~', Points: unicodeCodePoints, Result: false},
 }
 
-var manyUnicodeCodePoints = []rune{'-', '-', '0', '9', 'À', 'Á', 'Â', 'Ã', 'Ä', 'Å', 'Æ', 'Ç', 'È', 'É', 'Ê', 'Ë', 'Ì', 'Í', 'Î', 'Ï', 'Ð', 'Ñ', 'Ò', 'Ó', 'Ô', 'Õ', 'Ö', 'Ø', 'Ù', 'Ú', 'Û', 'Ü', 'Ý', 'Þ', 'Ā', 'Ă', 'Ą', 'Ć', 'Ĉ', 'Ċ', 'Č', 'Ď', 'Đ', 'Ē', 'Ĕ', 'Ė', 'Ę', 'Ě', 'Ĝ', 'Ğ', 'Ġ', 'Ģ', 'Ĥ', 'Ħ', 'Ĩ', 'Ī', 'Ĭ', 'Į', 'İ', 'Ĳ', 'Ĵ', 'Ķ', 'Ĺ', 'Ļ', 'Ľ', 'Ŀ', 'Ł', 'Ń', 'Ņ', 'Ň', 'Ŋ', 'Ō', 'Ŏ', 'Ő', 'Œ', 'Ŕ', 'Ŗ', 'Ř', 'Ś', 'Ŝ', 'Ş', 'Š', 'Ţ', 'Ť', 'Ŧ', 'Ũ', 'Ū', 'Ŭ', 'Ů', 'Ű', 'Ų', 'Ŵ', 'Ŷ', 'Ÿ', 'Ź', 'Ż', 'Ž', 'Ɓ', 'Ƃ', 'Ƅ', 'Ɔ', 'Ƈ', 'Ɖ', 'Ɗ', 'Ƌ', 'Ǝ', 'Ə', 'Ɛ', 'Ƒ', 'Ɠ', 'Ɣ', 'Ɩ', 'Ɨ', 'Ƙ', 'Ɯ', 'Ɲ', 'Ɵ', 'Ơ', 'Ƣ', 'Ƥ', 'Ʀ', 'Ƨ', 'Ʃ', 'Ƭ', 'Ʈ', 'Ư', 'Ʊ', 'Ʋ', 'Ƴ', 'Ƶ', 'Ʒ', 'Ƹ', 'Ƽ', 'Ǆ', 'Ǉ', 'Ǌ', 'Ǎ', 'Ǐ', 'Ǒ', 'Ǔ', 'Ǖ', 'Ǘ', 'Ǚ', 'Ǜ', 'Ǟ', 'Ǡ', 'Ǣ', 'Ǥ', 'Ǧ', 'Ǩ', 'Ǫ', 'Ǭ', 'Ǯ', 'Ǳ', 'Ǵ', 'Ƕ', 'Ƿ', 'Ǹ', 'Ǻ', 'Ǽ', 'Ǿ', 'Ȁ', 'Ȃ', 'Ȅ', 'Ȇ', 'Ȉ', 'Ȋ', 'Ȍ', 'Ȏ', 'Ȑ', 'Ȓ', 'Ȕ', 'Ȗ', 'Ș', 'Ȟ', 'Ƞ', 'Ȣ', 'Ȥ', 'Ȧ', 'Ȩ', 'Ȫ', 'Ȭ', 'Ȯ', 'Ȱ'}
+var manyUnicodeCodePoints = []rune("--09ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞĀĂĄĆĈĊČĎĐĒĔĖĘĚĜĞĠĢĤĦĨĪĬĮİĲĴĶĹĻĽĿŁŃŅŇŊŌŎŐŒŔŖŘŚŜŞŠŢŤŦŨŪŬŮŰŲŴŶŸŹŻŽƁƂƄƆƇƉƊƋƎƏƐƑƓƔƖƗƘƜƝƟƠƢƤƦƧƩƬƮƯƱƲƳƵƷƸƼǄǇǊǍǏǑǓǕǗǙǛǞǠǢǤǦǨǪǬǮǱǴǶǷǸǺǼǾȀȂȄȆȈȊȌȎȐȒȔȖȘȞȠȢȤȦȨȪȬȮȰ")
 
 var manyUnicodeRunePointsData = []runePointsTest{
 	{C: 0, Points: manyUnicodeCodePoints, Result: false},
@@ -62,11 +62,61 @@ var manyUnicodeRunePointsData = []runePointsTest{
 	{C: '~', Points: manyUnicodeCodePoints, Result: false},
 }
 
+var runePointsData = append(append(asciiRunePointsData, unicodeRunePointsData...), manyUnicodeRunePointsData...)
+
 func TestRuneInCodePoints(t *testing.T) {
-	for _, d := range asciiRunePointsData {
+	for _, d := range runePointsData {
 		r := runeInCodePoints(d.C, d.Points)
 		if r != d.Result {
 			t.Errorf(`Expected runeInCodePoints(%q, %q) == %t, got %t`, d.C, d.Points, d.Result, r)
+		}
+	}
+}
+
+func BenchmarkManyUnicodeLinearRuneInCodePoints(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		for _, d := range manyUnicodeRunePointsData {
+			linearRuneInCodePoints(d.C, d.Points)
+		}
+	}
+}
+
+func BenchmarkManyUnicodeBinaryRuneInCodePoints(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		for _, d := range manyUnicodeRunePointsData {
+			binaryRuneInCodePoints(d.C, d.Points)
+		}
+	}
+}
+
+func BenchmarkUnicodeLinearRuneInCodePoints(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		for _, d := range unicodeRunePointsData {
+			linearRuneInCodePoints(d.C, d.Points)
+		}
+	}
+}
+
+func BenchmarkUnicodeBinaryRuneInCodePoints(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		for _, d := range unicodeRunePointsData {
+			binaryRuneInCodePoints(d.C, d.Points)
+		}
+	}
+}
+
+func BenchmarkASCIILinearRuneInCodePoints(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		for _, d := range asciiRunePointsData {
+			linearRuneInCodePoints(d.C, d.Points)
+		}
+	}
+}
+
+func BenchmarkASCIIBinaryRuneInCodePoints(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		for _, d := range asciiRunePointsData {
+			binaryRuneInCodePoints(d.C, d.Points)
 		}
 	}
 }

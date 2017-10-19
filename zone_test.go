@@ -318,54 +318,6 @@ func TestList_PublicSuffix(t *testing.T) {
 	}
 }
 
-func BenchmarkManyUnicodeLinearRuneInCodePoints(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		for _, d := range manyUnicodeRunePointsData {
-			linearRuneInCodePoints(d.C, d.Points)
-		}
-	}
-}
-
-func BenchmarkManyUnicodeBinaryRuneInCodePoints(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		for _, d := range manyUnicodeRunePointsData {
-			binaryRuneInCodePoints(d.C, d.Points)
-		}
-	}
-}
-
-func BenchmarkUnicodeLinearRuneInCodePoints(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		for _, d := range unicodeRunePointsData {
-			linearRuneInCodePoints(d.C, d.Points)
-		}
-	}
-}
-
-func BenchmarkUnicodeBinaryRuneInCodePoints(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		for _, d := range unicodeRunePointsData {
-			binaryRuneInCodePoints(d.C, d.Points)
-		}
-	}
-}
-
-func BenchmarkAsciiLinearRuneInCodePoints(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		for _, d := range asciiRunePointsData {
-			linearRuneInCodePoints(d.C, d.Points)
-		}
-	}
-}
-
-func BenchmarkAsciiBinaryRuneInCodePoints(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		for _, d := range asciiRunePointsData {
-			binaryRuneInCodePoints(d.C, d.Points)
-		}
-	}
-}
-
 func BenchmarkInitAllocs(b *testing.B) {
 	b.ReportAllocs()
 	for i := 0; i < b.N; i++ {
