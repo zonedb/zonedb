@@ -1,6 +1,9 @@
 {
 	"domain": "ac.cd",
 	"nameServers": [
+		"ns-root-1.scpt-network.com",
+		"ns-root-2.scpt-network.com",
+		"ns-root-5.scpt-network.com",
 		"dns.princeton.edu",
 		"igubu.saix.net",
 		"sabela.saix.net",

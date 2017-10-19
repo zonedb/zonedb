@@ -16,7 +16,6 @@ func TestStringInCodePoints(t *testing.T) {
 		{"箋", ZoneMap["com"].IDNTables["ja"], true},
 		{"💩", ZoneMap["com"].CodePoints, false},
 		{"💩", ZoneMap["com"].IDNTables["ja"], false},
-		{"ünicødé", ZoneMap["ai"].CodePoints, false},
 	}
 	for _, tc := range testCases {
 		tc := tc

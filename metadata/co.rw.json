@@ -3,12 +3,14 @@
 	"nameServers": [
 		"ns-rw.afrinic.net",
 		"sns-pb.isc.org",
+		"ns3.aos.rw",
 		"ns2.mtnonline.rw",
 		"ns3.rdb.rw",
 		"fork.sth.dnsnode.net",
 		"a.rw.dyntld.net",
 		"b.rw.dyntld.net",
 		"ns1.ricta.org.rw",
+		"ns3.ricta.org.rw",
 		"pch.ricta.org.rw"
 	],
 	"codePoints": "--09az"
