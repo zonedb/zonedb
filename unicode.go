@@ -1,6 +1,6 @@
 package zonedb
 
-var asciiCodePoints = []rune{'-', '-', '0', '9', 'a', 'z'}
+var asciiCodePoints = []rune("--09az")
 
 func labelsInCodePoints(labels []string, points []rune) bool {
 	for _, l := range labels {
