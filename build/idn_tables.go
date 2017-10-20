@@ -15,6 +15,7 @@ import (
 
 var preMatcher = cascadia.MustCompile("body > pre")
 
+// FetchIDNTables updates the work zones with IDN tables from IANA.
 func FetchIDNTables(zones map[string]*Zone) error {
 	for zoneName, z := range zones {
 		if len(z.IDNTableURLs) < 1 {
@@ -45,6 +46,7 @@ func FetchIDNTables(zones map[string]*Zone) error {
 // If the value stored is nil, then we failed to parse it once, don't re-fetch on errors
 var cacheURLtoCodeTable map[string]*CodeTable
 
+// ErrAlreadyFailedToParseOnce is returned if an attempt is made to re-parse a IDN table that previously failed to parse.
 var ErrAlreadyFailedToParseOnce = errors.New("already failed to parse this URL once") // should this be a type with the URL in it?
 
 func init() {
@@ -81,13 +83,17 @@ func cachedFetchProcessIDNTable(url string) (*CodeTable, error) {
 	return table, err
 }
 
-func ProcessIDNTable(data io.Reader, isHTML bool, label string) (*CodeTable, error) {
-	unicodePrefix := []byte("U+")
-	hexPrefix := []byte("0x")
-	dot := byte('.')
-	space := byte(' ')
-	semi := byte(';')
+var (
+	unicodePrefix = []byte("U+")
+	hexPrefix     = []byte("0x")
+	dot           = byte('.')
+	space         = byte(' ')
+	semi          = byte(';')
+)
 
+// ProcessIDNTable reads and parses an IDN table from data.
+// It returns a pointer to a newly allocated CodeTable or an error.
+func ProcessIDNTable(data io.Reader, isHTML bool, label string) (*CodeTable, error) {
 	if isHTML {
 		doc, err := goquery.NewDocumentFromReader(data)
 		if err != nil {
@@ -102,7 +108,7 @@ func ProcessIDNTable(data io.Reader, isHTML bool, label string) (*CodeTable, err
 	lineNum := 0
 	for scanner.Scan() {
 		line := scanner.Bytes()
-		lineNum += 1
+		lineNum++
 
 		lineLen := len(line)
 		if lineLen < 6 {
