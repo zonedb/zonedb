@@ -47,8 +47,9 @@ func main() {
 	updateRubyWhois := flag.Bool("update-ruby-whois", false, "query Ruby Whois for whois servers")
 	updateWhois := flag.Bool("update-whois", false, "query whois-servers.net for whois servers")
 	updateIANA := flag.Bool("update-iana", false, "query IANA for metadata")
-	updateIDNTables := flag.Bool("update-idn", false, "fetch IDN tables")
+	updateIDN := flag.Bool("update-idn", false, "update IDN metadata")
 	updateIDNURLs := flag.Bool("update-idn-urls", false, "fetch list of URLs for IDN for each zone")
+	updateIDNTables := flag.Bool("update-idn-tables", false, "fetch IDN tables")
 	updateAll := flag.Bool("update", false, "update all (root zone, whois, IANA data, IDN tables)")
 
 	// Write operations
@@ -180,9 +181,7 @@ func main() {
 		}
 	}
 
-	// Explicitly _not_ under updateAll at this time, until we're confident this
-	// won't get us blacklisted on IANA's web-servers
-	if *updateIDNURLs {
+	if *updateIDNURLs || *updateIDN || *updateAll {
 		err := build.FetchIDNURLs(workZones)
 		if err != nil {
 			errs = append(errs, err)
@@ -190,9 +189,9 @@ func main() {
 		}
 	}
 
-	// Explicitly _not_ under updateAll at this time, until we're confident this
-	// won't get us blacklisted on IANA's web-servers
-	if *updateIDNTables {
+	// Explicitly _not_ under updateAll at this time, until we’re confident this
+	// won’t get us blacklisted on IANA’s web servers, or we implement caching.
+	if *updateIDNTables || *updateIDN {
 		err := build.FetchIDNTables(workZones)
 		if err != nil {
 			errs = append(errs, err)
