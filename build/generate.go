@@ -58,14 +58,14 @@ func GenerateGo(zones map[string]*Zone) error {
 			z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, z.CodePoints.Runes())
 		}
 		z.IDNCPs = make(map[string]IDNCPIndexes)
-		z.Langs = make([]string, 0, len(z.IDNTables))
-		for lang := range z.IDNTables {
-			z.Langs = append(z.Langs, lang)
+		z.IDNTableNames = make([]string, 0, len(z.IDNTables))
+		for tn := range z.IDNTables {
+			z.IDNTableNames = append(z.IDNTableNames, tn)
 		}
-		sort.Strings(z.Langs)
-		for _, lang := range z.Langs {
-			idnOffset, idnEnd := IndexOrAppendRunes(&codePoints, z.IDNTables[lang].Runes())
-			z.IDNCPs[lang] = IDNCPIndexes{idnOffset, idnEnd}
+		sort.Strings(z.IDNTableNames)
+		for _, tn := range z.IDNTableNames {
+			idnOffset, idnEnd := IndexOrAppendRunes(&codePoints, z.IDNTables[tn].Runes())
+			z.IDNCPs[tn] = IDNCPIndexes{idnOffset, idnEnd}
 		}
 		z.TagBits = tagBits(tagValues, z.Tags)
 	}
@@ -240,9 +240,9 @@ var _y = [{{len .Zones}}]Zone{
 			{{if $z.CPEnd}} _c[{{$z.CPOffset}}:{{$z.CPEnd}}] {{else}} nil {{end}}, \
 			{{if $z.IDNCPs}} \
 				IDNT{ \
-				{{range $idnLang := $z.Langs}} \
-					{{$idnCPIndexes := (index $z.IDNCPs $idnLang)}} \
-					"{{ascii $idnLang}}": _c[{{index $idnCPIndexes 0}}:{{index $idnCPIndexes 1}}], \
+				{{range $tn := $z.IDNTableNames}} \
+					{{$idnCPIndexes := (index $z.IDNCPs $tn)}} \
+					"{{ascii $tn}}": _c[{{index $idnCPIndexes 0}}:{{index $idnCPIndexes 1}}], \
 				{{end}} \
 				} \
 			{{else}} \

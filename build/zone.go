@@ -28,7 +28,7 @@ type Zone struct {
 	// Exported for use in text/template
 	POffset, SOffset, SEnd int                     `json:"-"`
 	CPOffset, CPEnd        int                     `json:"-"`
-	Langs                  []string                `json:"-"`
+	IDNTableNames          []string                `json:"-"`
 	IDNCPs                 map[string]IDNCPIndexes `json:"-"`
 	TagBits                uint64                  `json:"-"`
 }
