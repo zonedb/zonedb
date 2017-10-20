@@ -130,7 +130,7 @@ func ProcessIDNTable(data io.Reader, isHTML bool, label string) (*CodeTable, err
 			matchedLine = true
 
 			// Some have no prefix, but are four hex chars followed by ;
-		} else if line[offset+4] == semi && isHexBytes(line[offset:offset+4]) {
+		} else if len(line) > offset+4 && line[offset+4] == semi && isHexBytes(line[offset:offset+4]) {
 			matchedLine = true
 			prefixLen = 0
 		}
