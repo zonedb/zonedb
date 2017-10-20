@@ -162,54 +162,6 @@ func TestZone_IsInRootZone(t *testing.T) {
 	}
 }
 
-func TestZone_IsValidDomain(t *testing.T) {
-	tests := []struct {
-		Zone   string
-		Domain string
-		Valid  bool
-	}{
-		{Zone: "jobs", Domain: "test.jobs", Valid: false},
-		{Zone: "jobs", Domain: "tést.jobs", Valid: false},
-		{Zone: "jobs", Domain: "test.com", Valid: false},
-		{Zone: "com", Domain: "test.com", Valid: false},
-		{Zone: "com", Domain: "tést.com", Valid: false},
-		{Zone: ToASCII("рф"), Domain: ToASCII("russia.рф"), Valid: false},
-		{Zone: ToASCII("рф"), Domain: ToASCII("россия.рф"), Valid: false},
-	}
-	for _, d := range tests {
-		res := ZoneMap[d.Zone].IsValidDomain(d.Domain)
-		if res != d.Valid {
-			t.Errorf(`Expected Zones[%q].IsValidDomain(%q) == %t, got %t`, d.Zone, d.Domain, d.Valid, res)
-		}
-	}
-}
-
-func TestZone_IDNTable(t *testing.T) {
-	tests := []struct {
-		Zone   string
-		Domain string
-		Error  error
-	}{
-		{Zone: "jobs", Domain: "test.jobs", Error: ErrDeprecated},
-		{Zone: "jobs", Domain: "tést.jobs", Error: ErrDeprecated},
-		{Zone: "jobs", Domain: "test.com", Error: ErrDeprecated},
-		{Zone: "com", Domain: "test.com", Error: ErrDeprecated},
-		{Zone: "bg", Domain: "здравей.bg", Error: ErrDeprecated},
-		{Zone: "bg", Domain: "здравей.всё.bg", Error: ErrDeprecated},
-		{Zone: "bg", Domain: "tést.bg", Error: ErrDeprecated},
-	}
-	for _, d := range tests {
-		_, err := ZoneMap[d.Zone].IDNTable(d.Domain)
-		if err != nil && d.Error == nil {
-			t.Errorf(`Expected Zones[%q].IDNTable(%q) to not error, got %q`, d.Zone, d.Domain, err.Error())
-		} else if err == nil && d.Error != nil {
-			t.Errorf(`Expected Zones[%q].IDNTable(%q) to error with %q, got nothing`, d.Zone, d.Domain, d.Error.Error())
-		} else if err != nil && d.Error != nil && err.Error() != d.Error.Error() {
-			t.Errorf(`Expected Zones[%q].IDNTable(%q) to error with %q, got %q`, d.Zone, d.Domain, d.Error.Error(), err.Error())
-		}
-	}
-}
-
 func TestZone_AllowsRegistration(t *testing.T) {
 	tests := map[string]bool{
 		"com":          true,

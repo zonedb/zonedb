@@ -1,7 +1,6 @@
 package zonedb
 
 import (
-	"errors"
 	"strings"
 )
 
@@ -118,28 +117,11 @@ func (z *Zone) IsInRootZone() bool {
 	return z.IsTLD() && z.IsDelegated()
 }
 
-// IsValidDomain is a deprecated API and retained only for API compatibility.
-// It returns false for all input.
-// This method may be removed in the future.
-func (z *Zone) IsValidDomain(s string) bool {
-	return false
-}
-
-// IDNTable is deprecated and retained for API compatibility only.
-// It will return an error (ErrDeprecated) for all input.
-// This method may be removed in the future.
-func (z *Zone) IDNTable(domain string) (string, error) {
-	return "", ErrDeprecated
-}
-
-var (
-	// ErrNotSubdomain is deprecated and retained for API compatibility only.
-	// This symbol may be removed in a future version.
-	ErrNotSubdomain = errors.New("domain is not a member of the zone")
-
-	// ErrDeprecated is returned when a deprecated function or method is called.
-	ErrDeprecated = errors.New("deprecated API")
-)
+// IsValidDomain and IDNTable have been removed. We searched for public code
+// on GitHub that imported the zonedb package and found no open-source clients
+// using these methods. We recommend using the StringInCodePoints function
+// in lieu of IsValidDomain or IDNTable for their implied purpose of determining
+// if a _label_ is contained within a zone’s code point ranges.
 
 // AllowsRegistration returns true if the Zone’s authority (registry)
 // permits registration of subdomains of this Zone. Examples:
