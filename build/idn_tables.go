@@ -66,13 +66,17 @@ func cachedFetchProcessIDNTable(url string) (*CodeTable, error) {
 	}
 
 	if Verbose {
-		Trace("fetching %q\n", url)
+		Trace("@{.}Fetching IDN table: %s ", url)
 	}
 	res, err := Fetch(url)
 	if err != nil {
+		if Verbose {
+			Trace("@{r}error: %s\n", err)
+		}
 		cacheURLtoCodeTable[url] = nil
 		return nil, err
 	}
+	Trace("@{g}ok\n")
 	defer res.Body.Close()
 	table, err := ProcessIDNTable(res.Body, strings.HasSuffix(url, ".html"), url)
 	if err == nil {
