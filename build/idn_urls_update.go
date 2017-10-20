@@ -77,7 +77,6 @@ func FetchIDNURLs(zones map[string]*Zone) error {
 		}
 		zone = zone[1:]
 		if _, have := zones[zone]; !have {
-			Trace("@{r}FetchIDNLists: unrecognized zone %q\n", zone)
 			return
 		}
 		if zones[zone].IDNTableURLs == nil {
