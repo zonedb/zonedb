@@ -25,6 +25,9 @@ type Zone struct {
 	ProhibitIDN  bool                 `json:"prohibitIDN,omitempty"`
 	Subdomains   []string             `json:"-"`
 
+	// Internal use
+	prevIDNTableURLs map[string]string
+
 	// Exported for use in text/template
 	POffset, SOffset, SEnd int                     `json:"-"`
 	CPOffset, CPEnd        int                     `json:"-"`

@@ -16,15 +16,22 @@ import (
 var preMatcher = cascadia.MustCompile("body > pre")
 
 // FetchIDNTables updates the work zones with IDN tables from IANA.
-func FetchIDNTables(zones map[string]*Zone) error {
-	for zoneName, z := range zones {
+func FetchIDNTables(zones map[string]*Zone, updateAll bool) error {
+	for _, z := range zones {
 		if len(z.IDNTableURLs) < 1 {
 			continue
 		}
 		if Verbose {
-			Trace("FetchIDNTables(%s): have %d URLs\n", zoneName, len(z.IDNTableURLs))
+			Trace("FetchIDNTables(%s): have %d URLs\n", z.Domain, len(z.IDNTableURLs))
 		}
-		for lang, url := range z.IDNTableURLs {
+		for tableName, url := range z.IDNTableURLs {
+			if url == z.prevIDNTableURLs[tableName] {
+				if Verbose {
+					Trace("@{.}Skipping IDN table %s/%s\n", z.Domain, tableName)
+				}
+				continue // skip already fetched URLs
+			}
+
 			table, err := cachedFetchProcessIDNTable(url)
 			if err != nil {
 				LogWarning(err)
@@ -34,12 +41,12 @@ func FetchIDNTables(zones map[string]*Zone) error {
 			if len(z.IDNTables) == 0 {
 				z.IDNTables = make(map[string]CodeTable)
 			}
-			z.IDNTables[lang] = *table
+			z.IDNTables[tableName] = *table
 			z.CodePoints.AppendTable(table)
 		}
 		z.CodePoints.Compress()
 	}
-	Trace("@{.}FetchIDNTables: updated %d zones from %d distinct codetable URLs\n", len(zones), len(cacheURLtoCodeTable))
+	Trace("@{.}Updated %d distinct IDN tables for %d zone(s)\n", len(cacheURLtoCodeTable), len(zones))
 	return nil
 }
 

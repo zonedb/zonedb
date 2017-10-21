@@ -45,16 +45,16 @@ func FetchIDNURLs(zones map[string]*Zone) error {
 	)
 	doc.Find("body table#idn-table > tbody > tr > td:first-child").Each(func(i int, s *goquery.Selection) {
 		atomic.AddUint64(&matchCount, 1)
-		zone := s.Find("span").Text()
+		domain := s.Find("span").Text()
 		forLabel := s.Find("a").Text()
 		if forLabel == "" {
-			forLabel = zone
+			forLabel = domain
 		}
 		partURL, exists := s.Find("a[href]").Attr("href")
 		if !exists {
 			forLabel := s.Find("a").Text()
 			if forLabel == "" {
-				forLabel = zone
+				forLabel = domain
 			}
 			Trace("@{r}FetchIDNLists: missing href for %q\n", forLabel)
 			return
@@ -69,27 +69,31 @@ func FetchIDNURLs(zones map[string]*Zone) error {
 			Trace("@{y}FetchIDNLists: unhandled XML URL for %q: %q\n", forLabel, u.String())
 		}
 
-		// At this point, "zone" looks like ".<tld>" and u should have u.String() which is an absolute working URL
+		// At this point, "domain" looks like ".<tld>" and u should have u.String() which is an absolute working URL
 		// The partURL's last component, after directory-separator, looks like "<tld>_<languagetag>_<version.info>.txt"
-		if zone[0] != '.' {
-			Trace("@{r}FetchIDNLists: bad zone %q\n", zone)
+		if domain[0] != '.' {
+			Trace("@{r}FetchIDNLists: bad domain name %q\n", domain)
 			return
 		}
-		zone = zone[1:]
-		if _, have := zones[zone]; !have {
+		domain = domain[1:] // trim dot
+		z, ok := zones[domain]
+		if !ok {
 			return
 		}
-		if zones[zone].IDNTableURLs == nil {
-			zones[zone].IDNTableURLs = make(map[string]string)
+		if z.prevIDNTableURLs == nil {
+			z.prevIDNTableURLs = z.IDNTableURLs // save previous URLs
+		}
+		if z.IDNTableURLs == nil {
+			z.IDNTableURLs = make(map[string]string)
 		}
 
 		language := languageFromURL(partURL)
 		if language == "" {
-			Trace("@{r}FetchIDNLists: for zone %q unable to extract language from %q\n", zone, partURL)
+			Trace("@{r}FetchIDNLists: unable to extract language for zone %q from %s\n", domain, partURL)
 			return
 		}
 
-		zones[zone].IDNTableURLs[language] = u.String()
+		z.IDNTableURLs[language] = u.String()
 		atomic.AddUint64(&extractedCount, 1)
 	})
 	Trace("@{.}FetchIDNLists: saw %d matches, extracted %d entries\n", matchCount, extractedCount)
