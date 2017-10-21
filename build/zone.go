@@ -27,6 +27,7 @@ type Zone struct {
 
 	// Internal use
 	prevIDNTableURLs map[string]string
+	m                sync.Mutex
 
 	// Exported for use in text/template
 	POffset, SOffset, SEnd int                     `json:"-"`
