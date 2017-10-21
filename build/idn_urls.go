@@ -80,9 +80,6 @@ func FetchIDNURLs(zones map[string]*Zone) error {
 		if !ok {
 			return
 		}
-		if z.prevIDNTableURLs == nil {
-			z.prevIDNTableURLs = z.IDNTableURLs // save previous URLs
-		}
 		if z.IDNTableURLs == nil {
 			z.IDNTableURLs = make(map[string]string)
 		}
