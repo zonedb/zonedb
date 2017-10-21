@@ -12,8 +12,175 @@ import (
 	"github.com/wsxiaoys/terminal/color"
 )
 
+// GenerateGo generates a Go source representation of ZoneDB.
+func GenerateGo(zones map[string]*Zone) error {
+	tlds := TLDs(zones)
+	domains := SortedDomains(zones)
+	offsets := make(map[string]int, len(domains))
+
+	tagSet := NewSet()
+	for i, d := range domains {
+		offsets[d] = i
+		z := zones[d]
+		tagSet.Add(z.Tags...)
+	}
+	tags := tagSet.Values()
+	sort.Strings(tags)
+	tagValues := make(map[string]uint64)
+	for i, t := range tags {
+		tagValues[t] = 1 << uint64(i)
+	}
+	tagType := "uint32"
+	if len(tags) > 32 {
+		tagType = "uint64"
+	}
+
+	// Sort domains by number of code points
+	cpDomains := make([]string, len(domains))
+	copy(cpDomains, domains)
+	// Disabled for now (it doesn’t meaningfully change size of generated code)
+	// sort.SliceStable(cpDomains, func(i, j int) bool {
+	// 	return len(zones[cpDomains[j]].CodePoints) < len(zones[cpDomains[i]].CodePoints)
+	// })
+
+	var codePoints []rune
+	for _, d := range cpDomains {
+		z := zones[d]
+		z.Normalize() // just in case
+		z.POffset = offsets[z.ParentDomain()]
+		if len(z.Subdomains) > 0 {
+			z.SOffset = offsets[z.Subdomains[0]]
+			z.SEnd = z.SOffset + len(z.Subdomains)
+		}
+		if z.ProhibitIDN {
+			z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, ASCII.Runes())
+		} else {
+			z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, z.CodePoints.Runes())
+		}
+		z.IDNCPs = make(map[string]IDNCPIndexes)
+		z.IDNTableNames = make([]string, 0, len(z.IDNTables))
+		for tn := range z.IDNTables {
+			z.IDNTableNames = append(z.IDNTableNames, tn)
+		}
+		sort.Strings(z.IDNTableNames)
+		for _, tn := range z.IDNTableNames {
+			idnOffset, idnEnd := IndexOrAppendRunes(&codePoints, z.IDNTables[tn].Runes())
+			z.IDNCPs[tn] = IDNCPIndexes{idnOffset, idnEnd}
+		}
+		z.TagBits = tagBits(tagValues, z.Tags)
+	}
+
+	var singles int
+	var gap int
+	var max CodeRange
+	for i := 0; i < len(codePoints); i += 2 {
+		if codePoints[i] == codePoints[i+1] {
+			singles++
+		} else {
+			n := int(codePoints[i+1] - codePoints[i])
+			gap += n
+			if n > int(max.Hi-max.Lo) {
+				max.Lo = codePoints[i]
+				max.Hi = codePoints[i+1]
+			}
+		}
+	}
+	ranges := len(codePoints) / 2
+	pct := float64(singles) / float64(ranges) * 100
+	avg := float64(gap) / float64(ranges)
+	color.Fprintf(os.Stderr, "@{.}%d / %d single code point ranges (%.3f%%)\n", singles, ranges, pct)
+	color.Fprintf(os.Stderr, "@{.}Range average: %.3f Max: %d (%s%s)\n", avg, (max.Hi - max.Lo), string(max.Lo), string(max.Hi))
+
+	data := struct {
+		Zones      map[string]*Zone
+		TLDs       map[string]*Zone
+		Domains    []string
+		Offsets    map[string]int
+		CodePoints []rune
+		TagType    string
+		Tags       []string
+		TagValues  map[string]uint64
+	}{
+		zones,
+		tlds,
+		domains,
+		offsets,
+		codePoints,
+		tagType,
+		tags,
+		tagValues,
+	}
+
+	err := generate("zones.go", zonesGoSrc, &data)
+	if err != nil {
+		return err
+	}
+	err = generate("codepoints.go", codepointsGoSrc, &data)
+	if err != nil {
+		return err
+	}
+
+	return nil
+}
+
+// Helper funcs
+
+func cont(s string) string {
+	return strings.Replace(s, "\\\n", "", -1)
+}
+
+func odd(i int) bool {
+	return (i & 0x1) != 0
+}
+
+func mod0(i, radix int) bool {
+	return (i % radix) == 0
+}
+
+var lastC rune
+
+func rewound(c rune) (out bool) {
+	if c < lastC {
+		out = true
+	}
+	lastC = c
+	return
+}
+
+var (
+	funcMap = template.FuncMap{
+		"odd":     odd,
+		"mod0":    mod0,
+		"rewound": rewound,
+		"title":   strings.Title,
+		"ascii":   ToASCII,
+	}
+)
+
+func generate(fn, src string, data interface{}) error {
+	t := template.Must(template.New("").Funcs(funcMap).Parse(cont(src)))
+	buf := new(bytes.Buffer)
+	err := t.Execute(buf, data)
+	if err != nil {
+		return err
+	}
+	formatted, err := format.Source(buf.Bytes())
+	if err != nil {
+		return err
+	}
+	fn = filepath.Join(BaseDir, fn)
+	color.Fprintf(os.Stderr, "@{.}Generating Go source code: %s\n", fn)
+	f, err := os.Create(fn)
+	if err != nil {
+		return err
+	}
+	defer f.Close()
+	_, err = f.Write(formatted)
+	return err
+}
+
 const (
-	goSrc = `// Automatically generated
+	zonesGoSrc = `// Automatically generated
 
 package zonedb
 
@@ -51,16 +218,6 @@ var TagValues  = map[string]Tags{
 	{{end }}
 }
 
-// _c stores Unicode code point ranges allowed in each Zone by the registry.
-// Rune values alternate low, high.
-var _c = [{{len .CodePoints}}]rune{
-	{{range $i, $cp := .CodePoints}} \
-		'{{printf "%c" .}}', \
-		{{if odd $i}}
-		{{end}} \
-	{{end}} \
-}
-
 // Zones is a slice of all Zones in the database.
 var Zones = _z[:]
 
@@ -83,8 +240,9 @@ var _y = [{{len .Zones}}]Zone{
 			{{if $z.CPEnd}} _c[{{$z.CPOffset}}:{{$z.CPEnd}}] {{else}} nil {{end}}, \
 			{{if $z.IDNCPs}} \
 				IDNT{ \
-				{{range $idnLang, $idnCPIndexes := $z.IDNCPs}} \
-					"{{ascii $idnLang}}": _c[{{index $idnCPIndexes 0}}:{{index $idnCPIndexes 1}}], \
+				{{range $tn := $z.IDNTableNames}} \
+					{{$idnCPIndexes := (index $z.IDNCPs $tn)}} \
+					"{{ascii $tn}}": _c[{{index $idnCPIndexes 0}}:{{index $idnCPIndexes 1}}], \
 				{{end}} \
 				} \
 			{{else}} \
@@ -110,108 +268,17 @@ var ZoneMap = map[string]*Zone{
 	{{end}} \
 }
 `
+
+	codepointsGoSrc = `// Automatically generated
+
+package zonedb
+
+// _c stores Unicode code point ranges allowed in each Zone by the registry.
+// Rune values alternate low, high.
+var _c = []rune("{{range .CodePoints}}{{printf "%c" .}}{{end}}")
+`
 )
 
-func cont(s string) string {
-	return strings.Replace(s, "\\\n", "", -1)
-}
-
-func odd(i int) bool {
-	return (i & 0x1) != 0
-}
-
-var (
-	funcMap = template.FuncMap{
-		"odd":   odd,
-		"title": strings.Title,
-		"ascii": ToASCII,
-	}
-	goTemplate = template.Must(template.New("").Funcs(funcMap).Parse(cont(goSrc)))
-)
-
-func GenerateGo(zones map[string]*Zone) error {
-	tlds := TLDs(zones)
-	domains := SortedDomains(zones)
-	offsets := make(map[string]int, len(domains))
-	tagSet := NewSet()
-	for i, d := range domains {
-		offsets[d] = i
-		z := zones[d]
-		tagSet.Add(z.Tags...)
-	}
-	tags := tagSet.Values()
-	sort.Strings(tags)
-	tagValues := make(map[string]uint64)
-	for i, t := range tags {
-		tagValues[t] = 1 << uint64(i)
-	}
-	var nameServers []string
-	var codePoints []rune
-	var idnOffset, idnEnd int
-	for _, d := range domains {
-		z := zones[d]
-		z.Normalize() // just in case
-		z.POffset = offsets[z.ParentDomain()]
-		if len(z.Subdomains) > 0 {
-			z.SOffset = offsets[z.Subdomains[0]]
-			z.SEnd = z.SOffset + len(z.Subdomains)
-		}
-		z.CPOffset, z.CPEnd = IndexOrAppendRunes(&codePoints, z.CodePoints.Runes())
-		z.IDNCPs = make(map[string]IDNCPIndexes)
-		for lang, langCodePoints := range z.IDNTables {
-			idnOffset, idnEnd = IndexOrAppendRunes(&codePoints, langCodePoints.Runes())
-			z.IDNCPs[lang] = IDNCPIndexes{idnOffset, idnEnd}
-		}
-		z.TagBits = tagBits(tagValues, z.Tags)
-	}
-	tagType := "uint32"
-	if len(tags) > 32 {
-		tagType = "uint64"
-	}
-
-	data := struct {
-		Zones       map[string]*Zone
-		TLDs        map[string]*Zone
-		Domains     []string
-		Offsets     map[string]int
-		NameServers []string
-		CodePoints  []rune
-		TagType     string
-		Tags        []string
-		TagValues   map[string]uint64
-	}{
-		zones,
-		tlds,
-		domains,
-		offsets,
-		nameServers,
-		codePoints,
-		tagType,
-		tags,
-		tagValues,
-	}
-
-	buf := new(bytes.Buffer)
-	err := goTemplate.Execute(buf, &data)
-	if err != nil {
-		return err
-	}
-	formatted, err := format.Source(buf.Bytes())
-	if err != nil {
-		return err
-	}
-
-	fn := filepath.Join(BaseDir, "zones.go")
-	color.Fprintf(os.Stderr, "@{.}Generating Go source code: %s\n", fn)
-	f, err := os.Create(fn)
-	if err != nil {
-		return err
-	}
-	defer f.Close()
-	_, err = f.Write(formatted)
-	if err != nil {
-		return err
-	}
-
-	return nil
-}
+// Experiment: split on each code point range from lo-hi
+// var _c = []rune("{{range .CodePoints}}{{if rewound .}}" +
+// 	"{{ end }}{{printf "%c" .}}{{end}}")

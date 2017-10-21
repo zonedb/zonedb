@@ -19,5 +19,11 @@
 		"h5.nstld.com",
 		"l5.nstld.com"
 	],
-	"codePoints": "--09az"
+	"codePoints": "--09azؚؐؠؿفيٖٞ٠٩ٮٯٱٴٹۓە۪ۜ۟ۨۿݐݿﹳﹳ",
+	"idnTables": {
+		"arab": "--09ؚؐؠؿفيٖٞ٠٩ٮٯٱٴٹۓە۪ۜ۟ۨۿݐݿﹳﹳ"
+	},
+	"idnTableURLs": {
+		"arab": "https://www.iana.org/domains/idn-tables/tables/sca_arab_2.5.txt"
+	}
 }

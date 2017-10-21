@@ -34,6 +34,9 @@ func main() {
 	verifyWhois := flag.Bool("verify-whois", false, "verify whois servers")
 	checkPS := flag.Bool("ps", false, "check against Public Suffix List")
 
+	// Show operations
+	showUnicode := flag.Bool("show-unicode", false, "show Unicode information per zone")
+
 	// Mutate operations
 	addTags := flag.String("add-tags", "", "add tags to zones (comma-delimited)")
 	addLocations := flag.String("add-locations", "", "add locations to zones (comma-delimited)")
@@ -44,7 +47,10 @@ func main() {
 	updateRubyWhois := flag.Bool("update-ruby-whois", false, "query Ruby Whois for whois servers")
 	updateWhois := flag.Bool("update-whois", false, "query whois-servers.net for whois servers")
 	updateIANA := flag.Bool("update-iana", false, "query IANA for metadata")
-	updateIDNTables := flag.Bool("update-idn", false, "fetch IDN tables")
+	updateIDN := flag.Bool("update-idn", false, "update IDN metadata")
+	updateIDNURLs := flag.Bool("update-idn-urls", false, "fetch list of URLs for each zone’s IDN tables")
+	updateIDNTables := flag.Bool("update-idn-tables", false, "fetch new or changed IDN tables")
+	updateAllIDNTables := flag.Bool("update-all-idn-tables", false, "fetch all IDN tables")
 	updateAll := flag.Bool("update", false, "update all (root zone, whois, IANA data, IDN tables)")
 
 	// Write operations
@@ -176,8 +182,18 @@ func main() {
 		}
 	}
 
-	if *updateIDNTables || *updateAll {
-		err := build.FetchIDNTables(workZones)
+	if *updateIDNURLs || *updateIDN || *updateAll {
+		err := build.FetchIDNURLs(workZones)
+		if err != nil {
+			errs = append(errs, err)
+			build.LogError(err)
+		}
+	}
+
+	// Explicitly _not_ under updateAll at this time, until we’re confident this
+	// won’t get us blacklisted on IANA’s web servers, or we implement caching.
+	if *updateAllIDNTables || *updateIDNTables || *updateIDN {
+		err := build.FetchIDNTables(workZones, *updateAllIDNTables)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -218,6 +234,14 @@ func main() {
 			locations.Add(z.Locations...)
 		}
 		color.Fprintf(os.Stderr, "@{.}Locations: @{c}%s\n", strings.Join(locations.Values(), " "))
+	}
+
+	if *showUnicode {
+		domains := build.SortedDomains(workZones)
+		for _, n := range domains {
+			z := workZones[n]
+			color.Fprintf(os.Stderr, "@{.}For zone: @{|}@{c}%s@{|}\n\t@{/}%v@{|}\n", n, z.CodePoints)
+		}
 	}
 
 	if *verifyNS {

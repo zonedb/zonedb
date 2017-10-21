@@ -3,6 +3,7 @@ package build
 import (
 	"fmt"
 	"os"
+	"sync"
 	"sync/atomic"
 
 	"github.com/domainr/dnsr"
@@ -21,6 +22,9 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 	defer res.Body.Close()
 
 	color.Fprintf(os.Stderr, "@{.}Parsing %s\n", rootZoneURL)
+
+	limiter := make(chan struct{}, Concurrency)
+	var wg sync.WaitGroup
 	for token := range dns.ParseZone(res.Body, "", "") {
 		if token.Error != nil {
 			continue
@@ -47,11 +51,20 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 
 		// Extract name server
 		if ns, ok := token.RR.(*dns.NS); ok {
-			if verifyNS(ns.Ns) == nil {
-				z.NameServers = append(z.NameServers, Normalize(ns.Ns))
-			}
+			limiter <- struct{}{}
+			wg.Add(1)
+			go func(z *Zone, host string) {
+				if verifyNS(host) == nil {
+					z.m.Lock()
+					z.NameServers = append(z.NameServers, Normalize(host))
+					z.m.Unlock()
+				}
+				<-limiter
+				wg.Done()
+			}(z, ns.Ns)
 		}
 	}
+	wg.Wait()
 
 	return nil
 }
@@ -99,6 +112,7 @@ func verifyNS(host string) error {
 	if err != nil {
 		return err
 	}
+	Trace("@{.}.")
 	err = CanDial("udp", host+":53")
 	return err
 }
