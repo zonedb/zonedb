@@ -11,7 +11,7 @@ import (
 	"golang.org/x/net/idna"
 )
 
-const rootZoneURL = "http://www.internic.net/domain/root.zone"
+const rootZoneURL = "https://www.internic.net/domain/root.zone"
 
 func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 	res, err := Fetch(rootZoneURL)
