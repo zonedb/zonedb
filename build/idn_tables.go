@@ -17,7 +17,9 @@ var preMatcher = cascadia.MustCompile("body > pre")
 
 // FetchIDNTables updates the work zones with IDN tables from IANA.
 func FetchIDNTables(zones map[string]*Zone, updateAll bool) error {
-	for _, z := range zones {
+	domains := SortedDomains(zones)
+	for _, d := range domains {
+		z := zones[d]
 		if len(z.IDNTableURLs) < 1 {
 			continue
 		}
@@ -27,7 +29,7 @@ func FetchIDNTables(zones map[string]*Zone, updateAll bool) error {
 		for tableName, url := range z.IDNTableURLs {
 			if url == z.prevIDNTableURLs[tableName] {
 				if Verbose {
-					Trace("@{.}Skipping IDN table %s/%s\n", z.Domain, tableName)
+					Trace("@{.}Skipping IDN table: %s/%s\n", z.Domain, tableName)
 				}
 				continue // skip already fetched URLs
 			}
