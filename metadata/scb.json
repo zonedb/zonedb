@@ -11,5 +11,11 @@
 		"b.nic.scb",
 		"c.nic.scb",
 		"d.nic.scb"
-	]
+	],
+	"idnTables": {
+		"th": ""
+	},
+	"idnTableURLs": {
+		"th": "https://www.iana.org/domains/idn-tables/tables/scb_th_1.0.xml"
+	}
 }

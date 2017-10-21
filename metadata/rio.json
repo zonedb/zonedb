@@ -18,5 +18,11 @@
 		"d.dns.br",
 		"e.dns.br",
 		"f.dns.br"
-	]
+	],
+	"idnTables": {
+		"pt": ""
+	},
+	"idnTableURLs": {
+		"pt": "https://www.iana.org/domains/idn-tables/tables/rio_pt_1.xml"
+	}
 }
