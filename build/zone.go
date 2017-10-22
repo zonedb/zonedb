@@ -47,8 +47,24 @@ func (z *Zone) Normalize() {
 	z.Tags = NewSet(tags...).Values()
 	z.NameServers = NewSet(z.NameServers...).Values()
 	z.CodePoints.Compress()
-	for _, table := range z.IDNTables {
+	for code, table := range z.IDNTables {
+		norm, err := normalizeIDNCode(code)
+		if err == nil && norm != code {
+			delete(z.IDNTables, code)
+			if _, ok := z.IDNTables[norm]; !ok {
+				z.IDNTables[norm] = table
+			}
+		}
 		table.Compress()
+	}
+	for code, u := range z.IDNTableURLs {
+		norm, err := normalizeIDNCode(code)
+		if err == nil && norm != code {
+			delete(z.IDNTableURLs, code)
+			if _, ok := z.IDNTableURLs[norm]; !ok {
+				z.IDNTableURLs[norm] = u
+			}
+		}
 	}
 }
 

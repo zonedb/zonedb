@@ -3,10 +3,12 @@ package build
 import (
 	"bytes"
 	"errors"
+	"fmt"
 	"sort"
 	"strings"
 
 	"golang.org/x/net/idna"
+	"golang.org/x/text/language"
 	"golang.org/x/text/unicode/norm"
 )
 
@@ -215,4 +217,35 @@ func (ct *CodeTable) Dup() *CodeTable {
 	d := make(CodeTable, len(*ct))
 	copy(d, *ct)
 	return &d
+}
+
+// normalizeIDNCode normalizes a 4-char ISO 15924 script code (e.g. “Latn”)
+// or a BCP 47 language tag, e.g. (“en” or “en-us”).
+func normalizeIDNCode(code string) (string, error) {
+	var err error
+	var tag language.Tag
+	var script language.Script
+	norm := code
+	if len(code) == 4 {
+		// Attempt to parse an ISO 15924 script code
+		script, err = language.ParseScript(code)
+		if err != nil {
+			script, err = language.ParseScript(strings.Title(code))
+			if err != nil {
+				LogWarning(fmt.Errorf("Unknown Unicode script: %s", code))
+			}
+		}
+		if err == nil {
+			norm = script.String()
+		}
+	} else {
+		// Attempt to parse a BCP 47 language tag
+		tag, err = language.Parse(code)
+		if err != nil {
+			LogWarning(fmt.Errorf("Unknown Unicode language: %s", code))
+		} else {
+			norm = tag.String()
+		}
+	}
+	return norm, err
 }

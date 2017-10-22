@@ -70,7 +70,7 @@ func FetchIDNURLs(zones map[string]*Zone) error {
 		}
 
 		// At this point, "domain" looks like ".<tld>" and u should have u.String() which is an absolute working URL
-		// The partURL's last component, after directory-separator, looks like "<tld>_<languagetag>_<version.info>.txt"
+		// The partURL's last component, after directory-separator, looks like "<tld>_<language>_<version.info>.txt"
 		if domain[0] != '.' {
 			Trace("@{r}FetchIDNLists: bad domain name %q\n", domain)
 			return
@@ -84,13 +84,13 @@ func FetchIDNURLs(zones map[string]*Zone) error {
 			z.IDNTableURLs = make(map[string]string)
 		}
 
-		language := languageFromURL(partURL)
-		if language == "" {
-			Trace("@{r}FetchIDNLists: unable to extract language for zone %q from %s\n", domain, partURL)
+		code, err := idnCodeFromURL(partURL)
+		if err != nil {
+			Trace("@{r}FetchIDNLists: unable to extract language tag or script for zone %q from %s\n", domain, partURL)
 			return
 		}
 
-		z.IDNTableURLs[language] = u.String()
+		z.IDNTableURLs[code] = u.String()
 		atomic.AddUint64(&extractedCount, 1)
 	})
 	Trace("@{.}FetchIDNLists: saw %d matches, extracted %d entries\n", matchCount, extractedCount)
@@ -104,19 +104,21 @@ func FetchIDNURLs(zones map[string]*Zone) error {
 	return nil
 }
 
-func languageFromURL(u string) string {
+func idnCodeFromURL(u string) (string, error) {
 	i := strings.LastIndexByte(u, '/')
 	if i == -1 {
-		return ""
+		return "", errMalformedURL
 	}
 	sections := strings.Split(u[i+1:], "_")
 	if len(sections) < 3 {
-		return ""
+		return "", errMalformedURL
 	}
 	// Checking sections[0] against zone from caller doesn't work because:
 	//  1. IDN TLDs using other strings
 	//  2. table sharing between zones (eg, 'academy' appears as baseline for many)
 	// This does tell us that we want to have a cache of values on a per-URL basis, to avoid fetching the same
 	// URL N times.
-	return sections[1]
+	return normalizeIDNCode(sections[1])
 }
+
+var errMalformedURL = errors.New("Malformed IDN table URL")
