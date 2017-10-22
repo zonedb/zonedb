@@ -11,11 +11,11 @@
 	],
 	"codePoints": "--09azßöøÿāāăăąąććĉĉċċččďďđđēēĕĕėėęęěěĝĝğğġġģģĥĥħħĩĩīīĭĭįįııĵĵķĸĺĺļļľľłłńńņņňňŋŋōōŏŏőőœœŕŕŗŗřřśśŝŝşşššţţťťŧŧũũūūŭŭůůűűųųŵŵŷŷźźżżžžаяёё",
 	"idnTables": {
-		"cyrl": "--09аяёё",
-		"latn": "--09azßöøÿāāăăąąććĉĉċċččďďđđēēĕĕėėęęěěĝĝğğġġģģĥĥħħĩĩīīĭĭįįııĵĵķĸĺĺļļľľłłńńņņňňŋŋōōŏŏőőœœŕŕŗŗřřśśŝŝşşššţţťťŧŧũũūūŭŭůůűűųųŵŵŷŷźźżżžž"
+		"Cyrl": "--09аяёё",
+		"Latn": "--09azßöøÿāāăăąąććĉĉċċččďďđđēēĕĕėėęęěěĝĝğğġġģģĥĥħħĩĩīīĭĭįįııĵĵķĸĺĺļļľľłłńńņņňňŋŋōōŏŏőőœœŕŕŗŗřřśśŝŝşşššţţťťŧŧũũūūŭŭůůűűųųŵŵŷŷźźżżžž"
 	},
 	"idnTableURLs": {
-		"cyrl": "https://www.iana.org/domains/idn-tables/tables/voting_cyrl_1.txt",
-		"latn": "https://www.iana.org/domains/idn-tables/tables/voting_latn_1.txt"
+		"Cyrl": "https://www.iana.org/domains/idn-tables/tables/voting_cyrl_1.txt",
+		"Latn": "https://www.iana.org/domains/idn-tables/tables/voting_latn_1.txt"
 	}
 }

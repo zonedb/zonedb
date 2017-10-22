@@ -21,9 +21,9 @@
 	],
 	"codePoints": "--09azؚؐؠؿفيٖٞ٠٩ٮٯٱٴٹۓە۪ۜ۟ۨۿݐݿﹳﹳ",
 	"idnTables": {
-		"arab": "--09ؚؐؠؿفيٖٞ٠٩ٮٯٱٴٹۓە۪ۜ۟ۨۿݐݿﹳﹳ"
+		"Arab": "--09ؚؐؠؿفيٖٞ٠٩ٮٯٱٴٹۓە۪ۜ۟ۨۿݐݿﹳﹳ"
 	},
 	"idnTableURLs": {
-		"arab": "https://www.iana.org/domains/idn-tables/tables/sca_arab_2.5.txt"
+		"Arab": "https://www.iana.org/domains/idn-tables/tables/sca_arab_2.5.txt"
 	}
 }

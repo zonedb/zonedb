@@ -10,7 +10,7 @@ func TestStringInCodePoints(t *testing.T) {
 	}{
 		{"caserocks", ZoneMap["com"].CodePoints, true},
 		{"cáserôckß", ZoneMap["com"].CodePoints, true},
-		{"cáserôckß", ZoneMap["com"].IDNTables["latn"], true},
+		{"cáserôckß", ZoneMap["com"].IDNTables["Latn"], true},
 		{"caserock箋", ZoneMap["com"].CodePoints, true},
 		{"cásërock箋", ZoneMap["com"].IDNTables["ja"], false},
 		{"箋", ZoneMap["com"].IDNTables["ja"], true},

@@ -17,9 +17,9 @@
 	],
 	"codePoints": "--09azààââääæëîïôôùùûüÿÿœœ",
 	"idnTables": {
-		"latn": "--09azààââääæëîïôôùùûüÿÿœœ"
+		"Latn": "--09azààââääæëîïôôùùûüÿÿœœ"
 	},
 	"idnTableURLs": {
-		"latn": "https://www.iana.org/domains/idn-tables/tables/corsica_latn_1.txt"
+		"Latn": "https://www.iana.org/domains/idn-tables/tables/corsica_latn_1.txt"
 	}
 }

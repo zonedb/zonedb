@@ -13,9 +13,9 @@
 	],
 	"codePoints": "--09ءغفي٠٩",
 	"idnTables": {
-		"arab": "--09ءغفي٠٩"
+		"Arab": "--09ءغفي٠٩"
 	},
 	"idnTableURLs": {
-		"arab": "https://www.iana.org/domains/idn-tables/tables/xn--ngbc5azd_arab_1.0.txt"
+		"Arab": "https://www.iana.org/domains/idn-tables/tables/xn--ngbc5azd_arab_1.0.txt"
 	}
 }

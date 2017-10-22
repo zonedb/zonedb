@@ -16,13 +16,13 @@
 	],
 	"codePoints": "--09azàöøÿāāăăąąććĉĉċċččďďđđēēĕĕėėęęěěĝĝğğġġģģĥĥħħĩĩīīĭĭįįııĵĵķķĺĺļļľľŀŀłłńńņņňŉŋŋōōŏŏőőœœŕŕŗŗřřśśŝŝššťťŧŧũũūūŭŭůůűűųųŵŵŷŷźźżżžžșșțțΐΐάώаяἀἇἐἕἠἧἰἷὀὅὐὗὠὧὰώᾀᾇᾐᾗᾠᾧᾰᾴᾶᾷῂῄῆῇῐΐῖῗῠῧῲῴῶῷ",
 	"idnTables": {
-		"cyrl": "ая",
-		"grek": "ΐΐάώἀἇἐἕἠἧἰἷὀὅὐὗὠὧὰώᾀᾇᾐᾗᾠᾧᾰᾴᾶᾷῂῄῆῇῐΐῖῗῠῧῲῴῶῷ",
-		"latn": "--09azàöøÿāāăăąąććĉĉċċččďďđđēēĕĕėėęęěěĝĝğğġġģģĥĥħħĩĩīīĭĭįįııĵĵķķĺĺļļľľŀŀłłńńņņňŉŋŋōōŏŏőőœœŕŕŗŗřřśśŝŝššťťŧŧũũūūŭŭůůűűųųŵŵŷŷźźżżžžșșțț"
+		"Cyrl": "ая",
+		"Grek": "ΐΐάώἀἇἐἕἠἧἰἷὀὅὐὗὠὧὰώᾀᾇᾐᾗᾠᾧᾰᾴᾶᾷῂῄῆῇῐΐῖῗῠῧῲῴῶῷ",
+		"Latn": "--09azàöøÿāāăăąąććĉĉċċččďďđđēēĕĕėėęęěěĝĝğğġġģģĥĥħħĩĩīīĭĭįįııĵĵķķĺĺļļľľŀŀłłńńņņňŉŋŋōōŏŏőőœœŕŕŗŗřřśśŝŝššťťŧŧũũūūŭŭůůűűųųŵŵŷŷźźżżžžșșțț"
 	},
 	"idnTableURLs": {
-		"cyrl": "https://www.iana.org/domains/idn-tables/tables/eu_cyrl_1.0.html",
-		"grek": "https://www.iana.org/domains/idn-tables/tables/eu_grek_1.0.html",
-		"latn": "https://www.iana.org/domains/idn-tables/tables/eu_latn_1.0.html"
+		"Cyrl": "https://www.iana.org/domains/idn-tables/tables/eu_cyrl_1.0.html",
+		"Grek": "https://www.iana.org/domains/idn-tables/tables/eu_grek_1.0.html",
+		"Latn": "https://www.iana.org/domains/idn-tables/tables/eu_latn_1.0.html"
 	}
 }

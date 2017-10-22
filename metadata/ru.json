@@ -14,9 +14,9 @@
 	],
 	"codePoints": "--09azаяёё",
 	"idnTables": {
-		"ru-ru": "--09аяёё"
+		"ru-RU": "--09аяёё"
 	},
 	"idnTableURLs": {
-		"ru-ru": "https://www.iana.org/domains/idn-tables/tables/ru_ru-ru_1.0.html"
+		"ru-RU": "https://www.iana.org/domains/idn-tables/tables/ru_ru-ru_1.0.html"
 	}
 }

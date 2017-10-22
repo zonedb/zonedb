@@ -21,9 +21,9 @@
 	],
 	"codePoints": "-.09AZazกฺเํ๐๙",
 	"idnTables": {
-		"th-th": "-.09AZazกฺเํ๐๙"
+		"th-TH": "-.09AZazกฺเํ๐๙"
 	},
 	"idnTableURLs": {
-		"th-th": "https://www.iana.org/domains/idn-tables/tables/th_th-th_1.0.html"
+		"th-TH": "https://www.iana.org/domains/idn-tables/tables/th_th-th_1.0.html"
 	}
 }

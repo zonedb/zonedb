@@ -14,9 +14,9 @@
 	],
 	"codePoints": "--09azāāēēīīōōūū",
 	"idnTables": {
-		"latn": "--09azāāēēīīōōūū"
+		"Latn": "--09azāāēēīīōōūū"
 	},
 	"idnTableURLs": {
-		"latn": "https://www.iana.org/domains/idn-tables/tables/kiwi_latn_1.2bis.txt"
+		"Latn": "https://www.iana.org/domains/idn-tables/tables/kiwi_latn_1.2bis.txt"
 	}
 }

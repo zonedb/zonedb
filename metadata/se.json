@@ -19,13 +19,13 @@
 	],
 	"codePoints": "--09azàöøÿāāăăąąććċċččďďđđēēėėęęěěğğġġģģħħīīįįııķķĺĺļļľľłłńńņņňňŋŋōōőőœœŕŕŗŗřřśśşşššţţťťŧŧūūůůűűųųŵŵŷŷźźżżžžǎǎǐǐǒǒǔǔǥǥǧǧǩǩǯǯəəʒʒאתײײẁẁẃẃẅẅỳỳ",
 	"idnTables": {
-		"latn": "--09azàöøÿāāăăąąććċċččďďđđēēėėęęěěğğġġģģħħīīįįııķķĺĺļļľľłłńńņņňňŋŋōōőőœœŕŕŗŗřřśśşşššţţťťŧŧūūůůűűųųŵŵŷŷźźżżžžǎǎǐǐǒǒǔǔǥǥǧǧǩǩǯǯəəʒʒẁẁẃẃẅẅỳỳ",
-		"sv-se": "--09azäåééööüü",
+		"Latn": "--09azàöøÿāāăăąąććċċččďďđđēēėėęęěěğğġġģģħħīīįįııķķĺĺļļľľłłńńņņňňŋŋōōőőœœŕŕŗŗřřśśşşššţţťťŧŧūūůůűűųųŵŵŷŷźźżżžžǎǎǐǐǒǒǔǔǥǥǧǧǩǩǯǯəəʒʒẁẁẃẃẅẅỳỳ",
+		"sv-SE": "--09azäåééööüü",
 		"yi": "--09אתײײ"
 	},
 	"idnTableURLs": {
-		"latn": "https://www.iana.org/domains/idn-tables/tables/se_latn_1.0.html",
-		"sv-se": "https://www.iana.org/domains/idn-tables/tables/se_sv-se_1.0.html",
+		"Latn": "https://www.iana.org/domains/idn-tables/tables/se_latn_1.0.html",
+		"sv-SE": "https://www.iana.org/domains/idn-tables/tables/se_sv-se_1.0.html",
 		"yi": "https://www.iana.org/domains/idn-tables/tables/se_yi_1.0.html"
 	}
 }

@@ -18,9 +18,9 @@
 		"dns.mynic.net.my"
 	],
 	"idnTables": {
-		"ms-my": ""
+		"ms-MY": ""
 	},
 	"idnTableURLs": {
-		"ms-my": "https://www.iana.org/domains/idn-tables/tables/my_ms-my_1.0.pdf"
+		"ms-MY": "https://www.iana.org/domains/idn-tables/tables/my_ms-my_1.0.pdf"
 	}
 }

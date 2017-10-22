@@ -17,9 +17,9 @@
 	],
 	"codePoints": "--09azàâääèïòôööùü",
 	"idnTables": {
-		"latn": "--09azàâääèïòôööùü"
+		"Latn": "--09azàâääèïòôööùü"
 	},
 	"idnTableURLs": {
-		"latn": "https://www.iana.org/domains/idn-tables/tables/frl_latn_1.0.txt"
+		"Latn": "https://www.iana.org/domains/idn-tables/tables/frl_latn_1.0.txt"
 	}
 }

@@ -15,9 +15,9 @@
 	],
 	"codePoints": "--09azááééííññóóúúüü",
 	"idnTables": {
-		"latn": "--09azááééííññóóúúüü"
+		"Latn": "--09azááééííññóóúúüü"
 	},
 	"idnTableURLs": {
-		"latn": "https://www.iana.org/domains/idn-tables/tables/cl_latn_1.0.html"
+		"Latn": "https://www.iana.org/domains/idn-tables/tables/cl_latn_1.0.html"
 	}
 }
