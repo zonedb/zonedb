@@ -3096,7 +3096,7 @@ var _y = [4366]Zone{
 	{"biz.mv", &_z[967], nil, _c[0:6], nil, NS{"webns.mv"}, nil, "", "", "", 0x0},
 	{"com.mv", &_z[967], nil, _c[0:6], nil, NS{"ns.com.mv", "ns.dhivehinet.net.mv", "ns2.dhivehinet.net.mv", "mv-ns.anycast.pch.net"}, nil, "", "", "", 0x0},
 	{"coop.mv", &_z[967], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
-	{"edu.mv", &_z[967], nil, _c[0:6], nil, NS{"ns.edu.mv", "ns-cache01.dhivehinet.net.mv"}, nil, "", "", "", 0x0},
+	{"edu.mv", &_z[967], nil, _c[0:6], nil, NS{"ns.edu.mv", "ns1.edu.mv", "ns2.edu.mv", "ns-cache01.dhivehinet.net.mv", "mv-ns.anycast.pch.net"}, nil, "", "", "", 0x0},
 	{"gov.mv", &_z[967], nil, _c[0:6], nil, NS{"ns.gov.mv", "ns.dhivehinet.net.mv", "ns2.dhivehinet.net.mv", "mv-ns.anycast.pch.net"}, nil, "", "", "", 0x0},
 	{"info.mv", &_z[967], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"int.mv", &_z[967], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
