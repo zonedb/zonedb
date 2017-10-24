@@ -4198,7 +4198,7 @@ var _y = [4366]Zone{
 	{"pp.ua", &_z[1441], nil, _c[0:6], nil, NS{"ns1.uadns.com", "ns2.uadns.com", "ns3.uadns.com"}, nil, "", "", "", 0x0},
 	{"rivne.ua", &_z[1441], nil, nil, nil, NS{"ns4.uar.net", "ns1.wuicc.net.ua", "ns2.jb.rv.ua"}, nil, "", "", "", 0x0},
 	{"rovno.ua", &_z[1441], nil, _c[0:6], nil, NS{"ns2.uar.net", "nix.ns.ua", "ns2.rct.net.ua", "ns.telcom.net.ua", "ns1.wuicc.net.ua", "ns2.jb.rv.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
-	{"rv.ua", &_z[1441], nil, _c[0:6], nil, NS{"nix.ns.ua", "ns.telcom.net.ua", "ns1.wuicc.net.ua", "cf.rv.ns.ua", "ns2.jb.rv.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
+	{"rv.ua", &_z[1441], nil, _c[0:6], nil, NS{"rivne.anycastdns.cz", "nix.ns.ua", "ns.telcom.net.ua", "ns1.wuicc.net.ua", "cf.rv.ns.ua", "ns2.jb.rv.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
 	{"sebastopol.ua", &_z[1441], nil, _c[0:6], nil, NS{"ns.crimea.ua", "ba1.ns.ua", "nix.ns.ua", "ho1.ns.crimea.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
 	{"sm.ua", &_z[1441], nil, _c[0:6], nil, NS{"ns.dn.ua", "ns.kh.ua", "ns.sm.ua", "ns.zp.ua", "ho1.eunic.net.ua"}, nil, "", "", "", 0x0},
 	{"sumy.ua", &_z[1441], nil, _c[0:6], nil, NS{"ns.dn.ua", "ns.kh.ua", "ns.sm.ua", "ns.zp.ua", "ho1.eunic.net.ua"}, nil, "", "", "http://www.nic.net.ua/", 0x0},
