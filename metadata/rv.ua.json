@@ -2,6 +2,7 @@
 	"domain": "rv.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
+		"rivne.anycastdns.cz",
 		"nix.ns.ua",
 		"ns.telcom.net.ua",
 		"ns1.wuicc.net.ua",
