@@ -2342,7 +2342,7 @@ var _y = [4366]Zone{
 	{"biz.cy", &_z[354], nil, _c[0:6], nil, NS{"cynic.dns.cy", "cynic4.dns.cy", "sec3.apnic.net", "ns02.savvis.net", "ns1.ucy.ac.cy", "ns2.ucy.ac.cy", "ns3.ucy.ac.cy", "estia.ics.forth.gr", "cy-ns.anycast.pch.net"}, nil, "", "", "", 0x0},
 	{"com.cy", &_z[354], nil, _c[0:6], nil, NS{"cynic.dns.cy", "cynic4.dns.cy", "sec3.apnic.net", "ns02.savvis.net", "ns1.ucy.ac.cy", "ns2.ucy.ac.cy", "ns3.ucy.ac.cy", "estia.ics.forth.gr", "cy-ns.anycast.pch.net"}, nil, "", "", "", 0x0},
 	{"ekloges.cy", &_z[354], nil, _c[0:6], nil, NS{"cynic.dns.cy", "cynic4.dns.cy", "ns1.ucy.ac.cy", "ns2.ucy.ac.cy", "ns3.ucy.ac.cy"}, nil, "", "", "", 0x0},
-	{"gov.cy", &_z[354], nil, _c[0:6], nil, NS{"cynic.dns.cy", "ns01.gov.cy", "ns02.gov.cy", "sns0.grnet.gr", "sns1.grnet.gr", "ns1.ucy.ac.cy", "ns2.ucy.ac.cy", "ns3.ucy.ac.cy", "dns.cit.cornell.edu"}, nil, "", "", "", 0x0},
+	{"gov.cy", &_z[354], nil, _c[0:6], nil, NS{"cynic.dns.cy", "cynic4.dns.cy", "ns01.gov.cy", "ns02.gov.cy", "sns0.grnet.gr", "sns1.grnet.gr", "ns1.ucy.ac.cy", "ns2.ucy.ac.cy", "ns3.ucy.ac.cy", "dns.cit.cornell.edu"}, nil, "", "", "", 0x0},
 	{"ltd.cy", &_z[354], nil, _c[0:6], nil, NS{"cynic.dns.cy", "cynic4.dns.cy", "sec3.apnic.net", "ns1.ucy.ac.cy", "ns2.ucy.ac.cy", "ns3.ucy.ac.cy", "cy-ns.anycast.pch.net"}, nil, "", "", "", 0x0},
 	{"name.cy", &_z[354], nil, _c[0:6], nil, NS{"cynic.dns.cy", "cynic4.dns.cy", "sec3.apnic.net", "ns1.ucy.ac.cy", "ns2.ucy.ac.cy", "ns3.ucy.ac.cy", "cy-ns.anycast.pch.net"}, nil, "", "", "", 0x0},
 	{"net.cy", &_z[354], nil, _c[0:6], nil, NS{"cynic.dns.cy", "cynic4.dns.cy", "sec3.apnic.net", "ns02.savvis.net", "ns1.ucy.ac.cy", "ns2.ucy.ac.cy", "ns3.ucy.ac.cy", "estia.ics.forth.gr", "cy-ns.anycast.pch.net"}, nil, "", "", "", 0x0},

@@ -2,6 +2,7 @@
 	"domain": "gov.cy",
 	"nameServers": [
 		"cynic.dns.cy",
+		"cynic4.dns.cy",
 		"ns01.gov.cy",
 		"ns02.gov.cy",
 		"sns0.grnet.gr",
