@@ -10,7 +10,10 @@
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
-		"anycast9.irondns.net"
+		"anycast9.irondns.net",
+		"ns15.rcode0.net",
+		"g.nic.swiss",
+		"u.nic.swiss"
 	],
 	"codePoints": "--09az"
 }
