@@ -3,7 +3,8 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"nameServers": [
 		"ns1.dns.nic.htc",
