@@ -7,6 +7,10 @@
 	],
 	"whoisServer": "whois.nic.deloitte",
 	"nameServers": [
+		"ns2a.ksregistry.com",
+		"ns2b.ksregistry.com",
+		"ns1a.ksregistry.net",
+		"ns1b.ksregistry.net",
 		"a.ns.nic.deloitte",
 		"c.ns.nic.deloitte",
 		"x.ns.nic.deloitte",
