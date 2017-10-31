@@ -3,6 +3,7 @@
 	"nameServers": [
 		"cynic.dns.cy",
 		"cynic4.dns.cy",
+		"anytld.apnic.net",
 		"sec3.apnic.net",
 		"ns02.savvis.net",
 		"ns1.ucy.ac.cy",

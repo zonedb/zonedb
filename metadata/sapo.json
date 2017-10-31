@@ -6,6 +6,10 @@
 		"generic"
 	],
 	"nameServers": [
+		"ns2a.ksregistry.com",
+		"ns2b.ksregistry.com",
+		"ns1a.ksregistry.net",
+		"ns1b.ksregistry.net",
 		"a.ns.nic.sapo",
 		"c.ns.nic.sapo",
 		"x.ns.nic.sapo",
