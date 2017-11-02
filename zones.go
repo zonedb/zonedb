@@ -494,7 +494,7 @@ var _y = [4366]Zone{
 	{"discover", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.discover", "ns2.dns.nic.discover", "ns3.dns.nic.discover", "ns4.dns.nic.discover", "ns5.dns.nic.discover", "ns6.dns.nic.discover"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"dish", nil, nil, _c[0:6], nil, NS{"a0.nic.dish", "a2.nic.dish", "b0.nic.dish", "c0.nic.dish"}, nil, "whois.nic.dish", "", "http://newgtlds.icann.org/", 0x42},
 	{"diy", nil, nil, _c[0:6], nil, NS{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, nil, "whois.nic.diy", "", "http://newgtlds.icann.org/", 0x40},
-	{"dj", nil, nil, _c[0:6], nil, NS{"bow.intnet.dj", "bow5.intnet.dj", "bow.rain.fr", "vps443605.ovh.net"}, nil, "", "http://www.nic.dj/whois.php", "", 0xe0},
+	{"dj", nil, nil, _c[0:6], nil, NS{"bow.intnet.dj", "bow1.intnet.dj", "bow5.intnet.dj", "bow.rain.fr", "vps443605.ovh.net"}, nil, "", "http://www.nic.dj/whois.php", "", 0xe0},
 	{"dk", nil, _z[2256:2258], nil, nil, NS{"a.nic.dk", "b.nic.dk", "c.nic.dk", "l.nic.dk", "p.nic.dk", "s.nic.dk"}, nil, "whois.dk-hostmaster.dk", "", "", 0xa0},
 	{"dm", nil, _z[2258:2264], nil, nil, NS{"ns.blacknightsolutions.com", "ns2.blacknightsolutions.com", "ns2.nic.dm", "ns34.cdns.net"}, nil, "whois.nic.dm", "", "", 0xa0},
 	{"dnb", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
