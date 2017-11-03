@@ -3000,7 +3000,7 @@ var _y = [4366]Zone{
 	{"edu.lv", &_z[864], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"gov.lv", &_z[864], nil, _c[0:6], nil, NS{"ns.gov.lv", "ns2.gov.lv", "ns3.gov.lv"}, nil, "", "", "", 0x0},
 	{"id.lv", &_z[864], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
-	{"mil.lv", &_z[864], nil, _c[0:6], nil, NS{"ns1.mil.lv", "ns4.mil.lv"}, nil, "", "", "", 0x0},
+	{"mil.lv", &_z[864], nil, _c[0:6], nil, NS{"ns1.mil.lv", "ns2.mil.lv", "ns4.mil.lv"}, nil, "", "", "", 0x0},
 	{"net.lv", &_z[864], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"org.lv", &_z[864], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"com.ly", &_z[865], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
