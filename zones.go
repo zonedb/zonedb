@@ -3743,7 +3743,7 @@ var _y = [4366]Zone{
 	{"teach.pro", &_z[1123], nil, _c[0:6], nil, NS{"ns1.netim.net", "ns2.netim.net", "ns3.netim.net", "ns4.netim.net", "ns5.netim.net", "ns1.old.eucompanynetwork.pro"}, nil, "", "", "", 0x0},
 	{"vet.pro", &_z[1123], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"com.ps", &_z[1134], nil, _c[0:6], nil, NS{"rip.psg.com", "ns1.pnina.ps", "ns2.pnina.ps", "ote.pnina.ps", "ps-ns.anycast.pch.net", "ps.cctld.authdns.ripe.net"}, nil, "", "", "http://www.pnina.ps/domains/registration-policy/", 0x0},
-	{"edu.ps", &_z[1134], nil, _c[0:6], nil, NS{"dns1.gov.ps", "dns3.gov.ps", "ns1.gov.ps", "ns1.pnina.ps", "ns2.pnina.ps", "ote.pnina.ps"}, nil, "", "", "http://www.tonic.to/", 0x0},
+	{"edu.ps", &_z[1134], nil, _c[0:6], nil, NS{"dns1.gov.ps", "dns3.gov.ps", "ns1.gov.ps", "dns4.pna.ps", "ns1.pnina.ps", "ns2.pnina.ps", "ote.pnina.ps"}, nil, "", "", "http://www.tonic.to/", 0x0},
 	{"gov.ps", &_z[1134], nil, _c[0:6], nil, NS{"ns1.palgov.net", "dns1.gov.ps", "dns2.gov.ps", "dns3.gov.ps", "ns1.gov.ps", "ns2.pnina.ps", "ote.pnina.ps"}, nil, "", "", "", 0x0},
 	{"mun.ps", &_z[1134], nil, _c[0:6], nil, NS{"dns1.gov.ps", "dns2.gov.ps", "ns1.gov.ps", "ns2.pnina.ps"}, nil, "", "", "", 0x0},
 	{"net.ps", &_z[1134], nil, _c[0:6], nil, NS{"rip.psg.com", "ns1.pnina.ps", "ns2.pnina.ps", "ote.pnina.ps", "ps-ns.anycast.pch.net", "ps.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
