@@ -4406,7 +4406,7 @@ var _y = [4366]Zone{
 	{"ac.zw", &_z[1573], nil, _c[0:6], nil, NS{"news-tokyo.gip.net", "ns2.gip.net", "mahobho.uz.ac.zw", "shrike.uz.ac.zw", "uofzns01.uz.ac.zw", "uofzns02.uz.ac.zw", "uofzns03.uz.ac.zw", "zebra.uz.ac.zw", "ns1.telone.co.zw", "ns2.telone.co.zw", "ns3.telone.co.zw", "zw.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"co.zw", &_z[1573], nil, nil, nil, NS{"hippo.ru.ac.za", "ns1.zispa.org.zw", "ns3.zispa.org.zw", "ns4.zispa.org.zw", "zw.cctld.authdns.ripe.net", "sns-pba.dm1.sns.isc.org", "sns-pba.dm3.sns.isc.org"}, nil, "", "", "", 0x0},
 	{"com.zw", &_z[1573], nil, nil, nil, nil, nil, "", "", "", 0x0},
-	{"org.zw", &_z[1573], nil, _c[0:6], nil, NS{"news-tokyo.gip.net", "ns2.gip.net", "ns1.telone.co.zw", "ns2.telone.co.zw", "ns3.telone.co.zw", "zw.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
+	{"org.zw", &_z[1573], nil, _c[0:6], nil, NS{"news-tokyo.gip.net", "ns2.gip.net", "ns1.liquidtelecom.net", "ns2.liquidtelecom.net", "ns1.telone.co.zw", "ns2.telone.co.zw", "ns3.telone.co.zw", "zw.cctld.authdns.ripe.net"}, nil, "", "", "", 0x0},
 	{"xn--o-btb9b.xn--90a3ac" /* oбр.срб */, &_z[1591], nil, nil, nil, nil, nil, "", "", "", 0x0},
 	{"xn--o-htb.xn--90a3ac" /* oд.срб */, &_z[1591], nil, nil, nil, nil, nil, "", "", "", 0x0},
 	{"xn--80au.xn--90a3ac" /* ак.срб */, &_z[1591], nil, nil, nil, NS{"ns2.iif.hu", "odisej.telekom.rs", "ns1.uns.ac.rs", "ns.etf.bg.ac.rs", "gaea.rcub.bg.ac.rs", "ns.rcub.bg.ac.rs", "ns.unic.kg.ac.rs", "ban.junis.ni.ac.rs"}, nil, "", "", "", 0x0},
