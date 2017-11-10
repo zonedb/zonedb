@@ -2,6 +2,10 @@
 	"domain": "co.no",
 	"infoURL": "http://www.norid.no/index.en.html",
 	"nameServers": [
+		"ns2a.ksregistry.com",
+		"ns2b.ksregistry.com",
+		"ns1a.ksregistry.net",
+		"ns1b.ksregistry.net",
 		"a.co.no",
 		"b.co.no",
 		"c.co.no"

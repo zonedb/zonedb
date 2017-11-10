@@ -11,6 +11,10 @@
 	],
 	"whoisServer": "whois.nic.gent",
 	"nameServers": [
+		"ns2a.ksregistry.com",
+		"ns2b.ksregistry.com",
+		"ns1a.ksregistry.net",
+		"ns1b.ksregistry.net",
 		"a.ns.nic.gent",
 		"c.ns.nic.gent",
 		"x.ns.nic.gent",
