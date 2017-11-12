@@ -9,8 +9,11 @@
 	"nameServers": [
 		"nic.museum",
 		"ns5.knipp.de",
+		"d.nic.fr",
 		"anyc1.irondns.net",
 		"ns.icann.org",
-		"sns-pb.isc.org"
+		"sns-pb.isc.org",
+		"f.ext.nic.fr",
+		"g.ext.nic.fr"
 	]
 }
