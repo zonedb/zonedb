@@ -6,7 +6,11 @@
 		"master.btc.net.bw",
 		"dns1.nic.net.bw",
 		"dns2.nic.net.bw",
-		"pch.nic.net.bw"
+		"pch.nic.net.bw",
+		"ns1.p24.dynect.net",
+		"ns2.p24.dynect.net",
+		"ns3.p24.dynect.net",
+		"ns4.p24.dynect.net"
 	],
 	"codePoints": "--09az"
 }

@@ -1,6 +1,7 @@
 {
 	"domain": "or.ci",
 	"nameServers": [
+		"any.nic.ci",
 		"ns.nic.ci",
 		"ns1.nic.ci",
 		"phloem.uoregon.edu",
