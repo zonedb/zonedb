@@ -27,13 +27,15 @@ func ToASCII(s string) string {
 // normalizeLang normalizes a 4-char ISO 15924 script code (e.g. “Latn”)
 // or a BCP 47 language tag, e.g. (“en” or “en-us”).
 func normalizeLang(s string) (string, error) {
-	// Attempt to parse a BCP 47 language tag
+	if s == "none" {
+		s = "und"
+	}
 	tag, err := language.Parse(s)
 	if err != nil {
 		if len(s) != 4 {
 			return "", err
 		}
-		tag, err = language.Parse("und-" + s) // Try parsing as a script, e.g. “Latn”
+		tag, err = language.Parse("mul-" + s) // Try parsing as a script, e.g. “Latn”
 	}
 	return tag.String(), err
 }

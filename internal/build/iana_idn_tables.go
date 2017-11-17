@@ -110,9 +110,6 @@ func langFromURL(u string) (string, error) {
 	// This does tell us that we want to have a cache of values on a per-URL basis, to avoid fetching the same
 	// URL N times.
 	lang := sections[1]
-	if lang == "none" {
-		lang = "unk"
-	}
 	return normalizeLang(lang)
 }
 

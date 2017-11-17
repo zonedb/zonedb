@@ -94,12 +94,10 @@ func (z *Zone) transition() {
 	}
 
 	// Transition invalid BCP 47 language tags
-	for _, p := range z.Policies {
+	for i := range z.Policies {
+		p := &z.Policies[i]
 		if p.Language == "" {
 			continue
-		}
-		if p.Language == "none" {
-			p.Language = "unk"
 		}
 		lang, err := normalizeLang(p.Language)
 		if err != nil {
