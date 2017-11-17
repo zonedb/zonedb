@@ -39,9 +39,9 @@ func GenerateGo(zones map[string]*Zone) error {
 		z := zones[d]
 		z.Normalize() // just in case
 		z.ParentOffset = offsets[z.ParentDomain()]
-		if len(z.Subdomains) > 0 {
-			z.SubdomainsOffset = offsets[z.Subdomains[0]]
-			z.SubdomainsEnd = z.SubdomainsOffset + len(z.Subdomains)
+		if len(z.subdomains) > 0 {
+			z.SubdomainsOffset = offsets[z.subdomains[0]]
+			z.SubdomainsEnd = z.SubdomainsOffset + len(z.subdomains)
 		}
 		z.TagBits = tagBits(tagValues, z.Tags)
 	}

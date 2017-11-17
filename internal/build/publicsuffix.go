@@ -27,7 +27,7 @@ func CheckPublicSuffix(zones map[string]*Zone) {
 			return
 
 		// PSL wildcard
-		case strings.HasPrefix(s, pfx) && len(z.Subdomains) != 0:
+		case strings.HasPrefix(s, pfx) && len(z.subdomains) != 0:
 			return
 
 		// ZoneDB and PSL disagree

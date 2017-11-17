@@ -68,7 +68,7 @@ func ReadZonesFile() (zones map[string]*Zone, errs []error) {
 				LogWarning(err)
 				continue
 			}
-			p.Subdomains = append(p.Subdomains, d)
+			p.subdomains = append(p.subdomains, d)
 		}
 	}
 	if err := s.Err(); err != nil {
@@ -77,7 +77,7 @@ func ReadZonesFile() (zones map[string]*Zone, errs []error) {
 	}
 
 	for _, z := range zones {
-		sort.Strings(z.Subdomains)
+		sort.Strings(z.subdomains)
 	}
 
 	color.Fprintf(os.Stderr, "@{.}Read %d zones\n", len(zones))

@@ -22,11 +22,11 @@ type Zone struct {
 	Policies     []Policy          `json:"policies,omitempty"`
 	IDNTableURLs map[string]string `json:"idnTableURLs,omitempty"`
 	ProhibitIDN  bool              `json:"prohibitIDN,omitempty"`
-	Subdomains   []string          `json:"-"`
+	IDNTableURLs map[string]string `json:"idnTableURLs,omitempty"`
 
-	// Internal use
-	prevIDNTableURLs map[string]string
-	m                sync.Mutex
+	// Internal
+	subdomains []string
+	m          sync.Mutex
 
 	// Exported for use in text/template
 	ParentOffset, SubdomainsOffset, SubdomainsEnd int    `json:"-"`
