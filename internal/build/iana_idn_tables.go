@@ -57,10 +57,6 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 			return
 		}
 
-		if strings.HasSuffix(partURL, ".xml") {
-			Trace("@{y}unhandled XML URL for %q: %q\n", forLabel, u.String())
-		}
-
 		// At this point, "domain" looks like ".<tld>" and u should have u.String() which is an absolute working URL
 		// The partURL's last component, after directory-separator, looks like "<tld>_<language>_<version.info>.txt"
 		if domain[0] != '.' {
@@ -113,7 +109,11 @@ func langFromURL(u string) (string, error) {
 	//  2. table sharing between zones (eg, “academy” appears as baseline for many)
 	// This does tell us that we want to have a cache of values on a per-URL basis, to avoid fetching the same
 	// URL N times.
-	return normalizeLang(sections[1])
+	lang := sections[1]
+	if lang == "none" {
+		lang = "unk"
+	}
+	return normalizeLang(lang)
 }
 
 var errMalformedURL = errors.New("Malformed IDN table URL")
