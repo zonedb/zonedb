@@ -12,9 +12,6 @@ type NS []string
 // L represents a slice of locations.
 type L []string
 
-// IDNT represents a map of languages and their IDN tables.
-type IDNT map[string][]rune
-
 // And performs a bitwise AND between tags and q,
 // comparing the result to zero. Returns true if any
 // tags match q.
