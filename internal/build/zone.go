@@ -19,6 +19,7 @@ type Zone struct {
 	WhoisServer  string            `json:"whoisServer,omitempty"`
 	WhoisURL     string            `json:"whoisURL,omitempty"`
 	NameServers  []string          `json:"nameServers,omitempty"`
+	Policies     []Policy          `json:"policies,omitempty"`
 	IDNTableURLs map[string]string `json:"idnTableURLs,omitempty"`
 	ProhibitIDN  bool              `json:"prohibitIDN,omitempty"`
 	Subdomains   []string          `json:"-"`

@@ -60,42 +60,42 @@ Fork this repository, make changes, and send a pull request. Before submitting a
 This database is generated and validated using the `zonedb` tool in this directory. To install, make sure you have a working [Go](https://golang.org) installation (1.4+) and run this command:
 
 ```shell
-go get -u github.com/zonedb/zonedb/build/cmd/zonedb
+go get -u github.com/zonedb/zonedb/cmd/zonedb
 ```
 
-You can also run the `zonedb` tool directly: `go run build/cmd/zonedb/main.go`
+You can also run the `zonedb` tool directly: `go run cmd/zonedb/main.go`
 
 ### Example commands
 
 List all zones tagged `geo`:
 
 ```shell
-$ go run build/cmd/zonedb/main.go -tags geo
+$ go run cmd/zonedb/main.go -tags geo
 ```
 
 List a given zone's tags:
 
 ```shell
-$ go run build/cmd/zonedb/main.go -zones capetown -list-tags
+$ go run cmd/zonedb/main.go -zones capetown -list-tags
 ```
 
 Add a tag to multiple zones (and write the output):
 
 ```shell
-$ go run build/cmd/zonedb/main.go -zones capetown,durban,joburg -add-tags city -w
+$ go run cmd/zonedb/main.go -zones capetown,durban,joburg -add-tags city -w
 $ make normalize
 ```
 
 Remove a tag from a zone (and write the output):
 
 ```shell
-$ go run build/cmd/zonedb/main.go -zones la -remove-tags generic -w
+$ go run cmd/zonedb/main.go -zones la -remove-tags generic -w
 ```
 
 Add a location to a zone (and write the output):
 
 ```shell
-$ go run build/cmd/zonedb/main.go -zones alsace -add-locations fr-a -w
+$ go run cmd/zonedb/main.go -zones alsace -add-locations fr-a -w
 ```
 
 ## License

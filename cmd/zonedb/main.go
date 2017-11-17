@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/wsxiaoys/terminal/color"
-	"github.com/zonedb/zonedb/build"
+	"github.com/zonedb/zonedb/internal/build"
 )
 
 func main() {

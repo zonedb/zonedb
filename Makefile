@@ -1,20 +1,20 @@
 .PHONY: test update metadata/*.json
 
 install:
-	go install ./build/cmd/zonedb
+	go install ./cmd/zonedb
 
 test:
-	go run build/cmd/zonedb/main.go
+	go run cmd/zonedb/main.go
 	go test ./...
 
-zones.go: zones.txt metadata/*.json build/*.go build/*/*/*.go
+zones.go: zones.txt metadata/*.json internal/* internal/*/*
 	go generate
 
 update:
-	go run build/cmd/zonedb/main.go -update -w -c 100
+	go run cmd/zonedb/main.go -update -w -c 100
 	make zones.go
 	make test
 
 normalize:
-	go run build/cmd/zonedb/main.go -w
+	go run cmd/zonedb/main.go -w
 	make zones.go

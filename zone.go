@@ -4,7 +4,7 @@ import (
 	"strings"
 )
 
-//go:generate go run build/cmd/zonedb/main.go -generate-go
+//go:generate go run cmd/zonedb/main.go -generate-go
 
 // NS represents a slice of name servers.
 type NS []string
