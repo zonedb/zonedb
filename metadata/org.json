@@ -51,6 +51,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/org_hu_1.txt",
+			"language": "hu"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/org_is_1.txt",
 			"language": "is"
 		},

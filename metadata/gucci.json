@@ -96,6 +96,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_none_1.txt",
+			"language": "und"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_zh_1.txt",
 			"language": "zh"
 		}

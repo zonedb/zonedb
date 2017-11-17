@@ -72,6 +72,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/reise_latn_1.txt",
+			"language": "mul-Latn"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_taml_1.0.txt",
 			"language": "mul-Taml"
 		},

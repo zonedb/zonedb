@@ -20,6 +20,11 @@
 	"policies": [
 		{
 			"type": "idn-disallowed"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/audio_zh_1.0.txt",
+			"language": "zh"
 		}
 	]
 }
