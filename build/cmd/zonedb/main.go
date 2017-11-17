@@ -44,7 +44,7 @@ func main() {
 	updateRubyWhois := flag.Bool("update-ruby-whois", false, "query Ruby Whois for whois servers")
 	updateWhois := flag.Bool("update-whois", false, "query whois-servers.net for whois servers")
 	updateIANA := flag.Bool("update-iana", false, "query IANA for metadata")
-	updateIDNTables := flag.Bool("update-idn", false, "fetch IDN tables")
+	updateIDN := flag.Bool("update-idn", false, "query IANA for IDN tables")
 	updateAll := flag.Bool("update", false, "update all (root zone, whois, IANA data, IDN tables)")
 
 	// Write operations
@@ -176,8 +176,8 @@ func main() {
 		}
 	}
 
-	if *updateIDNTables || *updateAll {
-		err := build.FetchIDNTables(workZones)
+	if *updateIDN || *updateAll {
+		err := build.FetchIDNTablesFromIANA(workZones)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
