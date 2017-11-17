@@ -3,5 +3,9 @@
 	"tags": [
 		"generic"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -14,5 +14,9 @@
 		"ns1.afraid.org",
 		"ns2.afraid.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

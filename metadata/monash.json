@@ -12,5 +12,9 @@
 		"c.nic.monash",
 		"d.nic.monash"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

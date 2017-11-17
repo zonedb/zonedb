@@ -1,4 +1,8 @@
 {
 	"domain": "dyn.tj",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

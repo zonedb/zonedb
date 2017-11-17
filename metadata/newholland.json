@@ -12,5 +12,9 @@
 		"b0.nic.newholland",
 		"c0.nic.newholland"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

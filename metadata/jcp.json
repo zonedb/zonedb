@@ -12,5 +12,9 @@
 		"b0.nic.jcp",
 		"c0.nic.jcp"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

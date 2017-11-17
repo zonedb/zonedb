@@ -8,5 +8,9 @@
 		"dns1.nrc.ca",
 		"dns2.nrc.ca"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

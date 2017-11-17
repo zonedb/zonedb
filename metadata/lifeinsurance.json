@@ -12,5 +12,9 @@
 		"ns5.dns.nic.lifeinsurance",
 		"ns6.dns.nic.lifeinsurance"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

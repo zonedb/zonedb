@@ -7,5 +7,9 @@
 		"dns1.freehostservers.net",
 		"dns2.freehostservers.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

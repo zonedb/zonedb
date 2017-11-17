@@ -10,5 +10,9 @@
 		"ns.ibw.com.ni",
 		"ns.tmx.com.ni"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

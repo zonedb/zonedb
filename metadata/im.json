@@ -11,5 +11,9 @@
 		"ns4.ja.net",
 		"barney.advsys.co.uk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

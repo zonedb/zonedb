@@ -15,5 +15,9 @@
 		"zebra.uem.mz",
 		"ns-mz.afrinic.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

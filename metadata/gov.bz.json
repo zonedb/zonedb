@@ -8,5 +8,9 @@
 		"b2.cctld.afilias-nst.org",
 		"d0.cctld.afilias-nst.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

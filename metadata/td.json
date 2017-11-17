@@ -10,5 +10,9 @@
 		"ns-td.afrinic.net",
 		"ns1.nic.td"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

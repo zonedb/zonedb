@@ -7,5 +7,9 @@
 		"dns2.name-s.net",
 		"gsy1.ns.mtgsy.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

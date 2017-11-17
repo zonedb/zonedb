@@ -12,5 +12,9 @@
 		"b0.nic.abbott",
 		"c0.nic.abbott"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

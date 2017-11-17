@@ -15,5 +15,9 @@
 		"aw01.setarnet.aw",
 		"aw02.setarnet.aw"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

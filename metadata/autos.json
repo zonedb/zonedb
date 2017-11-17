@@ -11,5 +11,9 @@
 		"b0.nic.autos",
 		"c0.nic.autos"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

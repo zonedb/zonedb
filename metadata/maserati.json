@@ -12,5 +12,9 @@
 		"b0.nic.maserati",
 		"c0.nic.maserati"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

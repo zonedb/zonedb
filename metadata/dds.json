@@ -19,5 +19,9 @@
 		"c.ns.nic.dds",
 		"d.ns.nic.dds"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

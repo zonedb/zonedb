@@ -19,5 +19,9 @@
 		"c.ns.nic.abogado",
 		"d.ns.nic.abogado"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

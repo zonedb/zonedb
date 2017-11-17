@@ -6,5 +6,9 @@
 		"ns1.parkingcrew.net",
 		"ns2.parkingcrew.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

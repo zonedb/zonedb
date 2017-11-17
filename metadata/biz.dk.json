@@ -9,5 +9,9 @@
 		"root-dns.euro-isp.net",
 		"ns1.dk.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

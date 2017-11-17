@@ -7,5 +7,9 @@
 		"nsp-anycast.cmc.iq",
 		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

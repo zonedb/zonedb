@@ -1,4 +1,8 @@
 {
 	"domain": "7.bg",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

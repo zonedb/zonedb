@@ -12,5 +12,9 @@
 		"petra.nic.gov.jo",
 		"jo.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

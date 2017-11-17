@@ -12,5 +12,9 @@
 		"ns5.dns.nic.health",
 		"ns6.dns.nic.health"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

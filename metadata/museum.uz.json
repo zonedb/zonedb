@@ -6,5 +6,9 @@
 		"rdns3.uzinfocom.uz",
 		"rdns4.uzinfocom.uz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

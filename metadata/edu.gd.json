@@ -6,5 +6,9 @@
 		"ns1.siteground365.com",
 		"ns2.siteground365.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

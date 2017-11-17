@@ -12,5 +12,9 @@
 		"b0.nic.goodyear",
 		"c0.nic.goodyear"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

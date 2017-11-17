@@ -19,5 +19,12 @@
 		"f.dns.ripn.net",
 		"c.dns.flexireg.org",
 		"a.dns.flexireg.ru"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--80adxhks_ru_1.0.txt",
+			"language": "ru"
+		}
 	]
 }

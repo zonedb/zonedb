@@ -12,5 +12,9 @@
 		"b0.nic.bugatti",
 		"c0.nic.bugatti"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

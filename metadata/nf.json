@@ -10,5 +10,9 @@
 		"b.nf.dyntld.net",
 		"ns.anycast.nic.nf"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

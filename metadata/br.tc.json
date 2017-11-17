@@ -12,5 +12,9 @@
 		"default1-tr.nic.tc",
 		"default2-tr.nic.tc"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

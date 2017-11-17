@@ -10,5 +10,9 @@
 		"c.iana-servers.net",
 		"ns2.lacnic.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -11,5 +11,9 @@
 		"c.nic.study",
 		"d.nic.study"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

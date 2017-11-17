@@ -4,5 +4,9 @@
 		"ns1.org.kp",
 		"ns2.org.kp"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

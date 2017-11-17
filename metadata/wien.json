@@ -18,5 +18,12 @@
 		"a.dns.nic.wien",
 		"m.dns.nic.wien",
 		"n.dns.nic.wien"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/wien_latn_1.txt",
+			"language": "Latn"
+		}
 	]
 }

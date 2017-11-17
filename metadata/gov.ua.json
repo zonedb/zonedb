@@ -7,5 +7,9 @@
 		"ho1.ns.gov.ua",
 		"ua.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

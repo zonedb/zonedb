@@ -8,5 +8,9 @@
 		"ns3.nic.mx",
 		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

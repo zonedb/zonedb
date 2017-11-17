@@ -11,5 +11,9 @@
 		"d.mynic.net.my",
 		"dns1.mynic.net.my"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

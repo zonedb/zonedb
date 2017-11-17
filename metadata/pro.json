@@ -12,5 +12,9 @@
 		"b2.pro.afilias-nst.org",
 		"d0.pro.afilias-nst.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

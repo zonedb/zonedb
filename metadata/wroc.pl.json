@@ -8,5 +8,9 @@
 		"ns1.net.icm.edu.pl",
 		"ldhpux.immt.pwr.wroc.pl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"c.nic.barclaycard",
 		"d.nic.barclaycard"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

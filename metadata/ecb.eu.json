@@ -6,5 +6,9 @@
 		"auth02.ns.de.uu.net",
 		"auth52.ns.de.uu.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

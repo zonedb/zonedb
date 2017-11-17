@@ -10,5 +10,9 @@
 		"rihana.ns.cloudflare.com",
 		"zeus.ns.cloudflare.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

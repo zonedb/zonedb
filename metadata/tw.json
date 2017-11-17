@@ -18,5 +18,12 @@
 		"g.dns.tw",
 		"h.dns.tw",
 		"i.dns.tw"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tw_zh-tw_4.0.1.html",
+			"language": "zh-TW"
+		}
 	]
 }

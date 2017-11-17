@@ -14,5 +14,52 @@
 		"ns4.cctld.co",
 		"ns5.cctld.co",
 		"ns6.cctld.co"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/co_da_1.0.txt",
+			"language": "da"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/co_es_1.0.txt",
+			"language": "es"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/co_fi_1.0.txt",
+			"language": "fi"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/co_is_1.0.txt",
+			"language": "is"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/co_ja_1.0.txt",
+			"language": "ja"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/co_ko_1.0.txt",
+			"language": "ko"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/co_no_1.0.txt",
+			"language": "no"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/co_sv_1.0.txt",
+			"language": "sv"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/co_zh_1.0.txt",
+			"language": "zh"
+		}
 	]
 }

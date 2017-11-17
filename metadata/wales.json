@@ -26,5 +26,11 @@
 		"dnsc.nic.wales",
 		"dnsd.nic.wales"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/wales_cy_1.0.txt",
+			"language": "cy"
+		}
+	]
 }

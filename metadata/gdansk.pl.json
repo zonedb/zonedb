@@ -6,5 +6,9 @@
 		"ns2.task.gda.pl",
 		"bilbo.nask.org.pl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

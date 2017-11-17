@@ -11,5 +11,9 @@
 		"grdns-br.ics.forth.gr",
 		"grdns-m.ics.forth.gr"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

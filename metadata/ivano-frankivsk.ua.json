@@ -9,5 +9,9 @@
 		"ns.zp.ua",
 		"ho1.ns.if.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

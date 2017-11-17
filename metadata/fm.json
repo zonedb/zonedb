@@ -15,5 +15,9 @@
 		"tld4.ultradns.org",
 		"tld6.ultradns.co.uk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

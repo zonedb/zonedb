@@ -12,5 +12,9 @@
 		"b0.nic.schaeffler",
 		"c0.nic.schaeffler"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

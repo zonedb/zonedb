@@ -11,5 +11,9 @@
 		"hippo.ru.ac.za",
 		"mumble.proxima.alt.za"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

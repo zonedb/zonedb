@@ -8,5 +8,9 @@
 		"d.nic.lk",
 		"m.nic.lk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

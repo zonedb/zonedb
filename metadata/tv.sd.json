@@ -1,4 +1,8 @@
 {
 	"domain": "tv.sd",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

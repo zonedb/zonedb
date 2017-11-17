@@ -11,5 +11,9 @@
 		"anycast1.irondns.net",
 		"fork.sth.dnsnode.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

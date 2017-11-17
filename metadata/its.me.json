@@ -14,5 +14,9 @@
 		"d0.cctld.afilias-nst.org",
 		"b2.me.afilias-nst.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

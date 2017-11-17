@@ -13,5 +13,9 @@
 		"ps-ns.anycast.pch.net",
 		"ps.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

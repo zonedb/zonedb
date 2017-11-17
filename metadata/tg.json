@@ -16,5 +16,9 @@
 		"ns1.nic.tg",
 		"ns2.nic.tg"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

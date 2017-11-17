@@ -19,5 +19,9 @@
 		"c.ns.nic.fashion",
 		"d.ns.nic.fashion"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

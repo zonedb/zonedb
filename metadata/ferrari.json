@@ -12,5 +12,9 @@
 		"b0.nic.ferrari",
 		"c0.nic.ferrari"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

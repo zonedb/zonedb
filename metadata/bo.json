@@ -12,5 +12,9 @@
 		"ns2.nic.fr",
 		"anycast.ns.nic.bo"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

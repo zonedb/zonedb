@@ -4,5 +4,9 @@
 		"ns1390.ztomy.com",
 		"ns2390.ztomy.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

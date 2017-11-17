@@ -10,5 +10,9 @@
 		"sns-pb.isc.org",
 		"do-dns.nic.pr"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

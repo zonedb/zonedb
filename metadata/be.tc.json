@@ -11,5 +11,9 @@
 		"ns.udagdns.net",
 		"ns.udag.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

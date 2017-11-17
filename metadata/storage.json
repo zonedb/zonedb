@@ -15,5 +15,9 @@
 		"c0.nic.storage",
 		"d.nic.storage"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -10,5 +10,9 @@
 		"auth00.ns.de.uu.net",
 		"auth50.ns.de.uu.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

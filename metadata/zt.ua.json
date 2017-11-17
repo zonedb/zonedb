@@ -7,5 +7,9 @@
 		"nix.ns.ua",
 		"impuls.zhitomir.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

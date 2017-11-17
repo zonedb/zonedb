@@ -6,5 +6,9 @@
 		"nakayo.leland.bj",
 		"rip.psg.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

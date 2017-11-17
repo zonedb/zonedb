@@ -11,5 +11,9 @@
 		"b.gs.dyntld.net",
 		"gs.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

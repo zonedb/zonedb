@@ -9,5 +9,9 @@
 		"sns-pb.isc.org",
 		"ns.nic.pa"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

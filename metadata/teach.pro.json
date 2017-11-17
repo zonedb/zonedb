@@ -8,5 +8,9 @@
 		"ns5.netim.net",
 		"ns1.old.eucompanynetwork.pro"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -13,5 +13,9 @@
 		"ns5.dns.nic.aetna",
 		"ns6.dns.nic.aetna"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

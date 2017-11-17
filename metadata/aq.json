@@ -13,5 +13,9 @@
 		"b.aq.dyntld.net",
 		"ns99.dns.net.nz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

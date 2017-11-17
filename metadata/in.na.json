@@ -8,5 +8,9 @@
 		"ns23.cloudns.net",
 		"ns24.cloudns.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

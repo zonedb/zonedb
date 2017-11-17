@@ -15,5 +15,12 @@
 		"sns-pb.isc.org",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/museum_latn_1.0.html",
+			"language": "Latn"
+		}
 	]
 }

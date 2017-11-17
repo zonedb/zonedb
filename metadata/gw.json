@@ -12,5 +12,9 @@
 		"ns4.dns.pt",
 		"phobos.fccn.pt"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -1,4 +1,8 @@
 {
 	"domain": "prx.pro",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

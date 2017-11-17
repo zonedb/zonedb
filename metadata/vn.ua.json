@@ -8,5 +8,9 @@
 		"ns1.vn.ua",
 		"ns1.vsmu.vinnica.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -14,5 +14,9 @@
 		"ns5.dns.nic.htc",
 		"ns6.dns.nic.htc"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

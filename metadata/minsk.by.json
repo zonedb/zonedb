@@ -9,5 +9,9 @@
 		"ns1.open.by",
 		"ns2.open.by"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

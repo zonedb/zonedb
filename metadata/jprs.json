@@ -12,5 +12,14 @@
 		"tld4.nic.jprs",
 		"tld5.nic.jprs"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/jprs_ja_1.0.txt",
+			"language": "ja"
+		}
+	]
 }

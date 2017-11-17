@@ -6,5 +6,9 @@
 		"ns3.gov.mo",
 		"c.monic.mo"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

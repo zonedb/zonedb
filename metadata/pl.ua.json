@@ -6,5 +6,9 @@
 		"nix.ns.ua",
 		"ho1.ns.pl.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

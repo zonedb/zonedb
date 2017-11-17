@@ -8,5 +8,9 @@
 		"ns2.kellygolden.net",
 		"ns.udagdns.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

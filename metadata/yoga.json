@@ -19,5 +19,9 @@
 		"c.ns.nic.yoga",
 		"d.ns.nic.yoga"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

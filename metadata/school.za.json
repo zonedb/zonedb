@@ -8,5 +8,9 @@
 		"ucthpx.uct.ac.za",
 		"ns0.serendipity.org.za"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

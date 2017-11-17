@@ -6,5 +6,9 @@
 		"ns1.idnscan.net",
 		"ns2.idnscan.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

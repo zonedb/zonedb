@@ -19,5 +19,12 @@
 		"anyc1.irondns.net",
 		"cat.pch.net",
 		"sns-pb.isc.org"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cat_ca_1.0.html",
+			"language": "ca"
+		}
 	]
 }

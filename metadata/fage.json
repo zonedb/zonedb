@@ -12,5 +12,9 @@
 		"b0.nic.fage",
 		"c0.nic.fage"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

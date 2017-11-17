@@ -4,5 +4,9 @@
 		"ns1.orangecaraibe.com",
 		"ns1.nic.gp"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

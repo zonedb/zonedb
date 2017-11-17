@@ -12,5 +12,9 @@
 		"b0.nic.sbi",
 		"c0.nic.sbi"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

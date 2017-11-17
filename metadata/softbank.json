@@ -16,5 +16,9 @@
 		"c.nic.softbank",
 		"d.nic.softbank"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

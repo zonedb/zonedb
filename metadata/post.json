@@ -14,5 +14,9 @@
 		"b2.post.afilias-nst.org",
 		"d0.post.afilias-nst.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

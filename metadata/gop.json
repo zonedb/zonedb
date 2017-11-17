@@ -19,5 +19,9 @@
 		"c.ns.nic.gop",
 		"d.ns.nic.gop"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

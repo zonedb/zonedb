@@ -5,5 +5,9 @@
 		"b.co.nl",
 		"c.co.nl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

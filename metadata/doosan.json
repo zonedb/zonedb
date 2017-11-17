@@ -18,5 +18,9 @@
 		"dns3.emdns.uk",
 		"dns4.emdns.uk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

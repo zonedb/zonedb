@@ -12,5 +12,9 @@
 		"ns5.dns.nic.moto",
 		"ns6.dns.nic.moto"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

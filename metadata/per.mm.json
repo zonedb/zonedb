@@ -3,5 +3,9 @@
 	"nameServers": [
 		"ns.mmnic.net.mm"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

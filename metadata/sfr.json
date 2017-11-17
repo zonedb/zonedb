@@ -16,5 +16,9 @@
 		"x.ns.nic.sfr",
 		"y.ns.nic.sfr"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

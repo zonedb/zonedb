@@ -6,5 +6,9 @@
 		"ns1.nwns.om",
 		"ns2.nwns.om"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

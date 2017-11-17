@@ -12,5 +12,9 @@
 		"a.ns.nic.tci",
 		"b.ns.nic.tci"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

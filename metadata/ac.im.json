@@ -1,4 +1,8 @@
 {
 	"domain": "ac.im",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -6,5 +6,9 @@
 		"blackbox.uci.uni.torun.pl",
 		"koala.uci.uni.torun.pl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

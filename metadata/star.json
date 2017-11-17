@@ -12,5 +12,9 @@
 		"b0.nic.star",
 		"c0.nic.star"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -9,5 +9,9 @@
 		"s1.ns.slt.lk",
 		"s2.ns.slt.lk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

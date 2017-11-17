@@ -12,5 +12,9 @@
 		"zeina.aub.edu.lb",
 		"fork.sth.dnsnode.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

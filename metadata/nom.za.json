@@ -6,5 +6,9 @@
 		"za-ns.anycast.pch.net",
 		"secdns1.posix.co.za"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

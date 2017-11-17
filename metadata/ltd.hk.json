@@ -11,5 +11,9 @@
 		"e.udrtld.net",
 		"f.udrtld.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

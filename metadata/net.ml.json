@@ -6,5 +6,9 @@
 		"ns1.ribtelecom.net",
 		"a.ns40.microtics.pro"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

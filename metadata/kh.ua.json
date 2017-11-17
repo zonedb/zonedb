@@ -8,5 +8,9 @@
 		"ns.zp.ua",
 		"ho1.eunic.net.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

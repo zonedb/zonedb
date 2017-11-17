@@ -11,5 +11,9 @@
 		"server.nordu.net",
 		"nn.uninett.no"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -8,5 +8,9 @@
 		"ns1.metaregistrar.nl",
 		"ns2.metaregistrar.nl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

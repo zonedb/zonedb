@@ -14,5 +14,9 @@
 		"ns1.cenpac.net.nr",
 		"ns2.cenpac.net.nr"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

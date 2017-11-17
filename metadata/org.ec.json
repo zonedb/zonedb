@@ -7,5 +7,9 @@
 		"sns-pb.isc.org",
 		"a.lactld.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

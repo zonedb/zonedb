@@ -19,5 +19,9 @@
 		"c.ns.nic.garden",
 		"d.ns.nic.garden"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

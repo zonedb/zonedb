@@ -14,5 +14,9 @@
 		"auth61.ns.uu.net",
 		"bt.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

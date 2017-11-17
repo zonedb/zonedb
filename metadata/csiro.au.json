@@ -9,5 +9,9 @@
 		"ns2.aarnet.net.au",
 		"ns3.aarnet.net.au"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -4,5 +4,9 @@
 		"ns1.gov.cv",
 		"ns2.gov.cv"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -14,5 +14,9 @@
 		"ns3.telone.co.zw",
 		"zw.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

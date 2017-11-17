@@ -15,5 +15,9 @@
 		"x.ns.nic.meo",
 		"y.ns.nic.meo"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

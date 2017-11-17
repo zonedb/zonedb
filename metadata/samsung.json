@@ -19,5 +19,9 @@
 		"c.samsung.dyntld.net",
 		"d.samsung.dyntld.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -9,5 +9,9 @@
 		"h-dns.pl",
 		"i-dns.pl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

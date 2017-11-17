@@ -12,5 +12,12 @@
 		"ns2.nic.net.sa",
 		"s.nic.net.sa",
 		"s2.nic.net.sa"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgberp4a5d4ar_ar_2.xml",
+			"language": "ar"
+		}
 	]
 }

@@ -12,5 +12,9 @@
 		"b0.nic.emerck",
 		"c0.nic.emerck"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

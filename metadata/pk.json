@@ -11,5 +11,9 @@
 		"n2.pknic.net.pk",
 		"ns3.pknic.net.pk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

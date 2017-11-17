@@ -7,5 +7,9 @@
 		"sdnhq.undp.org",
 		"chambo.sdnp.org.mw"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

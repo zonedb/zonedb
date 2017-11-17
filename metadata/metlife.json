@@ -12,5 +12,9 @@
 		"b0.nic.metlife",
 		"c0.nic.metlife"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

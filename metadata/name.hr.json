@@ -7,5 +7,9 @@
 		"dns1.name.hr",
 		"dns2.name.hr"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

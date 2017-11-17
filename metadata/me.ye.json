@@ -1,4 +1,8 @@
 {
 	"domain": "me.ye",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

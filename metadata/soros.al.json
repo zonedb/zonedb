@@ -4,5 +4,9 @@
 		"ns1.hostmonster.com",
 		"ns2.hostmonster.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -6,5 +6,9 @@
 		"calavi.uac.bj",
 		"ns1.uac.bj"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

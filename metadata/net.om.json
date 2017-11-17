@@ -8,5 +8,9 @@
 		"cctld.delta.aridns.net.au",
 		"cctld.gamma.aridns.net.au"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

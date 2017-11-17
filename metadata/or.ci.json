@@ -12,5 +12,9 @@
 		"ns1.se-sto.admindns.ripe.net",
 		"ci.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -8,5 +8,9 @@
 		"ho1.ns.com.ua",
 		"k.ns.com.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

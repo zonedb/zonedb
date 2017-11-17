@@ -11,5 +11,9 @@
 		"dyntld-2.nic.kn",
 		"pch.nic.kn"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

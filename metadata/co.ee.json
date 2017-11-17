@@ -4,5 +4,9 @@
 		"ns.elkdata.ee",
 		"ns2.elkdata.ee"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

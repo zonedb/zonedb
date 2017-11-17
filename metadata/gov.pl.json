@@ -8,5 +8,9 @@
 		"f-dns.pl",
 		"g-dns.pl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

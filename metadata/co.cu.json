@@ -9,5 +9,9 @@
 		"ns3.etecsa.net.cu",
 		"ns4.etecsa.net.cu"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

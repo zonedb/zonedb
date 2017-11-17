@@ -11,5 +11,9 @@
 		"ns2.nic.mr",
 		"ns.univ-nkc.mr"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

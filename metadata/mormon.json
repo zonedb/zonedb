@@ -12,5 +12,9 @@
 		"b0.nic.mormon",
 		"c0.nic.mormon"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

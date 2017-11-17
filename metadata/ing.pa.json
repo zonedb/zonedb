@@ -9,5 +9,9 @@
 		"dns.nic.cr",
 		"ns.nic.pa"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

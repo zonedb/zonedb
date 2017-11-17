@@ -12,5 +12,9 @@
 		"b0.nic.goodhands",
 		"c0.nic.goodhands"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

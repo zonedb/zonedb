@@ -7,5 +7,9 @@
 		"ucthpx.uct.ac.za",
 		"ns0.is.co.za"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

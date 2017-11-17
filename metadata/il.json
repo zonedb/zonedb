@@ -20,5 +20,11 @@
 		"lookup.iucc.ac.il",
 		"ilns.ilan.net.il"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/il_he_1.0.html",
+			"language": "he"
+		}
+	]
 }

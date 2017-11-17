@@ -7,5 +7,9 @@
 		"ns-cache01.dhivehinet.net.mv",
 		"mv-ns.anycast.pch.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

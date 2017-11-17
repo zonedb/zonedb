@@ -14,5 +14,9 @@
 		"lookup.iucc.ac.il",
 		"ilns.ilan.net.il"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

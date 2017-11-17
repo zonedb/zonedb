@@ -12,5 +12,9 @@
 		"ns3.ucy.ac.cy",
 		"dns.cit.cornell.edu"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

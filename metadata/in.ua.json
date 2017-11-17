@@ -6,5 +6,9 @@
 		"ns.ett.ua",
 		"ns.in.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

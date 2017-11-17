@@ -11,5 +11,9 @@
 		"a.gl.dyntld.net",
 		"b.gl.dyntld.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

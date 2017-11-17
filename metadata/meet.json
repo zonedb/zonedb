@@ -16,5 +16,9 @@
 		"b0.nic.meet",
 		"c0.nic.meet"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

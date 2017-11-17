@@ -10,5 +10,9 @@
 		"ns3.ewing.net.au",
 		"ns4.ewing.net.au"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

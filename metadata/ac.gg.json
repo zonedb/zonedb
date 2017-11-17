@@ -9,5 +9,9 @@
 		"dns1.name-s.net",
 		"dns2.name-s.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

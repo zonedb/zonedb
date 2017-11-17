@@ -11,5 +11,9 @@
 		"ns3.batelco.com.bh",
 		"ns4.batelco.com.bh"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

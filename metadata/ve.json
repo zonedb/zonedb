@@ -15,5 +15,11 @@
 		"ns4.nic.ve",
 		"azmodan.ula.ve"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ve_es_1.0.html",
+			"language": "es"
+		}
+	]
 }

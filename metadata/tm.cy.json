@@ -9,5 +9,9 @@
 		"ns2.ucy.ac.cy",
 		"ns3.ucy.ac.cy"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

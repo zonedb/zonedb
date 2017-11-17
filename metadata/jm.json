@@ -12,5 +12,9 @@
 		"ns3-jm.fsl.org.jm",
 		"jm.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

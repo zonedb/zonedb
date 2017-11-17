@@ -8,5 +8,9 @@
 		"ns.msu.ru",
 		"ns.runnet.ru"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

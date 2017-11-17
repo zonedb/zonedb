@@ -16,5 +16,9 @@
 		"ns.tmx.com.ni",
 		"ns.ideay.net.ni"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

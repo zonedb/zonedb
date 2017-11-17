@@ -12,5 +12,9 @@
 		"b0.nic.alipay",
 		"c0.nic.alipay"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

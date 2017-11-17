@@ -7,5 +7,9 @@
 		"expirepages-kiae-1.nic.ru",
 		"expirepages-kiae-2.nic.ru"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

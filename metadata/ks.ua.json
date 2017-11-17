@@ -8,5 +8,9 @@
 		"nix.ns.ua",
 		"ho1.ns.ks.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

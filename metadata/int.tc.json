@@ -4,5 +4,9 @@
 		"ns1.alanadlari.com",
 		"ns2.alanadlari.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

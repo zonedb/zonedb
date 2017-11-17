@@ -11,5 +11,9 @@
 		"pch.nic.tt",
 		"ripe.nic.tt"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

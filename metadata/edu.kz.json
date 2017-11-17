@@ -5,5 +5,9 @@
 		"ns2.nic.kz",
 		"ns2.uc-net.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

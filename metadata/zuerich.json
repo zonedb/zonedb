@@ -17,5 +17,9 @@
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

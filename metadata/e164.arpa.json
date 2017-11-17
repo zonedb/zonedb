@@ -14,5 +14,9 @@
 		"sns-pb.isc.org",
 		"pri.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

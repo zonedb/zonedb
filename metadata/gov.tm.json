@@ -8,5 +8,9 @@
 		"webns2.telecom.tm",
 		"webns.agts.tv"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

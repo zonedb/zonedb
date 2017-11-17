@@ -5,5 +5,9 @@
 		"int2.dns.ripn.net",
 		"int3.dns.ripn.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -9,5 +9,9 @@
 		"f1g1ns1.dnspod.net",
 		"suspended.nic.tc"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

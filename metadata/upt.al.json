@@ -8,5 +8,9 @@
 		"ns5.univie.ac.at",
 		"itgbox.iat.cnr.it"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

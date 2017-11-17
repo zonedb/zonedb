@@ -15,5 +15,9 @@
 		"x.ns.nic.kpn",
 		"y.ns.nic.kpn"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

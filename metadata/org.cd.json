@@ -7,5 +7,9 @@
 		"sangoma.saix.net",
 		"ns1.pch.nic.cd"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

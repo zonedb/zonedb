@@ -9,5 +9,9 @@
 		"ns1.sispa.org.sz",
 		"sz.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

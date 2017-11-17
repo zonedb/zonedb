@@ -13,5 +13,9 @@
 		"disa.tenet.ac.za",
 		"nsza.is.co.za"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

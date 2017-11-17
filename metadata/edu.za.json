@@ -7,5 +7,9 @@
 		"ns-za.afrinic.net",
 		"za-ns.anycast.pch.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

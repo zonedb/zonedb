@@ -4,5 +4,9 @@
 		"ns.gov.ky",
 		"ns2.gov.ky"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

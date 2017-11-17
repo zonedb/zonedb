@@ -17,5 +17,9 @@
 		"b2.aero.afilias-nst.org",
 		"d0.aero.afilias-nst.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

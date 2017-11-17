@@ -22,5 +22,9 @@
 		"c.dns.flexireg.org",
 		"a.dns.flexireg.ru"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -13,5 +13,9 @@
 		"ns5.dns.nic.itau",
 		"ns6.dns.nic.itau"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

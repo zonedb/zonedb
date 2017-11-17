@@ -15,5 +15,11 @@
 		"k.nic.rs",
 		"l.nic.rs"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rs_sr_1.3.txt",
+			"language": "sr"
+		}
+	]
 }

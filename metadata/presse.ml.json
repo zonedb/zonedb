@@ -24,5 +24,9 @@
 		"ns3.hostinger.com.br",
 		"ns4.hostinger.com.br"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

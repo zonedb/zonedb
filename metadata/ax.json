@@ -15,5 +15,9 @@
 		"ns1.aland.net",
 		"ns2.aland.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

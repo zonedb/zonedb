@@ -8,5 +8,9 @@
 		"ns2.sn.apc.org",
 		"antares.wisenet.co.za"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -11,5 +11,9 @@
 		"sungava.mos.com.np",
 		"np-ns.npix.net.np"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

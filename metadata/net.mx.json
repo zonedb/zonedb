@@ -8,5 +8,9 @@
 		"o.mx-ns.mx",
 		"x.mx-ns.mx"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

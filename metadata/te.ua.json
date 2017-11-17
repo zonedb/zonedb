@@ -9,5 +9,9 @@
 		"ns.te.ua",
 		"ns.bit.te.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

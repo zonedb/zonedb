@@ -12,5 +12,9 @@
 		"c.ci-servers.org",
 		"ns99.dns.net.nz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

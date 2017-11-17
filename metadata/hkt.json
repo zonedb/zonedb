@@ -12,5 +12,9 @@
 		"b0.nic.hkt",
 		"c0.nic.hkt"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

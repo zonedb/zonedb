@@ -23,5 +23,9 @@
 		"ns3.nic.mx",
 		"a.lactld.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

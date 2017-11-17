@@ -1,4 +1,8 @@
 {
 	"domain": "pro.tt",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

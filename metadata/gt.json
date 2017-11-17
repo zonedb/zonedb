@@ -13,5 +13,9 @@
 		"sns-pb.isc.org",
 		"ns.uvg.edu.gt"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

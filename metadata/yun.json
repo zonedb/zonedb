@@ -11,5 +11,9 @@
 		"ns2.teleinfoo.com",
 		"ns4.teleinfoo.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

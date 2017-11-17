@@ -12,5 +12,9 @@
 		"b0.nic.orientexpress",
 		"c0.nic.orientexpress"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

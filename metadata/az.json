@@ -11,5 +11,9 @@
 		"ns.demos.su",
 		"az.hostmaster.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -9,5 +9,9 @@
 		"sigma.icmp.lviv.ua",
 		"big.litech.lviv.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

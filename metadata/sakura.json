@@ -11,5 +11,14 @@
 		"tld3.nic.sakura",
 		"tld5.nic.sakura"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sakura_ja_1.0.txt",
+			"language": "ja"
+		}
+	]
 }

@@ -1,4 +1,8 @@
 {
 	"domain": "int.ga",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

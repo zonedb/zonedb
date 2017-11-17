@@ -8,5 +8,9 @@
 		"ns1.vizor.lutsk.ua",
 		"vizor.vizor.lutsk.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

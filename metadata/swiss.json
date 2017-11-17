@@ -15,5 +15,11 @@
 		"g.nic.swiss",
 		"u.nic.swiss"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swiss_latn_1.0.txt",
+			"language": "Latn"
+		}
+	]
 }

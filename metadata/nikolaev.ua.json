@@ -10,5 +10,9 @@
 		"ho1.ns.od.ua",
 		"ns.tm.odessa.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

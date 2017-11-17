@@ -8,5 +8,9 @@
 		"dns1.magwien.gv.at",
 		"dns1.statistik.gv.at"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

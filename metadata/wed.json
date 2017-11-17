@@ -11,5 +11,9 @@
 		"a.ns.nic.wed",
 		"b.ns.nic.wed"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

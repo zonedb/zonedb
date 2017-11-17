@@ -13,5 +13,9 @@
 		"ns3.ricta.org.rw",
 		"pch.ricta.org.rw"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

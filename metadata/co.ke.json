@@ -9,5 +9,9 @@
 		"ns.anycast.kenic.or.ke",
 		"b.ns.tznic.or.tz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

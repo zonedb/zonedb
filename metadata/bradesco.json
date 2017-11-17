@@ -20,5 +20,9 @@
 		"c.ns.nic.bradesco",
 		"d.ns.nic.bradesco"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

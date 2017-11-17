@@ -12,5 +12,9 @@
 		"b0.nic.progressive",
 		"c0.nic.progressive"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

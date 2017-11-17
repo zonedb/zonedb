@@ -14,5 +14,9 @@
 		"teri.usp.ac.fj",
 		"auth00.ns.uu.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

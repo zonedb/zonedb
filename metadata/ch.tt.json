@@ -6,5 +6,9 @@
 		"ns2-show.myhostadmin.net",
 		"ns.nagor.com.cn"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

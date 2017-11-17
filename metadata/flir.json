@@ -13,5 +13,9 @@
 		"ns5.dns.nic.flir",
 		"ns6.dns.nic.flir"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -11,5 +11,26 @@
 		"demand.delta.aridns.net.au",
 		"demand.gamma.aridns.net.au"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/actor_de_1.0.txt",
+			"language": "de"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/actor_es_1.0.txt",
+			"language": "es"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/actor_fr_1.0.txt",
+			"language": "fr"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/actor_zh_1.0.txt",
+			"language": "zh"
+		}
+	]
 }

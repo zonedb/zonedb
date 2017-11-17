@@ -11,5 +11,9 @@
 		"a.ns.nic.shia",
 		"b.ns.nic.shia"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

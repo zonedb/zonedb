@@ -1,4 +1,8 @@
 {
 	"domain": "qc.ca",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

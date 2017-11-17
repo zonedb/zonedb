@@ -12,5 +12,9 @@
 		"b0.nic.chrysler",
 		"c0.nic.chrysler"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

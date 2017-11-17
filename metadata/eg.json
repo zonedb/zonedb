@@ -10,5 +10,9 @@
 		"frcu.eun.eg",
 		"ns5.univie.ac.at"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

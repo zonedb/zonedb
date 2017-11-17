@@ -15,5 +15,9 @@
 		"x.ns.nic.sapo",
 		"y.ns.nic.sapo"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

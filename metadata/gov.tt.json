@@ -6,5 +6,9 @@
 		"dns7.gov.tt",
 		"dns8.gov.tt"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

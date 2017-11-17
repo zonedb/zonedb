@@ -10,5 +10,9 @@
 		"ns2.nic.mc",
 		"mc.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

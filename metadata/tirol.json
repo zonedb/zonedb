@@ -14,5 +14,11 @@
 		"m.dns.nic.tirol",
 		"n.dns.nic.tirol"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tirol_latn_1.txt",
+			"language": "Latn"
+		}
+	]
 }

@@ -8,5 +8,12 @@
 		"d.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ovh_fr_1.txt",
+			"language": "fr"
+		}
 	]
 }

@@ -12,5 +12,9 @@
 		"b0.nic.pwc",
 		"c0.nic.pwc"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

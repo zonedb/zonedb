@@ -14,5 +14,9 @@
 		"b.car.dyntld.net",
 		"c.car.dyntld.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

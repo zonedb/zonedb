@@ -6,5 +6,9 @@
 		"ns1.sarkor.uz",
 		"ns2.sarkor.uz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

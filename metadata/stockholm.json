@@ -17,5 +17,9 @@
 		"b0.nic.stockholm",
 		"c0.nic.stockholm"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

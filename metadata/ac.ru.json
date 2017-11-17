@@ -6,5 +6,9 @@
 		"ns1.free.net",
 		"ns2.free.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

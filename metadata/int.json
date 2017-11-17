@@ -15,5 +15,9 @@
 		"sec2.authdns.ripe.net",
 		"ns1.cs.ucl.ac.uk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -11,5 +11,9 @@
 		"dns-st.bahnhof.net",
 		"ns1.bahnhof.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

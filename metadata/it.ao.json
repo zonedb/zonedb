@@ -8,5 +8,9 @@
 		"ns02.fccn.pt",
 		"ns2.reg.it.ao"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

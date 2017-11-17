@@ -10,5 +10,9 @@
 		"ac3.nstld.com",
 		"ac4.nstld.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"ns.telesurf.com.kh",
 		"ns1.dns.net.kh"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

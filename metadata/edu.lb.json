@@ -6,5 +6,9 @@
 		"elissa.aub.edu.lb",
 		"zeina.aub.edu.lb"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

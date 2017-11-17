@@ -8,5 +8,9 @@
 		"ns2.cuhk.hk",
 		"ns2.cernet.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

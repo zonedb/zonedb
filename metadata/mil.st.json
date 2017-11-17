@@ -4,5 +4,9 @@
 		"ns2.bahnhof.net",
 		"ns.bahnhof.se"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

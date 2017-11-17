@@ -12,5 +12,9 @@
 		"b0.nic.aigo",
 		"c0.nic.aigo"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

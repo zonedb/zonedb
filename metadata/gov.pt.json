@@ -4,5 +4,9 @@
 		"ns02.fccn.pt",
 		"dns1.gov.pt"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

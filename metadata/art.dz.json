@@ -6,5 +6,9 @@
 		"ns1.nic.dz",
 		"ns2.nic.dz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

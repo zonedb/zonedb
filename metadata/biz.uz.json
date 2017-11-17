@@ -4,5 +4,9 @@
 		"ns1.subdomain.com",
 		"ns2.subdomain.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

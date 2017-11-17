@@ -6,5 +6,9 @@
 		"ns1.guven.gen.tr",
 		"ns2.guven.gen.tr"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

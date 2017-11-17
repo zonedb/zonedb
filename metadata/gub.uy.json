@@ -10,5 +10,9 @@
 		"ns1.anteldata.com.uy",
 		"ns2.anteldata.com.uy"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -6,5 +6,9 @@
 		"dns1.stabletransit.com",
 		"dns2.stabletransit.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

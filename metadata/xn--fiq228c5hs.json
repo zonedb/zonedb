@@ -13,5 +13,17 @@
 		"a2.nic.中文网",
 		"b0.nic.中文网",
 		"c0.nic.中文网"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fiq228c5hs_zh-cn_4.0.txt",
+			"language": "zh-CN"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fiq228c5hs_zh-hant_4.0.1.txt",
+			"language": "zh-Hant"
+		}
 	]
 }

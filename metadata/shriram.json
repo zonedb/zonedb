@@ -12,5 +12,9 @@
 		"b0.nic.shriram",
 		"c0.nic.shriram"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

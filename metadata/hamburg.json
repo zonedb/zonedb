@@ -14,5 +14,12 @@
 		"a.dns.nic.hamburg",
 		"m.dns.nic.hamburg",
 		"n.dns.nic.hamburg"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hamburg_latn_1.txt",
+			"language": "Latn"
+		}
 	]
 }

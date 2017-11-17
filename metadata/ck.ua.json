@@ -7,5 +7,9 @@
 		"ba1.ns.ua",
 		"nix.ns.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

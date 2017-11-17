@@ -13,5 +13,9 @@
 		"pac1.nipr.mil",
 		"pac2.nipr.mil"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

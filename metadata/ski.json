@@ -13,5 +13,12 @@
 		"a2.nic.ski",
 		"b0.nic.ski",
 		"c0.nic.ski"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ski_de_1.0.txt",
+			"language": "de"
+		}
 	]
 }

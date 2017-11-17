@@ -13,5 +13,9 @@
 		"dns-za.dnsafrica.net",
 		"sunic.sunet.se"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

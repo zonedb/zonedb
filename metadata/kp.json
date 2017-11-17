@@ -8,5 +8,9 @@
 		"ns1.kptc.kp",
 		"ns2.kptc.kp"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

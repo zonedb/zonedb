@@ -19,5 +19,9 @@
 		"c.ns.nic.wedding",
 		"d.ns.nic.wedding"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

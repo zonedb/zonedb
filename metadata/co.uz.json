@@ -5,5 +5,9 @@
 		"ns2.reg.uz",
 		"dns3.webspace.uz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

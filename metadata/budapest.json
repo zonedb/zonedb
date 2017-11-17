@@ -25,5 +25,9 @@
 		"c.ns.nic.budapest",
 		"d.ns.nic.budapest"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

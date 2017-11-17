@@ -19,5 +19,9 @@
 		"c.ns.nic.broadway",
 		"d.ns.nic.broadway"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

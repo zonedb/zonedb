@@ -11,5 +11,9 @@
 		"slave.sth.netnod.se",
 		"hippo.ru.ac.za"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

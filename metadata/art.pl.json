@@ -8,5 +8,9 @@
 		"ns1.net.icm.edu.pl",
 		"ns2.net.icm.edu.pl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

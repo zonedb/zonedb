@@ -11,5 +11,9 @@
 		"dns-mk.univie.ac.at",
 		"d.ext.nic.cz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"b0.nic.godaddy",
 		"c0.nic.godaddy"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

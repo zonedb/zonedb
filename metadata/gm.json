@@ -10,5 +10,9 @@
 		"ns2.nic.gm",
 		"ns-gm.afrinic.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

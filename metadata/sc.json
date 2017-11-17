@@ -15,5 +15,11 @@
 		"b2.cctld.afilias-nst.org",
 		"d0.cctld.afilias-nst.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sc_zh-cn_4.0.txt",
+			"language": "zh-CN"
+		}
+	]
 }

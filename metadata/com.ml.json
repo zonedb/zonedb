@@ -4,5 +4,9 @@
 		"dns.gouv.ml",
 		"djamako.nic.ml"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

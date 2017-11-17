@@ -9,5 +9,9 @@
 		"ns.coza.net.za",
 		"ns1.coza.net.za"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

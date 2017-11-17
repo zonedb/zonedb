@@ -7,5 +7,9 @@
 		"dns.site5.com",
 		"dns2.site5.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

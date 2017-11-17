@@ -15,5 +15,9 @@
 		"phobos.fccn.pt",
 		"auth02.ns.uu.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

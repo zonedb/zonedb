@@ -18,5 +18,11 @@
 		"d.ns.dns.be",
 		"y.ns.dns.be"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/vlaanderen_latn_1.0.txt",
+			"language": "Latn"
+		}
+	]
 }

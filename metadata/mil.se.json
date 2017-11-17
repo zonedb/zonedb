@@ -8,5 +8,9 @@
 		"ns3.mil.se",
 		"pitea.dns.swip.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

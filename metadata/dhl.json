@@ -15,5 +15,9 @@
 		"x.ns.nic.dhl",
 		"y.ns.nic.dhl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"fork.sth.dnsnode.net",
 		"hippo.ru.ac.za"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

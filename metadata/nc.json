@@ -12,5 +12,9 @@
 		"censvrns0001.ird.fr",
 		"nc.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -7,5 +7,9 @@
 		"ns3.gov.orion.rs",
 		"dagda1.isp.telekom.rs"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

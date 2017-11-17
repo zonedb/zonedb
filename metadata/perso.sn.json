@@ -1,4 +1,8 @@
 {
 	"domain": "perso.sn",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

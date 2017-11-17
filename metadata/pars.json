@@ -11,5 +11,9 @@
 		"a.ns.nic.pars",
 		"b.ns.nic.pars"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

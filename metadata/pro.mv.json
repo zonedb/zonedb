@@ -3,5 +3,9 @@
 	"nameServers": [
 		"host13.dhivehinet.net.mv"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

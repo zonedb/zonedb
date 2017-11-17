@@ -11,5 +11,9 @@
 		"ns.bit.te.ua",
 		"ns.bit.ternopil.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"ns1.mrecic.gov.ar",
 		"ns2.mrecic.gov.ar"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -6,5 +6,9 @@
 		"ns1.nic.uk",
 		"ns1.cs.ucl.ac.uk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

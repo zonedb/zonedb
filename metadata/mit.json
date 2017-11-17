@@ -12,5 +12,9 @@
 		"b0.nic.mit",
 		"c0.nic.mit"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

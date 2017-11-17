@@ -25,5 +25,14 @@
 		"m.gmoregistry.net",
 		"n.gmoregistry.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ryukyu_ja_1.0.txt",
+			"language": "ja"
+		}
+	]
 }

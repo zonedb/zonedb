@@ -12,5 +12,9 @@
 		"vg-ns.anycast.pch.net",
 		"vg.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

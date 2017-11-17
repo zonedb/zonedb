@@ -6,5 +6,9 @@
 		"ns1.tur.cu",
 		"ns.ceniai.net.cu"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

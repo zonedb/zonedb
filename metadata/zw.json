@@ -11,5 +11,9 @@
 		"ns2.telone.co.zw",
 		"ns3.telone.co.zw"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

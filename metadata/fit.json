@@ -19,5 +19,9 @@
 		"c.ns.nic.fit",
 		"d.ns.nic.fit"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

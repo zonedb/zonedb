@@ -4,5 +4,9 @@
 		"ns-us.1and1-dns.com",
 		"ns-us.1and1-dns.us"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -8,5 +8,9 @@
 		"ns02.is.nl",
 		"ns03.is.nl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

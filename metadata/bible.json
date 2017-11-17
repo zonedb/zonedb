@@ -13,5 +13,9 @@
 		"ns5.dns.nic.bible",
 		"ns6.dns.nic.bible"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

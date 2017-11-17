@@ -16,5 +16,9 @@
 		"x.ns.nic.adac",
 		"y.ns.nic.adac"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

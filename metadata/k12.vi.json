@@ -3,5 +3,9 @@
 	"nameServers": [
 		"ns1.nic.vi"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

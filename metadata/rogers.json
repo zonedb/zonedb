@@ -12,5 +12,9 @@
 		"b0.nic.rogers",
 		"c0.nic.rogers"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

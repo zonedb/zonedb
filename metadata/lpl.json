@@ -16,5 +16,9 @@
 		"x.ns.nic.lpl",
 		"y.ns.nic.lpl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

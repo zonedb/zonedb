@@ -7,5 +7,9 @@
 		"vax1.baker.ie",
 		"ns.heanet.ie"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

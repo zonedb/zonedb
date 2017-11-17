@@ -19,5 +19,9 @@
 		"c.ns.nic.luxe",
 		"d.ns.nic.luxe"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

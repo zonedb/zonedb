@@ -8,5 +8,9 @@
 		"a.cm.dyntld.net",
 		"b.cm.dyntld.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

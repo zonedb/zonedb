@@ -7,5 +7,9 @@
 		"nsi2.inet.ga",
 		"ns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

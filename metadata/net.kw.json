@@ -12,5 +12,9 @@
 		"a.kw.nic.kw",
 		"b.kw.nic.kw"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

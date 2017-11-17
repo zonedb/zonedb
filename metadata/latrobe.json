@@ -12,5 +12,9 @@
 		"c.nic.latrobe",
 		"d.nic.latrobe"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

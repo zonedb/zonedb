@@ -5,5 +5,9 @@
 		"dns.ucad.sn",
 		"ns.ucad.sn"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

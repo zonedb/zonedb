@@ -14,5 +14,9 @@
 		"ns1.coza.net.za",
 		"sd.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

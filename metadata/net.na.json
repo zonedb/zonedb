@@ -7,5 +7,9 @@
 		"oshikoko.omadhina.co.na",
 		"na-ns.anycast.pch.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

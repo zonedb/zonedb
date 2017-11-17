@@ -8,5 +8,9 @@
 		"auth01.ns.uu.net",
 		"ns.ibw.com.ni"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

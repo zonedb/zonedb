@@ -15,5 +15,9 @@
 		"ns3.lolo.co.za",
 		"sticky.spider.web.za"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

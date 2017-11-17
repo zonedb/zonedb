@@ -8,5 +8,9 @@
 		"athena.asti.dost.gov.ph",
 		"kitana.asti.dost.gov.ph"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

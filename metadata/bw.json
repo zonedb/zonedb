@@ -13,5 +13,9 @@
 		"dns2.nic.net.bw",
 		"pch.nic.net.bw"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

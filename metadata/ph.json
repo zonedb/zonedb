@@ -13,5 +13,9 @@
 		"ns2.cuhk.edu.hk",
 		"ph.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

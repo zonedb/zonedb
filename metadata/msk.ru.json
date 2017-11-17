@@ -5,5 +5,9 @@
 		"ns4-geo.nic.ru",
 		"ns8-geo.nic.ru"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

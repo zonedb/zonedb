@@ -9,5 +9,9 @@
 		"ns1.wuicc.net.ua",
 		"ns2.jb.rv.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"b0.nic.locker",
 		"c0.nic.locker"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

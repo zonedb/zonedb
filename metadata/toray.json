@@ -16,5 +16,9 @@
 		"c.nic.toray",
 		"d.nic.toray"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

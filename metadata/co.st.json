@@ -8,5 +8,9 @@
 		"ns1-us.ns.gov.st",
 		"ns2-se.ns.gov.st"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

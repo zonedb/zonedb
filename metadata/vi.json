@@ -14,5 +14,9 @@
 		"auth100.ns.uu.net",
 		"auth110.ns.uu.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

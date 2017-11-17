@@ -24,5 +24,9 @@
 		"c.ns.nic.miami",
 		"d.ns.nic.miami"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

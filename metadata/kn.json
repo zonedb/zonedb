@@ -14,5 +14,9 @@
 		"b.dns.tw",
 		"c.dns.tw"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

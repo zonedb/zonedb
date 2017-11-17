@@ -4,5 +4,9 @@
 		"ns1.i-registry.cz",
 		"ns.i-registry.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -13,5 +13,9 @@
 		"ns5.dns.nic.americanexpress",
 		"ns6.dns.nic.americanexpress"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

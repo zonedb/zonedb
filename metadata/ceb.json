@@ -12,5 +12,9 @@
 		"b0.nic.ceb",
 		"c0.nic.ceb"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

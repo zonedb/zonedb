@@ -12,5 +12,9 @@
 		"a.ns.nic.nowruz",
 		"b.ns.nic.nowruz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

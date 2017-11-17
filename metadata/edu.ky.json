@@ -12,5 +12,9 @@
 		"c.ky.dyntld.net",
 		"a.ns.uniregistry.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -11,5 +11,9 @@
 		"ns17.cdns.net",
 		"ns2.cuhk.edu.hk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

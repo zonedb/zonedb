@@ -15,5 +15,9 @@
 		"ns5.dns.nl",
 		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

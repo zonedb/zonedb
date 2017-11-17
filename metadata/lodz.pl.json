@@ -6,5 +6,9 @@
 		"dns2.man.lodz.pl",
 		"dns4.man.lodz.pl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"b0.nic.caseih",
 		"c0.nic.caseih"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

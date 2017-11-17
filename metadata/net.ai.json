@@ -4,5 +4,9 @@
 		"ns1.offshore.ai",
 		"ns2.offshore.ai"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

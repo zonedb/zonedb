@@ -16,5 +16,9 @@
 		"dnsc.nic.telecity",
 		"dnsd.nic.telecity"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

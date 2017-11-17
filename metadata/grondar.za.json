@@ -9,5 +9,9 @@
 		"rip.psg.com",
 		"grandfather.grondar.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

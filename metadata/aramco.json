@@ -13,5 +13,9 @@
 		"ns5.dns.nic.aramco",
 		"ns6.dns.nic.aramco"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

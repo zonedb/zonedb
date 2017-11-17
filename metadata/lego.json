@@ -12,5 +12,36 @@
 		"ac3.nstld.com",
 		"ac4.nstld.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/lego_arab_2.5.txt",
+			"language": "Arab"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/lego_hang_2.5.txt",
+			"language": "Hang"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/lego_hani_2.5.txt",
+			"language": "Hani"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/lego_hano_2.5.txt",
+			"language": "Hano"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/lego_latn_2.5.txt",
+			"language": "Latn"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/lego_ru_2.5.txt",
+			"language": "ru"
+		}
+	]
 }
