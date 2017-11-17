@@ -90,8 +90,6 @@ func (z *Zone) normalizePolicies() {
 func (z *Zone) transition() {
 	// Transition ProhibitIDN and ASCII CodePoints
 	if z.ProhibitIDN || z.CodePoints == "--09az" {
-		z.CodePoints = ""     // zero value
-		z.ProhibitIDN = false // zero value
 		z.AddPolicy(TypeIDNDisallowed, "", "", "")
 	}
 
@@ -99,7 +97,11 @@ func (z *Zone) transition() {
 	for lang, u := range z.IDNTableURLs {
 		z.AddPolicy(TypeIDNTable, u, lang, "")
 	}
+
+	// Zero out legacy data
+	z.ProhibitIDN = false
 	z.IDNTableURLs = nil
+	z.CodePoints = ""
 }
 
 // AddPolicy adds a single policy to Zone z.
