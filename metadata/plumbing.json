@@ -38,6 +38,21 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_latn_1.0.txt",
+			"language": "Latn"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_taml_1.0.txt",
+			"language": "Taml"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_thai_1.0.txt",
+			"language": "Thai"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_de_1.0.txt",
 			"language": "de"
 		},
@@ -58,23 +73,8 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_latn_1.0.txt",
-			"language": "Latn"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ko_1.0.txt",
 			"language": "ko"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_taml_1.0.txt",
-			"language": "Taml"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_thai_1.0.txt",
-			"language": "Thai"
 		},
 		{
 			"type": "idn-table",

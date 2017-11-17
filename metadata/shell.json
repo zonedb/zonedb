@@ -317,41 +317,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_az_2.5.txt",
-			"language": "az"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_be_2.5.txt",
-			"language": "be"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_bg_2.5.txt",
-			"language": "bg"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_de_2.5.txt",
-			"language": "de"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_el_2.5.txt",
-			"language": "el"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_es_2.5.txt",
-			"language": "es"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_fr_2.5.txt",
-			"language": "fr"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/shell_prti_2.5.txt",
 			"language": "Prti"
 		},
@@ -364,16 +329,6 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/shell_runr_2.5.txt",
 			"language": "Runr"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_ro_2.5.txt",
-			"language": "ro"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_ru_2.5.txt",
-			"language": "ru"
 		},
 		{
 			"type": "idn-table",
@@ -452,6 +407,76 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_thaa_2.5.txt",
+			"language": "Thaa"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_thai_2.5.txt",
+			"language": "Thai"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_tibt_2.5.txt",
+			"language": "Tibt"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_vaii_2.5.txt",
+			"language": "Vaii"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_xpeo_2.5.txt",
+			"language": "Xpeo"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_xsux_2.5.txt",
+			"language": "Xsux"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_yiii_2.5.txt",
+			"language": "Yiii"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_az_2.5.txt",
+			"language": "az"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_be_2.5.txt",
+			"language": "be"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_bg_2.5.txt",
+			"language": "bg"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_de_2.5.txt",
+			"language": "de"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_el_2.5.txt",
+			"language": "el"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_es_2.5.txt",
+			"language": "es"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_fr_2.5.txt",
+			"language": "fr"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/shell_hr_2.5.txt",
 			"language": "hr"
 		},
@@ -472,31 +497,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_thaa_2.5.txt",
-			"language": "Thaa"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_thai_2.5.txt",
-			"language": "Thai"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_vaii_2.5.txt",
-			"language": "Vaii"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_xpeo_2.5.txt",
-			"language": "Xpeo"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_xsux_2.5.txt",
-			"language": "Xsux"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/shell_mk_2.5.txt",
 			"language": "mk"
 		},
@@ -507,6 +507,16 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_ro_2.5.txt",
+			"language": "ro"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/shell_ru_2.5.txt",
+			"language": "ru"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/shell_sr_2.5.txt",
 			"language": "sr"
 		},
@@ -514,16 +524,6 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/shell_sv_2.5.txt",
 			"language": "sv"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_tibt_2.5.txt",
-			"language": "Tibt"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/shell_yiii_2.5.txt",
-			"language": "Yiii"
 		},
 		{
 			"type": "idn-table",

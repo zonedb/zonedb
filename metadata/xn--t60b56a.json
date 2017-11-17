@@ -353,16 +353,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_bg_2.5.txt",
-			"language": "bg"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_ko_2.5.txt",
-			"language": "ko"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_sylo_2.5.txt",
 			"language": "Sylo"
 		},
@@ -390,11 +380,6 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_taml_2.5.txt",
 			"language": "Taml"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_el_2.5.txt",
-			"language": "el"
 		},
 		{
 			"type": "idn-table",
@@ -443,6 +428,16 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_xsux_2.5.txt",
+			"language": "Xsux"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_yiii_2.5.txt",
+			"language": "Yiii"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_az_2.5.txt",
 			"language": "az"
 		},
@@ -453,8 +448,23 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_bg_2.5.txt",
+			"language": "bg"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_el_2.5.txt",
+			"language": "el"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_ja_2.5.txt",
 			"language": "ja"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_ko_2.5.txt",
+			"language": "ko"
 		},
 		{
 			"type": "idn-table",
@@ -485,16 +495,6 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_uk_2.5.txt",
 			"language": "uk"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_xsux_2.5.txt",
-			"language": "Xsux"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_yiii_2.5.txt",
-			"language": "Yiii"
 		},
 		{
 			"type": "idn-table",

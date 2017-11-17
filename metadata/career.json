@@ -290,11 +290,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/career_es_2.5.txt",
-			"language": "es"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/career_orkh_2.5.txt",
 			"language": "Orkh"
 		},
@@ -345,21 +340,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/career_ko_2.5.txt",
-			"language": "ko"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/career_pl_2.5.txt",
-			"language": "pl"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/career_ru_2.5.txt",
-			"language": "ru"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/career_saur_2.5.txt",
 			"language": "Saur"
 		},
@@ -372,11 +352,6 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/career_sund_2.5.txt",
 			"language": "Sund"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/career_sv_2.5.txt",
-			"language": "sv"
 		},
 		{
 			"type": "idn-table",
@@ -445,6 +420,26 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/career_vaii_2.5.txt",
+			"language": "Vaii"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/career_xpeo_2.5.txt",
+			"language": "Xpeo"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/career_xsux_2.5.txt",
+			"language": "Xsux"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/career_yiii_2.5.txt",
+			"language": "Yiii"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/career_az_2.5.txt",
 			"language": "az"
 		},
@@ -465,13 +460,13 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/career_xpeo_2.5.txt",
-			"language": "Xpeo"
+			"value": "https://www.iana.org/domains/idn-tables/tables/career_el_2.5.txt",
+			"language": "el"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/career_el_2.5.txt",
-			"language": "el"
+			"value": "https://www.iana.org/domains/idn-tables/tables/career_es_2.5.txt",
+			"language": "es"
 		},
 		{
 			"type": "idn-table",
@@ -490,6 +485,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/career_ko_2.5.txt",
+			"language": "ko"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/career_ku_2.5.txt",
 			"language": "ku"
 		},
@@ -500,8 +500,18 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/career_pl_2.5.txt",
+			"language": "pl"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/career_ro_2.5.txt",
 			"language": "ro"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/career_ru_2.5.txt",
+			"language": "ru"
 		},
 		{
 			"type": "idn-table",
@@ -510,23 +520,13 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/career_vaii_2.5.txt",
-			"language": "Vaii"
+			"value": "https://www.iana.org/domains/idn-tables/tables/career_sv_2.5.txt",
+			"language": "sv"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/career_uk_2.5.txt",
 			"language": "uk"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/career_xsux_2.5.txt",
-			"language": "Xsux"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/career_yiii_2.5.txt",
-			"language": "Yiii"
 		},
 		{
 			"type": "idn-table",

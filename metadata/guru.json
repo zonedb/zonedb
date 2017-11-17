@@ -28,11 +28,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_es_1.0.txt",
-			"language": "es"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_grek_1.0.txt",
 			"language": "Grek"
 		},
@@ -45,11 +40,6 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_latn_1.0.txt",
 			"language": "Latn"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ko_1.0.txt",
-			"language": "ko"
 		},
 		{
 			"type": "idn-table",
@@ -68,6 +58,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_es_1.0.txt",
+			"language": "es"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_fr_1.0.txt",
 			"language": "fr"
 		},
@@ -75,6 +70,11 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ja_1.0.txt",
 			"language": "ja"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ko_1.0.txt",
+			"language": "ko"
 		},
 		{
 			"type": "idn-table",

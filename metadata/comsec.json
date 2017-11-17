@@ -317,11 +317,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_mk_2.5.txt",
-			"language": "mk"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_prti_2.5.txt",
 			"language": "Prti"
 		},
@@ -352,18 +347,8 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_pl_2.5.txt",
-			"language": "pl"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_sinh_2.5.txt",
 			"language": "Sinh"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_ru_2.5.txt",
-			"language": "ru"
 		},
 		{
 			"type": "idn-table",
@@ -397,8 +382,58 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_taml_2.5.txt",
+			"language": "Taml"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_tavt_2.5.txt",
+			"language": "Tavt"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_telu_2.5.txt",
+			"language": "Telu"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_tfng_2.5.txt",
+			"language": "Tfng"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_tglg_2.5.txt",
+			"language": "Tglg"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_thaa_2.5.txt",
+			"language": "Thaa"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_thai_2.5.txt",
+			"language": "Thai"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_tibt_2.5.txt",
+			"language": "Tibt"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_vaii_2.5.txt",
+			"language": "Vaii"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_xpeo_2.5.txt",
 			"language": "Xpeo"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_xsux_2.5.txt",
+			"language": "Xsux"
 		},
 		{
 			"type": "idn-table",
@@ -437,18 +472,18 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_taml_2.5.txt",
-			"language": "Taml"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_tavt_2.5.txt",
-			"language": "Tavt"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_ku_2.5.txt",
 			"language": "ku"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_mk_2.5.txt",
+			"language": "mk"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_pl_2.5.txt",
+			"language": "pl"
 		},
 		{
 			"type": "idn-table",
@@ -457,48 +492,13 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_telu_2.5.txt",
-			"language": "Telu"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_tfng_2.5.txt",
-			"language": "Tfng"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_tglg_2.5.txt",
-			"language": "Tglg"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_thaa_2.5.txt",
-			"language": "Thaa"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_thai_2.5.txt",
-			"language": "Thai"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_tibt_2.5.txt",
-			"language": "Tibt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_ru_2.5.txt",
+			"language": "ru"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_uk_2.5.txt",
 			"language": "uk"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_vaii_2.5.txt",
-			"language": "Vaii"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_xsux_2.5.txt",
-			"language": "Xsux"
 		},
 		{
 			"type": "idn-table",

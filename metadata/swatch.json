@@ -292,21 +292,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_bg_2.5.txt",
-			"language": "bg"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_es_2.5.txt",
-			"language": "es"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_ja_2.5.txt",
-			"language": "ja"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_orkh_2.5.txt",
 			"language": "Orkh"
 		},
@@ -314,6 +299,11 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_orya_2.5.txt",
 			"language": "Orya"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_phag_2.5.txt",
+			"language": "Phag"
 		},
 		{
 			"type": "idn-table",
@@ -342,28 +332,8 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_ko_2.5.txt",
-			"language": "ko"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_mk_2.5.txt",
-			"language": "mk"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_phag_2.5.txt",
-			"language": "Phag"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_samr_2.5.txt",
 			"language": "Samr"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_ro_2.5.txt",
-			"language": "ro"
 		},
 		{
 			"type": "idn-table",
@@ -412,78 +382,13 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_tavt_2.5.txt",
-			"language": "Tavt"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_thai_2.5.txt",
-			"language": "Thai"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_xsux_2.5.txt",
-			"language": "Xsux"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_az_2.5.txt",
-			"language": "az"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_be_2.5.txt",
-			"language": "be"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_de_2.5.txt",
-			"language": "de"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_el_2.5.txt",
-			"language": "el"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_fr_2.5.txt",
-			"language": "fr"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_hr_2.5.txt",
-			"language": "hr"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_ku_2.5.txt",
-			"language": "ku"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_taml_2.5.txt",
 			"language": "Taml"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_pl_2.5.txt",
-			"language": "pl"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_ru_2.5.txt",
-			"language": "ru"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_sr_2.5.txt",
-			"language": "sr"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_sv_2.5.txt",
-			"language": "sv"
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_tavt_2.5.txt",
+			"language": "Tavt"
 		},
 		{
 			"type": "idn-table",
@@ -507,13 +412,13 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_tibt_2.5.txt",
-			"language": "Tibt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_thai_2.5.txt",
+			"language": "Thai"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_uk_2.5.txt",
-			"language": "uk"
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_tibt_2.5.txt",
+			"language": "Tibt"
 		},
 		{
 			"type": "idn-table",
@@ -527,8 +432,103 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_xsux_2.5.txt",
+			"language": "Xsux"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_yiii_2.5.txt",
 			"language": "Yiii"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_az_2.5.txt",
+			"language": "az"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_be_2.5.txt",
+			"language": "be"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_bg_2.5.txt",
+			"language": "bg"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_de_2.5.txt",
+			"language": "de"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_el_2.5.txt",
+			"language": "el"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_es_2.5.txt",
+			"language": "es"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_fr_2.5.txt",
+			"language": "fr"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_hr_2.5.txt",
+			"language": "hr"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_ja_2.5.txt",
+			"language": "ja"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_ko_2.5.txt",
+			"language": "ko"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_ku_2.5.txt",
+			"language": "ku"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_mk_2.5.txt",
+			"language": "mk"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_pl_2.5.txt",
+			"language": "pl"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_ro_2.5.txt",
+			"language": "ro"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_ru_2.5.txt",
+			"language": "ru"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_sr_2.5.txt",
+			"language": "sr"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_sv_2.5.txt",
+			"language": "sv"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swatch_uk_2.5.txt",
+			"language": "uk"
 		},
 		{
 			"type": "idn-table",

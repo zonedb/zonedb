@@ -216,11 +216,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bing_az_2.5.txt",
-			"language": "az"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/bing_laoo_2.5.txt",
 			"language": "Laoo"
 		},
@@ -381,8 +376,73 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bing_talu_2.5.txt",
+			"language": "Talu"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bing_taml_2.5.txt",
+			"language": "Taml"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bing_tavt_2.5.txt",
+			"language": "Tavt"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bing_telu_2.5.txt",
+			"language": "Telu"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bing_tfng_2.5.txt",
+			"language": "Tfng"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bing_tglg_2.5.txt",
+			"language": "Tglg"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bing_thaa_2.5.txt",
+			"language": "Thaa"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bing_thai_2.5.txt",
+			"language": "Thai"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bing_tibt_2.5.txt",
+			"language": "Tibt"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bing_vaii_2.5.txt",
+			"language": "Vaii"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/bing_xpeo_2.5.txt",
 			"language": "Xpeo"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bing_xsux_2.5.txt",
+			"language": "Xsux"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bing_yiii_2.5.txt",
+			"language": "Yiii"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bing_az_2.5.txt",
+			"language": "az"
 		},
 		{
 			"type": "idn-table",
@@ -461,73 +521,13 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bing_talu_2.5.txt",
-			"language": "Talu"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bing_taml_2.5.txt",
-			"language": "Taml"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bing_tavt_2.5.txt",
-			"language": "Tavt"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bing_telu_2.5.txt",
-			"language": "Telu"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bing_tfng_2.5.txt",
-			"language": "Tfng"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bing_tglg_2.5.txt",
-			"language": "Tglg"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/bing_sv_2.5.txt",
 			"language": "sv"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bing_thaa_2.5.txt",
-			"language": "Thaa"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bing_thai_2.5.txt",
-			"language": "Thai"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bing_tibt_2.5.txt",
-			"language": "Tibt"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/bing_uk_2.5.txt",
 			"language": "uk"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bing_vaii_2.5.txt",
-			"language": "Vaii"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bing_xsux_2.5.txt",
-			"language": "Xsux"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bing_yiii_2.5.txt",
-			"language": "Yiii"
 		},
 		{
 			"type": "idn-table",

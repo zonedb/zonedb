@@ -393,8 +393,48 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/net_telu_1.2.txt",
+			"language": "Telu"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/net_tfng_1.2.txt",
+			"language": "Tfng"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/net_tglg_1.2.txt",
 			"language": "Tglg"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/net_thaa_1.2.txt",
+			"language": "Thaa"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/net_thai_1.2.txt",
+			"language": "Thai"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/net_tibt_1.2.txt",
+			"language": "Tibt"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/net_vaii_1.2.txt",
+			"language": "Vaii"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/net_xpeo_1.2.txt",
+			"language": "Xpeo"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/net_xsux_1.2.txt",
+			"language": "Xsux"
 		},
 		{
 			"type": "idn-table",
@@ -438,58 +478,18 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/net_telu_1.2.txt",
-			"language": "Telu"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/net_tfng_1.2.txt",
-			"language": "Tfng"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/net_thaa_1.2.txt",
-			"language": "Thaa"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/net_thai_1.2.txt",
-			"language": "Thai"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/net_tibt_1.2.txt",
-			"language": "Tibt"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/net_vaii_1.2.txt",
-			"language": "Vaii"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/net_xpeo_1.2.txt",
-			"language": "Xpeo"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/net_xsux_1.2.txt",
-			"language": "Xsux"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/net_mk_1.2.txt",
 			"language": "mk"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/net_mo_1.2.txt",
-			"language": "ro-MD"
+			"value": "https://www.iana.org/domains/idn-tables/tables/net_pl_1.2.txt",
+			"language": "pl"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/net_pl_1.2.txt",
-			"language": "pl"
+			"value": "https://www.iana.org/domains/idn-tables/tables/net_mo_1.2.txt",
+			"language": "ro-MD"
 		},
 		{
 			"type": "idn-table",

@@ -23,11 +23,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_de_1.0.txt",
-			"language": "de"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_deva_1.0.txt",
 			"language": "Deva"
 		},
@@ -55,6 +50,11 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_thai_1.0.txt",
 			"language": "Thai"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_de_1.0.txt",
+			"language": "de"
 		},
 		{
 			"type": "idn-table",

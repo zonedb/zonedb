@@ -14,6 +14,11 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cam_tavt_1.0.txt",
+			"language": "Tavt"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/cam_ar_1.0.txt",
 			"language": "ar"
 		},
@@ -181,11 +186,6 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/cam_ru_1.0.txt",
 			"language": "ru"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cam_tavt_1.0.txt",
-			"language": "Tavt"
 		},
 		{
 			"type": "idn-table",

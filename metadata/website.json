@@ -18,23 +18,23 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/website_ar_1.1.txt",
-			"language": "ar"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/website_grek_1.1.txt",
 			"language": "Grek"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/website_he_1.0.txt",
-			"language": "he"
+			"value": "https://www.iana.org/domains/idn-tables/tables/website_latn_1.0.txt",
+			"language": "Latn"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/website_latn_1.0.txt",
-			"language": "Latn"
+			"value": "https://www.iana.org/domains/idn-tables/tables/website_ar_1.1.txt",
+			"language": "ar"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/website_he_1.0.txt",
+			"language": "he"
 		},
 		{
 			"type": "idn-table",

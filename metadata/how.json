@@ -15,13 +15,13 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/how_ja_1.0.txt",
-			"language": "ja"
+			"value": "https://www.iana.org/domains/idn-tables/tables/how_latn_1.0.txt",
+			"language": "Latn"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/how_latn_1.0.txt",
-			"language": "Latn"
+			"value": "https://www.iana.org/domains/idn-tables/tables/how_ja_1.0.txt",
+			"language": "ja"
 		}
 	]
 }
