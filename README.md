@@ -102,4 +102,4 @@ $ go run cmd/zonedb/main.go -zones alsace -add-locations fr-a -w
 
 This database is licensed under the [Open Database License (ODBl) version 1.0](http://opendatacommons.org/licenses/odbl/1.0/). See [LICENSE.md](https://github.com/domainr/zonedb/blob/master/LICENSE.md) for more information.
 
-Copyright © 2008–2015 the Public Zone Database authors.
+Copyright © 2008–2017 the Public Zone Database authors.
