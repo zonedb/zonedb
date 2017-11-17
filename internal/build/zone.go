@@ -93,6 +93,24 @@ func (z *Zone) transition() {
 		z.AddPolicy(TypeIDNTable, u, lang, "")
 	}
 
+	// Transition invalid BCP 47 language tags
+	for _, p := range z.Policies {
+		if p.Language == "" {
+			continue
+		}
+		if p.Language == "none" {
+			p.Language = "unk"
+		}
+		lang, err := normalizeLang(p.Language)
+		if err != nil {
+			Trace("Zone %s has policy with bad language: %s %s\n", z.Domain, p.Type, p.Language)
+			continue
+		}
+		if lang != p.Language {
+			p.Language = lang
+		}
+	}
+
 	// Zero out legacy data
 	z.ProhibitIDN = false
 	z.IDNTableURLs = nil
