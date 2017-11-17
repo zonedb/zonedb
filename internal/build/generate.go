@@ -142,6 +142,9 @@ func initZones() {
 	_z = _y
 }
 
+// ASCII code points
+var ascii = []rune("--09az")
+
 // Type s is an alias for []string to generate smaller source code
 type s []string
 
@@ -189,6 +192,7 @@ var _y = [{{len .Zones}}]Zone{
 			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
 			{{if $z.ParentDomain}} &_z[{{$z.ParentOffset}}] {{else}} nil {{end}}, \
 			{{if $z.SubdomainsEnd}} _z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} nil {{end}}, \
+			{{if $z.IDNDisallowed}} ascii {{else}} nil {{end}}, \
 			{{if $z.NameServers}} s{ {{range $z.NameServers}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
 			{{if $z.Locations}} s{ {{range $z.Locations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
 			"{{ascii $z.WhoisServer}}", \

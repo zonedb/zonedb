@@ -40,9 +40,9 @@ type Zone struct {
 	// Slice of subdomain (child) Zones (nil if empty)
 	Subdomains []Zone
 
-	// CodePoints and IDNTables have been removed. We searched for public code
-	// on GitHub that imported the zonedb package and found no open-source clients
-	// using these methods.
+	// CodePoints is deprecated and IDNTables has been removed. We searched for public code
+	// on GitHub that imported the zonedb package and found no packages using these symbols.
+	CodePoints []rune
 
 	// DNS name servers for the Zone
 	NameServers []string

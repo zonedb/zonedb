@@ -31,6 +31,7 @@ type Zone struct {
 	m          sync.Mutex
 
 	// Exported for use in text/template
+	IDNDisallowed                                 bool   `json:"-"`
 	ParentOffset, SubdomainsOffset, SubdomainsEnd int    `json:"-"`
 	TagBits                                       uint64 `json:"-"`
 }
@@ -53,6 +54,9 @@ func (z *Zone) normalizePolicies() {
 	// De-dupe
 	var set = make(map[Policy]struct{}, len(z.Policies))
 	for _, p := range z.Policies {
+		if p.Type == TypeIDNDisallowed {
+			z.IDNDisallowed = true
+		}
 		set[p] = struct{}{}
 	}
 	z.Policies = make([]Policy, 0, len(set))
