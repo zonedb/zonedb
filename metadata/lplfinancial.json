@@ -7,12 +7,12 @@
 	],
 	"whoisServer": "whois.nic.lplfinancial",
 	"nameServers": [
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
 		"a.ns.nic.lplfinancial",
 		"c.ns.nic.lplfinancial",
+		"ns1a.ksregistry.net",
+		"ns1b.ksregistry.net",
+		"ns2a.ksregistry.com",
+		"ns2b.ksregistry.com",
 		"x.ns.nic.lplfinancial",
 		"y.ns.nic.lplfinancial"
 	],

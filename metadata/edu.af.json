@@ -1,9 +1,9 @@
 {
 	"domain": "edu.af",
 	"nameServers": [
-		"ns.anycast.nic.af",
 		"a.af.dyntld.net",
-		"b.af.dyntld.net"
+		"b.af.dyntld.net",
+		"ns.anycast.nic.af"
 	],
 	"policies": [
 		{

@@ -6,10 +6,10 @@
 		"geo"
 	],
 	"nameServers": [
-		"phloem.uoregon.edu",
+		"et.cctld.authdns.ripe.net",
 		"ns1.telecom.net.et",
 		"ns2.telecom.net.et",
-		"et.cctld.authdns.ripe.net"
+		"phloem.uoregon.edu"
 	],
 	"policies": [
 		{

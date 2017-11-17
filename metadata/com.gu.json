@@ -3,11 +3,11 @@
 	"nameServers": [
 		"gold.uog.edu",
 		"green.uog.edu",
-		"phloem.uoregon.edu",
+		"gu.cctld.authdns.ripe.net",
 		"ns.com.gu",
 		"ns.edu.gu",
 		"nsuog.edu.gu",
-		"gu.cctld.authdns.ripe.net"
+		"phloem.uoregon.edu"
 	],
 	"policies": [
 		{

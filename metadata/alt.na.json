@@ -2,10 +2,10 @@
 	"domain": "alt.na",
 	"nameServers": [
 		"dns5.denic.de",
+		"na-ns.anycast.pch.net",
 		"ns-na.afrinic.net",
-		"oshikoko.omadhina.net",
 		"oshikoko.omadhina.co.na",
-		"na-ns.anycast.pch.net"
+		"oshikoko.omadhina.net"
 	],
 	"policies": [
 		{

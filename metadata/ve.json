@@ -7,13 +7,13 @@
 	],
 	"whoisServer": "whois.nic.ve",
 	"nameServers": [
+		"azmodan.ula.ve",
 		"ns-ext.nic.cl",
-		"sns-pb.isc.org",
 		"ns1.nic.ve",
 		"ns2.nic.ve",
 		"ns3.nic.ve",
 		"ns4.nic.ve",
-		"azmodan.ula.ve"
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

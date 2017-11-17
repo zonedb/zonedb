@@ -6,10 +6,10 @@
 	],
 	"whoisServer": "whois.tld.ee",
 	"nameServers": [
-		"ee.aso.ee",
-		"ee.eenet.ee",
 		"b.tld.ee",
 		"e.tld.ee",
+		"ee.aso.ee",
+		"ee.eenet.ee",
 		"ns.tld.ee"
 	],
 	"policies": [

@@ -1,16 +1,16 @@
 {
 	"domain": "net.kw",
 	"nameServers": [
+		"a.kw.nic.kw",
+		"b.kw.nic.kw",
+		"cocca.nic.kw",
 		"dns1.kw",
 		"dns2.kw",
 		"dns3.kw",
-		"cocca.nic.kw",
+		"kwns.kems.net",
 		"pch.nic.kw",
 		"sec1.apnic.net",
-		"kwns.kems.net",
-		"sns-pb.isc.org",
-		"a.kw.nic.kw",
-		"b.kw.nic.kw"
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

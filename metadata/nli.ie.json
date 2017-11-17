@@ -4,8 +4,8 @@
 		"retired"
 	],
 	"nameServers": [
-		"vax1.baker.ie",
-		"ns.heanet.ie"
+		"ns.heanet.ie",
+		"vax1.baker.ie"
 	],
 	"policies": [
 		{

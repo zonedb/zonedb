@@ -6,15 +6,15 @@
 		"geo"
 	],
 	"nameServers": [
-		"kadushi.curinfo.cw",
-		"ns01-server.curinfo.cw",
+		"cw.cctld.authdns.ripe.net",
 		"engine0.una.cw",
 		"engine2.una.cw",
+		"kadushi.curinfo.cw",
+		"ns0.ja.net",
+		"ns01-server.curinfo.cw",
 		"ns1.uoc.cw",
 		"ns2.uoc.cw",
-		"ns3.uoc.cw",
-		"ns0.ja.net",
-		"cw.cctld.authdns.ripe.net"
+		"ns3.uoc.cw"
 	],
 	"policies": [
 		{

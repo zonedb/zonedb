@@ -7,12 +7,12 @@
 	],
 	"whoisServer": "whois.nic.net.sb",
 	"nameServers": [
+		"a.sb.dyntld.net",
+		"b.sb.dyntld.net",
+		"pch.nic.sb",
 		"sb1.dyntld.net",
 		"sb3.dyntld.net",
-		"sns-pb.isc.org",
-		"pch.nic.sb",
-		"a.sb.dyntld.net",
-		"b.sb.dyntld.net"
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

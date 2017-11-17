@@ -251,6 +251,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_ja_2.5.txt",
+			"language": "ja"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_mand_2.5.txt",
 			"language": "Mand"
 		},
@@ -341,11 +346,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_az_2.5.txt",
-			"language": "az"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_saur_2.5.txt",
 			"language": "Saur"
 		},
@@ -371,6 +371,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_ko_2.5.txt",
+			"language": "ko"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_tagb_2.5.txt",
 			"language": "Tagb"
 		},
@@ -391,11 +396,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_ku_2.5.txt",
-			"language": "ku"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_tavt_2.5.txt",
 			"language": "Tavt"
 		},
@@ -411,11 +411,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_ro_2.5.txt",
-			"language": "ro"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_tglg_2.5.txt",
 			"language": "Tglg"
 		},
@@ -423,11 +418,6 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_thaa_2.5.txt",
 			"language": "Thaa"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_pl_2.5.txt",
-			"language": "pl"
 		},
 		{
 			"type": "idn-table",
@@ -456,6 +446,16 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_yiii_2.5.txt",
+			"language": "Yiii"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_az_2.5.txt",
+			"language": "az"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_be_2.5.txt",
 			"language": "be"
 		},
@@ -471,23 +471,23 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_yiii_2.5.txt",
-			"language": "Yiii"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_ja_2.5.txt",
-			"language": "ja"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_ko_2.5.txt",
-			"language": "ko"
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_ku_2.5.txt",
+			"language": "ku"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_mk_2.5.txt",
 			"language": "mk"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_pl_2.5.txt",
+			"language": "pl"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/comsec_ro_2.5.txt",
+			"language": "ro"
 		},
 		{
 			"type": "idn-table",

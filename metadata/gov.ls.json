@@ -3,7 +3,7 @@
 	"nameServers": [
 		"acst23ns01.gov.ls",
 		"afdp23ns01.gov.ls",
-		"thaba.nul.ls",
-		"secdns1.posix.co.za"
+		"secdns1.posix.co.za",
+		"thaba.nul.ls"
 	]
 }

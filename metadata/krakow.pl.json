@@ -1,10 +1,10 @@
 {
 	"domain": "krakow.pl",
 	"nameServers": [
-		"info.cyf-kr.edu.pl",
-		"nms.cyf-kr.edu.pl",
+		"bilbo.nask.org.pl",
 		"dns.fuw.edu.pl",
-		"bilbo.nask.org.pl"
+		"info.cyf-kr.edu.pl",
+		"nms.cyf-kr.edu.pl"
 	],
 	"policies": [
 		{

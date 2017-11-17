@@ -1,12 +1,12 @@
 {
 	"domain": "com.st",
 	"nameServers": [
-		"ns1.nic.st",
-		"ns2.nic.st",
-		"ns3.nic.st",
 		"ns1-se.ns.gov.st",
 		"ns1-us.ns.gov.st",
-		"ns2-se.ns.gov.st"
+		"ns1.nic.st",
+		"ns2-se.ns.gov.st",
+		"ns2.nic.st",
+		"ns3.nic.st"
 	],
 	"policies": [
 		{

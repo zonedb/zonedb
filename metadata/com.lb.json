@@ -1,8 +1,8 @@
 {
 	"domain": "com.lb",
 	"nameServers": [
-		"rip.psg.com",
 		"elissa.aub.edu.lb",
+		"rip.psg.com",
 		"zeina.aub.edu.lb"
 	],
 	"policies": [

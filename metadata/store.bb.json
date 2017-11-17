@@ -1,11 +1,11 @@
 {
 	"domain": "store.bb",
 	"nameServers": [
+		"f1g1ns1.dnspod.net",
+		"f1g1ns2.dnspod.net",
 		"pns1.cloudns.net",
 		"pns4.cloudns.net",
-		"pns7.cloudns.net",
-		"f1g1ns1.dnspod.net",
-		"f1g1ns2.dnspod.net"
+		"pns7.cloudns.net"
 	],
 	"policies": [
 		{

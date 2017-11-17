@@ -3,9 +3,9 @@
 	"nameServers": [
 		"dns.princeton.edu",
 		"igubu.saix.net",
+		"ns1.pch.nic.cd",
 		"sabela.saix.net",
-		"sangoma.saix.net",
-		"ns1.pch.nic.cd"
+		"sangoma.saix.net"
 	],
 	"policies": [
 		{

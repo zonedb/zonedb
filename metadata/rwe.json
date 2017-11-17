@@ -87,6 +87,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_bg_2.5.txt",
+			"language": "bg"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_cari_2.5.txt",
 			"language": "Cari"
 		},
@@ -187,6 +192,16 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_az_2.5.txt",
+			"language": "az"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_hr_2.5.txt",
+			"language": "hr"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_kana_2.5.txt",
 			"language": "Kana"
 		},
@@ -217,121 +232,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_lepc_2.5.txt",
-			"language": "Lepc"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_az_2.5.txt",
-			"language": "az"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_be_2.5.txt",
-			"language": "be"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_bg_2.5.txt",
-			"language": "bg"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_de_2.5.txt",
-			"language": "de"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_mtei_2.5.txt",
-			"language": "Mtei"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_prti_2.5.txt",
-			"language": "Prti"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_rjng_2.5.txt",
-			"language": "Rjng"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_samr_2.5.txt",
-			"language": "Samr"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_saur_2.5.txt",
-			"language": "Saur"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_tibt_2.5.txt",
-			"language": "Tibt"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_el_2.5.txt",
-			"language": "el"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_orkh_2.5.txt",
-			"language": "Orkh"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_phnx_2.5.txt",
-			"language": "Phnx"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_tagb_2.5.txt",
-			"language": "Tagb"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_thaa_2.5.txt",
-			"language": "Thaa"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_es_2.5.txt",
-			"language": "es"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_fr_2.5.txt",
-			"language": "fr"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_hr_2.5.txt",
-			"language": "hr"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_ja_2.5.txt",
-			"language": "ja"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_ko_2.5.txt",
-			"language": "ko"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_xsux_2.5.txt",
-			"language": "Xsux"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_ku_2.5.txt",
-			"language": "ku"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_laoo_2.5.txt",
 			"language": "Laoo"
 		},
@@ -339,6 +239,11 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_latn_2.5.txt",
 			"language": "Latn"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_lepc_2.5.txt",
+			"language": "Lepc"
 		},
 		{
 			"type": "idn-table",
@@ -377,6 +282,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_mtei_2.5.txt",
+			"language": "Mtei"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_mymr_2.5.txt",
 			"language": "Mymr"
 		},
@@ -397,6 +307,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_orkh_2.5.txt",
+			"language": "Orkh"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_orya_2.5.txt",
 			"language": "Orya"
 		},
@@ -412,8 +327,28 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_phnx_2.5.txt",
+			"language": "Phnx"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_prti_2.5.txt",
+			"language": "Prti"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_rjng_2.5.txt",
+			"language": "Rjng"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_runr_2.5.txt",
 			"language": "Runr"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_samr_2.5.txt",
+			"language": "Samr"
 		},
 		{
 			"type": "idn-table",
@@ -422,13 +357,13 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_sinh_2.5.txt",
-			"language": "Sinh"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_saur_2.5.txt",
+			"language": "Saur"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_sr_2.5.txt",
-			"language": "sr"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_sinh_2.5.txt",
+			"language": "Sinh"
 		},
 		{
 			"type": "idn-table",
@@ -437,13 +372,28 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_fr_2.5.txt",
+			"language": "fr"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_sylo_2.5.txt",
 			"language": "Sylo"
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_pl_2.5.txt",
+			"language": "pl"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_syrc_2.5.txt",
 			"language": "Syrc"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_tagb_2.5.txt",
+			"language": "Tagb"
 		},
 		{
 			"type": "idn-table",
@@ -467,33 +417,33 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_telu_2.5.txt",
-			"language": "Telu"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_tibt_2.5.txt",
+			"language": "Tibt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_mk_2.5.txt",
-			"language": "mk"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_be_2.5.txt",
+			"language": "be"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_pl_2.5.txt",
-			"language": "pl"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_de_2.5.txt",
+			"language": "de"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_ro_2.5.txt",
-			"language": "ro"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_ru_2.5.txt",
-			"language": "ru"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_ku_2.5.txt",
+			"language": "ku"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_sv_2.5.txt",
 			"language": "sv"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_telu_2.5.txt",
+			"language": "Telu"
 		},
 		{
 			"type": "idn-table",
@@ -507,8 +457,18 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_thaa_2.5.txt",
+			"language": "Thaa"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_thai_2.5.txt",
 			"language": "Thai"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_uk_2.5.txt",
+			"language": "uk"
 		},
 		{
 			"type": "idn-table",
@@ -522,13 +482,53 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_uk_2.5.txt",
-			"language": "uk"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_xsux_2.5.txt",
+			"language": "Xsux"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_yiii_2.5.txt",
 			"language": "Yiii"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_el_2.5.txt",
+			"language": "el"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_es_2.5.txt",
+			"language": "es"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_ja_2.5.txt",
+			"language": "ja"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_ko_2.5.txt",
+			"language": "ko"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_mk_2.5.txt",
+			"language": "mk"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_ro_2.5.txt",
+			"language": "ro"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_ru_2.5.txt",
+			"language": "ru"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rwe_sr_2.5.txt",
+			"language": "sr"
 		},
 		{
 			"type": "idn-table",

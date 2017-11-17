@@ -2,17 +2,17 @@
 	"domain": "eu.org",
 	"whoisServer": "whois.eu.org",
 	"nameServers": [
-		"hobbes.bsd-dk.dk",
+		"auth1.dns.elm.net",
 		"canada.wolfhugel.eu",
-		"oz.wolfhugel.eu",
-		"ns1.absolight.net",
-		"ns1.eriomem.net",
 		"dns3.gandi.net",
 		"dns4.gandi.net",
-		"ns3.keltia.net",
-		"ns1.eu.org",
+		"hobbes.bsd-dk.dk",
 		"ns-slave.free.org",
-		"auth1.dns.elm.net",
-		"ns.bortzmeyer.eu.org"
+		"ns.bortzmeyer.eu.org",
+		"ns1.absolight.net",
+		"ns1.eriomem.net",
+		"ns1.eu.org",
+		"ns3.keltia.net",
+		"oz.wolfhugel.eu"
 	]
 }

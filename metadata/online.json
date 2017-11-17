@@ -14,11 +14,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/online_ar_1.1.txt",
-			"language": "ar"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/online_cyrl_1.0.txt",
 			"language": "Cyrl"
 		},
@@ -31,6 +26,11 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/online_latn_1.0.txt",
 			"language": "Latn"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/online_ar_1.1.txt",
+			"language": "ar"
 		},
 		{
 			"type": "idn-table",

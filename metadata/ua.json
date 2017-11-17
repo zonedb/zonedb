@@ -7,12 +7,12 @@
 	],
 	"whoisServer": "whois.ua",
 	"nameServers": [
-		"sns-pb.isc.org",
 		"cd1.ns.ua",
 		"he1.ns.ua",
 		"ho1.ns.ua",
 		"pch.ns.ua",
-		"ripe.ns.ua"
+		"ripe.ns.ua",
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

@@ -1,11 +1,11 @@
 {
 	"domain": "ind.er",
 	"nameServers": [
-		"ns1.punchdown.net",
+		"er.cctld.authdns.ripe.net",
 		"ns0.punchdown.org",
+		"ns1.punchdown.net",
 		"sawanew.noc.net.er",
-		"zaranew.noc.net.er",
-		"er.cctld.authdns.ripe.net"
+		"zaranew.noc.net.er"
 	],
 	"policies": [
 		{

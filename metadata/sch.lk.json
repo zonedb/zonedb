@@ -1,11 +1,11 @@
 {
 	"domain": "sch.lk",
 	"nameServers": [
+		"kashyapa.mrt.ac.lk",
+		"ns.mrt.ac.lk",
 		"ns1.ac.lk",
 		"ns1.sch.lk",
 		"ns1.schoolnet.lk",
-		"kashyapa.mrt.ac.lk",
-		"ns.mrt.ac.lk",
 		"s1.ns.slt.lk",
 		"s2.ns.slt.lk"
 	],

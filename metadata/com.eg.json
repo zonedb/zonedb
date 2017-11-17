@@ -1,9 +1,9 @@
 {
 	"domain": "com.eg",
 	"nameServers": [
-		"rip.psg.com",
 		"frcu.eun.eg",
-		"ns.idsc.gov.eg"
+		"ns.idsc.gov.eg",
+		"rip.psg.com"
 	],
 	"policies": [
 		{

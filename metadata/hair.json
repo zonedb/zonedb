@@ -233,31 +233,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_az_2.5.txt",
-			"language": "az"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_be_2.5.txt",
-			"language": "be"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_tfng_2.5.txt",
-			"language": "Tfng"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_bg_2.5.txt",
-			"language": "bg"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_de_2.5.txt",
-			"language": "de"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hair_lyci_2.5.txt",
 			"language": "Lyci"
 		},
@@ -313,36 +288,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_prti_2.5.txt",
-			"language": "Prti"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_sarb_2.5.txt",
-			"language": "Sarb"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_sinh_2.5.txt",
-			"language": "Sinh"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_sund_2.5.txt",
-			"language": "Sund"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_fr_2.5.txt",
-			"language": "fr"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_mk_2.5.txt",
-			"language": "mk"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hair_orya_2.5.txt",
 			"language": "Orya"
 		},
@@ -363,6 +308,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_prti_2.5.txt",
+			"language": "Prti"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hair_rjng_2.5.txt",
 			"language": "Rjng"
 		},
@@ -378,13 +328,23 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_sarb_2.5.txt",
+			"language": "Sarb"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hair_saur_2.5.txt",
 			"language": "Saur"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_sr_2.5.txt",
-			"language": "sr"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_sinh_2.5.txt",
+			"language": "Sinh"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_sund_2.5.txt",
+			"language": "Sund"
 		},
 		{
 			"type": "idn-table",
@@ -398,6 +358,26 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_az_2.5.txt",
+			"language": "az"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_be_2.5.txt",
+			"language": "be"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_bg_2.5.txt",
+			"language": "bg"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_de_2.5.txt",
+			"language": "de"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hair_el_2.5.txt",
 			"language": "el"
 		},
@@ -405,6 +385,11 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hair_es_2.5.txt",
 			"language": "es"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_fr_2.5.txt",
+			"language": "fr"
 		},
 		{
 			"type": "idn-table",
@@ -428,8 +413,23 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_mk_2.5.txt",
+			"language": "mk"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hair_pl_2.5.txt",
 			"language": "pl"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_ro_2.5.txt",
+			"language": "ro"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_ru_2.5.txt",
+			"language": "ru"
 		},
 		{
 			"type": "idn-table",
@@ -463,18 +463,8 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_ro_2.5.txt",
-			"language": "ro"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_ru_2.5.txt",
-			"language": "ru"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_sv_2.5.txt",
-			"language": "sv"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_tfng_2.5.txt",
+			"language": "Tfng"
 		},
 		{
 			"type": "idn-table",
@@ -498,13 +488,23 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_uk_2.5.txt",
-			"language": "uk"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_vaii_2.5.txt",
+			"language": "Vaii"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hair_vaii_2.5.txt",
-			"language": "Vaii"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_sr_2.5.txt",
+			"language": "sr"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_sv_2.5.txt",
+			"language": "sv"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hair_uk_2.5.txt",
+			"language": "uk"
 		},
 		{
 			"type": "idn-table",

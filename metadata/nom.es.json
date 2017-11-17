@@ -1,10 +1,10 @@
 {
 	"domain": "nom.es",
 	"nameServers": [
-		"n3dns1.arsys.es",
-		"g.nic.es",
-		"n3ns.nic.es",
 		"fnicdos.rediris.es",
+		"g.nic.es",
+		"n3dns1.arsys.es",
+		"n3ns.nic.es",
 		"ns3.nic.mx",
 		"sns-pb.isc.org"
 	],

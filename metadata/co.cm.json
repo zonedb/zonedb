@@ -1,12 +1,12 @@
 {
 	"domain": "co.cm",
 	"nameServers": [
-		"ns1.nic.cm",
-		"ns2.nic.cm",
+		"a.cm.dyntld.net",
+		"b.cm.dyntld.net",
 		"cm-in-1.dyntld.net",
 		"cm-in-2.dyntld.net",
-		"a.cm.dyntld.net",
-		"b.cm.dyntld.net"
+		"ns1.nic.cm",
+		"ns2.nic.cm"
 	],
 	"policies": [
 		{

@@ -1,9 +1,9 @@
 {
 	"domain": "com.gt",
 	"nameServers": [
-		"pch.gt",
 		"ns.dns.br",
 		"ns3.nic.mx",
+		"pch.gt",
 		"sns-pb.isc.org"
 	],
 	"policies": [

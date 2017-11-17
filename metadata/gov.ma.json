@@ -2,16 +2,16 @@
 	"domain": "gov.ma",
 	"nameServers": [
 		"dns.inria.fr",
-		"ns2.nic.fr",
+		"ma.cctld.authdns.ripe.net",
+		"ns1.iam.net.ma",
 		"ns1.registre.ma",
+		"ns2.iam.net.ma",
+		"ns2.nic.fr",
 		"ns2.registre.ma",
+		"ns3.iam.net.ma",
 		"ns3.registre.ma",
 		"ns4.registre.ma",
-		"sns-pb.isc.org",
-		"ns1.iam.net.ma",
-		"ns2.iam.net.ma",
-		"ns3.iam.net.ma",
-		"ma.cctld.authdns.ripe.net"
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

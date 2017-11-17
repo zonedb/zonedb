@@ -2,10 +2,10 @@
 	"domain": "ac.za",
 	"whoisServer": "whois.ac.za",
 	"nameServers": [
-		"za-ns.anycast.pch.net",
 		"disa.tenet.ac.za",
+		"ns0.is.co.za",
 		"ucthpx.uct.ac.za",
-		"ns0.is.co.za"
+		"za-ns.anycast.pch.net"
 	],
 	"policies": [
 		{

@@ -7,10 +7,10 @@
 	],
 	"whoisServer": "whois.agitsys.net",
 	"nameServers": [
-		"a.tci.dyntld.net",
-		"b.tci.dyntld.net",
 		"a.ns.nic.tci",
-		"b.ns.nic.tci"
+		"a.tci.dyntld.net",
+		"b.ns.nic.tci",
+		"b.tci.dyntld.net"
 	],
 	"policies": [
 		{

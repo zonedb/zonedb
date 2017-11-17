@@ -8,13 +8,13 @@
 	"whoisServer": "whois.nic.softbank",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"b.gmoregistry.net",
-		"k.gmoregistry.net",
-		"l.gmoregistry.net",
 		"a.nic.softbank",
+		"b.gmoregistry.net",
 		"b.nic.softbank",
 		"c.nic.softbank",
-		"d.nic.softbank"
+		"d.nic.softbank",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net"
 	],
 	"policies": [
 		{

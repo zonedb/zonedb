@@ -5,6 +5,10 @@
 	],
 	"whoisServer": "whois.nic.beer",
 	"nameServers": [
+		"a.ns.nic.beer",
+		"b.ns.nic.beer",
+		"c.ns.nic.beer",
+		"d.ns.nic.beer",
 		"dns1.nic.beer",
 		"dns2.nic.beer",
 		"dns3.nic.beer",
@@ -12,10 +16,6 @@
 		"dnsa.nic.beer",
 		"dnsb.nic.beer",
 		"dnsc.nic.beer",
-		"dnsd.nic.beer",
-		"a.ns.nic.beer",
-		"b.ns.nic.beer",
-		"c.ns.nic.beer",
-		"d.ns.nic.beer"
+		"dnsd.nic.beer"
 	]
 }

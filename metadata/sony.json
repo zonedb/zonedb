@@ -8,13 +8,13 @@
 	"whoisServer": "whois.nic.sony",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"b.gmoregistry.net",
-		"k.gmoregistry.net",
-		"l.gmoregistry.net",
 		"a.nic.sony",
+		"b.gmoregistry.net",
 		"b.nic.sony",
 		"c.nic.sony",
-		"d.nic.sony"
+		"d.nic.sony",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net"
 	],
 	"policies": [
 		{

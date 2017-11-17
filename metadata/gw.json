@@ -6,11 +6,11 @@
 	],
 	"whoisURL": "http://nic.gw/en/whois/",
 	"nameServers": [
-		"sns-pb.isc.org",
 		"gw01.dns.pt",
 		"gw03.dns.pt",
 		"ns4.dns.pt",
-		"phobos.fccn.pt"
+		"phobos.fccn.pt",
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

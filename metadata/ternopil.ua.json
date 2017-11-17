@@ -2,14 +2,14 @@
 	"domain": "ternopil.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"ns.lucky.net",
-		"ns2.uar.net",
-		"ns.dn.ua",
-		"ns2.km.ua",
 		"nix.ns.ua",
-		"ns.te.ua",
 		"ns.bit.te.ua",
-		"ns.bit.ternopil.ua"
+		"ns.bit.ternopil.ua",
+		"ns.dn.ua",
+		"ns.lucky.net",
+		"ns.te.ua",
+		"ns2.km.ua",
+		"ns2.uar.net"
 	],
 	"policies": [
 		{

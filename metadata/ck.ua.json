@@ -2,10 +2,10 @@
 	"domain": "ck.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"ns.ctsense.net",
-		"ns2.km.ua",
 		"ba1.ns.ua",
-		"nix.ns.ua"
+		"nix.ns.ua",
+		"ns.ctsense.net",
+		"ns2.km.ua"
 	],
 	"policies": [
 		{

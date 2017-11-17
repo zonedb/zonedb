@@ -3,8 +3,8 @@
 	"nameServers": [
 		"dns5.denic.de",
 		"merlin.net.na",
-		"ns-na.afrinic.net",
-		"na-ns.anycast.pch.net"
+		"na-ns.anycast.pch.net",
+		"ns-na.afrinic.net"
 	],
 	"policies": [
 		{

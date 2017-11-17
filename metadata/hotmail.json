@@ -131,71 +131,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_hani_2.5.txt",
-			"language": "Hani"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_limb_2.5.txt",
-			"language": "Limb"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_lisu_2.5.txt",
-			"language": "Lisu"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_lydi_2.5.txt",
-			"language": "Lydi"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_rjng_2.5.txt",
-			"language": "Rjng"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_tavt_2.5.txt",
-			"language": "Tavt"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_telu_2.5.txt",
-			"language": "Telu"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_az_2.5.txt",
-			"language": "az"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_be_2.5.txt",
-			"language": "be"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_bg_2.5.txt",
-			"language": "bg"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_de_2.5.txt",
-			"language": "de"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_laoo_2.5.txt",
-			"language": "Laoo"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_el_2.5.txt",
-			"language": "el"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_glag_2.5.txt",
 			"language": "Glag"
 		},
@@ -218,6 +153,11 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_hang_2.5.txt",
 			"language": "Hang"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_hani_2.5.txt",
+			"language": "Hani"
 		},
 		{
 			"type": "idn-table",
@@ -276,6 +216,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_laoo_2.5.txt",
+			"language": "Laoo"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_latn_2.5.txt",
 			"language": "Latn"
 		},
@@ -286,8 +231,23 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_limb_2.5.txt",
+			"language": "Limb"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_lisu_2.5.txt",
+			"language": "Lisu"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_lyci_2.5.txt",
 			"language": "Lyci"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_lydi_2.5.txt",
+			"language": "Lydi"
 		},
 		{
 			"type": "idn-table",
@@ -303,16 +263,6 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_mong_2.5.txt",
 			"language": "Mong"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_es_2.5.txt",
-			"language": "es"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_ko_2.5.txt",
-			"language": "ko"
 		},
 		{
 			"type": "idn-table",
@@ -371,6 +321,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_rjng_2.5.txt",
+			"language": "Rjng"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_runr_2.5.txt",
 			"language": "Runr"
 		},
@@ -406,38 +361,43 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_syrc_2.5.txt",
-			"language": "Syrc"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_tglg_2.5.txt",
+			"language": "Tglg"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_tagb_2.5.txt",
-			"language": "Tagb"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_az_2.5.txt",
+			"language": "az"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_tale_2.5.txt",
-			"language": "Tale"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_be_2.5.txt",
+			"language": "be"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_talu_2.5.txt",
-			"language": "Talu"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_bg_2.5.txt",
+			"language": "bg"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_taml_2.5.txt",
-			"language": "Taml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_de_2.5.txt",
+			"language": "de"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_el_2.5.txt",
+			"language": "el"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_es_2.5.txt",
+			"language": "es"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_fr_2.5.txt",
 			"language": "fr"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_tibt_2.5.txt",
-			"language": "Tibt"
 		},
 		{
 			"type": "idn-table",
@@ -451,6 +411,16 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_tale_2.5.txt",
+			"language": "Tale"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_ko_2.5.txt",
+			"language": "ko"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_ku_2.5.txt",
 			"language": "ku"
 		},
@@ -461,23 +431,38 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_pl_2.5.txt",
-			"language": "pl"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_syrc_2.5.txt",
+			"language": "Syrc"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_ro_2.5.txt",
-			"language": "ro"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_tagb_2.5.txt",
+			"language": "Tagb"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_talu_2.5.txt",
+			"language": "Talu"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_taml_2.5.txt",
+			"language": "Taml"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_tavt_2.5.txt",
+			"language": "Tavt"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_telu_2.5.txt",
+			"language": "Telu"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_tfng_2.5.txt",
 			"language": "Tfng"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_tglg_2.5.txt",
-			"language": "Tglg"
 		},
 		{
 			"type": "idn-table",
@@ -491,18 +476,23 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_tibt_2.5.txt",
+			"language": "Tibt"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_vaii_2.5.txt",
 			"language": "Vaii"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_xpeo_2.5.txt",
-			"language": "Xpeo"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_pl_2.5.txt",
+			"language": "pl"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_yiii_2.5.txt",
-			"language": "Yiii"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_ro_2.5.txt",
+			"language": "ro"
 		},
 		{
 			"type": "idn-table",
@@ -526,8 +516,18 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_xpeo_2.5.txt",
+			"language": "Xpeo"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_xsux_2.5.txt",
 			"language": "Xsux"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hotmail_yiii_2.5.txt",
+			"language": "Yiii"
 		},
 		{
 			"type": "idn-table",

@@ -10,12 +10,12 @@
 	],
 	"whoisServer": "whois.nic.frl",
 	"nameServers": [
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
 		"a.ns.nic.frl",
 		"c.ns.nic.frl",
+		"ns1a.ksregistry.net",
+		"ns1b.ksregistry.net",
+		"ns2a.ksregistry.com",
+		"ns2b.ksregistry.com",
 		"x.ns.nic.frl",
 		"y.ns.nic.frl"
 	],

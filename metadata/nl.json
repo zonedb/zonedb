@@ -6,8 +6,8 @@
 	],
 	"whoisServer": "whois.domain-registry.nl",
 	"nameServers": [
-		"ns-nl.nic.fr",
 		"nl1.dnsnode.net",
+		"ns-nl.nic.fr",
 		"ns1.dns.nl",
 		"ns2.dns.nl",
 		"ns3.dns.nl",

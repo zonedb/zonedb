@@ -6,10 +6,10 @@
 	],
 	"whoisServer": "whois.nic.mu",
 	"nameServers": [
-		"udns1.tld.mu",
-		"udns2.tld.mu",
 		"anycast1.irondns.net",
-		"fork.sth.dnsnode.net"
+		"fork.sth.dnsnode.net",
+		"udns1.tld.mu",
+		"udns2.tld.mu"
 	],
 	"policies": [
 		{

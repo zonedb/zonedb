@@ -6,8 +6,8 @@
 	],
 	"whoisURL": "http://www.nic.td/",
 	"nameServers": [
-		"ns-td.nic.fr",
 		"ns-td.afrinic.net",
+		"ns-td.nic.fr",
 		"ns1.nic.td"
 	],
 	"policies": [

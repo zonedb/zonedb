@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.nic.wedding",
 	"nameServers": [
+		"a.ns.nic.wedding",
+		"b.ns.nic.wedding",
+		"c.ns.nic.wedding",
+		"d.ns.nic.wedding",
 		"dns1.nic.wedding",
 		"dns2.nic.wedding",
 		"dns3.nic.wedding",
@@ -13,11 +17,7 @@
 		"dnsa.nic.wedding",
 		"dnsb.nic.wedding",
 		"dnsc.nic.wedding",
-		"dnsd.nic.wedding",
-		"a.ns.nic.wedding",
-		"b.ns.nic.wedding",
-		"c.ns.nic.wedding",
-		"d.ns.nic.wedding"
+		"dnsd.nic.wedding"
 	],
 	"policies": [
 		{

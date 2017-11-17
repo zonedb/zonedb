@@ -1,9 +1,9 @@
 {
 	"domain": "co.uz",
 	"nameServers": [
+		"dns3.webspace.uz",
 		"ns1.reg.uz",
-		"ns2.reg.uz",
-		"dns3.webspace.uz"
+		"ns2.reg.uz"
 	],
 	"policies": [
 		{

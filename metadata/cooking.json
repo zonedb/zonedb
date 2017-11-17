@@ -5,6 +5,10 @@
 	],
 	"whoisServer": "whois.nic.cooking",
 	"nameServers": [
+		"a.ns.nic.cooking",
+		"b.ns.nic.cooking",
+		"c.ns.nic.cooking",
+		"d.ns.nic.cooking",
 		"dns1.nic.cooking",
 		"dns2.nic.cooking",
 		"dns3.nic.cooking",
@@ -12,10 +16,6 @@
 		"dnsa.nic.cooking",
 		"dnsb.nic.cooking",
 		"dnsc.nic.cooking",
-		"dnsd.nic.cooking",
-		"a.ns.nic.cooking",
-		"b.ns.nic.cooking",
-		"c.ns.nic.cooking",
-		"d.ns.nic.cooking"
+		"dnsd.nic.cooking"
 	]
 }

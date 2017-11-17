@@ -1,13 +1,13 @@
 {
 	"domain": "tm.cy",
 	"nameServers": [
+		"anytld.apnic.net",
 		"cynic.dns.cy",
 		"cynic4.dns.cy",
-		"anytld.apnic.net",
-		"ns4.apnic.net",
 		"ns1.ucy.ac.cy",
 		"ns2.ucy.ac.cy",
-		"ns3.ucy.ac.cy"
+		"ns3.ucy.ac.cy",
+		"ns4.apnic.net"
 	],
 	"policies": [
 		{

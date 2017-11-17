@@ -1,13 +1,13 @@
 {
 	"domain": "biz.dk",
 	"nameServers": [
-		"mail.digitalmarketing.net",
-		"ns.digitalmarketing.net",
-		"post.digitalmarketing.net",
 		"dns2000.euro-isp.net",
 		"dns2001.euro-isp.net",
-		"root-dns.euro-isp.net",
-		"ns1.dk.org"
+		"mail.digitalmarketing.net",
+		"ns.digitalmarketing.net",
+		"ns1.dk.org",
+		"post.digitalmarketing.net",
+		"root-dns.euro-isp.net"
 	],
 	"policies": [
 		{

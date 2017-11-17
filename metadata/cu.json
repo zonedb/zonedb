@@ -6,12 +6,12 @@
 	],
 	"whoisURL": "http://www.nic.cu/",
 	"nameServers": [
-		"ns.dns.br",
-		"rip.psg.com",
-		"ns2.gip.net",
+		"cu.cctld.authdns.ripe.net",
 		"ns.ceniai.net.cu",
+		"ns.dns.br",
 		"ns2.ceniai.net.cu",
-		"cu.cctld.authdns.ripe.net"
+		"ns2.gip.net",
+		"rip.psg.com"
 	],
 	"policies": [
 		{

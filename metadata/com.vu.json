@@ -1,11 +1,11 @@
 {
 	"domain": "com.vu",
 	"nameServers": [
-		"rip.psg.com",
 		"anytld.apnic.net",
-		"fork.sth.dnsnode.net",
 		"efate.vanuatu.com.vu",
+		"fork.sth.dnsnode.net",
 		"futuna.vanuatu.com.vu",
+		"rip.psg.com",
 		"santo.vanuatu.com.vu"
 	],
 	"policies": [

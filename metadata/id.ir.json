@@ -3,8 +3,8 @@
 	"nameServers": [
 		"a.nic.ir",
 		"b.nic.ir",
-		"ns5.univie.ac.at",
-		"ir.cctld.authdns.ripe.net"
+		"ir.cctld.authdns.ripe.net",
+		"ns5.univie.ac.at"
 	],
 	"policies": [
 		{

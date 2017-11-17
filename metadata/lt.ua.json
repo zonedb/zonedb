@@ -1,9 +1,9 @@
 {
 	"domain": "lt.ua",
 	"nameServers": [
-		"ns.cv.ua",
-		"nix.ns.ua",
 		"ho1.ns.lutsk.ua",
+		"nix.ns.ua",
+		"ns.cv.ua",
 		"ns.vizor.lutsk.ua"
 	],
 	"policies": [

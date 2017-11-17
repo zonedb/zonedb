@@ -11,12 +11,6 @@
 	],
 	"whoisServer": "whois.nic.wales",
 	"nameServers": [
-		"ns1.nic.uk",
-		"ns2.nic.uk",
-		"ns4.nic.uk",
-		"ns5.nic.uk",
-		"ns6.nic.uk",
-		"ns7.nic.uk",
 		"dns1.nic.wales",
 		"dns2.nic.wales",
 		"dns3.nic.wales",
@@ -24,7 +18,13 @@
 		"dnsa.nic.wales",
 		"dnsb.nic.wales",
 		"dnsc.nic.wales",
-		"dnsd.nic.wales"
+		"dnsd.nic.wales",
+		"ns1.nic.uk",
+		"ns2.nic.uk",
+		"ns4.nic.uk",
+		"ns5.nic.uk",
+		"ns6.nic.uk",
+		"ns7.nic.uk"
 	],
 	"policies": [
 		{

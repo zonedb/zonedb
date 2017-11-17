@@ -7,12 +7,12 @@
 	],
 	"whoisServer": "whois.nic.ly",
 	"nameServers": [
-		"phloem.uoregon.edu",
-		"pch.ltt.ly",
-		"ns-ly.afrinic.net",
 		"dns.lttnet.net",
 		"dns1.lttnet.net",
-		"ly.cctld.authdns.ripe.net"
+		"ly.cctld.authdns.ripe.net",
+		"ns-ly.afrinic.net",
+		"pch.ltt.ly",
+		"phloem.uoregon.edu"
 	],
 	"policies": [
 		{

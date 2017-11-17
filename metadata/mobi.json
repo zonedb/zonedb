@@ -8,9 +8,9 @@
 	"nameServers": [
 		"a0.mobi.afilias-nst.info",
 		"a2.mobi.afilias-nst.info",
-		"c0.mobi.afilias-nst.info",
 		"b0.mobi.afilias-nst.org",
 		"b2.mobi.afilias-nst.org",
+		"c0.mobi.afilias-nst.info",
 		"d0.mobi.afilias-nst.org"
 	],
 	"policies": [

@@ -1,9 +1,9 @@
 {
 	"domain": "yalta.ua",
 	"nameServers": [
-		"ns.crimea.ua",
+		"ho1.ns.crimea.ua",
 		"nix.ns.ua",
-		"ho1.ns.crimea.ua"
+		"ns.crimea.ua"
 	],
 	"policies": [
 		{

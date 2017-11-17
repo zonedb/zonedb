@@ -126,6 +126,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_fr_2.5.txt",
+			"language": "fr"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_geor_2.5.txt",
 			"language": "Geor"
 		},
@@ -256,11 +261,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_mlym_2.5.txt",
-			"language": "Mlym"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_mong_2.5.txt",
 			"language": "Mong"
 		},
@@ -281,11 +281,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_ogam_2.5.txt",
-			"language": "Ogam"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_olck_2.5.txt",
 			"language": "Olck"
 		},
@@ -296,23 +291,8 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_orya_2.5.txt",
-			"language": "Orya"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_phag_2.5.txt",
-			"language": "Phag"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_phli_2.5.txt",
 			"language": "Phli"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_phnx_2.5.txt",
-			"language": "Phnx"
 		},
 		{
 			"type": "idn-table",
@@ -331,13 +311,23 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_samr_2.5.txt",
-			"language": "Samr"
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_de_2.5.txt",
+			"language": "de"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_sarb_2.5.txt",
-			"language": "Sarb"
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_el_2.5.txt",
+			"language": "el"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_ja_2.5.txt",
+			"language": "ja"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_samr_2.5.txt",
+			"language": "Samr"
 		},
 		{
 			"type": "idn-table",
@@ -346,33 +336,8 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_sinh_2.5.txt",
-			"language": "Sinh"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_sund_2.5.txt",
-			"language": "Sund"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_sylo_2.5.txt",
 			"language": "Sylo"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_syrc_2.5.txt",
-			"language": "Syrc"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_tagb_2.5.txt",
-			"language": "Tagb"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_tale_2.5.txt",
-			"language": "Tale"
 		},
 		{
 			"type": "idn-table",
@@ -381,8 +346,13 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_taml_2.5.txt",
-			"language": "Taml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_tfng_2.5.txt",
+			"language": "Tfng"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_tglg_2.5.txt",
+			"language": "Tglg"
 		},
 		{
 			"type": "idn-table",
@@ -401,23 +371,13 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_de_2.5.txt",
-			"language": "de"
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_es_2.5.txt",
+			"language": "es"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_tavt_2.5.txt",
-			"language": "Tavt"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_telu_2.5.txt",
-			"language": "Telu"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_tfng_2.5.txt",
-			"language": "Tfng"
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_hr_2.5.txt",
+			"language": "hr"
 		},
 		{
 			"type": "idn-table",
@@ -426,18 +386,8 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_tglg_2.5.txt",
-			"language": "Tglg"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_thaa_2.5.txt",
 			"language": "Thaa"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_thai_2.5.txt",
-			"language": "Thai"
 		},
 		{
 			"type": "idn-table",
@@ -451,8 +401,18 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_xpeo_2.5.txt",
-			"language": "Xpeo"
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_yiii_2.5.txt",
+			"language": "Yiii"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_ku_2.5.txt",
+			"language": "ku"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_tavt_2.5.txt",
+			"language": "Tavt"
 		},
 		{
 			"type": "idn-table",
@@ -461,8 +421,103 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_mlym_2.5.txt",
+			"language": "Mlym"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_ogam_2.5.txt",
+			"language": "Ogam"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_orya_2.5.txt",
+			"language": "Orya"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_phag_2.5.txt",
+			"language": "Phag"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_phnx_2.5.txt",
+			"language": "Phnx"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_sarb_2.5.txt",
+			"language": "Sarb"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_sinh_2.5.txt",
+			"language": "Sinh"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_sund_2.5.txt",
+			"language": "Sund"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_syrc_2.5.txt",
+			"language": "Syrc"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_tagb_2.5.txt",
+			"language": "Tagb"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_tale_2.5.txt",
+			"language": "Tale"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_pl_2.5.txt",
+			"language": "pl"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_taml_2.5.txt",
+			"language": "Taml"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_telu_2.5.txt",
+			"language": "Telu"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_thai_2.5.txt",
+			"language": "Thai"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_xpeo_2.5.txt",
+			"language": "Xpeo"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_xsux_2.5.txt",
+			"language": "Xsux"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_ro_2.5.txt",
+			"language": "ro"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_ru_2.5.txt",
 			"language": "ru"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_sr_2.5.txt",
+			"language": "sr"
 		},
 		{
 			"type": "idn-table",
@@ -473,61 +528,6 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_uk_2.5.txt",
 			"language": "uk"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_xsux_2.5.txt",
-			"language": "Xsux"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_yiii_2.5.txt",
-			"language": "Yiii"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_el_2.5.txt",
-			"language": "el"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_es_2.5.txt",
-			"language": "es"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_fr_2.5.txt",
-			"language": "fr"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_hr_2.5.txt",
-			"language": "hr"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_ja_2.5.txt",
-			"language": "ja"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_ku_2.5.txt",
-			"language": "ku"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_pl_2.5.txt",
-			"language": "pl"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_ro_2.5.txt",
-			"language": "ro"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/microsoft_sr_2.5.txt",
-			"language": "sr"
 		},
 		{
 			"type": "idn-table",

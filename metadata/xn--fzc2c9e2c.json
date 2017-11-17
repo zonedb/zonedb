@@ -5,13 +5,13 @@
 	],
 	"whoisServer": "whois.nic.lk",
 	"nameServers": [
-		"ns1.ac.lk",
-		"ns3.ac.lk",
+		"lk.communitydns.net",
+		"nic.lk-anycast.pch.net",
 		"ns-c.nic.lk",
 		"ns-d.nic.lk",
 		"ns-l.nic.lk",
 		"ns-t.nic.lk",
-		"lk.communitydns.net",
-		"nic.lk-anycast.pch.net"
+		"ns1.ac.lk",
+		"ns3.ac.lk"
 	]
 }

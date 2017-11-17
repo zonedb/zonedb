@@ -8,13 +8,13 @@
 		"retired"
 	],
 	"nameServers": [
-		"kadushi.curinfo.an",
-		"ns01-server.curinfo.an",
+		"an.cctld.authdns.ripe.net",
 		"engine0.una.an",
 		"engine2.una.an",
 		"engine3.una.an",
+		"kadushi.curinfo.an",
 		"ns0.ja.net",
-		"an.cctld.authdns.ripe.net"
+		"ns01-server.curinfo.an"
 	],
 	"policies": [
 		{

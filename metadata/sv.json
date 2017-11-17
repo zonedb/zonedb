@@ -6,12 +6,12 @@
 	],
 	"whoisURL": "http://www.svnet.org.sv/",
 	"nameServers": [
-		"ns.dns.br",
-		"dns.nic.cr",
-		"ns.uu.net",
-		"cir.red.sv",
-		"sir.red.sv",
 		"auth02.ns.uu.net",
+		"cir.red.sv",
+		"dns.nic.cr",
+		"ns.dns.br",
+		"ns.uu.net",
+		"sir.red.sv",
 		"sv.cctld.authdns.ripe.net"
 	],
 	"policies": [

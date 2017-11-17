@@ -1,10 +1,10 @@
 {
 	"domain": "com.ar",
 	"nameServers": [
-		"ctina.ar",
 		"a.dns.ar",
 		"b.dns.ar",
 		"c.dns.ar",
+		"ctina.ar",
 		"d.dns.ar",
 		"e.dns.ar",
 		"ns2.switch.ch",

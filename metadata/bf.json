@@ -5,11 +5,11 @@
 		"geo"
 	],
 	"nameServers": [
-		"nahouri.onatel.bf",
 		"censvrns0001.ird.fr",
-		"ns1.ird.fr",
+		"nahouri.onatel.bf",
 		"ns-bf.afrinic.net",
 		"ns1.as6453.net",
+		"ns1.ird.fr",
 		"ns2.as6453.net"
 	]
 }

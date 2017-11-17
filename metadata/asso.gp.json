@@ -1,8 +1,8 @@
 {
 	"domain": "asso.gp",
 	"nameServers": [
-		"ns1.orangecaraibe.com",
-		"ns1.nic.gp"
+		"ns1.nic.gp",
+		"ns1.orangecaraibe.com"
 	],
 	"policies": [
 		{

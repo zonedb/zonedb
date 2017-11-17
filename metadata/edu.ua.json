@@ -1,11 +1,11 @@
 {
 	"domain": "edu.ua",
 	"nameServers": [
-		"deneb.dfn.de",
-		"sns-pb.isc.org",
 		"ba1.ns.ua",
+		"deneb.dfn.de",
+		"ho1.ns.edu.ua",
 		"nix.ns.ua",
-		"ho1.ns.edu.ua"
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

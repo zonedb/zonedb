@@ -7,14 +7,14 @@
 	],
 	"whoisServer": "whois.register.bg",
 	"nameServers": [
+		"bg.cctld.authdns.ripe.net",
+		"ns-ext.isc.org",
 		"ns.register.bg",
 		"ns2.register.bg",
 		"ns3.register.bg",
 		"ns4.register.bg",
 		"ns5.register.bg",
-		"ns-ext.isc.org",
-		"sns-pb.isc.org",
-		"bg.cctld.authdns.ripe.net"
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

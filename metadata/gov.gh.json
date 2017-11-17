@@ -1,15 +1,15 @@
 {
 	"domain": "gov.gh",
 	"nameServers": [
-		"ns.dns.br",
 		"austin.gh.com",
+		"fork.sth.dnsnode.net",
+		"hippo.ru.ac.za",
 		"mantse.gh.com",
-		"rip.psg.com",
+		"ns.dns.br",
 		"ns1.nic.gh",
 		"ns2.nic.gh",
-		"fork.sth.dnsnode.net",
-		"slave.sth.netnod.se",
-		"hippo.ru.ac.za"
+		"rip.psg.com",
+		"slave.sth.netnod.se"
 	],
 	"policies": [
 		{

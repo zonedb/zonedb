@@ -8,8 +8,8 @@
 	"whoisServer": "whois.agitsys.net",
 	"nameServers": [
 		"a.nowruz.dyntld.net",
-		"b.nowruz.dyntld.net",
 		"a.ns.nic.nowruz",
+		"b.nowruz.dyntld.net",
 		"b.ns.nic.nowruz"
 	],
 	"policies": [

@@ -6,9 +6,9 @@
 	],
 	"whoisServer": "whois.marnet.mk",
 	"nameServers": [
-		"tld1.marnet.mk",
-		"ns2.arnes.si",
+		"d.ext.nic.cz",
 		"dns-mk.univie.ac.at",
-		"d.ext.nic.cz"
+		"ns2.arnes.si",
+		"tld1.marnet.mk"
 	]
 }

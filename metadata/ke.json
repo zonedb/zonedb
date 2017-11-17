@@ -9,10 +9,10 @@
 	"whoisServer": "whois.kenic.or.ke",
 	"nameServers": [
 		"kenic.anycastdns.cz",
-		"ns-ke.afrinic.net",
 		"mzizi.kenic.or.ke",
-		"ns1.coza.net.za",
-		"ns.anycast.kenic.or.ke"
+		"ns-ke.afrinic.net",
+		"ns.anycast.kenic.or.ke",
+		"ns1.coza.net.za"
 	],
 	"policies": [
 		{

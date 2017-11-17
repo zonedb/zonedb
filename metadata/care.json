@@ -33,13 +33,8 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_grek_1.0.txt",
-			"language": "Grek"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_latn_1.0.txt",
-			"language": "Latn"
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_hebr_1.0.txt",
+			"language": "Hebr"
 		},
 		{
 			"type": "idn-table",
@@ -48,13 +43,18 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_hebr_1.0.txt",
-			"language": "Hebr"
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_fr_1.0.txt",
+			"language": "fr"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_fr_1.0.txt",
-			"language": "fr"
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_grek_1.0.txt",
+			"language": "Grek"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_latn_1.0.txt",
+			"language": "Latn"
 		},
 		{
 			"type": "idn-table",

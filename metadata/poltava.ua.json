@@ -3,8 +3,8 @@
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
 		"ba1.ns.ua",
-		"nix.ns.ua",
-		"ho1.ns.pl.ua"
+		"ho1.ns.pl.ua",
+		"nix.ns.ua"
 	],
 	"policies": [
 		{

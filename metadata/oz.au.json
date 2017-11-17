@@ -2,8 +2,8 @@
 	"domain": "oz.au",
 	"nameServers": [
 		"munnari.oz.au",
-		"rip.psg.com",
-		"ns.sw.oz.au"
+		"ns.sw.oz.au",
+		"rip.psg.com"
 	],
 	"policies": [
 		{

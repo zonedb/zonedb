@@ -1,9 +1,9 @@
 {
 	"domain": "gov.kg",
 	"nameServers": [
-		"ns.kg",
 		"as.asiainfo.kg",
-		"kg.cctld.authdns.ripe.net"
+		"kg.cctld.authdns.ripe.net",
+		"ns.kg"
 	],
 	"policies": [
 		{

@@ -1,12 +1,12 @@
 {
 	"domain": "ua.tc",
 	"nameServers": [
-		"ns20.imhoster.net",
-		"ns21.imhoster.net",
 		"dnsm1.nic.tc",
 		"dnsm2.nic.tc",
 		"dnsm3.nic.tc",
 		"dnsm4.nic.tc",
+		"ns20.imhoster.net",
+		"ns21.imhoster.net",
 		"rihana.ns.cloudflare.com",
 		"zeus.ns.cloudflare.com"
 	],

@@ -1,13 +1,13 @@
 {
 	"domain": "in.ni",
 	"nameServers": [
-		"ns.cr",
-		"ns.ni",
-		"ns2.ni",
-		"ns1.bb-online.net",
 		"auth01.ns.uu.net",
+		"ns.cr",
 		"ns.ibw.com.ni",
-		"ns.tmx.com.ni"
+		"ns.ni",
+		"ns.tmx.com.ni",
+		"ns1.bb-online.net",
+		"ns2.ni"
 	],
 	"policies": [
 		{

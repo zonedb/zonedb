@@ -6,16 +6,16 @@
 	],
 	"whoisServer": "whois.mynic.my",
 	"nameServers": [
-		"ns-my.nic.fr",
-		"ns5.jaring.my",
-		"ns6.jaring.my",
-		"a1.mynic.my",
-		"ns30.cdns.net",
-		"ns2.cuhk.edu.hk",
 		"a.mynic.net.my",
+		"a1.mynic.my",
 		"c.mynic.net.my",
 		"d.mynic.net.my",
-		"dns.mynic.net.my"
+		"dns.mynic.net.my",
+		"ns-my.nic.fr",
+		"ns2.cuhk.edu.hk",
+		"ns30.cdns.net",
+		"ns5.jaring.my",
+		"ns6.jaring.my"
 	],
 	"policies": [
 		{

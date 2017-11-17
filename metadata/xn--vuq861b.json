@@ -3,15 +3,15 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"whoisServer": "whois.teleinfo.cn",
 	"nameServers": [
+		"ns1.teleinfo.cn",
+		"ns2.teleinfo.cn",
+		"ns2.teleinfoo.com",
+		"ns3.teleinfo.cn",
+		"ns4.teleinfoo.com",
 		"ta.ngtld.cn",
 		"tb.ngtld.cn",
 		"tc.ngtld.cn",
 		"td.ngtld.cn",
-		"te.ngtld.cn",
-		"ns1.teleinfo.cn",
-		"ns2.teleinfo.cn",
-		"ns3.teleinfo.cn",
-		"ns2.teleinfoo.com",
-		"ns4.teleinfoo.com"
+		"te.ngtld.cn"
 	]
 }

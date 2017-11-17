@@ -1,9 +1,9 @@
 {
 	"domain": "relarn.ru",
 	"nameServers": [
-		"ns.relarn.ru",
 		"int2.dns.ripn.net",
-		"int3.dns.ripn.net"
+		"int3.dns.ripn.net",
+		"ns.relarn.ru"
 	],
 	"policies": [
 		{

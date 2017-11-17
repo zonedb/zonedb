@@ -8,13 +8,13 @@
 	"whoisServer": "whois.nic.ricoh",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"b.gmoregistry.net",
-		"k.gmoregistry.net",
-		"l.gmoregistry.net",
 		"a.nic.ricoh",
+		"b.gmoregistry.net",
 		"b.nic.ricoh",
 		"c.nic.ricoh",
-		"d.nic.ricoh"
+		"d.nic.ricoh",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net"
 	],
 	"policies": [
 		{

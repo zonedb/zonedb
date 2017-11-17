@@ -9,9 +9,9 @@
 		"a.nic.cl",
 		"b.nic.cl",
 		"c.nic.cl",
+		"cl-ns.anycast.pch.net",
 		"cl1.dnsnode.net",
-		"sns-pb.isc.org",
-		"cl-ns.anycast.pch.net"
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

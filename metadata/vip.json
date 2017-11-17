@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.nic.vip",
 	"nameServers": [
+		"a.ns.nic.vip",
+		"b.ns.nic.vip",
+		"c.ns.nic.vip",
+		"d.ns.nic.vip",
 		"dns1.nic.vip",
 		"dns2.nic.vip",
 		"dns3.nic.vip",
@@ -13,11 +17,7 @@
 		"dnsa.nic.vip",
 		"dnsb.nic.vip",
 		"dnsc.nic.vip",
-		"dnsd.nic.vip",
-		"a.ns.nic.vip",
-		"b.ns.nic.vip",
-		"c.ns.nic.vip",
-		"d.ns.nic.vip"
+		"dnsd.nic.vip"
 	],
 	"policies": [
 		{

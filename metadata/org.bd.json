@@ -1,11 +1,11 @@
 {
 	"domain": "org.bd",
 	"nameServers": [
+		"bd-ns.anycast.pch.net",
 		"dns.bd",
 		"dns2.bd",
 		"jamuna.btcl.net.bd",
-		"surma.btcl.net.bd",
-		"bd-ns.anycast.pch.net"
+		"surma.btcl.net.bd"
 	],
 	"policies": [
 		{

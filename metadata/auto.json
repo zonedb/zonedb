@@ -6,16 +6,16 @@
 	],
 	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
-		"tld.isc-sns.com",
-		"tld.isc-sns.info",
-		"ns2.uniregistry.info",
-		"ns4.uniregistry.info",
-		"tld.isc-sns.net",
-		"ns1.uniregistry.net",
-		"ns3.uniregistry.net",
 		"a.auto.dyntld.net",
+		"a.ns.uniregistry.net",
 		"b.auto.dyntld.net",
 		"c.auto.dyntld.net",
-		"a.ns.uniregistry.net"
+		"ns1.uniregistry.net",
+		"ns2.uniregistry.info",
+		"ns3.uniregistry.net",
+		"ns4.uniregistry.info",
+		"tld.isc-sns.com",
+		"tld.isc-sns.info",
+		"tld.isc-sns.net"
 	]
 }

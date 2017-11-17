@@ -7,10 +7,10 @@
 	],
 	"whoisServer": "whois.bnnic.bn",
 	"nameServers": [
+		"bn-ns.anycast.pch.net",
 		"ns1.bnnic.bn",
 		"ns2.bnnic.bn",
-		"sec4.apnic.net",
-		"bn-ns.anycast.pch.net"
+		"sec4.apnic.net"
 	],
 	"policies": [
 		{

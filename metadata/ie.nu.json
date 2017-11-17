@@ -1,7 +1,7 @@
 {
 	"domain": "ie.nu",
 	"nameServers": [
-		"ns1.bb-online.net",
-		"brain.bb-online.co.uk"
+		"brain.bb-online.co.uk",
+		"ns1.bb-online.net"
 	]
 }

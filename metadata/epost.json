@@ -6,12 +6,12 @@
 		"generic"
 	],
 	"nameServers": [
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
 		"a.ns.nic.epost",
 		"c.ns.nic.epost",
+		"ns1a.ksregistry.net",
+		"ns1b.ksregistry.net",
+		"ns2a.ksregistry.com",
+		"ns2b.ksregistry.com",
 		"x.ns.nic.epost",
 		"y.ns.nic.epost"
 	],

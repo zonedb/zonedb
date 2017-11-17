@@ -2,9 +2,9 @@
 	"domain": "gov.bi",
 	"nameServers": [
 		"anyns.nic.bi",
-		"ns.nic.bi",
-		"ns1.nic.bi",
+		"bi.cctld.authdns.ripe.net",
 		"ns-bi.afrinic.net",
-		"bi.cctld.authdns.ripe.net"
+		"ns.nic.bi",
+		"ns1.nic.bi"
 	]
 }

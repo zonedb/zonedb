@@ -7,21 +7,21 @@
 	"whoisServer": "whois.nic.cr",
 	"whoisURL": "http://www.nic.cr/niccr_publico/showRegistroDominiosScreen.do",
 	"nameServers": [
-		"ns-ext.nic.cl",
-		"ca1.nic.cr",
-		"ca2.nic.cr",
-		"de.nic.cr",
-		"f.nic.cr",
-		"g.nic.cr",
-		"h.nic.cr",
-		"p.nic.cr",
+		"a.lactld.org",
 		"a.ns.cr",
 		"c.ns.cr",
+		"ca1.nic.cr",
+		"ca2.nic.cr",
 		"d.ns.cr",
+		"de.nic.cr",
 		"e.ns.cr",
+		"f.nic.cr",
 		"f.ns.cr",
+		"g.nic.cr",
+		"h.nic.cr",
+		"ns-ext.nic.cl",
 		"ns3.nic.mx",
-		"a.lactld.org"
+		"p.nic.cr"
 	],
 	"policies": [
 		{

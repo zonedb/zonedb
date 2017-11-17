@@ -1,9 +1,9 @@
 {
 	"domain": "sld.pe",
 	"nameServers": [
-		"pe1.dnsnode.net",
-		"sns-pb.isc.org",
 		"pch.rcp.pe",
-		"quipu.rcp.net.pe"
+		"pe1.dnsnode.net",
+		"quipu.rcp.net.pe",
+		"sns-pb.isc.org"
 	]
 }

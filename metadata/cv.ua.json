@@ -2,10 +2,10 @@
 	"domain": "cv.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"ns.cv.ua",
-		"ns2.km.ua",
 		"ba1.ns.ua",
-		"nix.ns.ua"
+		"nix.ns.ua",
+		"ns.cv.ua",
+		"ns2.km.ua"
 	],
 	"policies": [
 		{

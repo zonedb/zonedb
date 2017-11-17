@@ -1,13 +1,13 @@
 {
 	"domain": "net.pa",
 	"nameServers": [
+		"dns.nic.cr",
+		"ns-ext.nic.cl",
+		"ns.dns.br",
+		"ns.nic.pa",
 		"ns.pa",
 		"ns2.pa",
-		"ns.dns.br",
-		"ns-ext.nic.cl",
-		"dns.nic.cr",
-		"sns-pb.isc.org",
-		"ns.nic.pa"
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

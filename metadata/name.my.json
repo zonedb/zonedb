@@ -1,15 +1,15 @@
 {
 	"domain": "name.my",
 	"nameServers": [
-		"ns5.jaring.my",
-		"ns6.jaring.my",
-		"b1.mynic.my",
-		"ns30.cdns.net",
-		"ns2.cuhk.edu.hk",
 		"b.mynic.net.my",
+		"b1.mynic.my",
 		"c.mynic.net.my",
 		"d.mynic.net.my",
-		"dns1.mynic.net.my"
+		"dns1.mynic.net.my",
+		"ns2.cuhk.edu.hk",
+		"ns30.cdns.net",
+		"ns5.jaring.my",
+		"ns6.jaring.my"
 	],
 	"policies": [
 		{

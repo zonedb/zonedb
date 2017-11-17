@@ -7,8 +7,8 @@
 	],
 	"whoisServer": "whois.ai",
 	"nameServers": [
-		"whois.ai",
+		"ns1.pair.com",
 		"ns2.offshore.ai",
-		"ns1.pair.com"
+		"whois.ai"
 	]
 }

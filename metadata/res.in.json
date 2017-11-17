@@ -2,14 +2,14 @@
 	"domain": "res.in",
 	"whoisServer": "whois.ncst.ernet.in",
 	"nameServers": [
-		"a1.in.afilias-nst.in",
-		"b1.in.afilias-nst.in",
 		"a0.cctld.afilias-nst.info",
-		"c0.cctld.afilias-nst.info",
+		"a1.in.afilias-nst.in",
 		"a2.in.afilias-nst.info",
 		"b0.cctld.afilias-nst.org",
-		"d0.cctld.afilias-nst.org",
-		"b2.in.afilias-nst.org"
+		"b1.in.afilias-nst.in",
+		"b2.in.afilias-nst.org",
+		"c0.cctld.afilias-nst.info",
+		"d0.cctld.afilias-nst.org"
 	],
 	"policies": [
 		{

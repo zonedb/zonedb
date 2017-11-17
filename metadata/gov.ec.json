@@ -1,11 +1,11 @@
 {
 	"domain": "gov.ec",
 	"nameServers": [
-		"n3.dns.ec",
+		"a.lactld.org",
 		"n1.nic.ec",
 		"n2.nic.ec",
-		"sns-pb.isc.org",
-		"a.lactld.org"
+		"n3.dns.ec",
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

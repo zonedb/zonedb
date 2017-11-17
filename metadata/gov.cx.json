@@ -1,9 +1,9 @@
 {
 	"domain": "gov.cx",
 	"nameServers": [
-		"ns.anycast.nic.cx",
 		"a.cx.dyntld.net",
-		"b.cx.dyntld.net"
+		"b.cx.dyntld.net",
+		"ns.anycast.nic.cx"
 	],
 	"policies": [
 		{

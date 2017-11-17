@@ -1,9 +1,9 @@
 {
 	"domain": "gov.im",
 	"nameServers": [
+		"barney.advsys.co.uk",
 		"hoppy.iom.com",
-		"pebbles.iom.com",
-		"barney.advsys.co.uk"
+		"pebbles.iom.com"
 	],
 	"policies": [
 		{

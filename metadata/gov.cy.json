@@ -3,14 +3,14 @@
 	"nameServers": [
 		"cynic.dns.cy",
 		"cynic4.dns.cy",
+		"dns.cit.cornell.edu",
 		"ns01.gov.cy",
 		"ns02.gov.cy",
-		"sns0.grnet.gr",
-		"sns1.grnet.gr",
 		"ns1.ucy.ac.cy",
 		"ns2.ucy.ac.cy",
 		"ns3.ucy.ac.cy",
-		"dns.cit.cornell.edu"
+		"sns0.grnet.gr",
+		"sns1.grnet.gr"
 	],
 	"policies": [
 		{

@@ -5,14 +5,14 @@
 	],
 	"whoisServer": "whois.ripe.net",
 	"nameServers": [
-		"ns3.nic.fr",
 		"ns3.afrinic.net",
+		"ns3.lacnic.net",
+		"ns3.nic.fr",
+		"pri.authdns.ripe.net",
 		"sec1.apnic.net",
 		"sec3.apnic.net",
-		"tinnie.arin.net",
-		"ns3.lacnic.net",
 		"sns-pb.isc.org",
-		"pri.authdns.ripe.net"
+		"tinnie.arin.net"
 	],
 	"policies": [
 		{

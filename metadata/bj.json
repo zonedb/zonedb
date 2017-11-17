@@ -6,11 +6,11 @@
 	],
 	"whoisServer": "whois.nic.bj",
 	"nameServers": [
-		"ns1.intnet.bj",
-		"nakayo.leland.bj",
+		"bj.cctld.authdns.ripe.net",
 		"bow.rain.fr",
+		"nakayo.leland.bj",
 		"ns-bj.afrinic.net",
-		"bj.cctld.authdns.ripe.net"
+		"ns1.intnet.bj"
 	],
 	"policies": [
 		{

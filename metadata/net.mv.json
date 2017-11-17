@@ -1,9 +1,9 @@
 {
 	"domain": "net.mv",
 	"nameServers": [
+		"mv-ns.anycast.pch.net",
 		"ns.net.mv",
-		"ns2.dhivehinet.net.mv",
-		"mv-ns.anycast.pch.net"
+		"ns2.dhivehinet.net.mv"
 	],
 	"policies": [
 		{

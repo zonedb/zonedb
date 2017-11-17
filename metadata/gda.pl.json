@@ -1,10 +1,10 @@
 {
 	"domain": "gda.pl",
 	"nameServers": [
+		"bilbo.nask.org.pl",
 		"ns.tpnet.pl",
 		"ns1.task.gda.pl",
-		"ns2.task.gda.pl",
-		"bilbo.nask.org.pl"
+		"ns2.task.gda.pl"
 	],
 	"policies": [
 		{

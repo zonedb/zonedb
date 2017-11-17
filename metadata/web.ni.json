@@ -1,13 +1,13 @@
 {
 	"domain": "web.ni",
 	"nameServers": [
-		"ns.ni",
-		"ns2.ni",
 		"dns.nic.cr",
-		"ns1.bb-online.net",
-		"ns.uu.net",
 		"ns.ibw.com.ni",
-		"ns.ideay.net.ni"
+		"ns.ideay.net.ni",
+		"ns.ni",
+		"ns.uu.net",
+		"ns1.bb-online.net",
+		"ns2.ni"
 	],
 	"policies": [
 		{

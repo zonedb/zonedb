@@ -2,12 +2,12 @@
 	"domain": "priv.at",
 	"whoisServer": "whois.nic.priv.at",
 	"nameServers": [
+		"adns3.utanet.at",
+		"mosthamster.nic.priv.at",
 		"ns2.inode.at",
 		"ns2.nextlayer.at",
-		"priv-ns.sil.at",
-		"adns3.utanet.at",
-		"sec1.rcode0.net",
 		"ns5.univie.ac.at",
-		"mosthamster.nic.priv.at"
+		"priv-ns.sil.at",
+		"sec1.rcode0.net"
 	]
 }

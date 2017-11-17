@@ -2,10 +2,10 @@
 	"domain": "org.zw",
 	"nameServers": [
 		"news-tokyo.gip.net",
-		"ns2.gip.net",
 		"ns1.liquidtelecom.net",
-		"ns2.liquidtelecom.net",
 		"ns1.telone.co.zw",
+		"ns2.gip.net",
+		"ns2.liquidtelecom.net",
 		"ns2.telone.co.zw",
 		"ns3.telone.co.zw",
 		"zw.cctld.authdns.ripe.net"

@@ -2,11 +2,11 @@
 	"domain": "edu.cn",
 	"whoisServer": "whois.edu.cn",
 	"nameServers": [
+		"deneb.dfn.de",
 		"dns.edu.cn",
 		"dns2.edu.cn",
-		"deneb.dfn.de",
-		"ns2.cuhk.hk",
-		"ns2.cernet.net"
+		"ns2.cernet.net",
+		"ns2.cuhk.hk"
 	],
 	"policies": [
 		{

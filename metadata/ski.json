@@ -5,14 +5,14 @@
 	],
 	"whoisServer": "whois.afilias.net",
 	"nameServers": [
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
 		"a0.nic.ski",
 		"a2.nic.ski",
 		"b0.nic.ski",
-		"c0.nic.ski"
+		"c0.nic.ski",
+		"ns1a.ksregistry.net",
+		"ns1b.ksregistry.net",
+		"ns2a.ksregistry.com",
+		"ns2b.ksregistry.com"
 	],
 	"policies": [
 		{

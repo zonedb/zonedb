@@ -7,12 +7,12 @@
 	"whoisServer": "whois.usp.ac.fj",
 	"whoisURL": "http://domains.fj",
 	"nameServers": [
-		"rip.psg.com",
 		"adns1.berkeley.edu",
 		"adns2.berkeley.edu",
+		"auth00.ns.uu.net",
 		"manu.usp.ac.fj",
-		"teri.usp.ac.fj",
-		"auth00.ns.uu.net"
+		"rip.psg.com",
+		"teri.usp.ac.fj"
 	],
 	"policies": [
 		{

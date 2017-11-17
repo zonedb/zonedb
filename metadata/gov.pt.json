@@ -1,8 +1,8 @@
 {
 	"domain": "gov.pt",
 	"nameServers": [
-		"ns02.fccn.pt",
-		"dns1.gov.pt"
+		"dns1.gov.pt",
+		"ns02.fccn.pt"
 	],
 	"policies": [
 		{

@@ -7,10 +7,10 @@
 	],
 	"whoisURL": "http://www.registration.ge/",
 	"nameServers": [
-		"ns2.nic.fr",
+		"ge.hostmaster.ua",
 		"ns.nic.ge",
 		"ns.uu.net",
-		"ge.hostmaster.ua"
+		"ns2.nic.fr"
 	],
 	"policies": [
 		{

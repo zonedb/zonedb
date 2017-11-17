@@ -1,12 +1,12 @@
 {
 	"domain": "ac.pr",
 	"nameServers": [
-		"ns587.websitewelcome.com",
-		"ns588.websitewelcome.com",
-		"pr-dns.denic.de",
 		"descartes.nic.pr",
 		"golomb.nic.pr",
+		"ns587.websitewelcome.com",
+		"ns588.websitewelcome.com",
 		"pascal.nic.pr",
+		"pr-dns.denic.de",
 		"pr-ns.anycast.pch.net"
 	],
 	"policies": [

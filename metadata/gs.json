@@ -6,10 +6,10 @@
 	],
 	"whoisServer": "whois.nic.gs",
 	"nameServers": [
-		"ns.anycast.nic.gs",
 		"a.gs.dyntld.net",
 		"b.gs.dyntld.net",
-		"gs.cctld.authdns.ripe.net"
+		"gs.cctld.authdns.ripe.net",
+		"ns.anycast.nic.gs"
 	],
 	"policies": [
 		{

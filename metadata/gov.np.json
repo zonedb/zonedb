@@ -2,16 +2,16 @@
 	"domain": "gov.np",
 	"infoURL": "http://register.mos.com.np/np-ccTLDs",
 	"nameServers": [
+		"mechi.nitc.gov.np",
+		"np-ns.anycast.pch.net",
+		"np-ns.npix.net.np",
+		"np.cctld.authdns.ripe.net",
+		"ns-ext.isc.org",
 		"ns-ext.vix.com",
 		"sec1.apnic.net",
 		"sec3.apnic.net",
-		"ns-ext.isc.org",
-		"yarrina.connect.com.au",
-		"np-ns.anycast.pch.net",
 		"shikhar.mos.com.np",
-		"mechi.nitc.gov.np",
-		"np-ns.npix.net.np",
-		"np.cctld.authdns.ripe.net"
+		"yarrina.connect.com.au"
 	],
 	"policies": [
 		{

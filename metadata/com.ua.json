@@ -2,11 +2,11 @@
 	"domain": "com.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"sns-pb.isc.org",
 		"ba1.ns.ua",
-		"nix.ns.ua",
 		"ho1.ns.com.ua",
-		"k.ns.com.ua"
+		"k.ns.com.ua",
+		"nix.ns.ua",
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

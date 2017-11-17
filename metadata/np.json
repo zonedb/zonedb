@@ -7,13 +7,13 @@
 	],
 	"whoisURL": "http://register.mos.com.np/np-whois-lookup",
 	"nameServers": [
-		"sec3.apnic.net",
-		"ns-ext.isc.org",
-		"yarrina.connect.com.au",
 		"np-ns.anycast.pch.net",
-		"shikhar.mos.com.np",
 		"np-ns.npix.net.np",
-		"np.cctld.authdns.ripe.net"
+		"np.cctld.authdns.ripe.net",
+		"ns-ext.isc.org",
+		"sec3.apnic.net",
+		"shikhar.mos.com.np",
+		"yarrina.connect.com.au"
 	],
 	"policies": [
 		{

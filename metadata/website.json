@@ -28,13 +28,13 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/website_latn_1.0.txt",
-			"language": "Latn"
+			"value": "https://www.iana.org/domains/idn-tables/tables/website_he_1.0.txt",
+			"language": "he"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/website_he_1.0.txt",
-			"language": "he"
+			"value": "https://www.iana.org/domains/idn-tables/tables/website_latn_1.0.txt",
+			"language": "Latn"
 		},
 		{
 			"type": "idn-table",

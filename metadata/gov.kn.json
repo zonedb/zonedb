@@ -3,12 +3,12 @@
 	"nameServers": [
 		"dns1.stabletransit.com",
 		"dns2.stabletransit.com",
-		"ns1.stabletransit.com",
-		"ns2.stabletransit.com",
-		"ns1.gov.kn",
-		"ns2.gov.kn",
 		"dyntld-1.nic.kn",
 		"dyntld-2.nic.kn",
+		"ns1.gov.kn",
+		"ns1.stabletransit.com",
+		"ns2.gov.kn",
+		"ns2.stabletransit.com",
 		"pch.nic.kn"
 	],
 	"policies": [

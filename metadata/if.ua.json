@@ -2,12 +2,12 @@
 	"domain": "if.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"ns.dn.ua",
-		"ns2.if.ua",
 		"ba1.ns.ua",
+		"ho1.ns.if.ua",
 		"nix.ns.ua",
+		"ns.dn.ua",
 		"ns.zp.ua",
-		"ho1.ns.if.ua"
+		"ns2.if.ua"
 	],
 	"policies": [
 		{

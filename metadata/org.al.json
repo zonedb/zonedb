@@ -1,12 +1,12 @@
 {
 	"domain": "org.al",
 	"nameServers": [
+		"al.cctld.authdns.ripe.net",
+		"ns-al.isti.cnr.it",
 		"ns1.nic.al",
 		"ns2.nic.al",
 		"nsx.nic.al",
-		"rip.psg.com",
-		"ns-al.isti.cnr.it",
-		"al.cctld.authdns.ripe.net"
+		"rip.psg.com"
 	],
 	"policies": [
 		{

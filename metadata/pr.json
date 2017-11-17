@@ -7,10 +7,10 @@
 	],
 	"whoisServer": "whois.nic.pr",
 	"nameServers": [
-		"pr-dns.denic.de",
 		"descartes.nic.pr",
 		"golomb.nic.pr",
 		"pascal.nic.pr",
+		"pr-dns.denic.de",
 		"pr-ns.anycast.pch.net"
 	]
 }

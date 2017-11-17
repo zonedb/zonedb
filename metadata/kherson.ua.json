@@ -2,11 +2,11 @@
 	"domain": "kherson.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"ns.ks-host.com",
+		"ho1.ns.ks.ua",
+		"nix.ns.ua",
 		"ns.dn.ua",
 		"ns.kharkov.ua",
-		"nix.ns.ua",
-		"ho1.ns.ks.ua"
+		"ns.ks-host.com"
 	],
 	"policies": [
 		{

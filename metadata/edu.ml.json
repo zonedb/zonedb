@@ -1,9 +1,9 @@
 {
 	"domain": "edu.ml",
 	"nameServers": [
-		"dns.gouv.ml",
+		"a.ns40.microtics.pro",
 		"djamako.nic.ml",
-		"ns1.ribtelecom.net",
-		"a.ns40.microtics.pro"
+		"dns.gouv.ml",
+		"ns1.ribtelecom.net"
 	]
 }

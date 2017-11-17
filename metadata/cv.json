@@ -6,14 +6,14 @@
 	],
 	"whoisURL": "http://www.dns.cv/",
 	"nameServers": [
-		"ns.dns.cv",
-		"ns-ext.isc.org",
-		"sns-pb.isc.org",
+		"auth02.ns.uu.net",
 		"c.dns.pt",
 		"cv01.dns.pt",
+		"ns-ext.isc.org",
+		"ns.dns.cv",
 		"ns01.fccn.pt",
 		"phobos.fccn.pt",
-		"auth02.ns.uu.net"
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

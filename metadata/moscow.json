@@ -12,15 +12,15 @@
 	],
 	"whoisServer": "whois.nic.moscow",
 	"nameServers": [
-		"d.dns.flexireg.domains",
-		"b.dns.flexireg.net",
+		"a.dns.flexireg.ru",
 		"a.dns.ripn.net",
+		"b.dns.flexireg.net",
 		"b.dns.ripn.net",
+		"c.dns.flexireg.org",
+		"d.dns.flexireg.domains",
 		"d.dns.ripn.net",
 		"e.dns.ripn.net",
-		"f.dns.ripn.net",
-		"c.dns.flexireg.org",
-		"a.dns.flexireg.ru"
+		"f.dns.ripn.net"
 	],
 	"policies": [
 		{

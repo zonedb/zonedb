@@ -113,13 +113,13 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/global_sr-me_1.txt",
-			"language": "sr-ME"
+			"value": "https://www.iana.org/domains/idn-tables/tables/global_sr_1.txt",
+			"language": "sr"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/global_sr_1.txt",
-			"language": "sr"
+			"value": "https://www.iana.org/domains/idn-tables/tables/global_sr-me_1.txt",
+			"language": "sr-ME"
 		},
 		{
 			"type": "idn-table",

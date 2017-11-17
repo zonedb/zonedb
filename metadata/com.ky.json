@@ -1,16 +1,16 @@
 {
 	"domain": "com.ky",
 	"nameServers": [
-		"uni-1-tld.d-zone.ca",
-		"uni-2-tld.d-zone.ca",
-		"ns2.uniregistry.info",
-		"ns4.uniregistry.info",
-		"ns1.uniregistry.net",
-		"ns3.uniregistry.net",
 		"a.ky.dyntld.net",
+		"a.ns.uniregistry.net",
 		"b.ky.dyntld.net",
 		"c.ky.dyntld.net",
-		"a.ns.uniregistry.net"
+		"ns1.uniregistry.net",
+		"ns2.uniregistry.info",
+		"ns3.uniregistry.net",
+		"ns4.uniregistry.info",
+		"uni-1-tld.d-zone.ca",
+		"uni-2-tld.d-zone.ca"
 	],
 	"policies": [
 		{

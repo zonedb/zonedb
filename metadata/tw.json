@@ -6,10 +6,8 @@
 	],
 	"whoisServer": "whois.twnic.net.tw",
 	"nameServers": [
-		"anytld.apnic.net",
-		"sec4.apnic.net",
-		"ns.twnic.net",
 		"a.dns.tw",
+		"anytld.apnic.net",
 		"b.dns.tw",
 		"c.dns.tw",
 		"d.dns.tw",
@@ -17,7 +15,9 @@
 		"f.dns.tw",
 		"g.dns.tw",
 		"h.dns.tw",
-		"i.dns.tw"
+		"i.dns.tw",
+		"ns.twnic.net",
+		"sec4.apnic.net"
 	],
 	"policies": [
 		{

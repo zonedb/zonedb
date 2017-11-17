@@ -1,10 +1,10 @@
 {
 	"domain": "volyn.ua",
 	"nameServers": [
-		"nix.ns.ua",
-		"ns.zp.ua",
 		"ho1.ns.lutsk.ua",
-		"ns.vizor.lutsk.ua"
+		"nix.ns.ua",
+		"ns.vizor.lutsk.ua",
+		"ns.zp.ua"
 	],
 	"policies": [
 		{

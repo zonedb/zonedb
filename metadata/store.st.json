@@ -1,8 +1,8 @@
 {
 	"domain": "store.st",
 	"nameServers": [
-		"ns2.bahnhof.net",
-		"ns.bahnhof.se"
+		"ns.bahnhof.se",
+		"ns2.bahnhof.net"
 	],
 	"policies": [
 		{

@@ -366,16 +366,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sener_az_2.5.txt",
-			"language": "az"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sener_be_2.5.txt",
-			"language": "be"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/sener_tagb_2.5.txt",
 			"language": "Tagb"
 		},
@@ -411,21 +401,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sener_es_2.5.txt",
-			"language": "es"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sener_ro_2.5.txt",
-			"language": "ro"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sener_sr_2.5.txt",
-			"language": "sr"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/sener_tglg_2.5.txt",
 			"language": "Tglg"
 		},
@@ -436,28 +411,13 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sener_thai_2.5.txt",
-			"language": "Thai"
+			"value": "https://www.iana.org/domains/idn-tables/tables/sener_az_2.5.txt",
+			"language": "az"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sener_tibt_2.5.txt",
-			"language": "Tibt"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sener_vaii_2.5.txt",
-			"language": "Vaii"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sener_xsux_2.5.txt",
-			"language": "Xsux"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sener_yiii_2.5.txt",
-			"language": "Yiii"
+			"value": "https://www.iana.org/domains/idn-tables/tables/sener_be_2.5.txt",
+			"language": "be"
 		},
 		{
 			"type": "idn-table",
@@ -476,6 +436,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sener_es_2.5.txt",
+			"language": "es"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/sener_fr_2.5.txt",
 			"language": "fr"
 		},
@@ -488,6 +453,16 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/sener_ja_2.5.txt",
 			"language": "ja"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sener_thai_2.5.txt",
+			"language": "Thai"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sener_vaii_2.5.txt",
+			"language": "Vaii"
 		},
 		{
 			"type": "idn-table",
@@ -511,13 +486,18 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sener_ro_2.5.txt",
+			"language": "ro"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/sener_ru_2.5.txt",
 			"language": "ru"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sener_xpeo_2.5.txt",
-			"language": "Xpeo"
+			"value": "https://www.iana.org/domains/idn-tables/tables/sener_sr_2.5.txt",
+			"language": "sr"
 		},
 		{
 			"type": "idn-table",
@@ -526,8 +506,28 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sener_tibt_2.5.txt",
+			"language": "Tibt"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/sener_uk_2.5.txt",
 			"language": "uk"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sener_xpeo_2.5.txt",
+			"language": "Xpeo"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sener_xsux_2.5.txt",
+			"language": "Xsux"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sener_yiii_2.5.txt",
+			"language": "Yiii"
 		},
 		{
 			"type": "idn-table",

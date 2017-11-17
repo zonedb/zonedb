@@ -1,11 +1,11 @@
 {
 	"domain": "net.bw",
 	"nameServers": [
-		"ns1.btc.bw",
-		"ns-bw.afrinic.net",
-		"master.btc.net.bw",
 		"dns1.nic.net.bw",
 		"dns2.nic.net.bw",
+		"master.btc.net.bw",
+		"ns-bw.afrinic.net",
+		"ns1.btc.bw",
 		"pch.nic.net.bw"
 	],
 	"policies": [

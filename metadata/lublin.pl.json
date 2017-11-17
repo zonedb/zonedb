@@ -1,9 +1,9 @@
 {
 	"domain": "lublin.pl",
 	"nameServers": [
+		"bilbo.nask.org.pl",
 		"ns1.lublin.pl",
-		"ns2.lublin.pl",
-		"bilbo.nask.org.pl"
+		"ns2.lublin.pl"
 	],
 	"policies": [
 		{

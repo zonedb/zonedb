@@ -10,13 +10,13 @@
 		"b.dns.kr",
 		"c.dns.kr",
 		"d.dns.kr",
-		"e.dns.kr",
-		"f.dns.kr",
-		"g.dns.kr",
 		"dns1.emdns.uk",
 		"dns2.emdns.uk",
 		"dns3.emdns.uk",
-		"dns4.emdns.uk"
+		"dns4.emdns.uk",
+		"e.dns.kr",
+		"f.dns.kr",
+		"g.dns.kr"
 	],
 	"policies": [
 		{

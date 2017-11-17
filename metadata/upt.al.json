@@ -1,12 +1,12 @@
 {
 	"domain": "upt.al",
 	"nameServers": [
-		"complab.upt.al",
-		"nic.grnet.gr",
 		"abcom.abcom.com.al",
-		"smtphub.abcom.com.al",
+		"complab.upt.al",
+		"itgbox.iat.cnr.it",
+		"nic.grnet.gr",
 		"ns5.univie.ac.at",
-		"itgbox.iat.cnr.it"
+		"smtphub.abcom.com.al"
 	],
 	"policies": [
 		{

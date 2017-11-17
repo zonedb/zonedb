@@ -4,13 +4,13 @@
 		"retired"
 	],
 	"nameServers": [
+		"ns1.be.colt.net",
+		"ns1.bt.net",
 		"ns1bru.europa.eu",
 		"ns1lux.europa.eu",
 		"ns2bru.europa.eu",
-		"ns2lux.europa.eu",
-		"ns1.bt.net",
 		"ns2eu.bt.net",
-		"ns1.be.colt.net"
+		"ns2lux.europa.eu"
 	],
 	"policies": [
 		{

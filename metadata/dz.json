@@ -6,13 +6,13 @@
 	],
 	"whoisServer": "whois.nic.dz",
 	"nameServers": [
+		"dz.cctld.authdns.ripe.net",
+		"ns-dz.afrinic.net",
 		"ns1.nic.dz",
 		"ns2.nic.dz",
-		"ns4.nic.dz",
-		"ns5.nic.dz",
 		"ns3.nic.fr",
-		"ns-dz.afrinic.net",
-		"dz.cctld.authdns.ripe.net"
+		"ns4.nic.dz",
+		"ns5.nic.dz"
 	],
 	"policies": [
 		{

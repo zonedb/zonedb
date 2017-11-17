@@ -7,12 +7,12 @@
 	"whoisServer": "whois.netcom.cm",
 	"whoisURL": "http://antic.cm",
 	"nameServers": [
-		"ns.itu.ch",
+		"auth02.ns.uu.net",
+		"cm.cctld.authdns.ripe.net",
 		"kim.camnet.cm",
 		"lom.camnet.cm",
-		"sanaga.camnet.cm",
-		"auth02.ns.uu.net",
-		"cm.cctld.authdns.ripe.net"
+		"ns.itu.ch",
+		"sanaga.camnet.cm"
 	],
 	"policies": [
 		{

@@ -1,15 +1,15 @@
 {
 	"domain": "it.tc",
 	"nameServers": [
+		"ns.udag.de",
+		"ns.udag.net",
+		"ns.udag.org",
+		"ns.udagdns.de",
+		"ns.udagdns.net",
 		"ns0.dnsmadeeasy.com",
 		"ns1.dnsmadeeasy.com",
 		"ns3.dnsmadeeasy.com",
-		"ns4.dnsmadeeasy.com",
-		"ns.udag.de",
-		"ns.udagdns.de",
-		"ns.udag.net",
-		"ns.udagdns.net",
-		"ns.udag.org"
+		"ns4.dnsmadeeasy.com"
 	],
 	"policies": [
 		{

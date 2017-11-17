@@ -1,10 +1,10 @@
 {
 	"domain": "edu.za",
 	"nameServers": [
+		"ns-za.afrinic.net",
 		"ns1.iafrica.com",
 		"ns2.iafrica.com",
 		"rip.psg.com",
-		"ns-za.afrinic.net",
 		"za-ns.anycast.pch.net"
 	],
 	"policies": [

@@ -2,10 +2,10 @@
 	"domain": "gov.pf",
 	"nameServers": [
 		"ns1.gov.pf",
-		"ns2.gov.pf",
-		"reverse.gov.pf",
 		"ns1.mana.pf",
-		"ns2.mana.pf"
+		"ns2.gov.pf",
+		"ns2.mana.pf",
+		"reverse.gov.pf"
 	],
 	"policies": [
 		{

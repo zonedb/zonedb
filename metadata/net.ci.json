@@ -2,14 +2,14 @@
 	"domain": "net.ci",
 	"nameServers": [
 		"any.nic.ci",
-		"ns.nic.ci",
-		"ns1.nic.ci",
-		"phloem.uoregon.edu",
 		"censvrns0001.ird.fr",
-		"ns1.ird.fr",
-		"ns-ci.afrinic.net",
+		"ci.cctld.authdns.ripe.net",
 		"ci.hosting.nic.fr",
-		"ci.cctld.authdns.ripe.net"
+		"ns-ci.afrinic.net",
+		"ns.nic.ci",
+		"ns1.ird.fr",
+		"ns1.nic.ci",
+		"phloem.uoregon.edu"
 	],
 	"policies": [
 		{

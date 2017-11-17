@@ -4,10 +4,10 @@
 		"ns1.etecsa.net",
 		"ns2.etecsa.net",
 		"ns3.etecsa.net",
-		"ns4.etecsa.net",
-		"ns5.etecsa.net",
 		"ns3.etecsa.net.cu",
-		"ns4.etecsa.net.cu"
+		"ns4.etecsa.net",
+		"ns4.etecsa.net.cu",
+		"ns5.etecsa.net"
 	],
 	"policies": [
 		{

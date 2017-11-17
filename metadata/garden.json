@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.nic.garden",
 	"nameServers": [
+		"a.ns.nic.garden",
+		"b.ns.nic.garden",
+		"c.ns.nic.garden",
+		"d.ns.nic.garden",
 		"dns1.nic.garden",
 		"dns2.nic.garden",
 		"dns3.nic.garden",
@@ -13,11 +17,7 @@
 		"dnsa.nic.garden",
 		"dnsb.nic.garden",
 		"dnsc.nic.garden",
-		"dnsd.nic.garden",
-		"a.ns.nic.garden",
-		"b.ns.nic.garden",
-		"c.ns.nic.garden",
-		"d.ns.nic.garden"
+		"dnsd.nic.garden"
 	],
 	"policies": [
 		{

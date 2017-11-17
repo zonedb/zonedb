@@ -1,10 +1,10 @@
 {
 	"domain": "edu.ki",
 	"nameServers": [
-		"pch.nic.ki",
-		"sns-pb.isc.org",
 		"a.ki.dyntld.net",
-		"b.ki.dyntld.net"
+		"b.ki.dyntld.net",
+		"pch.nic.ki",
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

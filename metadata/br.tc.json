@@ -1,16 +1,16 @@
 {
 	"domain": "br.tc",
 	"nameServers": [
+		"default1-tr.nic.tc",
+		"default2-tr.nic.tc",
 		"ns1.above.com",
-		"ns2.above.com",
 		"ns1.guzelhosting.com",
+		"ns1.parkingcrew.net",
 		"ns11.guzelhosting.com",
 		"ns12.guzelhosting.com",
+		"ns2.above.com",
 		"ns2.guzelhosting.com",
-		"ns1.parkingcrew.net",
-		"ns2.parkingcrew.net",
-		"default1-tr.nic.tc",
-		"default2-tr.nic.tc"
+		"ns2.parkingcrew.net"
 	],
 	"policies": [
 		{

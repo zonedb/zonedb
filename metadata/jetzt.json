@@ -5,16 +5,16 @@
 	],
 	"whoisServer": "whois.nic.jetzt",
 	"nameServers": [
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au",
 		"ns1.dns.nic.jetzt",
 		"ns2.dns.nic.jetzt",
 		"ns3.dns.nic.jetzt",
 		"ns4.dns.nic.jetzt",
 		"ns5.dns.nic.jetzt",
-		"ns6.dns.nic.jetzt",
-		"demand.alpha.aridns.net.au",
-		"demand.beta.aridns.net.au",
-		"demand.delta.aridns.net.au",
-		"demand.gamma.aridns.net.au"
+		"ns6.dns.nic.jetzt"
 	],
 	"policies": [
 		{
@@ -34,6 +34,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_fr_1.0.txt",
+			"language": "fr"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_grek_1.0.txt",
 			"language": "Grek"
 		},
@@ -41,6 +46,11 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_hebr_1.0.txt",
 			"language": "Hebr"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_latn_1.0.txt",
+			"language": "Latn"
 		},
 		{
 			"type": "idn-table",
@@ -54,11 +64,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_fr_1.0.txt",
-			"language": "fr"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ja_1.0.txt",
 			"language": "ja"
 		},
@@ -66,11 +71,6 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ko_1.0.txt",
 			"language": "ko"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_latn_1.0.txt",
-			"language": "Latn"
 		},
 		{
 			"type": "idn-table",

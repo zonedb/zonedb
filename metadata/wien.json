@@ -11,13 +11,13 @@
 	],
 	"whoisServer": "whois.nic.wien",
 	"nameServers": [
+		"a.dns.nic.wien",
+		"m.dns.nic.wien",
+		"n.dns.nic.wien",
 		"ns1.ryce-rsp.com",
 		"nsa.netnod.se",
 		"nsp.netnod.se",
-		"nsu.netnod.se",
-		"a.dns.nic.wien",
-		"m.dns.nic.wien",
-		"n.dns.nic.wien"
+		"nsu.netnod.se"
 	],
 	"policies": [
 		{

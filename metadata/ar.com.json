@@ -2,13 +2,13 @@
 	"domain": "ar.com",
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
-		"ns31.domaincontrol.com",
-		"ns32.domaincontrol.com",
-		"ns51.domaincontrol.com",
-		"ns52.domaincontrol.com",
 		"ns1.centralnic.net",
 		"ns2.centralnic.net",
 		"ns3.centralnic.net",
-		"ns4.centralnic.net"
+		"ns31.domaincontrol.com",
+		"ns32.domaincontrol.com",
+		"ns4.centralnic.net",
+		"ns51.domaincontrol.com",
+		"ns52.domaincontrol.com"
 	]
 }

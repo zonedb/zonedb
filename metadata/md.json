@@ -6,14 +6,14 @@
 	],
 	"whoisServer": "whois.nic.md",
 	"nameServers": [
+		"dns-md.rotld.ro",
+		"md.cctld.authdns.ripe.net",
+		"ns-ext.isc.org",
 		"ns-int.dns.md",
 		"nsb.dns.md",
 		"nsca.dns.md",
 		"nsf.dns.md",
-		"nsfr.dns.md",
-		"ns-ext.isc.org",
-		"dns-md.rotld.ro",
-		"md.cctld.authdns.ripe.net"
+		"nsfr.dns.md"
 	],
 	"policies": [
 		{

@@ -1,8 +1,8 @@
 {
 	"domain": "org.ge",
 	"nameServers": [
-		"ns.nic.ge",
-		"auth02.ns.uu.net"
+		"auth02.ns.uu.net",
+		"ns.nic.ge"
 	],
 	"policies": [
 		{

@@ -7,15 +7,15 @@
 	],
 	"whoisServer": "whois.aero",
 	"nameServers": [
-		"ns2.switch.ch",
-		"dns7.denic.de",
-		"ns5.knipp.de",
 		"a0.aero.afilias-nst.info",
 		"a2.aero.afilias-nst.info",
-		"c0.aero.afilias-nst.info",
 		"b0.aero.afilias-nst.org",
 		"b2.aero.afilias-nst.org",
-		"d0.aero.afilias-nst.org"
+		"c0.aero.afilias-nst.info",
+		"d0.aero.afilias-nst.org",
+		"dns7.denic.de",
+		"ns2.switch.ch",
+		"ns5.knipp.de"
 	],
 	"policies": [
 		{

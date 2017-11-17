@@ -2,10 +2,10 @@
 	"domain": "web.za",
 	"whoisServer": "web-whois.registry.net.za",
 	"nameServers": [
-		"za-ns.anycast.pch.net",
-		"hippo.ru.ac.za",
 		"disa.tenet.ac.za",
-		"ns0.is.co.za"
+		"hippo.ru.ac.za",
+		"ns0.is.co.za",
+		"za-ns.anycast.pch.net"
 	],
 	"policies": [
 		{

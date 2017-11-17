@@ -1,12 +1,12 @@
 {
 	"domain": "co.ni",
 	"nameServers": [
-		"ns.ni",
-		"ns2.ni",
-		"dns.nic.cr",
-		"ns1.bb-online.net",
 		"auth01.ns.uu.net",
-		"ns.ibw.com.ni"
+		"dns.nic.cr",
+		"ns.ibw.com.ni",
+		"ns.ni",
+		"ns1.bb-online.net",
+		"ns2.ni"
 	],
 	"policies": [
 		{

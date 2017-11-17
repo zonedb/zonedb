@@ -1,8 +1,8 @@
 {
 	"domain": "com.ml",
 	"nameServers": [
-		"dns.gouv.ml",
-		"djamako.nic.ml"
+		"djamako.nic.ml",
+		"dns.gouv.ml"
 	],
 	"policies": [
 		{

@@ -7,6 +7,10 @@
 	],
 	"whoisServer": "whois.nic.bradesco",
 	"nameServers": [
+		"a.ns.nic.bradesco",
+		"b.ns.nic.bradesco",
+		"c.ns.nic.bradesco",
+		"d.ns.nic.bradesco",
 		"dns1.nic.bradesco",
 		"dns2.nic.bradesco",
 		"dns3.nic.bradesco",
@@ -14,11 +18,7 @@
 		"dnsa.nic.bradesco",
 		"dnsb.nic.bradesco",
 		"dnsc.nic.bradesco",
-		"dnsd.nic.bradesco",
-		"a.ns.nic.bradesco",
-		"b.ns.nic.bradesco",
-		"c.ns.nic.bradesco",
-		"d.ns.nic.bradesco"
+		"dnsd.nic.bradesco"
 	],
 	"policies": [
 		{

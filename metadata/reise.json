@@ -7,12 +7,12 @@
 	"whoisServer": "whois.nic.reise",
 	"nameServers": [
 		"a.dns.nic.reise",
-		"m.dns.nic.reise",
-		"n.dns.nic.reise",
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",
 		"demand.delta.aridns.net.au",
-		"demand.gamma.aridns.net.au"
+		"demand.gamma.aridns.net.au",
+		"m.dns.nic.reise",
+		"n.dns.nic.reise"
 	],
 	"policies": [
 		{
@@ -27,6 +27,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_de_1.0.txt",
+			"language": "de"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_deva_1.0.txt",
 			"language": "Deva"
 		},
@@ -34,11 +39,6 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/academy_grek_1.0.txt",
 			"language": "Grek"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_de_1.0.txt",
-			"language": "de"
 		},
 		{
 			"type": "idn-table",
@@ -57,8 +57,8 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_latn_1.0.txt",
-			"language": "Latn"
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_thai_1.0.txt",
+			"language": "Thai"
 		},
 		{
 			"type": "idn-table",
@@ -67,8 +67,8 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ko_1.0.txt",
-			"language": "ko"
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_latn_1.0.txt",
+			"language": "Latn"
 		},
 		{
 			"type": "idn-table",
@@ -77,8 +77,8 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_thai_1.0.txt",
-			"language": "Thai"
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ko_1.0.txt",
+			"language": "ko"
 		},
 		{
 			"type": "idn-table",

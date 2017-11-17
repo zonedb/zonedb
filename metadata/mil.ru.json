@@ -1,11 +1,11 @@
 {
 	"domain": "mil.ru",
 	"nameServers": [
+		"expirepages-kiae-1.nic.ru",
+		"expirepages-kiae-2.nic.ru",
 		"ns1.mil.ru",
 		"ns2.mil.ru",
-		"ns4.mil.ru",
-		"expirepages-kiae-1.nic.ru",
-		"expirepages-kiae-2.nic.ru"
+		"ns4.mil.ru"
 	],
 	"policies": [
 		{

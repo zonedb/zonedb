@@ -1,10 +1,10 @@
 {
 	"domain": "mil.ge",
 	"nameServers": [
-		"ns01.000webhost.com",
-		"ns02.000webhost.com",
+		"auth02.ns.uu.net",
 		"ns.nic.ge",
-		"auth02.ns.uu.net"
+		"ns01.000webhost.com",
+		"ns02.000webhost.com"
 	],
 	"policies": [
 		{

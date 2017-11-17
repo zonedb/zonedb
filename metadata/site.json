@@ -29,6 +29,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/site_latn_1.0.txt",
+			"language": "Latn"
+		},
+		{
+			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/site_he_1.0.txt",
 			"language": "he"
 		},
@@ -41,11 +46,6 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/site_ko_1.0.txt",
 			"language": "ko"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/site_latn_1.0.txt",
-			"language": "Latn"
 		},
 		{
 			"type": "idn-table",

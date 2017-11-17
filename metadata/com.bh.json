@@ -1,15 +1,15 @@
 {
 	"domain": "com.bh",
 	"nameServers": [
-		"ns2.fasttrackdns.com",
-		"ns3.fasttrackdns.com",
-		"ns1023.websitewelcome.com",
-		"ns2.netnames.net",
-		"pdns2.ultradns.net",
 		"ns.batelco.com.bh",
+		"ns1023.websitewelcome.com",
 		"ns2.batelco.com.bh",
+		"ns2.fasttrackdns.com",
+		"ns2.netnames.net",
 		"ns3.batelco.com.bh",
-		"ns4.batelco.com.bh"
+		"ns3.fasttrackdns.com",
+		"ns4.batelco.com.bh",
+		"pdns2.ultradns.net"
 	],
 	"policies": [
 		{

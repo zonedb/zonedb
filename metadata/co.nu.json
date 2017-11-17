@@ -1,10 +1,10 @@
 {
 	"domain": "co.nu",
 	"nameServers": [
-		"ns1.subdomain.com",
-		"ns2.subdomain.com",
 		"ns1.co.nu",
+		"ns1.subdomain.com",
 		"ns2.co.nu",
+		"ns2.subdomain.com",
 		"ns3.co.nu"
 	]
 }

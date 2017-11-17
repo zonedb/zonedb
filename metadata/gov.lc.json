@@ -1,8 +1,8 @@
 {
 	"domain": "gov.lc",
 	"nameServers": [
-		"ns2.dnsserver.ag",
-		"dns2.server.ag"
+		"dns2.server.ag",
+		"ns2.dnsserver.ag"
 	],
 	"policies": [
 		{

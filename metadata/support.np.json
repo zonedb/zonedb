@@ -2,12 +2,12 @@
 	"domain": "support.np",
 	"infoURL": "http://register.mos.com.np/np-ccTLDs",
 	"nameServers": [
+		"np-ns.anycast.pch.net",
+		"np-ns.npix.net.np",
+		"ns-ext.isc.org",
 		"sec2.apnic.net",
 		"sec3.apnic.net",
-		"ns-ext.isc.org",
-		"np-ns.anycast.pch.net",
-		"shikhar.mos.com.np",
-		"np-ns.npix.net.np"
+		"shikhar.mos.com.np"
 	],
 	"policies": [
 		{

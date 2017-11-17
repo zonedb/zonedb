@@ -1,9 +1,9 @@
 {
 	"domain": "net.sb",
 	"nameServers": [
-		"pch.nic.sb",
 		"a.sb.dyntld.net",
-		"b.sb.dyntld.net"
+		"b.sb.dyntld.net",
+		"pch.nic.sb"
 	],
 	"policies": [
 		{

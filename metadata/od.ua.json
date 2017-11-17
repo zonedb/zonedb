@@ -2,11 +2,11 @@
 	"domain": "od.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"ns.lucky.net",
-		"parabol.taide.net",
+		"ho1.ns.od.ua",
 		"nix.ns.ua",
+		"ns.lucky.net",
 		"ns.od.ua",
-		"ho1.ns.od.ua"
+		"parabol.taide.net"
 	],
 	"policies": [
 		{

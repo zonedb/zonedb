@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.nic.work",
 	"nameServers": [
+		"a.ns.nic.work",
+		"b.ns.nic.work",
+		"c.ns.nic.work",
+		"d.ns.nic.work",
 		"dns1.nic.work",
 		"dns2.nic.work",
 		"dns3.nic.work",
@@ -13,11 +17,7 @@
 		"dnsa.nic.work",
 		"dnsb.nic.work",
 		"dnsc.nic.work",
-		"dnsd.nic.work",
-		"a.ns.nic.work",
-		"b.ns.nic.work",
-		"c.ns.nic.work",
-		"d.ns.nic.work"
+		"dnsd.nic.work"
 	],
 	"policies": [
 		{

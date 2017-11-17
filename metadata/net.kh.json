@@ -2,9 +2,9 @@
 	"domain": "net.kh",
 	"nameServers": [
 		"anytld.apnic.net",
-		"sec3.apnic.net",
 		"ns.camnet.com.kh",
-		"ns1.dns.net.kh"
+		"ns1.dns.net.kh",
+		"sec3.apnic.net"
 	],
 	"policies": [
 		{

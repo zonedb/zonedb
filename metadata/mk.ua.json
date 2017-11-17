@@ -3,12 +3,12 @@
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
 		"ba1.ns.ua",
-		"nix.ns.ua",
-		"ns.mk.farlep.net",
-		"ns1.mk.farlep.net",
 		"epp.ns.od.ua",
 		"ho1.ns.od.ua",
-		"ns.tm.odessa.ua"
+		"nix.ns.ua",
+		"ns.mk.farlep.net",
+		"ns.tm.odessa.ua",
+		"ns1.mk.farlep.net"
 	],
 	"policies": [
 		{

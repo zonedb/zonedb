@@ -1,10 +1,10 @@
 {
 	"domain": "org.mm",
 	"nameServers": [
+		"mm.cctld.authdns.ripe.net",
 		"ns0.nic.net.mm",
 		"ns1.nic.net.mm",
-		"ns2.nic.net.mm",
-		"mm.cctld.authdns.ripe.net"
+		"ns2.nic.net.mm"
 	],
 	"policies": [
 		{

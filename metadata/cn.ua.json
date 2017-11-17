@@ -2,9 +2,9 @@
 	"domain": "cn.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"ns3.cn.ua",
+		"nix.ns.ua",
 		"ns.dn.ua",
-		"nix.ns.ua"
+		"ns3.cn.ua"
 	],
 	"policies": [
 		{

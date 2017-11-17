@@ -1,8 +1,8 @@
 {
 	"domain": "parnumaa.ee",
 	"nameServers": [
-		"ns2.zone.ee",
 		"ns.zone.eu",
+		"ns2.zone.ee",
 		"ns3.zonedata.net"
 	],
 	"policies": [

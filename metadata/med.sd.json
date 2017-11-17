@@ -1,14 +1,14 @@
 {
 	"domain": "med.sd",
 	"nameServers": [
+		"ans1.canar.sd",
+		"ans1.sis.sd",
+		"ans2.canar.sd",
+		"ns-sd.afrinic.net",
+		"ns1.coza.net.za",
 		"ns1.uaenic.ae",
 		"ns2.uaenic.ae",
-		"ns-sd.afrinic.net",
-		"ans1.canar.sd",
-		"ans2.canar.sd",
-		"ans1.sis.sd",
 		"pch.sis.sd",
-		"ns1.coza.net.za",
 		"sd.cctld.authdns.ripe.net"
 	],
 	"policies": [

@@ -2,10 +2,10 @@
 	"domain": "crimea.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"ns.crimea.ua",
 		"ba1.ns.ua",
+		"ho1.ns.crimea.ua",
 		"nix.ns.ua",
-		"ho1.ns.crimea.ua"
+		"ns.crimea.ua"
 	],
 	"policies": [
 		{
