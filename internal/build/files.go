@@ -137,9 +137,8 @@ func ReadMetadata(zones map[string]*Zone) (errs []error) {
 			continue
 		}
 
-		// Preserve old IDN table URLs
-		z.prevIDNTableURLs = z.IDNTableURLs
-
+		// Transition on load
+		z.transition()
 	}
 	color.Fprintf(os.Stderr, "@{.}Read %d metadata files\n", read)
 	return

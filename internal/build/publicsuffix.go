@@ -11,6 +11,7 @@ import (
 
 const pfx = "zonedb-test."
 
+// CheckPublicSuffix compares the zones against the Public Suffix List.
 func CheckPublicSuffix(zones map[string]*Zone) {
 	color.Fprintf(os.Stderr, "@{.}Checking against the Public Suffix List for %d zones...\n", len(zones))
 	mapZones(zones, func(z *Zone) {

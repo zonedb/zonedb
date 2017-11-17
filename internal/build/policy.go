@@ -7,3 +7,9 @@ type Policy struct {
 	Language string `json:"language,omitempty"`
 	Comment  string `json:"comment,omitempty"`
 }
+
+const (
+	TypeMinLength     = "min-length"
+	TypeIDNTable      = "idn-table"
+	TypeIDNDisallowed = "idn-disallowed"
+)

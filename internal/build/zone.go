@@ -12,15 +12,17 @@ import (
 
 // Zone represents a build-time DNS zone (public suffix).
 type Zone struct {
-	Domain       string            `json:"domain,omitempty"`
-	InfoURL      string            `json:"infoURL,omitempty"`
-	Tags         []string          `json:"tags,omitempty"`
-	Locations    []string          `json:"locations,omitempty"`
-	WhoisServer  string            `json:"whoisServer,omitempty"`
-	WhoisURL     string            `json:"whoisURL,omitempty"`
-	NameServers  []string          `json:"nameServers,omitempty"`
-	Policies     []Policy          `json:"policies,omitempty"`
-	IDNTableURLs map[string]string `json:"idnTableURLs,omitempty"`
+	Domain      string   `json:"domain,omitempty"`
+	InfoURL     string   `json:"infoURL,omitempty"`
+	Tags        []string `json:"tags,omitempty"`
+	Locations   []string `json:"locations,omitempty"`
+	WhoisServer string   `json:"whoisServer,omitempty"`
+	WhoisURL    string   `json:"whoisURL,omitempty"`
+	NameServers []string `json:"nameServers,omitempty"`
+	Policies    []Policy `json:"policies,omitempty"`
+
+	// Transitional
+	CodePoints   string            `json:"codePoints,omitempty"`
 	ProhibitIDN  bool              `json:"prohibitIDN,omitempty"`
 	IDNTableURLs map[string]string `json:"idnTableURLs,omitempty"`
 
@@ -51,6 +53,63 @@ func (z *Zone) Normalize() {
 			}
 		}
 	}
+	z.normalizePolicies()
+}
+
+func (z *Zone) normalizePolicies() {
+	// De-dupe
+	var set = make(map[Policy]struct{}, len(z.Policies))
+	for _, p := range z.Policies {
+		set[p] = struct{}{}
+	}
+	z.Policies = make([]Policy, 0, len(set))
+	for p := range set {
+		z.Policies = append(z.Policies, p)
+	}
+
+	// Sort
+	sort.Slice(z.Policies, func(i, j int) bool {
+		a := z.Policies[i]
+		b := z.Policies[j]
+		if a.Type < b.Type {
+			return true
+		}
+		if a.Language < b.Language {
+			return true
+		}
+		if a.Value < b.Value {
+			return true
+		}
+		if a.Comment < b.Comment {
+			return true
+		}
+		return false
+	})
+}
+
+func (z *Zone) transition() {
+	// Transition ProhibitIDN and ASCII CodePoints
+	if z.ProhibitIDN || z.CodePoints == "--09az" {
+		z.CodePoints = ""     // zero value
+		z.ProhibitIDN = false // zero value
+		z.AddPolicy(TypeIDNDisallowed, "", "", "")
+	}
+
+	// Transition IDNTableURLs
+	for lang, u := range z.IDNTableURLs {
+		z.AddPolicy(TypeIDNTable, u, lang, "")
+	}
+	z.IDNTableURLs = nil
+}
+
+// AddPolicy adds a single policy to Zone z.
+func (z *Zone) AddPolicy(policyType, value, language, comment string) {
+	z.Policies = append(z.Policies, Policy{
+		Type:     policyType,
+		Value:    value,
+		Language: language,
+		Comment:  comment,
+	})
 }
 
 // IsIDN returns true if the Zone label(s) use non-ASCII characters.

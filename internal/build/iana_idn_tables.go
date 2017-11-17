@@ -72,9 +72,6 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 		if !ok {
 			return
 		}
-		if z.IDNTableURLs == nil {
-			z.IDNTableURLs = make(map[string]string)
-		}
 
 		lang, err := langFromURL(partURL)
 		if err != nil {
@@ -82,7 +79,13 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 			return
 		}
 
-		z.IDNTableURLs[lang] = u.String()
+		policy := Policy{
+			Type:     TypeIDNTable,
+			Value:    u.String(),
+			Language: lang,
+		}
+		z.Policies = append(z.Policies, policy)
+
 		atomic.AddUint64(&extractedCount, 1)
 	})
 	Trace("@{.}saw %d matches, extracted %d entries\n", matchCount, extractedCount)
