@@ -22,26 +22,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_deva_2.5.txt",
-			"language": "Deva"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_hang_2.5.txt",
-			"language": "Hang"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_hani_2.5.txt",
-			"language": "Hani"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_hano_2.5.txt",
-			"language": "Hano"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_ja_2.5.txt",
 			"language": "ja"
 		},
@@ -49,6 +29,26 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_ko_2.5.txt",
 			"language": "ko"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_deva_2.5.txt",
+			"language": "mul-Deva"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_hang_2.5.txt",
+			"language": "mul-Hang"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_hani_2.5.txt",
+			"language": "mul-Hani"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_hano_2.5.txt",
+			"language": "mul-Hano"
 		}
 	]
 }

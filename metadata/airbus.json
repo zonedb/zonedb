@@ -16,22 +16,22 @@
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_arab_2.5.txt",
-			"language": "Arab"
+			"language": "mul-Arab"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_hani_2.5.txt",
-			"language": "Hani"
+			"language": "mul-Hani"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_hano_2.5.txt",
-			"language": "Hano"
+			"language": "mul-Hano"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_latn_2.5.txt",
-			"language": "Latn"
+			"language": "mul-Latn"
 		},
 		{
 			"type": "idn-table",

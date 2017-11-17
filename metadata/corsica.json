@@ -19,7 +19,7 @@
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/corsica_latn_1.txt",
-			"language": "Latn"
+			"language": "mul-Latn"
 		}
 	]
 }

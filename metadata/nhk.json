@@ -41,13 +41,13 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_none_1.0.txt",
-			"language": "none"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_pt_1.0.txt",
+			"language": "pt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_pt_1.0.txt",
-			"language": "pt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_none_1.0.txt",
+			"language": "und"
 		}
 	]
 }

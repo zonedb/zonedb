@@ -16,17 +16,17 @@
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/ladbrokes_hang_2.5.txt",
-			"language": "Hang"
+			"language": "mul-Hang"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/ladbrokes_hani_2.5.txt",
-			"language": "Hani"
+			"language": "mul-Hani"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/ladbrokes_latn_2.5.txt",
-			"language": "Latn"
+			"language": "mul-Latn"
 		},
 		{
 			"type": "idn-table",

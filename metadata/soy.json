@@ -15,12 +15,12 @@
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/soy_jpan_1.0.txt",
-			"language": "Jpan"
+			"language": "mul-Jpan"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/soy_latn_1.0.txt",
-			"language": "Latn"
+			"language": "mul-Latn"
 		}
 	]
 }

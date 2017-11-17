@@ -13,21 +13,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/press_cyrl_1.0.txt",
-			"language": "Cyrl"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/press_grek_1.1.txt",
-			"language": "Grek"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/press_latn_1.0.txt",
-			"language": "Latn"
-		},
-		{
-			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/press_ar_1.1.txt",
 			"language": "ar"
 		},
@@ -50,6 +35,21 @@
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/press_lo_1.1.txt",
 			"language": "lo"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/press_cyrl_1.0.txt",
+			"language": "mul-Cyrl"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/press_grek_1.1.txt",
+			"language": "mul-Grek"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/press_latn_1.0.txt",
+			"language": "mul-Latn"
 		},
 		{
 			"type": "idn-table",

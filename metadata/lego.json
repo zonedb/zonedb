@@ -16,27 +16,27 @@
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/lego_arab_2.5.txt",
-			"language": "Arab"
+			"language": "mul-Arab"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/lego_hang_2.5.txt",
-			"language": "Hang"
+			"language": "mul-Hang"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/lego_hani_2.5.txt",
-			"language": "Hani"
+			"language": "mul-Hani"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/lego_hano_2.5.txt",
-			"language": "Hano"
+			"language": "mul-Hano"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/lego_latn_2.5.txt",
-			"language": "Latn"
+			"language": "mul-Latn"
 		},
 		{
 			"type": "idn-table",

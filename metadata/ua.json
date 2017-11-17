@@ -18,7 +18,7 @@
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/ua_cyrl_1.2.txt",
-			"language": "Cyrl"
+			"language": "mul-Cyrl"
 		}
 	]
 }

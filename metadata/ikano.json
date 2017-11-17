@@ -15,17 +15,17 @@
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/ikano_cyrl_1.0.txt",
-			"language": "Cyrl"
+			"language": "mul-Cyrl"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/ikano_latn_1.0.txt",
-			"language": "Latn"
+			"language": "mul-Latn"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/ikano_thai_1.0.txt",
-			"language": "Thai"
+			"language": "mul-Thai"
 		}
 	]
 }

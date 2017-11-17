@@ -13,12 +13,12 @@
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/voting_cyrl_1.txt",
-			"language": "Cyrl"
+			"language": "mul-Cyrl"
 		},
 		{
 			"type": "idn-table",
 			"value": "https://www.iana.org/domains/idn-tables/tables/voting_latn_1.txt",
-			"language": "Latn"
+			"language": "mul-Latn"
 		}
 	]
 }
