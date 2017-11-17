@@ -142,6 +142,9 @@ func initZones() {
 	_z = _y
 }
 
+// Type s is an alias for []string to generate smaller source code
+type s []string
+
 // Tags are stored in a single integer as a bit field.
 type Tags {{.TagType}}
 
@@ -186,8 +189,8 @@ var _y = [{{len .Zones}}]Zone{
 			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
 			{{if $z.ParentDomain}} &_z[{{$z.ParentOffset}}] {{else}} nil {{end}}, \
 			{{if $z.SubdomainsEnd}} _z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} nil {{end}}, \
-			{{if $z.NameServers}} NS{ {{range $z.NameServers}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
-			{{if $z.Locations}} L{ {{range $z.Locations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
+			{{if $z.NameServers}} s{ {{range $z.NameServers}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
+			{{if $z.Locations}} s{ {{range $z.Locations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
 			"{{ascii $z.WhoisServer}}", \
 			"{{ascii $z.WhoisURL}}", \
 			"{{ascii $z.InfoURL}}", \

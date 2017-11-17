@@ -6,12 +6,6 @@ import (
 
 //go:generate go run cmd/zonedb/main.go -generate-go
 
-// NS represents a slice of name servers.
-type NS []string
-
-// L represents a slice of locations.
-type L []string
-
 // And performs a bitwise AND between tags and q,
 // comparing the result to zero. Returns true if any
 // tags match q.
@@ -51,10 +45,10 @@ type Zone struct {
 	// using these methods.
 
 	// DNS name servers for the Zone
-	NameServers NS
+	NameServers []string
 
 	// Locations associated with the Zone
-	Locations L
+	Locations []string
 
 	// Whois server responding on port 43
 	whoisServer string
