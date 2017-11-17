@@ -44,15 +44,8 @@ func (z *Zone) Normalize() {
 	}
 	z.Tags = NewSet(tags...).Values()
 	z.NameServers = NewSet(z.NameServers...).Values()
-	for lang, u := range z.IDNTableURLs {
-		norm, err := normalizeLang(lang)
-		if err == nil && norm != lang {
-			delete(z.IDNTableURLs, lang)
-			if _, ok := z.IDNTableURLs[norm]; !ok {
-				z.IDNTableURLs[norm] = u
-			}
-		}
-	}
+	sort.Strings(z.NameServers)
+	sort.Strings(z.subdomains)
 	z.normalizePolicies()
 }
 
