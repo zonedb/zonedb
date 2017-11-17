@@ -238,7 +238,12 @@ func main() {
 	}
 
 	if *write {
-		err := build.WriteZones(zones)
+		err := build.WriteZonesFile(zones)
+		if err != nil {
+			errs = append(errs, err)
+			build.LogFatal(err)
+		}
+		err = build.WriteMetadata(workZones)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogFatal(err)
