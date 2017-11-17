@@ -28,11 +28,8 @@ type Zone struct {
 	m                sync.Mutex
 
 	// Exported for use in text/template
-	POffset, SOffset, SEnd int                     `json:"-"`
-	CPOffset, CPEnd        int                     `json:"-"`
-	IDNTableNames          []string                `json:"-"`
-	IDNCPs                 map[string]IDNCPIndexes `json:"-"`
-	TagBits                uint64                  `json:"-"`
+	ParentOffset, SubdomainsOffset, SubdomainsEnd int    `json:"-"`
+	TagBits                                       uint64 `json:"-"`
 }
 
 // Normalize formats a build.Zone into normal form suitable for serialization.

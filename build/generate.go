@@ -38,10 +38,10 @@ func GenerateGo(zones map[string]*Zone) error {
 	for _, d := range domains {
 		z := zones[d]
 		z.Normalize() // just in case
-		z.POffset = offsets[z.ParentDomain()]
+		z.ParentOffset = offsets[z.ParentDomain()]
 		if len(z.Subdomains) > 0 {
-			z.SOffset = offsets[z.Subdomains[0]]
-			z.SEnd = z.SOffset + len(z.Subdomains)
+			z.SubdomainsOffset = offsets[z.Subdomains[0]]
+			z.SubdomainsEnd = z.SubdomainsOffset + len(z.Subdomains)
 		}
 		z.TagBits = tagBits(tagValues, z.Tags)
 	}
@@ -184,8 +184,8 @@ var _y = [{{len .Zones}}]Zone{
 		{ \
 			"{{ascii $d}}", \
 			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
-			{{if $z.ParentDomain}} &_z[{{$z.POffset}}] {{else}} nil {{end}}, \
-			{{if $z.SEnd}} _z[{{$z.SOffset}}:{{$z.SEnd}}] {{else}} nil {{end}}, \
+			{{if $z.ParentDomain}} &_z[{{$z.ParentOffset}}] {{else}} nil {{end}}, \
+			{{if $z.SubdomainsEnd}} _z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} nil {{end}}, \
 			{{if $z.NameServers}} NS{ {{range $z.NameServers}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
 			{{if $z.Locations}} L{ {{range $z.Locations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
 			"{{ascii $z.WhoisServer}}", \
