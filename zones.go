@@ -1443,7 +1443,7 @@ var _y = [4366]Zone{
 	{"swatch", nil, nil, _c[0:6], nil, NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "whois.nic.swatch", "", "http://newgtlds.icann.org/", 0x42},
 	{"swiftcover", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.swiftcover", "ns2.dns.nic.swiftcover", "ns3.dns.nic.swiftcover", "ns4.dns.nic.swiftcover", "ns5.dns.nic.swiftcover", "ns6.dns.nic.swiftcover"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"swiss", nil, nil, _c[0:6], nil, NS{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net", "ns15.rcode0.net", "g.nic.swiss", "u.nic.swiss"}, nil, "whois.nic.swiss", "", "http://newgtlds.icann.org/", 0x50},
-	{"sx", nil, nil, _c[0:6], nil, NS{"a.ns.sx", "b.ns.sx", "c.ns.sx"}, nil, "whois.sx", "", "http://en.wikipedia.org/wiki/.sx", 0xa0},
+	{"sx", nil, nil, _c[0:6], nil, NS{"a.ns.sx", "b.ns.sx", "c.ns.sx", "ns1.ns.sx", "ns2.ns.sx"}, nil, "whois.sx", "", "http://en.wikipedia.org/wiki/.sx", 0xa0},
 	{"sy", nil, _z[3848:3854], _c[0:6], nil, NS{"ns1.tld.sy", "ns2.tld.sy", "pch.anycast.tld.sy", "sy.cctld.authdns.ripe.net"}, nil, "whois.tld.sy", "", "http://www.ste.gov.sy/", 0xa0},
 	{"sydney", nil, nil, _c[0:6], nil, NS{"a.nic.sydney", "b.nic.sydney", "c.nic.sydney", "d.nic.sydney"}, L{"Sydney"}, "whois.nic.sydney", "", "http://newgtlds.icann.org/", 0xc4},
 	{"symantec", nil, nil, _c[0:6], nil, NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "whois.nic.symantec", "", "http://newgtlds.icann.org/", 0x42},
