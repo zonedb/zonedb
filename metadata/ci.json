@@ -6,9 +6,11 @@
 	],
 	"whoisServer": "whois.nic.ci",
 	"nameServers": [
+		"any.nic.ci",
 		"ns.nic.ci",
 		"ns1.nic.ci",
 		"phloem.uoregon.edu",
+		"censvrns0001.ird.fr",
 		"ns1.ird.fr",
 		"ns-ci.afrinic.net",
 		"ci.hosting.nic.fr",

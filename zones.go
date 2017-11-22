@@ -383,7 +383,7 @@ var _y = [4366]Zone{
 	{"chrome", nil, nil, nil, nil, NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, nil, "whois.nic.google", "", "http://newgtlds.icann.org/", 0x42},
 	{"chrysler", nil, nil, _c[0:6], nil, NS{"a0.nic.chrysler", "a2.nic.chrysler", "b0.nic.chrysler", "c0.nic.chrysler"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"church", nil, nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
-	{"ci", nil, _z[2106:2121], _c[0:6], nil, NS{"ns.nic.ci", "ns1.nic.ci", "phloem.uoregon.edu", "ns1.ird.fr", "ns-ci.afrinic.net", "ci.hosting.nic.fr", "ci.cctld.authdns.ripe.net"}, nil, "whois.nic.ci", "", "", 0xa0},
+	{"ci", nil, _z[2106:2121], _c[0:6], nil, NS{"any.nic.ci", "ns.nic.ci", "ns1.nic.ci", "phloem.uoregon.edu", "censvrns0001.ird.fr", "ns1.ird.fr", "ns-ci.afrinic.net", "ci.hosting.nic.fr", "ci.cctld.authdns.ripe.net"}, nil, "whois.nic.ci", "", "", 0xa0},
 	{"cimb", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"cipriani", nil, nil, _c[0:6], nil, NS{"a0.nic.cipriani", "a2.nic.cipriani", "b0.nic.cipriani", "c0.nic.cipriani"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"circle", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.circle", "ns2.dns.nic.circle", "ns3.dns.nic.circle", "ns4.dns.nic.circle", "ns5.dns.nic.circle", "ns6.dns.nic.circle"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
