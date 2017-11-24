@@ -8,6 +8,9 @@
 	"nameServers": [
 		"ns02.dns.ao",
 		"ns-ext.isc.org",
+		"sns-pb.isc.org",
+		"ao01.dns.pt",
+		"ao03.dns.pt",
 		"ns02.fccn.pt",
 		"ns03.fccn.pt",
 		"phobos.fccn.pt",

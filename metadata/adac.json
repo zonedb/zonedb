@@ -7,6 +7,10 @@
 	],
 	"whoisServer": "whois.nic.adac",
 	"nameServers": [
+		"a.nic.adac",
+		"b.nic.adac",
+		"c.nic.adac",
+		"d.nic.adac",
 		"ns2a.ksregistry.com",
 		"ns2b.ksregistry.com",
 		"ns1a.ksregistry.net",
