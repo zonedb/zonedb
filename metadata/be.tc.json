@@ -3,6 +3,8 @@
 	"nameServers": [
 		"ns1.above.com",
 		"ns2.above.com",
+		"ns1.nexusmedya.com",
+		"ns2.nexusmedya.com",
 		"ns.udag.de",
 		"ns.udagdns.de",
 		"ns1.parkingcrew.net",
