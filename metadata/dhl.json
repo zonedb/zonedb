@@ -8,6 +8,10 @@
 	"nameServers": [
 		"ns2a.ksregistry.com",
 		"ns2b.ksregistry.com",
+		"a.nic.dhl",
+		"b.nic.dhl",
+		"c.nic.dhl",
+		"d.nic.dhl",
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net",
 		"a.ns.nic.dhl",
