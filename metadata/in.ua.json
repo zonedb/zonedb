@@ -4,7 +4,8 @@
 	"nameServers": [
 		"nss.ukr.net",
 		"ns.ett.ua",
-		"ns.in.ua"
+		"ns.in.ua",
+		"ho1.ns.od.ua"
 	],
 	"codePoints": "--09az"
 }
