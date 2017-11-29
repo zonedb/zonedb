@@ -4,6 +4,10 @@
 	"nameServers": [
 		"ns2a.ksregistry.com",
 		"ns2b.ksregistry.com",
+		"ns1.centralnic.net",
+		"ns2.centralnic.net",
+		"ns3.centralnic.net",
+		"ns4.centralnic.net",
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net",
 		"a.co.no",
