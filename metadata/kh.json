@@ -5,6 +5,7 @@
 		"geo"
 	],
 	"nameServers": [
+		"ns4.apnic.net",
 		"sec3.apnic.net",
 		"ns-kh.ripe.net",
 		"ns.camnet.com.kh",
