@@ -315,7 +315,7 @@ var _y = [4366]Zone{
 	{"by", nil, _z[2068:2073], _c[0:6], nil, NS{"dns1.tld.tutby.com", "dns2.tld.tutby.com", "dns3.tld.tutby.com", "dns4.tld.tutby.com", "dns5.tld.tutby.com", "dns6.tld.tutby.com", "dns7.tld.tutby.com"}, nil, "whois.cctld.by", "", "http://tld.by/", 0xa0},
 	{"bz", nil, _z[2073:2080], _c[0:6], nil, NS{"a0.cctld.afilias-nst.info", "a2.cctld.afilias-nst.info", "c0.cctld.afilias-nst.info", "b0.cctld.afilias-nst.org", "b2.cctld.afilias-nst.org", "d0.cctld.afilias-nst.org"}, nil, "whois.afilias-grs.info", "", "http://www.belizenic.bz/", 0xe0},
 	{"bzh", nil, nil, _c[0:6], nil, NS{"d.nic.fr", "f.ext.nic.fr", "g.ext.nic.fr"}, L{"FR-E"}, "whois.nic.bzh", "", "http://newgtlds.icann.org/", 0x4c0},
-	{"ca", nil, _z[2080:2096], _c[0:6], nil, NS{"any.ca-servers.ca", "c.ca-servers.ca", "d.ca-servers.ca", "e.ca-servers.ca", "j.ca-servers.ca"}, nil, "whois.cira.ca", "", "", 0xa0},
+	{"ca", nil, _z[2080:2096], nil, nil, NS{"any.ca-servers.ca", "c.ca-servers.ca", "d.ca-servers.ca", "e.ca-servers.ca", "j.ca-servers.ca"}, nil, "whois.cira.ca", "", "", 0xa0},
 	{"cab", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"cadillac", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x2042},
 	{"cafe", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x40},
