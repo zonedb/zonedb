@@ -3209,7 +3209,7 @@ var _y = [4366]Zone{
 	{"nom.ni", &_z[1003], nil, _c[0:6], nil, NS{"ns.cr", "ns.ni", "ns2.ni", "auth01.ns.uu.net", "ns.ibw.com.ni", "ns.tmx.com.ni", "ns.ideay.net.ni"}, nil, "", "", "", 0x0},
 	{"org.ni", &_z[1003], nil, _c[0:6], nil, NS{"ns.cr", "ns.ni", "ns2.ni", "dns.nic.cr", "auth01.ns.uu.net", "ns.ibw.com.ni", "ns.tmx.com.ni", "ns.ideay.net.ni"}, nil, "", "", "", 0x0},
 	{"web.ni", &_z[1003], nil, _c[0:6], nil, NS{"ns.ni", "ns2.ni", "dns.nic.cr", "ns1.bb-online.net", "ns.uu.net", "ns.ibw.com.ni", "ns.ideay.net.ni"}, nil, "", "", "", 0x0},
-	{"co.nl", &_z[1010], nil, _c[0:6], nil, NS{"a.co.nl", "b.co.nl", "c.co.nl"}, nil, "", "", "", 0x0},
+	{"co.nl", &_z[1010], nil, _c[0:6], nil, NS{"a.co.nl", "b.co.nl", "c.co.nl", "a.nic.co.nl", "b.nic.co.nl", "c.nic.co.nl", "d.nic.co.nl"}, nil, "", "", "", 0x0},
 	{"com.nl", &_z[1010], nil, _c[0:6], nil, NS{"ns1.com.nl", "ns2.com.nl"}, nil, "", "", "", 0x0},
 	{"net.nl", &_z[1010], nil, _c[0:6], nil, NS{"ns1.com.nl", "ns2.com.nl"}, nil, "", "", "", 0x0},
 	{"nom.nl", &_z[1010], nil, _c[0:6], nil, NS{"ns2.hostnetbv.com", "ns1.hostnet.nl", "ns3.hostnetbv.nl", "ns01.is.nl", "ns02.is.nl", "ns03.is.nl"}, nil, "", "", "", 0x0},
