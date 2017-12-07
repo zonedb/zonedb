@@ -9,6 +9,10 @@
 	"nameServers": [
 		"ns2a.ksregistry.com",
 		"ns2b.ksregistry.com",
+		"a.nic.lidl",
+		"b.nic.lidl",
+		"c.nic.lidl",
+		"d.nic.lidl",
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net",
 		"a.ns.nic.lidl",
