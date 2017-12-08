@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.nic.wed",
 	"nameServers": [
+		"dns1.emdns.uk",
+		"dns2.emdns.uk",
+		"dns3.emdns.uk",
+		"dns4.emdns.uk",
 		"a.wed.dyntld.net",
 		"b.wed.dyntld.net",
 		"a.ns.nic.wed",

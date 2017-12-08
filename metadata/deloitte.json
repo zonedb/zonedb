@@ -9,6 +9,10 @@
 	"nameServers": [
 		"ns2a.ksregistry.com",
 		"ns2b.ksregistry.com",
+		"a.nic.deloitte",
+		"b.nic.deloitte",
+		"c.nic.deloitte",
+		"d.nic.deloitte",
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net",
 		"a.ns.nic.deloitte",
