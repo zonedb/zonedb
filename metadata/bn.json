@@ -9,6 +9,7 @@
 	"nameServers": [
 		"ns1.bnnic.bn",
 		"ns2.bnnic.bn",
+		"ns4.apnic.net",
 		"sec4.apnic.net",
 		"bn-ns.anycast.pch.net"
 	],
