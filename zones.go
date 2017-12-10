@@ -1615,7 +1615,7 @@ var _y = [4366]Zone{
 	{"webjet", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"webs", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"website", nil, nil, nil, nil, NS{"a.nic.website", "b.nic.website", "c.nic.website", "d.nic.website"}, nil, "whois.nic.website", "", "", 0x40},
-	{"wed", nil, nil, _c[0:6], nil, NS{"dns1.emdns.uk", "dns2.emdns.uk", "dns3.emdns.uk", "dns4.emdns.uk", "a.wed.dyntld.net", "b.wed.dyntld.net", "a.ns.nic.wed", "b.ns.nic.wed"}, nil, "whois.nic.wed", "", "http://newgtlds.icann.org/", 0x40},
+	{"wed", nil, nil, _c[0:6], nil, NS{"dns1.emdns.uk", "dns2.emdns.uk", "dns3.emdns.uk", "dns4.emdns.uk", "dnsa.emdns.uk", "dnsb.emdns.uk", "dnsc.emdns.uk", "dnsd.emdns.uk", "a.wed.dyntld.net", "b.wed.dyntld.net", "a.ns.nic.wed", "b.ns.nic.wed"}, nil, "whois.nic.wed", "", "http://newgtlds.icann.org/", 0x40},
 	{"wedding", nil, nil, _c[0:6], nil, NS{"dns1.nic.wedding", "dns2.nic.wedding", "dns3.nic.wedding", "dns4.nic.wedding", "dnsa.nic.wedding", "dnsb.nic.wedding", "dnsc.nic.wedding", "dnsd.nic.wedding", "a.ns.nic.wedding", "b.ns.nic.wedding", "c.ns.nic.wedding", "d.ns.nic.wedding"}, nil, "whois.nic.wedding", "", "http://newgtlds.icann.org/", 0x40},
 	{"weibo", nil, nil, _c[0:6], nil, NS{"a0.nic.weibo", "a2.nic.weibo", "b0.nic.weibo", "c0.nic.weibo"}, nil, "whois.nic.weibo", "", "http://newgtlds.icann.org/", 0x40},
 	{"weir", nil, nil, _c[0:6], nil, NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
