@@ -2,6 +2,7 @@
 	"domain": "radom.pl",
 	"nameServers": [
 		"a-dns.pl",
+		"b-dns.pl",
 		"e-dns.pl",
 		"f-dns.pl",
 		"i-dns.pl"
