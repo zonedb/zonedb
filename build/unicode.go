@@ -90,6 +90,7 @@ func (ct *CodeTable) Compress() {
 }
 
 func (ct *CodeTable) UnmarshalText(b []byte) error {
+	b = norm.NFKC.Bytes(b)
 	runes := bytes.Runes(b)
 	if len(runes)%2 != 0 {
 		return OddRuneCount

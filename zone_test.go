@@ -170,12 +170,39 @@ func TestZone_IsValidDomain(t *testing.T) {
 		{Zone: "jobs", Domain: "test.com", Valid: false},
 		{Zone: "com", Domain: "test.com", Valid: true},
 		{Zone: "com", Domain: "tést.com", Valid: true},
+		{Zone: "cymru", Domain: "héllo.cymru", Valid: true},
+		{Zone: "cymru", Domain: "xn--ninja.cymru", Valid: false},
 	}
 	for _, d := range data {
 		res := ZoneMap[d.Zone].IsValidDomain(d.Domain)
 		if res != d.Valid {
 			t.Errorf(`Expected Zones[%q].IsValidDomain(%q) == %t, got %t`, d.Zone, d.Domain, d.Valid, res)
 		}
+	}
+}
+
+func TestZone_isSubdomain(t *testing.T) {
+	tests := []struct {
+		zone   string
+		domain string
+		want   bool
+	}{
+		{zone: "com", domain: "com", want: false},
+		{zone: "com", domain: ".com", want: false},
+		{zone: "com", domain: "com.", want: false},
+		{zone: "net", domain: "test.com", want: false},
+		{zone: "net", domain: "test.com.net", want: true},
+		{zone: "com", domain: "test.com", want: true},
+		{zone: "com", domain: "tést.com", want: true},
+		{zone: "cymru", domain: "héllo.cymru", want: true},
+	}
+	for _, tt := range tests {
+		t.Run(tt.domain, func(t *testing.T) {
+			got := ZoneMap[tt.zone].isSubdomain(tt.domain)
+			if got != tt.want {
+				t.Errorf(`Expected Zones[%q].isSubdomain(%q) == %t, got %t`, tt.zone, tt.domain, tt.want, got)
+			}
+		})
 	}
 }
 
