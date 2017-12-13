@@ -2180,6 +2180,7 @@ mil.co
 net.co
 nom.co
 org.co
+4u.com
 ae.com
 africa.com
 ar.com
