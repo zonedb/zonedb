@@ -11,6 +11,12 @@
 		"descartes.nic.pr",
 		"golomb.nic.pr",
 		"pascal.nic.pr",
-		"pr-ns.anycast.pch.net"
+		"a0.pr.afilias-nst.info",
+		"a2.pr.afilias-nst.info",
+		"c0.pr.afilias-nst.info",
+		"pr-ns.anycast.pch.net",
+		"b0.pr.afilias-nst.org",
+		"b2.pr.afilias-nst.org",
+		"d0.pr.afilias-nst.org"
 	]
 }
