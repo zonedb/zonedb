@@ -3962,7 +3962,7 @@ var _y = [4367]Zone{
 	{"bg.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.4.cn", "ns2.4.cn", "f1g1ns1.dnspod.net", "f1g1ns2.dnspod.net"}, nil, "", "", "", 0x0},
 	{"biz.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.codrv.net", "ns3.codrv.net", "dns1.freehostservers.net", "dns2.freehostservers.net"}, nil, "", "", "http://www.biz.tc/", 0x0},
 	{"br.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.above.com", "ns2.above.com", "ns1.guzelhosting.com", "ns11.guzelhosting.com", "ns12.guzelhosting.com", "ns2.guzelhosting.com", "ns1.parkingcrew.net", "ns2.parkingcrew.net", "default1-tr.nic.tc", "default2-tr.nic.tc"}, nil, "", "", "", 0x0},
-	{"ch.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.alidns.com", "ns2.alidns.com", "v1s1.xundns.com", "v1s2.xundns.com", "f1g1ns2.dndpod.net", "f1g1ns1.dnspod.net", "suspended.nic.tc"}, nil, "", "", "", 0x0},
+	{"ch.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.alidns.com", "ns2.alidns.com", "v1s1.xundns.com", "v1s2.xundns.com", "f1g1ns2.dndpod.net", "ns1.dnsbird.net", "ns2.dnsbird.net", "f1g1ns1.dnspod.net", "suspended.nic.tc"}, nil, "", "", "", 0x0},
 	{"com.tc", &_z[1362], nil, nil, nil, NS{"root1.zone.tc", "root2.zone.tc", "root3.zone.tc", "root4.zone.tc", "root5.zone.tc", "root6.zone.tc", "root7.zone.tc", "root8.zone.tc"}, nil, "", "", "", 0x0},
 	{"cz.tc", &_z[1362], nil, _c[0:6], nil, NS{"f1g1ns1.dnspod.net", "f1g1ns2.dnspod.net", "default1.nic.tc", "default2.nic.tc", "suspended.nic.tc"}, nil, "", "", "", 0x0},
 	{"de.tc", &_z[1362], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
