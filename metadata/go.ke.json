@@ -1,6 +1,7 @@
 {
 	"domain": "go.ke",
 	"nameServers": [
+		"ns2.dns.business",
 		"kenic.anycastdns.cz",
 		"ns-ke.afrinic.net",
 		"mzizi.kenic.or.ke",
