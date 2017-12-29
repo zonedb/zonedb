@@ -1,7 +1,8 @@
 {
 	"domain": "biz.mm",
 	"nameServers": [
-		"ns.mmnic.net.mm"
+		"ns.mmnic.net.mm",
+		"ns.mtgnic.net.mm"
 	],
 	"codePoints": "--09az"
 }
