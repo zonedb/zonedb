@@ -133,7 +133,7 @@ var _y = [4367]Zone{
 	{"ag", nil, _z[1773:1779], _c[0:6], nil, NS{"a0.cctld.afilias-nst.info", "a2.cctld.afilias-nst.info", "c0.cctld.afilias-nst.info", "b0.cctld.afilias-nst.org", "b2.cctld.afilias-nst.org", "d0.cctld.afilias-nst.org"}, nil, "whois.nic.ag", "", "http://www.nic.ag/", 0xa0},
 	{"agakhan", nil, nil, _c[0:6], nil, NS{"a0.nic.agakhan", "a2.nic.agakhan", "b0.nic.agakhan", "c0.nic.agakhan"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"agency", nil, nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
-	{"ai", nil, _z[1779:1783], nil, nil, NS{"whois.ai", "ns2.offshore.ai", "ns1.pair.com"}, nil, "whois.nic.ai", "", "http://nic.com.ai", 0xa0},
+	{"ai", nil, _z[1779:1783], nil, nil, NS{"whois.ai", "ns2.offshore.ai", "pch.whois.ai", "ns1.pair.com", "ns.cocca.fr"}, nil, "whois.nic.ai", "", "http://nic.com.ai", 0xa0},
 	{"aig", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.aig", "ns2.dns.nic.aig", "ns3.dns.nic.aig", "ns4.dns.nic.aig", "ns5.dns.nic.aig", "ns6.dns.nic.aig"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"aigo", nil, nil, _c[0:6], nil, NS{"a0.nic.aigo", "a2.nic.aigo", "b0.nic.aigo", "c0.nic.aigo"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"airbus", nil, nil, _c[0:6], nil, NS{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, nil, "whois.nic.airbus", "", "http://newgtlds.icann.org/", 0x42},
