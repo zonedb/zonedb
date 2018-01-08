@@ -1321,7 +1321,7 @@ var _y = [4367]Zone{
 	{"sas", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.sas", "ns2.dns.nic.sas", "ns3.dns.nic.sas", "ns4.dns.nic.sas", "ns5.dns.nic.sas", "ns6.dns.nic.sas"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"save", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.save", "ns2.dns.nic.save", "ns3.dns.nic.save", "ns4.dns.nic.save", "ns5.dns.nic.save", "ns6.dns.nic.save"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"saxo", nil, nil, _c[0:6], nil, NS{"a.nic.saxo", "b.nic.saxo", "c.nic.saxo", "d.nic.saxo"}, nil, "whois.aridnrs.net.au", "", "http://newgtlds.icann.org/", 0x42},
-	{"sb", nil, _z[3745:3750], _c[0:6], nil, NS{"sb1.dyntld.net", "sb3.dyntld.net", "sns-pb.isc.org", "pch.nic.sb", "a.sb.dyntld.net", "b.sb.dyntld.net"}, nil, "whois.nic.net.sb", "", "", 0xa8},
+	{"sb", nil, _z[3745:3750], _c[0:6], nil, NS{"sb1.dyntld.net", "sb3.dyntld.net", "sns-pb.isc.org", "pch.nic.sb", "a.sb.dyntld.net", "b.sb.dyntld.net"}, nil, "whois.nic.net.sb", "", "", 0xa0},
 	{"sbi", nil, nil, _c[0:6], nil, NS{"a0.nic.sbi", "a2.nic.sbi", "b0.nic.sbi", "c0.nic.sbi"}, nil, "whois.nic.sbi", "", "http://newgtlds.icann.org/", 0x42},
 	{"sbs", nil, nil, _c[0:6], nil, NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "whois.nic.sbs", "", "http://newgtlds.icann.org/", 0x42},
 	{"sc", nil, _z[3750:3755], _c[0:6], nil, NS{"ns1.nic.sc", "a0.cctld.afilias-nst.info", "a2.cctld.afilias-nst.info", "c0.cctld.afilias-nst.info", "b0.cctld.afilias-nst.org", "b2.cctld.afilias-nst.org", "d0.cctld.afilias-nst.org"}, nil, "whois2.afilias-grs.net", "", "", 0xe0},
