@@ -5,7 +5,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.nic.pr",
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"pr-dns.denic.de",
 		"descartes.nic.pr",
