@@ -123,9 +123,9 @@ func (z *Zone) IsIDN() bool {
 
 // HasMetadata returns true if the Zone has any metadata necessary for emitting a metadata JSON file.
 func (z *Zone) HasMetadata() bool {
-	z2 := *z
-	z2.Domain = ""
-	if j, _ := json.Marshal(&z2); string(j) == "{}" {
+	j, _ := json.Marshal(z)
+	j2, _ := json.Marshal(&Zone{Domain: z.Domain})
+	if string(j) == string(j2) {
 		return false
 	}
 	return true
