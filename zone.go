@@ -120,6 +120,12 @@ func (z *Zone) IsInRootZone() bool {
 	return z.IsTLD() && z.IsDelegated()
 }
 
+// AllowsIDN returns true if the zone operator (registry)
+// permits registration of non-ASCII labels under this Zone.
+func (z *Zone) AllowsIDN() bool {
+	return len(z.CodePoints) == 0 // FIXME: refer to IDN tables, LGRs, other policies
+}
+
 // Checks to see if a domain is valid according to character set restriction
 // on the zone.
 // Input must be normalized by the client (lowercase, ASCII-encoded).

@@ -155,6 +155,23 @@ func TestZone_IsInRootZone(t *testing.T) {
 	}
 }
 
+func TestZone_AllowsIDN(t *testing.T) {
+	data := map[string]bool{
+		"com":   true,
+		"net":   true,
+		"org":   true,
+		"aero":  false,
+		"bingo": false,
+		"co.uk": false,
+	}
+	for k, v := range data {
+		g := ZoneMap[k].AllowsIDN()
+		if g != v {
+			t.Errorf(`Expected Zones[%q].AllowsIDN() == %t, got %t`, k, v, g)
+		}
+	}
+}
+
 type idnTest struct {
 	Zone        string
 	Domain      string
