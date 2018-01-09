@@ -65,21 +65,7 @@ func (z *Zone) normalizePolicies() {
 	}
 
 	// Sort
-	sort.SliceStable(z.Policies, func(i, j int) bool {
-		a := z.Policies[i]
-		b := z.Policies[j]
-		switch {
-		case a.Type != b.Type:
-			return a.Type < b.Type
-		case a.Language != b.Language:
-			return a.Language < b.Language
-		case a.Value != b.Value:
-			return a.Value < b.Value
-		case a.Comment != b.Comment:
-			return a.Comment < b.Comment
-		}
-		return false
-	})
+	sortPolicies(z.Policies)
 }
 
 func (z *Zone) transition() {
