@@ -14,8 +14,8 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ir_fa_1.0.html",
-			"language": "fa"
+			"key": "fa",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ir_fa_1.0.html"
 		}
 	]
 }

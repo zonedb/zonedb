@@ -16,58 +16,58 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/info_da_1.txt",
-			"language": "da"
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/info_da_1.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/info_de_1.0.html",
-			"language": "de"
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/info_de_1.0.html"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/info_es_1.txt",
-			"language": "es"
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/info_es_1.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/info_hu_1.txt",
-			"language": "hu"
+			"key": "hu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/info_hu_1.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/info_is_1.txt",
-			"language": "is"
+			"key": "is",
+			"value": "https://www.iana.org/domains/idn-tables/tables/info_is_1.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/info_ko_1.txt",
-			"language": "ko"
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/info_ko_1.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/info_lt_1.txt",
-			"language": "lt"
+			"key": "lt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/info_lt_1.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/info_lv_1.txt",
-			"language": "lv"
+			"key": "lv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/info_lv_1.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/info_pl_1.txt",
-			"language": "pl"
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/info_pl_1.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/info_sv_1.txt",
-			"language": "sv"
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/info_sv_1.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/info_zh-cn_4.0.txt",
-			"language": "zh-CN"
+			"key": "zh-CN",
+			"value": "https://www.iana.org/domains/idn-tables/tables/info_zh-cn_4.0.txt"
 		}
 	]
 }

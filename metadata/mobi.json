@@ -16,8 +16,8 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/mobi_zh_4.0.txt",
-			"language": "zh"
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/mobi_zh_4.0.txt"
 		}
 	]
 }

@@ -15,23 +15,23 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_ja_2.5.txt",
-			"language": "ja"
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_ja_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hang_2.5.txt",
-			"language": "mul-Hang"
+			"key": "mul-Hang",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hang_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hani_2.5.txt",
-			"language": "mul-Hani"
+			"key": "mul-Hani",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hani_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hano_2.5.txt",
-			"language": "mul-Hano"
+			"key": "mul-Hano",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hano_2.5.txt"
 		}
 	]
 }

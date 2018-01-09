@@ -25,8 +25,8 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/work_zh_1.0.txt",
-			"language": "zh"
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/work_zh_1.0.txt"
 		}
 	]
 }

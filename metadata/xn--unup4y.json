@@ -11,73 +11,73 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_de_1.0.txt",
-			"language": "de"
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_de_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_es_1.0.txt",
-			"language": "es"
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_es_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_fr_1.0.txt",
-			"language": "fr"
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_fr_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ja_1.0.txt",
-			"language": "ja"
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ja_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ko_1.0.txt",
-			"language": "ko"
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ko_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_arab_1.0.txt",
-			"language": "mul-Arab"
+			"key": "mul-Arab",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_arab_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_cyrl_1.0.txt",
-			"language": "mul-Cyrl"
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_cyrl_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_deva_1.0.txt",
-			"language": "mul-Deva"
+			"key": "mul-Deva",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_deva_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_grek_1.0.txt",
-			"language": "mul-Grek"
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_grek_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_hebr_1.0.txt",
-			"language": "mul-Hebr"
+			"key": "mul-Hebr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_hebr_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_latn_1.0.txt",
-			"language": "mul-Latn"
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_latn_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_taml_1.0.txt",
-			"language": "mul-Taml"
+			"key": "mul-Taml",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_taml_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_thai_1.0.txt",
-			"language": "mul-Thai"
+			"key": "mul-Thai",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_thai_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_zh_1.0.txt",
-			"language": "zh"
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_zh_1.0.txt"
 		}
 	]
 }

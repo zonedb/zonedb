@@ -19,23 +19,23 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bg_bg-bg_1.0.html",
-			"language": "bg"
+			"key": "bg",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bg_bg-bg_1.0.html"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bg_bg-bg_1.0.html",
-			"language": "bg-BG"
+			"key": "bg-BG",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bg_bg-bg_1.0.html"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bg_ru-bg_1.0.html",
-			"language": "ru"
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bg_ru-bg_1.0.html"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bg_ru-bg_1.0.html",
-			"language": "ru-BG"
+			"key": "ru-BG",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bg_ru-bg_1.0.html"
 		}
 	]
 }

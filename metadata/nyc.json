@@ -20,8 +20,8 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_es_1.1.txt",
-			"language": "es"
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_es_1.1.txt"
 		}
 	]
 }

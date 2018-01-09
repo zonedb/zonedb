@@ -16,8 +16,8 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cn_zh-cn_4.0.html",
-			"language": "zh-CN"
+			"key": "zh-CN",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cn_zh-cn_4.0.html"
 		}
 	]
 }

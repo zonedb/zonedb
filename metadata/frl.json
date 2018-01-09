@@ -22,8 +22,8 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/frl_latn_1.0.txt",
-			"language": "mul-Latn"
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/frl_latn_1.0.txt"
 		}
 	]
 }

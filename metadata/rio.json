@@ -22,8 +22,8 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rio_pt_1.xml",
-			"language": "pt"
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rio_pt_1.xml"
 		}
 	]
 }

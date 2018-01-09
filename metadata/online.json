@@ -14,53 +14,53 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/online_ar_1.1.txt",
-			"language": "ar"
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/online_ar_1.1.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/online_he_1.0.txt",
-			"language": "he"
+			"key": "he",
+			"value": "https://www.iana.org/domains/idn-tables/tables/online_he_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/online_ja_1.0.txt",
-			"language": "ja"
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/online_ja_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/online_ko_1.0.txt",
-			"language": "ko"
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/online_ko_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/online_lo_1.1.txt",
-			"language": "lo"
+			"key": "lo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/online_lo_1.1.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/online_cyrl_1.0.txt",
-			"language": "mul-Cyrl"
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/online_cyrl_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/online_grek_1.1.txt",
-			"language": "mul-Grek"
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/online_grek_1.1.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/online_latn_1.0.txt",
-			"language": "mul-Latn"
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/online_latn_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/online_th_1.1.txt",
-			"language": "th"
+			"key": "th",
+			"value": "https://www.iana.org/domains/idn-tables/tables/online_th_1.1.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/online_zh_1.2.txt",
-			"language": "zh"
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/online_zh_1.2.txt"
 		}
 	]
 }

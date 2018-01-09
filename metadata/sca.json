@@ -22,8 +22,8 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sca_arab_2.5.txt",
-			"language": "mul-Arab"
+			"key": "mul-Arab",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sca_arab_2.5.txt"
 		}
 	]
 }

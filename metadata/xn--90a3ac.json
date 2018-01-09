@@ -15,8 +15,8 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--90a3ac_sr-cyrl_1.3.txt",
-			"language": "sr-Cyrl"
+			"key": "sr-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--90a3ac_sr-cyrl_1.3.txt"
 		}
 	]
 }

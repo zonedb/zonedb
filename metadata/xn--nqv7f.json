@@ -10,13 +10,13 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--nqv7f_zh-cn_4.0.txt",
-			"language": "zh-CN"
+			"key": "zh-CN",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--nqv7f_zh-cn_4.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--nqv7f_zh-tw_4.0.txt",
-			"language": "zh-TW"
+			"key": "zh-TW",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--nqv7f_zh-tw_4.0.txt"
 		}
 	]
 }

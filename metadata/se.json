@@ -20,18 +20,18 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/se_latn_1.0.html",
-			"language": "mul-Latn"
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/se_latn_1.0.html"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/se_sv-se_1.0.html",
-			"language": "sv-SE"
+			"key": "sv-SE",
+			"value": "https://www.iana.org/domains/idn-tables/tables/se_sv-se_1.0.html"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/se_yi_1.0.html",
-			"language": "yi"
+			"key": "yi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/se_yi_1.0.html"
 		}
 	]
 }

@@ -18,13 +18,13 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/berlin_cyrl_1.txt",
-			"language": "mul-Cyrl"
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/berlin_cyrl_1.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/berlin_latn_1.txt",
-			"language": "mul-Latn"
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/berlin_latn_1.txt"
 		}
 	]
 }

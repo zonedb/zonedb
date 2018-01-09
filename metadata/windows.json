@@ -21,518 +21,518 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_az_2.5.txt",
-			"language": "az"
+			"key": "az",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_az_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_be_2.5.txt",
-			"language": "be"
+			"key": "be",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_be_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_bg_2.5.txt",
-			"language": "bg"
+			"key": "bg",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_bg_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_de_2.5.txt",
-			"language": "de"
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_de_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_el_2.5.txt",
-			"language": "el"
+			"key": "el",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_el_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_es_2.5.txt",
-			"language": "es"
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_es_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_fr_2.5.txt",
-			"language": "fr"
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_fr_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_hr_2.5.txt",
-			"language": "hr"
+			"key": "hr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_hr_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_ja_2.5.txt",
-			"language": "ja"
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_ja_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_ko_2.5.txt",
-			"language": "ko"
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_ko_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_ku_2.5.txt",
-			"language": "ku"
+			"key": "ku",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_ku_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_mk_2.5.txt",
-			"language": "mk"
+			"key": "mk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_mk_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_arab_2.5.txt",
-			"language": "mul-Arab"
+			"key": "mul-Arab",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_arab_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_armi_2.5.txt",
-			"language": "mul-Armi"
+			"key": "mul-Armi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_armi_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_armn_2.5.txt",
-			"language": "mul-Armn"
+			"key": "mul-Armn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_armn_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_avst_2.5.txt",
-			"language": "mul-Avst"
+			"key": "mul-Avst",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_avst_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_bali_2.5.txt",
-			"language": "mul-Bali"
+			"key": "mul-Bali",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_bali_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_bamu_2.5.txt",
-			"language": "mul-Bamu"
+			"key": "mul-Bamu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_bamu_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_batk_2.5.txt",
-			"language": "mul-Batk"
+			"key": "mul-Batk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_batk_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_beng_2.5.txt",
-			"language": "mul-Beng"
+			"key": "mul-Beng",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_beng_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_bopo_2.5.txt",
-			"language": "mul-Bopo"
+			"key": "mul-Bopo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_bopo_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_brah_2.5.txt",
-			"language": "mul-Brah"
+			"key": "mul-Brah",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_brah_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_bugi_2.5.txt",
-			"language": "mul-Bugi"
+			"key": "mul-Bugi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_bugi_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_buhd_2.5.txt",
-			"language": "mul-Buhd"
+			"key": "mul-Buhd",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_buhd_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_cans_2.5.txt",
-			"language": "mul-Cans"
+			"key": "mul-Cans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_cans_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_cari_2.5.txt",
-			"language": "mul-Cari"
+			"key": "mul-Cari",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_cari_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_cham_2.5.txt",
-			"language": "mul-Cham"
+			"key": "mul-Cham",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_cham_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_cher_2.5.txt",
-			"language": "mul-Cher"
+			"key": "mul-Cher",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_cher_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_copt_2.5.txt",
-			"language": "mul-Copt"
+			"key": "mul-Copt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_copt_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_cyrl_2.5.txt",
-			"language": "mul-Cyrl"
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_cyrl_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_deva_2.5.txt",
-			"language": "mul-Deva"
+			"key": "mul-Deva",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_deva_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_egyp_2.5.txt",
-			"language": "mul-Egyp"
+			"key": "mul-Egyp",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_egyp_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_ethi_2.5.txt",
-			"language": "mul-Ethi"
+			"key": "mul-Ethi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_ethi_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_geor_2.5.txt",
-			"language": "mul-Geor"
+			"key": "mul-Geor",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_geor_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_glag_2.5.txt",
-			"language": "mul-Glag"
+			"key": "mul-Glag",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_glag_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_grek_2.5.txt",
-			"language": "mul-Grek"
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_grek_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_gujr_2.5.txt",
-			"language": "mul-Gujr"
+			"key": "mul-Gujr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_gujr_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_guru_2.5.txt",
-			"language": "mul-Guru"
+			"key": "mul-Guru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_guru_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_hang_2.5.txt",
-			"language": "mul-Hang"
+			"key": "mul-Hang",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_hang_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_hani_2.5.txt",
-			"language": "mul-Hani"
+			"key": "mul-Hani",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_hani_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_hano_2.5.txt",
-			"language": "mul-Hano"
+			"key": "mul-Hano",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_hano_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_hebr_2.5.txt",
-			"language": "mul-Hebr"
+			"key": "mul-Hebr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_hebr_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_hira_2.5.txt",
-			"language": "mul-Hira"
+			"key": "mul-Hira",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_hira_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_java_2.5.txt",
-			"language": "mul-Java"
+			"key": "mul-Java",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_java_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_kali_2.5.txt",
-			"language": "mul-Kali"
+			"key": "mul-Kali",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_kali_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_kana_2.5.txt",
-			"language": "mul-Kana"
+			"key": "mul-Kana",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_kana_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_khar_2.5.txt",
-			"language": "mul-Khar"
+			"key": "mul-Khar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_khar_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_khmr_2.5.txt",
-			"language": "mul-Khmr"
+			"key": "mul-Khmr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_khmr_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_knda_2.5.txt",
-			"language": "mul-Knda"
+			"key": "mul-Knda",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_knda_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_kthi_2.5.txt",
-			"language": "mul-Kthi"
+			"key": "mul-Kthi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_kthi_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_lana_2.5.txt",
-			"language": "mul-Lana"
+			"key": "mul-Lana",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_lana_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_laoo_2.5.txt",
-			"language": "mul-Laoo"
+			"key": "mul-Laoo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_laoo_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_latn_2.5.txt",
-			"language": "mul-Latn"
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_latn_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_lepc_2.5.txt",
-			"language": "mul-Lepc"
+			"key": "mul-Lepc",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_lepc_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_limb_2.5.txt",
-			"language": "mul-Limb"
+			"key": "mul-Limb",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_limb_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_lisu_2.5.txt",
-			"language": "mul-Lisu"
+			"key": "mul-Lisu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_lisu_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_lyci_2.5.txt",
-			"language": "mul-Lyci"
+			"key": "mul-Lyci",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_lyci_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_lydi_2.5.txt",
-			"language": "mul-Lydi"
+			"key": "mul-Lydi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_lydi_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_mand_2.5.txt",
-			"language": "mul-Mand"
+			"key": "mul-Mand",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_mand_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_mlym_2.5.txt",
-			"language": "mul-Mlym"
+			"key": "mul-Mlym",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_mlym_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_mong_2.5.txt",
-			"language": "mul-Mong"
+			"key": "mul-Mong",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_mong_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_mtei_2.5.txt",
-			"language": "mul-Mtei"
+			"key": "mul-Mtei",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_mtei_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_mymr_2.5.txt",
-			"language": "mul-Mymr"
+			"key": "mul-Mymr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_mymr_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_nkoo_2.5.txt",
-			"language": "mul-Nkoo"
+			"key": "mul-Nkoo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_nkoo_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_ogam_2.5.txt",
-			"language": "mul-Ogam"
+			"key": "mul-Ogam",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_ogam_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_olck_2.5.txt",
-			"language": "mul-Olck"
+			"key": "mul-Olck",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_olck_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_orkh_2.5.txt",
-			"language": "mul-Orkh"
+			"key": "mul-Orkh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_orkh_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_orya_2.5.txt",
-			"language": "mul-Orya"
+			"key": "mul-Orya",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_orya_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_phag_2.5.txt",
-			"language": "mul-Phag"
+			"key": "mul-Phag",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_phag_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_phli_2.5.txt",
-			"language": "mul-Phli"
+			"key": "mul-Phli",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_phli_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_phnx_2.5.txt",
-			"language": "mul-Phnx"
+			"key": "mul-Phnx",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_phnx_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_prti_2.5.txt",
-			"language": "mul-Prti"
+			"key": "mul-Prti",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_prti_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_rjng_2.5.txt",
-			"language": "mul-Rjng"
+			"key": "mul-Rjng",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_rjng_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_runr_2.5.txt",
-			"language": "mul-Runr"
+			"key": "mul-Runr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_runr_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_samr_2.5.txt",
-			"language": "mul-Samr"
+			"key": "mul-Samr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_samr_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_sarb_2.5.txt",
-			"language": "mul-Sarb"
+			"key": "mul-Sarb",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_sarb_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_saur_2.5.txt",
-			"language": "mul-Saur"
+			"key": "mul-Saur",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_saur_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_sinh_2.5.txt",
-			"language": "mul-Sinh"
+			"key": "mul-Sinh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_sinh_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_sund_2.5.txt",
-			"language": "mul-Sund"
+			"key": "mul-Sund",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_sund_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_sylo_2.5.txt",
-			"language": "mul-Sylo"
+			"key": "mul-Sylo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_sylo_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_syrc_2.5.txt",
-			"language": "mul-Syrc"
+			"key": "mul-Syrc",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_syrc_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_tagb_2.5.txt",
-			"language": "mul-Tagb"
+			"key": "mul-Tagb",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_tagb_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_tale_2.5.txt",
-			"language": "mul-Tale"
+			"key": "mul-Tale",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_tale_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_talu_2.5.txt",
-			"language": "mul-Talu"
+			"key": "mul-Talu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_talu_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_taml_2.5.txt",
-			"language": "mul-Taml"
+			"key": "mul-Taml",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_taml_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_tavt_2.5.txt",
-			"language": "mul-Tavt"
+			"key": "mul-Tavt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_tavt_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_telu_2.5.txt",
-			"language": "mul-Telu"
+			"key": "mul-Telu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_telu_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_tfng_2.5.txt",
-			"language": "mul-Tfng"
+			"key": "mul-Tfng",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_tfng_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_tglg_2.5.txt",
-			"language": "mul-Tglg"
+			"key": "mul-Tglg",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_tglg_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_thaa_2.5.txt",
-			"language": "mul-Thaa"
+			"key": "mul-Thaa",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_thaa_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_thai_2.5.txt",
-			"language": "mul-Thai"
+			"key": "mul-Thai",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_thai_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_tibt_2.5.txt",
-			"language": "mul-Tibt"
+			"key": "mul-Tibt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_tibt_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_vaii_2.5.txt",
-			"language": "mul-Vaii"
+			"key": "mul-Vaii",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_vaii_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_xpeo_2.5.txt",
-			"language": "mul-Xpeo"
+			"key": "mul-Xpeo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_xpeo_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_xsux_2.5.txt",
-			"language": "mul-Xsux"
+			"key": "mul-Xsux",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_xsux_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_yiii_2.5.txt",
-			"language": "mul-Yiii"
+			"key": "mul-Yiii",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_yiii_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_pl_2.5.txt",
-			"language": "pl"
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_pl_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_ro_2.5.txt",
-			"language": "ro"
+			"key": "ro",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_ro_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_ru_2.5.txt",
-			"language": "ru"
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_ru_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_sr_2.5.txt",
-			"language": "sr"
+			"key": "sr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_sr_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_sv_2.5.txt",
-			"language": "sv"
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_sv_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_uk_2.5.txt",
-			"language": "uk"
+			"key": "uk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_uk_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/windows_zh_2.5.txt",
-			"language": "zh"
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/windows_zh_2.5.txt"
 		}
 	]
 }

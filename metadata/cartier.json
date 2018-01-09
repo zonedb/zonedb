@@ -16,83 +16,83 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_da_1.0.txt",
-			"language": "da"
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_da_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_de_1.0.txt",
-			"language": "de"
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_de_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_es_1.0.txt",
-			"language": "es"
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_es_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_fi_1.0.txt",
-			"language": "fi"
+			"key": "fi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_fi_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_hu_1.0.txt",
-			"language": "hu"
+			"key": "hu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_hu_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_is_1.0.txt",
-			"language": "is"
+			"key": "is",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_is_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_ja_1.0.txt",
-			"language": "ja"
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_ja_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_ko_1.0.txt",
-			"language": "ko"
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_ko_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_lt_1.0.txt",
-			"language": "lt"
+			"key": "lt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_lt_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_lv_1.0.txt",
-			"language": "lv"
+			"key": "lv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_lv_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_no_1.0.txt",
-			"language": "no"
+			"key": "no",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_no_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_pl_1.0.txt",
-			"language": "pl"
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_pl_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_pt_1.0.txt",
-			"language": "pt"
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_pt_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_ru_1.0.txt",
-			"language": "ru"
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_ru_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_sv_1.0.txt",
-			"language": "sv"
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_sv_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_zh_1.0.txt",
-			"language": "zh"
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cartier_zh_1.0.txt"
 		}
 	]
 }

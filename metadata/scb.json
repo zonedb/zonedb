@@ -15,8 +15,8 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/scb_th_1.0.xml",
-			"language": "th"
+			"key": "th",
+			"value": "https://www.iana.org/domains/idn-tables/tables/scb_th_1.0.xml"
 		}
 	]
 }

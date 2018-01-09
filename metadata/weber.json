@@ -22,28 +22,28 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/weber_arab_2.5.txt",
-			"language": "mul-Arab"
+			"key": "mul-Arab",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_arab_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/weber_cyrl_2.5.txt",
-			"language": "mul-Cyrl"
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_cyrl_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/weber_hang_2.5.txt",
-			"language": "mul-Hang"
+			"key": "mul-Hang",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_hang_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/weber_hani_2.5.txt",
-			"language": "mul-Hani"
+			"key": "mul-Hani",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_hani_2.5.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/weber_latn_2.5.txt",
-			"language": "mul-Latn"
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_latn_2.5.txt"
 		}
 	]
 }

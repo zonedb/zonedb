@@ -18,8 +18,8 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/jp_ja-jp_1.2.html",
-			"language": "ja-JP"
+			"key": "ja-JP",
+			"value": "https://www.iana.org/domains/idn-tables/tables/jp_ja-jp_1.2.html"
 		}
 	]
 }

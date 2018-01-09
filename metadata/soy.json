@@ -14,13 +14,13 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/soy_jpan_1.0.txt",
-			"language": "mul-Jpan"
+			"key": "mul-Jpan",
+			"value": "https://www.iana.org/domains/idn-tables/tables/soy_jpan_1.0.txt"
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/soy_latn_1.0.txt",
-			"language": "mul-Latn"
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/soy_latn_1.0.txt"
 		}
 	]
 }

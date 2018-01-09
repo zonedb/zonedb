@@ -13,8 +13,8 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgbab2bd_arab_1.3.txt",
-			"language": "mul-Arab"
+			"key": "mul-Arab",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgbab2bd_arab_1.3.txt"
 		}
 	]
 }
