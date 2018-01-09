@@ -134,12 +134,11 @@ const (
 package zonedb
 
 func init() {
-	initZones()
+	initZones() // Separate function to report allocs in initialization
 }
 
-// Separate function report allocs in initialization.
 func initZones() {
-	_z = _y
+	z = y
 }
 
 // ASCII code points
@@ -174,24 +173,29 @@ var TagValues  = map[string]Tags{
 }
 
 // Zones is a slice of all Zones in the database.
-var Zones = _z[:]
+var Zones = z[:]
 
 // TLDs is a slice of all top-level domain Zones.
-var TLDs = _z[:{{len .TLDs}}]
+var TLDs = z[:{{len .TLDs}}]
 
-// _z is a static array of Zones.
+// z is a static array of Zones.
 // Other global variables have pointers into this array.
-var _z [{{len .Zones}}]Zone
+var z [{{len .Zones}}]Zone
 
-// _y and _z are separated to fix circular references.
-var _y = [{{len .Zones}}]Zone{
+const (
+	t = true
+	f = false
+)
+
+// y and z are separated to fix circular references.
+var y = [{{len .Zones}}]Zone{
 	{{range $d := .Domains}} \
 		{{$z := (index $.Zones $d)}} \
 		{ \
 			"{{ascii $d}}", \
 			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
-			{{if $z.ParentDomain}} &_z[{{$z.ParentOffset}}] {{else}} nil {{end}}, \
-			{{if $z.SubdomainsEnd}} _z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} nil {{end}}, \
+			{{if $z.ParentDomain}} &z[{{$z.ParentOffset}}] {{else}} nil {{end}}, \
+			{{if $z.SubdomainsEnd}} z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} nil {{end}}, \
 			{{if $z.IDNDisallowed}} ascii {{else}} nil {{end}}, \
 			{{if $z.NameServers}} s{ {{range $z.NameServers}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
 			{{if $z.Locations}} s{ {{range $z.Locations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
@@ -199,6 +203,7 @@ var _y = [{{len .Zones}}]Zone{
 			"{{ascii $z.WhoisURL}}", \
 			"{{ascii $z.InfoURL}}", \
 			{{printf "0x%x" $z.TagBits}}, \
+			{{if $z.IDNDisallowed}} f {{else}} t {{end}}, \
 		},
 	{{end}} \
 }
@@ -208,7 +213,7 @@ var ZoneMap = map[string]*Zone{
 	{{range $d := .Domains}}  \
 		{{$z := (index $.Zones $d)}} \
 		{{$o := index $.Offsets $d}} \
-		"{{ascii $d}}": &_z[{{$o}}], \
+		"{{ascii $d}}": &z[{{$o}}], \
 		{{if $z.IsIDN}}// {{$d}}{{end }}
 	{{end}} \
 }

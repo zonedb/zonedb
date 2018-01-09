@@ -61,6 +61,9 @@ type Zone struct {
 
 	// Tags stored as an integer bit field
 	Tags Tags
+
+	// Transitional: does the zone operator allow registration of non-ASCII subdomains?
+	allowsIDN bool
 }
 
 // WhoisServer returns the whois server that responds on port 43
@@ -116,6 +119,12 @@ func (z *Zone) IsInRootZone() bool {
 // zone metadata, including policies that define allowed labels such as
 // IDN tables, Label Generation Rulesets (LGRs), and implicit or undocumented
 // policies such as applied by ccTLDs.
+
+// AllowsIDN returns true if the zone operator (registry)
+// permits registration of non-ASCII labels under this Zone.
+func (z *Zone) AllowsIDN() bool {
+	return z.allowsIDN
+}
 
 // AllowsRegistration returns true if the Zone’s authority (registry)
 // permits registration of subdomains of this Zone. Examples:
