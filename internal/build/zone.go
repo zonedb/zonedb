@@ -76,22 +76,33 @@ func (z *Zone) transition() {
 
 	// Transition IDNTableURLs
 	for lang, u := range z.IDNTableURLs {
-		z.AddPolicy(TypeIDNTable, u, lang, "")
+		z.AddPolicy(TypeIDNTable, lang, u, "")
 	}
 
-	// Transition invalid BCP 47 language tags
+	// Transition policies
 	for i := range z.Policies {
 		p := &z.Policies[i]
-		if p.Language == "" {
-			continue
+
+		// Transition TypeMinLength to TypeLength
+		if p.Type == "min-length" {
+			p.Type = TypeLength
+			p.Key = KeyMin
 		}
-		lang, err := normalizeLang(p.Language)
-		if err != nil {
-			Trace("Zone %s has policy with bad language: %s %s\n", z.Domain, p.Type, p.Language)
-			continue
+
+		// Transition Language to Key
+		if p.Language != "" {
+			p.Key = p.Language
+			p.Language = ""
 		}
-		if lang != p.Language {
-			p.Language = lang
+
+		// Transition invalid BCP 47 language tags
+		if p.Type == TypeIDNTable && p.Key != "" {
+			lang, err := normalizeLang(p.Key)
+			if err != nil {
+				Trace("Zone %s has policy with bad language: %s %s\n", z.Domain, p.Type, p.Key)
+			} else if lang != p.Key {
+				p.Key = lang
+			}
 		}
 	}
 
@@ -102,12 +113,12 @@ func (z *Zone) transition() {
 }
 
 // AddPolicy adds a single policy to Zone z.
-func (z *Zone) AddPolicy(policyType, value, language, comment string) {
+func (z *Zone) AddPolicy(ptype, key, value, comment string) {
 	z.Policies = append(z.Policies, Policy{
-		Type:     policyType,
-		Value:    value,
-		Language: language,
-		Comment:  comment,
+		Type:    ptype,
+		Key:     key,
+		Value:   value,
+		Comment: comment,
 	})
 }
 

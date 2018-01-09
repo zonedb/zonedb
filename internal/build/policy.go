@@ -2,17 +2,16 @@ package build
 
 import "sort"
 
-// Policy represents a registry or technical policy applicable to subdomains of a zone.
-type Policy struct {
-	Type     string `json:"type"`
-	Value    string `json:"value,omitempty"`
-	Language string `json:"language,omitempty"`
-	Comment  string `json:"comment,omitempty"`
-}
-
 const (
-	// TypeMinLength specifies the minimum number of characters required for labels beneath this zone.
-	TypeMinLength = "min-length"
+	// TypeLength specifies a length constraint for labels.
+	// The Policy.Key will be "min" or "max".
+	TypeLength = "length"
+
+	// KeyMin specifies a mininum length constraint for a label.
+	KeyMin = "min"
+
+	// KeyMax specifies a maximum length constraint for a label.
+	KeyMax = "max"
 
 	// TypeIDNTable specifies a location for an IDN table a language or script.
 	TypeIDNTable = "idn-table"
@@ -21,6 +20,17 @@ const (
 	TypeIDNDisallowed = "idn-disallowed"
 )
 
+// Policy represents a registry or technical policy applicable to subdomains of a zone.
+type Policy struct {
+	Type    string `json:"type"`
+	Key     string `json:"key,omitempty"`
+	Value   string `json:"value,omitempty"`
+	Comment string `json:"comment,omitempty"`
+
+	// Transitional
+	Language string `json:"language,omitempty"`
+}
+
 func sortPolicies(policies []Policy) {
 	sort.SliceStable(policies, func(i, j int) bool {
 		a := policies[i]
@@ -28,8 +38,8 @@ func sortPolicies(policies []Policy) {
 		switch {
 		case a.Type != b.Type:
 			return a.Type < b.Type
-		case a.Language != b.Language:
-			return a.Language < b.Language
+		case a.Key != b.Key:
+			return a.Key < b.Key
 		case a.Value != b.Value:
 			return a.Value < b.Value
 		case a.Comment != b.Comment:
