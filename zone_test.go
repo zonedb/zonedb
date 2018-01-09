@@ -162,6 +162,22 @@ func TestZone_IsInRootZone(t *testing.T) {
 	}
 }
 
+func TestZone_AllowsIDN(t *testing.T) {
+	data := map[string]bool{
+		"com":   true,
+		"net":   true,
+		"org":   true,
+		"aero":  false,
+		"co.uk": false,
+	}
+	for k, v := range data {
+		g := ZoneMap[k].AllowsIDN()
+		if g != v {
+			t.Errorf(`Expected Zones[%q].AllowsIDN() == %t, got %t`, k, v, g)
+		}
+	}
+}
+
 func TestZone_AllowsRegistration(t *testing.T) {
 	tests := map[string]bool{
 		"com":          true,
