@@ -161,7 +161,6 @@ func TestZone_AllowsIDN(t *testing.T) {
 		"net":   true,
 		"org":   true,
 		"aero":  false,
-		"bingo": false,
 		"co.uk": false,
 	}
 	for k, v := range data {

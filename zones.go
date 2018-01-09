@@ -258,7 +258,7 @@ var _y = [4367]Zone{
 	{"bid", nil, nil, nil, nil, NS{"ns1.dns.nic.bid", "ns2.dns.nic.bid", "ns3.dns.nic.bid", "ns4.dns.nic.bid", "ns5.dns.nic.bid", "ns6.dns.nic.bid"}, nil, "whois.nic.bid", "", "", 0x40},
 	{"bike", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"bing", nil, nil, _c[0:6], nil, NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
-	{"bingo", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x40},
+	{"bingo", nil, nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x40},
 	{"bio", nil, nil, nil, nil, NS{"a0.nic.bio", "a2.nic.bio", "b0.nic.bio", "c0.nic.bio", "ns2a.ksregistry.com", "ns2b.ksregistry.com", "ns1a.ksregistry.net", "ns1b.ksregistry.net"}, nil, "whois.afilias.net", "", "", 0x40},
 	{"biz", nil, _z[1957:1958], nil, nil, NS{"a.gtld.biz", "b.gtld.biz", "c.gtld.biz", "e.gtld.biz", "f.gtld.biz", "k.gtld.biz"}, nil, "whois.biz", "", "", 0x40},
 	{"bj", nil, _z[1958:1965], _c[0:6], nil, NS{"ns1.intnet.bj", "nakayo.leland.bj", "bow.rain.fr", "ns-bj.afrinic.net", "bj.cctld.authdns.ripe.net"}, nil, "whois.nic.bj", "", "", 0xa0},
