@@ -143,7 +143,12 @@ func FindWildcards(zones map[string]*Zone) error {
 				if rr.Type != "A" || Normalize(rr.Name) != name {
 					continue
 				}
-				ips.Add(Normalize(rr.Value))
+				// Ignore ICANN name collisions
+				// https://www.icann.org/resources/pages/name-collision-2013-12-06-en#127.0.53.53
+				if rr.Value == "127.0.53.53" {
+					continue
+				}
+				ips.Add(rr.Value)
 				resolved++
 			}
 			if i > 1 && len(ips) == 0 {
@@ -176,11 +181,11 @@ func FindWildcards(zones map[string]*Zone) error {
 	sorted := all.Values()
 	sort.Strings(sorted)
 	for _, ip := range sorted {
-		color.Fprintf(os.Stderr, "@{.}Found wildcard IP: %s (%s)\n", ip, strings.Join(rev[ip], " "))
+		color.Fprintf(os.Stderr, "@{.}Found wildcard IP: @{w}%s@{.} ← @{c}%s@{.}\n", ip, strings.Join(rev[ip], " "))
 	}
 
-	color.Fprintf(os.Stderr, "@{.}Scanned %d zones with %d unique wildcard IPs (%d zones without)\n",
-		found, len(all), int32(len(zones))-found)
+	color.Fprintf(os.Stderr, "@{.}Found %d unique wildcard IP(s) across %d zone(s) (%d not wildcarded)\n",
+		len(all), found, int32(len(zones))-found)
 	return nil
 }
 
