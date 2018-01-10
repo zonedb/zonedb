@@ -12,5 +12,9 @@
 		"b0.nic.redstone",
 		"c0.nic.redstone"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

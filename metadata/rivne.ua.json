@@ -1,8 +1,8 @@
 {
 	"domain": "rivne.ua",
 	"nameServers": [
-		"ns4.uar.net",
 		"ns1.wuicc.net.ua",
-		"ns2.jb.rv.ua"
+		"ns2.jb.rv.ua",
+		"ns4.uar.net"
 	]
 }

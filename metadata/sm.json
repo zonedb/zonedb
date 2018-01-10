@@ -11,5 +11,9 @@
 		"ns3.telecomitalia.sm",
 		"sm.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

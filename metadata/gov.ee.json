@@ -4,5 +4,9 @@
 		"ans2.aso.ee",
 		"ns.gov.ee"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

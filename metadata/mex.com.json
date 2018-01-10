@@ -6,5 +6,9 @@
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

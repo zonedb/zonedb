@@ -4,5 +4,9 @@
 		"ns.gov.me",
 		"ns1.gov.me"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

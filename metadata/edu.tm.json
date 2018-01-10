@@ -4,5 +4,9 @@
 		"webns1.telecom.tm",
 		"webns2.telecom.tm"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

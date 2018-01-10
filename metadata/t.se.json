@@ -1,4 +1,8 @@
 {
 	"domain": "t.se",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

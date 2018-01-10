@@ -12,5 +12,86 @@
 		"ns5.dns.nic.joy",
 		"ns6.dns.nic.joy"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_da_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_de_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_es_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_fi_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "hu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_hu_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "is",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_is_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_ko_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_lt_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_lv_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "no",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_no_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_pl_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_pt_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_ru_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_sv_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/joy_zh_1.txt"
+		}
+	]
 }

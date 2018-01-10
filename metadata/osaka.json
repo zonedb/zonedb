@@ -19,5 +19,9 @@
 		"ns5.dns.nic.osaka",
 		"ns6.dns.nic.osaka"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

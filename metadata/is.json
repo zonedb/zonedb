@@ -6,12 +6,12 @@
 	],
 	"whoisServer": "whois.isnic.is",
 	"nameServers": [
-		"isgate.is",
 		"bes.isnic.is",
-		"sab.isnic.is",
 		"durinn.rhnet.is",
+		"is.cctld.authdns.ripe.net",
+		"isgate.is",
+		"sab.isnic.is",
 		"sns-pb.isc.org",
-		"sunic.sunet.se",
-		"is.cctld.authdns.ripe.net"
+		"sunic.sunet.se"
 	]
 }

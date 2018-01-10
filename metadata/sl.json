@@ -10,5 +10,9 @@
 		"ns1.neoip.com",
 		"ns2.neoip.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

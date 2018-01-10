@@ -1,14 +1,17 @@
 {
 	"domain": "ac.ke",
 	"nameServers": [
-		"ns2.dns.business",
-		"kenic.anycastdns.cz",
-		"ns-ke.afrinic.net",
-		"mzizi.kenic.or.ke",
-		"ns1.coza.net.za",
 		"b.ns.kenic.co.ke",
+		"b.ns.tznic.or.tz",
+		"kenic.anycastdns.cz",
+		"mzizi.kenic.or.ke",
+		"ns-ke.afrinic.net",
 		"ns.anycast.kenic.or.ke",
-		"b.ns.tznic.or.tz"
+		"ns1.coza.net.za"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

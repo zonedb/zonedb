@@ -1,14 +1,18 @@
 {
 	"domain": "net.do",
 	"nameServers": [
+		"do-dns.nic.pr",
 		"ns.nic.do",
 		"ns1.nic.do",
 		"ns2.nic.do",
 		"ns3.nic.do",
-		"phloem.uoregon.edu",
 		"ns3.nic.mx",
-		"sns-pb.isc.org",
-		"do-dns.nic.pr"
+		"phloem.uoregon.edu",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

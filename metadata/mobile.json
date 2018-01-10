@@ -11,5 +11,9 @@
 		"b0.nic.mobile",
 		"c0.nic.mobile"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

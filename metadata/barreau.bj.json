@@ -1,4 +1,8 @@
 {
 	"domain": "barreau.bj",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

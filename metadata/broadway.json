@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.nic.broadway",
 	"nameServers": [
+		"a.ns.nic.broadway",
+		"b.ns.nic.broadway",
+		"c.ns.nic.broadway",
+		"d.ns.nic.broadway",
 		"dns1.nic.broadway",
 		"dns2.nic.broadway",
 		"dns3.nic.broadway",
@@ -13,11 +17,11 @@
 		"dnsa.nic.broadway",
 		"dnsb.nic.broadway",
 		"dnsc.nic.broadway",
-		"dnsd.nic.broadway",
-		"a.ns.nic.broadway",
-		"b.ns.nic.broadway",
-		"c.ns.nic.broadway",
-		"d.ns.nic.broadway"
+		"dnsd.nic.broadway"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

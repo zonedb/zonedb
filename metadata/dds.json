@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.nic.dds",
 	"nameServers": [
+		"a.ns.nic.dds",
+		"b.ns.nic.dds",
+		"c.ns.nic.dds",
+		"d.ns.nic.dds",
 		"dns1.nic.dds",
 		"dns2.nic.dds",
 		"dns3.nic.dds",
@@ -13,11 +17,11 @@
 		"dnsa.nic.dds",
 		"dnsb.nic.dds",
 		"dnsc.nic.dds",
-		"dnsd.nic.dds",
-		"a.ns.nic.dds",
-		"b.ns.nic.dds",
-		"c.ns.nic.dds",
-		"d.ns.nic.dds"
+		"dnsd.nic.dds"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

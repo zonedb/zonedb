@@ -2,17 +2,21 @@
 	"domain": "it.pn",
 	"nameServers": [
 		"ns1.4.cn",
-		"ns2.4.cn",
-		"ns1.flippa.com",
-		"ns2.flippa.com",
-		"ns1.sedoparking.com",
-		"ns2.sedoparking.com",
-		"ns1.idnscan.net",
-		"ns2.idnscan.net",
-		"ns1.parkingcrew.net",
-		"ns2.parkingcrew.net",
 		"ns1.afraid.org",
-		"ns2.afraid.org"
+		"ns1.flippa.com",
+		"ns1.idnscan.net",
+		"ns1.parkingcrew.net",
+		"ns1.sedoparking.com",
+		"ns2.4.cn",
+		"ns2.afraid.org",
+		"ns2.flippa.com",
+		"ns2.idnscan.net",
+		"ns2.parkingcrew.net",
+		"ns2.sedoparking.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

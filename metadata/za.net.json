@@ -2,12 +2,12 @@
 	"domain": "za.net",
 	"whoisServer": "whois.za.net",
 	"nameServers": [
-		"ns2.iafrica.com",
-		"ns3.iafrica.com",
+		"igubu.saix.net",
+		"ns0.is.co.za",
 		"ns0.plig.net",
 		"ns1.plig.net",
+		"ns2.iafrica.com",
 		"ns2.plig.net",
-		"igubu.saix.net",
-		"ns0.is.co.za"
+		"ns3.iafrica.com"
 	]
 }

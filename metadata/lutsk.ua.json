@@ -2,11 +2,15 @@
 	"domain": "lutsk.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
+		"ho1.ns.lutsk.ua",
 		"nix.ns.ua",
 		"ns.zp.ua",
-		"ho1.ns.lutsk.ua",
 		"ns1.vizor.lutsk.ua",
 		"vizor.vizor.lutsk.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

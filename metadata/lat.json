@@ -10,5 +10,11 @@
 		"m.mx-ns.mx",
 		"o.mx-ns.mx"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/lat_es_1.0.txt"
+		}
+	]
 }

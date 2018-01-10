@@ -12,5 +12,9 @@
 		"ns5.dns.nic.earth",
 		"ns6.dns.nic.earth"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

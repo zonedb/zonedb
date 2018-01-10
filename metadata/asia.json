@@ -7,11 +7,28 @@
 	],
 	"whoisServer": "whois.nic.asia",
 	"nameServers": [
-		"b0.asia.afilias-nst.asia",
-		"d0.asia.afilias-nst.asia",
 		"a0.asia.afilias-nst.info",
 		"a2.asia.afilias-nst.info",
+		"b0.asia.afilias-nst.asia",
+		"b2.asia.afilias-nst.org",
 		"c0.asia.afilias-nst.info",
-		"b2.asia.afilias-nst.org"
+		"d0.asia.afilias-nst.asia"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/asia_ja_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/asia_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/asia_zh_1.1.txt"
+		}
 	]
 }

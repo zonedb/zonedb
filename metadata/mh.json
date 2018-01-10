@@ -9,5 +9,9 @@
 		"ns.amarshallinc.com",
 		"ns.ntamar.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

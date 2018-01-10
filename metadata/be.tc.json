@@ -1,17 +1,19 @@
 {
 	"domain": "be.tc",
 	"nameServers": [
-		"ns1.above.com",
-		"ns2.above.com",
-		"ns1.nexusmedya.com",
-		"ns2.nexusmedya.com",
 		"ns.udag.de",
-		"ns.udagdns.de",
-		"ns1.parkingcrew.net",
-		"ns2.parkingcrew.net",
 		"ns.udag.net",
+		"ns.udag.org",
+		"ns.udagdns.de",
 		"ns.udagdns.net",
-		"ns.udag.org"
+		"ns1.above.com",
+		"ns1.parkingcrew.net",
+		"ns2.above.com",
+		"ns2.parkingcrew.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

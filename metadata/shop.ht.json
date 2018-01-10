@@ -1,12 +1,16 @@
 {
 	"domain": "shop.ht",
 	"nameServers": [
-		"dns.princeton.edu",
-		"ns3.nic.fr",
-		"charles.cdec.polymtl.ca",
 		"a.ht.dyntld.net",
 		"b.ht.dyntld.net",
-		"ht-ns.anycast.pch.net"
+		"charles.cdec.polymtl.ca",
+		"dns.princeton.edu",
+		"ht-ns.anycast.pch.net",
+		"ns3.nic.fr"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

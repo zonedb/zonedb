@@ -7,13 +7,17 @@
 	],
 	"whoisURL": "http://gadao.gov.gu/domainsearch.htm",
 	"nameServers": [
-		"ns.gu",
 		"gold.uog.edu",
 		"green.uog.edu",
-		"phloem.uoregon.edu",
+		"gu.cctld.authdns.ripe.net",
 		"ns.edu.gu",
+		"ns.gu",
 		"nsuog.edu.gu",
-		"gu.cctld.authdns.ripe.net"
+		"phloem.uoregon.edu"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

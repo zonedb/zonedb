@@ -1,12 +1,16 @@
 {
 	"domain": "in.tl",
 	"nameServers": [
+		"ns1.sedoparking.com",
 		"ns1fkl.name.com",
+		"ns2.sedoparking.com",
 		"ns2glx.name.com",
 		"ns3qtx.name.com",
-		"ns4bfy.name.com",
-		"ns1.sedoparking.com",
-		"ns2.sedoparking.com"
+		"ns4bfy.name.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

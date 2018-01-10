@@ -13,5 +13,9 @@
 		"ns5.dns.nic.netflix",
 		"ns6.dns.nic.netflix"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

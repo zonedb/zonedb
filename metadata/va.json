@@ -6,12 +6,16 @@
 	],
 	"whoisServer": "whois.iana.org",
 	"nameServers": [
-		"osiris.namex.it",
-		"seth.namex.it",
 		"dns.nic.it",
 		"john.vatican.va",
 		"michael.vatican.va",
+		"osiris.namex.it",
+		"seth.namex.it",
 		"va.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

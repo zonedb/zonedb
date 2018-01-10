@@ -1,4 +1,8 @@
 {
 	"domain": "au.pn",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

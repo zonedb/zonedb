@@ -1,10 +1,14 @@
 {
 	"domain": "bg.tc",
 	"nameServers": [
-		"ns1.4.cn",
-		"ns2.4.cn",
 		"f1g1ns1.dnspod.net",
-		"f1g1ns2.dnspod.net"
+		"f1g1ns2.dnspod.net",
+		"ns1.4.cn",
+		"ns2.4.cn"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

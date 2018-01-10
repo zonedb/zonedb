@@ -1,13 +1,17 @@
 {
 	"domain": "gov.ps",
 	"nameServers": [
-		"ns1.palgov.net",
 		"dns1.gov.ps",
 		"dns2.gov.ps",
 		"dns3.gov.ps",
 		"ns1.gov.ps",
+		"ns1.palgov.net",
 		"ns2.pnina.ps",
 		"ote.pnina.ps"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

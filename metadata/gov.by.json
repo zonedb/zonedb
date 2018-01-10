@@ -1,9 +1,13 @@
 {
 	"domain": "gov.by",
 	"nameServers": [
+		"ns1.oac.gov.by",
 		"u1.hoster.by",
-		"u2.hoster.by",
-		"ns1.oac.gov.by"
+		"u2.hoster.by"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

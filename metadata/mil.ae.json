@@ -1,12 +1,16 @@
 {
 	"domain": "mil.ae",
 	"nameServers": [
+		"ae.cctld.authdns.ripe.net",
 		"ns1.aedns.ae",
 		"ns2.aedns.ae",
 		"nsext-pch.aedns.ae",
 		"sec3.apnic.net",
-		"sns-pb.isc.org",
-		"ae.cctld.authdns.ripe.net"
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

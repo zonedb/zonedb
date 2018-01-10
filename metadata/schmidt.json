@@ -12,5 +12,9 @@
 		"c.nic.schmidt",
 		"d.nic.schmidt"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

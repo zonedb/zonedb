@@ -2,11 +2,15 @@
 	"domain": "org.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"sns-pb.isc.org",
-		"ns.dn.ua",
 		"ba1.ns.ua",
+		"ho1.ns.org.ua",
 		"nix.ns.ua",
-		"ho1.ns.org.ua"
+		"ns.dn.ua",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

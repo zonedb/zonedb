@@ -1,14 +1,18 @@
 {
 	"domain": "se.tc",
 	"nameServers": [
-		"ns1.site4now.net",
-		"ns2.site4now.net",
-		"ns3.site4now.net",
-		"suspended.nic.tc",
 		"ns1.ewing.net.au",
+		"ns1.site4now.net",
 		"ns2.ewing.net.au",
+		"ns2.site4now.net",
 		"ns3.ewing.net.au",
-		"ns4.ewing.net.au"
+		"ns3.site4now.net",
+		"ns4.ewing.net.au",
+		"suspended.nic.tc"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

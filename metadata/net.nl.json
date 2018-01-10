@@ -4,5 +4,9 @@
 		"ns1.com.nl",
 		"ns2.com.nl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

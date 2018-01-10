@@ -12,5 +12,9 @@
 		"c.nic.etisalat",
 		"d.nic.etisalat"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

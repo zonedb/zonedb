@@ -6,11 +6,15 @@
 	],
 	"whoisServer": "whois.tld.ee",
 	"nameServers": [
-		"ee.aso.ee",
-		"ee.eenet.ee",
 		"b.tld.ee",
 		"e.tld.ee",
+		"ee.aso.ee",
+		"ee.eenet.ee",
 		"ns.tld.ee"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

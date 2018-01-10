@@ -12,5 +12,9 @@
 		"ns3.nic.mp",
 		"ns4.nic.mp"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

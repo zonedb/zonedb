@@ -11,5 +11,9 @@
 		"b0.nic.lgbt",
 		"c0.nic.lgbt"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

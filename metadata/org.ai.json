@@ -1,11 +1,15 @@
 {
 	"domain": "org.ai",
 	"nameServers": [
-		"whois.ai",
+		"ns.cocca.fr",
 		"ns1.offshore.ai",
 		"ns2.offshore.ai",
 		"pch.whois.ai",
-		"ns.cocca.fr"
+		"whois.ai"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

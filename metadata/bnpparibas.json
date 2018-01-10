@@ -12,5 +12,9 @@
 		"b0.nic.bnpparibas",
 		"c0.nic.bnpparibas"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

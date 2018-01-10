@@ -12,5 +12,9 @@
 		"b0.nic.hughes",
 		"c0.nic.hughes"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

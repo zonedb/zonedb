@@ -1,10 +1,14 @@
 {
 	"domain": "hotel.tz",
 	"nameServers": [
-		"nic.co.tz",
 		"fork.sth.dnsnode.net",
+		"nic.co.tz",
 		"ns.anycast.co.tz",
 		"ns2.tznic.or.tz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

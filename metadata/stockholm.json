@@ -17,5 +17,14 @@
 		"b0.nic.stockholm",
 		"c0.nic.stockholm"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/stockholm_sv_1.txt"
+		}
+	]
 }

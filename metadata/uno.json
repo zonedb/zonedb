@@ -13,5 +13,9 @@
 		"ns6.dns.nic.uno",
 		"ns7.dns.nic.uno"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

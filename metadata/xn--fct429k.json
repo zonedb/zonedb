@@ -8,5 +8,87 @@
 		"ns4.dns.nic.家電",
 		"ns5.dns.nic.家電",
 		"ns6.dns.nic.家電"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_da_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_de_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_es_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_fi_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "hu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_hu_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "is",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_is_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_ko_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_lt_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_lv_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "no",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_no_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_pl_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_pt_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_ru_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_sv_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fct429k_zh_1.txt"
+		}
 	]
 }

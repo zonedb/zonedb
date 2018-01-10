@@ -1,4 +1,8 @@
 {
 	"domain": "pro.ae",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

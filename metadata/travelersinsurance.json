@@ -12,5 +12,9 @@
 		"b0.nic.travelersinsurance",
 		"c0.nic.travelersinsurance"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

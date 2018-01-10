@@ -1,10 +1,14 @@
 {
 	"domain": "com.ki",
 	"nameServers": [
-		"pch.nic.ki",
-		"sns-pb.isc.org",
 		"a.ki.dyntld.net",
-		"b.ki.dyntld.net"
+		"b.ki.dyntld.net",
+		"pch.nic.ki",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

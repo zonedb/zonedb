@@ -12,5 +12,9 @@
 		"b0.nic.jll",
 		"c0.nic.jll"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -4,5 +4,9 @@
 		"dns1.fweds-spc.it",
 		"dns2.fweds-spc.it"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

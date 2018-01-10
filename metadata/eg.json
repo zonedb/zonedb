@@ -6,9 +6,13 @@
 	],
 	"whoisURL": "http://lookup.egregistry.eg/english.aspx",
 	"nameServers": [
-		"rip.psg.com",
 		"frcu.eun.eg",
-		"ns5.univie.ac.at"
+		"ns5.univie.ac.at",
+		"rip.psg.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

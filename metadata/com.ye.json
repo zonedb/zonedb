@@ -2,11 +2,15 @@
 	"domain": "com.ye",
 	"nameServers": [
 		"ns1.ye",
-		"ns2.ye",
-		"sah1.ye",
-		"sah2.ye",
 		"ns1.yemen.net.ye",
-		"ns2.yemen.net.ye"
+		"ns2.ye",
+		"ns2.yemen.net.ye",
+		"sah1.ye",
+		"sah2.ye"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

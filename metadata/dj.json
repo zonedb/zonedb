@@ -8,10 +8,14 @@
 	"whoisURL": "http://www.nic.dj/whois.php",
 	"nameServers": [
 		"bow.intnet.dj",
+		"bow.rain.fr",
 		"bow1.intnet.dj",
 		"bow5.intnet.dj",
-		"bow.rain.fr",
 		"vps443605.ovh.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

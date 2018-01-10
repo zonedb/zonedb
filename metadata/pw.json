@@ -11,5 +11,9 @@
 		"ns3.nic.pw",
 		"ns4.nic.pw"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

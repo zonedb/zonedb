@@ -1,13 +1,17 @@
 {
 	"domain": "pl.tc",
 	"nameServers": [
+		"f1g1ns1.dnspod.net",
+		"f1g1ns2.dndpod.net",
+		"f1g1ns2.dnspod.net",
 		"ns1.4.cn",
 		"ns2.4.cn",
 		"v1s1.xundns.com",
-		"v1s2.xundns.com",
-		"f1g1ns2.dndpod.net",
-		"f1g1ns1.dnspod.net",
-		"f1g1ns2.dnspod.net"
+		"v1s2.xundns.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

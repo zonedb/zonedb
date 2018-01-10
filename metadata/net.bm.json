@@ -1,20 +1,24 @@
 {
 	"domain": "net.bm",
 	"nameServers": [
-		"ns1.bm",
-		"ns2.bm",
-		"ns3.bm",
-		"ns1.ibl.bm",
-		"ns2.ibl.bm",
-		"ns.uu.net",
-		"sunic.sunet.se",
 		"a0.bm.afilias-nst.info",
 		"a2.bm.afilias-nst.info",
-		"c0.bm.afilias-nst.info",
 		"auth02.ns.uu.net",
 		"b0.bm.afilias-nst.org",
 		"b2.bm.afilias-nst.org",
-		"d0.bm.afilias-nst.org"
+		"c0.bm.afilias-nst.info",
+		"d0.bm.afilias-nst.org",
+		"ns.uu.net",
+		"ns1.bm",
+		"ns1.ibl.bm",
+		"ns2.bm",
+		"ns2.ibl.bm",
+		"ns3.bm",
+		"sunic.sunet.se"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

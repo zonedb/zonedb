@@ -12,5 +12,9 @@
 		"b0.nic.mopar",
 		"c0.nic.mopar"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

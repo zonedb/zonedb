@@ -4,5 +4,9 @@
 		"ns1.edu.uz",
 		"ns2.edu.uz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

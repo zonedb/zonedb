@@ -1,15 +1,19 @@
 {
 	"domain": "gov.ar",
 	"nameServers": [
-		"ctina.ar",
 		"a.dns.ar",
+		"ar.cctld.authdns.ripe.net",
 		"b.dns.ar",
 		"c.dns.ar",
+		"ctina.ar",
 		"d.dns.ar",
 		"e.dns.ar",
 		"ns2.switch.ch",
-		"relay1.mecon.gov.ar",
-		"ar.cctld.authdns.ripe.net"
+		"relay1.mecon.gov.ar"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

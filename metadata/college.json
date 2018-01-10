@@ -11,5 +11,9 @@
 		"c.nic.college",
 		"d.nic.college"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

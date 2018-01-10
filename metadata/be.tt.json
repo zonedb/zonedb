@@ -6,5 +6,9 @@
 		"ns5.netnames.net",
 		"ns6.netnames.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

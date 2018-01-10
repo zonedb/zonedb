@@ -1,10 +1,14 @@
 {
 	"domain": "lodz.pl",
 	"nameServers": [
-		"ns1.tpnet.pl",
 		"dns.man.lodz.pl",
 		"dns2.man.lodz.pl",
-		"dns4.man.lodz.pl"
+		"dns4.man.lodz.pl",
+		"ns1.tpnet.pl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

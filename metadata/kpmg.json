@@ -13,5 +13,31 @@
 		"ns5.dns.nic.kpmg",
 		"ns6.dns.nic.kpmg"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_de_2.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_es_2.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_ja_2.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_ko_2.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_zh_2.txt"
+		}
+	]
 }

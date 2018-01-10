@@ -1,12 +1,16 @@
 {
 	"domain": "at.tc",
 	"nameServers": [
-		"ns.udagdns.de",
 		"n1.vxns.de",
 		"n2.vxns.de",
+		"ns.udagdns.de",
+		"ns.udagdns.net",
 		"ns1.kellygolden.net",
-		"ns2.kellygolden.net",
-		"ns.udagdns.net"
+		"ns2.kellygolden.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

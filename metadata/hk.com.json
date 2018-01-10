@@ -2,16 +2,20 @@
 	"domain": "hk.com",
 	"whoisServer": "whois.registry.hk.com",
 	"nameServers": [
-		"dns7.cloudns.net",
-		"dns8.cloudns.net",
-		"pns103.cloudns.net",
-		"pns104.cloudns.net",
 		"a.udrtld.net",
 		"b.udrtld.net",
 		"c.udrtld.net",
 		"d.udrtld.net",
+		"dns7.cloudns.net",
+		"dns8.cloudns.net",
 		"e.udrtld.net",
-		"f.udrtld.net"
+		"f.udrtld.net",
+		"pns103.cloudns.net",
+		"pns104.cloudns.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

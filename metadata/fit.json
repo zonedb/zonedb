@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.nic.fit",
 	"nameServers": [
+		"a.ns.nic.fit",
+		"b.ns.nic.fit",
+		"c.ns.nic.fit",
+		"d.ns.nic.fit",
 		"dns1.nic.fit",
 		"dns2.nic.fit",
 		"dns3.nic.fit",
@@ -13,11 +17,11 @@
 		"dnsa.nic.fit",
 		"dnsb.nic.fit",
 		"dnsc.nic.fit",
-		"dnsd.nic.fit",
-		"a.ns.nic.fit",
-		"b.ns.nic.fit",
-		"c.ns.nic.fit",
-		"d.ns.nic.fit"
+		"dnsd.nic.fit"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

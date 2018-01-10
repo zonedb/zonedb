@@ -13,5 +13,9 @@
 		"ns5.dns.nic.prudential",
 		"ns6.dns.nic.prudential"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"b0.nic.tvs",
 		"c0.nic.tvs"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

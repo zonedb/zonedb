@@ -4,5 +4,9 @@
 		"ns01.webme.com",
 		"ns02.webme.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

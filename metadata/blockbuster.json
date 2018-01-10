@@ -12,5 +12,9 @@
 		"b0.nic.blockbuster",
 		"c0.nic.blockbuster"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

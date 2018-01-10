@@ -9,5 +9,57 @@
 		"b.nic.host",
 		"c.nic.host",
 		"d.nic.host"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/host_ar_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "he",
+			"value": "https://www.iana.org/domains/idn-tables/tables/host_he_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/host_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/host_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/host_lo_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/host_cyrl_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/host_grek_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/host_latn_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "th",
+			"value": "https://www.iana.org/domains/idn-tables/tables/host_th_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/host_zh_1.2.txt"
+		}
 	]
 }

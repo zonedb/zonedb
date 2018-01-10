@@ -4,5 +4,9 @@
 		"ns.mmnic.net.mm",
 		"ns.mtgnic.net.mm"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

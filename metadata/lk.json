@@ -6,15 +6,19 @@
 	],
 	"whoisServer": "whois.nic.lk",
 	"nameServers": [
-		"ns1.ac.lk",
 		"c.nic.lk",
 		"d.nic.lk",
 		"l.nic.lk",
 		"m.nic.lk",
+		"ns1.ac.lk",
 		"p.nic.lk",
+		"pendragon.cs.purdue.edu",
 		"ripe.nic.lk",
-		"t.nic.lk",
-		"pendragon.cs.purdue.edu"
+		"t.nic.lk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

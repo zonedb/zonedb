@@ -6,8 +6,8 @@
 	],
 	"whoisServer": "whois.nic.tf",
 	"nameServers": [
-		"d.nic.fr",
 		"d.ext.nic.fr",
+		"d.nic.fr",
 		"e.ext.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"

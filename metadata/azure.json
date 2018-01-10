@@ -18,5 +18,521 @@
 		"h5.nstld.com",
 		"l5.nstld.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "az",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_az_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "be",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_be_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "bg",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_bg_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_de_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "el",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_el_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_es_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_fr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "hr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_hr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_ja_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_ko_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ku",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_ku_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_mk_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Arab",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_arab_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Armi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_armi_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Armn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_armn_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Avst",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_avst_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Bali",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_bali_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Bamu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_bamu_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Batk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_batk_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Beng",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_beng_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Bopo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_bopo_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Brah",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_brah_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Bugi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_bugi_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Buhd",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_buhd_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_cans_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cari",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_cari_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cham",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_cham_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cher",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_cher_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Copt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_copt_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_cyrl_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Deva",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_deva_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Egyp",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_egyp_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Ethi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_ethi_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Geor",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_geor_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Glag",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_glag_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_grek_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Gujr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_gujr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Guru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_guru_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hang",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_hang_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hani",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_hani_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hano",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_hano_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hebr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_hebr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hira",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_hira_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Java",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_java_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Kali",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_kali_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Kana",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_kana_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Khar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_khar_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Khmr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_khmr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Knda",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_knda_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Kthi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_kthi_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lana",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_lana_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Laoo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_laoo_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_latn_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lepc",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_lepc_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Limb",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_limb_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lisu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_lisu_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lyci",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_lyci_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lydi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_lydi_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mand",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_mand_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mlym",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_mlym_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mong",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_mong_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mtei",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_mtei_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mymr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_mymr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Nkoo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_nkoo_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Ogam",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_ogam_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Olck",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_olck_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Orkh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_orkh_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Orya",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_orya_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Phag",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_phag_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Phli",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_phli_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Phnx",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_phnx_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Prti",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_prti_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Rjng",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_rjng_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Runr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_runr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Samr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_samr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Sarb",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_sarb_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Saur",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_saur_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Sinh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_sinh_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Sund",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_sund_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Sylo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_sylo_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Syrc",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_syrc_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tagb",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_tagb_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tale",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_tale_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Talu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_talu_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Taml",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_taml_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tavt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_tavt_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Telu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_telu_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tfng",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_tfng_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tglg",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_tglg_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Thaa",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_thaa_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Thai",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_thai_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tibt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_tibt_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Vaii",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_vaii_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Xpeo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_xpeo_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Xsux",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_xsux_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Yiii",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_yiii_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_pl_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ro",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_ro_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_ru_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_sr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_sv_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "uk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_uk_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/azure_zh_2.5.txt"
+		}
+	]
 }

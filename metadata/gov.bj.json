@@ -1,8 +1,12 @@
 {
 	"domain": "gov.bj",
 	"nameServers": [
-		"ns1.intnet.bj",
-		"nakayo.leland.bj"
+		"nakayo.leland.bj",
+		"ns1.intnet.bj"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

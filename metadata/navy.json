@@ -9,5 +9,27 @@
 		"demand.beta.aridns.net.au",
 		"demand.delta.aridns.net.au",
 		"demand.gamma.aridns.net.au"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/actor_de_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/actor_es_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/actor_fr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/actor_zh_1.0.txt"
+		}
 	]
 }

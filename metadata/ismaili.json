@@ -12,5 +12,9 @@
 		"b0.nic.ismaili",
 		"c0.nic.ismaili"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

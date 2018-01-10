@@ -10,5 +10,9 @@
 		"b0.nic.kim",
 		"c0.nic.kim"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

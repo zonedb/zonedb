@@ -1,4 +1,8 @@
 {
 	"domain": "edu.bs",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

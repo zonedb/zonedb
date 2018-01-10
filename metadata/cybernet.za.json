@@ -1,4 +1,8 @@
 {
 	"domain": "cybernet.za",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

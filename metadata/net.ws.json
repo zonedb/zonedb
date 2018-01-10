@@ -6,5 +6,9 @@
 		"ns4.dns.ws",
 		"ns5.dns.ws"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

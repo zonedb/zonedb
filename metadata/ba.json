@@ -7,13 +7,17 @@
 	],
 	"whoisURL": "http://nic.ba/lat/menu/view/13",
 	"nameServers": [
-		"ns.ba",
-		"munnari.oz.au",
-		"ba.anycastdns.cz",
-		"sava.utic.net.ba",
-		"una.utic.net.ba",
 		"auth03.ns.uu.net",
-		"ba.cctld.authdns.ripe.net"
+		"ba.anycastdns.cz",
+		"ba.cctld.authdns.ripe.net",
+		"munnari.oz.au",
+		"ns.ba",
+		"sava.utic.net.ba",
+		"una.utic.net.ba"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

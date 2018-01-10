@@ -12,5 +12,9 @@
 		"b0.nic.travelers",
 		"c0.nic.travelers"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -16,5 +16,9 @@
 		"dnsc.nic.xfinity",
 		"dnsd.nic.xfinity"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

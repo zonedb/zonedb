@@ -11,5 +11,9 @@
 		"c.nic.rent",
 		"d.nic.rent"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

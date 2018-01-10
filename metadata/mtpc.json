@@ -8,6 +8,10 @@
 	"whoisServer": "whois.nic.mtpc",
 	"nameServers": [
 		"a.gmoregistry.net",
+		"anycast10.irondns.net",
+		"anycast23.irondns.net",
+		"anycast24.irondns.net",
+		"anycast9.irondns.net",
 		"b.gmoregistry.net",
 		"c.gmoregistry.net",
 		"d.gmoregistry.net",
@@ -17,11 +21,11 @@
 		"i.gmoregistry.net",
 		"j.gmoregistry.net",
 		"k.gmoregistry.net",
-		"l.gmoregistry.net",
-		"anycast10.irondns.net",
-		"anycast23.irondns.net",
-		"anycast24.irondns.net",
-		"anycast9.irondns.net"
+		"l.gmoregistry.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

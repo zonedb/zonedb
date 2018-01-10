@@ -11,6 +11,7 @@ import (
 
 const pfx = "zonedb-test."
 
+// CheckPublicSuffix compares the zones against the Public Suffix List.
 func CheckPublicSuffix(zones map[string]*Zone) {
 	color.Fprintf(os.Stderr, "@{.}Checking against the Public Suffix List for %d zones...\n", len(zones))
 	mapZones(zones, func(z *Zone) {
@@ -27,7 +28,7 @@ func CheckPublicSuffix(zones map[string]*Zone) {
 			return
 
 		// PSL wildcard
-		case strings.HasPrefix(s, pfx) && len(z.Subdomains) != 0:
+		case strings.HasPrefix(s, pfx) && len(z.subdomains) != 0:
 			return
 
 		// ZoneDB and PSL disagree

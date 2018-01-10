@@ -12,5 +12,9 @@
 		"ns5.dns.nic.weather",
 		"ns6.dns.nic.weather"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

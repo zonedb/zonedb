@@ -12,5 +12,9 @@
 		"b0.nic.fido",
 		"c0.nic.fido"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

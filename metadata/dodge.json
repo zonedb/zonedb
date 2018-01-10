@@ -12,5 +12,9 @@
 		"b0.nic.dodge",
 		"c0.nic.dodge"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -2,10 +2,10 @@
 	"domain": "edu.cd",
 	"nameServers": [
 		"igubu.saix.net",
-		"sabela.saix.net",
-		"sangoma.saix.net",
+		"ns1.pch.nic.cd",
 		"ns1.webnetafrica.net",
 		"ns2.webnetafrica.net",
-		"ns1.pch.nic.cd"
+		"sabela.saix.net",
+		"sangoma.saix.net"
 	]
 }

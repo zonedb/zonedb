@@ -12,5 +12,9 @@
 		"b0.nic.cipriani",
 		"c0.nic.cipriani"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

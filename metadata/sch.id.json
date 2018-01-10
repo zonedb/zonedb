@@ -9,5 +9,9 @@
 		"f.dns.id",
 		"g.dns.id"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

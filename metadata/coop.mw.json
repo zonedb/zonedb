@@ -1,11 +1,15 @@
 {
 	"domain": "coop.mw",
 	"nameServers": [
-		"rip.psg.com",
-		"domwe.sdn.mw",
 		"chambo.sdnp.org.mw",
+		"domwe.sdn.mw",
+		"mw.cctld.authdns.ripe.net",
 		"nyala.sdnp.org.mw",
-		"mw.cctld.authdns.ripe.net"
+		"rip.psg.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

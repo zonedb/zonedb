@@ -8,5 +8,9 @@
 		"ns5.nic.net.ng",
 		"nsa.nic.net.ng"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

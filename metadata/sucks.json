@@ -11,5 +11,9 @@
 		"c.nic.sucks",
 		"d.nic.sucks"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

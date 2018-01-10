@@ -12,5 +12,86 @@
 		"ns5.dns.nic.smile",
 		"ns6.dns.nic.smile"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_da_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_de_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_es_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_fi_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "hu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_hu_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "is",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_is_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_ko_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_lt_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_lv_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "no",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_no_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_pl_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_pt_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_ru_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_sv_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/smile_zh_1.txt"
+		}
+	]
 }

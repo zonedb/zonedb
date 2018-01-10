@@ -1,19 +1,23 @@
 {
 	"domain": "net.me",
 	"nameServers": [
-		"a0.nic.me",
-		"a2.nic.me",
-		"b0.nic.me",
-		"b2.nic.me",
-		"c0.nic.me",
-		"ns.nic.me",
-		"ns2.nic.me",
 		"a0.cctld.afilias-nst.info",
-		"c0.cctld.afilias-nst.info",
+		"a0.nic.me",
 		"a2.me.afilias-nst.info",
+		"a2.nic.me",
 		"b0.cctld.afilias-nst.org",
+		"b0.nic.me",
+		"b2.me.afilias-nst.org",
+		"b2.nic.me",
+		"c0.cctld.afilias-nst.info",
+		"c0.nic.me",
 		"d0.cctld.afilias-nst.org",
-		"b2.me.afilias-nst.org"
+		"ns.nic.me",
+		"ns2.nic.me"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -19,5 +19,36 @@
 		"h5.nstld.com",
 		"l5.nstld.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_ja_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_ko_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Deva",
+			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_deva_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hang",
+			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_hang_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hani",
+			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_hani_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hano",
+			"value": "https://www.iana.org/domains/idn-tables/tables/clubmed_hano_2.5.txt"
+		}
+	]
 }

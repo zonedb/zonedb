@@ -6,9 +6,13 @@
 	],
 	"whoisURL": "https://www.dom-enic.com/whois.html",
 	"nameServers": [
-		"ns1.orangecaraibe.com",
+		"gp.cctld.authdns.ripe.net",
 		"ns1.nic.gp",
-		"gp.cctld.authdns.ripe.net"
+		"ns1.orangecaraibe.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

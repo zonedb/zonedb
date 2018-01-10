@@ -4,8 +4,12 @@
 		"retired"
 	],
 	"nameServers": [
-		"vax1.baker.ie",
-		"ns.heanet.ie"
+		"ns.heanet.ie",
+		"vax1.baker.ie"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

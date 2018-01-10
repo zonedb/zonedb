@@ -1,9 +1,13 @@
 {
 	"domain": "com.hn",
 	"nameServers": [
-		"sns-pb.isc.org",
 		"nicmx-anycast.rds.org.hn",
-		"pch-anycast.rds.org.hn"
+		"pch-anycast.rds.org.hn",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

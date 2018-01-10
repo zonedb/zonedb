@@ -3,8 +3,12 @@
 	"nameServers": [
 		"ins1.c6dns.com",
 		"ns0.plig.net",
-		"za-ns.anycast.pch.net",
-		"secdns1.posix.co.za"
+		"secdns1.posix.co.za",
+		"za-ns.anycast.pch.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

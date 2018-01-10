@@ -1,12 +1,16 @@
 {
 	"domain": "nom.ad",
 	"nameServers": [
+		"ad.cctld.authdns.ripe.net",
+		"ad.ns.nic.es",
 		"dnsc.ad",
 		"dnsm.ad",
-		"ns3.nic.fr",
 		"ns-ext.isc.org",
-		"ad.ns.nic.es",
-		"ad.cctld.authdns.ripe.net"
+		"ns3.nic.fr"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

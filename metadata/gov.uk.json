@@ -2,13 +2,17 @@
 	"domain": "gov.uk",
 	"whoisServer": "whois.ja.net",
 	"nameServers": [
+		"auth00.ns.de.uu.net",
+		"auth50.ns.de.uu.net",
 		"ns0.ja.net",
+		"ns1.surfnet.nl",
 		"ns2.ja.net",
 		"ns3.ja.net",
-		"ns4.ja.net",
-		"ns1.surfnet.nl",
-		"auth00.ns.de.uu.net",
-		"auth50.ns.de.uu.net"
+		"ns4.ja.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

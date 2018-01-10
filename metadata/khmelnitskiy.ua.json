@@ -1,11 +1,15 @@
 {
 	"domain": "khmelnitskiy.ua",
 	"nameServers": [
+		"ba1.ns.ua",
+		"nix.ns.ua",
 		"ns.km.ua",
 		"ns2.km.ua",
-		"ns3.km.ua",
-		"ba1.ns.ua",
-		"nix.ns.ua"
+		"ns3.km.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

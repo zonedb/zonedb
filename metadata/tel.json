@@ -23,5 +23,86 @@
 		"ns7.dns.nic.tel",
 		"ns8.dns.nic.tel"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_da_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_de_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_es_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_fi_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_fr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "hu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_hu_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_lt_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_lv_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "no",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_no_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_pl_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_pt_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_ru_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_sv_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tel_zh_1.0.txt"
+		}
+	]
 }

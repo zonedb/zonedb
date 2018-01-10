@@ -13,5 +13,9 @@
 		"ns5.dns.nic.farmers",
 		"ns6.dns.nic.farmers"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

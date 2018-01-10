@@ -8,11 +8,15 @@
 	],
 	"whoisURL": "https://secure.nic.vi/whois-lookup/",
 	"nameServers": [
+		"auth100.ns.uu.net",
+		"auth110.ns.uu.net",
 		"ns0.nic.vi",
 		"ns1.nic.vi",
-		"ns3.nic.vi",
-		"auth100.ns.uu.net",
-		"auth110.ns.uu.net"
+		"ns3.nic.vi"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

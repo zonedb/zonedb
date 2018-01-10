@@ -2,12 +2,16 @@
 	"domain": "co.nl",
 	"nameServers": [
 		"a.co.nl",
-		"b.co.nl",
-		"c.co.nl",
 		"a.nic.co.nl",
+		"b.co.nl",
 		"b.nic.co.nl",
+		"c.co.nl",
 		"c.nic.co.nl",
 		"d.nic.co.nl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

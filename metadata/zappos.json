@@ -13,5 +13,9 @@
 		"ns5.dns.nic.zappos",
 		"ns6.dns.nic.zappos"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

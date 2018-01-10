@@ -2,10 +2,14 @@
 	"domain": "uz.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"ns.dn.ua",
 		"ba1.ns.ua",
+		"ho1.ns.uz.ua",
 		"nix.ns.ua",
-		"ho1.ns.uz.ua"
+		"ns.dn.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

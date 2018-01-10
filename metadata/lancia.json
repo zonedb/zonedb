@@ -12,5 +12,9 @@
 		"b0.nic.lancia",
 		"c0.nic.lancia"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -1,8 +1,12 @@
 {
 	"domain": "mil.eg",
 	"nameServers": [
-		"rip.psg.com",
-		"frcu.eun.eg"
+		"frcu.eun.eg",
+		"rip.psg.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

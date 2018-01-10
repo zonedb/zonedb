@@ -2,11 +2,15 @@
 	"domain": "org.za",
 	"whoisServer": "org-whois.registry.net.za",
 	"nameServers": [
+		"ns0.is.co.za",
+		"ns0.plig.net",
 		"ns3.iafrica.com",
 		"ns4.iafrica.com",
-		"ns0.plig.net",
-		"za-ns.anycast.pch.net",
-		"ns0.is.co.za"
+		"za-ns.anycast.pch.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -6,5 +6,9 @@
 		"web02.unmo.ba",
 		"web2016.unmo.ba"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"c.nic.wtc",
 		"d.nic.wtc"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

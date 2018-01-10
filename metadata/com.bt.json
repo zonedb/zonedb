@@ -5,5 +5,9 @@
 		"ns2.druknet.bt",
 		"phloem.uoregon.edu"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -1,8 +1,12 @@
 {
 	"domain": "co.cz",
 	"nameServers": [
-		"ns1.i-registry.cz",
-		"ns.i-registry.net"
+		"ns.i-registry.net",
+		"ns1.i-registry.cz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

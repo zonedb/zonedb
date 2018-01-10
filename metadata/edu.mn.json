@@ -4,5 +4,9 @@
 		"ns.erdemnet.mn",
 		"ns2.erdemnet.mn"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

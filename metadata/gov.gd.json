@@ -10,5 +10,9 @@
 		"pdns07.domaincontrol.com",
 		"pdns08.domaincontrol.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

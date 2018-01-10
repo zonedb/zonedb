@@ -2,13 +2,25 @@
 	"domain": "在线",
 	"whoisServer": "whois.teleinfo.cn",
 	"nameServers": [
-		"ns1.teleinfo.cn",
-		"ns3.teleinfo.cn",
-		"ns2.teleinfoo.com",
-		"ns4.teleinfoo.com",
 		"a0.nic.在线",
 		"a2.nic.在线",
 		"b0.nic.在线",
-		"c0.nic.在线"
+		"c0.nic.在线",
+		"ns1.teleinfo.cn",
+		"ns2.teleinfoo.com",
+		"ns3.teleinfo.cn",
+		"ns4.teleinfoo.com"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh-CN",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--3ds443g_zh-cn_4.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hant",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--3ds443g_zh-hant_4.0.1.txt"
+		}
 	]
 }

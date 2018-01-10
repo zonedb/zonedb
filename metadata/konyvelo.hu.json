@@ -7,5 +7,9 @@
 		"d.hu",
 		"ns-s.nic.hu"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

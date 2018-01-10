@@ -4,5 +4,9 @@
 		"dns1.espn.com",
 		"dns2.espn.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

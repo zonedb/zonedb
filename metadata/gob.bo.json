@@ -1,4 +1,8 @@
 {
 	"domain": "gob.bo",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

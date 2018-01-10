@@ -8,7 +8,14 @@
 	"nameServers": [
 		"a.nic.ir",
 		"b.nic.ir",
-		"ns5.univie.ac.at",
-		"ir.cctld.authdns.ripe.net"
+		"ir.cctld.authdns.ripe.net",
+		"ns5.univie.ac.at"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "fa",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ir_fa_1.0.html"
+		}
 	]
 }

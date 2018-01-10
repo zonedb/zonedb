@@ -6,12 +6,16 @@
 	],
 	"whoisURL": "http://www.nic.cg/cgi-bin/whois.pl",
 	"nameServers": [
-		"dns.acnic.cg",
-		"dns.princeton.edu",
-		"dns.dnsafrica.net",
 		"dns-fr.dnsafrica.net",
 		"dns-za.dnsafrica.net",
+		"dns.acnic.cg",
+		"dns.dnsafrica.net",
+		"dns.princeton.edu",
 		"sunic.sunet.se"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

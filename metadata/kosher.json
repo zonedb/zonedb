@@ -11,5 +11,9 @@
 		"b0.nic.kosher",
 		"c0.nic.kosher"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

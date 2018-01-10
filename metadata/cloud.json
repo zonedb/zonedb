@@ -11,5 +11,9 @@
 		"c.nic.cloud",
 		"d.nic.cloud"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

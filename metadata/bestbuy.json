@@ -12,5 +12,9 @@
 		"b0.nic.bestbuy",
 		"c0.nic.bestbuy"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

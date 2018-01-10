@@ -12,11 +12,17 @@
 	"nameServers": [
 		"a.nic.vlaanderen",
 		"b.nic.vlaanderen",
-		"w.nic.vlaanderen",
-		"x.nic.vlaanderen",
 		"c.ns.dns.be",
 		"d.ns.dns.be",
+		"w.nic.vlaanderen",
+		"x.nic.vlaanderen",
 		"y.ns.dns.be"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/vlaanderen_latn_1.0.txt"
+		}
+	]
 }

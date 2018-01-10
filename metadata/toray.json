@@ -8,13 +8,17 @@
 	"whoisServer": "whois.nic.toray",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"b.gmoregistry.net",
-		"k.gmoregistry.net",
-		"l.gmoregistry.net",
 		"a.nic.toray",
+		"b.gmoregistry.net",
 		"b.nic.toray",
 		"c.nic.toray",
-		"d.nic.toray"
+		"d.nic.toray",
+		"k.gmoregistry.net",
+		"l.gmoregistry.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

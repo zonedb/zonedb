@@ -8,12 +8,16 @@
 	"whoisServer": "whois.nic.fm",
 	"whoisURL": "http://dot.fm/whois.html",
 	"nameServers": [
-		"tld5.ultradns.info",
 		"tld1.ultradns.net",
 		"tld2.ultradns.net",
 		"tld3.ultradns.org",
 		"tld4.ultradns.org",
+		"tld5.ultradns.info",
 		"tld6.ultradns.co.uk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

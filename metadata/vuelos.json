@@ -12,5 +12,9 @@
 		"ns5.dns.nic.vuelos",
 		"ns6.dns.nic.vuelos"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

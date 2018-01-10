@@ -12,5 +12,9 @@
 		"b0.nic.marriott",
 		"c0.nic.marriott"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

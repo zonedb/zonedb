@@ -19,5 +19,9 @@
 		"ns5.dns.nic.chloe",
 		"ns6.dns.nic.chloe"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

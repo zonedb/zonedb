@@ -1,15 +1,19 @@
 {
 	"domain": "net.mo",
 	"nameServers": [
-		"ns1.gov.mo",
-		"ns2.gov.mo",
 		"a.monic.mo",
 		"b.monic.mo",
 		"c.monic.mo",
 		"d.monic.mo",
 		"e.monic.mo",
+		"ns1.gov.mo",
 		"ns17.cdns.net",
-		"ns2.cuhk.edu.hk"
+		"ns2.cuhk.edu.hk",
+		"ns2.gov.mo"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

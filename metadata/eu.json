@@ -13,5 +13,22 @@
 		"x.dns.eu",
 		"y.dns.eu",
 		"z.dns.eu"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eu_cyrl_1.0.html"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eu_grek_1.0.html"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eu_latn_1.0.html"
+		}
 	]
 }

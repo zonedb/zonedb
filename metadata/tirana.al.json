@@ -4,5 +4,9 @@
 		"ns1.akshi.gov.al",
 		"ns2.akshi.gov.al"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

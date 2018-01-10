@@ -12,5 +12,9 @@
 		"ns5.dns.nic.mobily",
 		"ns6.dns.nic.mobily"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

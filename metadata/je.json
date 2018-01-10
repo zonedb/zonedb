@@ -6,11 +6,15 @@
 	],
 	"whoisServer": "whois.je",
 	"nameServers": [
-		"e.ci-servers.gg",
-		"d.ci-servers.je",
-		"ns0.ja.net",
 		"c.ci-servers.org",
+		"d.ci-servers.je",
+		"e.ci-servers.gg",
+		"ns0.ja.net",
 		"ns99.dns.net.nz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

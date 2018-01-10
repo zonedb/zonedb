@@ -4,5 +4,9 @@
 		"ns.hjs.net",
 		"ns2.hjs.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

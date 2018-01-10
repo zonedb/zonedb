@@ -15,5 +15,9 @@
 		"frankfurt.nic.fo",
 		"pch.nic.fo"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

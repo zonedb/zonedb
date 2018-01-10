@@ -5,5 +5,9 @@
 		"ns2.com.ba",
 		"ns3.com.ba"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

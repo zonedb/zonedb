@@ -4,11 +4,15 @@
 		"closed"
 	],
 	"nameServers": [
-		"sec3.apnic.net",
 		"a.iana-servers.net",
 		"b.iana-servers.net",
 		"c.iana-servers.net",
-		"ns2.lacnic.net"
+		"ns2.lacnic.net",
+		"sec3.apnic.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

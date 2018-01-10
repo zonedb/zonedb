@@ -6,11 +6,15 @@
 		"geo"
 	],
 	"nameServers": [
-		"ns1.dns.aq",
-		"rip.psg.com",
-		"ns-gn.afrinic.net",
 		"fork.sth.dnsnode.net",
-		"hippo.ru.ac.za"
+		"hippo.ru.ac.za",
+		"ns-gn.afrinic.net",
+		"ns1.dns.aq",
+		"rip.psg.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

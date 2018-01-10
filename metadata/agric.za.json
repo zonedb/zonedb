@@ -8,5 +8,9 @@
 		"jupiter.is.co.za",
 		"titan.is.co.za"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"ns5.dns.nic.loft",
 		"ns6.dns.nic.loft"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

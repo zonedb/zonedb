@@ -9,9 +9,9 @@
 		"a2.nic.bio",
 		"b0.nic.bio",
 		"c0.nic.bio",
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com",
 		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net"
+		"ns1b.ksregistry.net",
+		"ns2a.ksregistry.com",
+		"ns2b.ksregistry.com"
 	]
 }

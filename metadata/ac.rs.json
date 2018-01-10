@@ -1,13 +1,13 @@
 {
 	"domain": "ac.rs",
 	"nameServers": [
-		"ns2.iif.hu",
-		"odisej.telekom.rs",
-		"ns1.uns.ac.rs",
-		"ns.etf.bg.ac.rs",
+		"ban.junis.ni.ac.rs",
 		"gaea.rcub.bg.ac.rs",
+		"ns.etf.bg.ac.rs",
 		"ns.rcub.bg.ac.rs",
 		"ns.unic.kg.ac.rs",
-		"ban.junis.ni.ac.rs"
+		"ns1.uns.ac.rs",
+		"ns2.iif.hu",
+		"odisej.telekom.rs"
 	]
 }

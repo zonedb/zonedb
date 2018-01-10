@@ -12,5 +12,9 @@
 		"b0.nic.sling",
 		"c0.nic.sling"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

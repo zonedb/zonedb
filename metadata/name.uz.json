@@ -1,11 +1,15 @@
 {
 	"domain": "name.uz",
 	"nameServers": [
-		"ns1.billur.com",
-		"ns2.billur.com",
 		"ns1.activeby.net",
+		"ns1.billur.com",
 		"ns2.activeby.net",
+		"ns2.billur.com",
 		"ns3.activeby.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

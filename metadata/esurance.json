@@ -12,5 +12,9 @@
 		"b0.nic.esurance",
 		"c0.nic.esurance"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

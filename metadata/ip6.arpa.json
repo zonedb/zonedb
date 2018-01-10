@@ -11,5 +11,9 @@
 		"e.ip6-servers.arpa",
 		"f.ip6-servers.arpa"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

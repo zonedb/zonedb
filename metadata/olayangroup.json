@@ -12,5 +12,9 @@
 		"c.nic.olayangroup",
 		"d.nic.olayangroup"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

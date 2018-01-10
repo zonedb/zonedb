@@ -15,5 +15,9 @@
 		"dns6.tld.tutby.com",
 		"dns7.tld.tutby.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

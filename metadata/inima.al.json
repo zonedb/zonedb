@@ -2,9 +2,13 @@
 	"domain": "inima.al",
 	"nameServers": [
 		"bato.host.al",
-		"ren.host.al",
 		"ns3.shqiphost.com",
-		"ns4.shqiphost.com"
+		"ns4.shqiphost.com",
+		"ren.host.al"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

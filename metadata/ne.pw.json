@@ -1,18 +1,18 @@
 {
 	"domain": "ne.pw",
 	"nameServers": [
-		"ns1.4.cn",
-		"ns2.4.cn",
-		"ns01.yun-ns.cn",
-		"ns02.yun-ns.cn",
 		"dns1.iidns.com",
 		"dns2.iidns.com",
 		"dns3.iidns.com",
 		"dns4.iidns.com",
 		"dns5.iidns.com",
 		"dns6.iidns.com",
+		"ns01.yun-ns.cn",
+		"ns02.yun-ns.cn",
 		"ns1-show.myhostadmin.net",
+		"ns1.4.cn",
 		"ns2-show.myhostadmin.net",
+		"ns2.4.cn",
 		"ns4.myhostadmin.net",
 		"ns5.myhostadmin.net"
 	]

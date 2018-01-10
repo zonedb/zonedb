@@ -12,5 +12,9 @@
 		"ns5.dns.nic.talk",
 		"ns6.dns.nic.talk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

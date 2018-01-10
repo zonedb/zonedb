@@ -11,5 +11,9 @@
 		"ns7.centralnic.net",
 		"ns8.centralnic.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

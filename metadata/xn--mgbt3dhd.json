@@ -6,9 +6,9 @@
 	],
 	"whoisServer": "whois.agitsys.net",
 	"nameServers": [
-		"a.همراه.dyntld.net",
-		"b.همراه.dyntld.net",
 		"a.ns.nic.همراه",
-		"b.ns.nic.همراه"
+		"a.همراه.dyntld.net",
+		"b.ns.nic.همراه",
+		"b.همراه.dyntld.net"
 	]
 }

@@ -2,9 +2,13 @@
 	"domain": "au.tc",
 	"nameServers": [
 		"ns1.above.com",
-		"ns2.above.com",
 		"ns1.parkingcrew.net",
+		"ns2.above.com",
 		"ns2.parkingcrew.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }
