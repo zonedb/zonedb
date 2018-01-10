@@ -157,8 +157,6 @@ func (z *Zone) ParentDomain() string {
 	return strings.Join(labels[1:], ".")
 }
 
-type IDNCPIndexes [2]int
-
 // TLDs filters a zone set for top-level domains.
 func TLDs(zones map[string]*Zone) map[string]*Zone {
 	tlds := make(map[string]*Zone)
