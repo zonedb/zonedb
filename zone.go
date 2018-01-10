@@ -47,6 +47,9 @@ type Zone struct {
 	// DNS name servers for the Zone
 	NameServers []string
 
+	// Wildcard addresses for unregistered subdomains
+	Wildcards []string
+
 	// Locations associated with the Zone
 	Locations []string
 

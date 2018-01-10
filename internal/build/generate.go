@@ -194,6 +194,7 @@ var y = [{{len .Zones}}]Zone{
 			{{if $z.ParentDomain}} &z[{{$z.ParentOffset}}] {{else}} nil {{end}}, \
 			{{if $z.SubdomainsEnd}} z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} nil {{end}}, \
 			{{if $z.NameServers}} s{ {{range $z.NameServers}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
+			{{if $z.Wildcards}} s{ {{range $z.Wildcards}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
 			{{if $z.Locations}} s{ {{range $z.Locations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
 			"{{ascii $z.WhoisServer}}", \
 			"{{ascii $z.WhoisURL}}", \
