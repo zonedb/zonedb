@@ -42,7 +42,7 @@ type Zone struct {
 
 	// CodePoints is deprecated and IDNTables has been removed. We searched for public code
 	// on GitHub that imported the zonedb package and found no packages using these symbols.
-	CodePoints []rune
+	// CodePoints []rune
 
 	// DNS name servers for the Zone
 	NameServers []string
