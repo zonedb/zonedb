@@ -96,6 +96,13 @@ func rewound(c rune) (out bool) {
 	return
 }
 
+func quotedASCII(s string) string {
+	if s == "" {
+		return "e" // const e = ""
+	}
+	return `"` + ToASCII(s) + `"`
+}
+
 var (
 	funcMap = template.FuncMap{
 		"odd":     odd,
@@ -103,6 +110,7 @@ var (
 		"rewound": rewound,
 		"title":   strings.Title,
 		"ascii":   ToASCII,
+		"quoted":  quotedASCII,
 	}
 )
 
@@ -144,6 +152,20 @@ func initZones() {
 // Type s is an alias for []string to generate smaller source code
 type s []string
 
+// Constants to generate smaller source code
+const (
+	t = true
+	f = false
+	e = ""
+)
+
+// Nil variables to generate smaller source code
+var (
+	n []string // == nil
+	nz *Zone // == nil
+	ns []Zone // == nil
+)
+
 // Tags are stored in a single integer as a bit field.
 type Tags {{.TagType}}
 
@@ -179,26 +201,21 @@ var TLDs = z[:{{len .TLDs}}]
 // Other global variables have pointers into this array.
 var z [{{len .Zones}}]Zone
 
-const (
-	t = true
-	f = false
-)
-
 // y and z are separated to fix circular references.
 var y = [{{len .Zones}}]Zone{
 	{{range $d := .Domains}} \
 		{{$z := (index $.Zones $d)}} \
 		{ \
-			"{{ascii $d}}", \
+			{{quoted $d}}, \
 			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
-			{{if $z.ParentDomain}} &z[{{$z.ParentOffset}}] {{else}} nil {{end}}, \
-			{{if $z.SubdomainsEnd}} z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} nil {{end}}, \
-			{{if $z.NameServers}} s{ {{range $z.NameServers}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
-			{{if $z.Wildcards}} s{ {{range $z.Wildcards}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
-			{{if $z.Locations}} s{ {{range $z.Locations}}"{{ascii .}}",{{end}}} {{else}} nil {{end}}, \
-			"{{ascii $z.WhoisServer}}", \
-			"{{ascii $z.WhoisURL}}", \
-			"{{ascii $z.InfoURL}}", \
+			{{if $z.ParentDomain}} &z[{{$z.ParentOffset}}] {{else}} nz {{end}}, \
+			{{if $z.SubdomainsEnd}} z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} ns {{end}}, \
+			{{if $z.NameServers}} s{ {{range $z.NameServers}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
+			{{if $z.Wildcards}} s{ {{range $z.Wildcards}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
+			{{if $z.Locations}} s{ {{range $z.Locations}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
+			{{quoted $z.WhoisServer}}, \
+			{{quoted $z.WhoisURL}}, \
+			{{quoted $z.InfoURL}}, \
 			{{printf "0x%x" $z.TagBits}}, \
 			{{if $z.IDNDisallowed}} f {{else}} t {{end}}, \
 		},
@@ -210,7 +227,7 @@ var ZoneMap = map[string]*Zone{
 	{{range $d := .Domains}}  \
 		{{$z := (index $.Zones $d)}} \
 		{{$o := index $.Offsets $d}} \
-		"{{ascii $d}}": &z[{{$o}}], \
+		{{quoted $d}}: &z[{{$o}}], \
 		{{if $z.IsIDN}}// {{$d}}{{end }}
 	{{end}} \
 }
