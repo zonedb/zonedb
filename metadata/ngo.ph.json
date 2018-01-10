@@ -1,5 +1,8 @@
 {
 	"domain": "ngo.ph",
+	"wildcards": [
+		"203.119.4.201"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

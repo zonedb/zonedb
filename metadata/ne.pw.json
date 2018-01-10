@@ -15,5 +15,8 @@
 		"ns2.4.cn",
 		"ns4.myhostadmin.net",
 		"ns5.myhostadmin.net"
+	],
+	"wildcards": [
+		"23.234.27.209"
 	]
 }

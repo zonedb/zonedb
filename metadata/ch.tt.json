@@ -6,6 +6,9 @@
 		"ns1-show.myhostadmin.net",
 		"ns2-show.myhostadmin.net"
 	],
+	"wildcards": [
+		"23.234.27.209"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

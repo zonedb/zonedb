@@ -15,6 +15,9 @@
 		"tld5.ultradns.info",
 		"tld6.ultradns.co.uk"
 	],
+	"wildcards": [
+		"173.230.131.38"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -5,6 +5,9 @@
 		"ns2.zone.ee",
 		"ns3.zonedata.net"
 	],
+	"wildcards": [
+		"185.7.252.111"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

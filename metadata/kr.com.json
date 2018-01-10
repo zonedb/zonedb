@@ -8,5 +8,8 @@
 		"ns2.namefind.com",
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
+	],
+	"wildcards": [
+		"208.73.211.70"
 	]
 }

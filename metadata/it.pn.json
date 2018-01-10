@@ -14,6 +14,10 @@
 		"ns2.parkingcrew.net",
 		"ns2.sedoparking.com"
 	],
+	"wildcards": [
+		"185.53.178.7",
+		"54.72.9.51"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

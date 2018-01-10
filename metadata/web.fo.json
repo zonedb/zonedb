@@ -8,6 +8,9 @@
 		"us1.rootdomain.net",
 		"us2.rootdomain.net"
 	],
+	"wildcards": [
+		"199.59.242.150"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

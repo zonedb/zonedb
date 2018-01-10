@@ -9,6 +9,9 @@
 		"c.nic.co.nl",
 		"d.nic.co.nl"
 	],
+	"wildcards": [
+		"37.97.184.204"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

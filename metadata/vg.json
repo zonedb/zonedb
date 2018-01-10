@@ -12,6 +12,9 @@
 		"vg-ns.ksregistry.net",
 		"vg.cctld.authdns.ripe.net"
 	],
+	"wildcards": [
+		"88.198.29.97"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -7,6 +7,9 @@
 		"ns1.codrv.net",
 		"ns3.codrv.net"
 	],
+	"wildcards": [
+		"64.136.20.39"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

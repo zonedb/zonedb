@@ -8,5 +8,8 @@
 		"ns2.centralnic.net",
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
+	],
+	"wildcards": [
+		"199.59.242.150"
 	]
 }

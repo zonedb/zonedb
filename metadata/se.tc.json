@@ -10,6 +10,9 @@
 		"ns4.ewing.net.au",
 		"suspended.nic.tc"
 	],
+	"wildcards": [
+		"205.144.171.163"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

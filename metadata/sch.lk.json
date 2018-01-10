@@ -9,6 +9,9 @@
 		"s1.ns.slt.lk",
 		"s2.ns.slt.lk"
 	],
+	"wildcards": [
+		"43.224.127.64"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -13,5 +13,8 @@
 		"ns2.uniregistrymarket.link",
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
+	],
+	"wildcards": [
+		"69.172.201.153"
 	]
 }

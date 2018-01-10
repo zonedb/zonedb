@@ -13,6 +13,9 @@
 		"sec4.apnic.net",
 		"sns-pb.isc.org"
 	],
+	"wildcards": [
+		"203.119.4.201"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
