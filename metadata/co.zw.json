@@ -2,7 +2,9 @@
 	"domain": "co.zw",
 	"nameServers": [
 		"hippo.ru.ac.za",
+		"ns1.liquidtelecom.net",
 		"ns1.zispa.org.zw",
+		"ns2.liquidtelecom.net",
 		"ns3.zispa.org.zw",
 		"ns4.zispa.org.zw",
 		"sns-pba.dm1.sns.isc.org",

@@ -2,7 +2,9 @@
 	"domain": "qb.com",
 	"nameServers": [
 		"f1g1ns1.dnspod.net",
-		"f1g1ns2.dnspod.net"
+		"f1g1ns2.dnspod.net",
+		"hank.ns.cloudflare.com",
+		"jill.ns.cloudflare.com"
 	],
 	"policies": [
 		{

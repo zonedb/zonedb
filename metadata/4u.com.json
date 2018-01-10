@@ -1,0 +1,11 @@
+{
+	"domain": "4u.com",
+	"nameServers": [
+		"ns1.registry-servers.4u.com",
+		"ns2.registry-servers.4u.com",
+		"ns3.registry-servers.4u.com",
+		"ns4.registry-servers.4u.com",
+		"ns5.registry-servers.4u.com",
+		"ns6.registry-servers.4u.com"
+	]
+}

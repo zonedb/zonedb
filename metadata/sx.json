@@ -9,7 +9,9 @@
 	"nameServers": [
 		"a.ns.sx",
 		"b.ns.sx",
-		"c.ns.sx"
+		"c.ns.sx",
+		"ns1.ns.sx",
+		"ns2.ns.sx"
 	],
 	"policies": [
 		{
