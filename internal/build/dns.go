@@ -2,7 +2,10 @@ package build
 
 import (
 	"fmt"
+	"math/rand"
 	"os"
+	"sort"
+	"strings"
 	"sync"
 	"sync/atomic"
 
@@ -71,6 +74,7 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 
 var resolver = dnsr.New(10000)
 
+// FetchNameServers fetches NS records for zones.
 func FetchNameServers(zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zones...\n", len(zones))
 	var found int32
@@ -92,6 +96,7 @@ func FetchNameServers(zones map[string]*Zone) error {
 	return nil
 }
 
+// VerifyNameServers verifies the name servers for zones.
 func VerifyNameServers(zones map[string]*Zone) {
 	color.Fprintf(os.Stderr, "@{.}Verifying name servers for %d zones...\n", len(zones))
 	mapZones(zones, func(z *Zone) {
@@ -115,4 +120,75 @@ func verifyNS(host string) error {
 	Trace("@{.}.")
 	err = CanDial("udp", host+":53")
 	return err
+}
+
+// FindWildcards finds wildcard DNS records for a zone.
+func FindWildcards(zones map[string]*Zone) error {
+	color.Fprintf(os.Stderr, "@{.}Finding wildcard IPs for %d zones...\n", len(zones))
+	var found int32
+	var mu sync.Mutex
+	all := NewSet()
+	mapZones(zones, func(z *Zone) {
+		// Zero out wildcards
+		z.Wildcards = nil
+
+		// Try n random domains unlikely to be registered
+		const n = 8
+		var resolved int
+		ips := NewSet()
+		for i := 0; i < n; i++ {
+			name := randLabel(32) + "." + z.ASCII()
+			rrs := resolver.Resolve(name, "A")
+			for _, rr := range rrs {
+				if rr.Type != "A" || Normalize(rr.Name) != name {
+					continue
+				}
+				ips.Add(Normalize(rr.Value))
+				resolved++
+			}
+			if i > 1 && len(ips) == 0 {
+				break
+			}
+		}
+
+		// Must have resolved at least n/2 domains
+		if resolved < n/2 {
+			return
+		}
+
+		// Record unique IPs
+		atomic.AddInt32(&found, 1)
+		mu.Lock()
+		all.Add(ips.Values()...)
+		mu.Unlock()
+		z.Wildcards = ips.Values()
+	})
+
+	// Make reverse mapping
+	rev := make(map[string][]string)
+	for _, z := range zones {
+		for _, w := range z.Wildcards {
+			rev[w] = append(rev[w], z.Domain)
+		}
+	}
+
+	// Print mapping
+	sorted := all.Values()
+	sort.Strings(sorted)
+	for _, ip := range sorted {
+		color.Fprintf(os.Stderr, "@{.}Found wildcard IP: %s (%s)\n", ip, strings.Join(rev[ip], " "))
+	}
+
+	color.Fprintf(os.Stderr, "@{.}Scanned %d zones with %d unique wildcard IPs (%d zones without)\n",
+		found, len(all), int32(len(zones))-found)
+	return nil
+}
+
+func randLabel(n int) string {
+	const ascii = "0123456789abcdefghijklmnopqrstuvwxyz-"
+	b := make([]byte, n)
+	for i := range b {
+		b[i] = ascii[rand.Int63()%int64(len(ascii))]
+	}
+	return string(b)
 }

@@ -19,6 +19,7 @@ type Zone struct {
 	WhoisServer string   `json:"whoisServer,omitempty"`
 	WhoisURL    string   `json:"whoisURL,omitempty"`
 	NameServers []string `json:"nameServers,omitempty"`
+	Wildcards   []string `json:"wildcards,omitempty"`
 	Policies    []Policy `json:"policies,omitempty"`
 
 	// Transitional
@@ -46,6 +47,7 @@ func (z *Zone) Normalize() {
 	z.Tags = NewSet(tags...).Values()
 	z.NameServers = NewSet(z.NameServers...).Values()
 	sort.Strings(z.NameServers)
+	sort.Strings(z.Wildcards)
 	sort.Strings(z.subdomains)
 	z.normalizePolicies()
 }

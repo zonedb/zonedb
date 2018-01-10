@@ -41,6 +41,7 @@ func main() {
 	removeLocations := flag.String("remove-locations", "", "remove locations from zones (comma-delimited)")
 	updateRoot := flag.Bool("update-root", false, "retrieve updates to the root zone file")
 	updateNS := flag.Bool("update-ns", false, "update name servers")
+	updateWildcards := flag.Bool("update-wildcards", false, "update wildcard IPs")
 	updateRubyWhois := flag.Bool("update-ruby-whois", false, "query Ruby Whois for whois servers")
 	updateWhois := flag.Bool("update-whois", false, "query whois-servers.net for whois servers")
 	updateIANA := flag.Bool("update-iana", false, "query IANA for metadata")
@@ -171,6 +172,13 @@ func main() {
 
 	if *updateNS || *updateAll {
 		err := build.FetchNameServers(workZones)
+		if err != nil {
+			build.LogError(err)
+		}
+	}
+
+	if *updateWildcards || *updateAll {
+		err := build.FindWildcards(workZones)
 		if err != nil {
 			build.LogError(err)
 		}
