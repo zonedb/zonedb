@@ -1404,7 +1404,7 @@ var _y = [4367]Zone{
 	{"spa", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"space", nil, nil, _c[0:6], nil, NS{"a.nic.space", "b.nic.space", "c.nic.space", "d.nic.space"}, nil, "whois.nic.space", "", "http://newgtlds.icann.org/", 0x40},
 	{"spiegel", nil, nil, _c[0:6], nil, NS{"ns2a.ksregistry.com", "ns2b.ksregistry.com", "ns1a.ksregistry.net", "ns1b.ksregistry.net"}, nil, "whois.ksregistry.net", "", "http://newgtlds.icann.org/", 0x42},
-	{"sport", nil, nil, _c[0:6], nil, NS{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
+	{"sport", nil, nil, _c[0:6], nil, NS{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, nil, "whois.nic.sport", "", "http://newgtlds.icann.org/", 0x40},
 	{"sports", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"spot", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.spot", "ns2.dns.nic.spot", "ns3.dns.nic.spot", "ns4.dns.nic.spot", "ns5.dns.nic.spot", "ns6.dns.nic.spot"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"spreadbetting", nil, nil, _c[0:6], nil, NS{"a5.nstld.com", "ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com", "c5.nstld.com", "d5.nstld.com", "f5.nstld.com", "g5.nstld.com", "h5.nstld.com", "l5.nstld.com"}, nil, "whois.nic.spreadbetting", "", "https://bostonivy.co/", 0x40},
