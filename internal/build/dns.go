@@ -145,7 +145,7 @@ func FindWildcards(zones map[string]*Zone) error {
 				}
 				// Ignore ICANN name collisions
 				// https://www.icann.org/resources/pages/name-collision-2013-12-06-en#127.0.53.53
-				if rr.Value == "127.0.53.53" {
+				if rr.Value == dnsr.NameCollision {
 					continue
 				}
 				ips.Add(rr.Value)
