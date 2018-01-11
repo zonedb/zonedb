@@ -10,9 +10,6 @@ func initZones() {
 	z = y
 }
 
-// ASCII code points
-var ascii = []rune("--09az")
-
 // Type s is an alias for []string to generate smaller source code
 type s []string
 
