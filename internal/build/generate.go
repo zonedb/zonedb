@@ -162,8 +162,8 @@ const (
 // Nil variables to generate smaller source code
 var (
 	n []string // == nil
-	nz *Zone // == nil
-	ns []Zone // == nil
+	x []Zone // nil (no subdomains)
+	r *Zone // nil (root zone for TLDs)
 )
 
 // Tags are stored in a single integer as a bit field.
@@ -208,8 +208,8 @@ var y = [{{len .Zones}}]Zone{
 		{ \
 			{{quoted $d}}, \
 			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
-			{{if $z.ParentDomain}} &z[{{$z.ParentOffset}}] {{else}} nz {{end}}, \
-			{{if $z.SubdomainsEnd}} z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} ns {{end}}, \
+			{{if $z.ParentDomain}} &z[{{$z.ParentOffset}}] {{else}} r {{end}}, \
+			{{if $z.SubdomainsEnd}} z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} x {{end}}, \
 			{{if $z.NameServers}} s{ {{range $z.NameServers}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
 			{{if $z.Wildcards}} s{ {{range $z.Wildcards}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
 			{{if $z.Locations}} s{ {{range $z.Locations}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
