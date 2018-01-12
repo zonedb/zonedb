@@ -135,7 +135,7 @@ func FindWildcards(zones map[string]*Zone) error {
 		// Try n random domains unlikely to be registered
 		const n = 8
 		var resolved int
-		ips := NewSet()
+		addrs := NewSet()
 		for i := 0; i < n; i++ {
 			name := randLabel(32) + "." + z.ASCII()
 			rrs := resolver.Resolve(name, "A")
@@ -148,10 +148,10 @@ func FindWildcards(zones map[string]*Zone) error {
 				if rr.Value == dnsr.NameCollision {
 					continue
 				}
-				ips.Add(rr.Value)
+				addrs.Add(rr.Value)
 				resolved++
 			}
-			if i > 1 && len(ips) == 0 {
+			if i > 1 && len(addrs) == 0 {
 				break
 			}
 		}
@@ -161,12 +161,12 @@ func FindWildcards(zones map[string]*Zone) error {
 			return
 		}
 
-		// Record unique IPs
+		// Record unique addrs
 		atomic.AddInt32(&found, 1)
 		mu.Lock()
-		all.Add(ips.Values()...)
+		all.Add(addrs.Values()...)
 		mu.Unlock()
-		z.Wildcards = ips.Values()
+		z.Wildcards = addrs.Values()
 	})
 
 	// Make reverse mapping
@@ -180,11 +180,11 @@ func FindWildcards(zones map[string]*Zone) error {
 	// Print mapping
 	sorted := all.Values()
 	sort.Strings(sorted)
-	for _, ip := range sorted {
-		color.Fprintf(os.Stderr, "@{.}Found wildcard IP: @{w}%s@{.} ← @{c}%s@{.}\n", ip, strings.Join(rev[ip], " "))
+	for _, addr := range sorted {
+		color.Fprintf(os.Stderr, "@{.}Found wildcard: @{w}%s@{.} ← @{c}%s@{.}\n", addr, strings.Join(rev[addr], " "))
 	}
 
-	color.Fprintf(os.Stderr, "@{.}Found %d unique wildcard IP(s) across %d zone(s) (%d not wildcarded)\n",
+	color.Fprintf(os.Stderr, "@{.}Found %d unique wildcard addresses across %d zone(s) (%d not wildcarded)\n",
 		len(all), found, int32(len(zones))-found)
 	return nil
 }
