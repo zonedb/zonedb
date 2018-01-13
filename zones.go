@@ -194,7 +194,7 @@ var _y = [4367]Zone{
 	{"at", nil, _z[1826:1831], nil, nil, NS{"d.ns.at", "j.ns.at", "n.ns.at", "r.ns.at", "u.ns.at", "ns1.univie.ac.at", "ns2.univie.ac.at", "ns9.univie.ac.at"}, nil, "whois.nic.at", "", "http://www.nic.at/", 0xa0},
 	{"athleta", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.athleta", "ns2.dns.nic.athleta", "ns3.dns.nic.athleta", "ns4.dns.nic.athleta", "ns5.dns.nic.athleta", "ns6.dns.nic.athleta"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"attorney", nil, nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.rightside.co", "", "", 0x40},
-	{"au", nil, _z[1831:1851], _c[0:6], nil, NS{"a.au", "b.au", "u.au", "v.au", "w.au", "x.au", "y.au", "z.au"}, nil, "whois.audns.net.au", "", "http://www.auda.org.au/", 0xa8},
+	{"au", nil, _z[1831:1851], _c[0:6], nil, NS{"a.au", "b.au", "q.au", "r.au", "s.au", "t.au", "u.au", "v.au", "w.au", "x.au", "y.au", "z.au"}, nil, "whois.audns.net.au", "", "http://www.auda.org.au/", 0xa8},
 	{"auction", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.unitedtld.com", "", "http://newgtlds.icann.org/", 0x40},
 	{"audi", nil, nil, _c[0:6], nil, NS{"a0.nic.audi", "a2.nic.audi", "b0.nic.audi", "c0.nic.audi"}, nil, "whois.afilias-srs.net", "", "http://newgtlds.icann.org/", 0x42},
 	{"audible", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.audible", "ns2.dns.nic.audible", "ns3.dns.nic.audible", "ns4.dns.nic.audible", "ns5.dns.nic.audible", "ns6.dns.nic.audible"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
