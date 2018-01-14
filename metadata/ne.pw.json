@@ -11,9 +11,13 @@
 		"dns4.iidns.com",
 		"dns5.iidns.com",
 		"dns6.iidns.com",
+		"ns1.myhostadmin.net",
 		"ns1-show.myhostadmin.net",
+		"ns2.myhostadmin.net",
 		"ns2-show.myhostadmin.net",
+		"ns3.myhostadmin.net",
 		"ns4.myhostadmin.net",
-		"ns5.myhostadmin.net"
+		"ns5.myhostadmin.net",
+		"ns6.myhostadmin.net"
 	]
 }
