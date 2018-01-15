@@ -11,7 +11,9 @@
 		"ns2.parkingcrew.net",
 		"ns.udag.net",
 		"ns.udagdns.net",
-		"ns.udag.org"
+		"ns.udag.org",
+		"ns1.be.tc",
+		"ns2.be.tc"
 	],
 	"codePoints": "--09az"
 }

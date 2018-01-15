@@ -3958,7 +3958,7 @@ var _y = [4367]Zone{
 	{"org.sz", &_z[1350], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"at.tc", &_z[1362], _z[4347:4348], _c[0:6], nil, NS{"ns.udagdns.de", "n1.vxns.de", "n2.vxns.de", "ns1.kellygolden.net", "ns2.kellygolden.net", "ns.udagdns.net"}, nil, "", "", "", 0x0},
 	{"au.tc", &_z[1362], _z[4348:4349], _c[0:6], nil, NS{"ns1.above.com", "ns2.above.com", "ns1.parkingcrew.net", "ns2.parkingcrew.net"}, nil, "", "", "", 0x0},
-	{"be.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.above.com", "ns2.above.com", "ns1.nexusmedya.com", "ns2.nexusmedya.com", "ns.udag.de", "ns.udagdns.de", "ns1.parkingcrew.net", "ns2.parkingcrew.net", "ns.udag.net", "ns.udagdns.net", "ns.udag.org"}, nil, "", "", "", 0x0},
+	{"be.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.above.com", "ns2.above.com", "ns1.nexusmedya.com", "ns2.nexusmedya.com", "ns.udag.de", "ns.udagdns.de", "ns1.parkingcrew.net", "ns2.parkingcrew.net", "ns.udag.net", "ns.udagdns.net", "ns.udag.org", "ns1.be.tc", "ns2.be.tc"}, nil, "", "", "", 0x0},
 	{"bg.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.4.cn", "ns2.4.cn", "f1g1ns1.dnspod.net", "f1g1ns2.dnspod.net"}, nil, "", "", "", 0x0},
 	{"biz.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.codrv.net", "ns3.codrv.net", "dns1.freehostservers.net", "dns2.freehostservers.net"}, nil, "", "", "http://www.biz.tc/", 0x0},
 	{"br.tc", &_z[1362], nil, _c[0:6], nil, NS{"ns1.above.com", "ns2.above.com", "ns1.guzelhosting.com", "ns11.guzelhosting.com", "ns12.guzelhosting.com", "ns2.guzelhosting.com", "ns1.parkingcrew.net", "ns2.parkingcrew.net", "default1-tr.nic.tc", "default2-tr.nic.tc"}, nil, "", "", "", 0x0},
