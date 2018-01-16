@@ -1,0 +1,7 @@
+{
+	"domain": "de.cool",
+	"nameServers": [
+		"jake.ns.cloudflare.com",
+		"jill.ns.cloudflare.com"
+	]
+}

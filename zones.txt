@@ -2219,6 +2219,7 @@ uk.com
 us.com
 uy.com
 za.com
+de.cool
 ac.cr
 co.cr
 ed.cr
@@ -2634,12 +2635,22 @@ id.ir
 net.ir
 org.ir
 sch.ir
+ar.it
+av.it
 bz.it
+ca.it
 ch.it
+ci.it
 co.it
 edu.it
 gov.it
 is.it
+na.it
+pc.it
+si.it
+sic.it
+te.it
+ts.it
 co.je
 gov.je
 net.je
@@ -3080,6 +3091,7 @@ gb.net
 hu.net
 in.net
 jp.net
+ru.net
 se.net
 uk.net
 za.net
@@ -3320,6 +3332,7 @@ sch.om
 ae.org
 eu.org
 hk.org
+js.org
 us.org
 za.org
 abo.pa
@@ -3838,6 +3851,7 @@ com.so
 edu.so
 net.so
 org.so
+uber.space
 co.st
 com.st
 consulado.st

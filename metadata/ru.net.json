@@ -1,0 +1,8 @@
+{
+	"domain": "ru.net",
+	"nameServers": [
+		"ns3-geo.nic.ru",
+		"ns4-geo.nic.ru",
+		"ns8-geo.nic.ru"
+	]
+}
