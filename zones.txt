@@ -2635,6 +2635,7 @@ id.ir
 net.ir
 org.ir
 sch.ir
+an.it
 ar.it
 av.it
 bz.it
@@ -2643,10 +2644,13 @@ ch.it
 ci.it
 co.it
 edu.it
+fm.it
 gov.it
 is.it
 na.it
 pc.it
+rg.it
+rm.it
 si.it
 sic.it
 te.it
