@@ -10,6 +10,7 @@
 	],
 	"whoisServer": "joburg-whois.registry.net.za",
 	"nameServers": [
+		"ns2.dns.business",
 		"coza1.dnsnode.net",
 		"ns.coza.net.za",
 		"ns1.coza.net.za"
