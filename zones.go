@@ -2786,7 +2786,7 @@ var _y = [4401]Zone{
 	{"akita.jp", &_z[744], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"aomori.jp", &_z[744], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"chiba.jp", &_z[744], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
-	{"co.jp", &_z[744], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
+	{"co.jp", &_z[744], nil, nil, nil, nil, nil, "", "", "", 0x0},
 	{"ed.jp", &_z[744], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"ehime.jp", &_z[744], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
 	{"fukui.jp", &_z[744], nil, _c[0:6], nil, nil, nil, "", "", "", 0x0},
