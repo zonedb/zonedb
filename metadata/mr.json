@@ -4,6 +4,7 @@
 		"country",
 		"geo"
 	],
+	"whoisServer": "whois.nic.mr",
 	"nameServers": [
 		"censvrns0001.ird.fr",
 		"ns3.nic.fr",
