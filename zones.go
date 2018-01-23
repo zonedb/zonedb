@@ -1200,7 +1200,7 @@ var _y = [4401]Zone{
 	{"piperlime", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"pitney", nil, nil, _c[0:6], nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"pizza", nil, nil, _c[0:6], nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "http://newgtlds.icann.org/", 0x40},
-	{"pk", nil, _z[3387:3402], _c[0:6], nil, NS{"root-s.pknic.pk", "n1.pknic.net.pk", "n2.pknic.net.pk", "ns3.pknic.net.pk"}, nil, "", "http://www.pknic.net.pk/", "", 0xa0},
+	{"pk", nil, _z[3387:3402], _c[0:6], nil, NS{"root-e.pknic.pk", "root-s.pknic.pk", "n1.pknic.net.pk", "n2.pknic.net.pk", "ns3.pknic.net.pk"}, nil, "", "http://www.pknic.net.pk/", "", 0xa0},
 	{"pl", nil, _z[3402:3570], nil, nil, NS{"a-dns.pl", "b-dns.pl", "c-dns.pl", "d-dns.pl", "e-dns.pl", "f-dns.pl", "g-dns.pl", "h-dns.pl", "i-dns.pl"}, nil, "whois.dns.pl", "", "", 0xa0},
 	{"place", nil, nil, nil, nil, NS{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, nil, "whois.donuts.co", "", "", 0x40},
 	{"play", nil, nil, nil, nil, NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, nil, "whois.nic.google", "", "http://newgtlds.icann.org/", 0x40},
