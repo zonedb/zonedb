@@ -232,6 +232,8 @@ func main() {
 		build.VerifyNameServers(workZones)
 	}
 
+	build.CountNameServers(workZones)
+
 	if *verifyWhois {
 		build.VerifyWhois(workZones)
 	}

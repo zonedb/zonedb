@@ -122,6 +122,28 @@ func verifyNS(host string) error {
 	return err
 }
 
+// CountNameServers counts unique name servers for zones.
+func CountNameServers(zones map[string]*Zone) {
+	var found int32
+	var mu sync.Mutex
+	all := NewSet()
+	mapZones(zones, func(z *Zone) {
+		if len(z.NameServers) > 0 {
+			atomic.AddInt32(&found, 1)
+		}
+		for _, ns := range z.NameServers {
+			mu.Lock()
+			all.Add(ns)
+			mu.Unlock()
+		}
+	})
+	// for ns := range all {
+	// 	color.Printf("@{.}%s ", ns)
+	// }
+	// color.Printf("\n")
+	color.Fprintf(os.Stderr, "@{.}Found %d unique DNS servers for %d zone(s)\n", len(all), found)
+}
+
 // FindWildcards finds wildcard DNS records for a zone.
 func FindWildcards(zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Finding wildcard IPs for %d zones...\n", len(zones))
@@ -184,7 +206,7 @@ func FindWildcards(zones map[string]*Zone) error {
 		color.Fprintf(os.Stderr, "@{.}Found wildcard: @{w}%s@{.} ← @{c}%s@{.}\n", addr, strings.Join(rev[addr], " "))
 	}
 
-	color.Fprintf(os.Stderr, "@{.}Found %d unique wildcard addresses across %d zone(s) (%d not wildcarded)\n",
+	color.Fprintf(os.Stderr, "@{.}Found %d unique wildcard addresses for %d zone(s) (%d not wildcarded)\n",
 		len(all), found, int32(len(zones))-found)
 	return nil
 }
