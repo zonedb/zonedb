@@ -1800,7 +1800,7 @@ var _y = [4401]Zone{
 	{"xn--6qq986b3xl" /* 我爱你 */, nil, nil, nil, nil, NS{"a.zdnscloud.com", "b.zdnscloud.com", "c.zdnscloud.com", "d.zdnscloud.com", "e.zdnscloud.com", "f.zdnscloud.com", "g.zdnscloud.com", "i.zdnscloud.com", "j.zdnscloud.com"}, nil, "whois.gtld.knet.cn", "", "http://newgtlds.icann.org/", 0x40},
 	{"xn--kput3i" /* 手机 */, nil, nil, nil, nil, NS{"a0.nic.xn--kput3i", "a2.nic.xn--kput3i", "b0.nic.xn--kput3i", "c0.nic.xn--kput3i"}, nil, "whois.nic.xn--kput3i", "", "http://newgtlds.icann.org/", 0x0},
 	{"xn--kpu716f" /* 手表 */, nil, nil, nil, nil, NS{"ns1.dns.nic.xn--kpu716f", "ns2.dns.nic.xn--kpu716f", "ns3.dns.nic.xn--kpu716f", "ns4.dns.nic.xn--kpu716f", "ns5.dns.nic.xn--kpu716f", "ns6.dns.nic.xn--kpu716f"}, nil, "", "", "http://newgtlds.icann.org/", 0x0},
-	{"xn--otu796d" /* 招聘 */, nil, nil, nil, nil, nil, nil, "", "", "http://newgtlds.icann.org/", 0x2000},
+	{"xn--otu796d" /* 招聘 */, nil, nil, nil, nil, NS{"a.zdnscloud.com", "b.zdnscloud.com", "c.zdnscloud.com", "d.zdnscloud.com", "e.zdnscloud.com", "f.zdnscloud.com", "g.zdnscloud.com", "i.zdnscloud.com", "j.zdnscloud.com"}, nil, "", "", "http://newgtlds.icann.org/", 0x2000},
 	{"xn--zfr164b" /* 政务 */, nil, nil, nil, nil, NS{"ns1.conac.cn", "ns2.conac.cn", "ns3.conac.cn", "ns4.conac.cn", "ns5.conac.cn"}, nil, "whois.conac.cn", "", "http://newgtlds.icann.org/", 0x0},
 	{"xn--mxtq1m" /* 政府 */, nil, nil, nil, nil, NS{"a.nic.xn--mxtq1m", "b.nic.xn--mxtq1m", "c.nic.xn--mxtq1m", "d.nic.xn--mxtq1m"}, nil, "whois.nic.xn--mxtq1m", "", "http://newgtlds.icann.org/", 0x0},
 	{"xn--yfro4i67o" /* 新加坡 */, nil, nil, nil, nil, NS{"sec3.apnic.net", "dsany.sgnic.sg", "dsany2.sgnic.sg", "ns2.cuhk.edu.hk", "sg-ns.anycast.pch.net"}, nil, "whois.sgnic.sg", "", "", 0x40},
