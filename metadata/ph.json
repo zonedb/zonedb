@@ -6,6 +6,7 @@
 	],
 	"whoisURL": "http://www.dot.ph/whois",
 	"nameServers": [
+		"ns4.apnic.net",
 		"sec4.apnic.net",
 		"ph.communitydns.net",
 		"sns-pb.isc.org",
