@@ -1,11 +1,15 @@
 {
 	"domain": "gov.rs",
 	"nameServers": [
+		"dagda1.isp.telekom.rs",
 		"ns1.gov.rs",
-		"ns2.gov.rs",
 		"ns1.nic.rs",
-		"ns3.gov.orion.rs",
-		"dagda1.isp.telekom.rs"
+		"ns2.gov.rs",
+		"ns3.gov.orion.rs"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

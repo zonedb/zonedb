@@ -1,4 +1,8 @@
 {
 	"domain": "co.ug",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"b0.nic.clinique",
 		"c0.nic.clinique"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

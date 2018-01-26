@@ -13,5 +13,9 @@
 		"ns5.dns.nic.jpmorgan",
 		"ns6.dns.nic.jpmorgan"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

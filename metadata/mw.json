@@ -6,11 +6,15 @@
 	],
 	"whoisURL": "http://www.registrar.mw/",
 	"nameServers": [
-		"rip.psg.com",
-		"domwe.sdn.mw",
-		"sec3.apnic.net",
 		"chambo.sdnp.org.mw",
-		"mw.cctld.authdns.ripe.net"
+		"domwe.sdn.mw",
+		"mw.cctld.authdns.ripe.net",
+		"rip.psg.com",
+		"sec3.apnic.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

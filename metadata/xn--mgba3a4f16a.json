@@ -5,7 +5,7 @@
 	],
 	"whoisServer": "whois.nic.ir",
 	"nameServers": [
-		"ns.irnic.ir",
-		"a.nic.ir"
+		"a.nic.ir",
+		"ns.irnic.ir"
 	]
 }

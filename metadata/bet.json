@@ -11,5 +11,9 @@
 		"b0.nic.bet",
 		"c0.nic.bet"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

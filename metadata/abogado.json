@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.nic.abogado",
 	"nameServers": [
+		"a.ns.nic.abogado",
+		"b.ns.nic.abogado",
+		"c.ns.nic.abogado",
+		"d.ns.nic.abogado",
 		"dns1.nic.abogado",
 		"dns2.nic.abogado",
 		"dns3.nic.abogado",
@@ -13,11 +17,11 @@
 		"dnsa.nic.abogado",
 		"dnsb.nic.abogado",
 		"dnsc.nic.abogado",
-		"dnsd.nic.abogado",
-		"a.ns.nic.abogado",
-		"b.ns.nic.abogado",
-		"c.ns.nic.abogado",
-		"d.ns.nic.abogado"
+		"dnsd.nic.abogado"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

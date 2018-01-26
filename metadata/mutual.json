@@ -13,5 +13,9 @@
 		"ns5.dns.nic.mutual",
 		"ns6.dns.nic.mutual"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

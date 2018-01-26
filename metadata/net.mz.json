@@ -1,11 +1,11 @@
 {
 	"domain": "net.mz",
 	"nameServers": [
-		"phloem.uoregon.edu",
 		"anyns.uem.mz",
 		"dzowo.uem.mz",
+		"ns-mz.afrinic.net",
 		"oceano.uem.mz",
-		"zebra.uem.mz",
-		"ns-mz.afrinic.net"
+		"phloem.uoregon.edu",
+		"zebra.uem.mz"
 	]
 }

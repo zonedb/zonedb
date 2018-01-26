@@ -13,5 +13,9 @@
 		"ns4.nic.politie",
 		"ns5.nic.politie"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

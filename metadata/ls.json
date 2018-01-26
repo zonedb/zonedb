@@ -9,12 +9,16 @@
 	"whoisServer": "196.11.175.58",
 	"whoisURL": "http://www.co.ls/co.asp",
 	"nameServers": [
-		"rain.psg.com",
+		"hippo.ru.ac.za",
+		"ls-ns.anycast.pch.net",
+		"ns-ls.afrinic.net",
 		"ns1.nic.ls",
 		"ns2.nic.ls",
-		"ns-ls.afrinic.net",
-		"ls-ns.anycast.pch.net",
-		"hippo.ru.ac.za"
+		"rain.psg.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -8,5 +8,9 @@
 		"Nagano",
 		"JP-20"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -6,18 +6,22 @@
 	],
 	"whoisServer": "whois.nic.mg",
 	"nameServers": [
-		"ns-mg.malagasy.com",
+		"a.mg.dyntld.net",
+		"b.mg.dyntld.net",
 		"censvrns0001.ird.fr",
-		"ns1.ird.fr",
-		"ns.dts.mg",
-		"ns.nic.mg",
+		"mg.cctld.authdns.ripe.net",
 		"mg1.dyntld.net",
 		"mg2.dyntld.net",
 		"mg3.dyntld.net",
 		"mg4.dyntld.net",
-		"a.mg.dyntld.net",
-		"b.mg.dyntld.net",
-		"mg.cctld.authdns.ripe.net"
+		"ns-mg.malagasy.com",
+		"ns.dts.mg",
+		"ns.nic.mg",
+		"ns1.ird.fr"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -11,5 +11,9 @@
 		"c.nic.film",
 		"d.nic.film"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -9,5 +9,9 @@
 		"ns6.dns.net.nz",
 		"ns7.dns.net.nz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

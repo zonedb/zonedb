@@ -12,5 +12,9 @@
 		"b0.nic.reliance",
 		"c0.nic.reliance"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

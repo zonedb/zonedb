@@ -1,10 +1,14 @@
 {
 	"domain": "it.tt",
 	"nameServers": [
-		"ns.east263.com",
 		"f1g1ns1.dnspod.net",
 		"f1g1ns2.dnspod.net",
+		"ns.east263.com",
 		"ns.east263.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

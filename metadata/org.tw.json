@@ -1,17 +1,17 @@
 {
 	"domain": "org.tw",
 	"nameServers": [
-		"anytld.apnic.net",
-		"sec4.apnic.net",
-		"h.dns.tw",
-		"i.dns.tw",
 		"a.twnic.net.tw",
+		"anytld.apnic.net",
 		"b.twnic.net.tw",
 		"c.twnic.net.tw",
 		"d.twnic.net.tw",
 		"e.twnic.net.tw",
 		"f.twnic.net.tw",
 		"g.twnic.net.tw",
-		"h.twnic.net.tw"
+		"h.dns.tw",
+		"h.twnic.net.tw",
+		"i.dns.tw",
+		"sec4.apnic.net"
 	]
 }

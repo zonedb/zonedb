@@ -11,5 +11,9 @@
 		"b0.nic.jio",
 		"c0.nic.jio"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

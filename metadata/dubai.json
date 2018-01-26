@@ -17,5 +17,9 @@
 		"gtld.delta.aridns.net.au",
 		"gtld.gamma.aridns.net.au"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

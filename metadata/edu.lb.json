@@ -1,10 +1,14 @@
 {
 	"domain": "edu.lb",
 	"nameServers": [
-		"rip.psg.com",
-		"lara.aub.edu",
 		"elissa.aub.edu.lb",
+		"lara.aub.edu",
+		"rip.psg.com",
 		"zeina.aub.edu.lb"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

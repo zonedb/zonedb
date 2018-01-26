@@ -1,14 +1,18 @@
 {
 	"domain": "mil.uy",
 	"nameServers": [
-		"ns.dns.br",
-		"ns3.nic.mx",
-		"sns-pb.isc.org",
-		"seciu.edu.uy",
-		"ultra.edu.uy",
 		"a0.uy.afilias-nst.info",
+		"ns.dns.br",
 		"ns1.anteldata.com.uy",
-		"ns2.anteldata.com.uy"
+		"ns2.anteldata.com.uy",
+		"ns3.nic.mx",
+		"seciu.edu.uy",
+		"sns-pb.isc.org",
+		"ultra.edu.uy"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

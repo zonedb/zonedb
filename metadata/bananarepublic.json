@@ -13,5 +13,9 @@
 		"ns5.dns.nic.bananarepublic",
 		"ns6.dns.nic.bananarepublic"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

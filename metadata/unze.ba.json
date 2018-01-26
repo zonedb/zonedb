@@ -1,11 +1,15 @@
 {
 	"domain": "unze.ba",
 	"nameServers": [
-		"pi.unze.ba",
 		"hal.zdk.ba",
-		"robotns3.second-ns.com",
 		"ns1.first-ns.de",
-		"robotns2.second-ns.de"
+		"pi.unze.ba",
+		"robotns2.second-ns.de",
+		"robotns3.second-ns.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

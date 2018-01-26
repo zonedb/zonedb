@@ -1,16 +1,20 @@
 {
 	"domain": "edu.ar",
 	"nameServers": [
-		"ns1.uba.ar",
-		"ns2.uba.ar",
-		"ns2.switch.ch",
 		"a.riu.edu.ar",
 		"b.riu.edu.ar",
-		"ns1.riu.edu.ar",
 		"noc.uncu.edu.ar",
-		"unlp.unlp.edu.ar",
 		"ns1.mrecic.gov.ar",
-		"ns2.mrecic.gov.ar"
+		"ns1.riu.edu.ar",
+		"ns1.uba.ar",
+		"ns2.mrecic.gov.ar",
+		"ns2.switch.ch",
+		"ns2.uba.ar",
+		"unlp.unlp.edu.ar"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

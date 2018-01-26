@@ -4,5 +4,9 @@
 		"ns.nagor.cn",
 		"ns.nagor.com.cn"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

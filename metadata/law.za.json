@@ -1,11 +1,15 @@
 {
 	"domain": "law.za",
 	"nameServers": [
-		"ns0.plig.net",
-		"ns1.law.za",
 		"ns0.is.co.za",
+		"ns0.plig.net",
 		"ns1.coza.net.za",
-		"ns1.dns.net.za"
+		"ns1.dns.net.za",
+		"ns1.law.za"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -4,5 +4,9 @@
 		"ns1.magic.mn",
 		"ns3.magic.mn"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

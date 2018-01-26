@@ -8,9 +8,9 @@
 	"nameServers": [
 		"a.nic.de",
 		"f.nic.de",
-		"z.nic.de",
 		"l.de.net",
 		"n.de.net",
-		"s.de.net"
+		"s.de.net",
+		"z.nic.de"
 	]
 }

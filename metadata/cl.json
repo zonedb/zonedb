@@ -9,8 +9,15 @@
 		"a.nic.cl",
 		"b.nic.cl",
 		"c.nic.cl",
+		"cl-ns.anycast.pch.net",
 		"cl1.dnsnode.net",
-		"sns-pb.isc.org",
-		"cl-ns.anycast.pch.net"
+		"sns-pb.isc.org"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cl_latn_1.0.html"
+		}
 	]
 }

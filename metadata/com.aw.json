@@ -4,5 +4,9 @@
 		"ns1.setarnet.aw",
 		"ns2.setarnet.aw"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

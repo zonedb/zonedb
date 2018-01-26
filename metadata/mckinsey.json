@@ -12,5 +12,9 @@
 		"b0.nic.mckinsey",
 		"c0.nic.mckinsey"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

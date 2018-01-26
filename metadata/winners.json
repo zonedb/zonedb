@@ -12,5 +12,9 @@
 		"ns5.dns.nic.winners",
 		"ns6.dns.nic.winners"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

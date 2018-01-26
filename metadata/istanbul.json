@@ -17,5 +17,9 @@
 		"b0.nic.istanbul",
 		"c0.nic.istanbul"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

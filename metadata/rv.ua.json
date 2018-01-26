@@ -2,12 +2,16 @@
 	"domain": "rv.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"rivne.anycastdns.cz",
+		"cf.rv.ns.ua",
 		"nix.ns.ua",
 		"ns.telcom.net.ua",
 		"ns1.wuicc.net.ua",
-		"cf.rv.ns.ua",
-		"ns2.jb.rv.ua"
+		"ns2.jb.rv.ua",
+		"rivne.anycastdns.cz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -1,4 +1,8 @@
 {
 	"domain": "org.co",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -13,5 +13,9 @@
 		"ns5.dns.nic.pamperedchef",
 		"ns6.dns.nic.pamperedchef"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

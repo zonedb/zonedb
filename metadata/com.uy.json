@@ -2,9 +2,13 @@
 	"domain": "com.uy",
 	"whoisURL": "https://nic.anteldata.com.uy/dns/consultaWhois/whois.action",
 	"nameServers": [
-		"seciu.edu.uy",
 		"ns1.anteldata.com.uy",
-		"ns2.anteldata.com.uy"
+		"ns2.anteldata.com.uy",
+		"seciu.edu.uy"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

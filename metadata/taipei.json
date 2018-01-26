@@ -19,5 +19,9 @@
 		"ns5.dns.nic.taipei",
 		"ns6.dns.nic.taipei"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

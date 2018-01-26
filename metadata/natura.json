@@ -12,5 +12,9 @@
 		"b0.nic.natura",
 		"c0.nic.natura"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

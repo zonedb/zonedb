@@ -1,21 +1,25 @@
 {
 	"domain": "net.py",
 	"nameServers": [
-		"ns.dns.br",
-		"ns2.switch.ch",
-		"ns3.nic.mx",
+		"auth00.ns.uu.net",
 		"b.dns.py",
 		"c.dns.py",
 		"d.dns.py",
 		"l.dns.py",
 		"m.dns.py",
-		"p.dns.py",
-		"r.dns.py",
-		"u.dns.py",
-		"auth00.ns.uu.net",
 		"ns.cnc.una.py",
+		"ns.dns.br",
+		"ns2.switch.ch",
+		"ns3.nic.mx",
+		"p.dns.py",
+		"py.cctld.authdns.ripe.net",
+		"r.dns.py",
 		"sce.cnc.una.py",
-		"py.cctld.authdns.ripe.net"
+		"u.dns.py"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

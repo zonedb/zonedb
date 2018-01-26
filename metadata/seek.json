@@ -12,5 +12,9 @@
 		"c.nic.seek",
 		"d.nic.seek"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

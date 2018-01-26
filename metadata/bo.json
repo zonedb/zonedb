@@ -6,11 +6,15 @@
 	],
 	"whoisServer": "whois.nic.bo",
 	"nameServers": [
-		"utama.bolnet.bo",
-		"ns.nic.bo",
+		"anycast.ns.nic.bo",
 		"ns.dns.br",
+		"ns.nic.bo",
 		"ns2.nic.fr",
-		"anycast.ns.nic.bo"
+		"utama.bolnet.bo"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

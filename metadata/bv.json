@@ -8,8 +8,12 @@
 	"whoisServer": "whois.norid.no",
 	"nameServers": [
 		"nac.no",
-		"server.nordu.net",
-		"nn.uninett.no"
+		"nn.uninett.no",
+		"server.nordu.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

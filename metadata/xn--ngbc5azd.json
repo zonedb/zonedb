@@ -10,5 +10,12 @@
 		"b.nic.شبكة",
 		"c.nic.شبكة",
 		"d.nic.شبكة"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Arab",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--ngbc5azd_arab_1.0.txt"
+		}
 	]
 }

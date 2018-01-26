@@ -7,10 +7,14 @@
 	"whoisServer": "whois.nc",
 	"nameServers": [
 		"any-ns1.nc",
-		"ns1.nc",
-		"ns2.nc",
 		"censvrns0001.ird.fr",
-		"nc.cctld.authdns.ripe.net"
+		"nc.cctld.authdns.ripe.net",
+		"ns1.nc",
+		"ns2.nc"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

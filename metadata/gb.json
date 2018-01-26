@@ -6,9 +6,13 @@
 		"geo"
 	],
 	"nameServers": [
+		"ns.uu.net",
 		"ns0.ja.net",
-		"ns4.ja.net",
-		"ns.uu.net"
+		"ns4.ja.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

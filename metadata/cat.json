@@ -11,13 +11,20 @@
 	],
 	"whoisServer": "whois.nic.cat",
 	"nameServers": [
-		"dnsc.ad",
-		"ns.nic.cat",
-		"switch.nic.cat",
-		"nsc.nic.de",
-		"ns1.nic.es",
 		"anyc1.irondns.net",
 		"cat.pch.net",
-		"sns-pb.isc.org"
+		"dnsc.ad",
+		"ns.nic.cat",
+		"ns1.nic.es",
+		"nsc.nic.de",
+		"sns-pb.isc.org",
+		"switch.nic.cat"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ca",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cat_ca_1.0.html"
+		}
 	]
 }

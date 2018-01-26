@@ -1,10 +1,14 @@
 {
 	"domain": "biz.om",
 	"nameServers": [
-		"ns1.omancloud.com",
-		"ns2.omancloud.com",
 		"ns1.nwns.om",
-		"ns2.nwns.om"
+		"ns1.omancloud.com",
+		"ns2.nwns.om",
+		"ns2.omancloud.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

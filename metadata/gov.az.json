@@ -2,12 +2,16 @@
 	"domain": "gov.az",
 	"nameServers": [
 		"ns1.gov.az",
-		"ns2.gov.az",
-		"ns3.gov.az",
-		"ns4.gov.az",
 		"ns1.online.az",
+		"ns2.gov.az",
 		"ns2.online.az",
-		"ns3.online.az"
+		"ns3.gov.az",
+		"ns3.online.az",
+		"ns4.gov.az"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -1,15 +1,19 @@
 {
 	"domain": "com.gl",
 	"nameServers": [
+		"a.gl.dyntld.net",
+		"a.nuuk.nic.gl",
+		"b.gl.dyntld.net",
 		"b.nic.gl",
 		"d.nic.gl",
 		"gl1.dyntld.net",
 		"gl2.dyntld.net",
 		"gl3.dyntld.net",
-		"gl4.dyntld.net",
-		"a.nuuk.nic.gl",
-		"a.gl.dyntld.net",
-		"b.gl.dyntld.net"
+		"gl4.dyntld.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -4,5 +4,9 @@
 		"sdns2.ovh.net",
 		"vps241916.ovh.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

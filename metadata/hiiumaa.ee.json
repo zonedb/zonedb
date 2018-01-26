@@ -1,9 +1,16 @@
 {
 	"domain": "hiiumaa.ee",
 	"nameServers": [
-		"ns2.zone.ee",
 		"ns.zone.eu",
+		"ns2.zone.ee",
 		"ns3.zonedata.net"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"185.7.252.111"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

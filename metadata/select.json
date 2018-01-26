@@ -12,5 +12,9 @@
 		"c.nic.select",
 		"d.nic.select"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -11,5 +11,13 @@
 		"ns7.centralnic.net",
 		"ns8.centralnic.net"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"52.33.196.199",
+		"54.201.82.69"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

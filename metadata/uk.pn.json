@@ -4,5 +4,9 @@
 		"dean.ns.cloudflare.com",
 		"tess.ns.cloudflare.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -13,5 +13,9 @@
 		"ns5.dns.nic.homesense",
 		"ns6.dns.nic.homesense"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

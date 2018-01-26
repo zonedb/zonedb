@@ -21,5 +21,9 @@
 		"l.root-servers.net",
 		"m.root-servers.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -13,5 +13,9 @@
 		"ns5.dns.nic.skype",
 		"ns6.dns.nic.skype"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

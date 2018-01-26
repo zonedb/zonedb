@@ -1,8 +1,6 @@
 {
 	"domain": "ebiz.tw",
 	"nameServers": [
-		"h.dns.tw",
-		"i.dns.tw",
 		"a.twnic.net.tw",
 		"b.twnic.net.tw",
 		"c.twnic.net.tw",
@@ -10,6 +8,8 @@
 		"e.twnic.net.tw",
 		"f.twnic.net.tw",
 		"g.twnic.net.tw",
-		"h.twnic.net.tw"
+		"h.dns.tw",
+		"h.twnic.net.tw",
+		"i.dns.tw"
 	]
 }

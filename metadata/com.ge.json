@@ -1,8 +1,12 @@
 {
 	"domain": "com.ge",
 	"nameServers": [
-		"ns.nic.ge",
-		"auth02.ns.uu.net"
+		"auth02.ns.uu.net",
+		"ns.nic.ge"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

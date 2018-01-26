@@ -12,5 +12,9 @@
 		"b0.nic.hermes",
 		"c0.nic.hermes"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

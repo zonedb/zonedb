@@ -12,5 +12,9 @@
 		"ns5.dns.nic.tube",
 		"ns6.dns.nic.tube"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

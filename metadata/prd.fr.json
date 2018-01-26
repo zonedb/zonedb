@@ -5,5 +5,9 @@
 		"ns1.renater.fr",
 		"ns2.renater.fr"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

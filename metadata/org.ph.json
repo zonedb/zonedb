@@ -1,4 +1,11 @@
 {
 	"domain": "org.ph",
-	"codePoints": "--09az"
+	"wildcards": [
+		"203.119.4.201"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

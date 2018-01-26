@@ -1,4 +1,8 @@
 {
 	"domain": "pb.ao",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

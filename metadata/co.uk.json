@@ -17,5 +17,9 @@
 		"nsc.nic.uk",
 		"nsd.nic.uk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

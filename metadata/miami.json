@@ -11,6 +11,10 @@
 	],
 	"whoisServer": "whois.nic.miami",
 	"nameServers": [
+		"a.ns.nic.miami",
+		"b.ns.nic.miami",
+		"c.ns.nic.miami",
+		"d.ns.nic.miami",
 		"dns1.nic.miami",
 		"dns2.nic.miami",
 		"dns3.nic.miami",
@@ -18,11 +22,11 @@
 		"dnsa.nic.miami",
 		"dnsb.nic.miami",
 		"dnsc.nic.miami",
-		"dnsd.nic.miami",
-		"a.ns.nic.miami",
-		"b.ns.nic.miami",
-		"c.ns.nic.miami",
-		"d.ns.nic.miami"
+		"dnsd.nic.miami"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

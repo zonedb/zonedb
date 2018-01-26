@@ -43,6 +43,10 @@
 	],
 	"whoisServer": "whois.nic.london",
 	"nameServers": [
+		"a.ns.nic.london",
+		"b.ns.nic.london",
+		"c.ns.nic.london",
+		"d.ns.nic.london",
 		"dns1.nic.london",
 		"dns2.nic.london",
 		"dns3.nic.london",
@@ -50,10 +54,6 @@
 		"dnsa.nic.london",
 		"dnsb.nic.london",
 		"dnsc.nic.london",
-		"dnsd.nic.london",
-		"a.ns.nic.london",
-		"b.ns.nic.london",
-		"c.ns.nic.london",
-		"d.ns.nic.london"
+		"dnsd.nic.london"
 	]
 }

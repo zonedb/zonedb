@@ -7,15 +7,19 @@
 	],
 	"whoisURL": "http://www.nic.gh/customer/search_c.htm",
 	"nameServers": [
-		"ns1.dns.aq",
-		"ns.dns.br",
 		"austin.gh.com",
+		"fork.sth.dnsnode.net",
+		"hippo.ru.ac.za",
 		"mantse.gh.com",
-		"rip.psg.com",
+		"ns.dns.br",
+		"ns1.dns.aq",
 		"ns1.nic.gh",
 		"ns2.nic.gh",
-		"fork.sth.dnsnode.net",
-		"hippo.ru.ac.za"
+		"rip.psg.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

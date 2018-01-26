@@ -2,15 +2,15 @@
 	"domain": "qc.com",
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
+		"ns1.centralnic.net",
+		"ns1.namefind.com",
+		"ns2.centralnic.net",
+		"ns2.namefind.com",
+		"ns3.centralnic.net",
 		"ns31.domaincontrol.com",
 		"ns32.domaincontrol.com",
+		"ns4.centralnic.net",
 		"ns51.domaincontrol.com",
-		"ns52.domaincontrol.com",
-		"ns1.namefind.com",
-		"ns2.namefind.com",
-		"ns1.centralnic.net",
-		"ns2.centralnic.net",
-		"ns3.centralnic.net",
-		"ns4.centralnic.net"
+		"ns52.domaincontrol.com"
 	]
 }

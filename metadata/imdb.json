@@ -13,5 +13,9 @@
 		"ns5.dns.nic.imdb",
 		"ns6.dns.nic.imdb"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

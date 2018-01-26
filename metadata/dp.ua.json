@@ -7,5 +7,9 @@
 		"s2.ns.dp.ua",
 		"s3.ns.dp.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

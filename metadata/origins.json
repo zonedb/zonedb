@@ -12,5 +12,9 @@
 		"b0.nic.origins",
 		"c0.nic.origins"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

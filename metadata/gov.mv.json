@@ -1,10 +1,14 @@
 {
 	"domain": "gov.mv",
 	"nameServers": [
-		"ns.gov.mv",
+		"mv-ns.anycast.pch.net",
 		"ns.dhivehinet.net.mv",
-		"ns2.dhivehinet.net.mv",
-		"mv-ns.anycast.pch.net"
+		"ns.gov.mv",
+		"ns2.dhivehinet.net.mv"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

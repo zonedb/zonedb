@@ -12,5 +12,26 @@
 		"ac3.nstld.com",
 		"ac4.nstld.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_ja_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hang",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hang_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hani",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hani_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hano",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hano_2.5.txt"
+		}
+	]
 }

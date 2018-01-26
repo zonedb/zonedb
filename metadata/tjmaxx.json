@@ -13,5 +13,9 @@
 		"ns5.dns.nic.tjmaxx",
 		"ns6.dns.nic.tjmaxx"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

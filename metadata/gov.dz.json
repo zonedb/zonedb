@@ -1,9 +1,13 @@
 {
 	"domain": "gov.dz",
 	"nameServers": [
+		"casbah.eldjazair.net.dz",
 		"ns1.nic.dz",
-		"ns2.nic.dz",
-		"casbah.eldjazair.net.dz"
+		"ns2.nic.dz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -1,4 +1,8 @@
 {
 	"domain": "nome.cv",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

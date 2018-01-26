@@ -6,10 +6,14 @@
 	],
 	"whoisURL": "http://www.nic.tj/whois.html",
 	"nameServers": [
+		"ns1.nic.tj",
 		"ns2.tojikiston.com",
 		"phloem.uoregon.edu",
-		"ns1.nic.tj",
 		"tj.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

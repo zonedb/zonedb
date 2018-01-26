@@ -6,7 +6,6 @@
 	],
 	"whoisURL": "https://grweb.ics.forth.gr/Whois?lang=en",
 	"nameServers": [
-		"grdns-de.denic.de",
 		"estia.ics.forth.gr",
 		"gr-at.ics.forth.gr",
 		"gr-br.ics.forth.gr",
@@ -14,6 +13,7 @@
 		"gr-d.ics.forth.gr",
 		"gr-ix.ics.forth.gr",
 		"gr-m.ics.forth.gr",
+		"grdns-de.denic.de",
 		"grdns.ics.forth.gr"
 	]
 }

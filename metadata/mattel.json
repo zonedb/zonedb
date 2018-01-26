@@ -13,5 +13,9 @@
 		"ns5.dns.nic.mattel",
 		"ns6.dns.nic.mattel"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

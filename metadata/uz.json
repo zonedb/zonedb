@@ -14,5 +14,9 @@
 		"ns6.uz",
 		"ns7.uz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

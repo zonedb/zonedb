@@ -7,15 +7,15 @@
 	],
 	"whoisServer": "whois.nic.as",
 	"nameServers": [
-		"pch.nic.as",
-		"tld5.ultradns.info",
 		"c.ci-servers.net",
+		"ns99.dns.net.nz",
+		"pch.nic.as",
 		"tld.gdns.net",
 		"tld1.ultradns.net",
 		"tld2.ultradns.net",
 		"tld3.ultradns.org",
 		"tld4.ultradns.org",
-		"ns99.dns.net.nz",
+		"tld5.ultradns.info",
 		"tld6.ultradns.co.uk"
 	]
 }

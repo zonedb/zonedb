@@ -5,5 +5,9 @@
 		"ns2.iif.hu",
 		"ns2.sztaki.hbone.hu"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

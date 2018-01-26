@@ -6,10 +6,14 @@
 	],
 	"whoisServer": "whois.agitsys.net",
 	"nameServers": [
-		"a.pars.dyntld.net",
-		"b.pars.dyntld.net",
 		"a.ns.nic.pars",
-		"b.ns.nic.pars"
+		"a.pars.dyntld.net",
+		"b.ns.nic.pars",
+		"b.pars.dyntld.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

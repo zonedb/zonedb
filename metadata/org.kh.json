@@ -2,11 +2,15 @@
 	"domain": "org.kh",
 	"nameServers": [
 		"anytld.apnic.net",
-		"ns4.apnic.net",
-		"sec3.apnic.net",
-		"ns.camnet.com.kh",
 		"dns1.online.com.kh",
-		"ns1.dns.net.kh"
+		"ns.camnet.com.kh",
+		"ns1.dns.net.kh",
+		"ns4.apnic.net",
+		"sec3.apnic.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

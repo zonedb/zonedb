@@ -4,9 +4,13 @@
 		"retired"
 	],
 	"nameServers": [
+		"antares.wisenet.co.za",
 		"ns1.sn.apc.org",
-		"ns2.sn.apc.org",
-		"antares.wisenet.co.za"
+		"ns2.sn.apc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

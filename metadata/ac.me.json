@@ -4,5 +4,9 @@
 		"ns.ac.me",
 		"ns2.ac.me"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

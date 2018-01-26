@@ -12,5 +12,9 @@
 		"c.nic.saxo",
 		"d.nic.saxo"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

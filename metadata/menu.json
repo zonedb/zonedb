@@ -10,5 +10,9 @@
 		"c.nic.menu",
 		"d.nic.menu"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

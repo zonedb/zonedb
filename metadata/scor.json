@@ -12,5 +12,9 @@
 		"c.nic.scor",
 		"d.nic.scor"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

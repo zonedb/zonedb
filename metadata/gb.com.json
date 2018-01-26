@@ -2,16 +2,19 @@
 	"domain": "gb.com",
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
+		"ns1.centralnic.net",
+		"ns1.uniregistrymarket.link",
 		"ns10.dnsmadeeasy.com",
 		"ns11.dnsmadeeasy.com",
 		"ns12.dnsmadeeasy.com",
 		"ns13.dnsmadeeasy.com",
 		"ns14.dnsmadeeasy.com",
-		"ns1.uniregistrymarket.link",
-		"ns2.uniregistrymarket.link",
-		"ns1.centralnic.net",
 		"ns2.centralnic.net",
+		"ns2.uniregistrymarket.link",
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
+	],
+	"wildcards": [
+		"69.172.201.153"
 	]
 }

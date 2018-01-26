@@ -5,5 +5,12 @@
 		"ns.udag.net",
 		"ns.udag.org"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"89.31.143.1"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

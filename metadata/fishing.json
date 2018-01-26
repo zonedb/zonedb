@@ -5,6 +5,10 @@
 	],
 	"whoisServer": "whois.nic.fishing",
 	"nameServers": [
+		"a.ns.nic.fishing",
+		"b.ns.nic.fishing",
+		"c.ns.nic.fishing",
+		"d.ns.nic.fishing",
 		"dns1.nic.fishing",
 		"dns2.nic.fishing",
 		"dns3.nic.fishing",
@@ -12,10 +16,6 @@
 		"dnsa.nic.fishing",
 		"dnsb.nic.fishing",
 		"dnsc.nic.fishing",
-		"dnsd.nic.fishing",
-		"a.ns.nic.fishing",
-		"b.ns.nic.fishing",
-		"c.ns.nic.fishing",
-		"d.ns.nic.fishing"
+		"dnsd.nic.fishing"
 	]
 }

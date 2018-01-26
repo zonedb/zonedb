@@ -1,10 +1,14 @@
 {
 	"domain": "mil.bj",
 	"nameServers": [
+		"calavi.uac.bj",
 		"emg.mil.bj",
 		"guezo.mil.bj",
-		"calavi.uac.bj",
 		"ns1.uac.bj"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

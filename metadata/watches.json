@@ -12,5 +12,9 @@
 		"ns5.dns.nic.watches",
 		"ns6.dns.nic.watches"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

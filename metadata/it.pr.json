@@ -1,11 +1,15 @@
 {
 	"domain": "it.pr",
 	"nameServers": [
-		"pr-dns.denic.de",
 		"descartes.nic.pr",
 		"golomb.nic.pr",
 		"pascal.nic.pr",
+		"pr-dns.denic.de",
 		"pr-ns.anycast.pch.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"b0.nic.abbvie",
 		"c0.nic.abbvie"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

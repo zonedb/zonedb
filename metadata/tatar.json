@@ -16,5 +16,9 @@
 		"e.dns.ripn.net",
 		"f.dns.ripn.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -11,5 +11,9 @@
 		"b0.nic.latino",
 		"c0.nic.latino"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

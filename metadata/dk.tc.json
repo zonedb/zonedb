@@ -5,5 +5,9 @@
 		"ns2.4.cn",
 		"suspended.nic.tc"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

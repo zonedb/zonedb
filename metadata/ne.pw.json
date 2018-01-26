@@ -1,23 +1,26 @@
 {
 	"domain": "ne.pw",
 	"nameServers": [
-		"ns1.4.cn",
-		"ns2.4.cn",
-		"ns01.yun-ns.cn",
-		"ns02.yun-ns.cn",
 		"dns1.iidns.com",
 		"dns2.iidns.com",
 		"dns3.iidns.com",
 		"dns4.iidns.com",
 		"dns5.iidns.com",
 		"dns6.iidns.com",
-		"ns1.myhostadmin.net",
+		"ns01.yun-ns.cn",
+		"ns02.yun-ns.cn",
 		"ns1-show.myhostadmin.net",
-		"ns2.myhostadmin.net",
+		"ns1.4.cn",
+		"ns1.myhostadmin.net",
 		"ns2-show.myhostadmin.net",
+		"ns2.4.cn",
+		"ns2.myhostadmin.net",
 		"ns3.myhostadmin.net",
 		"ns4.myhostadmin.net",
 		"ns5.myhostadmin.net",
 		"ns6.myhostadmin.net"
+	],
+	"wildcards": [
+		"23.234.27.209"
 	]
 }

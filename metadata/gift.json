@@ -5,16 +5,23 @@
 	],
 	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
-		"tld.isc-sns.com",
-		"tld.isc-sns.info",
-		"ns2.uniregistry.info",
-		"ns4.uniregistry.info",
-		"tld.isc-sns.net",
-		"ns1.uniregistry.net",
-		"ns3.uniregistry.net",
 		"a.gift.dyntld.net",
+		"a.ns.uniregistry.net",
 		"b.gift.dyntld.net",
 		"c.gift.dyntld.net",
-		"a.ns.uniregistry.net"
+		"ns1.uniregistry.net",
+		"ns2.uniregistry.info",
+		"ns3.uniregistry.net",
+		"ns4.uniregistry.info",
+		"tld.isc-sns.com",
+		"tld.isc-sns.info",
+		"tld.isc-sns.net"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/audio_zh_1.0.txt"
+		}
 	]
 }

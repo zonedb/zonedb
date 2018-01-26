@@ -6,5 +6,9 @@
 		"sava.utic.net.ba",
 		"una.utic.net.ba"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

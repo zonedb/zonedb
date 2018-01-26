@@ -6,5 +6,9 @@
 		"ns1.univie.ac.at",
 		"ns2.univie.ac.at"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

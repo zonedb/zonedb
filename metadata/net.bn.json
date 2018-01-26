@@ -1,11 +1,14 @@
 {
 	"domain": "net.bn",
 	"nameServers": [
+		"bn-ns.anycast.pch.net",
 		"ns1.bnnic.bn",
 		"ns2.bnnic.bn",
-		"ns4.apnic.net",
-		"sec4.apnic.net",
-		"bn-ns.anycast.pch.net"
+		"sec4.apnic.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

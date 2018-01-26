@@ -1,15 +1,19 @@
 {
 	"domain": "net.ua",
 	"nameServers": [
-		"sns-pb.isc.org",
+		"ba1.ns.ua",
+		"ho1.net.ua",
+		"nix.ns.ua",
 		"ns.dn.ua",
 		"ns.kh.ua",
-		"ho1.net.ua",
 		"ns.net.ua",
-		"ba1.ns.ua",
-		"nix.ns.ua",
 		"ns.sm.ua",
-		"ns.zp.ua"
+		"ns.zp.ua",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

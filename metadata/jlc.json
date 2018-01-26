@@ -13,5 +13,9 @@
 		"ns5.dns.nic.jlc",
 		"ns6.dns.nic.jlc"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

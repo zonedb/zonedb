@@ -1,9 +1,9 @@
 {
 	"domain": "chernivtsi.ua",
 	"nameServers": [
+		"nix.ns.ua",
 		"ns.cv.ua",
 		"ns.kharkov.ua",
-		"ns2.km.ua",
-		"nix.ns.ua"
+		"ns2.km.ua"
 	]
 }

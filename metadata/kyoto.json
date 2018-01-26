@@ -26,5 +26,9 @@
 		"m.gmoregistry.net",
 		"n.gmoregistry.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

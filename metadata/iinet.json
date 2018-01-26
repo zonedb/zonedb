@@ -12,5 +12,9 @@
 		"c.nic.iinet",
 		"d.nic.iinet"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

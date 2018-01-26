@@ -1,4 +1,8 @@
 {
 	"domain": "veterinaire.km",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

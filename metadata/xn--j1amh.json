@@ -5,9 +5,9 @@
 	],
 	"whoisServer": "whois.dotukr.com",
 	"nameServers": [
-		"dns3.dotukr.com",
 		"dns1.u-registry.com",
 		"dns2.u-registry.net",
+		"dns3.dotukr.com",
 		"nsi.uanic.net",
 		"tier1.num.net.ua"
 	]

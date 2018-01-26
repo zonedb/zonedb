@@ -2,15 +2,19 @@
 	"domain": "com.np",
 	"infoURL": "http://register.mos.com.np/np-ccTLDs",
 	"nameServers": [
-		"ns02.000webhost.com",
+		"np-ns.anycast.pch.net",
+		"np.cctld.authdns.ripe.net",
+		"ns-ext.isc.org",
 		"ns-ext.vix.com",
+		"ns02.000webhost.com",
 		"sec1.apnic.net",
 		"sec3.apnic.net",
-		"ns-ext.isc.org",
-		"yarrina.connect.com.au",
-		"np-ns.anycast.pch.net",
 		"shikhar.mos.com.np",
-		"np.cctld.authdns.ripe.net"
+		"yarrina.connect.com.au"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"c.nic.starhub",
 		"d.nic.starhub"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

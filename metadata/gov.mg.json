@@ -5,5 +5,9 @@
 		"ns1.gov.mg",
 		"ns2.gov.mg"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"b0.nic.zara",
 		"c0.nic.zara"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

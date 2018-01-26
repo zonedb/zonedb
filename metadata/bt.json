@@ -6,14 +6,17 @@
 	],
 	"whoisURL": "http://www.nic.bt/",
 	"nameServers": [
-		"ns1.druknet.bt",
-		"ns2.druknet.bt",
-		"ns3.druknet.bt",
-		"ns.itu.ch",
-		"phloem.uoregon.edu",
 		"auth00.ns.uu.net",
 		"auth61.ns.uu.net",
-		"bt.cctld.authdns.ripe.net"
+		"bt.cctld.authdns.ripe.net",
+		"ns.itu.ch",
+		"ns1.druknet.bt",
+		"ns2.druknet.bt",
+		"ns3.druknet.bt"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -11,5 +11,9 @@
 		"c.nic.rugby",
 		"d.nic.rugby"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -11,5 +11,9 @@
 		"c.nic.theatre",
 		"d.nic.theatre"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -11,5 +11,9 @@
 		"c.nic.cancerresearch",
 		"d.nic.cancerresearch"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

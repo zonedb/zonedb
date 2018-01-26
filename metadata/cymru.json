@@ -25,5 +25,11 @@
 		"ns6.nic.uk",
 		"ns7.nic.uk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "cy",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cymru_cy_1.0.txt"
+		}
+	]
 }

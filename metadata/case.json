@@ -11,5 +11,9 @@
 		"b0.nic.case",
 		"c0.nic.case"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

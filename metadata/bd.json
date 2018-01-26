@@ -8,9 +8,9 @@
 	],
 	"whoisURL": "http://whois.btcl.net.bd/",
 	"nameServers": [
+		"bd-ns.anycast.pch.net",
 		"dns.bd",
 		"jamuna.btcl.net.bd",
-		"surma.btcl.net.bd",
-		"bd-ns.anycast.pch.net"
+		"surma.btcl.net.bd"
 	]
 }

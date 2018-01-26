@@ -13,14 +13,18 @@
 		"j.registry.qa",
 		"k.registry.qa",
 		"l.registry.qa",
-		"ns1.registry.qa",
-		"ns2.registry.qa",
 		"ns1.ausregistry.net.au",
-		"ns2.ausregistry.net.au",
 		"ns1.qatar.net.qa",
+		"ns1.registry.qa",
+		"ns2.ausregistry.net.au",
 		"ns2.qatar.net.qa",
+		"ns2.registry.qa",
 		"ns3.qatar.net.qa",
 		"qa.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

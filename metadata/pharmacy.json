@@ -12,5 +12,9 @@
 		"ns5.dns.nic.pharmacy",
 		"ns6.dns.nic.pharmacy"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

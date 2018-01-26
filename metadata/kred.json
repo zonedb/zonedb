@@ -14,5 +14,9 @@
 		"ns5.dns.nic.kred",
 		"ns6.dns.nic.kred"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

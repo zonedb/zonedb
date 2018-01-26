@@ -9,5 +9,9 @@
 		"ns1.mana.pf",
 		"ns2.mana.pf"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

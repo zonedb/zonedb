@@ -1,13 +1,17 @@
 {
 	"domain": "ne.tz",
 	"nameServers": [
-		"rip.psg.com",
-		"sns-pb.isc.org",
-		"nic.co.tz",
 		"d.ext.nic.cz",
 		"fork.sth.dnsnode.net",
+		"nic.co.tz",
 		"ns.anycast.co.tz",
-		"ns2.tznic.or.tz"
+		"ns2.tznic.or.tz",
+		"rip.psg.com",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

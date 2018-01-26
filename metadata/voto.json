@@ -11,5 +11,9 @@
 		"b0.nic.voto",
 		"c0.nic.voto"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

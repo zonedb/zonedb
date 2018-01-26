@@ -11,5 +11,9 @@
 		"c.gov-servers.net",
 		"d.gov-servers.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

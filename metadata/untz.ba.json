@@ -4,5 +4,9 @@
 		"gradina.untz.ba",
 		"slatina.untz.ba"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

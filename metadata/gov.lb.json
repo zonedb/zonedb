@@ -1,9 +1,13 @@
 {
 	"domain": "gov.lb",
 	"nameServers": [
-		"rip.psg.com",
 		"elissa.aub.edu.lb",
+		"rip.psg.com",
 		"zeina.aub.edu.lb"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

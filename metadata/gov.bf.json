@@ -4,5 +4,9 @@
 		"ntoo.gov.bf",
 		"oubri.gov.bf"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

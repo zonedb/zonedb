@@ -19,5 +19,9 @@
 		"k.registry.qa",
 		"l.registry.qa"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

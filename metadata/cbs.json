@@ -12,5 +12,9 @@
 		"b0.nic.cbs",
 		"c0.nic.cbs"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

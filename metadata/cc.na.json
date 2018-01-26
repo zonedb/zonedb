@@ -6,5 +6,9 @@
 		"dns3.dic.net",
 		"suspended.omadhina.co.na"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

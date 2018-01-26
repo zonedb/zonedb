@@ -6,13 +6,17 @@
 	],
 	"whoisURL": "http://www.cenpac.net.nr/dns/whois.html",
 	"nameServers": [
-		"sns-pb.isc.org",
-		"ns1.net.reach.com",
 		"dns1.cenpac.net.nr",
 		"nrweb.cenpac.net.nr",
 		"ns0.cenpac.net.nr",
 		"ns1.cenpac.net.nr",
-		"ns2.cenpac.net.nr"
+		"ns1.net.reach.com",
+		"ns2.cenpac.net.nr",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

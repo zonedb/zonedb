@@ -12,5 +12,9 @@
 		"b0.nic.hdfc",
 		"c0.nic.hdfc"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

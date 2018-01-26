@@ -1,11 +1,15 @@
 {
 	"domain": "gov.jo",
 	"nameServers": [
-		"rip.psg.com",
 		"amra.nic.gov.jo",
+		"jo.cctld.authdns.ripe.net",
 		"jordan1st.nic.gov.jo",
 		"petra.nic.gov.jo",
-		"jo.cctld.authdns.ripe.net"
+		"rip.psg.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

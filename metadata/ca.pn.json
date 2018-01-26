@@ -1,4 +1,8 @@
 {
 	"domain": "ca.pn",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

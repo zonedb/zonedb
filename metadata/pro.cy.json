@@ -1,15 +1,19 @@
 {
 	"domain": "pro.cy",
 	"nameServers": [
+		"anytld.apnic.net",
+		"cy-ns.anycast.pch.net",
 		"cynic.dns.cy",
 		"cynic4.dns.cy",
-		"anytld.apnic.net",
-		"ns4.apnic.net",
-		"sec3.apnic.net",
 		"ns1.ucy.ac.cy",
 		"ns2.ucy.ac.cy",
 		"ns3.ucy.ac.cy",
-		"cy-ns.anycast.pch.net"
+		"ns4.apnic.net",
+		"sec3.apnic.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

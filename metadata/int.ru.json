@@ -5,5 +5,9 @@
 		"ns2.macomnet.ru",
 		"ns3.macomnet.ru"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

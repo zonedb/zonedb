@@ -13,5 +13,9 @@
 		"ns5.dns.nic.ipiranga",
 		"ns6.dns.nic.ipiranga"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

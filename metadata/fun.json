@@ -11,5 +11,9 @@
 		"c.nic.fun",
 		"d.nic.fun"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

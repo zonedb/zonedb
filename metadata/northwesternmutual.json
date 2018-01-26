@@ -13,5 +13,9 @@
 		"ns5.dns.nic.northwesternmutual",
 		"ns6.dns.nic.northwesternmutual"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

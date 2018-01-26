@@ -12,5 +12,9 @@
 		"c.nic.walter",
 		"d.nic.walter"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

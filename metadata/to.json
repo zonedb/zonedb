@@ -7,14 +7,18 @@
 	],
 	"whoisServer": "whois.tonic.to",
 	"nameServers": [
+		"auth02.ns.uu.net",
 		"colo.to",
-		"tonic.to",
-		"ns1.iafrica.com",
 		"frankfurt.tonic.to",
 		"newyork.tonic.to",
+		"ns1.iafrica.com",
 		"singapore.tonic.to",
-		"auth02.ns.uu.net",
-		"to.cctld.authdns.ripe.net"
+		"to.cctld.authdns.ripe.net",
+		"tonic.to"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

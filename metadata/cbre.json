@@ -13,5 +13,9 @@
 		"ns5.dns.nic.cbre",
 		"ns6.dns.nic.cbre"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

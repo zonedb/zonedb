@@ -7,18 +7,18 @@
 	],
 	"whoisServer": "whois.nic.deloitte",
 	"nameServers": [
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com",
-		"a.nic.deloitte",
-		"b.nic.deloitte",
-		"c.nic.deloitte",
-		"d.nic.deloitte",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
 		"a.ns.nic.deloitte",
 		"c.ns.nic.deloitte",
+		"ns1a.ksregistry.net",
+		"ns1b.ksregistry.net",
+		"ns2a.ksregistry.com",
+		"ns2b.ksregistry.com",
 		"x.ns.nic.deloitte",
 		"y.ns.nic.deloitte"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

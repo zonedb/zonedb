@@ -2,9 +2,16 @@
 	"domain": "fr.tt",
 	"nameServers": [
 		"ns.nagor.cn",
+		"ns.nagor.com.cn",
 		"ns1-show.myhostadmin.net",
-		"ns2-show.myhostadmin.net",
-		"ns.nagor.com.cn"
+		"ns2-show.myhostadmin.net"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"23.234.27.209"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

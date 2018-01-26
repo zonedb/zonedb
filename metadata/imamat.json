@@ -12,5 +12,9 @@
 		"b0.nic.imamat",
 		"c0.nic.imamat"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

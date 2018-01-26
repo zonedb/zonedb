@@ -9,5 +9,9 @@
 		"f.root-servers.nv.com",
 		"g.root-servers.nv.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

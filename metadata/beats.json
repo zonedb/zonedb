@@ -12,5 +12,9 @@
 		"b0.nic.beats",
 		"c0.nic.beats"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

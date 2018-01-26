@@ -2,12 +2,16 @@
 	"domain": "rovno.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"ns2.uar.net",
 		"nix.ns.ua",
-		"ns2.rct.net.ua",
 		"ns.telcom.net.ua",
 		"ns1.wuicc.net.ua",
-		"ns2.jb.rv.ua"
+		"ns2.jb.rv.ua",
+		"ns2.rct.net.ua",
+		"ns2.uar.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

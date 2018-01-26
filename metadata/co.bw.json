@@ -1,16 +1,20 @@
 {
 	"domain": "co.bw",
 	"nameServers": [
-		"ns1.btc.bw",
-		"ns-bw.afrinic.net",
-		"master.btc.net.bw",
 		"dns1.nic.net.bw",
 		"dns2.nic.net.bw",
-		"pch.nic.net.bw",
+		"master.btc.net.bw",
+		"ns-bw.afrinic.net",
+		"ns1.btc.bw",
 		"ns1.p24.dynect.net",
 		"ns2.p24.dynect.net",
 		"ns3.p24.dynect.net",
-		"ns4.p24.dynect.net"
+		"ns4.p24.dynect.net",
+		"pch.nic.net.bw"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

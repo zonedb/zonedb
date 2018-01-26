@@ -4,5 +4,9 @@
 		"a.ms.dyntld.net",
 		"b.ms.dyntld.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

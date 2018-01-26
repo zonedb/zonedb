@@ -4,5 +4,9 @@
 		"nsi1.domains.ph",
 		"nsi2.domains.ph"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

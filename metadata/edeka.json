@@ -12,5 +12,9 @@
 		"b0.nic.edeka",
 		"c0.nic.edeka"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

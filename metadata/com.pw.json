@@ -6,5 +6,9 @@
 		"ns13.xincache.com",
 		"ns14.xincache.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

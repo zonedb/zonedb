@@ -12,5 +12,9 @@
 		"b0.nic.wolterskluwer",
 		"c0.nic.wolterskluwer"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

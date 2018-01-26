@@ -6,12 +6,16 @@
 	],
 	"whoisURL": "http://www.gt/",
 	"nameServers": [
-		"pch.gt",
 		"ns.dns.br",
+		"ns.uvg.edu.gt",
 		"ns3.nic.mx",
 		"osi2.gua.net",
-		"sns-pb.isc.org",
-		"ns.uvg.edu.gt"
+		"pch.gt",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

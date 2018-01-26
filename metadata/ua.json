@@ -7,12 +7,18 @@
 	],
 	"whoisServer": "whois.ua",
 	"nameServers": [
-		"sns-pb.isc.org",
 		"cd1.ns.ua",
 		"he1.ns.ua",
 		"ho1.ns.ua",
 		"pch.ns.ua",
-		"ripe.ns.ua"
+		"ripe.ns.ua",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ua_cyrl_1.2.txt"
+		}
+	]
 }

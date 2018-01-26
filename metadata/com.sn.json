@@ -1,9 +1,13 @@
 {
 	"domain": "com.sn",
 	"nameServers": [
-		"ns.nic.sn",
 		"dns.ucad.sn",
+		"ns.nic.sn",
 		"ns.ucad.sn"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -6,14 +6,18 @@
 	],
 	"whoisServer": "whois.iana.org",
 	"nameServers": [
+		"ns.icann.org",
+		"ns.uu.net",
+		"ns0.ja.net",
+		"ns1.cs.ucl.ac.uk",
+		"sec2.authdns.ripe.net",
 		"x.iana-servers.net",
 		"y.iana-servers.net",
-		"z.iana-servers.net",
-		"ns0.ja.net",
-		"ns.uu.net",
-		"ns.icann.org",
-		"sec2.authdns.ripe.net",
-		"ns1.cs.ucl.ac.uk"
+		"z.iana-servers.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

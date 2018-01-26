@@ -4,5 +4,12 @@
 		"ns1.sedoparking.com",
 		"ns2.sedoparking.com"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"72.52.4.119"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

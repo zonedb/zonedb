@@ -12,5 +12,9 @@
 		"b0.nic.volkswagen",
 		"c0.nic.volkswagen"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

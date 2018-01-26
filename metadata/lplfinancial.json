@@ -7,18 +7,18 @@
 	],
 	"whoisServer": "whois.nic.lplfinancial",
 	"nameServers": [
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com",
-		"a.nic.lplfinancial",
-		"b.nic.lplfinancial",
-		"c.nic.lplfinancial",
-		"d.nic.lplfinancial",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
 		"a.ns.nic.lplfinancial",
 		"c.ns.nic.lplfinancial",
+		"ns1a.ksregistry.net",
+		"ns1b.ksregistry.net",
+		"ns2a.ksregistry.com",
+		"ns2b.ksregistry.com",
 		"x.ns.nic.lplfinancial",
 		"y.ns.nic.lplfinancial"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

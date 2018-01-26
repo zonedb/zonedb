@@ -12,5 +12,9 @@
 		"b0.nic.apple",
 		"c0.nic.apple"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

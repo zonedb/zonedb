@@ -12,5 +12,9 @@
 		"b0.nic.jeep",
 		"c0.nic.jeep"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

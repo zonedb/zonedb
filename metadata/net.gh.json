@@ -1,11 +1,11 @@
 {
 	"domain": "net.gh",
 	"nameServers": [
+		"fork.sth.dnsnode.net",
+		"hippo.ru.ac.za",
 		"ns.dns.br",
-		"rip.psg.com",
 		"ns1.nic.gh",
 		"ns2.nic.gh",
-		"fork.sth.dnsnode.net",
-		"hippo.ru.ac.za"
+		"rip.psg.com"
 	]
 }

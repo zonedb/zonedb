@@ -12,5 +12,9 @@
 		"ns5.dns.nic.baseball",
 		"ns6.dns.nic.baseball"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }
