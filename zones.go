@@ -1179,7 +1179,7 @@ var _y = [4401]Zone{
 	{"pf", nil, _z[3367:3372], _c[0:6], nil, NS{"ns1.mana.pf", "ns2.mana.pf"}, nil, "whois.registry.pf", "", "", 0xa0},
 	{"pfizer", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.pfizer", "ns2.dns.nic.pfizer", "ns3.dns.nic.pfizer", "ns4.dns.nic.pfizer", "ns5.dns.nic.pfizer", "ns6.dns.nic.pfizer"}, nil, "", "", "http://newgtlds.icann.org/", 0x42},
 	{"pg", nil, _z[3372:3378], _c[0:6], nil, NS{"munnari.oz.au", "ns.uu.net", "ns1.unitech.ac.pg", "ns1.tiare.net.pg", "ns2.tiare.net.pg"}, nil, "", "", "", 0xa0},
-	{"ph", nil, _z[3378:3387], _c[0:6], nil, NS{"sec4.apnic.net", "ph.communitydns.net", "sns-pb.isc.org", "1.ns.ph", "ns2.cuhk.edu.hk", "ph.cctld.authdns.ripe.net"}, nil, "", "http://www.dot.ph/whois", "", 0xa0},
+	{"ph", nil, _z[3378:3387], _c[0:6], nil, NS{"ns4.apnic.net", "sec4.apnic.net", "ph.communitydns.net", "sns-pb.isc.org", "1.ns.ph", "ns2.cuhk.edu.hk", "ph.cctld.authdns.ripe.net"}, nil, "", "http://www.dot.ph/whois", "", 0xa0},
 	{"pharmacy", nil, nil, _c[0:6], nil, NS{"ns1.dns.nic.pharmacy", "ns2.dns.nic.pharmacy", "ns3.dns.nic.pharmacy", "ns4.dns.nic.pharmacy", "ns5.dns.nic.pharmacy", "ns6.dns.nic.pharmacy"}, nil, "", "", "http://newgtlds.icann.org/", 0x40},
 	{"phd", nil, nil, _c[0:6], nil, NS{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, nil, "whois.nic.google", "", "http://newgtlds.icann.org/", 0x40},
 	{"philips", nil, nil, _c[0:6], nil, NS{"a.nic.philips", "b.nic.philips", "c.nic.philips", "d.nic.philips"}, nil, "whois.nic.philips", "", "http://newgtlds.icann.org/", 0x42},
