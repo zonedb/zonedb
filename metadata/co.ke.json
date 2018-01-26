@@ -2,12 +2,14 @@
 	"domain": "co.ke",
 	"nameServers": [
 		"b.ns.kenic.co.ke",
+		"b.ns.kenic.or.ke",
 		"b.ns.tznic.or.tz",
 		"kenic.anycastdns.cz",
 		"mzizi.kenic.or.ke",
 		"ns-ke.afrinic.net",
 		"ns.anycast.kenic.or.ke",
-		"ns1.coza.net.za"
+		"ns1.coza.net.za",
+		"ns2.dns.business"
 	],
 	"policies": [
 		{

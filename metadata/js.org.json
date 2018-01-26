@@ -1,0 +1,7 @@
+{
+	"domain": "js.org",
+	"nameServers": [
+		"miles.ns.cloudflare.com",
+		"pam.ns.cloudflare.com"
+	]
+}

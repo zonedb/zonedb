@@ -4,6 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.sport",
+	"nameServers": [
+		"anycast10.irondns.net",
+		"anycast23.irondns.net",
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

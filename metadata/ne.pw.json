@@ -11,10 +11,14 @@
 		"ns02.yun-ns.cn",
 		"ns1-show.myhostadmin.net",
 		"ns1.4.cn",
+		"ns1.myhostadmin.net",
 		"ns2-show.myhostadmin.net",
 		"ns2.4.cn",
+		"ns2.myhostadmin.net",
+		"ns3.myhostadmin.net",
 		"ns4.myhostadmin.net",
-		"ns5.myhostadmin.net"
+		"ns5.myhostadmin.net",
+		"ns6.myhostadmin.net"
 	],
 	"wildcards": [
 		"23.234.27.209"

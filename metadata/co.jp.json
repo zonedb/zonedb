@@ -1,8 +1,0 @@
-{
-	"domain": "co.jp",
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
-	]
-}

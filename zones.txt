@@ -1761,6 +1761,9 @@ net.ae
 org.ae
 pro.ae
 sch.ae
+airport.aero
+cargo.aero
+charter.aero
 bank.af
 com.af
 edu.af
@@ -1990,6 +1993,7 @@ arq.br
 art.br
 ato.br
 b.br
+belem.br
 bio.br
 blog.br
 bmd.br
@@ -2008,6 +2012,7 @@ etc.br
 eti.br
 far.br
 flog.br
+floripa.br
 fm.br
 fnd.br
 fot.br
@@ -2018,6 +2023,7 @@ gov.br
 imb.br
 ind.br
 inf.br
+jampa.br
 jor.br
 jus.br
 lel.br
@@ -2031,6 +2037,7 @@ not.br
 ntr.br
 odo.br
 org.br
+poa.br
 ppg.br
 pro.br
 psc.br
@@ -2038,6 +2045,7 @@ psi.br
 qsl.br
 radio.br
 rec.br
+recife.br
 sec3.br
 slg.br
 srv.br
@@ -2048,6 +2056,7 @@ trd.br
 tur.br
 tv.br
 vet.br
+vix.br
 vlog.br
 wiki.br
 zlg.br
@@ -2210,6 +2219,7 @@ uk.com
 us.com
 uy.com
 za.com
+de.cool
 ac.cr
 co.cr
 ed.cr
@@ -2625,12 +2635,32 @@ id.ir
 net.ir
 org.ir
 sch.ir
+al.it
+an.it
+ar.it
+av.it
+bi.it
 bz.it
+ca.it
 ch.it
+ci.it
 co.it
 edu.it
+fi.it
+fm.it
 gov.it
 is.it
+na.it
+pc.it
+pu.it
+rg.it
+rm.it
+ro.it
+si.it
+sic.it
+te.it
+ts.it
+ve.it
 co.je
 gov.je
 net.je
@@ -3071,6 +3101,7 @@ gb.net
 hu.net
 in.net
 jp.net
+ru.net
 se.net
 uk.net
 za.net
@@ -3311,6 +3342,7 @@ sch.om
 ae.org
 eu.org
 hk.org
+js.org
 us.org
 za.org
 abo.pa
@@ -3829,6 +3861,7 @@ com.so
 edu.so
 net.so
 org.so
+uber.space
 co.st
 com.st
 consulado.st
@@ -4341,6 +4374,7 @@ wa.edu.au
 wireless.keyword.cn
 ltd.co.im
 plc.co.im
+lg.gov.ng
 co.net.nz
 co.at.pn
 com.au.pn
