@@ -2,6 +2,8 @@
 	"domain": "gb.com",
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
+		"ns3.dns.com",
+		"ns4.dns.com",
 		"ns10.dnsmadeeasy.com",
 		"ns11.dnsmadeeasy.com",
 		"ns12.dnsmadeeasy.com",
