@@ -1,6 +1,8 @@
 {
 	"domain": "gov.cx",
 	"nameServers": [
+		"ns.cocca.fr",
+		"ns.coccaregistry.org",
 		"ns.anycast.nic.cx",
 		"a.cx.dyntld.net",
 		"b.cx.dyntld.net"

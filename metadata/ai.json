@@ -5,7 +5,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.nic.ai",
+	"whoisServer": "whois.ai",
 	"nameServers": [
 		"whois.ai",
 		"ns2.offshore.ai",
