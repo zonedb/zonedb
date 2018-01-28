@@ -2,6 +2,8 @@
 	"domain": "net.gy",
 	"nameServers": [
 		"phloem.uoregon.edu",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org",
 		"sns-pb.isc.org",
 		"ns1.gtt.co.gy",
 		"ns2.gtt.co.gy",
