@@ -6,6 +6,8 @@
 	],
 	"whoisServer": "whois.agitsys.net",
 	"nameServers": [
+		"ns.cocca.fr",
+		"ns.coccaregistry.org",
 		"a.shia.dyntld.net",
 		"b.shia.dyntld.net",
 		"a.ns.nic.shia",
