@@ -5,7 +5,9 @@
 	],
 	"nameServers": [
 		"dns.princeton.edu",
+		"ns.cocca.fr",
 		"ns3.nic.fr",
+		"ns.coccaregistry.org",
 		"charles.cdec.polymtl.ca",
 		"a.ht.dyntld.net",
 		"b.ht.dyntld.net",

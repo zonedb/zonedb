@@ -7,6 +7,8 @@
 	],
 	"whoisServer": "whois.agitsys.net",
 	"nameServers": [
+		"ns.cocca.fr",
+		"ns.coccaregistry.org",
 		"a.nowruz.dyntld.net",
 		"b.nowruz.dyntld.net",
 		"a.ns.nic.nowruz",
