@@ -1,6 +1,7 @@
 {
 	"domain": "law.za",
 	"nameServers": [
+		"ns2.dns.business",
 		"ns0.plig.net",
 		"ns1.law.za",
 		"ns0.is.co.za",

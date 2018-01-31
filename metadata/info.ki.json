@@ -1,7 +1,9 @@
 {
 	"domain": "info.ki",
 	"nameServers": [
+		"ns.cocca.fr",
 		"pch.nic.ki",
+		"ns.coccaregistry.org",
 		"sns-pb.isc.org",
 		"a.ki.dyntld.net",
 		"b.ki.dyntld.net"
