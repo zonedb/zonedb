@@ -3,6 +3,8 @@
 	"nameServers": [
 		"a.sb.dyntld.net",
 		"b.sb.dyntld.net",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org",
 		"pch.nic.sb"
 	],
 	"policies": [

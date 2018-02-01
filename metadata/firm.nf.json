@@ -3,7 +3,9 @@
 	"nameServers": [
 		"a.nf.dyntld.net",
 		"b.nf.dyntld.net",
-		"ns.anycast.nic.nf"
+		"ns.anycast.nic.nf",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org"
 	],
 	"policies": [
 		{
