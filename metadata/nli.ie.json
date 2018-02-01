@@ -1,8 +1,5 @@
 {
 	"domain": "nli.ie",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"ns.heanet.ie",
 		"vax1.baker.ie"

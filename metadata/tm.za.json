@@ -1,8 +1,5 @@
 {
 	"domain": "tm.za",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"ns0.is.co.za",
 		"ns1.dnsza.co.za",

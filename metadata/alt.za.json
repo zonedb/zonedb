@@ -1,8 +1,5 @@
 {
 	"domain": "alt.za",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"mumble.proxima.alt.za",
 		"ns1.iafrica.com",

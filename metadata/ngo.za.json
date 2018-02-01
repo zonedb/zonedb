@@ -1,8 +1,5 @@
 {
 	"domain": "ngo.za",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"antares.wisenet.co.za",
 		"ns1.sn.apc.org",

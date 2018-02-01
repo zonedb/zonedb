@@ -1,9 +1,6 @@
 {
 	"domain": "招聘",
 	"infoURL": "http://newgtlds.icann.org/",
-	"tags": [
-		"withdrawn"
-	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

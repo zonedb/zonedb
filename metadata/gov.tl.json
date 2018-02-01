@@ -1,8 +1,5 @@
 {
 	"domain": "gov.tl",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"ns.anycast.nic.tl",
 		"ns.cocca.fr",

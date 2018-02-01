@@ -1,8 +1,5 @@
 {
 	"domain": "eu.int",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"ns1.be.colt.net",
 		"ns1.bt.net",

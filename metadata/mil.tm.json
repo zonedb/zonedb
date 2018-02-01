@@ -1,8 +1,5 @@
 {
 	"domain": "mil.tm",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"webns1.telecom.tm",
 		"webns2.telecom.tm"

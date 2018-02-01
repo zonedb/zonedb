@@ -1,8 +1,5 @@
 {
 	"domain": "grondar.za",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"grandfather.grondar.org",
 		"ns1.iafrica.com",
