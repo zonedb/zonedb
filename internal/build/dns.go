@@ -169,6 +169,11 @@ func CountNameServers(zones map[string]*Zone) {
 	mapZones(zones, func(z *Zone) {
 		if len(z.NameServers) > 0 {
 			atomic.AddInt32(&found, 1)
+			for _, tag := range z.Tags {
+				if tag == "retired" || tag == "withdrawn" {
+					color.Fprintf(os.Stderr, "@{y}Retired/withdrawn zone with active name servers: %s\n", z.Domain)
+				}
+			}
 		}
 		for _, ns := range z.NameServers {
 			mu.Lock()
