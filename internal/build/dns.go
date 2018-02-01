@@ -17,6 +17,7 @@ import (
 
 const rootZoneURL = "https://www.internic.net/domain/root.zone"
 
+// FetchRootZone fetches the IANA root zone file and adds name servers to zones.
 func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 	res, err := Fetch(rootZoneURL)
 	if err != nil {
@@ -25,6 +26,15 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 	defer res.Body.Close()
 
 	color.Fprintf(os.Stderr, "@{.}Parsing %s\n", rootZoneURL)
+
+	// Clear out old name servers for TLDs
+	for _, z := range zones {
+		if !z.IsTLD() {
+			continue
+		}
+		z.oldNameServers = z.NameServers
+		z.NameServers = nil
+	}
 
 	limiter := make(chan struct{}, Concurrency)
 	var wg sync.WaitGroup
@@ -69,6 +79,17 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 	}
 	wg.Wait()
 
+	// Detect retired or withdrawn TLDs
+	for _, z := range zones {
+		if !z.IsTLD() {
+			continue
+		}
+		if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 {
+			color.Fprintf(os.Stderr, "@{y}TLD no longer present in root.zone: @{y!}%s@{y}\n", z.Domain)
+			z.Retire()
+		}
+	}
+
 	return nil
 }
 
@@ -79,6 +100,12 @@ func FetchNameServers(zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zones...\n", len(zones))
 	var found int32
 	mapZones(zones, func(z *Zone) {
+		// Clear out old name servers for non-TLDs
+		if !z.IsTLD() {
+			z.oldNameServers = z.NameServers
+			z.NameServers = nil
+		}
+
 		name := z.ASCII()
 		rrs := resolver.Resolve(name, "NS")
 		for _, rr := range rrs {
@@ -93,6 +120,18 @@ func FetchNameServers(zones map[string]*Zone) error {
 		}
 	})
 	color.Fprintf(os.Stderr, "@{.}Found %d name servers\n", found)
+
+	// Detect retired or withdrawn zones
+	for _, z := range zones {
+		if z.IsTLD() {
+			continue
+		}
+		if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 {
+			color.Fprintf(os.Stderr, "@{y}Zone lost all name servers: @{y!}%s@{y}\n", z.Domain)
+			z.Retire()
+		}
+	}
+
 	return nil
 }
 

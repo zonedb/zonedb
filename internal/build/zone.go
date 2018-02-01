@@ -28,8 +28,9 @@ type Zone struct {
 	IDNTableURLs map[string]string `json:"idnTableURLs,omitempty"`
 
 	// Internal
-	subdomains []string
-	m          sync.Mutex
+	subdomains     []string
+	oldNameServers []string
+	m              sync.Mutex
 
 	// Exported for use in text/template
 	IDNDisallowed                                 bool   `json:"-"`
@@ -157,6 +158,23 @@ func (z *Zone) ParentDomain() string {
 		return ""
 	}
 	return strings.Join(labels[1:], ".")
+}
+
+// IsTLD returns true if z is a TLD.
+func (z *Zone) IsTLD() bool {
+	return !strings.Contains(z.Domain, ".")
+}
+
+// Retire marks a zone as retired or withdrawn.
+func (z *Zone) Retire() {
+	// Brand TLDs are withdrawn, not retired
+	for _, tag := range z.Tags {
+		if tag == "brand" {
+			z.Tags = append(z.Tags, "withdrawn")
+			return
+		}
+	}
+	z.Tags = append(z.Tags, "retired")
 }
 
 // TLDs filters a zone set for top-level domains.
