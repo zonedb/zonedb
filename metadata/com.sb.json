@@ -1,6 +1,8 @@
 {
 	"domain": "com.sb",
 	"nameServers": [
+		"ns.cocca.fr",
+		"ns.coccaregistry.org",
 		"pch.nic.sb",
 		"a.sb.dyntld.net",
 		"b.sb.dyntld.net"

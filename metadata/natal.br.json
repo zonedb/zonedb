@@ -1,0 +1,11 @@
+{
+	"domain": "natal.br",
+	"nameServers": [
+		"a.dns.br",
+		"b.dns.br",
+		"c.dns.br",
+		"d.dns.br",
+		"e.dns.br",
+		"f.dns.br"
+	]
+}

@@ -1,6 +1,8 @@
 {
 	"domain": "store.nf",
 	"nameServers": [
+		"ns.cocca.fr",
+		"ns.coccaregistry.org",
 		"a.nf.dyntld.net",
 		"b.nf.dyntld.net",
 		"ns.anycast.nic.nf"
