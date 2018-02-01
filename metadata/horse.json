@@ -5,10 +5,6 @@
 	],
 	"whoisServer": "whois.nic.horse",
 	"nameServers": [
-		"a.ns.nic.horse",
-		"b.ns.nic.horse",
-		"c.ns.nic.horse",
-		"d.ns.nic.horse",
 		"dns1.nic.horse",
 		"dns2.nic.horse",
 		"dns3.nic.horse",

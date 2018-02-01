@@ -5,17 +5,10 @@
 	],
 	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
-		"a.help.dyntld.net",
-		"a.ns.uniregistry.net",
-		"b.help.dyntld.net",
-		"c.help.dyntld.net",
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns3.uniregistry.net",
-		"ns4.uniregistry.info",
-		"tld.isc-sns.com",
-		"tld.isc-sns.info",
-		"tld.isc-sns.net"
+		"ns4.uniregistry.info"
 	],
 	"policies": [
 		{

@@ -1,10 +1,7 @@
 {
 	"domain": "edu.gd",
-	"nameServers": [
-		"ns1.siteground132.com",
-		"ns1.siteground365.com",
-		"ns2.siteground132.com",
-		"ns2.siteground365.com"
+	"tags": [
+		"retired"
 	],
 	"policies": [
 		{

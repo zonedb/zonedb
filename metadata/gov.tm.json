@@ -1,9 +1,6 @@
 {
 	"domain": "gov.tm",
 	"nameServers": [
-		"ns05.telecom.tm",
-		"ns2.public-root.net",
-		"web2.telecom.tm",
 		"webns.agts.tv",
 		"webns1.telecom.tm",
 		"webns2.telecom.tm"

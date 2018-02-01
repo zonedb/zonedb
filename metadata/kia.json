@@ -8,11 +8,7 @@
 	"whoisServer": "whois.nic.kia",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"a.nic.kia",
 		"b.gmoregistry.net",
-		"b.nic.kia",
-		"c.nic.kia",
-		"d.nic.kia",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],

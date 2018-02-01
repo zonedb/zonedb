@@ -7,8 +7,6 @@
 	],
 	"whoisURL": "http://www.nic.dj/whois.php",
 	"nameServers": [
-		"bow.intnet.dj",
-		"bow.rain.fr",
 		"bow1.intnet.dj",
 		"bow5.intnet.dj",
 		"vps443605.ovh.net"

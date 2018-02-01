@@ -7,14 +7,9 @@
 	],
 	"whoisServer": "whois.nic.museum",
 	"nameServers": [
-		"anyc1.irondns.net",
 		"d.nic.fr",
 		"f.ext.nic.fr",
-		"g.ext.nic.fr",
-		"nic.museum",
-		"ns.icann.org",
-		"ns5.knipp.de",
-		"sns-pb.isc.org"
+		"g.ext.nic.fr"
 	],
 	"policies": [
 		{

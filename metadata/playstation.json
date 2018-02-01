@@ -8,11 +8,7 @@
 	"whoisServer": "whois.nic.playstation",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"a.nic.playstation",
 		"b.gmoregistry.net",
-		"b.nic.playstation",
-		"c.nic.playstation",
-		"d.nic.playstation",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],

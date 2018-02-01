@@ -2,7 +2,6 @@
 	"domain": "int.ni",
 	"nameServers": [
 		"auth01.ns.uu.net",
-		"ns.cr",
 		"ns.ibw.com.ni",
 		"ns.ni",
 		"ns.tmx.com.ni",

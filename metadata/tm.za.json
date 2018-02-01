@@ -7,13 +7,9 @@
 		"ns0.is.co.za",
 		"ns1.dnsza.co.za",
 		"ns1.iafrica.com",
-		"ns1.lolo.co.za",
 		"ns2.iafrica.com",
-		"ns2.lolo.co.za",
-		"ns3.lolo.co.za",
 		"reaper.org",
-		"sticky.spider.web.za",
-		"za-ns.anycast.pch.net"
+		"sticky.spider.web.za"
 	],
 	"policies": [
 		{

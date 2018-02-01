@@ -8,9 +8,6 @@
 	"nameServers": [
 		"dns-fr.dnsafrica.net",
 		"dns-za.dnsafrica.net",
-		"dns.acnic.cg",
-		"dns.dnsafrica.net",
-		"dns.princeton.edu",
 		"sunic.sunet.se"
 	],
 	"policies": [

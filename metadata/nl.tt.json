@@ -1,8 +1,6 @@
 {
 	"domain": "nl.tt",
 	"nameServers": [
-		"ns.nagor.cn",
-		"ns.nagor.com.cn",
 		"ns1-show.myhostadmin.net",
 		"ns2-show.myhostadmin.net"
 	],

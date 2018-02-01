@@ -2,8 +2,7 @@
 	"domain": "mil.lv",
 	"nameServers": [
 		"ns1.mil.lv",
-		"ns2.mil.lv",
-		"ns4.mil.lv"
+		"ns2.mil.lv"
 	],
 	"policies": [
 		{

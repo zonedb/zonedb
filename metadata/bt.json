@@ -8,11 +8,11 @@
 	"nameServers": [
 		"auth00.ns.uu.net",
 		"auth61.ns.uu.net",
-		"bt.cctld.authdns.ripe.net",
 		"ns.itu.ch",
 		"ns1.druknet.bt",
 		"ns2.druknet.bt",
-		"ns3.druknet.bt"
+		"ns3.druknet.bt",
+		"phloem.uoregon.edu"
 	],
 	"policies": [
 		{

@@ -1,9 +1,7 @@
 {
 	"domain": "dk.tc",
-	"nameServers": [
-		"ns1.4.cn",
-		"ns2.4.cn",
-		"suspended.nic.tc"
+	"tags": [
+		"retired"
 	],
 	"policies": [
 		{

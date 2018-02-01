@@ -2,8 +2,7 @@
 	"domain": "edu.sb",
 	"nameServers": [
 		"a.sb.dyntld.net",
-		"b.sb.dyntld.net",
-		"pch.nic.sb"
+		"b.sb.dyntld.net"
 	],
 	"policies": [
 		{

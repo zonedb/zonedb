@@ -3,20 +3,7 @@
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"f1g1ns1.dnspod.net",
-		"f1g1ns2.dnspod.net",
-		"ns1.centralnic.net",
-		"ns1.uniregistrymarket.link",
-		"ns10.dnsmadeeasy.com",
-		"ns11.dnsmadeeasy.com",
-		"ns12.dnsmadeeasy.com",
-		"ns13.dnsmadeeasy.com",
-		"ns14.dnsmadeeasy.com",
-		"ns2.centralnic.net",
-		"ns2.uniregistrymarket.link",
-		"ns3.centralnic.net",
-		"ns3.dns.com",
-		"ns4.centralnic.net",
-		"ns4.dns.com"
+		"f1g1ns2.dnspod.net"
 	],
 	"wildcards": [
 		"69.172.201.153"

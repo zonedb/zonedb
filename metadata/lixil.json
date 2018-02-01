@@ -8,11 +8,7 @@
 	"whoisServer": "whois.nic.lixil",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"a.nic.lixil",
 		"b.gmoregistry.net",
-		"b.nic.lixil",
-		"c.nic.lixil",
-		"d.nic.lixil",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],

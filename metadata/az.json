@@ -8,7 +8,6 @@
 	"whoisURL": "http://www.nic.az/",
 	"nameServers": [
 		"az.hostmaster.ua",
-		"ns.demos.su",
 		"rip.psg.com"
 	],
 	"policies": [

@@ -7,9 +7,7 @@
 	"whoisServer": "whois.agitsys.net",
 	"nameServers": [
 		"a.ns.nic.pars",
-		"a.pars.dyntld.net",
 		"b.ns.nic.pars",
-		"b.pars.dyntld.net",
 		"ns.cocca.fr",
 		"ns.coccaregistry.org"
 	],

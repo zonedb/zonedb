@@ -2,10 +2,6 @@
 	"domain": "在线",
 	"whoisServer": "whois.teleinfo.cn",
 	"nameServers": [
-		"a0.nic.在线",
-		"a2.nic.在线",
-		"b0.nic.在线",
-		"c0.nic.在线",
 		"ns1.teleinfo.cn",
 		"ns2.teleinfoo.com",
 		"ns3.teleinfo.cn",

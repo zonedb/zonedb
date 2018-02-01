@@ -2,8 +2,6 @@
 	"domain": "net.ni",
 	"nameServers": [
 		"auth01.ns.uu.net",
-		"dns.nic.cr",
-		"ns.cr",
 		"ns.ibw.com.ni",
 		"ns.ideay.net.ni",
 		"ns.ni",

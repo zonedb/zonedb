@@ -8,11 +8,7 @@
 	"whoisServer": "whois.nic.firestone",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"a.nic.firestone",
 		"b.gmoregistry.net",
-		"b.nic.firestone",
-		"c.nic.firestone",
-		"d.nic.firestone",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],

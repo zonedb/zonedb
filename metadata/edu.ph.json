@@ -2,8 +2,7 @@
 	"domain": "edu.ph",
 	"nameServers": [
 		"gabriela.ph.net",
-		"gomez.ph.net",
-		"ns.skyinet.net"
+		"gomez.ph.net"
 	],
 	"policies": [
 		{

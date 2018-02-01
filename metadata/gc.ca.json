@@ -3,8 +3,6 @@
 	"nameServers": [
 		"dns1.nrc.ca",
 		"dns2.nrc.ca",
-		"gocns-kedc.gc.ca",
-		"gocns-pdp.gc.ca",
 		"ns1.d-zone.ca",
 		"ns2.d-zone.ca"
 	],

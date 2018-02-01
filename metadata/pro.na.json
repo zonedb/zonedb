@@ -1,10 +1,7 @@
 {
 	"domain": "pro.na",
-	"nameServers": [
-		"dns1.dic.net",
-		"dns2.dic.net",
-		"dns3.dic.net",
-		"suspended.omadhina.co.na"
+	"tags": [
+		"retired"
 	],
 	"policies": [
 		{

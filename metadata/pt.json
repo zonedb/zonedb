@@ -7,15 +7,11 @@
 	"whoisServer": "whois.dns.pt",
 	"nameServers": [
 		"a.dns.pt",
-		"auth200.ns.uu.net",
-		"auth210.ns.uu.net",
 		"b.dns.pt",
 		"c.dns.pt",
 		"d.dns.pt",
 		"e.dns.pt",
-		"ns-pt.nlnetlabs.nl",
 		"ns.dns.br",
-		"ns.dns.pt",
 		"ns2.dns.pt",
 		"ns2.nic.fr",
 		"sns-pb.isc.org"

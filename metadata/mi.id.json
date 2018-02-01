@@ -1,7 +1,6 @@
 {
 	"domain": "mi.id",
-	"nameServers": [
-		"ns1.sedoparking.com",
-		"ns2.sedoparking.com"
+	"tags": [
+		"retired"
 	]
 }

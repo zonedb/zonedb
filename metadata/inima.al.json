@@ -2,8 +2,6 @@
 	"domain": "inima.al",
 	"nameServers": [
 		"bato.host.al",
-		"ns3.shqiphost.com",
-		"ns4.shqiphost.com",
 		"ren.host.al"
 	],
 	"policies": [

@@ -2,8 +2,7 @@
 	"domain": "org.ml",
 	"nameServers": [
 		"djamako.nic.ml",
-		"dns.gouv.ml",
-		"ns1.ribtelecom.net"
+		"dns.gouv.ml"
 	],
 	"policies": [
 		{

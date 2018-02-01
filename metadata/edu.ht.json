@@ -1,10 +1,7 @@
 {
 	"domain": "edu.ht",
 	"nameServers": [
-		"a.ht.dyntld.net",
-		"b.ht.dyntld.net",
 		"charles.cdec.polymtl.ca",
-		"dns.princeton.edu",
 		"ht-ns.anycast.pch.net",
 		"ns.cocca.fr",
 		"ns.coccaregistry.org",

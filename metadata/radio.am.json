@@ -4,11 +4,7 @@
 		"a.nic.fm",
 		"b.nic.fm",
 		"c.nic.fm",
-		"d.nic.fm",
-		"ns1.p15.dynect.net",
-		"ns2.p15.dynect.net",
-		"ns3.p15.dynect.net",
-		"ns4.p15.dynect.net"
+		"d.nic.fm"
 	],
 	"policies": [
 		{

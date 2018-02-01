@@ -10,8 +10,7 @@
 		"b.aq.dyntld.net",
 		"fork.sth.dnsnode.net",
 		"ns1.dns.aq",
-		"ns99.dns.net.nz",
-		"sns-pb.isc.org"
+		"ns99.dns.net.nz"
 	],
 	"policies": [
 		{

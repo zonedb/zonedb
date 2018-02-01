@@ -3,15 +3,10 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"whoisServer": "whois.afilias-srs.net",
-	"nameServers": [
-		"a0.nic.orientexpress",
-		"a2.nic.orientexpress",
-		"b0.nic.orientexpress",
-		"c0.nic.orientexpress"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

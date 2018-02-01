@@ -7,8 +7,6 @@
 	"nameServers": [
 		"a.thains.co.th",
 		"b.thains.co.th",
-		"dns1.thnic.co.th",
-		"ns-a.thnic.co.th",
 		"ns.thnic.net"
 	]
 }

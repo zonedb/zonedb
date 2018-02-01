@@ -8,7 +8,6 @@
 	"whoisServer": "whois.nic.gdn",
 	"nameServers": [
 		"ns1.nic.gdn",
-		"ns2.nic.gdn",
 		"ns3.nic.gdn",
 		"ns4.nic.gdn"
 	],

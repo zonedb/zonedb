@@ -1,7 +1,6 @@
 {
 	"domain": "ac.ru",
 	"nameServers": [
-		"dns.princeton.edu",
 		"ns-soa.darenet.dk",
 		"ns1.free.net",
 		"ns2.free.net"

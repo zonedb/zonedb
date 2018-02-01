@@ -2,12 +2,7 @@
 	"domain": "minsk.by",
 	"nameServers": [
 		"a1.domain.by",
-		"a2.domain.by",
-		"ns1.domain.by",
-		"ns1.minsk.by",
-		"ns1.open.by",
-		"ns2.domain.by",
-		"ns2.open.by"
+		"a2.domain.by"
 	],
 	"policies": [
 		{

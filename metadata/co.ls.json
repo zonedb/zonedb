@@ -3,13 +3,8 @@
 	"nameServers": [
 		"ls-ns.anycast.pch.net",
 		"ns-ls.afrinic.net",
-		"ns1.leo.co.ls",
 		"ns1.nic.ls",
-		"ns1.pch.net",
-		"ns2.leo.co.ls",
-		"ns2.nic.ls",
-		"ns3.leo.co.ls",
-		"sas.leo.co.ls"
+		"ns2.nic.ls"
 	],
 	"policies": [
 		{

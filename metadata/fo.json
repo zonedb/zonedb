@@ -7,13 +7,9 @@
 	"whoisServer": "whois.nic.fo",
 	"nameServers": [
 		"a.nic.fo",
-		"arnhem.nic.fo",
 		"b.nic.fo",
 		"c.nic.fo",
-		"copenhagen.nic.fo",
-		"d.nic.fo",
-		"frankfurt.nic.fo",
-		"pch.nic.fo"
+		"d.nic.fo"
 	],
 	"policies": [
 		{

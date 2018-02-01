@@ -2,9 +2,7 @@
 	"domain": "com.ki",
 	"nameServers": [
 		"a.ki.dyntld.net",
-		"b.ki.dyntld.net",
-		"pch.nic.ki",
-		"sns-pb.isc.org"
+		"b.ki.dyntld.net"
 	],
 	"policies": [
 		{

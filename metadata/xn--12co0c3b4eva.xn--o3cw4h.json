@@ -2,9 +2,6 @@
 	"domain": "ธุรกิจ.ไทย",
 	"nameServers": [
 		"a.thains.co.th",
-		"b.thains.co.th",
-		"dns1.thnic.co.th",
-		"ns-a.thnic.co.th",
-		"ns-f.thnic.co.th"
+		"b.thains.co.th"
 	]
 }

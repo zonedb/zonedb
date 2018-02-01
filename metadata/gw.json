@@ -8,8 +8,6 @@
 	"nameServers": [
 		"gw01.dns.pt",
 		"gw03.dns.pt",
-		"ns4.dns.pt",
-		"phobos.fccn.pt",
 		"sns-pb.isc.org"
 	],
 	"policies": [

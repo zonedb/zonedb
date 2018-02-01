@@ -1,8 +1,6 @@
 {
 	"domain": "edu.cu",
 	"nameServers": [
-		"admin.authdns.ripe.net",
-		"canada.cuba.cu",
 		"cu.cctld.authdns.ripe.net",
 		"ns.ceniai.net.cu",
 		"ns.citmatel.com.cu",

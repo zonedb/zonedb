@@ -1,8 +1,7 @@
 {
 	"domain": "fr.pn",
-	"nameServers": [
-		"ns1.idnscan.net",
-		"ns2.idnscan.net"
+	"tags": [
+		"retired"
 	],
 	"policies": [
 		{

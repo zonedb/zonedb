@@ -1,7 +1,6 @@
 {
 	"domain": "go.id",
 	"nameServers": [
-		"a.dns.id",
 		"b.dns.id",
 		"c.dns.id",
 		"d.dns.id",

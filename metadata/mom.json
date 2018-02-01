@@ -6,9 +6,6 @@
 	],
 	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
-		"a.mom.dyntld.net",
-		"b.mom.dyntld.net",
-		"c.mom.dyntld.net",
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns3.uniregistry.net",

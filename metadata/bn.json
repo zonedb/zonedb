@@ -10,7 +10,7 @@
 		"bn-ns.anycast.pch.net",
 		"ns1.bnnic.bn",
 		"ns2.bnnic.bn",
-		"sec4.apnic.net"
+		"ns4.apnic.net"
 	],
 	"policies": [
 		{

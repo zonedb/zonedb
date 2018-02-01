@@ -8,11 +8,7 @@
 	"whoisServer": "whois.nic.toray",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"a.nic.toray",
 		"b.gmoregistry.net",
-		"b.nic.toray",
-		"c.nic.toray",
-		"d.nic.toray",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],

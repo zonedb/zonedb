@@ -1,14 +1,8 @@
 {
 	"domain": "com.so",
 	"nameServers": [
-		"a.nic.so",
-		"b.nic.so",
-		"c.nic.so",
 		"d.nic.so",
-		"e.nic.so",
-		"g.gmoregistry.net",
-		"h.gmoregistry.net",
-		"i.gmoregistry.net"
+		"e.nic.so"
 	],
 	"policies": [
 		{

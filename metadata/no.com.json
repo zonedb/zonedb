@@ -3,11 +3,7 @@
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns1.bodis.com",
-		"ns1.centralnic.net",
-		"ns2.bodis.com",
-		"ns2.centralnic.net",
-		"ns3.centralnic.net",
-		"ns4.centralnic.net"
+		"ns2.bodis.com"
 	],
 	"wildcards": [
 		"199.59.242.150"

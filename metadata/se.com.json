@@ -2,13 +2,9 @@
 	"domain": "se.com",
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
-		"ns1.centralnic.net",
 		"ns1.perf1.com",
-		"ns2.centralnic.net",
 		"ns2.perf1.fr",
-		"ns3.centralnic.net",
 		"ns3.perf1.eu",
-		"ns4.centralnic.net",
 		"ns4.perf1.de",
 		"ns5.perf1.asia"
 	]

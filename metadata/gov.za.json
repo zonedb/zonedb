@@ -2,7 +2,6 @@
 	"domain": "gov.za",
 	"whoisServer": "whois.gov.za",
 	"nameServers": [
-		"hippo.ru.ac.za",
 		"ns1.gov.za",
 		"ns1.inx.net.za",
 		"ns2.gov.za",

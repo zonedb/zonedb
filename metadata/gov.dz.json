@@ -1,7 +1,6 @@
 {
 	"domain": "gov.dz",
 	"nameServers": [
-		"casbah.eldjazair.net.dz",
 		"ns1.nic.dz",
 		"ns2.nic.dz"
 	],

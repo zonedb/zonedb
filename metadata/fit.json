@@ -6,10 +6,6 @@
 	],
 	"whoisServer": "whois.nic.fit",
 	"nameServers": [
-		"a.ns.nic.fit",
-		"b.ns.nic.fit",
-		"c.ns.nic.fit",
-		"d.ns.nic.fit",
 		"dns1.nic.fit",
 		"dns2.nic.fit",
 		"dns3.nic.fit",

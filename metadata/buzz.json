@@ -10,8 +10,7 @@
 		"ns3.dns.nic.buzz",
 		"ns4.dns.nic.buzz",
 		"ns5.dns.nic.buzz",
-		"ns6.dns.nic.buzz",
-		"ns7.dns.nic.buzz"
+		"ns6.dns.nic.buzz"
 	],
 	"policies": [
 		{

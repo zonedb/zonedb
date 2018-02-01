@@ -3,15 +3,8 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"brand",
-		"generic"
-	],
-	"nameServers": [
-		"ns1.dns.nic.mcdonalds",
-		"ns2.dns.nic.mcdonalds",
-		"ns3.dns.nic.mcdonalds",
-		"ns4.dns.nic.mcdonalds",
-		"ns5.dns.nic.mcdonalds",
-		"ns6.dns.nic.mcdonalds"
+		"generic",
+		"withdrawn"
 	],
 	"policies": [
 		{

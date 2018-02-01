@@ -2,8 +2,6 @@
 	"domain": "ac.mw",
 	"nameServers": [
 		"chambo.sdnp.org.mw",
-		"domwe.leland-mw.org",
-		"domwe.sdn.mw",
 		"mw.cctld.authdns.ripe.net",
 		"rip.psg.com",
 		"sec3.apnic.net"

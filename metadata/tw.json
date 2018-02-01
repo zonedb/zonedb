@@ -16,8 +16,7 @@
 		"g.dns.tw",
 		"h.dns.tw",
 		"i.dns.tw",
-		"ns.twnic.net",
-		"sec4.apnic.net"
+		"ns.twnic.net"
 	],
 	"policies": [
 		{

@@ -2,8 +2,7 @@
 	"domain": "edu.tt",
 	"nameServers": [
 		"ns1.edu.tt",
-		"ns2.edu.tt",
-		"ns3.edu.tt"
+		"ns2.edu.tt"
 	],
 	"policies": [
 		{

@@ -3,15 +3,8 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"brand",
-		"generic"
-	],
-	"nameServers": [
-		"ns1.dns.nic.pamperedchef",
-		"ns2.dns.nic.pamperedchef",
-		"ns3.dns.nic.pamperedchef",
-		"ns4.dns.nic.pamperedchef",
-		"ns5.dns.nic.pamperedchef",
-		"ns6.dns.nic.pamperedchef"
+		"generic",
+		"withdrawn"
 	],
 	"policies": [
 		{

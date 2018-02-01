@@ -5,10 +5,7 @@
 		"ns-root-1.scpt-network.com",
 		"ns-root-2.scpt-network.com",
 		"ns-root-5.scpt-network.com",
-		"ns1.webnetafrica.net",
-		"ns2.webnetafrica.net",
-		"sabela.saix.net",
-		"sangoma.saix.net"
+		"sabela.saix.net"
 	],
 	"policies": [
 		{

@@ -1,7 +1,6 @@
 {
 	"domain": "gov.cy",
 	"nameServers": [
-		"cynic.dns.cy",
 		"cynic4.dns.cy",
 		"dns.cit.cornell.edu",
 		"ns01.gov.cy",

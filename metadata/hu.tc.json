@@ -1,9 +1,7 @@
 {
 	"domain": "hu.tc",
-	"nameServers": [
-		"server1.domainnameinquiry.com",
-		"server2.domainnameinquiry.com",
-		"suspended.nic.tc"
+	"tags": [
+		"retired"
 	],
 	"policies": [
 		{

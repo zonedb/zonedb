@@ -3,10 +3,7 @@
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
 		"nix.ns.ua",
-		"ns.bit.te.ua",
-		"ns.bit.ternopil.ua",
 		"ns.dn.ua",
-		"ns.lucky.net",
 		"ns.te.ua",
 		"ns2.km.ua",
 		"ns2.uar.net"

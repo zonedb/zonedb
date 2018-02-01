@@ -1,7 +1,6 @@
 {
 	"domain": "net.cy",
 	"nameServers": [
-		"anytld.apnic.net",
 		"cy-ns.anycast.pch.net",
 		"cynic.dns.cy",
 		"cynic4.dns.cy",
@@ -10,8 +9,7 @@
 		"ns1.ucy.ac.cy",
 		"ns2.ucy.ac.cy",
 		"ns3.ucy.ac.cy",
-		"ns4.apnic.net",
-		"sec3.apnic.net"
+		"ns4.apnic.net"
 	],
 	"policies": [
 		{

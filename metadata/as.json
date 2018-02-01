@@ -10,12 +10,6 @@
 		"c.ci-servers.net",
 		"ns99.dns.net.nz",
 		"pch.nic.as",
-		"tld.gdns.net",
-		"tld1.ultradns.net",
-		"tld2.ultradns.net",
-		"tld3.ultradns.org",
-		"tld4.ultradns.org",
-		"tld5.ultradns.info",
-		"tld6.ultradns.co.uk"
+		"tld.gdns.net"
 	]
 }

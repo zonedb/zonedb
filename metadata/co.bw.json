@@ -5,11 +5,6 @@
 		"dns2.nic.net.bw",
 		"master.btc.net.bw",
 		"ns-bw.afrinic.net",
-		"ns1.btc.bw",
-		"ns1.p24.dynect.net",
-		"ns2.p24.dynect.net",
-		"ns3.p24.dynect.net",
-		"ns4.p24.dynect.net",
 		"pch.nic.net.bw"
 	],
 	"policies": [

@@ -1,8 +1,6 @@
 {
 	"domain": "mx.tc",
 	"nameServers": [
-		"dns.site5.com",
-		"dns2.site5.com",
 		"ns1.dreamhost.com",
 		"ns2.dreamhost.com",
 		"ns3.dreamhost.com"

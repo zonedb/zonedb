@@ -6,10 +6,6 @@
 	],
 	"whoisServer": "whois.nic.fashion",
 	"nameServers": [
-		"a.ns.nic.fashion",
-		"b.ns.nic.fashion",
-		"c.ns.nic.fashion",
-		"d.ns.nic.fashion",
 		"dns1.nic.fashion",
 		"dns2.nic.fashion",
 		"dns3.nic.fashion",

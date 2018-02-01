@@ -4,9 +4,7 @@
 	"nameServers": [
 		"ho1.ns.od.ua",
 		"nix.ns.ua",
-		"ns.lucky.net",
-		"ns.od.ua",
-		"parabol.taide.net"
+		"ns.od.ua"
 	],
 	"policies": [
 		{

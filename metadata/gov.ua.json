@@ -4,8 +4,7 @@
 		"ba1.ns.ua",
 		"ho1.ns.gov.ua",
 		"nix.ns.ua",
-		"sns-pb.isc.org",
-		"ua.cctld.authdns.ripe.net"
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

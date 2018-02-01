@@ -5,22 +5,9 @@
 		"b.registry.qa",
 		"c.registry.qa",
 		"d.registry.qa",
-		"e.registry.qa",
 		"f.registry.qa",
 		"g.registry.qa",
-		"h.registry.qa",
-		"i.registry.qa",
-		"j.registry.qa",
-		"k.registry.qa",
-		"l.registry.qa",
-		"ns1.ausregistry.net.au",
-		"ns1.qatar.net.qa",
-		"ns1.registry.qa",
-		"ns2.ausregistry.net.au",
-		"ns2.qatar.net.qa",
-		"ns2.registry.qa",
-		"ns3.qatar.net.qa",
-		"qa.cctld.authdns.ripe.net"
+		"i.registry.qa"
 	],
 	"policies": [
 		{

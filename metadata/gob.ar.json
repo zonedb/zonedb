@@ -5,11 +5,8 @@
 		"ar.cctld.authdns.ripe.net",
 		"b.dns.ar",
 		"c.dns.ar",
-		"ctina.ar",
-		"d.dns.ar",
 		"e.dns.ar",
-		"ns2.switch.ch",
-		"relay1.mecon.gov.ar"
+		"ns2.switch.ch"
 	],
 	"policies": [
 		{

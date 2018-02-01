@@ -3,7 +3,6 @@
 	"whoisServer": "web-whois.registry.net.za",
 	"nameServers": [
 		"disa.tenet.ac.za",
-		"hippo.ru.ac.za",
 		"ns0.is.co.za",
 		"za-ns.anycast.pch.net"
 	],

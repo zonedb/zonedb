@@ -8,11 +8,7 @@
 	"whoisServer": "whois.nic.honda",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"a.nic.honda",
 		"b.gmoregistry.net",
-		"b.nic.honda",
-		"c.nic.honda",
-		"d.nic.honda",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],

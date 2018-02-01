@@ -2,7 +2,6 @@
 	"domain": "plo.ps",
 	"nameServers": [
 		"dns3.gov.ps",
-		"dns4.pna.ps",
-		"ns4.pnina.ps"
+		"dns4.pna.ps"
 	]
 }

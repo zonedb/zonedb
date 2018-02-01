@@ -1,12 +1,9 @@
 {
 	"domain": "school.za",
 	"nameServers": [
-		"hippo.ru.ac.za",
-		"mopani.school.za",
 		"ns0.serendipity.org.za",
 		"ochre.school.za",
-		"ucthpx.uct.ac.za",
-		"za-ns.anycast.pch.net"
+		"ucthpx.uct.ac.za"
 	],
 	"policies": [
 		{

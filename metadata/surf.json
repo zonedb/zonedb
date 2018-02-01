@@ -5,10 +5,6 @@
 	],
 	"whoisServer": "whois.nic.surf",
 	"nameServers": [
-		"a.ns.nic.surf",
-		"b.ns.nic.surf",
-		"c.ns.nic.surf",
-		"d.ns.nic.surf",
 		"dns1.nic.surf",
 		"dns2.nic.surf",
 		"dns3.nic.surf",

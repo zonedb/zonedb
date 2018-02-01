@@ -8,11 +8,7 @@
 	"whoisServer": "whois.nic.hyundai",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"a.nic.hyundai",
 		"b.gmoregistry.net",
-		"b.nic.hyundai",
-		"c.nic.hyundai",
-		"d.nic.hyundai",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],

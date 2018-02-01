@@ -1,11 +1,9 @@
 {
 	"domain": "co.na",
 	"nameServers": [
-		"dns5.denic.de",
 		"na-ns.anycast.pch.net",
 		"ns-na.afrinic.net",
 		"oshikoko.omadhina.co.na",
-		"oshikoko.omadhina.net",
 		"secdns1.posix.co.za"
 	],
 	"policies": [

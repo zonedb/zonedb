@@ -8,9 +8,7 @@
 	"nameServers": [
 		"a.vg.dyntld.net",
 		"b.vg.dyntld.net",
-		"vg-ns.anycast.pch.net",
-		"vg-ns.ksregistry.net",
-		"vg.cctld.authdns.ripe.net"
+		"vg-ns.anycast.pch.net"
 	],
 	"wildcards": [
 		"88.198.29.97"

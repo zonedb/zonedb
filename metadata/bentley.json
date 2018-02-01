@@ -14,13 +14,7 @@
 		"dnsa.nic.bentley",
 		"dnsb.nic.bentley",
 		"dnsc.nic.bentley",
-		"dnsd.nic.bentley",
-		"ns1.nic.uk",
-		"ns2.nic.uk",
-		"ns4.nic.uk",
-		"ns5.nic.uk",
-		"ns6.nic.uk",
-		"ns7.nic.uk"
+		"dnsd.nic.bentley"
 	],
 	"policies": [
 		{

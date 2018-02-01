@@ -4,11 +4,9 @@
 		"ns1.isu.net.sa",
 		"ns1.nic.net.sa",
 		"ns2.nic.net.sa",
-		"rip.psg.com",
 		"s.nic.net.sa",
 		"s2.nic.net.sa",
 		"sa-ns.anycast.pch.net",
-		"sa.cctld.authdns.ripe.net",
 		"sa1.dnsnode.net"
 	],
 	"policies": [

@@ -1,8 +1,6 @@
 {
 	"domain": "ac.ls",
 	"nameServers": [
-		"hippo.ru.ac.za",
-		"ns2.leo.co.ls",
 		"thaba.nul.ls"
 	]
 }

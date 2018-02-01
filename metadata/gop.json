@@ -6,10 +6,6 @@
 	],
 	"whoisServer": "whois.nic.gop",
 	"nameServers": [
-		"a.ns.nic.gop",
-		"b.ns.nic.gop",
-		"c.ns.nic.gop",
-		"d.ns.nic.gop",
 		"dns1.nic.gop",
 		"dns2.nic.gop",
 		"dns3.nic.gop",

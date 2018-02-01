@@ -7,9 +7,7 @@
 	"nameServers": [
 		"ns3.afrinic.net",
 		"ns3.lacnic.net",
-		"ns3.nic.fr",
 		"pri.authdns.ripe.net",
-		"sec1.apnic.net",
 		"sec3.apnic.net",
 		"sns-pb.isc.org",
 		"tinnie.arin.net"

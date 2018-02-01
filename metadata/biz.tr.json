@@ -1,30 +1,17 @@
 {
 	"domain": "biz.tr",
 	"nameServers": [
-		"lns1.nic.tr",
-		"lns10.nic.tr",
-		"lns2.nic.tr",
-		"lns20.nic.tr",
 		"lns21.nic.tr",
 		"lns22.nic.tr",
 		"lns3.nic.tr",
 		"lns31.nic.tr",
 		"lns34.nic.tr",
 		"lns35.nic.tr",
-		"lns4.nic.tr",
 		"lns41.nic.tr",
 		"lns42.nic.tr",
 		"lns5.nic.tr",
 		"lns61.nic.tr",
-		"lns7.nic.tr",
-		"lns8.nic.tr",
-		"lns9.nic.tr",
 		"lns91.nic.tr",
-		"lns92.nic.tr",
-		"ns1.nic.tr",
-		"ns2.nic.tr",
-		"ns3.nic.tr",
-		"ns4.nic.tr",
-		"ns5.nic.tr"
+		"lns92.nic.tr"
 	]
 }

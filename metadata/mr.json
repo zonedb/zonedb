@@ -7,7 +7,6 @@
 	"whoisServer": "whois.nic.mr",
 	"nameServers": [
 		"censvrns0001.ird.fr",
-		"ns.univ-nkc.mr",
 		"ns1.nic.mr",
 		"ns2.nic.mr",
 		"ns3.nic.fr"

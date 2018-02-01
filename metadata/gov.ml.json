@@ -1,10 +1,8 @@
 {
 	"domain": "gov.ml",
 	"nameServers": [
-		"a.ns40.microtics.pro",
 		"djamako.nic.ml",
-		"dns.gouv.ml",
-		"ns1.ribtelecom.net"
+		"dns.gouv.ml"
 	],
 	"policies": [
 		{

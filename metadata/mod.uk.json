@@ -3,7 +3,6 @@
 	"nameServers": [
 		"ns1.cs.ucl.ac.uk",
 		"ns1.mod.uk",
-		"ns1.nic.uk",
 		"ns2.mod.uk"
 	],
 	"policies": [

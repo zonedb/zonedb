@@ -1,7 +1,6 @@
 {
 	"domain": "edi.my",
-	"nameServers": [
-		"ns101.mschosting.com",
-		"ns102.mschosting.com"
+	"tags": [
+		"retired"
 	]
 }

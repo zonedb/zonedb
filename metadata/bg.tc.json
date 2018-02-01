@@ -1,10 +1,7 @@
 {
 	"domain": "bg.tc",
-	"nameServers": [
-		"f1g1ns1.dnspod.net",
-		"f1g1ns2.dnspod.net",
-		"ns1.4.cn",
-		"ns2.4.cn"
+	"tags": [
+		"retired"
 	],
 	"policies": [
 		{

@@ -6,10 +6,6 @@
 	],
 	"whoisServer": "whois.nic.dds",
 	"nameServers": [
-		"a.ns.nic.dds",
-		"b.ns.nic.dds",
-		"c.ns.nic.dds",
-		"d.ns.nic.dds",
 		"dns1.nic.dds",
 		"dns2.nic.dds",
 		"dns3.nic.dds",

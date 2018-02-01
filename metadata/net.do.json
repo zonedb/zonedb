@@ -1,7 +1,6 @@
 {
 	"domain": "net.do",
 	"nameServers": [
-		"do-dns.nic.pr",
 		"ns.nic.do",
 		"ns1.nic.do",
 		"ns2.nic.do",

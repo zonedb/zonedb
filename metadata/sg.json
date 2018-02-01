@@ -7,7 +7,6 @@
 	"whoisServer": "whois.sgnic.sg",
 	"nameServers": [
 		"dsany.sgnic.sg",
-		"dsany2.sgnic.sg",
 		"ns2.cuhk.edu.hk",
 		"sec3.apnic.net",
 		"sg-ns.anycast.pch.net"

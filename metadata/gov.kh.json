@@ -1,11 +1,10 @@
 {
 	"domain": "gov.kh",
 	"nameServers": [
-		"anytld.apnic.net",
 		"dns1.online.com.kh",
 		"ns.camnet.com.kh",
 		"ns1.dns.net.kh",
-		"sec3.apnic.net"
+		"ns4.apnic.net"
 	],
 	"policies": [
 		{

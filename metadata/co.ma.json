@@ -2,14 +2,9 @@
 	"domain": "co.ma",
 	"nameServers": [
 		"dns.inria.fr",
-		"ma.cctld.authdns.ripe.net",
-		"mtso23tzgm.ma",
-		"ns1.iam.net.ma",
 		"ns1.registre.ma",
-		"ns2.iam.net.ma",
 		"ns2.nic.fr",
 		"ns2.registre.ma",
-		"ns3.iam.net.ma",
 		"ns3.registre.ma",
 		"ns4.registre.ma",
 		"sns-pb.isc.org"

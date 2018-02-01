@@ -4,8 +4,6 @@
 		"retired"
 	],
 	"nameServers": [
-		"ns04.telecom.tm",
-		"web2.telecom.tm",
 		"webns1.telecom.tm",
 		"webns2.telecom.tm"
 	]

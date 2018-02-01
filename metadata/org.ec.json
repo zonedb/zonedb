@@ -2,7 +2,6 @@
 	"domain": "org.ec",
 	"nameServers": [
 		"a.lactld.org",
-		"n1.nic.ec",
 		"n2.nic.ec",
 		"n3.dns.ec",
 		"sns-pb.isc.org"

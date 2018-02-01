@@ -1,8 +1,6 @@
 {
 	"domain": "org.ms",
 	"nameServers": [
-		"a.ms.dyntld.net",
-		"b.ms.dyntld.net",
 		"ns.cocca.fr",
 		"ns.coccaregistry.org"
 	],

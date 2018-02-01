@@ -1,7 +1,6 @@
 {
 	"domain": "csiro.au",
 	"nameServers": [
-		"dns1.telstra.net",
 		"ns1.aarnet.net.au",
 		"ns1.csiro.au",
 		"ns2.aarnet.net.au",

@@ -8,11 +8,7 @@
 	"whoisServer": "whois.nic.komatsu",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"a.nic.komatsu",
 		"b.gmoregistry.net",
-		"b.nic.komatsu",
-		"c.nic.komatsu",
-		"d.nic.komatsu",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],

@@ -2,7 +2,6 @@
 	"domain": "edu.eg",
 	"nameServers": [
 		"frcu.eun.eg",
-		"ns.idsc.gov.eg",
 		"rip.psg.com"
 	],
 	"policies": [

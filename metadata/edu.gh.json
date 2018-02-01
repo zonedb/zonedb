@@ -1,15 +1,11 @@
 {
 	"domain": "edu.gh",
 	"nameServers": [
-		"austin.gh.com",
 		"fork.sth.dnsnode.net",
-		"hippo.ru.ac.za",
-		"mantse.gh.com",
 		"ns.dns.br",
 		"ns1.nic.gh",
 		"ns2.nic.gh",
-		"rip.psg.com",
-		"slave.sth.netnod.se"
+		"rip.psg.com"
 	],
 	"policies": [
 		{

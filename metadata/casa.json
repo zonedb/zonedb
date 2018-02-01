@@ -6,10 +6,6 @@
 	],
 	"whoisServer": "whois.nic.casa",
 	"nameServers": [
-		"a.ns.nic.casa",
-		"b.ns.nic.casa",
-		"c.ns.nic.casa",
-		"d.ns.nic.casa",
 		"dns1.nic.casa",
 		"dns2.nic.casa",
 		"dns3.nic.casa",

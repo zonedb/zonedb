@@ -6,14 +6,10 @@
 		"generic"
 	],
 	"nameServers": [
-		"a.ns.nic.dhl",
-		"c.ns.nic.dhl",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com",
-		"x.ns.nic.dhl",
-		"y.ns.nic.dhl"
+		"a.nic.dhl",
+		"b.nic.dhl",
+		"c.nic.dhl",
+		"d.nic.dhl"
 	],
 	"policies": [
 		{

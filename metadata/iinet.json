@@ -3,15 +3,10 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"whoisServer": "whois.aridnrs.net.au",
-	"nameServers": [
-		"a.nic.iinet",
-		"b.nic.iinet",
-		"c.nic.iinet",
-		"d.nic.iinet"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

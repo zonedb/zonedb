@@ -3,26 +3,10 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"whoisServer": "whois.nic.mtpc",
-	"nameServers": [
-		"a.gmoregistry.net",
-		"anycast10.irondns.net",
-		"anycast23.irondns.net",
-		"anycast24.irondns.net",
-		"anycast9.irondns.net",
-		"b.gmoregistry.net",
-		"c.gmoregistry.net",
-		"d.gmoregistry.net",
-		"e.gmoregistry.net",
-		"g.gmoregistry.net",
-		"h.gmoregistry.net",
-		"i.gmoregistry.net",
-		"j.gmoregistry.net",
-		"k.gmoregistry.net",
-		"l.gmoregistry.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

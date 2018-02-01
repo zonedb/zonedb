@@ -4,8 +4,7 @@
 		"ns1.pro.mk",
 		"ns2.pro.mk",
 		"ns3.pro.mk",
-		"ns4.pro.mk",
-		"ns5.pro.mk"
+		"ns4.pro.mk"
 	],
 	"wildcards": [
 		"162.218.232.95"

@@ -1,7 +1,6 @@
 {
 	"domain": "unze.ba",
 	"nameServers": [
-		"hal.zdk.ba",
 		"ns1.first-ns.de",
 		"pi.unze.ba",
 		"robotns2.second-ns.de",

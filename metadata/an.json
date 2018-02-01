@@ -7,15 +7,6 @@
 		"geo",
 		"retired"
 	],
-	"nameServers": [
-		"an.cctld.authdns.ripe.net",
-		"engine0.una.an",
-		"engine2.una.an",
-		"engine3.una.an",
-		"kadushi.curinfo.an",
-		"ns0.ja.net",
-		"ns01-server.curinfo.an"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

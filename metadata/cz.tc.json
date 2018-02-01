@@ -1,11 +1,8 @@
 {
 	"domain": "cz.tc",
 	"nameServers": [
-		"default1.nic.tc",
-		"default2.nic.tc",
 		"f1g1ns1.dnspod.net",
-		"f1g1ns2.dnspod.net",
-		"suspended.nic.tc"
+		"f1g1ns2.dnspod.net"
 	],
 	"policies": [
 		{

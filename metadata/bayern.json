@@ -10,10 +10,6 @@
 	],
 	"whoisServer": "whois.nic.bayern",
 	"nameServers": [
-		"a.ns.nic.bayern",
-		"b.ns.nic.bayern",
-		"c.ns.nic.bayern",
-		"d.ns.nic.bayern",
 		"dns1.nic.bayern",
 		"dns2.nic.bayern",
 		"dns3.nic.bayern",

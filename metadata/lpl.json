@@ -7,14 +7,10 @@
 	],
 	"whoisServer": "whois.nic.lpl",
 	"nameServers": [
-		"a.ns.nic.lpl",
-		"c.ns.nic.lpl",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com",
-		"x.ns.nic.lpl",
-		"y.ns.nic.lpl"
+		"a.nic.lpl",
+		"b.nic.lpl",
+		"c.nic.lpl",
+		"d.nic.lpl"
 	],
 	"policies": [
 		{

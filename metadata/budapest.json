@@ -12,10 +12,6 @@
 	],
 	"whoisServer": "whois.nic.budapest",
 	"nameServers": [
-		"a.ns.nic.budapest",
-		"b.ns.nic.budapest",
-		"c.ns.nic.budapest",
-		"d.ns.nic.budapest",
 		"dns1.nic.budapest",
 		"dns2.nic.budapest",
 		"dns3.nic.budapest",

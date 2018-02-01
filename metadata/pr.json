@@ -7,10 +7,11 @@
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
-		"descartes.nic.pr",
-		"golomb.nic.pr",
-		"pascal.nic.pr",
-		"pr-dns.denic.de",
-		"pr-ns.anycast.pch.net"
+		"a0.pr.afilias-nst.info",
+		"a2.pr.afilias-nst.info",
+		"b0.pr.afilias-nst.org",
+		"b2.pr.afilias-nst.org",
+		"c0.pr.afilias-nst.info",
+		"d0.pr.afilias-nst.org"
 	]
 }

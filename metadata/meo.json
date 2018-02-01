@@ -6,14 +6,10 @@
 		"generic"
 	],
 	"nameServers": [
-		"a.ns.nic.meo",
-		"c.ns.nic.meo",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com",
-		"x.ns.nic.meo",
-		"y.ns.nic.meo"
+		"a.nic.meo",
+		"b.nic.meo",
+		"c.nic.meo",
+		"d.nic.meo"
 	],
 	"policies": [
 		{

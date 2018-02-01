@@ -8,8 +8,6 @@
 	"whoisServer": "whois.nic.af",
 	"nameServers": [
 		"a.af.dyntld.net",
-		"af1.dyntld.net",
-		"af3.dyntld.net",
 		"b.af.dyntld.net",
 		"ns.anycast.nic.af"
 	],

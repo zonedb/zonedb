@@ -1,10 +1,7 @@
 {
 	"domain": "net.tj",
-	"nameServers": [
-		"dns1.stabletransit.com",
-		"dns2.stabletransit.com",
-		"ns1.softlayer.com",
-		"ns2.softlayer.com"
+	"tags": [
+		"retired"
 	],
 	"policies": [
 		{

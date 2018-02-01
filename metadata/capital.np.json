@@ -1,14 +1,8 @@
 {
 	"domain": "capital.np",
 	"infoURL": "http://register.mos.com.np/np-ccTLDs",
-	"nameServers": [
-		"manaslu.mos.com.np",
-		"np-ns.anycast.pch.net",
-		"np-ns.npix.net.np",
-		"ns-ext.isc.org",
-		"sec2.apnic.net",
-		"sec3.apnic.net",
-		"shikhar.mos.com.np"
+	"tags": [
+		"retired"
 	],
 	"policies": [
 		{

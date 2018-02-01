@@ -1,15 +1,7 @@
 {
 	"domain": "mo.bi",
 	"nameServers": [
-		"ns.inmotionhosting.com",
-		"ns1.digiinno.com",
 		"ns1.howardkoo.com",
-		"ns1.who.mobi",
-		"ns2.digiinno.com",
-		"ns2.howardkoo.com",
-		"ns2.inmotionhosting.com",
-		"ns2.who.mobi",
-		"ns6169.hostgator.com",
-		"ns6170.hostgator.com"
+		"ns2.howardkoo.com"
 	]
 }

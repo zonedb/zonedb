@@ -7,8 +7,7 @@
 	"whoisServer": "whois.mediaserv.net",
 	"whoisURL": "https://www.dom-enic.com/whois.html",
 	"nameServers": [
-		"ns1-gp.mediaserv.net",
-		"ns1-mq.mediaserv.net"
+		"ns1-gp.mediaserv.net"
 	],
 	"policies": [
 		{

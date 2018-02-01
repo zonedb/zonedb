@@ -1,18 +1,7 @@
 {
 	"domain": "gov.ac",
-	"nameServers": [
-		"a0.nic.ac",
-		"a2.nic.ac",
-		"b0.nic.ac",
-		"c0.nic.ac",
-		"dns01.nic.ac",
-		"dns1.nic.ac",
-		"dns2.nic.ac",
-		"dns3.nic.ac",
-		"dns4.nic.ac",
-		"dns5.nic.ac",
-		"dns6.nic.ac",
-		"dns7.nic.ac"
+	"tags": [
+		"retired"
 	],
 	"policies": [
 		{

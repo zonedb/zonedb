@@ -3,7 +3,6 @@
 	"nameServers": [
 		"ns1.rdb.rw",
 		"ns2.aos.rw",
-		"ns2.rdb.rw",
 		"ns3.aos.rw"
 	],
 	"policies": [

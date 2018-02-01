@@ -12,8 +12,7 @@
 		"ns3.dns.nic.neustar",
 		"ns4.dns.nic.neustar",
 		"ns5.dns.nic.neustar",
-		"ns6.dns.nic.neustar",
-		"ns7.dns.nic.neustar"
+		"ns6.dns.nic.neustar"
 	],
 	"policies": [
 		{

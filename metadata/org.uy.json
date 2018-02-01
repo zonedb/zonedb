@@ -1,7 +1,6 @@
 {
 	"domain": "org.uy",
 	"nameServers": [
-		"a0.uy.afilias-nst.info",
 		"ns.dns.br",
 		"ns1.anteldata.com.uy",
 		"ns2.anteldata.com.uy",

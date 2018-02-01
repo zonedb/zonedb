@@ -2,9 +2,7 @@
 	"domain": "rnrt.tn",
 	"nameServers": [
 		"ns1.ati.tn",
-		"ns2.ati.tn",
-		"ns4.ati.tn",
-		"ns6.ati.tn"
+		"ns2.ati.tn"
 	],
 	"policies": [
 		{

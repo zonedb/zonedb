@@ -3,22 +3,10 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"whoisServer": "whois.nic.chloe",
-	"nameServers": [
-		"ea.ngtld.cn",
-		"eb.ngtld.cn",
-		"ec.ngtld.cn",
-		"ed.ngtld.cn",
-		"ee.ngtld.cn",
-		"ns1.dns.nic.chloe",
-		"ns2.dns.nic.chloe",
-		"ns3.dns.nic.chloe",
-		"ns4.dns.nic.chloe",
-		"ns5.dns.nic.chloe",
-		"ns6.dns.nic.chloe"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -1,22 +1,11 @@
 {
 	"domain": "edu.tr",
 	"nameServers": [
-		"lns1.nic.tr",
-		"lns2.nic.tr",
-		"lns20.nic.tr",
 		"lns21.nic.tr",
 		"lns22.nic.tr",
 		"lns3.nic.tr",
-		"lns4.nic.tr",
 		"lns41.nic.tr",
 		"lns42.nic.tr",
-		"lns5.nic.tr",
-		"lns7.nic.tr",
-		"lns8.nic.tr",
-		"ns1.nic.tr",
-		"ns2.nic.tr",
-		"ns3.nic.tr",
-		"ns4.nic.tr",
-		"ns5.nic.tr"
+		"lns5.nic.tr"
 	]
 }

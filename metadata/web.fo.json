@@ -2,13 +2,7 @@
 	"domain": "web.fo",
 	"nameServers": [
 		"a.dnspod.com",
-		"b.dnspod.com",
-		"ns1.bodis.com",
-		"ns1.sedoparking.com",
-		"ns2.bodis.com",
-		"ns2.sedoparking.com",
-		"us1.rootdomain.net",
-		"us2.rootdomain.net"
+		"b.dnspod.com"
 	],
 	"wildcards": [
 		"199.59.242.150"

@@ -2,9 +2,7 @@
 	"domain": "cherkasy.ua",
 	"nameServers": [
 		"ba1.ns.ua",
-		"nix.net.ua",
 		"nix.ns.ua",
-		"ns2.ck.ua",
 		"ns2.km.ua"
 	]
 }

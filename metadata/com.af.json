@@ -1,8 +1,6 @@
 {
 	"domain": "com.af",
 	"nameServers": [
-		"a.af.dyntld.net",
-		"b.af.dyntld.net",
 		"ns.anycast.nic.af",
 		"ns.cocca.fr",
 		"ns.coccaregistry.org"

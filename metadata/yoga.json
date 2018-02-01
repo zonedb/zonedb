@@ -6,10 +6,6 @@
 	],
 	"whoisServer": "whois.nic.yoga",
 	"nameServers": [
-		"a.ns.nic.yoga",
-		"b.ns.nic.yoga",
-		"c.ns.nic.yoga",
-		"d.ns.nic.yoga",
 		"dns1.nic.yoga",
 		"dns2.nic.yoga",
 		"dns3.nic.yoga",

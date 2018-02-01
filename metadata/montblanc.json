@@ -3,15 +3,8 @@
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
 		"brand",
-		"generic"
-	],
-	"nameServers": [
-		"ns1.dns.nic.montblanc",
-		"ns2.dns.nic.montblanc",
-		"ns3.dns.nic.montblanc",
-		"ns4.dns.nic.montblanc",
-		"ns5.dns.nic.montblanc",
-		"ns6.dns.nic.montblanc"
+		"generic",
+		"withdrawn"
 	],
 	"policies": [
 		{

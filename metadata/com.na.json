@@ -1,7 +1,6 @@
 {
 	"domain": "com.na",
 	"nameServers": [
-		"dns5.denic.de",
 		"merlin.net.na",
 		"na-ns.anycast.pch.net",
 		"ns-na.afrinic.net"

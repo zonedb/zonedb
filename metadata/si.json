@@ -8,14 +8,11 @@
 	"nameServers": [
 		"b.dns.si",
 		"c.dns.si",
-		"d.dns.si",
-		"e.dns.si",
 		"f.dns.si",
 		"g.dns.si",
 		"h.dns.si",
 		"i.dns.si",
-		"j.dns.si",
-		"sss.dns.si"
+		"j.dns.si"
 	],
 	"policies": [
 		{

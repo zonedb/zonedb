@@ -7,13 +7,10 @@
 	],
 	"whoisServer": "whois.tonic.to",
 	"nameServers": [
-		"auth02.ns.uu.net",
 		"colo.to",
 		"frankfurt.tonic.to",
 		"newyork.tonic.to",
-		"ns1.iafrica.com",
 		"singapore.tonic.to",
-		"to.cctld.authdns.ripe.net",
 		"tonic.to"
 	],
 	"policies": [

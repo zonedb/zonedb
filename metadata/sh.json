@@ -6,23 +6,11 @@
 	],
 	"whoisServer": "whois.nic.sh",
 	"nameServers": [
-		"a.nic.sh",
-		"a.ns13.net",
 		"a0.nic.sh",
 		"a2.nic.sh",
-		"b.nic.ac",
-		"b.nic.io",
-		"b.ns13.net",
 		"b0.nic.sh",
 		"c0.nic.sh",
 		"ns-a1.sh",
-		"ns-a2.sh",
-		"ns-a3.sh",
-		"ns-a4.sh",
-		"ns-d1.sh",
-		"ns-l1.sh",
-		"ns-y1.sh",
-		"ns1.communitydns.net",
-		"ns3.icb.co.uk"
+		"ns-a3.sh"
 	]
 }

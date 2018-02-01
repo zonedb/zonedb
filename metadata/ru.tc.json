@@ -1,9 +1,7 @@
 {
 	"domain": "ru.tc",
 	"nameServers": [
-		"ns1.guven.gen.tr",
 		"ns1.yenile.net",
-		"ns2.guven.gen.tr",
 		"ns2.yenile.net"
 	],
 	"policies": [

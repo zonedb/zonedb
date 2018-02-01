@@ -6,13 +6,10 @@
 	],
 	"whoisServer": "whois.nic.reise",
 	"nameServers": [
-		"a.dns.nic.reise",
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",
 		"demand.delta.aridns.net.au",
-		"demand.gamma.aridns.net.au",
-		"m.dns.nic.reise",
-		"n.dns.nic.reise"
+		"demand.gamma.aridns.net.au"
 	],
 	"policies": [
 		{

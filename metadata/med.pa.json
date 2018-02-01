@@ -1,13 +1,7 @@
 {
 	"domain": "med.pa",
-	"nameServers": [
-		"dns.nic.cr",
-		"ns-ext.nic.cl",
-		"ns.dns.br",
-		"ns.nic.pa",
-		"ns.pa",
-		"ns2.pa",
-		"sns-pb.isc.org"
+	"tags": [
+		"retired"
 	],
 	"policies": [
 		{

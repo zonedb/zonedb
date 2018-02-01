@@ -3,15 +3,8 @@
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns-any.dns.net.za",
-		"ns.coza.net.za",
-		"ns1.africa.com",
-		"ns1.coza.net.za",
 		"ns1.dns.net.za",
-		"ns1.domain-name.services",
-		"ns2.africa.com",
-		"ns3.africa.com",
-		"ns4.africa.com",
-		"ns5.africa.com"
+		"ns1.domain-name.services"
 	],
 	"policies": [
 		{

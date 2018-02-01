@@ -1,7 +1,6 @@
 {
 	"domain": "travel.tt",
-	"nameServers": [
-		"f1g1ns1.dnspod.net",
-		"f1g1ns2.dnspod.net"
+	"tags": [
+		"retired"
 	]
 }

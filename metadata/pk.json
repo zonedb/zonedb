@@ -7,7 +7,6 @@
 	"whoisURL": "http://www.pknic.net.pk/",
 	"nameServers": [
 		"n1.pknic.net.pk",
-		"n2.pknic.net.pk",
 		"ns3.pknic.net.pk",
 		"root-e.pknic.pk",
 		"root-s.pknic.pk"

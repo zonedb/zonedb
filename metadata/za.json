@@ -7,7 +7,6 @@
 	],
 	"whoisServer": "whois.registry.net.za",
 	"nameServers": [
-		"disa.tenet.ac.za",
 		"nsza.is.co.za",
 		"sns-pb.isc.org",
 		"za-ns.anycast.pch.net",

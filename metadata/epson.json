@@ -8,11 +8,7 @@
 	"whoisServer": "whois.aridnrs.net.au",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"a.nic.epson",
 		"b.gmoregistry.net",
-		"b.nic.epson",
-		"c.nic.epson",
-		"d.nic.epson",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],

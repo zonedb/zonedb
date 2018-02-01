@@ -1,17 +1,8 @@
 {
 	"domain": "be.tc",
 	"nameServers": [
-		"ns.udag.de",
-		"ns.udag.net",
-		"ns.udag.org",
-		"ns.udagdns.de",
-		"ns.udagdns.net",
-		"ns1.above.com",
 		"ns1.be.tc",
-		"ns1.parkingcrew.net",
-		"ns2.above.com",
-		"ns2.be.tc",
-		"ns2.parkingcrew.net"
+		"ns2.be.tc"
 	],
 	"policies": [
 		{

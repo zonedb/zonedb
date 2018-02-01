@@ -3,9 +3,7 @@
 	"whoisServer": "whois.co.pl",
 	"nameServers": [
 		"ns1.co.pl",
-		"ns2.co.pl",
-		"ns3.co.pl",
-		"ns4.co.pl"
+		"ns2.co.pl"
 	],
 	"wildcards": [
 		"212.91.6.55"

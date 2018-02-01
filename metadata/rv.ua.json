@@ -4,9 +4,7 @@
 	"nameServers": [
 		"cf.rv.ns.ua",
 		"nix.ns.ua",
-		"ns.telcom.net.ua",
 		"ns1.wuicc.net.ua",
-		"ns2.jb.rv.ua",
 		"rivne.anycastdns.cz"
 	],
 	"policies": [

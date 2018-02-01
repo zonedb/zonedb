@@ -8,11 +8,7 @@
 	"whoisServer": "whois.nic.lexus",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"a.nic.lexus",
 		"b.gmoregistry.net",
-		"b.nic.lexus",
-		"c.nic.lexus",
-		"d.nic.lexus",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],

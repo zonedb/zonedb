@@ -3,13 +3,8 @@
 	"nameServers": [
 		"b.mynic.net.my",
 		"b1.mynic.my",
-		"c.mynic.net.my",
-		"d.mynic.net.my",
-		"dns1.mynic.net.my",
 		"ns2.cuhk.edu.hk",
-		"ns30.cdns.net",
-		"ns5.jaring.my",
-		"ns6.jaring.my"
+		"ns30.cdns.net"
 	],
 	"policies": [
 		{

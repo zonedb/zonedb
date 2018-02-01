@@ -1,20 +1,11 @@
 {
 	"domain": "gov.py",
 	"nameServers": [
-		"auth00.ns.uu.net",
 		"b.dns.py",
 		"c.dns.py",
-		"d.dns.py",
 		"l.dns.py",
 		"m.dns.py",
-		"ns.cnc.una.py",
-		"ns.dns.br",
-		"ns2.switch.ch",
-		"ns3.nic.mx",
 		"p.dns.py",
-		"py.cctld.authdns.ripe.net",
-		"r.dns.py",
-		"sce.cnc.una.py",
 		"u.dns.py"
 	],
 	"policies": [

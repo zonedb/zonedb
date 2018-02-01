@@ -4,13 +4,7 @@
 	"nameServers": [
 		"np-ns.anycast.pch.net",
 		"np-ns.npix.net.np",
-		"np.cctld.authdns.ripe.net",
-		"ns-ext.isc.org",
-		"ns-ext.vix.com",
-		"sec2.apnic.net",
-		"sec3.apnic.net",
-		"shikhar.mos.com.np",
-		"yarrina.connect.com.au"
+		"sec2.apnic.net"
 	],
 	"policies": [
 		{

@@ -7,13 +7,9 @@
 	],
 	"whoisServer": "whois.nic.ms",
 	"nameServers": [
-		"a.ms.dyntld.net",
-		"b.ms.dyntld.net",
-		"mnidns1.mninet.ms",
 		"ms-ns.anycast.pch.net",
 		"ns.cocca.fr",
-		"ns.coccaregistry.org",
-		"phloem.uoregon.edu"
+		"ns.coccaregistry.org"
 	],
 	"policies": [
 		{

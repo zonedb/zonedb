@@ -11,14 +11,9 @@
 	"whoisServer": "whois.nic.москва",
 	"nameServers": [
 		"a.dns.flexireg.ru",
-		"a.dns.ripn.net",
 		"b.dns.flexireg.net",
-		"b.dns.ripn.net",
 		"c.dns.flexireg.org",
-		"d.dns.flexireg.domains",
-		"d.dns.ripn.net",
-		"e.dns.ripn.net",
-		"f.dns.ripn.net"
+		"d.dns.flexireg.domains"
 	],
 	"policies": [
 		{

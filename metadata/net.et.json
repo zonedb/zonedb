@@ -1,7 +1,6 @@
 {
 	"domain": "net.et",
 	"nameServers": [
-		"et.cctld.authdns.ripe.net",
 		"ns1.telecom.net.et",
 		"ns2.telecom.net.et",
 		"phloem.uoregon.edu"

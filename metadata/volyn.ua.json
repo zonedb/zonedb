@@ -3,7 +3,6 @@
 	"nameServers": [
 		"ho1.ns.lutsk.ua",
 		"nix.ns.ua",
-		"ns.vizor.lutsk.ua",
 		"ns.zp.ua"
 	],
 	"policies": [

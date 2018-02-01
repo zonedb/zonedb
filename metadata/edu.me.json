@@ -1,8 +1,7 @@
 {
 	"domain": "edu.me",
 	"nameServers": [
-		"ns.edu.me",
-		"ns2.edu.me"
+		"ns.edu.me"
 	],
 	"policies": [
 		{

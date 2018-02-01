@@ -1,8 +1,7 @@
 {
 	"domain": "uk.pn",
-	"nameServers": [
-		"dean.ns.cloudflare.com",
-		"tess.ns.cloudflare.com"
+	"tags": [
+		"retired"
 	],
 	"policies": [
 		{

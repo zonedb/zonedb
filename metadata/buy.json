@@ -6,10 +6,6 @@
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
-		"a0.nic.buy",
-		"a2.nic.buy",
-		"b0.nic.buy",
-		"c0.nic.buy",
 		"ns1.dns.nic.buy",
 		"ns2.dns.nic.buy",
 		"ns3.dns.nic.buy",

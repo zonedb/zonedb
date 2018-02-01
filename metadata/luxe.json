@@ -6,10 +6,6 @@
 	],
 	"whoisServer": "whois.nic.luxe",
 	"nameServers": [
-		"a.ns.nic.luxe",
-		"b.ns.nic.luxe",
-		"c.ns.nic.luxe",
-		"d.ns.nic.luxe",
 		"dns1.nic.luxe",
 		"dns2.nic.luxe",
 		"dns3.nic.luxe",

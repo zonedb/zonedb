@@ -9,8 +9,7 @@
 		"anycast.ns.nic.bo",
 		"ns.dns.br",
 		"ns.nic.bo",
-		"ns2.nic.fr",
-		"utama.bolnet.bo"
+		"ns2.nic.fr"
 	],
 	"policies": [
 		{

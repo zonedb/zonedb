@@ -8,11 +8,7 @@
 	"whoisServer": "whois.nic.nec",
 	"nameServers": [
 		"a.gmoregistry.net",
-		"a.nic.nec",
 		"b.gmoregistry.net",
-		"b.nic.nec",
-		"c.nic.nec",
-		"d.nic.nec",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],

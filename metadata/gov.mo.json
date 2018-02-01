@@ -1,7 +1,6 @@
 {
 	"domain": "gov.mo",
 	"nameServers": [
-		"c.monic.mo",
 		"ns1.gov.mo",
 		"ns2.gov.mo",
 		"ns3.gov.mo"

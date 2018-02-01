@@ -6,8 +6,7 @@
 		"ns1.nic.co.com",
 		"ns2.nic.co.com",
 		"ns3.nic.co.com",
-		"ns4.nic.co.com",
-		"ns5.nic.co.com"
+		"ns4.nic.co.com"
 	],
 	"wildcards": [
 		"173.192.115.17"

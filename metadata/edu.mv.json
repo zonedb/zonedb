@@ -2,7 +2,6 @@
 	"domain": "edu.mv",
 	"nameServers": [
 		"mv-ns.anycast.pch.net",
-		"ns-cache01.dhivehinet.net.mv",
 		"ns.edu.mv",
 		"ns1.edu.mv",
 		"ns2.edu.mv"

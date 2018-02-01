@@ -3,10 +3,8 @@
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
 		"arwena.nask.waw.pl",
-		"big.litech.lviv.ua",
 		"ns2.uar.net",
 		"ns5.univie.ac.at",
-		"sigma.icmp.lviv.ua",
 		"sigma.uar.net"
 	],
 	"policies": [

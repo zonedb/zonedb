@@ -8,9 +8,7 @@
 	"nameServers": [
 		"a.gd.dyntld.net",
 		"b.gd.dyntld.net",
-		"gd-ns.anycast.pch.net",
-		"gd-ns.ksregistry.net",
-		"gd.cctld.authdns.ripe.net"
+		"gd-ns.anycast.pch.net"
 	],
 	"policies": [
 		{

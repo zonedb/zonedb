@@ -3,8 +3,6 @@
 	"nameServers": [
 		"a.cm.dyntld.net",
 		"b.cm.dyntld.net",
-		"cm-in-1.dyntld.net",
-		"cm-in-2.dyntld.net",
 		"ns1.nic.cm",
 		"ns2.nic.cm"
 	],

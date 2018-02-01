@@ -7,12 +7,8 @@
 	"whoisServer": "whois.nic.storage",
 	"nameServers": [
 		"a.nic.storage",
-		"a0.nic.storage",
-		"a2.nic.storage",
 		"b.nic.storage",
-		"b0.nic.storage",
 		"c.nic.storage",
-		"c0.nic.storage",
 		"d.nic.storage"
 	],
 	"policies": [

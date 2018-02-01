@@ -1,10 +1,7 @@
 {
 	"domain": "ie.tc",
-	"nameServers": [
-		"ns1.above.com",
-		"ns1.parkingcrew.net",
-		"ns2.above.com",
-		"ns2.parkingcrew.net"
+	"tags": [
+		"retired"
 	],
 	"policies": [
 		{

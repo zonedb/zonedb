@@ -8,20 +8,13 @@
 	],
 	"whoisServer": "whois.nic.tr",
 	"nameServers": [
-		"ns1.nic.tr",
-		"ns2.nic.tr",
 		"ns21.nic.tr",
 		"ns22.nic.tr",
 		"ns3.nic.tr",
 		"ns31.nic.tr",
-		"ns4.nic.tr",
 		"ns41.nic.tr",
 		"ns42.nic.tr",
-		"ns5.nic.tr",
-		"ns7.nic.tr",
-		"ns8.nic.tr",
 		"ns91.nic.tr",
-		"ns92.nic.tr",
-		"tr.cctld.authdns.ripe.net"
+		"ns92.nic.tr"
 	]
 }

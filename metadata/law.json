@@ -6,10 +6,6 @@
 	],
 	"whoisServer": "whois.nic.law",
 	"nameServers": [
-		"a.ns.nic.law",
-		"b.ns.nic.law",
-		"c.ns.nic.law",
-		"d.ns.nic.law",
 		"dns1.nic.law",
 		"dns2.nic.law",
 		"dns3.nic.law",

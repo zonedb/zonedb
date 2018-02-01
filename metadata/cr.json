@@ -9,16 +9,9 @@
 	"nameServers": [
 		"a.lactld.org",
 		"a.ns.cr",
-		"c.ns.cr",
 		"ca1.nic.cr",
 		"ca2.nic.cr",
-		"d.ns.cr",
 		"de.nic.cr",
-		"e.ns.cr",
-		"f.nic.cr",
-		"f.ns.cr",
-		"g.nic.cr",
-		"h.nic.cr",
 		"ns-ext.nic.cl",
 		"ns3.nic.mx",
 		"p.nic.cr"

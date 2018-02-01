@@ -1,8 +1,7 @@
 {
 	"domain": "mil.ba",
-	"nameServers": [
-		"bosna.utic.net.ba",
-		"sava.utic.net.ba"
+	"tags": [
+		"retired"
 	],
 	"policies": [
 		{

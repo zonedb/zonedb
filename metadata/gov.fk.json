@@ -1,9 +1,6 @@
 {
 	"domain": "gov.fk",
 	"nameServers": [
-		"ans1.cw.net",
-		"ans2.cw.net",
-		"ns.horizon.net.fk",
 		"ns1.horizon.net.fk",
 		"ns2.horizon.net.fk"
 	],

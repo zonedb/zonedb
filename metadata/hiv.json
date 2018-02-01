@@ -5,13 +5,6 @@
 	],
 	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
-		"a.hiv.dyntld.net",
-		"a0.nic.hiv",
-		"a2.nic.hiv",
-		"b.hiv.dyntld.net",
-		"b0.nic.hiv",
-		"c.hiv.dyntld.net",
-		"c0.nic.hiv",
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns3.uniregistry.net",

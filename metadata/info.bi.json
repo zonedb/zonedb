@@ -2,7 +2,6 @@
 	"domain": "info.bi",
 	"nameServers": [
 		"bi.cctld.authdns.ripe.net",
-		"cni1.cbinf.com",
 		"ns-bi.afrinic.net",
 		"ns.nic.bi",
 		"ns1.nic.bi"

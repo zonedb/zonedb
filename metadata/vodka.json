@@ -5,10 +5,6 @@
 	],
 	"whoisServer": "whois.nic.vodka",
 	"nameServers": [
-		"a.ns.nic.vodka",
-		"b.ns.nic.vodka",
-		"c.ns.nic.vodka",
-		"d.ns.nic.vodka",
 		"dns1.nic.vodka",
 		"dns2.nic.vodka",
 		"dns3.nic.vodka",
