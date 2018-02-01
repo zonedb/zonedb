@@ -14,5 +14,101 @@
 		"c0.nic.porn",
 		"d0.nic.porn"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "be",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_be_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "bg",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_bg_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "bs",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_bs_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_da_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_de_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_es_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "hu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_hu_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "is",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_is_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_ko_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_lt_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_lv_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_mk_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_pl_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_ru_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_sr_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_sv_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "uk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_uk_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-CN",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_zh-cn_4.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-TW",
+			"value": "https://www.iana.org/domains/idn-tables/tables/porn_zh-tw_4.0.txt"
+		}
+	]
 }

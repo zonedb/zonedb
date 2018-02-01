@@ -10,10 +10,14 @@
 	],
 	"whoisServer": "africa-whois.registry.net.za",
 	"nameServers": [
-		"ns2.dns.business",
 		"coza1.dnsnode.net",
 		"ns.coza.net.za",
-		"ns1.coza.net.za"
+		"ns1.coza.net.za",
+		"ns2.dns.business"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

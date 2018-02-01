@@ -1,4 +1,8 @@
 {
 	"domain": "nom.fk",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

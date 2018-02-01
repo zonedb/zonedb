@@ -1,11 +1,15 @@
 {
 	"domain": "org.af",
 	"nameServers": [
-		"ns.cocca.fr",
-		"ns.coccaregistry.org",
-		"ns.anycast.nic.af",
 		"a.af.dyntld.net",
-		"b.af.dyntld.net"
+		"b.af.dyntld.net",
+		"ns.anycast.nic.af",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

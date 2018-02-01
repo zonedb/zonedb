@@ -19,5 +19,31 @@
 		"h5.nstld.com",
 		"l5.nstld.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Arab",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_arab_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_cyrl_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hang",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_hang_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hani",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_hani_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_latn_2.5.txt"
+		}
+	]
 }

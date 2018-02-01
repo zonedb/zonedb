@@ -2,11 +2,15 @@
 	"domain": "sumy.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
+		"ho1.eunic.net.ua",
 		"ns.dn.ua",
 		"ns.kh.ua",
 		"ns.sm.ua",
-		"ns.zp.ua",
-		"ho1.eunic.net.ua"
+		"ns.zp.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

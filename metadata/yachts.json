@@ -11,5 +11,9 @@
 		"b0.nic.yachts",
 		"c0.nic.yachts"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

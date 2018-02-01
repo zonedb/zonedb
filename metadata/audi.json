@@ -12,5 +12,9 @@
 		"b0.nic.audi",
 		"c0.nic.audi"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

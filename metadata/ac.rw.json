@@ -1,16 +1,20 @@
 {
 	"domain": "ac.rw",
 	"nameServers": [
-		"ns-rw.afrinic.net",
-		"sns-pb.isc.org",
-		"ns3.aos.rw",
-		"ns3.rdb.rw",
-		"fork.sth.dnsnode.net",
 		"a.rw.dyntld.net",
 		"b.rw.dyntld.net",
+		"fork.sth.dnsnode.net",
+		"ns-rw.afrinic.net",
 		"ns1.ricta.org.rw",
 		"ns2.ricta.org.rw",
-		"pch.ricta.org.rw"
+		"ns3.aos.rw",
+		"ns3.rdb.rw",
+		"pch.ricta.org.rw",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

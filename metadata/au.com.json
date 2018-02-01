@@ -6,5 +6,9 @@
 		"dnsa01.kddi.ne.jp",
 		"dnsa02.kddi.ne.jp"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

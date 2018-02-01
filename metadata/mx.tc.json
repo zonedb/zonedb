@@ -1,11 +1,15 @@
 {
 	"domain": "mx.tc",
 	"nameServers": [
+		"dns.site5.com",
+		"dns2.site5.com",
 		"ns1.dreamhost.com",
 		"ns2.dreamhost.com",
-		"ns3.dreamhost.com",
-		"dns.site5.com",
-		"dns2.site5.com"
+		"ns3.dreamhost.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -6,13 +6,22 @@
 	],
 	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
-		"ns2.uniregistry.info",
-		"ns4.uniregistry.info",
-		"ns1.uniregistry.net",
-		"ns3.uniregistry.net",
 		"a.car.dyntld.net",
 		"b.car.dyntld.net",
-		"c.car.dyntld.net"
+		"c.car.dyntld.net",
+		"ns1.uniregistry.net",
+		"ns2.uniregistry.info",
+		"ns3.uniregistry.net",
+		"ns4.uniregistry.info"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/audio_zh_1.0.txt"
+		}
+	]
 }

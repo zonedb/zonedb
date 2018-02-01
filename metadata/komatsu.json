@@ -7,14 +7,18 @@
 	],
 	"whoisServer": "whois.nic.komatsu",
 	"nameServers": [
+		"a.gmoregistry.net",
 		"a.nic.komatsu",
+		"b.gmoregistry.net",
 		"b.nic.komatsu",
 		"c.nic.komatsu",
 		"d.nic.komatsu",
-		"a.gmoregistry.net",
-		"b.gmoregistry.net",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

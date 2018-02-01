@@ -13,5 +13,11 @@
 		"ns6.dns.nic.buzz",
 		"ns7.dns.nic.buzz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/buzz_es_1.0.txt"
+		}
+	]
 }

@@ -1,12 +1,16 @@
 {
 	"domain": "art.pl",
 	"nameServers": [
-		"ns.tpnet.pl",
 		"bilbo.nask.org.pl",
-		"hermes.sgh.waw.pl",
 		"galaxy.uci.agh.edu.pl",
+		"hermes.sgh.waw.pl",
+		"ns.tpnet.pl",
 		"ns1.net.icm.edu.pl",
 		"ns2.net.icm.edu.pl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -7,13 +7,17 @@
 	],
 	"whoisServer": "whois.nic.aw",
 	"nameServers": [
+		"aw01.setarnet.aw",
+		"aw02.setarnet.aw",
 		"ns1.dns.aw",
 		"ns2.dns.aw",
 		"ns3.dns.aw",
 		"ns4.dns.aw",
-		"ns5.dns.aw",
-		"aw01.setarnet.aw",
-		"aw02.setarnet.aw"
+		"ns5.dns.aw"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -7,13 +7,19 @@
 	],
 	"whoisServer": "whois2.afilias-grs.net",
 	"nameServers": [
-		"ns1.nic.sc",
 		"a0.cctld.afilias-nst.info",
 		"a2.cctld.afilias-nst.info",
-		"c0.cctld.afilias-nst.info",
 		"b0.cctld.afilias-nst.org",
 		"b2.cctld.afilias-nst.org",
-		"d0.cctld.afilias-nst.org"
+		"c0.cctld.afilias-nst.info",
+		"d0.cctld.afilias-nst.org",
+		"ns1.nic.sc"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh-CN",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sc_zh-cn_4.0.txt"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"b0.nic.homedepot",
 		"c0.nic.homedepot"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

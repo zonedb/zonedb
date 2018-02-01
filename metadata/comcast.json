@@ -16,5 +16,9 @@
 		"dnsc.nic.comcast",
 		"dnsd.nic.comcast"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

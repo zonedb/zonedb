@@ -12,5 +12,9 @@
 		"c.nic.mtn",
 		"d.nic.mtn"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

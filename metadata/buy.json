@@ -17,5 +17,9 @@
 		"ns5.dns.nic.buy",
 		"ns6.dns.nic.buy"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

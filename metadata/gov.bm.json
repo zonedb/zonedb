@@ -5,5 +5,9 @@
 		"dns2.gov.bm",
 		"dns3.gov.bm"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

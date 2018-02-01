@@ -12,5 +12,9 @@
 		"ns-tld4.charlestonroadregistry.com",
 		"ns-tld5.charlestonroadregistry.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

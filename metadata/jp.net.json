@@ -8,5 +8,12 @@
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"205.164.14.88"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

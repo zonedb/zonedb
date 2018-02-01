@@ -6,13 +6,20 @@
 	],
 	"whoisURL": "http://www.dot.ph/whois",
 	"nameServers": [
-		"ns4.apnic.net",
-		"sec4.apnic.net",
-		"ph.communitydns.net",
-		"sns-pb.isc.org",
 		"1.ns.ph",
 		"ns2.cuhk.edu.hk",
-		"ph.cctld.authdns.ripe.net"
+		"ns4.apnic.net",
+		"ph.cctld.authdns.ripe.net",
+		"ph.communitydns.net",
+		"sec4.apnic.net",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"203.119.4.201"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

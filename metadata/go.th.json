@@ -1,17 +1,21 @@
 {
 	"domain": "go.th",
 	"nameServers": [
-		"ns.thnic.net",
-		"ams.sns-pb.isc.org",
-		"sfba.sns-pb.isc.org",
 		"a.thains.co.th",
+		"ams.sns-pb.isc.org",
 		"b.thains.co.th",
 		"c.thains.co.th",
 		"dns1.thnic.co.th",
 		"ns-a.thnic.co.th",
 		"ns-e.thnic.co.th",
 		"ns-f.thnic.co.th",
+		"ns.thnic.net",
+		"sfba.sns-pb.isc.org",
 		"th.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

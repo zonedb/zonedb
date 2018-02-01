@@ -12,5 +12,9 @@
 		"c.nic.virgin",
 		"d.nic.virgin"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

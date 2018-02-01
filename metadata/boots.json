@@ -12,5 +12,9 @@
 		"c.nic.boots",
 		"d.nic.boots"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

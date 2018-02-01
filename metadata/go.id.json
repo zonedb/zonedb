@@ -7,5 +7,9 @@
 		"d.dns.id",
 		"e.dns.id"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

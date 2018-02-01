@@ -15,5 +15,9 @@
 		"dnsc.nic.blog",
 		"dnsd.nic.blog"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"euro-ns3.cw.net",
 		"ns.horizon.net.fk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

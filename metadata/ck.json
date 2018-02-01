@@ -8,10 +8,14 @@
 	],
 	"whoisServer": "whois.ck-nic.org.ck",
 	"nameServers": [
-		"parau.oyster.net.ck",
-		"poiparau.oyster.net.ck",
 		"circa.mcs.vuw.ac.nz",
-		"downstage.mcs.vuw.ac.nz"
+		"downstage.mcs.vuw.ac.nz",
+		"parau.oyster.net.ck",
+		"poiparau.oyster.net.ck"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

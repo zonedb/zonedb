@@ -12,5 +12,31 @@
 		"ac3.nstld.com",
 		"ac4.nstld.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Arab",
+			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_arab_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hani",
+			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_hani_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hano",
+			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_hano_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_latn_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_ru_2.5.txt"
+		}
+	]
 }

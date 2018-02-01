@@ -6,11 +6,11 @@
 	],
 	"whoisServer": "whois.agitsys.net",
 	"nameServers": [
-		"ns.cocca.fr",
-		"ns.coccaregistry.org",
-		"a.همراه.dyntld.net",
-		"b.همراه.dyntld.net",
 		"a.ns.nic.همراه",
-		"b.ns.nic.همراه"
+		"a.همراه.dyntld.net",
+		"b.ns.nic.همراه",
+		"b.همراه.dyntld.net",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org"
 	]
 }

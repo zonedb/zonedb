@@ -5,5 +5,9 @@
 		"ns2.uadns.com",
 		"ns3.uadns.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

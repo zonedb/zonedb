@@ -2,14 +2,18 @@
 	"domain": "inc.hk",
 	"whoisServer": "whois.registry.hk.com",
 	"nameServers": [
-		"dns7.cloudns.net",
-		"dns8.cloudns.net",
 		"a.udrtld.net",
 		"b.udrtld.net",
 		"c.udrtld.net",
 		"d.udrtld.net",
+		"dns7.cloudns.net",
+		"dns8.cloudns.net",
 		"e.udrtld.net",
 		"f.udrtld.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

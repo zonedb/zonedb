@@ -12,5 +12,9 @@
 		"b0.nic.abarth",
 		"c0.nic.abarth"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

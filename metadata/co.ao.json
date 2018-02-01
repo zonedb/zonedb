@@ -2,11 +2,15 @@
 	"domain": "co.ao",
 	"nameServers": [
 		"fred.nic.ao",
+		"ns-ext.nic.cz",
 		"ns0.nic.ao",
 		"ns01.backupdns.com",
-		"ns-ext.nic.cz",
 		"ns02.fccn.pt",
 		"ns2.reg.it.ao"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

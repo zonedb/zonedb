@@ -12,5 +12,9 @@
 		"b0.nic.dish",
 		"c0.nic.dish"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

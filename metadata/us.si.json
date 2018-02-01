@@ -4,9 +4,13 @@
 		"b.ns14.net",
 		"c.ns14.net",
 		"d.ns14.net",
-		"ns.2020.si",
 		"jasico2.jasico.si",
+		"ns.2020.si",
 		"ns.jasico.si"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

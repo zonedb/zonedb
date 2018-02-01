@@ -6,15 +6,16 @@
 		"geo"
 	],
 	"nameServers": [
-		"ns02.dns.ao",
+		"auth02.ns.uu.net",
 		"ns-ext.isc.org",
-		"sns-pb.isc.org",
-		"ao01.dns.pt",
-		"ao03.dns.pt",
+		"ns02.dns.ao",
 		"ns02.fccn.pt",
 		"ns03.fccn.pt",
-		"phobos.fccn.pt",
-		"auth02.ns.uu.net"
+		"phobos.fccn.pt"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

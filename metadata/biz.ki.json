@@ -1,10 +1,14 @@
 {
 	"domain": "biz.ki",
 	"nameServers": [
-		"ns.cocca.fr",
-		"ns.coccaregistry.org",
 		"a.ki.dyntld.net",
-		"b.ki.dyntld.net"
+		"b.ki.dyntld.net",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

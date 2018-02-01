@@ -1,11 +1,15 @@
 {
 	"domain": "sc.tz",
 	"nameServers": [
-		"sns-pb.isc.org",
-		"nic.co.tz",
 		"fork.sth.dnsnode.net",
+		"nic.co.tz",
 		"ns.anycast.co.tz",
-		"ns2.tznic.or.tz"
+		"ns2.tznic.or.tz",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

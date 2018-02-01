@@ -12,5 +12,9 @@
 		"b0.nic.lasalle",
 		"c0.nic.lasalle"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

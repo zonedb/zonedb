@@ -1,10 +1,10 @@
 {
 	"domain": "cherkasy.ua",
 	"nameServers": [
-		"ns2.ck.ua",
-		"ns2.km.ua",
-		"nix.net.ua",
 		"ba1.ns.ua",
-		"nix.ns.ua"
+		"nix.net.ua",
+		"nix.ns.ua",
+		"ns2.ck.ua",
+		"ns2.km.ua"
 	]
 }

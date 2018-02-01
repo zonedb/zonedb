@@ -1,14 +1,18 @@
 {
 	"domain": "edu.ni",
 	"nameServers": [
-		"ns.cr",
-		"ns.ni",
-		"ns2.ni",
-		"dns.nic.cr",
 		"auth01.ns.uu.net",
+		"dns.nic.cr",
+		"ns.cr",
 		"ns.ibw.com.ni",
+		"ns.ideay.net.ni",
+		"ns.ni",
 		"ns.tmx.com.ni",
-		"ns.ideay.net.ni"
+		"ns2.ni"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

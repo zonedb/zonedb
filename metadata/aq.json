@@ -6,12 +6,16 @@
 		"geo"
 	],
 	"nameServers": [
-		"ns1.dns.aq",
-		"sns-pb.isc.org",
-		"fork.sth.dnsnode.net",
 		"a.aq.dyntld.net",
 		"b.aq.dyntld.net",
-		"ns99.dns.net.nz"
+		"fork.sth.dnsnode.net",
+		"ns1.dns.aq",
+		"ns99.dns.net.nz",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

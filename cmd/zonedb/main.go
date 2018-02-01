@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/wsxiaoys/terminal/color"
-	"github.com/zonedb/zonedb/build"
+	"github.com/zonedb/zonedb/internal/build"
 )
 
 func main() {
@@ -41,10 +41,11 @@ func main() {
 	removeLocations := flag.String("remove-locations", "", "remove locations from zones (comma-delimited)")
 	updateRoot := flag.Bool("update-root", false, "retrieve updates to the root zone file")
 	updateNS := flag.Bool("update-ns", false, "update name servers")
+	updateWildcards := flag.Bool("update-wildcards", false, "update wildcard IPs")
 	updateRubyWhois := flag.Bool("update-ruby-whois", false, "query Ruby Whois for whois servers")
 	updateWhois := flag.Bool("update-whois", false, "query whois-servers.net for whois servers")
 	updateIANA := flag.Bool("update-iana", false, "query IANA for metadata")
-	updateIDNTables := flag.Bool("update-idn", false, "fetch IDN tables")
+	updateIDN := flag.Bool("update-idn", false, "query IANA for IDN tables")
 	updateAll := flag.Bool("update", false, "update all (root zone, whois, IANA data, IDN tables)")
 
 	// Write operations
@@ -176,8 +177,15 @@ func main() {
 		}
 	}
 
-	if *updateIDNTables || *updateAll {
-		err := build.FetchIDNTables(workZones)
+	if *updateWildcards || *updateAll {
+		err := build.FindWildcards(workZones)
+		if err != nil {
+			build.LogError(err)
+		}
+	}
+
+	if *updateIDN || *updateAll {
+		err := build.FetchIDNTablesFromIANA(workZones)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -224,6 +232,8 @@ func main() {
 		build.VerifyNameServers(workZones)
 	}
 
+	build.CountNameServers(workZones)
+
 	if *verifyWhois {
 		build.VerifyWhois(workZones)
 	}
@@ -238,7 +248,12 @@ func main() {
 	}
 
 	if *write {
-		err := build.WriteZones(zones)
+		err := build.WriteZonesFile(zones)
+		if err != nil {
+			errs = append(errs, err)
+			build.LogFatal(err)
+		}
+		err = build.WriteMetadata(workZones)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogFatal(err)

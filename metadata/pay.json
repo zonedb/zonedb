@@ -12,5 +12,9 @@
 		"ns5.dns.nic.pay",
 		"ns6.dns.nic.pay"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

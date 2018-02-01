@@ -12,5 +12,9 @@
 		"b0.nic.fedex",
 		"c0.nic.fedex"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

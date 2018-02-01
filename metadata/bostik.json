@@ -11,5 +11,11 @@
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bostik_latn_1.txt"
+		}
+	]
 }

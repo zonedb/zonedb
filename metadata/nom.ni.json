@@ -1,13 +1,17 @@
 {
 	"domain": "nom.ni",
 	"nameServers": [
-		"ns.cr",
-		"ns.ni",
-		"ns2.ni",
 		"auth01.ns.uu.net",
+		"ns.cr",
 		"ns.ibw.com.ni",
+		"ns.ideay.net.ni",
+		"ns.ni",
 		"ns.tmx.com.ni",
-		"ns.ideay.net.ni"
+		"ns2.ni"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

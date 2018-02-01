@@ -18,5 +18,36 @@
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_es_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_fr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_pt_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "und",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_none_1.0.txt"
+		}
+	]
 }

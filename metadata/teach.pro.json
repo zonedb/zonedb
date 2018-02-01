@@ -2,11 +2,15 @@
 	"domain": "teach.pro",
 	"nameServers": [
 		"ns1.netim.net",
+		"ns1.old.eucompanynetwork.pro",
 		"ns2.netim.net",
 		"ns3.netim.net",
 		"ns4.netim.net",
-		"ns5.netim.net",
-		"ns1.old.eucompanynetwork.pro"
+		"ns5.netim.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

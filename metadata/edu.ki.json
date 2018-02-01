@@ -1,12 +1,16 @@
 {
 	"domain": "edu.ki",
 	"nameServers": [
-		"ns.cocca.fr",
-		"pch.nic.ki",
-		"ns.coccaregistry.org",
-		"sns-pb.isc.org",
 		"a.ki.dyntld.net",
-		"b.ki.dyntld.net"
+		"b.ki.dyntld.net",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org",
+		"pch.nic.ki",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

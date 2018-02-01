@@ -13,5 +13,9 @@
 		"ns5.dns.nic.silk",
 		"ns6.dns.nic.silk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

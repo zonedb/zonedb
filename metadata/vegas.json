@@ -14,5 +14,10 @@
 		"a2.nic.vegas",
 		"b0.nic.vegas",
 		"c0.nic.vegas"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
 	]
 }

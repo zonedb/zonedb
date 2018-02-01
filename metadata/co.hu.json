@@ -8,5 +8,9 @@
 		"ns-s.nic.hu",
 		"ns12.communitydns.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

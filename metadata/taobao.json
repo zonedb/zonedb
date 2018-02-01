@@ -13,5 +13,9 @@
 		"ns5.dns.nic.taobao",
 		"ns6.dns.nic.taobao"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -1,13 +1,17 @@
 {
 	"domain": "ac.gg",
 	"nameServers": [
+		"dns1.name-s.net",
+		"dns2.name-s.net",
 		"dns3.mtgsy.com",
 		"dns4.mtgsy.com",
 		"ns1.rapidswitch.com",
 		"ns2.rapidswitch.com",
-		"ns3.rapidswitch.com",
-		"dns1.name-s.net",
-		"dns2.name-s.net"
+		"ns3.rapidswitch.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -6,11 +6,11 @@
 	],
 	"whoisServer": "whois.nic.es",
 	"nameServers": [
-		"ns-ext.nic.cl",
-		"ns1.cesca.es",
 		"a.nic.es",
 		"f.nic.es",
 		"g.nic.es",
+		"ns-ext.nic.cl",
+		"ns1.cesca.es",
 		"ns3.nic.fr",
 		"sns-pb.isc.org"
 	]

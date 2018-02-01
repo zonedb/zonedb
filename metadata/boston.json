@@ -20,5 +20,9 @@
 		"dnsc.nic.boston",
 		"dnsd.nic.boston"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

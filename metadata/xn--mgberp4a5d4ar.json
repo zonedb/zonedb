@@ -5,12 +5,19 @@
 	],
 	"whoisServer": "whois.nic.net.sa",
 	"nameServers": [
-		"sa1.dnsnode.net",
-		"sa-ns.anycast.pch.net",
 		"ns1.isu.net.sa",
 		"ns1.nic.net.sa",
 		"ns2.nic.net.sa",
 		"s.nic.net.sa",
-		"s2.nic.net.sa"
+		"s2.nic.net.sa",
+		"sa-ns.anycast.pch.net",
+		"sa1.dnsnode.net"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgberp4a5d4ar_ar_2.xml"
+		}
 	]
 }

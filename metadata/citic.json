@@ -17,5 +17,9 @@
 		"i.zdnscloud.com",
 		"j.zdnscloud.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

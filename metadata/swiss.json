@@ -11,9 +11,15 @@
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
 		"anycast9.irondns.net",
-		"ns15.rcode0.net",
 		"g.nic.swiss",
+		"ns15.rcode0.net",
 		"u.nic.swiss"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/swiss_latn_1.0.txt"
+		}
+	]
 }

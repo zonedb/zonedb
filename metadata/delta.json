@@ -12,5 +12,9 @@
 		"b0.nic.delta",
 		"c0.nic.delta"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

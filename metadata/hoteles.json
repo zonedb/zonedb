@@ -12,5 +12,9 @@
 		"ns5.dns.nic.hoteles",
 		"ns6.dns.nic.hoteles"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

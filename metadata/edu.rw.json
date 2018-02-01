@@ -1,10 +1,14 @@
 {
 	"domain": "edu.rw",
 	"nameServers": [
-		"ns-rw.afrinic.net",
 		"fork.sth.dnsnode.net",
+		"ns-rw.afrinic.net",
 		"ns1.ricta.org.rw",
 		"pch.ricta.org.rw"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

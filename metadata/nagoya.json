@@ -23,5 +23,12 @@
 		"l.gmoregistry.net",
 		"m.gmoregistry.net",
 		"n.gmoregistry.net"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nagoya_ja_1.0.txt"
+		}
 	]
 }

@@ -1,12 +1,16 @@
 {
 	"domain": "gov.lk",
 	"nameServers": [
-		"ns1.ac.lk",
-		"ns1.gov.lk",
-		"ns2.gov.lk",
 		"c.nic.lk",
 		"d.nic.lk",
-		"m.nic.lk"
+		"m.nic.lk",
+		"ns1.ac.lk",
+		"ns1.gov.lk",
+		"ns2.gov.lk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

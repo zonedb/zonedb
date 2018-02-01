@@ -10,5 +10,9 @@
 		"b0.nic.shiksha",
 		"c0.nic.shiksha"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

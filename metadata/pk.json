@@ -6,11 +6,15 @@
 	],
 	"whoisURL": "http://www.pknic.net.pk/",
 	"nameServers": [
-		"root-e.pknic.pk",
-		"root-s.pknic.pk",
 		"n1.pknic.net.pk",
 		"n2.pknic.net.pk",
-		"ns3.pknic.net.pk"
+		"ns3.pknic.net.pk",
+		"root-e.pknic.pk",
+		"root-s.pknic.pk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

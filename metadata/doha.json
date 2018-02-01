@@ -17,5 +17,9 @@
 		"c.nic.doha",
 		"d.nic.doha"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

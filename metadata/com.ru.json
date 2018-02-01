@@ -5,5 +5,12 @@
 		"ns4-com.nic.ru",
 		"ns8-com.nic.ru"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"178.210.89.119"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

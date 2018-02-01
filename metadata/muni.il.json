@@ -1,6 +1,8 @@
 {
 	"domain": "muni.il",
 	"nameServers": [
+		"ilns.ilan.net.il",
+		"lookup.iucc.ac.il",
 		"ns1.ns.il",
 		"ns2.ns.il",
 		"ns3.ns.il",
@@ -9,9 +11,11 @@
 		"nsd.ns.il",
 		"nse.ns.il",
 		"nsg.ns.il",
-		"sns-pb.isc.org",
-		"lookup.iucc.ac.il",
-		"ilns.ilan.net.il"
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

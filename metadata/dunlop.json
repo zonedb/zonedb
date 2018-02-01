@@ -12,5 +12,9 @@
 		"b0.nic.dunlop",
 		"c0.nic.dunlop"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

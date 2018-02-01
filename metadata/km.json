@@ -9,5 +9,9 @@
 		"dns2.nic.km",
 		"ns-km.afrinic.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

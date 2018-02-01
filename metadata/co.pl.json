@@ -6,5 +6,8 @@
 		"ns2.co.pl",
 		"ns3.co.pl",
 		"ns4.co.pl"
+	],
+	"wildcards": [
+		"212.91.6.55"
 	]
 }

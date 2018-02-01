@@ -13,5 +13,9 @@
 		"ns5.dns.nic.calvinklein",
 		"ns6.dns.nic.calvinklein"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

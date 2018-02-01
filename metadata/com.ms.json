@@ -1,10 +1,14 @@
 {
 	"domain": "com.ms",
 	"nameServers": [
-		"ns.cocca.fr",
-		"ns.coccaregistry.org",
 		"a.ms.dyntld.net",
-		"b.ms.dyntld.net"
+		"b.ms.dyntld.net",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

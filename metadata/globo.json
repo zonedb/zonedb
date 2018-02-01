@@ -14,5 +14,11 @@
 		"e.dns.br",
 		"f.dns.br"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/globo_pt_1.xml"
+		}
+	]
 }

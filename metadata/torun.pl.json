@@ -2,9 +2,13 @@
 	"domain": "torun.pl",
 	"nameServers": [
 		"bilbo.nask.org.pl",
-		"flis.man.torun.pl",
 		"blackbox.uci.uni.torun.pl",
+		"flis.man.torun.pl",
 		"koala.uci.uni.torun.pl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

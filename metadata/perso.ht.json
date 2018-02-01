@@ -1,14 +1,18 @@
 {
 	"domain": "perso.ht",
 	"nameServers": [
-		"dns.princeton.edu",
-		"ns.cocca.fr",
-		"ns3.nic.fr",
-		"ns.coccaregistry.org",
-		"charles.cdec.polymtl.ca",
 		"a.ht.dyntld.net",
 		"b.ht.dyntld.net",
-		"ht-ns.anycast.pch.net"
+		"charles.cdec.polymtl.ca",
+		"dns.princeton.edu",
+		"ht-ns.anycast.pch.net",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org",
+		"ns3.nic.fr"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

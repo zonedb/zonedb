@@ -14,6 +14,7 @@ import (
 	"golang.org/x/net/idna"
 )
 
+// BaseDir specifies the base working directory that contains the ZoneDB flat-file database.
 var BaseDir = "."
 
 // ReadZones reads the zone database from the local filesystem.
@@ -67,7 +68,7 @@ func ReadZonesFile() (zones map[string]*Zone, errs []error) {
 				LogWarning(err)
 				continue
 			}
-			p.Subdomains = append(p.Subdomains, d)
+			p.subdomains = append(p.subdomains, d)
 		}
 	}
 	if err := s.Err(); err != nil {
@@ -76,7 +77,7 @@ func ReadZonesFile() (zones map[string]*Zone, errs []error) {
 	}
 
 	for _, z := range zones {
-		sort.Strings(z.Subdomains)
+		sort.Strings(z.subdomains)
 	}
 
 	color.Fprintf(os.Stderr, "@{.}Read %d zones\n", len(zones))
@@ -135,11 +136,15 @@ func ReadMetadata(zones map[string]*Zone) (errs []error) {
 			LogError(err)
 			continue
 		}
+
+		// Transition on load
+		z.transition()
 	}
 	color.Fprintf(os.Stderr, "@{.}Read %d metadata files\n", read)
 	return
 }
 
+// WriteZones writes zones.txt and associated JSON metadata.
 func WriteZones(zones map[string]*Zone) error {
 	err := WriteZonesFile(zones)
 	if err != nil {
@@ -148,6 +153,7 @@ func WriteZones(zones map[string]*Zone) error {
 	return WriteMetadata(zones)
 }
 
+// WriteZonesFile writes the zones.txt file.
 func WriteZonesFile(zones map[string]*Zone) error {
 	domains := SortedDomains(zones)
 	path := filepath.Join(BaseDir, "zones.txt")
@@ -164,6 +170,7 @@ func WriteZonesFile(zones map[string]*Zone) error {
 	return nil
 }
 
+// WriteMetadata writes the metadata/*.json files.
 func WriteMetadata(zones map[string]*Zone) error {
 	var wrote, deleted int
 	for _, z := range zones {

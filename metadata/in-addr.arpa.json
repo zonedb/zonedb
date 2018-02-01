@@ -11,5 +11,9 @@
 		"e.in-addr-servers.arpa",
 		"f.in-addr-servers.arpa"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -1,4 +1,8 @@
 {
 	"domain": "or.na",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

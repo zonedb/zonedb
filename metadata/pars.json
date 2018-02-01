@@ -6,12 +6,16 @@
 	],
 	"whoisServer": "whois.agitsys.net",
 	"nameServers": [
-		"ns.cocca.fr",
-		"ns.coccaregistry.org",
-		"a.pars.dyntld.net",
-		"b.pars.dyntld.net",
 		"a.ns.nic.pars",
-		"b.ns.nic.pars"
+		"a.pars.dyntld.net",
+		"b.ns.nic.pars",
+		"b.pars.dyntld.net",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -1,10 +1,14 @@
 {
 	"domain": "co.je",
 	"nameServers": [
-		"d.ci-servers.je",
 		"a.ci-servers.net",
 		"b.ci-servers.org",
-		"c.ci-servers.org"
+		"c.ci-servers.org",
+		"d.ci-servers.je"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

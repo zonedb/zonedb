@@ -18,5 +18,9 @@
 		"ns4.nic.amsterdam",
 		"ns5.nic.amsterdam"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

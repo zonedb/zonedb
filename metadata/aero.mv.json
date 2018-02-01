@@ -2,10 +2,14 @@
 	"domain": "aero.mv",
 	"infoURL": "http://www.brunet.bn/products_webrelated_domain_main.htm",
 	"nameServers": [
-		"ns.aero.mv",
+		"mv-ns.anycast.pch.net",
 		"ns-cache01.dhivehinet.net.mv",
-		"ns2.dhivehinet.net.mv",
-		"mv-ns.anycast.pch.net"
+		"ns.aero.mv",
+		"ns2.dhivehinet.net.mv"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -7,12 +7,88 @@
 	"whoisServer": "whois.nic.reise",
 	"nameServers": [
 		"a.dns.nic.reise",
-		"m.dns.nic.reise",
-		"n.dns.nic.reise",
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",
 		"demand.delta.aridns.net.au",
-		"demand.gamma.aridns.net.au"
+		"demand.gamma.aridns.net.au",
+		"m.dns.nic.reise",
+		"n.dns.nic.reise"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_de_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_es_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_fr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Arab",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_arab_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_cyrl_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Deva",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_deva_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_grek_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hebr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_hebr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_latn_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/reise_latn_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Taml",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_taml_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Thai",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_thai_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_zh_1.0.txt"
+		}
+	]
 }

@@ -1,10 +1,14 @@
 {
 	"domain": "org.gt",
 	"nameServers": [
-		"pch.gt",
 		"ns.dns.br",
 		"ns3.nic.mx",
+		"pch.gt",
 		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

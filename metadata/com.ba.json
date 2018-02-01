@@ -5,5 +5,12 @@
 		"ns2.com.ba",
 		"ns3.com.ba"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"195.222.33.180"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

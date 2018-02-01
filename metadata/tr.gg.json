@@ -4,5 +4,12 @@
 		"ns01.webme.com",
 		"ns02.webme.com"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"193.238.27.36"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

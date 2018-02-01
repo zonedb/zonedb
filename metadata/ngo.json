@@ -13,5 +13,16 @@
 		"c0.nic.ngo",
 		"d0.nic.ngo"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ngo_da_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ngo_de_1.txt"
+		}
+	]
 }

@@ -7,17 +7,21 @@
 	],
 	"whoisServer": "whois.nic.samsung",
 	"nameServers": [
+		"a.samsung.dyntld.net",
 		"b.dns.kr",
+		"b.samsung.dyntld.net",
 		"c.dns.kr",
+		"c.samsung.dyntld.net",
 		"d.dns.kr",
+		"d.samsung.dyntld.net",
 		"e.dns.kr",
 		"f.dns.kr",
 		"g.dns.kr",
-		"ns1.dns.samsung",
-		"a.samsung.dyntld.net",
-		"b.samsung.dyntld.net",
-		"c.samsung.dyntld.net",
-		"d.samsung.dyntld.net"
+		"ns1.dns.samsung"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

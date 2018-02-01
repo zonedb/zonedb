@@ -1,13 +1,17 @@
 {
 	"domain": "net.mw",
 	"nameServers": [
-		"rip.psg.com",
-		"domwe.sdn.mw",
-		"sec3.apnic.net",
-		"sdnhq.undp.org",
 		"chambo.sdnp.org.mw",
+		"domwe.sdn.mw",
+		"mw.cctld.authdns.ripe.net",
 		"nyala.sdnp.org.mw",
-		"mw.cctld.authdns.ripe.net"
+		"rip.psg.com",
+		"sdnhq.undp.org",
+		"sec3.apnic.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

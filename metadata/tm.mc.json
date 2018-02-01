@@ -1,9 +1,13 @@
 {
 	"domain": "tm.mc",
 	"nameServers": [
+		"mc.cctld.authdns.ripe.net",
 		"ns1.nic.mc",
-		"ns2.nic.mc",
-		"mc.cctld.authdns.ripe.net"
+		"ns2.nic.mc"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

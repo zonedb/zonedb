@@ -1,4 +1,8 @@
 {
 	"domain": "mil.tj",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

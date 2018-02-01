@@ -6,12 +6,16 @@
 	],
 	"whoisServer": "whois.ati.tn",
 	"nameServers": [
-		"rip.psg.com",
-		"ns2.nic.fr",
 		"ns-tn.afrinic.net",
 		"ns1.ati.tn",
 		"ns2.ati.tn",
-		"pch.ati.tn"
+		"ns2.nic.fr",
+		"pch.ati.tn",
+		"rip.psg.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

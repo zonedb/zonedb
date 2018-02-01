@@ -1,12 +1,16 @@
 {
 	"domain": "com.mu",
 	"nameServers": [
-		"udns1.tld.mu",
+		"anycast1.irondns.net",
 		"mu1.dyntld.net",
 		"mu2.dyntld.net",
 		"mu3.dyntld.net",
 		"mu4.dyntld.net",
-		"anycast1.irondns.net"
+		"udns1.tld.mu"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

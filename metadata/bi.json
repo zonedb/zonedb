@@ -7,11 +7,15 @@
 	"whoisServer": "whois1.nic.bi",
 	"nameServers": [
 		"anyns.nic.bi",
-		"ns.nic.bi",
-		"ns1.nic.bi",
+		"bi.cctld.authdns.ripe.net",
 		"dns.princeton.edu",
 		"ns-bi.afrinic.net",
-		"bi.cctld.authdns.ripe.net"
+		"ns.nic.bi",
+		"ns1.nic.bi"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -6,5 +6,12 @@
 		"ns4.dns.ws",
 		"ns5.dns.ws"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"202.4.48.211"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

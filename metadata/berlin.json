@@ -15,5 +15,16 @@
 		"m.dns.nic.berlin",
 		"n.dns.nic.berlin"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/berlin_cyrl_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/berlin_latn_1.txt"
+		}
+	]
 }

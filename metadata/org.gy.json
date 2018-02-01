@@ -1,15 +1,15 @@
 {
 	"domain": "org.gy",
 	"nameServers": [
-		"phloem.uoregon.edu",
-		"ns.cocca.fr",
-		"ns.coccaregistry.org",
-		"sns-pb.isc.org",
-		"ns1.gtt.co.gy",
-		"ns2.gtt.co.gy",
 		"a.gy.dyntld.net",
 		"b.gy.dyntld.net",
 		"gy-ns.anycast.pch.net",
-		"gy.cctld.authdns.ripe.net"
+		"gy.cctld.authdns.ripe.net",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org",
+		"ns1.gtt.co.gy",
+		"ns2.gtt.co.gy",
+		"phloem.uoregon.edu",
+		"sns-pb.isc.org"
 	]
 }

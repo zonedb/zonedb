@@ -12,5 +12,9 @@
 		"b0.nic.avianca",
 		"c0.nic.avianca"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

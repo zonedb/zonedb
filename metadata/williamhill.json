@@ -13,5 +13,9 @@
 		"ns5.dns.nic.williamhill",
 		"ns6.dns.nic.williamhill"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -6,5 +6,9 @@
 		"nsi1.inet.ga",
 		"nsi2.inet.ga"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -1,12 +1,19 @@
 {
 	"domain": "asia.com",
 	"nameServers": [
-		"pdns5.ultradns.info",
 		"pdns1.ultradns.net",
 		"pdns2.ultradns.net",
 		"pdns3.ultradns.org",
 		"pdns4.ultradns.org",
+		"pdns5.ultradns.info",
 		"pdns6.ultradns.co.uk"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"72.55.150.59"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

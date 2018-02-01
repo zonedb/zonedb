@@ -11,5 +11,9 @@
 		"c.nic.forum",
 		"d.nic.forum"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

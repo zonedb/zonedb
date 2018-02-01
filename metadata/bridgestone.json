@@ -7,14 +7,18 @@
 	],
 	"whoisServer": "whois.nic.bridgestone",
 	"nameServers": [
+		"a.gmoregistry.net",
 		"a.nic.bridgestone",
+		"b.gmoregistry.net",
 		"b.nic.bridgestone",
 		"c.nic.bridgestone",
 		"d.nic.bridgestone",
-		"a.gmoregistry.net",
-		"b.gmoregistry.net",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

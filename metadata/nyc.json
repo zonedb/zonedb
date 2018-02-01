@@ -16,5 +16,12 @@
 		"ns4.dns.nic.nyc",
 		"ns5.dns.nic.nyc",
 		"ns6.dns.nic.nyc"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_es_1.1.txt"
+		}
 	]
 }

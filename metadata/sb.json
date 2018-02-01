@@ -6,14 +6,18 @@
 	],
 	"whoisServer": "whois.nic.net.sb",
 	"nameServers": [
+		"a.sb.dyntld.net",
+		"b.sb.dyntld.net",
 		"ns.cocca.fr",
+		"ns.coccaregistry.org",
+		"pch.nic.sb",
 		"sb1.dyntld.net",
 		"sb3.dyntld.net",
-		"ns.coccaregistry.org",
-		"sns-pb.isc.org",
-		"pch.nic.sb",
-		"a.sb.dyntld.net",
-		"b.sb.dyntld.net"
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -8,5 +8,9 @@
 		"ns2.mywebserver.co.za",
 		"ns3.mywebserver.co.za"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

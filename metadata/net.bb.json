@@ -4,5 +4,9 @@
 		"ns1.barbadosdomain.net",
 		"ns2.barbadosdomain.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

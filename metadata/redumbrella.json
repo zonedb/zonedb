@@ -12,5 +12,9 @@
 		"b0.nic.redumbrella",
 		"c0.nic.redumbrella"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

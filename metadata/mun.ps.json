@@ -6,5 +6,9 @@
 		"ns1.gov.ps",
 		"ns2.pnina.ps"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -6,11 +6,11 @@
 	],
 	"whoisServer": "whois.nic.рус",
 	"nameServers": [
-		"ns.cocca.fr",
-		"tld1.coccaregistry.net",
-		"ns.coccaregistry.org",
-		"tld1.coccaregistry.org",
 		"a.рус.dyntld.net",
-		"b.рус.dyntld.net"
+		"b.рус.dyntld.net",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org",
+		"tld1.coccaregistry.net",
+		"tld1.coccaregistry.org"
 	]
 }

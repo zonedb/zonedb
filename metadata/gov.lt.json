@@ -6,5 +6,9 @@
 		"ns3.is.lt",
 		"ns4.is.lt"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

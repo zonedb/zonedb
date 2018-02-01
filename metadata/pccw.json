@@ -12,5 +12,9 @@
 		"b0.nic.pccw",
 		"c0.nic.pccw"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

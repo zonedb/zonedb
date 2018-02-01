@@ -5,5 +5,9 @@
 		"adns1.gov.hu",
 		"adns2.gov.hu"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

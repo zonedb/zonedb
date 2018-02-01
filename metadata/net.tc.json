@@ -9,5 +9,9 @@
 		"root6.zone.tc",
 		"root7.zone.tc"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -1,4 +1,8 @@
 {
 	"domain": "name.jo",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

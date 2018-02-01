@@ -12,5 +12,9 @@
 		"b0.nic.lamer",
 		"c0.nic.lamer"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -1,4 +1,11 @@
 {
 	"domain": "gob.ve",
-	"codePoints": "--09az"
+	"wildcards": [
+		"150.188.229.11"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

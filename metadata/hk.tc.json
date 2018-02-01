@@ -1,15 +1,17 @@
 {
 	"domain": "hk.tc",
 	"nameServers": [
+		"f1g1ns1.dnspod.net",
+		"f1g1ns2.dndpod.net",
 		"ns1.alidns.com",
 		"ns2.alidns.com",
+		"suspended.nic.tc",
 		"v1s1.xundns.com",
-		"v1s2.xundns.com",
-		"f1g1ns2.dndpod.net",
-		"ns1.dnsbird.net",
-		"ns2.dnsbird.net",
-		"f1g1ns1.dnspod.net",
-		"suspended.nic.tc"
+		"v1s2.xundns.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -1,9 +1,9 @@
 {
 	"domain": "ecape.school.za",
 	"nameServers": [
-		"mopani.school.za",
-		"ochre.school.za",
 		"hippo.ru.ac.za",
-		"ns0.serendipity.org.za"
+		"mopani.school.za",
+		"ns0.serendipity.org.za",
+		"ochre.school.za"
 	]
 }

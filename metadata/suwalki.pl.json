@@ -7,5 +7,9 @@
 		"f-dns.pl",
 		"h-dns.pl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

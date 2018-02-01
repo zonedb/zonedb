@@ -11,5 +11,9 @@
 		"ns2.registry.hm",
 		"ns3.registry.hm"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

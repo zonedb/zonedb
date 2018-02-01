@@ -4,5 +4,9 @@
 		"ns.nic.kz",
 		"ns2.nic.kz"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

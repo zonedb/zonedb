@@ -6,12 +6,16 @@
 	],
 	"whoisServer": "whois.agitsys.net",
 	"nameServers": [
-		"ns.cocca.fr",
-		"ns.coccaregistry.org",
-		"a.shia.dyntld.net",
-		"b.shia.dyntld.net",
 		"a.ns.nic.shia",
-		"b.ns.nic.shia"
+		"a.shia.dyntld.net",
+		"b.ns.nic.shia",
+		"b.shia.dyntld.net",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

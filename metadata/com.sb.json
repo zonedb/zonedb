@@ -1,9 +1,13 @@
 {
 	"domain": "com.sb",
 	"nameServers": [
-		"pch.nic.sb",
 		"a.sb.dyntld.net",
-		"b.sb.dyntld.net"
+		"b.sb.dyntld.net",
+		"pch.nic.sb"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

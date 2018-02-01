@@ -12,5 +12,9 @@
 		"b0.nic.temasek",
 		"c0.nic.temasek"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

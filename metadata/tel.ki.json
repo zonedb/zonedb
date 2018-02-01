@@ -1,4 +1,8 @@
 {
 	"domain": "tel.ki",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

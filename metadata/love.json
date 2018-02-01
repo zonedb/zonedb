@@ -11,5 +11,9 @@
 		"c.nic.love",
 		"d.nic.love"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

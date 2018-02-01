@@ -12,5 +12,9 @@
 		"ns3.nic.mtr",
 		"ns4.nic.mtr"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

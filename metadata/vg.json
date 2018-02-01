@@ -6,11 +6,18 @@
 	],
 	"whoisServer": "whois.nic.vg",
 	"nameServers": [
-		"vg-ns.ksregistry.net",
 		"a.vg.dyntld.net",
 		"b.vg.dyntld.net",
 		"vg-ns.anycast.pch.net",
+		"vg-ns.ksregistry.net",
 		"vg.cctld.authdns.ripe.net"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"88.198.29.97"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

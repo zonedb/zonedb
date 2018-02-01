@@ -11,12 +11,19 @@
 	],
 	"whoisServer": "whois.nic.wien",
 	"nameServers": [
+		"a.dns.nic.wien",
+		"m.dns.nic.wien",
+		"n.dns.nic.wien",
 		"ns1.ryce-rsp.com",
 		"nsa.netnod.se",
 		"nsp.netnod.se",
-		"nsu.netnod.se",
-		"a.dns.nic.wien",
-		"m.dns.nic.wien",
-		"n.dns.nic.wien"
+		"nsu.netnod.se"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/wien_latn_1.txt"
+		}
 	]
 }

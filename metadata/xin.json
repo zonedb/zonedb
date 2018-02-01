@@ -11,5 +11,9 @@
 		"b0.nic.xin",
 		"c0.nic.xin"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

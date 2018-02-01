@@ -4,5 +4,9 @@
 		"ns1.amador.st",
 		"ns2.amador.st"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"b0.nic.monster",
 		"c0.nic.monster"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

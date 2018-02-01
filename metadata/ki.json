@@ -6,12 +6,16 @@
 	],
 	"whoisServer": "whois.nic.ki",
 	"nameServers": [
-		"pch.nic.ki",
+		"a.ki.dyntld.net",
+		"b.ki.dyntld.net",
 		"ki1.dyntld.net",
 		"ki3.dyntld.net",
-		"sns-pb.isc.org",
-		"a.ki.dyntld.net",
-		"b.ki.dyntld.net"
+		"pch.nic.ki",
+		"sns-pb.isc.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

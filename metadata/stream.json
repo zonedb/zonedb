@@ -12,5 +12,9 @@
 		"ns5.dns.nic.stream",
 		"ns6.dns.nic.stream"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

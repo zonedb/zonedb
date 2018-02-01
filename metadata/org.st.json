@@ -4,5 +4,9 @@
 		"ns1.webhosting.st",
 		"ns2.webhosting.st"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

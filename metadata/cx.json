@@ -6,11 +6,15 @@
 	],
 	"whoisServer": "whois.nic.cx",
 	"nameServers": [
-		"ns.cocca.fr",
-		"ns.coccaregistry.org",
-		"ns.anycast.nic.cx",
 		"a.cx.dyntld.net",
-		"b.cx.dyntld.net"
+		"b.cx.dyntld.net",
+		"ns.anycast.nic.cx",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

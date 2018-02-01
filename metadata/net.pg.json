@@ -1,4 +1,8 @@
 {
 	"domain": "net.pg",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

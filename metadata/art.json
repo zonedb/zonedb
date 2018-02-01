@@ -11,5 +11,9 @@
 		"c.nic.art",
 		"d.nic.art"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

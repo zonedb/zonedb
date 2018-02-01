@@ -1,14 +1,18 @@
 {
 	"domain": "net.mt",
 	"nameServers": [
-		"ns.mt",
-		"ns1.mt",
 		"a.ns.mt",
 		"b.ns.mt",
 		"f.ns.mt",
 		"i.ns.mt",
+		"ns.mt",
+		"ns1.mt",
 		"p.ns.mt",
 		"r.ns.mt"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -3,11 +3,11 @@
 	"whoisServer": "whois.twnic.net.tw",
 	"nameServers": [
 		"anytld.apnic.net",
-		"sec4.apnic.net",
 		"d.dns.tw",
 		"e.dns.tw",
 		"f.dns.tw",
 		"g.dns.tw",
-		"h.dns.tw"
+		"h.dns.tw",
+		"sec4.apnic.net"
 	]
 }

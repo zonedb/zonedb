@@ -1,4 +1,8 @@
 {
 	"domain": "uniti.al",
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

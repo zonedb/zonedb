@@ -4,10 +4,14 @@
 		"retired"
 	],
 	"nameServers": [
+		"grandfather.grondar.org",
 		"ns1.iafrica.com",
 		"ns2.iafrica.com",
-		"rip.psg.com",
-		"grandfather.grondar.org"
+		"rip.psg.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

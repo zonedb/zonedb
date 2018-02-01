@@ -1,8 +1,12 @@
 {
 	"domain": "net.gp",
 	"nameServers": [
-		"ns1.orangecaraibe.com",
-		"ns1.nic.gp"
+		"ns1.nic.gp",
+		"ns1.orangecaraibe.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

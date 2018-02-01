@@ -11,5 +11,9 @@
 		"b0.nic.helsinki",
 		"c0.nic.helsinki"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

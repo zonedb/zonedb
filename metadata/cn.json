@@ -14,5 +14,12 @@
 		"f.dns.cn",
 		"g.dns.cn",
 		"ns.cernet.net"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh-CN",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cn_zh-cn_4.0.html"
+		}
 	]
 }

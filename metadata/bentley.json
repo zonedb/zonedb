@@ -22,5 +22,9 @@
 		"ns6.nic.uk",
 		"ns7.nic.uk"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

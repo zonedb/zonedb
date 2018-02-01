@@ -7,14 +7,18 @@
 	"whoisServer": "whois.nic.kn",
 	"whoisURL": "http://www.nic.kn/",
 	"nameServers": [
-		"ns.cocca.fr",
-		"dyntld-1.nic.kn",
-		"dyntld-2.nic.kn",
-		"pch.nic.kn",
-		"ns.coccaregistry.org",
 		"a.dns.tw",
 		"b.dns.tw",
-		"c.dns.tw"
+		"c.dns.tw",
+		"dyntld-1.nic.kn",
+		"dyntld-2.nic.kn",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org",
+		"pch.nic.kn"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

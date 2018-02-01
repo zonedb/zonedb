@@ -11,5 +11,9 @@
 		"b0.nic.scholarships",
 		"c0.nic.scholarships"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -13,5 +13,9 @@
 		"ns5.dns.nic.fire",
 		"ns6.dns.nic.fire"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

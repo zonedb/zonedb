@@ -12,5 +12,9 @@
 		"b0.nic.sina",
 		"c0.nic.sina"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

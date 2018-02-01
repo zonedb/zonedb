@@ -1,13 +1,17 @@
 {
 	"domain": "ing.pa",
 	"nameServers": [
-		"ns.pa",
-		"ns2.pa",
+		"dns.nic.cr",
+		"ns-ext.nic.cl",
 		"ns.dns.br",
 		"ns.nic.cl",
-		"ns-ext.nic.cl",
-		"dns.nic.cr",
-		"ns.nic.pa"
+		"ns.nic.pa",
+		"ns.pa",
+		"ns2.pa"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

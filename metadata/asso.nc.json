@@ -5,5 +5,9 @@
 		"ns1.nc",
 		"ns2.nc"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

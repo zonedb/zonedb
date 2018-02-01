@@ -14,5 +14,9 @@
 		"ns5.dns.nic.chintai",
 		"ns6.dns.nic.chintai"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

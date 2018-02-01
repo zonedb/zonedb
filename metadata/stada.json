@@ -12,5 +12,9 @@
 		"b0.nic.stada",
 		"c0.nic.stada"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

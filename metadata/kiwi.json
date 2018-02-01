@@ -11,5 +11,12 @@
 		"d.ns.nic.kiwi",
 		"e.ns.nic.kiwi",
 		"f.ns.nic.kiwi"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/kiwi_latn_1.2bis.txt"
+		}
 	]
 }

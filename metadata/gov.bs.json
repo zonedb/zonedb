@@ -6,5 +6,9 @@
 		"ibgb-ext1.gov.bs",
 		"ibgb-ext2.gov.bs"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

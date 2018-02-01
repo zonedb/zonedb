@@ -1,10 +1,14 @@
 {
 	"domain": "poznan.pl",
 	"nameServers": [
-		"dns.info.com.pl",
+		"bilbo.nask.org.pl",
 		"dns.amu.edu.pl",
-		"kirdan.nask.net.pl",
-		"bilbo.nask.org.pl"
+		"dns.info.com.pl",
+		"kirdan.nask.net.pl"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

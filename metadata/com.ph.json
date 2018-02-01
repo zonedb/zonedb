@@ -1,4 +1,11 @@
 {
 	"domain": "com.ph",
-	"codePoints": "--09az"
+	"wildcards": [
+		"203.119.4.201"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

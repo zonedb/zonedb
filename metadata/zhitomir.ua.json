@@ -2,10 +2,14 @@
 	"domain": "zhitomir.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"ns.lucky.net",
 		"ba1.ns.ua",
+		"impuls.zhitomir.ua",
 		"nix.ns.ua",
-		"impuls.zhitomir.ua"
+		"ns.lucky.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

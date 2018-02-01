@@ -12,5 +12,126 @@
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_ar_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ca",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_ca_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "cs",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_cs_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_da_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_de_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "el",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_el_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_es_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_fi_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_fr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "he",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_he_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "hr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_hr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "hu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_hu_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_lt_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_lv_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "no",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_no_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_pl_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_pt_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_ru_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_sv_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "tr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_tr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "uk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_uk_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sap_zh_1.0.txt"
+		}
+	]
 }

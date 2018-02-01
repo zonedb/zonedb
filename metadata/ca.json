@@ -11,5 +11,12 @@
 		"d.ca-servers.ca",
 		"e.ca-servers.ca",
 		"j.ca-servers.ca"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ca_fr_1.0.html"
+		}
 	]
 }

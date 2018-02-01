@@ -5,8 +5,8 @@
 	],
 	"whoisServer": "whois.nic.kz",
 	"nameServers": [
+		"kz.cctld.authdns.ripe.net",
 		"ns.nic.kz",
-		"ns1.nic.kz",
-		"kz.cctld.authdns.ripe.net"
+		"ns1.nic.kz"
 	]
 }

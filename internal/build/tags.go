@@ -2,6 +2,7 @@ package build
 
 import "github.com/wsxiaoys/terminal/color"
 
+// AddTags adds one or more tags to a Zone.
 func AddTags(zones map[string]*Zone, tags []string) {
 	var added, modified int
 	for _, z := range zones {
@@ -18,6 +19,7 @@ func AddTags(zones map[string]*Zone, tags []string) {
 	color.Printf("@{.}Added %d tag(s) to %d zone(s)\n", added, modified)
 }
 
+// RemoveTags removes one or more tags from a Zone.
 func RemoveTags(zones map[string]*Zone, tags []string) {
 	var removed, modified int
 	for _, z := range zones {

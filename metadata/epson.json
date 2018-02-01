@@ -7,14 +7,18 @@
 	],
 	"whoisServer": "whois.aridnrs.net.au",
 	"nameServers": [
+		"a.gmoregistry.net",
 		"a.nic.epson",
+		"b.gmoregistry.net",
 		"b.nic.epson",
 		"c.nic.epson",
 		"d.nic.epson",
-		"a.gmoregistry.net",
-		"b.gmoregistry.net",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

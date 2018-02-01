@@ -1,9 +1,13 @@
 {
 	"domain": "odesa.ua",
 	"nameServers": [
+		"ho1.ns.od.ua",
 		"nix.ns.ua",
-		"ns.od.ua",
-		"ho1.ns.od.ua"
+		"ns.od.ua"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

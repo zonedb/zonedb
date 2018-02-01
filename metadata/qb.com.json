@@ -6,5 +6,9 @@
 		"hank.ns.cloudflare.com",
 		"jill.ns.cloudflare.com"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

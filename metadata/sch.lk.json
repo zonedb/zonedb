@@ -1,13 +1,20 @@
 {
 	"domain": "sch.lk",
 	"nameServers": [
+		"kashyapa.mrt.ac.lk",
+		"ns.mrt.ac.lk",
 		"ns1.ac.lk",
 		"ns1.sch.lk",
 		"ns1.schoolnet.lk",
-		"kashyapa.mrt.ac.lk",
-		"ns.mrt.ac.lk",
 		"s1.ns.slt.lk",
 		"s2.ns.slt.lk"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"43.224.127.64"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -10,5 +10,9 @@
 		"dns6.nic.tm",
 		"dns7.nic.tm"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"b0.nic.fiat",
 		"c0.nic.fiat"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

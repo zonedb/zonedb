@@ -11,5 +11,12 @@
 		"ns3.nic.pw",
 		"ns4.nic.pw"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"141.8.226.58"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"apdns3.nic.smart",
 		"apdns4.nic.smart"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

@@ -12,5 +12,9 @@
 		"b0.nic.statebank",
 		"c0.nic.statebank"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

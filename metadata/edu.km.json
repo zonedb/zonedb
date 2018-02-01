@@ -4,5 +4,9 @@
 		"dns1.nic.km",
 		"dns2.nic.km"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

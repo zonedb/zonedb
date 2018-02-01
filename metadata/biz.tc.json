@@ -2,10 +2,17 @@
 	"domain": "biz.tc",
 	"infoURL": "http://www.biz.tc/",
 	"nameServers": [
-		"ns1.codrv.net",
-		"ns3.codrv.net",
 		"dns1.freehostservers.net",
-		"dns2.freehostservers.net"
+		"dns2.freehostservers.net",
+		"ns1.codrv.net",
+		"ns3.codrv.net"
 	],
-	"codePoints": "--09az"
+	"wildcards": [
+		"64.136.20.39"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }

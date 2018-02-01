@@ -4,5 +4,9 @@
 		"ns1.mu-dns.net",
 		"ns2.mu-dns.net"
 	],
-	"codePoints": "--09az"
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
 }
