@@ -6,7 +6,8 @@
 		"geo"
 	],
 	"locations": [
-		"Las Vegas"
+		"Las Vegas",
+		"dma:839"
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [

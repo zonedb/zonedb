@@ -6,7 +6,8 @@
 		"geo"
 	],
 	"locations": [
-		"New York City"
+		"New York City",
+		"dma:501"
 	],
 	"whoisServer": "whois.nic.nyc",
 	"nameServers": [

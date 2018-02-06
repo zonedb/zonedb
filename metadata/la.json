@@ -6,7 +6,8 @@
 		"geo"
 	],
 	"locations": [
-		"Los Angeles"
+		"Los Angeles",
+		"dma:803"
 	],
 	"whoisServer": "whois.nic.la",
 	"nameServers": [
