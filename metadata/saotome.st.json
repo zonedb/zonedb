@@ -1,8 +1,8 @@
 {
 	"domain": "saotome.st",
 	"nameServers": [
-		"ns1.amador.st",
-		"ns2.amador.st"
+		"ns1.govhost.st",
+		"ns2.govhost.st"
 	],
 	"policies": [
 		{

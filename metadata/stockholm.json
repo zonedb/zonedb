@@ -23,6 +23,11 @@
 		},
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/stockholm_sv_1.txt",
+			"language": "sv"
+		},
+		{
+			"type": "idn-table",
 			"key": "sv",
 			"value": "https://www.iana.org/domains/idn-tables/tables/stockholm_sv_1.txt"
 		}

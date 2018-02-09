@@ -15,6 +15,31 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_arab_2.5.txt",
+			"language": "mul-Arab"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_cyrl_2.5.txt",
+			"language": "mul-Cyrl"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_hang_2.5.txt",
+			"language": "mul-Hang"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_hani_2.5.txt",
+			"language": "mul-Hani"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/weber_latn_2.5.txt",
+			"language": "mul-Latn"
+		},
+		{
+			"type": "idn-table",
 			"key": "mul-Arab",
 			"value": "https://www.iana.org/domains/idn-tables/tables/weber_arab_2.5.txt"
 		},

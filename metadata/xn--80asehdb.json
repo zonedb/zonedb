@@ -13,6 +13,11 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--80asehdb_cyrl_1.0.txt",
+			"language": "mul-Cyrl"
+		},
+		{
+			"type": "idn-table",
 			"key": "mul-Cyrl",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--80asehdb_cyrl_1.0.txt"
 		}

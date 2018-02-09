@@ -1,10 +1,10 @@
 {
 	"domain": "nom.mg",
 	"nameServers": [
-		"a.mg.dyntld.net",
-		"b.mg.dyntld.net",
+		"censvrns0001.ird.fr",
 		"ns.dts.mg",
-		"ns.nic.mg"
+		"ns.nic.mg",
+		"pch.nic.mg"
 	],
 	"policies": [
 		{

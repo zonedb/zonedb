@@ -17,6 +17,16 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bg_bg-bg_1.0.html",
+			"language": "bg-BG"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bg_ru-bg_1.0.html",
+			"language": "ru-BG"
+		},
+		{
+			"type": "idn-table",
 			"key": "bg",
 			"value": "https://www.iana.org/domains/idn-tables/tables/bg_bg-bg_1.0.html"
 		},

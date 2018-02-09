@@ -16,6 +16,11 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/final_pt_1.xml",
+			"language": "pt"
+		},
+		{
+			"type": "idn-table",
 			"key": "pt",
 			"value": "https://www.iana.org/domains/idn-tables/tables/final_pt_1.xml"
 		}

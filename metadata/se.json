@@ -13,9 +13,26 @@
 		"g.ns.se",
 		"i.ns.se",
 		"j.ns.se",
-		"x.ns.se"
+		"x.ns.se",
+		"y.ns.se",
+		"z.ns.se"
 	],
 	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/se_latn_1.0.html",
+			"language": "mul-Latn"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/se_sv-se_1.0.html",
+			"language": "sv-SE"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/se_yi_1.0.html",
+			"language": "yi"
+		},
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",

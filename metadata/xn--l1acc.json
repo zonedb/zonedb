@@ -12,6 +12,11 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--l1acc_mn_1.0.html",
+			"language": "mn"
+		},
+		{
+			"type": "idn-table",
 			"key": "mn",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--l1acc_mn_1.0.html"
 		}

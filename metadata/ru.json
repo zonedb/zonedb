@@ -15,6 +15,11 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ru_ru-ru_1.0.html",
+			"language": "ru-RU"
+		},
+		{
+			"type": "idn-table",
 			"key": "ru-RU",
 			"value": "https://www.iana.org/domains/idn-tables/tables/ru_ru-ru_1.0.html"
 		}

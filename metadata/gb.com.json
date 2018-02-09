@@ -2,10 +2,7 @@
 	"domain": "gb.com",
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
-		"f1g1ns1.dnspod.net",
-		"f1g1ns2.dnspod.net"
-	],
-	"wildcards": [
-		"69.172.201.153"
+		"ns3.dns.com",
+		"ns4.dns.com"
 	]
 }
