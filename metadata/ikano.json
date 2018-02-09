@@ -14,6 +14,21 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ikano_cyrl_1.0.txt",
+			"language": "mul-Cyrl"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ikano_latn_1.0.txt",
+			"language": "mul-Latn"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ikano_thai_1.0.txt",
+			"language": "mul-Thai"
+		},
+		{
+			"type": "idn-table",
 			"key": "mul-Cyrl",
 			"value": "https://www.iana.org/domains/idn-tables/tables/ikano_cyrl_1.0.txt"
 		},

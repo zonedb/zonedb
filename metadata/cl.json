@@ -16,6 +16,11 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cl_latn_1.0.html",
+			"language": "mul-Latn"
+		},
+		{
+			"type": "idn-table",
 			"key": "mul-Latn",
 			"value": "https://www.iana.org/domains/idn-tables/tables/cl_latn_1.0.html"
 		}

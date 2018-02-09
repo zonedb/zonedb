@@ -21,6 +21,11 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tw_zh-tw_4.0.1.html",
+			"language": "zh-TW"
+		},
+		{
+			"type": "idn-table",
 			"key": "zh-TW",
 			"value": "https://www.iana.org/domains/idn-tables/tables/tw_zh-tw_4.0.1.html"
 		}

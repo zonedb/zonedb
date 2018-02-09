@@ -10,6 +10,16 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--nqv7f_zh-cn_4.0.txt",
+			"language": "zh-CN"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--nqv7f_zh-tw_4.0.txt",
+			"language": "zh-TW"
+		},
+		{
+			"type": "idn-table",
 			"key": "zh-CN",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--nqv7f_zh-cn_4.0.txt"
 		},

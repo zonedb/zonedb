@@ -9,5 +9,12 @@
 		"x.dns.eu",
 		"y.dns.eu",
 		"z.dns.eu"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--e1a4c_cyrl_1.0.txt",
+			"language": "mul-Cyrl"
+		}
 	]
 }

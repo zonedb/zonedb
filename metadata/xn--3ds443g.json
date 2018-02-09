@@ -10,6 +10,16 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--3ds443g_zh-cn_4.0.txt",
+			"language": "zh-CN"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--3ds443g_zh-hant_4.0.1.txt",
+			"language": "zh-Hant"
+		},
+		{
+			"type": "idn-table",
 			"key": "zh-CN",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--3ds443g_zh-cn_4.0.txt"
 		},

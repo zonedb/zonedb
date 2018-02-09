@@ -4,9 +4,6 @@
 		"a.dnspod.com",
 		"b.dnspod.com"
 	],
-	"wildcards": [
-		"199.59.242.150"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

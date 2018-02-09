@@ -14,6 +14,16 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--q9jyb4c_jpan_1.0.txt",
+			"language": "mul-Jpan"
+		},
+		{
+			"type": "idn-table",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--q9jyb4c_latn_1.0.txt",
+			"language": "mul-Latn"
+		},
+		{
+			"type": "idn-table",
 			"key": "mul-Jpan",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--q9jyb4c_jpan_1.0.txt"
 		},

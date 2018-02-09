@@ -7,8 +7,5 @@
 		"ns4.myhostadmin.net",
 		"ns5.myhostadmin.net",
 		"ns6.myhostadmin.net"
-	],
-	"wildcards": [
-		"23.234.27.209"
 	]
 }
