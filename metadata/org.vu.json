@@ -1,8 +1,5 @@
 {
 	"domain": "org.vu",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"anytld.apnic.net",
 		"fork.sth.dnsnode.net",
