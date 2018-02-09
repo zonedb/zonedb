@@ -1,7 +1,7 @@
 {
 	"domain": "edu.me",
-	"nameServers": [
-		"ns.edu.me"
+	"tags": [
+		"retired"
 	],
 	"policies": [
 		{

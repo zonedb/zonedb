@@ -3,6 +3,15 @@
 	"tags": [
 		"retired"
 	],
+	"nameServers": [
+		"dns.nic.cr",
+		"ns.ibw.com.ni",
+		"ns.ideay.net.ni",
+		"ns.ni",
+		"ns.uu.net",
+		"ns1.bb-online.net",
+		"ns2.ni"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

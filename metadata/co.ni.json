@@ -2,9 +2,10 @@
 	"domain": "co.ni",
 	"nameServers": [
 		"auth01.ns.uu.net",
+		"dns.nic.cr",
 		"ns.ibw.com.ni",
 		"ns.ni",
-		"ns1.bb-online.net"
+		"ns2.ni"
 	],
 	"policies": [
 		{
