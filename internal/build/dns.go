@@ -128,7 +128,7 @@ func FetchNameServers(zones map[string]*Zone) error {
 		}
 		if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 {
 			color.Fprintf(os.Stderr, "@{y}Zone lost all name servers: @{y!}%s@{y}\n", z.Domain)
-			z.Retire()
+			// z.Retire()
 		}
 	}
 
