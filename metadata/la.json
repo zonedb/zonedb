@@ -14,8 +14,5 @@
 		"ns2.nic.la",
 		"ns3.nic.la",
 		"ns4.nic.la"
-	],
-	"wildcards": [
-		"173.230.141.80"
 	]
 }
