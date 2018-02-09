@@ -102,8 +102,18 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_ar_2.1.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "da",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_da_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_da_2.1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -112,8 +122,18 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_de_2.1.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "es",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_es_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_es_2.1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -122,8 +142,23 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "fi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_fi_2.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_fr_2.1.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "hu",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_hu_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "hu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_hu_2.1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -132,8 +167,18 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "is",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_is_2.1.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "ja",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_ja_2.1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -142,8 +187,18 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_ko_2.1.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "lt",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_lt_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_lt_2.1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -152,8 +207,18 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "lv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_lv_2.1.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "no",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_no_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "no",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_no_2.1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -162,8 +227,18 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_pl_2.1.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "pt",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_pt_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_pt_2.1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -172,13 +247,28 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_ru_2.1.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "sv",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_sv_1.txt"
 		},
 		{
 			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_sv_2.1.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "zh",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_zh_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rovu88b_zh_2.1.txt"
 		}
 	]
 }
