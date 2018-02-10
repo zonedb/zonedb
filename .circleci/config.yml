@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/go/src/github.com/zonedb/zonedb
+    docker:
+      - image: domainr/ci:swan
+    steps:
+      - checkout
+      - run: go get -t -d -v ./...
+      - run: go build -v
+
+      # Run tests
+      - run: mkdir -p test-results
+      - run: |
+          trap "go-junit-report < test-results/go-test.log > test-results/go-test-report.xml" EXIT
+          go test -v -race -bench . ./... | tee test-results/go-test.log
+
+      # Report
+      - store_test_results:
+          path: test-results
+      - store_artifacts:
+          path: test-results
+          destination: results
