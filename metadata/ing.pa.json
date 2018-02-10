@@ -3,6 +3,15 @@
 	"tags": [
 		"retired"
 	],
+	"nameServers": [
+		"dns.nic.cr",
+		"ns-ext.nic.cl",
+		"ns.dns.br",
+		"ns.nic.cl",
+		"ns.nic.pa",
+		"ns.pa",
+		"ns2.pa"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

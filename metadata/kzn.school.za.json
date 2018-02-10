@@ -2,5 +2,12 @@
 	"domain": "kzn.school.za",
 	"tags": [
 		"retired"
+	],
+	"nameServers": [
+		"mopani.school.za",
+		"ns0.serendipity.org.za",
+		"ochre.school.za",
+		"sec.zadns.net",
+		"ucthpx.uct.ac.za"
 	]
 }

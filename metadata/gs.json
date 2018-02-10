@@ -6,9 +6,8 @@
 	],
 	"whoisServer": "whois.nic.gs",
 	"nameServers": [
-		"a.gs.dyntld.net",
-		"b.gs.dyntld.net",
-		"ns.anycast.nic.gs"
+		"ns.anycast.nic.gs",
+		"ns.cocca.fr"
 	],
 	"policies": [
 		{
