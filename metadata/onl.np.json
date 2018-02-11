@@ -1,9 +1,6 @@
 {
 	"domain": "onl.np",
 	"infoURL": "http://register.mos.com.np/np-ccTLDs",
-	"tags": [
-		"retired"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

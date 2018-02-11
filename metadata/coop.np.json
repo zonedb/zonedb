@@ -4,7 +4,11 @@
 	"nameServers": [
 		"np-ns.anycast.pch.net",
 		"np-ns.npix.net.np",
-		"shikhar.mos.com.np"
+		"ns-ext.isc.org",
+		"sec1.apnic.net",
+		"sec3.apnic.net",
+		"shikhar.mos.com.np",
+		"sungava.mos.com.np"
 	],
 	"policies": [
 		{
