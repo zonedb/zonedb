@@ -1,6 +1,7 @@
 package build
 
 import (
+	"context"
 	"fmt"
 	"math/rand"
 	"os"
@@ -8,6 +9,7 @@ import (
 	"strings"
 	"sync"
 	"sync/atomic"
+	"time"
 
 	"github.com/domainr/dnsr"
 	"github.com/miekg/dns"
@@ -100,14 +102,21 @@ func FetchNameServers(zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zones...\n", len(zones))
 	var found int32
 	mapZones(zones, func(z *Zone) {
-		// Clear out old name servers for non-TLDs
+		ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+		defer cancel()
+		rrs, err := resolver.ResolveCtx(ctx, z.ASCII(), "NS")
+		if err != nil && err != dnsr.NXDOMAIN {
+			color.Fprintf(os.Stderr, "@{r}Error fetching name servers for %s: %s\n", z.Domain, err.Error())
+			return
+		}
+
+		// Clear out existing name servers for non-TLDs
 		if !z.IsTLD() {
 			z.oldNameServers = z.NameServers
 			z.NameServers = nil
 		}
 
-		name := z.ASCII()
-		rrs := resolver.Resolve(name, "NS")
+		// Store new name servers
 		for _, rr := range rrs {
 			if rr.Type != "NS" || Normalize(rr.Name) != z.Domain {
 				continue
