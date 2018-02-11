@@ -102,7 +102,7 @@ func FetchNameServers(zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zones...\n", len(zones))
 	var found int32
 	mapZones(zones, func(z *Zone) {
-		ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+		ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
 		defer cancel()
 		rrs, err := resolver.ResolveCtx(ctx, z.ASCII(), "NS")
 		if err != nil && err != dnsr.NXDOMAIN {
@@ -134,6 +134,12 @@ func FetchNameServers(zones map[string]*Zone) error {
 	for _, z := range zones {
 		if z.IsTLD() {
 			continue
+		}
+		// Re-add old name servers (FIXME: should we do this?)
+		for _, ns := range z.oldNameServers {
+			if verifyNS(ns) == nil {
+				z.NameServers = append(z.NameServers, ns)
+			}
 		}
 		if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 {
 			color.Fprintf(os.Stderr, "@{y}Zone lost all name servers: @{y!}%s@{y}\n", z.Domain)
