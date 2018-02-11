@@ -22,11 +22,6 @@ type Zone struct {
 	Wildcards   []string `json:"wildcards,omitempty"`
 	Policies    []Policy `json:"policies,omitempty"`
 
-	// Transitional
-	CodePoints   string            `json:"codePoints,omitempty"`
-	ProhibitIDN  bool              `json:"prohibitIDN,omitempty"`
-	IDNTableURLs map[string]string `json:"idnTableURLs,omitempty"`
-
 	// Internal
 	subdomains     []string
 	oldNameServers []string
@@ -72,31 +67,9 @@ func (z *Zone) normalizePolicies() {
 }
 
 func (z *Zone) transition() {
-	// Transition ProhibitIDN and ASCII CodePoints
-	if z.ProhibitIDN || z.CodePoints == "--09az" {
-		z.AddPolicy(TypeIDNDisallowed, "", "", "")
-	}
-
-	// Transition IDNTableURLs
-	for lang, u := range z.IDNTableURLs {
-		z.AddPolicy(TypeIDNTable, lang, u, "")
-	}
-
 	// Transition policies
 	for i := range z.Policies {
 		p := &z.Policies[i]
-
-		// Transition TypeMinLength to TypeLength
-		if p.Type == "min-length" {
-			p.Type = TypeLength
-			p.Key = KeyMin
-		}
-
-		// Transition Language to Key
-		if p.Language != "" {
-			p.Key = p.Language
-			p.Language = ""
-		}
 
 		// Transition invalid BCP 47 language tags
 		if p.Type == TypeIDNTable && p.Key != "" {
@@ -108,11 +81,6 @@ func (z *Zone) transition() {
 			}
 		}
 	}
-
-	// Zero out legacy data
-	z.ProhibitIDN = false
-	z.IDNTableURLs = nil
-	z.CodePoints = ""
 }
 
 // AddPolicy adds a single policy to Zone z.

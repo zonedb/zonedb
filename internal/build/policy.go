@@ -26,9 +26,6 @@ type Policy struct {
 	Key     string `json:"key,omitempty"`
 	Value   string `json:"value,omitempty"`
 	Comment string `json:"comment,omitempty"`
-
-	// Transitional
-	Language string `json:"language,omitempty"`
 }
 
 func sortPolicies(policies []Policy) {
