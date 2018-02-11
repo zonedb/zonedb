@@ -76,9 +76,9 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 		}
 
 		policy := Policy{
-			Type:     TypeIDNTable,
-			Value:    u.String(),
-			Language: lang,
+			Type:  TypeIDNTable,
+			Key:   lang,
+			Value: u.String(),
 		}
 		z.Policies = append(z.Policies, policy)
 
