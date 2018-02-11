@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"math/rand"
+	"net"
 	"os"
 	"sort"
 	"strings"
@@ -11,7 +12,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/domainr/dnsr"
 	"github.com/miekg/dns"
 	"github.com/wsxiaoys/terminal/color"
 	"golang.org/x/net/idna"
@@ -95,7 +95,10 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 	return nil
 }
 
-var resolver = dnsr.New(10000)
+var resolver = &net.Resolver{
+	PreferGo:     true,
+	StrictErrors: true,
+}
 
 // FetchNameServers fetches NS records for zones.
 func FetchNameServers(zones map[string]*Zone) error {
@@ -104,8 +107,8 @@ func FetchNameServers(zones map[string]*Zone) error {
 	mapZones(zones, func(z *Zone) {
 		ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
 		defer cancel()
-		rrs, err := resolver.ResolveCtx(ctx, z.ASCII(), "NS")
-		if err != nil && err != dnsr.NXDOMAIN {
+		rrs, err := resolver.LookupNS(ctx, z.ASCII())
+		if err != nil && !strings.HasSuffix(err.Error(), "no such host") {
 			color.Fprintf(os.Stderr, "@{r}Error fetching name servers for %s: %s\n", z.Domain, err.Error())
 			return
 		}
@@ -118,10 +121,7 @@ func FetchNameServers(zones map[string]*Zone) error {
 
 		// Store new name servers
 		for _, rr := range rrs {
-			if rr.Type != "NS" || Normalize(rr.Name) != z.Domain {
-				continue
-			}
-			ns := Normalize(rr.Value)
+			ns := Normalize(rr.Host)
 			if verifyNS(ns) == nil {
 				z.NameServers = append(z.NameServers, ns)
 				atomic.AddInt32(&found, 1)
@@ -218,18 +218,18 @@ func FindWildcards(zones map[string]*Zone) error {
 		var resolved int
 		addrs := NewSet()
 		for i := 0; i < n; i++ {
+			ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+			defer cancel()
 			name := randLabel(32) + "." + z.ASCII()
-			rrs := resolver.Resolve(name, "A")
+			rrs, _ := resolver.LookupIPAddr(ctx, name)
 			for _, rr := range rrs {
-				if rr.Type != "A" || Normalize(rr.Name) != name {
-					continue
-				}
+				addr := rr.IP.String()
 				// Ignore ICANN name collisions
 				// https://www.icann.org/resources/pages/name-collision-2013-12-06-en#127.0.53.53
-				if rr.Value == dnsr.NameCollision {
+				if addr == "127.0.53.53" {
 					continue
 				}
-				addrs.Add(rr.Value)
+				addrs.Add(addr)
 				resolved++
 			}
 			if i > 1 && len(addrs) == 0 {
