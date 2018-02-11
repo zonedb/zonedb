@@ -1,9 +1,9 @@
 {
 	"domain": "пр.срб",
 	"nameServers": [
-		"a.nic.rs",
-		"g.nic.rs",
-		"h.nic.rs",
-		"l.nic.rs"
+		"l.nic.rs",
+		"ns1.nic.rs",
+		"ns1.rnids.rs",
+		"ns2.rnids.rs"
 	]
 }
