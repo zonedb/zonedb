@@ -2,7 +2,8 @@
 	"domain": "org.cd",
 	"nameServers": [
 		"igubu.saix.net",
-		"sabela.saix.net"
+		"sabela.saix.net",
+		"sangoma.saix.net"
 	],
 	"policies": [
 		{

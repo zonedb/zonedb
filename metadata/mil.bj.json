@@ -3,6 +3,9 @@
 	"tags": [
 		"retired"
 	],
+	"nameServers": [
+		"emg.mil.bj"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

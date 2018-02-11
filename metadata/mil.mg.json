@@ -2,7 +2,6 @@
 	"domain": "mil.mg",
 	"nameServers": [
 		"censvrns0001.ird.fr",
-		"ns-mg.malagasy.com",
 		"ns.dts.mg",
 		"ns.nic.mg",
 		"pch.nic.mg"
