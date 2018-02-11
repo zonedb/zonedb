@@ -16,36 +16,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/flickr_de_1.txt",
-			"language": "de"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/flickr_es_1.txt",
-			"language": "es"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/flickr_ja_1.0.txt",
-			"language": "ja"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/flickr_ko_1.txt",
-			"language": "ko"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/flickr_ru_1.txt",
-			"language": "ru"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/flickr_zh_1.txt",
-			"language": "zh"
-		},
-		{
-			"type": "idn-table",
 			"key": "de",
 			"value": "https://www.iana.org/domains/idn-tables/tables/flickr_de_1.txt"
 		},

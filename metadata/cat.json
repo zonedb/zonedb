@@ -22,11 +22,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cat_ca_1.0.html",
-			"language": "ca"
-		},
-		{
-			"type": "idn-table",
 			"key": "ca",
 			"value": "https://www.iana.org/domains/idn-tables/tables/cat_ca_1.0.html"
 		}

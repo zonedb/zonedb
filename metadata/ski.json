@@ -13,11 +13,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ski_de_1.0.txt",
-			"language": "de"
-		},
-		{
-			"type": "idn-table",
 			"key": "de",
 			"value": "https://www.iana.org/domains/idn-tables/tables/ski_de_1.0.txt"
 		}

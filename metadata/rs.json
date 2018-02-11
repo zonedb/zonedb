@@ -17,11 +17,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rs_sr_1.3.txt",
-			"language": "sr"
-		},
-		{
-			"type": "idn-table",
 			"key": "sr",
 			"value": "https://www.iana.org/domains/idn-tables/tables/rs_sr_1.3.txt"
 		}

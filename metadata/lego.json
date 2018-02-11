@@ -15,36 +15,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lego_arab_2.5.txt",
-			"language": "mul-Arab"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lego_hang_2.5.txt",
-			"language": "mul-Hang"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lego_hani_2.5.txt",
-			"language": "mul-Hani"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lego_hano_2.5.txt",
-			"language": "mul-Hano"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lego_latn_2.5.txt",
-			"language": "mul-Latn"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lego_ru_2.5.txt",
-			"language": "ru"
-		},
-		{
-			"type": "idn-table",
 			"key": "mul-Arab",
 			"value": "https://www.iana.org/domains/idn-tables/tables/lego_arab_2.5.txt"
 		},

@@ -18,11 +18,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/br_pt-br_1.0.html",
-			"language": "pt-BR"
-		},
-		{
-			"type": "idn-table",
 			"key": "pt-BR",
 			"value": "https://www.iana.org/domains/idn-tables/tables/br_pt-br_1.0.html"
 		}

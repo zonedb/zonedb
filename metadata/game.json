@@ -17,41 +17,6 @@
 		},
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_cyrl_1.0.txt",
-			"language": "mul-Cyrl"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_de_1.0.txt",
-			"language": "de"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_es_1.0.txt",
-			"language": "es"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_fr_1.0.txt",
-			"language": "fr"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_it_1.0.txt",
-			"language": "it"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_pt_1.0.txt",
-			"language": "pt"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_zh_1.0.txt",
-			"language": "zh"
-		},
-		{
-			"type": "idn-table",
 			"key": "de",
 			"value": "https://www.iana.org/domains/idn-tables/tables/audio_de_1.0.txt"
 		},

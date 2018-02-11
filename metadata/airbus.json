@@ -15,31 +15,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_arab_2.5.txt",
-			"language": "mul-Arab"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_hani_2.5.txt",
-			"language": "mul-Hani"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_hano_2.5.txt",
-			"language": "mul-Hano"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_latn_2.5.txt",
-			"language": "mul-Latn"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_ru_2.5.txt",
-			"language": "ru"
-		},
-		{
-			"type": "idn-table",
 			"key": "mul-Arab",
 			"value": "https://www.iana.org/domains/idn-tables/tables/airbus_arab_2.5.txt"
 		},

@@ -15,26 +15,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hang_2.5.txt",
-			"language": "mul-Hang"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hani_2.5.txt",
-			"language": "mul-Hani"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hano_2.5.txt",
-			"language": "mul-Hano"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_ja_2.5.txt",
-			"language": "ja"
-		},
-		{
-			"type": "idn-table",
 			"key": "ja",
 			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_ja_2.5.txt"
 		},

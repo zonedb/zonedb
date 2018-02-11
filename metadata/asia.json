@@ -17,21 +17,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/asia_ja_1.1.txt",
-			"language": "ja"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/asia_ko_1.0.txt",
-			"language": "ko"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/asia_zh_1.1.txt",
-			"language": "zh"
-		},
-		{
-			"type": "idn-table",
 			"key": "ja",
 			"value": "https://www.iana.org/domains/idn-tables/tables/asia_ja_1.1.txt"
 		},

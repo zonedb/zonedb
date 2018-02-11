@@ -15,11 +15,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/my_ms-my_1.0.pdf",
-			"language": "ms-MY"
-		},
-		{
-			"type": "idn-table",
 			"key": "ms-MY",
 			"value": "https://www.iana.org/domains/idn-tables/tables/my_ms-my_1.0.pdf"
 		}

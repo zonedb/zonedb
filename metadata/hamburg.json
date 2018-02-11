@@ -18,11 +18,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hamburg_latn_1.txt",
-			"language": "mul-Latn"
-		},
-		{
-			"type": "idn-table",
 			"key": "mul-Latn",
 			"value": "https://www.iana.org/domains/idn-tables/tables/hamburg_latn_1.txt"
 		}

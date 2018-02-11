@@ -17,11 +17,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/neustar_es_1.0.txt",
-			"language": "es"
-		},
-		{
-			"type": "idn-table",
 			"key": "es",
 			"value": "https://www.iana.org/domains/idn-tables/tables/neustar_es_1.0.txt"
 		}

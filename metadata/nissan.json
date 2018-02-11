@@ -15,36 +15,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissan_es_1.0.txt",
-			"language": "es"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissan_fr_1.0.txt",
-			"language": "fr"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissan_ja_1.0.txt",
-			"language": "ja"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissan_ko_1.0.txt",
-			"language": "ko"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissan_pl_1.0.txt",
-			"language": "pl"
-		},
-		{
-			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissan_pt_1.0.txt",
-			"language": "pt"
-		},
-		{
-			"type": "idn-table",
 			"key": "es",
 			"value": "https://www.iana.org/domains/idn-tables/tables/nissan_es_1.0.txt"
 		},

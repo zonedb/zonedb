@@ -13,11 +13,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ca_fr_1.0.html",
-			"language": "fr"
-		},
-		{
-			"type": "idn-table",
 			"key": "fr",
 			"value": "https://www.iana.org/domains/idn-tables/tables/ca_fr_1.0.html"
 		}
