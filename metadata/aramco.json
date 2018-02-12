@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.aramco.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.aramco",
 	"nameServers": [
 		"ns1.dns.nic.aramco",
 		"ns2.dns.nic.aramco",

@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.audible.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.audible",
 	"nameServers": [
 		"ns1.dns.nic.audible",
 		"ns2.dns.nic.audible",

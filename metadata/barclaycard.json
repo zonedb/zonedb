@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.barclaycard.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.barclaycard",
 	"nameServers": [
 		"a.nic.barclaycard",
 		"b.nic.barclaycard",

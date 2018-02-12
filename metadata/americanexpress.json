@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.americanexpress.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.americanexpress",
 	"nameServers": [
 		"ns1.dns.nic.americanexpress",
 		"ns2.dns.nic.americanexpress",

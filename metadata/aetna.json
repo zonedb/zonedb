@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.aetna.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.aetna",
 	"nameServers": [
 		"ns1.dns.nic.aetna",
 		"ns2.dns.nic.aetna",

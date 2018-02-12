@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.able.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.able",
 	"nameServers": [
 		"ns1.dns.nic.able",
 		"ns2.dns.nic.able",
