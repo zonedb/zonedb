@@ -5,6 +5,7 @@
 		"closed",
 		"generic"
 	],
+	"whoisServer": "whois.safe.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.safe",
 		"ns2.dns.nic.safe",

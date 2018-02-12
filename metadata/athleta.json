@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.athleta.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.athleta",
 		"ns2.dns.nic.athleta",

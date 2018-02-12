@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.analytics.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.analytics",
 		"ns2.dns.nic.analytics",

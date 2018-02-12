@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nba.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.nba",
 		"ns2.dns.nic.nba",

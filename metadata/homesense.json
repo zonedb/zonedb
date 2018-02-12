@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.homesense.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.homesense",
 		"ns2.dns.nic.homesense",

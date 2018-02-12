@@ -5,7 +5,7 @@
 		"community",
 		"generic"
 	],
-	"whoisServer": "whois.nic.kred",
+	"whoisServer": "whois.kred.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.kred",
 		"ns2.dns.nic.kred",

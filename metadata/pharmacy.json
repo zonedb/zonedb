@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.pharmacy.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.pharmacy",
 		"ns2.dns.nic.pharmacy",

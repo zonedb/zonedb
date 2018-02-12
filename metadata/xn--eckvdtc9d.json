@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.ポイント.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.ポイント",
 		"ns2.dns.nic.ポイント",

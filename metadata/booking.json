@@ -5,6 +5,7 @@
 		"closed",
 		"generic"
 	],
+	"whoisServer": "whois.booking.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.booking",
 		"ns2.dns.nic.booking",

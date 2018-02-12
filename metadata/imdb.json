@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.imdb.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.imdb",
 		"ns2.dns.nic.imdb",

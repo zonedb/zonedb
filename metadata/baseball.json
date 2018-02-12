@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.baseball.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.baseball",
 		"ns2.dns.nic.baseball",

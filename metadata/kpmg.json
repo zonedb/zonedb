@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.kpmg.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.kpmg",
 		"ns2.dns.nic.kpmg",

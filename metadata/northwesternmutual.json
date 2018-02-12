@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.northwesternmutual.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.northwesternmutual",
 		"ns2.dns.nic.northwesternmutual",

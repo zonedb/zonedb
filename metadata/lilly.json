@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.lilly.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.lilly",
 		"ns2.dns.nic.lilly",

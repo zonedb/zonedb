@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.nic.buzz",
+	"whoisServer": "whois.buzz.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.buzz",
 		"ns2.dns.nic.buzz",

@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.room.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.room",
 		"ns2.dns.nic.room",

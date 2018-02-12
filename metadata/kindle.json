@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.kindle.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.kindle",
 		"ns2.dns.nic.kindle",

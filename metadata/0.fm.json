@@ -3,5 +3,8 @@
 	"nameServers": [
 		"ns1.bb-online.net",
 		"ns2.bb-online.net"
+	],
+	"wildcards": [
+		"194.168.163.55"
 	]
 }

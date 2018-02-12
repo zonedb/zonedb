@@ -4,6 +4,7 @@
 		"country",
 		"geo"
 	],
+	"whoisServer": "whois.nic.gp",
 	"whoisURL": "https://www.dom-enic.com/whois.html",
 	"nameServers": [
 		"gp.cctld.authdns.ripe.net",

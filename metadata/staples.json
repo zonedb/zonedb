@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.staples.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.staples",
 		"ns2.dns.nic.staples",

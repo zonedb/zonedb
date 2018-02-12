@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.nic.one",
+	"whoisServer": "whois.one.ash.dnrs.neustar",
 	"nameServers": [
 		"a.nic.one",
 		"b.nic.one",

@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.amex.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.amex",
 		"ns2.dns.nic.amex",

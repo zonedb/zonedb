@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.honeywell.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.honeywell",
 		"ns2.dns.nic.honeywell",

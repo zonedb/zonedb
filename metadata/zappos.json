@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.zappos.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.zappos",
 		"ns2.dns.nic.zappos",

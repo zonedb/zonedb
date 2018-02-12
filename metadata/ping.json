@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.ping.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.ping",
 		"ns2.dns.nic.ping",

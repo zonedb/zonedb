@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.food",
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

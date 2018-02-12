@@ -1,6 +1,6 @@
 {
 	"domain": "世界",
-	"whoisServer": "whois.nic.世界",
+	"whoisServer": "whois.世界.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.世界",
 		"ns2.dns.nic.世界",

@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.pru.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.pru",
 		"ns2.dns.nic.pru",

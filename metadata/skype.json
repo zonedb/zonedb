@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.skype.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.skype",
 		"ns2.dns.nic.skype",
