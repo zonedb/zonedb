@@ -8,7 +8,7 @@
 	"locations": [
 		"New York City"
 	],
-	"whoisServer": "whois.nyc.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.nyc",
 	"nameServers": [
 		"ns1.dns.nic.nyc",
 		"ns2.dns.nic.nyc",

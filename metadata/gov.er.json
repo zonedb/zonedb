@@ -1,7 +1,8 @@
 {
 	"domain": "gov.er",
 	"nameServers": [
-		"er.cctld.authdns.ripe.net"
+		"er.cctld.authdns.ripe.net",
+		"zaranew.noc.net.er"
 	],
 	"policies": [
 		{

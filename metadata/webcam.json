@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.webcam.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.webcam",
 	"nameServers": [
 		"ns1.dns.nic.webcam",
 		"ns2.dns.nic.webcam",

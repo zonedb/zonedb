@@ -1,8 +1,5 @@
 {
 	"domain": "per.mm",
-	"nameServers": [
-		"ns.mtgnic.net.mm"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

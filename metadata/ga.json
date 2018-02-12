@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.my.ga",
+	"whoisServer": "whois.dot.ga",
 	"nameServers": [
 		"a.ns.ga",
 		"b.ns.ga",
