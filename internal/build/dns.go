@@ -99,7 +99,7 @@ var resolver = dnsr.New(10000)
 
 // FetchNameServers fetches NS records for zones.
 func FetchNameServers(zones, allZones map[string]*Zone) error {
-	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zones...\n", len(zones))
+	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zones\n", len(zones))
 	var found int32
 	mapZones(zones, func(z *Zone) {
 		// Skip TLDs
@@ -171,7 +171,7 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 			color.Fprintf(os.Stderr, "@{y}Zone lost all name servers: @{y!}%s@{y}\n", z.Domain)
 		}
 	})
-	color.Fprintf(os.Stderr, "@{.}Found %d name servers\n", found)
+	color.Fprintf(os.Stderr, "@{.}\nFound %d name servers\n", found)
 
 	return nil
 }
@@ -226,7 +226,7 @@ func CountNameServers(zones map[string]*Zone) {
 	// 	color.Printf("@{.}%s ", ns)
 	// }
 	// color.Printf("\n")
-	color.Fprintf(os.Stderr, "@{.}Found %d unique DNS servers for %d zone(s)\n", len(all), found)
+	color.Fprintf(os.Stderr, "@{.}Counted %d unique name servers in %d of %d zone(s)\n", len(all), found, len(zones))
 }
 
 // FindWildcards finds wildcard DNS records for a zone.
