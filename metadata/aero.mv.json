@@ -1,9 +1,6 @@
 {
 	"domain": "aero.mv",
 	"infoURL": "http://www.brunet.bn/products_webrelated_domain_main.htm",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"mv-ns.anycast.pch.net",
 		"ns-cache01.dhivehinet.net.mv",

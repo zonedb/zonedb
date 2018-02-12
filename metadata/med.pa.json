@@ -1,8 +1,5 @@
 {
 	"domain": "med.pa",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"dns.nic.cr",
 		"ns-ext.nic.cl",

@@ -1,8 +1,5 @@
 {
 	"domain": "web.ni",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"dns.nic.cr",
 		"ns.ibw.com.ni",

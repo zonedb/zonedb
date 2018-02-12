@@ -1,8 +1,5 @@
 {
 	"domain": "ing.pa",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"dns.nic.cr",
 		"ns-ext.nic.cl",
