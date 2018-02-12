@@ -317,7 +317,7 @@ func exchange(ctx context.Context, host, qname string, qtype uint16) (*dns.Msg, 
 	qmsg := &dns.Msg{}
 	qmsg.MsgHdr.RecursionDesired = false
 	qmsg.SetQuestion(dns.Fqdn(qname), qtype)
-	client := &dns.Client{Net: "tcp"}
+	client := &dns.Client{}
 	rmsg, _, err := client.ExchangeContext(ctx, qmsg, host+":53")
 	return rmsg, err
 }
