@@ -1,8 +1,7 @@
 {
 	"domain": "edu.er",
 	"nameServers": [
-		"er.cctld.authdns.ripe.net",
-		"zaranew.noc.net.er"
+		"er.cctld.authdns.ripe.net"
 	],
 	"policies": [
 		{
