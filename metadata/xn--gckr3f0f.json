@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.クラウド.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.クラウド",
 		"ns2.dns.nic.クラウド",

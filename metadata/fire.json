@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.fire.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.fire",
 		"ns2.dns.nic.fire",

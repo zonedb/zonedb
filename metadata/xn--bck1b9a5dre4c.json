@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.ファッション.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.ファッション",
 		"ns2.dns.nic.ファッション",

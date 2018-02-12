@@ -9,7 +9,7 @@
 		"Okinawa",
 		"JP-47"
 	],
-	"whoisServer": "whois.nic.okinawa",
+	"whoisServer": "whois.gmoregistry.net",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",

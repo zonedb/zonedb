@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.intel.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.intel",
 		"ns2.dns.nic.intel",

@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.frontier.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.frontier",
 		"ns2.dns.nic.frontier",

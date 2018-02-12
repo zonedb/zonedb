@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.piaget.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.piaget",
 		"ns2.dns.nic.piaget",

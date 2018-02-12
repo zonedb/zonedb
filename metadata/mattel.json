@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.mattel.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.mattel",
 		"ns2.dns.nic.mattel",

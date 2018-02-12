@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.panerai.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.panerai",
 		"ns2.dns.nic.panerai",

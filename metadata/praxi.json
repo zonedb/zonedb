@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.praxi.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.praxi",
 		"ns2.dns.nic.praxi",

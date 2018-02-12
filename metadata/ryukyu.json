@@ -9,7 +9,7 @@
 		"JP-46",
 		"JP-47"
 	],
-	"whoisServer": "whois.nic.ryukyu",
+	"whoisServer": "whois.gmoregistry.net",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",

@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.tjmaxx.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.tjmaxx",
 		"ns2.dns.nic.tjmaxx",

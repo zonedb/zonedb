@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.rocher.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.rocher",
 		"ns2.dns.nic.rocher",

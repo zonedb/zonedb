@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.cbn.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.cbn",
 		"ns2.dns.nic.cbn",

@@ -1,7 +1,7 @@
 {
 	"domain": "联通",
 	"infoURL": "http://newgtlds.icann.org/",
-	"whoisServer": "whois.imena.bg",
+	"whoisServer": "whois.联通.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.联通",
 		"ns2.dns.nic.联通",

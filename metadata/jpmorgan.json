@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.jpmorgan.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.jpmorgan",
 		"ns2.dns.nic.jpmorgan",

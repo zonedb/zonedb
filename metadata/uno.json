@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.nic.uno",
+	"whoisServer": "whois.uno.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.uno",
 		"ns2.dns.nic.uno",

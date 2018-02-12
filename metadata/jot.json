@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.jot.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.jot",
 		"ns2.dns.nic.jot",

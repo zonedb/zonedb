@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.office.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.office",
 		"ns2.dns.nic.office",

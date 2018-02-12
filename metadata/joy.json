@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.joy.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.joy",
 		"ns2.dns.nic.joy",

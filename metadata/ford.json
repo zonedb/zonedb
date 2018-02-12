@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.ford.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.ford",
 		"ns2.dns.nic.ford",

@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.yamaxun.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.yamaxun",
 		"ns2.dns.nic.yamaxun",

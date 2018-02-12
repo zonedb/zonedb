@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.ارامكو.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.ارامكو",
 		"ns2.dns.nic.ارامكو",

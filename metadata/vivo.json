@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.vivo.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.vivo",
 		"ns2.dns.nic.vivo",

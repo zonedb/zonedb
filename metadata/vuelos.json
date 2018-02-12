@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.vuelos.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.vuelos",
 		"ns2.dns.nic.vuelos",

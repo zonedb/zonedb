@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.hyatt.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.hyatt",
 		"ns2.dns.nic.hyatt",

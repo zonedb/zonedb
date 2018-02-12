@@ -5,7 +5,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.registry.net.za",
+	"whoisServer": "whois.nic.za",
 	"nameServers": [
 		"nsza.is.co.za",
 		"sns-pb.isc.org",

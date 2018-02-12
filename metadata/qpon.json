@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.nic.qpon",
+	"whoisServer": "whois.qpon.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.qpon",
 		"ns2.dns.nic.qpon",

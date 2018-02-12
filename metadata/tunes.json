@@ -5,6 +5,7 @@
 		"closed",
 		"generic"
 	],
+	"whoisServer": "whois.tunes.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.tunes",
 		"ns2.dns.nic.tunes",

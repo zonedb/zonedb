@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois-dub.mm-registry.com",
+	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
 		"a.ns.nic.country",
 		"b.ns.nic.country",

@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.cartier.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.cartier",
 		"ns2.dns.nic.cartier",

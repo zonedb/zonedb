@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.ipiranga.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.ipiranga",
 		"ns2.dns.nic.ipiranga",

@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.cisco.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.cisco",
 		"ns2.dns.nic.cisco",

@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.ferrero.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.ferrero",
 		"ns2.dns.nic.ferrero",

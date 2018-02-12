@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.jmp.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.jmp",
 		"ns2.dns.nic.jmp",
