@@ -4,7 +4,6 @@
 	"nameServers": [
 		"mv-ns.anycast.pch.net",
 		"ns-cache01.dhivehinet.net.mv",
-		"ns.aero.mv",
 		"ns2.dhivehinet.net.mv"
 	],
 	"policies": [
