@@ -125,7 +125,12 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 			defer cancel()
 			rmsg, err := exchange(ctx, host, z.ASCII(), dns.TypeNS)
 			if err != nil {
-				color.Fprintf(os.Stderr, "@{r}Error fetching name servers for @{r!}%s@{r}: %s\n", z.Domain, err.Error())
+				if to, ok := err.(timeouter); ok {
+					if to.Timeout() {
+						continue
+					}
+				}
+				color.Fprintf(os.Stderr, "@{r}Error querying %s for @{r!}%s@{r}: %s\n", host, z.Domain, err.Error())
 				continue
 			}
 			if rmsg.Rcode == dns.RcodeNameError {
@@ -162,6 +167,7 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 			ns = Normalize(ns)
 			if verifyNS(ns) == nil {
 				z.NameServers = append(z.NameServers, ns)
+				// color.Fprintf(os.Stderr, "@{g}Found name server for %s: %s\n", z.Domain, ns)
 				atomic.AddInt32(&found, 1)
 			}
 		}
@@ -312,4 +318,8 @@ func exchange(ctx context.Context, host, qname string, qtype uint16) (*dns.Msg, 
 	client := &dns.Client{Net: "tcp"}
 	rmsg, _, err := client.ExchangeContext(ctx, qmsg, host+":53")
 	return rmsg, err
+}
+
+type timeouter interface {
+	Timeout() bool
 }
