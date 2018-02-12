@@ -2,8 +2,11 @@
 	"domain": "org.vu",
 	"nameServers": [
 		"anytld.apnic.net",
+		"efate.vanuatu.com.vu",
 		"fork.sth.dnsnode.net",
-		"rip.psg.com"
+		"futuna.vanuatu.com.vu",
+		"rip.psg.com",
+		"santo.vanuatu.com.vu"
 	],
 	"policies": [
 		{
