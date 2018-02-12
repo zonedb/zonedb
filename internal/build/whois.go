@@ -5,6 +5,7 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io/ioutil"
 	"net"
@@ -15,6 +16,7 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/miekg/dns"
 	"github.com/wsxiaoys/terminal/color"
 	"golang.org/x/net/idna"
 )
@@ -22,22 +24,44 @@ import (
 // QueryWhoisServers queries whois-servers.net for CNAME’d whois servers.
 func QueryWhoisServers(zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Querying whois-servers.net for %d zones...\n", len(zones))
+
+	// Get name servers for whois-servers.net
+	rrs, err := resolver.LookupNS(context.Background(), "whois-servers.net")
+	if err != nil {
+		return err
+	}
+	if len(rrs) == 0 {
+		return errors.New("no name servers for whois-servers.net")
+	}
+	host := rrs[0].Host
+
+	// Iterate zones
 	var found int32
 	mapZones(zones, func(z *Zone) {
 		ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 		defer cancel()
 		name := z.ASCII() + ".whois-servers.net."
-		cname, _ := resolver.LookupCNAME(ctx, name)
-		// whois-servers.net occasionally returns whois.ripe.net (unusable)
-		if cname == "whois.ripe.net." {
+		rmsg, err := exchange(ctx, host, name, dns.TypeCNAME) // Single-depth CNAME query
+		if err != nil {
+			// color.Fprintf(os.Stderr, "@{r}Error querying %s: %s\n", name, err.Error())
 			return
 		}
-		if verifyWhois(cname) != nil {
-			return
+		for _, rr := range rmsg.Answer {
+			if cname, ok := rr.(*dns.CNAME); ok {
+				addr := cname.Target
+
+				// whois-servers.net occasionally returns whois.ripe.net (unusable)
+				if addr == "whois.ripe.net." {
+					return
+				}
+				if verifyWhois(addr) != nil {
+					return
+				}
+				z.WhoisServer = Normalize(addr)
+				atomic.AddInt32(&found, 1)
+				return
+			}
 		}
-		z.WhoisServer = Normalize(cname)
-		atomic.AddInt32(&found, 1)
-		return
 	})
 	color.Fprintf(os.Stderr, "@{.}Found %d whois servers\n", found)
 	return nil
