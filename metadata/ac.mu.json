@@ -1,7 +1,8 @@
 {
 	"domain": "ac.mu",
 	"nameServers": [
-		"anycast1.irondns.net"
+		"anycast1.irondns.net",
+		"udns1.tld.mu"
 	],
 	"policies": [
 		{
