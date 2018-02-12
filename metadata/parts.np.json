@@ -1,6 +1,6 @@
 {
 	"domain": "parts.np",
-	"infoURL": "http://register.mos.com.np/np-ccTLDs",
+	"infoURL": "https://register.com.np",
 	"nameServers": [
 		"np-ns.anycast.pch.net",
 		"np-ns.npix.net.np",

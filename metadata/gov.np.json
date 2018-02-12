@@ -1,6 +1,6 @@
 {
 	"domain": "gov.np",
-	"infoURL": "http://register.mos.com.np/np-ccTLDs",
+	"infoURL": "http://nitc.gov.np",
 	"nameServers": [
 		"mechi.nitc.gov.np",
 		"np-ns.anycast.pch.net",
