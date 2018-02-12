@@ -137,11 +137,13 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 				// color.Fprintf(os.Stderr, "@{y}Warning: %s returned NXDOMAIN for %s (NS)\n", host, z.Domain)
 				continue
 			}
-			for _, rr := range rmsg.Ns {
+			for _, rr := range append(rmsg.Answer, rmsg.Ns...) {
 				if ns, ok := rr.(*dns.NS); ok {
 					v := Normalize(ns.Ns)
 					// color.Fprintf(os.Stderr, "@{.}DNS record for %s: %s\n", z.Domain, v)
 					counts[v] = counts[v] + 1
+				} else {
+					color.Fprintf(os.Stderr, "@{y}Warning: non-NS RR type %s for %s\n", rr.Header(), z.Domain)
 				}
 			}
 		}
