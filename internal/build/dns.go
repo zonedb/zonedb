@@ -98,54 +98,80 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 var resolver = dnsr.New(10000)
 
 // FetchNameServers fetches NS records for zones.
-func FetchNameServers(zones map[string]*Zone) error {
+func FetchNameServers(zones, allZones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zones...\n", len(zones))
 	var found int32
 	mapZones(zones, func(z *Zone) {
-		ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
-		defer cancel()
-		rrs, err := resolver.ResolveCtx(ctx, z.ASCII(), "NS")
-		if err != nil && err != dnsr.NXDOMAIN {
-			color.Fprintf(os.Stderr, "@{r}Error fetching name servers for %s: %s\n", z.Domain, err.Error())
+		// Skip TLDs
+		if z.IsTLD() {
 			return
 		}
 
-		// Clear out existing name servers for non-TLDs
-		if !z.IsTLD() {
-			z.oldNameServers = z.NameServers
-			z.NameServers = nil
+		// Get parent
+		parent := allZones[z.ParentDomain()]
+		if parent == nil {
+			color.Fprintf(os.Stderr, "@{r}Error: parent zone %s does not exist for %s\n", z.ParentDomain(), z.Domain)
+			return
+		}
+
+		// Clear out existing name servers
+		z.oldNameServers = z.NameServers
+		z.NameServers = nil
+
+		// Iterate over parent name servers
+		counts := make(map[string]int, 8)
+		for _, host := range parent.NameServers {
+			ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
+			defer cancel()
+			rmsg, err := exchange(ctx, host, z.ASCII(), dns.TypeNS)
+			if err != nil {
+				color.Fprintf(os.Stderr, "@{r}Error fetching name servers for @{r!}%s@{r}: %s\n", z.Domain, err.Error())
+				continue
+			}
+			if rmsg.Rcode == dns.RcodeNameError {
+				// color.Fprintf(os.Stderr, "@{y}Warning: %s returned NXDOMAIN for %s (NS)\n", host, z.Domain)
+				continue
+			}
+			for _, rr := range rmsg.Ns {
+				if ns, ok := rr.(*dns.NS); ok {
+					v := Normalize(ns.Ns)
+					// color.Fprintf(os.Stderr, "@{.}DNS record for %s: %s\n", z.Domain, v)
+					counts[v] = counts[v] + 1
+				}
+			}
+		}
+
+		// Get max (consensus) count
+		max := 0
+		for _, count := range counts {
+			if count > max {
+				max = count
+			}
+		}
+		if max > 0 && max < len(parent.NameServers) {
+			color.Fprintf(os.Stderr, "@{y}Warning: inconsistent DNS responses (%d < %d) for @{y!}%s\n", max, len(parent.NameServers), z.Domain)
 		}
 
 		// Store new name servers
-		for _, rr := range rrs {
-			if rr.Type != "NS" || Normalize(rr.Name) != z.Domain {
+		for ns, count := range counts {
+			// Ignore non-consensus values
+			if count != max {
+				color.Fprintf(os.Stderr, "@{y}Warning: non-consensus name server for %s: %s\n", z.Domain, ns)
 				continue
 			}
-			ns := Normalize(rr.Value)
+			ns = Normalize(ns)
 			if verifyNS(ns) == nil {
 				z.NameServers = append(z.NameServers, ns)
 				atomic.AddInt32(&found, 1)
 			}
 		}
-	})
-	color.Fprintf(os.Stderr, "@{.}Found %d name servers\n", found)
 
-	// Detect retired or withdrawn zones
-	for _, z := range zones {
-		if z.IsTLD() {
-			continue
-		}
-		// Re-add old name servers (FIXME: should we do this?)
-		for _, ns := range z.oldNameServers {
-			if verifyNS(ns) == nil {
-				z.NameServers = append(z.NameServers, ns)
-			}
-		}
+		// Sanity check
 		if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 {
 			color.Fprintf(os.Stderr, "@{y}Zone lost all name servers: @{y!}%s@{y}\n", z.Domain)
-			// z.Retire()
 		}
-	}
+	})
+	color.Fprintf(os.Stderr, "@{.}Found %d name servers\n", found)
 
 	return nil
 }
@@ -277,4 +303,13 @@ func randLabel(n int) string {
 		b[i] = ascii[rand.Int63()%int64(len(ascii))]
 	}
 	return string(b)
+}
+
+func exchange(ctx context.Context, host, qname string, qtype uint16) (*dns.Msg, error) {
+	qmsg := &dns.Msg{}
+	qmsg.MsgHdr.RecursionDesired = false
+	qmsg.SetQuestion(dns.Fqdn(qname), qtype)
+	client := &dns.Client{Net: "tcp"}
+	rmsg, _, err := client.ExchangeContext(ctx, qmsg, host+":53")
+	return rmsg, err
 }
