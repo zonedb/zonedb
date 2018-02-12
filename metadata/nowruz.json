@@ -5,6 +5,9 @@
 		"brand",
 		"generic"
 	],
+	"locations": [
+		"Iran"
+	],
 	"whoisServer": "whois.agitsys.net",
 	"nameServers": [
 		"a.ns.nic.nowruz",
