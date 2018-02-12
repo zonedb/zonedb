@@ -1,6 +1,7 @@
 {
 	"domain": "com.er",
 	"nameServers": [
-		"er.cctld.authdns.ripe.net"
+		"er.cctld.authdns.ripe.net",
+		"sawanew.noc.net.er"
 	]
 }
