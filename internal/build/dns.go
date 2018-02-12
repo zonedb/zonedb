@@ -100,7 +100,7 @@ var resolver = dnsr.New(10000)
 // FetchNameServers fetches NS records for zones.
 func FetchNameServers(zones, allZones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zones\n", len(zones))
-	var found int32
+	var found, added, removed, skipped, failed int32
 	mapZones(zones, func(z *Zone) {
 		// Skip TLDs
 		if z.IsTLD() {
@@ -140,10 +140,8 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 			for _, rr := range append(rmsg.Answer, rmsg.Ns...) {
 				if ns, ok := rr.(*dns.NS); ok {
 					v := Normalize(ns.Ns)
-					// color.Fprintf(os.Stderr, "@{.}DNS record for %s: %s\n", z.Domain, v)
 					counts[v] = counts[v] + 1
-				} else {
-					color.Fprintf(os.Stderr, "@{y}Warning: non-NS RR type %s for %s\n", rr.Header(), z.Domain)
+					// color.Fprintf(os.Stderr, "@{.}DNS record for %s: %s\n", z.Domain, v)
 				}
 			}
 		}
@@ -155,31 +153,46 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 				max = count
 			}
 		}
-		if max > 0 && max < len(parent.NameServers) {
-			color.Fprintf(os.Stderr, "@{y}Warning: inconsistent DNS responses (%d < %d) for @{y!}%s\n", max, len(parent.NameServers), z.Domain)
-		}
+		// if max > 0 && max < len(parent.NameServers) {
+		// 	color.Fprintf(os.Stderr, "@{y}Warning: inconsistent DNS responses (%d < %d) for @{y!}%s\n", max, len(parent.NameServers), z.Domain)
+		// }
 
 		// Store new name servers
 		for ns, count := range counts {
-			// Ignore non-consensus values
-			if count != max {
-				color.Fprintf(os.Stderr, "@{y}Warning: non-consensus name server for %s: %s\n", z.Domain, ns)
+			// Ignore non-consensus values (FIXME: this criteria is subjective)
+			if count == 1 && max > 2 {
+				color.Fprintf(os.Stderr, "@{y}Warning: non-consensus name server for %s: %s (%d < %d)\n", z.Domain, ns, count, max)
+				atomic.AddInt32(&skipped, 1)
 				continue
 			}
-			ns = Normalize(ns)
-			if verifyNS(ns) == nil {
-				z.NameServers = append(z.NameServers, ns)
-				// color.Fprintf(os.Stderr, "@{g}Found name server for %s: %s\n", z.Domain, ns)
-				atomic.AddInt32(&found, 1)
+			if verifyNS(ns) != nil {
+				atomic.AddInt32(&failed, 1)
+				continue
 			}
+			z.NameServers = append(z.NameServers, ns)
+			atomic.AddInt32(&found, 1)
 		}
 
 		// Sanity check
 		if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 {
 			color.Fprintf(os.Stderr, "@{y}Zone lost all name servers: @{y!}%s@{y}\n", z.Domain)
 		}
+
+		// Record changes
+		olds := NewSet(z.oldNameServers...)
+		news := NewSet(z.NameServers...)
+		for ns := range news {
+			if !olds[ns] {
+				atomic.AddInt32(&added, 1)
+			}
+		}
+		for ns := range olds {
+			if !news[ns] {
+				atomic.AddInt32(&removed, 1)
+			}
+		}
 	})
-	color.Fprintf(os.Stderr, "@{.}\nFound %d name servers\n", found)
+	color.Fprintf(os.Stderr, "@{.}\nFound %d name servers, %d added, %d removed, %d non-consensus, %d failed\n", found, added, removed, skipped, failed)
 
 	return nil
 }
