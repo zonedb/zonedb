@@ -1,9 +1,9 @@
 {
 	"domain": "gov.tl",
 	"nameServers": [
-		"ns.anycast.nic.tl",
-		"ns.cocca.fr",
-		"ns.coccaregistry.org"
+		"a.tl.dyntld.net",
+		"b.tl.dyntld.net",
+		"ns.anycast.nic.tl"
 	],
 	"policies": [
 		{

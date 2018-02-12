@@ -1,6 +1,6 @@
 {
 	"domain": "com.np",
-	"infoURL": "http://register.mos.com.np/np-ccTLDs",
+	"infoURL": "https://register.com.np",
 	"nameServers": [
 		"ns-ext.isc.org",
 		"sec1.apnic.net"

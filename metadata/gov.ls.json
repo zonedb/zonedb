@@ -1,6 +1,7 @@
 {
 	"domain": "gov.ls",
 	"nameServers": [
+		"acst23ns01.gov.ls",
 		"afdp23ns01.gov.ls",
 		"secdns1.posix.co.za",
 		"thaba.nul.ls"

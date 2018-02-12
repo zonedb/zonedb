@@ -168,9 +168,10 @@ func SortedDomains(zones map[string]*Zone) []string {
 
 // mapZones concurrently applies a function to a set of Zones.
 func mapZones(zones map[string]*Zone, fn func(*Zone)) {
+	domains := SortedDomains(zones)
 	limiter := make(chan struct{}, Concurrency)
 	var wg sync.WaitGroup
-	for _, z := range zones {
+	for _, domain := range domains {
 		limiter <- struct{}{}
 		wg.Add(1)
 		go func(z *Zone) {
@@ -179,7 +180,7 @@ func mapZones(zones map[string]*Zone, fn func(*Zone)) {
 				wg.Done()
 			}()
 			fn(z)
-		}(z)
+		}(zones[domain])
 	}
 	wg.Wait()
 }

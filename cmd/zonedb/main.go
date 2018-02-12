@@ -171,7 +171,7 @@ func main() {
 	}
 
 	if *updateNS || *updateAll {
-		err := build.FetchNameServers(workZones)
+		err := build.FetchNameServers(workZones, zones)
 		if err != nil {
 			build.LogError(err)
 		}

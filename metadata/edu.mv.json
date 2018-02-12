@@ -3,7 +3,6 @@
 	"nameServers": [
 		"mv-ns.anycast.pch.net",
 		"ns.edu.mv",
-		"ns1.edu.mv",
 		"ns2.edu.mv"
 	],
 	"policies": [

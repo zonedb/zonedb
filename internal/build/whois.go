@@ -3,6 +3,7 @@ package build
 import (
 	"bufio"
 	"bytes"
+	"context"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -12,29 +13,31 @@ import (
 	"strings"
 	"sync"
 	"sync/atomic"
+	"time"
 
 	"github.com/wsxiaoys/terminal/color"
 	"golang.org/x/net/idna"
 )
 
+// QueryWhoisServers queries whois-servers.net for CNAME’d whois servers.
 func QueryWhoisServers(zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Querying whois-servers.net for %d zones...\n", len(zones))
 	var found int32
 	mapZones(zones, func(z *Zone) {
+		ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+		defer cancel()
 		name := z.ASCII() + ".whois-servers.net."
-		rrs := resolver.Resolve(name, "CNAME")
-		for _, rr := range rrs {
-			// whois-servers.net occasionally returns whois.ripe.net (unusable)
-			if rr.Type != "CNAME" || Normalize(rr.Name) != z.Domain || rr.Value == "whois.ripe.net." {
-				continue
-			}
-			if verifyWhois(rr.Value) != nil {
-				continue
-			}
-			z.WhoisServer = Normalize(rr.Value)
-			atomic.AddInt32(&found, 1)
+		cname, _ := resolver.LookupCNAME(ctx, name)
+		// whois-servers.net occasionally returns whois.ripe.net (unusable)
+		if cname == "whois.ripe.net." {
 			return
 		}
+		if verifyWhois(cname) != nil {
+			return
+		}
+		z.WhoisServer = Normalize(cname)
+		atomic.AddInt32(&found, 1)
+		return
 	})
 	color.Fprintf(os.Stderr, "@{.}Found %d whois servers\n", found)
 	return nil
@@ -42,6 +45,7 @@ func QueryWhoisServers(zones map[string]*Zone) error {
 
 const rubyWhoisURL = "https://github.com/weppos/whois/raw/master/data/tld.json"
 
+// FetchRubyWhoisServers fetches whois servers from the Ruby Whois project.
 func FetchRubyWhoisServers(zones map[string]*Zone, addNew bool) error {
 	res, err := Fetch(rubyWhoisURL)
 	if err != nil {
@@ -94,6 +98,7 @@ func FetchRubyWhoisServers(zones map[string]*Zone, addNew bool) error {
 	return nil
 }
 
+// QueryIANA fetches whois data from whois.iana.org.
 func QueryIANA(zones map[string]*Zone) error {
 	tlds := TLDs(zones)
 	color.Fprintf(os.Stderr, "@{.}Querying whois.iana.org for %d TLDs...\n", len(tlds))
@@ -180,6 +185,7 @@ func queryWhois(addr, query string) ([]byte, error) {
 	return res, nil
 }
 
+// VerifyWhois verifies that the whois servers respond on TCP port 43.
 func VerifyWhois(zones map[string]*Zone) {
 	color.Fprintf(os.Stderr, "@{.}Verifying whois servers for %d zones...\n", len(zones))
 	mapZones(zones, func(z *Zone) {

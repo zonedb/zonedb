@@ -1,8 +1,12 @@
 {
 	"domain": "nom.ad",
 	"nameServers": [
+		"ad.cctld.authdns.ripe.net",
+		"ad.ns.nic.es",
 		"dnsc.ad",
-		"dnsm.ad"
+		"dnsm.ad",
+		"ns-ext.isc.org",
+		"ns3.nic.fr"
 	],
 	"policies": [
 		{

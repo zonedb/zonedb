@@ -1,10 +1,9 @@
 {
 	"domain": "black.np",
-	"infoURL": "http://register.mos.com.np/np-ccTLDs",
+	"infoURL": "https://register.com.np",
 	"nameServers": [
 		"np-ns.anycast.pch.net",
 		"np-ns.npix.net.np",
-		"np.cctld.authdns.ripe.net",
 		"ns-ext.isc.org",
 		"sec2.apnic.net",
 		"sec3.apnic.net",

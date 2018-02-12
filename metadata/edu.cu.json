@@ -1,6 +1,7 @@
 {
 	"domain": "edu.cu",
 	"nameServers": [
+		"canada.cuba.cu",
 		"cu.cctld.authdns.ripe.net",
 		"ns.ceniai.net.cu",
 		"ns.citmatel.com.cu",

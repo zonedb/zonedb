@@ -4,7 +4,8 @@
 		"retired"
 	],
 	"nameServers": [
-		"emg.mil.bj"
+		"emg.mil.bj",
+		"guezo.mil.bj"
 	],
 	"policies": [
 		{
