@@ -6,10 +6,10 @@
 	],
 	"whoisServer": "whois.iam.net.ma",
 	"nameServers": [
-		"dns.menara.ma",
-		"dns1.menara.ma",
-		"ns1.anrt.ma",
-		"ns2.anrt.ma",
-		"ns2.nic.fr"
+		"ns1.registre.ma",
+		"ns2.nic.fr",
+		"ns2.registre.ma",
+		"ns3.registre.ma",
+		"ns4.registre.ma"
 	]
 }
