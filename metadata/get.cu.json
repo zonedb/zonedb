@@ -1,7 +1,6 @@
 {
 	"domain": "get.cu",
 	"nameServers": [
-		"ns.ceniai.net.cu",
 		"ns1.tur.cu"
 	],
 	"policies": [
