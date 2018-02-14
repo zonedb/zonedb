@@ -17,6 +17,7 @@ const (
 
 // FetchIDNTablesFromIANA fetches IDN table references from the IANA website.
 func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
+	tlds := TLDs(zones)
 	baseURL, err := url.Parse(ianaBaseURL)
 	if err != nil {
 		return err
@@ -66,12 +67,15 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 		domain = domain[1:] // trim dot
 		z, ok := zones[domain]
 		if !ok {
+			if len(tlds) > 100 {
+				Trace("@{r}unknown zone %q from %s\n", domain, partURL)
+			}
 			return
 		}
 
 		lang, err := langFromURL(partURL)
 		if err != nil {
-			Trace("@{r}unable to extract language tag or script for zone %q from %s\n", domain, partURL)
+			Trace("@{y}unable to extract language tag or script for zone %q from %s\n", domain, partURL)
 			return
 		}
 
@@ -85,7 +89,7 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 		atomic.AddUint64(&extractedCount, 1)
 	})
 	Trace("@{.}saw %d matches, extracted %d entries\n", matchCount, extractedCount)
-	if extractedCount == 0 {
+	if extractedCount == 0 && len(tlds) > 100 {
 		return errors.New("failed to extract any URLs from IANA index page, HTML change?")
 	}
 
