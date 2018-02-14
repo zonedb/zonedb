@@ -21,3 +21,39 @@ jobs:
       - store_artifacts:
           path: test-results
           destination: results
+
+  update:
+    working_directory: ~/go/src/github.com/zonedb/zonedb
+    docker:
+      - image: domainr/ci:swan
+        environment:
+          GIT_AUTHOR_EMAIL: robot@domainr.com
+          GIT_AUTHOR_NAME: Domainr Robot
+          GIT_COMMITTER_EMAIL: robot@domainr.com
+          GIT_COMMITTER_NAME: Domainr Robot
+    steps:
+      - checkout
+      - run: make update
+      - run: |
+          git diff-index --quiet HEAD -- || (\
+            git add --all . && \
+            git commit -m "ZoneDB auto-update" && \
+            git push origin $CIRCLE_BRANCH && \
+          )
+
+workflows:
+  version: 2
+  commit_workflow:
+    jobs:
+      - build
+  scheduled_workflow:
+    jobs:
+      - update_deps
+    triggers:
+      # Circle operates in UTC. 12:07 AM PST is 8:07 AM UTC
+      - schedule:
+          cron: "07 8 * * *"
+          filters:
+            branches:
+              only:
+                - master
