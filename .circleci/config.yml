@@ -34,12 +34,13 @@ jobs:
     steps:
       - checkout
       - run: go get -t -d ./...
-      - run: make update
+      # - run: make update
+      - run: go run cmd/zonedb/main.go -update -w -x \\.za$
       - run: |
           git diff-index --quiet HEAD -- || (\
             git add --all . && \
             git commit -m "ZoneDB auto-update" && \
-            git push origin $CIRCLE_BRANCH && \
+            git push origin $CIRCLE_BRANCH \
           )
 
 workflows:
