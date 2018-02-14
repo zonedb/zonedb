@@ -48,7 +48,7 @@ workflows:
       - build
   scheduled_workflow:
     jobs:
-      - update_deps
+      - update
     triggers:
       # Circle operates in UTC. 12:07 AM PST is 8:07 AM UTC
       - schedule:
