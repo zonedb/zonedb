@@ -34,8 +34,7 @@ jobs:
     steps:
       - checkout
       - run: go get -t -d ./...
-      # - run: make update
-      - run: go run cmd/zonedb/main.go -update -w -x \\.za$
+      - run: make update
       - run: |
           git diff-index --quiet HEAD -- || (\
             git add --all . && \
@@ -47,7 +46,7 @@ workflows:
   version: 2
   commit_workflow:
     jobs:
-      - update
+      - build
   scheduled_workflow:
     jobs:
       - update
