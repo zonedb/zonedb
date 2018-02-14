@@ -33,6 +33,7 @@ jobs:
           GIT_COMMITTER_NAME: Domainr Robot
     steps:
       - checkout
+      - run: go get -t -d ./...
       - run: make update
       - run: |
           git diff-index --quiet HEAD -- || (\
