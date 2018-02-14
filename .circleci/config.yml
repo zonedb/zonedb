@@ -45,7 +45,7 @@ workflows:
   version: 2
   commit_workflow:
     jobs:
-      - build
+      - update
   scheduled_workflow:
     jobs:
       - update
