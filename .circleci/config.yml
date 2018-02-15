@@ -28,7 +28,7 @@ jobs:
       - image: domainr/ci:swan
     steps:
       - checkout
-      - run: go get -t -d ./...
+      - run: go get -t -d -v ./...
       - run: make update
       - run: git add --all .
       - run: when-git-dirty commit-and-push
