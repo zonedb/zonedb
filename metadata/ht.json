@@ -6,10 +6,9 @@
 	],
 	"whoisServer": "whois.nic.ht",
 	"nameServers": [
-		"a.ht.dyntld.net",
-		"b.ht.dyntld.net",
 		"charles.cdec.polymtl.ca",
 		"ht-ns.anycast.pch.net",
+		"ns.cocca.fr",
 		"ns3.nic.fr"
 	],
 	"policies": [

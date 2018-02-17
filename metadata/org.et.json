@@ -1,9 +1,5 @@
 {
 	"domain": "org.et",
-	"nameServers": [
-		"ns1.telecom.net.et",
-		"phloem.uoregon.edu"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
