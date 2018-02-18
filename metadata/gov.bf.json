@@ -1,9 +1,5 @@
 {
 	"domain": "gov.bf",
-	"nameServers": [
-		"ntoo.gov.bf",
-		"oubri.gov.bf"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
