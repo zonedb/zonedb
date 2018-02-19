@@ -7,9 +7,6 @@
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
 	],
-	"wildcards": [
-		"50.56.68.37"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
