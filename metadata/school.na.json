@@ -1,9 +1,8 @@
 {
 	"domain": "school.na",
 	"nameServers": [
-		"dns1.dic.net",
-		"dns2.dic.net",
-		"dns3.dic.net"
+		"rose.ns.cloudflare.com",
+		"todd.ns.cloudflare.com"
 	],
 	"policies": [
 		{
