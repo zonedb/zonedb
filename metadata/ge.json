@@ -5,6 +5,7 @@
 		"country",
 		"geo"
 	],
+	"whoisServer": "whois.registration.ge",
 	"whoisURL": "http://www.registration.ge/",
 	"nameServers": [
 		"ge.hostmaster.ua",
