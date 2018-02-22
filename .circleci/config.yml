@@ -30,7 +30,7 @@ jobs:
       - checkout
       - run: go get -t -d -v ./...
       - run: make update
-      - run: git add --all .
+      - run: git add -v --all .
       - run: when-git-dirty commit-and-push
 
 workflows:
