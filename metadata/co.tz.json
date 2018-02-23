@@ -2,6 +2,7 @@
 	"domain": "co.tz",
 	"nameServers": [
 		"d.ext.nic.cz",
+		"fork.sth.dnsnode.net",
 		"ns.anycast.co.tz",
 		"ns2.tznic.or.tz",
 		"rip.psg.com",

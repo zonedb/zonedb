@@ -1,6 +1,7 @@
 {
 	"domain": "ac.rw",
 	"nameServers": [
+		"fork.sth.dnsnode.net",
 		"ns-rw.afrinic.net",
 		"ns1.ricta.org.rw",
 		"pch.ricta.org.rw"
