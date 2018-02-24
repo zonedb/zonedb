@@ -3,6 +3,10 @@
 	"tags": [
 		"retired"
 	],
+	"nameServers": [
+		"emg.mil.bj",
+		"guezo.mil.bj"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
