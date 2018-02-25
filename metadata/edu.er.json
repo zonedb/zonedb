@@ -2,8 +2,7 @@
 	"domain": "edu.er",
 	"nameServers": [
 		"er.cctld.authdns.ripe.net",
-		"sawanew.noc.net.er",
-		"zaranew.noc.net.er"
+		"sawanew.noc.net.er"
 	],
 	"policies": [
 		{
