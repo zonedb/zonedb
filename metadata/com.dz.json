@@ -1,8 +1,7 @@
 {
 	"domain": "com.dz",
 	"nameServers": [
-		"ns1.nic.dz",
-		"ns2.nic.dz"
+		"ns1.nic.dz"
 	],
 	"policies": [
 		{
