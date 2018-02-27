@@ -2,10 +2,7 @@
 	"domain": "no.com",
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
-		"ns1.bodis.com",
-		"ns2.bodis.com"
-	],
-	"wildcards": [
-		"199.59.242.150"
+		"ns17.domaincontrol.com",
+		"ns18.domaincontrol.com"
 	]
 }
