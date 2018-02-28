@@ -3,6 +3,7 @@
 	"nameServers": [
 		"a.kw.nic.kw",
 		"b.kw.nic.kw",
+		"ns.coccaregistry.org",
 		"pch.nic.kw"
 	],
 	"policies": [

@@ -3,7 +3,6 @@
 	"whoisServer": "whois.ja.net",
 	"nameServers": [
 		"auth03.ns.uu.net",
-		"ns0.ja.net",
 		"ns1.surfnet.nl",
 		"ns2.ja.net",
 		"ns3.ja.net",

@@ -7,10 +7,10 @@
 	],
 	"whoisServer": "whois-gtld.smart.com.ph",
 	"nameServers": [
-		"apdns1.nic.smart",
-		"apdns2.nic.smart",
 		"apdns3.nic.smart",
-		"apdns4.nic.smart"
+		"apdns4.nic.smart",
+		"c.nic.smart",
+		"d.nic.smart"
 	],
 	"policies": [
 		{
