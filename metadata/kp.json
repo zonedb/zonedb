@@ -2,7 +2,8 @@
 	"domain": "kp",
 	"tags": [
 		"country",
-		"geo"
+		"geo",
+		"retired"
 	],
 	"nameServers": [
 		"ns1.kptc.kp",

@@ -1,6 +1,9 @@
 {
 	"domain": "gouv.bj",
 	"nameServers": [
+		"ben02.gouv.bj",
+		"nakayo.leland.bj",
+		"ns1.intnet.bj",
 		"rip.psg.com"
 	],
 	"policies": [

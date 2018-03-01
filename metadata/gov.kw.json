@@ -1,9 +1,7 @@
 {
 	"domain": "gov.kw",
 	"nameServers": [
-		"a.kw.nic.kw",
-		"b.kw.nic.kw",
-		"ns.coccaregistry.org",
+		"a.nic.kw",
 		"pch.nic.kw"
 	],
 	"policies": [

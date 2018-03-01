@@ -1,5 +1,8 @@
 {
 	"domain": "edu.me",
+	"nameServers": [
+		"ns.edu.me"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
