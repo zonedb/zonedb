@@ -28,6 +28,7 @@ jobs:
       - image: domainr/ci:swan
     steps:
       - checkout
+      - git checkout master && git reset --hard origin/master
       - run: go get -t -d -v ./...
       - run: make update
       - run: git add -v --all .
