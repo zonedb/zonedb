@@ -1,8 +1,7 @@
 {
 	"domain": "global",
 	"tags": [
-		"generic",
-		"retired"
+		"generic"
 	],
 	"whoisServer": "whois.nic.global",
 	"nameServers": [

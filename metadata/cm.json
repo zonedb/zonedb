@@ -8,7 +8,6 @@
 	"whoisURL": "http://antic.cm",
 	"nameServers": [
 		"auth02.ns.uu.net",
-		"cm.cctld.authdns.ripe.net",
 		"kim.camnet.cm",
 		"lom.camnet.cm",
 		"ns.itu.ch",

@@ -1,8 +1,5 @@
 {
 	"domain": "mil.bj",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"emg.mil.bj",
 		"guezo.mil.bj"

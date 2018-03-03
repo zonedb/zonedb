@@ -6,8 +6,6 @@
 	],
 	"whoisURL": "http://www.kw/",
 	"nameServers": [
-		"a.kw.nic.kw",
-		"b.kw.nic.kw",
 		"pch.nic.kw",
 		"sec1.apnic.net",
 		"sns-pb.isc.org"
