@@ -27,8 +27,12 @@ jobs:
     docker:
       - image: domainr/ci:swan
     steps:
+      # on 2018-03-02 observed scheduled workflows using old (eg HEAD~3) values for CIRCLE_SHA1
+      - run: echo 'export CIRCLE_SHA1="origin/master"; #DELETEME-DOMAINR' >> "${BASH_ENV}"
       - checkout
-      - git checkout master && git pull
+      - run: sed -i -e '/DELETEME-DOMAINR/d' -- "${BASH_ENV}"
+
+      - run: git checkout master && git pull
       - run: go get -t -d -v ./...
       - run: make update
       - run: git add -v --all .
