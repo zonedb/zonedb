@@ -2,7 +2,8 @@
 	"domain": "gm",
 	"tags": [
 		"country",
-		"geo"
+		"geo",
+		"retired"
 	],
 	"whoisURL": "http://www.nic.gm/htmlpages/whois.htm",
 	"nameServers": [
