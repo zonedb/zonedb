@@ -88,7 +88,7 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 		}
 		if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 {
 			color.Fprintf(os.Stderr, "@{y}TLD no longer present in root.zone: @{y!}%s@{y}\n", z.Domain)
-			z.Retire()
+			// z.Retire()
 		}
 	}
 
