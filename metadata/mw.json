@@ -6,6 +6,7 @@
 	],
 	"whoisURL": "http://www.registrar.mw/",
 	"nameServers": [
+		"chambo.sdnp.org.mw",
 		"domwe.sdn.mw",
 		"mw.cctld.authdns.ripe.net",
 		"rip.psg.com",

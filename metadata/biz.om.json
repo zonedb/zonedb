@@ -1,9 +1,5 @@
 {
 	"domain": "biz.om",
-	"nameServers": [
-		"ns1.omancloud.com",
-		"ns2.omancloud.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

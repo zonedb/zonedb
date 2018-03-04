@@ -1,5 +1,9 @@
 {
 	"domain": "com.bj",
+	"nameServers": [
+		"nakayo.leland.bj",
+		"ns1.intnet.bj"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
