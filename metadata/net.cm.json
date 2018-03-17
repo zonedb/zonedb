@@ -2,9 +2,7 @@
 	"domain": "net.cm",
 	"nameServers": [
 		"a.cm.dyntld.net",
-		"b.cm.dyntld.net",
-		"ns1.nic.cm",
-		"ns2.nic.cm"
+		"b.cm.dyntld.net"
 	],
 	"wildcards": [
 		"85.25.140.105"

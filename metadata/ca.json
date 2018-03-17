@@ -8,7 +8,8 @@
 	"nameServers": [
 		"any.ca-servers.ca",
 		"c.ca-servers.ca",
-		"j.ca-servers.ca"
+		"j.ca-servers.ca",
+		"x.ca-servers.ca"
 	],
 	"policies": [
 		{

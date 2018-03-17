@@ -3,12 +3,12 @@
 	"whoisServer": "whois.ja.net",
 	"nameServers": [
 		"auth03.ns.uu.net",
+		"dns-3.dfn.de",
 		"ns0.ja.net",
 		"ns1.surfnet.nl",
 		"ns2.ja.net",
 		"ns3.ja.net",
-		"ns4.ja.net",
-		"ws-fra1.win-ip.dfn.de"
+		"ns4.ja.net"
 	],
 	"policies": [
 		{

@@ -15,6 +15,521 @@
 	"policies": [
 		{
 			"type": "idn-disallowed"
+		},
+		{
+			"type": "idn-table",
+			"key": "az",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_az_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "be",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_be_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "bg",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_bg_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_de_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "el",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_el_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_es_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_fr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "hr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_hr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_ja_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_ko_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ku",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_ku_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_mk_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Arab",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_arab_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Armi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_armi_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Armn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_armn_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Avst",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_avst_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Bali",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_bali_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Bamu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_bamu_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Batk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_batk_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Beng",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_beng_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Bopo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_bopo_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Brah",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_brah_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Bugi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_bugi_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Buhd",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_buhd_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_cans_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cari",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_cari_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cham",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_cham_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cher",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_cher_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Copt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_copt_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_cyrl_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Deva",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_deva_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Egyp",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_egyp_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Ethi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_ethi_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Geor",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_geor_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Glag",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_glag_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_grek_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Gujr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_gujr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Guru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_guru_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hang",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_hang_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hani",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_hani_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hano",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_hano_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hebr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_hebr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hira",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_hira_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Java",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_java_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Kali",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_kali_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Kana",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_kana_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Khar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_khar_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Khmr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_khmr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Knda",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_knda_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Kthi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_kthi_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lana",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_lana_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Laoo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_laoo_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_latn_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lepc",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_lepc_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Limb",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_limb_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lisu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_lisu_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lyci",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_lyci_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lydi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_lydi_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mand",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_mand_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mlym",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_mlym_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mong",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_mong_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mtei",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_mtei_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mymr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_mymr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Nkoo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_nkoo_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Ogam",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_ogam_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Olck",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_olck_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Orkh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_orkh_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Orya",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_orya_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Phag",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_phag_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Phli",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_phli_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Phnx",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_phnx_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Prti",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_prti_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Rjng",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_rjng_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Runr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_runr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Samr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_samr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Sarb",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_sarb_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Saur",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_saur_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Sinh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_sinh_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Sund",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_sund_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Sylo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_sylo_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Syrc",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_syrc_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tagb",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_tagb_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tale",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_tale_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Talu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_talu_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Taml",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_taml_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tavt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_tavt_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Telu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_telu_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tfng",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_tfng_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tglg",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_tglg_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Thaa",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_thaa_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Thai",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_thai_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tibt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_tibt_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Vaii",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_vaii_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Xpeo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_xpeo_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Xsux",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_xsux_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Yiii",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_yiii_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_pl_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ro",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_ro_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_ru_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_sr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_sv_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "uk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_uk_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/norton_zh_2.5.txt"
 		}
 	]
 }

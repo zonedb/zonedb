@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois-gtld.smart.com.ph",
+	"whoisServer": "whois.nic.smart",
 	"nameServers": [
 		"a.nic.smart",
 		"b.nic.smart",

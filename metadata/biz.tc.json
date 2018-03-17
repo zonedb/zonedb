@@ -2,8 +2,8 @@
 	"domain": "biz.tc",
 	"infoURL": "http://www.biz.tc/",
 	"nameServers": [
-		"ns1.codrv.net",
-		"ns3.codrv.net"
+		"ns1.nudrv.com",
+		"ns2.nudrv.com"
 	],
 	"wildcards": [
 		"64.136.20.39"

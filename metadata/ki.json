@@ -6,8 +6,7 @@
 	],
 	"whoisServer": "whois.nic.ki",
 	"nameServers": [
-		"a.ki.dyntld.net",
-		"b.ki.dyntld.net",
+		"ns.cocca.fr",
 		"pch.nic.ki",
 		"sns-pb.isc.org"
 	],

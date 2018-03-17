@@ -3,8 +3,7 @@
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns-any.dns.net.za",
-		"ns1.dns.net.za",
-		"ns1.domain-name.services"
+		"ns1.dns.net.za"
 	],
 	"policies": [
 		{
