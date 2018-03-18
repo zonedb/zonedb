@@ -1,7 +1,6 @@
 {
 	"domain": "tur.ar",
 	"nameServers": [
-		"a.dns.ar",
 		"ar.cctld.authdns.ripe.net",
 		"b.dns.ar",
 		"c.dns.ar",

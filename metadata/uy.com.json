@@ -4,5 +4,8 @@
 	"nameServers": [
 		"ns1.namefind.com",
 		"ns2.namefind.com"
+	],
+	"wildcards": [
+		"208.73.211.70"
 	]
 }
