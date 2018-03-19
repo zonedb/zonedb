@@ -1,6 +1,7 @@
 {
 	"domain": "com.ar",
 	"nameServers": [
+		"a.dns.ar",
 		"b.dns.ar",
 		"c.dns.ar",
 		"e.dns.ar",
