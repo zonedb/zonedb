@@ -1,10 +1,7 @@
 {
 	"domain": "tas.au",
 	"nameServers": [
-		"w.au",
-		"x.au",
-		"y.au",
-		"z.au"
+		"w.au"
 	],
 	"policies": [
 		{
