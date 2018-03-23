@@ -2,7 +2,10 @@
 	"domain": "vic.au",
 	"infoURL": "http://www.aucd.org.au/",
 	"nameServers": [
-		"w.au"
+		"w.au",
+		"x.au",
+		"y.au",
+		"z.au"
 	],
 	"policies": [
 		{

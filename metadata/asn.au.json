@@ -1,6 +1,9 @@
 {
 	"domain": "asn.au",
 	"nameServers": [
-		"w.au"
+		"w.au",
+		"x.au",
+		"y.au",
+		"z.au"
 	]
 }

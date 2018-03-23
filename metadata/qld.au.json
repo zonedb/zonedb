@@ -1,7 +1,10 @@
 {
 	"domain": "qld.au",
 	"nameServers": [
-		"w.au"
+		"w.au",
+		"x.au",
+		"y.au",
+		"z.au"
 	],
 	"policies": [
 		{

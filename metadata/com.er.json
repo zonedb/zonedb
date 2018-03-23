@@ -2,6 +2,9 @@
 	"domain": "com.er",
 	"nameServers": [
 		"er.cctld.authdns.ripe.net",
-		"sawanew.noc.net.er"
+		"ns0.punchdown.org",
+		"ns1.punchdown.net",
+		"sawanew.noc.net.er",
+		"zaranew.noc.net.er"
 	]
 }

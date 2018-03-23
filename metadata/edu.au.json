@@ -2,7 +2,10 @@
 	"domain": "edu.au",
 	"infoURL": "http://www.domainname.edu.au/",
 	"nameServers": [
-		"w.au"
+		"w.au",
+		"x.au",
+		"y.au",
+		"z.au"
 	],
 	"policies": [
 		{
