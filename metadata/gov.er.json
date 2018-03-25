@@ -2,7 +2,8 @@
 	"domain": "gov.er",
 	"nameServers": [
 		"er.cctld.authdns.ripe.net",
-		"sawanew.noc.net.er",
+		"ns0.punchdown.org",
+		"ns1.punchdown.net",
 		"zaranew.noc.net.er"
 	],
 	"policies": [

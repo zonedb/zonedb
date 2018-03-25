@@ -1,6 +1,8 @@
 {
 	"domain": "net.et",
 	"nameServers": [
+		"ns1.telecom.net.et",
+		"ns2.telecom.net.et",
 		"phloem.uoregon.edu"
 	],
 	"policies": [
