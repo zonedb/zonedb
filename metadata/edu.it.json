@@ -1,5 +1,11 @@
 {
 	"domain": "edu.it",
+	"nameServers": [
+		"a.dns.it",
+		"dns.edu.it",
+		"m.dns.it",
+		"r.dns.it"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
