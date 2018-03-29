@@ -1,7 +1,8 @@
 {
 	"domain": "gov.mg",
 	"nameServers": [
-		"ns.gov.mg"
+		"ns.gov.mg",
+		"ns2.gov.mg"
 	],
 	"policies": [
 		{

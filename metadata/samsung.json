@@ -11,7 +11,10 @@
 		"b.samsung.dyntld.net",
 		"c.samsung.dyntld.net",
 		"d.samsung.dyntld.net",
-		"ns1.dns.samsung"
+		"ns1.samsung.centralnic-dns.com",
+		"ns2.samsung.centralnic-dns.com",
+		"ns3.samsung.centralnic-dns.com",
+		"ns4.samsung.centralnic-dns.com"
 	],
 	"policies": [
 		{
