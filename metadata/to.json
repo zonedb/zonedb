@@ -12,10 +12,5 @@
 		"newyork.tonic.to",
 		"singapore.tonic.to",
 		"tonic.to"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
 	]
 }
