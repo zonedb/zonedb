@@ -2,7 +2,13 @@
 	"domain": "ist",
 	"infoURL": "http://newgtlds.icann.org/",
 	"tags": [
-		"generic"
+		"city",
+		"generic",
+		"geo"
+	],
+	"locations": [
+		"Istanbul",
+		"TR-34"
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
