@@ -85,6 +85,21 @@ func (z *Zone) transition() {
 
 // AddPolicy adds a single policy to Zone z.
 func (z *Zone) AddPolicy(ptype, key, value, comment string) {
+	var done bool
+	// First, try to overwrite an existing policy with the same type and value
+	for i := range z.Policies {
+		p := &z.Policies[i]
+		if p.Type == ptype && p.Key == key {
+			done = true
+			p.Value = value
+			if comment != "" {
+				p.Comment = comment
+			}
+		}
+	}
+	if done {
+		return
+	}
 	z.Policies = append(z.Policies, Policy{
 		Type:    ptype,
 		Key:     key,

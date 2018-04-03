@@ -68,7 +68,7 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 		z, ok := zones[domain]
 		if !ok {
 			if len(tlds) > 100 {
-				Trace("@{r}unknown zone %q from %s\n", domain, partURL)
+				Trace("@{r}unknown zone %q from %s\n", domain, ianaBaseURL+partURL)
 			}
 			return
 		}
@@ -79,12 +79,7 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 			return
 		}
 
-		policy := Policy{
-			Type:  TypeIDNTable,
-			Key:   lang,
-			Value: u.String(),
-		}
-		z.Policies = append(z.Policies, policy)
+		z.AddPolicy(TypeIDNTable, lang, u.String(), "") // "Fetched from "+ianaTablesURL)
 
 		atomic.AddUint64(&extractedCount, 1)
 	})
