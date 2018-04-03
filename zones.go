@@ -1134,7 +1134,7 @@ var y = [4444]Zone{
 	{"oldnavy", r, x, s{"ns1.dns.nic.oldnavy", "ns2.dns.nic.oldnavy", "ns3.dns.nic.oldnavy", "ns4.dns.nic.oldnavy", "ns5.dns.nic.oldnavy", "ns6.dns.nic.oldnavy"}, n, n, "whois.oldnavy.ash.dnrs.neustar", e, "http://newgtlds.icann.org/", 0x42, f},
 	{"ollo", r, x, s{"a0.nic.ollo", "a2.nic.ollo", "b0.nic.ollo", "c0.nic.ollo"}, n, n, "whois.nic.ollo", e, "http://newgtlds.icann.org/", 0x42, f},
 	{"olympus", r, x, n, n, n, e, e, "http://newgtlds.icann.org/", 0x2042, f},
-	{"om", r, z[3371:3384], s{"cctld.alpha.aridns.net.au", "cctld.beta.aridns.net.au", "cctld.delta.aridns.net.au", "cctld.gamma.aridns.net.au", "ns1.registry.om", "ns2.registry.om"}, n, n, "whois.registry.om", e, "http://www.omnic.om/", 0xa0, f},
+	{"om", r, z[3371:3384], s{"cctld.alpha.aridns.net.au", "cctld.beta.aridns.net.au", "cctld.delta.aridns.net.au", "cctld.gamma.aridns.net.au", "ns1.registry.om", "ns2.registry.om"}, n, n, "whois.registry.om", e, "http://www.registry.om", 0xa0, f},
 	{"omega", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.omega", e, "http://newgtlds.icann.org/", 0x42, t},
 	{"one", r, x, s{"a.nic.one", "b.nic.one", "c.nic.one", "d.nic.one"}, n, n, "whois.nic.one", e, "http://newgtlds.icann.org/", 0x40, f},
 	{"ong", r, x, s{"a0.nic.ong", "a2.nic.ong", "b0.nic.ong", "b2.nic.ong", "c0.nic.ong", "d0.nic.ong"}, n, n, "whois.publicinterestregistry.net", e, "http://newgtlds.icann.org/", 0x40, f},
