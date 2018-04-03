@@ -1656,7 +1656,7 @@ var y = [4444]Zone{
 	{"yoga", r, x, s{"dns1.nic.yoga", "dns2.nic.yoga", "dns3.nic.yoga", "dns4.nic.yoga", "dnsa.nic.yoga", "dnsb.nic.yoga", "dnsc.nic.yoga", "dnsd.nic.yoga"}, n, n, "whois.nic.yoga", e, "https://newgtlds.icann.org/", 0x40, f},
 	{"yokohama", r, x, s{"a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, n, s{"Yokohama"}, "whois.gmoregistry.net", e, e, 0xc4, t},
 	{"you", r, x, s{"ns1.dns.nic.you", "ns2.dns.nic.you", "ns3.dns.nic.you", "ns4.dns.nic.you", "ns5.dns.nic.you", "ns6.dns.nic.you"}, n, n, "whois.you.ash.dnrs.neustar", e, "https://newgtlds.icann.org/", 0x40, f},
-	{"youtube", r, x, s{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, n, n, "whois.nic.google", e, "https://newgtlds.icann.org/", 0x42, t},
+	{"youtube", r, x, s{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, n, n, "whois.nic.google", e, "https://www.youtube.com/", 0x42, t},
 	{"yt", r, x, s{"d.ext.nic.fr", "d.nic.fr", "e.ext.nic.fr", "f.ext.nic.fr", "g.ext.nic.fr"}, n, n, "whois.nic.yt", e, e, 0xa0, t},
 	{"yu", r, z[4341:4347], n, n, n, e, e, e, 0x8a0, f},
 	{"yun", r, x, s{"ns1.teleinfo.cn", "ns2.teleinfoo.com", "ns3.teleinfo.cn", "ns4.teleinfoo.com"}, n, n, "whois.teleinfo.cn", e, "https://newgtlds.icann.org/", 0x40, f},
