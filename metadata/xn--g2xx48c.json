@@ -1,6 +1,6 @@
 {
 	"domain": "购物",
-	"infoURL": "http://newgtlds.icann.org/",
+	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"ns1.dns.nic.购物",

@@ -1,6 +1,6 @@
 {
 	"domain": "网址",
-	"infoURL": "http://newgtlds.icann.org/",
+	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.registry.knet.cn",
 	"nameServers": [
 		"a.zdnscloud.com",

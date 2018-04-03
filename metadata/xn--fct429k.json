@@ -1,6 +1,6 @@
 {
 	"domain": "家電",
-	"infoURL": "http://newgtlds.icann.org/",
+	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.家電.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.家電",

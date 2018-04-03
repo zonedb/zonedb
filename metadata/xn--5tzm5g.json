@@ -1,6 +1,6 @@
 {
 	"domain": "网站",
-	"infoURL": "http://newgtlds.icann.org/",
+	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.网站",
 	"nameServers": [
 		"a0.nic.网站",

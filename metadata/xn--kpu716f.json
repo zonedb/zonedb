@@ -1,6 +1,6 @@
 {
 	"domain": "手表",
-	"infoURL": "http://newgtlds.icann.org/",
+	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.手表.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.手表",

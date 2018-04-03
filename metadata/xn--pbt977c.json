@@ -1,6 +1,6 @@
 {
 	"domain": "珠宝",
-	"infoURL": "http://newgtlds.icann.org/",
+	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.珠宝.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.珠宝",

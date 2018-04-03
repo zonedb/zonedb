@@ -1,6 +1,6 @@
 {
 	"domain": "工行",
-	"infoURL": "http://newgtlds.icann.org/",
+	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.工行",
 	"nameServers": [
 		"a0.nic.工行",

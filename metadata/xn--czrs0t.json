@@ -1,6 +1,6 @@
 {
 	"domain": "商店",
-	"infoURL": "http://newgtlds.icann.org/",
+	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.商店",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",

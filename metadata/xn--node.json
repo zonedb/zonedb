@@ -1,6 +1,6 @@
 {
 	"domain": "გე",
-	"infoURL": "http://newgtlds.icann.org/",
+	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.itdc.ge",
 	"nameServers": [
 		"a.გე.globalanycastcloud.freenom.net",

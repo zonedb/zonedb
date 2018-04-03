@@ -1,6 +1,6 @@
 {
 	"domain": "企业",
-	"infoURL": "http://newgtlds.icann.org/",
+	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.企业",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",

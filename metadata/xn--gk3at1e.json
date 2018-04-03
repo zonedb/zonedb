@@ -1,6 +1,6 @@
 {
 	"domain": "通販",
-	"infoURL": "http://newgtlds.icann.org/",
+	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.通販.ash.dnrs.neustar",
 	"nameServers": [
 		"ns1.dns.nic.通販",

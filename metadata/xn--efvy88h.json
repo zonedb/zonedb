@@ -1,6 +1,6 @@
 {
 	"domain": "新闻",
-	"infoURL": "http://newgtlds.icann.org/",
+	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.新闻",
 	"nameServers": [
 		"a.zdnscloud.com",
