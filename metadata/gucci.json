@@ -93,11 +93,6 @@
 		{
 			"type": "idn-table",
 			"key": "und",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_none_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "und",
 			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_none_1.txt"
 		},
 		{

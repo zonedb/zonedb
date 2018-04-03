@@ -51,11 +51,6 @@
 		},
 		{
 			"type": "idn-table",
-			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/org_hu_1.txt"
-		},
-		{
-			"type": "idn-table",
 			"key": "is",
 			"value": "https://www.iana.org/domains/idn-tables/tables/org_is_1.txt"
 		},

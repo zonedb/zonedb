@@ -155,11 +155,6 @@
 		{
 			"type": "idn-table",
 			"key": "ro-PL",
-			"value": "https://www.iana.org/domains/idn-tables/tables/pl_mo-pl_1.0.html"
-		},
-		{
-			"type": "idn-table",
-			"key": "ro-PL",
 			"value": "https://www.iana.org/domains/idn-tables/tables/pl_ro-pl_1.0.html"
 		},
 		{
