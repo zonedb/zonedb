@@ -1,7 +1,7 @@
 {
 	"domain": "广东",
 	"infoURL": "https://newgtlds.icann.org/",
-	"whoisServer": "whois.ngtld.cn",
+	"whoisServer": "whois.teleinfo.cn",
 	"nameServers": [
 		"ta.ngtld.cn",
 		"tb.ngtld.cn",
