@@ -454,7 +454,7 @@ var y = [4444]Zone{
 	{"cy", r, z[2294:2307], s{"cy-ns.anycast.pch.net", "cynic.dns.cy", "estia.ics.forth.gr", "ns02.savvis.net", "ns1.ucy.ac.cy", "ns2.ucy.ac.cy", "ns3.ucy.ac.cy", "sec3.apnic.net"}, n, n, e, "http://www.nic.cy/nslookup/online_database.php", e, 0xa8, f},
 	{"cymru", r, x, s{"dns1.nic.cymru", "dns2.nic.cymru", "dns3.nic.cymru", "dns4.nic.cymru", "dnsa.nic.cymru", "dnsb.nic.cymru", "dnsc.nic.cymru", "dnsd.nic.cymru"}, n, s{"GB-WLS"}, "whois.nic.cymru", e, "https://newgtlds.icann.org/", 0x440, t},
 	{"cyou", r, x, s{"a0.nic.cyou", "a2.nic.cyou", "b0.nic.cyou", "c0.nic.cyou"}, n, n, "whois.nic.cyou", e, "https://newgtlds.icann.org/", 0x40, f},
-	{"cz", r, z[2307:2308], s{"a.ns.nic.cz", "b.ns.nic.cz", "c.ns.nic.cz", "d.ns.nic.cz"}, n, n, "whois.nic.cz", e, "http://www.pir.org/", 0xa0, t},
+	{"cz", r, z[2307:2308], s{"a.ns.nic.cz", "b.ns.nic.cz", "c.ns.nic.cz", "d.ns.nic.cz"}, n, n, "whois.nic.cz", e, "https://www.nic.cz/", 0xa0, t},
 	{"dabur", r, x, s{"a0.nic.dabur", "a2.nic.dabur", "b0.nic.dabur", "c0.nic.dabur"}, n, n, "whois.afilias-srs.net", e, "https://newgtlds.icann.org/", 0x40, f},
 	{"dad", r, x, s{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, n, n, "whois.nic.google", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"dance", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.dance", e, e, 0x40, t},
