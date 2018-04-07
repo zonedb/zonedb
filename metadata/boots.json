@@ -6,12 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.boots",
-	"nameServers": [
-		"a.nic.boots",
-		"b.nic.boots",
-		"c.nic.boots",
-		"d.nic.boots"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
