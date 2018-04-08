@@ -2,6 +2,8 @@
 	"domain": "net.dm",
 	"nameServers": [
 		"ns.blacknightsolutions.com",
+		"ns2.blacknightsolutions.com",
+		"ns2.nic.dm",
 		"ns34.cdns.net"
 	],
 	"policies": [
