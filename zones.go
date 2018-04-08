@@ -774,7 +774,7 @@ var y = [4444]Zone{
 	{"icbc", r, x, s{"a0.nic.icbc", "a2.nic.icbc", "b0.nic.icbc", "c0.nic.icbc"}, n, n, "whois.nic.icbc", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"ice", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.ice", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"icu", r, x, s{"a.nic.icu", "b.nic.icu", "c.nic.icu", "d.nic.icu"}, n, n, "whois.nic.icu", e, "https://newgtlds.icann.org/", 0x42, f},
-	{"id", r, z[2616:2628], s{"a.dns.id", "b.dns.id", "c.dns.id", "e.dns.id", "sec3.apnic.net"}, n, n, "whois.id", e, e, 0xa0, t},
+	{"id", r, z[2616:2628], s{"a.dns.id", "b.dns.id", "c.dns.id", "e.dns.id", "sec3.apnic.net"}, n, n, "whois.id", e, "https://pandi.id/", 0xa0, t},
 	{"idn", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x40, f},
 	{"ie", r, z[2628:2633], s{"a.ns.ie", "b.ns.ie", "c.ns.ie", "d.ns.ie", "e.ns.ie", "f.ns.ie", "g.ns.ie", "h.ns.ie"}, n, n, "whois.domainregistry.ie", e, e, 0xa0, f},
 	{"ieee", r, x, s{"ns1.dns.nic.ieee", "ns2.dns.nic.ieee", "ns3.dns.nic.ieee", "ns4.dns.nic.ieee", "ns5.dns.nic.ieee", "ns6.dns.nic.ieee"}, n, n, "whois.ieee.ash.dnrs.neustar", e, "https://newgtlds.icann.org/", 0x42, f},
