@@ -1,6 +1,7 @@
 {
 	"domain": "net.dz",
 	"nameServers": [
+		"ns1.nic.dz",
 		"ns2.nic.dz"
 	],
 	"policies": [
