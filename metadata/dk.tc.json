@@ -3,6 +3,12 @@
 	"tags": [
 		"retired"
 	],
+	"nameServers": [
+		"dnsm1.nic.tc",
+		"dnsm2.nic.tc",
+		"dnsm3.nic.tc",
+		"dnsm4.nic.tc"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
