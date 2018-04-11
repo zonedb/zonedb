@@ -4,7 +4,8 @@
 		"a-dns.pl",
 		"b-dns.pl",
 		"e-dns.pl",
-		"f-dns.pl"
+		"f-dns.pl",
+		"h-dns.pl"
 	],
 	"policies": [
 		{

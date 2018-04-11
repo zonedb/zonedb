@@ -1,5 +1,8 @@
 {
 	"domain": "org.dz",
+	"nameServers": [
+		"ns1.nic.dz"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

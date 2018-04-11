@@ -1,6 +1,7 @@
 {
 	"domain": "edu.al",
 	"nameServers": [
+		"ns-al.isti.cnr.it",
 		"ns1.nic.al",
 		"ns2.nic.al",
 		"nsx.nic.al",
