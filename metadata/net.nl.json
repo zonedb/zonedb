@@ -1,5 +1,8 @@
 {
 	"domain": "net.nl",
+	"tags": [
+		"private"
+	],
 	"nameServers": [
 		"ns1.com.nl",
 		"ns2.com.nl"

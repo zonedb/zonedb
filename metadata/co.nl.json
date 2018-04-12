@@ -1,5 +1,8 @@
 {
 	"domain": "co.nl",
+	"tags": [
+		"private"
+	],
 	"nameServers": [
 		"a.nic.co.nl",
 		"b.nic.co.nl",
