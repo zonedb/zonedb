@@ -5,7 +5,6 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.ai",
 	"whoisURL": "http://www.akep.al/sq/kerkoni-domain",
 	"nameServers": [
 		"munnari.oz.au",

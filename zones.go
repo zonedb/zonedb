@@ -139,7 +139,7 @@ var y = [4444]Zone{
 	{"airforce", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.airforce", e, e, 0x40, t},
 	{"airtel", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.airtel", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"akdn", r, x, s{"a0.nic.akdn", "a2.nic.akdn", "b0.nic.akdn", "c0.nic.akdn"}, n, n, "whois.afilias-srs.net", e, "https://newgtlds.icann.org/", 0x42, f},
-	{"al", r, z[1786:1796], s{"munnari.oz.au", "ns1.nic.al", "nsx.nic.al", "rip.psg.com"}, n, n, "whois.ai", "http://www.akep.al/sq/kerkoni-domain", "http://www.ert.gov.al/ert_eng/domain.html", 0xa0, f},
+	{"al", r, z[1786:1796], s{"munnari.oz.au", "ns1.nic.al", "nsx.nic.al", "rip.psg.com"}, n, n, e, "http://www.akep.al/sq/kerkoni-domain", "http://www.ert.gov.al/ert_eng/domain.html", 0xa0, f},
 	{"alcon", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x42, f},
 	{"alfaromeo", r, x, s{"a0.nic.alfaromeo", "a2.nic.alfaromeo", "b0.nic.alfaromeo", "c0.nic.alfaromeo"}, n, n, "whois.afilias-srs.net", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"alibaba", r, x, s{"a0.nic.alibaba", "a2.nic.alibaba", "b0.nic.alibaba", "c0.nic.alibaba"}, n, n, "whois.nic.alibaba", e, "https://newgtlds.icann.org/", 0x42, f},
