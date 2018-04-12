@@ -1,5 +1,8 @@
 {
 	"domain": "asso.fr",
+	"tags": [
+		"retired"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

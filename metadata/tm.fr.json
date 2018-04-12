@@ -1,5 +1,8 @@
 {
 	"domain": "tm.fr",
+	"tags": [
+		"retired"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
