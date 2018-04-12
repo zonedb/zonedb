@@ -5,7 +5,8 @@
 		"ns2.parkingcrew.net"
 	],
 	"wildcards": [
-		"185.53.178.7"
+		"185.53.178.7",
+		"54.72.9.51"
 	],
 	"policies": [
 		{
