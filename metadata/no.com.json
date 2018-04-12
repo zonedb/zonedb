@@ -1,5 +1,8 @@
 {
 	"domain": "no.com",
+	"tags": [
+		"private"
+	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns17.domaincontrol.com",

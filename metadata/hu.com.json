@@ -1,5 +1,8 @@
 {
 	"domain": "hu.com",
+	"tags": [
+		"private"
+	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns1.namefind.com",

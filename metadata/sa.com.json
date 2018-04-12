@@ -1,5 +1,8 @@
 {
 	"domain": "sa.com",
+	"tags": [
+		"private"
+	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns1.centralnic.net",

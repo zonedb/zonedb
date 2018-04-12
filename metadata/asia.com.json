@@ -1,5 +1,8 @@
 {
 	"domain": "asia.com",
+	"tags": [
+		"private"
+	],
 	"nameServers": [
 		"pdns1.ultradns.net",
 		"pdns2.ultradns.net",

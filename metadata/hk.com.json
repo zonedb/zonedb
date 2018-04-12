@@ -1,5 +1,8 @@
 {
 	"domain": "hk.com",
+	"tags": [
+		"private"
+	],
 	"whoisServer": "whois.registry.hk.com",
 	"nameServers": [
 		"a.udrtld.net",

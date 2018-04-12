@@ -1,5 +1,8 @@
 {
 	"domain": "africa.com",
+	"tags": [
+		"private"
+	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns-any.dns.net.za",

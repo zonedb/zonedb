@@ -1,5 +1,8 @@
 {
 	"domain": "qb.com",
+	"tags": [
+		"private"
+	],
 	"nameServers": [
 		"hank.ns.cloudflare.com",
 		"jill.ns.cloudflare.com"

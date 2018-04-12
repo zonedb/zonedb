@@ -1,5 +1,8 @@
 {
 	"domain": "gb.com",
+	"tags": [
+		"private"
+	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns71.domaincontrol.com",

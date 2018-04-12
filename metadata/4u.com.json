@@ -1,5 +1,8 @@
 {
 	"domain": "4u.com",
+	"tags": [
+		"private"
+	],
 	"nameServers": [
 		"ns1.registry-servers.4u.com",
 		"ns2.registry-servers.4u.com",
