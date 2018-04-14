@@ -2,7 +2,8 @@
 	"domain": "edu.ph",
 	"nameServers": [
 		"gabriela.ph.net",
-		"gomez.ph.net"
+		"gomez.ph.net",
+		"ph.wegen-energy.com"
 	],
 	"policies": [
 		{
