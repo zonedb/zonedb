@@ -3,6 +3,7 @@
 	"nameServers": [
 		"a.ci-servers.net",
 		"b.ci-servers.org",
+		"c.ci-servers.org",
 		"d.ci-servers.je"
 	],
 	"policies": [
