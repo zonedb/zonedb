@@ -1,12 +1,9 @@
 {
 	"domain": "gov.ci",
 	"nameServers": [
-		"any.nic.ci",
 		"censvrns0001.ird.fr",
 		"ci.hosting.nic.fr",
 		"ns-ci.afrinic.net",
-		"ns.nic.ci",
-		"ns1.nic.ci",
 		"phloem.uoregon.edu"
 	]
 }
