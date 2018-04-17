@@ -8,10 +8,10 @@
 	],
 	"whoisServer": "whois.iis.nu",
 	"nameServers": [
-		"a.nic.nu",
-		"b.nic.nu",
-		"c.nic.nu",
-		"d.nic.nu",
+		"a.ns.nu",
+		"b.ns.nu",
+		"c.ns.nu",
+		"d.ns.nu",
 		"y.ns.nu",
 		"z.ns.nu"
 	]
