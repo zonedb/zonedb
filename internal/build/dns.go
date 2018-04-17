@@ -116,9 +116,13 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 		z.oldNameServers = z.NameServers
 		z.NameServers = nil
 
-		// Iterate over parent name servers
+		// Source from Google, Cloudflare, and parent
+		nameServers := []string{"8.8.8.8", "1.1.1.1"}
+		nameServers = append(nameServers, parent.NameServers...)
+
+		// Iterate over name servers
 		counts := make(map[string]int, 8)
-		for _, host := range parent.NameServers {
+		for _, host := range nameServers {
 			ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
 			defer cancel()
 			rmsg, err := exchange(ctx, host, z.ASCII(), dns.TypeNS)
