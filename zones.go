@@ -4041,7 +4041,7 @@ var y = [4444]Zone{
 	{"com.tc", &z[1362], x, s{"root1.zone.tc", "root2.zone.tc", "root3.zone.tc", "root4.zone.tc", "root5.zone.tc", "root6.zone.tc", "root7.zone.tc", "root8.zone.tc"}, n, n, e, e, e, 0x0, t},
 	{"cz.tc", &z[1362], x, s{"f1g1ns1.dnspod.net", "f1g1ns2.dnspod.net"}, n, n, e, e, e, 0x0, f},
 	{"de.tc", &z[1362], x, n, n, n, e, e, e, 0x0, f},
-	{"dk.tc", &z[1362], x, s{"dnsm1.nic.tc", "dnsm2.nic.tc", "dnsm3.nic.tc", "dnsm4.nic.tc"}, n, n, e, e, e, 0x800, f},
+	{"dk.tc", &z[1362], x, s{"dnsm1.nic.tc", "dnsm2.nic.tc", "dnsm3.nic.tc", "dnsm4.nic.tc"}, n, n, e, e, e, 0x0, f},
 	{"edu.tc", &z[1362], x, s{"root1.zone.tc", "root2.zone.tc", "root3.zone.tc", "root4.zone.tc", "root5.zone.tc", "root6.zone.tc", "root7.zone.tc", "root8.zone.tc"}, n, n, e, e, e, 0x0, f},
 	{"es.tc", &z[1362], x, s{"ns1.alanadlari.com", "ns2.alanadlari.com"}, n, n, e, e, e, 0x0, t},
 	{"eu.tc", &z[1362], x, n, n, n, e, e, e, 0x0, f},

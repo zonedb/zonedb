@@ -1,8 +1,5 @@
 {
 	"domain": "dk.tc",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"dnsm1.nic.tc",
 		"dnsm2.nic.tc",
