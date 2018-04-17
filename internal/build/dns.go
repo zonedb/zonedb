@@ -328,8 +328,21 @@ func exchange(ctx context.Context, host, qname string, qtype uint16) (*dns.Msg, 
 	qmsg := &dns.Msg{}
 	qmsg.MsgHdr.RecursionDesired = false
 	qmsg.SetQuestion(dns.Fqdn(qname), qtype)
-	client := &dns.Client{Net: "tcp"}
+	client := &dns.Client{}
 	rmsg, _, err := client.ExchangeContext(ctx, qmsg, host+":53")
+	if err == nil {
+		return rmsg, err
+	}
+	switch err := err.(type) {
+	case *net.DNSError:
+		return nil, err
+		// case *dns.Error:
+		// 	if err == dns.ErrTruncated {
+		// 		return rmsg, nil // Use truncated msg
+		// 	}
+	}
+	client.Net = "tcp" // Retry with TCP
+	rmsg, _, err = client.ExchangeContext(ctx, qmsg, host+":53")
 	return rmsg, err
 }
 
