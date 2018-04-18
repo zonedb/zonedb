@@ -161,16 +161,18 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 
 		// Store new name servers
 		for ns, count := range counts {
-			// Ignore non-consensus values (FIXME: this criteria is subjective)
-			if count == 1 && max > 3 {
+			// Ignore non-consensus values where > 1 name server does not return ns
+			// FIXME: this criteria is subjective)
+			if max > count {
 				color.Fprintf(os.Stderr, "@{y}Warning: non-consensus name server for %s: %s (%d < %d)\n", z.Domain, ns, count, max)
 				atomic.AddInt32(&skipped, 1)
 				continue
 			}
-			if verifyNS(ns) != nil {
-				atomic.AddInt32(&failed, 1)
-				continue
-			}
+			// if verifyNS(ns) != nil {
+			// 	color.Fprintf(os.Stderr, "@{y}Warning: unable to verify name server for %s: %s\n", z.Domain, ns)
+			// 	atomic.AddInt32(&failed, 1)
+			// 	continue
+			// }
 			z.NameServers = append(z.NameServers, ns)
 			atomic.AddInt32(&found, 1)
 		}
