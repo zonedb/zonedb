@@ -116,13 +116,9 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 		z.oldNameServers = z.NameServers
 		z.NameServers = nil
 
-		// Source from Google, Cloudflare, and parent
-		nameServers := []string{"8.8.8.8", "1.1.1.1"}
-		nameServers = append(nameServers, parent.NameServers...)
-
 		// Iterate over name servers
 		counts := make(map[string]int, 8)
-		for _, host := range nameServers {
+		for _, host := range parent.NameServers {
 			ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
 			defer cancel()
 			rmsg, err := exchange(ctx, host, z.ASCII(), dns.TypeNS)
@@ -332,7 +328,7 @@ func randLabel(n int) string {
 
 func exchange(ctx context.Context, host, qname string, qtype uint16) (*dns.Msg, error) {
 	qmsg := &dns.Msg{}
-	qmsg.MsgHdr.RecursionDesired = false
+	qmsg.MsgHdr.RecursionDesired = true
 	qmsg.SetQuestion(dns.Fqdn(qname), qtype)
 	client := &dns.Client{}
 	rmsg, _, err := client.ExchangeContext(ctx, qmsg, host+":53")
