@@ -1,8 +1,5 @@
 {
 	"domain": "mil.bj",
-	"nameServers": [
-		"guezo.mil.bj"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

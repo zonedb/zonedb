@@ -3,6 +3,7 @@
 	"nameServers": [
 		"d.ns.at",
 		"n.ns.at",
+		"ns1.univie.ac.at",
 		"ns2.univie.ac.at"
 	],
 	"policies": [
