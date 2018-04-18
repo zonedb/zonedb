@@ -163,7 +163,7 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 		for ns, count := range counts {
 			// Ignore non-consensus values where > 1 name server does not return ns
 			// FIXME: this criteria is subjective)
-			if max > count {
+			if count == 1 && max > 2 {
 				color.Fprintf(os.Stderr, "@{y}Warning: non-consensus name server for %s: %s (%d < %d)\n", z.Domain, ns, count, max)
 				atomic.AddInt32(&skipped, 1)
 				continue
