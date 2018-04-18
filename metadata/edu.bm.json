@@ -1,13 +1,5 @@
 {
 	"domain": "edu.bm",
-	"nameServers": [
-		"a0.bm.afilias-nst.info",
-		"a2.bm.afilias-nst.info",
-		"b0.bm.afilias-nst.org",
-		"b2.bm.afilias-nst.org",
-		"c0.bm.afilias-nst.info",
-		"d0.bm.afilias-nst.org"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

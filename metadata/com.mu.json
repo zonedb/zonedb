@@ -2,6 +2,10 @@
 	"domain": "com.mu",
 	"nameServers": [
 		"anycast1.irondns.net",
+		"mu1.dyntld.net",
+		"mu2.dyntld.net",
+		"mu3.dyntld.net",
+		"mu4.dyntld.net",
 		"udns1.tld.mu"
 	],
 	"policies": [

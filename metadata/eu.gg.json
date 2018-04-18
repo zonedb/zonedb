@@ -2,5 +2,9 @@
 	"domain": "eu.gg",
 	"tags": [
 		"private"
+	],
+	"nameServers": [
+		"ns5.myhostadmin.net",
+		"ns6.myhostadmin.net"
 	]
 }

@@ -1,5 +1,9 @@
 {
 	"domain": "ch.tc",
+	"nameServers": [
+		"ns1.dnsbird.net",
+		"ns2.dnsbird.net"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

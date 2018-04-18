@@ -7,7 +7,9 @@
 		"ns1lux.europa.eu",
 		"ns2bru.europa.eu",
 		"ns2eu.bt.net",
-		"ns2lux.europa.eu"
+		"ns2lux.europa.eu",
+		"ns3bru.europa.eu",
+		"ns3lux.europa.eu"
 	],
 	"policies": [
 		{

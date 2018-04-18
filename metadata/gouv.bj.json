@@ -1,7 +1,8 @@
 {
 	"domain": "gouv.bj",
 	"nameServers": [
-		"ns01.gouv.bj"
+		"ns01.gouv.bj",
+		"ns02.gouv.bj"
 	],
 	"policies": [
 		{

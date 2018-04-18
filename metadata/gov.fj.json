@@ -4,6 +4,7 @@
 		"dnssecondary.auth-servers.net",
 		"homer.is.com.fj",
 		"itcns1.gov.fj",
-		"itcns2.gov.fj"
+		"itcns2.gov.fj",
+		"ns-ext.vix.com"
 	]
 }

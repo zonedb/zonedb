@@ -2,6 +2,7 @@
 	"domain": "edu.lb",
 	"nameServers": [
 		"elissa.aub.edu.lb",
+		"lara.aub.edu",
 		"rip.psg.com",
 		"zeina.aub.edu.lb"
 	],

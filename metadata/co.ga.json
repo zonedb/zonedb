@@ -3,7 +3,9 @@
 	"nameServers": [
 		"isp1.ib.ga",
 		"isp2.ib.ga",
-		"ns.ripe.net"
+		"ns.ripe.net",
+		"nsi1.inet.ga",
+		"nsi2.inet.ga"
 	],
 	"policies": [
 		{

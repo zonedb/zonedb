@@ -1,6 +1,7 @@
 {
 	"domain": "nc.tr",
 	"nameServers": [
-		"ns1.nc.tr"
+		"ns1.nc.tr",
+		"ns2.nc.tr"
 	]
 }

@@ -2,5 +2,9 @@
 	"domain": "mil.tw",
 	"tags": [
 		"retired"
+	],
+	"nameServers": [
+		"dns1.mil.tw",
+		"dns2.mil.tw"
 	]
 }
