@@ -1958,6 +1958,7 @@ net.bi
 or.bi
 org.bi
 ote.bi
+1x.biz
 auz.biz
 asso.bj
 barreau.bj
@@ -2266,6 +2267,7 @@ de.cool
 ac.cr
 co.cr
 ed.cr
+eu.cr
 fi.cr
 go.cr
 or.cr
@@ -2306,6 +2308,7 @@ press.cy
 pro.cy
 tm.cy
 co.cz
+1x.de
 co.de
 com.de
 biz.dk
@@ -2392,6 +2395,7 @@ info.et
 name.et
 net.et
 org.et
+24.eu
 ecb.eu
 europa.eu
 ac.fj
@@ -2485,13 +2489,17 @@ mil.ge
 net.ge
 org.ge
 pvt.ge
+24.gg
 ac.gg
 co.gg
+eu.gg
 gov.gg
 net.gg
 org.gg
 sch.gg
 tr.gg
+tv.gg
+web.gg
 com.gh
 edu.gh
 gov.gh
@@ -2515,11 +2523,16 @@ com.gn
 gov.gn
 net.gn
 org.gn
+24.gp
+asia.gp
 asso.gp
+co.gp
 com.gp
 edu.gp
+eu.gp
 mobi.gp
 net.gp
+online.gp
 org.gp
 com.gr
 edu.gr
@@ -2704,6 +2717,7 @@ sic.it
 te.it
 ts.it
 ve.it
+24.je
 co.je
 gov.je
 net.je
@@ -2851,6 +2865,7 @@ per.kh
 biz.ki
 com.ki
 edu.ki
+eu.ki
 gov.ki
 info.ki
 mob.ki
@@ -2933,6 +2948,7 @@ edu.lb
 gov.lb
 net.lb
 org.lb
+24.lc
 co.lc
 com.lc
 edu.lc
@@ -3058,6 +3074,7 @@ edu.mt
 gov.mt
 net.mt
 org.mt
+24.mu
 ac.mu
 co.mu
 com.mu
@@ -3139,6 +3156,7 @@ info.ne
 int.ne
 org.ne
 perso.ne
+1x.net
 auz.net
 gb.net
 hu.net
@@ -3158,6 +3176,7 @@ other.nf
 per.nf
 rec.nf
 store.nf
+us.nf
 web.nf
 com.ng
 edu.ng
@@ -3184,6 +3203,7 @@ net.ni
 nom.ni
 org.ni
 web.ni
+24.nl
 co.nl
 com.nl
 net.nl
@@ -3353,7 +3373,10 @@ info.nr
 net.nr
 org.nr
 co.nu
+com.nu
+eu.nu
 ie.nu
+info.nu
 ac.nz
 co.nz
 cri.nz
@@ -3721,6 +3744,7 @@ vet.pro
 com.ps
 edu.ps
 gov.ps
+mobi.ps
 mun.ps
 net.ps
 org.ps
@@ -4011,6 +4035,7 @@ org.tj
 per.tj
 pro.tj
 web.tj
+24.tl
 com.tl
 gov.tl
 in.tl
@@ -4304,6 +4329,7 @@ net.ve
 org.ve
 tec.ve
 web.ve
+pro.vg
 biz.vi
 co.vi
 com.vi
@@ -4324,6 +4350,7 @@ org.vn
 pro.vn
 co.vu
 com.vu
+name.vu
 net.vu
 org.vu
 com.ws

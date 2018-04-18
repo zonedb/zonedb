@@ -1,5 +1,8 @@
 {
 	"domain": "biz.uz",
+	"tags": [
+		"private"
+	],
 	"nameServers": [
 		"ns1.subdomain.com",
 		"ns2.subdomain.com"
