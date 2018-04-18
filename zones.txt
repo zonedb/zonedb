@@ -2498,6 +2498,8 @@ net.gg
 org.gg
 sch.gg
 tr.gg
+tv.gg
+web.gg
 com.gh
 edu.gh
 gov.gh
@@ -2522,6 +2524,7 @@ gov.gn
 net.gn
 org.gn
 24.gp
+asia.gp
 asso.gp
 co.gp
 com.gp
@@ -2529,6 +2532,7 @@ edu.gp
 eu.gp
 mobi.gp
 net.gp
+online.gp
 org.gp
 com.gr
 edu.gr
@@ -3172,6 +3176,7 @@ other.nf
 per.nf
 rec.nf
 store.nf
+us.nf
 web.nf
 com.ng
 edu.ng
@@ -3368,8 +3373,10 @@ info.nr
 net.nr
 org.nr
 co.nu
+com.nu
 eu.nu
 ie.nu
+info.nu
 ac.nz
 co.nz
 cri.nz
@@ -3737,6 +3744,7 @@ vet.pro
 com.ps
 edu.ps
 gov.ps
+mobi.ps
 mun.ps
 net.ps
 org.ps
@@ -4321,6 +4329,7 @@ net.ve
 org.ve
 tec.ve
 web.ve
+pro.vg
 biz.vi
 co.vi
 com.vi
@@ -4341,6 +4350,7 @@ org.vn
 pro.vn
 co.vu
 com.vu
+name.vu
 net.vu
 org.vu
 com.ws
