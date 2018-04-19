@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.banamex.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.banamex",
 	"nameServers": [
 		"ns1.dns.nic.banamex",
 		"ns2.dns.nic.banamex",

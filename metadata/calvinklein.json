@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.calvinklein.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.calvinklein",
 	"nameServers": [
 		"ns1.dns.nic.calvinklein",
 		"ns2.dns.nic.calvinklein",

@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.chase.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.chase",
 	"nameServers": [
 		"ns1.dns.nic.chase",
 		"ns2.dns.nic.chase",

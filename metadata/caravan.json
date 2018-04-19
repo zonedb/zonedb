@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.caravan.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.caravan",
 	"nameServers": [
 		"ns1.dns.nic.caravan",
 		"ns2.dns.nic.caravan",
