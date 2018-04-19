@@ -1,8 +1,5 @@
 {
 	"domain": "cn.pn",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"ns1.linode.com",
 		"ns2.linode.com"
