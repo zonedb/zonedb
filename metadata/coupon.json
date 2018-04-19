@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.coupon.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.coupon",
 	"nameServers": [
 		"ns1.dns.nic.coupon",
 		"ns2.dns.nic.coupon",
