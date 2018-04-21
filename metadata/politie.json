@@ -9,7 +9,6 @@
 	"nameServers": [
 		"ns1.nic.politie",
 		"ns3.nic.politie",
-		"ns4.nic.politie",
 		"ns5.nic.politie",
 		"sns-pb.isc.org"
 	],
