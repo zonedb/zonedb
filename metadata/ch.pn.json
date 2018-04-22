@@ -1,14 +1,5 @@
 {
 	"domain": "ch.pn",
-	"nameServers": [
-		"ns1.idnscan.net",
-		"ns2.idnscan.net"
-	],
-	"wildcards": [
-		"188.40.117.12",
-		"188.40.70.27",
-		"188.40.70.29"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
