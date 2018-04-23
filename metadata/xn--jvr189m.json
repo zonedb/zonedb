@@ -1,7 +1,7 @@
 {
 	"domain": "食品",
 	"infoURL": "https://newgtlds.icann.org/",
-	"whoisServer": "whois.食品.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.食品",
 	"nameServers": [
 		"ns1.dns.nic.食品",
 		"ns2.dns.nic.食品",
