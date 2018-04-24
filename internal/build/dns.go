@@ -252,7 +252,7 @@ func CountNameServers(zones map[string]*Zone) {
 
 // FindWildcards finds wildcard DNS records for a zone.
 func FindWildcards(zones map[string]*Zone) error {
-	color.Fprintf(os.Stderr, "@{.}Finding wildcard IPs for %d zones...\n", len(zones))
+	color.Fprintf(os.Stderr, "@{.}Finding wildcards for %d zones...\n", len(zones))
 	var found int32
 	var mu sync.Mutex
 	all := NewSet()
@@ -265,12 +265,28 @@ func FindWildcards(zones map[string]*Zone) error {
 		var resolved int
 		addrs := NewSet()
 		for i := 0; i < n; i++ {
+			if i > 2 && len(addrs) == 0 {
+				break
+			}
 			ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 			defer cancel()
-			name := randLabel(32) + "." + z.ASCII()
-			rrs, _ := resolver.LookupIPAddr(ctx, name)
-			for _, rr := range rrs {
-				addr := rr.IP.String()
+			rand := randLabel(32)
+			name := rand + "." + z.ASCII()
+			cname, err := resolver.LookupCNAME(ctx, name)
+			if err == nil && cname != "" {
+				// LookupCNAME returns name and nil error if no CNAME records are found.
+				if strings.Contains(cname, rand) {
+					// color.Fprintf(os.Stderr, "@{y}Wildcard matching random name: @{w}%s@{.} ← @{c}%s@{.}\n", cname, z.Domain)
+				} else {
+					addrs.Add(Normalize(cname))
+				}
+			}
+			ipaddrs, err := resolver.LookupIPAddr(ctx, name)
+			if err != nil {
+				continue
+			}
+			for _, ipaddr := range ipaddrs {
+				addr := ipaddr.IP.String()
 				// Ignore ICANN name collisions
 				// https://www.icann.org/resources/pages/name-collision-2013-12-06-en#127.0.53.53
 				if addr == "127.0.53.53" {
@@ -278,9 +294,6 @@ func FindWildcards(zones map[string]*Zone) error {
 				}
 				addrs.Add(addr)
 				resolved++
-			}
-			if i > 1 && len(addrs) == 0 {
-				break
 			}
 		}
 
