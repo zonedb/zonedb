@@ -6,7 +6,8 @@
 		"ns3.eunoc.net"
 	],
 	"wildcards": [
-		"185.27.255.9"
+		"185.27.255.9",
+		"now.co.ro"
 	],
 	"policies": [
 		{

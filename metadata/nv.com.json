@@ -13,7 +13,8 @@
 		"g.root-servers.nv.com"
 	],
 	"wildcards": [
-		"205.159.223.111"
+		"205.159.223.111",
+		"hosting.gi.net"
 	],
 	"policies": [
 		{

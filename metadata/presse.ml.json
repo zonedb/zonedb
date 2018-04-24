@@ -4,7 +4,8 @@
 		"retired"
 	],
 	"wildcards": [
-		"195.20.48.97"
+		"195.20.48.97",
+		"presse.ml"
 	],
 	"policies": [
 		{
