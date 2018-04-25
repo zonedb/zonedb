@@ -2293,7 +2293,11 @@ org.cv
 publ.cv
 com.cw
 net.cw
+com.cx
+edu.cx
 gov.cx
+net.cx
+org.cx
 ac.cy
 biz.cy
 com.cy

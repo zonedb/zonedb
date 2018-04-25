@@ -1,0 +1,8 @@
+{
+	"domain": "com.cx",
+	"nameServers": [
+		"ns.anycast.nic.cx",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org"
+	]
+}
