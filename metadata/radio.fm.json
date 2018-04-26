@@ -8,7 +8,10 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "mul-Zyyy",
+			"value": "https://manage.centralnic.com/support/idn_table/zyyy",
+			"comment": "experimental emoji support as of 2018-03-22"
 		}
 	]
 }
