@@ -1,8 +1,10 @@
 {
 	"domain": "th.tc",
 	"nameServers": [
-		"v1s1.xundns.com",
-		"v1s2.xundns.com"
+		"suspended.nic.tc"
+	],
+	"wildcards": [
+		"31.169.81.202"
 	],
 	"policies": [
 		{
