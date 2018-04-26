@@ -7,10 +7,5 @@
 		"d.dns.br",
 		"e.dns.br",
 		"f.dns.br"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
 	]
 }

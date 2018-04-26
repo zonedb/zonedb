@@ -52,6 +52,9 @@ func (z *Zone) normalizePolicies() {
 	// De-dupe
 	var set = make(map[Policy]struct{}, len(z.Policies))
 	for _, p := range z.Policies {
+		if p.Type == "" {
+			continue
+		}
 		if p.Type == TypeIDNDisallowed {
 			z.IDNDisallowed = true
 		}
@@ -85,6 +88,9 @@ func (z *Zone) transition() {
 
 // AddPolicy adds a single policy to Zone z.
 func (z *Zone) AddPolicy(ptype, key, value, comment string) {
+	if ptype == "" {
+		return
+	}
 	var done bool
 	// First, try to overwrite an existing policy with the same type and value
 	for i := range z.Policies {

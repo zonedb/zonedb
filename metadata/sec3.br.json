@@ -1,8 +1,0 @@
-{
-	"domain": "sec3.br",
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
-	]
-}
