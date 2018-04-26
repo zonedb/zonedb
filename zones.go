@@ -291,7 +291,7 @@ var y = [4475]Zone{
 	{"bot", r, x, s{"ns1.dns.nic.bot", "ns2.dns.nic.bot", "ns3.dns.nic.bot", "ns4.dns.nic.bot", "ns5.dns.nic.bot", "ns6.dns.nic.bot"}, n, n, "whois.nic.bot", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"boutique", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.boutique", e, e, 0x40, t},
 	{"box", r, x, s{"a.nic.box", "b.nic.box", "c.nic.box", "d.nic.box"}, n, n, "whois.aridnrs.net.au", e, "https://newgtlds.icann.org/", 0x40, f},
-	{"br", r, z[2014:2106], s{"a.dns.br", "b.dns.br", "c.dns.br", "d.dns.br", "e.dns.br", "f.dns.br"}, n, n, "whois.registro.br", e, "http://nic.br/", 0xa8, t},
+	{"br", r, z[2014:2106], s{"a.dns.br", "b.dns.br", "c.dns.br", "d.dns.br", "e.dns.br", "f.dns.br"}, n, n, "whois.registro.br", e, "http://nic.br/", 0xa0, t},
 	{"bradesco", r, x, s{"dns1.nic.bradesco", "dns2.nic.bradesco", "dns3.nic.bradesco", "dns4.nic.bradesco", "dnsa.nic.bradesco", "dnsb.nic.bradesco", "dnsc.nic.bradesco", "dnsd.nic.bradesco"}, n, n, "whois.nic.bradesco", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"bridgestone", r, x, s{"a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, n, n, "whois.nic.bridgestone", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"broadway", r, x, s{"dns1.nic.broadway", "dns2.nic.broadway", "dns3.nic.broadway", "dns4.nic.broadway", "dnsa.nic.broadway", "dnsb.nic.broadway", "dnsc.nic.broadway", "dnsd.nic.broadway"}, n, n, "whois.nic.broadway", e, "https://newgtlds.icann.org/", 0x40, f},
