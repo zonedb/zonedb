@@ -1,9 +1,5 @@
 {
 	"domain": "at.tc",
-	"nameServers": [
-		"ns1.kellygolden.net",
-		"ns2.kellygolden.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
