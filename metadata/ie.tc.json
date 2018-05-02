@@ -1,8 +1,5 @@
 {
 	"domain": "ie.tc",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"ns1.cloudflare.com",
 		"ns2.cloudflare.com"
