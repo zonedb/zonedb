@@ -3927,7 +3927,7 @@ var y = [4475]Zone{
 	{"pp.ru", &z[1196], x, s{"a.dns.ripn.net", "b.dns.ripn.net", "d.dns.ripn.net", "e.dns.ripn.net", "f.dns.ripn.net"}, n, n, e, e, e, 0x0, f},
 	{"relarn.ru", &z[1196], x, s{"int2.dns.ripn.net", "int3.dns.ripn.net", "ns.relarn.ru"}, n, n, e, e, e, 0x0, f},
 	{"spb.ru", &z[1196], x, s{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, s{"178.210.89.119"}, n, e, e, e, 0x0, f},
-	{"ac.rw", &z[1200], x, s{"fork.sth.dnsnode.net", "ns-rw.afrinic.net", "ns1.ricta.org.rw", "pch.ricta.org.rw"}, n, n, e, e, e, 0x0, f},
+	{"ac.rw", &z[1200], x, s{"fork.sth.dnsnode.net", "ns-rw.afrinic.net", "ns1.ricta.org.rw", "ns3.ricta.org.rw", "ns4.ricta.org.rw", "pch.ricta.org.rw"}, n, n, e, e, e, 0x0, f},
 	{"co.rw", &z[1200], x, s{"fork.sth.dnsnode.net", "ns-rw.afrinic.net", "ns1.ricta.org.rw", "ns3.ricta.org.rw", "ns4.ricta.org.rw", "pch.ricta.org.rw"}, n, n, e, e, e, 0x0, f},
 	{"com.rw", &z[1200], x, n, n, n, e, e, e, 0x0, f},
 	{"edu.rw", &z[1200], x, s{"fork.sth.dnsnode.net", "ns-rw.afrinic.net", "ns1.ricta.org.rw", "pch.ricta.org.rw"}, n, n, e, e, e, 0x0, f},
