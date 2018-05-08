@@ -1,5 +1,15 @@
 {
 	"domain": "com.ci",
+	"nameServers": [
+		"any.nic.ci",
+		"censvrns0001.ird.fr",
+		"ci.cctld.authdns.ripe.net",
+		"ci.hosting.nic.fr",
+		"ns-ci.afrinic.net",
+		"ns.nic.ci",
+		"ns1.nic.ci",
+		"phloem.uoregon.edu"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
