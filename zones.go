@@ -776,7 +776,7 @@ var y = [4475]Zone{
 	{"icu", r, x, s{"a.nic.icu", "b.nic.icu", "c.nic.icu", "d.nic.icu"}, n, n, "whois.nic.icu", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"id", r, z[2633:2645], s{"a.dns.id", "b.dns.id", "c.dns.id", "e.dns.id", "sec3.apnic.net"}, n, n, "whois.id", e, "https://pandi.id/", 0xa0, t},
 	{"idn", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x40, f},
-	{"ie", r, z[2645:2650], s{"a.ns.ie", "b.ns.ie", "c.ns.ie", "d.ns.ie", "e.ns.ie", "f.ns.ie", "g.ns.ie", "h.ns.ie"}, n, n, "whois.domainregistry.ie", e, e, 0xa0, f},
+	{"ie", r, z[2645:2650], s{"a.ns.ie", "b.ns.ie", "c.ns.ie", "d.ns.ie", "e.ns.ie", "f.ns.ie", "g.ns.ie", "h.ns.ie"}, n, n, "whois.domainregistry.ie", e, e, 0xa0, t},
 	{"ieee", r, x, s{"ns1.dns.nic.ieee", "ns2.dns.nic.ieee", "ns3.dns.nic.ieee", "ns4.dns.nic.ieee", "ns5.dns.nic.ieee", "ns6.dns.nic.ieee"}, n, n, "whois.ieee.ash.dnrs.neustar", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"ifm", r, x, s{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, n, n, "whois.nic.ifm", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"iinet", r, x, n, n, n, "whois.aridnrs.net.au", e, "https://newgtlds.icann.org/", 0x2042, f},

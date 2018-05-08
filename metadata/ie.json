@@ -14,10 +14,5 @@
 		"f.ns.ie",
 		"g.ns.ie",
 		"h.ns.ie"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
 	]
 }
