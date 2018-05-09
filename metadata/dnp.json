@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.gmoregistry.net",
+	"whoisServer": "whois.nic.dnp",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",
