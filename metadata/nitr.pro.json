@@ -1,7 +1,10 @@
 {
 	"domain": "nitr.pro",
 	"nameServers": [
-		"os1.acquahost.com.br",
-		"os2.acquahost.com.br"
+		"dns1.superdns.com.br",
+		"dns2.superdns.com.br"
+	],
+	"wildcards": [
+		"127.0.0.1"
 	]
 }
