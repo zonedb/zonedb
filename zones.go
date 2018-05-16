@@ -4574,7 +4574,7 @@ var y = [4475]Zone{
 	{"wcape.school.za", &z[4402], x, s{"mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za", "ucthpx.uct.ac.za"}, n, n, e, e, e, 0x0, t},
 }
 
-// ZoneMap maps Unicode domain names to Zones.
+// ZoneMap maps domain names to Zones.
 var ZoneMap = map[string]*Zone{
 	"aaa":                                &z[0],
 	"aarp":                               &z[1],

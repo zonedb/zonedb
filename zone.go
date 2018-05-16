@@ -31,7 +31,7 @@ func (tags Tags) String() string {
 
 // Zone represents a single DNS zone (a public suffix), where subdomains may be registered or created.
 type Zone struct {
-	// Normalized UTF-8 domain name
+	// Normalized (ASCII, punycode) fully-qualified domain name
 	Domain string
 
 	// Parent Zone (nil if Zone is a TLD)
@@ -176,7 +176,7 @@ type list struct{}
 
 // PublicSuffix returns the public suffix (zone) for a given domain name
 // by calling PublicZone. Input must be normalized by the client
-// (lowercase, Unicode). Malformed input, IP addresses, or other non-domain
+// (lowercase, ASCII, punycode). Malformed input, IP addresses, or other non-domain
 // name strings will be returned unmodified.
 func (l list) PublicSuffix(domain string) string {
 	z := PublicZone(domain)

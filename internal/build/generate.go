@@ -222,7 +222,7 @@ var y = [{{len .Zones}}]Zone{
 	{{end}} \
 }
 
-// ZoneMap maps Unicode domain names to Zones.
+// ZoneMap maps domain names to Zones.
 var ZoneMap = map[string]*Zone{
 	{{range $d := .Domains}}  \
 		{{$z := (index $.Zones $d)}} \
