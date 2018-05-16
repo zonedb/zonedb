@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.gucci.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.gucci",
 	"nameServers": [
 		"ns1.dns.nic.gucci",
 		"ns2.dns.nic.gucci",

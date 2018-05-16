@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.hbo.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.hbo",
 	"nameServers": [
 		"ns1.dns.nic.hbo",
 		"ns2.dns.nic.hbo",

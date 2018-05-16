@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.flickr.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.flickr",
 	"nameServers": [
 		"ns1.dns.nic.flickr",
 		"ns2.dns.nic.flickr",

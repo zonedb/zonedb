@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.health.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.health",
 	"nameServers": [
 		"ns1.dns.nic.health",
 		"ns2.dns.nic.health",
