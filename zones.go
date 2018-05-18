@@ -2338,7 +2338,7 @@ var y = [4476]Zone{
 	{"ar.com", &z[314], x, s{"ns3.dns.com", "ns4.dns.com"}, n, n, "whois.centralnic.com", e, e, 0x200, t},
 	{"asia.com", &z[314], x, s{"pdns1.ultradns.net", "pdns2.ultradns.net", "pdns3.ultradns.org", "pdns4.ultradns.org", "pdns5.ultradns.info", "pdns6.ultradns.co.uk"}, s{"72.55.150.59"}, n, e, e, e, 0x200, f},
 	{"au.com", &z[314], x, s{"dns103.kddi.ne.jp", "dns104.kddi.ne.jp", "dnsa01.kddi.ne.jp", "dnsa02.kddi.ne.jp"}, n, n, e, e, e, 0x200, f},
-	{"br.com", &z[314], x, s{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, n, n, "whois.centralnic.com", e, e, 0x200, t},
+	{"br.com", &z[314], x, s{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, s{"52.33.196.199", "96.126.103.245"}, n, "whois.centralnic.com", e, e, 0x200, t},
 	{"cn.com", &z[314], x, s{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, s{"52.33.196.199", "96.126.103.245"}, n, "whois.centralnic.com", e, e, 0x200, t},
 	{"co.com", &z[314], x, s{"ns1.nic.co.com", "ns2.nic.co.com", "ns3.nic.co.com", "ns4.nic.co.com"}, s{"173.192.115.17"}, n, "whois.centralnic.net", e, "http://registry.co.com/", 0x200, t},
 	{"de.com", &z[314], x, s{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, s{"52.33.196.199", "96.126.103.245"}, n, "whois.centralnic.com", e, e, 0x200, t},

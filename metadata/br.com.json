@@ -9,5 +9,9 @@
 		"ns2.centralnic.net",
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
+	],
+	"wildcards": [
+		"52.33.196.199",
+		"96.126.103.245"
 	]
 }
