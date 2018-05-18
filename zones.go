@@ -4082,14 +4082,9 @@ var y = [4476]Zone{
 	{"mx.tc", &z[1362], x, s{"ns1.dreamhost.com", "ns2.dreamhost.com", "ns3.dreamhost.com"}, n, n, e, e, e, 0x0, f},
 	{"net.tc", &z[1362], x, s{"root1.zone.tc", "root2.zone.tc", "root3.zone.tc", "root4.zone.tc", "root5.zone.tc", "root6.zone.tc", "root7.zone.tc"}, n, n, e, e, e, 0x0, f},
 	{"no.tc", &z[1362], x, s{"ns1.alanadlari.com", "ns2.alanadlari.com"}, n, n, e, e, e, 0x0, f},
-<<<<<<< HEAD
 	{"org.tc", &z[1362], x, n, n, n, e, e, e, 0x0, t},
 	{"ph.tc", &z[1362], x, s{"suspended.nic.tc"}, s{"31.169.81.202"}, n, e, e, e, 0x0, f},
 	{"pl.tc", &z[1362], x, s{"suspended.nic.tc"}, s{"31.169.81.202"}, n, e, e, e, 0x0, f},
-=======
-	{"ph.tc", &z[1362], x, n, n, n, e, e, e, 0x0, f},
-	{"pl.tc", &z[1362], x, n, n, n, e, e, e, 0x0, f},
->>>>>>> 2fbdd9ac816d3da86505c00e8e4f8383ad72eaaa
 	{"pro.tc", &z[1362], x, s{"root1.zone.tc", "root2.zone.tc", "root3.zone.tc", "root4.zone.tc", "root5.zone.tc", "root6.zone.tc", "root7.zone.tc", "root8.zone.tc"}, n, n, e, e, e, 0x0, f},
 	{"ru.tc", &z[1362], x, s{"ns1.yenile.net", "ns2.yenile.net"}, n, n, e, e, e, 0x0, f},
 	{"se.tc", &z[1362], x, s{"ns1.site4now.net", "ns2.site4now.net", "ns3.site4now.net"}, s{"205.144.171.163"}, n, e, e, e, 0x0, f},
