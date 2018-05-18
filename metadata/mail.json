@@ -1,12 +1,9 @@
 {
 	"domain": "mail",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://features.icann.org/addressing-new-gtld-program-applications-corp-home-and-mail",
 	"tags": [
-		"generic"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
+		"generic",
+		"infrastructure",
+		"withdrawn"
 	]
 }
