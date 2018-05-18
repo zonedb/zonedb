@@ -1,8 +1,5 @@
 {
 	"domain": "mi.id",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"ns1.domain.id",
 		"ns2.domain.id"

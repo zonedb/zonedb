@@ -2735,7 +2735,7 @@ var y = [4476]Zone{
 	{"co.id", &z[677], x, s{"b.dns.id", "c.dns.id", "d.dns.id", "e.dns.id"}, n, n, e, e, e, 0x0, f},
 	{"desa.id", &z[677], x, s{"b.dns.id", "c.dns.id", "d.dns.id", "e.dns.id"}, n, n, e, e, e, 0x0, t},
 	{"go.id", &z[677], x, s{"b.dns.id", "c.dns.id", "d.dns.id", "e.dns.id"}, n, n, e, e, e, 0x0, f},
-	{"mi.id", &z[677], x, s{"ns1.domain.id", "ns2.domain.id"}, n, n, e, e, e, 0x800, t},
+	{"mi.id", &z[677], x, s{"ns1.domain.id", "ns2.domain.id"}, n, n, e, e, e, 0x0, t},
 	{"mil.id", &z[677], x, s{"b.dns.id", "c.dns.id", "d.dns.id", "e.dns.id"}, n, n, e, e, e, 0x0, f},
 	{"my.id", &z[677], x, s{"b.dns.id", "c.dns.id", "d.dns.id", "e.dns.id"}, n, n, e, e, e, 0x0, f},
 	{"net.id", &z[677], x, s{"b.dns.id", "c.dns.id", "d.dns.id", "e.dns.id"}, n, n, e, e, e, 0x0, f},
