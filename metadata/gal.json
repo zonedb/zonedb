@@ -8,7 +8,7 @@
 	"locations": [
 		"ES-GA"
 	],
-	"whoisServer": "whois.gal.coreregistry.net",
+	"whoisServer": "whois.nic.gal",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

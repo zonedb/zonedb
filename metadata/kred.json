@@ -7,12 +7,10 @@
 	],
 	"whoisServer": "whois.kred.ash.dnrs.neustar",
 	"nameServers": [
-		"ns1.dns.nic.kred",
-		"ns2.dns.nic.kred",
-		"ns3.dns.nic.kred",
-		"ns4.dns.nic.kred",
-		"ns5.dns.nic.kred",
-		"ns6.dns.nic.kred"
+		"a.nic.kred",
+		"b.nic.kred",
+		"c.nic.kred",
+		"d.nic.kred"
 	],
 	"policies": [
 		{
