@@ -1404,7 +1404,7 @@ var y = [4476]Zone{
 	{"space", r, z[3934:3935], s{"a.nic.space", "b.nic.space", "c.nic.space", "d.nic.space"}, n, n, "whois.nic.space", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"spiegel", r, x, s{"ns1a.ksregistry.net", "ns1b.ksregistry.net", "ns2a.ksregistry.com", "ns2b.ksregistry.com"}, n, n, "whois.ksregistry.net", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"sport", r, x, s{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, n, n, "whois.nic.sport", e, "https://newgtlds.icann.org/", 0x40, f},
-	{"sports", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x40, f},
+	{"sports", r, x, n, n, n, e, e, "https://gtldresult.icann.org/applicationstatus/applicationdetails/604", 0x2040, t},
 	{"spot", r, x, s{"ns1.dns.nic.spot", "ns2.dns.nic.spot", "ns3.dns.nic.spot", "ns4.dns.nic.spot", "ns5.dns.nic.spot", "ns6.dns.nic.spot"}, n, n, "whois.spot.ash.dnrs.neustar", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"spreadbetting", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.spreadbetting", e, "https://bostonivy.co/", 0x40, f},
 	{"sr", r, x, s{"ns1.sr.net", "ns2.sr.net"}, n, n, e, "http://www.register.sr", e, 0xe0, f},

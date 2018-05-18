@@ -1,12 +1,8 @@
 {
 	"domain": "sports",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://gtldresult.icann.org/applicationstatus/applicationdetails/604",
 	"tags": [
-		"generic"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
+		"generic",
+		"withdrawn"
 	]
 }
