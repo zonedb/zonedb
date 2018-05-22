@@ -972,7 +972,7 @@ var y = [4476]Zone{
 	{"makeup", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.makeup", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"man", r, x, s{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, n, n, "whois.nic.man", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"management", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.management", e, e, 0x40, t},
-	{"mango", r, x, s{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, n, n, "whois.mango.coreregistry.net", e, "https://newgtlds.icann.org/", 0x42, t},
+	{"mango", r, x, s{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, n, n, "whois.nic.mango", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"map", r, x, s{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, n, n, "whois.nic.google", e, "https://www.registry.google/", 0x40, f},
 	{"market", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.market", e, e, 0x40, t},
 	{"marketing", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.marketing", e, e, 0x40, t},

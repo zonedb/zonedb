@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.mango.coreregistry.net",
+	"whoisServer": "whois.nic.mango",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
