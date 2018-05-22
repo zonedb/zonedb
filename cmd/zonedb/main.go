@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"flag"
 	"fmt"
 	"os"
@@ -21,8 +22,9 @@ func main() {
 	// Filters
 	tlds := flag.Bool("tlds", false, "work on top-level domains only")
 	filterZones := flag.String("zones", "", "select specific working zones (comma-delimited)")
-	filterRegexp := flag.String("x", "", "select working zones on by regular expression")
-	filterTags := flag.String("tags", "", "select working zones by tags (comma-delimited)")
+	filterRegexp := flag.String("x", "", "filter working zones by regular expression")
+	filterGrep := flag.String("grep", "", "filter working zones by regular expression across all metadata")
+	filterTags := flag.String("tags", "", "filter working zones by tags (comma-delimited)")
 
 	// Query operations
 	listZones := flag.Bool("list", false, "list working zones")
@@ -106,6 +108,22 @@ func main() {
 		filtered := make(map[string]*build.Zone, len(workZones))
 		for d, z := range workZones {
 			if re.MatchString(d) {
+				filtered[d] = z
+			}
+		}
+		workZones = filtered
+	}
+
+	if *filterGrep != "" {
+		re, err := regexp.Compile(*filterGrep)
+		if err != nil {
+			errs = append(errs, err)
+			build.LogFatal(err)
+		}
+		filtered := make(map[string]*build.Zone, len(workZones))
+		for d, z := range workZones {
+			j, _ := json.Marshal(z)
+			if re.Match(j) {
 				filtered[d] = z
 			}
 		}
