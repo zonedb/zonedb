@@ -11,10 +11,6 @@
 	],
 	"whoisServer": "whois-fe1.pdt.cologne.tango.knipp.de",
 	"nameServers": [
-		"anycast10.irondns.net",
-		"anycast23.irondns.net",
-		"anycast24.irondns.net",
-		"anycast9.irondns.net",
 		"ns1.ryce-rsp.com",
 		"nsa.netnod.se",
 		"nsp.netnod.se",
