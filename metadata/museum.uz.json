@@ -1,9 +1,5 @@
 {
 	"domain": "museum.uz",
-	"nameServers": [
-		"ns4.uzinfocom.uz",
-		"rdns4.uzinfocom.uz"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

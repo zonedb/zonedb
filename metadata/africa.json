@@ -8,7 +8,7 @@
 	"locations": [
 		"Africa"
 	],
-	"whoisServer": "africa-whois.registry.net.za",
+	"whoisServer": "whois.nic.africa",
 	"nameServers": [
 		"coza1.dnsnode.net",
 		"ns.coza.net.za",
