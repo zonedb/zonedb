@@ -5,12 +5,6 @@
 		"brand",
 		"generic"
 	],
-	"nameServers": [
-		"a.nic.sapo",
-		"b.nic.sapo",
-		"c.nic.sapo",
-		"d.nic.sapo"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
