@@ -2493,6 +2493,7 @@ mil.ge
 net.ge
 org.ge
 pvt.ge
+school.ge
 24.gg
 ac.gg
 co.gg
