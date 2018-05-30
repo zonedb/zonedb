@@ -4263,7 +4263,7 @@ var y = [4477]Zone{
 	{"chernovtsy.ua", &z[1441], x, s{"ba1.ns.ua", "nix.ns.ua", "ns.cv.ua", "ns2.km.ua"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
 	{"ck.ua", &z[1441], x, s{"ba1.ns.ua", "nix.ns.ua", "ns2.km.ua"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
 	{"cn.ua", &z[1441], x, s{"nix.ns.ua", "ns.dn.ua", "ns3.cn.ua"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
-	{"co.ua", &z[1441], x, s{"ns1.uadns.com", "ns2.uadns.com", "ns3.uadns.com"}, n, n, "whois.ua", e, e, 0x0, f},
+	{"co.ua", &z[1441], x, s{"ns1.uadns.com", "ns2.uadns.com", "ns3.uadns.com"}, n, n, "whois.co.ua", e, e, 0x0, f},
 	{"com.ua", &z[1441], x, s{"ba1.ns.ua", "ho1.ns.com.ua", "k.ns.com.ua", "nix.ns.ua", "sns-pb.isc.org"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
 	{"crimea.ua", &z[1441], x, s{"ba1.ns.ua", "ho1.ns.crimea.ua", "nix.ns.ua", "ns.crimea.ua"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
 	{"cv.ua", &z[1441], x, s{"ba1.ns.ua", "nix.ns.ua", "ns.cv.ua", "ns2.km.ua"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
