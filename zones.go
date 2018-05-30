@@ -416,7 +416,7 @@ var y = [4476]Zone{
 	{"commbank", r, x, s{"a.nic.commbank", "b.nic.commbank", "c.nic.commbank", "d.nic.commbank"}, n, n, "whois.nic.commbank", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"community", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.community", e, e, 0x40, t},
 	{"company", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.company", e, e, 0x40, t},
-	{"compare", r, x, s{"a.nic.compare", "b.nic.compare", "c.nic.compare", "d.nic.compare"}, n, n, "whois.nic.compare", e, "https://newgtlds.icann.org/", 0x40, f},
+	{"compare", r, x, s{"a.nic.compare", "b.nic.compare", "c.nic.compare", "d.nic.compare"}, n, n, "whois.nic.compare", e, "http://nic.compare", 0x40, f},
 	{"computer", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.computer", e, e, 0x40, t},
 	{"comsec", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.comsec", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"condos", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.condos", e, e, 0x40, t},
