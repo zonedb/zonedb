@@ -1,5 +1,6 @@
 {
 	"domain": "net.ua",
+	"whoisServer": "whois.net.ua",
 	"nameServers": [
 		"ba1.ns.ua",
 		"ho1.net.ua",

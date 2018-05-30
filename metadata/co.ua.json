@@ -1,5 +1,6 @@
 {
 	"domain": "co.ua",
+	"whoisServer": "whois.ua",
 	"nameServers": [
 		"ns1.uadns.com",
 		"ns2.uadns.com",
