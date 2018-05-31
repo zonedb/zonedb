@@ -17,6 +17,21 @@
 			"type": "idn-table",
 			"key": "mul-Arab",
 			"value": "https://www.iana.org/domains/idn-tables/tables/sca_arab_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sca_ru_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sca_sv_2.5.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/sca_zh_2.5.txt"
 		}
 	]
 }

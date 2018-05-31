@@ -11,5 +11,12 @@
 		"ns4.dns.nic.date",
 		"ns5.dns.nic.date",
 		"ns6.dns.nic.date"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/date_da_2.1.txt"
+		}
 	]
 }

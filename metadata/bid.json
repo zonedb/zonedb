@@ -11,5 +11,17 @@
 		"ns4.dns.nic.bid",
 		"ns5.dns.nic.bid",
 		"ns6.dns.nic.bid"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bid_da_2.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bid_de_2.1.txt"
+		}
 	]
 }

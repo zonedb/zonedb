@@ -10,5 +10,17 @@
 		"a2.nic.淡马锡",
 		"b0.nic.淡马锡",
 		"c0.nic.淡马锡"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh-CN",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--b4w605ferd_zh-cn_4.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-TW",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--b4w605ferd_zh-tw_4.0.txt"
+		}
 	]
 }

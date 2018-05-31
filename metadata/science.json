@@ -11,5 +11,17 @@
 		"ns4.dns.nic.science",
 		"ns5.dns.nic.science",
 		"ns6.dns.nic.science"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/science_da_2.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/science_de_2.1.txt"
+		}
 	]
 }

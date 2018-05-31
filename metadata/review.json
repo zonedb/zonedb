@@ -11,5 +11,17 @@
 		"ns4.dns.nic.review",
 		"ns5.dns.nic.review",
 		"ns6.dns.nic.review"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/review_da_2.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/review_de_2.1.txt"
+		}
 	]
 }
