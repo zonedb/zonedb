@@ -18,6 +18,11 @@
 	"policies": [
 		{
 			"type": "idn-disallowed"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/fashion_zh_1.0.txt"
 		}
 	]
 }

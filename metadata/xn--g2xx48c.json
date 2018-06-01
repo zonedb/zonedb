@@ -9,5 +9,12 @@
 		"ns4.dns.nic.购物",
 		"ns5.dns.nic.购物",
 		"ns6.dns.nic.购物"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--g2xx48c_zh_1.0.txt"
+		}
 	]
 }

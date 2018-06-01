@@ -15,5 +15,17 @@
 		"nsa.netnod.se",
 		"nsp.netnod.se",
 		"nsu.netnod.se"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/koeln_de_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/koeln_latn_1.0.txt"
+		}
 	]
 }
