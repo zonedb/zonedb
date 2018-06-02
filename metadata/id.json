@@ -7,12 +7,10 @@
 	],
 	"whoisServer": "whois.id",
 	"nameServers": [
-		"a.dns.id",
 		"b.dns.id",
 		"c.dns.id",
 		"d.dns.id",
 		"e.dns.id",
-		"ns4.apnic.net",
-		"sec3.apnic.net"
+		"ns4.apnic.net"
 	]
 }
