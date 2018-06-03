@@ -2478,7 +2478,7 @@ var y = [4477]Zone{
 	{"sci.eg", &z[435], x, s{"frcu.eun.eg", "ns.idsc.gov.eg", "rip.psg.com"}, n, n, e, e, e, 0x0, f},
 	{"sport.eg", &z[435], x, s{"frcu.eun.eg", "ns.idsc.gov.eg", "rip.psg.com"}, n, n, e, e, e, 0x0, t},
 	{"tv.eg", &z[435], x, s{"frcu.eun.eg", "ns.idsc.gov.eg", "rip.psg.com"}, n, n, e, e, e, 0x0, f},
-	{"com.er", &z[446], x, s{"er.cctld.authdns.ripe.net", "sawanew.noc.net.er", "zaranew.noc.net.er"}, n, n, e, e, e, 0x0, t},
+	{"com.er", &z[446], x, s{"er.cctld.authdns.ripe.net", "ns0.punchdown.org", "ns1.punchdown.net", "sawanew.noc.net.er", "zaranew.noc.net.er"}, n, n, e, e, e, 0x0, t},
 	{"edu.er", &z[446], x, s{"er.cctld.authdns.ripe.net", "ns0.punchdown.org", "ns1.punchdown.net", "sawanew.noc.net.er", "zaranew.noc.net.er"}, n, n, e, e, e, 0x0, f},
 	{"gov.er", &z[446], x, s{"er.cctld.authdns.ripe.net", "ns0.punchdown.org", "ns1.punchdown.net", "sawanew.noc.net.er", "zaranew.noc.net.er"}, n, n, e, e, e, 0x0, f},
 	{"ind.er", &z[446], x, s{"er.cctld.authdns.ripe.net", "ns0.punchdown.org", "ns1.punchdown.net", "sawanew.noc.net.er", "sawaold.noc.net.er", "zaranew.noc.net.er", "zaraold.noc.net.er"}, n, n, e, e, e, 0x0, f},
