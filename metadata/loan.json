@@ -15,9 +15,6 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
-		},
-		{
 			"type": "idn-table",
 			"key": "da",
 			"value": "https://www.iana.org/domains/idn-tables/tables/loan_da_2.1.txt"

@@ -15,9 +15,6 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
-		},
-		{
 			"type": "idn-table",
 			"key": "ar",
 			"value": "https://www.iana.org/domains/idn-tables/tables/talk_ar_2.1.txt"

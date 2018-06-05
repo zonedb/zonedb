@@ -17,9 +17,6 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
-		},
-		{
 			"type": "idn-table",
 			"key": "zh",
 			"value": "https://www.iana.org/domains/idn-tables/tables/law_zh_1.0.txt"

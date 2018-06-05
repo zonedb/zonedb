@@ -13,9 +13,6 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
-		},
-		{
 			"type": "idn-table",
 			"key": "az",
 			"value": "https://www.iana.org/domains/idn-tables/tables/realestate_az_2.5.txt"

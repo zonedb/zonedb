@@ -14,9 +14,6 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
-		},
-		{
 			"type": "idn-table",
 			"key": "zh-CN",
 			"value": "https://www.iana.org/domains/idn-tables/tables/temasek_zh-cn_4.0.txt"

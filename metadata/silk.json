@@ -16,9 +16,6 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
-		},
-		{
 			"type": "idn-table",
 			"key": "ar",
 			"value": "https://www.iana.org/domains/idn-tables/tables/silk_ar_2.1.txt"

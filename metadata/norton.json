@@ -14,9 +14,6 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
-		},
-		{
 			"type": "idn-table",
 			"key": "az",
 			"value": "https://www.iana.org/domains/idn-tables/tables/norton_az_2.5.txt"
