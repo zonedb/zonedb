@@ -1563,7 +1563,7 @@ var y = [4477]Zone{
 	{"vanish", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x42, f},
 	{"vc", r, z[4323:4326], s{"a0.cctld.afilias-nst.info", "a2.cctld.afilias-nst.info", "b0.cctld.afilias-nst.org", "b2.cctld.afilias-nst.org", "c0.cctld.afilias-nst.info", "d0.cctld.afilias-nst.org"}, n, n, "whois2.afilias-grs.net", e, e, 0xe0, f},
 	{"ve", r, z[4326:4337], s{"azmodan.ula.ve", "ns-ext.nic.cl", "ns1.nic.ve", "ns2.nic.ve", "ns3.nic.ve", "ns4.nic.ve", "sns-pb.isc.org"}, n, n, "whois.nic.ve", e, e, 0xa8, t},
-	{"vegas", r, x, s{"a0.nic.vegas", "a2.nic.vegas", "b0.nic.vegas", "c0.nic.vegas"}, n, s{"Las Vegas"}, "whois.afilias-srs.net", e, e, 0xc4, f},
+	{"vegas", r, x, s{"a0.nic.vegas", "a2.nic.vegas", "b0.nic.vegas", "c0.nic.vegas"}, n, s{"Las Vegas"}, "whois.afilias-srs.net", e, "http://www.nic.vegas/", 0xc4, f},
 	{"ventures", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.ventures", e, e, 0x40, t},
 	{"verisign", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.verisign", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"xn--vermgensberater-ctb" /* vermögensberater */, r, x, s{"ns1a.ksregistry.net", "ns1b.ksregistry.net", "ns2a.ksregistry.com", "ns2b.ksregistry.com"}, n, n, "whois.ksregistry.net", e, "https://newgtlds.icann.org/", 0x48, f},

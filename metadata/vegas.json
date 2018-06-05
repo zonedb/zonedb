@@ -1,5 +1,6 @@
 {
 	"domain": "vegas",
+	"infoURL": "http://www.nic.vegas/",
 	"tags": [
 		"city",
 		"generic",
@@ -17,7 +18,8 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-disallowed",
+			"comment": "http://www.nic.vegas/policies/"
 		}
 	]
 }

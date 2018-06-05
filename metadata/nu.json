@@ -14,5 +14,13 @@
 		"d.ns.nu",
 		"y.ns.nu",
 		"z.ns.nu"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iis.se/docs/nu_teckentabell-01.pdf",
+			"comment": "https://www.iis.se/english/domains/nu/idn/"
+		}
 	]
 }
