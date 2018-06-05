@@ -1,0 +1,61 @@
+#TLD: top
+#Script/Language Identifier: ar
+#Script/Language Description: Arabic
+#Version: 1.0
+#Effective Date: 2015-11-12
+U+0030	# DIGIT ZERO
+U+0031	# DIGIT ONE
+U+0032	# DIGIT TWO
+U+0033	# DIGIT THREE
+U+0034	# DIGIT FOUR
+U+0035	# DIGIT FIVE
+U+0036	# DIGIT SIX
+U+0037	# DIGIT SEVEN
+U+0038	# DIGIT EIGHT
+U+0039	# DIGIT NINE
+U+0621	#Arabic Letter HAMZA ء
+U+0622	#Arabic Letter ALEF with MADDA above آ
+U+0623	#Arabic Letter ALEF with HAMZA above أ
+U+0624	#Arabic Letter WAW with HAMZA above ؤ
+U+0625	#Arabic Letter ALEF with HAMZA below إ
+U+0626	#Arabic Letter YEH with HAMZA above ئ
+U+0627	#Arabic Letter ALEF ا
+U+0628	#Arabic Letter BEH ب
+U+0629	#Arabic Letter TEH MARBUTA ة
+U+062A	#Arabic Letter TEH ت
+U+062B	#Arabic Letter THEH ث
+U+062C	#Arabic Letter JEEM ج
+U+062D	#Arabic Letter HAH ح
+U+062E	#Arabic Letter KHAH خ
+U+062F	#Arabic Letter DAL د
+U+0630	#Arabic Letter THAL ذ
+U+0631	#Arabic Letter REH ر
+U+0632	#Arabic Letter ZAIN ز
+U+0633	#Arabic Letter SEEN س
+U+0634	#Arabic Letter SHEEN ش
+U+0635	#Arabic Letter SAD ص
+U+0636	#Arabic Letter DAD ض
+U+0637	#Arabic Letter TAH ط
+U+0638	#Arabic Letter ZAH ظ
+U+0639	#Arabic Letter AIN ع
+U+063A	#Arabic Letter GHAIN غ
+U+0641	#Arabic Letter FEH ف
+U+0642	#Arabic Letter QAF ق
+U+0643	#Arabic Letter KAF ك
+U+0644	#Arabic Letter LAM ل
+U+0645	#Arabic Letter MEEM م
+U+0646	#Arabic Letter NOON ن
+U+0647	#Arabic Letter HEH ه
+U+0648	#Arabic Letter WAW و
+U+0649	#Arabic Letter ALEF MAKSURA ى
+U+064A	#Arabic Letter YEH ي
+U+0660	#ARABIC-INDIC DIGIT ZERO ٠
+U+0661	#ARABIC-INDIC DIGIT ONE ١
+U+0662	#ARABIC-INDIC DIGIT TWO ٢
+U+0663	#ARABIC-INDIC DIGIT THREE ٣
+U+0664	#ARABIC-INDIC DIGIT FOUR ٤
+U+0665	#ARABIC-INDIC DIGIT FIVE ٥
+U+0666	#ARABIC-INDIC DIGIT SIX ٦
+U+0667	#ARABIC-INDIC DIGIT SEVEN ٧
+U+0668	#ARABIC-INDIC DIGIT EIGHT ٨
+U+0669	#ARABIC-INDIC DIGIT NINE ٩ 

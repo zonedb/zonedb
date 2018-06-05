@@ -14,5 +14,43 @@
 		"g.zdnscloud.com",
 		"i.zdnscloud.com",
 		"j.zdnscloud.com"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ar",
+			"value": "/content/idn-tables/top_ar_1.0.txt",
+			"comment": "http://www.nic.top/en/policy_view.asp?id=1"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "/content/idn-tables/top_de_1.0.txt",
+			"comment": "http://www.nic.top/en/policy_view.asp?id=1"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "/content/idn-tables/top_es.txt",
+			"comment": "http://www.nic.top/en/policy_view.asp?id=1"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "/content/idn-tables/top_fr.txt",
+			"comment": "http://www.nic.top/en/policy_view.asp?id=1"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "/content/idn-tables/top_ja_1.0.txt",
+			"comment": "http://www.nic.top/en/policy_view.asp?id=1"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "/content/idn-tables/top_ru.txt",
+			"comment": "http://www.nic.top/en/policy_view.asp?id=1"
+		}
 	]
 }
