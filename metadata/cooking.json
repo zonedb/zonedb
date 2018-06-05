@@ -1,5 +1,6 @@
 {
 	"domain": "cooking",
+	"infoURL": "http://nic.cooking/",
 	"tags": [
 		"generic"
 	],
@@ -13,5 +14,25 @@
 		"dnsb.nic.cooking",
 		"dnsc.nic.cooking",
 		"dnsd.nic.cooking"
-	]
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://registrars.nominet.uk/sites/default/files/spanish_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://registrars.nominet.uk/sites/default/files/german_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://registrars.nominet.uk/sites/default/files/french_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		}
+	]	
 }
