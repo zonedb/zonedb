@@ -51,22 +51,32 @@ func (z *Zone) Normalize() {
 func (z *Zone) normalizePolicies() {
 	// De-dupe
 	var set = make(map[Policy]struct{}, len(z.Policies))
+	var hasIDNTable bool
+	var hasIDNDisallowed bool
 	for _, p := range z.Policies {
-		if p.Type == "" {
+		switch p.Type {
+		case "":
 			continue
-		}
-		if p.Type == TypeIDNDisallowed {
-			z.IDNDisallowed = true
+		case TypeIDNDisallowed:
+			hasIDNDisallowed = true
+		case TypeIDNTable:
+			hasIDNTable = true
 		}
 		set[p] = struct{}{}
 	}
 	z.Policies = make([]Policy, 0, len(set))
 	for p := range set {
+		if p.Type == TypeIDNDisallowed && hasIDNTable {
+			continue
+		}
 		z.Policies = append(z.Policies, p)
 	}
 
 	// Sort
 	sortPolicies(z.Policies)
+
+	// IDN?
+	z.IDNDisallowed = hasIDNDisallowed && !hasIDNTable
 }
 
 func (z *Zone) transition() {
