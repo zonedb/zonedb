@@ -1,5 +1,6 @@
 {
 	"domain": "fed.us",
+	"whoisServer": "whois.dotgov.gov",
 	"nameServers": [
 		"a.gov-servers.net",
 		"b.gov-servers.net",

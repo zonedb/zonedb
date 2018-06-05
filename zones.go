@@ -4351,7 +4351,7 @@ var y = [4477]Zone{
 	{"dc.us", &z[1456], x, n, n, n, e, e, e, 0x0, f},
 	{"de.us", &z[1456], x, n, n, n, e, e, e, 0x0, f},
 	{"dni.us", &z[1456], x, n, n, n, e, e, e, 0x0, f},
-	{"fed.us", &z[1456], x, s{"a.gov-servers.net", "b.gov-servers.net", "c.gov-servers.net", "d.gov-servers.net"}, n, n, e, e, e, 0x0, f},
+	{"fed.us", &z[1456], x, s{"a.gov-servers.net", "b.gov-servers.net", "c.gov-servers.net", "d.gov-servers.net"}, n, n, "whois.dotgov.gov", e, e, 0x0, f},
 	{"fl.us", &z[1456], x, n, n, n, e, e, e, 0x0, f},
 	{"ga.us", &z[1456], x, n, n, n, e, e, e, 0x0, f},
 	{"gu.us", &z[1456], x, n, n, n, e, e, e, 0x0, f},
