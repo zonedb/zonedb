@@ -13,5 +13,12 @@
 		"dnsb.nic.beer",
 		"dnsc.nic.beer",
 		"dnsd.nic.beer"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/beer_zh_1.0.txt"
+		}
 	]
 }

@@ -7,7 +7,7 @@
 	"locations": [
 		"GB-SCT"
 	],
-	"whoisServer": "whois.scot.coreregistry.net",
+	"whoisServer": "whois.nic.scot",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

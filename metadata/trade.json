@@ -11,5 +11,17 @@
 		"ns4.dns.nic.trade",
 		"ns5.dns.nic.trade",
 		"ns6.dns.nic.trade"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/trade_da_2.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/trade_de_2.1.txt"
+		}
 	]
 }

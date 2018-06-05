@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.smile.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.smile",
 	"nameServers": [
 		"ns1.dns.nic.smile",
 		"ns2.dns.nic.smile",
