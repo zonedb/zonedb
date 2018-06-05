@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.talk.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.talk",
 	"nameServers": [
 		"ns1.dns.nic.talk",
 		"ns2.dns.nic.talk",

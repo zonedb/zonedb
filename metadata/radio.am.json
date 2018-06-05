@@ -2,9 +2,7 @@
 	"domain": "radio.am",
 	"nameServers": [
 		"a.nic.fm",
-		"b.nic.fm",
-		"c.nic.fm",
-		"d.nic.fm"
+		"b.nic.fm"
 	],
 	"policies": [
 		{

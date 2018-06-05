@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.taobao.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.taobao",
 	"nameServers": [
 		"ns1.dns.nic.taobao",
 		"ns2.dns.nic.taobao",

@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.tkmaxx.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.tkmaxx",
 	"nameServers": [
 		"ns1.dns.nic.tkmaxx",
 		"ns2.dns.nic.tkmaxx",
