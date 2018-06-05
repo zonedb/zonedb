@@ -1,6 +1,6 @@
 {
 	"domain": "uk",
-	"infoURL": "http://www.nic.uk/",
+	"infoURL": "https://www.nominet.uk/",
 	"tags": [
 		"country",
 		"geo"
@@ -15,5 +15,11 @@
 		"nsb.nic.uk",
 		"nsc.nic.uk",
 		"nsd.nic.uk"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed",
+			"comment": "https://nominet-prod.s3.amazonaws.com/wp-content/uploads/2015/10/Rules_June_2014.pdf"
+		}
 	]
 }
