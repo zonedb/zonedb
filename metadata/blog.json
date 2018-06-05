@@ -1,6 +1,6 @@
 {
 	"domain": "blog",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.blog/",
 	"tags": [
 		"generic"
 	],
@@ -17,7 +17,8 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-disallowed",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		}
 	]
 }
