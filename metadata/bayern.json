@@ -1,5 +1,6 @@
 {
 	"domain": "bayern",
+	"infoURL": "http://nic.bayern/",
 	"tags": [
 		"generic",
 		"geo",
@@ -18,5 +19,13 @@
 		"dnsb.nic.bayern",
 		"dnsc.nic.bayern",
 		"dnsd.nic.bayern"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "http://registrars.nominet.uk/sites/default/files/german_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		}
 	]
 }
