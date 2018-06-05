@@ -1,5 +1,6 @@
 {
 	"domain": "de",
+	"infoURL": "https://www.denic.de/",
 	"tags": [
 		"country",
 		"geo"
@@ -12,5 +13,13 @@
 		"n.de.net",
 		"s.de.net",
 		"z.nic.de"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.denic.de/en/know-how/idn-domains/idn-character-list/",
+			"comment": "https://www.denic.de/en/know-how/idn-domains/"
+		}
 	]
 }

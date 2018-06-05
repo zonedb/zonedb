@@ -465,7 +465,7 @@ var y = [4477]Zone{
 	{"day", r, x, s{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, n, n, "whois.nic.google", e, "https://www.registry.google/", 0x40, t},
 	{"dclk", r, x, s{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, n, n, "whois.nic.google", e, "https://www.registry.google/", 0x42, t},
 	{"dds", r, x, s{"dns1.nic.dds", "dns2.nic.dds", "dns3.nic.dds", "dns4.nic.dds", "dnsa.nic.dds", "dnsb.nic.dds", "dnsc.nic.dds", "dnsd.nic.dds"}, n, n, "whois.nic.dds", e, "https://newgtlds.icann.org/", 0x40, f},
-	{"de", r, z[2314:2317], s{"a.nic.de", "f.nic.de", "l.de.net", "n.de.net", "s.de.net", "z.nic.de"}, n, n, "whois.denic.de", e, e, 0xa0, t},
+	{"de", r, z[2314:2317], s{"a.nic.de", "f.nic.de", "l.de.net", "n.de.net", "s.de.net", "z.nic.de"}, n, n, "whois.denic.de", e, "https://www.denic.de/", 0xa0, t},
 	{"deal", r, x, s{"ns1.dns.nic.deal", "ns2.dns.nic.deal", "ns3.dns.nic.deal", "ns4.dns.nic.deal", "ns5.dns.nic.deal", "ns6.dns.nic.deal"}, n, n, "whois.nic.deal", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"dealer", r, x, s{"ns1.dns.nic.dealer", "ns2.dns.nic.dealer", "ns3.dns.nic.dealer", "ns4.dns.nic.dealer", "ns5.dns.nic.dealer", "ns6.dns.nic.dealer"}, n, n, "whois.nic.dealer", e, "https://newgtlds.icann.org/", 0x40, f},
 	{"deals", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.deals", e, e, 0x40, t},
