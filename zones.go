@@ -1504,7 +1504,7 @@ var y = [4477]Zone{
 	{"today", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.today", e, e, 0x40, t},
 	{"tokyo", r, x, s{"a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, n, s{"Tokyo", "JP-13"}, "whois.gmoregistry.net", e, e, 0xc4, t},
 	{"tools", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.tools", e, e, 0x40, t},
-	{"top", r, x, s{"a.zdnscloud.com", "b.zdnscloud.com", "c.zdnscloud.com", "d.zdnscloud.com", "f.zdnscloud.com", "g.zdnscloud.com", "i.zdnscloud.com", "j.zdnscloud.com"}, n, n, "whois.nic.top", e, e, 0x40, t},
+	{"top", r, x, s{"a.zdnscloud.com", "b.zdnscloud.com", "c.zdnscloud.com", "d.zdnscloud.com", "f.zdnscloud.com", "g.zdnscloud.com", "i.zdnscloud.com", "j.zdnscloud.com"}, n, n, "whois.nic.top", e, "http://www.nic.top/", 0x40, t},
 	{"toray", r, x, s{"a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, n, n, "whois.nic.toray", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"toshiba", r, x, s{"a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, n, n, "whois.nic.toshiba", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"total", r, x, s{"d.nic.fr", "f.ext.nic.fr", "g.ext.nic.fr"}, n, n, "whois-total.nic.fr", e, "https://newgtlds.icann.org/", 0x42, f},
