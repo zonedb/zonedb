@@ -1,5 +1,6 @@
 {
 	"domain": "horse",
+	"infoURL": "http://nic.horse/",
 	"tags": [
 		"generic"
 	],
@@ -13,5 +14,25 @@
 		"dnsb.nic.horse",
 		"dnsc.nic.horse",
 		"dnsd.nic.horse"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://registrars.nominet.uk/sites/default/files/spanish_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://registrars.nominet.uk/sites/default/files/german_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://registrars.nominet.uk/sites/default/files/french_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		}
 	]
 }
