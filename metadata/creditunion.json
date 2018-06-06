@@ -1,6 +1,6 @@
 {
 	"domain": "creditunion",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.creditunion/",
 	"tags": [
 		"generic"
 	],
@@ -13,7 +13,9 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "is",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/icelandic-IS.txt"
 		}
 	]
 }
