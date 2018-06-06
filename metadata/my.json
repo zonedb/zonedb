@@ -16,7 +16,8 @@
 		{
 			"type": "idn-table",
 			"key": "ms-MY",
-			"value": "https://www.iana.org/domains/idn-tables/tables/my_ms-my_1.0.pdf"
+			"value": "https://www.iana.org/domains/idn-tables/tables/my_ms-my_1.0.pdf",
+			"comment": "https://www.mynic.my/en/faq.php?id=119"
 		}
 	]
 }
