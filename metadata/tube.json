@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.tube.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.tube",
 	"nameServers": [
 		"ns1.dns.nic.tube",
 		"ns2.dns.nic.tube",

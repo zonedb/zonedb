@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.wow.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.wow",
 	"nameServers": [
 		"ns1.dns.nic.wow",
 		"ns2.dns.nic.wow",

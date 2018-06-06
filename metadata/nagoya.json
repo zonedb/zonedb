@@ -8,7 +8,7 @@
 	"locations": [
 		"Nagoya-shi"
 	],
-	"whoisServer": "whois.gmoregistry.net",
+	"whoisServer": "whois.nic.nagoya",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",

@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.hsbc.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.hsbc",
 	"nameServers": [
 		"ns1.dns.nic.hsbc",
 		"ns2.dns.nic.hsbc",

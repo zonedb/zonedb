@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.oldnavy.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.oldnavy",
 	"nameServers": [
 		"ns1.dns.nic.oldnavy",
 		"ns2.dns.nic.oldnavy",

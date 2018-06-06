@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.pay.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.pay",
 	"nameServers": [
 		"ns1.dns.nic.pay",
 		"ns2.dns.nic.pay",

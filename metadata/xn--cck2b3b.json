@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.ストア.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.ストア",
 	"nameServers": [
 		"ns1.dns.nic.ストア",
 		"ns2.dns.nic.ストア",

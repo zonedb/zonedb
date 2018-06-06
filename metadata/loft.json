@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.loft.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.loft",
 	"nameServers": [
 		"ns1.dns.nic.loft",
 		"ns2.dns.nic.loft",

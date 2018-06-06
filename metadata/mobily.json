@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.mobily.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.mobily",
 	"nameServers": [
 		"ns1.dns.nic.mobily",
 		"ns2.dns.nic.mobily",

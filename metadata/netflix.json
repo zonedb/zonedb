@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.netflix.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.netflix",
 	"nameServers": [
 		"ns1.dns.nic.netflix",
 		"ns2.dns.nic.netflix",

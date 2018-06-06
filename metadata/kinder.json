@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.kinder.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.kinder",
 	"nameServers": [
 		"ns1.dns.nic.kinder",
 		"ns2.dns.nic.kinder",

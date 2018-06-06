@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.weather.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.weather",
 	"nameServers": [
 		"ns1.dns.nic.weather",
 		"ns2.dns.nic.weather",

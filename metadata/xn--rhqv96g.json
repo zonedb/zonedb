@@ -1,6 +1,6 @@
 {
 	"domain": "世界",
-	"whoisServer": "whois.世界.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.世界",
 	"nameServers": [
 		"ns1.teleinfo.cn",
 		"ns2.teleinfoo.com",

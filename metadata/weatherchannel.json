@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.weatherchannel.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.weatherchannel",
 	"nameServers": [
 		"ns1.dns.nic.weatherchannel",
 		"ns2.dns.nic.weatherchannel",

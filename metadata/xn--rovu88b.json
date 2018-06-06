@@ -1,7 +1,7 @@
 {
 	"domain": "書籍",
 	"infoURL": "https://newgtlds.icann.org/",
-	"whoisServer": "whois.書籍.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.書籍",
 	"nameServers": [
 		"ns1.dns.nic.書籍",
 		"ns2.dns.nic.書籍",

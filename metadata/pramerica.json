@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.pramerica.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.pramerica",
 	"nameServers": [
 		"ns1.dns.nic.pramerica",
 		"ns2.dns.nic.pramerica",

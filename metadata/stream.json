@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.stream.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.stream",
 	"nameServers": [
 		"ns1.dns.nic.stream",
 		"ns2.dns.nic.stream",
