@@ -18,7 +18,8 @@
 		{
 			"type": "idn-table",
 			"key": "pt-BR",
-			"value": "https://www.iana.org/domains/idn-tables/tables/br_pt-br_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/br_pt-br_1.0.html",
+			"comment": "https://registro.br/dominio/regras.html"
 		}
 	]
 }

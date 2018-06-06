@@ -1,5 +1,6 @@
 {
 	"domain": "dk",
+	"infoURL": "https://www.dk-hostmaster.dk/",
 	"tags": [
 		"country",
 		"geo"
@@ -12,5 +13,11 @@
 		"l.nic.dk",
 		"p.nic.dk",
 		"s.nic.dk"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"comment": "https://www.dk-hostmaster.dk/en/approved-characters"
+		}
 	]
 }
