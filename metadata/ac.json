@@ -47,6 +47,11 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "fr",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/French-FR.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "hu",
 			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/hungarian-HU.txt"
 		},
@@ -54,6 +59,11 @@
 			"type": "idn-table",
 			"key": "is",
 			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/icelandic-IS.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "it",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/Italian-IT.txt"
 		},
 		{
 			"type": "idn-table",
@@ -79,6 +89,11 @@
 			"type": "idn-table",
 			"key": "pl",
 			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/polish-PL.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/Portuguese-PT.txt"
 		},
 		{
 			"type": "idn-table",
