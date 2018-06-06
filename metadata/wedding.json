@@ -18,8 +18,9 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/wedding_zh_1.0.txt"
+			"key": "de",
+			"value": "https://registrars.nominet.uk/sites/default/files/german_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		},
 		{
 			"type": "idn-table",
@@ -29,15 +30,14 @@
 		},
 		{
 			"type": "idn-table",
-			"key": "de",
-			"value": "https://registrars.nominet.uk/sites/default/files/german_idn.pdf",
+			"key": "fr",
+			"value": "https://registrars.nominet.uk/sites/default/files/french_idn.pdf",
 			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		},
 		{
 			"type": "idn-table",
-			"key": "fr",
-			"value": "https://registrars.nominet.uk/sites/default/files/french_idn.pdf",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/wedding_zh_1.0.txt"
 		}
 	]
 }

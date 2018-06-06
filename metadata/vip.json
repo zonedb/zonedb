@@ -1,6 +1,6 @@
 {
 	"domain": "vip",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.vip/",
 	"tags": [
 		"generic"
 	],
@@ -18,8 +18,75 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"key": "ar",
+			"value": "https://registrars.nominet.uk/sites/default/files/arabic_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://registrars.nominet.uk/sites/default/files/danish_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://registrars.nominet.uk/sites/default/files/german_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://registrars.nominet.uk/sites/default/files/spanish_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "fi",
+			"value": "https://registrars.nominet.uk/sites/default/files/finnish_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://registrars.nominet.uk/sites/default/files/french_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "he",
+			"value": "https://registrars.nominet.uk/sites/default/files/hebrew_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "it",
+			"value": "https://registrars.nominet.uk/sites/default/files/italian_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "no",
+			"value": "https://registrars.nominet.uk/sites/default/files/norwegian_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://registrars.nominet.uk/sites/default/files/russian_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://registrars.nominet.uk/sites/default/files/swedish_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vip_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vip_zh_1.0.txt",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		}
 	]
 }
