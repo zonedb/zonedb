@@ -23,7 +23,10 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "hu",
+			"value": "http://registrars.nominet.uk/sites/default/files/hungarian_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		}
 	]
 }

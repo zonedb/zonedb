@@ -17,7 +17,22 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://registrars.nominet.uk/sites/default/files/spanish_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://registrars.nominet.uk/sites/default/files/portugese_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "it",
+			"value": "https://registrars.nominet.uk/sites/default/files/italian_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		}
 	]
 }

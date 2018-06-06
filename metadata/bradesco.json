@@ -18,7 +18,8 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-disallowed",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		}
 	]
 }
