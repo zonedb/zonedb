@@ -1,5 +1,6 @@
 {
 	"domain": "ie",
+	"infoURL": "https://www.iedr.ie/",
 	"tags": [
 		"country",
 		"geo"
@@ -14,5 +15,11 @@
 		"f.ns.ie",
 		"g.ns.ie",
 		"h.ns.ie"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"comment": "https://www.iedr.ie/internationalised-ie-domain-names/"
+		}
 	]
 }
