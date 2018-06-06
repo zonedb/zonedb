@@ -132,7 +132,7 @@ var y = [4477]Zone{
 	{"ag", r, z[1776:1782], s{"a0.cctld.afilias-nst.info", "a2.cctld.afilias-nst.info", "b0.cctld.afilias-nst.org", "b2.cctld.afilias-nst.org", "c0.cctld.afilias-nst.info", "d0.cctld.afilias-nst.org"}, n, n, "whois.nic.ag", e, "http://www.nic.ag/", 0xa0, f},
 	{"agakhan", r, x, s{"a0.nic.agakhan", "a2.nic.agakhan", "b0.nic.agakhan", "c0.nic.agakhan"}, n, n, "whois.afilias-srs.net", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"agency", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.agency", e, e, 0x40, t},
-	{"ai", r, z[1782:1786], s{"ns.cocca.fr", "ns1.pair.com", "ns2.offshore.ai", "pch.whois.ai", "whois.ai"}, n, n, "whois.nic.ai", e, "http://nic.com.ai", 0xa0, t},
+	{"ai", r, z[1782:1786], s{"ns.cocca.fr", "ns1.pair.com", "ns2.offshore.ai", "pch.whois.ai", "whois.ai"}, n, n, "whois.nic.ai", e, "http://nic.com.ai", 0xa0, f},
 	{"aig", r, x, s{"ns1.dns.nic.aig", "ns2.dns.nic.aig", "ns3.dns.nic.aig", "ns4.dns.nic.aig", "ns5.dns.nic.aig", "ns6.dns.nic.aig"}, n, n, "whois.nic.aig", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"aigo", r, x, s{"a0.nic.aigo", "a2.nic.aigo", "b0.nic.aigo", "c0.nic.aigo"}, n, n, "whois.afilias-srs.net", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"airbus", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.airbus", e, "https://newgtlds.icann.org/", 0x42, t},

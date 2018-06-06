@@ -12,5 +12,11 @@
 		"ns2.offshore.ai",
 		"pch.whois.ai",
 		"whois.ai"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed",
+			"comment": "https://whois.ai/faq.html"
+		}
 	]
 }
