@@ -1,5 +1,6 @@
 {
 	"domain": "organic",
+	"infoURL": "http://nic.organic/",
 	"tags": [
 		"generic"
 	],
@@ -9,5 +10,10 @@
 		"a2.nic.organic",
 		"b0.nic.organic",
 		"c0.nic.organic"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
 	]
 }
