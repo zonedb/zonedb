@@ -1,5 +1,6 @@
 {
 	"domain": "as",
+	"infoURL": "http://nic.as/",
 	"tags": [
 		"country",
 		"generic",
@@ -11,5 +12,11 @@
 		"ns99.dns.net.nz",
 		"pch.nic.as",
 		"tld.gdns.net"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"comment": "http://nic.as/idn/chars.cfm"
+		}
 	]
 }
