@@ -13,5 +13,102 @@
 		"c0.nic.ac",
 		"ns-a1.ac",
 		"ns-a3.ac"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "be",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/belarusian-BE.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "bg",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/bulgarian-BG.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "bs",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/bosnian-BS.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/danish-DA_0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/german-DE.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/spanish-ES.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "hu",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/hungarian-HU.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "is",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/icelandic-IS.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/korean-KO.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lt",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/lithuanian-LT.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lv",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/latvian-LV.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mk",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/macedonian-MK.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pl",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/polish-PL.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/russian-RU.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sr",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/serbian-SR.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/swedish-SV.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "uk",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/ukrainian-UK.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-CN",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/simplified-chinese-ZH-CN.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-TW",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/traditional-chinese-ZH-TW.txt"
+		}
 	]
 }
