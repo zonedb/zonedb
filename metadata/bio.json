@@ -1,5 +1,6 @@
 {
 	"domain": "bio",
+	"infoURL": "http://nic.bio/",
 	"tags": [
 		"generic"
 	],
@@ -9,5 +10,12 @@
 		"a2.nic.bio",
 		"b0.nic.bio",
 		"c0.nic.bio"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/german-DE.txt"
+		}
 	]
 }

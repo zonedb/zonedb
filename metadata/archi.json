@@ -1,5 +1,6 @@
 {
 	"domain": "archi",
+	"infoURL": "http://nic.archi/",
 	"tags": [
 		"generic"
 	],
@@ -9,5 +10,10 @@
 		"a2.nic.archi",
 		"b0.nic.archi",
 		"c0.nic.archi"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
 	]
 }
