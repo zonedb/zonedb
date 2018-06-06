@@ -1,5 +1,6 @@
 {
 	"domain": "london",
+	"infoURL": "http://nic.london/",
 	"tags": [
 		"city",
 		"generic",
@@ -51,5 +52,31 @@
 		"dnsb.nic.london",
 		"dnsc.nic.london",
 		"dnsd.nic.london"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://registrars.nominet.uk/sites/default/files/spanish_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://registrars.nominet.uk/sites/default/files/german_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://registrars.nominet.uk/sites/default/files/french_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		},
+		{
+			"type": "idn-table",
+			"key": "it",
+			"value": "http://registrars.nominet.uk/sites/default/files/italian_idn.pdf",
+			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+		}
 	]
 }
