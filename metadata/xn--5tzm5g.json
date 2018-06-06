@@ -1,11 +1,23 @@
 {
 	"domain": "网站",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.网站/",
 	"whoisServer": "whois.nic.网站",
 	"nameServers": [
 		"a0.nic.网站",
 		"a2.nic.网站",
 		"b0.nic.网站",
 		"c0.nic.网站"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh-CN",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/simplified-chinese-ZH-CN.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-TW",
+			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/traditional-chinese-ZH-TW.txt"
+		}
 	]
 }
