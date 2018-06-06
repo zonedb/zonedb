@@ -1,5 +1,6 @@
 {
 	"domain": "country",
+	"infoURL": "http://nic.country/",
 	"tags": [
 		"generic"
 	],
