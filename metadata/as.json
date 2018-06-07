@@ -16,7 +16,7 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"comment": "http://nic.as/idn/chars.cfm"
+			"value": "http://nic.as/idn/chars.cfm"
 		}
 	]
 }
