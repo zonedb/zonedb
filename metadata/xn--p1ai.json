@@ -1,5 +1,6 @@
 {
 	"domain": "рф",
+	"infoURL": "https://cctld.ru/",
 	"whoisServer": "whois.tcinet.ru",
 	"nameServers": [
 		"a.dns.ripn.net",
@@ -7,5 +8,11 @@
 		"d.dns.ripn.net",
 		"e.dns.ripn.net",
 		"f.dns.ripn.net"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"comment": "https://cctld.ru/en/docs/rulesrf.php"
+		}
 	]
 }
