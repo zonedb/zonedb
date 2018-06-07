@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.hoteles.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.hoteles",
 	"nameServers": [
 		"ns1.dns.nic.hoteles",
 		"ns2.dns.nic.hoteles",

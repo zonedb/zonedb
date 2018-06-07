@@ -9,7 +9,7 @@
 		"Tokyo",
 		"JP-13"
 	],
-	"whoisServer": "whois.gmoregistry.net",
+	"whoisServer": "whois.nic.tokyo",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",

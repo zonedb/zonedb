@@ -1,6 +1,7 @@
 {
 	"domain": "健康",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.健康",
 	"nameServers": [
 		"ns1.teleinfo.cn",
 		"ns2.teleinfoo.com",

@@ -8,7 +8,7 @@
 	"locations": [
 		"Yokohama"
 	],
-	"whoisServer": "whois.gmoregistry.net",
+	"whoisServer": "whois.nic.yokohama",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",

@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.williamhill.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.williamhill",
 	"nameServers": [
 		"ns1.dns.nic.williamhill",
 		"ns2.dns.nic.williamhill",

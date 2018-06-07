@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.pfizer.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.pfizer",
 	"nameServers": [
 		"ns1.dns.nic.pfizer",
 		"ns2.dns.nic.pfizer",

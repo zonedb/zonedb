@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.yahoo.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.yahoo",
 	"nameServers": [
 		"ns1.dns.nic.yahoo",
 		"ns2.dns.nic.yahoo",

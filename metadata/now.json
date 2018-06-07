@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.now.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.now",
 	"nameServers": [
 		"ns1.dns.nic.now",
 		"ns2.dns.nic.now",

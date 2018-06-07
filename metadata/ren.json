@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.gtld.knet.cn",
+	"whoisServer": "whois.nic.ren",
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

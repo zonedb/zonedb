@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.swiftcover.ash.dnrs.neustar",
+	"whoisServer": "whois.nic.swiftcover",
 	"nameServers": [
 		"ns1.dns.nic.swiftcover",
 		"ns2.dns.nic.swiftcover",
