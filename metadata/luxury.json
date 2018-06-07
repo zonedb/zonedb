@@ -1,5 +1,6 @@
 {
 	"domain": "luxury",
+	"infoURL": "http://nic.luxury/",
 	"tags": [
 		"generic"
 	],
@@ -9,5 +10,10 @@
 		"b.nic.luxury",
 		"c.nic.luxury",
 		"d.nic.luxury"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
 	]
 }

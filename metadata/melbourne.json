@@ -1,5 +1,6 @@
 {
 	"domain": "melbourne",
+	"infoURL": "http://nic.melbourne/",
 	"tags": [
 		"city",
 		"generic",
@@ -14,5 +15,10 @@
 		"b.nic.melbourne",
 		"c.nic.melbourne",
 		"d.nic.melbourne"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
 	]
 }
