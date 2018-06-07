@@ -1,5 +1,6 @@
 {
 	"domain": "ws",
+	"infoURL": "http://nic.ws/",
 	"tags": [
 		"country",
 		"generic",
@@ -16,5 +17,11 @@
 	],
 	"wildcards": [
 		"173.230.130.175"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"comment": "http://website.ws/emoji.dhtml"
+		}
 	]
 }
