@@ -1,5 +1,6 @@
 {
 	"domain": "it",
+	"infoURL": "http://www.nic.it/",
 	"tags": [
 		"country",
 		"geo"
@@ -12,5 +13,11 @@
 		"nameserver.cnr.it",
 		"r.dns.it",
 		"s.dns.it"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"comment": "http://www.crdd.it/norme/GuidelineTecnicheSincrono2.1-EN.pdf"
+		}
 	]
 }

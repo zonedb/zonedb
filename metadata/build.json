@@ -1,5 +1,6 @@
 {
 	"domain": "build",
+	"infoURL": "http://nic.build/",
 	"tags": [
 		"generic"
 	],
@@ -9,5 +10,10 @@
 		"b.nic.build",
 		"c.nic.build",
 		"d.nic.build"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
 	]
 }
