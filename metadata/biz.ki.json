@@ -2,9 +2,7 @@
 	"domain": "biz.ki",
 	"nameServers": [
 		"a.ki.dyntld.net",
-		"b.ki.dyntld.net",
-		"ns.cocca.fr",
-		"ns.coccaregistry.org"
+		"b.ki.dyntld.net"
 	],
 	"policies": [
 		{
