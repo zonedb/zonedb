@@ -5,10 +5,10 @@
 	],
 	"whoisServer": "whois.nic.name",
 	"nameServers": [
-		"an1.nstld.com",
-		"an2.nstld.com",
-		"an3.nstld.com",
-		"an4.nstld.com"
+		"ac1.nstld.com",
+		"ac2.nstld.com",
+		"ac3.nstld.com",
+		"ac4.nstld.com"
 	],
 	"policies": [
 		{

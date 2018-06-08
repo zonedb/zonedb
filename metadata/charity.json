@@ -4,6 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.charity",
+	"nameServers": [
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

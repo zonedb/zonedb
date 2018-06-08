@@ -3,6 +3,10 @@
 	"tags": [
 		"retired"
 	],
+	"nameServers": [
+		"miles.ns.cloudflare.com",
+		"zoe.ns.cloudflare.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
