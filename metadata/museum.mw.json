@@ -1,9 +1,5 @@
 {
 	"domain": "museum.mw",
-	"nameServers": [
-		"ns1.mtlonline.mw",
-		"ns2.mtlonline.mw"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
