@@ -17,7 +17,8 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cl_latn_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/cl_latn_1.0.html",
+			"comment": "https://www.nic.cl/normativa/CL-IDN-policy.html"
 		}
 	]
 }
