@@ -3,10 +3,6 @@
 	"nameServers": [
 		"gy-ns.anycast.pch.net",
 		"ns.cocca.fr",
-		"ns.coccaregistry.org",
-		"ns1.gtt.co.gy",
-		"ns2.gtt.co.gy",
-		"phloem.uoregon.edu",
 		"sns-pb.isc.org"
 	],
 	"policies": [

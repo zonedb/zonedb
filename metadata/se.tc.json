@@ -1,12 +1,10 @@
 {
 	"domain": "se.tc",
 	"nameServers": [
-		"ns1.site4now.net",
-		"ns2.site4now.net",
-		"ns3.site4now.net"
+		"suspended.nic.tc"
 	],
 	"wildcards": [
-		"205.144.171.163"
+		"31.169.81.202"
 	],
 	"policies": [
 		{
