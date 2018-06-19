@@ -1,8 +1,8 @@
 {
 	"domain": "co.cz",
 	"nameServers": [
-		"ns.i-registry.net",
-		"ns1.i-registry.cz"
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz"
 	],
 	"policies": [
 		{

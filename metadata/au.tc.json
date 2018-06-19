@@ -1,7 +1,8 @@
 {
 	"domain": "au.tc",
-	"tags": [
-		"retired"
+	"nameServers": [
+		"miles.ns.cloudflare.com",
+		"zoe.ns.cloudflare.com"
 	],
 	"policies": [
 		{

@@ -1,7 +1,8 @@
 {
 	"domain": "mi.id",
 	"nameServers": [
-		"ns1.domain.id",
-		"ns2.domain.id"
+		"ns.beonintermedia.com",
+		"ns.jagoanhosting.com",
+		"ns.jagoanweb.com"
 	]
 }
