@@ -9,7 +9,7 @@
 		"Cologne",
 		"Koeln"
 	],
-	"whoisServer": "whois-fe1.pdt.cologne.tango.knipp.de",
+	"whoisServer": "whois.nic.cologne",
 	"nameServers": [
 		"ns1.ryce-rsp.com",
 		"nsa.netnod.se",
