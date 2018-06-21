@@ -1,0 +1,7 @@
+{
+	"domain": "altoadige.it",
+	"nameServers": [
+		"guy.ns.cloudflare.com",
+		"rita.ns.cloudflare.com"
+	]
+}
