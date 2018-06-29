@@ -2412,7 +2412,7 @@ var y = [4880]Zone{
 	{"tm.cy", &z[354], x, s{"cy-ns.anycast.pch.net", "cynic.dns.cy", "cynic4.dns.cy", "cynic6.dns.cy", "estia.ics.forth.gr", "ns1.ucy.ac.cy", "ns2.ucy.ac.cy", "ns4.apnic.net"}, n, n, e, e, e, 0x0, f},
 	{"co.cz", &z[357], x, s{"ns1.anycastdns.cz", "ns2.anycastdns.cz"}, n, n, e, e, e, 0x0, f},
 	{"1x.de", &z[368], x, s{"ns1.subdomain.com", "ns2.subdomain.com"}, s{"144.76.162.245", "1x.de"}, n, e, e, e, 0x200, t},
-	{"co.de", &z[368], x, s{"ns1.subdomain.com", "ns2.subdomain.com"}, s{"144.76.162.245", "co.de"}, n, e, e, e, 0x0, t},
+	{"co.de", &z[368], x, s{"ns1.subdomain.com", "ns2.subdomain.com"}, s{"144.76.162.245", "co.de"}, n, "whois.co.de", e, e, 0x0, t},
 	{"com.de", &z[368], x, s{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, s{"52.33.196.199", "96.126.103.245"}, n, "whois.centralnic.com", e, e, 0x0, f},
 	{"biz.dk", &z[397], x, s{"dns2000.euro-isp.net", "dns2001.euro-isp.net", "mail.digitalmarketing.net", "ns.digitalmarketing.net", "ns1.dk.org", "post.digitalmarketing.net", "root-dns.euro-isp.net"}, n, n, e, e, e, 0x0, f},
 	{"co.dk", &z[397], x, s{"dns2000.euro-isp.net", "dns2001.euro-isp.net", "mail.digitalmarketing.net", "ns.digitalmarketing.net", "ns1.dk.org", "post.digitalmarketing.net", "root-dns.euro-isp.net"}, n, n, e, e, e, 0x0, f},
