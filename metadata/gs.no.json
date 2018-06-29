@@ -1,9 +1,9 @@
 {
 	"domain": "gs.no",
 	"nameServers": [
-		"ns.hyp.net",
-		"ns1.kk88.no",
-		"ns2.kk88.no"
+		"ns1.hyp.net",
+		"ns2.hyp.net",
+		"ns3.hyp.net"
 	],
 	"policies": [
 		{
