@@ -7,7 +7,7 @@
 	"whoisServer": "whois.nic.рус",
 	"nameServers": [
 		"ns.cocca.fr",
-		"tld1.coccaregistry.net",
-		"tld1.coccaregistry.org"
+		"ns1.nic.рус",
+		"ns2.nic.рус"
 	]
 }
