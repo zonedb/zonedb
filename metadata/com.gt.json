@@ -1,6 +1,7 @@
 {
 	"domain": "com.gt",
 	"nameServers": [
+		"a.lactld.org",
 		"ns.dns.br",
 		"ns3.nic.mx",
 		"pch.gt",
