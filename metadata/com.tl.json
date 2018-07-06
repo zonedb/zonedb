@@ -2,8 +2,7 @@
 	"domain": "com.tl",
 	"nameServers": [
 		"ns.anycast.nic.tl",
-		"ns.cocca.fr",
-		"ns.coccaregistry.org"
+		"ns.cocca.fr"
 	],
 	"policies": [
 		{

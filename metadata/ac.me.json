@@ -1,8 +1,8 @@
 {
 	"domain": "ac.me",
 	"nameServers": [
-		"mns03.domain.me",
-		"mns04.domain.me"
+		"ns.ac.me",
+		"ns2.ac.me"
 	],
 	"policies": [
 		{
