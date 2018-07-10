@@ -57,25 +57,25 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://registrars.nominet.uk/sites/default/files/german_idn.pdf",
+			"value": "https://www.iana.org/domains/idn-tables/tables/london_de_1.0.txt",
 			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://registrars.nominet.uk/sites/default/files/spanish_idn.pdf",
+			"value": "https://www.iana.org/domains/idn-tables/tables/london_es_1.0.txt",
 			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://registrars.nominet.uk/sites/default/files/french_idn.pdf",
+			"value": "https://www.iana.org/domains/idn-tables/tables/london_fr_1.0.txt",
 			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		},
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "http://registrars.nominet.uk/sites/default/files/italian_idn.pdf",
+			"value": "https://www.iana.org/domains/idn-tables/tables/london_it_1.0.txt",
 			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		}
 	]

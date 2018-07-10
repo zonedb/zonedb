@@ -25,13 +25,13 @@
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://registrars.nominet.uk/sites/default/files/italian_idn.pdf",
+			"value": "https://www.iana.org/domains/idn-tables/tables/casa_it_1.0.txt",
 			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://registrars.nominet.uk/sites/default/files/portugese_idn.pdf",
+			"value": "https://www.iana.org/domains/idn-tables/tables/casa_pt_1.0.txt",
 			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		}
 	]

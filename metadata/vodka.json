@@ -19,19 +19,19 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://registrars.nominet.uk/sites/default/files/german_idn.pdf",
+			"value": "https://www.iana.org/domains/idn-tables/tables/vodka_de_1.0.txt",
 			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://registrars.nominet.uk/sites/default/files/spanish_idn.pdf",
+			"value": "https://www.iana.org/domains/idn-tables/tables/vodka_es_1.0.txt",
 			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://registrars.nominet.uk/sites/default/files/french_idn.pdf",
+			"value": "https://www.iana.org/domains/idn-tables/tables/vodka_fr_1.0.txt",
 			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		}
 	]
