@@ -4822,7 +4822,7 @@ var y = [4880]Zone{
 	{"name.uz", &z[1458], x, s{"ns1.billur.com", "ns2.billur.com"}, n, n, e, e, e, 0x0, f},
 	{"net.uz", &z[1458], x, s{"ns1.reg.uz", "ns2.reg.uz"}, n, n, e, e, e, 0x0, f},
 	{"org.uz", &z[1458], x, s{"ns1.reg.uz", "ns2.reg.uz"}, n, n, e, e, e, 0x0, f},
-	{"pro.uz", &z[1458], x, s{"ns3.uzinfocom.uz", "rdns3.uzinfocom.uz"}, n, n, e, e, e, 0x0, f},
+	{"pro.uz", &z[1458], x, s{"ns3.uzinfocom.uz", "rdns3.uzinfocom.uz"}, n, n, e, e, e, 0x8, f},
 	{"com.vc", &z[1464], x, s{"a0.cctld.afilias-nst.info", "a2.cctld.afilias-nst.info", "b0.cctld.afilias-nst.org", "b2.cctld.afilias-nst.org", "c0.cctld.afilias-nst.info", "d0.cctld.afilias-nst.org"}, n, n, e, e, e, 0x0, f},
 	{"net.vc", &z[1464], x, s{"a0.cctld.afilias-nst.info", "a2.cctld.afilias-nst.info", "b0.cctld.afilias-nst.org", "b2.cctld.afilias-nst.org", "c0.cctld.afilias-nst.info", "d0.cctld.afilias-nst.org"}, n, n, e, e, e, 0x0, f},
 	{"org.vc", &z[1464], x, s{"a0.cctld.afilias-nst.info", "a2.cctld.afilias-nst.info", "b0.cctld.afilias-nst.org", "b2.cctld.afilias-nst.org", "c0.cctld.afilias-nst.info", "d0.cctld.afilias-nst.org"}, n, n, e, e, e, 0x0, f},
