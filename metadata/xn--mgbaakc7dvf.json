@@ -10,5 +10,12 @@
 		"b.nic.اتصالات",
 		"c.nic.اتصالات",
 		"d.nic.اتصالات"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgbaakc7dvf_ar_1.1.txt"
+		}
 	]
 }

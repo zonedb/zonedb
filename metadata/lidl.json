@@ -14,7 +14,19 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/lidl_cyrl_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/lidl_grek_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/lidl_latn_1.0.txt"
 		}
 	]
 }

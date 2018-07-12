@@ -6,7 +6,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.audns.net.au",
+	"whoisServer": "whois.auda.org.au",
 	"nameServers": [
 		"a.au",
 		"b.au",

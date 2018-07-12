@@ -13,7 +13,44 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/design_ar_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "he",
+			"value": "https://www.iana.org/domains/idn-tables/tables/design_he_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/design_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/design_lo_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/design_cyrl_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/design_grek_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/design_latn_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "th",
+			"value": "https://www.iana.org/domains/idn-tables/tables/design_th_2.0.txt"
 		}
 	]
 }

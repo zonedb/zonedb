@@ -9,5 +9,12 @@
 		"b.nic.bar",
 		"c.nic.bar",
 		"d.nic.bar"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bar_latn_1.0.txt"
+		}
 	]
 }

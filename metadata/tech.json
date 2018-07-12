@@ -40,7 +40,7 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tech_cyrl_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tech_cyrl_1.1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -55,12 +55,12 @@
 		{
 			"type": "idn-table",
 			"key": "th",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tech_th_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tech_th_2.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tech_zh_1.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tech_zh_1.0.txt"
 		}
 	]
 }
