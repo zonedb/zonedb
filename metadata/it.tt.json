@@ -1,5 +1,9 @@
 {
 	"domain": "it.tt",
+	"nameServers": [
+		"ns1.ndns.cn",
+		"ns2.ndns.cn"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
