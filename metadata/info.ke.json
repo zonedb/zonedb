@@ -1,7 +1,6 @@
 {
 	"domain": "info.ke",
 	"nameServers": [
-		"b.ns.kenic.co.ke",
 		"b.ns.tznic.or.tz",
 		"kenic.anycastdns.cz",
 		"mzizi.kenic.or.ke",
