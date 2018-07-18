@@ -1,8 +1,8 @@
 {
 	"domain": "org.ml",
 	"nameServers": [
-		"djamako.nic.ml",
-		"dns.gouv.ml"
+		"dns01.gouv.ml",
+		"dns02.gouv.ml"
 	],
 	"policies": [
 		{
