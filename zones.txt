@@ -2065,6 +2065,7 @@ jampa.br
 jor.br
 jus.br
 lel.br
+macapa.br
 maceio.br
 manaus.br
 mat.br
@@ -2091,6 +2092,7 @@ recife.br
 rio.br
 salvador.br
 sec3.br
+sjc.br
 slg.br
 srv.br
 taxi.br
