@@ -2,7 +2,8 @@
 	"domain": "gov.pt",
 	"nameServers": [
 		"dns1.gov.pt",
-		"ns02.fccn.pt"
+		"ns02.fccn.pt",
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{

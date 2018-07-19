@@ -10,5 +10,12 @@
 		"b.nic.بيتك",
 		"c.nic.بيتك",
 		"d.nic.بيتك"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--ngbe9e0a_ar_1.1.txt"
+		}
 	]
 }
