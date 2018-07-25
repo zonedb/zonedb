@@ -1,6 +1,7 @@
 {
 	"domain": "gov.pt",
 	"nameServers": [
+		"a.dns.pt",
 		"dns1.gov.pt",
 		"ns02.fccn.pt",
 		"sns-pb.isc.org"
