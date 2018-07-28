@@ -10,5 +10,8 @@
 		"ns4.registry-servers.4u.com",
 		"ns5.registry-servers.4u.com",
 		"ns6.registry-servers.4u.com"
+	],
+	"wildcards": [
+		"209.132.235.155"
 	]
 }
