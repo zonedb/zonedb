@@ -1,7 +1,7 @@
 {
 	"domain": "school.ge",
 	"nameServers": [
-		"ns3.srv.magticom.ge",
-		"ns6.srv.magticom.ge"
+		"dns1.co.ge",
+		"dns2.co.ge"
 	]
 }

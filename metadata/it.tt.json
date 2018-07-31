@@ -1,8 +1,11 @@
 {
 	"domain": "it.tt",
 	"nameServers": [
-		"ns1.ndns.cn",
-		"ns2.ndns.cn"
+		"f1g1ns1.dnspod.net",
+		"f1g1ns2.dnspod.net"
+	],
+	"wildcards": [
+		"219.239.223.229"
 	],
 	"policies": [
 		{
