@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.aridnrs.net.au",
+	"whoisServer": "whois.nic.saxo",
 	"nameServers": [
 		"a.nic.saxo",
 		"b.nic.saxo",

@@ -9,7 +9,7 @@
 	"locations": [
 		"Melbourne"
 	],
-	"whoisServer": "whois.aridnrs.net.au",
+	"whoisServer": "whois.nic.melbourne",
 	"nameServers": [
 		"a.nic.melbourne",
 		"b.nic.melbourne",

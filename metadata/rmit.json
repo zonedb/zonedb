@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.aridnrs.net.au",
+	"whoisServer": "whois.nic.rmit",
 	"nameServers": [
 		"a.nic.rmit",
 		"b.nic.rmit",

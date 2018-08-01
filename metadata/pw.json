@@ -11,9 +11,6 @@
 		"ns3.nic.pw",
 		"ns4.nic.pw"
 	],
-	"wildcards": [
-		"141.8.226.58"
-	],
 	"policies": [
 		{
 			"type": "idn-table",
