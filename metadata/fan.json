@@ -6,10 +6,6 @@
 	],
 	"whoisServer": "whois.nic.fan",
 	"nameServers": [
-		"a.nic.fan",
-		"b.nic.fan",
-		"c.nic.fan",
-		"d.nic.fan",
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",
 		"demand.delta.aridns.net.au",
