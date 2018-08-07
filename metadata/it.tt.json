@@ -4,9 +4,6 @@
 		"ns1.dnsv2.com",
 		"ns2.dnsv2.com"
 	],
-	"wildcards": [
-		"219.239.223.229"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
