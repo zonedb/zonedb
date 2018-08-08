@@ -19,38 +19,48 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "/content/idn-tables/top_ar_1.0.txt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_ar_1.0.txt",
 			"comment": "http://www.nic.top/en/policy_view.asp?id=1"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "/content/idn-tables/top_de_1.0.txt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_de_1.0.txt",
 			"comment": "http://www.nic.top/en/policy_view.asp?id=1"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "/content/idn-tables/top_es.txt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_es_1.0.txt",
 			"comment": "http://www.nic.top/en/policy_view.asp?id=1"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "/content/idn-tables/top_fr.txt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_fr_1.0.txt",
 			"comment": "http://www.nic.top/en/policy_view.asp?id=1"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "/content/idn-tables/top_ja_1.0.txt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_ja_1.0.txt",
 			"comment": "http://www.nic.top/en/policy_view.asp?id=1"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "/content/idn-tables/top_ru.txt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_ru_1.0.txt",
 			"comment": "http://www.nic.top/en/policy_view.asp?id=1"
+		},
+		{
+			"type": "idn-table",
+			"key": "tw",
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_tw_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_zh_1.0.txt"
 		}
 	]
 }
