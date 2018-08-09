@@ -1,9 +1,5 @@
 {
 	"domain": "gov.gd",
-	"nameServers": [
-		"pdns07.domaincontrol.com",
-		"pdns08.domaincontrol.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
