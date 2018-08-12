@@ -2,7 +2,11 @@
 	"domain": "edu.ki",
 	"nameServers": [
 		"a.ki.dyntld.net",
-		"b.ki.dyntld.net"
+		"b.ki.dyntld.net",
+		"ns.cocca.fr",
+		"ns.coccaregistry.org",
+		"pch.nic.ki",
+		"sns-pb.isc.org"
 	],
 	"policies": [
 		{
