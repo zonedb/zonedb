@@ -8,5 +8,12 @@
 		"ns3.conac.cn",
 		"ns4.conac.cn",
 		"ns5.conac.cn"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--55qw42g_zh_4.0.txt"
+		}
 	]
 }
