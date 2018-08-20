@@ -4,9 +4,6 @@
 		"ns1.domains.sd",
 		"ns2.domains.sd"
 	],
-	"wildcards": [
-		"208.117.45.217"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
