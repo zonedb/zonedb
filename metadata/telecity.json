@@ -6,16 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.telecity",
-	"nameServers": [
-		"dns1.nic.telecity",
-		"dns2.nic.telecity",
-		"dns3.nic.telecity",
-		"dns4.nic.telecity",
-		"dnsa.nic.telecity",
-		"dnsb.nic.telecity",
-		"dnsc.nic.telecity",
-		"dnsd.nic.telecity"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

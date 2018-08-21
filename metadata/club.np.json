@@ -1,16 +1,6 @@
 {
 	"domain": "club.np",
 	"infoURL": "https://register.com.np",
-	"nameServers": [
-		"np-ns.anycast.pch.net",
-		"np-ns.npix.net.np",
-		"ns-ext.isc.org",
-		"ns-ext.vix.com",
-		"ns4.apnic.net",
-		"sec2.apnic.net",
-		"sec3.apnic.net",
-		"shikhar.mos.com.np"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
