@@ -2,6 +2,7 @@
 	"domain": "ธุรกิจ.ไทย",
 	"nameServers": [
 		"a.thains.co.th",
-		"b.thains.co.th"
+		"b.thains.co.th",
+		"p.thains.co.th"
 	]
 }
