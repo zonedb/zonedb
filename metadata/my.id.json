@@ -1,13 +1,9 @@
 {
 	"domain": "my.id",
 	"nameServers": [
-		"b-sld.dns.id",
 		"b.dns.id",
-		"c-sld.dns.id",
 		"c.dns.id",
-		"d-sld.dns.id",
 		"d.dns.id",
-		"e-sld.dns.id",
 		"e.dns.id"
 	],
 	"policies": [

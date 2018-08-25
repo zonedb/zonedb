@@ -1,8 +1,8 @@
 {
 	"domain": "edu.bj",
 	"nameServers": [
-		"nakayo.leland.bj",
-		"ns1.intnet.bj"
+		"ns.cocca.fr",
+		"ns1.nic.bj"
 	],
 	"policies": [
 		{
