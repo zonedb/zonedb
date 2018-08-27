@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois-frogans.nic.fr",
 	"nameServers": [
-		"d.nic.fr",
-		"f.ext.nic.fr",
-		"g.ext.nic.fr"
+		"a0.nic.frogans",
+		"a2.nic.frogans",
+		"b0.nic.frogans",
+		"c0.nic.frogans"
 	],
 	"policies": [
 		{
