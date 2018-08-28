@@ -2,7 +2,6 @@
 	"domain": "ac.ni",
 	"nameServers": [
 		"auth01.ns.uu.net",
-		"dns.cr",
 		"dns.nic.cr",
 		"ns.cr",
 		"ns.ibw.com.ni",
