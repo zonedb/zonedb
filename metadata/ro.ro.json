@@ -1,5 +1,12 @@
 {
 	"domain": "ro.ro",
+	"nameServers": [
+		"ns.hjs.net",
+		"ns2.hjs.net"
+	],
+	"wildcards": [
+		"185.27.255.9"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
