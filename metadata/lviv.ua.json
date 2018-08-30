@@ -1,6 +1,7 @@
 {
 	"domain": "lviv.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"whoisServer": "whois.lviv.ua",
 	"nameServers": [
 		"arwena.nask.waw.pl",
 		"ns2.uar.net",

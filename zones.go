@@ -4697,7 +4697,7 @@ var y = [4882]Zone{
 	{"lt.ua", &z[1441], x, s{"ho1.ns.lutsk.ua", "nix.ns.ua", "ns.cv.ua"}, n, n, e, e, e, 0x0, f},
 	{"lugansk.ua", &z[1441], x, s{"ho1.eunic.net.ua", "ns.dn.ua", "ns.kh.ua", "ns.sm.ua", "ns.zp.ua"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
 	{"lutsk.ua", &z[1441], x, s{"ho1.ns.lutsk.ua", "nix.ns.ua", "ns.zp.ua"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
-	{"lviv.ua", &z[1441], x, s{"arwena.nask.waw.pl", "ns2.uar.net", "ns5.univie.ac.at", "sigma.uar.net"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
+	{"lviv.ua", &z[1441], x, s{"arwena.nask.waw.pl", "ns2.uar.net", "ns5.univie.ac.at", "sigma.uar.net"}, n, n, "whois.lviv.ua", e, "http://www.nic.net.ua/", 0x0, f},
 	{"mk.ua", &z[1441], x, s{"ba1.ns.ua", "epp.ns.od.ua", "ho1.ns.od.ua", "nix.ns.ua"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
 	{"net.ua", &z[1441], x, s{"ba1.ns.ua", "ho1.net.ua", "nix.ns.ua", "ns.dn.ua", "ns.kh.ua", "ns.net.ua", "ns.sm.ua", "ns.zp.ua", "sns-pb.isc.org"}, n, n, "whois.net.ua", e, e, 0x0, f},
 	{"nikolaev.ua", &z[1441], x, s{"ba1.ns.ua", "epp.ns.od.ua", "ho1.ns.od.ua", "nix.ns.ua"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
