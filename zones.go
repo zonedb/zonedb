@@ -4707,7 +4707,7 @@ var y = [4882]Zone{
 	{"org.ua", &z[1441], x, s{"ba1.ns.ua", "ho1.ns.org.ua", "nix.ns.ua", "ns.dn.ua", "sns-pb.isc.org"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
 	{"pl.ua", &z[1441], x, s{"ba1.ns.ua", "ho1.ns.pl.ua", "nix.ns.ua"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
 	{"poltava.ua", &z[1441], x, s{"ba1.ns.ua", "ho1.ns.pl.ua", "nix.ns.ua"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
-	{"pp.ua", &z[1441], x, s{"ns1.uadns.com", "ns2.uadns.com", "ns3.uadns.com"}, n, n, e, e, e, 0x0, f},
+	{"pp.ua", &z[1441], x, s{"ns1.uadns.com", "ns2.uadns.com", "ns3.uadns.com"}, n, n, "whois.pp.ua", e, e, 0x0, f},
 	{"rivne.ua", &z[1441], x, s{"ns1.wuicc.net.ua", "ns2.jb.rv.ua", "ns4.uar.net"}, n, n, e, e, e, 0x0, t},
 	{"rovno.ua", &z[1441], x, s{"nix.ns.ua", "ns.telcom.net.ua", "ns1.wuicc.net.ua", "ns2.jb.rv.ua", "ns2.rct.net.ua", "ns2.uar.net"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},
 	{"rv.ua", &z[1441], x, s{"cf.rv.ns.ua", "nix.ns.ua", "ns1.wuicc.net.ua", "rivne.anycastdns.cz"}, n, n, e, e, "http://www.nic.net.ua/", 0x0, f},

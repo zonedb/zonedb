@@ -1,5 +1,6 @@
 {
 	"domain": "pp.ua",
+	"whoisServer": "whois.pp.ua",
 	"nameServers": [
 		"ns1.uadns.com",
 		"ns2.uadns.com",
