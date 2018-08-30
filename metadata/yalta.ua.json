@@ -1,5 +1,6 @@
 {
 	"domain": "yalta.ua",
+	"whoisServer": "whois.yalta.ua",
 	"nameServers": [
 		"ho1.ns.crimea.ua",
 		"nix.ns.ua",

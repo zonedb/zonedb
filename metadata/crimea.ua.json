@@ -1,6 +1,7 @@
 {
 	"domain": "crimea.ua",
 	"infoURL": "http://www.nic.net.ua/",
+	"whoisServer": "whois.crimea.ua",
 	"nameServers": [
 		"ba1.ns.ua",
 		"ho1.ns.crimea.ua",
