@@ -1,8 +1,10 @@
 {
 	"domain": "co.ro",
 	"nameServers": [
-		"ns1.centraltld.com",
-		"ns2.centraltld.com"
+		"ns1.centralnic.net",
+		"ns2.centralnic.net",
+		"ns3.centralnic.net",
+		"ns4.centralnic.net"
 	],
 	"policies": [
 		{
