@@ -4,6 +4,9 @@
 		"ns1-parking.encirca.info",
 		"ns2-parking.encirca.info"
 	],
+	"wildcards": [
+		"50.97.39.53"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
