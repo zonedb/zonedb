@@ -4503,7 +4503,7 @@ var y = [4882]Zone{
 	{"net.td", &z[1364], x, n, n, n, e, e, e, 0x0, f},
 	{"org.td", &z[1364], x, n, n, n, e, e, e, 0x0, f},
 	{"tourism.td", &z[1364], x, n, n, n, e, e, e, 0x0, f},
-	{"at.tf", &z[1376], x, s{"ns1.idnscan.net", "ns2.idnscan.net"}, s{"188.40.117.12", "188.40.70.27", "188.40.70.29"}, n, e, e, e, 0x0, f},
+	{"at.tf", &z[1376], x, s{"ns1.idnscan.net", "ns2.idnscan.net"}, s{"188.40.70.27", "188.40.70.29"}, n, e, e, e, 0x0, f},
 	{"bg.tf", &z[1376], x, s{"ns1.idnscan.net", "ns2.idnscan.net"}, s{"188.40.117.12", "188.40.70.27", "188.40.70.29"}, n, e, e, e, 0x0, f},
 	{"ca.tf", &z[1376], x, s{"ns1.idnscan.net", "ns2.idnscan.net"}, s{"188.40.117.12", "188.40.70.27", "188.40.70.29"}, n, e, e, e, 0x0, f},
 	{"ch.tf", &z[1376], x, s{"ns1.idnscan.net", "ns2.idnscan.net"}, s{"188.40.117.12", "188.40.70.27", "188.40.70.29"}, n, e, e, e, 0x0, f},
