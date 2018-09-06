@@ -1,5 +1,10 @@
 {
 	"domain": "th.tc",
+	"nameServers": [
+		"cbru.br.ns.els-gms.att.net",
+		"cmtu.mt.ns.els-gms.att.net",
+		"ns1.thig.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
