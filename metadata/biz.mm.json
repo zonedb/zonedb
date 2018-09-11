@@ -1,6 +1,7 @@
 {
 	"domain": "biz.mm",
 	"nameServers": [
+		"ns.mmnic.net.mm",
 		"ns.mtgnic.net.mm"
 	],
 	"policies": [

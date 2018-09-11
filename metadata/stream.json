@@ -17,12 +17,22 @@
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/stream_da_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/stream_da_2.2.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/stream_de_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/stream_de_2.2.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "no",
+			"value": "https://www.iana.org/domains/idn-tables/tables/stream_no_2.2.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/stream_sv_2.2.txt"
 		}
 	]
 }

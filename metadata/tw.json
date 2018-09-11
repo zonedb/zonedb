@@ -26,6 +26,11 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tw_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "zh-TW",
 			"value": "https://www.iana.org/domains/idn-tables/tables/tw_zh-tw_4.0.1.html"
 		}
