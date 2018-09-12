@@ -1,0 +1,10 @@
+{
+	"domain": "ng.eu.org",
+	"nameServers": [
+		"hobbes.bsd-dk.dk",
+		"ns.ankh.fr.eu.org",
+		"ns1.eriomem.net",
+		"ns1.eu.org",
+		"oz.wolfhugel.eu"
+	]
+}

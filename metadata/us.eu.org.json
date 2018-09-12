@@ -1,0 +1,9 @@
+{
+	"domain": "us.eu.org",
+	"nameServers": [
+		"ns.ankh.fr.eu.org",
+		"ns1.eriomem.net",
+		"ns1.eu.org",
+		"oz.wolfhugel.eu"
+	]
+}

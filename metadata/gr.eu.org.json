@@ -1,0 +1,13 @@
+{
+	"domain": "gr.eu.org",
+	"nameServers": [
+		"ns.ankh.fr.eu.org",
+		"ns.eu.org",
+		"ns1.absolight.net",
+		"ns1.tee.gr",
+		"ns2.absolight.net",
+		"ns2.tee.gr",
+		"ns3.absolight.net",
+		"ns4.absolight.net"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"domain": "cn.eu.org",
+	"nameServers": [
+		"ns1.eu.org",
+		"ns3.keltia.net",
+		"oz.wolfhugel.eu",
+		"pl.wolfhugel.eu"
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"domain": "edu.eu.org",
+	"nameServers": [
+		"auth1.dns.elm.net",
+		"canada.wolfhugel.eu",
+		"ns2.lf.net"
+	]
+}

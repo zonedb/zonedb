@@ -1,0 +1,11 @@
+{
+	"domain": "de.eu.org",
+	"nameServers": [
+		"ns.oberon.net",
+		"ns1.absolight.net",
+		"ns2.absolight.net",
+		"ns2.lf.net",
+		"ns3.absolight.net",
+		"ns4.absolight.net"
+	]
+}

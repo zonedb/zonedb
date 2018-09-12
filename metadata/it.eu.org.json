@@ -1,0 +1,8 @@
+{
+	"domain": "it.eu.org",
+	"nameServers": [
+		"ns.ankh.fr.eu.org",
+		"ns1.eu.org",
+		"ns3.keltia.net"
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"domain": "mk.eu.org",
+	"nameServers": [
+		"ns1.eriomem.net",
+		"ns1.eu.org",
+		"ns3.keltia.net"
+	]
+}
