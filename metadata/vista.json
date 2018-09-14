@@ -6,12 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.vista",
-	"nameServers": [
-		"a.nic.vista",
-		"b.nic.vista",
-		"c.nic.vista",
-		"d.nic.vista"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
