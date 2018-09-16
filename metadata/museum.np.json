@@ -4,12 +4,6 @@
 	"nameServers": [
 		"np-ns.anycast.pch.net",
 		"np-ns.npix.net.np",
-		"np.cctld.authdns.ripe.net",
-		"ns-ext.isc.org",
-		"ns-ext.vix.com",
-		"ns4.apnic.net",
-		"sec1.apnic.net",
-		"sec3.apnic.net",
 		"shikhar.mos.com.np"
 	],
 	"policies": [
