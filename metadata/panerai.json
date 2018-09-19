@@ -6,14 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.panerai",
-	"nameServers": [
-		"ns1.dns.nic.panerai",
-		"ns2.dns.nic.panerai",
-		"ns3.dns.nic.panerai",
-		"ns4.dns.nic.panerai",
-		"ns5.dns.nic.panerai",
-		"ns6.dns.nic.panerai"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -6,14 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.jlc",
-	"nameServers": [
-		"ns1.dns.nic.jlc",
-		"ns2.dns.nic.jlc",
-		"ns3.dns.nic.jlc",
-		"ns4.dns.nic.jlc",
-		"ns5.dns.nic.jlc",
-		"ns6.dns.nic.jlc"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
