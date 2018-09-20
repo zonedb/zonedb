@@ -5,5 +5,8 @@
 		"ns-1613.awsdns-09.co.uk",
 		"ns-472.awsdns-59.com",
 		"ns-680.awsdns-21.net"
+	],
+	"wildcards": [
+		"127.0.0.1"
 	]
 }
