@@ -6,12 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.afilias-srs.net",
-	"nameServers": [
-		"a0.nic.goodhands",
-		"a2.nic.goodhands",
-		"b0.nic.goodhands",
-		"c0.nic.goodhands"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
