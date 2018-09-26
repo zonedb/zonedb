@@ -1053,7 +1053,7 @@ var y = [4934]Zone{
 	{"mrporter", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x42, f},
 	{"ms", r, z[3409:3413], s{"ms-ns.anycast.pch.net", "ns.cocca.fr", "ns.coccaregistry.org"}, n, n, "whois.nic.ms", e, e, 0xe0, f},
 	{"msd", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, e, e, "https://newgtlds.icann.org/", 0x42, f},
-	{"mt", r, z[3413:3418], s{"a.ns.mt", "b.ns.mt", "f.ns.mt", "i.ns.mt", "p.ns.mt"}, n, n, e, "https://www.nic.org.mt/dotmt/", e, 0xa8, f},
+	{"mt", r, z[3413:3418], s{"a.ns.mt", "b.ns.mt", "f.ns.mt", "i.ns.mt", "p.ns.mt"}, n, n, e, "https://www.nic.org.mt/dotmt/", e, 0xa0, f},
 	{"mtn", r, x, s{"a.nic.mtn", "b.nic.mtn", "c.nic.mtn", "d.nic.mtn"}, n, n, "whois.nic.mtn", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"mtpc", r, x, n, n, n, "whois.nic.mtpc", e, "https://newgtlds.icann.org/", 0x2042, f},
 	{"mtr", r, x, s{"ns1.nic.mtr", "ns2.nic.mtr", "ns3.nic.mtr", "ns4.nic.mtr"}, n, n, "whois.nic.mtr", e, "https://newgtlds.icann.org/", 0x42, f},
