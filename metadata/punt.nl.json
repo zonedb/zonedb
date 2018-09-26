@@ -8,6 +8,9 @@
 		"ns1.metaregistrar.nl",
 		"ns2.metaregistrar.nl"
 	],
+	"wildcards": [
+		"188.93.148.156"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
