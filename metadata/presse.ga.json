@@ -1,5 +1,9 @@
 {
 	"domain": "presse.ga",
+	"wildcards": [
+		"195.20.55.235",
+		"presse.ga"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

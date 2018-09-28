@@ -1,5 +1,12 @@
 {
 	"domain": "no.tc",
+	"nameServers": [
+		"betty.ns.cloudflare.com",
+		"kai.ns.cloudflare.com"
+	],
+	"wildcards": [
+		"77.79.104.210"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
