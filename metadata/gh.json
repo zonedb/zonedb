@@ -7,11 +7,9 @@
 	],
 	"whoisURL": "http://www.nic.gh/customer/search_c.htm",
 	"nameServers": [
-		"fork.sth.dnsnode.net",
 		"ns.dns.br",
 		"ns1.nic.gh",
-		"ns2.nic.gh",
-		"rip.psg.com"
+		"ns2.nic.gh"
 	],
 	"policies": [
 		{
