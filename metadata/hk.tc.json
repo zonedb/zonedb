@@ -1,8 +1,8 @@
 {
 	"domain": "hk.tc",
 	"nameServers": [
-		"ns1.dnsbird.net",
-		"ns2.dnsbird.net"
+		"ns1.neko-dns.com",
+		"ns2.neko-dns.com"
 	],
 	"policies": [
 		{
