@@ -1,7 +1,9 @@
 {
 	"domain": "com.kw",
 	"nameServers": [
+		"a.kw.nic.kw",
 		"a.nic.kw",
+		"b.kw.nic.kw",
 		"pch.nic.kw"
 	],
 	"policies": [
