@@ -7,10 +7,8 @@
 	],
 	"whoisURL": "http://whois.marcaria.com",
 	"nameServers": [
-		"euro-ns1.cw.net",
-		"euro-ns2.cw.net",
-		"euro-ns3.cw.net",
-		"ns.horizon.net.fk"
+		"ns1.horizon.net.fk",
+		"ns2.horizon.net.fk"
 	],
 	"policies": [
 		{
