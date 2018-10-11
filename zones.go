@@ -4465,7 +4465,7 @@ var y = [4934]Zone{
 	{"ac.sz", &z[1350], x, n, n, n, e, e, e, 0x0, f},
 	{"co.sz", &z[1350], x, n, n, n, e, e, e, 0x0, f},
 	{"org.sz", &z[1350], x, n, n, n, e, e, e, 0x0, f},
-	{"at.tc", &z[1362], z[4914:4915], s{"ns1.parkingcrew.net", "ns2.parkingcrew.net"}, s{"185.53.178.6"}, n, e, e, e, 0x0, f},
+	{"at.tc", &z[1362], z[4914:4915], s{"ns1.parkingcrew.net", "ns2.parkingcrew.net"}, s{"185.53.178.6", "54.72.9.51"}, n, e, e, e, 0x0, f},
 	{"au.tc", &z[1362], z[4915:4916], n, n, n, e, e, e, 0x0, f},
 	{"be.tc", &z[1362], x, s{"ns1.be.tc", "ns2.be.tc"}, s{"213.136.89.177"}, n, e, e, e, 0x0, f},
 	{"bg.tc", &z[1362], x, n, n, n, e, e, e, 0x800, f},
