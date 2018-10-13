@@ -2,6 +2,7 @@
 	"domain": "gob.gt",
 	"nameServers": [
 		"a.lactld.org",
+		"ns-ext.nic.cl",
 		"ns.dns.br",
 		"ns3.nic.mx",
 		"pch.gt",

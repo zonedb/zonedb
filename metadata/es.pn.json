@@ -1,8 +1,10 @@
 {
 	"domain": "es.pn",
 	"nameServers": [
-		"dns1.espn.com",
-		"dns2.espn.com"
+		"ns-1377.awsdns-44.org",
+		"ns-1574.awsdns-04.co.uk",
+		"ns-29.awsdns-03.com",
+		"ns-723.awsdns-26.net"
 	],
 	"policies": [
 		{
