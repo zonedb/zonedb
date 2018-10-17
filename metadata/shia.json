@@ -11,8 +11,7 @@
 	"nameServers": [
 		"a.ns.nic.shia",
 		"b.ns.nic.shia",
-		"ns.cocca.fr",
-		"ns.coccaregistry.org"
+		"ns.cocca.fr"
 	],
 	"policies": [
 		{

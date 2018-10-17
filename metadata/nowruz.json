@@ -12,8 +12,7 @@
 	"nameServers": [
 		"a.ns.nic.nowruz",
 		"b.ns.nic.nowruz",
-		"ns.cocca.fr",
-		"ns.coccaregistry.org"
+		"ns.cocca.fr"
 	],
 	"policies": [
 		{

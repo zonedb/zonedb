@@ -1,8 +1,8 @@
 {
 	"domain": "uk.tc",
 	"nameServers": [
-		"ns1.alanadlari.com",
-		"ns2.alanadlari.com"
+		"ns1.uk.tc",
+		"ns2.uk.tc"
 	],
 	"policies": [
 		{

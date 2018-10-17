@@ -7,11 +7,18 @@
 	"whoisServer": "whois.educause.edu",
 	"nameServers": [
 		"a.edu-servers.net",
+		"b.edu-servers.net",
 		"c.edu-servers.net",
 		"d.edu-servers.net",
+		"e.edu-servers.net",
 		"f.edu-servers.net",
 		"g.edu-servers.net",
-		"l.edu-servers.net"
+		"h.edu-servers.net",
+		"i.edu-servers.net",
+		"j.edu-servers.net",
+		"k.edu-servers.net",
+		"l.edu-servers.net",
+		"m.edu-servers.net"
 	],
 	"policies": [
 		{

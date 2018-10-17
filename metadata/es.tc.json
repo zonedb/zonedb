@@ -1,7 +1,7 @@
 {
 	"domain": "es.tc",
 	"nameServers": [
-		"ns1.alanadlari.com",
-		"ns2.alanadlari.com"
+		"ns1.es.tc",
+		"ns2.es.tc"
 	]
 }

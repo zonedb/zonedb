@@ -9,8 +9,7 @@
 	"nameServers": [
 		"a.ns.nic.tci",
 		"b.ns.nic.tci",
-		"ns.cocca.fr",
-		"ns.coccaregistry.org"
+		"ns.cocca.fr"
 	],
 	"policies": [
 		{
