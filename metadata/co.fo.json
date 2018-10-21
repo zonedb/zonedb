@@ -1,9 +1,8 @@
 {
 	"domain": "co.fo",
 	"nameServers": [
-		"ns1.nic.fo",
-		"ns2.nic.fo",
-		"ns3.nic.fo"
+		"ns1-07.azure-dns.com",
+		"ns2-07.azure-dns.net"
 	],
 	"policies": [
 		{

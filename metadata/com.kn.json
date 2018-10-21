@@ -2,7 +2,6 @@
 	"domain": "com.kn",
 	"nameServers": [
 		"ns.cocca.fr",
-		"ns.coccaregistry.org",
 		"pch.nic.kn"
 	],
 	"policies": [
