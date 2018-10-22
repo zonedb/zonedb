@@ -1,7 +1,6 @@
 {
 	"domain": "org.ba",
 	"nameServers": [
-		"ba.anycastdns.cz",
 		"bosna.utic.net.ba",
 		"sava.utic.net.ba",
 		"una.utic.net.ba"
