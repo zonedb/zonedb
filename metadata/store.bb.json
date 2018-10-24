@@ -1,10 +1,5 @@
 {
 	"domain": "store.bb",
-	"nameServers": [
-		"pns1.cloudns.net",
-		"pns4.cloudns.net",
-		"pns7.cloudns.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

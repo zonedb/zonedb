@@ -7,7 +7,11 @@
 	"whoisServer": "whois.nic.gd",
 	"nameServers": [
 		"a.gd.dyntld.net",
+		"a.nic.gd",
 		"b.gd.dyntld.net",
+		"b.nic.gd",
+		"c.nic.gd",
+		"d.nic.gd",
 		"gd-ns.anycast.pch.net"
 	],
 	"policies": [

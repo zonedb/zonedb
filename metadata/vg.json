@@ -6,8 +6,12 @@
 	],
 	"whoisServer": "whois.nic.vg",
 	"nameServers": [
+		"a.nic.vg",
 		"a.vg.dyntld.net",
+		"b.nic.vg",
 		"b.vg.dyntld.net",
+		"c.nic.vg",
+		"d.nic.vg",
 		"vg-ns.anycast.pch.net"
 	],
 	"wildcards": [
