@@ -5,5 +5,8 @@
 		"ns2.afraid.org",
 		"ns3.afraid.org",
 		"ns4.afraid.org"
+	],
+	"wildcards": [
+		"0.0.0.0"
 	]
 }
