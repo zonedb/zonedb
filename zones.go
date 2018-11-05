@@ -4088,7 +4088,7 @@ var y = [4934]Zone{
 	{"fr.pn", &z[1110], x, n, n, n, e, e, e, 0x800, f},
 	{"gov.pn", &z[1110], x, s{"ns0.pitcairn.net.pn", "ns2.pitcairn.net.pn", "sns-pb.isc.org"}, n, n, e, e, e, 0x0, f},
 	{"in.pn", &z[1110], x, s{"ns-1425.awsdns-50.org", "ns-1677.awsdns-17.co.uk", "ns-441.awsdns-55.com", "ns-906.awsdns-49.net"}, n, n, e, e, e, 0x0, t},
-	{"it.pn", &z[1110], x, s{"ns1.parkingcrew.net", "ns2.parkingcrew.net"}, s{"185.53.178.24", "185.53.178.7"}, n, e, e, e, 0x0, f},
+	{"it.pn", &z[1110], x, s{"ns1.parkingcrew.net", "ns2.parkingcrew.net"}, s{"185.53.178.24"}, n, e, e, e, 0x0, f},
 	{"jp.pn", &z[1110], x, n, n, n, e, e, e, 0x800, f},
 	{"net.pn", &z[1110], x, s{"ns0.pitcairn.net.pn", "ns2.pitcairn.net.pn", "sns-pb.isc.org"}, n, n, e, e, e, 0x0, f},
 	{"org.pn", &z[1110], x, s{"ns0.pitcairn.net.pn", "ns2.pitcairn.net.pn", "sns-pb.isc.org"}, n, n, e, e, e, 0x0, f},
