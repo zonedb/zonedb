@@ -3,6 +3,12 @@
 	"tags": [
 		"retired"
 	],
+	"nameServers": [
+		"a.nic.gd",
+		"b.nic.gd",
+		"c.nic.gd",
+		"d.nic.gd"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
