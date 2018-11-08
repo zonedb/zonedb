@@ -9,7 +9,8 @@
 		"ns1.liquidtelecom.net",
 		"ns1.telone.co.zw",
 		"ns2.liquidtelecom.net",
-		"ns2.telone.co.zw"
+		"ns2.telone.co.zw",
+		"zw-ns.anycast.pch.net"
 	],
 	"policies": [
 		{

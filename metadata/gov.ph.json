@@ -3,9 +3,7 @@
 	"nameServers": [
 		"athena.asti.dost.gov.ph",
 		"gabriela.ph.net",
-		"gomez.ph.net",
-		"kitana.asti.dost.gov.ph",
-		"ns2.pregi.net"
+		"gomez.ph.net"
 	],
 	"policies": [
 		{
