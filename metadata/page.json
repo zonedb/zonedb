@@ -11,5 +11,17 @@
 		"ns-tld3.charlestonroadregistry.com",
 		"ns-tld4.charlestonroadregistry.com",
 		"ns-tld5.charlestonroadregistry.com"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/page_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/page_latn_1.0.txt"
+		}
 	]
 }
