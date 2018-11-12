@@ -1,10 +1,5 @@
 {
 	"domain": "mil.ba",
-	"nameServers": [
-		"bosna.utic.net.ba",
-		"ohrid.cca.vu.nl",
-		"sava.utic.net.ba"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
