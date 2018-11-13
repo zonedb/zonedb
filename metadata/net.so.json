@@ -2,7 +2,8 @@
 	"domain": "net.so",
 	"nameServers": [
 		"d.nic.so",
-		"e.nic.so"
+		"e.nic.so",
+		"ns.cocca.fr"
 	],
 	"policies": [
 		{
