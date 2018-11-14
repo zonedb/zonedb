@@ -2,7 +2,8 @@
 	"domain": "edu.kz",
 	"nameServers": [
 		"ns.nic.kz",
-		"ns2.nic.kz"
+		"ns2.nic.kz",
+		"ns2.uc-net.net"
 	],
 	"policies": [
 		{
