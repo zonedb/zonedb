@@ -1,5 +1,12 @@
 {
 	"domain": "mil.sy",
+	"nameServers": [
+		"ns1.ucg-core.com",
+		"ns11.ucg-core.com",
+		"ns4.ucg-core.com",
+		"ns51.uae-dc.com",
+		"ns54.uae-dc.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
