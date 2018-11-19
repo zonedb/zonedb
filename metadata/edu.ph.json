@@ -1,6 +1,7 @@
 {
 	"domain": "edu.ph",
 	"nameServers": [
+		"evans.gov.ph",
 		"gabriela.ph.net",
 		"gomez.ph.net",
 		"ph.wegen-energy.com"
