@@ -1,8 +1,11 @@
 {
 	"domain": "hk.tc",
 	"nameServers": [
-		"ns1.dnsbird.net",
-		"ns2.dnsbird.net"
+		"ns1.sedoparking.com",
+		"ns2.sedoparking.com"
+	],
+	"wildcards": [
+		"72.52.4.119"
 	],
 	"policies": [
 		{

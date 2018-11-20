@@ -1,8 +1,8 @@
 {
 	"domain": "school.fj",
 	"nameServers": [
-		"homer.connect.com.fj",
-		"marge.connect.com.fj",
-		"ns-ext.isc.org"
+		"drua.tfl.com.fj",
+		"ns-ext.isc.org",
+		"tabua.tfl.com.fj"
 	]
 }
