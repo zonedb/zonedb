@@ -4,8 +4,5 @@
 		"ns.anycast.nic.cx",
 		"ns.cocca.fr",
 		"ns.coccaregistry.org"
-	],
-	"wildcards": [
-		"45.33.102.7"
 	]
 }
