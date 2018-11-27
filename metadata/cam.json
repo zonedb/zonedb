@@ -149,8 +149,23 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "mul-Armn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cam_armn_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cam_latn_1.1.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "mul-Tavt",
 			"value": "https://www.iana.org/domains/idn-tables/tables/cam_tavt_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Thai",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cam_thai_1.1.txt"
 		},
 		{
 			"type": "idn-table",
