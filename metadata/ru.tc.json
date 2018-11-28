@@ -1,8 +1,10 @@
 {
 	"domain": "ru.tc",
 	"nameServers": [
-		"ns1.yenile.net",
-		"ns2.yenile.net"
+		"suspended.nic.tc"
+	],
+	"wildcards": [
+		"31.169.81.202"
 	],
 	"policies": [
 		{
