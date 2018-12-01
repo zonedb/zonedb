@@ -5,7 +5,7 @@
 	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
-		"ns67.domaincontrol.com",
-		"ns68.domaincontrol.com"
+		"ns3.dns.com",
+		"ns4.dns.com"
 	]
 }

@@ -3,10 +3,12 @@
 	"infoURL": "http://www.nic.net.ua/",
 	"whoisServer": "whois.lviv.ua",
 	"nameServers": [
-		"arwena.nask.waw.pl",
-		"ns2.uar.net",
-		"ns5.univie.ac.at",
-		"sigma.uar.net"
+		"eta.uar.net",
+		"iota.uar.net",
+		"kappa.uar.net",
+		"ns.lviv.ua",
+		"theta.uar.net",
+		"zeta.uar.net"
 	],
 	"policies": [
 		{
