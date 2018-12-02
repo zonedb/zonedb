@@ -7,5 +7,9 @@
 	"nameServers": [
 		"ns3.dns.com",
 		"ns4.dns.com"
+	],
+	"wildcards": [
+		"103.241.50.126",
+		"xg.1861.org.cn"
 	]
 }
