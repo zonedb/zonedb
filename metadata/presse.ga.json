@@ -1,11 +1,10 @@
 {
 	"domain": "presse.ga",
 	"nameServers": [
-		"ns81.rookdns.com",
-		"ns82.rookdns.com"
-	],
-	"wildcards": [
-		"141.8.224.221"
+		"ns01.freenom.com",
+		"ns02.freenom.com",
+		"ns03.freenom.com",
+		"ns04.freenom.com"
 	],
 	"policies": [
 		{
