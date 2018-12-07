@@ -2,7 +2,8 @@
 	"domain": "com.gp",
 	"nameServers": [
 		"ns-gp.nic.fr",
-		"ns1.nic.gp"
+		"ns1.nic.gp",
+		"ns2.nic.gp"
 	],
 	"policies": [
 		{
