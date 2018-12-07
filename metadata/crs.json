@@ -1,10 +1,11 @@
 {
 	"domain": "crs",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.crs/",
 	"tags": [
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.crs",
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

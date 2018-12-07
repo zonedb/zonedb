@@ -442,7 +442,7 @@ var y = [4934]Zone{
 	{"creditunion", r, x, s{"a0.nic.creditunion", "a2.nic.creditunion", "b0.nic.creditunion", "c0.nic.creditunion"}, n, n, "whois.afilias-srs.net", e, "http://nic.creditunion/", 0x40, t},
 	{"cricket", r, x, s{"ns1.dns.nic.cricket", "ns2.dns.nic.cricket", "ns3.dns.nic.cricket", "ns4.dns.nic.cricket", "ns5.dns.nic.cricket", "ns6.dns.nic.cricket"}, n, n, "whois.nic.cricket", e, "https://www.famousfourmedia.com/", 0x40, t},
 	{"crown", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, e, e, "https://newgtlds.icann.org/", 0x42, f},
-	{"crs", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, e, e, "https://newgtlds.icann.org/", 0x42, f},
+	{"crs", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.crs", e, "http://nic.crs/", 0x42, f},
 	{"cruise", r, x, s{"a0.nic.cruise", "a2.nic.cruise", "b0.nic.cruise", "c0.nic.cruise"}, n, n, "whois.nic.cruise", e, "https://newgtlds.icann.org/", 0x40, f},
 	{"cruises", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.cruises", e, e, 0x40, t},
 	{"csc", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.csc", e, "https://newgtlds.icann.org/", 0x42, f},
