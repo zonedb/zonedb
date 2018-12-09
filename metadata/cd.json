@@ -6,7 +6,7 @@
 		"generic",
 		"geo"
 	],
-	"whoisServer": "whois.nic.cd",
+	"whoisServer": "whois.cd",
 	"nameServers": [
 		"igubu.saix.net",
 		"ns-root-1.scpt-network.com",
