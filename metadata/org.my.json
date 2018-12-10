@@ -2,6 +2,7 @@
 	"domain": "org.my",
 	"nameServers": [
 		"b.mynic.net.my",
+		"b.nic.my",
 		"b1.mynic.my",
 		"ns2.cuhk.edu.hk",
 		"ns30.cdns.net"
