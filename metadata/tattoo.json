@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.tattoo",
 	"nameServers": [
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
