@@ -7,7 +7,7 @@
 		"a.iana-servers.net",
 		"b.iana-servers.net",
 		"c.iana-servers.net",
-		"ns2.lacnic.net",
+		"ns3.lacnic.net",
 		"ns4.apnic.net"
 	],
 	"policies": [

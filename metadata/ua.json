@@ -8,8 +8,8 @@
 	"whoisServer": "whois.ua",
 	"nameServers": [
 		"cd1.ns.ua",
-		"he1.ns.ua",
 		"ho1.ns.ua",
+		"in1.ns.ua",
 		"pch.ns.ua",
 		"sns-pb.isc.org"
 	],
