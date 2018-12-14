@@ -1,11 +1,11 @@
 {
 	"domain": "net.ru",
 	"nameServers": [
-		"a.dns.ripn.net",
-		"b.dns.ripn.net",
-		"d.dns.ripn.net",
-		"e.dns.ripn.net",
-		"f.dns.ripn.net"
+		"a.dns-servers.net.ru",
+		"b.dns-servers.net.ru",
+		"d.dns-servers.net.ru",
+		"e.dns-servers.net.ru",
+		"f.dns-servers.net.ru"
 	],
 	"policies": [
 		{
