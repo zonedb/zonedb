@@ -1,11 +1,5 @@
 {
 	"domain": "ru.tc",
-	"nameServers": [
-		"suspended.nic.tc"
-	],
-	"wildcards": [
-		"31.169.81.202"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
