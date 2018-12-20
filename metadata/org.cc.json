@@ -1,7 +1,7 @@
 {
 	"domain": "org.cc",
 	"nameServers": [
-		"a.cc.dyntld.net",
-		"b.cc.dyntld.net"
+		"ns.cocca.fr",
+		"ns.coccaregistry.org"
 	]
 }
