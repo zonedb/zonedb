@@ -4,8 +4,8 @@
 		"chambo.sdnp.org.mw",
 		"domwe.leland-mw.org",
 		"mw.cctld.authdns.ripe.net",
-		"rip.psg.com",
-		"sec3.apnic.net"
+		"ns4.apnic.net",
+		"rip.psg.com"
 	],
 	"policies": [
 		{

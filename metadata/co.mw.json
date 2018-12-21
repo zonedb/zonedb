@@ -4,9 +4,9 @@
 		"chambo.sdnp.org.mw",
 		"domwe.sdn.mw",
 		"mw.cctld.authdns.ripe.net",
+		"ns4.apnic.net",
 		"nyala.sdnp.org.mw",
-		"rip.psg.com",
-		"sec3.apnic.net"
+		"rip.psg.com"
 	],
 	"policies": [
 		{

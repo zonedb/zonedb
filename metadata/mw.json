@@ -4,13 +4,14 @@
 		"country",
 		"geo"
 	],
+	"whoisServer": "whois.nic.mw",
 	"whoisURL": "http://www.registrar.mw/",
 	"nameServers": [
 		"chambo.sdnp.org.mw",
 		"domwe.sdn.mw",
 		"mw.cctld.authdns.ripe.net",
-		"rip.psg.com",
-		"sec3.apnic.net"
+		"ns4.apnic.net",
+		"rip.psg.com"
 	],
 	"policies": [
 		{

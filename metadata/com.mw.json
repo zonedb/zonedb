@@ -3,6 +3,7 @@
 	"nameServers": [
 		"chambo.sdnp.org.mw",
 		"domwe.sdn.mw",
+		"ns4.apnic.net",
 		"rip.psg.com",
 		"sec3.apnic.net"
 	],
