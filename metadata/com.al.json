@@ -1,6 +1,8 @@
 {
 	"domain": "com.al",
 	"nameServers": [
+		"al.cctld.authdns.ripe.net",
+		"ns-al.isti.cnr.it",
 		"ns1.nic.al",
 		"ns2.nic.al",
 		"nsx.nic.al",
