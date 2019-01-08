@@ -3,6 +3,10 @@
 	"tags": [
 		"retired"
 	],
+	"nameServers": [
+		"ns5.awardspace.com",
+		"ns6.awardspace.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
