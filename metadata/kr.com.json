@@ -7,9 +7,5 @@
 	"nameServers": [
 		"ns3.dns.com",
 		"ns4.dns.com"
-	],
-	"wildcards": [
-		"124.232.138.29",
-		"kr2.1861.org.cn"
 	]
 }
