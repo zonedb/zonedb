@@ -2,8 +2,8 @@
 	"domain": "museum.np",
 	"infoURL": "https://register.com.np",
 	"nameServers": [
-		"np-ns.anycast.pch.net",
 		"np-ns.npix.net.np",
+		"pch.nnic.np",
 		"shikhar.mos.com.np"
 	],
 	"policies": [

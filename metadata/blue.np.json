@@ -2,8 +2,8 @@
 	"domain": "blue.np",
 	"infoURL": "https://register.com.np",
 	"nameServers": [
-		"np-ns.anycast.pch.net",
 		"np-ns.npix.net.np",
+		"pch.nnic.np",
 		"sec2.apnic.net"
 	],
 	"policies": [

@@ -3,13 +3,13 @@
 	"infoURL": "http://nitc.gov.np",
 	"nameServers": [
 		"mechi.nitc.gov.np",
-		"np-ns.anycast.pch.net",
 		"np-ns.npix.net.np",
 		"np.cctld.authdns.ripe.net",
 		"ns-ext.isc.org",
 		"ns-ext.vix.com",
 		"ns-np.ripe.net",
 		"ns4.apnic.net",
+		"pch.nnic.np",
 		"sec1.apnic.net",
 		"sec3.apnic.net",
 		"shikhar.mos.com.np"

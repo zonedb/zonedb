@@ -2,10 +2,10 @@
 	"domain": "net.np",
 	"infoURL": "https://register.com.np",
 	"nameServers": [
-		"np-ns.anycast.pch.net",
 		"np-ns.npix.net.np",
 		"np.cctld.authdns.ripe.net",
 		"ns-ext.isc.org",
+		"pch.nnic.np",
 		"sec1.apnic.net",
 		"sec3.apnic.net",
 		"shikhar.mos.com.np"
