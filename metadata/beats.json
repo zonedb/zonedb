@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.beats",
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.beats",
 		"a2.nic.beats",

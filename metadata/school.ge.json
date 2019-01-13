@@ -1,7 +1,9 @@
 {
 	"domain": "school.ge",
 	"nameServers": [
+		"auth02.ns.uu.net",
 		"dns1.co.ge",
-		"dns2.co.ge"
+		"dns2.co.ge",
+		"ns.nic.ge"
 	]
 }

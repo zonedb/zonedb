@@ -9,7 +9,7 @@
 	"locations": [
 		"ES-CT"
 	],
-	"whoisServer": "whois.nic.cat",
+	"whoisServer": "whois.cat",
 	"nameServers": [
 		"anyc1.irondns.net",
 		"cat.pch.net",
