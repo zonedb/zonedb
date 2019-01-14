@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.nic.voting",
+	"whoisServer": "whois.voting.tld-box.at",
 	"nameServers": [
 		"a.dns.nic.voting",
 		"m.dns.nic.voting",

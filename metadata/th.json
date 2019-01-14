@@ -6,7 +6,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.thnic.net",
+	"whoisServer": "whois.thnic.co.th",
 	"nameServers": [
 		"a.thains.co.th",
 		"ams.sns-pb.isc.org",
