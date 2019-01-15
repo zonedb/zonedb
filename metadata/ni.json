@@ -8,6 +8,7 @@
 	],
 	"whoisURL": "http://www.nic.ni/",
 	"nameServers": [
+		"ns.cr",
 		"ns.ibw.com.ni",
 		"ns.ideay.net.ni",
 		"ns.ni",

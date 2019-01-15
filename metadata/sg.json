@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.nic.net.sg",
+	"whoisServer": "whois.sgnic.sg",
 	"nameServers": [
 		"dsany.sgnic.sg",
 		"dsany2.sgnic.sg",
