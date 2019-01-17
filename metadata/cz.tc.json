@@ -1,5 +1,11 @@
 {
 	"domain": "cz.tc",
+	"nameServers": [
+		"lv3ns1.ffdns.net",
+		"lv3ns2.ffdns.net",
+		"lv3ns3.ffdns.net",
+		"lv3ns4.ffdns.net"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
