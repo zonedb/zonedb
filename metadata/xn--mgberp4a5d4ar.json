@@ -5,8 +5,8 @@
 	],
 	"whoisServer": "whois.nic.net.sa",
 	"nameServers": [
+		"i.nic.net.sa",
 		"n.nic.net.sa",
-		"ns1.isu.net.sa",
 		"ns1.nic.net.sa",
 		"ns2.nic.net.sa",
 		"p.nic.net.sa",
