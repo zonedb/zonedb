@@ -8,8 +8,6 @@
 	"whoisURL": "http://nic.ba/lat/menu/view/13",
 	"nameServers": [
 		"auth03.ns.uu.net",
-		"ba.anycastdns.cz",
-		"munnari.oz.au",
 		"ns.ba",
 		"sava.utic.net.ba",
 		"una.utic.net.ba"

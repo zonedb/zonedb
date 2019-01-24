@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.bazaar.coreregistry.net",
+	"whoisServer": "whois.nic.بازار",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
