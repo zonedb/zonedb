@@ -4,11 +4,6 @@
 		"ns.parktons.com",
 		"ns2.parktons.com"
 	],
-	"wildcards": [
-		"159.253.25.197",
-		"159.253.28.197",
-		"31.192.228.197"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
