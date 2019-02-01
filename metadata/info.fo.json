@@ -1,9 +1,5 @@
 {
 	"domain": "info.fo",
-	"nameServers": [
-		"ns.parktons.com",
-		"ns2.parktons.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
