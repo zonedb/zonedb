@@ -7,10 +7,10 @@
 	],
 	"whoisServer": "whois.nic.monster",
 	"nameServers": [
-		"a0.nic.monster",
-		"a2.nic.monster",
-		"b0.nic.monster",
-		"c0.nic.monster"
+		"a.nic.monster",
+		"b.nic.monster",
+		"c.nic.monster",
+		"d.nic.monster"
 	],
 	"policies": [
 		{

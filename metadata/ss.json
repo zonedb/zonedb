@@ -1,0 +1,8 @@
+{
+	"domain": "ss",
+	"nameServers": [
+		"b.ns.tznic.or.tz",
+		"root.ssnic.gov.ss",
+		"ssnic.anycastdns.cz"
+	]
+}
