@@ -5,7 +5,6 @@
 	],
 	"whoisServer": "whois.mynic.my",
 	"nameServers": [
-		"a.mynic.net.my",
 		"a.nic.my",
 		"a1.mynic.my",
 		"ns-my.nic.fr",
