@@ -1,9 +1,5 @@
 {
 	"domain": "tv.af",
-	"nameServers": [
-		"ns.cocca.fr",
-		"ns.coccaregistry.org"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
