@@ -67,6 +67,12 @@ You can also run the `zonedb` tool directly: `go run cmd/zonedb/main.go`
 
 ### Example commands
 
+List all zones that have wildcarded DNS:
+
+```shell
+$ go run cmd/zonedb/main.go -list-wildcards
+```
+
 List all zones tagged `geo`:
 
 ```shell
