@@ -31,6 +31,7 @@ func main() {
 	listZones := flag.Bool("list", false, "list working zones")
 	listTags := flag.Bool("list-tags", false, "list tags in working zones")
 	listLocations := flag.Bool("list-locations", false, "list locations in working zones")
+	listWildcards := flag.Bool("list-wildcards", false, "list zones with wildcarded DNS")
 
 	// Test operations
 	verifyNS := flag.Bool("verify-ns", false, "verify name servers")
@@ -260,6 +261,16 @@ func main() {
 			locations.Add(z.Locations...)
 		}
 		color.Fprintf(os.Stderr, "@{.}Locations: @{c}%s\n", strings.Join(locations.Values(), " "))
+	}
+
+	if *listWildcards {
+		zones := build.NewSet()
+		for _, z := range workZones {
+			if len(z.Wildcards) > 0 {
+				zones.Add(z.Domain)
+			}
+		}
+		color.Fprintf(os.Stderr, "@{.}Zones: @{c}%s\n", strings.Join(zones.Values(), " "))
 	}
 
 	if *infoURL != "" {
