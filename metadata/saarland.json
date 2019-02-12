@@ -13,11 +13,7 @@
 		"a.nic.saarland",
 		"b.nic.saarland",
 		"c.nic.saarland",
-		"d.nic.saarland",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com"
+		"d.nic.saarland"
 	],
 	"policies": [
 		{
