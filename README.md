@@ -25,7 +25,7 @@ Each domain with associated metadata will have a JSON file in the `metadata` dir
 
 ### Updates
 
-A Heroku app utilizing [nbio/autopull](https://github.com/nbio/autopull) runs daily, and creates Pull Requests when the zone data changes and needs to be updated.
+A [CircleCI workflow](https://circleci.com/docs/2.0/workflows/) updates ZoneDB each night.
 
 #### zones.txt
 
@@ -108,4 +108,4 @@ $ go run cmd/zonedb/main.go -zones alsace -add-locations fr-a -w
 
 This database is licensed under the [Open Database License (ODBl) version 1.0](http://opendatacommons.org/licenses/odbl/1.0/). See [LICENSE.md](https://github.com/domainr/zonedb/blob/master/LICENSE.md) for more information.
 
-Copyright © 2008–2017 the Public Zone Database authors.
+Copyright © 2008–2019 the Public Zone Database authors.
