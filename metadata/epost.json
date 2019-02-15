@@ -5,12 +5,6 @@
 		"brand",
 		"generic"
 	],
-	"nameServers": [
-		"a.nic.epost",
-		"b.nic.epost",
-		"c.nic.epost",
-		"d.nic.epost"
-	],
 	"policies": [
 		{
 			"type": "idn-table",

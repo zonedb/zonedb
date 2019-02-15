@@ -2,8 +2,8 @@
 	"domain": "press.ma",
 	"nameServers": [
 		"dns.inria.fr",
+		"ns-ma.nic.fr",
 		"ns1.registre.ma",
-		"ns2.nic.fr",
 		"ns2.registre.ma",
 		"ns3.registre.ma",
 		"ns4.registre.ma",
