@@ -1,11 +1,5 @@
 {
 	"domain": "presse.ga",
-	"nameServers": [
-		"ns01.freenom.com",
-		"ns02.freenom.com",
-		"ns03.freenom.com",
-		"ns04.freenom.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
