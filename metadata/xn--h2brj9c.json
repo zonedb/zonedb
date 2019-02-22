@@ -12,6 +12,10 @@
 		"b1.in.afilias-nst.in",
 		"b2.in.afilias-nst.org",
 		"c0.cctld.afilias-nst.info",
-		"d0.cctld.afilias-nst.org"
+		"d0.cctld.afilias-nst.org",
+		"ns3.neustar.in",
+		"ns4.neustar.in",
+		"ns5.neustar.in",
+		"ns6.neustar.in"
 	]
 }

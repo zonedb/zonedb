@@ -1,6 +1,7 @@
 {
 	"domain": "valdaosta.it",
 	"nameServers": [
-		"lino.alsitech.it"
+		"dns2.alsitech.it",
+		"dns4.alsitech.it"
 	]
 }

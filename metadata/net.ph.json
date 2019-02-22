@@ -1,8 +1,5 @@
 {
 	"domain": "net.ph",
-	"wildcards": [
-		"203.119.4.201"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

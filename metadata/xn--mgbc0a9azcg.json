@@ -6,8 +6,8 @@
 	],
 	"whoisServer": "whois.iam.net.ma",
 	"nameServers": [
+		"ns-ma.nic.fr",
 		"ns1.registre.ma",
-		"ns2.nic.fr",
 		"ns2.registre.ma",
 		"ns3.registre.ma",
 		"ns4.registre.ma"
