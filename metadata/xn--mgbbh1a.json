@@ -1,12 +1,9 @@
 {
 	"domain": "بارت",
 	"nameServers": [
-		"a0.in.afilias-nst.in",
 		"a1.in.afilias-nst.in",
-		"a2.in.afilias-nst.in",
 		"b0.in.afilias-nst.in",
 		"b1.in.afilias-nst.in",
-		"b2.in.afilias-nst.in",
 		"c0.in.afilias-nst.in",
 		"ns3.neustar.in",
 		"ns4.neustar.in",

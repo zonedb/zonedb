@@ -6,12 +6,9 @@
 	],
 	"whoisServer": "whois.inregistry.net",
 	"nameServers": [
-		"a0.in.afilias-nst.info",
 		"a1.in.afilias-nst.in",
-		"a2.in.afilias-nst.info",
 		"b0.in.afilias-nst.org",
 		"b1.in.afilias-nst.in",
-		"b2.in.afilias-nst.org",
 		"c0.in.afilias-nst.info",
 		"ns3.neustar.in",
 		"ns4.neustar.in",
