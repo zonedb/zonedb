@@ -2,10 +2,8 @@
 	"domain": "gov.in",
 	"whoisServer": "whois.ncst.ernet.in",
 	"nameServers": [
-		"a1.in.afilias-nst.in",
-		"b0.cctld.afilias-nst.org",
-		"b1.in.afilias-nst.in",
-		"c0.cctld.afilias-nst.info",
+		"ns1.neustar.in",
+		"ns2.neustar.in",
 		"ns3.neustar.in",
 		"ns4.neustar.in",
 		"ns5.neustar.in",
