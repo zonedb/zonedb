@@ -1,5 +1,6 @@
 {
 	"domain": "भारतम्",
+	"whoisServer": "whois.registry.in",
 	"nameServers": [
 		"ns1.neustar.in",
 		"ns2.neustar.in",

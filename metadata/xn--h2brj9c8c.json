@@ -1,5 +1,6 @@
 {
 	"domain": "भारोत",
+	"whoisServer": "whois.registry.in",
 	"nameServers": [
 		"ns1.neustar.in",
 		"ns2.neustar.in",

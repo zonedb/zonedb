@@ -7,6 +7,10 @@
 	],
 	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
+		"a.nic.vermögensberater",
+		"b.nic.vermögensberater",
+		"c.nic.vermögensberater",
+		"d.nic.vermögensberater",
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net",
 		"ns2a.ksregistry.com",
