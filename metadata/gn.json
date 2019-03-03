@@ -8,7 +8,6 @@
 	"nameServers": [
 		"fork.sth.dnsnode.net",
 		"ns-gn.afrinic.net",
-		"ns1.dns.aq",
 		"rip.psg.com"
 	],
 	"policies": [

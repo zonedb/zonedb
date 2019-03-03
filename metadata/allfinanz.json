@@ -7,6 +7,10 @@
 	],
 	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
+		"a.nic.allfinanz",
+		"b.nic.allfinanz",
+		"c.nic.allfinanz",
+		"d.nic.allfinanz",
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net",
 		"ns2a.ksregistry.com",

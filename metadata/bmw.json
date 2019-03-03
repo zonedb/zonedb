@@ -7,6 +7,10 @@
 	],
 	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
+		"a.nic.bmw",
+		"b.nic.bmw",
+		"c.nic.bmw",
+		"d.nic.bmw",
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net",
 		"ns2a.ksregistry.com",

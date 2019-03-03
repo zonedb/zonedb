@@ -7,6 +7,10 @@
 	],
 	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
+		"a.nic.dvag",
+		"b.nic.dvag",
+		"c.nic.dvag",
+		"d.nic.dvag",
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net",
 		"ns2a.ksregistry.com",

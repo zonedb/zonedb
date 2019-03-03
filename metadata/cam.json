@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
+		"a.nic.cam",
+		"b.nic.cam",
+		"c.nic.cam",
+		"d.nic.cam",
 		"ns1a.ksregistry.net",
 		"ns1b.ksregistry.net",
 		"ns2a.ksregistry.com",

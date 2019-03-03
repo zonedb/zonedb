@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.nic.country",
+	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
 		"a.ns.nic.country",
 		"b.ns.nic.country",
