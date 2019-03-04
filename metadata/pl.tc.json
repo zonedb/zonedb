@@ -1,5 +1,9 @@
 {
 	"domain": "pl.tc",
+	"nameServers": [
+		"ns1.bluehost.com",
+		"ns2.bluehost.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
