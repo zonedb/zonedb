@@ -11,7 +11,8 @@
 		"ge.hostmaster.ua",
 		"ns.nic.ge",
 		"ns.uu.net",
-		"ns2.nic.fr"
+		"ns2.nic.fr",
+		"ns2.nic.ge"
 	],
 	"policies": [
 		{
