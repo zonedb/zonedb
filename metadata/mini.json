@@ -10,11 +10,7 @@
 		"a.nic.mini",
 		"b.nic.mini",
 		"c.nic.mini",
-		"d.nic.mini",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com"
+		"d.nic.mini"
 	],
 	"policies": [
 		{

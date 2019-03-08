@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.nic.nf",
+	"whoisServer": "whois.nic.net.nf",
 	"nameServers": [
 		"ns.anycast.nic.nf",
 		"ns.cocca.fr"

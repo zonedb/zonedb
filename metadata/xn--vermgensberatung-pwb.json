@@ -10,11 +10,7 @@
 		"a.nic.vermögensberatung",
 		"b.nic.vermögensberatung",
 		"c.nic.vermögensberatung",
-		"d.nic.vermögensberatung",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com"
+		"d.nic.vermögensberatung"
 	],
 	"policies": [
 		{

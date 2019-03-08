@@ -10,11 +10,7 @@
 		"a.nic.tui",
 		"b.nic.tui",
 		"c.nic.tui",
-		"d.nic.tui",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com"
+		"d.nic.tui"
 	],
 	"policies": [
 		{

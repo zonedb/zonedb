@@ -10,11 +10,7 @@
 		"a.nic.fresenius",
 		"b.nic.fresenius",
 		"c.nic.fresenius",
-		"d.nic.fresenius",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com"
+		"d.nic.fresenius"
 	],
 	"policies": [
 		{

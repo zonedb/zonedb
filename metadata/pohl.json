@@ -10,11 +10,7 @@
 		"a.nic.pohl",
 		"b.nic.pohl",
 		"c.nic.pohl",
-		"d.nic.pohl",
-		"ns1a.ksregistry.net",
-		"ns1b.ksregistry.net",
-		"ns2a.ksregistry.com",
-		"ns2b.ksregistry.com"
+		"d.nic.pohl"
 	],
 	"policies": [
 		{
