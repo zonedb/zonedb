@@ -8,10 +8,7 @@
 	"whoisServer": "whois.nic.ai",
 	"nameServers": [
 		"ns.cocca.fr",
-		"ns1.pair.com",
-		"ns2.offshore.ai",
-		"pch.whois.ai",
-		"whois.ai"
+		"pch.whois.ai"
 	],
 	"policies": [
 		{
