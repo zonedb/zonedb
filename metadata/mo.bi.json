@@ -1,7 +1,9 @@
 {
 	"domain": "mo.bi",
 	"nameServers": [
-		"ns03.domaincontrol.com",
-		"ns04.domaincontrol.com"
+		"ns1.hostinger.com",
+		"ns2.hostinger.com",
+		"ns3.hostinger.com",
+		"ns4.hostinger.com"
 	]
 }
