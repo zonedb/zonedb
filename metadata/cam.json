@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.ksregistry.net",
+	"whoisServer": "whois.nic.cam",
 	"nameServers": [
 		"a.nic.cam",
 		"b.nic.cam",
