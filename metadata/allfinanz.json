@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.allfinanz",
+	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
 		"a.nic.allfinanz",
 		"b.nic.allfinanz",

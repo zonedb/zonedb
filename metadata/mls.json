@@ -6,10 +6,12 @@
 	],
 	"whoisServer": "whois.nic.mls",
 	"nameServers": [
+		"a.ns.nic.mls",
 		"ac1.nstld.com",
 		"ac2.nstld.com",
 		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"ac4.nstld.com",
+		"b.ns.nic.mls"
 	],
 	"policies": [
 		{
