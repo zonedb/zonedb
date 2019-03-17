@@ -10,7 +10,7 @@
 		"Zurich",
 		"CH-ZH"
 	],
-	"whoisServer": "whois.ksregistry.net",
+	"whoisServer": "whois.nic.zuerich",
 	"nameServers": [
 		"a.nic.zuerich",
 		"b.nic.zuerich",

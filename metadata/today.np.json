@@ -7,8 +7,7 @@
 		"ns-ext.vix.com",
 		"ns4.apnic.net",
 		"pch.nnic.np",
-		"sec2.apnic.net",
-		"sec3.apnic.net"
+		"sec2.apnic.net"
 	],
 	"policies": [
 		{
