@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.ksregistry.net",
+	"whoisServer": "whois.nic.desi",
 	"nameServers": [
 		"a.nic.desi",
 		"b.nic.desi",
