@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.fresenius",
+	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
 		"a.nic.fresenius",
 		"b.nic.fresenius",

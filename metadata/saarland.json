@@ -8,7 +8,7 @@
 	"locations": [
 		"DE-SL"
 	],
-	"whoisServer": "whois.nic.saarland",
+	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
 		"a.nic.saarland",
 		"b.nic.saarland",

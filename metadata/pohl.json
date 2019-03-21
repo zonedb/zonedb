@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.pohl",
+	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
 		"a.nic.pohl",
 		"b.nic.pohl",
