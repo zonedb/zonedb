@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.ksregistry.net",
+	"whoisServer": "whois.nic.mini",
 	"nameServers": [
 		"a.nic.mini",
 		"b.nic.mini",
