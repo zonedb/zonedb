@@ -1,9 +1,5 @@
 {
 	"domain": "de.tt",
-	"nameServers": [
-		"ns.nagor.cn",
-		"ns.nagor.com.cn"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
