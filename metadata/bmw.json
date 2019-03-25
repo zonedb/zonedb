@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.bmw",
+	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
 		"a.nic.bmw",
 		"b.nic.bmw",

@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.dvag",
+	"whoisServer": "whois.ksregistry.net",
 	"nameServers": [
 		"a.nic.dvag",
 		"b.nic.dvag",
