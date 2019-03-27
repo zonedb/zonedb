@@ -63,6 +63,11 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "hr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/global_hr_2.5.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "hu",
 			"value": "https://www.iana.org/domains/idn-tables/tables/global_hu_1.txt"
 		},
@@ -125,6 +130,11 @@
 			"type": "idn-table",
 			"key": "sv",
 			"value": "https://www.iana.org/domains/idn-tables/tables/global_sv_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "tr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/global_tr_1.0.txt"
 		},
 		{
 			"type": "idn-table",

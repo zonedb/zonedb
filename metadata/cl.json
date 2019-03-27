@@ -10,7 +10,9 @@
 		"b.nic.cl",
 		"c.nic.cl",
 		"cl-ns.anycast.pch.net",
+		"cl1-tld.d-zone.ca",
 		"cl1.dnsnode.net",
+		"cl2-tld.d-zone.ca",
 		"sns-pb.isc.org"
 	],
 	"policies": [

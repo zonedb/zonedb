@@ -9,12 +9,7 @@
 		"a.nic.baby",
 		"b.nic.baby",
 		"c.nic.baby",
-		"d.nic.baby",
-		"ns1.dns.nic.baby",
-		"ns2.dns.nic.baby",
-		"ns3.dns.nic.baby",
-		"ns4.dns.nic.baby",
-		"ns5.dns.nic.baby"
+		"d.nic.baby"
 	],
 	"policies": [
 		{
