@@ -10,8 +10,7 @@
 		"a.nic.my",
 		"a1.mynic.my",
 		"b.mynic.centralnic-dns.com",
-		"ns2.cuhk.edu.hk",
-		"ns30.cdns.net"
+		"ns2.cuhk.edu.hk"
 	],
 	"policies": [
 		{

@@ -5,11 +5,7 @@
 	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
-		"62ns1.dns.com",
-		"62ns2.dns.com"
-	],
-	"wildcards": [
-		"150.109.60.252",
-		"xg2.1861.org.cn"
+		"ns1.dns.com",
+		"ns2.dns.com"
 	]
 }
