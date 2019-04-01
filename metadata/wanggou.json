@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.wanggou",
 	"nameServers": [
-		"ns1.dns.nic.wanggou",
-		"ns2.dns.nic.wanggou",
-		"ns3.dns.nic.wanggou",
+		"dns1.nic.wanggou",
+		"dns2.nic.wanggou",
+		"dns3.nic.wanggou",
+		"dns4.nic.wanggou",
 		"ns4.dns.nic.wanggou",
 		"ns5.dns.nic.wanggou",
 		"ns6.dns.nic.wanggou"

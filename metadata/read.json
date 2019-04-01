@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.read",
 	"nameServers": [
-		"ns1.dns.nic.read",
-		"ns2.dns.nic.read",
-		"ns3.dns.nic.read",
+		"dns1.nic.read",
+		"dns2.nic.read",
+		"dns3.nic.read",
+		"dns4.nic.read",
 		"ns4.dns.nic.read",
 		"ns5.dns.nic.read",
 		"ns6.dns.nic.read"

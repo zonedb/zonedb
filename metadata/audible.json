@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.audible",
 	"nameServers": [
-		"ns1.dns.nic.audible",
-		"ns2.dns.nic.audible",
-		"ns3.dns.nic.audible",
+		"dns1.nic.audible",
+		"dns2.nic.audible",
+		"dns3.nic.audible",
+		"dns4.nic.audible",
 		"ns4.dns.nic.audible",
 		"ns5.dns.nic.audible",
 		"ns6.dns.nic.audible"

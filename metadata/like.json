@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.like",
 	"nameServers": [
-		"ns1.dns.nic.like",
-		"ns2.dns.nic.like",
-		"ns3.dns.nic.like",
+		"dns1.nic.like",
+		"dns2.nic.like",
+		"dns3.nic.like",
+		"dns4.nic.like",
 		"ns4.dns.nic.like",
 		"ns5.dns.nic.like",
 		"ns6.dns.nic.like"

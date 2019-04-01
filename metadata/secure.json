@@ -6,9 +6,10 @@
 	],
 	"whoisServer": "whois.nic.secure",
 	"nameServers": [
-		"ns1.dns.nic.secure",
-		"ns2.dns.nic.secure",
-		"ns3.dns.nic.secure",
+		"dns1.nic.secure",
+		"dns2.nic.secure",
+		"dns3.nic.secure",
+		"dns4.nic.secure",
 		"ns4.dns.nic.secure",
 		"ns5.dns.nic.secure",
 		"ns6.dns.nic.secure"

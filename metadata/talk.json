@@ -6,9 +6,10 @@
 	],
 	"whoisServer": "whois.nic.talk",
 	"nameServers": [
-		"ns1.dns.nic.talk",
-		"ns2.dns.nic.talk",
-		"ns3.dns.nic.talk",
+		"dns1.nic.talk",
+		"dns2.nic.talk",
+		"dns3.nic.talk",
+		"dns4.nic.talk",
 		"ns4.dns.nic.talk",
 		"ns5.dns.nic.talk",
 		"ns6.dns.nic.talk"

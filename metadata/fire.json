@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.fire",
 	"nameServers": [
-		"ns1.dns.nic.fire",
-		"ns2.dns.nic.fire",
-		"ns3.dns.nic.fire",
+		"dns1.nic.fire",
+		"dns2.nic.fire",
+		"dns3.nic.fire",
+		"dns4.nic.fire",
 		"ns4.dns.nic.fire",
 		"ns5.dns.nic.fire",
 		"ns6.dns.nic.fire"

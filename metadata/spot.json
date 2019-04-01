@@ -6,9 +6,10 @@
 	],
 	"whoisServer": "whois.nic.spot",
 	"nameServers": [
-		"ns1.dns.nic.spot",
-		"ns2.dns.nic.spot",
-		"ns3.dns.nic.spot",
+		"dns1.nic.spot",
+		"dns2.nic.spot",
+		"dns3.nic.spot",
+		"dns4.nic.spot",
 		"ns4.dns.nic.spot",
 		"ns5.dns.nic.spot",
 		"ns6.dns.nic.spot"

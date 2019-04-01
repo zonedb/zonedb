@@ -6,9 +6,10 @@
 	],
 	"whoisServer": "whois.nic.deal",
 	"nameServers": [
-		"ns1.dns.nic.deal",
-		"ns2.dns.nic.deal",
-		"ns3.dns.nic.deal",
+		"dns1.nic.deal",
+		"dns2.nic.deal",
+		"dns3.nic.deal",
+		"dns4.nic.deal",
 		"ns4.dns.nic.deal",
 		"ns5.dns.nic.deal",
 		"ns6.dns.nic.deal"

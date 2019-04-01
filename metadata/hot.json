@@ -6,9 +6,10 @@
 	],
 	"whoisServer": "whois.nic.hot",
 	"nameServers": [
-		"ns1.dns.nic.hot",
-		"ns2.dns.nic.hot",
-		"ns3.dns.nic.hot",
+		"dns1.nic.hot",
+		"dns2.nic.hot",
+		"dns3.nic.hot",
+		"dns4.nic.hot",
 		"ns4.dns.nic.hot",
 		"ns5.dns.nic.hot",
 		"ns6.dns.nic.hot"

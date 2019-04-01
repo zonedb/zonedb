@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.pin",
 	"nameServers": [
-		"ns1.dns.nic.pin",
-		"ns2.dns.nic.pin",
-		"ns3.dns.nic.pin",
+		"dns1.nic.pin",
+		"dns2.nic.pin",
+		"dns3.nic.pin",
+		"dns4.nic.pin",
 		"ns4.dns.nic.pin",
 		"ns5.dns.nic.pin",
 		"ns6.dns.nic.pin"

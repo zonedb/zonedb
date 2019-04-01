@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.yamaxun",
 	"nameServers": [
-		"ns1.dns.nic.yamaxun",
-		"ns2.dns.nic.yamaxun",
-		"ns3.dns.nic.yamaxun",
+		"dns1.nic.yamaxun",
+		"dns2.nic.yamaxun",
+		"dns3.nic.yamaxun",
+		"dns4.nic.yamaxun",
 		"ns4.dns.nic.yamaxun",
 		"ns5.dns.nic.yamaxun",
 		"ns6.dns.nic.yamaxun"

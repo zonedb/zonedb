@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.got",
 	"nameServers": [
-		"ns1.dns.nic.got",
-		"ns2.dns.nic.got",
-		"ns3.dns.nic.got",
+		"dns1.nic.got",
+		"dns2.nic.got",
+		"dns3.nic.got",
+		"dns4.nic.got",
 		"ns4.dns.nic.got",
 		"ns5.dns.nic.got",
 		"ns6.dns.nic.got"

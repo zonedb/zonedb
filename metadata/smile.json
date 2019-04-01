@@ -6,9 +6,10 @@
 	],
 	"whoisServer": "whois.nic.smile",
 	"nameServers": [
-		"ns1.dns.nic.smile",
-		"ns2.dns.nic.smile",
-		"ns3.dns.nic.smile",
+		"dns1.nic.smile",
+		"dns2.nic.smile",
+		"dns3.nic.smile",
+		"dns4.nic.smile",
 		"ns4.dns.nic.smile",
 		"ns5.dns.nic.smile",
 		"ns6.dns.nic.smile"

@@ -6,9 +6,10 @@
 	],
 	"whoisServer": "whois.nic.circle",
 	"nameServers": [
-		"ns1.dns.nic.circle",
-		"ns2.dns.nic.circle",
-		"ns3.dns.nic.circle",
+		"dns1.nic.circle",
+		"dns2.nic.circle",
+		"dns3.nic.circle",
+		"dns4.nic.circle",
 		"ns4.dns.nic.circle",
 		"ns5.dns.nic.circle",
 		"ns6.dns.nic.circle"

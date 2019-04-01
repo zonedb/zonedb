@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.moi",
 	"nameServers": [
-		"ns1.dns.nic.moi",
-		"ns2.dns.nic.moi",
-		"ns3.dns.nic.moi",
+		"dns1.nic.moi",
+		"dns2.nic.moi",
+		"dns3.nic.moi",
+		"dns4.nic.moi",
 		"ns4.dns.nic.moi",
 		"ns5.dns.nic.moi",
 		"ns6.dns.nic.moi"

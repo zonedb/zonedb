@@ -6,9 +6,10 @@
 	],
 	"whoisServer": "whois.nic.joy",
 	"nameServers": [
-		"ns1.dns.nic.joy",
-		"ns2.dns.nic.joy",
-		"ns3.dns.nic.joy",
+		"dns1.nic.joy",
+		"dns2.nic.joy",
+		"dns3.nic.joy",
+		"dns4.nic.joy",
 		"ns4.dns.nic.joy",
 		"ns5.dns.nic.joy",
 		"ns6.dns.nic.joy"

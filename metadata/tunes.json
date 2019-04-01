@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.tunes",
 	"nameServers": [
-		"ns1.dns.nic.tunes",
-		"ns2.dns.nic.tunes",
-		"ns3.dns.nic.tunes",
+		"dns1.nic.tunes",
+		"dns2.nic.tunes",
+		"dns3.nic.tunes",
+		"dns4.nic.tunes",
 		"ns4.dns.nic.tunes",
 		"ns5.dns.nic.tunes",
 		"ns6.dns.nic.tunes"

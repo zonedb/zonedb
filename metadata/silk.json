@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.silk",
 	"nameServers": [
-		"ns1.dns.nic.silk",
-		"ns2.dns.nic.silk",
-		"ns3.dns.nic.silk",
+		"dns1.nic.silk",
+		"dns2.nic.silk",
+		"dns3.nic.silk",
+		"dns4.nic.silk",
 		"ns4.dns.nic.silk",
 		"ns5.dns.nic.silk",
 		"ns6.dns.nic.silk"

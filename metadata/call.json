@@ -6,9 +6,10 @@
 	],
 	"whoisServer": "whois.nic.call",
 	"nameServers": [
-		"ns1.dns.nic.call",
-		"ns2.dns.nic.call",
-		"ns3.dns.nic.call",
+		"dns1.nic.call",
+		"dns2.nic.call",
+		"dns3.nic.call",
+		"dns4.nic.call",
 		"ns4.dns.nic.call",
 		"ns5.dns.nic.call",
 		"ns6.dns.nic.call"

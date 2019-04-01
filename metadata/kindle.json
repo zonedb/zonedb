@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.kindle",
 	"nameServers": [
-		"ns1.dns.nic.kindle",
-		"ns2.dns.nic.kindle",
-		"ns3.dns.nic.kindle",
+		"dns1.nic.kindle",
+		"dns2.nic.kindle",
+		"dns3.nic.kindle",
+		"dns4.nic.kindle",
 		"ns4.dns.nic.kindle",
 		"ns5.dns.nic.kindle",
 		"ns6.dns.nic.kindle"

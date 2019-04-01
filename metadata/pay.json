@@ -6,9 +6,10 @@
 	],
 	"whoisServer": "whois.nic.pay",
 	"nameServers": [
-		"ns1.dns.nic.pay",
-		"ns2.dns.nic.pay",
-		"ns3.dns.nic.pay",
+		"dns1.nic.pay",
+		"dns2.nic.pay",
+		"dns3.nic.pay",
+		"dns4.nic.pay",
 		"ns4.dns.nic.pay",
 		"ns5.dns.nic.pay",
 		"ns6.dns.nic.pay"

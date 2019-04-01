@@ -6,9 +6,10 @@
 	],
 	"whoisServer": "whois.nic.jot",
 	"nameServers": [
-		"ns1.dns.nic.jot",
-		"ns2.dns.nic.jot",
-		"ns3.dns.nic.jot",
+		"dns1.nic.jot",
+		"dns2.nic.jot",
+		"dns3.nic.jot",
+		"dns4.nic.jot",
 		"ns4.dns.nic.jot",
 		"ns5.dns.nic.jot",
 		"ns6.dns.nic.jot"
