@@ -1,6 +1,10 @@
 {
 	"domain": "com.bb",
 	"nameServers": [
+		"dns1.easydns.com",
+		"dns2.easydns.net",
+		"dns3.easydns.org",
+		"dns4.easydns.info",
 		"ns1.barbadosdomain.net",
 		"ns2.barbadosdomain.net"
 	],

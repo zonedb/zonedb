@@ -19,6 +19,11 @@
 			"type": "idn-table",
 			"key": "zh",
 			"value": "https://www.iana.org/domains/idn-tables/tables/mobi_zh_4.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-CN",
+			"value": "https://www.iana.org/domains/idn-tables/tables/mobi_zh-cn_4.1.txt"
 		}
 	]
 }

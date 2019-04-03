@@ -1,6 +1,9 @@
 {
 	"domain": "co.bb",
 	"nameServers": [
+		"dns1.easydns.com",
+		"dns2.easydns.net",
+		"dns3.easydns.org",
 		"ns1.barbadosdomain.net",
 		"ns2.barbadosdomain.net"
 	],
