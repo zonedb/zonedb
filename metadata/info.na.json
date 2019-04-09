@@ -1,9 +1,8 @@
 {
 	"domain": "info.na",
 	"nameServers": [
-		"dns1.dic.net",
-		"dns2.dic.net",
-		"dns3.dic.net"
+		"clint.ns.cloudflare.com",
+		"jocelyn.ns.cloudflare.com"
 	],
 	"policies": [
 		{
