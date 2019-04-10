@@ -10,9 +10,10 @@
 		"dns2.nic.secure",
 		"dns3.nic.secure",
 		"dns4.nic.secure",
-		"ns4.dns.nic.secure",
-		"ns5.dns.nic.secure",
-		"ns6.dns.nic.secure"
+		"dnsa.nic.secure",
+		"dnsb.nic.secure",
+		"dnsc.nic.secure",
+		"dnsd.nic.secure"
 	],
 	"policies": [
 		{

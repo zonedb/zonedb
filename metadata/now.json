@@ -10,9 +10,10 @@
 		"dns2.nic.now",
 		"dns3.nic.now",
 		"dns4.nic.now",
-		"ns4.dns.nic.now",
-		"ns5.dns.nic.now",
-		"ns6.dns.nic.now"
+		"dnsa.nic.now",
+		"dnsb.nic.now",
+		"dnsc.nic.now",
+		"dnsd.nic.now"
 	],
 	"policies": [
 		{

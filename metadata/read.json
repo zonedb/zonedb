@@ -11,9 +11,10 @@
 		"dns2.nic.read",
 		"dns3.nic.read",
 		"dns4.nic.read",
-		"ns4.dns.nic.read",
-		"ns5.dns.nic.read",
-		"ns6.dns.nic.read"
+		"dnsa.nic.read",
+		"dnsb.nic.read",
+		"dnsc.nic.read",
+		"dnsd.nic.read"
 	],
 	"policies": [
 		{

@@ -11,9 +11,10 @@
 		"dns2.nic.yamaxun",
 		"dns3.nic.yamaxun",
 		"dns4.nic.yamaxun",
-		"ns4.dns.nic.yamaxun",
-		"ns5.dns.nic.yamaxun",
-		"ns6.dns.nic.yamaxun"
+		"dnsa.nic.yamaxun",
+		"dnsb.nic.yamaxun",
+		"dnsc.nic.yamaxun",
+		"dnsd.nic.yamaxun"
 	],
 	"policies": [
 		{

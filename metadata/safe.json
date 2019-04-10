@@ -11,9 +11,10 @@
 		"dns2.nic.safe",
 		"dns3.nic.safe",
 		"dns4.nic.safe",
-		"ns4.dns.nic.safe",
-		"ns5.dns.nic.safe",
-		"ns6.dns.nic.safe"
+		"dnsa.nic.safe",
+		"dnsb.nic.safe",
+		"dnsc.nic.safe",
+		"dnsd.nic.safe"
 	],
 	"policies": [
 		{

@@ -10,9 +10,10 @@
 		"dns2.nic.pay",
 		"dns3.nic.pay",
 		"dns4.nic.pay",
-		"ns4.dns.nic.pay",
-		"ns5.dns.nic.pay",
-		"ns6.dns.nic.pay"
+		"dnsa.nic.pay",
+		"dnsb.nic.pay",
+		"dnsc.nic.pay",
+		"dnsd.nic.pay"
 	],
 	"policies": [
 		{

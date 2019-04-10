@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.prime",
 	"nameServers": [
-		"ns1.dns.nic.prime",
-		"ns2.dns.nic.prime",
-		"ns3.dns.nic.prime",
+		"dns1.nic.prime",
+		"dns2.nic.prime",
+		"dns3.nic.prime",
+		"dns4.nic.prime",
 		"ns4.dns.nic.prime",
 		"ns5.dns.nic.prime",
 		"ns6.dns.nic.prime"

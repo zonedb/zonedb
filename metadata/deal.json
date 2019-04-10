@@ -10,9 +10,10 @@
 		"dns2.nic.deal",
 		"dns3.nic.deal",
 		"dns4.nic.deal",
-		"ns4.dns.nic.deal",
-		"ns5.dns.nic.deal",
-		"ns6.dns.nic.deal"
+		"dnsa.nic.deal",
+		"dnsb.nic.deal",
+		"dnsc.nic.deal",
+		"dnsd.nic.deal"
 	],
 	"policies": [
 		{

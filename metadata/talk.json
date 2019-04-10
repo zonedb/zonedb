@@ -10,9 +10,10 @@
 		"dns2.nic.talk",
 		"dns3.nic.talk",
 		"dns4.nic.talk",
-		"ns4.dns.nic.talk",
-		"ns5.dns.nic.talk",
-		"ns6.dns.nic.talk"
+		"dnsa.nic.talk",
+		"dnsb.nic.talk",
+		"dnsc.nic.talk",
+		"dnsd.nic.talk"
 	],
 	"policies": [
 		{

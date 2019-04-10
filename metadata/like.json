@@ -11,9 +11,10 @@
 		"dns2.nic.like",
 		"dns3.nic.like",
 		"dns4.nic.like",
-		"ns4.dns.nic.like",
-		"ns5.dns.nic.like",
-		"ns6.dns.nic.like"
+		"dnsa.nic.like",
+		"dnsb.nic.like",
+		"dnsc.nic.like",
+		"dnsd.nic.like"
 	],
 	"policies": [
 		{

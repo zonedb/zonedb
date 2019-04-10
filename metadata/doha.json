@@ -11,12 +11,6 @@
 		"QA-DA"
 	],
 	"whoisServer": "whois.nic.doha",
-	"nameServers": [
-		"a.nic.doha",
-		"b.nic.doha",
-		"c.nic.doha",
-		"d.nic.doha"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

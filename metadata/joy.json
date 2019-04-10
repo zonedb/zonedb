@@ -10,9 +10,10 @@
 		"dns2.nic.joy",
 		"dns3.nic.joy",
 		"dns4.nic.joy",
-		"ns4.dns.nic.joy",
-		"ns5.dns.nic.joy",
-		"ns6.dns.nic.joy"
+		"dnsa.nic.joy",
+		"dnsb.nic.joy",
+		"dnsc.nic.joy",
+		"dnsd.nic.joy"
 	],
 	"policies": [
 		{

@@ -11,9 +11,10 @@
 		"dns2.nic.tushu",
 		"dns3.nic.tushu",
 		"dns4.nic.tushu",
-		"ns4.dns.nic.tushu",
-		"ns5.dns.nic.tushu",
-		"ns6.dns.nic.tushu"
+		"dnsa.nic.tushu",
+		"dnsb.nic.tushu",
+		"dnsc.nic.tushu",
+		"dnsd.nic.tushu"
 	],
 	"policies": [
 		{

@@ -10,9 +10,10 @@
 		"dns2.nic.room",
 		"dns3.nic.room",
 		"dns4.nic.room",
-		"ns4.dns.nic.room",
-		"ns5.dns.nic.room",
-		"ns6.dns.nic.room"
+		"dnsa.nic.room",
+		"dnsb.nic.room",
+		"dnsc.nic.room",
+		"dnsd.nic.room"
 	],
 	"policies": [
 		{

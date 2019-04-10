@@ -11,9 +11,10 @@
 		"dns2.nic.fire",
 		"dns3.nic.fire",
 		"dns4.nic.fire",
-		"ns4.dns.nic.fire",
-		"ns5.dns.nic.fire",
-		"ns6.dns.nic.fire"
+		"dnsa.nic.fire",
+		"dnsb.nic.fire",
+		"dnsc.nic.fire",
+		"dnsd.nic.fire"
 	],
 	"policies": [
 		{

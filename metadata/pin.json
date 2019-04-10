@@ -11,9 +11,10 @@
 		"dns2.nic.pin",
 		"dns3.nic.pin",
 		"dns4.nic.pin",
-		"ns4.dns.nic.pin",
-		"ns5.dns.nic.pin",
-		"ns6.dns.nic.pin"
+		"dnsa.nic.pin",
+		"dnsb.nic.pin",
+		"dnsc.nic.pin",
+		"dnsd.nic.pin"
 	],
 	"policies": [
 		{

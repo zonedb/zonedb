@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.imdb",
 	"nameServers": [
-		"ns1.dns.nic.imdb",
-		"ns2.dns.nic.imdb",
-		"ns3.dns.nic.imdb",
+		"dns1.nic.imdb",
+		"dns2.nic.imdb",
+		"dns3.nic.imdb",
+		"dns4.nic.imdb",
 		"ns4.dns.nic.imdb",
 		"ns5.dns.nic.imdb",
 		"ns6.dns.nic.imdb"

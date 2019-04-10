@@ -11,9 +11,10 @@
 		"dns2.nic.got",
 		"dns3.nic.got",
 		"dns4.nic.got",
-		"ns4.dns.nic.got",
-		"ns5.dns.nic.got",
-		"ns6.dns.nic.got"
+		"dnsa.nic.got",
+		"dnsb.nic.got",
+		"dnsc.nic.got",
+		"dnsd.nic.got"
 	],
 	"policies": [
 		{

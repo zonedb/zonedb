@@ -10,9 +10,10 @@
 		"dns2.nic.author",
 		"dns3.nic.author",
 		"dns4.nic.author",
-		"ns4.dns.nic.author",
-		"ns5.dns.nic.author",
-		"ns6.dns.nic.author"
+		"dnsa.nic.author",
+		"dnsb.nic.author",
+		"dnsc.nic.author",
+		"dnsd.nic.author"
 	],
 	"policies": [
 		{

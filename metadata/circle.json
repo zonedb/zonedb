@@ -10,9 +10,10 @@
 		"dns2.nic.circle",
 		"dns3.nic.circle",
 		"dns4.nic.circle",
-		"ns4.dns.nic.circle",
-		"ns5.dns.nic.circle",
-		"ns6.dns.nic.circle"
+		"dnsa.nic.circle",
+		"dnsb.nic.circle",
+		"dnsc.nic.circle",
+		"dnsd.nic.circle"
 	],
 	"policies": [
 		{

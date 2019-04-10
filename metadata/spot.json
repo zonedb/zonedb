@@ -10,9 +10,10 @@
 		"dns2.nic.spot",
 		"dns3.nic.spot",
 		"dns4.nic.spot",
-		"ns4.dns.nic.spot",
-		"ns5.dns.nic.spot",
-		"ns6.dns.nic.spot"
+		"dnsa.nic.spot",
+		"dnsb.nic.spot",
+		"dnsc.nic.spot",
+		"dnsd.nic.spot"
 	],
 	"policies": [
 		{

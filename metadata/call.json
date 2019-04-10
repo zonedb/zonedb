@@ -10,9 +10,10 @@
 		"dns2.nic.call",
 		"dns3.nic.call",
 		"dns4.nic.call",
-		"ns4.dns.nic.call",
-		"ns5.dns.nic.call",
-		"ns6.dns.nic.call"
+		"dnsa.nic.call",
+		"dnsb.nic.call",
+		"dnsc.nic.call",
+		"dnsd.nic.call"
 	],
 	"policies": [
 		{

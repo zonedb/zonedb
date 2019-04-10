@@ -11,9 +11,10 @@
 		"dns2.nic.fast",
 		"dns3.nic.fast",
 		"dns4.nic.fast",
-		"ns4.dns.nic.fast",
-		"ns5.dns.nic.fast",
-		"ns6.dns.nic.fast"
+		"dnsa.nic.fast",
+		"dnsb.nic.fast",
+		"dnsc.nic.fast",
+		"dnsd.nic.fast"
 	],
 	"policies": [
 		{

@@ -4,8 +4,5 @@
 	"nameServers": [
 		"ns1.co.pl",
 		"ns2.co.pl"
-	],
-	"wildcards": [
-		"185.253.212.22"
 	]
 }

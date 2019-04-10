@@ -10,9 +10,10 @@
 		"dns2.nic.smile",
 		"dns3.nic.smile",
 		"dns4.nic.smile",
-		"ns4.dns.nic.smile",
-		"ns5.dns.nic.smile",
-		"ns6.dns.nic.smile"
+		"dnsa.nic.smile",
+		"dnsb.nic.smile",
+		"dnsc.nic.smile",
+		"dnsd.nic.smile"
 	],
 	"policies": [
 		{

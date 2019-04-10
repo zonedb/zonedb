@@ -11,9 +11,10 @@
 		"dns2.nic.tunes",
 		"dns3.nic.tunes",
 		"dns4.nic.tunes",
-		"ns4.dns.nic.tunes",
-		"ns5.dns.nic.tunes",
-		"ns6.dns.nic.tunes"
+		"dnsa.nic.tunes",
+		"dnsb.nic.tunes",
+		"dnsc.nic.tunes",
+		"dnsd.nic.tunes"
 	],
 	"policies": [
 		{

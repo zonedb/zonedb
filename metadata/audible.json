@@ -11,9 +11,10 @@
 		"dns2.nic.audible",
 		"dns3.nic.audible",
 		"dns4.nic.audible",
-		"ns4.dns.nic.audible",
-		"ns5.dns.nic.audible",
-		"ns6.dns.nic.audible"
+		"dnsa.nic.audible",
+		"dnsb.nic.audible",
+		"dnsc.nic.audible",
+		"dnsd.nic.audible"
 	],
 	"policies": [
 		{

@@ -10,9 +10,10 @@
 		"dns2.nic.you",
 		"dns3.nic.you",
 		"dns4.nic.you",
-		"ns4.dns.nic.you",
-		"ns5.dns.nic.you",
-		"ns6.dns.nic.you"
+		"dnsa.nic.you",
+		"dnsb.nic.you",
+		"dnsc.nic.you",
+		"dnsd.nic.you"
 	],
 	"policies": [
 		{

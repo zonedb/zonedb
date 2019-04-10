@@ -11,9 +11,10 @@
 		"dns2.nic.kindle",
 		"dns3.nic.kindle",
 		"dns4.nic.kindle",
-		"ns4.dns.nic.kindle",
-		"ns5.dns.nic.kindle",
-		"ns6.dns.nic.kindle"
+		"dnsa.nic.kindle",
+		"dnsb.nic.kindle",
+		"dnsc.nic.kindle",
+		"dnsd.nic.kindle"
 	],
 	"policies": [
 		{

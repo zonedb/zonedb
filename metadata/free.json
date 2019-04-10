@@ -10,9 +10,10 @@
 		"dns2.nic.free",
 		"dns3.nic.free",
 		"dns4.nic.free",
-		"ns4.dns.nic.free",
-		"ns5.dns.nic.free",
-		"ns6.dns.nic.free"
+		"dnsa.nic.free",
+		"dnsb.nic.free",
+		"dnsc.nic.free",
+		"dnsd.nic.free"
 	],
 	"policies": [
 		{

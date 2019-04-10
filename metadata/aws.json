@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.aws",
 	"nameServers": [
-		"ns1.dns.nic.aws",
-		"ns2.dns.nic.aws",
-		"ns3.dns.nic.aws",
+		"dns1.nic.aws",
+		"dns2.nic.aws",
+		"dns3.nic.aws",
+		"dns4.nic.aws",
 		"ns4.dns.nic.aws",
 		"ns5.dns.nic.aws",
 		"ns6.dns.nic.aws"

@@ -10,9 +10,10 @@
 		"dns2.nic.hot",
 		"dns3.nic.hot",
 		"dns4.nic.hot",
-		"ns4.dns.nic.hot",
-		"ns5.dns.nic.hot",
-		"ns6.dns.nic.hot"
+		"dnsa.nic.hot",
+		"dnsb.nic.hot",
+		"dnsc.nic.hot",
+		"dnsd.nic.hot"
 	],
 	"policies": [
 		{

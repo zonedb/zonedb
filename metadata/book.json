@@ -10,9 +10,10 @@
 		"dns2.nic.book",
 		"dns3.nic.book",
 		"dns4.nic.book",
-		"ns4.dns.nic.book",
-		"ns5.dns.nic.book",
-		"ns6.dns.nic.book"
+		"dnsa.nic.book",
+		"dnsb.nic.book",
+		"dnsc.nic.book",
+		"dnsd.nic.book"
 	],
 	"policies": [
 		{

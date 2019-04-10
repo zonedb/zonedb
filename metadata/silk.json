@@ -11,9 +11,10 @@
 		"dns2.nic.silk",
 		"dns3.nic.silk",
 		"dns4.nic.silk",
-		"ns4.dns.nic.silk",
-		"ns5.dns.nic.silk",
-		"ns6.dns.nic.silk"
+		"dnsa.nic.silk",
+		"dnsb.nic.silk",
+		"dnsc.nic.silk",
+		"dnsd.nic.silk"
 	],
 	"policies": [
 		{

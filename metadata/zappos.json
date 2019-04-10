@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.zappos",
 	"nameServers": [
-		"ns1.dns.nic.zappos",
-		"ns2.dns.nic.zappos",
-		"ns3.dns.nic.zappos",
+		"dns1.nic.zappos",
+		"dns2.nic.zappos",
+		"dns3.nic.zappos",
+		"dns4.nic.zappos",
 		"ns4.dns.nic.zappos",
 		"ns5.dns.nic.zappos",
 		"ns6.dns.nic.zappos"

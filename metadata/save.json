@@ -10,9 +10,10 @@
 		"dns2.nic.save",
 		"dns3.nic.save",
 		"dns4.nic.save",
-		"ns4.dns.nic.save",
-		"ns5.dns.nic.save",
-		"ns6.dns.nic.save"
+		"dnsa.nic.save",
+		"dnsb.nic.save",
+		"dnsc.nic.save",
+		"dnsd.nic.save"
 	],
 	"policies": [
 		{

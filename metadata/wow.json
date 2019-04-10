@@ -10,9 +10,10 @@
 		"dns2.nic.wow",
 		"dns3.nic.wow",
 		"dns4.nic.wow",
-		"ns4.dns.nic.wow",
-		"ns5.dns.nic.wow",
-		"ns6.dns.nic.wow"
+		"dnsa.nic.wow",
+		"dnsb.nic.wow",
+		"dnsc.nic.wow",
+		"dnsd.nic.wow"
 	],
 	"policies": [
 		{

@@ -10,9 +10,10 @@
 		"dns2.nic.buy",
 		"dns3.nic.buy",
 		"dns4.nic.buy",
-		"ns4.dns.nic.buy",
-		"ns5.dns.nic.buy",
-		"ns6.dns.nic.buy"
+		"dnsa.nic.buy",
+		"dnsb.nic.buy",
+		"dnsc.nic.buy",
+		"dnsd.nic.buy"
 	],
 	"policies": [
 		{
