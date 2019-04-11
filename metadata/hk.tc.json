@@ -1,11 +1,8 @@
 {
 	"domain": "hk.tc",
 	"nameServers": [
-		"ns1.sedoparking.com",
-		"ns2.sedoparking.com"
-	],
-	"wildcards": [
-		"91.195.240.126"
+		"ns1.cuddlecat.net",
+		"ns2.cuddlecat.net"
 	],
 	"policies": [
 		{

@@ -1,8 +1,8 @@
 {
 	"domain": "ch.tc",
 	"nameServers": [
-		"ns1.sedoparking.com",
-		"ns2.sedoparking.com"
+		"ns1.cuddlecat.net",
+		"ns2.cuddlecat.net"
 	],
 	"wildcards": [
 		"91.195.240.126"
