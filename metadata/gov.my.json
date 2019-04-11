@@ -4,8 +4,7 @@
 		"b.nic.my",
 		"b1.mynic.my",
 		"c.mynic.centralnic-dns.com",
-		"d.mynic.centralnic-dns.com",
-		"ns2.cuhk.edu.hk"
+		"d.mynic.centralnic-dns.com"
 	],
 	"policies": [
 		{
