@@ -4,9 +4,6 @@
 		"ns1.cuddlecat.net",
 		"ns2.cuddlecat.net"
 	],
-	"wildcards": [
-		"91.195.240.126"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
