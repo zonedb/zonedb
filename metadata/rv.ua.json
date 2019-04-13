@@ -3,13 +3,9 @@
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
 		"ba1.ns.ua",
-		"cf.rv.ns.ua",
-		"nix.ns.ua",
-		"ns1.wuicc.net.ua",
 		"ns5.dnsmadeeasy.com",
 		"ns6.dnsmadeeasy.com",
-		"ns7.dnsmadeeasy.com",
-		"rivne.anycastdns.cz"
+		"ns7.dnsmadeeasy.com"
 	],
 	"policies": [
 		{
