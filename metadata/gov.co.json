@@ -1,5 +1,9 @@
 {
 	"domain": "gov.co",
+	"nameServers": [
+		"ns3.mintic.gov.co",
+		"ns4.mintic.gov.co"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
