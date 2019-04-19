@@ -1,10 +1,7 @@
 {
 	"domain": "in.na",
 	"nameServers": [
-		"ns21.cloudns.net",
-		"ns22.cloudns.net",
-		"ns23.cloudns.net",
-		"ns24.cloudns.net"
+		"suspended.omadhina.co.na"
 	],
 	"policies": [
 		{
