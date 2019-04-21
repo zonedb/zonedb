@@ -9,9 +9,6 @@
 		"ns1.dns.net.za",
 		"ns1.domain-name.services"
 	],
-	"wildcards": [
-		"188.138.125.235"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

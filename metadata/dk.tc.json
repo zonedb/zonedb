@@ -1,10 +1,10 @@
 {
 	"domain": "dk.tc",
 	"nameServers": [
-		"dnsm1.nic.tc",
-		"dnsm2.nic.tc",
-		"dnsm3.nic.tc",
-		"dnsm4.nic.tc"
+		"suspended.nic.tc"
+	],
+	"wildcards": [
+		"31.169.81.202"
 	],
 	"policies": [
 		{
