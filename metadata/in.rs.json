@@ -1,11 +1,12 @@
 {
 	"domain": "in.rs",
 	"nameServers": [
-		"l.nic.rs",
-		"ns1.nic.rs",
-		"ns1.rnids.rs",
-		"ns2.rnids.rs",
-		"odisej.telekom.rs"
+		"a.nic.rs",
+		"b.nic.rs",
+		"g.nic.rs",
+		"h.nic.rs",
+		"k.nic.rs",
+		"l.nic.rs"
 	],
 	"policies": [
 		{
