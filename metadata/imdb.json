@@ -11,9 +11,10 @@
 		"dns2.nic.imdb",
 		"dns3.nic.imdb",
 		"dns4.nic.imdb",
-		"ns4.dns.nic.imdb",
-		"ns5.dns.nic.imdb",
-		"ns6.dns.nic.imdb"
+		"dnsa.nic.imdb",
+		"dnsb.nic.imdb",
+		"dnsc.nic.imdb",
+		"dnsd.nic.imdb"
 	],
 	"policies": [
 		{

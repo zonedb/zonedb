@@ -11,9 +11,10 @@
 		"dns2.nic.zappos",
 		"dns3.nic.zappos",
 		"dns4.nic.zappos",
-		"ns4.dns.nic.zappos",
-		"ns5.dns.nic.zappos",
-		"ns6.dns.nic.zappos"
+		"dnsa.nic.zappos",
+		"dnsb.nic.zappos",
+		"dnsc.nic.zappos",
+		"dnsd.nic.zappos"
 	],
 	"policies": [
 		{

@@ -5,8 +5,9 @@
 	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
-		"ns-any.dns.net.za",
-		"ns1.dns.net.za"
+		"ns1.dns.business",
+		"ns2.dns.business",
+		"ns3.dns.business"
 	],
 	"policies": [
 		{

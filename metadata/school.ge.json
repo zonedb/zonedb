@@ -1,0 +1,7 @@
+{
+	"domain": "school.ge",
+	"nameServers": [
+		"ns.nic.ge",
+		"ns2.nic.ge"
+	]
+}

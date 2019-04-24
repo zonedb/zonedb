@@ -11,9 +11,10 @@
 		"dns2.nic.aws",
 		"dns3.nic.aws",
 		"dns4.nic.aws",
-		"ns4.dns.nic.aws",
-		"ns5.dns.nic.aws",
-		"ns6.dns.nic.aws"
+		"dnsa.nic.aws",
+		"dnsb.nic.aws",
+		"dnsc.nic.aws",
+		"dnsd.nic.aws"
 	],
 	"policies": [
 		{

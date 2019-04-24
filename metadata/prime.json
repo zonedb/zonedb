@@ -11,9 +11,10 @@
 		"dns2.nic.prime",
 		"dns3.nic.prime",
 		"dns4.nic.prime",
-		"ns4.dns.nic.prime",
-		"ns5.dns.nic.prime",
-		"ns6.dns.nic.prime"
+		"dnsa.nic.prime",
+		"dnsb.nic.prime",
+		"dnsc.nic.prime",
+		"dnsd.nic.prime"
 	],
 	"policies": [
 		{
