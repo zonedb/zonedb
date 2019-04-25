@@ -2338,7 +2338,7 @@ var y = [4936]Zone{
 	{"org.co", &z[308], x, n, n, n, e, e, e, 0x0, f},
 	{"4u.com", &z[314], x, s{"ns1.registry-servers.4u.com", "ns2.registry-servers.4u.com", "ns3.registry-servers.4u.com", "ns4.registry-servers.4u.com", "ns5.registry-servers.4u.com", "ns6.registry-servers.4u.com"}, s{"209.132.235.155"}, n, e, e, e, 0x200, t},
 	{"ae.com", &z[314], x, s{"asia3.akam.net", "eur2.akam.net", "eur5.akam.net", "ns1-161.akam.net", "ns1-163.akam.net", "usc3.akam.net", "use4.akam.net", "usw1.akam.net"}, n, n, e, e, e, 0x200, t},
-	{"africa.com", &z[314], x, s{"ns1.dns.business", "ns2.dns.business", "ns3.dns.business"}, n, n, "whois.centralnic.com", e, e, 0x200, f},
+	{"africa.com", &z[314], x, s{"ns2.dns.business", "ns3.dns.business", "ns4.dns.business"}, n, n, "whois.centralnic.com", e, e, 0x200, f},
 	{"ar.com", &z[314], x, s{"ns3.dns.com", "ns4.dns.com"}, n, n, "whois.centralnic.com", e, e, 0x200, t},
 	{"asia.com", &z[314], x, s{"pdns1.ultradns.net", "pdns2.ultradns.net", "pdns3.ultradns.org", "pdns4.ultradns.org", "pdns5.ultradns.info", "pdns6.ultradns.co.uk"}, s{"72.55.150.59"}, n, e, e, e, 0x200, f},
 	{"au.com", &z[314], x, s{"dns103.kddi.ne.jp", "dns104.kddi.ne.jp", "dnsa01.kddi.ne.jp", "dnsa02.kddi.ne.jp"}, n, n, e, e, e, 0x200, f},
