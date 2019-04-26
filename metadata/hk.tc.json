@@ -1,8 +1,10 @@
 {
 	"domain": "hk.tc",
 	"nameServers": [
-		"ns1.cuddlecat.net",
-		"ns2.cuddlecat.net"
+		"suspended.nic.tc"
+	],
+	"wildcards": [
+		"31.169.81.202"
 	],
 	"policies": [
 		{

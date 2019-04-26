@@ -1,11 +1,10 @@
 {
 	"domain": "info.bb",
 	"nameServers": [
-		"dns1.easydns.com",
-		"dns2.easydns.net",
-		"dns3.easydns.org",
-		"ns1.barbadosdomain.net",
-		"ns2.barbadosdomain.net"
+		"ns1.nic.bb",
+		"ns2.nic.bb",
+		"ns3.nic.bb",
+		"ns5.nic.bb"
 	],
 	"policies": [
 		{
