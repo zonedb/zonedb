@@ -3852,7 +3852,7 @@ var y = [4936]Zone{
 	{"eu.org", &z[1048], z[4861:4913], s{"auth1.dns.elm.net", "canada.wolfhugel.eu", "dns4.gandi.net", "hobbes.bsd-dk.dk", "ns.bortzmeyer.eu.org", "ns1.eriomem.net", "ns1.eu.org", "ns3.keltia.net", "oz.wolfhugel.eu", "pl.wolfhugel.eu"}, n, n, "whois.eu.org", e, e, 0x0, t},
 	{"hk.org", &z[1048], x, s{"a.udrtld.net", "b.udrtld.net", "c.udrtld.net", "dns7.cloudns.net", "dns8.cloudns.net"}, n, n, "whois.registry.hk.com", e, e, 0x0, f},
 	{"js.org", &z[1048], x, s{"miles.ns.cloudflare.com", "pam.ns.cloudflare.com"}, n, n, e, e, e, 0x0, t},
-	{"us.org", &z[1048], x, s{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, n, n, "whois.centralnic.com", e, e, 0x0, f},
+	{"us.org", &z[1048], x, s{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, s{"78.142.29.210", "79.124.78.120"}, n, "whois.centralnic.com", e, e, 0x0, f},
 	{"za.org", &z[1048], x, s{"igubu.saix.net", "ns0.is.co.za", "ns0.plig.net", "ns1.plig.net", "ns2.plig.net", "ns3.iafrica.com", "ns4.iafrica.com"}, n, n, "whois.za.org", e, e, 0x0, t},
 	{"abo.pa", &z[1058], x, s{"dns.nic.cr", "ns-ext.nic.cl", "ns.dns.br", "ns.nic.pa", "ns.pa", "ns2.pa"}, n, n, e, e, e, 0x0, f},
 	{"ac.pa", &z[1058], x, s{"dns.nic.cr", "ns-ext.nic.cl", "ns.dns.br", "ns.nic.pa", "ns.pa", "ns2.pa", "sns-pb.isc.org"}, n, n, e, e, e, 0x0, f},
