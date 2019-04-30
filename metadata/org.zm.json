@@ -1,8 +1,8 @@
 {
 	"domain": "org.zm",
 	"nameServers": [
+		"cocca.nic.zm",
 		"ns-zm.afrinic.net",
-		"ns1.coppernet.zm",
 		"ns1.zamnet.zm",
 		"ns2.zamnet.zm",
 		"pch.nic.zm"

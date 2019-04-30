@@ -1,6 +1,7 @@
 {
 	"domain": "ac.zm",
 	"nameServers": [
+		"cocca.nic.zm",
 		"ns-zm.afrinic.net",
 		"ns1.zamnet.zm",
 		"ns2.zamnet.zm",
