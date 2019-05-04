@@ -2,9 +2,7 @@
 	"domain": "mil.ge",
 	"nameServers": [
 		"auth02.ns.uu.net",
-		"ns.nic.ge",
-		"ns0.grena.ge",
-		"ns1.grena.ge"
+		"ns.nic.ge"
 	],
 	"policies": [
 		{

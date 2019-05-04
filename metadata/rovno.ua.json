@@ -2,12 +2,12 @@
 	"domain": "rovno.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
+		"ba1.ns.ua",
 		"nix.ns.ua",
-		"ns.telcom.net.ua",
 		"ns1.wuicc.net.ua",
-		"ns2.jb.rv.ua",
-		"ns2.rct.net.ua",
-		"ns2.uar.net"
+		"ns5.dnsmadeeasy.com",
+		"ns6.dnsmadeeasy.com",
+		"ns7.dnsmadeeasy.com"
 	],
 	"policies": [
 		{
