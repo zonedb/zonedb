@@ -4174,7 +4174,7 @@ var y = [4936]Zone{
 	{"opt.pro", &z[1123], x, n, n, n, e, e, e, 0x0, t},
 	{"pa.pro", &z[1123], x, n, n, n, e, e, e, 0x0, t},
 	{"pha.pro", &z[1123], x, n, n, n, e, e, e, 0x0, t},
-	{"pharma.pro", &z[1123], x, s{"ns1.sedoparking.com", "ns2.sedoparking.com"}, n, n, e, e, e, 0x0, f},
+	{"pharma.pro", &z[1123], x, s{"ns1.sedoparking.com", "ns2.sedoparking.com"}, s{"91.195.240.126"}, n, e, e, e, 0x0, f},
 	{"pod.pro", &z[1123], x, n, n, n, e, e, e, 0x0, t},
 	{"pr.pro", &z[1123], x, n, n, n, e, e, e, 0x0, t},
 	{"prof.pro", &z[1123], x, s{"dns1.encirca.net", "dns2.encirca.net"}, n, n, e, e, e, 0x0, f},
