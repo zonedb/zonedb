@@ -30,6 +30,11 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "th",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tw_th_1.0.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "zh",
 			"value": "https://www.iana.org/domains/idn-tables/tables/tw_zh_1.0.txt"
 		},
