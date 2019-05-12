@@ -1,9 +1,5 @@
 {
 	"domain": "cn.pn",
-	"nameServers": [
-		"ns1.linode.com",
-		"ns2.linode.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
