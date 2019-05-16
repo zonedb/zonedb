@@ -1,9 +1,10 @@
 {
 	"domain": "th.tc",
 	"nameServers": [
-		"cbru.br.ns.els-gms.att.net",
-		"cmtu.mt.ns.els-gms.att.net",
-		"ns1.thig.com"
+		"ns-cloud-b1.googledomains.com",
+		"ns-cloud-b2.googledomains.com",
+		"ns-cloud-b3.googledomains.com",
+		"ns-cloud-b4.googledomains.com"
 	],
 	"policies": [
 		{
