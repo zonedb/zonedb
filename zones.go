@@ -4452,7 +4452,7 @@ var y = [4936]Zone{
 	{"tuva.su", &z[1332], x, s{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, s{"178.210.89.119"}, n, e, e, e, 0x0, t},
 	{"vladikavkaz.su", &z[1332], x, s{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, s{"178.210.89.119"}, n, e, e, e, 0x0, t},
 	{"vladimir.su", &z[1332], x, s{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, s{"178.210.89.119"}, n, e, e, e, 0x0, t},
-	{"vologda.su", &z[1332], x, s{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, s{"178.210.89.119"}, n, e, e, e, 0x0, t},
+	{"vologda.su", &z[1332], x, s{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, n, n, e, e, e, 0x0, t},
 	{"com.sv", &z[1341], x, n, n, n, e, e, e, 0x0, f},
 	{"edu.sv", &z[1341], x, n, n, n, e, e, e, 0x0, f},
 	{"gob.sv", &z[1341], x, n, n, n, e, e, e, 0x0, f},
