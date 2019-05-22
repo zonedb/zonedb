@@ -1,7 +1,6 @@
 {
 	"domain": "gov.tm",
 	"nameServers": [
-		"webns.agts.tv",
 		"webns1.telecom.tm",
 		"webns2.telecom.tm"
 	],
