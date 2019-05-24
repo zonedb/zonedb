@@ -3,7 +3,8 @@
 	"nameServers": [
 		"a.ki.dyntld.net",
 		"b.ki.dyntld.net",
-		"ns.cocca.fr"
+		"ns.cocca.fr",
+		"pch.nic.ki"
 	],
 	"policies": [
 		{

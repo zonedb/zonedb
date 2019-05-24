@@ -3,9 +3,7 @@
 	"nameServers": [
 		"charles.cdec.polymtl.ca",
 		"ht-ns.anycast.pch.net",
-		"ns.cocca.fr",
-		"ns.coccaregistry.org",
-		"ns3.nic.fr"
+		"ns.cocca.fr"
 	],
 	"policies": [
 		{

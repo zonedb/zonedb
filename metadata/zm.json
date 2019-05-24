@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.nic.zm",
+	"whoisServer": "whois.zicta.zm",
 	"nameServers": [
 		"cocca.nic.zm",
 		"gransy.nic.zm",
