@@ -1,11 +1,5 @@
 {
 	"domain": "be.tt",
-	"nameServers": [
-		"ns1.netnames.net",
-		"ns2.netnames.net",
-		"ns5.netnames.net",
-		"ns6.netnames.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
