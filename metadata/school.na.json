@@ -1,7 +1,8 @@
 {
 	"domain": "school.na",
 	"nameServers": [
-		"suspended.omadhina.co.na"
+		"beau.ns.cloudflare.com",
+		"reza.ns.cloudflare.com"
 	],
 	"policies": [
 		{
