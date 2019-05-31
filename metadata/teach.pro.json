@@ -7,7 +7,8 @@
 		"salvador.porkbun.com"
 	],
 	"wildcards": [
-		"54.148.61.160"
+		"35.160.246.24",
+		"pixie.porkbun.com"
 	],
 	"policies": [
 		{
