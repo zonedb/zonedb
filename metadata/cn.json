@@ -18,8 +18,18 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cn_zh_1.0.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "zh-CN",
 			"value": "https://www.iana.org/domains/idn-tables/tables/cn_zh-cn_4.0.html"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/cn_zh-hans_4.1.txt"
 		}
 	]
 }
