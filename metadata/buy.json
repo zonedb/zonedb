@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.nic.buy",
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"dns1.nic.buy",
 		"dns2.nic.buy",
