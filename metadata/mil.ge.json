@@ -1,9 +1,5 @@
 {
 	"domain": "mil.ge",
-	"nameServers": [
-		"auth02.ns.uu.net",
-		"ns.nic.ge"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
