@@ -2,8 +2,11 @@
 	"domain": "mil.za",
 	"nameServers": [
 		"ns1.datapro.co.za",
+		"ns1.gov.za",
 		"ns2.datapro.co.za",
-		"ns3.datapro.co.za"
+		"ns2.gov.za",
+		"ns3.datapro.co.za",
+		"ns3.gov.za"
 	],
 	"policies": [
 		{
