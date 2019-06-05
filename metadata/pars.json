@@ -7,7 +7,7 @@
 	"locations": [
 		"Iran"
 	],
-	"whoisServer": "whois.agitsys.net",
+	"whoisServer": "whois.nic.pars",
 	"nameServers": [
 		"a.ns.nic.pars",
 		"b.ns.nic.pars",

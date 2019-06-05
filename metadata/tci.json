@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.agitsys.net",
+	"whoisServer": "whois.nic.tci",
 	"nameServers": [
 		"a.ns.nic.tci",
 		"b.ns.nic.tci",
