@@ -6,14 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.honeywell",
-	"nameServers": [
-		"ns1.dns.nic.honeywell",
-		"ns2.dns.nic.honeywell",
-		"ns3.dns.nic.honeywell",
-		"ns4.dns.nic.honeywell",
-		"ns5.dns.nic.honeywell",
-		"ns6.dns.nic.honeywell"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
