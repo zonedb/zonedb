@@ -6,6 +6,12 @@
 		"generic"
 	],
 	"nameServers": [
+		"a.zdnscloud.com",
+		"b.zdnscloud.com",
+		"c.zdnscloud.com",
+		"d.zdnscloud.com",
+		"f.zdnscloud.com",
+		"g.zdnscloud.com",
 		"ns1.dns.nic.unicom",
 		"ns2.dns.nic.unicom",
 		"ns3.dns.nic.unicom",

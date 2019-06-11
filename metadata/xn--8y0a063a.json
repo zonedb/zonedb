@@ -1,8 +1,14 @@
 {
 	"domain": "联通",
 	"infoURL": "https://newgtlds.icann.org/",
-	"whoisServer": "whois.nic.联通",
+	"whoisServer": "whois.imena.bg",
 	"nameServers": [
+		"a.zdnscloud.com",
+		"b.zdnscloud.com",
+		"c.zdnscloud.com",
+		"d.zdnscloud.com",
+		"f.zdnscloud.com",
+		"g.zdnscloud.com",
 		"ns1.dns.nic.联通",
 		"ns2.dns.nic.联通",
 		"ns3.dns.nic.联通",
