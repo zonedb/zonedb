@@ -12,12 +12,8 @@
 		"d.zdnscloud.com",
 		"f.zdnscloud.com",
 		"g.zdnscloud.com",
-		"ns1.dns.nic.unicom",
-		"ns2.dns.nic.unicom",
-		"ns3.dns.nic.unicom",
-		"ns4.dns.nic.unicom",
-		"ns5.dns.nic.unicom",
-		"ns6.dns.nic.unicom"
+		"i.zdnscloud.com",
+		"j.zdnscloud.com"
 	],
 	"policies": [
 		{
