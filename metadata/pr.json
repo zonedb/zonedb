@@ -7,6 +7,7 @@
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
+		"a.lactld.org",
 		"a0.pr.afilias-nst.info",
 		"a2.pr.afilias-nst.info",
 		"b0.pr.afilias-nst.org",
