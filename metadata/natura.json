@@ -7,10 +7,12 @@
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
-		"a0.nic.natura",
-		"a2.nic.natura",
-		"b0.nic.natura",
-		"c0.nic.natura"
+		"a.dns.br",
+		"b.dns.br",
+		"c.dns.br",
+		"d.dns.br",
+		"e.dns.br",
+		"f.dns.br"
 	],
 	"policies": [
 		{
