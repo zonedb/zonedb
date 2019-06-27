@@ -1,11 +1,14 @@
 {
 	"domain": "nurse.pro",
 	"nameServers": [
-		"ns1-parking.encirca.info",
-		"ns2-parking.encirca.info"
+		"park1.encirca.net",
+		"park2.encirca.net"
 	],
 	"wildcards": [
-		"50.97.39.53"
+		"23.22.55.204",
+		"3.215.161.76",
+		"35.173.17.69",
+		"52.20.200.202"
 	],
 	"policies": [
 		{

@@ -3,8 +3,6 @@
 	"nameServers": [
 		"ns.cocca.fr",
 		"ns1.nic.bj",
-		"ns2.nic.bj",
-		"pch.nic.bj",
 		"pch.nic.fr"
 	],
 	"policies": [
