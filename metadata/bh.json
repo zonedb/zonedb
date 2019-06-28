@@ -5,6 +5,10 @@
 		"geo"
 	],
 	"nameServers": [
+		"a.bh.centralnic-dns.com",
+		"b.bh.centralnic-dns.com",
+		"c.bh.centralnic-dns.com",
+		"d.bh.centralnic-dns.com",
 		"ns.batelco.com.bh",
 		"ns2.batelco.com.bh",
 		"ns3.batelco.com.bh",

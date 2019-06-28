@@ -16,7 +16,9 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/natura_pt_1.xml"
 		}
 	]
 }
