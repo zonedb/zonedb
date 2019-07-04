@@ -10,9 +10,7 @@
 		"a0.nic.ac",
 		"a2.nic.ac",
 		"b0.nic.ac",
-		"c0.nic.ac",
-		"ns-a1.ac",
-		"ns-a3.ac"
+		"c0.nic.ac"
 	],
 	"policies": [
 		{

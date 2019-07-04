@@ -1,10 +1,10 @@
 {
 	"domain": "net.bh",
 	"nameServers": [
-		"ns.batelco.com.bh",
-		"ns2.batelco.com.bh",
-		"ns3.batelco.com.bh",
-		"ns4.batelco.com.bh"
+		"a.bh.centralnic-dns.com",
+		"b.bh.centralnic-dns.com",
+		"c.bh.centralnic-dns.com",
+		"d.bh.centralnic-dns.com"
 	],
 	"policies": [
 		{

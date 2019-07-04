@@ -11,9 +11,7 @@
 		"a0.nic.io",
 		"a2.nic.io",
 		"b0.nic.io",
-		"c0.nic.io",
-		"ns-a1.io",
-		"ns-a3.io"
+		"c0.nic.io"
 	],
 	"policies": [
 		{
