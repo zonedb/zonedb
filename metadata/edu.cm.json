@@ -1,8 +1,10 @@
 {
 	"domain": "edu.cm",
 	"nameServers": [
-		"ns1.cirt.cm",
-		"ns2.cirt.cm",
-		"ns3.cirt.cm"
+		"ns1.nic.cm",
+		"ns2.nic.cm"
+	],
+	"wildcards": [
+		"85.25.140.105"
 	]
 }
