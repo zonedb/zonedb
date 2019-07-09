@@ -1,5 +1,10 @@
 {
 	"domain": "ph.tc",
+	"nameServers": [
+		"ns1.openprovider.nl",
+		"ns2.openprovider.be",
+		"ns3.openprovider.eu"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

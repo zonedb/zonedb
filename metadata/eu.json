@@ -6,13 +6,11 @@
 	],
 	"whoisServer": "whois.eu",
 	"nameServers": [
-		"cz.dns.eu",
 		"nl.dns.eu",
 		"si.dns.eu",
 		"uk.dns.eu",
 		"x.dns.eu",
-		"y.dns.eu",
-		"z.dns.eu"
+		"y.dns.eu"
 	],
 	"policies": [
 		{
