@@ -21,6 +21,13 @@ jobs:
       - store_artifacts:
           path: test-results
           destination: results
+      
+      # Deploy
+      - deploy:
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              make tag-version
+            fi
 
   update:
     working_directory: ~/go/src/github.com/zonedb/zonedb
