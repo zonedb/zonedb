@@ -19,8 +19,11 @@ normalize:
 	go run cmd/zonedb/main.go -w
 	make zones.go
 
-formatted_date = $(shell date -u "+%Y.%m.%d.%H")
+git_revision=$(shell cat .git/refs/heads/master)
+number_of_commits=$(shell git rev-list $(git_revision) --count)
+major_version=$(shell cat VERSION)
+tag_version=v$(major_version).$(number_of_commits)
 
 tag-version: .git/refs/heads/master
-	git tag v1.$(formatted_date) $(shell cat .git/refs/heads/master)
+	git tag $(tag_version) $(git_revision)
 	git push --tags
