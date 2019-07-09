@@ -26,4 +26,4 @@ tag_version=v$(major_version).$(number_of_commits)
 
 tag-version: .git/refs/heads/master
 	git tag $(tag_version) $(git_revision)
-	# git push --tags
+	git push --tags
