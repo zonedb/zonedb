@@ -1,5 +1,9 @@
 {
 	"domain": "gov.bh",
+	"nameServers": [
+		"ns1.gov.bh",
+		"ns2.gov.bh"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
