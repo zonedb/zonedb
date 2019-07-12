@@ -1,11 +1,8 @@
 {
 	"domain": "at.tc",
 	"nameServers": [
-		"default1.nic.tc",
-		"default2.nic.tc"
-	],
-	"wildcards": [
-		"77.79.104.210"
+		"ns2572.servers-servers.com",
+		"ns2573.servers-servers.com"
 	],
 	"policies": [
 		{

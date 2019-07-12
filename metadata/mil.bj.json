@@ -3,7 +3,8 @@
 	"nameServers": [
 		"cabm.cab.mil.bj",
 		"emg.mil.bj",
-		"guezo.mil.bj"
+		"guezo.mil.bj",
+		"ns01.gouv.bj"
 	],
 	"policies": [
 		{
