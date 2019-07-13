@@ -1,7 +1,6 @@
 {
 	"domain": "europa.eu",
 	"nameServers": [
-		"ns1.be.colt.net",
 		"ns1.bt.net",
 		"ns1bru.europa.eu",
 		"ns1lux.europa.eu",
@@ -9,7 +8,8 @@
 		"ns2eu.bt.net",
 		"ns2lux.europa.eu",
 		"ns3bru.europa.eu",
-		"ns3lux.europa.eu"
+		"ns3lux.europa.eu",
+		"ns4az1.europa.eu"
 	],
 	"policies": [
 		{
