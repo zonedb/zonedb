@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run: go get -t -d -v ./...
-      - run: go build -v
+      - run: go build -v -p 4
 
       # Run tests
       - run: mkdir -p test-results
@@ -21,7 +21,7 @@ jobs:
       - store_artifacts:
           path: test-results
           destination: results
-      
+
       # Deploy
       - deploy:
           command: |
