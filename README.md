@@ -34,6 +34,7 @@ If a new SLD or third-level domain needs to be added to `zones.txt`, follow thes
 1. add the new zone to the bottom of the `zones.txt` file
 1. run `make normalize` to normalize the data
 1. run `make update` to run ZoneDB's update process
+  1. or alternatively, update a subset of zones with regex, e.g. `go run cmd/zonedb/main.go -update -w -x '^d.*\.it$'`
 1. create a pull request for the changes, and confirm the tests are passing
 
 #### json files
