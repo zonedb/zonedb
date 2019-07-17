@@ -20,6 +20,16 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tw_de_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tw_fr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "ja",
 			"value": "https://www.iana.org/domains/idn-tables/tables/tw_ja_1.0.txt"
 		},

@@ -1,9 +1,8 @@
 {
 	"domain": "hk.tc",
 	"nameServers": [
-		"ns1.101domain.com",
-		"ns2.101domain.com",
-		"ns5.101domain.com"
+		"drew.ns.cloudflare.com",
+		"kia.ns.cloudflare.com"
 	],
 	"policies": [
 		{
