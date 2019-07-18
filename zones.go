@@ -2256,7 +2256,7 @@ var y = [4936]Zone{
 	{"org.cc", &z[256], x, s{"ns.cocca.fr", "ns.coccaregistry.org"}, n, n, e, e, e, 0x0, t},
 	{"ac.cd", &z[257], x, s{"igubu.saix.net", "ns-root-1.scpt-network.com", "ns-root-2.scpt-network.com", "ns-root-5.scpt-network.com", "sabela.saix.net", "sangoma.saix.net"}, n, n, e, e, e, 0x0, t},
 	{"com.cd", &z[257], x, s{"igubu.saix.net", "ns1.pch.nic.cd", "sabela.saix.net", "sangoma.saix.net"}, n, n, e, e, e, 0x0, t},
-	{"edu.cd", &z[257], x, s{"igubu.saix.net", "ns-root-1.scpt-network.com", "ns-root-2.scpt-network.com", "ns-root-5.scpt-network.com", "ns1.pch.nic.cd", "sabela.saix.net", "sangoma.saix.net"}, n, n, e, e, e, 0x0, t},
+	{"edu.cd", &z[257], x, s{"igubu.saix.net", "ns-root-1.scpt-network.com", "ns-root-2.scpt-network.com", "ns-root-5.scpt-network.com", "sabela.saix.net", "sangoma.saix.net"}, n, n, e, e, e, 0x0, t},
 	{"gouv.cd", &z[257], x, s{"igubu.saix.net", "ns-root-1.scpt-network.com", "ns-root-2.scpt-network.com", "ns-root-5.scpt-network.com", "sabela.saix.net", "sangoma.saix.net"}, n, n, e, e, e, 0x0, t},
 	{"net.cd", &z[257], x, s{"igubu.saix.net", "ns-root-1.scpt-network.com", "ns-root-2.scpt-network.com", "ns-root-5.scpt-network.com", "sabela.saix.net", "sangoma.saix.net"}, n, n, e, e, e, 0x0, f},
 	{"org.cd", &z[257], x, s{"igubu.saix.net", "ns1.pch.nic.cd", "sabela.saix.net", "sangoma.saix.net"}, n, n, e, e, e, 0x0, f},
