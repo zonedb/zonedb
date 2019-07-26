@@ -9,6 +9,7 @@
 		"a.aq.dyntld.net",
 		"b.aq.dyntld.net",
 		"fork.sth.dnsnode.net",
+		"ns1.anycast.dns.aq",
 		"ns99.dns.net.nz"
 	],
 	"policies": [
