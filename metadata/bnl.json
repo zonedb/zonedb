@@ -6,12 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.bnl",
-	"nameServers": [
-		"a0.nic.bnl",
-		"a2.nic.bnl",
-		"b0.nic.bnl",
-		"c0.nic.bnl"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
