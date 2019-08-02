@@ -1,10 +1,5 @@
 {
 	"domain": "org.cd",
-	"nameServers": [
-		"igubu.saix.net",
-		"ns1.pch.nic.cd",
-		"sabela.saix.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
