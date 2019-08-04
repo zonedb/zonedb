@@ -6,12 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.starhub",
-	"nameServers": [
-		"a.nic.starhub",
-		"b.nic.starhub",
-		"c.nic.starhub",
-		"d.nic.starhub"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
