@@ -6,12 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.iselect",
-	"nameServers": [
-		"a.nic.iselect",
-		"b.nic.iselect",
-		"c.nic.iselect",
-		"d.nic.iselect"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
