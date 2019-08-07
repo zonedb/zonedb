@@ -7,9 +7,9 @@
 	],
 	"whoisURL": "http://nic.ba/lat/menu/view/13",
 	"nameServers": [
-		"auth03.ns.uu.net",
 		"ns.ba",
 		"sava.utic.net.ba",
+		"sns-pb.isc.org",
 		"una.utic.net.ba"
 	],
 	"policies": [

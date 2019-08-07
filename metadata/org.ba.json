@@ -3,6 +3,7 @@
 	"nameServers": [
 		"bosna.utic.net.ba",
 		"sava.utic.net.ba",
+		"sns-pb.isc.org",
 		"una.utic.net.ba"
 	],
 	"policies": [
