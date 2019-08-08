@@ -6,14 +6,14 @@
 	],
 	"whoisServer": "whois.nic.blog",
 	"nameServers": [
-		"dns1.nic.blog",
+		"a.nic.blog",
+		"b.nic.blog",
+		"c.nic.blog",
+		"d.nic.blog",
 		"dns2.nic.blog",
-		"dns3.nic.blog",
 		"dns4.nic.blog",
 		"dnsa.nic.blog",
-		"dnsb.nic.blog",
-		"dnsc.nic.blog",
-		"dnsd.nic.blog"
+		"dnsb.nic.blog"
 	],
 	"policies": [
 		{
