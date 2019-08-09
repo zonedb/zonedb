@@ -10,7 +10,7 @@
 		"Madrid",
 		"ES-MD"
 	],
-	"whoisServer": "whois.madrid.rs.corenic.net",
+	"whoisServer": "whois.nic.madrid",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

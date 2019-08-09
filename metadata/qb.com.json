@@ -4,8 +4,8 @@
 		"private"
 	],
 	"nameServers": [
-		"hank.ns.cloudflare.com",
-		"jill.ns.cloudflare.com"
+		"f1g1ns1.dnspod.net",
+		"f1g1ns2.dnspod.net"
 	],
 	"policies": [
 		{
