@@ -4,6 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.gay",
+	"nameServers": [
+		"a.nic.gay",
+		"b.nic.gay",
+		"c.nic.gay",
+		"d.nic.gay"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

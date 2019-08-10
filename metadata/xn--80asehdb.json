@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.online.rs.corenic.net",
+	"whoisServer": "whois.nic.онлайн",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
