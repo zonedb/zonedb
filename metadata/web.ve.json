@@ -1,5 +1,13 @@
 {
 	"domain": "web.ve",
+	"nameServers": [
+		"ns-ext.nic.cl",
+		"ns1.nic.ve",
+		"ns2.nic.ve",
+		"ns3.nic.ve",
+		"ns4.nic.ve",
+		"sns-pb.isc.org"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
