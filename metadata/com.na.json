@@ -2,7 +2,6 @@
 	"domain": "com.na",
 	"nameServers": [
 		"katima.omadhina.net",
-		"merlin.net.na",
 		"na-ns.anycast.pch.net",
 		"ns-na.afrinic.net"
 	],
