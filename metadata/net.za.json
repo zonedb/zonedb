@@ -2,7 +2,6 @@
 	"domain": "net.za",
 	"whoisServer": "net-whois.registry.net.za",
 	"nameServers": [
-		"disa.tenet.ac.za",
 		"ns0.is.co.za",
 		"za-ns.anycast.pch.net"
 	],

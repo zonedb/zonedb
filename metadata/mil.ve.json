@@ -2,12 +2,10 @@
 	"domain": "mil.ve",
 	"nameServers": [
 		"ns-ext.nic.cl",
-		"ns1.nic.ve",
-		"ns2.nic.ve",
 		"ns3.nic.ve",
 		"ns4.nic.ve",
 		"ns5.nic.ve",
-		"sns-pb.isc.org"
+		"ns6.nic.ve"
 	],
 	"policies": [
 		{
