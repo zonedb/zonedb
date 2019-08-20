@@ -1,9 +1,11 @@
 {
 	"domain": "co.na",
 	"nameServers": [
+		"katima.omadhina.net",
 		"na-ns.anycast.pch.net",
 		"ns-na.afrinic.net",
 		"oneu.omadhina.co.na",
+		"oneu.omadhina.net",
 		"secdns1.posix.co.za"
 	],
 	"policies": [

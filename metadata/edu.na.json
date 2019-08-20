@@ -1,6 +1,7 @@
 {
 	"domain": "edu.na",
 	"nameServers": [
+		"katima.omadhina.net",
 		"na-ns.anycast.pch.net",
 		"ns-na.afrinic.net",
 		"oneu.omadhina.co.na"
