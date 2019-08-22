@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.nhk",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",

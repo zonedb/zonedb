@@ -3,6 +3,7 @@
 	"nameServers": [
 		"ns.gouv.sn",
 		"ns.ucad.sn",
-		"ns2.gouv.sn"
+		"ns2.gouv.sn",
+		"ns3.gouv.sn"
 	]
 }
