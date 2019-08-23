@@ -1294,7 +1294,7 @@ var y = [4936]Zone{
 	{"rs", r, z[4152:4158], s{"a.nic.rs", "b.nic.rs", "f.nic.rs", "g.nic.rs", "h.nic.rs", "k.nic.rs", "l.nic.rs"}, n, n, "whois.rnids.rs", e, e, 0xa0, t},
 	{"rsvp", r, x, s{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, n, n, "whois.nic.google", e, "https://www.registry.google/", 0x40, t},
 	{"ru", r, z[4158:4186], s{"a.dns.ripn.net", "b.dns.ripn.net", "d.dns.ripn.net", "e.dns.ripn.net", "f.dns.ripn.net"}, n, n, "whois.tcinet.ru", e, e, 0xa0, t},
-	{"rugby", r, x, s{"a.nic.rugby", "b.nic.rugby", "c.nic.rugby", "d.nic.rugby"}, n, n, "whois.centralnic.com", e, "https://newgtlds.icann.org/", 0x40, f},
+	{"rugby", r, x, s{"a.nic.rugby", "b.nic.rugby", "c.nic.rugby", "d.nic.rugby"}, n, n, "whois.nic.rugby", e, "https://newgtlds.icann.org/", 0x40, f},
 	{"ruhr", r, x, s{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, n, s{"DE-NW"}, "whois.nic.ruhr", e, e, 0x440, t},
 	{"run", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.run", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"rw", r, z[4186:4196], s{"fork.sth.dnsnode.net", "ns-rw.afrinic.net", "ns1.ricta.org.rw", "ns3.ricta.org.rw", "pch.ricta.org.rw"}, n, n, "whois.ricta.org.rw", "http://whois.ricta.org.rw", e, 0xa0, f},
