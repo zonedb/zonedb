@@ -2067,7 +2067,7 @@ var y = [4936]Zone{
 	{"edu.bj", &z[163], x, s{"ns.cocca.fr", "ns1.nic.bj", "pch.nic.fr"}, n, n, e, e, e, 0x0, f},
 	{"gouv.bj", &z[163], x, s{"ns01.gouv.bj", "ns02.gouv.bj"}, n, n, e, e, e, 0x0, f},
 	{"gov.bj", &z[163], x, s{"nakayo.leland.bj", "ns1.intnet.bj"}, n, n, e, e, e, 0x0, f},
-	{"mil.bj", &z[163], x, s{"cabm.cab.mil.bj", "emg.mil.bj", "guezo.mil.bj", "ns01.gouv.bj"}, n, n, e, e, e, 0x0, f},
+	{"mil.bj", &z[163], x, s{"ns01.gouv.bj", "ns1.jenysas.bj"}, n, n, e, e, e, 0x0, f},
 	{"art.blog", &z[168], x, s{"ns1.automattic.com", "ns2.automattic.com", "ns3.automattic.com", "ns4.automattic.com"}, s{"192.0.78.30", "192.0.78.31", "art.blog"}, n, e, e, e, 0x0, t},
 	{"business.blog", &z[168], x, s{"ns1.automattic.com", "ns2.automattic.com", "ns3.automattic.com", "ns4.automattic.com"}, s{"192.0.78.30", "192.0.78.31", "business.blog"}, n, e, e, e, 0x0, t},
 	{"car.blog", &z[168], x, s{"ns1.automattic.com", "ns2.automattic.com", "ns3.automattic.com", "ns4.automattic.com"}, s{"192.0.78.30", "192.0.78.31", "car.blog"}, n, e, e, e, 0x0, t},

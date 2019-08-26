@@ -1,10 +1,8 @@
 {
 	"domain": "mil.bj",
 	"nameServers": [
-		"cabm.cab.mil.bj",
-		"emg.mil.bj",
-		"guezo.mil.bj",
-		"ns01.gouv.bj"
+		"ns01.gouv.bj",
+		"ns1.jenysas.bj"
 	],
 	"policies": [
 		{
