@@ -6,6 +6,7 @@
 	],
 	"whoisURL": "http://www.svnet.org.sv/",
 	"nameServers": [
+		"a.lactld.org",
 		"auth02.ns.uu.net",
 		"cir.red.sv",
 		"dns.nic.cr",
