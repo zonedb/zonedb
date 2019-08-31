@@ -6,14 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.duns",
-	"nameServers": [
-		"ns1.dns.nic.duns",
-		"ns2.dns.nic.duns",
-		"ns3.dns.nic.duns",
-		"ns4.dns.nic.duns",
-		"ns5.dns.nic.duns",
-		"ns6.dns.nic.duns"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
