@@ -5,6 +5,7 @@
 		"brand",
 		"generic"
 	],
+	"whoisServer": "whois.nic.unicom",
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",
