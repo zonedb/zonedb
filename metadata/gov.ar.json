@@ -5,7 +5,8 @@
 		"ar.cctld.authdns.ripe.net",
 		"b.dns.ar",
 		"c.dns.ar",
-		"e.dns.ar"
+		"e.dns.ar",
+		"f.dns.ar"
 	],
 	"policies": [
 		{
