@@ -1,9 +1,5 @@
 {
 	"domain": "web.fo",
-	"nameServers": [
-		"a.dnspod.com",
-		"b.dnspod.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
