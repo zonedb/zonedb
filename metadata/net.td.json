@@ -1,7 +1,9 @@
 {
 	"domain": "net.td",
 	"nameServers": [
+		"adetic.nic.td",
 		"ns-td.afrinic.net",
+		"ns-td.nic.fr",
 		"ns.cocca.fr",
 		"nsa.nic.td",
 		"pch.nic.td"
