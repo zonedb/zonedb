@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois-fe1.gmx.tango.knipp.de",
+	"whoisServer": "whois.nic.gmx",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
