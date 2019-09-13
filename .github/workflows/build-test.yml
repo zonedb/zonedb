@@ -8,7 +8,8 @@ jobs:
   container:
     image: domainr/ci:swan
   steps:
-  - uses: actions/checkout@v1
+  - name: Checkout
+    uses: actions/checkout@v1
   - name: Install dependencies
     run: go get -t -d -v ./...
   - name: Build
