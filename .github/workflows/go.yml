@@ -1,7 +1,12 @@
 # GitHub's starter Go config file
 
 name: Go
-on: [push]
+
+# on: [push] # Uncomment to run on each commit
+on: # Hack to disable this workflow
+  schedule:
+    - cron: 0 0 5 31 2 ? # Effectively disabled (Feb 31), via https://stackoverflow.com/questions/13835221/quartz-cron-expression-that-will-never-execute/13938099#13938099
+
 jobs:
 
   build:
