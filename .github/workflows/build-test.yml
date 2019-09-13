@@ -4,25 +4,31 @@ on: [push]
 
 jobs:
 
-  build:
+  build-and-test:
     name: Build
     runs-on: ubuntu-latest
     container: domainr/ci:swan
     steps:
+
       - name: Checkout
         uses: actions/checkout@v1
+
       - name: Install dependencies
         run: go get -t -d -v ./...
+
       - name: Build
         run: go build -v
-  test:
-    name: Test
-    runs-on: ubuntu-latest
-    container: domainr/ci:swan
-    needs: build
-    steps:
-      - name: Run tests
+      
+      - name: Test
         run: go test -v
+  # test:
+  #   name: Test
+  #   runs-on: ubuntu-latest
+  #   container: domainr/ci:swan
+  #   needs: build
+  #   steps:
+  #     - name: Run tests
+  #       run: go test -v
 
 # TODO from CircleCI config.yml:
 # - build -> Report
