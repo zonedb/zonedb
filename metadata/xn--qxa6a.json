@@ -1,5 +1,6 @@
 {
 	"domain": "ευ",
+	"whoisServer": "whois.eu",
 	"nameServers": [
 		"nl.dns.eu",
 		"si.dns.eu",

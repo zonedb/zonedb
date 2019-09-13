@@ -2,6 +2,7 @@
 	"domain": "com.np",
 	"infoURL": "https://register.com.np",
 	"nameServers": [
+		"dns112.gurkhahost.com",
 		"np-ns.npix.net.np",
 		"np.cctld.authdns.ripe.net",
 		"ns-ext.isc.org",
