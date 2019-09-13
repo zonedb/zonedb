@@ -13,9 +13,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
-      - name: Install dependencies
-        run: go get -t -d -v ./...
-
       - name: Build
         run: go build -v
       
