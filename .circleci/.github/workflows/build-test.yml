@@ -1,7 +1,6 @@
 name: build-and-test
 
 on: push
-  branches: gh-actions
 
 jobs:
   build:
