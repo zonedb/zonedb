@@ -18,13 +18,11 @@ jobs:
   test:
     name: Test
     runs-on: ubuntu-latest
+    container: domainr/ci:swan
     needs: build
     steps:
       - name: Run tests
-        run: go test -v -race -bench
-      # run: |
-      #     trap "go-junit-report < test-results/go-test.log > test-results/go-test-report.xml" EXIT
-      #     go test -v -race -bench . ./... | tee test-results/go-test.log
+        run: go test -v
 
 # TODO from CircleCI config.yml:
 # - build -> Report
