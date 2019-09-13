@@ -5,7 +5,7 @@ on: [push]
 jobs:
 
   build-and-test:
-    name: Build
+    name: Build and test
     runs-on: ubuntu-latest
     container: domainr/ci:swan
     steps:
@@ -21,17 +21,4 @@ jobs:
       
       - name: Test
         run: go test -v
-  # test:
-  #   name: Test
-  #   runs-on: ubuntu-latest
-  #   container: domainr/ci:swan
-  #   needs: build
-  #   steps:
-  #     - name: Run tests
-  #       run: go test -v
 
-# TODO from CircleCI config.yml:
-# - build -> Report
-# - build -> Deploy
-# - "update" job
-# - workflows section
