@@ -74,7 +74,7 @@ func TestTags_String(t *testing.T) {
 
 func ExampleTags_String() {
 	var z *Zone
-	z = ZoneMap["aero1"]
+	z = ZoneMap["aero"]
 	fmt.Println(z.Tags.String())
 	// Output: generic sponsored
 }
