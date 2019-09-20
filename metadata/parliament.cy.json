@@ -1,14 +1,8 @@
 {
 	"domain": "parliament.cy",
 	"nameServers": [
-		"cy-ns.anycast.pch.net",
-		"cynic.dns.cy",
-		"cynic4.dns.cy",
-		"cynic6.dns.cy",
-		"estia.ics.forth.gr",
 		"ns01.gov.cy",
-		"ns02.gov.cy",
-		"ns4.apnic.net"
+		"ns02.gov.cy"
 	],
 	"policies": [
 		{

@@ -1,9 +1,5 @@
 {
 	"domain": "com.ml",
-	"nameServers": [
-		"djamako.nic.ml",
-		"dns.gouv.ml"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
