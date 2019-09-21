@@ -4,6 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.cpa",
+	"nameServers": [
+		"a.nic.cpa",
+		"b.nic.cpa",
+		"c.nic.cpa",
+		"d.nic.cpa"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

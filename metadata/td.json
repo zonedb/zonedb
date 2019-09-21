@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "41.74.44.44",
+	"whoisServer": "whois.nic.td",
 	"whoisURL": "http://www.nic.td/",
 	"nameServers": [
 		"ns-td.afrinic.net",
