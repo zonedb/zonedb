@@ -1,8 +1,7 @@
 {
 	"domain": "co.ms",
 	"nameServers": [
-		"ns.cocca.fr",
-		"ns.coccaregistry.org"
+		"ns.cocca.fr"
 	],
 	"policies": [
 		{
