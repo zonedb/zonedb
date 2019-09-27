@@ -8,8 +8,7 @@
 	"whoisServer": "whois.nic.ms",
 	"nameServers": [
 		"ms-ns.anycast.pch.net",
-		"ns.cocca.fr",
-		"ns.coccaregistry.org"
+		"ns.cocca.fr"
 	],
 	"policies": [
 		{
