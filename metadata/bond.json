@@ -12,8 +12,7 @@
 		"b-cnic.nic.bond",
 		"b.nic.bond",
 		"c-cnic.nic.bond",
-		"c.nic.bond",
-		"d.nic.bond"
+		"c.nic.bond"
 	],
 	"policies": [
 		{
