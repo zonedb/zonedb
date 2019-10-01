@@ -8,11 +8,8 @@
 	"whoisServer": "whois.nic.bond",
 	"nameServers": [
 		"a-cnic.nic.bond",
-		"a.nic.bond",
 		"b-cnic.nic.bond",
-		"b.nic.bond",
-		"c-cnic.nic.bond",
-		"c.nic.bond"
+		"c-cnic.nic.bond"
 	],
 	"policies": [
 		{

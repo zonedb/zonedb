@@ -1,9 +1,7 @@
 {
 	"domain": "name.iq",
 	"nameServers": [
-		"dyn1.cmc.iq",
-		"dyn2.cmc.iq",
-		"ns1.cmc.iq",
+		"ns.cocca.fr",
 		"nsp-anycast.cmc.iq",
 		"sns-pb.isc.org"
 	]
