@@ -7,9 +7,10 @@
 	],
 	"whoisServer": "whois.nic.bond",
 	"nameServers": [
-		"a-cnic.nic.bond",
-		"b-cnic.nic.bond",
-		"c-cnic.nic.bond"
+		"a.nic.bond",
+		"b.nic.bond",
+		"c.nic.bond",
+		"d.nic.bond"
 	],
 	"policies": [
 		{

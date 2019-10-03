@@ -12,7 +12,10 @@
 		"b0.nic.adult",
 		"b2.nic.adult",
 		"c0.nic.adult",
-		"d0.nic.adult"
+		"d0.nic.adult",
+		"ns1.uniregistry.net",
+		"ns2.uniregistry.info",
+		"ns5.uniregistry.net"
 	],
 	"policies": [
 		{
