@@ -7,15 +7,10 @@
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
-		"a0.nic.sex",
-		"a2.nic.sex",
-		"b0.nic.sex",
-		"b2.nic.sex",
-		"c0.nic.sex",
-		"d0.nic.sex",
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
-		"ns5.uniregistry.net"
+		"ns5.uniregistry.net",
+		"ns6.uniregistry.info"
 	],
 	"policies": [
 		{

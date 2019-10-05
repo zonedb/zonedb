@@ -1,5 +1,9 @@
 {
 	"domain": "br.tc",
+	"nameServers": [
+		"lee.ns.cloudflare.com",
+		"mimi.ns.cloudflare.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
