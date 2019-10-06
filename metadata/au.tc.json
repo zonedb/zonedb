@@ -1,5 +1,9 @@
 {
 	"domain": "au.tc",
+	"nameServers": [
+		"amanda.ns.cloudflare.com",
+		"noel.ns.cloudflare.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
