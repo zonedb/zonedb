@@ -5,7 +5,10 @@
 	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
-		"ns3.dns.com",
-		"ns4.dns.com"
+		"dns1.9800.com",
+		"dns2.9800.com"
+	],
+	"wildcards": [
+		"47.52.227.193"
 	]
 }
