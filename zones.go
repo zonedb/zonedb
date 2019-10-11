@@ -3508,7 +3508,7 @@ var y = [4937]Zone{
 	{"com.mp", &z[949], x, n, n, n, e, e, e, 0x0, f},
 	{"gov.mp", &z[949], x, s{"ns1.nic.net.mp", "ns2.nic.net.mp"}, n, n, e, e, e, 0x0, f},
 	{"org.mp", &z[949], x, s{"ns1.nic.net.mp", "ns2.nic.net.mp"}, n, n, e, e, e, 0x0, f},
-	{"gov.mr", &z[951], x, s{"dns.mauritania.mr", "ns2.nic.mr"}, n, n, e, e, e, 0x0, f},
+	{"gov.mr", &z[951], x, n, n, n, e, e, e, 0x0, f},
 	{"co.ms", &z[954], x, s{"ns.cocca.fr"}, n, n, e, e, e, 0x0, f},
 	{"com.ms", &z[954], x, s{"ns.cocca.fr"}, n, n, e, e, e, 0x0, f},
 	{"net.ms", &z[954], x, n, n, n, e, e, e, 0x0, t},
