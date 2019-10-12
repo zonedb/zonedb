@@ -1,5 +1,9 @@
 {
 	"domain": "gov.mr",
+	"nameServers": [
+		"dns.mauritania.mr",
+		"ns2.nic.mr"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
