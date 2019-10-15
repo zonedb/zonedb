@@ -4,8 +4,7 @@
 		"dagda1.isp.telekom.rs",
 		"ns1.gov.rs",
 		"ns1.nic.rs",
-		"ns2.gov.rs",
-		"ns3.gov.orion.rs"
+		"ns2.gov.rs"
 	],
 	"policies": [
 		{

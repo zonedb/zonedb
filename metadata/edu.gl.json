@@ -1,9 +1,7 @@
 {
 	"domain": "edu.gl",
 	"nameServers": [
-		"a.gl.dyntld.net",
 		"a.nuuk.nic.gl",
-		"b.gl.dyntld.net",
 		"d.nic.gl"
 	],
 	"policies": [
