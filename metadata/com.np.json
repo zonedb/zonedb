@@ -2,17 +2,9 @@
 	"domain": "com.np",
 	"infoURL": "https://register.com.np",
 	"nameServers": [
-		"dns112.gurkhahost.com",
 		"np-ns.npix.net.np",
 		"np.cctld.authdns.ripe.net",
 		"ns-ext.isc.org",
-		"ns02.000webhost.com",
-		"ns2.000webhost.com",
-		"ns2.nepallink.net",
-		"ns2.omnibluetech.com",
-		"ns2.stackdns.com",
-		"ns2.technozlife.com",
-		"ns2.ultimatefreehost.in",
 		"ns4.apnic.net",
 		"pch.nnic.np",
 		"shikhar.mos.com.np"
