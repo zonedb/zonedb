@@ -4957,7 +4957,7 @@ var y = [4937]Zone{
 	{"wireless.keyword.cn", &z[2213], x, n, n, n, e, e, e, 0x0, t},
 	{"ltd.co.im", &z[2665], x, n, n, n, e, e, e, 0x0, t},
 	{"plc.co.im", &z[2665], x, n, n, n, e, e, e, 0x0, t},
-	{"lg.gov.ng", &z[3527], x, n, n, n, e, e, e, 0x0, t},
+	{"lg.gov.ng", &z[3527], x, s{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, n, n, e, e, e, 0x0, t},
 	{"co.net.nz", &z[3735], x, s{"ns1.instradns.com", "ns2.instradns.com", "ns3.instradns.com"}, n, n, e, e, e, 0x0, t},
 	{"al.eu.org", &z[3753], x, s{"hobbes.bsd-dk.dk", "ns.ankh.fr.eu.org", "ns1.eriomem.net", "ns1.eu.org"}, n, n, e, e, e, 0x0, t},
 	{"asso.eu.org", &z[3753], x, s{"canada.wolfhugel.eu", "ns1.eriomem.net", "ns1.eu.org"}, n, n, e, e, e, 0x0, t},
