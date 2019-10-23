@@ -4171,7 +4171,7 @@ var y = [4937]Zone{
 	{"min.pro", &z[1123], x, n, n, n, e, e, e, 0x0, f},
 	{"nitr.pro", &z[1123], x, n, n, n, e, e, e, 0x0, t},
 	{"nur.pro", &z[1123], x, n, n, n, e, e, e, 0x0, f},
-	{"nurse.pro", &z[1123], x, s{"park1.encirca.net", "park2.encirca.net"}, s{"3.215.161.76", "52.20.200.202"}, n, e, e, e, 0x0, f},
+	{"nurse.pro", &z[1123], x, s{"park1.encirca.net", "park2.encirca.net"}, s{"23.22.55.204", "3.215.161.76", "52.20.200.202"}, n, e, e, e, 0x0, f},
 	{"opt.pro", &z[1123], x, n, n, n, e, e, e, 0x0, t},
 	{"pa.pro", &z[1123], x, n, n, n, e, e, e, 0x0, t},
 	{"pha.pro", &z[1123], x, n, n, n, e, e, e, 0x0, t},
