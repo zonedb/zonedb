@@ -6,9 +6,8 @@
 	],
 	"whoisServer": "whois.nic.gl",
 	"nameServers": [
-		"a.gl.dyntld.net",
 		"a.nuuk.nic.gl",
-		"b.gl.dyntld.net",
-		"d.nic.gl"
+		"d.nic.gl",
+		"ns.cocca.fr"
 	]
 }
