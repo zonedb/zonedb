@@ -1,8 +1,8 @@
 {
 	"domain": "ch.tc",
 	"nameServers": [
-		"ns1.cuddlecat.net",
-		"ns2.cuddlecat.net"
+		"nic.ch.tc",
+		"ns2.dnsbird.net"
 	],
 	"policies": [
 		{

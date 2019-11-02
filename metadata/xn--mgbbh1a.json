@@ -2,11 +2,11 @@
 	"domain": "بارت",
 	"whoisServer": "whois.registry.in",
 	"nameServers": [
-		"ns1.neustar.in",
-		"ns2.neustar.in",
-		"ns3.neustar.in",
-		"ns4.neustar.in",
-		"ns5.neustar.in",
-		"ns6.neustar.in"
+		"ns1.registry.in",
+		"ns2.registry.in",
+		"ns3.registry.in",
+		"ns4.registry.in",
+		"ns5.registry.in",
+		"ns6.registry.in"
 	]
 }
