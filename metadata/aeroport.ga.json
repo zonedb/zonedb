@@ -1,5 +1,9 @@
 {
 	"domain": "aeroport.ga",
+	"nameServers": [
+		"ns81.rookdns.com",
+		"ns82.rookdns.com"
+	],
 	"wildcards": [
 		"141.8.224.221"
 	],
