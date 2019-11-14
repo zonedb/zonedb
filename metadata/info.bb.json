@@ -1,11 +1,5 @@
 {
 	"domain": "info.bb",
-	"nameServers": [
-		"ns1.nic.bb",
-		"ns2.nic.bb",
-		"ns3.nic.bb",
-		"ns5.nic.bb"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
