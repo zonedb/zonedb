@@ -6,14 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.cartier",
-	"nameServers": [
-		"ns1.dns.nic.cartier",
-		"ns2.dns.nic.cartier",
-		"ns3.dns.nic.cartier",
-		"ns4.dns.nic.cartier",
-		"ns5.dns.nic.cartier",
-		"ns6.dns.nic.cartier"
-	],
 	"policies": [
 		{
 			"type": "idn-table",

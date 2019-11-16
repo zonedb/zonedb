@@ -6,14 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.everbank",
-	"nameServers": [
-		"ns1.dns.nic.everbank",
-		"ns2.dns.nic.everbank",
-		"ns3.dns.nic.everbank",
-		"ns4.dns.nic.everbank",
-		"ns5.dns.nic.everbank",
-		"ns6.dns.nic.everbank"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
