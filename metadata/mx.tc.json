@@ -1,11 +1,14 @@
 {
 	"domain": "mx.tc",
 	"nameServers": [
-		"dns.site5.com",
-		"dns2.site5.com"
+		"leah.ns.cloudflare.com",
+		"noah.ns.cloudflare.com"
 	],
 	"wildcards": [
-		"23.91.71.222"
+		"104.27.156.189",
+		"104.27.157.189",
+		"2606:4700:30::681b:9cbd",
+		"2606:4700:30::681b:9dbd"
 	],
 	"policies": [
 		{
