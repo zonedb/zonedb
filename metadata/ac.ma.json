@@ -1,12 +1,12 @@
 {
 	"domain": "ac.ma",
 	"nameServers": [
+		"b.tld.ma",
+		"c.tld.ma",
 		"d.tld.ma",
 		"dns.inria.fr",
 		"ns-ma.nic.fr",
 		"ns1.registre.ma",
-		"ns2.registre.ma",
-		"ns3.registre.ma",
 		"sns-pb.isc.org"
 	],
 	"policies": [
