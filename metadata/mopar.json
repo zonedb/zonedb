@@ -6,12 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.afilias-srs.net",
-	"nameServers": [
-		"a0.nic.mopar",
-		"a2.nic.mopar",
-		"b0.nic.mopar",
-		"c0.nic.mopar"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

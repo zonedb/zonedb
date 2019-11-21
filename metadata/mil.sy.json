@@ -1,10 +1,8 @@
 {
 	"domain": "mil.sy",
 	"nameServers": [
-		"ns31.cloudns.net",
-		"ns32.cloudns.net",
-		"ns33.cloudns.net",
-		"ns34.cloudns.net"
+		"suspend1.tld.sy",
+		"suspend2.tld.sy"
 	],
 	"policies": [
 		{

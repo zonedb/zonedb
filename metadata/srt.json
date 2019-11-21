@@ -6,12 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.afilias-srs.net",
-	"nameServers": [
-		"a0.nic.srt",
-		"a2.nic.srt",
-		"b0.nic.srt",
-		"c0.nic.srt"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
