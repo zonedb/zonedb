@@ -11,7 +11,8 @@
 		"auth100.ns.uu.net",
 		"auth110.ns.uu.net",
 		"ns1.nic.vi",
-		"ns3.nic.vi"
+		"ns3.nic.vi",
+		"pch.nic.vi"
 	],
 	"policies": [
 		{

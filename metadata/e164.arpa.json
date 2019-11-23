@@ -9,7 +9,6 @@
 		"ns3.lacnic.net",
 		"ns4.apnic.net",
 		"pri.authdns.ripe.net",
-		"sns-pb.isc.org",
 		"tinnie.arin.net"
 	],
 	"policies": [
