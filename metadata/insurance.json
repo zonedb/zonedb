@@ -7,10 +7,11 @@
 	"whoisServer": "whois.nic.insurance",
 	"nameServers": [
 		"a.nic.insurance",
-		"ac3.nstld.com",
-		"ac4.nstld.com",
 		"b.nic.insurance",
-		"c.nic.insurance"
+		"c.nic.insurance",
+		"d.nic.insurance",
+		"e.nic.insurance",
+		"f.nic.insurance"
 	],
 	"policies": [
 		{
