@@ -1,9 +1,10 @@
 {
 	"domain": "com.vu",
 	"nameServers": [
-		"anytld.apnic.net",
-		"fork.sth.dnsnode.net",
-		"rip.psg.com"
+		"ns1.neustar.vu",
+		"ns2.neustar.vu",
+		"ns3.neustar.vu",
+		"ns4.neustar.vu"
 	],
 	"policies": [
 		{
