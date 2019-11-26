@@ -1,7 +1,6 @@
 {
 	"domain": "edi.ph",
-	"nameServers": [
-		"ns13.domaincontrol.com",
-		"ns14.domaincontrol.com"
+	"wildcards": [
+		"45.79.222.138"
 	]
 }
