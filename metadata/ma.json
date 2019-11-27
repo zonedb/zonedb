@@ -6,6 +6,8 @@
 	],
 	"whoisServer": "whois.registre.ma",
 	"nameServers": [
+		"b.tld.ma",
+		"c.tld.ma",
 		"d.tld.ma",
 		"dns.inria.fr",
 		"ns-ma.nic.fr",

@@ -1,6 +1,12 @@
 {
 	"domain": "edi.ph",
+	"nameServers": [
+		"ns1.jd24.parklogic.com",
+		"ns2.jd24.parklogic.com",
+		"ns3.jd24.parklogic.com"
+	],
 	"wildcards": [
-		"45.79.222.138"
+		"72.52.178.23",
+		"edi.ph"
 	]
 }
