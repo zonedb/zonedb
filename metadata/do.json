@@ -15,8 +15,7 @@
 		"ns3.nic.mx",
 		"ns4.nic.do",
 		"ns5.nic.do",
-		"phloem.uoregon.edu",
-		"sns-pb.isc.org"
+		"phloem.uoregon.edu"
 	],
 	"policies": [
 		{
