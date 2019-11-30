@@ -1,11 +1,11 @@
 {
 	"domain": "co.ve",
 	"nameServers": [
-		"ns-ext.nic.cl",
 		"ns3.nic.ve",
 		"ns4.nic.ve",
 		"ns5.nic.ve",
-		"ns6.nic.ve"
+		"ns6.nic.ve",
+		"ssdns-tld.nic.cl"
 	],
 	"policies": [
 		{

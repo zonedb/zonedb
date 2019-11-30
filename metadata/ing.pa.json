@@ -7,7 +7,8 @@
 		"ns.nic.cl",
 		"ns.nic.pa",
 		"ns.pa",
-		"ns2.pa"
+		"ns2.pa",
+		"ssdns-tld.nic.cl"
 	],
 	"policies": [
 		{
