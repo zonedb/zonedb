@@ -2,7 +2,6 @@
 	"domain": "ing.pa",
 	"nameServers": [
 		"dns.nic.cr",
-		"ns-ext.nic.cl",
 		"ns.dns.br",
 		"ns.nic.cl",
 		"ns.nic.pa",
