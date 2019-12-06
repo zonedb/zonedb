@@ -4,6 +4,13 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.uniregistry.net",
+	"nameServers": [
+		"ns1.uniregistry.net",
+		"ns2.uniregistry.info",
+		"ns3.uniregistry.net",
+		"ns4.uniregistry.info"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

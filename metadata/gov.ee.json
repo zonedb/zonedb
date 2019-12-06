@@ -2,6 +2,7 @@
 	"domain": "gov.ee",
 	"nameServers": [
 		"ans2.aso.ee",
+		"company.e-resident.gov.ee",
 		"ns.gov.ee"
 	],
 	"policies": [
