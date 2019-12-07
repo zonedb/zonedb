@@ -7,8 +7,11 @@
 	"whoisServer": "whois.nic.lat",
 	"nameServers": [
 		"c.mx-ns.mx",
+		"e.mx-ns.mx",
+		"i.mx-ns.mx",
 		"m.mx-ns.mx",
-		"o.mx-ns.mx"
+		"o.mx-ns.mx",
+		"x.mx-ns.mx"
 	],
 	"policies": [
 		{

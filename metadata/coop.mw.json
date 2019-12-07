@@ -3,10 +3,9 @@
 	"nameServers": [
 		"chambo.sdnp.org.mw",
 		"domwe.sdn.mw",
-		"mw.cctld.authdns.ripe.net",
-		"nyala.sdnp.org.mw",
 		"pch1.nic.mw",
-		"rip.psg.com"
+		"rip.psg.com",
+		"rip.psg.mw"
 	],
 	"policies": [
 		{
