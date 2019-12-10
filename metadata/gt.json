@@ -7,11 +7,11 @@
 	"whoisURL": "http://www.gt/",
 	"nameServers": [
 		"a.lactld.org",
-		"ns-ext.nic.cl",
 		"ns.dns.br",
 		"ns3.nic.mx",
 		"pch.gt",
-		"sns-pb.isc.org"
+		"sns-pb.isc.org",
+		"ssdns-tld.nic.cl"
 	],
 	"policies": [
 		{

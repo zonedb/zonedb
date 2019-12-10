@@ -1,11 +1,11 @@
 {
 	"domain": "ne.pw",
 	"nameServers": [
-		"ns1.myhostadmin.net",
-		"ns2.myhostadmin.net",
-		"ns3.myhostadmin.net",
-		"ns4.myhostadmin.net",
-		"ns5.myhostadmin.net",
-		"ns6.myhostadmin.net"
+		"ns1-domain-expired.myhostadmin.net",
+		"ns2-domain-expired.myhostadmin.net"
+	],
+	"wildcards": [
+		"15.164.3.247",
+		"westexpired.dopa.com"
 	]
 }
