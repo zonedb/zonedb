@@ -6,17 +6,10 @@
 	],
 	"whoisServer": "vunic.vu",
 	"nameServers": [
-		"anytld.apnic.net",
-		"efate.vanuatu.com.vu",
-		"fork.sth.dnsnode.net",
-		"ns1-cctld.vunic.vu",
 		"ns1.neustar.vu",
-		"ns2-cctld.vunic.vu",
 		"ns2.neustar.vu",
 		"ns3.neustar.vu",
-		"ns4.neustar.vu",
-		"rip.psg.com",
-		"santo.vanuatu.com.vu"
+		"ns4.neustar.vu"
 	],
 	"policies": [
 		{
