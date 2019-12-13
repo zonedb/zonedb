@@ -1,8 +1,8 @@
 {
 	"domain": "ch.tc",
 	"nameServers": [
-		"ns1.shinydns.net",
-		"ns2.shinydns.net"
+		"beta.ns.shinydns.net",
+		"ns.ch.tc"
 	],
 	"policies": [
 		{
