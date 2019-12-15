@@ -3,8 +3,7 @@
 	"nameServers": [
 		"pch.rcp.pe",
 		"pe1.dnsnode.net",
-		"quipu.rcp.net.pe",
-		"sns-pb.isc.org"
+		"quipu.rcp.net.pe"
 	],
 	"policies": [
 		{
