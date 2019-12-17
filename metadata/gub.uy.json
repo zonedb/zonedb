@@ -1,12 +1,12 @@
 {
 	"domain": "gub.uy",
 	"nameServers": [
+		"a.lactld.org",
 		"ns.dns.br",
 		"ns1.anteldata.com.uy",
 		"ns2.anteldata.com.uy",
 		"ns3.nic.mx",
 		"seciu.edu.uy",
-		"sns-pb.isc.org",
 		"ultra.edu.uy"
 	],
 	"policies": [

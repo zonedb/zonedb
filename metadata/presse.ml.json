@@ -3,6 +3,10 @@
 	"tags": [
 		"retired"
 	],
+	"nameServers": [
+		"ns01.000webhost.com",
+		"ns02.000webhost.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
