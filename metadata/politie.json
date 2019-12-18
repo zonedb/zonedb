@@ -8,6 +8,7 @@
 	"whoisServer": "whois.nic.politie",
 	"nameServers": [
 		"ns1.nic.politie",
+		"ns2.nic.politie",
 		"ns3.nic.politie",
 		"sns-pb.isc.org"
 	],

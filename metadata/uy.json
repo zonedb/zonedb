@@ -6,14 +6,14 @@
 	],
 	"whoisServer": "whois.nic.org.uy",
 	"nameServers": [
+		"a.lactld.org",
 		"a.nic.uy",
 		"b.nic.uy",
 		"d.nic.uy",
 		"ns.dns.br",
 		"ns1.anteldata.com.uy",
 		"ns2.anteldata.com.uy",
-		"ns3.nic.mx",
-		"sns-pb.isc.org"
+		"ns3.nic.mx"
 	],
 	"policies": [
 		{
