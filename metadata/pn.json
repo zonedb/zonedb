@@ -9,6 +9,7 @@
 	"nameServers": [
 		"fork.sth.dnsnode.net",
 		"ns0.pitcairn.net.pn",
+		"ns1.pitcairn.net.pn",
 		"ns2.pitcairn.net.pn",
 		"sns-pb.isc.org"
 	],

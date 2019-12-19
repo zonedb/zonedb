@@ -6,7 +6,6 @@
 	],
 	"whoisServer": "whois.nic.yt",
 	"nameServers": [
-		"d.ext.nic.fr",
 		"d.nic.fr",
 		"e.ext.nic.fr",
 		"f.ext.nic.fr",

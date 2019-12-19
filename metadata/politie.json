@@ -9,8 +9,7 @@
 	"nameServers": [
 		"ns1.nic.politie",
 		"ns2.nic.politie",
-		"ns3.nic.politie",
-		"sns-pb.isc.org"
+		"ns3.nic.politie"
 	],
 	"policies": [
 		{
