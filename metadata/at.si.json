@@ -1,10 +1,8 @@
 {
 	"domain": "at.si",
 	"nameServers": [
-		"b.ns14.net",
-		"c.ns14.net",
-		"d.ns14.net",
-		"ns.2020.si"
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz"
 	],
 	"policies": [
 		{
