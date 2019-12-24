@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.movistar",
+	"whoisServer": "whois-fe.movistar.tango.knipp.de",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

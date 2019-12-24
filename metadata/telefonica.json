@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.telefonica",
+	"whoisServer": "whois-fe.telefonica.tango.knipp.de",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
