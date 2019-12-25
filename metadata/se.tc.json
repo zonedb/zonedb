@@ -1,8 +1,10 @@
 {
 	"domain": "se.tc",
 	"nameServers": [
-		"f1g1ns1.dnspod.net",
-		"f1g1ns2.dnspod.net"
+		"suspended.nic.tc"
+	],
+	"wildcards": [
+		"31.169.81.202"
 	],
 	"policies": [
 		{
