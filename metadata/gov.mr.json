@@ -2,7 +2,7 @@
 	"domain": "gov.mr",
 	"nameServers": [
 		"dns.mauritania.mr",
-		"ns2.nic.mr"
+		"ns1.nic.mr"
 	],
 	"policies": [
 		{
