@@ -10,8 +10,7 @@
 		"anyc2.irondns.net",
 		"b.na.dyntld.net",
 		"merlin.net.na",
-		"na-ns.anycast.pch.net",
-		"sns-pb.isc.org"
+		"na-ns.anycast.pch.net"
 	],
 	"policies": [
 		{
