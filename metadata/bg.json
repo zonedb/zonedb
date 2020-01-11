@@ -7,11 +7,12 @@
 	],
 	"whoisServer": "whois.register.bg",
 	"nameServers": [
-		"ns.register.bg",
-		"ns2.register.bg",
-		"ns3.register.bg",
-		"ns4.register.bg",
-		"ns5.register.bg",
+		"a.nic.bg",
+		"b.nic.bg",
+		"c.nic.bg",
+		"d.nic.bg",
+		"e.nic.bg",
+		"p.nic.bg",
 		"sns-pb.isc.org"
 	],
 	"policies": [
