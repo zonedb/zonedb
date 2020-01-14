@@ -1,7 +1,7 @@
 {
 	"domain": "ch.tc",
 	"nameServers": [
-		"beta.ns.shinydns.net",
+		"beta.dns.nekoam.net",
 		"ns.ch.tc"
 	],
 	"policies": [
