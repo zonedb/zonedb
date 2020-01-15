@@ -6,12 +6,10 @@
 	],
 	"whoisServer": "whois.nic.dealer",
 	"nameServers": [
-		"ns1.dns.nic.dealer",
-		"ns2.dns.nic.dealer",
-		"ns3.dns.nic.dealer",
-		"ns4.dns.nic.dealer",
-		"ns5.dns.nic.dealer",
-		"ns6.dns.nic.dealer"
+		"ns1.uniregistry.net",
+		"ns2.uniregistry.info",
+		"ns3.uniregistry.net",
+		"ns4.uniregistry.info"
 	],
 	"policies": [
 		{
