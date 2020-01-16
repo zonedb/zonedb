@@ -6,11 +6,8 @@
 	],
 	"whoisServer": "whois.na-nic.com.na",
 	"nameServers": [
-		"a.na.dyntld.net",
 		"anyc2.irondns.net",
-		"b.na.dyntld.net",
 		"katima.omadhina.net",
-		"merlin.net.na",
 		"na-ns.anycast.pch.net",
 		"sdc.omadhina.co.na"
 	],

@@ -11,8 +11,7 @@
 		"aw02.setarnet.aw",
 		"ns1.dns.aw",
 		"ns2.dns.aw",
-		"ns3.dns.aw",
-		"sns-pb.isc.org"
+		"ns3.dns.aw"
 	],
 	"policies": [
 		{

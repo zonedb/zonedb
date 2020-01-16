@@ -1,8 +1,8 @@
 {
 	"domain": "ch.tc",
 	"nameServers": [
-		"beta.dns.nekoam.net",
-		"ns.ch.tc"
+		"alpha.dns.neko.am",
+		"beta.dns.nekoam.net"
 	],
 	"policies": [
 		{
