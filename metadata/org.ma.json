@@ -1,12 +1,12 @@
 {
 	"domain": "org.ma",
 	"nameServers": [
+		"a.tld.ma",
 		"b.tld.ma",
 		"c.tld.ma",
 		"d.tld.ma",
 		"dns.inria.fr",
 		"ns-ma.nic.fr",
-		"ns1.registre.ma",
 		"sns-pb.isc.org"
 	],
 	"policies": [

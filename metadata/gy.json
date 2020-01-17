@@ -8,8 +8,7 @@
 	"nameServers": [
 		"a.lactld.org",
 		"gy-ns.anycast.pch.net",
-		"ns.cocca.fr",
-		"sns-pb.isc.org"
+		"ns.cocca.fr"
 	],
 	"policies": [
 		{
