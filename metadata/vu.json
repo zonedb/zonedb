@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "vunic.vu",
+	"whoisServer": "whois.dnrs.neustar",
 	"nameServers": [
 		"ns1.neustar.vu",
 		"ns2.neustar.vu",
