@@ -1,6 +1,14 @@
 {
 	"domain": "edi.ph",
+	"nameServers": [
+		"ns1.dp47.parklogic.com",
+		"ns2.dp47.parklogic.com",
+		"ns3.dp47.parklogic.com",
+		"ns4.dp47.parklogic.com",
+		"ns5.dp47.parklogic.com"
+	],
 	"wildcards": [
-		"45.79.222.138"
+		"72.52.179.175",
+		"edi.ph"
 	]
 }
