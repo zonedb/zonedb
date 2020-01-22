@@ -8,8 +8,7 @@
 	"nameServers": [
 		"ns1.dns.nl",
 		"ns2.dns.nl",
-		"ns3.dns.nl",
-		"sns-pb.isc.org"
+		"ns3.dns.nl"
 	],
 	"policies": [
 		{

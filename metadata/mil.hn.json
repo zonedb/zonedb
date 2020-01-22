@@ -2,7 +2,6 @@
 	"domain": "mil.hn",
 	"nameServers": [
 		"nicmx-anycast.rds.org.hn",
-		"pch-anycast.rds.org.hn",
-		"sns-pb.isc.org"
+		"pch-anycast.rds.org.hn"
 	]
 }

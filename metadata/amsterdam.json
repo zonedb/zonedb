@@ -14,8 +14,7 @@
 	"nameServers": [
 		"ns1.nic.amsterdam",
 		"ns2.nic.amsterdam",
-		"ns3.nic.amsterdam",
-		"sns-pb.isc.org"
+		"ns3.nic.amsterdam"
 	],
 	"policies": [
 		{
