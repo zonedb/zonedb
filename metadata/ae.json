@@ -10,7 +10,6 @@
 		"ns1.aedns.ae",
 		"ns2.aedns.ae",
 		"ns4.apnic.net",
-		"nsext-pch.aedns.ae",
-		"sns-pb.isc.org"
+		"nsext-pch.aedns.ae"
 	]
 }

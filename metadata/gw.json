@@ -8,7 +8,7 @@
 	"nameServers": [
 		"gw01.dns.pt",
 		"gw03.dns.pt",
-		"sns-pb.isc.org"
+		"h.dns.pt"
 	],
 	"policies": [
 		{

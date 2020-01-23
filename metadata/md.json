@@ -7,13 +7,10 @@
 	"whoisServer": "whois.nic.md",
 	"nameServers": [
 		"dns-md.rotld.ro",
-		"ns-ext.isc.org",
 		"ns-int.dns.md",
 		"nsb.dns.md",
 		"nsc.dns.md",
-		"nsca.dns.md",
-		"nsf.dns.md",
-		"nsfr.dns.md"
+		"nsf.dns.md"
 	],
 	"policies": [
 		{
