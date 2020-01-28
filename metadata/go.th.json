@@ -2,11 +2,9 @@
 	"domain": "go.th",
 	"nameServers": [
 		"a.thains.co.th",
-		"ams.sns-pb.isc.org",
 		"b.thains.co.th",
 		"c.thains.co.th",
 		"ns.thnic.net",
-		"ord.sns-pb.isc.org",
 		"p.thains.co.th"
 	],
 	"policies": [
