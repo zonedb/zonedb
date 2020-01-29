@@ -11,8 +11,7 @@
 		"dns-ro.denic.de",
 		"primary.rotld.ro",
 		"sec-dns-a.rotld.ro",
-		"sec-dns-b.rotld.ro",
-		"sns-pb.isc.org"
+		"sec-dns-b.rotld.ro"
 	],
 	"policies": [
 		{

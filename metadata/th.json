@@ -6,15 +6,13 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.thnic.co.th",
+	"whoisServer": "whois.thains.co.th",
 	"nameServers": [
 		"a.thains.co.th",
-		"ams.sns-pb.isc.org",
 		"b.thains.co.th",
 		"c.thains.co.th",
 		"ns.thnic.net",
-		"p.thains.co.th",
-		"sfba.sns-pb.isc.org"
+		"p.thains.co.th"
 	],
 	"policies": [
 		{
