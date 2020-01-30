@@ -3,7 +3,6 @@
 	"nameServers": [
 		"a.lactld.org",
 		"n2.nic.ec",
-		"n3.dns.ec",
-		"sns-pb.isc.org"
+		"n3.dns.ec"
 	]
 }

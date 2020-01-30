@@ -1,0 +1,10 @@
+{
+	"domain": "ລາວ",
+	"whoisServer": "whois.nic.la",
+	"nameServers": [
+		"a.ລາວ.centralnic-dns.com",
+		"b.ລາວ.centralnic-dns.com",
+		"c.ລາວ.centralnic-dns.com",
+		"d.ລາວ.centralnic-dns.com"
+	]
+}
