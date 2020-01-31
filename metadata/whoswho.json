@@ -9,11 +9,7 @@
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
-		"anycast9.irondns.net",
-		"ns1.dns.nic.whoswho",
-		"ns2.dns.nic.whoswho",
-		"ns3.dns.nic.whoswho",
-		"ns4.dns.nic.whoswho"
+		"anycast9.irondns.net"
 	],
 	"policies": [
 		{
