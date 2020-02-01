@@ -7,8 +7,7 @@
 	"whoisServer": "whois.nic.ki",
 	"nameServers": [
 		"ns.cocca.fr",
-		"pch.nic.ki",
-		"sns-pb.isc.org"
+		"pch.nic.ki"
 	],
 	"policies": [
 		{
