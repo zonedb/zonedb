@@ -1,11 +1,10 @@
 {
 	"domain": "ru.tc",
 	"nameServers": [
-		"ns1.parkingcrew.net",
-		"ns2.parkingcrew.net"
+		"suspended.nic.tc"
 	],
 	"wildcards": [
-		"185.53.178.9"
+		"31.169.81.202"
 	],
 	"policies": [
 		{
