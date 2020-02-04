@@ -12,8 +12,7 @@
 		"ns-tz.afrinic.net",
 		"ns.anycast.co.tz",
 		"ns2.tznic.or.tz",
-		"rip.psg.com",
-		"sns-pb.isc.org"
+		"rip.psg.com"
 	],
 	"policies": [
 		{
