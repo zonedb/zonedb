@@ -1,13 +1,13 @@
 {
 	"domain": "org.sa",
 	"nameServers": [
+		"c1.dns.sa",
+		"c2.dns.sa",
 		"i1.dns.sa",
-		"n.nic.net.sa",
-		"ns1.nic.net.sa",
-		"ns2.nic.net.sa",
-		"p.nic.net.sa",
-		"s.nic.net.sa",
-		"s2.nic.net.sa"
+		"n1.dns.sa",
+		"p1.dns.sa",
+		"s1.dns.sa",
+		"s2.dns.sa"
 	],
 	"policies": [
 		{
