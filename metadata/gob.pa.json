@@ -2,7 +2,6 @@
 	"domain": "gob.pa",
 	"nameServers": [
 		"dns.nic.cr",
-		"ns-ext.nic.cl",
 		"ns.dns.br",
 		"ns.nic.pa",
 		"ns.pa",
