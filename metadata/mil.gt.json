@@ -2,6 +2,7 @@
 	"domain": "mil.gt",
 	"nameServers": [
 		"a.lactld.org",
+		"ns-cz.gt",
 		"ns.dns.br",
 		"pch.gt",
 		"ssdns-tld.nic.cl"
