@@ -1,5 +1,9 @@
 {
 	"domain": "org.ne",
+	"nameServers": [
+		"sdns2.ovh.net",
+		"vps241916.ovh.net"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
