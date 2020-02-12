@@ -5,12 +5,12 @@
 	],
 	"whoisServer": "whois.nic.uno",
 	"nameServers": [
+		"a.nic.uno",
+		"b.nic.uno",
 		"ns1.dns.nic.uno",
 		"ns2.dns.nic.uno",
 		"ns3.dns.nic.uno",
-		"ns4.dns.nic.uno",
-		"ns5.dns.nic.uno",
-		"ns6.dns.nic.uno"
+		"ns4.dns.nic.uno"
 	],
 	"policies": [
 		{
