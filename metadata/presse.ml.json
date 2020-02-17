@@ -4,9 +4,9 @@
 		"retired"
 	],
 	"nameServers": [
-		"ns551.znoc.net",
-		"ns552.znoc.net",
-		"ns553.znoc.net"
+		"ns1.presse.ml",
+		"ns2.presse.ml",
+		"ns3.presse.ml"
 	],
 	"policies": [
 		{
