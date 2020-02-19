@@ -11,8 +11,7 @@
 		"c.tld.ma",
 		"d.tld.ma",
 		"dns.inria.fr",
-		"ns-ma.nic.fr",
-		"sns-pb.isc.org"
+		"ns-ma.nic.fr"
 	],
 	"policies": [
 		{

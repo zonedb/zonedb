@@ -7,6 +7,8 @@
 	"nameServers": [
 		"a.nic.uno",
 		"b.nic.uno",
+		"c.nic.uno",
+		"d.nic.uno",
 		"ns1.dns.nic.uno",
 		"ns2.dns.nic.uno",
 		"ns3.dns.nic.uno",
