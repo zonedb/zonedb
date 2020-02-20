@@ -7,7 +7,9 @@
 	],
 	"whoisServer": "whois.nic.quest",
 	"nameServers": [
+		"a-cnic.nic.quest",
 		"a.nic.quest",
+		"b-cnic.nic.quest",
 		"b.nic.quest",
 		"c.nic.quest",
 		"d.nic.quest"
