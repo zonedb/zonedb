@@ -8,7 +8,6 @@
 		"fork.sth.dnsnode.net",
 		"ns-cdn.amnic.net",
 		"ns-pch.amnic.net",
-		"ns-pri.nic.am",
-		"sns-pb.isc.org"
+		"ns-pri.nic.am"
 	]
 }
