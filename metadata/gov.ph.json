@@ -1,6 +1,8 @@
 {
 	"domain": "gov.ph",
 	"nameServers": [
+		"gabriela.ph.net",
+		"gomez.ph.net",
 		"ns1.gov.ph",
 		"ns2.gov.ph"
 	],
