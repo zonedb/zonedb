@@ -5,8 +5,7 @@
 		"dns1.gov.pt",
 		"europe1.dnsnode.net",
 		"ns02.fccn.pt",
-		"nsp.dnsnode.net",
-		"sns-pb.isc.org"
+		"nsp.dnsnode.net"
 	],
 	"policies": [
 		{
