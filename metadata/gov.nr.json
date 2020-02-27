@@ -2,7 +2,8 @@
 	"domain": "gov.nr",
 	"nameServers": [
 		"ns0.cenpac.net.nr",
-		"ns1.cenpac.net.nr"
+		"ns1.cenpac.net.nr",
+		"phloem.uoregon.edu"
 	],
 	"policies": [
 		{

@@ -3,8 +3,7 @@
 	"nameServers": [
 		"ns0.cenpac.net.nr",
 		"ns1.cenpac.net.nr",
-		"ns2.cenpac.net.nr",
-		"sns-pb.isc.org"
+		"ns2.cenpac.net.nr"
 	],
 	"policies": [
 		{
