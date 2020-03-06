@@ -264,7 +264,7 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/com_latn_1.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/com_latn_2.6.txt"
 		},
 		{
 			"type": "idn-table",
