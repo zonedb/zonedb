@@ -1,10 +1,7 @@
 {
 	"domain": "ne.pw",
 	"nameServers": [
-		"ns1-show.myhostadmin.net",
-		"ns2-show.myhostadmin.net"
-	],
-	"wildcards": [
-		"23.234.27.209"
+		"ns1.dns.com",
+		"ns2.dns.com"
 	]
 }
