@@ -1,9 +1,9 @@
 {
 	"domain": "com.ba",
 	"nameServers": [
-		"ns.com.ba",
-		"ns2.com.ba",
-		"ns3.com.ba"
+		"ns1.hosting.bhtelecom.ba",
+		"ns2.hosting.bhtelecom.ba",
+		"ns3.hosting.bhtelecom.ba"
 	],
 	"wildcards": [
 		"195.222.33.180"
