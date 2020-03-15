@@ -6,12 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.vistaprint",
-	"nameServers": [
-		"a.nic.vistaprint",
-		"b.nic.vistaprint",
-		"c.nic.vistaprint",
-		"d.nic.vistaprint"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
