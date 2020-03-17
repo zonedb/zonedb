@@ -11,6 +11,7 @@
 	],
 	"whoisServer": "whois.ryce-rsp.com",
 	"nameServers": [
+		"dns.ryce-rsp.com",
 		"ns1.ryce-rsp.com",
 		"nsa.netnod.se",
 		"nsp.netnod.se",
