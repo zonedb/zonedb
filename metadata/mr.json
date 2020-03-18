@@ -6,7 +6,6 @@
 	],
 	"whoisServer": "whois.nic.mr",
 	"nameServers": [
-		"censvrns0001.ird.fr",
 		"ns-mr.afrinic.net",
 		"ns-mr.nic.fr",
 		"ns-mr.nic.tn",
