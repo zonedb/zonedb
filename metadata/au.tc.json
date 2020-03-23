@@ -1,8 +1,8 @@
 {
 	"domain": "au.tc",
 	"nameServers": [
-		"alexandra.ns.cloudflare.com",
-		"kipp.ns.cloudflare.com"
+		"hera.ns.cloudflare.com",
+		"jerome.ns.cloudflare.com"
 	],
 	"policies": [
 		{
