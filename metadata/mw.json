@@ -8,6 +8,7 @@
 	"whoisURL": "http://www.registrar.mw/",
 	"nameServers": [
 		"chambo.sdnp.org.mw",
+		"d.ext.nic.cz",
 		"domwe.sdn.mw",
 		"mw.cctld.authdns.ripe.net",
 		"ns4.apnic.net",

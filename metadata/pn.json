@@ -7,6 +7,8 @@
 	],
 	"whoisURL": "http://www.pitcairn.pn/PnRegistry/",
 	"nameServers": [
+		"dns1.nominetdns.uk",
+		"dns4.nominetdns.uk",
 		"fork.sth.dnsnode.net",
 		"ns0.pitcairn.net.pn",
 		"ns1.pitcairn.net.pn",
