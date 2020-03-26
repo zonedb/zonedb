@@ -1,8 +1,8 @@
 {
 	"domain": "ua.tc",
 	"nameServers": [
-		"rihana.ns.cloudflare.com",
-		"zeus.ns.cloudflare.com"
+		"ns11.prohoster.site",
+		"ns12.prohoster.top"
 	],
 	"policies": [
 		{
