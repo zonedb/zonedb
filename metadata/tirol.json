@@ -11,10 +11,8 @@
 	"whoisServer": "whois.nic.tirol",
 	"nameServers": [
 		"dns.ryce-rsp.com",
-		"ns1.ryce-rsp.com",
-		"nsa.netnod.se",
-		"nsp.netnod.se",
-		"nsu.netnod.se"
+		"ns1.dns.business",
+		"ns1.ryce-rsp.com"
 	],
 	"policies": [
 		{

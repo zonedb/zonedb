@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois-bostik.nic.fr",
+	"whoisServer": "whois.nic.bostik",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",
