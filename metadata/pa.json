@@ -8,12 +8,11 @@
 	"whoisURL": "http://www.nic.pa/",
 	"nameServers": [
 		"dns.nic.cr",
-		"ns-ext.nic.cl",
 		"ns.dns.br",
 		"ns.nic.pa",
 		"ns.pa",
 		"ns2.pa",
-		"sns-pb.isc.org"
+		"ssdns-tld.nic.cl"
 	],
 	"policies": [
 		{
