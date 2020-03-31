@@ -4,6 +4,9 @@
 		"ns1.edu.uz",
 		"ns2.edu.uz"
 	],
+	"wildcards": [
+		"87.237.234.49"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
