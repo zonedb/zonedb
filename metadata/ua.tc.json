@@ -1,9 +1,9 @@
 {
 	"domain": "ua.tc",
 	"nameServers": [
-		"ns11.prohoster.site",
-		"ns12.prohoster.top",
-		"ns13.ua.tc"
+		"ns1.prohoster.name",
+		"ns2.prohoster.cc",
+		"ns3.ua.tc"
 	],
 	"policies": [
 		{
