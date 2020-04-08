@@ -1,8 +1,8 @@
 {
 	"domain": "br.tc",
 	"nameServers": [
-		"lee.ns.cloudflare.com",
-		"mimi.ns.cloudflare.com"
+		"dorthy.ns.cloudflare.com",
+		"luke.ns.cloudflare.com"
 	],
 	"policies": [
 		{

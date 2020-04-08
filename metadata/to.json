@@ -7,10 +7,12 @@
 	],
 	"whoisServer": "whois.tonic.to",
 	"nameServers": [
-		"colo.to",
+		"colo.tonic.to",
 		"frankfurt.tonic.to",
+		"helsinki.tonic.to",
 		"newyork.tonic.to",
 		"singapore.tonic.to",
+		"sydney.tonic.to",
 		"tonic.to"
 	]
 }
