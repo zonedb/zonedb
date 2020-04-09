@@ -2,9 +2,12 @@
 	"domain": "co.gg",
 	"nameServers": [
 		"a.ci-servers.net",
+		"b.ci-servers.com",
 		"b.ci-servers.org",
 		"c.ci-servers.org",
-		"d.ci-servers.je"
+		"d.ci-servers.je",
+		"f.ci-servers.je",
+		"g.ci-servers.gg"
 	],
 	"policies": [
 		{
