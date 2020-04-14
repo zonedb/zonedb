@@ -8,7 +8,9 @@
 	"nameServers": [
 		"c.ci-servers.org",
 		"d.ci-servers.je",
+		"dns1.nominetdns.uk",
 		"e.ci-servers.gg",
+		"f.ci-servers.je",
 		"ns0.ja.net",
 		"ns99.dns.net.nz"
 	],
