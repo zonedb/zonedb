@@ -1,5 +1,9 @@
 {
 	"domain": "presse.ci",
+	"nameServers": [
+		"ns1.dns.com",
+		"ns2.dns.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
