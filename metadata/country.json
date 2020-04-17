@@ -6,10 +6,6 @@
 	],
 	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
-		"a.ns.nic.country",
-		"b.ns.nic.country",
-		"c.ns.nic.country",
-		"d.ns.nic.country",
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns3.uniregistry.net",
