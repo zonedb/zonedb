@@ -3,11 +3,8 @@
 	"nameServers": [
 		"a.nic.kw",
 		"b.nic.kw",
-		"c.nic.kw",
-		"d.nic.kw",
 		"e.nic.kw",
-		"pch.nic.kw",
-		"sns-pb.isc.org"
+		"pch.nic.kw"
 	],
 	"policies": [
 		{

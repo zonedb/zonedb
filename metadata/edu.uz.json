@@ -2,7 +2,9 @@
 	"domain": "edu.uz",
 	"nameServers": [
 		"ns1.edu.uz",
-		"ns2.edu.uz"
+		"ns1.uzcloud.uz",
+		"ns2.edu.uz",
+		"ns2.uzcloud.uz"
 	],
 	"policies": [
 		{
