@@ -1,0 +1,7 @@
+{
+	"domain": "грозный.рус",
+	"nameServers": [
+		"ns1.rlnic.ru",
+		"ns2.rlnic.ru"
+	]
+}

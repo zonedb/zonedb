@@ -1,0 +1,7 @@
+{
+	"domain": "бел.рус",
+	"nameServers": [
+		"ns1.gohost.ru",
+		"ns2.gohost.ru"
+	]
+}
