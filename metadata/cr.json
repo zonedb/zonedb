@@ -8,12 +8,10 @@
 	"whoisURL": "http://www.nic.cr/niccr_publico/showRegistroDominiosScreen.do",
 	"nameServers": [
 		"a.lactld.org",
-		"a.ns.cr",
 		"ca1.nic.cr",
 		"ca2.nic.cr",
 		"de.nic.cr",
-		"ns-ext.nic.cl",
-		"ns3.nic.mx",
+		"dns.nic.cr",
 		"p.nic.cr"
 	],
 	"policies": [
