@@ -1,5 +1,8 @@
 {
 	"domain": "бел.рус",
+	"tags": [
+		"private"
+	],
 	"nameServers": [
 		"ns1.gohost.ru",
 		"ns2.gohost.ru"
