@@ -1,0 +1,10 @@
+{
+	"domain": "ком.рф",
+	"tags": [
+		"private"
+	],
+	"nameServers": [
+		"ns1.nameself.com",
+		"ns2.nameself.com"
+	]
+}
