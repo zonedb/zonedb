@@ -2,10 +2,7 @@
 	"domain": "asso.ci",
 	"infoURL": "http://www.nic.ci/",
 	"nameServers": [
-		"ns1.dns.com",
-		"ns2.dns.com"
-	],
-	"wildcards": [
-		"103.195.187.39"
+		"f1g1ns1.dnspod.net",
+		"f1g1ns2.dnspod.net"
 	]
 }

@@ -1,9 +1,5 @@
 {
 	"domain": "ie.tc",
-	"nameServers": [
-		"ns1.cloudflare.com",
-		"ns2.cloudflare.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

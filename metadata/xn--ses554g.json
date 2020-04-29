@@ -15,6 +15,31 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--ses554g_de_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--ses554g_es_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--ses554g_fr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--ses554g_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--ses554g_ru_1.0.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "zh-Hans",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--ses554g_zh-hans_1.0.txt"
 		},
