@@ -4,5 +4,8 @@
 	"nameServers": [
 		"f1g1ns1.dnspod.net",
 		"f1g1ns2.dnspod.net"
+	],
+	"wildcards": [
+		"103.195.187.39"
 	]
 }
