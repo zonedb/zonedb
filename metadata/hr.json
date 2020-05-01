@@ -7,8 +7,7 @@
 	"whoisServer": "whois.dns.hr",
 	"nameServers": [
 		"hr-ns-1.carnet.hr",
-		"pch.carnet.hr",
-		"sns-pb.isc.org"
+		"pch.carnet.hr"
 	],
 	"policies": [
 		{

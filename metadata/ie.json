@@ -7,7 +7,6 @@
 	],
 	"whoisServer": "whois.iedr.ie",
 	"nameServers": [
-		"a.ns.ie",
 		"b.ns.ie",
 		"c.ns.ie",
 		"d.ns.ie",
