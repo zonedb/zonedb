@@ -6,10 +6,14 @@
 	],
 	"whoisServer": "whois.nic.cyou",
 	"nameServers": [
+		"a.nic.cyou",
 		"a0.nic.cyou",
 		"a2.nic.cyou",
+		"b.nic.cyou",
 		"b0.nic.cyou",
-		"c0.nic.cyou"
+		"c.nic.cyou",
+		"c0.nic.cyou",
+		"d.nic.cyou"
 	],
 	"policies": [
 		{

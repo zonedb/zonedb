@@ -15,7 +15,8 @@
 		"c.ns.dns.be",
 		"d.ns.dns.be",
 		"x.nic.vlaanderen",
-		"y.ns.dns.be"
+		"y.ns.dns.be",
+		"z.nsset.vlaanderen"
 	],
 	"policies": [
 		{
