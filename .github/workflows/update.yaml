@@ -1,0 +1,29 @@
+name: Update
+
+# Enable during development
+on: [push]
+
+# Enable for daily auto-updates
+# on:
+#     schedule:
+#     - cron: 07 8 * * * # 08:07 UTC is 00:07 PST
+
+jobs:
+    update:
+      runs-on: ubuntu-latest
+  
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+  
+        - name: Set up Go
+          uses: actions/setup-go@v2
+        
+        - name: Install dependencies
+          run: go get -t -d -v ./...
+        
+        - name: Build
+          run: go build -v
+        
+        - name: Run tests
+          run: make test
