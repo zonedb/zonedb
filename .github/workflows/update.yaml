@@ -1,7 +1,13 @@
 name: Update
 
-# Enable during development
-on: [push]
+# FIXME: Delete when the PR is ready
+on:
+    push:
+      branches: 
+        - "gh-actions-update"
+      paths-ignore:
+        - "metadata/**"
+        - "zones.go"
 
 # Enable for daily auto-updates
 # on:
@@ -27,3 +33,14 @@ jobs:
         
         - name: Run tests
           run: make test
+
+        - name: Update data
+          run: make update
+        
+        - name: Push updates to GitHub
+          run: |
+            git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+            git config --local user.name "GitHub Actions"
+            git add . && git commit -m "auto-update"
+            repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+            git push origin -u HEAD;
