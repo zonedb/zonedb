@@ -2,45 +2,46 @@ name: Update
 
 # FIXME: Delete when the PR is ready
 on:
-    push:
-      branches: 
-        - "gh-actions-update"
-      paths-ignore:
-        - "metadata/**"
-        - "zones.go"
+  push:
+    branches: 
+      - "gh-actions-update"
 
 # Enable for daily auto-updates
 # on:
 #     schedule:
 #     - cron: 07 8 * * * # 08:07 UTC is 00:07 PST
 
-jobs:
-    update:
-      runs-on: ubuntu-latest
-  
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v2
-  
-        - name: Set up Go
-          uses: actions/setup-go@v2
-        
-        - name: Install dependencies
-          run: go get -t -d -v ./...
-        
-        - name: Build
-          run: go build -v
-        
-        - name: Run tests
-          run: make test
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-        - name: Update data
-          run: make update
-        
-        - name: Push updates to GitHub
-          run: |
-            git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-            git config --local user.name "GitHub Actions"
-            git add . && git commit -m "auto-update"
-            repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-            git push origin -u HEAD;
+jobs:
+  auto-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Go
+        uses: actions/setup-go@v2
+      
+      - name: Install dependencies
+        run: go get -t -d -v ./...
+      
+      - name: Build
+        run: go build -v
+
+      - name: Update data
+        run: make update
+
+      - name: Create a pull request
+        run: |
+          git diff --exit-code HEAD ||
+          (
+            git config --global user.name GitHub Actions &&
+            git config --global user.email noreply@github.com &&
+            git checkout -b "data/$(date -u '+%Y-%m-%dT%H.%M.%SZ')" &&
+            git add . && git commit -m 'auto-update' &&
+            git push origin -u HEAD &&
+            hub pull-request --labels automerge -m 'data auto-update'
+          )
