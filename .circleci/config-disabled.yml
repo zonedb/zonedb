@@ -1,0 +1,60 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/go/src/github.com/zonedb/zonedb
+    docker:
+      - image: domainr/ci:swan
+    steps:
+      - checkout
+      - run: go get -t -d -v ./...
+      - run: go build -v
+
+      # Run tests
+      - run: mkdir -p test-results
+      - run: |
+          trap "go-junit-report < test-results/go-test.log > test-results/go-test-report.xml" EXIT
+          go test -v -race -bench . ./... | tee test-results/go-test.log
+
+      # Report
+      - store_test_results:
+          path: test-results
+      - store_artifacts:
+          path: test-results
+          destination: results
+      
+      # Deploy
+      - deploy:
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              make tag-version
+            fi
+
+  update:
+    working_directory: ~/go/src/github.com/zonedb/zonedb
+    docker:
+      - image: domainr/ci:swan
+    steps:
+      - checkout
+      - run: git checkout $CIRCLE_BRANCH && git reset --hard origin/$CIRCLE_BRANCH
+      - run: go get -t -d -v ./...
+      - run: make update
+      - run: git add -v --all .
+      - run: when-git-dirty commit-and-push
+
+workflows:
+  version: 2
+  commit_workflow:
+    jobs:
+      - build
+  scheduled_workflow:
+    jobs:
+      - update:
+          context: org-global
+    triggers:
+      # Circle operates in UTC. 12:07 AM PST is 8:07 AM UTC
+      - schedule:
+          cron: "07 8 * * *"
+          filters:
+            branches:
+              only:
+                - master
