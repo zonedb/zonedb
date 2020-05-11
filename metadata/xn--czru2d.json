@@ -3,13 +3,8 @@
 	"whoisServer": "whois.gtld.knet.cn",
 	"nameServers": [
 		"a.zdnscloud.com",
-		"b.zdnscloud.com",
 		"c.zdnscloud.com",
-		"d.zdnscloud.com",
-		"f.zdnscloud.com",
-		"g.zdnscloud.com",
-		"i.zdnscloud.com",
-		"j.zdnscloud.com"
+		"g.zdnscloud.com"
 	],
 	"policies": [
 		{
