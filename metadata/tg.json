@@ -13,8 +13,7 @@
 		"ns2.nic.tg",
 		"ns3.admin.net",
 		"ns4.admin.net",
-		"ns5.admin.net",
-		"tld.cafe.tg"
+		"ns5.admin.net"
 	],
 	"policies": [
 		{
