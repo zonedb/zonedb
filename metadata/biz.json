@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.nic.biz",
+	"whoisServer": "whois.biz",
 	"nameServers": [
 		"a.gtld.biz",
 		"b.gtld.biz",
