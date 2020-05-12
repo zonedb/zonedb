@@ -12,7 +12,7 @@ on:
 #     - cron: 07 8 * * * # 08:07 UTC is 00:07 PST
 
 env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  ZONEDBOT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   auto-update:
