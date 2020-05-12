@@ -3,8 +3,8 @@ name: Update
 # FIXME: Delete when the PR is ready
 on:
   push:
-    branches: 
-      - "gh-actions-update"
+    paths: 
+      - "update.yaml"
 
 # Enable for daily auto-updates
 # on:
