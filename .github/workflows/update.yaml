@@ -41,7 +41,7 @@ jobs:
             git config --global user.name GitHub Actions &&
             git config --global user.email noreply@github.com &&
             git checkout -b "data/$(date -u '+%Y-%m-%dT%H.%M.%SZ')" &&
-            git add . && git commit -m 'auto-update' &&
+            git add . && git commit -m 'Data auto-update' &&
             git push origin -u HEAD &&
-            hub pull-request --labels automerge -m 'data auto-update'
+            hub pull-request --labels automerge -m "Data auto-update: $(date -u '+%Y-%m-%d')"
           )
