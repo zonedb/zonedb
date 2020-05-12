@@ -27,9 +27,6 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v2
       
-      - name: Install dependencies
-        run: go get -t -d -v ./...
-      
       - name: Build
         run: go build -v
 
