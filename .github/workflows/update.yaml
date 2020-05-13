@@ -9,7 +9,7 @@ on:
 # Enable for daily auto-updates
 # on:
 #     schedule:
-#     - cron: 07 8 * * * # 08:07 UTC is 00:07 PST
+#     - cron: '07 8 * * *' # 08:07 UTC is 00:07 PST
 
 env:
   ZONEDBOT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
