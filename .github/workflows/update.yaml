@@ -32,6 +32,9 @@ jobs:
 
       - name: Update data
         run: make update
+      
+      - name: Verify repo is unchanged
+        run: git diff --exit-code HEAD
 
       - name: Create a pull request
         run: |
