@@ -17,6 +17,9 @@ on:
 #         types:
 #             - completed
 
+env:
+    GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
 jobs:
     automerge:
         runs-on: ubuntu-latest
@@ -25,5 +28,19 @@ jobs:
         - name: automerge
           uses: "pascalgn/automerge-action@v0.8.1"
           env:
-            GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
             MERGE_LABELS: "automerge"
+
+        # Tag the release
+        - name: Checkout
+            uses: actions/checkout@v2
+            with:
+              ref: master
+
+        - name: Tag release
+            run: |
+                git diff --exit-code HEAD ||
+                (
+                    git config --global user.name ZoneDBot &&
+                    git config --global user.email noreply@github.com &&
+                    make tag-version
+                )
