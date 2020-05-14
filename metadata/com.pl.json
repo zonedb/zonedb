@@ -1,7 +1,6 @@
 {
 	"domain": "com.pl",
 	"nameServers": [
-		"a-dns.pl",
 		"b-dns.pl",
 		"c-dns.pl",
 		"d-dns.pl",

@@ -1,7 +1,6 @@
 {
 	"domain": "augustow.pl",
 	"nameServers": [
-		"a-dns.pl",
 		"b-dns.pl",
 		"c-dns.pl",
 		"e-dns.pl",
