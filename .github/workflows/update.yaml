@@ -1,6 +1,6 @@
 name: Update
 
-# FIXME: Delete when the PR is ready
+# Enable while working on this file
 on:
   push:
     paths: 
