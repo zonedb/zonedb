@@ -1,0 +1,29 @@
+# Via: https://github.com/pascalgn/automerge-action
+
+name: Automerge
+
+# Enable while working on this file
+on:
+    push:
+        paths: 
+            - "automerge.yaml"
+
+# Enable to automerge the daily data updates
+# on:
+#     pull_request:
+#         types:
+#             - labeled
+#     check_suite:
+#         types:
+#             - completed
+
+jobs:
+    automerge:
+        runs-on: ubuntu-latest
+
+        steps:
+        - name: automerge
+          uses: "pascalgn/automerge-action@v0.8.1"
+          env:
+            GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+            MERGE_LABELS: "automerge"
