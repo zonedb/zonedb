@@ -32,12 +32,12 @@ jobs:
 
         # Tag the release
         - name: Checkout
-            uses: actions/checkout@v2
-            with:
+          uses: actions/checkout@v2
+          with:
               ref: master
 
         - name: Tag release
-            run: |
+          run: |
                 git diff --exit-code HEAD ||
                 (
                     git config --global user.name ZoneDBot &&
