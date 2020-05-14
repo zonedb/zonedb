@@ -41,7 +41,7 @@ jobs:
           git diff --exit-code HEAD ||
           (
             git config --global user.name ZoneDBot &&
-            git config --global user.email noreply@github.com &&
+            git config --global user.email robot@zonedb.org &&
             git checkout -b "data/$(date -u '+%Y-%m-%dT%H.%M.%SZ')" &&
             git add . && git commit -m 'Data auto-update' &&
             git push origin -u HEAD &&
