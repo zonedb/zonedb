@@ -27,6 +27,7 @@ jobs:
         steps:
         - name: automerge
           uses: "pascalgn/automerge-action@v0.8.1"
+          if: github.actor == 'ZoneDBot'
           env:
             MERGE_LABELS: "automerge"
 
