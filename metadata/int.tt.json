@@ -3,5 +3,8 @@
 	"nameServers": [
 		"ns1.dnsdun.com",
 		"ns1.dnsdun.net"
+	],
+	"wildcards": [
+		"116.206.107.92"
 	]
 }

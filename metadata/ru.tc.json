@@ -4,9 +4,6 @@
 		"ns1.parkingcrew.net",
 		"ns2.parkingcrew.net"
 	],
-	"wildcards": [
-		"185.53.178.54"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
