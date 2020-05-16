@@ -1,7 +1,6 @@
 {
 	"domain": "fi.eu.org",
 	"nameServers": [
-		"canada.wolfhugel.eu",
 		"ns.ankh.fr.eu.org",
 		"ns1.eriomem.net",
 		"ns1.eu.org"

@@ -3,8 +3,6 @@
 	"nameServers": [
 		"ns1.eriomem.net",
 		"ns1.eu.org",
-		"ns3.keltia.net",
-		"oz.wolfhugel.eu",
-		"pl.wolfhugel.eu"
+		"ns3.keltia.net"
 	]
 }

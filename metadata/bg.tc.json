@@ -3,6 +3,10 @@
 	"tags": [
 		"retired"
 	],
+	"nameServers": [
+		"ns1.muhammedsoner.com",
+		"ns2.muhammedsoner.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

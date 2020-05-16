@@ -3,14 +3,11 @@
 	"whoisServer": "whois.eu.org",
 	"nameServers": [
 		"auth1.dns.elm.net",
-		"canada.wolfhugel.eu",
 		"dns4.gandi.net",
 		"hobbes.bsd-dk.dk",
 		"ns.bortzmeyer.eu.org",
 		"ns1.eriomem.net",
 		"ns1.eu.org",
-		"ns3.keltia.net",
-		"oz.wolfhugel.eu",
-		"pl.wolfhugel.eu"
+		"ns3.keltia.net"
 	]
 }

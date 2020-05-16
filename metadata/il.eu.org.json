@@ -2,8 +2,6 @@
 	"domain": "il.eu.org",
 	"nameServers": [
 		"ns.eu.org",
-		"ns1.eu.org",
-		"oz.wolfhugel.eu",
-		"pl.wolfhugel.eu"
+		"ns1.eu.org"
 	]
 }

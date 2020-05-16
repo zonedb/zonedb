@@ -1,7 +1,7 @@
 {
 	"domain": "ch.tc",
 	"nameServers": [
-		"dns.ch.tc",
+		"dns.voxel.sh",
 		"voxeldns.net"
 	],
 	"policies": [

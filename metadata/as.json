@@ -8,10 +8,13 @@
 	],
 	"whoisServer": "whois.nic.as",
 	"nameServers": [
-		"c.ci-servers.net",
+		"ns1.asnic.biz",
+		"ns2.asnic.info",
+		"ns3.asnic.org",
+		"ns4.asnic.uk",
+		"ns5.asnic.us",
 		"ns99.dns.net.nz",
-		"pch.nic.as",
-		"tld.gdns.net"
+		"pch.nic.as"
 	],
 	"policies": [
 		{
