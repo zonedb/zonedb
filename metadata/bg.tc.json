@@ -4,8 +4,10 @@
 		"retired"
 	],
 	"nameServers": [
-		"ns1.muhammedsoner.com",
-		"ns2.muhammedsoner.com"
+		"dnsm1.nic.tc",
+		"dnsm2.nic.tc",
+		"dnsm3.nic.tc",
+		"dnsm4.nic.tc"
 	],
 	"policies": [
 		{
