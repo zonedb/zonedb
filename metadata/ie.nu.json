@@ -2,6 +2,8 @@
 	"domain": "ie.nu",
 	"nameServers": [
 		"brain.bb-online.co.uk",
-		"ns1.bb-online.net"
+		"ns1.bb-online.net",
+		"ns2.bb-online.net",
+		"ns5.bb-online.net"
 	]
 }
