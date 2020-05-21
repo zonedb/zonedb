@@ -3,7 +3,8 @@
 	"nameServers": [
 		"ns1.gov.mo",
 		"ns2.gov.mo",
-		"ns3.gov.mo"
+		"ns3.gov.mo",
+		"ns4.gov.mo"
 	],
 	"policies": [
 		{
