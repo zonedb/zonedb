@@ -7,6 +7,7 @@
 	"whoisURL": "http://www.gt/",
 	"nameServers": [
 		"a.lactld.org",
+		"gt.anycastdns.cz",
 		"ns-cz.gt",
 		"ns.dns.br",
 		"pch.gt",
