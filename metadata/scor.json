@@ -6,12 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.scor",
-	"nameServers": [
-		"a.nic.scor",
-		"b.nic.scor",
-		"c.nic.scor",
-		"d.nic.scor"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
