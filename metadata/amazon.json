@@ -6,6 +6,17 @@
 		"generic",
 		"withdrawn"
 	],
+	"whoisServer": "whois.nic.amazon",
+	"nameServers": [
+		"dns1.nic.amazon",
+		"dns2.nic.amazon",
+		"dns3.nic.amazon",
+		"dns4.nic.amazon",
+		"dnsa.nic.amazon",
+		"dnsb.nic.amazon",
+		"dnsc.nic.amazon",
+		"dnsd.nic.amazon"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

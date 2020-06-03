@@ -4,5 +4,15 @@
 	"tags": [
 		"generic",
 		"withdrawn"
+	],
+	"nameServers": [
+		"dns1.nic.亚马逊",
+		"dns2.nic.亚马逊",
+		"dns3.nic.亚马逊",
+		"dns4.nic.亚马逊",
+		"dnsa.nic.亚马逊",
+		"dnsb.nic.亚马逊",
+		"dnsc.nic.亚马逊",
+		"dnsd.nic.亚马逊"
 	]
 }

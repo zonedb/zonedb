@@ -4,5 +4,15 @@
 	"tags": [
 		"generic",
 		"withdrawn"
+	],
+	"nameServers": [
+		"dns1.nic.アマゾン",
+		"dns2.nic.アマゾン",
+		"dns3.nic.アマゾン",
+		"dns4.nic.アマゾン",
+		"dnsa.nic.アマゾン",
+		"dnsb.nic.アマゾン",
+		"dnsc.nic.アマゾン",
+		"dnsd.nic.アマゾン"
 	]
 }
