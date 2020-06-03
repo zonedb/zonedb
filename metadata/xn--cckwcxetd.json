@@ -5,6 +5,7 @@
 		"generic",
 		"withdrawn"
 	],
+	"whoisServer": "whois.nic.アマゾン",
 	"nameServers": [
 		"dns1.nic.アマゾン",
 		"dns2.nic.アマゾン",

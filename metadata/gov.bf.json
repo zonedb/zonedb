@@ -4,6 +4,10 @@
 		"ntoo.gov.bf",
 		"oubri.gov.bf"
 	],
+	"wildcards": [
+		"23.202.231.169",
+		"23.217.138.110"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

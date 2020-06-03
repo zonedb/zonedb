@@ -6,10 +6,6 @@
 		"maceio.porkbun.com",
 		"salvador.porkbun.com"
 	],
-	"wildcards": [
-		"44.227.65.245",
-		"pixie.porkbun.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

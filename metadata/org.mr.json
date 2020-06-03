@@ -1,0 +1,11 @@
+{
+	"domain": "org.mr",
+	"nameServers": [
+		"ns-mr.afrinic.net",
+		"ns-mr.nic.fr",
+		"ns-mr.nic.tn",
+		"ns1.nic.mr",
+		"ns2.nic.mr",
+		"ns3.nic.mr"
+	]
+}

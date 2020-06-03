@@ -5,6 +5,7 @@
 		"generic",
 		"withdrawn"
 	],
+	"whoisServer": "whois.nic.亚马逊",
 	"nameServers": [
 		"dns1.nic.亚马逊",
 		"dns2.nic.亚马逊",
