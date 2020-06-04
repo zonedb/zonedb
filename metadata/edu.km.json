@@ -4,10 +4,6 @@
 		"dns1.nic.km",
 		"dns2.nic.km"
 	],
-	"wildcards": [
-		"23.202.231.169",
-		"23.217.138.110"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
