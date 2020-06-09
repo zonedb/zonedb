@@ -2,6 +2,7 @@
 	"domain": "agro.pl",
 	"infoURL": "http://tld.by/",
 	"nameServers": [
+		"a-dns.pl",
 		"b-dns.pl",
 		"c-dns.pl",
 		"d-dns.pl",
