@@ -1,5 +1,10 @@
 {
 	"domain": "ua.tc",
+	"nameServers": [
+		"ns1.prohoster.name",
+		"ns2.prohoster.cc",
+		"ns3.ua.tc"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
