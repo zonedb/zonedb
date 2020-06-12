@@ -10,7 +10,11 @@
 		"a.nic.virgin",
 		"b.nic.virgin",
 		"c.nic.virgin",
-		"d.nic.virgin"
+		"d.nic.virgin",
+		"dns1.nic.virgin",
+		"dns2.nic.virgin",
+		"dns3.nic.virgin",
+		"dns4.nic.virgin"
 	],
 	"policies": [
 		{
