@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois-aquarelle.nic.fr",
+	"whoisServer": "whois.nic.aquarelle",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

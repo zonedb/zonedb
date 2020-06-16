@@ -2,7 +2,6 @@
 	"domain": "net.eu.org",
 	"nameServers": [
 		"ns1.eriomem.net",
-		"ns1.eu.org",
-		"ns2.lf.net"
+		"ns1.eu.org"
 	]
 }
