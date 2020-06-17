@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois-mma.nic.fr",
+	"whoisServer": "whois.nic.mma",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

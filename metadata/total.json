@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois-total.nic.fr",
+	"whoisServer": "whois.nic.total",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",
