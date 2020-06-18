@@ -12,7 +12,11 @@
 		"dns1.nic.virgin",
 		"dns2.nic.virgin",
 		"dns3.nic.virgin",
-		"dns4.nic.virgin"
+		"dns4.nic.virgin",
+		"dnsa.nic.virgin",
+		"dnsb.nic.virgin",
+		"dnsc.nic.virgin",
+		"dnsd.nic.virgin"
 	],
 	"policies": [
 		{
