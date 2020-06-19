@@ -7,8 +7,6 @@
 	],
 	"whoisServer": "whois.nic.virgin",
 	"nameServers": [
-		"c.nic.virgin",
-		"d.nic.virgin",
 		"dns1.nic.virgin",
 		"dns2.nic.virgin",
 		"dns3.nic.virgin",
