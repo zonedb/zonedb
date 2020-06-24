@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois-lancaster.nic.fr",
+	"whoisServer": "whois.nic.lancaster",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",
