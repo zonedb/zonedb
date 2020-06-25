@@ -5,7 +5,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.nic.mm",
+	"whoisServer": "whois.registry.gov.mm",
 	"nameServers": [
 		"a.nic.net.mm",
 		"b.nic.net.mm",
