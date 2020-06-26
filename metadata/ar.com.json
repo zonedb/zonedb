@@ -7,8 +7,5 @@
 	"nameServers": [
 		"ns69.domaincontrol.com",
 		"ns70.domaincontrol.com"
-	],
-	"wildcards": [
-		"45.248.70.99"
 	]
 }
