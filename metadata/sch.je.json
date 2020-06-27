@@ -1,8 +1,8 @@
 {
 	"domain": "sch.je",
 	"nameServers": [
-		"dns1.itex-ci.net",
-		"dns2.itex-ci.net"
+		"ns1.gov.je",
+		"ns2.gov.je"
 	],
 	"policies": [
 		{
