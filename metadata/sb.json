@@ -7,9 +7,7 @@
 	"whoisServer": "whois.nic.net.sb",
 	"nameServers": [
 		"ns.cocca.fr",
-		"ns.coccaregistry.org",
-		"pch.nic.sb",
-		"sns-pb.isc.org"
+		"pch.nic.sb"
 	],
 	"policies": [
 		{
