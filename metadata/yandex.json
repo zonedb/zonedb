@@ -7,13 +7,9 @@
 	],
 	"whoisServer": "whois.nic.yandex",
 	"nameServers": [
-		"ns1.dns.nic.yandex",
 		"ns1.uniregistry.net",
-		"ns2.dns.nic.yandex",
 		"ns2.uniregistry.info",
-		"ns3.dns.nic.yandex",
 		"ns3.uniregistry.net",
-		"ns4.dns.nic.yandex",
 		"ns4.uniregistry.info"
 	],
 	"policies": [
