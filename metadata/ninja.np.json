@@ -3,6 +3,7 @@
 	"infoURL": "https://register.com.np",
 	"nameServers": [
 		"np-ns.npix.net.np",
+		"ns-ext.vix.com",
 		"ns4.apnic.net",
 		"pch.nnic.np",
 		"sec2.apnic.net",
