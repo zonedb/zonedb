@@ -38,13 +38,13 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 		z.NameServers = nil
 	}
 
+	zp := dns.NewZoneParser(res.Body, "", "")
+
 	limiter := make(chan struct{}, Concurrency)
 	var wg sync.WaitGroup
-	for token := range dns.ParseZone(res.Body, "", "") {
-		if token.Error != nil {
-			continue
-		}
-		h := token.RR.Header()
+
+	for rr, ok := zp.Next(); ok; rr, ok = zp.Next() {
+		h := rr.Header()
 		if h.Rrtype != dns.TypeNS {
 			continue
 		}
@@ -65,7 +65,7 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 		}
 
 		// Extract name server
-		if ns, ok := token.RR.(*dns.NS); ok {
+		if ns, ok := rr.(*dns.NS); ok {
 			limiter <- struct{}{}
 			wg.Add(1)
 			go func(z *Zone, host string) {
@@ -79,7 +79,12 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 			}(z, ns.Ns)
 		}
 	}
+
 	wg.Wait()
+
+	if err := zp.Err(); err != nil {
+		return err
+	}
 
 	// Detect retired or withdrawn TLDs
 	for _, z := range zones {
