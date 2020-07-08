@@ -1,8 +1,6 @@
 {
 	"domain": "net.cy",
 	"nameServers": [
-		"cc-tld-validation-sbg1.rcode0.net",
-		"cc-tld-validation-vie1.rcode0.net",
 		"cy-ns.anycast.pch.net",
 		"cynic.dns.cy",
 		"cynic4.dns.cy",
