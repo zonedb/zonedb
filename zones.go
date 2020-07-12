@@ -4441,7 +4441,7 @@ var y = [5162]Zone{
 	{"mangyshlak.su", &z[1332], x, s{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, s{"178.210.89.119"}, n, e, e, e, 0x0, t},
 	{"mordovia.su", &z[1332], x, s{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, s{"178.210.89.119"}, n, e, e, e, 0x0, t},
 	{"msk.su", &z[1332], x, s{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, s{"178.210.89.119"}, n, e, e, e, 0x0, t},
-	{"murmansk.su", &z[1332], x, s{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, s{"178.210.89.119"}, n, e, e, e, 0x0, t},
+	{"murmansk.su", &z[1332], x, s{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, n, n, e, e, e, 0x0, t},
 	{"nalchik.su", &z[1332], x, s{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, s{"178.210.89.119"}, n, e, e, e, 0x0, t},
 	{"navoi.su", &z[1332], x, s{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, s{"178.210.89.119"}, n, e, e, e, 0x0, t},
 	{"north-kazakhstan.su", &z[1332], x, s{"ns3-geo.nic.ru", "ns4-geo.nic.ru", "ns8-geo.nic.ru"}, s{"178.210.89.119"}, n, e, e, e, 0x0, t},
