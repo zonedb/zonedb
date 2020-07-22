@@ -6,9 +6,8 @@
 	],
 	"whoisServer": "whois.nic.md",
 	"nameServers": [
-		"dns-md.rotld.ro",
-		"ns-int.dns.md",
-		"nsb.dns.md",
+		"nsa.tld.md",
+		"nsb.tld.md",
 		"nsc.dns.md",
 		"nsf.dns.md"
 	],
