@@ -10,5 +10,8 @@
 		"jordan1st.nic.gov.jo",
 		"petra.nic.gov.jo",
 		"rip.psg.com"
+	],
+	"wildcards": [
+		"193.188.66.238"
 	]
 }
