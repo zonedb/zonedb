@@ -8,5 +8,12 @@
 		"d.nic.bg",
 		"e.nic.bg",
 		"p.nic.bg"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "bg-BG",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--90ae_bg-bg_1.0.txt"
+		}
 	]
 }
