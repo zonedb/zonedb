@@ -1,5 +1,8 @@
 {
 	"domain": "name.jo",
+	"wildcards": [
+		"193.188.66.238"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
