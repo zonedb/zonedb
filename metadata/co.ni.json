@@ -3,11 +3,9 @@
 	"nameServers": [
 		"auth01.ns.uu.net",
 		"dns-ext.nic.cr",
-		"ns.ibw.com.ni",
 		"ns.ideay.net.ni",
 		"ns.ni",
 		"ns.uu.net",
-		"ns1.bb-online.net",
 		"ns2.ni",
 		"ns3.ni"
 	],
