@@ -3,8 +3,5 @@
 	"nameServers": [
 		"os1.eurotux.com",
 		"os3.eurotux.com"
-	],
-	"wildcards": [
-		"195.22.20.163"
 	]
 }

@@ -12,9 +12,6 @@
 		"petra.nic.gov.jo",
 		"rip.psg.com"
 	],
-	"wildcards": [
-		"193.188.66.238"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

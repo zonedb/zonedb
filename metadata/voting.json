@@ -6,6 +6,10 @@
 	"whoisServer": "whois.nic.voting",
 	"nameServers": [
 		"a.dns.nic.voting",
+		"a.nic.voting",
+		"b.nic.voting",
+		"c.nic.voting",
+		"d.nic.voting",
 		"m.dns.nic.voting",
 		"n.dns.nic.voting"
 	],

@@ -7,10 +7,6 @@
 	],
 	"whoisServer": "whois.kr",
 	"nameServers": [
-		"a.삼성.dyntld.net",
-		"b.삼성.dyntld.net",
-		"c.삼성.dyntld.net",
-		"d.삼성.dyntld.net",
 		"ns1.삼성.centralnic-dns.com",
 		"ns2.삼성.centralnic-dns.com",
 		"ns3.삼성.centralnic-dns.com",
