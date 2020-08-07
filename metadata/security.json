@@ -8,8 +8,6 @@
 	"nameServers": [
 		"a.nic.security",
 		"b.nic.security",
-		"c.nic.security",
-		"d.nic.security",
 		"e.nic.security",
 		"f.nic.security"
 	],
