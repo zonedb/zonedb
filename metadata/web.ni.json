@@ -1,7 +1,6 @@
 {
 	"domain": "web.ni",
 	"nameServers": [
-		"auth01.ns.uu.net",
 		"dns-ext.nic.cr",
 		"ns.ideay.net.ni",
 		"ns.ni",
