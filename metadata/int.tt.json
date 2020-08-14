@@ -1,7 +1,7 @@
 {
 	"domain": "int.tt",
 	"nameServers": [
-		"ns1.dnsdun.com",
-		"ns1.dnsdun.net"
+		"v1s1.xundns.com",
+		"v1s2.xundns.com"
 	]
 }
