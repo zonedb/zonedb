@@ -4,9 +4,9 @@
 		"retired"
 	],
 	"nameServers": [
-		"ns551.znoc.net",
-		"ns552.znoc.net",
-		"ns553.znoc.net"
+		"ns1.nicdumali.presse.ml",
+		"ns2.nicdumali.presse.ml",
+		"ns3.nicdumali.presse.ml"
 	],
 	"policies": [
 		{
