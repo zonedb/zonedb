@@ -7,6 +7,7 @@
 	"whoisServer": "whois.dns.hr",
 	"nameServers": [
 		"hr-ns-1.carnet.hr",
+		"n.dns.hr",
 		"pch.carnet.hr"
 	],
 	"policies": [
