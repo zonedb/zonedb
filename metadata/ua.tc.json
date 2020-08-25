@@ -1,8 +1,5 @@
 {
 	"domain": "ua.tc",
-	"nameServers": [
-		"suspended.nic.tc"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
