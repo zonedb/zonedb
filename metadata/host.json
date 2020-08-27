@@ -7,8 +7,8 @@
 	"nameServers": [
 		"a.nic.host",
 		"b.nic.host",
-		"c.nic.host",
-		"d.nic.host"
+		"e.nic.host",
+		"f.nic.host"
 	],
 	"policies": [
 		{
