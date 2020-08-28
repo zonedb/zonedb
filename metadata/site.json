@@ -8,8 +8,8 @@
 	"nameServers": [
 		"a.nic.site",
 		"b.nic.site",
-		"c.nic.site",
-		"d.nic.site"
+		"e.nic.site",
+		"f.nic.site"
 	],
 	"policies": [
 		{

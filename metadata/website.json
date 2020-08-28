@@ -7,8 +7,8 @@
 	"nameServers": [
 		"a.nic.website",
 		"b.nic.website",
-		"c.nic.website",
-		"d.nic.website"
+		"e.nic.website",
+		"f.nic.website"
 	],
 	"policies": [
 		{
