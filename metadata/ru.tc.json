@@ -1,11 +1,11 @@
 {
 	"domain": "ru.tc",
 	"nameServers": [
-		"ns1.parkingcrew.net",
-		"ns2.parkingcrew.net"
+		"ns17.above.com",
+		"ns18.above.com"
 	],
 	"wildcards": [
-		"104.247.82.54"
+		"103.224.182.250"
 	],
 	"policies": [
 		{
