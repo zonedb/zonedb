@@ -6,12 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.metlife",
-	"nameServers": [
-		"a0.nic.metlife",
-		"a2.nic.metlife",
-		"b0.nic.metlife",
-		"c0.nic.metlife"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

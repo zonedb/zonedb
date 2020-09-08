@@ -2,8 +2,7 @@
 	"domain": "mil.kg",
 	"nameServers": [
 		"as.asiainfo.kg",
-		"ns.kg",
-		"ns.ripe.net"
+		"ns.kg"
 	],
 	"policies": [
 		{
