@@ -4,9 +4,9 @@
 		"retired"
 	],
 	"nameServers": [
-		"ns1.nicdumali.presse.ml",
-		"ns2.nicdumali.presse.ml",
-		"ns3.nicdumali.presse.ml"
+		"ns1.us-a.org",
+		"ns2.us-a.org",
+		"ns3.us-a.org"
 	],
 	"policies": [
 		{
