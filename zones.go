@@ -176,7 +176,7 @@ var y = [5162]Zone{
 	{"aq", r, z[1818:1819], s{"fork.sth.dnsnode.net", "ns1.anycast.dns.aq", "ns99.dns.net.nz"}, n, n, e, e, "http://www.gobin.info/domainname/aq.txt", 0xa0, f},
 	{"aquarelle", r, x, s{"d.nic.fr", "f.ext.nic.fr", "g.ext.nic.fr"}, n, n, "whois.nic.aquarelle", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"aquitaine", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x40, f},
-	{"ar", r, z[1819:1828], s{"a.dns.ar", "ar.cctld.authdns.ripe.net", "b.dns.ar", "c.dns.ar", "d.dns.ar", "e.dns.ar", "f.dns.ar"}, n, n, "whois.nic.ar", "http://www.nic.ar/", "http://www.nic.ar/", 0xa8, t},
+	{"ar", r, z[1819:1828], s{"a.dns.ar", "ar.cctld.authdns.ripe.net", "b.dns.ar", "c.dns.ar", "d.dns.ar", "e.dns.ar", "f.dns.ar"}, n, n, "whois.nic.ar", "http://www.nic.ar/", "http://www.nic.ar/", 0xa0, t},
 	{"arab", r, x, s{"gtld.alpha.aridns.net.au", "gtld.beta.aridns.net.au", "gtld.delta.aridns.net.au", "gtld.gamma.aridns.net.au"}, n, n, "whois.nic.arab", e, "https://newgtlds.icann.org/", 0x40, f},
 	{"aramco", r, x, s{"ns1.dns.nic.aramco", "ns2.dns.nic.aramco", "ns3.dns.nic.aramco", "ns4.dns.nic.aramco", "ns5.dns.nic.aramco", "ns6.dns.nic.aramco"}, n, n, "whois.nic.aramco", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"archi", r, x, s{"a0.nic.archi", "a2.nic.archi", "b0.nic.archi", "c0.nic.archi"}, n, n, "whois.afilias.net", e, "http://nic.archi/", 0x40, f},
