@@ -1,8 +1,5 @@
 {
 	"domain": "presse.ml",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"ns1.us-a.org",
 		"ns2.us-a.org",
