@@ -2094,6 +2094,7 @@ qsl.br
 radio.br
 rec.br
 recife.br
+rep.br
 rio.br
 salvador.br
 sec3.br
@@ -5065,6 +5066,7 @@ sa.edu.au
 tas.edu.au
 vic.edu.au
 wa.edu.au
+fed.rep.br
 wireless.keyword.cn
 ltd.co.im
 plc.co.im
