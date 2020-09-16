@@ -6,10 +6,10 @@
 	],
 	"whoisServer": "whois.nic.skin",
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a.nic.skin",
+		"b.nic.skin",
+		"c.nic.skin",
+		"d.nic.skin"
 	],
 	"policies": [
 		{

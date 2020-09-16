@@ -1,7 +1,7 @@
 {
 	"domain": "com.lb",
 	"nameServers": [
-		"elissa.aub.edu.lb",
+		"magma.aub.edu.lb",
 		"rip.psg.com",
 		"zeina.aub.edu.lb"
 	],

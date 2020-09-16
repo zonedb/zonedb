@@ -1,5 +1,12 @@
 {
 	"domain": "info.fo",
+	"nameServers": [
+		"ns1.voodoo.com",
+		"ns2.voodoo.com"
+	],
+	"wildcards": [
+		"192.64.147.231"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -5,10 +5,10 @@
 		"generic"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a.nic.hair",
+		"b.nic.hair",
+		"c.nic.hair",
+		"d.nic.hair"
 	],
 	"policies": [
 		{
