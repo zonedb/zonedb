@@ -1,13 +1,8 @@
 {
-	"domain": "presse.ml",
+	"domain": "fed.rep.br",
 	"nameServers": [
 		"ns1.nicdumali.presse.ml",
 		"ns2.nicdumali.presse.ml",
 		"ns3.nicdumali.presse.ml"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
 	]
 }

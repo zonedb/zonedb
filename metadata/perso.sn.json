@@ -1,8 +1,8 @@
 {
 	"domain": "perso.sn",
 	"nameServers": [
-		"v1s1.xundns.com",
-		"v1s2.xundns.com"
+		"ns1.dns.com",
+		"ns2.dns.com"
 	],
 	"policies": [
 		{
