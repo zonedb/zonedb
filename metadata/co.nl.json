@@ -9,9 +9,6 @@
 		"c.nic.co.nl",
 		"d.nic.co.nl"
 	],
-	"wildcards": [
-		"116.202.11.3"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
