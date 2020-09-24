@@ -4,6 +4,7 @@
 	"tags": [
 		"generic"
 	],
+	"whoisServer": "whois.nic.hair",
 	"nameServers": [
 		"a.nic.hair",
 		"b.nic.hair",
