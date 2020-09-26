@@ -8,8 +8,8 @@
 	"nameServers": [
 		"a.nic.protection",
 		"b.nic.protection",
-		"c.nic.protection",
-		"d.nic.protection"
+		"e.nic.protection",
+		"f.nic.protection"
 	],
 	"policies": [
 		{

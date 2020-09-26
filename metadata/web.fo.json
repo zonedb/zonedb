@@ -1,9 +1,9 @@
 {
 	"domain": "web.fo",
 	"nameServers": [
-		"ns1.nic.fo",
-		"ns2.nic.fo",
-		"ns3.nic.fo"
+		"ns1.økisnavn.fo",
+		"ns2.økisnavn.fo",
+		"ns3.økisnavn.fo"
 	],
 	"policies": [
 		{
