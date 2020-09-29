@@ -4298,6 +4298,13 @@ edu.so
 net.so
 org.so
 uber.space
+biz.ss
+com.ss
+edu.ss
+me.ss
+net.ss
+org.ss
+sch.ss
 co.st
 com.st
 consulado.st
