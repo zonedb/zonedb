@@ -12,5 +12,132 @@
 		"ns-tld3.charlestonroadregistry.com",
 		"ns-tld4.charlestonroadregistry.com",
 		"ns-tld5.charlestonroadregistry.com"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Arab",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_arab_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Armn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_armn_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Beng",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_beng_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_cyrl_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Deva",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_deva_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Ethi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_ethi_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Geor",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_geor_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_grek_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Guru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_guru_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hebr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_hebr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Jpan",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_jpan_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Khmr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_khmr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Knda",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_knda_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Kore",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_kore_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_latn_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mlym",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_mlym_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mymr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_mymr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Orya",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_orya_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Sinh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_sinh_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Taml",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_taml_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Telu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_telu_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Thai",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_thai_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tibt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_tibt_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_zh-hans_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hant",
+			"value": "https://www.iana.org/domains/idn-tables/tables/dclk_zh-hant_1.0.txt"
+		}
 	]
 }

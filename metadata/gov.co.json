@@ -1,8 +1,10 @@
 {
 	"domain": "gov.co",
 	"nameServers": [
-		"ns3.mintic.gov.co",
-		"ns4.mintic.gov.co"
+		"ns-1462.awsdns-54.org",
+		"ns-1823.awsdns-35.co.uk",
+		"ns-479.awsdns-59.com",
+		"ns-943.awsdns-53.net"
 	],
 	"policies": [
 		{

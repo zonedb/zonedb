@@ -1,0 +1,9 @@
+{
+	"domain": "edu.ss",
+	"nameServers": [
+		"b.ns.tznic.or.tz",
+		"ns-ss.afrinic.net",
+		"root.nic.ss",
+		"ssnic.anycastdns.cz"
+	]
+}

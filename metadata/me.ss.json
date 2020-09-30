@@ -1,0 +1,12 @@
+{
+	"domain": "me.ss",
+	"nameServers": [
+		"b.ns.tznic.or.tz",
+		"ns-ss.afrinic.net",
+		"ns.cocca.fr",
+		"ns1.nic.ss",
+		"pch.nic.ss",
+		"root.nic.ss",
+		"ssnic.anycastdns.cz"
+	]
+}
