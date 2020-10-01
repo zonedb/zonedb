@@ -7,6 +7,10 @@
 	],
 	"whoisServer": "whois.nic.yahoo",
 	"nameServers": [
+		"ac1.nstld.com",
+		"ac2.nstld.com",
+		"ac3.nstld.com",
+		"ac4.nstld.com",
 		"ns1.dns.nic.yahoo",
 		"ns2.dns.nic.yahoo",
 		"ns3.dns.nic.yahoo",

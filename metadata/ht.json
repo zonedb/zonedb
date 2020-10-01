@@ -6,11 +6,11 @@
 	],
 	"whoisServer": "whois.nic.ht",
 	"nameServers": [
-		"charles.cdec.polymtl.ca",
-		"ht-ns.anycast.pch.net",
 		"ns.cocca.fr",
 		"ns1.nic.ht",
-		"ns3.nic.fr"
+		"ns1.polymtl.ca",
+		"ns3.nic.fr",
+		"pch.nic.ht"
 	],
 	"policies": [
 		{
