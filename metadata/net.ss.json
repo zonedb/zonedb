@@ -3,7 +3,6 @@
 	"nameServers": [
 		"b.ns.tznic.or.tz",
 		"ns-ss.afrinic.net",
-		"pch.nic.ss",
-		"ssnic.anycastdns.cz"
+		"pch.nic.ss"
 	]
 }
