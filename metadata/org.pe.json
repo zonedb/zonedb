@@ -1,6 +1,7 @@
 {
 	"domain": "org.pe",
 	"nameServers": [
+		"a.lactld.org",
 		"pch.rcp.pe",
 		"pe1.dnsnode.net",
 		"quipu.rcp.net.pe"
