@@ -6,14 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.intel",
-	"nameServers": [
-		"ns1.dns.nic.intel",
-		"ns2.dns.nic.intel",
-		"ns3.dns.nic.intel",
-		"ns4.dns.nic.intel",
-		"ns5.dns.nic.intel",
-		"ns6.dns.nic.intel"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
