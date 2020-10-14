@@ -1,9 +1,9 @@
 {
 	"domain": "edu.sn",
 	"nameServers": [
-		"dns.ucad.sn",
 		"ns.nic.sn",
-		"ns.ucad.sn"
+		"ns.ucad.sn",
+		"ns3.cctld.sn"
 	],
 	"policies": [
 		{
