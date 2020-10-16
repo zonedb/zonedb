@@ -1,9 +1,5 @@
 {
 	"domain": "www.ro",
-	"nameServers": [
-		"ns-a.rnc.ro",
-		"ns.rnc.ro"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
