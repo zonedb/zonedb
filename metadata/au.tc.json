@@ -1,8 +1,7 @@
 {
 	"domain": "au.tc",
 	"nameServers": [
-		"hera.ns.cloudflare.com",
-		"jerome.ns.cloudflare.com"
+		"suspended.nic.tc"
 	],
 	"policies": [
 		{

@@ -1,8 +1,7 @@
 {
 	"domain": "br.tc",
 	"nameServers": [
-		"dorthy.ns.cloudflare.com",
-		"luke.ns.cloudflare.com"
+		"suspended.nic.tc"
 	],
 	"policies": [
 		{
