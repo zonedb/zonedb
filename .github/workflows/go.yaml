@@ -35,7 +35,7 @@ jobs:
   automerge:
     name: Automerge
     needs: test
-    if: github.event.pull_request.user == 'dependabot-bot'
+    if: github.event.pull_request.user == 'dependabot'
     runs-on: ubuntu-latest
     steps:
       - name: automerge
