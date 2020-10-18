@@ -1,0 +1,56 @@
+name: Go
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  test:
+    name: Test Go
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: ^1
+
+      - name: Vet Go code
+        run: go vet ./...
+
+      - name: Run Go tests
+        run: go test -mod=readonly -v -race ./...
+
+      - name: Verify repo is unchanged
+        run: git diff --exit-code HEAD
+
+  # Via: https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-701889737
+  automerge:
+    name: Automerge
+    needs: test
+    if: github.event.pull_request.sender.login == 'dependabot-bot'
+    runs-on: ubuntu-latest
+    steps:
+      - name: automerge
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.pulls.createReview({
+              owner: context.payload.repository.owner.login,
+              repo: context.payload.repository.name,
+              pull_number: context.payload.pull_request.number,
+              event: 'APPROVE'
+            })
+            github.pulls.merge({
+              owner: context.payload.repository.owner.login,
+              repo: context.payload.repository.name,
+              pull_number: context.payload.pull_request.number
+            })
