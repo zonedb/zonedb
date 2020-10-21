@@ -1,5 +1,12 @@
 {
 	"domain": "net.ly",
+	"nameServers": [
+		"dns.lttnet.net",
+		"dns1.lttnet.net",
+		"ns-ly.afrinic.net",
+		"pch.ltt.ly",
+		"phloem.uoregon.edu"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

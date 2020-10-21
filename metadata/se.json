@@ -21,7 +21,7 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/se_latn_1.0.html",
+			"value": "https://www.iana.org/domains/idn-tables/tables/se_latn_3.xml",
 			"comment": "https://www.iis.se/english/domains/se/idn/"
 		},
 		{
@@ -32,7 +32,7 @@
 		{
 			"type": "idn-table",
 			"key": "yi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/se_yi_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/se_yi_3.xml"
 		}
 	]
 }
