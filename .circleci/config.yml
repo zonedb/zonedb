@@ -51,9 +51,8 @@ workflows:
       - update:
           context: org-global
     triggers:
-      # Circle operates in UTC. 12:07 AM PST is 8:07 AM UTC
       - schedule:
-          cron: "07 8 * * *"
+          cron: "07 8 * * *" # 08:07 UTC, or 12:07 AM PST
           filters:
             branches:
               only:
