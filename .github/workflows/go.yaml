@@ -30,3 +30,7 @@ jobs:
 
       - name: Verify repo is unchanged
         run: git diff --exit-code HEAD
+
+      - name: Tag release
+        if: github.ref == 'refs/heads/master'
+        run: make tag-version
