@@ -25,7 +25,7 @@ Each domain with associated metadata will have a JSON file in the `metadata` dir
 
 ### Updates
 
-A [CircleCI workflow](https://circleci.com/docs/2.0/workflows/) updates ZoneDB each night.
+A [GitHub Actions workflow](https://github.com/zonedb/zonedb/blob/HEAD/.github/workflows/update.yaml) updates ZoneDB each night.
 
 #### zones.txt
 
