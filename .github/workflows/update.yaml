@@ -1,0 +1,43 @@
+name: Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "07 8 * * *" # 08:07 UTC, or 12:07 AM PT
+
+jobs:
+  update:
+    name: Update ZoneDB
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: ^1
+
+      - name: Update ZoneDB
+        run: make update
+
+      - name: Vet Go code
+        run: go vet ./...
+
+      - name: Run Go tests
+        run: go test -mod=readonly -v -race ./...
+
+      - name: Verify repo is unchanged
+        run: git diff --exit-code HEAD
+
+      - name: Commit changes
+        if: failure()
+        run: |
+          git config --global user.email robot@zonedb.org
+          git config --global user.name zonedbot
+          git add -v --all .
+          git commit -m "Automatic update for `date -u`"
+          echo "Would have run:" git push origin -u HEAD
