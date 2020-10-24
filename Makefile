@@ -19,8 +19,8 @@ normalize:
 	go run cmd/zonedb/main.go -w
 	make zones.go
 
-git_revision=$(shell cat .git/refs/heads/master)
-number_of_commits=$(shell git rev-list $(git_revision) --count)
+git_revision=$(shell git describe --no-tags --always --dirty --abbrev=0)
+number_of_commits=$(shell git rev-list HEAD --count)
 major_version=$(shell cat VERSION)
 tag_version=v$(major_version).$(number_of_commits)
 
