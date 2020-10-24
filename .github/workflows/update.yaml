@@ -40,4 +40,4 @@ jobs:
           git config --global user.name zonedbot
           git add -v --all .
           git commit -m "Automatic update for `date -u`"
-          echo "Would have run:" git push origin -u HEAD
+          git push origin -u HEAD
