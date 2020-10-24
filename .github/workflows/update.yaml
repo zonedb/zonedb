@@ -2,6 +2,11 @@ name: Update
 
 on:
   workflow_dispatch:
+    inputs:
+      zonedbArgs:
+        description: 'zonedb arguments'
+        required: false
+        default: ''
   schedule:
     - cron: "07 8 * * *" # 08:07 UTC, or 12:07 AM PT
 
@@ -22,6 +27,8 @@ jobs:
           go-version: ^1
 
       - name: Update ZoneDB
+        env:
+          ZONEDB_ARGS: ${{ github.event.inputs.zonedbArgs }}
         run: make update
 
       - name: Vet Go code
