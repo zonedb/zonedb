@@ -14,6 +14,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
         with:
+          fetch-depth: 0 # Retrieve all commit history, so `git rev-list --count` works correctly
           submodules: recursive
 
       - name: Set up Go
