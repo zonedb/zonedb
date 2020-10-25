@@ -1,11 +1,5 @@
 {
-	"domain": "ls",
-	"infoURL": "http://www.nic.ls/",
-	"tags": [
-		"country",
-		"geo"
-	],
-	"whoisServer": "whois.nic.ls",
+	"domain": "sc.ls",
 	"nameServers": [
 		"ls-ns.anycast.pch.net",
 		"ns-ls.afrinic.net",
