@@ -24,6 +24,6 @@ number_of_commits=$(shell git rev-list HEAD --count)
 major_version=$(shell cat VERSION)
 tag_version=v$(major_version).$(number_of_commits)
 
-tag-version: .git/refs/heads/master
+tag-version: .git/refs/heads/main
 	git tag $(tag_version) $(git_revision)
 	git push --tags

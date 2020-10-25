@@ -1,6 +1,6 @@
 # Public Zone Database
 
-[![build status](https://img.shields.io/circleci/project/zonedb/zonedb/master.svg)](https://circleci.com/gh/zonedb/zonedb)
+[![build status](https://img.shields.io/github/workflow/status/zonedb/zonedb/go.svg)](https://circleci.com/gh/zonedb/zonedb)
 [![godoc](http://img.shields.io/badge/docs-GoDoc-blue.svg)](https://godoc.org/github.com/zonedb/zonedb)
 
 The Public Zone Database (zonedb) is a [free, open-source database](http://opendatacommons.org/licenses/odbl/1.0/) containing a list and associated metadata of public [DNS zones](http://en.wikipedia.org/wiki/DNS_zone) (domain name extensions). It attempts to be exhaustive, including current, retired, and withdrawn top-level domains and subdomains.
@@ -106,6 +106,6 @@ $ go run cmd/zonedb/main.go -zones alsace -add-locations fr-a -w
 
 ## License
 
-This database is licensed under the [Open Database License (ODBl) version 1.0](http://opendatacommons.org/licenses/odbl/1.0/). See [LICENSE.md](https://github.com/domainr/zonedb/blob/master/LICENSE.md) for more information.
+This database is licensed under the [Open Database License (ODBl) version 1.0](http://opendatacommons.org/licenses/odbl/1.0/). See [LICENSE.md](https://github.com/zonedb/zonedb/blob/HEAD/LICENSE.md) for more information.
 
 Copyright © 2008–2020 the Public Zone Database authors.

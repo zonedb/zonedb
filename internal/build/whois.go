@@ -67,7 +67,7 @@ func QueryWhoisServers(zones map[string]*Zone) error {
 	return nil
 }
 
-const rubyWhoisURL = "https://github.com/weppos/whois/raw/master/data/tld.json"
+const rubyWhoisURL = "https://github.com/weppos/whois/raw/HEAD/data/tld.json"
 
 // FetchRubyWhoisServers fetches whois servers from the Ruby Whois project.
 func FetchRubyWhoisServers(zones map[string]*Zone, addNew bool) error {
