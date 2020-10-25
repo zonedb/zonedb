@@ -1,5 +1,6 @@
 {
 	"domain": "org.ls",
+	"whoisServer": "whois.nic.ls",
 	"nameServers": [
 		"ls-ns.anycast.pch.net",
 		"ns-ls.afrinic.net",

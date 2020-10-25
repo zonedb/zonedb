@@ -1,15 +1,11 @@
 {
-	"domain": "co.ls",
+	"domain": "sc.ls",
 	"whoisServer": "whois.nic.ls",
 	"nameServers": [
 		"ls-ns.anycast.pch.net",
 		"ns-ls.afrinic.net",
+		"ns1.leo.co.ls",
 		"ns1.nic.ls",
-		"ns2.nic.ls"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
+		"sas.leo.co.ls"
 	]
 }

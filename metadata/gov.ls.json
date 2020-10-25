@@ -1,5 +1,6 @@
 {
 	"domain": "gov.ls",
+	"whoisServer": "whois.nic.ls",
 	"nameServers": [
 		"acst23ns01.gov.ls",
 		"afdp23ns01.gov.ls",

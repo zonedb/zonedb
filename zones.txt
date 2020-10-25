@@ -3331,8 +3331,9 @@ ac.ls
 co.ls
 gov.ls
 net.ls
+nul.ls
 org.ls
-parliament.ls
+sc.ls
 gov.lt
 asn.lv
 com.lv
