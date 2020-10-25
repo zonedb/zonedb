@@ -1,6 +1,6 @@
 # Public Zone Database
 
-[![build status](https://img.shields.io/github/workflow/status/zonedb/zonedb/go.svg)](https://circleci.com/gh/zonedb/zonedb)
+[![build status](https://img.shields.io/github/workflow/status/zonedb/zonedb/go.svg)](https://github.com/zonedb/zonedb/actions)
 [![godoc](http://img.shields.io/badge/docs-GoDoc-blue.svg)](https://godoc.org/github.com/zonedb/zonedb)
 
 The Public Zone Database (zonedb) is a [free, open-source database](http://opendatacommons.org/licenses/odbl/1.0/) containing a list and associated metadata of public [DNS zones](http://en.wikipedia.org/wiki/DNS_zone) (domain name extensions). It attempts to be exhaustive, including current, retired, and withdrawn top-level domains and subdomains.
