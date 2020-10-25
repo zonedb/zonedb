@@ -4823,7 +4823,7 @@ var y = [5171]Zone{
 	{"wi.us", &z[1457], x, n, n, n, e, e, e, 0x0, f},
 	{"wv.us", &z[1457], x, n, n, n, e, e, e, 0x0, f},
 	{"wy.us", &z[1457], x, n, n, n, e, e, e, 0x0, f},
-	{"com.uy", &z[1458], x, s{"ns1.anteldata.com.uy", "ns2.anteldata.com.uy", "seciu.edu.uy"}, n, n, e, "https://nic.anteldata.com.uy/dns/consultaWhois/whois.action", e, 0x0, f},
+	{"com.uy", &z[1458], x, s{"ns1.anteldata.com.uy", "ns2.anteldata.com.uy", "seciu.edu.uy"}, n, n, e, e, e, 0x0, f},
 	{"edu.uy", &z[1458], x, s{"a.lactld.org", "ns.dns.br", "ns1.anteldata.com.uy", "ns2.anteldata.com.uy", "ns3.nic.mx", "seciu.edu.uy", "ultra.edu.uy"}, n, n, e, e, e, 0x0, f},
 	{"gub.uy", &z[1458], x, s{"a.lactld.org", "ns.dns.br", "ns1.anteldata.com.uy", "ns2.anteldata.com.uy", "ns3.nic.mx", "seciu.edu.uy", "ultra.edu.uy"}, n, n, e, e, e, 0x0, f},
 	{"mil.uy", &z[1458], x, s{"a.lactld.org", "ns.dns.br", "ns1.anteldata.com.uy", "ns2.anteldata.com.uy", "ns3.nic.mx", "seciu.edu.uy", "ultra.edu.uy"}, n, n, e, e, e, 0x0, f},

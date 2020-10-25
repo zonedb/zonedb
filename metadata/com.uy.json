@@ -1,6 +1,5 @@
 {
 	"domain": "com.uy",
-	"whoisURL": "https://nic.anteldata.com.uy/dns/consultaWhois/whois.action",
 	"nameServers": [
 		"ns1.anteldata.com.uy",
 		"ns2.anteldata.com.uy",

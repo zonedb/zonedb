@@ -100,8 +100,10 @@ func TestZone_WhoisURL(t *testing.T) {
 
 func TestZonesHaveWhoisServerOrURLButNotBoth(t *testing.T) {
 	for _, z := range Zones {
-		if z.whoisServer != "" && z.whoisURL != "" {
-			t.Errorf(`Zone %q has both whoisServer (%q) and whoisURL (%q) set`, z.Domain, z.whoisServer, z.whoisURL)
+		s := z.WhoisServer()
+		u := z.WhoisURL()
+		if s != "" && u != "" {
+			t.Errorf(`Zone %q has both whoisServer (%q) and whoisURL (%q) set`, z.Domain, s, u)
 		}
 	}
 }
