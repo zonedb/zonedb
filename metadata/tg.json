@@ -1,11 +1,11 @@
 {
 	"domain": "tg",
+	"infoURL": "http://www.nic.tg/",
 	"tags": [
 		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.tg",
-	"whoisURL": "http://www.nic.tg/",
 	"nameServers": [
 		"ns1.admin.net",
 		"ns1.nic.tg",

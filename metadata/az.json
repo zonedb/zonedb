@@ -5,7 +5,6 @@
 		"country",
 		"geo"
 	],
-	"whoisURL": "http://www.nic.az/",
 	"nameServers": [
 		"az.hostmaster.ua",
 		"rip.psg.com"

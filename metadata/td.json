@@ -1,11 +1,11 @@
 {
 	"domain": "td",
+	"infoURL": "http://nic.td/",
 	"tags": [
 		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.td",
-	"whoisURL": "http://www.nic.td/",
 	"nameServers": [
 		"ns-td.afrinic.net",
 		"ns.cocca.fr",

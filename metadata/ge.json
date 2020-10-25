@@ -6,7 +6,6 @@
 		"geo"
 	],
 	"whoisServer": "whois.nic.ge",
-	"whoisURL": "http://www.registration.ge/",
 	"nameServers": [
 		"ge.hostmaster.ua",
 		"ns.nic.ge",

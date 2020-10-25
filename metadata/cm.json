@@ -1,11 +1,11 @@
 {
 	"domain": "cm",
+	"infoURL": "https://antic.cm",
 	"tags": [
 		"country",
 		"geo"
 	],
 	"whoisServer": "whois.netcom.cm",
-	"whoisURL": "http://antic.cm",
 	"nameServers": [
 		"auth02.ns.uu.net",
 		"kim.camnet.cm",

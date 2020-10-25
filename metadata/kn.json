@@ -1,11 +1,11 @@
 {
 	"domain": "kn",
+	"infoURL": "http://www.nic.kn/",
 	"tags": [
 		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.kn",
-	"whoisURL": "http://www.nic.kn/",
 	"nameServers": [
 		"ns.cocca.fr",
 		"ns.coccaregistry.org",
