@@ -1,11 +1,11 @@
 {
 	"domain": "gp",
+	"infoURL": "https://www.nic.gp/",
 	"tags": [
 		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.gp",
-	"whoisURL": "https://www.dom-enic.com/whois.html",
 	"nameServers": [
 		"a.lactld.org",
 		"gp.cctld.authdns.ripe.net",

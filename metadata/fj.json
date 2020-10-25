@@ -1,11 +1,11 @@
 {
 	"domain": "fj",
+	"infoURL": "http://domains.fj",
 	"tags": [
 		"country",
 		"geo"
 	],
 	"whoisServer": "whois.usp.ac.fj",
-	"whoisURL": "http://domains.fj",
 	"nameServers": [
 		"adns1.berkeley.edu",
 		"adns2.berkeley.edu",

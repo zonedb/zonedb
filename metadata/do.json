@@ -6,7 +6,6 @@
 		"geo"
 	],
 	"whoisServer": "whois.nic.do",
-	"whoisURL": "http://www.nic.do/whois-h.php3",
 	"nameServers": [
 		"a.lactld.org",
 		"ns.nic.do",

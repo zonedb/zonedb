@@ -1,11 +1,11 @@
 {
 	"domain": "mq",
+	"infoURL": "https://www.dom-enic.com/",
 	"tags": [
 		"country",
 		"geo"
 	],
 	"whoisServer": "whois.mediaserv.net",
-	"whoisURL": "https://www.dom-enic.com/whois.html",
 	"nameServers": [
 		"ns1-fr.mediaserv.net",
 		"ns1-gp.mediaserv.net",

@@ -1,11 +1,11 @@
 {
 	"domain": "cr",
+	"infoURL": "https://www.nic.cr/",
 	"tags": [
 		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.cr",
-	"whoisURL": "http://www.nic.cr/niccr_publico/showRegistroDominiosScreen.do",
 	"nameServers": [
 		"a.lactld.org",
 		"ca1.nic.cr",

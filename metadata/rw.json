@@ -1,11 +1,11 @@
 {
 	"domain": "rw",
+	"infoURL": "https://ricta.org.rw",
 	"tags": [
 		"country",
 		"geo"
 	],
 	"whoisServer": "whois.ricta.org.rw",
-	"whoisURL": "http://whois.ricta.org.rw",
 	"nameServers": [
 		"fork.sth.dnsnode.net",
 		"ns-rw.afrinic.net",

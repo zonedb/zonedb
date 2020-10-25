@@ -1,11 +1,11 @@
 {
 	"domain": "mw",
+	"infoURL": "http://http://nic.mw/",
 	"tags": [
 		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.mw",
-	"whoisURL": "http://www.registrar.mw/",
 	"nameServers": [
 		"chambo.sdnp.org.mw",
 		"d.ext.nic.cz",

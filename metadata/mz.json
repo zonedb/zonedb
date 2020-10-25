@@ -1,12 +1,12 @@
 {
 	"domain": "mz",
+	"infoURL": "https://www.domains.co.mz",
 	"tags": [
 		"closed",
 		"country",
 		"geo"
 	],
 	"whoisServer": "whois.nic.mz",
-	"whoisURL": "http://www.domains.co.mz",
 	"nameServers": [
 		"anyns.uem.mz",
 		"dzowo.uem.mz",

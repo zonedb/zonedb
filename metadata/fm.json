@@ -1,12 +1,12 @@
 {
 	"domain": "fm",
+	"infoURL": "https://dot.fm/",
 	"tags": [
 		"country",
 		"generic",
 		"geo"
 	],
 	"whoisServer": "whois.nic.fm",
-	"whoisURL": "http://dot.fm/whois.html",
 	"nameServers": [
 		"tld1.ultradns.net",
 		"tld2.ultradns.net",
