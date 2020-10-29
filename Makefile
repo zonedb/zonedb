@@ -10,14 +10,14 @@ test:
 zones.go: zones.txt metadata/*.json internal/* internal/*/*
 	go generate
 
-update:
+update: ci-update test
+ci-update:
 	go run cmd/zonedb/main.go -update -w -c 100 $(ZONEDB_ARGS)
-	make zones.go
-	make test
+	$(MAKE) zones.go
 
 normalize:
 	go run cmd/zonedb/main.go -w
-	make zones.go
+	$(MAKE) zones.go
 
 git_revision=$(shell git describe --no-tags --always --dirty --abbrev=0)
 number_of_commits=$(shell git rev-list HEAD --count)

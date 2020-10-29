@@ -30,7 +30,7 @@ jobs:
       - name: Update ZoneDB
         env:
           ZONEDB_ARGS: ${{ github.event.inputs.zonedbArgs }}
-        run: make update
+        run: make ci-update
 
       - name: Vet Go code
         run: go vet ./...
