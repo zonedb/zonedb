@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.nic.ch",
+	"whoisServer": "whois.nic.li",
 	"nameServers": [
 		"a.nic.li",
 		"b.nic.li",
