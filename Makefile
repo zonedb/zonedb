@@ -10,8 +10,7 @@ test:
 zones.go: zones.txt metadata/*.json internal/* internal/*/*
 	go generate
 
-update: ci-update test
-ci-update:
+update:
 	go run cmd/zonedb/main.go -update -w -c 100 $(ZONEDB_ARGS)
 	$(MAKE) zones.go
 
