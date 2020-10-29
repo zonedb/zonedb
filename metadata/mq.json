@@ -7,7 +7,6 @@
 	],
 	"whoisServer": "whois.mediaserv.net",
 	"nameServers": [
-		"ns1-fr.mediaserv.net",
 		"ns1-gp.mediaserv.net",
 		"ns1-mq.mediaserv.net"
 	],

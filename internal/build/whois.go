@@ -113,7 +113,7 @@ func FetchRubyWhoisServers(zones map[string]*Zone, addNew bool) error {
 				servers++
 			}
 		}
-		if rec.URL != "" && rec.URL != z.WhoisURL {
+		if z.WhoisServer != "" && rec.URL != "" && rec.URL != z.WhoisURL {
 			z.WhoisURL = rec.URL
 			urls++
 		}
