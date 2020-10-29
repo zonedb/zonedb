@@ -179,7 +179,7 @@ func main() {
 		}
 	}
 
-	if *updateRubyWhois || *updateAll {
+	if *updateRubyWhois {
 		err := build.FetchRubyWhoisServers(workZones, addNew)
 		if err != nil {
 			errs = append(errs, err)
