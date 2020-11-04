@@ -2270,6 +2270,7 @@ ru.com
 sa.com
 se.com
 uk.com
+ukots.com
 us.com
 uy.com
 za.com
