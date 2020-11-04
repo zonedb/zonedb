@@ -11,6 +11,10 @@ The intended use case is programs that interface with the [public domain name sy
 
 The database consists of a list of zones (`zones.txt`) and associated metadata in JSON format.
 
+### CLI
+
+The `zonedb` CLI is fully documented. Run `go run cmd/zonedb/main.go -h` to see its arguments.
+
 ### zones.txt
 
 The `zones.txt` file is a UTF-8 encoded text file containing a list of IDN & lower-case domain names, one per line, followed by a newline (`\n`) character. The domain names in zones.txt are sorted according to the following rules:
@@ -31,12 +35,12 @@ A [GitHub Actions workflow](https://github.com/zonedb/zonedb/blob/HEAD/.github/w
 
 If a new SLD or third-level domain needs to be added to `zones.txt`, follow these steps locally:
 
-1. add the new zone to the bottom of the `zones.txt` file
-1. run `make normalize` to normalize the data
-1. run `make update` to run ZoneDB's update process
-1. create a pull request for the changes, and confirm the tests are passing
+1. Add the new zone to the bottom of the `zones.txt` file.
+1. Run `make normalize` to normalize the data changes.
+1. Run `go run cmd/zonedb/main.go -update -w -zones {new zone}` to update its metadata.
+1. Create a pull request for the changes, and confirm the tests are passing.
 
-#### json files
+#### JSON files
 
 If an update to one of the `{zone}.json` files is needed, do this locally:
 
