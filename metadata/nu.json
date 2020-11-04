@@ -21,6 +21,11 @@
 			"key": "mul-Latn",
 			"value": "https://www.iis.se/docs/nu_teckentabell-01.pdf",
 			"comment": "https://www.iis.se/english/domains/nu/idn/"
+		},
+		{
+			"type": "idn-table",
+			"key": "und-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nu_und-latn_2.xml"
 		}
 	]
 }
