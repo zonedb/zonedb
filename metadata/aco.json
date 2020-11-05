@@ -8,10 +8,6 @@
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a.dns.nic.aco",
-		"a0.nic.aco",
-		"a2.nic.aco",
-		"b0.nic.aco",
-		"c0.nic.aco",
 		"m.dns.nic.aco",
 		"n.dns.nic.aco"
 	],
