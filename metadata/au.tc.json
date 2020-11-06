@@ -1,8 +1,5 @@
 {
 	"domain": "au.tc",
-	"nameServers": [
-		"suspended.nic.tc"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

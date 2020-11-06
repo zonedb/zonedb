@@ -1,11 +1,11 @@
 {
 	"domain": "co.je",
 	"nameServers": [
-		"b.ci-servers.com",
 		"c.ci-servers.org",
 		"dns1.nominetdns.uk",
-		"f.ci-servers.je",
-		"g.ci-servers.gg"
+		"dns2.nominetdns.uk",
+		"dns3.nominetdns.uk",
+		"dns4.nominetdns.uk"
 	],
 	"policies": [
 		{
