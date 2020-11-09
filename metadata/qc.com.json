@@ -5,7 +5,7 @@
 	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
-		"ns71.domaincontrol.com",
-		"ns72.domaincontrol.com"
+		"pdns07.domaincontrol.com",
+		"pdns08.domaincontrol.com"
 	]
 }
