@@ -1,6 +1,7 @@
 {
 	"domain": "edu.hu",
 	"nameServers": [
+		"kubiac.iif.hu",
 		"ns2.iif.hu",
 		"ns2.sztaki.hbone.hu"
 	],
