@@ -5,9 +5,6 @@
 		"ns2.hostnetbv.com",
 		"ns3.hostnetbv.nl"
 	],
-	"wildcards": [
-		"136.144.154.12"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
