@@ -3,6 +3,10 @@
 	"tags": [
 		"retired"
 	],
+	"nameServers": [
+		"ns1.iedr.ie",
+		"ns2.iedr.ie"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
