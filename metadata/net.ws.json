@@ -6,9 +6,6 @@
 		"ns4.dns.ws",
 		"ns5.dns.ws"
 	],
-	"wildcards": [
-		"202.4.48.211"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

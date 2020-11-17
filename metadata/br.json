@@ -5,7 +5,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.registro.br",
+	"whoisServer": "whois.nic.br",
 	"nameServers": [
 		"a.dns.br",
 		"b.dns.br",
