@@ -10,7 +10,6 @@
 	"nameServers": [
 		"bd-ns.anycast.pch.net",
 		"dns.bd",
-		"jamuna.btcl.net.bd",
 		"surma.btcl.net.bd"
 	]
 }

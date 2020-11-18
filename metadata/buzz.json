@@ -16,7 +16,7 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/buzz_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/buzz_es_3.0.xml"
 		}
 	]
 }

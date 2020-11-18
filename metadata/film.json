@@ -13,7 +13,44 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_da_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_de_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_es_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_fr_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "it",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_it_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "nl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_nl_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_pl_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_sv_3.0.xml"
 		}
 	]
 }

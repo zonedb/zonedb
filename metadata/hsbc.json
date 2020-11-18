@@ -18,82 +18,82 @@
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_da_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_da_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_de_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_de_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_es_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_fi_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_fi_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_hu_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_hu_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "is",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_is_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_is_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_ja_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_ja_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_ko_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_ko_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "lt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_lt_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_lt_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "lv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_lv_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_lv_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "no",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_no_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_no_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_pl_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_pl_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_pt_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_pt_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_ru_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_ru_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_sv_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_sv_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hsbc_zh_3.0.xml"
 		}
 	]
 }

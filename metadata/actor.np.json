@@ -3,6 +3,11 @@
 	"infoURL": "https://register.com.np",
 	"nameServers": [
 		"manaslu.mos.com.np",
+		"np-ns.npix.net.np",
+		"np.cctld.authdns.ripe.net",
+		"ns4.apnic.net",
+		"pch.nnic.np",
+		"shikhar.mos.com.np",
 		"sungava.mos.com.np"
 	],
 	"policies": [

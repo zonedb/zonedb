@@ -3,7 +3,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.nic.biz",
+	"whoisServer": "whois.biz",
 	"nameServers": [
 		"a.gtld.biz",
 		"b.gtld.biz",
@@ -16,77 +16,77 @@
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_da_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_da_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_de_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_de_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_es_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_es_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_fi_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_fi_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_hu_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_hu_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "is",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_is_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_is_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_ja_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_ja_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_ko_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_ko_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "lt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_lt_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_lt_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "lv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_lv_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_lv_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "no",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_no_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_no_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_pl_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_pl_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_pt_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_pt_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_sv_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_sv_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/biz_zh_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/biz_zh_3.0.xml"
 		}
 	]
 }

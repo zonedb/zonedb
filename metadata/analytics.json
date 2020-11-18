@@ -15,7 +15,9 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/analytics_es_3.0.xml"
 		}
 	]
 }

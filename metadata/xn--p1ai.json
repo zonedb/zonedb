@@ -1,7 +1,7 @@
 {
 	"domain": "рф",
 	"infoURL": "https://cctld.ru/",
-	"whoisServer": "whois.tcinet.ru",
+	"whoisServer": "whois.ripn.net",
 	"nameServers": [
 		"a.dns.ripn.net",
 		"b.dns.ripn.net",

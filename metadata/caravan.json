@@ -16,7 +16,9 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/caravan_zh_3.0.xml"
 		}
 	]
 }

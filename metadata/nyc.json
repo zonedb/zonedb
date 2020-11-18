@@ -21,7 +21,7 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_es_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_es_3.0.xml"
 		}
 	]
 }

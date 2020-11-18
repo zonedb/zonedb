@@ -16,7 +16,94 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_ar_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_da_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_de_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_es_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "fi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_fi_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_fr_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "hu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_hu_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "is",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_is_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_ja_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_ko_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "lt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_lt_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "lv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_lv_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "no",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_no_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_pl_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_pt_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_ru_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_sv_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/citi_zh_3.0.xml"
 		}
 	]
 }
