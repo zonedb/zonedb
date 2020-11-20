@@ -5,7 +5,7 @@
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.gea",
 	"nameServers": [
 		"a.dns.nic.gea",
 		"m.dns.nic.gea",
