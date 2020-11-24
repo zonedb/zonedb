@@ -6,10 +6,10 @@
 	],
 	"whoisServer": "whois.nic.broker",
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a.nic.broker",
+		"b.nic.broker",
+		"c.nic.broker",
+		"d.nic.broker"
 	],
 	"policies": [
 		{

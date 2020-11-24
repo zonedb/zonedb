@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
+		"a.nic.cars",
+		"b.nic.cars",
+		"c.nic.cars",
+		"d.nic.cars",
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns3.uniregistry.net",

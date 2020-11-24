@@ -6,10 +6,10 @@
 	],
 	"whoisServer": "whois.nic.spreadbetting",
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a.nic.spreadbetting",
+		"b.nic.spreadbetting",
+		"c.nic.spreadbetting",
+		"d.nic.spreadbetting"
 	],
 	"policies": [
 		{
