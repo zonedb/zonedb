@@ -6,12 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.afilias-srs.net",
-	"nameServers": [
-		"a0.nic.shriram",
-		"a2.nic.shriram",
-		"b0.nic.shriram",
-		"c0.nic.shriram"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
