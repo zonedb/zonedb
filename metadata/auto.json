@@ -9,11 +9,7 @@
 		"a.nic.auto",
 		"b.nic.auto",
 		"c.nic.auto",
-		"d.nic.auto",
-		"ns1.uniregistry.net",
-		"ns2.uniregistry.info",
-		"ns3.uniregistry.net",
-		"ns4.uniregistry.info"
+		"d.nic.auto"
 	],
 	"policies": [
 		{
