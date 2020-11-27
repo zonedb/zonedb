@@ -1,5 +1,9 @@
 {
 	"domain": "tourism.td",
+	"nameServers": [
+		"ns.cocca.fr",
+		"nsa.nic.td"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
