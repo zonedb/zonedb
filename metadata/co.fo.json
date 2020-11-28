@@ -1,9 +1,5 @@
 {
 	"domain": "co.fo",
-	"nameServers": [
-		"ns1-07.azure-dns.com",
-		"ns2-07.azure-dns.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

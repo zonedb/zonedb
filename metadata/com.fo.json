@@ -1,9 +1,5 @@
 {
 	"domain": "com.fo",
-	"nameServers": [
-		"ns1-03.azure-dns.com",
-		"ns2-03.azure-dns.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
