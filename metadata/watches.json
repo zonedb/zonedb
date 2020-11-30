@@ -9,13 +9,7 @@
 		"a0.nic.watches",
 		"a2.nic.watches",
 		"b0.nic.watches",
-		"c0.nic.watches",
-		"ns1.dns.nic.watches",
-		"ns2.dns.nic.watches",
-		"ns3.dns.nic.watches",
-		"ns4.dns.nic.watches",
-		"ns5.dns.nic.watches",
-		"ns6.dns.nic.watches"
+		"c0.nic.watches"
 	],
 	"policies": [
 		{

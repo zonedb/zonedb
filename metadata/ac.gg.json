@@ -1,9 +1,9 @@
 {
 	"domain": "ac.gg",
 	"nameServers": [
-		"ns1.rapidswitch.com",
-		"ns2.rapidswitch.com",
-		"ns3.rapidswitch.com"
+		"nsa.dnsnode.net",
+		"nsp.dnsnode.net",
+		"nsu.dnsnode.net"
 	],
 	"policies": [
 		{
