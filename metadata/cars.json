@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.cars",
 	"nameServers": [
 		"a.nic.cars",
 		"b.nic.cars",
