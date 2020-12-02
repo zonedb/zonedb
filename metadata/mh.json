@@ -6,8 +6,7 @@
 		"geo"
 	],
 	"nameServers": [
-		"ns.amarshallinc.com",
-		"ns.ntamar.net"
+		"ns.amarshallinc.com"
 	],
 	"policies": [
 		{
