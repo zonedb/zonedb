@@ -1,7 +1,7 @@
 {
 	"domain": "fed.rep.br",
 	"nameServers": [
-		"cdns1.main-hosting.eu",
-		"cdns2.main-hosting.eu"
+		"a.auto.dns.br",
+		"b.auto.dns.br"
 	]
 }

@@ -1,8 +1,8 @@
 {
 	"domain": "at.tc",
 	"nameServers": [
-		"ns2572.servers-servers.com",
-		"ns2573.servers-servers.com"
+		"ns1.123k-elazz.com",
+		"ns2.123k-elazz.com"
 	],
 	"policies": [
 		{
