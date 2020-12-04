@@ -18,32 +18,32 @@
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_da_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_da_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_de_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_de_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_es_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_fi_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_fi_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_hu_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_hu_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "is",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_is_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_is_3.0.xml"
 		},
 		{
 			"type": "idn-table",
@@ -53,52 +53,52 @@
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_ja_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_ja_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_ko_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_ko_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "lt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_lt_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_lt_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "lv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_lv_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_lv_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "no",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_no_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_no_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_pl_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_pl_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_pt_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_pt_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_ru_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_ru_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_sv_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_sv_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_zh_3.0.xml"
 		}
 	]
 }

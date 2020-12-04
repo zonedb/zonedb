@@ -16,7 +16,7 @@
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moe_ja_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moe_ja_3.0.xml"
 		}
 	]
 }

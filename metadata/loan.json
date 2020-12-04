@@ -17,12 +17,12 @@
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/loan_da_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/loan_da_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/loan_de_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/loan_de_3.0.xml"
 		},
 		{
 			"type": "idn-table",
@@ -72,7 +72,7 @@
 		{
 			"type": "idn-table",
 			"key": "no",
-			"value": "https://www.iana.org/domains/idn-tables/tables/loan_no_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/loan_no_3.0.xml"
 		},
 		{
 			"type": "idn-table",
@@ -92,7 +92,7 @@
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/loan_sv_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/loan_sv_3.0.xml"
 		},
 		{
 			"type": "idn-table",
