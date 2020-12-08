@@ -75,7 +75,7 @@ func GenerateGo(zones map[string]*Zone) error {
 // Helper funcs
 
 func cont(s string) string {
-	return strings.Replace(s, "\\\n", "", -1)
+	return strings.ReplaceAll(s, "\\\n", "")
 }
 
 func odd(i int) bool {
