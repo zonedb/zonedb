@@ -136,10 +136,7 @@ func (z *Zone) IsIDN() bool {
 func (z *Zone) HasMetadata() bool {
 	j, _ := json.Marshal(z)
 	j2, _ := json.Marshal(&Zone{Domain: z.Domain})
-	if string(j) == string(j2) {
-		return false
-	}
-	return true
+	return string(j) != string(j2)
 }
 
 // ASCII returns the ACE encoded form of the Zone’s label(s).
