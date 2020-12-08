@@ -37,9 +37,7 @@ type Zone struct {
 func (z *Zone) Normalize() {
 	z.Domain = Normalize(z.Domain)
 	var tags []string
-	for _, t := range z.Tags {
-		tags = append(tags, t)
-	}
+	tags = append(tags, z.Tags...)
 	z.Tags = NewSet(tags...).Values()
 	z.NameServers = NewSet(z.NameServers...).Values()
 	sort.Strings(z.NameServers)
