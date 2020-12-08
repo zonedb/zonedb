@@ -45,7 +45,7 @@ func ReadZonesFile() (zones map[string]*Zone, errs []error) {
 			LogError(err)
 			continue
 		}
-		if len(d) == 0 {
+		if d == "" {
 			err := fmt.Errorf("blank line at %s:%d", path, line)
 			errs = append(errs, err)
 			LogWarning(err)
