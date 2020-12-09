@@ -7,4 +7,4 @@ name = "go"
 enabled = true
 
   [analyzers.meta]
-  import_paths = ["github.com/de-sh/zonedb"]
+  import_paths = ["github.com/zonedb/zonedb"]
