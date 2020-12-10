@@ -8,7 +8,7 @@
 	"locations": [
 		"Durban"
 	],
-	"whoisServer": "durban-whois.registry.net.za",
+	"whoisServer": "whois.nic.durban",
 	"nameServers": [
 		"coza1.dnsnode.net",
 		"ns.coza.net.za",
