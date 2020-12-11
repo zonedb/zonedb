@@ -2,8 +2,7 @@
 	"domain": "net.gy",
 	"nameServers": [
 		"a.lactld.org",
-		"gy-ns.anycast.pch.net",
-		"ns.cocca.fr"
+		"gy-ns.anycast.pch.net"
 	],
 	"policies": [
 		{
