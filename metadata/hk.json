@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.hkirc.hk",
+	"whoisServer": "whois.hkdnr.net.hk",
 	"nameServers": [
 		"c.hkirc.net.hk",
 		"d.hkirc.net.hk",

@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.nic.google",
+	"whoisServer": "whois.nic.map",
 	"nameServers": [
 		"ns-tld1.charlestonroadregistry.com",
 		"ns-tld2.charlestonroadregistry.com",
