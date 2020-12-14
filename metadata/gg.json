@@ -11,8 +11,7 @@
 		"dns2.nominetdns.uk",
 		"dns3.nominetdns.uk",
 		"dns4.nominetdns.uk",
-		"e.ci-servers.net",
-		"ns99.dns.net.nz"
+		"e.ci-servers.net"
 	],
 	"policies": [
 		{
