@@ -19,8 +19,7 @@ func TestTags(t *testing.T) {
 }
 
 func TestTags_And(t *testing.T) {
-	var tags Tags
-	tags = TagGeneric | TagCountry
+	var tags Tags = TagGeneric | TagCountry
 	if tags.And(TagGeneric) != true {
 		t.Errorf("tags.And(TagGeneric) != true")
 	}
@@ -36,8 +35,7 @@ func TestTags_And(t *testing.T) {
 }
 
 func ExampleTags_And() {
-	var z *Zone
-	z = ZoneMap["bananarepublic"]
+	z := ZoneMap["bananarepublic"]
 	fmt.Println(z.Tags.And(TagBrand | TagGeo))
 	// Output: true
 }
@@ -59,8 +57,7 @@ func TestTags_String(t *testing.T) {
 }
 
 func ExampleTags_String() {
-	var z *Zone
-	z = ZoneMap["aero"]
+	z := ZoneMap["aero"]
 	fmt.Println(z.Tags.String())
 	// Output: generic sponsored
 }

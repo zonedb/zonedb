@@ -353,8 +353,7 @@ func exchange(ctx context.Context, host, qname string, qtype uint16) (*dns.Msg, 
 	if err == nil {
 		return rmsg, err
 	}
-	switch err := err.(type) {
-	case *net.DNSError:
+	if err, ok := err.(*net.DNSError); ok {
 		return nil, err
 		// case *dns.Error:
 		// 	if err == dns.ErrTruncated {

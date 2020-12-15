@@ -10,10 +10,7 @@ import (
 // comparing the result to zero. Returns true if any
 // tags match q.
 func (tags Tags) And(q Tags) bool {
-	if (tags & q) != 0 {
-		return true
-	}
-	return false
+	return (tags & q) != 0
 }
 
 // String returns a space-delimited list of values for tags.

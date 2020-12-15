@@ -20,7 +20,7 @@ func (set Set) Add(vals ...string) {
 // Values returns a sorted slice of the set’s values.
 func (set Set) Values() []string {
 	vals := make([]string, 0, len(set))
-	for s, _ := range set {
+	for s := range set {
 		vals = append(vals, s)
 	}
 	Sort(vals) // domain rank (not lexical) sort
