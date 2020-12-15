@@ -35,7 +35,7 @@ func TestTags_And(t *testing.T) {
 }
 
 func ExampleTags_And() {
-	var z *Zone = ZoneMap["bananarepublic"]
+	z := ZoneMap["bananarepublic"]
 	fmt.Println(z.Tags.And(TagBrand | TagGeo))
 	// Output: true
 }
@@ -57,7 +57,7 @@ func TestTags_String(t *testing.T) {
 }
 
 func ExampleTags_String() {
-	var z *Zone = ZoneMap["aero"]
+	z := ZoneMap["aero"]
 	fmt.Println(z.Tags.String())
 	// Output: generic sponsored
 }
