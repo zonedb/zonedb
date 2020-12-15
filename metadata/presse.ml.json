@@ -1,9 +1,8 @@
 {
 	"domain": "presse.ml",
 	"nameServers": [
-		"ns1.nicdumali.presse.ml",
-		"ns2.nicdumali.presse.ml",
-		"ns3.nicdumali.presse.ml"
+		"cdns1.main-hosting.eu",
+		"cdns2.main-hosting.eu"
 	],
 	"policies": [
 		{
