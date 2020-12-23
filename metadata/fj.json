@@ -7,10 +7,7 @@
 	],
 	"whoisServer": "whois.usp.ac.fj",
 	"nameServers": [
-		"adns1.berkeley.edu",
-		"adns2.berkeley.edu",
 		"auth00.ns.uu.net",
-		"manu.usp.ac.fj",
 		"rip.psg.com",
 		"teri.usp.ac.fj"
 	],
