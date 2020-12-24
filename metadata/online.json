@@ -35,12 +35,12 @@
 		{
 			"type": "idn-table",
 			"key": "lo",
-			"value": "https://www.iana.org/domains/idn-tables/tables/online_lo_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/online_lo_2.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/online_cyrl_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/online_cyrl_1.1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -55,7 +55,7 @@
 		{
 			"type": "idn-table",
 			"key": "th",
-			"value": "https://www.iana.org/domains/idn-tables/tables/online_th_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/online_th_2.0.txt"
 		},
 		{
 			"type": "idn-table",

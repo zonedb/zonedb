@@ -4,10 +4,8 @@
 		"retired"
 	],
 	"nameServers": [
-		"dnsm1.nic.tc",
-		"dnsm2.nic.tc",
-		"dnsm3.nic.tc",
-		"dnsm4.nic.tc"
+		"ns1.beyazgundem.com",
+		"ns2.beyazgundem.com"
 	],
 	"policies": [
 		{
