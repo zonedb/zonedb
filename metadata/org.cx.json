@@ -1,7 +1,6 @@
 {
 	"domain": "org.cx",
 	"nameServers": [
-		"ns.anycast.nic.cx",
-		"ns.cocca.fr"
+		"ns.anycast.nic.cx"
 	]
 }

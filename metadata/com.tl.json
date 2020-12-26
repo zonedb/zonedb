@@ -1,8 +1,7 @@
 {
 	"domain": "com.tl",
 	"nameServers": [
-		"ns.anycast.nic.tl",
-		"ns.cocca.fr"
+		"ns.anycast.nic.tl"
 	],
 	"policies": [
 		{

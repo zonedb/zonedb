@@ -1,9 +1,7 @@
 {
 	"domain": "org.tl",
 	"nameServers": [
-		"ns.anycast.nic.tl",
-		"ns.cocca.fr",
-		"ns.coccaregistry.org"
+		"ns.anycast.nic.tl"
 	],
 	"policies": [
 		{
