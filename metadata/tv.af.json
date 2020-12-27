@@ -1,8 +1,7 @@
 {
 	"domain": "tv.af",
 	"nameServers": [
-		"ns.cocca.fr",
-		"ns.coccaregistry.org"
+		"ns.cocca.fr"
 	],
 	"policies": [
 		{
