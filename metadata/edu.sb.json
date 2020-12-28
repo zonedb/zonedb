@@ -1,7 +1,8 @@
 {
 	"domain": "edu.sb",
 	"nameServers": [
-		"ns.cocca.fr"
+		"ns.cocca.fr",
+		"pch.nic.sb"
 	],
 	"policies": [
 		{
