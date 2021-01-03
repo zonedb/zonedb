@@ -1,7 +1,9 @@
 {
 	"domain": "net.tl",
 	"nameServers": [
-		"ns.anycast.nic.tl"
+		"ns.anycast.nic.tl",
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz"
 	],
 	"policies": [
 		{
