@@ -8,8 +8,7 @@
 	"whoisServer": "whois.nic.tci",
 	"nameServers": [
 		"a.ns.nic.tci",
-		"b.ns.nic.tci",
-		"ns.cocca.fr"
+		"b.ns.nic.tci"
 	],
 	"policies": [
 		{

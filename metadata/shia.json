@@ -10,8 +10,7 @@
 	"whoisServer": "whois.nic.shia",
 	"nameServers": [
 		"a.ns.nic.shia",
-		"b.ns.nic.shia",
-		"ns.cocca.fr"
+		"b.ns.nic.shia"
 	],
 	"policies": [
 		{

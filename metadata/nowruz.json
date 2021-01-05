@@ -11,8 +11,7 @@
 	"whoisServer": "whois.nic.nowruz",
 	"nameServers": [
 		"a.ns.nic.nowruz",
-		"b.ns.nic.nowruz",
-		"ns.cocca.fr"
+		"b.ns.nic.nowruz"
 	],
 	"policies": [
 		{

@@ -10,7 +10,6 @@
 	"whoisServer": "whois.nic.همراه",
 	"nameServers": [
 		"a.ns.nic.همراه",
-		"b.ns.nic.همراه",
-		"ns.cocca.fr"
+		"b.ns.nic.همراه"
 	]
 }

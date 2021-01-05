@@ -10,8 +10,7 @@
 	"whoisServer": "whois.nic.pars",
 	"nameServers": [
 		"a.ns.nic.pars",
-		"b.ns.nic.pars",
-		"ns.cocca.fr"
+		"b.ns.nic.pars"
 	],
 	"policies": [
 		{
