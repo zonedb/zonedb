@@ -2,11 +2,7 @@
 	"domain": "gov.mr",
 	"nameServers": [
 		"dns.mauritania.mr",
-		"dns2.mauritania.mr",
-		"ns-mr.afrinic.net",
-		"ns-mr.nic.fr",
-		"ns-mr.nic.tn",
-		"ns1.nic.mr"
+		"dns2.mauritania.mr"
 	],
 	"policies": [
 		{

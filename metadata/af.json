@@ -8,7 +8,8 @@
 	"whoisServer": "whois.nic.af",
 	"nameServers": [
 		"ns.anycast.nic.af",
-		"ns.cocca.fr"
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz"
 	],
 	"policies": [
 		{
