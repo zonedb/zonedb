@@ -11,7 +11,9 @@
 	"whoisServer": "whois.nic.nowruz",
 	"nameServers": [
 		"a.ns.nic.nowruz",
-		"b.ns.nic.nowruz"
+		"b.ns.nic.nowruz",
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz"
 	],
 	"policies": [
 		{

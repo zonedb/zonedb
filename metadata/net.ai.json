@@ -1,7 +1,6 @@
 {
 	"domain": "net.ai",
 	"nameServers": [
-		"ns.cocca.fr",
 		"pch.whois.ai"
 	],
 	"policies": [

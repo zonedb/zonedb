@@ -1,7 +1,6 @@
 {
 	"domain": "off.ai",
 	"nameServers": [
-		"ns.cocca.fr",
 		"pch.whois.ai"
 	],
 	"policies": [

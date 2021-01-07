@@ -1,7 +1,6 @@
 {
 	"domain": "com.ai",
 	"nameServers": [
-		"ns.cocca.fr",
 		"pch.whois.ai"
 	],
 	"policies": [

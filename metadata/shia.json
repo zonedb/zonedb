@@ -10,7 +10,9 @@
 	"whoisServer": "whois.nic.shia",
 	"nameServers": [
 		"a.ns.nic.shia",
-		"b.ns.nic.shia"
+		"b.ns.nic.shia",
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz"
 	],
 	"policies": [
 		{

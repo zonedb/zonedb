@@ -10,6 +10,8 @@
 	"whoisServer": "whois.nic.همراه",
 	"nameServers": [
 		"a.ns.nic.همراه",
-		"b.ns.nic.همراه"
+		"b.ns.nic.همراه",
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz"
 	]
 }
