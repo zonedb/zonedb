@@ -1,11 +1,11 @@
 {
 	"domain": "co.fo",
 	"nameServers": [
-		"ns1-virt.catched.com",
-		"ns2-virt.catched.com"
-	],
-	"wildcards": [
-		"78.47.211.208"
+		"a.v4ns.xyz",
+		"b.v4ns.net",
+		"c.v4ns.org",
+		"d.v4ns.dev",
+		"f.v4ns.biz"
 	],
 	"policies": [
 		{

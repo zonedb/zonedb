@@ -7,12 +7,11 @@
 	],
 	"whoisServer": "whois.aero",
 	"nameServers": [
-		"a0.aero.afilias-nst.info",
-		"a2.aero.afilias-nst.info",
-		"b0.aero.afilias-nst.org",
-		"b2.aero.afilias-nst.org",
-		"c0.aero.afilias-nst.info",
-		"d0.aero.afilias-nst.org"
+		"a0.nic.aero",
+		"a2.nic.aero",
+		"b0.nic.aero",
+		"b2.nic.aero",
+		"c0.nic.aero"
 	],
 	"policies": [
 		{

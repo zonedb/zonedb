@@ -9,7 +9,7 @@
 		"Cologne",
 		"Koeln"
 	],
-	"whoisServer": "whois.nic.cologne",
+	"whoisServer": "whois.ryce-rsp.com",
 	"nameServers": [
 		"dns.ryce-rsp.com",
 		"ns1.dns.business",

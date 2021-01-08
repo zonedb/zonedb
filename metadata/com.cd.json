@@ -1,13 +1,8 @@
 {
-	"domain": "net.cd",
+	"domain": "com.cd",
 	"nameServers": [
 		"ns-root-21.scpt-network.net",
 		"ns-root-22.scpt-network.net",
 		"ns-root-23.scpt-network.net"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
 	]
 }
