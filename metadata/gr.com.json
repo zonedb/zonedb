@@ -10,6 +10,9 @@
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
 	],
+	"wildcards": [
+		"72.34.38.11"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -4,5 +4,8 @@
 		"ns1.idnz.net",
 		"ns2.idnz.net",
 		"ns3.idnz.net"
+	],
+	"wildcards": [
+		"93.190.235.135"
 	]
 }

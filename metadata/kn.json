@@ -7,8 +7,8 @@
 	],
 	"whoisServer": "whois.nic.kn",
 	"nameServers": [
-		"ns.cocca.fr",
-		"ns.coccaregistry.org",
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz",
 		"pch.nic.kn"
 	],
 	"policies": [
