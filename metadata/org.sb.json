@@ -1,7 +1,8 @@
 {
 	"domain": "org.sb",
 	"nameServers": [
-		"ns.cocca.fr",
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz",
 		"pch.nic.sb"
 	],
 	"policies": [

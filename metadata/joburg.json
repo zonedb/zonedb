@@ -8,7 +8,7 @@
 	"locations": [
 		"Johannesburg"
 	],
-	"whoisServer": "joburg-whois.registry.net.za",
+	"whoisServer": "whois.nic.joburg",
 	"nameServers": [
 		"coza1.dnsnode.net",
 		"ns.coza.net.za",

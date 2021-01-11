@@ -1,7 +1,9 @@
 {
 	"domain": "tv.af",
 	"nameServers": [
-		"ns.cocca.fr"
+		"ns.anycast.nic.af",
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz"
 	],
 	"policies": [
 		{
