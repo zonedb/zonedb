@@ -7,9 +7,6 @@
 		"ns1.com.nl",
 		"ns2.com.nl"
 	],
-	"wildcards": [
-		"185.85.211.136"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

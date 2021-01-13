@@ -12,7 +12,7 @@
 	],
 	"whoisServer": "whois.nic.brussels",
 	"nameServers": [
-		"a.nic.brussels",
+		"a.nsset.brussels",
 		"b.nic.brussels",
 		"c.ns.dns.be",
 		"d.ns.dns.be",

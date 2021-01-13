@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.ficora.fi",
+	"whoisServer": "whois.fi",
 	"nameServers": [
 		"a.fi",
 		"b.fi",
