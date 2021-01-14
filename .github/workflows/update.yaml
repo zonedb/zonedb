@@ -50,16 +50,10 @@ jobs:
 
       - name: Notify if failure
         if: ${{ failure() }}
-        uses: tokorom/action-slack-incoming-webhook@v1.1.3
-        env:
-          INCOMING_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
-        with:
-          text: "❌ ZoneDB update failed."
+        run: |
+          curl -X POST -H 'Content-type: application/json' --data '{"text":"❌ ZoneDB update failed."}' ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
 
       - name: Notify if success
         if: ${{ success() }}
-        uses: tokorom/action-slack-incoming-webhook@v1.1.3
-        env:
-          INCOMING_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
-        with:
-          text: "✅ ZoneDB updated."
+        run: |
+          curl -X POST -H 'Content-type: application/json' --data '{"text":"✅ ZoneDB updated."}' ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
