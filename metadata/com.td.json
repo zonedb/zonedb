@@ -1,10 +1,5 @@
 {
 	"domain": "com.td",
-	"nameServers": [
-		"ns-td.afrinic.net",
-		"ns.cocca.fr",
-		"pch.nic.td"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
