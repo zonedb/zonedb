@@ -8,6 +8,7 @@
 	"nameServers": [
 		"a.nuuk.nic.gl",
 		"d.nic.gl",
-		"ns.cocca.fr"
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz"
 	]
 }
