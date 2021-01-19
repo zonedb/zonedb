@@ -1,7 +1,8 @@
 {
 	"domain": "unbi.ba",
 	"nameServers": [
-		"linhost01.utic.net.ba"
+		"linhost01.utic.net.ba",
+		"sava.utic.net.ba"
 	],
 	"policies": [
 		{

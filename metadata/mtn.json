@@ -7,10 +7,12 @@
 	],
 	"whoisServer": "whois.nic.mtn",
 	"nameServers": [
-		"a.nic.mtn",
-		"b.nic.mtn",
 		"c.nic.mtn",
-		"d.nic.mtn"
+		"d.nic.mtn",
+		"dns1.nic.mtn",
+		"dns2.nic.mtn",
+		"dns3.nic.mtn",
+		"dns4.nic.mtn"
 	],
 	"policies": [
 		{
