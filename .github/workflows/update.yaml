@@ -51,9 +51,9 @@ jobs:
       - name: Notify if failure
         if: ${{ failure() }}
         run: |
-          curl -X POST -H 'Content-type: application/json' --data '{"text":"❌ ZoneDB update failed."}' ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
+          curl -Ss -X POST -H 'Content-type: application/json' --data '{"text":"❌ ZoneDB update failed."}' ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
 
       - name: Notify if success
         if: ${{ success() }}
         run: |
-          curl -X POST -H 'Content-type: application/json' --data '{"text":"✅ ZoneDB updated."}' ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
+          curl -Ss -X POST -H 'Content-type: application/json' --data '{"text":"✅ ZoneDB updated."}' ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
