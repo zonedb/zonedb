@@ -18,6 +18,11 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_ar_1.0.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "da",
 			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_da_1.txt"
 		},
@@ -45,6 +50,11 @@
 			"type": "idn-table",
 			"key": "is",
 			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_is_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "it",
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_it_1.txt"
 		},
 		{
 			"type": "idn-table",

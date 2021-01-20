@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois2.afilias-grs.net",
+	"whoisServer": "whois.nic.hn",
 	"nameServers": [
 		"a.lactld.org",
 		"nicmx-anycast.rds.org.hn",
