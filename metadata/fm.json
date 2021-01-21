@@ -15,9 +15,6 @@
 		"tld5.ultradns.info",
 		"tld6.ultradns.co.uk"
 	],
-	"wildcards": [
-		"198.74.54.240"
-	],
 	"policies": [
 		{
 			"type": "idn-table",

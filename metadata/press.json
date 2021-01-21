@@ -59,7 +59,7 @@
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/press_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/press_zh_1.2.txt"
 		}
 	]
 }
