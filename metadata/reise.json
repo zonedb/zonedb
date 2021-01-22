@@ -65,7 +65,7 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/reise_latn_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_latn_1.0.txt"
 		},
 		{
 			"type": "idn-table",

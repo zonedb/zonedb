@@ -1,9 +1,5 @@
 {
 	"domain": "de.pn",
-	"nameServers": [
-		"ns1.idnscan.net",
-		"ns2.idnscan.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
