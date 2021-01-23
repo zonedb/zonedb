@@ -6,6 +6,7 @@
 	],
 	"whoisServer": "whois.nic.net.bw",
 	"nameServers": [
+		"dns1.nic.net.bw",
 		"ns-bw.afrinic.net",
 		"pch.nic.net.bw"
 	],

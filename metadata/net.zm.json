@@ -1,7 +1,8 @@
 {
 	"domain": "net.zm",
 	"nameServers": [
-		"cocca.nic.zm",
-		"pch.nic.zm"
+		"pch.nic.zm",
+		"zicta1.nic.zm",
+		"zicta2.nic.zm"
 	]
 }

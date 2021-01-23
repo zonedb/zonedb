@@ -3,5 +3,8 @@
 	"nameServers": [
 		"miles.ns.cloudflare.com",
 		"pam.ns.cloudflare.com"
+	],
+	"wildcards": [
+		"2a01:4f8:211:1443:31::b4a6"
 	]
 }

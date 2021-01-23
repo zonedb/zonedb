@@ -1,8 +1,8 @@
 {
 	"domain": "sch.zm",
 	"nameServers": [
-		"cocca.nic.zm",
-		"gransy.nic.zm",
-		"pch.nic.zm"
+		"pch.nic.zm",
+		"zicta1.nic.zm",
+		"zicta2.nic.zm"
 	]
 }
