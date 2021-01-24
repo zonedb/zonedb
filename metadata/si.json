@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.arnes.si",
+	"whoisServer": "whois.register.si",
 	"nameServers": [
 		"b.dns.si",
 		"f.dns.si",
