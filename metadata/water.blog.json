@@ -4,10 +4,5 @@
 		"ns1.wordpress.com",
 		"ns2.wordpress.com",
 		"ns3.wordpress.com"
-	],
-	"wildcards": [
-		"192.0.78.24",
-		"192.0.78.25",
-		"water.blog"
 	]
 }
