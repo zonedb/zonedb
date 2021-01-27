@@ -2,7 +2,8 @@
 	"domain": "edu.sb",
 	"nameServers": [
 		"ns1.anycastdns.cz",
-		"ns2.anycastdns.cz"
+		"ns2.anycastdns.cz",
+		"pch.nic.sb"
 	],
 	"policies": [
 		{

@@ -7,10 +7,10 @@
 	],
 	"whoisServer": "whois.nic.sbs",
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a.nic.sbs",
+		"b.nic.sbs",
+		"c.nic.sbs",
+		"d.nic.sbs"
 	],
 	"policies": [
 		{
