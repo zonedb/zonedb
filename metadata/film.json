@@ -14,6 +14,11 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_ar_3.0.xml"
+		},
+		{
+			"type": "idn-table",
 			"key": "da",
 			"value": "https://www.iana.org/domains/idn-tables/tables/film_da_3.0.xml"
 		},
@@ -29,8 +34,33 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "fi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_fi_3.0.xml"
+		},
+		{
+			"type": "idn-table",
 			"key": "fr",
 			"value": "https://www.iana.org/domains/idn-tables/tables/film_fr_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "he",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_he_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "hi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_hi_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "hu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_hu_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "is",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_is_3.0.xml"
 		},
 		{
 			"type": "idn-table",
@@ -39,8 +69,33 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_ja_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_ko_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "lt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_lt_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "lv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_lv_3.0.xml"
+		},
+		{
+			"type": "idn-table",
 			"key": "nl",
 			"value": "https://www.iana.org/domains/idn-tables/tables/film_nl_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "no",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_no_3.0.xml"
 		},
 		{
 			"type": "idn-table",
@@ -49,8 +104,23 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_pt_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_ru_3.0.xml"
+		},
+		{
+			"type": "idn-table",
 			"key": "sv",
 			"value": "https://www.iana.org/domains/idn-tables/tables/film_sv_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/film_zh_3.0.xml"
 		}
 	]
 }

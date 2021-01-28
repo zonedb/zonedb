@@ -10,5 +10,12 @@
 		"b.nic.飞利浦",
 		"c.nic.飞利浦",
 		"d.nic.飞利浦"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--kcrx77d1x4a_zh_3.0.xml"
+		}
 	]
 }

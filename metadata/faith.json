@@ -27,47 +27,47 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/faith_es_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/faith_es_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/faith_fi_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/faith_fi_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/faith_fr_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/faith_fr_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/faith_hu_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/faith_hu_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "is",
-			"value": "https://www.iana.org/domains/idn-tables/tables/faith_is_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/faith_is_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/faith_ja_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/faith_ja_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/faith_ko_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/faith_ko_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "lt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/faith_lt_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/faith_lt_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "lv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/faith_lv_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/faith_lv_3.0.xml"
 		},
 		{
 			"type": "idn-table",
@@ -77,17 +77,17 @@
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/faith_pl_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/faith_pl_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/faith_pt_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/faith_pt_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/faith_ru_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/faith_ru_3.0.xml"
 		},
 		{
 			"type": "idn-table",
@@ -97,7 +97,7 @@
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/faith_zh_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/faith_zh_3.0.xml"
 		}
 	]
 }

@@ -10,5 +10,12 @@
 		"b.nic.العليان",
 		"c.nic.العليان",
 		"d.nic.العليان"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgba7c0bbn0a_ar_3.0.xml"
+		}
 	]
 }

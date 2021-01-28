@@ -27,47 +27,47 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/racing_es_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/racing_es_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/racing_fi_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/racing_fi_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/racing_fr_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/racing_fr_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/racing_hu_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/racing_hu_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "is",
-			"value": "https://www.iana.org/domains/idn-tables/tables/racing_is_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/racing_is_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/racing_ja_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/racing_ja_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/racing_ko_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/racing_ko_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "lt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/racing_lt_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/racing_lt_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "lv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/racing_lv_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/racing_lv_3.0.xml"
 		},
 		{
 			"type": "idn-table",
@@ -77,17 +77,17 @@
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/racing_pl_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/racing_pl_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/racing_pt_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/racing_pt_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/racing_ru_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/racing_ru_3.0.xml"
 		},
 		{
 			"type": "idn-table",
@@ -97,7 +97,7 @@
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/racing_zh_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/racing_zh_3.0.xml"
 		}
 	]
 }

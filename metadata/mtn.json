@@ -12,7 +12,11 @@
 		"dns1.nic.mtn",
 		"dns2.nic.mtn",
 		"dns3.nic.mtn",
-		"dns4.nic.mtn"
+		"dns4.nic.mtn",
+		"dnsa.nic.mtn",
+		"dnsb.nic.mtn",
+		"dnsc.nic.mtn",
+		"dnsd.nic.mtn"
 	],
 	"policies": [
 		{

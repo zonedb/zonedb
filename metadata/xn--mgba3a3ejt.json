@@ -12,5 +12,17 @@
 		"ns4.dns.nic.ارامكو",
 		"ns5.dns.nic.ارامكو",
 		"ns6.dns.nic.ارامكو"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgba3a3ejt_ar_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgba3a3ejt_es_3.0.xml"
+		}
 	]
 }

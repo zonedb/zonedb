@@ -18,7 +18,7 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/song_ar_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/song_ar_3.0.xml"
 		},
 		{
 			"type": "idn-table",
@@ -43,7 +43,7 @@
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/song_fr_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/song_fr_3.0.xml"
 		},
 		{
 			"type": "idn-table",

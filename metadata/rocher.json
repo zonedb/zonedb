@@ -48,7 +48,7 @@
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_it_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocher_it_3.0.xml"
 		},
 		{
 			"type": "idn-table",
