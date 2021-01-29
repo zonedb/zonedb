@@ -7,8 +7,6 @@
 	],
 	"whoisServer": "whois.nic.mtn",
 	"nameServers": [
-		"c.nic.mtn",
-		"d.nic.mtn",
 		"dns1.nic.mtn",
 		"dns2.nic.mtn",
 		"dns3.nic.mtn",

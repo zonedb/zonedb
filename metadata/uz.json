@@ -7,6 +7,7 @@
 	"whoisServer": "whois.cctld.uz",
 	"nameServers": [
 		"ns.uz",
+		"ns1.uz",
 		"ns2.uz",
 		"ns3.uz",
 		"ns4.uz",

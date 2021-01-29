@@ -7,12 +7,10 @@
 	],
 	"whoisServer": "whois.nic.travel",
 	"nameServers": [
-		"a.gtld.travel",
-		"b.gtld.travel",
-		"c.gtld.travel",
-		"d.gtld.travel",
-		"e.gtld.travel",
-		"f.gtld.travel"
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
 	],
 	"policies": [
 		{
