@@ -11,9 +11,10 @@
 		"dns2.nic.gucci",
 		"dns3.nic.gucci",
 		"dns4.nic.gucci",
-		"ns4.dns.nic.gucci",
-		"ns5.dns.nic.gucci",
-		"ns6.dns.nic.gucci"
+		"dnsa.nic.gucci",
+		"dnsb.nic.gucci",
+		"dnsc.nic.gucci",
+		"dnsd.nic.gucci"
 	],
 	"policies": [
 		{
