@@ -9,7 +9,7 @@
 		"ns3.lacnic.net",
 		"ns4.apnic.net",
 		"pri.authdns.ripe.net",
-		"tinnie.arin.net"
+		"rirns.arin.net"
 	],
 	"policies": [
 		{
