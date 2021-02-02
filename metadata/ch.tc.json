@@ -1,8 +1,8 @@
 {
 	"domain": "ch.tc",
 	"nameServers": [
-		"dns.voxel.sh",
-		"voxeldns.net"
+		"ns1.swisscenter.com",
+		"ns2.swisscenter.com"
 	],
 	"policies": [
 		{

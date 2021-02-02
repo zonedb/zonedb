@@ -1,11 +1,7 @@
 {
 	"domain": "ru.tc",
 	"nameServers": [
-		"ns17.above.com",
-		"ns18.above.com"
-	],
-	"wildcards": [
-		"103.224.182.250"
+		"suspended.nic.tc"
 	],
 	"policies": [
 		{

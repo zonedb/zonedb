@@ -10,8 +10,8 @@
 	],
 	"whoisServer": "whois.nic.vlaanderen",
 	"nameServers": [
-		"a.nic.vlaanderen",
-		"b.nic.vlaanderen",
+		"a.nsset.vlaanderen",
+		"b.nsset.vlaanderen",
 		"c.ns.dns.be",
 		"d.ns.dns.be",
 		"y.ns.dns.be",
