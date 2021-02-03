@@ -2,6 +2,8 @@
 	"domain": "org.lb",
 	"nameServers": [
 		"magma.aub.edu.lb",
+		"ns3.seacomnet.com",
+		"ns4.seacomnet.com",
 		"rip.psg.com",
 		"zeina.aub.edu.lb"
 	],
