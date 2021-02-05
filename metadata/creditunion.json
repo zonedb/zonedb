@@ -9,7 +9,9 @@
 		"a0.nic.creditunion",
 		"a2.nic.creditunion",
 		"b0.nic.creditunion",
-		"c0.nic.creditunion"
+		"c0.nic.creditunion",
+		"ns1.uniregistry.net",
+		"ns2.uniregistry.info"
 	],
 	"policies": [
 		{

@@ -1,7 +1,6 @@
 {
 	"domain": "gov.lb",
 	"nameServers": [
-		"magma.aub.edu.lb",
 		"nn.uninett.no",
 		"ns3.seacomnet.com",
 		"ns4.seacomnet.com",
