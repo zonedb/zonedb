@@ -8,7 +8,7 @@
 	"locations": [
 		"Cape Town"
 	],
-	"whoisServer": "capetown-whois.registry.net.za",
+	"whoisServer": "whois.nic.capetown",
 	"nameServers": [
 		"coza1.dnsnode.net",
 		"ns.coza.net.za",

@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.kg",
+	"whoisServer": "whois.domain.kg",
 	"nameServers": [
 		"kg.cctld.authdns.ripe.net",
 		"ns.kg"
