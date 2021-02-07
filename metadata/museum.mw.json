@@ -1,8 +1,9 @@
 {
 	"domain": "museum.mw",
 	"nameServers": [
-		"ns1.dns.com",
-		"ns2.dns.com"
+		"a.dnspod.com",
+		"b.dnspod.com",
+		"c.dnspod.com"
 	],
 	"policies": [
 		{
