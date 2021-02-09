@@ -12,8 +12,8 @@
 	"nameServers": [
 		"a.nsset.vlaanderen",
 		"b.nsset.vlaanderen",
-		"c.ns.dns.be",
-		"d.ns.dns.be",
+		"c.nsset.vlaanderen",
+		"d.nsset.vlaanderen",
 		"y.ns.dns.be",
 		"z.nsset.vlaanderen"
 	],
