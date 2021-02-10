@@ -4,7 +4,7 @@
 		"generic",
 		"sponsored"
 	],
-	"whoisServer": "whois.educause.net",
+	"whoisServer": "whois.educause.edu",
 	"nameServers": [
 		"a.edu-servers.net",
 		"b.edu-servers.net",

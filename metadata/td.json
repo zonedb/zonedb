@@ -7,9 +7,9 @@
 	],
 	"whoisServer": "whois.nic.td",
 	"nameServers": [
+		"anycastdns1.nic.td",
+		"anycastdns2.nic.td",
 		"ns-td.afrinic.net",
-		"ns.cocca.fr",
-		"nsa.nic.td",
 		"pch.nic.td"
 	],
 	"policies": [

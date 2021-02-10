@@ -3,9 +3,7 @@
 	"nameServers": [
 		"a.dnspod.com",
 		"b.dnspod.com",
-		"c.dnspod.com",
-		"ns1.dns.com",
-		"ns2.dns.com"
+		"c.dnspod.com"
 	],
 	"policies": [
 		{
