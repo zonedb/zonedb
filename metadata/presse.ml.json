@@ -1,8 +1,10 @@
 {
 	"domain": "presse.ml",
 	"nameServers": [
-		"cdns1.main-hosting.eu",
-		"cdns2.main-hosting.eu"
+		"ns01.freenom.com",
+		"ns02.freenom.com",
+		"ns03.freenom.com",
+		"ns04.freenom.com"
 	],
 	"policies": [
 		{

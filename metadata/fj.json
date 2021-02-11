@@ -7,9 +7,11 @@
 	],
 	"whoisServer": "whois.usp.ac.fj",
 	"nameServers": [
-		"auth00.ns.uu.net",
-		"rip.psg.com",
-		"teri.usp.ac.fj"
+		"ns1.fj",
+		"ns2.fj",
+		"ns3.fj",
+		"ns4.fj",
+		"ns5.fj"
 	],
 	"policies": [
 		{
