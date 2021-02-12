@@ -3,7 +3,6 @@
 	"nameServers": [
 		"b.dns.py",
 		"c.dns.py",
-		"m.dns.py",
 		"p.dns.py",
 		"u.dns.py"
 	],
