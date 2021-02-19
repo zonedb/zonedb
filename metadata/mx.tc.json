@@ -4,6 +4,12 @@
 		"leah.ns.cloudflare.com",
 		"noah.ns.cloudflare.com"
 	],
+	"wildcards": [
+		"104.21.75.127",
+		"172.67.175.218",
+		"2606:4700:3036::6815:4b7f",
+		"2606:4700:3036::ac43:afda"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

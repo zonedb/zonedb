@@ -19,7 +19,7 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://registrars.nominet.uk/sites/default/files/spanish_idn.pdf",
+			"value": "https://www.iana.org/domains/idn-tables/tables/casa_es_1.0.txt",
 			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		},
 		{
