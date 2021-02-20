@@ -6,12 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.newholland",
-	"nameServers": [
-		"a0.nic.newholland",
-		"a2.nic.newholland",
-		"b0.nic.newholland",
-		"c0.nic.newholland"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

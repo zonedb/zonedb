@@ -5,7 +5,7 @@
 		"adult",
 		"generic"
 	],
-	"whoisServer": "whois.registrar.adult",
+	"whoisServer": "whois.nic.xxx",
 	"nameServers": [
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",

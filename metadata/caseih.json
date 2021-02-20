@@ -6,12 +6,6 @@
 		"generic"
 	],
 	"whoisServer": "whois.nic.caseih",
-	"nameServers": [
-		"a0.nic.caseih",
-		"a2.nic.caseih",
-		"b0.nic.caseih",
-		"c0.nic.caseih"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

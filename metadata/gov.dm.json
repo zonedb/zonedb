@@ -2,13 +2,9 @@
 	"domain": "gov.dm",
 	"nameServers": [
 		"ns.blacknightsolutions.com",
-		"ns1.uniregistry.net",
 		"ns2.blacknightsolutions.com",
 		"ns2.nic.dm",
-		"ns2.uniregistry.info",
-		"ns3.uniregistry.net",
-		"ns34.cdns.net",
-		"ns4.uniregistry.info"
+		"ns34.cdns.net"
 	],
 	"policies": [
 		{
