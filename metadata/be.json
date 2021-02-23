@@ -6,7 +6,7 @@
 	],
 	"whoisServer": "whois.dns.be",
 	"nameServers": [
-		"a.ns.dns.be",
+		"a.nsset.be",
 		"b.ns.dns.be",
 		"c.ns.dns.be",
 		"d.ns.dns.be",
