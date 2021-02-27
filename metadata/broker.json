@@ -9,7 +9,11 @@
 		"a.nic.broker",
 		"b.nic.broker",
 		"c.nic.broker",
-		"d.nic.broker"
+		"d.nic.broker",
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
 	],
 	"policies": [
 		{

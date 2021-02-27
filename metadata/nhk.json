@@ -35,6 +35,11 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_pl_1.0.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "pt",
 			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_pt_1.0.txt"
 		},

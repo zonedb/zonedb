@@ -5,7 +5,7 @@
 		"country",
 		"geo"
 	],
-	"whoisServer": "whois.weare.ie",
+	"whoisServer": "whois.domainregistry.ie",
 	"nameServers": [
 		"b.ns.ie",
 		"c.ns.ie",

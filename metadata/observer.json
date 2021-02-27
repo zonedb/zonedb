@@ -10,7 +10,11 @@
 		"a.nic.observer",
 		"b.nic.observer",
 		"c.nic.observer",
-		"d.nic.observer"
+		"d.nic.observer",
+		"demand.alpha.aridns.net.au",
+		"demand.beta.aridns.net.au",
+		"demand.delta.aridns.net.au",
+		"demand.gamma.aridns.net.au"
 	],
 	"policies": [
 		{

@@ -14,7 +14,9 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/toyota_ja_1.0.txt"
 		}
 	]
 }
