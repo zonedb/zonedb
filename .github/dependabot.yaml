@@ -4,11 +4,12 @@ updates:
     directory: "/"
     schedule:
       interval: weekly
+      time: "13:00" # 5am Pacific
     open-pull-requests-limit: 10
 
   - package-ecosystem: gomod
     directory: "/"
     schedule:
       interval: daily
-      time: "01:00"
+      time: "01:00" # 5pm Pacific
     open-pull-requests-limit: 10
