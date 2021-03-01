@@ -6,7 +6,7 @@
 		"generic",
 		"geo"
 	],
-	"whoisServer": "whois.worldsite.ws",
+	"whoisServer": "whois.website.ws",
 	"nameServers": [
 		"ns2.dns.ws",
 		"ns3.dns.ws",
