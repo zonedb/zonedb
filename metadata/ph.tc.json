@@ -5,6 +5,9 @@
 		"ns2.openprovider.be",
 		"ns3.openprovider.eu"
 	],
+	"wildcards": [
+		"196.196.233.154"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

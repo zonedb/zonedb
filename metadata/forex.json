@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.nic.forex",
 	"nameServers": [
+		"a.nic.forex",
+		"b.nic.forex",
+		"c.nic.forex",
+		"d.nic.forex",
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",
 		"demand.delta.aridns.net.au",
