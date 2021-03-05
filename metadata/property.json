@@ -34,6 +34,11 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/property_ja_1.1.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "mul-Cyrl",
 			"value": "https://www.iana.org/domains/idn-tables/tables/audio_cyrl_1.0.txt"
 		},
