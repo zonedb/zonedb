@@ -6,10 +6,6 @@
 	],
 	"whoisServer": "whois.nic.trading",
 	"nameServers": [
-		"a.nic.trading",
-		"b.nic.trading",
-		"c.nic.trading",
-		"d.nic.trading",
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",
 		"demand.delta.aridns.net.au",

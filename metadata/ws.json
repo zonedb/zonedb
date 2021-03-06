@@ -15,9 +15,6 @@
 		"ns6.dns.ws",
 		"ns7.dns.ws"
 	],
-	"wildcards": [
-		"64.70.19.203"
-	],
 	"policies": [
 		{
 			"type": "idn-table",
