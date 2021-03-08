@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.nic.realty",
 	"nameServers": [
+		"a.nic.realty",
+		"b.nic.realty",
+		"c.nic.realty",
+		"d.nic.realty",
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",
 		"demand.delta.aridns.net.au",
