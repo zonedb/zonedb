@@ -6,6 +6,10 @@
 	],
 	"whoisServer": "whois.nic.pharmacy",
 	"nameServers": [
+		"dns1.nic.pharmacy",
+		"dns2.nic.pharmacy",
+		"dns3.nic.pharmacy",
+		"dns4.nic.pharmacy",
 		"ns1.dns.nic.pharmacy",
 		"ns2.dns.nic.pharmacy",
 		"ns3.dns.nic.pharmacy",

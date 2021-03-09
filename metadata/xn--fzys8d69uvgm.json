@@ -10,5 +10,17 @@
 		"a2.nic.電訊盈科",
 		"b0.nic.電訊盈科",
 		"c0.nic.電訊盈科"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh-CN",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fzys8d69uvgm_zh-cn_4.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-TW",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fzys8d69uvgm_zh-tw_4.0.txt"
+		}
 	]
 }

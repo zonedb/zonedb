@@ -7,5 +7,17 @@
 		"a2.nic.手机",
 		"b0.nic.手机",
 		"c0.nic.手机"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh-CN",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--kput3i_zh-cn_4.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-TW",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--kput3i_zh-tw_4.0.txt"
+		}
 	]
 }

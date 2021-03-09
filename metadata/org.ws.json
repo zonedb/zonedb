@@ -8,6 +8,9 @@
 		"ns6.dns.ws",
 		"ns7.dns.ws"
 	],
+	"wildcards": [
+		"202.4.48.211"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

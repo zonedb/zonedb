@@ -95,6 +95,16 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "sr-ME",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_sr-me_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_sv_1.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "uk",
 			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_uk_1.txt"
 		},

@@ -15,7 +15,7 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/german-DE.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/bio_de_1.txt"
 		}
 	]
 }
