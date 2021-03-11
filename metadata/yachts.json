@@ -6,10 +6,14 @@
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
+		"a.nic.yachts",
 		"a0.nic.yachts",
 		"a2.nic.yachts",
+		"b.nic.yachts",
 		"b0.nic.yachts",
-		"c0.nic.yachts"
+		"c.nic.yachts",
+		"c0.nic.yachts",
+		"d.nic.yachts"
 	],
 	"policies": [
 		{

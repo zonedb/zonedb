@@ -6,10 +6,14 @@
 	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
+		"a.nic.motorcycles",
 		"a0.nic.motorcycles",
 		"a2.nic.motorcycles",
+		"b.nic.motorcycles",
 		"b0.nic.motorcycles",
-		"c0.nic.motorcycles"
+		"c.nic.motorcycles",
+		"c0.nic.motorcycles",
+		"d.nic.motorcycles"
 	],
 	"policies": [
 		{

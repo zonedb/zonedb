@@ -8,10 +8,6 @@
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a.dns.nic.schaeffler",
-		"a0.nic.schaeffler",
-		"a2.nic.schaeffler",
-		"b0.nic.schaeffler",
-		"c0.nic.schaeffler",
 		"m.dns.nic.schaeffler",
 		"n.dns.nic.schaeffler"
 	],
