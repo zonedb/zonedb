@@ -18,7 +18,489 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "az",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_az_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "be",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_be_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "bg",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_bg_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "el",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_el_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ku",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_ku_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_mk_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Arab",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_arab_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Armi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_armi_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Armn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_armn_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Avst",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_avst_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Bali",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_bali_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Bamu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_bamu_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Batk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_batk_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Beng",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_beng_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Bopo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_bopo_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Brah",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_brah_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Bugi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_bugi_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Buhd",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_buhd_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_cans_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cari",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_cari_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cham",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_cham_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cher",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_cher_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Copt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_copt_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_cyrl_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Deva",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_deva_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Egyp",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_egyp_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Ethi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_ethi_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Geor",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_geor_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Glag",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_glag_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_grek_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Gujr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_gujr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Guru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_guru_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hang",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_hang_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hani",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_hani_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hano",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_hano_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hebr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_hebr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hira",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_hira_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Java",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_java_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Kali",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_kali_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Kana",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_kana_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Khar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_khar_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Khmr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_khmr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Knda",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_knda_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Kthi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_kthi_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lana",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_lana_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Laoo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_laoo_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_latn_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lepc",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_lepc_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Limb",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_limb_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lisu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_lisu_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lyci",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_lyci_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lydi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_lydi_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mand",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_mand_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mlym",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_mlym_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mong",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_mong_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mtei",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_mtei_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mymr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_mymr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Nkoo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_nkoo_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Ogam",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_ogam_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Olck",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_olck_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Orkh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_orkh_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Orya",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_orya_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Phag",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_phag_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Phli",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_phli_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Phnx",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_phnx_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Prti",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_prti_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Rjng",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_rjng_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Runr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_runr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Samr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_samr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Sarb",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_sarb_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Saur",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_saur_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Sinh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_sinh_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Sund",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_sund_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Sylo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_sylo_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Syrc",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_syrc_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tagb",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_tagb_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tale",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_tale_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Talu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_talu_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Taml",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_taml_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tavt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_tavt_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Telu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_telu_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tfng",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_tfng_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tglg",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_tglg_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Thaa",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_thaa_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Thai",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_thai_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tibt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_tibt_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Vaii",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_vaii_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Xpeo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_xpeo_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Xsux",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_xsux_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Yiii",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_yiii_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_pl_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ro",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_ro_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_ru_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "uk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_uk_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bentley_zh_1.0.txt"
 		}
 	]
 }

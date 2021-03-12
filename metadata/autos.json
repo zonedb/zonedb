@@ -7,12 +7,8 @@
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a.nic.autos",
-		"a0.nic.autos",
-		"a2.nic.autos",
 		"b.nic.autos",
-		"b0.nic.autos",
 		"c.nic.autos",
-		"c0.nic.autos",
 		"d.nic.autos"
 	],
 	"policies": [
