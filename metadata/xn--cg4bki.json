@@ -11,5 +11,12 @@
 		"ns2.삼성.centralnic-dns.com",
 		"ns3.삼성.centralnic-dns.com",
 		"ns4.삼성.centralnic-dns.com"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--cg4bki_ko_1.0.txt"
+		}
 	]
 }
