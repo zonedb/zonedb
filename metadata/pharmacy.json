@@ -10,9 +10,10 @@
 		"dns2.nic.pharmacy",
 		"dns3.nic.pharmacy",
 		"dns4.nic.pharmacy",
-		"ns4.dns.nic.pharmacy",
-		"ns5.dns.nic.pharmacy",
-		"ns6.dns.nic.pharmacy"
+		"dnsa.nic.pharmacy",
+		"dnsb.nic.pharmacy",
+		"dnsc.nic.pharmacy",
+		"dnsd.nic.pharmacy"
 	],
 	"policies": [
 		{

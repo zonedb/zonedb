@@ -1,6 +1,7 @@
 {
 	"domain": "edu.es",
 	"nameServers": [
+		"c.nic.es",
 		"fnicdos.rediris.es",
 		"g.nic.es",
 		"h.nic.es",
