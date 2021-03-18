@@ -1,5 +1,9 @@
 {
 	"domain": "se.tc",
+	"nameServers": [
+		"gabriel.ns.cloudflare.com",
+		"jamie.ns.cloudflare.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

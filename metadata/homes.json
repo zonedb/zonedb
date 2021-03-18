@@ -4,7 +4,7 @@
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.homes",
 	"nameServers": [
 		"a.nic.homes",
 		"b.nic.homes",
