@@ -25,7 +25,7 @@
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "http://registrars.nominet.uk/sites/default/files/hungarian_idn.pdf",
+			"value": "https://www.iana.org/domains/idn-tables/tables/budapest_hu_1.0.txt",
 			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
 		}
 	]
