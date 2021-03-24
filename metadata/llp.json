@@ -14,6 +14,11 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/llp_es_1.0.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "ja",
 			"value": "https://www.iana.org/domains/idn-tables/tables/llp_ja_1.1.txt"
 		}

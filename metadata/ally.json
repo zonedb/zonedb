@@ -7,10 +7,10 @@
 	],
 	"whoisServer": "whois.nic.ally",
 	"nameServers": [
-		"a0.nic.ally",
-		"a2.nic.ally",
-		"b0.nic.ally",
-		"c0.nic.ally"
+		"a.nic.ally",
+		"b.nic.ally",
+		"c.nic.ally",
+		"d.nic.ally"
 	],
 	"policies": [
 		{

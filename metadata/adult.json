@@ -15,6 +15,11 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/adult_ar_2.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "be",
 			"value": "https://www.iana.org/domains/idn-tables/tables/adult_be_1.txt"
 		},

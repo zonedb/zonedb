@@ -16,5 +16,12 @@
 		"tc.ngtld.cn",
 		"td.ngtld.cn",
 		"te.ngtld.cn"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh-Hans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--1qqw23a_zh-hans_4.1.txt"
+		}
 	]
 }
