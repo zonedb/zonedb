@@ -8,12 +8,14 @@ import (
 	"unicode/utf8"
 
 	"golang.org/x/net/idna"
+	"golang.org/x/text/language"
 )
 
 // Zone represents a build-time DNS zone (public suffix).
 type Zone struct {
 	Domain      string   `json:"domain,omitempty"`
 	InfoURL     string   `json:"infoURL,omitempty"`
+	Language    string   `json:"language,omitempty"`
 	Tags        []string `json:"tags,omitempty"`
 	Locations   []string `json:"locations,omitempty"`
 	WhoisServer string   `json:"whoisServer,omitempty"`
@@ -37,6 +39,7 @@ type Zone struct {
 func (z *Zone) Normalize() {
 	z.Domain = Normalize(z.Domain)
 	z.InfoURL = NormalizeURL(z.InfoURL)
+	z.normalizeLanguage()
 	var tags []string
 	tags = append(tags, z.Tags...)
 	z.Tags = NewSet(tags...).Values()
@@ -46,6 +49,19 @@ func (z *Zone) Normalize() {
 	z.WhoisServer = Normalize(z.WhoisServer)
 	z.WhoisURL = NormalizeURL(z.WhoisURL)
 	z.normalizePolicies()
+}
+
+func (z *Zone) normalizeLanguage() {
+	if z.Language == "" {
+		return
+	}
+	tag, err := language.Parse(z.Language)
+	if err != nil {
+		Trace("Zone %s has malformed language tag: %s\n", z.Domain, z.Language)
+		z.Language = ""
+	} else {
+		z.Language = tag.String()
+	}
 }
 
 func (z *Zone) normalizePolicies() {
