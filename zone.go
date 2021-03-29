@@ -50,6 +50,10 @@ type Zone struct {
 	// Locations associated with the Zone
 	Locations []string
 
+	// BCP 47 language tag associated with this Zone
+	// https://tools.ietf.org/html/bcp47
+	language string
+
 	// Whois server responding on port 43
 	whoisServer string
 
