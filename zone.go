@@ -2,6 +2,8 @@ package zonedb
 
 import (
 	"strings"
+
+	"golang.org/x/text/language"
 )
 
 //go:generate go run cmd/zonedb/main.go -generate-go
@@ -68,6 +70,12 @@ type Zone struct {
 
 	// Transitional: does the zone operator allow registration of non-ASCII subdomains?
 	allowsIDN bool
+}
+
+// Language returns a BCP 47 language tag.
+func (z *Zone) Language() language.Tag {
+	tag, _ := language.Parse(z.language)
+	return tag
 }
 
 // WhoisServer returns the whois server that responds on port 43
