@@ -93,10 +93,10 @@ var TLDs = z[:1754]
 
 // z is a static array of Zones.
 // Other global variables have pointers into this array.
-var z [5184]Zone
+var z [5183]Zone
 
 // y and z are separated to fix circular references.
-var y = [5184]Zone{
+var y = [5183]Zone{
 	{"aaa", r, x, s{"ns1.dns.nic.aaa", "ns2.dns.nic.aaa", "ns3.dns.nic.aaa", "ns4.dns.nic.aaa", "ns5.dns.nic.aaa", "ns6.dns.nic.aaa"}, n, n, "whois.nic.aaa", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"aarp", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.aarp", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"abarth", r, x, s{"a0.nic.abarth", "a2.nic.abarth", "b0.nic.abarth", "c0.nic.abarth"}, n, n, "whois.afilias-srs.net", e, "https://newgtlds.icann.org/", 0x42, f},
@@ -1460,9 +1460,9 @@ var y = [5184]Zone{
 	{"tattoo", r, x, s{"ns1.uniregistry.net", "ns2.uniregistry.info", "ns3.uniregistry.net", "ns4.uniregistry.info"}, n, n, "whois.uniregistry.net", e, "http://nic.tattoo/", 0x40, t},
 	{"tax", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.tax", e, e, 0x40, t},
 	{"taxi", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.taxi", e, "https://newgtlds.icann.org/", 0x40, t},
-	{"tc", r, z[4399:4433], s{"root1.zone.tc", "root2.zone.tc", "root3.zone.tc", "root4.zone.tc", "root5.zone.tc", "root6.zone.tc", "root7.zone.tc", "root8.zone.tc"}, n, n, "whois.nic.tc", e, e, 0xa0, f},
+	{"tc", r, z[4399:4432], s{"root1.zone.tc", "root2.zone.tc", "root3.zone.tc", "root4.zone.tc", "root5.zone.tc", "root6.zone.tc", "root7.zone.tc", "root8.zone.tc"}, n, n, "whois.nic.tc", e, e, 0xa0, f},
 	{"tci", r, x, s{"a.ns.nic.tci", "b.ns.nic.tci", "ns1.anycastdns.cz", "ns2.anycastdns.cz"}, n, n, "whois.nic.tci", e, "https://newgtlds.icann.org/", 0x42, f},
-	{"td", r, z[4433:4437], s{"anycastdns1.nic.td", "anycastdns2.nic.td", "ns-td.afrinic.net", "pch.nic.td"}, n, n, "whois.nic.td", e, "http://nic.td/", 0xa0, f},
+	{"td", r, z[4432:4436], s{"anycastdns1.nic.td", "anycastdns2.nic.td", "ns-td.afrinic.net", "pch.nic.td"}, n, n, "whois.nic.td", e, "http://nic.td/", 0xa0, f},
 	{"tdk", r, x, s{"ns1.dns.nic.tdk", "ns2.dns.nic.tdk", "ns3.dns.nic.tdk", "ns4.dns.nic.tdk", "ns5.dns.nic.tdk", "ns6.dns.nic.tdk"}, n, n, "whois.nic.tdk", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"team", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.team", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"tech", r, x, s{"a.nic.tech", "b.nic.tech", "e.nic.tech", "f.nic.tech"}, n, n, "whois.nic.tech", e, "https://newgtlds.icann.org/", 0x40, t},
@@ -1474,9 +1474,9 @@ var y = [5184]Zone{
 	{"tennis", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.tennis", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"terra", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x42, f},
 	{"teva", r, x, s{"ns1.dns.nic.teva", "ns2.dns.nic.teva", "ns3.dns.nic.teva", "ns4.dns.nic.teva", "ns5.dns.nic.teva", "ns6.dns.nic.teva"}, n, n, "whois.nic.teva", e, "https://newgtlds.icann.org/", 0x42, t},
-	{"tf", r, z[4437:4451], s{"d.nic.fr", "e.ext.nic.fr", "f.ext.nic.fr", "g.ext.nic.fr"}, n, n, "whois.nic.tf", e, e, 0xa0, t},
+	{"tf", r, z[4436:4450], s{"d.nic.fr", "e.ext.nic.fr", "f.ext.nic.fr", "g.ext.nic.fr"}, n, n, "whois.nic.tf", e, e, 0xa0, t},
 	{"tg", r, x, s{"ns1.admin.net", "ns1.nic.tg", "ns2.admin.net", "ns2.nic.tg", "ns3.admin.net", "ns4.admin.net", "ns5.admin.net", "tld.cafe.tg"}, n, n, "whois.nic.tg", e, "http://www.nic.tg/", 0xa0, f},
-	{"th", r, z[4451:4458], s{"a.thains.co.th", "b.thains.co.th", "c.thains.co.th", "ns.thnic.net", "p.thains.co.th"}, n, n, "whois.thnic.co.th", e, "http://www.thnic.co.th/", 0xa8, t},
+	{"th", r, z[4450:4457], s{"a.thains.co.th", "b.thains.co.th", "c.thains.co.th", "ns.thnic.net", "p.thains.co.th"}, n, n, "whois.thnic.co.th", e, "http://www.thnic.co.th/", 0xa8, t},
 	{"thai", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x40, f},
 	{"thd", r, x, s{"a0.nic.thd", "a2.nic.thd", "b0.nic.thd", "c0.nic.thd"}, n, n, "whois.nic.thd", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"theater", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.theater", e, "https://newgtlds.icann.org/", 0x40, t},
@@ -1492,15 +1492,15 @@ var y = [5184]Zone{
 	{"tips", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.tips", e, e, 0x40, t},
 	{"tires", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.tires", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"tirol", r, x, s{"dns.ryce-rsp.com", "ns1.dns.business", "ns1.ryce-rsp.com"}, n, s{"AT-7"}, "whois.nic.tirol", e, "https://newgtlds.icann.org/", 0x440, t},
-	{"tj", r, z[4458:4479], s{"ns1.nic.tj", "ns2.tojikiston.com", "phloem.uoregon.edu", "tj.cctld.authdns.ripe.net"}, n, n, e, "http://www.nic.tj/whois.html", e, 0xa0, f},
+	{"tj", r, z[4457:4478], s{"ns1.nic.tj", "ns2.tojikiston.com", "phloem.uoregon.edu", "tj.cctld.authdns.ripe.net"}, n, n, e, "http://www.nic.tj/whois.html", e, 0xa0, f},
 	{"tjmaxx", r, x, s{"ns1.dns.nic.tjmaxx", "ns2.dns.nic.tjmaxx", "ns3.dns.nic.tjmaxx", "ns4.dns.nic.tjmaxx", "ns5.dns.nic.tjmaxx", "ns6.dns.nic.tjmaxx"}, n, n, "whois.nic.tjmaxx", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"tjx", r, x, s{"ns1.dns.nic.tjx", "ns2.dns.nic.tjx", "ns3.dns.nic.tjx", "ns4.dns.nic.tjx", "ns5.dns.nic.tjx", "ns6.dns.nic.tjx"}, n, n, "whois.nic.tjx", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"tk", r, x, s{"a.ns.tk", "b.ns.tk", "c.ns.tk", "d.ns.tk"}, n, n, "whois.dot.tk", e, e, 0xa0, t},
 	{"tkmaxx", r, x, s{"ns1.dns.nic.tkmaxx", "ns2.dns.nic.tkmaxx", "ns3.dns.nic.tkmaxx", "ns4.dns.nic.tkmaxx", "ns5.dns.nic.tkmaxx", "ns6.dns.nic.tkmaxx"}, n, n, "whois.nic.tkmaxx", e, "https://newgtlds.icann.org/", 0x42, f},
-	{"tl", r, z[4479:4486], s{"ns.anycast.nic.tl", "ns1.anycastdns.cz", "ns2.anycastdns.cz"}, n, n, "whois.nic.tl", e, e, 0xa0, f},
-	{"tm", r, z[4486:4494], s{"ns-a1.tm", "ns-a2.tm", "ns-a3.tm", "ns-a4.tm", "ns-d1.tm", "ns-l1.tm", "ns-y1.tm"}, n, n, "whois.nic.tm", e, "http://nic.tm/", 0xa0, t},
+	{"tl", r, z[4478:4485], s{"ns.anycast.nic.tl", "ns1.anycastdns.cz", "ns2.anycastdns.cz"}, n, n, "whois.nic.tl", e, e, 0xa0, f},
+	{"tm", r, z[4485:4493], s{"ns-a1.tm", "ns-a2.tm", "ns-a3.tm", "ns-a4.tm", "ns-d1.tm", "ns-l1.tm", "ns-y1.tm"}, n, n, "whois.nic.tm", e, "http://nic.tm/", 0xa0, t},
 	{"tmall", r, x, s{"ns1.dns.nic.tmall", "ns2.dns.nic.tmall", "ns3.dns.nic.tmall", "ns4.dns.nic.tmall", "ns5.dns.nic.tmall", "ns6.dns.nic.tmall"}, n, n, "whois.nic.tmall", e, "https://newgtlds.icann.org/", 0x42, t},
-	{"tn", r, z[4494:4513], s{"ns-tn.afrinic.net", "ns1.ati.tn", "ns2.ati.tn", "ns2.nic.fr", "pch.ati.tn", "rip.psg.com"}, n, n, "whois.ati.tn", e, e, 0xa0, f},
+	{"tn", r, z[4493:4512], s{"ns-tn.afrinic.net", "ns1.ati.tn", "ns2.ati.tn", "ns2.nic.fr", "pch.ati.tn", "rip.psg.com"}, n, n, "whois.ati.tn", e, e, 0xa0, f},
 	{"to", r, x, s{"colo.tonic.to", "frankfurt.tonic.to", "helsinki.tonic.to", "newyork.tonic.to", "singapore.tonic.to", "sydney.tonic.to", "tonic.to"}, n, n, "whois.tonic.to", e, "http://www.tonic.to/", 0xa0, t},
 	{"today", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.today", e, e, 0x40, t},
 	{"tokyo", r, x, s{"a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, n, s{"Tokyo", "JP-13"}, "whois.nic.tokyo", e, e, 0xc4, t},
@@ -1514,8 +1514,8 @@ var y = [5184]Zone{
 	{"town", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.town", e, e, 0x40, t},
 	{"toyota", r, x, s{"a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, n, n, "whois.nic.toyota", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"toys", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.toys", e, e, 0x40, t},
-	{"tp", r, z[4513:4516], n, n, n, e, e, e, 0x8a0, f},
-	{"tr", r, z[4516:4537], s{"ns21.nic.tr", "ns22.nic.tr", "ns31.nic.tr", "ns41.nic.tr", "ns42.nic.tr", "ns61.nic.tr"}, n, n, "whois.nic.tr", e, "https://www.nic.tr/", 0xa8, t},
+	{"tp", r, z[4512:4515], n, n, n, e, e, e, 0x8a0, f},
+	{"tr", r, z[4515:4536], s{"ns21.nic.tr", "ns22.nic.tr", "ns31.nic.tr", "ns41.nic.tr", "ns42.nic.tr", "ns61.nic.tr"}, n, n, "whois.nic.tr", e, "https://www.nic.tr/", 0xa8, t},
 	{"trade", r, x, s{"ns1.dns.nic.trade", "ns2.dns.nic.trade", "ns3.dns.nic.trade", "ns4.dns.nic.trade", "ns5.dns.nic.trade", "ns6.dns.nic.trade"}, n, n, "whois.nic.trade", e, "https://www.famousfourmedia.com/", 0x40, t},
 	{"tradershotels", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x42, f},
 	{"trading", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.trading", e, "https://bostonivy.co/", 0x40, f},
@@ -1530,21 +1530,21 @@ var y = [5184]Zone{
 	{"travelguard", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x42, f},
 	{"trust", r, x, s{"ns1.uniregistry.net", "ns2.uniregistry.info", "ns3.uniregistry.net", "ns4.uniregistry.info"}, n, n, "whois.nic.trust", e, "https://newgtlds.icann.org/", 0x40, f},
 	{"trv", r, x, s{"a0.nic.trv", "a2.nic.trv", "b0.nic.trv", "c0.nic.trv"}, n, n, "whois.afilias-srs.net", e, "https://newgtlds.icann.org/", 0x42, f},
-	{"tt", r, z[4537:4569], s{"a.lactld.org", "ns3.nic.mx", "pch.nic.tt", "ripe.nic.tt"}, n, n, e, "http://www.nic.tt/cgi-bin/search.pl", e, 0xa0, f},
+	{"tt", r, z[4536:4568], s{"a.lactld.org", "ns3.nic.mx", "pch.nic.tt", "ripe.nic.tt"}, n, n, e, "http://www.nic.tt/cgi-bin/search.pl", e, 0xa0, f},
 	{"tube", r, x, s{"ns1.dns.nic.tube", "ns2.dns.nic.tube", "ns3.dns.nic.tube", "ns4.dns.nic.tube", "ns5.dns.nic.tube", "ns6.dns.nic.tube"}, n, n, "whois.nic.tube", e, "https://newgtlds.icann.org/", 0x40, f},
 	{"tui", r, x, s{"a.nic.tui", "b.nic.tui", "c.nic.tui", "d.nic.tui"}, n, n, "whois.nic.tui", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"tunes", r, x, s{"dns1.nic.tunes", "dns2.nic.tunes", "dns3.nic.tunes", "dns4.nic.tunes", "dnsa.nic.tunes", "dnsb.nic.tunes", "dnsc.nic.tunes", "dnsd.nic.tunes"}, n, n, "whois.nic.tunes", e, "https://newgtlds.icann.org/", 0x48, t},
 	{"tushu", r, x, s{"dns1.nic.tushu", "dns2.nic.tushu", "dns3.nic.tushu", "dns4.nic.tushu", "dnsa.nic.tushu", "dnsb.nic.tushu", "dnsc.nic.tushu", "dnsd.nic.tushu"}, n, n, "whois.nic.tushu", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"tv", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "tvwhois.verisign-grs.com", e, e, 0xe0, t},
 	{"tvs", r, x, s{"a0.nic.tvs", "a2.nic.tvs", "b0.nic.tvs", "c0.nic.tvs"}, n, n, "whois.nic.tvs", e, "https://newgtlds.icann.org/", 0x42, f},
-	{"tw", r, z[4569:4582], s{"a.dns.tw", "anytld.apnic.net", "b.dns.tw", "c.dns.tw", "d.dns.tw", "e.dns.tw", "f.dns.tw", "g.dns.tw", "h.dns.tw", "ns.twnic.net"}, n, n, "whois.twnic.net.tw", e, e, 0xa0, t},
-	{"tz", r, z[4582:4594], s{"d.ext.nic.cz", "fork.sth.dnsnode.net", "ns-tz.afrinic.net", "ns.anycast.co.tz", "ns2.tznic.or.tz", "rip.psg.com"}, n, n, "whois.tznic.or.tz", e, e, 0xa8, f},
-	{"ua", r, z[4594:4660], s{"cd1.ns.ua", "ho1.ns.ua", "in1.ns.ua", "pch.ns.ua"}, n, n, "whois.ua", e, "http://www.nic.net.ua/", 0xa0, t},
+	{"tw", r, z[4568:4581], s{"a.dns.tw", "anytld.apnic.net", "b.dns.tw", "c.dns.tw", "d.dns.tw", "e.dns.tw", "f.dns.tw", "g.dns.tw", "h.dns.tw", "ns.twnic.net"}, n, n, "whois.twnic.net.tw", e, e, 0xa0, t},
+	{"tz", r, z[4581:4593], s{"d.ext.nic.cz", "fork.sth.dnsnode.net", "ns-tz.afrinic.net", "ns.anycast.co.tz", "ns2.tznic.or.tz", "rip.psg.com"}, n, n, "whois.tznic.or.tz", e, e, 0xa8, f},
+	{"ua", r, z[4593:4659], s{"cd1.ns.ua", "ho1.ns.ua", "in1.ns.ua", "pch.ns.ua"}, n, n, "whois.ua", e, "http://www.nic.net.ua/", 0xa0, t},
 	{"ubank", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.ubank", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"ubs", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.ubs", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"uconnect", r, x, n, n, n, "whois.afilias-srs.net", e, "https://newgtlds.icann.org/", 0x42, f},
-	{"ug", r, z[4660:4669], s{"anycast.eahd.or.ug", "ns-ug.afrinic.net", "ns.icann.org", "root.eahd.or.ug", "ug.cctld.authdns.ripe.net"}, n, n, "whois.co.ug", e, e, 0xa0, f},
-	{"uk", r, z[4669:4679], s{"dns1.nic.uk", "dns2.nic.uk", "dns3.nic.uk", "dns4.nic.uk", "nsa.nic.uk", "nsb.nic.uk", "nsc.nic.uk", "nsd.nic.uk"}, n, n, "whois.nic.uk", e, "https://www.nominet.uk/", 0xa0, f},
+	{"ug", r, z[4659:4668], s{"anycast.eahd.or.ug", "ns-ug.afrinic.net", "ns.icann.org", "root.eahd.or.ug", "ug.cctld.authdns.ripe.net"}, n, n, "whois.co.ug", e, e, 0xa0, f},
+	{"uk", r, z[4668:4678], s{"dns1.nic.uk", "dns2.nic.uk", "dns3.nic.uk", "dns4.nic.uk", "nsa.nic.uk", "nsb.nic.uk", "nsc.nic.uk", "nsd.nic.uk"}, n, n, "whois.nic.uk", e, "https://www.nominet.uk/", 0xa0, f},
 	{"ultrabook", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x42, f},
 	{"um", r, x, n, n, n, e, e, e, 0x8a0, f},
 	{"ummah", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x2042, f},
@@ -1554,16 +1554,16 @@ var y = [5184]Zone{
 	{"uno", r, x, s{"a.nic.uno", "b.nic.uno", "c.nic.uno", "d.nic.uno"}, n, n, "whois.nic.uno", e, e, 0x40, f},
 	{"uol", r, x, s{"a.dns.br", "b.dns.br", "c.dns.br", "d.dns.br", "e.dns.br", "f.dns.br"}, n, n, "whois.gtlds.nic.br", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"ups", r, x, s{"a0.nic.ups", "a2.nic.ups", "b0.nic.ups", "c0.nic.ups"}, n, n, "whois.nic.ups", e, "https://newgtlds.icann.org/", 0x42, f},
-	{"us", r, z[4679:4739], s{"a.cctld.us", "b.cctld.us", "c.cctld.us", "e.cctld.us", "f.cctld.us", "k.cctld.us"}, n, n, "whois.nic.us", e, e, 0xa0, f},
-	{"uy", r, z[4739:4745], s{"a.lactld.org", "a.nic.uy", "b.nic.uy", "d.nic.uy", "ns.dns.br", "ns1.anteldata.com.uy", "ns2.anteldata.com.uy", "ns3.nic.mx"}, n, n, "whois.nic.org.uy", e, e, 0xa0, f},
-	{"uz", r, z[4745:4759], s{"ns1.uz", "ns2.uz", "ns3.uz", "ns4.uz", "ns5.uz", "ns6.uz", "ns7.uz"}, n, n, "whois.cctld.uz", e, e, 0xa0, f},
+	{"us", r, z[4678:4738], s{"a.cctld.us", "b.cctld.us", "c.cctld.us", "e.cctld.us", "f.cctld.us", "k.cctld.us"}, n, n, "whois.nic.us", e, e, 0xa0, f},
+	{"uy", r, z[4738:4744], s{"a.lactld.org", "a.nic.uy", "b.nic.uy", "d.nic.uy", "ns.dns.br", "ns1.anteldata.com.uy", "ns2.anteldata.com.uy", "ns3.nic.mx"}, n, n, "whois.nic.org.uy", e, e, 0xa0, f},
+	{"uz", r, z[4744:4758], s{"ns1.uz", "ns2.uz", "ns3.uz", "ns4.uz", "ns5.uz", "ns6.uz", "ns7.uz"}, n, n, "whois.cctld.uz", e, e, 0xa0, f},
 	{"va", r, x, s{"dns.nic.it", "john.vatican.va", "michael.vatican.va", "osiris.namex.it", "seth.namex.it", "va.cctld.authdns.ripe.net"}, n, n, "whois.iana.org", e, e, 0xa0, f},
 	{"vacations", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.vacations", e, e, 0x40, t},
 	{"vana", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.vana", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"vanguard", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.vanguard", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"vanish", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x42, f},
-	{"vc", r, z[4759:4762], s{"a0.cctld.afilias-nst.info", "a2.cctld.afilias-nst.info", "b0.cctld.afilias-nst.org", "b2.cctld.afilias-nst.org", "c0.cctld.afilias-nst.info", "d0.cctld.afilias-nst.org"}, n, n, "whois2.afilias-grs.net", e, e, 0xe0, f},
-	{"ve", r, z[4762:4773], s{"ns3.nic.ve", "ns4.nic.ve", "ns5.nic.ve", "ns6.nic.ve", "ssdns-tld.nic.cl"}, n, n, "whois.nic.ve", e, e, 0xa8, t},
+	{"vc", r, z[4758:4761], s{"a0.cctld.afilias-nst.info", "a2.cctld.afilias-nst.info", "b0.cctld.afilias-nst.org", "b2.cctld.afilias-nst.org", "c0.cctld.afilias-nst.info", "d0.cctld.afilias-nst.org"}, n, n, "whois2.afilias-grs.net", e, e, 0xe0, f},
+	{"ve", r, z[4761:4772], s{"ns3.nic.ve", "ns4.nic.ve", "ns5.nic.ve", "ns6.nic.ve", "ssdns-tld.nic.cl"}, n, n, "whois.nic.ve", e, e, 0xa8, t},
 	{"vegas", r, x, s{"a0.nic.vegas", "a2.nic.vegas", "b0.nic.vegas", "c0.nic.vegas"}, n, s{"Las Vegas"}, "whois.afilias-srs.net", e, "http://www.nic.vegas/", 0xc4, f},
 	{"ventures", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.ventures", e, e, 0x40, t},
 	{"verisign", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.verisign", e, "https://newgtlds.icann.org/", 0x42, t},
@@ -1571,8 +1571,8 @@ var y = [5184]Zone{
 	{"xn--vermgensberatung-pwb" /* vermögensberatung */, r, x, s{"a.nic.xn--vermgensberatung-pwb", "b.nic.xn--vermgensberatung-pwb", "c.nic.xn--vermgensberatung-pwb", "d.nic.xn--vermgensberatung-pwb"}, n, n, "whois.nic.xn--vermgensberatung-pwb", e, "https://newgtlds.icann.org/", 0x48, f},
 	{"versicherung", r, x, s{"a.dns.nic.versicherung", "m.dns.nic.versicherung", "n.dns.nic.versicherung"}, n, n, "whois.nic.versicherung", e, e, 0x40, t},
 	{"vet", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.vet", e, e, 0x40, t},
-	{"vg", r, z[4773:4774], s{"a.nic.vg", "b.nic.vg", "c.nic.vg", "d.nic.vg"}, s{"88.198.29.97"}, n, "whois.nic.vg", e, e, 0xa0, f},
-	{"vi", r, z[4774:4780], s{"auth100.ns.uu.net", "auth110.ns.uu.net", "ns3.nic.vi", "pch.nic.vi"}, n, n, e, "https://secure.nic.vi/whois-lookup/", "http://www.nic.vi/", 0xa8, f},
+	{"vg", r, z[4772:4773], s{"a.nic.vg", "b.nic.vg", "c.nic.vg", "d.nic.vg"}, s{"88.198.29.97"}, n, "whois.nic.vg", e, e, 0xa0, f},
+	{"vi", r, z[4773:4779], s{"auth100.ns.uu.net", "auth110.ns.uu.net", "ns3.nic.vi", "pch.nic.vi"}, n, n, e, "https://secure.nic.vi/whois-lookup/", "http://www.nic.vi/", 0xa8, f},
 	{"viajes", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.viajes", e, e, 0x40, t},
 	{"video", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.video", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"vig", r, x, s{"a0.nic.vig", "a2.nic.vig", "b0.nic.vig", "c0.nic.vig"}, n, n, "whois.afilias-srs.net", e, "https://newgtlds.icann.org/", 0x42, f},
@@ -1588,7 +1588,7 @@ var y = [5184]Zone{
 	{"viva", r, x, s{"a.nic.viva", "b.nic.viva", "c.nic.viva", "d.nic.viva"}, n, n, "whois.nic.viva", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"vivo", r, x, s{"ns1.dns.nic.vivo", "ns2.dns.nic.vivo", "ns3.dns.nic.vivo", "ns4.dns.nic.vivo", "ns5.dns.nic.vivo", "ns6.dns.nic.vivo"}, n, n, "whois.nic.vivo", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"vlaanderen", r, x, s{"a.nsset.vlaanderen", "b.nsset.vlaanderen", "c.nsset.vlaanderen", "d.nsset.vlaanderen", "y.nsset.vlaanderen", "z.nsset.vlaanderen"}, n, s{"BE-VLG"}, "whois.nic.vlaanderen", e, "https://newgtlds.icann.org/", 0x440, t},
-	{"vn", r, z[4780:4792], s{"a.dns-servers.vn", "b.dns-servers.vn", "c.dns-servers.vn", "d.dns-servers.vn", "e.dns-servers.vn", "f.dns-servers.vn", "g.dns-servers.vn"}, n, n, e, "http://www.vnnic.vn/en/domain", e, 0xa0, t},
+	{"vn", r, z[4779:4791], s{"a.dns-servers.vn", "b.dns-servers.vn", "c.dns-servers.vn", "d.dns-servers.vn", "e.dns-servers.vn", "f.dns-servers.vn", "g.dns-servers.vn"}, n, n, e, "http://www.vnnic.vn/en/domain", e, 0xa0, t},
 	{"vodka", r, x, s{"dns1.nic.vodka", "dns2.nic.vodka", "dns3.nic.vodka", "dns4.nic.vodka", "dnsa.nic.vodka", "dnsb.nic.vodka", "dnsc.nic.vodka", "dnsd.nic.vodka"}, n, n, "whois.nic.vodka", e, "http://nic.vodka/", 0x40, t},
 	{"volkswagen", r, x, s{"a0.nic.volkswagen", "a2.nic.volkswagen", "b0.nic.volkswagen", "c0.nic.volkswagen"}, n, n, "whois.afilias-srs.net", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"volvo", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.volvo", e, "https://newgtlds.icann.org/", 0x42, f},
@@ -1597,7 +1597,7 @@ var y = [5184]Zone{
 	{"voting", r, x, s{"a.nic.voting", "b.nic.voting", "c.nic.voting", "d.nic.voting"}, n, n, "whois.nic.voting", e, e, 0x40, t},
 	{"voto", r, x, s{"a0.nic.voto", "a2.nic.voto", "b0.nic.voto", "c0.nic.voto"}, n, n, "whois.afilias.net", e, "http://nic.voto/", 0x40, t},
 	{"voyage", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.voyage", e, e, 0x40, t},
-	{"vu", r, z[4792:4797], s{"ns1.neustar.vu", "ns2.neustar.vu", "ns3.neustar.vu", "ns4.neustar.vu"}, n, n, "whois.dnrs.neustar", e, e, 0xa0, f},
+	{"vu", r, z[4791:4796], s{"ns1.neustar.vu", "ns2.neustar.vu", "ns3.neustar.vu", "ns4.neustar.vu"}, n, n, "whois.dnrs.neustar", e, e, 0xa0, f},
 	{"vuelos", r, x, s{"ns1.dns.nic.vuelos", "ns2.dns.nic.vuelos", "ns3.dns.nic.vuelos", "ns4.dns.nic.vuelos", "ns5.dns.nic.vuelos", "ns6.dns.nic.vuelos"}, n, n, "whois.nic.vuelos", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"wales", r, x, s{"dns1.nic.wales", "dns2.nic.wales", "dns3.nic.wales", "dns4.nic.wales", "dnsa.nic.wales", "dnsb.nic.wales", "dnsc.nic.wales", "dnsd.nic.wales"}, n, s{"GB-WLS"}, "whois.nic.wales", e, "http://nic.wales/", 0x4c0, t},
 	{"walmart", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.walmart", e, "https://newgtlds.icann.org/", 0x42, f},
@@ -1636,7 +1636,7 @@ var y = [5184]Zone{
 	{"works", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.works", e, e, 0x40, t},
 	{"world", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.world", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"wow", r, x, s{"dns1.nic.wow", "dns2.nic.wow", "dns3.nic.wow", "dns4.nic.wow", "dnsa.nic.wow", "dnsb.nic.wow", "dnsc.nic.wow", "dnsd.nic.wow"}, n, n, "whois.nic.wow", e, "https://newgtlds.icann.org/", 0x40, t},
-	{"ws", r, z[4797:4802], s{"ns2.dns.ws", "ns3.dns.ws", "ns4.dns.ws", "ns5.dns.ws", "ns6.dns.ws", "ns7.dns.ws"}, s{"64.70.19.203"}, n, "whois.website.ws", e, "http://nic.ws/", 0xe0, t},
+	{"ws", r, z[4796:4801], s{"ns2.dns.ws", "ns3.dns.ws", "ns4.dns.ws", "ns5.dns.ws", "ns6.dns.ws", "ns7.dns.ws"}, s{"64.70.19.203"}, n, "whois.website.ws", e, "http://nic.ws/", 0xe0, t},
 	{"wtc", r, x, s{"a.nic.wtc", "b.nic.wtc", "c.nic.wtc", "d.nic.wtc"}, n, n, "whois.nic.wtc", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"wtf", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.wtf", e, e, 0x40, t},
 	{"xbox", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, e, e, "https://newgtlds.icann.org/", 0x42, t},
@@ -1651,7 +1651,7 @@ var y = [5184]Zone{
 	{"yahoo", r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.yahoo", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"yamaxun", r, x, s{"dns1.nic.yamaxun", "dns2.nic.yamaxun", "dns3.nic.yamaxun", "dns4.nic.yamaxun", "dnsa.nic.yamaxun", "dnsb.nic.yamaxun", "dnsc.nic.yamaxun", "dnsd.nic.yamaxun"}, n, n, "whois.nic.yamaxun", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"yandex", r, x, s{"ns1.uniregistry.net", "ns2.uniregistry.info", "ns3.uniregistry.net", "ns4.uniregistry.info"}, n, n, "whois.nic.yandex", e, "https://newgtlds.icann.org/", 0x42, f},
-	{"ye", r, z[4802:4810], s{"ns1.yemen.net.ye", "ns2.yemen.net.ye", "sah1.ye", "sah2.ye"}, n, n, e, e, e, 0xa8, f},
+	{"ye", r, z[4801:4809], s{"ns1.yemen.net.ye", "ns2.yemen.net.ye", "sah1.ye", "sah2.ye"}, n, n, e, e, e, 0xa8, f},
 	{"yellowpages", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x48, f},
 	{"yodobashi", r, x, s{"a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, n, n, "whois.nic.gmo", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"yoga", r, x, s{"dns1.nic.yoga", "dns2.nic.yoga", "dns3.nic.yoga", "dns4.nic.yoga", "dnsa.nic.yoga", "dnsb.nic.yoga", "dnsc.nic.yoga", "dnsd.nic.yoga"}, n, n, "whois.nic.yoga", e, "http://nic.yoga/", 0x40, t},
@@ -1659,19 +1659,19 @@ var y = [5184]Zone{
 	{"you", r, x, s{"dns1.nic.you", "dns2.nic.you", "dns3.nic.you", "dns4.nic.you", "dnsa.nic.you", "dnsb.nic.you", "dnsc.nic.you", "dnsd.nic.you"}, n, n, "whois.nic.you", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"youtube", r, x, s{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, n, n, "whois.nic.google", e, "https://www.registry.google/", 0x42, t},
 	{"yt", r, x, s{"d.nic.fr", "e.ext.nic.fr", "f.ext.nic.fr", "g.ext.nic.fr"}, n, n, "whois.nic.yt", e, e, 0xa0, t},
-	{"yu", r, z[4810:4816], n, n, n, e, e, e, 0x8a0, f},
+	{"yu", r, z[4809:4815], n, n, n, e, e, e, 0x8a0, f},
 	{"yun", r, x, s{"ns1.teleinfo.cn", "ns2.teleinfoo.com", "ns3.teleinfo.cn", "ns4.teleinfoo.com"}, n, n, "whois.teleinfo.cn", e, "https://newgtlds.icann.org/", 0x40, f},
-	{"za", r, z[4816:4843], s{"nsza.is.co.za", "za-ns.anycast.pch.net", "za1.dnsnode.net"}, n, n, "whois.nic.za", e, e, 0xa8, f},
+	{"za", r, z[4815:4842], s{"nsza.is.co.za", "za-ns.anycast.pch.net", "za1.dnsnode.net"}, n, n, "whois.nic.za", e, e, 0xa8, f},
 	{"zappos", r, x, s{"dns1.nic.zappos", "dns2.nic.zappos", "dns3.nic.zappos", "dns4.nic.zappos", "dnsa.nic.zappos", "dnsb.nic.zappos", "dnsc.nic.zappos", "dnsd.nic.zappos"}, n, n, "whois.nic.zappos", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"zara", r, x, s{"a0.nic.zara", "a2.nic.zara", "b0.nic.zara", "c0.nic.zara"}, n, n, "whois.afilias-srs.net", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"zero", r, x, s{"ns1.dns.nic.zero", "ns2.dns.nic.zero", "ns3.dns.nic.zero", "ns4.dns.nic.zero", "ns5.dns.nic.zero", "ns6.dns.nic.zero"}, n, n, "whois.nic.zero", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"zip", r, x, s{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, n, n, "whois.nic.google", e, "https://www.registry.google/", 0x40, t},
 	{"zippo", r, x, n, n, n, "whois.nic.zippo", e, "https://newgtlds.icann.org/", 0x42, f},
-	{"zm", r, z[4843:4851], s{"cocca.nic.zm", "gransy.nic.zm", "pch.nic.zm"}, n, n, "whois.zicta.zm", e, e, 0xa0, f},
+	{"zm", r, z[4842:4850], s{"cocca.nic.zm", "gransy.nic.zm", "pch.nic.zm"}, n, n, "whois.zicta.zm", e, e, 0xa0, f},
 	{"zone", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.zone", e, e, 0x40, t},
 	{"zuerich", r, x, s{"a.nic.zuerich", "b.nic.zuerich", "c.nic.zuerich", "d.nic.zuerich"}, n, s{"Zurich", "CH-ZH"}, "whois.nic.zuerich", e, "https://newgtlds.icann.org/", 0xc4, f},
 	{"zulu", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x40, f},
-	{"zw", r, z[4851:4855], s{"ns1.liquidtelecom.net", "ns1zim.telone.co.zw", "ns2.liquidtelecom.net", "ns2zim.telone.co.zw", "zw-ns.anycast.pch.net"}, n, n, e, "http://www.zispa.org.zw", e, 0xa0, f},
+	{"zw", r, z[4850:4854], s{"ns1.liquidtelecom.net", "ns1zim.telone.co.zw", "ns2.liquidtelecom.net", "ns2zim.telone.co.zw", "zw-ns.anycast.pch.net"}, n, n, e, "http://www.zispa.org.zw", e, 0xa0, f},
 	{"xn--jxalpdlp" /* δοκιμή */, r, x, n, n, n, e, e, e, 0x40, t},
 	{"xn--qxam" /* ελ */, r, x, s{"estia.ics.forth.gr", "gr-at.ics.forth.gr", "gr-c.ics.forth.gr", "gr-d.ics.forth.gr", "grdns.ics.forth.gr"}, n, n, e, "https://grweb.ics.forth.gr/public/whois.jsp?lang=en", e, 0x0, t},
 	{"xn--qxa6a" /* ευ */, r, x, s{"nl.dns.eu", "si.dns.eu", "w.dns.eu", "x.dns.eu", "y.dns.eu"}, n, n, "whois.eu", e, e, 0x0, t},
@@ -1687,10 +1687,10 @@ var y = [5184]Zone{
 	{"xn--80adxhks" /* москва */, r, x, s{"a.dns.flexireg.ru", "b.dns.flexireg.net", "c.dns.flexireg.org", "d.dns.flexireg.domains"}, n, s{"Moscow"}, "whois.nic.xn--80adxhks", e, e, 0xc4, t},
 	{"xn--80asehdb" /* онлайн */, r, x, s{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, n, n, "whois.nic.xn--80asehdb", e, e, 0x40, t},
 	{"xn--c1avg" /* орг */, r, x, s{"a0.nic.xn--c1avg", "a2.nic.xn--c1avg", "b0.nic.xn--c1avg", "c0.nic.xn--c1avg"}, n, n, "whois.publicinterestregistry.net", e, "https://pir.org/products/opr-domain/", 0x40, t},
-	{"xn--p1acf" /* рус */, r, z[4855:5055], s{"ns1.anycastdns.cz", "ns1.nic.xn--p1acf", "ns2.anycastdns.cz", "ns2.nic.xn--p1acf"}, n, n, "whois.nic.xn--p1acf", e, "https://newgtlds.icann.org/", 0x40, t},
-	{"xn--p1ai" /* рф */, r, z[5055:5058], s{"a.dns.ripn.net", "b.dns.ripn.net", "d.dns.ripn.net", "e.dns.ripn.net", "f.dns.ripn.net"}, n, n, "whois.tcinet.ru", e, "https://cctld.ru/", 0x0, t},
+	{"xn--p1acf" /* рус */, r, z[4854:5054], s{"ns1.anycastdns.cz", "ns1.nic.xn--p1acf", "ns2.anycastdns.cz", "ns2.nic.xn--p1acf"}, n, n, "whois.nic.xn--p1acf", e, "https://newgtlds.icann.org/", 0x40, t},
+	{"xn--p1ai" /* рф */, r, z[5054:5057], s{"a.dns.ripn.net", "b.dns.ripn.net", "d.dns.ripn.net", "e.dns.ripn.net", "f.dns.ripn.net"}, n, n, "whois.tcinet.ru", e, "https://cctld.ru/", 0x0, t},
 	{"xn--80aswg" /* сайт */, r, x, s{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, n, n, "whois.nic.xn--80aswg", e, e, 0x40, t},
-	{"xn--90a3ac" /* срб */, r, z[5058:5063], s{"a.nic.rs", "b.nic.rs", "f.nic.rs", "g.nic.rs", "h.nic.rs", "l.nic.rs"}, n, n, "whois.rnids.rs", e, e, 0x40, t},
+	{"xn--90a3ac" /* срб */, r, z[5057:5062], s{"a.nic.rs", "b.nic.rs", "f.nic.rs", "g.nic.rs", "h.nic.rs", "l.nic.rs"}, n, n, "whois.rnids.rs", e, e, 0x40, t},
 	{"xn--j1amh" /* укр */, r, x, s{"dns1.u-registry.com", "dns2.u-registry.net", "dns3.dotukr.com", "nsi.uanic.net", "tier1.num.net.ua"}, n, n, "whois.dotukr.com", e, e, 0x40, t},
 	{"xn--80ao21a" /* қаз */, r, x, s{"ns.nic.kz", "ns1.nic.kz"}, n, n, "whois.nic.kz", e, e, 0x40, t},
 	{"xn--y9a3aq" /* հայ */, r, x, s{"fork.sth.dnsnode.net", "ns-cdn.amnic.net", "ns-pch.amnic.net", "ns-pri.nic.am"}, n, n, "whois.amnic.net", e, e, 0x40, t},
@@ -1713,7 +1713,7 @@ var y = [5184]Zone{
 	{"xn--mgbbh1a" /* بارت */, r, x, s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, e, 0x0, t},
 	{"xn--mgbab2bd" /* بازار */, r, x, s{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, n, n, "whois.nic.xn--mgbab2bd", e, e, 0x40, t},
 	{"xn--ngbe9e0a" /* بيتك */, r, x, s{"a.nic.xn--ngbe9e0a", "b.nic.xn--ngbe9e0a", "c.nic.xn--ngbe9e0a", "d.nic.xn--ngbe9e0a"}, n, n, "whois.nic.xn--ngbe9e0a", e, "https://newgtlds.icann.org/", 0x40, t},
-	{"xn--mgbbh1a71e" /* بھارت */, r, z[5063:5064], s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, "https://newgtlds.icann.org/", 0x40, t},
+	{"xn--mgbbh1a71e" /* بھارت */, r, z[5062:5063], s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"xn--pgbs0dh" /* تونس */, r, x, s{"ns-tn.afrinic.net", "ns1.ati.tn", "ns2.ati.tn", "ns2.nic.fr", "pch.ati.tn", "rip.psg.com"}, n, n, "whois.ati.tn", e, e, 0x40, t},
 	{"xn--mgbpl2fh" /* سودان */, r, x, s{"ans1.sis.sd", "pch.sis.sd"}, n, n, e, e, e, 0x40, t},
 	{"xn--ogbpf8fl" /* سورية */, r, x, s{"ns1.tld.sy", "pch.anycast.tld.sy", "sy.cctld.authdns.ripe.net"}, n, n, "whois.tld.sy", e, e, 0x40, t},
@@ -1738,17 +1738,17 @@ var y = [5184]Zone{
 	{"xn--11b4c3d" /* कॉम */, r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.xn--11b4c3d", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"xn--c2br7g" /* नेट */, r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.xn--c2br7g", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"xn--11b5bs3a9aj6g" /* परीक्षा */, r, x, n, n, n, e, e, e, 0x40, t},
-	{"xn--h2brj9c" /* भारत */, r, z[5064:5065], s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, e, 0x40, t},
+	{"xn--h2brj9c" /* भारत */, r, z[5063:5064], s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, e, 0x40, t},
 	{"xn--h2breg3eve" /* भारतम् */, r, x, s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, e, 0x0, t},
 	{"xn--h2brj9c8c" /* भारोत */, r, x, s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, e, 0x0, t},
 	{"xn--i1b6b1a6a2e" /* संगठन */, r, x, s{"a0.nic.xn--i1b6b1a6a2e", "a2.nic.xn--i1b6b1a6a2e", "b0.nic.xn--i1b6b1a6a2e", "c0.nic.xn--i1b6b1a6a2e"}, n, n, "whois.publicinterestregistry.net", e, "https://pir.org/products/hindi-domain/", 0x40, t},
 	{"xn--54b7fta0cc" /* বাংলা */, r, x, s{"bayanno.btcl.net.bd", "bd-ns.anycast.pch.net", "ekushey.btcl.net.bd"}, n, n, e, e, e, 0x0, t},
-	{"xn--45brj9c" /* ভারত */, r, z[5065:5067], s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, "https://newgtlds.icann.org/", 0x40, t},
+	{"xn--45brj9c" /* ভারত */, r, z[5064:5066], s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"xn--45br5cyl" /* ভাৰত */, r, x, s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, e, 0x0, t},
-	{"xn--s9brj9c" /* ਭਾਰਤ */, r, z[5067:5068], s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, "https://newgtlds.icann.org/", 0x40, t},
-	{"xn--gecrj9c" /* ભારત */, r, z[5068:5069], s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, "https://newgtlds.icann.org/", 0x40, t},
+	{"xn--s9brj9c" /* ਭਾਰਤ */, r, z[5066:5067], s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, "https://newgtlds.icann.org/", 0x40, t},
+	{"xn--gecrj9c" /* ભારત */, r, z[5067:5068], s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"xn--3hcrj9c" /* ଭାରତ */, r, x, s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, e, 0x0, t},
-	{"xn--xkc2dl3a5ee0h" /* இந்தியா */, r, z[5069:5070], s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, "https://newgtlds.icann.org/", 0x40, t},
+	{"xn--xkc2dl3a5ee0h" /* இந்தியா */, r, z[5068:5069], s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"xn--xkc2al3hye2a" /* இலங்கை */, r, x, s{"lk.communitydns.net", "nic.lk-anycast.pch.net", "ns-c.nic.lk", "ns-d.nic.lk", "ns-l.nic.lk", "ns-t.nic.lk", "ns1.ac.lk", "ns3.ac.lk"}, n, n, "whois.nic.lk", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"xn--clchc0ea0b2g2a9gcd" /* சிங்கப்பூர் */, r, x, s{"dsany.sgnic.sg", "dsany2.sgnic.sg", "dsany3.sgnic.sg", "ns4.apnic.net", "pch.sgzones.sg"}, n, n, "whois.sgnic.sg", e, e, 0x40, t},
 	{"xn--hlcj6aya9esc7a" /* பரிட்சை */, r, x, n, n, n, e, e, e, 0x40, t},
@@ -1757,7 +1757,7 @@ var y = [5184]Zone{
 	{"xn--rvc1e0am3e" /* ഭാരതം */, r, x, s{"ns1.registry.in", "ns2.registry.in", "ns3.registry.in", "ns4.registry.in", "ns5.registry.in", "ns6.registry.in"}, n, n, "whois.registry.in", e, e, 0x0, t},
 	{"xn--fzc2c9e2c" /* ලංකා */, r, x, s{"lk.communitydns.net", "nic.lk-anycast.pch.net", "ns-c.nic.lk", "ns-d.nic.lk", "ns-l.nic.lk", "ns-t.nic.lk", "ns1.ac.lk", "ns3.ac.lk"}, n, n, "whois.nic.lk", e, e, 0x40, t},
 	{"xn--42c2d9a" /* คอม */, r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.xn--42c2d9a", e, "https://newgtlds.icann.org/", 0x40, t},
-	{"xn--o3cw4h" /* ไทย */, r, z[5070:5071], s{"a.thains.co.th", "b.thains.co.th", "ns.thnic.net", "p.thains.co.th"}, n, n, "whois.thnic.co.th", e, e, 0x40, t},
+	{"xn--o3cw4h" /* ไทย */, r, z[5069:5070], s{"a.thains.co.th", "b.thains.co.th", "ns.thnic.net", "p.thains.co.th"}, n, n, "whois.thnic.co.th", e, e, 0x40, t},
 	{"xn--q7ce6a" /* ລາວ */, r, x, s{"a.xn--q7ce6a.centralnic-dns.com", "b.xn--q7ce6a.centralnic-dns.com", "c.xn--q7ce6a.centralnic-dns.com", "d.xn--q7ce6a.centralnic-dns.com"}, n, n, "whois.nic.la", e, e, 0x0, t},
 	{"xn--node" /* გე */, r, x, s{"a.xn--node.globalanycastcloud.freenom.net", "b.xn--node.globalanycastcloud.freenom.net", "c.xn--node.globalanycastcloud.freenom.net", "d.xn--node.globalanycastcloud.freenom.net", "xn--node.ns.anycast.pch.net"}, s{"188.93.95.11"}, n, "whois.itdc.ge", e, "https://newgtlds.icann.org/", 0x0, t},
 	{"xn--q9jyb4c" /* みんな */, r, x, s{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, n, n, "whois.nic.google", e, "https://www.registry.google/", 0x40, t},
@@ -1843,7 +1843,7 @@ var y = [5184]Zone{
 	{"xn--jvr189m" /* 食品 */, r, x, s{"ns1.dns.nic.xn--jvr189m", "ns2.dns.nic.xn--jvr189m", "ns3.dns.nic.xn--jvr189m", "ns4.dns.nic.xn--jvr189m", "ns5.dns.nic.xn--jvr189m", "ns6.dns.nic.xn--jvr189m"}, n, n, "whois.nic.xn--jvr189m", e, "https://newgtlds.icann.org/", 0x0, t},
 	{"xn--imr513n" /* 餐厅 */, r, x, s{"a.zdnscloud.com", "b.zdnscloud.com", "c.zdnscloud.com", "d.zdnscloud.com", "f.zdnscloud.com", "g.zdnscloud.com", "i.zdnscloud.com", "j.zdnscloud.com"}, n, n, e, e, "https://newgtlds.icann.org/", 0x0, t},
 	{"xn--5su34j936bgsg" /* 香格里拉 */, r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.xn--5su34j936bgsg", e, "https://newgtlds.icann.org/", 0x40, t},
-	{"xn--j6w193g" /* 香港 */, r, z[5071:5077], s{"c.hkirc.net.hk", "d.hkirc.net.hk", "t.hkirc.net.hk", "u.hkirc.net.hk", "v.hkirc.net.hk", "x.hkirc.net.hk", "y.hkirc.net.hk", "z.hkirc.net.hk"}, n, n, "whois.hkirc.hk", e, e, 0x0, t},
+	{"xn--j6w193g" /* 香港 */, r, z[5070:5076], s{"c.hkirc.net.hk", "d.hkirc.net.hk", "t.hkirc.net.hk", "u.hkirc.net.hk", "v.hkirc.net.hk", "x.hkirc.net.hk", "y.hkirc.net.hk", "z.hkirc.net.hk"}, n, n, "whois.hkirc.hk", e, e, 0x0, t},
 	{"xn--j6w470d71issc" /* 香港電訊 */, r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x2040, t},
 	{"xn--c1yn36f" /* 點看 */, r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x0, t},
 	{"xn--t60b56a" /* 닷넷 */, r, x, s{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, "whois.nic.xn--t60b56a", e, "https://newgtlds.icann.org/", 0x0, t},
@@ -1910,7 +1910,7 @@ var y = [5184]Zone{
 	{"edu.an", &z[63], x, n, n, n, e, e, e, 0x800, f},
 	{"net.an", &z[63], x, n, n, n, e, e, e, 0x800, f},
 	{"org.an", &z[63], x, n, n, n, e, e, e, 0x800, f},
-	{"co.ao", &z[71], z[5077:5079], s{"fred.nic.ao", "ns-ext.nic.cz", "ns0.nic.ao", "ns02.fccn.pt", "ns2.reg.it.ao"}, n, n, e, e, e, 0x0, f},
+	{"co.ao", &z[71], z[5076:5078], s{"fred.nic.ao", "ns-ext.nic.cz", "ns0.nic.ao", "ns02.fccn.pt", "ns2.reg.it.ao"}, n, n, e, e, e, 0x0, f},
 	{"ed.ao", &z[71], x, n, n, n, e, e, e, 0x0, f},
 	{"gv.ao", &z[71], x, n, n, n, e, e, e, 0x0, f},
 	{"it.ao", &z[71], x, s{"fred.nic.ao", "ns-ext.nic.cz", "ns0.nic.ao", "ns02.fccn.pt", "ns2.reg.it.ao"}, n, n, e, e, e, 0x0, f},
@@ -1918,7 +1918,7 @@ var y = [5184]Zone{
 	{"pb.ao", &z[71], x, n, n, n, e, e, e, 0x0, f},
 	{"com.aq", &z[76], x, s{"ns1.internet.com.pe", "ns2.internet.com.pe"}, n, n, e, e, e, 0x0, f},
 	{"com.ar", &z[79], x, s{"a.dns.ar", "b.dns.ar", "c.dns.ar", "e.dns.ar", "f.dns.ar"}, n, n, e, e, e, 0x0, t},
-	{"edu.ar", &z[79], z[5079:5080], s{"a.riu.edu.ar", "b.riu.edu.ar", "noc.uncu.edu.ar", "ns1.uba.ar", "ns2.switch.ch", "unlp.unlp.edu.ar"}, n, n, e, e, e, 0x0, f},
+	{"edu.ar", &z[79], z[5078:5079], s{"a.riu.edu.ar", "b.riu.edu.ar", "noc.uncu.edu.ar", "ns1.uba.ar", "ns2.switch.ch", "unlp.unlp.edu.ar"}, n, n, e, e, e, 0x0, f},
 	{"gob.ar", &z[79], x, s{"a.dns.ar", "ar.cctld.authdns.ripe.net", "b.dns.ar", "c.dns.ar", "e.dns.ar", "f.dns.ar"}, n, n, e, e, e, 0x0, f},
 	{"gov.ar", &z[79], x, s{"a.dns.ar", "ar.cctld.authdns.ripe.net", "b.dns.ar", "c.dns.ar", "e.dns.ar", "f.dns.ar"}, n, n, e, e, e, 0x0, f},
 	{"int.ar", &z[79], x, s{"a.dns.ar", "ar.cctld.authdns.ripe.net", "b.dns.ar", "c.dns.ar", "e.dns.ar", "f.dns.ar"}, n, n, e, e, e, 0x0, t},
@@ -1942,7 +1942,7 @@ var y = [5184]Zone{
 	{"com.au", &z[96], x, s{"q.au", "r.au", "s.au", "t.au"}, n, n, e, e, e, 0x0, t},
 	{"conf.au", &z[96], x, s{"q.au", "r.au", "s.au", "t.au"}, n, n, e, e, e, 0x0, f},
 	{"csiro.au", &z[96], x, s{"ns1.aarnet.net.au", "ns1.csiro.au", "ns2.aarnet.net.au", "ns2.csiro.au", "ns3.aarnet.net.au", "ns3.csiro.au"}, n, n, e, e, e, 0x0, f},
-	{"edu.au", &z[96], z[5080:5088], s{"q.au", "r.au", "s.au", "t.au"}, n, n, e, e, "http://www.domainname.edu.au/", 0x0, f},
+	{"edu.au", &z[96], z[5079:5087], s{"q.au", "r.au", "s.au", "t.au"}, n, n, e, e, "http://www.domainname.edu.au/", 0x0, f},
 	{"gov.au", &z[96], x, s{"q.au", "r.au", "s.au", "t.au"}, n, n, e, e, e, 0x0, f},
 	{"id.au", &z[96], x, s{"q.au", "r.au", "s.au", "t.au"}, n, n, e, e, e, 0x0, f},
 	{"info.au", &z[96], x, n, n, n, e, e, "http://www.aunic.net/", 0x800, f},
@@ -2203,7 +2203,7 @@ var y = [5184]Zone{
 	{"radio.br", &z[194], x, s{"a.dns.br", "b.dns.br", "c.dns.br", "d.dns.br", "e.dns.br", "f.dns.br"}, n, n, e, e, e, 0x0, t},
 	{"rec.br", &z[194], x, s{"a.dns.br", "b.dns.br", "c.dns.br", "d.dns.br", "e.dns.br", "f.dns.br"}, n, n, e, e, e, 0x0, t},
 	{"recife.br", &z[194], x, s{"a.dns.br", "b.dns.br", "c.dns.br", "d.dns.br", "e.dns.br", "f.dns.br"}, n, n, e, e, e, 0x0, t},
-	{"rep.br", &z[194], z[5088:5089], s{"a.dns.br", "b.dns.br", "c.dns.br", "d.dns.br", "e.dns.br", "f.dns.br"}, n, n, e, e, e, 0x0, t},
+	{"rep.br", &z[194], z[5087:5088], s{"a.dns.br", "b.dns.br", "c.dns.br", "d.dns.br", "e.dns.br", "f.dns.br"}, n, n, e, e, e, 0x0, t},
 	{"rio.br", &z[194], x, s{"a.dns.br", "b.dns.br", "c.dns.br", "d.dns.br", "e.dns.br", "f.dns.br"}, n, n, e, e, e, 0x0, t},
 	{"salvador.br", &z[194], x, s{"a.dns.br", "b.dns.br", "c.dns.br", "d.dns.br", "e.dns.br", "f.dns.br"}, n, n, e, e, e, 0x0, t},
 	{"sec3.br", &z[194], x, n, n, n, e, e, e, 0x0, t},
@@ -2327,7 +2327,7 @@ var y = [5184]Zone{
 	{"jl.cn", &z[307], x, s{"a.dns.cn", "b.dns.cn", "c.dns.cn", "cns.cernet.net", "d.dns.cn", "e.dns.cn", "f.dns.cn", "g.dns.cn"}, n, n, e, e, e, 0x0, f},
 	{"js.cn", &z[307], x, s{"a.dns.cn", "b.dns.cn", "c.dns.cn", "cns.cernet.net", "d.dns.cn", "e.dns.cn", "f.dns.cn", "g.dns.cn"}, n, n, e, e, e, 0x0, f},
 	{"jx.cn", &z[307], x, s{"a.dns.cn", "b.dns.cn", "c.dns.cn", "cns.cernet.net", "d.dns.cn", "e.dns.cn", "f.dns.cn", "g.dns.cn"}, n, n, e, e, e, 0x0, f},
-	{"keyword.cn", &z[307], z[5089:5090], s{"ns11.xincache.com", "ns12.xincache.com"}, n, n, e, e, e, 0x0, t},
+	{"keyword.cn", &z[307], z[5088:5089], s{"ns11.xincache.com", "ns12.xincache.com"}, n, n, e, e, e, 0x0, t},
 	{"ln.cn", &z[307], x, s{"a.dns.cn", "b.dns.cn", "c.dns.cn", "cns.cernet.net", "d.dns.cn", "e.dns.cn", "f.dns.cn", "g.dns.cn"}, n, n, e, e, e, 0x0, f},
 	{"mil.cn", &z[307], x, s{"a.dns.cn", "b.dns.cn", "c.dns.cn", "d.dns.cn", "e.dns.cn", "f.dns.cn", "g.dns.cn", "ns3.mil.cn", "ns4.mil.cn"}, n, n, e, e, e, 0x0, t},
 	{"mo.cn", &z[307], x, s{"a.dns.cn", "b.dns.cn", "c.dns.cn", "cns.cernet.net", "d.dns.cn", "e.dns.cn", "f.dns.cn", "g.dns.cn"}, n, n, e, e, e, 0x0, f},
@@ -2780,7 +2780,7 @@ var y = [5184]Zone{
 	{"net.il", &z[684], x, s{"ilns.ilan.net.il", "lookup.iucc.ac.il", "ns1.ns.il", "ns3.ns.il", "ns4.ns.il", "nsa.ns.il", "nsb.ns.il", "nse.ns.il"}, n, n, e, e, "http://www.isoc.org.il/domains/", 0x0, f},
 	{"org.il", &z[684], x, s{"ilns.ilan.net.il", "lookup.iucc.ac.il", "ns1.ns.il", "ns3.ns.il", "ns4.ns.il", "nsa.ns.il", "nsb.ns.il", "nse.ns.il"}, n, n, e, e, "http://www.isoc.org.il/domains/", 0x0, f},
 	{"ac.im", &z[685], x, n, n, n, e, e, e, 0x0, f},
-	{"co.im", &z[685], z[5090:5092], n, n, n, e, e, e, 0x0, f},
+	{"co.im", &z[685], z[5089:5091], n, n, n, e, e, e, 0x0, f},
 	{"com.im", &z[685], x, n, n, n, e, e, e, 0x0, f},
 	{"gov.im", &z[685], x, s{"barney.advsys.co.uk", "hoppy.iom.com", "pebbles.iom.com"}, n, n, e, e, e, 0x0, f},
 	{"net.im", &z[685], x, n, n, n, e, e, e, 0x0, f},
@@ -3645,7 +3645,7 @@ var y = [5184]Zone{
 	{"web.nf", &z[998], x, s{"ns.anycast.nic.nf", "ns.cocca.fr", "ns.coccaregistry.org"}, n, n, e, e, e, 0x0, f},
 	{"com.ng", &z[1000], x, s{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, n, n, e, e, e, 0x0, f},
 	{"edu.ng", &z[1000], x, s{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, n, n, e, e, e, 0x0, f},
-	{"gov.ng", &z[1000], z[5092:5093], s{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, n, n, e, e, e, 0x0, f},
+	{"gov.ng", &z[1000], z[5091:5092], s{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, n, n, e, e, e, 0x0, f},
 	{"i.ng", &z[1000], x, s{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, n, n, e, e, e, 0x0, t},
 	{"mil.ng", &z[1000], x, s{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, n, n, e, e, e, 0x0, t},
 	{"mobi.ng", &z[1000], x, s{"ns1.nic.net.ng", "ns2.nic.net.ng", "ns5.nic.net.ng", "nsa.nic.net.ng"}, n, n, e, e, e, 0x0, f},
@@ -3853,7 +3853,7 @@ var y = [5184]Zone{
 	{"kiwi.nz", &z[1026], x, s{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, n, n, e, e, e, 0x0, f},
 	{"maori.nz", &z[1026], x, s{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, n, n, e, e, e, 0x0, f},
 	{"mil.nz", &z[1026], x, s{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, n, n, e, e, e, 0x0, f},
-	{"net.nz", &z[1026], z[5093:5094], s{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, n, n, e, e, e, 0x0, f},
+	{"net.nz", &z[1026], z[5092:5093], s{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, n, n, e, e, e, 0x0, f},
 	{"org.nz", &z[1026], x, s{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, n, n, e, e, e, 0x0, f},
 	{"parliament.nz", &z[1026], x, s{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, n, n, e, e, e, 0x0, f},
 	{"school.nz", &z[1026], x, s{"ns1.dns.net.nz", "ns2.dns.net.nz", "ns3.dns.net.nz", "ns4.dns.net.nz", "ns5.dns.net.nz", "ns6.dns.net.nz", "ns7.dns.net.nz"}, n, n, e, e, e, 0x0, f},
@@ -3871,7 +3871,7 @@ var y = [5184]Zone{
 	{"pro.om", &z[1037], x, s{"cctld.alpha.aridns.net.au", "cctld.beta.aridns.net.au", "cctld.delta.aridns.net.au", "cctld.gamma.aridns.net.au", "ns1.registry.om", "ns2.registry.om"}, n, n, e, e, e, 0x0, f},
 	{"sch.om", &z[1037], x, n, n, n, e, e, e, 0x0, f},
 	{"ae.org", &z[1048], x, s{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, s{"54.153.56.183", "ae.org"}, n, "whois.centralnic.com", e, e, 0x0, t},
-	{"eu.org", &z[1048], z[5094:5146], s{"auth1.dns.elm.net", "dns4.gandi.net", "gra.wolfhugel.eu", "hobbes.bsd-dk.dk", "ns.bortzmeyer.eu.org", "ns1.eriomem.net", "ns1.eu.org", "ns3.keltia.net", "wombat.billaud.eu.org"}, n, n, "whois.eu.org", e, e, 0x0, t},
+	{"eu.org", &z[1048], z[5093:5145], s{"auth1.dns.elm.net", "dns4.gandi.net", "gra.wolfhugel.eu", "hobbes.bsd-dk.dk", "ns.bortzmeyer.eu.org", "ns1.eriomem.net", "ns1.eu.org", "ns3.keltia.net", "wombat.billaud.eu.org"}, n, n, "whois.eu.org", e, e, 0x0, t},
 	{"hk.org", &z[1048], x, s{"a.udrtld.net", "b.udrtld.net", "c.udrtld.net", "dns7.cloudns.net", "dns8.cloudns.net"}, n, n, "whois.registry.hk.com", e, e, 0x0, f},
 	{"js.org", &z[1048], x, s{"miles.ns.cloudflare.com", "pam.ns.cloudflare.com"}, s{"89.41.169.49"}, n, e, e, e, 0x0, t},
 	{"us.org", &z[1048], x, s{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, s{"54.153.56.183", "us.org"}, n, "whois.centralnic.com", e, e, 0x0, f},
@@ -4099,8 +4099,8 @@ var y = [5184]Zone{
 	{"zarow.pl", &z[1103], x, s{"a-dns.pl", "b-dns.pl", "c-dns.pl", "e-dns.pl", "f-dns.pl", "g-dns.pl", "h-dns.pl", "i-dns.pl"}, n, n, e, e, e, 0x0, f},
 	{"zgora.pl", &z[1103], x, s{"a-dns.pl", "b-dns.pl", "c-dns.pl", "e-dns.pl", "f-dns.pl", "g-dns.pl", "h-dns.pl", "i-dns.pl"}, n, n, e, e, e, 0x0, f},
 	{"zgorzelec.pl", &z[1103], x, s{"a-dns.pl", "b-dns.pl", "c-dns.pl", "e-dns.pl", "f-dns.pl", "g-dns.pl", "h-dns.pl", "i-dns.pl"}, n, n, e, e, e, 0x0, f},
-	{"at.pn", &z[1110], z[5146:5147], n, n, n, e, e, e, 0x0, f},
-	{"au.pn", &z[1110], z[5147:5148], n, n, n, e, e, e, 0x0, f},
+	{"at.pn", &z[1110], z[5145:5146], n, n, n, e, e, e, 0x0, f},
+	{"au.pn", &z[1110], z[5146:5147], n, n, n, e, e, e, 0x0, f},
 	{"ca.pn", &z[1110], x, n, n, n, e, e, e, 0x0, f},
 	{"ch.pn", &z[1110], x, n, n, n, e, e, e, 0x0, f},
 	{"cn.pn", &z[1110], x, n, n, n, e, e, e, 0x0, f},
@@ -4116,7 +4116,7 @@ var y = [5184]Zone{
 	{"jp.pn", &z[1110], x, n, n, n, e, e, e, 0x800, f},
 	{"net.pn", &z[1110], x, s{"dns1.nominetdns.uk", "dns4.nominetdns.uk", "ns0.pitcairn.net.pn", "ns1.pitcairn.net.pn"}, n, n, e, e, e, 0x0, f},
 	{"org.pn", &z[1110], x, s{"dns1.nominetdns.uk", "dns4.nominetdns.uk", "ns0.pitcairn.net.pn", "ns1.pitcairn.net.pn"}, n, n, e, e, e, 0x0, f},
-	{"uk.pn", &z[1110], z[5148:5149], n, n, n, e, e, e, 0x800, f},
+	{"uk.pn", &z[1110], z[5147:5148], n, n, n, e, e, e, 0x800, f},
 	{"us.pn", &z[1110], x, n, n, n, e, e, e, 0x0, f},
 	{"ac.pr", &z[1118], x, s{"a0.pr.afilias-nst.info", "a2.pr.afilias-nst.info", "b0.pr.afilias-nst.org", "b2.pr.afilias-nst.org", "c0.pr.afilias-nst.info", "d0.pr.afilias-nst.org"}, n, n, e, e, e, 0x0, f},
 	{"ag.pr", &z[1118], x, n, n, n, e, e, e, 0x800, f},
@@ -4496,10 +4496,9 @@ var y = [5184]Zone{
 	{"ac.sz", &z[1351], x, n, n, n, e, e, e, 0x0, f},
 	{"co.sz", &z[1351], x, n, n, n, e, e, e, 0x0, f},
 	{"org.sz", &z[1351], x, n, n, n, e, e, e, 0x0, f},
-	{"at.tc", &z[1363], z[5149:5150], s{"ns1.123k-elazz.com", "ns2.123k-elazz.com"}, n, n, e, e, e, 0x0, f},
-	{"au.tc", &z[1363], z[5150:5151], n, n, n, e, e, e, 0x0, f},
+	{"at.tc", &z[1363], z[5148:5149], s{"ns1.123k-elazz.com", "ns2.123k-elazz.com"}, n, n, e, e, e, 0x0, f},
+	{"au.tc", &z[1363], z[5149:5150], n, n, n, e, e, e, 0x0, f},
 	{"be.tc", &z[1363], x, s{"ns1.be.tc", "ns2.be.tc"}, s{"213.136.89.177"}, n, e, e, e, 0x0, f},
-	{"bg.tc", &z[1363], x, s{"ns1.beyazgundem.com", "ns2.beyazgundem.com"}, n, n, e, e, e, 0x800, f},
 	{"biz.tc", &z[1363], x, s{"ns1.nudrv.com", "ns2.nudrv.com"}, s{"64.136.20.39"}, n, e, e, "http://www.biz.tc/", 0x0, f},
 	{"br.tc", &z[1363], x, n, n, n, e, e, e, 0x0, f},
 	{"ch.tc", &z[1363], x, s{"ns1.swisscenter.com", "ns2.swisscenter.com"}, n, n, e, e, e, 0x0, f},
@@ -4528,7 +4527,7 @@ var y = [5184]Zone{
 	{"shop.tc", &z[1363], x, s{"ns.onshore.net", "ns2.onshore.net"}, n, n, e, e, e, 0x0, f},
 	{"th.tc", &z[1363], x, s{"ns-cloud-b1.googledomains.com", "ns-cloud-b2.googledomains.com", "ns-cloud-b3.googledomains.com", "ns-cloud-b4.googledomains.com"}, n, n, e, e, e, 0x0, f},
 	{"ua.tc", &z[1363], x, n, n, n, e, e, e, 0x0, f},
-	{"uk.tc", &z[1363], z[5151:5154], s{"ns1.uk.tc", "ns2.uk.tc"}, n, n, e, e, e, 0x0, f},
+	{"uk.tc", &z[1363], z[5150:5153], s{"ns1.uk.tc", "ns2.uk.tc"}, n, n, e, e, e, 0x0, f},
 	{"us.tc", &z[1363], x, n, n, n, e, e, e, 0x0, f},
 	{"com.td", &z[1365], x, n, n, n, e, e, e, 0x0, f},
 	{"net.td", &z[1365], x, n, n, n, e, e, e, 0x0, f},
@@ -4635,8 +4634,8 @@ var y = [5184]Zone{
 	{"tv.tr", &z[1418], x, s{"lns21.nic.tr", "lns22.nic.tr", "lns41.nic.tr", "lns42.nic.tr", "lns5.nic.tr", "lns71.nic.tr"}, n, n, e, e, e, 0x0, t},
 	{"web.tr", &z[1418], x, s{"lns21.nic.tr", "lns22.nic.tr", "lns31.nic.tr", "lns34.nic.tr", "lns35.nic.tr", "lns41.nic.tr", "lns42.nic.tr", "lns5.nic.tr", "lns61.nic.tr", "lns71.nic.tr"}, n, n, e, e, e, 0x0, t},
 	{"aero.tt", &z[1433], x, n, n, n, e, e, e, 0x0, t},
-	{"at.tt", &z[1433], z[5154:5155], s{"a.ns.viennaweb.at", "b.ns.viennaweb.at"}, s{"195.225.236.206"}, n, e, e, e, 0x0, f},
-	{"au.tt", &z[1433], z[5155:5156], n, n, n, e, e, e, 0x0, f},
+	{"at.tt", &z[1433], z[5153:5154], s{"a.ns.viennaweb.at", "b.ns.viennaweb.at"}, s{"195.225.236.206"}, n, e, e, e, 0x0, f},
+	{"au.tt", &z[1433], z[5154:5155], n, n, n, e, e, e, 0x0, f},
 	{"be.tt", &z[1433], x, n, n, n, e, e, e, 0x0, f},
 	{"biz.tt", &z[1433], x, n, n, n, e, e, e, 0x0, f},
 	{"ca.tt", &z[1433], x, n, n, n, e, e, e, 0x0, f},
@@ -4664,7 +4663,7 @@ var y = [5184]Zone{
 	{"pro.tt", &z[1433], x, n, n, n, e, e, e, 0x0, f},
 	{"tel.tt", &z[1433], x, n, n, n, e, e, e, 0x0, t},
 	{"travel.tt", &z[1433], x, n, n, n, e, e, e, 0x800, t},
-	{"uk.tt", &z[1433], z[5156:5159], n, n, n, e, e, e, 0x0, f},
+	{"uk.tt", &z[1433], z[5155:5158], n, n, n, e, e, e, 0x0, f},
 	{"us.tt", &z[1433], x, n, n, n, e, e, e, 0x0, f},
 	{"club.tw", &z[1440], x, s{"a.twnic.net.tw", "b.twnic.net.tw", "c.twnic.net.tw", "d.twnic.net.tw", "e.twnic.net.tw", "f.twnic.net.tw", "g.twnic.net.tw", "h.dns.tw", "h.twnic.net.tw"}, n, n, e, e, e, 0x0, t},
 	{"com.tw", &z[1440], x, s{"a.twnic.net.tw", "anytld.apnic.net", "b.twnic.net.tw", "c.twnic.net.tw", "d.twnic.net.tw", "e.twnic.net.tw", "f.twnic.net.tw", "g.twnic.net.tw", "h.dns.tw", "h.twnic.net.tw"}, n, n, e, e, e, 0x0, t},
@@ -4775,7 +4774,7 @@ var y = [5184]Zone{
 	{"net.uk", &z[1447], x, s{"dns1.nic.uk", "dns2.nic.uk", "dns3.nic.uk", "dns4.nic.uk", "nsa.nic.uk", "nsb.nic.uk", "nsc.nic.uk", "nsd.nic.uk"}, n, n, e, e, e, 0x0, f},
 	{"org.uk", &z[1447], x, s{"dns1.nic.uk", "dns2.nic.uk", "dns3.nic.uk", "dns4.nic.uk", "nsa.nic.uk", "nsb.nic.uk", "nsc.nic.uk", "nsd.nic.uk"}, n, n, e, e, e, 0x0, f},
 	{"plc.uk", &z[1447], x, s{"dns1.nic.uk", "dns2.nic.uk", "dns3.nic.uk", "dns4.nic.uk", "nsa.nic.uk", "nsb.nic.uk", "nsc.nic.uk", "nsd.nic.uk"}, n, n, e, e, e, 0x0, f},
-	{"sch.uk", &z[1447], z[5159:5174], s{"dns1.nic.uk", "dns2.nic.uk", "dns3.nic.uk", "dns4.nic.uk", "nsa.nic.uk", "nsb.nic.uk", "nsc.nic.uk", "nsd.nic.uk"}, n, n, e, e, e, 0x0, f},
+	{"sch.uk", &z[1447], z[5158:5173], s{"dns1.nic.uk", "dns2.nic.uk", "dns3.nic.uk", "dns4.nic.uk", "nsa.nic.uk", "nsb.nic.uk", "nsc.nic.uk", "nsd.nic.uk"}, n, n, e, e, e, 0x0, f},
 	{"ak.us", &z[1457], x, n, n, n, e, e, "http://doa.alaska.gov/ets/eash/DNSrequestform.html", 0x0, t},
 	{"al.us", &z[1457], x, n, n, n, e, e, e, 0x0, f},
 	{"ar.us", &z[1457], x, n, n, n, e, e, e, 0x0, t},
@@ -4907,7 +4906,7 @@ var y = [5184]Zone{
 	{"net.ye", &z[1554], x, s{"ns1.yemen.net.ye", "ns2.yemen.net.ye", "pch.nic.ye", "sah1.ye", "sah2.ye"}, n, n, e, e, e, 0x0, f},
 	{"org.ye", &z[1554], x, s{"ns1.yemen.net.ye", "ns2.yemen.net.ye", "pch.nic.ye", "sah1.ye", "sah2.ye"}, n, n, e, e, e, 0x0, f},
 	{"plc.ye", &z[1554], x, n, n, n, e, e, e, 0x0, f},
-	{"ac.yu", &z[1562], z[5174:5175], n, n, n, e, e, e, 0x800, f},
+	{"ac.yu", &z[1562], z[5173:5174], n, n, n, e, e, e, 0x800, f},
 	{"cg.yu", &z[1562], x, n, n, n, e, e, e, 0x800, f},
 	{"co.yu", &z[1562], x, n, n, n, e, e, e, 0x800, t},
 	{"edu.yu", &z[1562], x, n, n, n, e, e, e, 0x800, f},
@@ -4937,7 +4936,7 @@ var y = [5184]Zone{
 	{"olivetti.za", &z[1564], x, n, n, n, e, e, e, 0x800, f},
 	{"org.za", &z[1564], x, s{"ns0.is.co.za", "ns0.plig.net", "ns3.iafrica.com", "ns4.iafrica.com", "za-ns.anycast.pch.net"}, n, n, "org-whois.registry.net.za", e, e, 0x0, f},
 	{"pix.za", &z[1564], x, n, n, n, e, e, e, 0x800, f},
-	{"school.za", &z[1564], z[5175:5184], s{"ns0.serendipity.org.za", "ochre.school.za", "ucthpx.uct.ac.za"}, n, n, e, e, e, 0x0, f},
+	{"school.za", &z[1564], z[5174:5183], s{"ns0.serendipity.org.za", "ochre.school.za", "ucthpx.uct.ac.za"}, n, n, e, e, e, 0x0, f},
 	{"tm.za", &z[1564], x, s{"ns0.is.co.za", "ns1.dnsza.co.za", "ns1.iafrica.com", "ns1.lolo.co.za", "ns2.iafrica.com", "ns2.lolo.co.za", "ns3.lolo.co.za", "reaper.org", "sticky.spider.web.za", "za-ns.anycast.pch.net"}, n, n, e, e, e, 0x0, f},
 	{"web.za", &z[1564], x, s{"disa.tenet.ac.za", "ns0.is.co.za", "za-ns.anycast.pch.net"}, n, n, "web-whois.registry.net.za", e, e, 0x0, f},
 	{"ac.zm", &z[1570], x, s{"cocca.nic.zm", "gransy.nic.zm", "pch.nic.zm"}, n, n, e, e, e, 0x0, f},
@@ -5248,39 +5247,39 @@ var y = [5184]Zone{
 	{"co.uk.pn", &z[4019], x, n, n, n, e, e, e, 0x0, t},
 	{"co.at.tc", &z[4399], x, n, n, n, e, e, e, 0x0, t},
 	{"com.au.tc", &z[4400], x, n, n, n, e, e, e, 0x800, t},
-	{"co.uk.tc", &z[4431], x, n, n, n, e, e, e, 0x0, t},
-	{"me.uk.tc", &z[4431], x, n, n, n, e, e, e, 0x0, t},
-	{"org.uk.tc", &z[4431], x, n, n, n, e, e, e, 0x0, t},
-	{"co.at.tt", &z[4538], x, n, s{"195.225.236.206"}, n, e, e, e, 0x0, t},
-	{"com.au.tt", &z[4539], x, n, n, n, e, e, e, 0x0, t},
-	{"co.uk.tt", &z[4567], x, n, n, n, e, e, e, 0x0, t},
-	{"me.uk.tt", &z[4567], x, n, n, n, e, e, e, 0x0, t},
-	{"org.uk.tt", &z[4567], x, n, n, n, e, e, e, 0x0, t},
-	{"barking-dagenham.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"barnet.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"barnsley.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"bathnes.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"beds.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"bexley.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"bham.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"blackburn.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"blackpool.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"bolton.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"bournemouth.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"bracknell-forest.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"bradford.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"brent.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"doncaster.sch.uk", &z[4678], x, n, n, n, e, e, e, 0x0, t},
-	{"bg.ac.yu", &z[4810], x, n, n, n, e, e, e, 0x800, t},
-	{"ecape.school.za", &z[4840], x, s{"mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za"}, n, n, e, e, e, 0x0, t},
-	{"fs.school.za", &z[4840], x, s{"mopani.school.za", "ns0.serendipity.org.za", "nyx.marques.co.za", "ochre.school.za", "ucthpx.uct.ac.za"}, n, n, e, e, e, 0x0, t},
-	{"gp.school.za", &z[4840], x, s{"lava.obsidian.co.za", "mopani.school.za", "ns0.serendipity.org.za", "ns2.obsidian.co.za", "ochre.school.za"}, n, n, e, e, e, 0x0, t},
-	{"kzn.school.za", &z[4840], x, s{"mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za", "sec.zadns.net", "ucthpx.uct.ac.za"}, n, n, e, e, e, 0x0, t},
-	{"lp.school.za", &z[4840], x, s{"lava.obsidian.co.za", "mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za"}, n, n, e, e, e, 0x0, t},
-	{"mpm.school.za", &z[4840], x, s{"lava.obsidian.co.za", "mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za"}, n, n, e, e, e, 0x0, t},
-	{"ncape.school.za", &z[4840], x, s{"mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za", "ucthpx.uct.ac.za"}, n, n, e, e, e, 0x0, t},
-	{"nw.school.za", &z[4840], x, s{"lava.obsidian.co.za", "mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za"}, n, n, e, e, e, 0x0, t},
-	{"wcape.school.za", &z[4840], x, s{"mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za", "ucthpx.uct.ac.za"}, n, n, e, e, e, 0x0, t},
+	{"co.uk.tc", &z[4430], x, n, n, n, e, e, e, 0x0, t},
+	{"me.uk.tc", &z[4430], x, n, n, n, e, e, e, 0x0, t},
+	{"org.uk.tc", &z[4430], x, n, n, n, e, e, e, 0x0, t},
+	{"co.at.tt", &z[4537], x, n, s{"195.225.236.206"}, n, e, e, e, 0x0, t},
+	{"com.au.tt", &z[4538], x, n, n, n, e, e, e, 0x0, t},
+	{"co.uk.tt", &z[4566], x, n, n, n, e, e, e, 0x0, t},
+	{"me.uk.tt", &z[4566], x, n, n, n, e, e, e, 0x0, t},
+	{"org.uk.tt", &z[4566], x, n, n, n, e, e, e, 0x0, t},
+	{"barking-dagenham.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"barnet.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"barnsley.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"bathnes.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"beds.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"bexley.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"bham.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"blackburn.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"blackpool.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"bolton.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"bournemouth.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"bracknell-forest.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"bradford.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"brent.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"doncaster.sch.uk", &z[4677], x, n, n, n, e, e, e, 0x0, t},
+	{"bg.ac.yu", &z[4809], x, n, n, n, e, e, e, 0x800, t},
+	{"ecape.school.za", &z[4839], x, s{"mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za"}, n, n, e, e, e, 0x0, t},
+	{"fs.school.za", &z[4839], x, s{"mopani.school.za", "ns0.serendipity.org.za", "nyx.marques.co.za", "ochre.school.za", "ucthpx.uct.ac.za"}, n, n, e, e, e, 0x0, t},
+	{"gp.school.za", &z[4839], x, s{"lava.obsidian.co.za", "mopani.school.za", "ns0.serendipity.org.za", "ns2.obsidian.co.za", "ochre.school.za"}, n, n, e, e, e, 0x0, t},
+	{"kzn.school.za", &z[4839], x, s{"mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za", "sec.zadns.net", "ucthpx.uct.ac.za"}, n, n, e, e, e, 0x0, t},
+	{"lp.school.za", &z[4839], x, s{"lava.obsidian.co.za", "mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za"}, n, n, e, e, e, 0x0, t},
+	{"mpm.school.za", &z[4839], x, s{"lava.obsidian.co.za", "mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za"}, n, n, e, e, e, 0x0, t},
+	{"ncape.school.za", &z[4839], x, s{"mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za", "ucthpx.uct.ac.za"}, n, n, e, e, e, 0x0, t},
+	{"nw.school.za", &z[4839], x, s{"lava.obsidian.co.za", "mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za"}, n, n, e, e, e, 0x0, t},
+	{"wcape.school.za", &z[4839], x, s{"mopani.school.za", "ns0.serendipity.org.za", "ochre.school.za", "ucthpx.uct.ac.za"}, n, n, e, e, e, 0x0, t},
 }
 
 // ZoneMap maps domain names to Zones.
@@ -9687,786 +9686,785 @@ var ZoneMap = map[string]*Zone{
 	"at.tc":                              &z[4399],
 	"au.tc":                              &z[4400],
 	"be.tc":                              &z[4401],
-	"bg.tc":                              &z[4402],
-	"biz.tc":                             &z[4403],
-	"br.tc":                              &z[4404],
-	"ch.tc":                              &z[4405],
-	"com.tc":                             &z[4406],
-	"cz.tc":                              &z[4407],
-	"de.tc":                              &z[4408],
-	"dk.tc":                              &z[4409],
-	"edu.tc":                             &z[4410],
-	"es.tc":                              &z[4411],
-	"eu.tc":                              &z[4412],
-	"hk.tc":                              &z[4413],
-	"hu.tc":                              &z[4414],
-	"ie.tc":                              &z[4415],
-	"int.tc":                             &z[4416],
-	"it.tc":                              &z[4417],
-	"kr.tc":                              &z[4418],
-	"mx.tc":                              &z[4419],
-	"net.tc":                             &z[4420],
-	"no.tc":                              &z[4421],
-	"org.tc":                             &z[4422],
-	"ph.tc":                              &z[4423],
-	"pl.tc":                              &z[4424],
-	"pro.tc":                             &z[4425],
-	"ru.tc":                              &z[4426],
-	"se.tc":                              &z[4427],
-	"shop.tc":                            &z[4428],
-	"th.tc":                              &z[4429],
-	"ua.tc":                              &z[4430],
-	"uk.tc":                              &z[4431],
-	"us.tc":                              &z[4432],
-	"com.td":                             &z[4433],
-	"net.td":                             &z[4434],
-	"org.td":                             &z[4435],
-	"tourism.td":                         &z[4436],
-	"at.tf":                              &z[4437],
-	"bg.tf":                              &z[4438],
-	"ca.tf":                              &z[4439],
-	"ch.tf":                              &z[4440],
-	"cz.tf":                              &z[4441],
-	"de.tf":                              &z[4442],
-	"edu.tf":                             &z[4443],
-	"eu.tf":                              &z[4444],
-	"int.tf":                             &z[4445],
-	"net.tf":                             &z[4446],
-	"pl.tf":                              &z[4447],
-	"ru.tf":                              &z[4448],
-	"sg.tf":                              &z[4449],
-	"us.tf":                              &z[4450],
-	"ac.th":                              &z[4451],
-	"co.th":                              &z[4452],
-	"go.th":                              &z[4453],
-	"in.th":                              &z[4454],
-	"mi.th":                              &z[4455],
-	"net.th":                             &z[4456],
-	"or.th":                              &z[4457],
-	"ac.tj":                              &z[4458],
-	"aero.tj":                            &z[4459],
-	"biz.tj":                             &z[4460],
-	"co.tj":                              &z[4461],
-	"com.tj":                             &z[4462],
-	"coop.tj":                            &z[4463],
-	"dyn.tj":                             &z[4464],
-	"edu.tj":                             &z[4465],
-	"go.tj":                              &z[4466],
-	"gov.tj":                             &z[4467],
-	"info.tj":                            &z[4468],
-	"int.tj":                             &z[4469],
-	"mil.tj":                             &z[4470],
-	"museum.tj":                          &z[4471],
-	"my.tj":                              &z[4472],
-	"name.tj":                            &z[4473],
-	"net.tj":                             &z[4474],
-	"org.tj":                             &z[4475],
-	"per.tj":                             &z[4476],
-	"pro.tj":                             &z[4477],
-	"web.tj":                             &z[4478],
-	"24.tl":                              &z[4479],
-	"com.tl":                             &z[4480],
-	"gov.tl":                             &z[4481],
-	"in.tl":                              &z[4482],
-	"na.tl":                              &z[4483],
-	"net.tl":                             &z[4484],
-	"org.tl":                             &z[4485],
-	"co.tm":                              &z[4486],
-	"com.tm":                             &z[4487],
-	"edu.tm":                             &z[4488],
-	"gov.tm":                             &z[4489],
-	"mil.tm":                             &z[4490],
-	"net.tm":                             &z[4491],
-	"nom.tm":                             &z[4492],
-	"org.tm":                             &z[4493],
-	"agrinet.tn":                         &z[4494],
-	"com.tn":                             &z[4495],
-	"defense.tn":                         &z[4496],
-	"edunet.tn":                          &z[4497],
-	"ens.tn":                             &z[4498],
-	"fin.tn":                             &z[4499],
-	"gov.tn":                             &z[4500],
-	"ind.tn":                             &z[4501],
-	"info.tn":                            &z[4502],
-	"intl.tn":                            &z[4503],
-	"mincom.tn":                          &z[4504],
-	"nat.tn":                             &z[4505],
-	"net.tn":                             &z[4506],
-	"org.tn":                             &z[4507],
-	"perso.tn":                           &z[4508],
-	"rnrt.tn":                            &z[4509],
-	"rns.tn":                             &z[4510],
-	"rnu.tn":                             &z[4511],
-	"tourism.tn":                         &z[4512],
-	"com.tp":                             &z[4513],
-	"or.tp":                              &z[4514],
-	"org.tp":                             &z[4515],
-	"av.tr":                              &z[4516],
-	"bbs.tr":                             &z[4517],
-	"bel.tr":                             &z[4518],
-	"biz.tr":                             &z[4519],
-	"com.tr":                             &z[4520],
-	"dr.tr":                              &z[4521],
-	"edu.tr":                             &z[4522],
-	"gen.tr":                             &z[4523],
-	"gov.tr":                             &z[4524],
-	"info.tr":                            &z[4525],
-	"k12.tr":                             &z[4526],
-	"mil.tr":                             &z[4527],
-	"name.tr":                            &z[4528],
-	"nc.tr":                              &z[4529],
-	"net.tr":                             &z[4530],
-	"org.tr":                             &z[4531],
-	"pol.tr":                             &z[4532],
-	"tel.tr":                             &z[4533],
-	"tsk.tr":                             &z[4534],
-	"tv.tr":                              &z[4535],
-	"web.tr":                             &z[4536],
-	"aero.tt":                            &z[4537],
-	"at.tt":                              &z[4538],
-	"au.tt":                              &z[4539],
-	"be.tt":                              &z[4540],
-	"biz.tt":                             &z[4541],
-	"ca.tt":                              &z[4542],
-	"cat.tt":                             &z[4543],
-	"ch.tt":                              &z[4544],
-	"co.tt":                              &z[4545],
-	"com.tt":                             &z[4546],
-	"coop.tt":                            &z[4547],
-	"de.tt":                              &z[4548],
-	"edu.tt":                             &z[4549],
-	"es.tt":                              &z[4550],
-	"eu.tt":                              &z[4551],
-	"fr.tt":                              &z[4552],
-	"gov.tt":                             &z[4553],
-	"info.tt":                            &z[4554],
-	"int.tt":                             &z[4555],
-	"it.tt":                              &z[4556],
-	"jobs.tt":                            &z[4557],
-	"mobi.tt":                            &z[4558],
-	"museum.tt":                          &z[4559],
-	"name.tt":                            &z[4560],
-	"net.tt":                             &z[4561],
-	"nl.tt":                              &z[4562],
-	"org.tt":                             &z[4563],
-	"pro.tt":                             &z[4564],
-	"tel.tt":                             &z[4565],
-	"travel.tt":                          &z[4566],
-	"uk.tt":                              &z[4567],
-	"us.tt":                              &z[4568],
-	"club.tw":                            &z[4569],
-	"com.tw":                             &z[4570],
-	"ebiz.tw":                            &z[4571],
-	"edu.tw":                             &z[4572],
-	"game.tw":                            &z[4573],
-	"gov.tw":                             &z[4574],
-	"idv.tw":                             &z[4575],
-	"mil.tw":                             &z[4576],
-	"net.tw":                             &z[4577],
-	"org.tw":                             &z[4578],
-	"xn--czrw28b.tw":                     &z[4579], // 商業.tw
-	"xn--uc0atv.tw":                      &z[4580], // 組織.tw
-	"xn--zf0ao64a.tw":                    &z[4581], // 網路.tw
-	"ac.tz":                              &z[4582],
-	"co.tz":                              &z[4583],
-	"go.tz":                              &z[4584],
-	"hotel.tz":                           &z[4585],
-	"info.tz":                            &z[4586],
-	"me.tz":                              &z[4587],
-	"mil.tz":                             &z[4588],
-	"mobi.tz":                            &z[4589],
-	"ne.tz":                              &z[4590],
-	"or.tz":                              &z[4591],
-	"sc.tz":                              &z[4592],
-	"tv.tz":                              &z[4593],
-	"biz.ua":                             &z[4594],
-	"cherkassy.ua":                       &z[4595],
-	"cherkasy.ua":                        &z[4596],
-	"chernigov.ua":                       &z[4597],
-	"chernivtsi.ua":                      &z[4598],
-	"chernovtsy.ua":                      &z[4599],
-	"ck.ua":                              &z[4600],
-	"cn.ua":                              &z[4601],
-	"co.ua":                              &z[4602],
-	"com.ua":                             &z[4603],
-	"crimea.ua":                          &z[4604],
-	"cv.ua":                              &z[4605],
-	"dn.ua":                              &z[4606],
-	"dnepropetrovsk.ua":                  &z[4607],
-	"dnipropetrovsk.ua":                  &z[4608],
-	"donetsk.ua":                         &z[4609],
-	"dp.ua":                              &z[4610],
-	"edu.ua":                             &z[4611],
-	"gov.ua":                             &z[4612],
-	"if.ua":                              &z[4613],
-	"in.ua":                              &z[4614],
-	"ivano-frankivsk.ua":                 &z[4615],
-	"kh.ua":                              &z[4616],
-	"kharkiv.ua":                         &z[4617],
-	"kharkov.ua":                         &z[4618],
-	"kherson.ua":                         &z[4619],
-	"khmelnitskiy.ua":                    &z[4620],
-	"kiev.ua":                            &z[4621],
-	"kirovograd.ua":                      &z[4622],
-	"km.ua":                              &z[4623],
-	"kr.ua":                              &z[4624],
-	"ks.ua":                              &z[4625],
-	"kyiv.ua":                            &z[4626],
-	"lg.ua":                              &z[4627],
-	"lt.ua":                              &z[4628],
-	"lugansk.ua":                         &z[4629],
-	"lutsk.ua":                           &z[4630],
-	"lviv.ua":                            &z[4631],
-	"mk.ua":                              &z[4632],
-	"net.ua":                             &z[4633],
-	"nikolaev.ua":                        &z[4634],
-	"od.ua":                              &z[4635],
-	"odesa.ua":                           &z[4636],
-	"odessa.ua":                          &z[4637],
-	"org.ua":                             &z[4638],
-	"pl.ua":                              &z[4639],
-	"poltava.ua":                         &z[4640],
-	"pp.ua":                              &z[4641],
-	"rivne.ua":                           &z[4642],
-	"rovno.ua":                           &z[4643],
-	"rv.ua":                              &z[4644],
-	"sebastopol.ua":                      &z[4645],
-	"sm.ua":                              &z[4646],
-	"sumy.ua":                            &z[4647],
-	"te.ua":                              &z[4648],
-	"ternopil.ua":                        &z[4649],
-	"uz.ua":                              &z[4650],
-	"uzhgorod.ua":                        &z[4651],
-	"vinnica.ua":                         &z[4652],
-	"vn.ua":                              &z[4653],
-	"volyn.ua":                           &z[4654],
-	"yalta.ua":                           &z[4655],
-	"zaporizhzhe.ua":                     &z[4656],
-	"zhitomir.ua":                        &z[4657],
-	"zp.ua":                              &z[4658],
-	"zt.ua":                              &z[4659],
-	"ac.ug":                              &z[4660],
-	"co.ug":                              &z[4661],
-	"com.ug":                             &z[4662],
-	"go.ug":                              &z[4663],
-	"mil.ug":                             &z[4664],
-	"ne.ug":                              &z[4665],
-	"or.ug":                              &z[4666],
-	"org.ug":                             &z[4667],
-	"sc.ug":                              &z[4668],
-	"ac.uk":                              &z[4669],
-	"co.uk":                              &z[4670],
-	"gov.uk":                             &z[4671],
-	"ltd.uk":                             &z[4672],
-	"me.uk":                              &z[4673],
-	"mod.uk":                             &z[4674],
-	"net.uk":                             &z[4675],
-	"org.uk":                             &z[4676],
-	"plc.uk":                             &z[4677],
-	"sch.uk":                             &z[4678],
-	"ak.us":                              &z[4679],
-	"al.us":                              &z[4680],
-	"ar.us":                              &z[4681],
-	"as.us":                              &z[4682],
-	"az.us":                              &z[4683],
-	"ca.us":                              &z[4684],
-	"co.us":                              &z[4685],
-	"ct.us":                              &z[4686],
-	"dc.us":                              &z[4687],
-	"de.us":                              &z[4688],
-	"dni.us":                             &z[4689],
-	"fed.us":                             &z[4690],
-	"fl.us":                              &z[4691],
-	"ga.us":                              &z[4692],
-	"gu.us":                              &z[4693],
-	"hi.us":                              &z[4694],
-	"ia.us":                              &z[4695],
-	"id.us":                              &z[4696],
-	"il.us":                              &z[4697],
-	"in.us":                              &z[4698],
-	"isa.us":                             &z[4699],
-	"kids.us":                            &z[4700],
-	"ks.us":                              &z[4701],
-	"ky.us":                              &z[4702],
-	"la.us":                              &z[4703],
-	"ma.us":                              &z[4704],
-	"md.us":                              &z[4705],
-	"me.us":                              &z[4706],
-	"mi.us":                              &z[4707],
-	"mn.us":                              &z[4708],
-	"mo.us":                              &z[4709],
-	"ms.us":                              &z[4710],
-	"mt.us":                              &z[4711],
-	"nc.us":                              &z[4712],
-	"nd.us":                              &z[4713],
-	"ne.us":                              &z[4714],
-	"nh.us":                              &z[4715],
-	"nj.us":                              &z[4716],
-	"nm.us":                              &z[4717],
-	"nsn.us":                             &z[4718],
-	"nv.us":                              &z[4719],
-	"ny.us":                              &z[4720],
-	"oh.us":                              &z[4721],
-	"ok.us":                              &z[4722],
-	"or.us":                              &z[4723],
-	"pa.us":                              &z[4724],
-	"pr.us":                              &z[4725],
-	"ri.us":                              &z[4726],
-	"sc.us":                              &z[4727],
-	"sd.us":                              &z[4728],
-	"tn.us":                              &z[4729],
-	"tx.us":                              &z[4730],
-	"ut.us":                              &z[4731],
-	"va.us":                              &z[4732],
-	"vi.us":                              &z[4733],
-	"vt.us":                              &z[4734],
-	"wa.us":                              &z[4735],
-	"wi.us":                              &z[4736],
-	"wv.us":                              &z[4737],
-	"wy.us":                              &z[4738],
-	"com.uy":                             &z[4739],
-	"edu.uy":                             &z[4740],
-	"gub.uy":                             &z[4741],
-	"mil.uy":                             &z[4742],
-	"net.uy":                             &z[4743],
-	"org.uy":                             &z[4744],
-	"ac.uz":                              &z[4745],
-	"aero.uz":                            &z[4746],
-	"biz.uz":                             &z[4747],
-	"co.uz":                              &z[4748],
-	"com.uz":                             &z[4749],
-	"coop.uz":                            &z[4750],
-	"edu.uz":                             &z[4751],
-	"info.uz":                            &z[4752],
-	"int.uz":                             &z[4753],
-	"museum.uz":                          &z[4754],
-	"name.uz":                            &z[4755],
-	"net.uz":                             &z[4756],
-	"org.uz":                             &z[4757],
-	"pro.uz":                             &z[4758],
-	"com.vc":                             &z[4759],
-	"net.vc":                             &z[4760],
-	"org.vc":                             &z[4761],
-	"co.ve":                              &z[4762],
-	"com.ve":                             &z[4763],
-	"edu.ve":                             &z[4764],
-	"gob.ve":                             &z[4765],
-	"info.ve":                            &z[4766],
-	"int.ve":                             &z[4767],
-	"mil.ve":                             &z[4768],
-	"net.ve":                             &z[4769],
-	"org.ve":                             &z[4770],
-	"tec.ve":                             &z[4771],
-	"web.ve":                             &z[4772],
-	"pro.vg":                             &z[4773],
-	"biz.vi":                             &z[4774],
-	"co.vi":                              &z[4775],
-	"com.vi":                             &z[4776],
-	"k12.vi":                             &z[4777],
-	"net.vi":                             &z[4778],
-	"org.vi":                             &z[4779],
-	"ac.vn":                              &z[4780],
-	"biz.vn":                             &z[4781],
-	"com.vn":                             &z[4782],
-	"edu.vn":                             &z[4783],
-	"gov.vn":                             &z[4784],
-	"health.vn":                          &z[4785],
-	"info.vn":                            &z[4786],
-	"int.vn":                             &z[4787],
-	"name.vn":                            &z[4788],
-	"net.vn":                             &z[4789],
-	"org.vn":                             &z[4790],
-	"pro.vn":                             &z[4791],
-	"co.vu":                              &z[4792],
-	"com.vu":                             &z[4793],
-	"name.vu":                            &z[4794],
-	"net.vu":                             &z[4795],
-	"org.vu":                             &z[4796],
-	"com.ws":                             &z[4797],
-	"edu.ws":                             &z[4798],
-	"gov.ws":                             &z[4799],
-	"net.ws":                             &z[4800],
-	"org.ws":                             &z[4801],
-	"co.ye":                              &z[4802],
-	"com.ye":                             &z[4803],
-	"gov.ye":                             &z[4804],
-	"ltd.ye":                             &z[4805],
-	"me.ye":                              &z[4806],
-	"net.ye":                             &z[4807],
-	"org.ye":                             &z[4808],
-	"plc.ye":                             &z[4809],
-	"ac.yu":                              &z[4810],
-	"cg.yu":                              &z[4811],
-	"co.yu":                              &z[4812],
-	"edu.yu":                             &z[4813],
-	"gov.yu":                             &z[4814],
-	"org.yu":                             &z[4815],
-	"ac.za":                              &z[4816],
-	"agric.za":                           &z[4817],
-	"alt.za":                             &z[4818],
-	"bourse.za":                          &z[4819],
-	"city.za":                            &z[4820],
-	"co.za":                              &z[4821],
-	"cybernet.za":                        &z[4822],
-	"db.za":                              &z[4823],
-	"edu.za":                             &z[4824],
-	"gov.za":                             &z[4825],
-	"grondar.za":                         &z[4826],
-	"iaccess.za":                         &z[4827],
-	"imt.za":                             &z[4828],
-	"inca.za":                            &z[4829],
-	"landesign.za":                       &z[4830],
-	"law.za":                             &z[4831],
-	"mil.za":                             &z[4832],
-	"net.za":                             &z[4833],
-	"ngo.za":                             &z[4834],
-	"nis.za":                             &z[4835],
-	"nom.za":                             &z[4836],
-	"olivetti.za":                        &z[4837],
-	"org.za":                             &z[4838],
-	"pix.za":                             &z[4839],
-	"school.za":                          &z[4840],
-	"tm.za":                              &z[4841],
-	"web.za":                             &z[4842],
-	"ac.zm":                              &z[4843],
-	"co.zm":                              &z[4844],
-	"com.zm":                             &z[4845],
-	"edu.zm":                             &z[4846],
-	"gov.zm":                             &z[4847],
-	"net.zm":                             &z[4848],
-	"org.zm":                             &z[4849],
-	"sch.zm":                             &z[4850],
-	"ac.zw":                              &z[4851],
-	"co.zw":                              &z[4852],
-	"com.zw":                             &z[4853],
-	"org.zw":                             &z[4854],
-	"001.xn--p1acf":                      &z[4855], // 001.рус
-	"002.xn--p1acf":                      &z[4856], // 002.рус
-	"003.xn--p1acf":                      &z[4857], // 003.рус
-	"004.xn--p1acf":                      &z[4858], // 004.рус
-	"005.xn--p1acf":                      &z[4859], // 005.рус
-	"006.xn--p1acf":                      &z[4860], // 006.рус
-	"007.xn--p1acf":                      &z[4861], // 007.рус
-	"008.xn--p1acf":                      &z[4862], // 008.рус
-	"009.xn--p1acf":                      &z[4863], // 009.рус
-	"010.xn--p1acf":                      &z[4864], // 010.рус
-	"011.xn--p1acf":                      &z[4865], // 011.рус
-	"012.xn--p1acf":                      &z[4866], // 012.рус
-	"013.xn--p1acf":                      &z[4867], // 013.рус
-	"014.xn--p1acf":                      &z[4868], // 014.рус
-	"015.xn--p1acf":                      &z[4869], // 015.рус
-	"016.xn--p1acf":                      &z[4870], // 016.рус
-	"017.xn--p1acf":                      &z[4871], // 017.рус
-	"018.xn--p1acf":                      &z[4872], // 018.рус
-	"019.xn--p1acf":                      &z[4873], // 019.рус
-	"021.xn--p1acf":                      &z[4874], // 021.рус
-	"022.xn--p1acf":                      &z[4875], // 022.рус
-	"023.xn--p1acf":                      &z[4876], // 023.рус
-	"024.xn--p1acf":                      &z[4877], // 024.рус
-	"025.xn--p1acf":                      &z[4878], // 025.рус
-	"026.xn--p1acf":                      &z[4879], // 026.рус
-	"027.xn--p1acf":                      &z[4880], // 027.рус
-	"028.xn--p1acf":                      &z[4881], // 028.рус
-	"029.xn--p1acf":                      &z[4882], // 029.рус
-	"030.xn--p1acf":                      &z[4883], // 030.рус
-	"031.xn--p1acf":                      &z[4884], // 031.рус
-	"032.xn--p1acf":                      &z[4885], // 032.рус
-	"033.xn--p1acf":                      &z[4886], // 033.рус
-	"034.xn--p1acf":                      &z[4887], // 034.рус
-	"035.xn--p1acf":                      &z[4888], // 035.рус
-	"036.xn--p1acf":                      &z[4889], // 036.рус
-	"037.xn--p1acf":                      &z[4890], // 037.рус
-	"038.xn--p1acf":                      &z[4891], // 038.рус
-	"039.xn--p1acf":                      &z[4892], // 039.рус
-	"040.xn--p1acf":                      &z[4893], // 040.рус
-	"041.xn--p1acf":                      &z[4894], // 041.рус
-	"042.xn--p1acf":                      &z[4895], // 042.рус
-	"043.xn--p1acf":                      &z[4896], // 043.рус
-	"044.xn--p1acf":                      &z[4897], // 044.рус
-	"045.xn--p1acf":                      &z[4898], // 045.рус
-	"046.xn--p1acf":                      &z[4899], // 046.рус
-	"047.xn--p1acf":                      &z[4900], // 047.рус
-	"048.xn--p1acf":                      &z[4901], // 048.рус
-	"049.xn--p1acf":                      &z[4902], // 049.рус
-	"050.xn--p1acf":                      &z[4903], // 050.рус
-	"051.xn--p1acf":                      &z[4904], // 051.рус
-	"052.xn--p1acf":                      &z[4905], // 052.рус
-	"053.xn--p1acf":                      &z[4906], // 053.рус
-	"054.xn--p1acf":                      &z[4907], // 054.рус
-	"055.xn--p1acf":                      &z[4908], // 055.рус
-	"056.xn--p1acf":                      &z[4909], // 056.рус
-	"057.xn--p1acf":                      &z[4910], // 057.рус
-	"058.xn--p1acf":                      &z[4911], // 058.рус
-	"059.xn--p1acf":                      &z[4912], // 059.рус
-	"060.xn--p1acf":                      &z[4913], // 060.рус
-	"061.xn--p1acf":                      &z[4914], // 061.рус
-	"062.xn--p1acf":                      &z[4915], // 062.рус
-	"063.xn--p1acf":                      &z[4916], // 063.рус
-	"064.xn--p1acf":                      &z[4917], // 064.рус
-	"065.xn--p1acf":                      &z[4918], // 065.рус
-	"066.xn--p1acf":                      &z[4919], // 066.рус
-	"067.xn--p1acf":                      &z[4920], // 067.рус
-	"068.xn--p1acf":                      &z[4921], // 068.рус
-	"069.xn--p1acf":                      &z[4922], // 069.рус
-	"070.xn--p1acf":                      &z[4923], // 070.рус
-	"071.xn--p1acf":                      &z[4924], // 071.рус
-	"072.xn--p1acf":                      &z[4925], // 072.рус
-	"073.xn--p1acf":                      &z[4926], // 073.рус
-	"074.xn--p1acf":                      &z[4927], // 074.рус
-	"075.xn--p1acf":                      &z[4928], // 075.рус
-	"076.xn--p1acf":                      &z[4929], // 076.рус
-	"077.xn--p1acf":                      &z[4930], // 077.рус
-	"078.xn--p1acf":                      &z[4931], // 078.рус
-	"079.xn--p1acf":                      &z[4932], // 079.рус
-	"083.xn--p1acf":                      &z[4933], // 083.рус
-	"086.xn--p1acf":                      &z[4934], // 086.рус
-	"087.xn--p1acf":                      &z[4935], // 087.рус
-	"089.xn--p1acf":                      &z[4936], // 089.рус
-	"094.xn--p1acf":                      &z[4937], // 094.рус
-	"095.xn--p1acf":                      &z[4938], // 095.рус
-	"xn--80aaac0ct.xn--p1acf":            &z[4939], // абакан.рус
-	"xn--80ae0bp.xn--p1acf":              &z[4940], // авто.рус
-	"xn--80awd.xn--p1acf":                &z[4941], // алм.рус
-	"xn--80aa1ag9a.xn--p1acf":            &z[4942], // алтай.рус
-	"xn--80aam8ar9di.xn--p1acf":          &z[4943], // анадырь.рус
-	"xn--80aaa5csg.xn--p1acf":            &z[4944], // астана.рус
-	"xn--80aaa6cmfh0a9d.xn--p1acf":       &z[4945], // астрахань.рус
-	"xn--80ag7c.xn--p1acf":               &z[4946], // ахг.рус
-	"xn--80ab2azb.xn--p1acf":             &z[4947], // баку.рус
-	"xn--80aab6birx.xn--p1acf":           &z[4948], // барнаул.рус
-	"xn--90ais.xn--p1acf":                &z[4949], // бел.рус
-	"xn--90aedc4atap.xn--p1acf":          &z[4950], // белгород.рус
-	"xn--90amc.xn--p1acf":                &z[4951], // биз.рус
-	"xn--80abamkjb7bdt.xn--p1acf":        &z[4952], // биробиджан.рус
-	"xn--90aiiib5f.xn--p1acf":            &z[4953], // бишкек.рус
-	"xn--80abedla9acxg1b7f.xn--p1acf":    &z[4954], // благовещенск.рус
-	"xn--90aayernio.xn--p1acf":           &z[4955], // бобруйск.рус
-	"xn--90ai6aff.xn--p1acf":             &z[4956], // брест.рус
-	"xn--90asilg6f.xn--p1acf":            &z[4957], // брянск.рус
-	"xn--90aoxid7ec.xn--p1acf":           &z[4958], // бурятия.рус
-	"xn--b1aadecsaihi0amca3a.xn--p1acf":  &z[4959], // великийновгород.рус
-	"xn--b1amjiu8dp.xn--p1acf":           &z[4960], // вильнюс.рус
-	"xn--90abjlm5be.xn--p1acf":           &z[4961], // витебск.рус
-	"xn--80adbhunc2aa3al.xn--p1acf":      &z[4962], // владивосток.рус
-	"xn--80aaafckyesce.xn--p1acf":        &z[4963], // владикавказ.рус
-	"xn--80adhqaok7a.xn--p1acf":          &z[4964], // владимир.рус
-	"xn--80add5ao.xn--p1acf":             &z[4965], // волга.рус
-	"xn--80addag2buct.xn--p1acf":         &z[4966], // волгоград.рус
-	"xn--80adde7arb.xn--p1acf":           &z[4967], // вологда.рус
-	"xn--b1agd0aean.xn--p1acf":           &z[4968], // воронеж.рус
-	"xn--c1aescj1g.xn--p1acf":            &z[4969], // гомель.рус
-	"xn--c1ac1acci.xn--p1acf":            &z[4970], // гродно.рус
-	"xn--c1aigpdl4f.xn--p1acf":           &z[4971], // грозный.рус
-	"xn--e1aky.xn--p1acf":                &z[4972], // ект.рус
-	"xn--80adia6bo.xn--p1acf":            &z[4973], // ереван.рус
-	"xn--80adbv1agb.xn--p1acf":           &z[4974], // иваново.рус
-	"xn--b1afchn5b.xn--p1acf":            &z[4975], // ижевск.рус
-	"xn--h1aeawgfg.xn--p1acf":            &z[4976], // иркутск.рус
-	"xn--80aauks4g.xn--p1acf":            &z[4977], // казань.рус
-	"xn--80aaifraljtb8a.xn--p1acf":       &z[4978], // калининград.рус
-	"xn--80aai0ag2c.xn--p1acf":           &z[4979], // калуга.рус
-	"xn--b1afaslnbn.xn--p1acf":           &z[4980], // кемерово.рус
-	"xn--b1afih.xn--p1acf":               &z[4981], // киев.рус
-	"xn--b1alfrj.xn--p1acf":              &z[4982], // киров.рус
-	"xn--b1afiaiu9e.xn--p1acf":           &z[4983], // кишинев.рус
-	"xn--j1aef.xn--p1acf":                &z[4984], // ком.рус
-	"xn--h1adgh.xn--p1acf":               &z[4985], // коми.рус
-	"xn--80atghalgi.xn--p1acf":           &z[4986], // кострома.рус
-	"xn--80aalwqglfe.xn--p1acf":          &z[4987], // краснодар.рус
-	"xn--80atblfjdfd2l.xn--p1acf":        &z[4988], // красноярск.рус
-	"xn--j1ael8b.xn--p1acf":              &z[4989], // крым.рус
-	"xn--80afuomr.xn--p1acf":             &z[4990], // курган.рус
-	"xn--j1aarei.xn--p1acf":              &z[4991], // курск.рус
-	"xn--g1afe6db.xn--p1acf":             &z[4992], // кызыл.рус
-	"xn--e1afhbv7b.xn--p1acf":            &z[4993], // липецк.рус
-	"xn--80aaakg8bm.xn--p1acf":           &z[4994], // магадан.рус
-	"xn--80aai8a2a.xn--p1acf":            &z[4995], // магас.рус
-	"xn--80asdfng.xn--p1acf":             &z[4996], // майкоп.рус
-	"xn--80aqdibz7g.xn--p1acf":           &z[4997], // марийэл.рус
-	"xn--80aqjbv3f.xn--p1acf":            &z[4998], // мариэл.рус
-	"xn--80aaaa2chc7eta.xn--p1acf":       &z[4999], // махачкала.рус
-	"xn--d1abu.xn--p1acf":                &z[5000], // мед.рус
-	"xn--h1aeefu.xn--p1acf":              &z[5001], // минск.рус
-	"xn--h1ahn.xn--p1acf":                &z[5002], // мир.рус
-	"xn--b1abpmcm0l.xn--p1acf":           &z[5003], // могилёв.рус
-	"xn--j1adp.xn--p1acf":                &z[5004], // мск.рус
-	"xn--80aueagpkl.xn--p1acf":           &z[5005], // мурманск.рус
-	"xn--80aqgci6d8a.xn--p1acf":          &z[5006], // нальчик.рус
-	"xn----7sbb1ccbue7h4a.xn--p1acf":     &z[5007], // нарьян-мар.рус
-	"xn--b1avn.xn--p1acf":                &z[5008], // нвс.рус
-	"xn--m1aa.xn--p1acf":                 &z[5009], // нн.рус
-	"xn--90absbknhbvge.xn--p1acf":        &z[5010], // новосибирск.рус
-	"xn--j1adfn.xn--p1acf":               &z[5011], // омск.рус
-	"xn--c1avg.xn--p1acf":                &z[5012], // орг.рус
-	"xn--90aee6admdx.xn--p1acf":          &z[5013], // оренбург.рус
-	"xn--k1afg2e.xn--p1acf":              &z[5014], // орёл.рус
-	"xn--80ajgxi.xn--p1acf":              &z[5015], // пенза.рус
-	"xn--e1aohf5d.xn--p1acf":             &z[5016], // пермь.рус
-	"xn--80aegbkvxddlre.xn--p1acf":       &z[5017], // петрозаводск.рус
-	"xn--b1apmck.xn--p1acf":              &z[5018], // псков.рус
-	"xn--c1ajhpcjhd0j.xn--p1acf":         &z[5019], // пятигорск.рус
-	"xn--80afo5a.xn--p1acf":              &z[5020], // рига.рус
-	"xn-----7kcgn5cdbagnnnx.xn--p1acf":   &z[5021], // ростов-на-дону.рус
-	"xn--b1a1ade.xn--p1acf":              &z[5022], // рств.рус
-	"xn--80antj7do.xn--p1acf":            &z[5023], // рязань.рус
-	"xn--80aamc3a6ac9a.xn--p1acf":        &z[5024], // салехард.рус
-	"xn--80aaa0cvac.xn--p1acf":           &z[5025], // самара.рус
-	"xn--80aa4alnee.xn--p1acf":           &z[5026], // саранск.рус
-	"xn--80aag1ciek.xn--p1acf":           &z[5027], // саратов.рус
-	"xn--80adi0aoagldk8i.xn--p1acf":      &z[5028], // севастополь.рус
-	"xn--90anb6ab4e.xn--p1acf":           &z[5029], // сибирь.рус
-	"xn--e1afkclaggf6a2g.xn--p1acf":      &z[5030], // симферополь.рус
-	"xn--e1akbdhdtf.xn--p1acf":           &z[5031], // смоленск.рус
-	"xn--h1aliz.xn--p1acf":               &z[5032], // сочи.рус
-	"xn--90a1af.xn--p1acf":               &z[5033], // спб.рус
-	"xn--80ae1alafffj1i.xn--p1acf":       &z[5034], // ставрополь.рус
-	"xn--80aqialz.xn--p1acf":             &z[5035], // таллин.рус
-	"xn--80acd2blu.xn--p1acf":            &z[5036], // тамбов.рус
-	"xn--80akonve2b.xn--p1acf":           &z[5037], // ташкент.рус
-	"xn--b1ag7af7c.xn--p1acf":            &z[5038], // тверь.рус
-	"xn--j1adfnc.xn--p1acf":              &z[5039], // томск.рус
-	"xn--80avue.xn--p1acf":               &z[5040], // тула.рус
-	"xn--p1add.xn--p1acf":                &z[5041], // тур.рус
-	"xn--e1aner7ci.xn--p1acf":            &z[5042], // тюмень.рус
-	"xn--b1aqbiftj7e1a.xn--p1acf":        &z[5043], // ульяновск.рус
-	"xn--80a1bd.xn--p1acf":               &z[5044], // уфа.рус
-	"xn--80aacf4bwnk3a.xn--p1acf":        &z[5045], // хабаровск.рус
-	"xn--80ablvtof7b4b.xn--p1acf":        &z[5046], // чебоксары.рус
-	"xn--90ahkico2a6b9d.xn--p1acf":       &z[5047], // челябинск.рус
-	"xn--e1aaob1aia6b.xn--p1acf":         &z[5048], // черкесск.рус
-	"xn--80ap4as.xn--p1acf":              &z[5049], // чита.рус
-	"xn--80apizf6d.xn--p1acf":            &z[5050], // элиста.рус
-	"xn--80af3b0c.xn--p1acf":             &z[5051], // югра.рус
-	"xn--41a.xn--p1acf":                  &z[5052], // я.рус
-	"xn--j1aaude4e.xn--p1acf":            &z[5053], // якутск.рус
-	"xn--80aezclli6gta.xn--p1acf":        &z[5054], // ярославль.рус
-	"xn--j1aef.xn--p1ai":                 &z[5055], // ком.рф
-	"xn--e1apq.xn--p1ai":                 &z[5056], // нет.рф
-	"xn--c1avg.xn--p1ai":                 &z[5057], // орг.рф
-	"xn--o-btb9b.xn--90a3ac":             &z[5058], // oбр.срб
-	"xn--o-htb.xn--90a3ac":               &z[5059], // oд.срб
-	"xn--80au.xn--90a3ac":                &z[5060], // ак.срб
-	"xn--o1ac.xn--90a3ac":                &z[5061], // пр.срб
-	"xn--o1ach.xn--90a3ac":               &z[5062], // упр.срб
-	"xn--fhbed7t1n.xn--mgbbh1a71e":       &z[5063], // كمپنی.بھارت
-	"xn--i1b1b4ch5i.xn--h2brj9c":         &z[5064], // कंपनी.भारत
-	"xn--p5b2bfp1g0b0b.xn--45brj9c":      &z[5065], // কম্পেনি.ভারত
-	"xn--p5b2bfp5fh3fra.xn--45brj9c":     &z[5066], // কোম্পানি.ভারত
-	"xn--d9b2bf3g1k.xn--s9brj9c":         &z[5067], // ਕੰਪਨੀ.ਭਾਰਤ
-	"xn--hdc1b4ch5i.xn--gecrj9c":         &z[5068], // કંપની.ભારત
-	"xn--vlccpku2dp3h.xn--xkc2dl3a5ee0h": &z[5069], // நிறுவனம்.இந்தியா
-	"xn--12co0c3b4eva.xn--o3cw4h":        &z[5070], // ธุรกิจ.ไทย
-	"xn--gmqw5a.xn--j6w193g":             &z[5071], // 個人.香港
-	"xn--55qx5d.xn--j6w193g":             &z[5072], // 公司.香港
-	"xn--mxtq1m.xn--j6w193g":             &z[5073], // 政府.香港
-	"xn--wcvs22d.xn--j6w193g":            &z[5074], // 教育.香港
-	"xn--uc0atv.xn--j6w193g":             &z[5075], // 組織.香港
-	"xn--od0alg.xn--j6w193g":             &z[5076], // 網絡.香港
-	"lda.co.ao":                          &z[5077],
-	"sa.co.ao":                           &z[5078],
-	"esc.edu.ar":                         &z[5079],
-	"act.edu.au":                         &z[5080],
-	"nsw.edu.au":                         &z[5081],
-	"nt.edu.au":                          &z[5082],
-	"qld.edu.au":                         &z[5083],
-	"sa.edu.au":                          &z[5084],
-	"tas.edu.au":                         &z[5085],
-	"vic.edu.au":                         &z[5086],
-	"wa.edu.au":                          &z[5087],
-	"fed.rep.br":                         &z[5088],
-	"wireless.keyword.cn":                &z[5089],
-	"ltd.co.im":                          &z[5090],
-	"plc.co.im":                          &z[5091],
-	"lg.gov.ng":                          &z[5092],
-	"co.net.nz":                          &z[5093],
-	"al.eu.org":                          &z[5094],
-	"asso.eu.org":                        &z[5095],
-	"at.eu.org":                          &z[5096],
-	"au.eu.org":                          &z[5097],
-	"be.eu.org":                          &z[5098],
-	"bg.eu.org":                          &z[5099],
-	"ca.eu.org":                          &z[5100],
-	"cd.eu.org":                          &z[5101],
-	"ch.eu.org":                          &z[5102],
-	"cn.eu.org":                          &z[5103],
-	"cy.eu.org":                          &z[5104],
-	"cz.eu.org":                          &z[5105],
-	"de.eu.org":                          &z[5106],
-	"dk.eu.org":                          &z[5107],
-	"edu.eu.org":                         &z[5108],
-	"ee.eu.org":                          &z[5109],
-	"es.eu.org":                          &z[5110],
-	"fi.eu.org":                          &z[5111],
-	"fr.eu.org":                          &z[5112],
-	"gr.eu.org":                          &z[5113],
-	"hr.eu.org":                          &z[5114],
-	"hu.eu.org":                          &z[5115],
-	"ie.eu.org":                          &z[5116],
-	"il.eu.org":                          &z[5117],
-	"in.eu.org":                          &z[5118],
-	"int.eu.org":                         &z[5119],
-	"is.eu.org":                          &z[5120],
-	"it.eu.org":                          &z[5121],
-	"jp.eu.org":                          &z[5122],
-	"kr.eu.org":                          &z[5123],
-	"lt.eu.org":                          &z[5124],
-	"lu.eu.org":                          &z[5125],
-	"lv.eu.org":                          &z[5126],
-	"me.eu.org":                          &z[5127],
-	"mk.eu.org":                          &z[5128],
-	"mt.eu.org":                          &z[5129],
-	"my.eu.org":                          &z[5130],
-	"net.eu.org":                         &z[5131],
-	"ng.eu.org":                          &z[5132],
-	"nl.eu.org":                          &z[5133],
-	"no.eu.org":                          &z[5134],
-	"nz.eu.org":                          &z[5135],
-	"pl.eu.org":                          &z[5136],
-	"pt.eu.org":                          &z[5137],
-	"ro.eu.org":                          &z[5138],
-	"ru.eu.org":                          &z[5139],
-	"se.eu.org":                          &z[5140],
-	"si.eu.org":                          &z[5141],
-	"sk.eu.org":                          &z[5142],
-	"tr.eu.org":                          &z[5143],
-	"uk.eu.org":                          &z[5144],
-	"us.eu.org":                          &z[5145],
-	"co.at.pn":                           &z[5146],
-	"com.au.pn":                          &z[5147],
-	"co.uk.pn":                           &z[5148],
-	"co.at.tc":                           &z[5149],
-	"com.au.tc":                          &z[5150],
-	"co.uk.tc":                           &z[5151],
-	"me.uk.tc":                           &z[5152],
-	"org.uk.tc":                          &z[5153],
-	"co.at.tt":                           &z[5154],
-	"com.au.tt":                          &z[5155],
-	"co.uk.tt":                           &z[5156],
-	"me.uk.tt":                           &z[5157],
-	"org.uk.tt":                          &z[5158],
-	"barking-dagenham.sch.uk":            &z[5159],
-	"barnet.sch.uk":                      &z[5160],
-	"barnsley.sch.uk":                    &z[5161],
-	"bathnes.sch.uk":                     &z[5162],
-	"beds.sch.uk":                        &z[5163],
-	"bexley.sch.uk":                      &z[5164],
-	"bham.sch.uk":                        &z[5165],
-	"blackburn.sch.uk":                   &z[5166],
-	"blackpool.sch.uk":                   &z[5167],
-	"bolton.sch.uk":                      &z[5168],
-	"bournemouth.sch.uk":                 &z[5169],
-	"bracknell-forest.sch.uk":            &z[5170],
-	"bradford.sch.uk":                    &z[5171],
-	"brent.sch.uk":                       &z[5172],
-	"doncaster.sch.uk":                   &z[5173],
-	"bg.ac.yu":                           &z[5174],
-	"ecape.school.za":                    &z[5175],
-	"fs.school.za":                       &z[5176],
-	"gp.school.za":                       &z[5177],
-	"kzn.school.za":                      &z[5178],
-	"lp.school.za":                       &z[5179],
-	"mpm.school.za":                      &z[5180],
-	"ncape.school.za":                    &z[5181],
-	"nw.school.za":                       &z[5182],
-	"wcape.school.za":                    &z[5183],
+	"biz.tc":                             &z[4402],
+	"br.tc":                              &z[4403],
+	"ch.tc":                              &z[4404],
+	"com.tc":                             &z[4405],
+	"cz.tc":                              &z[4406],
+	"de.tc":                              &z[4407],
+	"dk.tc":                              &z[4408],
+	"edu.tc":                             &z[4409],
+	"es.tc":                              &z[4410],
+	"eu.tc":                              &z[4411],
+	"hk.tc":                              &z[4412],
+	"hu.tc":                              &z[4413],
+	"ie.tc":                              &z[4414],
+	"int.tc":                             &z[4415],
+	"it.tc":                              &z[4416],
+	"kr.tc":                              &z[4417],
+	"mx.tc":                              &z[4418],
+	"net.tc":                             &z[4419],
+	"no.tc":                              &z[4420],
+	"org.tc":                             &z[4421],
+	"ph.tc":                              &z[4422],
+	"pl.tc":                              &z[4423],
+	"pro.tc":                             &z[4424],
+	"ru.tc":                              &z[4425],
+	"se.tc":                              &z[4426],
+	"shop.tc":                            &z[4427],
+	"th.tc":                              &z[4428],
+	"ua.tc":                              &z[4429],
+	"uk.tc":                              &z[4430],
+	"us.tc":                              &z[4431],
+	"com.td":                             &z[4432],
+	"net.td":                             &z[4433],
+	"org.td":                             &z[4434],
+	"tourism.td":                         &z[4435],
+	"at.tf":                              &z[4436],
+	"bg.tf":                              &z[4437],
+	"ca.tf":                              &z[4438],
+	"ch.tf":                              &z[4439],
+	"cz.tf":                              &z[4440],
+	"de.tf":                              &z[4441],
+	"edu.tf":                             &z[4442],
+	"eu.tf":                              &z[4443],
+	"int.tf":                             &z[4444],
+	"net.tf":                             &z[4445],
+	"pl.tf":                              &z[4446],
+	"ru.tf":                              &z[4447],
+	"sg.tf":                              &z[4448],
+	"us.tf":                              &z[4449],
+	"ac.th":                              &z[4450],
+	"co.th":                              &z[4451],
+	"go.th":                              &z[4452],
+	"in.th":                              &z[4453],
+	"mi.th":                              &z[4454],
+	"net.th":                             &z[4455],
+	"or.th":                              &z[4456],
+	"ac.tj":                              &z[4457],
+	"aero.tj":                            &z[4458],
+	"biz.tj":                             &z[4459],
+	"co.tj":                              &z[4460],
+	"com.tj":                             &z[4461],
+	"coop.tj":                            &z[4462],
+	"dyn.tj":                             &z[4463],
+	"edu.tj":                             &z[4464],
+	"go.tj":                              &z[4465],
+	"gov.tj":                             &z[4466],
+	"info.tj":                            &z[4467],
+	"int.tj":                             &z[4468],
+	"mil.tj":                             &z[4469],
+	"museum.tj":                          &z[4470],
+	"my.tj":                              &z[4471],
+	"name.tj":                            &z[4472],
+	"net.tj":                             &z[4473],
+	"org.tj":                             &z[4474],
+	"per.tj":                             &z[4475],
+	"pro.tj":                             &z[4476],
+	"web.tj":                             &z[4477],
+	"24.tl":                              &z[4478],
+	"com.tl":                             &z[4479],
+	"gov.tl":                             &z[4480],
+	"in.tl":                              &z[4481],
+	"na.tl":                              &z[4482],
+	"net.tl":                             &z[4483],
+	"org.tl":                             &z[4484],
+	"co.tm":                              &z[4485],
+	"com.tm":                             &z[4486],
+	"edu.tm":                             &z[4487],
+	"gov.tm":                             &z[4488],
+	"mil.tm":                             &z[4489],
+	"net.tm":                             &z[4490],
+	"nom.tm":                             &z[4491],
+	"org.tm":                             &z[4492],
+	"agrinet.tn":                         &z[4493],
+	"com.tn":                             &z[4494],
+	"defense.tn":                         &z[4495],
+	"edunet.tn":                          &z[4496],
+	"ens.tn":                             &z[4497],
+	"fin.tn":                             &z[4498],
+	"gov.tn":                             &z[4499],
+	"ind.tn":                             &z[4500],
+	"info.tn":                            &z[4501],
+	"intl.tn":                            &z[4502],
+	"mincom.tn":                          &z[4503],
+	"nat.tn":                             &z[4504],
+	"net.tn":                             &z[4505],
+	"org.tn":                             &z[4506],
+	"perso.tn":                           &z[4507],
+	"rnrt.tn":                            &z[4508],
+	"rns.tn":                             &z[4509],
+	"rnu.tn":                             &z[4510],
+	"tourism.tn":                         &z[4511],
+	"com.tp":                             &z[4512],
+	"or.tp":                              &z[4513],
+	"org.tp":                             &z[4514],
+	"av.tr":                              &z[4515],
+	"bbs.tr":                             &z[4516],
+	"bel.tr":                             &z[4517],
+	"biz.tr":                             &z[4518],
+	"com.tr":                             &z[4519],
+	"dr.tr":                              &z[4520],
+	"edu.tr":                             &z[4521],
+	"gen.tr":                             &z[4522],
+	"gov.tr":                             &z[4523],
+	"info.tr":                            &z[4524],
+	"k12.tr":                             &z[4525],
+	"mil.tr":                             &z[4526],
+	"name.tr":                            &z[4527],
+	"nc.tr":                              &z[4528],
+	"net.tr":                             &z[4529],
+	"org.tr":                             &z[4530],
+	"pol.tr":                             &z[4531],
+	"tel.tr":                             &z[4532],
+	"tsk.tr":                             &z[4533],
+	"tv.tr":                              &z[4534],
+	"web.tr":                             &z[4535],
+	"aero.tt":                            &z[4536],
+	"at.tt":                              &z[4537],
+	"au.tt":                              &z[4538],
+	"be.tt":                              &z[4539],
+	"biz.tt":                             &z[4540],
+	"ca.tt":                              &z[4541],
+	"cat.tt":                             &z[4542],
+	"ch.tt":                              &z[4543],
+	"co.tt":                              &z[4544],
+	"com.tt":                             &z[4545],
+	"coop.tt":                            &z[4546],
+	"de.tt":                              &z[4547],
+	"edu.tt":                             &z[4548],
+	"es.tt":                              &z[4549],
+	"eu.tt":                              &z[4550],
+	"fr.tt":                              &z[4551],
+	"gov.tt":                             &z[4552],
+	"info.tt":                            &z[4553],
+	"int.tt":                             &z[4554],
+	"it.tt":                              &z[4555],
+	"jobs.tt":                            &z[4556],
+	"mobi.tt":                            &z[4557],
+	"museum.tt":                          &z[4558],
+	"name.tt":                            &z[4559],
+	"net.tt":                             &z[4560],
+	"nl.tt":                              &z[4561],
+	"org.tt":                             &z[4562],
+	"pro.tt":                             &z[4563],
+	"tel.tt":                             &z[4564],
+	"travel.tt":                          &z[4565],
+	"uk.tt":                              &z[4566],
+	"us.tt":                              &z[4567],
+	"club.tw":                            &z[4568],
+	"com.tw":                             &z[4569],
+	"ebiz.tw":                            &z[4570],
+	"edu.tw":                             &z[4571],
+	"game.tw":                            &z[4572],
+	"gov.tw":                             &z[4573],
+	"idv.tw":                             &z[4574],
+	"mil.tw":                             &z[4575],
+	"net.tw":                             &z[4576],
+	"org.tw":                             &z[4577],
+	"xn--czrw28b.tw":                     &z[4578], // 商業.tw
+	"xn--uc0atv.tw":                      &z[4579], // 組織.tw
+	"xn--zf0ao64a.tw":                    &z[4580], // 網路.tw
+	"ac.tz":                              &z[4581],
+	"co.tz":                              &z[4582],
+	"go.tz":                              &z[4583],
+	"hotel.tz":                           &z[4584],
+	"info.tz":                            &z[4585],
+	"me.tz":                              &z[4586],
+	"mil.tz":                             &z[4587],
+	"mobi.tz":                            &z[4588],
+	"ne.tz":                              &z[4589],
+	"or.tz":                              &z[4590],
+	"sc.tz":                              &z[4591],
+	"tv.tz":                              &z[4592],
+	"biz.ua":                             &z[4593],
+	"cherkassy.ua":                       &z[4594],
+	"cherkasy.ua":                        &z[4595],
+	"chernigov.ua":                       &z[4596],
+	"chernivtsi.ua":                      &z[4597],
+	"chernovtsy.ua":                      &z[4598],
+	"ck.ua":                              &z[4599],
+	"cn.ua":                              &z[4600],
+	"co.ua":                              &z[4601],
+	"com.ua":                             &z[4602],
+	"crimea.ua":                          &z[4603],
+	"cv.ua":                              &z[4604],
+	"dn.ua":                              &z[4605],
+	"dnepropetrovsk.ua":                  &z[4606],
+	"dnipropetrovsk.ua":                  &z[4607],
+	"donetsk.ua":                         &z[4608],
+	"dp.ua":                              &z[4609],
+	"edu.ua":                             &z[4610],
+	"gov.ua":                             &z[4611],
+	"if.ua":                              &z[4612],
+	"in.ua":                              &z[4613],
+	"ivano-frankivsk.ua":                 &z[4614],
+	"kh.ua":                              &z[4615],
+	"kharkiv.ua":                         &z[4616],
+	"kharkov.ua":                         &z[4617],
+	"kherson.ua":                         &z[4618],
+	"khmelnitskiy.ua":                    &z[4619],
+	"kiev.ua":                            &z[4620],
+	"kirovograd.ua":                      &z[4621],
+	"km.ua":                              &z[4622],
+	"kr.ua":                              &z[4623],
+	"ks.ua":                              &z[4624],
+	"kyiv.ua":                            &z[4625],
+	"lg.ua":                              &z[4626],
+	"lt.ua":                              &z[4627],
+	"lugansk.ua":                         &z[4628],
+	"lutsk.ua":                           &z[4629],
+	"lviv.ua":                            &z[4630],
+	"mk.ua":                              &z[4631],
+	"net.ua":                             &z[4632],
+	"nikolaev.ua":                        &z[4633],
+	"od.ua":                              &z[4634],
+	"odesa.ua":                           &z[4635],
+	"odessa.ua":                          &z[4636],
+	"org.ua":                             &z[4637],
+	"pl.ua":                              &z[4638],
+	"poltava.ua":                         &z[4639],
+	"pp.ua":                              &z[4640],
+	"rivne.ua":                           &z[4641],
+	"rovno.ua":                           &z[4642],
+	"rv.ua":                              &z[4643],
+	"sebastopol.ua":                      &z[4644],
+	"sm.ua":                              &z[4645],
+	"sumy.ua":                            &z[4646],
+	"te.ua":                              &z[4647],
+	"ternopil.ua":                        &z[4648],
+	"uz.ua":                              &z[4649],
+	"uzhgorod.ua":                        &z[4650],
+	"vinnica.ua":                         &z[4651],
+	"vn.ua":                              &z[4652],
+	"volyn.ua":                           &z[4653],
+	"yalta.ua":                           &z[4654],
+	"zaporizhzhe.ua":                     &z[4655],
+	"zhitomir.ua":                        &z[4656],
+	"zp.ua":                              &z[4657],
+	"zt.ua":                              &z[4658],
+	"ac.ug":                              &z[4659],
+	"co.ug":                              &z[4660],
+	"com.ug":                             &z[4661],
+	"go.ug":                              &z[4662],
+	"mil.ug":                             &z[4663],
+	"ne.ug":                              &z[4664],
+	"or.ug":                              &z[4665],
+	"org.ug":                             &z[4666],
+	"sc.ug":                              &z[4667],
+	"ac.uk":                              &z[4668],
+	"co.uk":                              &z[4669],
+	"gov.uk":                             &z[4670],
+	"ltd.uk":                             &z[4671],
+	"me.uk":                              &z[4672],
+	"mod.uk":                             &z[4673],
+	"net.uk":                             &z[4674],
+	"org.uk":                             &z[4675],
+	"plc.uk":                             &z[4676],
+	"sch.uk":                             &z[4677],
+	"ak.us":                              &z[4678],
+	"al.us":                              &z[4679],
+	"ar.us":                              &z[4680],
+	"as.us":                              &z[4681],
+	"az.us":                              &z[4682],
+	"ca.us":                              &z[4683],
+	"co.us":                              &z[4684],
+	"ct.us":                              &z[4685],
+	"dc.us":                              &z[4686],
+	"de.us":                              &z[4687],
+	"dni.us":                             &z[4688],
+	"fed.us":                             &z[4689],
+	"fl.us":                              &z[4690],
+	"ga.us":                              &z[4691],
+	"gu.us":                              &z[4692],
+	"hi.us":                              &z[4693],
+	"ia.us":                              &z[4694],
+	"id.us":                              &z[4695],
+	"il.us":                              &z[4696],
+	"in.us":                              &z[4697],
+	"isa.us":                             &z[4698],
+	"kids.us":                            &z[4699],
+	"ks.us":                              &z[4700],
+	"ky.us":                              &z[4701],
+	"la.us":                              &z[4702],
+	"ma.us":                              &z[4703],
+	"md.us":                              &z[4704],
+	"me.us":                              &z[4705],
+	"mi.us":                              &z[4706],
+	"mn.us":                              &z[4707],
+	"mo.us":                              &z[4708],
+	"ms.us":                              &z[4709],
+	"mt.us":                              &z[4710],
+	"nc.us":                              &z[4711],
+	"nd.us":                              &z[4712],
+	"ne.us":                              &z[4713],
+	"nh.us":                              &z[4714],
+	"nj.us":                              &z[4715],
+	"nm.us":                              &z[4716],
+	"nsn.us":                             &z[4717],
+	"nv.us":                              &z[4718],
+	"ny.us":                              &z[4719],
+	"oh.us":                              &z[4720],
+	"ok.us":                              &z[4721],
+	"or.us":                              &z[4722],
+	"pa.us":                              &z[4723],
+	"pr.us":                              &z[4724],
+	"ri.us":                              &z[4725],
+	"sc.us":                              &z[4726],
+	"sd.us":                              &z[4727],
+	"tn.us":                              &z[4728],
+	"tx.us":                              &z[4729],
+	"ut.us":                              &z[4730],
+	"va.us":                              &z[4731],
+	"vi.us":                              &z[4732],
+	"vt.us":                              &z[4733],
+	"wa.us":                              &z[4734],
+	"wi.us":                              &z[4735],
+	"wv.us":                              &z[4736],
+	"wy.us":                              &z[4737],
+	"com.uy":                             &z[4738],
+	"edu.uy":                             &z[4739],
+	"gub.uy":                             &z[4740],
+	"mil.uy":                             &z[4741],
+	"net.uy":                             &z[4742],
+	"org.uy":                             &z[4743],
+	"ac.uz":                              &z[4744],
+	"aero.uz":                            &z[4745],
+	"biz.uz":                             &z[4746],
+	"co.uz":                              &z[4747],
+	"com.uz":                             &z[4748],
+	"coop.uz":                            &z[4749],
+	"edu.uz":                             &z[4750],
+	"info.uz":                            &z[4751],
+	"int.uz":                             &z[4752],
+	"museum.uz":                          &z[4753],
+	"name.uz":                            &z[4754],
+	"net.uz":                             &z[4755],
+	"org.uz":                             &z[4756],
+	"pro.uz":                             &z[4757],
+	"com.vc":                             &z[4758],
+	"net.vc":                             &z[4759],
+	"org.vc":                             &z[4760],
+	"co.ve":                              &z[4761],
+	"com.ve":                             &z[4762],
+	"edu.ve":                             &z[4763],
+	"gob.ve":                             &z[4764],
+	"info.ve":                            &z[4765],
+	"int.ve":                             &z[4766],
+	"mil.ve":                             &z[4767],
+	"net.ve":                             &z[4768],
+	"org.ve":                             &z[4769],
+	"tec.ve":                             &z[4770],
+	"web.ve":                             &z[4771],
+	"pro.vg":                             &z[4772],
+	"biz.vi":                             &z[4773],
+	"co.vi":                              &z[4774],
+	"com.vi":                             &z[4775],
+	"k12.vi":                             &z[4776],
+	"net.vi":                             &z[4777],
+	"org.vi":                             &z[4778],
+	"ac.vn":                              &z[4779],
+	"biz.vn":                             &z[4780],
+	"com.vn":                             &z[4781],
+	"edu.vn":                             &z[4782],
+	"gov.vn":                             &z[4783],
+	"health.vn":                          &z[4784],
+	"info.vn":                            &z[4785],
+	"int.vn":                             &z[4786],
+	"name.vn":                            &z[4787],
+	"net.vn":                             &z[4788],
+	"org.vn":                             &z[4789],
+	"pro.vn":                             &z[4790],
+	"co.vu":                              &z[4791],
+	"com.vu":                             &z[4792],
+	"name.vu":                            &z[4793],
+	"net.vu":                             &z[4794],
+	"org.vu":                             &z[4795],
+	"com.ws":                             &z[4796],
+	"edu.ws":                             &z[4797],
+	"gov.ws":                             &z[4798],
+	"net.ws":                             &z[4799],
+	"org.ws":                             &z[4800],
+	"co.ye":                              &z[4801],
+	"com.ye":                             &z[4802],
+	"gov.ye":                             &z[4803],
+	"ltd.ye":                             &z[4804],
+	"me.ye":                              &z[4805],
+	"net.ye":                             &z[4806],
+	"org.ye":                             &z[4807],
+	"plc.ye":                             &z[4808],
+	"ac.yu":                              &z[4809],
+	"cg.yu":                              &z[4810],
+	"co.yu":                              &z[4811],
+	"edu.yu":                             &z[4812],
+	"gov.yu":                             &z[4813],
+	"org.yu":                             &z[4814],
+	"ac.za":                              &z[4815],
+	"agric.za":                           &z[4816],
+	"alt.za":                             &z[4817],
+	"bourse.za":                          &z[4818],
+	"city.za":                            &z[4819],
+	"co.za":                              &z[4820],
+	"cybernet.za":                        &z[4821],
+	"db.za":                              &z[4822],
+	"edu.za":                             &z[4823],
+	"gov.za":                             &z[4824],
+	"grondar.za":                         &z[4825],
+	"iaccess.za":                         &z[4826],
+	"imt.za":                             &z[4827],
+	"inca.za":                            &z[4828],
+	"landesign.za":                       &z[4829],
+	"law.za":                             &z[4830],
+	"mil.za":                             &z[4831],
+	"net.za":                             &z[4832],
+	"ngo.za":                             &z[4833],
+	"nis.za":                             &z[4834],
+	"nom.za":                             &z[4835],
+	"olivetti.za":                        &z[4836],
+	"org.za":                             &z[4837],
+	"pix.za":                             &z[4838],
+	"school.za":                          &z[4839],
+	"tm.za":                              &z[4840],
+	"web.za":                             &z[4841],
+	"ac.zm":                              &z[4842],
+	"co.zm":                              &z[4843],
+	"com.zm":                             &z[4844],
+	"edu.zm":                             &z[4845],
+	"gov.zm":                             &z[4846],
+	"net.zm":                             &z[4847],
+	"org.zm":                             &z[4848],
+	"sch.zm":                             &z[4849],
+	"ac.zw":                              &z[4850],
+	"co.zw":                              &z[4851],
+	"com.zw":                             &z[4852],
+	"org.zw":                             &z[4853],
+	"001.xn--p1acf":                      &z[4854], // 001.рус
+	"002.xn--p1acf":                      &z[4855], // 002.рус
+	"003.xn--p1acf":                      &z[4856], // 003.рус
+	"004.xn--p1acf":                      &z[4857], // 004.рус
+	"005.xn--p1acf":                      &z[4858], // 005.рус
+	"006.xn--p1acf":                      &z[4859], // 006.рус
+	"007.xn--p1acf":                      &z[4860], // 007.рус
+	"008.xn--p1acf":                      &z[4861], // 008.рус
+	"009.xn--p1acf":                      &z[4862], // 009.рус
+	"010.xn--p1acf":                      &z[4863], // 010.рус
+	"011.xn--p1acf":                      &z[4864], // 011.рус
+	"012.xn--p1acf":                      &z[4865], // 012.рус
+	"013.xn--p1acf":                      &z[4866], // 013.рус
+	"014.xn--p1acf":                      &z[4867], // 014.рус
+	"015.xn--p1acf":                      &z[4868], // 015.рус
+	"016.xn--p1acf":                      &z[4869], // 016.рус
+	"017.xn--p1acf":                      &z[4870], // 017.рус
+	"018.xn--p1acf":                      &z[4871], // 018.рус
+	"019.xn--p1acf":                      &z[4872], // 019.рус
+	"021.xn--p1acf":                      &z[4873], // 021.рус
+	"022.xn--p1acf":                      &z[4874], // 022.рус
+	"023.xn--p1acf":                      &z[4875], // 023.рус
+	"024.xn--p1acf":                      &z[4876], // 024.рус
+	"025.xn--p1acf":                      &z[4877], // 025.рус
+	"026.xn--p1acf":                      &z[4878], // 026.рус
+	"027.xn--p1acf":                      &z[4879], // 027.рус
+	"028.xn--p1acf":                      &z[4880], // 028.рус
+	"029.xn--p1acf":                      &z[4881], // 029.рус
+	"030.xn--p1acf":                      &z[4882], // 030.рус
+	"031.xn--p1acf":                      &z[4883], // 031.рус
+	"032.xn--p1acf":                      &z[4884], // 032.рус
+	"033.xn--p1acf":                      &z[4885], // 033.рус
+	"034.xn--p1acf":                      &z[4886], // 034.рус
+	"035.xn--p1acf":                      &z[4887], // 035.рус
+	"036.xn--p1acf":                      &z[4888], // 036.рус
+	"037.xn--p1acf":                      &z[4889], // 037.рус
+	"038.xn--p1acf":                      &z[4890], // 038.рус
+	"039.xn--p1acf":                      &z[4891], // 039.рус
+	"040.xn--p1acf":                      &z[4892], // 040.рус
+	"041.xn--p1acf":                      &z[4893], // 041.рус
+	"042.xn--p1acf":                      &z[4894], // 042.рус
+	"043.xn--p1acf":                      &z[4895], // 043.рус
+	"044.xn--p1acf":                      &z[4896], // 044.рус
+	"045.xn--p1acf":                      &z[4897], // 045.рус
+	"046.xn--p1acf":                      &z[4898], // 046.рус
+	"047.xn--p1acf":                      &z[4899], // 047.рус
+	"048.xn--p1acf":                      &z[4900], // 048.рус
+	"049.xn--p1acf":                      &z[4901], // 049.рус
+	"050.xn--p1acf":                      &z[4902], // 050.рус
+	"051.xn--p1acf":                      &z[4903], // 051.рус
+	"052.xn--p1acf":                      &z[4904], // 052.рус
+	"053.xn--p1acf":                      &z[4905], // 053.рус
+	"054.xn--p1acf":                      &z[4906], // 054.рус
+	"055.xn--p1acf":                      &z[4907], // 055.рус
+	"056.xn--p1acf":                      &z[4908], // 056.рус
+	"057.xn--p1acf":                      &z[4909], // 057.рус
+	"058.xn--p1acf":                      &z[4910], // 058.рус
+	"059.xn--p1acf":                      &z[4911], // 059.рус
+	"060.xn--p1acf":                      &z[4912], // 060.рус
+	"061.xn--p1acf":                      &z[4913], // 061.рус
+	"062.xn--p1acf":                      &z[4914], // 062.рус
+	"063.xn--p1acf":                      &z[4915], // 063.рус
+	"064.xn--p1acf":                      &z[4916], // 064.рус
+	"065.xn--p1acf":                      &z[4917], // 065.рус
+	"066.xn--p1acf":                      &z[4918], // 066.рус
+	"067.xn--p1acf":                      &z[4919], // 067.рус
+	"068.xn--p1acf":                      &z[4920], // 068.рус
+	"069.xn--p1acf":                      &z[4921], // 069.рус
+	"070.xn--p1acf":                      &z[4922], // 070.рус
+	"071.xn--p1acf":                      &z[4923], // 071.рус
+	"072.xn--p1acf":                      &z[4924], // 072.рус
+	"073.xn--p1acf":                      &z[4925], // 073.рус
+	"074.xn--p1acf":                      &z[4926], // 074.рус
+	"075.xn--p1acf":                      &z[4927], // 075.рус
+	"076.xn--p1acf":                      &z[4928], // 076.рус
+	"077.xn--p1acf":                      &z[4929], // 077.рус
+	"078.xn--p1acf":                      &z[4930], // 078.рус
+	"079.xn--p1acf":                      &z[4931], // 079.рус
+	"083.xn--p1acf":                      &z[4932], // 083.рус
+	"086.xn--p1acf":                      &z[4933], // 086.рус
+	"087.xn--p1acf":                      &z[4934], // 087.рус
+	"089.xn--p1acf":                      &z[4935], // 089.рус
+	"094.xn--p1acf":                      &z[4936], // 094.рус
+	"095.xn--p1acf":                      &z[4937], // 095.рус
+	"xn--80aaac0ct.xn--p1acf":            &z[4938], // абакан.рус
+	"xn--80ae0bp.xn--p1acf":              &z[4939], // авто.рус
+	"xn--80awd.xn--p1acf":                &z[4940], // алм.рус
+	"xn--80aa1ag9a.xn--p1acf":            &z[4941], // алтай.рус
+	"xn--80aam8ar9di.xn--p1acf":          &z[4942], // анадырь.рус
+	"xn--80aaa5csg.xn--p1acf":            &z[4943], // астана.рус
+	"xn--80aaa6cmfh0a9d.xn--p1acf":       &z[4944], // астрахань.рус
+	"xn--80ag7c.xn--p1acf":               &z[4945], // ахг.рус
+	"xn--80ab2azb.xn--p1acf":             &z[4946], // баку.рус
+	"xn--80aab6birx.xn--p1acf":           &z[4947], // барнаул.рус
+	"xn--90ais.xn--p1acf":                &z[4948], // бел.рус
+	"xn--90aedc4atap.xn--p1acf":          &z[4949], // белгород.рус
+	"xn--90amc.xn--p1acf":                &z[4950], // биз.рус
+	"xn--80abamkjb7bdt.xn--p1acf":        &z[4951], // биробиджан.рус
+	"xn--90aiiib5f.xn--p1acf":            &z[4952], // бишкек.рус
+	"xn--80abedla9acxg1b7f.xn--p1acf":    &z[4953], // благовещенск.рус
+	"xn--90aayernio.xn--p1acf":           &z[4954], // бобруйск.рус
+	"xn--90ai6aff.xn--p1acf":             &z[4955], // брест.рус
+	"xn--90asilg6f.xn--p1acf":            &z[4956], // брянск.рус
+	"xn--90aoxid7ec.xn--p1acf":           &z[4957], // бурятия.рус
+	"xn--b1aadecsaihi0amca3a.xn--p1acf":  &z[4958], // великийновгород.рус
+	"xn--b1amjiu8dp.xn--p1acf":           &z[4959], // вильнюс.рус
+	"xn--90abjlm5be.xn--p1acf":           &z[4960], // витебск.рус
+	"xn--80adbhunc2aa3al.xn--p1acf":      &z[4961], // владивосток.рус
+	"xn--80aaafckyesce.xn--p1acf":        &z[4962], // владикавказ.рус
+	"xn--80adhqaok7a.xn--p1acf":          &z[4963], // владимир.рус
+	"xn--80add5ao.xn--p1acf":             &z[4964], // волга.рус
+	"xn--80addag2buct.xn--p1acf":         &z[4965], // волгоград.рус
+	"xn--80adde7arb.xn--p1acf":           &z[4966], // вологда.рус
+	"xn--b1agd0aean.xn--p1acf":           &z[4967], // воронеж.рус
+	"xn--c1aescj1g.xn--p1acf":            &z[4968], // гомель.рус
+	"xn--c1ac1acci.xn--p1acf":            &z[4969], // гродно.рус
+	"xn--c1aigpdl4f.xn--p1acf":           &z[4970], // грозный.рус
+	"xn--e1aky.xn--p1acf":                &z[4971], // ект.рус
+	"xn--80adia6bo.xn--p1acf":            &z[4972], // ереван.рус
+	"xn--80adbv1agb.xn--p1acf":           &z[4973], // иваново.рус
+	"xn--b1afchn5b.xn--p1acf":            &z[4974], // ижевск.рус
+	"xn--h1aeawgfg.xn--p1acf":            &z[4975], // иркутск.рус
+	"xn--80aauks4g.xn--p1acf":            &z[4976], // казань.рус
+	"xn--80aaifraljtb8a.xn--p1acf":       &z[4977], // калининград.рус
+	"xn--80aai0ag2c.xn--p1acf":           &z[4978], // калуга.рус
+	"xn--b1afaslnbn.xn--p1acf":           &z[4979], // кемерово.рус
+	"xn--b1afih.xn--p1acf":               &z[4980], // киев.рус
+	"xn--b1alfrj.xn--p1acf":              &z[4981], // киров.рус
+	"xn--b1afiaiu9e.xn--p1acf":           &z[4982], // кишинев.рус
+	"xn--j1aef.xn--p1acf":                &z[4983], // ком.рус
+	"xn--h1adgh.xn--p1acf":               &z[4984], // коми.рус
+	"xn--80atghalgi.xn--p1acf":           &z[4985], // кострома.рус
+	"xn--80aalwqglfe.xn--p1acf":          &z[4986], // краснодар.рус
+	"xn--80atblfjdfd2l.xn--p1acf":        &z[4987], // красноярск.рус
+	"xn--j1ael8b.xn--p1acf":              &z[4988], // крым.рус
+	"xn--80afuomr.xn--p1acf":             &z[4989], // курган.рус
+	"xn--j1aarei.xn--p1acf":              &z[4990], // курск.рус
+	"xn--g1afe6db.xn--p1acf":             &z[4991], // кызыл.рус
+	"xn--e1afhbv7b.xn--p1acf":            &z[4992], // липецк.рус
+	"xn--80aaakg8bm.xn--p1acf":           &z[4993], // магадан.рус
+	"xn--80aai8a2a.xn--p1acf":            &z[4994], // магас.рус
+	"xn--80asdfng.xn--p1acf":             &z[4995], // майкоп.рус
+	"xn--80aqdibz7g.xn--p1acf":           &z[4996], // марийэл.рус
+	"xn--80aqjbv3f.xn--p1acf":            &z[4997], // мариэл.рус
+	"xn--80aaaa2chc7eta.xn--p1acf":       &z[4998], // махачкала.рус
+	"xn--d1abu.xn--p1acf":                &z[4999], // мед.рус
+	"xn--h1aeefu.xn--p1acf":              &z[5000], // минск.рус
+	"xn--h1ahn.xn--p1acf":                &z[5001], // мир.рус
+	"xn--b1abpmcm0l.xn--p1acf":           &z[5002], // могилёв.рус
+	"xn--j1adp.xn--p1acf":                &z[5003], // мск.рус
+	"xn--80aueagpkl.xn--p1acf":           &z[5004], // мурманск.рус
+	"xn--80aqgci6d8a.xn--p1acf":          &z[5005], // нальчик.рус
+	"xn----7sbb1ccbue7h4a.xn--p1acf":     &z[5006], // нарьян-мар.рус
+	"xn--b1avn.xn--p1acf":                &z[5007], // нвс.рус
+	"xn--m1aa.xn--p1acf":                 &z[5008], // нн.рус
+	"xn--90absbknhbvge.xn--p1acf":        &z[5009], // новосибирск.рус
+	"xn--j1adfn.xn--p1acf":               &z[5010], // омск.рус
+	"xn--c1avg.xn--p1acf":                &z[5011], // орг.рус
+	"xn--90aee6admdx.xn--p1acf":          &z[5012], // оренбург.рус
+	"xn--k1afg2e.xn--p1acf":              &z[5013], // орёл.рус
+	"xn--80ajgxi.xn--p1acf":              &z[5014], // пенза.рус
+	"xn--e1aohf5d.xn--p1acf":             &z[5015], // пермь.рус
+	"xn--80aegbkvxddlre.xn--p1acf":       &z[5016], // петрозаводск.рус
+	"xn--b1apmck.xn--p1acf":              &z[5017], // псков.рус
+	"xn--c1ajhpcjhd0j.xn--p1acf":         &z[5018], // пятигорск.рус
+	"xn--80afo5a.xn--p1acf":              &z[5019], // рига.рус
+	"xn-----7kcgn5cdbagnnnx.xn--p1acf":   &z[5020], // ростов-на-дону.рус
+	"xn--b1a1ade.xn--p1acf":              &z[5021], // рств.рус
+	"xn--80antj7do.xn--p1acf":            &z[5022], // рязань.рус
+	"xn--80aamc3a6ac9a.xn--p1acf":        &z[5023], // салехард.рус
+	"xn--80aaa0cvac.xn--p1acf":           &z[5024], // самара.рус
+	"xn--80aa4alnee.xn--p1acf":           &z[5025], // саранск.рус
+	"xn--80aag1ciek.xn--p1acf":           &z[5026], // саратов.рус
+	"xn--80adi0aoagldk8i.xn--p1acf":      &z[5027], // севастополь.рус
+	"xn--90anb6ab4e.xn--p1acf":           &z[5028], // сибирь.рус
+	"xn--e1afkclaggf6a2g.xn--p1acf":      &z[5029], // симферополь.рус
+	"xn--e1akbdhdtf.xn--p1acf":           &z[5030], // смоленск.рус
+	"xn--h1aliz.xn--p1acf":               &z[5031], // сочи.рус
+	"xn--90a1af.xn--p1acf":               &z[5032], // спб.рус
+	"xn--80ae1alafffj1i.xn--p1acf":       &z[5033], // ставрополь.рус
+	"xn--80aqialz.xn--p1acf":             &z[5034], // таллин.рус
+	"xn--80acd2blu.xn--p1acf":            &z[5035], // тамбов.рус
+	"xn--80akonve2b.xn--p1acf":           &z[5036], // ташкент.рус
+	"xn--b1ag7af7c.xn--p1acf":            &z[5037], // тверь.рус
+	"xn--j1adfnc.xn--p1acf":              &z[5038], // томск.рус
+	"xn--80avue.xn--p1acf":               &z[5039], // тула.рус
+	"xn--p1add.xn--p1acf":                &z[5040], // тур.рус
+	"xn--e1aner7ci.xn--p1acf":            &z[5041], // тюмень.рус
+	"xn--b1aqbiftj7e1a.xn--p1acf":        &z[5042], // ульяновск.рус
+	"xn--80a1bd.xn--p1acf":               &z[5043], // уфа.рус
+	"xn--80aacf4bwnk3a.xn--p1acf":        &z[5044], // хабаровск.рус
+	"xn--80ablvtof7b4b.xn--p1acf":        &z[5045], // чебоксары.рус
+	"xn--90ahkico2a6b9d.xn--p1acf":       &z[5046], // челябинск.рус
+	"xn--e1aaob1aia6b.xn--p1acf":         &z[5047], // черкесск.рус
+	"xn--80ap4as.xn--p1acf":              &z[5048], // чита.рус
+	"xn--80apizf6d.xn--p1acf":            &z[5049], // элиста.рус
+	"xn--80af3b0c.xn--p1acf":             &z[5050], // югра.рус
+	"xn--41a.xn--p1acf":                  &z[5051], // я.рус
+	"xn--j1aaude4e.xn--p1acf":            &z[5052], // якутск.рус
+	"xn--80aezclli6gta.xn--p1acf":        &z[5053], // ярославль.рус
+	"xn--j1aef.xn--p1ai":                 &z[5054], // ком.рф
+	"xn--e1apq.xn--p1ai":                 &z[5055], // нет.рф
+	"xn--c1avg.xn--p1ai":                 &z[5056], // орг.рф
+	"xn--o-btb9b.xn--90a3ac":             &z[5057], // oбр.срб
+	"xn--o-htb.xn--90a3ac":               &z[5058], // oд.срб
+	"xn--80au.xn--90a3ac":                &z[5059], // ак.срб
+	"xn--o1ac.xn--90a3ac":                &z[5060], // пр.срб
+	"xn--o1ach.xn--90a3ac":               &z[5061], // упр.срб
+	"xn--fhbed7t1n.xn--mgbbh1a71e":       &z[5062], // كمپنی.بھارت
+	"xn--i1b1b4ch5i.xn--h2brj9c":         &z[5063], // कंपनी.भारत
+	"xn--p5b2bfp1g0b0b.xn--45brj9c":      &z[5064], // কম্পেনি.ভারত
+	"xn--p5b2bfp5fh3fra.xn--45brj9c":     &z[5065], // কোম্পানি.ভারত
+	"xn--d9b2bf3g1k.xn--s9brj9c":         &z[5066], // ਕੰਪਨੀ.ਭਾਰਤ
+	"xn--hdc1b4ch5i.xn--gecrj9c":         &z[5067], // કંપની.ભારત
+	"xn--vlccpku2dp3h.xn--xkc2dl3a5ee0h": &z[5068], // நிறுவனம்.இந்தியா
+	"xn--12co0c3b4eva.xn--o3cw4h":        &z[5069], // ธุรกิจ.ไทย
+	"xn--gmqw5a.xn--j6w193g":             &z[5070], // 個人.香港
+	"xn--55qx5d.xn--j6w193g":             &z[5071], // 公司.香港
+	"xn--mxtq1m.xn--j6w193g":             &z[5072], // 政府.香港
+	"xn--wcvs22d.xn--j6w193g":            &z[5073], // 教育.香港
+	"xn--uc0atv.xn--j6w193g":             &z[5074], // 組織.香港
+	"xn--od0alg.xn--j6w193g":             &z[5075], // 網絡.香港
+	"lda.co.ao":                          &z[5076],
+	"sa.co.ao":                           &z[5077],
+	"esc.edu.ar":                         &z[5078],
+	"act.edu.au":                         &z[5079],
+	"nsw.edu.au":                         &z[5080],
+	"nt.edu.au":                          &z[5081],
+	"qld.edu.au":                         &z[5082],
+	"sa.edu.au":                          &z[5083],
+	"tas.edu.au":                         &z[5084],
+	"vic.edu.au":                         &z[5085],
+	"wa.edu.au":                          &z[5086],
+	"fed.rep.br":                         &z[5087],
+	"wireless.keyword.cn":                &z[5088],
+	"ltd.co.im":                          &z[5089],
+	"plc.co.im":                          &z[5090],
+	"lg.gov.ng":                          &z[5091],
+	"co.net.nz":                          &z[5092],
+	"al.eu.org":                          &z[5093],
+	"asso.eu.org":                        &z[5094],
+	"at.eu.org":                          &z[5095],
+	"au.eu.org":                          &z[5096],
+	"be.eu.org":                          &z[5097],
+	"bg.eu.org":                          &z[5098],
+	"ca.eu.org":                          &z[5099],
+	"cd.eu.org":                          &z[5100],
+	"ch.eu.org":                          &z[5101],
+	"cn.eu.org":                          &z[5102],
+	"cy.eu.org":                          &z[5103],
+	"cz.eu.org":                          &z[5104],
+	"de.eu.org":                          &z[5105],
+	"dk.eu.org":                          &z[5106],
+	"edu.eu.org":                         &z[5107],
+	"ee.eu.org":                          &z[5108],
+	"es.eu.org":                          &z[5109],
+	"fi.eu.org":                          &z[5110],
+	"fr.eu.org":                          &z[5111],
+	"gr.eu.org":                          &z[5112],
+	"hr.eu.org":                          &z[5113],
+	"hu.eu.org":                          &z[5114],
+	"ie.eu.org":                          &z[5115],
+	"il.eu.org":                          &z[5116],
+	"in.eu.org":                          &z[5117],
+	"int.eu.org":                         &z[5118],
+	"is.eu.org":                          &z[5119],
+	"it.eu.org":                          &z[5120],
+	"jp.eu.org":                          &z[5121],
+	"kr.eu.org":                          &z[5122],
+	"lt.eu.org":                          &z[5123],
+	"lu.eu.org":                          &z[5124],
+	"lv.eu.org":                          &z[5125],
+	"me.eu.org":                          &z[5126],
+	"mk.eu.org":                          &z[5127],
+	"mt.eu.org":                          &z[5128],
+	"my.eu.org":                          &z[5129],
+	"net.eu.org":                         &z[5130],
+	"ng.eu.org":                          &z[5131],
+	"nl.eu.org":                          &z[5132],
+	"no.eu.org":                          &z[5133],
+	"nz.eu.org":                          &z[5134],
+	"pl.eu.org":                          &z[5135],
+	"pt.eu.org":                          &z[5136],
+	"ro.eu.org":                          &z[5137],
+	"ru.eu.org":                          &z[5138],
+	"se.eu.org":                          &z[5139],
+	"si.eu.org":                          &z[5140],
+	"sk.eu.org":                          &z[5141],
+	"tr.eu.org":                          &z[5142],
+	"uk.eu.org":                          &z[5143],
+	"us.eu.org":                          &z[5144],
+	"co.at.pn":                           &z[5145],
+	"com.au.pn":                          &z[5146],
+	"co.uk.pn":                           &z[5147],
+	"co.at.tc":                           &z[5148],
+	"com.au.tc":                          &z[5149],
+	"co.uk.tc":                           &z[5150],
+	"me.uk.tc":                           &z[5151],
+	"org.uk.tc":                          &z[5152],
+	"co.at.tt":                           &z[5153],
+	"com.au.tt":                          &z[5154],
+	"co.uk.tt":                           &z[5155],
+	"me.uk.tt":                           &z[5156],
+	"org.uk.tt":                          &z[5157],
+	"barking-dagenham.sch.uk":            &z[5158],
+	"barnet.sch.uk":                      &z[5159],
+	"barnsley.sch.uk":                    &z[5160],
+	"bathnes.sch.uk":                     &z[5161],
+	"beds.sch.uk":                        &z[5162],
+	"bexley.sch.uk":                      &z[5163],
+	"bham.sch.uk":                        &z[5164],
+	"blackburn.sch.uk":                   &z[5165],
+	"blackpool.sch.uk":                   &z[5166],
+	"bolton.sch.uk":                      &z[5167],
+	"bournemouth.sch.uk":                 &z[5168],
+	"bracknell-forest.sch.uk":            &z[5169],
+	"bradford.sch.uk":                    &z[5170],
+	"brent.sch.uk":                       &z[5171],
+	"doncaster.sch.uk":                   &z[5172],
+	"bg.ac.yu":                           &z[5173],
+	"ecape.school.za":                    &z[5174],
+	"fs.school.za":                       &z[5175],
+	"gp.school.za":                       &z[5176],
+	"kzn.school.za":                      &z[5177],
+	"lp.school.za":                       &z[5178],
+	"mpm.school.za":                      &z[5179],
+	"ncape.school.za":                    &z[5180],
+	"nw.school.za":                       &z[5181],
+	"wcape.school.za":                    &z[5182],
 }
