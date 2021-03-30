@@ -2,7 +2,10 @@
 	"domain": "укр",
 	"infoURL": "http://uanic.net/",
 	"languages": [
-		"mul-Cyrl-UA"
+		"crh-UA",
+		"mul-Cyrl-UA",
+		"ru-UA",
+		"uk-UA"
 	],
 	"tags": [
 		"country",
