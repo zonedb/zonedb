@@ -23,6 +23,7 @@ type Zone struct {
 	Languages   []string `json:"languages,omitempty"`
 	Tags        []string `json:"tags,omitempty"`
 	Policies    []Policy `json:"policies,omitempty"`
+	RdapURLs    []string `json:"rdapURLs,omitempty"`
 
 	// Internal
 	subdomains     []string
