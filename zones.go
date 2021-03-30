@@ -1669,7 +1669,7 @@ var y = [5183]Zone{
 	{"zippo", r, x, n, n, n, "whois.nic.zippo", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"zm", r, z[4842:4850], s{"cocca.nic.zm", "gransy.nic.zm", "pch.nic.zm"}, n, n, "whois.zicta.zm", e, e, 0xa0, f},
 	{"zone", r, x, s{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, "whois.nic.zone", e, e, 0x40, t},
-	{"zuerich", r, x, s{"a.nic.zuerich", "b.nic.zuerich", "c.nic.zuerich", "d.nic.zuerich"}, n, s{"Zurich", "CH-ZH"}, "whois.nic.zuerich", e, "https://newgtlds.icann.org/", 0xc4, f},
+	{"zuerich", r, x, s{"a.nic.zuerich", "b.nic.zuerich", "c.nic.zuerich", "d.nic.zuerich"}, n, s{"Zurich", "CH-ZH"}, "whois.nic.zuerich", e, "http://nic.zuerich/", 0xc4, t},
 	{"zulu", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x40, f},
 	{"zw", r, z[4850:4854], s{"ns1.liquidtelecom.net", "ns1zim.telone.co.zw", "ns2.liquidtelecom.net", "ns2zim.telone.co.zw", "zw-ns.anycast.pch.net"}, n, n, e, "http://www.zispa.org.zw", e, 0xa0, f},
 	{"xn--jxalpdlp" /* δοκιμή */, r, x, n, n, n, e, e, e, 0x40, t},
