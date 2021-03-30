@@ -25,6 +25,11 @@ func TestLanguage(t *testing.T) {
 		want   string
 	}{
 		{"com", ""},
+		{"中国", "zh-Hans-CN"},
+		{"中國", "zh-Hant-CN"},
+		{"台灣", "zh-Hant-TW"},
+		{"台灣", "zh-Hant-TW"},
+		{"香港", "zh-Hans-HK"},
 	}
 
 	for _, tt := range tests {
