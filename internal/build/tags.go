@@ -1,6 +1,10 @@
 package build
 
-import "github.com/wsxiaoys/terminal/color"
+import (
+	"os"
+
+	"github.com/wsxiaoys/terminal/color"
+)
 
 // AddTags adds one or more tags to a Zone.
 func AddTags(zones map[string]*Zone, tags []string) {
@@ -16,7 +20,7 @@ func AddTags(zones map[string]*Zone, tags []string) {
 			modified++
 		}
 	}
-	color.Printf("@{.}Added %d tag(s) to %d zone(s)\n", added, modified)
+	color.Fprintf(os.Stderr, "@{.}Added %d tag(s) to %d zone(s)\n", added, modified)
 }
 
 // RemoveTags removes one or more tags from a Zone.
@@ -35,7 +39,7 @@ func RemoveTags(zones map[string]*Zone, tags []string) {
 			modified++
 		}
 	}
-	color.Printf("@{.}Removed %d tag(s) from %d zone(s)\n", removed, modified)
+	color.Fprintf(os.Stderr, "@{.}Removed %d tag(s) from %d zone(s)\n", removed, modified)
 }
 
 func tagBits(tagValues map[string]uint64, tags []string) (bits uint64) {
