@@ -74,38 +74,44 @@ You can also run the `zonedb` tool directly: `go run cmd/zonedb/main.go`
 List all zones that have wildcarded DNS:
 
 ```shell
-$ go run cmd/zonedb/main.go -list-wildcards
+$ zonedb -list-wildcards
 ```
 
 List all zones tagged `geo`:
 
 ```shell
-$ go run cmd/zonedb/main.go -tags geo
+$ zonedb -tags geo
 ```
 
 List a given zone's tags:
 
 ```shell
-$ go run cmd/zonedb/main.go -zones capetown -list-tags
+$ zonedb -zones capetown -list-tags
 ```
 
 Add a tag to multiple zones (and write the output):
 
 ```shell
-$ go run cmd/zonedb/main.go -zones capetown,durban,joburg -add-tags city -w
+$ zonedb -zones capetown,durban,joburg -add-tags city -w
 $ make normalize
 ```
 
 Remove a tag from a zone (and write the output):
 
 ```shell
-$ go run cmd/zonedb/main.go -zones la -remove-tags generic -w
+$ zonedb -zones la -remove-tags generic -w
 ```
 
 Add a location to a zone (and write the output):
 
 ```shell
-$ go run cmd/zonedb/main.go -zones alsace -add-locations fr-a -w
+$ zonedb -zones alsace -add-locations fr-a -w
+```
+
+Set a zone’s language to Hong Kong Simplified Chinese (and write the output):
+
+```shell
+$ zonedb -zones 香港 -language zh-Hans-HK -w
 ```
 
 ## License
