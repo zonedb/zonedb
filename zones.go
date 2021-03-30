@@ -2602,7 +2602,7 @@ var y = [5184]Zone{
 	{"presse.ga", &z[534], x, n, n, n, e, e, e, 0x0, f},
 	{"hmg.gb", &z[545], x, n, n, n, e, e, e, 0x800, f},
 	{"com.gd", &z[548], x, n, n, n, e, e, e, 0x0, t},
-	{"edu.gd", &z[548], x, s{"a.nic.gd", "b.nic.gd", "c.nic.gd", "d.nic.gd"}, n, n, e, e, e, 0x800, f},
+	{"edu.gd", &z[548], x, s{"a.nic.gd", "b.nic.gd", "c.nic.gd", "d.nic.gd"}, n, n, e, e, e, 0x0, f},
 	{"gov.gd", &z[548], x, s{"a.nic.gd", "b.nic.gd", "c.nic.gd", "d.nic.gd"}, n, n, e, e, e, 0x0, f},
 	{"mlt.gd", &z[548], x, n, n, n, e, e, e, 0x0, f},
 	{"net.gd", &z[548], x, n, n, n, e, e, e, 0x0, f},
