@@ -111,7 +111,7 @@ $ zonedb -zones alsace -add-locations fr-a -w
 Set a zone’s language to Hong Kong Simplified Chinese (and write the output):
 
 ```shell
-$ zonedb -zones 香港 -language zh-Hans-HK -w
+$ zonedb -zones 香港 -set-language zh-Hans-HK -w
 ```
 
 ## License
