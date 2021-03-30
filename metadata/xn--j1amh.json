@@ -1,7 +1,11 @@
 {
 	"domain": "укр",
+	"infoURL": "http://uanic.net/",
+	"language": "mul-Cyrl-UA",
 	"tags": [
-		"generic"
+		"country",
+		"generic",
+		"geo"
 	],
 	"whoisServer": "whois.dotukr.com",
 	"nameServers": [
