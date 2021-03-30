@@ -1400,7 +1400,7 @@ var y = [5184]Zone{
 	{"song", r, x, s{"ns1.dns.nic.song", "ns2.dns.nic.song", "ns3.dns.nic.song", "ns4.dns.nic.song", "ns5.dns.nic.song", "ns6.dns.nic.song"}, n, n, "whois.nic.song", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"sony", r, x, s{"a.gmoregistry.net", "b.gmoregistry.net", "k.gmoregistry.net", "l.gmoregistry.net"}, n, n, "whois.nic.sony", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"soy", r, x, s{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, n, n, "whois.nic.google", e, "https://www.registry.google/", 0x40, t},
-	{"spa", r, x, s{"a0.nic.spa", "a2.nic.spa", "b0.nic.spa", "c0.nic.spa"}, n, n, "whois.afilias-srs.net", e, "https://newgtlds.icann.org/", 0x40, t},
+	{"spa", r, x, s{"a0.nic.spa", "a2.nic.spa", "b0.nic.spa", "c0.nic.spa"}, n, n, "whois.afilias-srs.net", e, "http://www.nic.spa/", 0x50, t},
 	{"space", r, z[4312:4313], s{"a.nic.space", "b.nic.space", "e.nic.space", "f.nic.space"}, n, n, "whois.nic.space", e, "https://newgtlds.icann.org/", 0x40, t},
 	{"spiegel", r, x, n, n, n, "whois.ksregistry.net", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"sport", r, x, s{"anycast10.irondns.net", "anycast23.irondns.net", "anycast24.irondns.net", "anycast9.irondns.net"}, n, n, "whois.nic.sport", e, "https://newgtlds.icann.org/", 0x40, f},

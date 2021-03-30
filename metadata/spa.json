@@ -1,7 +1,8 @@
 {
 	"domain": "spa",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.spa/",
 	"tags": [
+		"community",
 		"generic"
 	],
 	"whoisServer": "whois.afilias-srs.net",
