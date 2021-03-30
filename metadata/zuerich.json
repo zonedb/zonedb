@@ -1,6 +1,6 @@
 {
 	"domain": "zuerich",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.zuerich/",
 	"tags": [
 		"city",
 		"generic",
@@ -16,10 +16,5 @@
 		"b.nic.zuerich",
 		"c.nic.zuerich",
 		"d.nic.zuerich"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
 	]
 }

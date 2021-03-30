@@ -1,10 +1,9 @@
 {
 	"domain": "amazon",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.amazon/",
 	"tags": [
 		"brand",
-		"generic",
-		"withdrawn"
+		"generic"
 	],
 	"whoisServer": "whois.nic.amazon",
 	"nameServers": [

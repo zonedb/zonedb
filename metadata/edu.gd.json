@@ -1,8 +1,5 @@
 {
 	"domain": "edu.gd",
-	"tags": [
-		"retired"
-	],
 	"nameServers": [
 		"a.nic.gd",
 		"b.nic.gd",

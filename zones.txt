@@ -4400,7 +4400,6 @@ org.sz
 at.tc
 au.tc
 be.tc
-bg.tc
 biz.tc
 br.tc
 ch.tc
