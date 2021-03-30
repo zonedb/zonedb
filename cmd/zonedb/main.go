@@ -40,6 +40,7 @@ func main() {
 
 	// Mutate operations
 	language := flag.String("language", "", "set zone(s) BCP 48 language tag")
+	guessLanguage := flag.Bool("guess-language", false, "guess BCP 47 language for zones")
 	setInfoURL := flag.String("set-info-url", "", "set zone(s) info URLs")
 	updateInfoURL := flag.Bool("update-info-url", false, "update zone(s) info URLs")
 	addTags := flag.String("add-tags", "", "add tags to zones (comma-delimited)")
@@ -280,6 +281,10 @@ func main() {
 			z.Language = *language
 		}
 		color.Fprintf(os.Stderr, "@{.}Set language tag to: @{c}%s\n", *language)
+	}
+
+	if *guessLanguage {
+		build.GuessLanguage(workZones)
 	}
 
 	if *setInfoURL != "" {
