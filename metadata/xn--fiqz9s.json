@@ -1,6 +1,8 @@
 {
 	"domain": "中國",
-	"language": "zh-Hant-CN",
+	"languages": [
+		"zh-Hant-CN"
+	],
 	"tags": [
 		"geo"
 	],

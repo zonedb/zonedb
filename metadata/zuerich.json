@@ -1,7 +1,9 @@
 {
 	"domain": "zuerich",
 	"infoURL": "http://nic.zuerich/",
-	"language": "de-CH",
+	"languages": [
+		"de-CH"
+	],
 	"tags": [
 		"city",
 		"generic",

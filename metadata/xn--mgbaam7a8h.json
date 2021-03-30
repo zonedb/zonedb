@@ -1,6 +1,8 @@
 {
 	"domain": "امارات",
-	"language": "ar-AE",
+	"languages": [
+		"ar-AE"
+	],
 	"tags": [
 		"country",
 		"geo"

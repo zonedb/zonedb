@@ -15,7 +15,7 @@ import (
 type Zone struct {
 	Domain      string   `json:"domain,omitempty"`
 	InfoURL     string   `json:"infoURL,omitempty"`
-	Language    string   `json:"language,omitempty"`
+	Languages   []string `json:"languages,omitempty"`
 	Tags        []string `json:"tags,omitempty"`
 	Locations   []string `json:"locations,omitempty"`
 	WhoisServer string   `json:"whoisServer,omitempty"`
@@ -39,7 +39,6 @@ type Zone struct {
 func (z *Zone) Normalize() {
 	z.Domain = Normalize(z.Domain)
 	z.InfoURL = NormalizeURL(z.InfoURL)
-	z.normalizeLanguage()
 	var tags []string
 	tags = append(tags, z.Tags...)
 	z.Tags = NewSet(tags...).Values()
@@ -49,19 +48,26 @@ func (z *Zone) Normalize() {
 	z.WhoisServer = Normalize(z.WhoisServer)
 	z.WhoisURL = NormalizeURL(z.WhoisURL)
 	z.normalizePolicies()
+	z.normalizeLanguages()
 }
 
-func (z *Zone) normalizeLanguage() {
-	if z.Language == "" {
+func (z *Zone) normalizeLanguages() {
+	if len(z.Languages) == 0 {
+		z.Languages = nil
 		return
 	}
-	tag, err := language.Parse(z.Language)
-	if err != nil {
-		Trace("Zone %s has malformed language tag: %s\n", z.Domain, z.Language)
-		z.Language = ""
-	} else {
-		z.Language = tag.String()
+	langs := NewSet(z.Languages...)
+	nlangs := NewSet()
+	for lang := range langs {
+		tag, err := language.Parse(lang)
+		if err != nil {
+			Trace("Zone %s has malformed language tag: %s\n", z.Domain, lang)
+
+		}
+		nlangs.Add(tag.String())
 	}
+	z.Languages = nlangs.Values()
+	sort.Strings(z.Languages)
 }
 
 func (z *Zone) normalizePolicies() {

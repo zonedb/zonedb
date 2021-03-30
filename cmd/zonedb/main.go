@@ -39,8 +39,8 @@ func main() {
 	checkPS := flag.Bool("ps", false, "check against Public Suffix List")
 
 	// Mutate operations
-	setLanguage := flag.String("set-language", "", "set zone(s) BCP 48 language tag")
-	guessLanguage := flag.Bool("guess-language", false, "guess BCP 47 language for zones")
+	addLanguages := flag.String("add-languages", "", "add BCP 48 language tags to zones (comma-delimited)")
+	guessLanguages := flag.Bool("guess-languages", false, "guess BCP 47 languages for zones")
 	setInfoURL := flag.String("set-info-url", "", "set zone(s) info URLs")
 	updateInfoURL := flag.Bool("update-info-url", false, "update zone(s) info URLs")
 	addTags := flag.String("add-tags", "", "add tags to zones (comma-delimited)")
@@ -276,15 +276,13 @@ func main() {
 		color.Fprintf(os.Stderr, "@{.}Zones: @{c}%s\n", strings.Join(zones.Values(), " "))
 	}
 
-	if *setLanguage != "" {
-		for _, z := range workZones {
-			z.Language = *setLanguage
-		}
-		color.Fprintf(os.Stderr, "@{.}Set language tag to: @{c}%s\n", *setLanguage)
+	if *addLanguages != "" {
+		languages := strings.Split(*addLanguages, ",")
+		build.AddLanguages(workZones, languages)
 	}
 
-	if *guessLanguage {
-		build.GuessLanguage(workZones)
+	if *guessLanguages {
+		build.GuessLanguages(workZones)
 	}
 
 	if *setInfoURL != "" {

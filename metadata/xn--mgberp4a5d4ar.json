@@ -1,6 +1,8 @@
 {
 	"domain": "السعودية",
-	"language": "ar-SA",
+	"languages": [
+		"ar-SA"
+	],
 	"tags": [
 		"country",
 		"geo"

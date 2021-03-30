@@ -1,7 +1,9 @@
 {
 	"domain": "укр",
 	"infoURL": "http://uanic.net/",
-	"language": "mul-Cyrl-UA",
+	"languages": [
+		"mul-Cyrl-UA"
+	],
 	"tags": [
 		"country",
 		"generic",

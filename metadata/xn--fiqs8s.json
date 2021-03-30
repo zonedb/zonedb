@@ -1,6 +1,8 @@
 {
 	"domain": "中国",
-	"language": "zh-Hans-CN",
+	"languages": [
+		"zh-Hans-CN"
+	],
 	"whoisServer": "cwhois.cnnic.cn",
 	"nameServers": [
 		"h.dns.cn",

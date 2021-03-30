@@ -1,6 +1,8 @@
 {
 	"domain": "مصر",
-	"language": "ar-EG",
+	"languages": [
+		"ar-EG"
+	],
 	"tags": [
 		"country",
 		"geo"

@@ -1,7 +1,9 @@
 {
 	"domain": "рф",
 	"infoURL": "https://cctld.ru/",
-	"language": "ru-RU",
+	"languages": [
+		"ru-RU"
+	],
 	"tags": [
 		"country",
 		"geo"

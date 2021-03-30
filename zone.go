@@ -2,8 +2,6 @@ package zonedb
 
 import (
 	"strings"
-
-	"golang.org/x/text/language"
 )
 
 //go:generate go run cmd/zonedb/main.go -generate-go
@@ -54,7 +52,7 @@ type Zone struct {
 
 	// BCP 47 language tag associated with this Zone
 	// https://tools.ietf.org/html/bcp47
-	language string
+	languages []string
 
 	// Whois server responding on port 43
 	whoisServer string
@@ -72,10 +70,9 @@ type Zone struct {
 	allowsIDN bool
 }
 
-// Language returns a BCP 47 language tag.
-func (z *Zone) Language() language.Tag {
-	tag, _ := language.Parse(z.language)
-	return tag
+// Languages returns a slice of BCP 47 language specifiers.
+func (z *Zone) Languages() []string {
+	return z.languages
 }
 
 // WhoisServer returns the whois server that responds on port 43

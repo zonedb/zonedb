@@ -201,7 +201,7 @@ var y = [{{len .Zones}}]Zone{
 			{{if $z.NameServers}} s{ {{range $z.NameServers}}{{quotedDomain .}},{{end}}} {{else}} n {{end}}, \
 			{{if $z.Wildcards}} s{ {{range $z.Wildcards}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
 			{{if $z.Locations}} s{ {{range $z.Locations}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
-			{{quoted $z.Language}}, \
+			{{if $z.Languages}} s{ {{range $z.Languages}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
 			{{quotedDomain $z.WhoisServer}}, \
 			{{quotedURL $z.WhoisURL}}, \
 			{{quotedURL $z.InfoURL}}, \
