@@ -180,7 +180,7 @@ func TestZone_AllowsRegistration(t *testing.T) {
 		"yu":           false,
 		"arpa":         false,
 		"cadillac":     false,
-		"amazon":       false,
+		"amazon":       true,
 		"co.uk":        true,
 		"in-addr.arpa": false,
 	}

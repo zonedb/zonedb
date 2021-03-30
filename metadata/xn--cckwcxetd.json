@@ -1,9 +1,9 @@
 {
 	"domain": "アマゾン",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.アマゾン/",
 	"tags": [
-		"generic",
-		"withdrawn"
+		"brand",
+		"generic"
 	],
 	"whoisServer": "whois.nic.アマゾン",
 	"nameServers": [

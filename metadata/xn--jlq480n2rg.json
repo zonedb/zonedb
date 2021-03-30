@@ -1,9 +1,9 @@
 {
 	"domain": "亚马逊",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.亚马逊/",
 	"tags": [
-		"generic",
-		"withdrawn"
+		"brand",
+		"generic"
 	],
 	"whoisServer": "whois.nic.亚马逊",
 	"nameServers": [
