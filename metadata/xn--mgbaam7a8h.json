@@ -1,7 +1,9 @@
 {
 	"domain": "امارات",
+	"language": "ar-AE",
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	],
 	"whoisServer": "whois.aeda.net.ae",
 	"nameServers": [

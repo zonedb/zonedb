@@ -1,7 +1,9 @@
 {
 	"domain": "مصر",
+	"language": "ar-EG",
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	],
 	"whoisServer": "whois.dotmasr.eg",
 	"nameServers": [
