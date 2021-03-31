@@ -1,8 +1,12 @@
 {
 	"domain": "இந்தியா",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.registry.in/",
+	"languages": [
+		"ta-IN"
+	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	],
 	"whoisServer": "whois.registry.in",
 	"nameServers": [

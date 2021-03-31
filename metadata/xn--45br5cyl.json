@@ -1,5 +1,13 @@
 {
 	"domain": "ভাৰত",
+	"infoURL": "https://www.registry.in/",
+	"languages": [
+		"as-IN"
+	],
+	"tags": [
+		"country",
+		"geo"
+	],
 	"whoisServer": "whois.registry.in",
 	"nameServers": [
 		"ns1.registry.in",

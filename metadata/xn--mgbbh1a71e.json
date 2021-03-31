@@ -1,8 +1,12 @@
 {
 	"domain": "بھارت",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.registry.in/",
+	"languages": [
+		"ur-IN"
+	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	],
 	"whoisServer": "whois.registry.in",
 	"nameServers": [

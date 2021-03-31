@@ -1,8 +1,12 @@
 {
 	"domain": "భారత్",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.registry.in/",
+	"languages": [
+		"te-IN"
+	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	],
 	"whoisServer": "whois.registry.in",
 	"nameServers": [
