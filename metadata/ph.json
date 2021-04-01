@@ -11,6 +11,9 @@
 		"ns4.apnic.net",
 		"ph.communitydns.net"
 	],
+	"wildcards": [
+		"45.79.222.138"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
