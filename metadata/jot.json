@@ -48,6 +48,11 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "hi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/jot_hi_2.2.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "hu",
 			"value": "https://www.iana.org/domains/idn-tables/tables/jot_hu_2.1.txt"
 		},

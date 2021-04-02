@@ -105,6 +105,16 @@
 			"type": "idn-table",
 			"key": "zh",
 			"value": "https://www.iana.org/domains/idn-tables/tables/buy_zh_2.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-CN",
+			"value": "https://www.iana.org/domains/idn-tables/tables/buy_zh-cn_2.2.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-TW",
+			"value": "https://www.iana.org/domains/idn-tables/tables/buy_zh-tw_2.2.txt"
 		}
 	]
 }
