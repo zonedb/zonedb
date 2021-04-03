@@ -43,6 +43,8 @@ func (z *Zone) Normalize() {
 	z.NameServers = NormalizeDomains(z.NameServers)
 	z.Wildcards = NormalizeDomains(z.Wildcards)
 	z.subdomains = NormalizeDomains(z.subdomains)
+	z.WhoisServer = Normalize(z.WhoisServer)
+	z.WhoisURL = NormalizeURL(z.WhoisURL)
 	z.normalizePolicies()
 }
 

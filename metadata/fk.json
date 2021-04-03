@@ -5,7 +5,7 @@
 		"country",
 		"geo"
 	],
-	"whoisURL": "http://whois.marcaria.com",
+	"whoisURL": "http://whois.marcaria.com/",
 	"nameServers": [
 		"ns1.horizon.net.fk",
 		"ns2.horizon.net.fk",
