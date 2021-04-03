@@ -1,5 +1,6 @@
 {
 	"domain": "net.my",
+	"infoURL": "https://mynic.my/",
 	"nameServers": [
 		"a.mynic.centralnic-dns.com",
 		"b.mynic.centralnic-dns.com",
