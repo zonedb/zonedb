@@ -6,5 +6,8 @@
 	"nameServers": [
 		"ns1.rlnic.ru",
 		"ns2.rlnic.ru"
+	],
+	"wildcards": [
+		"77.221.159.235"
 	]
 }
