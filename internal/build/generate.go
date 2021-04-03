@@ -86,10 +86,11 @@ func quoted(s string) string {
 }
 
 func quotedDomain(s string) string {
-	if s == "" {
-		return "e" // const e = ""
-	}
-	return `"` + ToASCII(s) + `"`
+	return quoted(ToASCII(s))
+}
+
+func quotedURL(s string) string {
+	return quoted(ToASCIIURL(s))
 }
 
 var (
@@ -97,6 +98,7 @@ var (
 		"title":        strings.Title,
 		"quoted":       quoted,
 		"quotedDomain": quotedDomain,
+		"quotedURL":    quotedURL,
 	}
 )
 
@@ -200,8 +202,8 @@ var y = [{{len .Zones}}]Zone{
 			{{if $z.Wildcards}} s{ {{range $z.Wildcards}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
 			{{if $z.Locations}} s{ {{range $z.Locations}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
 			{{quotedDomain $z.WhoisServer}}, \
-			{{quoted $z.WhoisURL}}, \
-			{{quoted $z.InfoURL}}, \
+			{{quotedURL $z.WhoisURL}}, \
+			{{quotedURL $z.InfoURL}}, \
 			{{printf "0x%x" $z.TagBits}}, \
 			{{if $z.IDNDisallowed}} f {{else}} t {{end}}, \
 		},
