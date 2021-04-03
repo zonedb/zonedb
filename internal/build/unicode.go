@@ -1,6 +1,8 @@
 package build
 
 import (
+	"net"
+	"net/url"
 	"strings"
 
 	"golang.org/x/net/idna"
@@ -18,10 +20,53 @@ func Normalize(s string) string {
 	return s
 }
 
-// ToASCII normalizes a domain name or URL to ASCII/punycode.
+// ToASCII normalizes a domain name to ASCII/punycode.
 func ToASCII(s string) string {
 	s, _ = idna.ToASCII(s)
 	return s
+}
+
+const hostnameProxy = "_____HOSTNAME_____"
+
+// NormalizeURL normalizes the domain name part of a URL, with a Unicode (non-IDNA encoded) hostname.
+// Returns a blank string if it is unable to parse s as a valid URL.
+func NormalizeURL(s string) string {
+	if s == "" {
+		return s
+	}
+	u, _ := url.Parse(s)
+	if u == nil {
+		return ""
+	}
+	h, p, err := net.SplitHostPort(u.Host)
+	if err != nil {
+		h = u.Hostname()
+	}
+	if (u.Scheme == "http" && p == "80") || (u.Scheme == "https" && p == "443") {
+		p = ""
+	}
+	h = Normalize(h)
+	if p != "" {
+		h = net.JoinHostPort(h, p)
+	}
+	u.Host = hostnameProxy
+	if (u.Scheme == "http" || u.Scheme == "https") && u.Path == "" {
+		u.Path = "/"
+	}
+	return strings.Replace(u.String(), hostnameProxy, h, 1)
+}
+
+// ToASCIIURL normalizes the domain name part of a URL to ASCII/punycode.
+func ToASCIIURL(s string) string {
+	if s == "" {
+		return s
+	}
+	u, _ := url.Parse(s)
+	if u == nil {
+		return ""
+	}
+	u.Host = ToASCII(u.Host)
+	return u.String()
 }
 
 // normalizeLang normalizes a 4-char ISO 15924 script code (e.g. “Latn”)
