@@ -36,13 +36,13 @@ type Zone struct {
 // Normalize formats a build.Zone into normal form suitable for serialization.
 func (z *Zone) Normalize() {
 	z.Domain = Normalize(z.Domain)
+	z.InfoURL = NormalizeURL(z.InfoURL)
 	var tags []string
 	tags = append(tags, z.Tags...)
 	z.Tags = NewSet(tags...).Values()
-	z.NameServers = NewSet(z.NameServers...).Values()
-	sort.Strings(z.NameServers)
-	sort.Strings(z.Wildcards)
-	sort.Strings(z.subdomains)
+	z.NameServers = NormalizeDomains(z.NameServers)
+	z.Wildcards = NormalizeDomains(z.Wildcards)
+	z.subdomains = NormalizeDomains(z.subdomains)
 	z.normalizePolicies()
 }
 

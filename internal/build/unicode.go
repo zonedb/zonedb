@@ -3,6 +3,7 @@ package build
 import (
 	"net"
 	"net/url"
+	"sort"
 	"strings"
 
 	"golang.org/x/net/idna"
@@ -83,4 +84,16 @@ func normalizeLang(s string) (string, error) {
 		tag, err = language.Parse("mul-" + s) // Try parsing as a script, e.g. “Latn”
 	}
 	return tag.String(), err
+}
+
+// NormalizeDomains normalizes a slice of domain names.
+// Returns a sorted, de-duplicated, normalized list of domain names.
+func NormalizeDomains(in []string) []string {
+	out := in[:]
+	for i := range out {
+		out[i] = Normalize(out[i])
+	}
+	out = NewSet(out...).Values()
+	sort.Strings(out)
+	return out
 }
