@@ -124,7 +124,7 @@ func main() {
 		}
 		filtered := make(map[string]*build.Zone, len(workZones))
 		for d, z := range workZones {
-			j, _ := json.Marshal(z)
+			j, _ := json.MarshalIndent(z, "", "\t")
 			if re.Match(j) {
 				filtered[d] = z
 			}
