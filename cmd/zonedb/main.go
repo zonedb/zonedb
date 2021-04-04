@@ -39,7 +39,8 @@ func main() {
 	checkPS := flag.Bool("ps", false, "check against Public Suffix List")
 
 	// Mutate operations
-	setInfoURL := flag.String("set-info-url", "", "set zone(s) info URL")
+	setInfoURL := flag.String("set-info-url", "", "set zone(s) info URLs")
+	updateInfoURL := flag.Bool("update-info-url", false, "update zone(s) info URLs")
 	addTags := flag.String("add-tags", "", "add tags to zones (comma-delimited)")
 	addLocations := flag.String("add-locations", "", "add locations to zones (comma-delimited)")
 	removeTags := flag.String("remove-tags", "", "remove tags from zones (comma-delimited)")
@@ -278,6 +279,10 @@ func main() {
 			z.InfoURL = *setInfoURL
 		}
 		color.Fprintf(os.Stderr, "@{.}Set info URL to: @{c}%s\n", *setInfoURL)
+	}
+
+	if *updateInfoURL {
+		build.UpdateInfoURLs(workZones)
 	}
 
 	if *verifyNS {
