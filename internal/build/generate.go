@@ -78,39 +78,27 @@ func cont(s string) string {
 	return strings.ReplaceAll(s, "\\\n", "")
 }
 
-func odd(i int) bool {
-	return (i & 0x1) != 0
-}
-
-func mod0(i, radix int) bool {
-	return (i % radix) == 0
-}
-
-var lastC rune
-
-func rewound(c rune) (out bool) {
-	if c < lastC {
-		out = true
-	}
-	lastC = c
-	return
-}
-
-func quotedASCII(s string) string {
+func quoted(s string) string {
 	if s == "" {
 		return "e" // const e = ""
 	}
-	return `"` + ToASCII(s) + `"`
+	return `"` + s + `"`
+}
+
+func quotedDomain(s string) string {
+	return quoted(ToASCII(s))
+}
+
+func quotedURL(s string) string {
+	return quoted(ToASCIIURL(s))
 }
 
 var (
 	funcMap = template.FuncMap{
-		"odd":     odd,
-		"mod0":    mod0,
-		"rewound": rewound,
-		"title":   strings.Title,
-		"ascii":   ToASCII,
-		"quoted":  quotedASCII,
+		"title":        strings.Title,
+		"quoted":       quoted,
+		"quotedDomain": quotedDomain,
+		"quotedURL":    quotedURL,
 	}
 )
 
@@ -206,16 +194,16 @@ var y = [{{len .Zones}}]Zone{
 	{{range $d := .Domains}} \
 		{{$z := (index $.Zones $d)}} \
 		{ \
-			{{quoted $d}}, \
+			{{quotedDomain $d}}, \
 			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
 			{{if $z.ParentDomain}} &z[{{$z.ParentOffset}}] {{else}} r {{end}}, \
 			{{if $z.SubdomainsEnd}} z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} x {{end}}, \
-			{{if $z.NameServers}} s{ {{range $z.NameServers}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
+			{{if $z.NameServers}} s{ {{range $z.NameServers}}{{quotedDomain .}},{{end}}} {{else}} n {{end}}, \
 			{{if $z.Wildcards}} s{ {{range $z.Wildcards}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
 			{{if $z.Locations}} s{ {{range $z.Locations}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
-			{{quoted $z.WhoisServer}}, \
-			{{quoted $z.WhoisURL}}, \
-			{{quoted $z.InfoURL}}, \
+			{{quotedDomain $z.WhoisServer}}, \
+			{{quotedURL $z.WhoisURL}}, \
+			{{quotedURL $z.InfoURL}}, \
 			{{printf "0x%x" $z.TagBits}}, \
 			{{if $z.IDNDisallowed}} f {{else}} t {{end}}, \
 		},
@@ -227,7 +215,7 @@ var ZoneMap = map[string]*Zone{
 	{{range $d := .Domains}}  \
 		{{$z := (index $.Zones $d)}} \
 		{{$o := index $.Offsets $d}} \
-		{{quoted $d}}: &z[{{$o}}], \
+		{{quotedDomain $d}}: &z[{{$o}}], \
 		{{if $z.IsIDN}}// {{$d}}{{end }}
 	{{end}} \
 }

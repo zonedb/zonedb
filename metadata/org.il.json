@@ -1,6 +1,6 @@
 {
 	"domain": "org.il",
-	"infoURL": "http://www.isoc.org.il/domains/",
+	"infoURL": "https://www.isoc.org.il/domain-name-registry",
 	"nameServers": [
 		"ilns.ilan.net.il",
 		"lookup.iucc.ac.il",

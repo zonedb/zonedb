@@ -1,6 +1,6 @@
 {
 	"domain": "co.no",
-	"infoURL": "http://www.norid.no/index.en.html",
+	"infoURL": "https://www.norid.no/index.en.html",
 	"nameServers": [
 		"ns1.centralnic.net",
 		"ns2.centralnic.net",

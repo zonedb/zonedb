@@ -1,6 +1,6 @@
 {
 	"domain": "com.my",
-	"infoURL": "http://about.museum/",
+	"infoURL": "https://mynic.my/",
 	"nameServers": [
 		"a.mynic.centralnic-dns.com",
 		"b.mynic.centralnic-dns.com",

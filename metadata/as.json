@@ -1,6 +1,6 @@
 {
 	"domain": "as",
-	"infoURL": "http://nic.as/",
+	"infoURL": "https://nic.as/",
 	"tags": [
 		"country",
 		"generic",
@@ -18,7 +18,7 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "http://nic.as/idn/chars.cfm"
+			"value": "https://nic.as/idn/chars.cfm"
 		}
 	]
 }

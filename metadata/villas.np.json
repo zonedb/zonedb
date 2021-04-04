@@ -1,6 +1,6 @@
 {
 	"domain": "villas.np",
-	"infoURL": "https://register.com.np",
+	"infoURL": "https://register.com.np/",
 	"policies": [
 		{
 			"type": "idn-disallowed"
