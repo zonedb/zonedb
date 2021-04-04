@@ -686,7 +686,7 @@ var y = [5192]Zone{
 	{"goodyear", r, x, s{"a0.nic.goodyear", "a2.nic.goodyear", "b0.nic.goodyear", "c0.nic.goodyear"}, n, n, "whois.nic.goodyear", e, "https://newgtlds.icann.org/", 0x42, f},
 	{"goog", r, x, s{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, n, n, "whois.nic.google", e, "https://www.registry.google/", 0x42, t},
 	{"google", r, x, s{"ns-tld1.charlestonroadregistry.com", "ns-tld2.charlestonroadregistry.com", "ns-tld3.charlestonroadregistry.com", "ns-tld4.charlestonroadregistry.com", "ns-tld5.charlestonroadregistry.com"}, n, n, "whois.nic.google", e, "https://www.registry.google/", 0x42, t},
-	{"gop", r, x, s{"dns1.nic.gop", "dns2.nic.gop", "dns3.nic.gop", "dns4.nic.gop", "dnsa.nic.gop", "dnsb.nic.gop", "dnsc.nic.gop", "dnsd.nic.gop"}, n, n, "whois.nic.gop", e, "http://nic.gop/", 0x40, f},
+	{"gop", r, x, s{"dns1.nic.gop", "dns2.nic.gop", "dns3.nic.gop", "dns4.nic.gop", "dnsa.nic.gop", "dnsb.nic.gop", "dnsc.nic.gop", "dnsd.nic.gop"}, n, n, "whois.nic.gop", e, "https://www.join.gop/", 0x40, f},
 	{"got", r, x, s{"dns1.nic.got", "dns2.nic.got", "dns3.nic.got", "dns4.nic.got", "dnsa.nic.got", "dnsb.nic.got", "dnsc.nic.got", "dnsd.nic.got"}, n, n, "whois.nic.got", e, "https://newgtlds.icann.org/", 0x42, t},
 	{"gotv", r, x, n, n, n, e, e, "https://newgtlds.icann.org/", 0x42, f},
 	{"gov", r, x, s{"a.gov-servers.net", "b.gov-servers.net", "c.gov-servers.net", "d.gov-servers.net"}, n, n, "whois.dotgov.gov", e, e, 0x1040, f},
