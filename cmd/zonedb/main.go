@@ -39,7 +39,7 @@ func main() {
 	checkPS := flag.Bool("ps", false, "check against Public Suffix List")
 
 	// Mutate operations
-	infoURL := flag.String("info-url", "", "set zone(s) info URL")
+	setInfoURL := flag.String("set-info-url", "", "set zone(s) info URL")
 	addTags := flag.String("add-tags", "", "add tags to zones (comma-delimited)")
 	addLocations := flag.String("add-locations", "", "add locations to zones (comma-delimited)")
 	removeTags := flag.String("remove-tags", "", "remove tags from zones (comma-delimited)")
@@ -273,11 +273,11 @@ func main() {
 		color.Fprintf(os.Stderr, "@{.}Zones: @{c}%s\n", strings.Join(zones.Values(), " "))
 	}
 
-	if *infoURL != "" {
+	if *setInfoURL != "" {
 		for _, z := range workZones {
-			z.InfoURL = *infoURL
+			z.InfoURL = *setInfoURL
 		}
-		color.Fprintf(os.Stderr, "@{.}Set info URL to: @{c}%s\n", *infoURL)
+		color.Fprintf(os.Stderr, "@{.}Set info URL to: @{c}%s\n", *setInfoURL)
 	}
 
 	if *verifyNS {
