@@ -124,8 +124,7 @@ func generate(fn, src string, data interface{}) error {
 	return err
 }
 
-const (
-	zonesGoSrc = `// Automatically generated
+const zonesGoSrc = `// Automatically generated
 
 package zonedb
 
@@ -135,6 +134,10 @@ func init() {
 
 func initZones() {
 	z = y
+	ZoneMap = make(map[string]*Zone, len(z))
+	for i := range z {
+		ZoneMap[z[i].Domain] = &z[i]
+	}
 }
 
 // Type s is an alias for []string to generate smaller source code
@@ -179,6 +182,9 @@ var TagValues  = map[string]Tags{
 	{{end }}
 }
 
+// ZoneMap maps domain names to Zones.
+var ZoneMap map[string]*Zone
+
 // Zones is a slice of all Zones in the database.
 var Zones = z[:]
 
@@ -201,6 +207,7 @@ var y = [{{len .Zones}}]Zone{
 			{{if $z.NameServers}} s{ {{range $z.NameServers}}{{quotedDomain .}},{{end}}} {{else}} n {{end}}, \
 			{{if $z.Wildcards}} s{ {{range $z.Wildcards}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
 			{{if $z.Locations}} s{ {{range $z.Locations}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
+			{{if $z.Languages}} s{ {{range $z.Languages}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
 			{{quotedDomain $z.WhoisServer}}, \
 			{{quotedURL $z.WhoisURL}}, \
 			{{quotedURL $z.InfoURL}}, \
@@ -209,15 +216,4 @@ var y = [{{len .Zones}}]Zone{
 		},
 	{{end}} \
 }
-
-// ZoneMap maps domain names to Zones.
-var ZoneMap = map[string]*Zone{
-	{{range $d := .Domains}}  \
-		{{$z := (index $.Zones $d)}} \
-		{{$o := index $.Offsets $d}} \
-		{{quotedDomain $d}}: &z[{{$o}}], \
-		{{if $z.IsIDN}}// {{$d}}{{end }}
-	{{end}} \
-}
 `
-)

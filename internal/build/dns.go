@@ -249,9 +249,9 @@ func CountNameServers(zones map[string]*Zone) {
 		}
 	})
 	// for ns := range all {
-	// 	color.Printf("@{.}%s ", ns)
+	// 	color.Fprintf(os.Stderr, "@{.}%s ", ns)
 	// }
-	// color.Printf("\n")
+	// ccolor.Fprintf(os.Stderr, "\n")
 	color.Fprintf(os.Stderr, "@{.}Counted %d unique name servers in %d of %d zone(s)\n", len(all), found, len(zones))
 }
 

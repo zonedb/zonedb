@@ -1,8 +1,12 @@
 {
 	"domain": "ਭਾਰਤ",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.registry.in/",
+	"languages": [
+		"pa-Guru-IN"
+	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	],
 	"whoisServer": "whois.registry.in",
 	"nameServers": [

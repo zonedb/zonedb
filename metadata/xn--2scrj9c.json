@@ -1,5 +1,13 @@
 {
 	"domain": "ಭಾರತ",
+	"infoURL": "https://www.registry.in/",
+	"languages": [
+		"kn-IN"
+	],
+	"tags": [
+		"country",
+		"geo"
+	],
 	"whoisServer": "whois.registry.in",
 	"nameServers": [
 		"ns1.registry.in",

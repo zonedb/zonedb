@@ -1,8 +1,12 @@
 {
 	"domain": "ભારત",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.registry.in/",
+	"languages": [
+		"gu-IN"
+	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	],
 	"whoisServer": "whois.registry.in",
 	"nameServers": [

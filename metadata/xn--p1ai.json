@@ -1,6 +1,13 @@
 {
 	"domain": "рф",
 	"infoURL": "https://cctld.ru/",
+	"languages": [
+		"ru-RU"
+	],
+	"tags": [
+		"country",
+		"geo"
+	],
 	"whoisServer": "whois.tcinet.ru",
 	"nameServers": [
 		"a.dns.ripn.net",

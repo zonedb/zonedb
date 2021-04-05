@@ -50,6 +50,10 @@ type Zone struct {
 	// Locations associated with the Zone
 	Locations []string
 
+	// BCP 47 language tags associated with this Zone
+	// https://tools.ietf.org/html/bcp47
+	languages []string
+
 	// Whois server responding on port 43
 	whoisServer string
 
@@ -64,6 +68,11 @@ type Zone struct {
 
 	// Transitional: does the zone operator allow registration of non-ASCII subdomains?
 	allowsIDN bool
+}
+
+// Languages returns a slice of BCP 47 language specifiers.
+func (z *Zone) Languages() []string {
+	return z.languages
 }
 
 // WhoisServer returns the whois server that responds on port 43

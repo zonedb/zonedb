@@ -1,5 +1,13 @@
 {
 	"domain": "ഭാരതം",
+	"infoURL": "https://www.registry.in/",
+	"languages": [
+		"ml-IN"
+	],
+	"tags": [
+		"country",
+		"geo"
+	],
 	"whoisServer": "whois.registry.in",
 	"nameServers": [
 		"ns1.registry.in",

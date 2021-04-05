@@ -1,5 +1,9 @@
 {
 	"domain": "中國",
+	"infoURL": "http://cnnic.cn/",
+	"languages": [
+		"zh-Hant-CN"
+	],
 	"tags": [
 		"geo"
 	],

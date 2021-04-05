@@ -1,6 +1,10 @@
 package build
 
-import "github.com/wsxiaoys/terminal/color"
+import (
+	"os"
+
+	"github.com/wsxiaoys/terminal/color"
+)
 
 func AddLocations(zones map[string]*Zone, locations []string) {
 	var added, modified int
@@ -15,7 +19,7 @@ func AddLocations(zones map[string]*Zone, locations []string) {
 			modified++
 		}
 	}
-	color.Printf("@{.}Added %d locations(s) to %d zone(s)\n", added, modified)
+	color.Fprintf(os.Stderr, "@{.}Added %d locations(s) to %d zone(s)\n", added, modified)
 }
 
 func RemoveLocations(zones map[string]*Zone, locations []string) {
@@ -33,5 +37,5 @@ func RemoveLocations(zones map[string]*Zone, locations []string) {
 			modified++
 		}
 	}
-	color.Printf("@{.}Removed %d locations(s) from %d zone(s)\n", removed, modified)
+	color.Fprintf(os.Stderr, "@{.}Removed %d locations(s) from %d zone(s)\n", removed, modified)
 }

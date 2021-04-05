@@ -1,5 +1,8 @@
 {
 	"domain": "台灣",
+	"languages": [
+		"zh-Hant-TW"
+	],
 	"whoisServer": "whois.twnic.net.tw",
 	"nameServers": [
 		"anytld.apnic.net",

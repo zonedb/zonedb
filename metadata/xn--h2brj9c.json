@@ -1,7 +1,12 @@
 {
 	"domain": "भारत",
+	"infoURL": "https://www.registry.in/",
+	"languages": [
+		"hi-IN"
+	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	],
 	"whoisServer": "whois.registry.in",
 	"nameServers": [
