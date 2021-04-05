@@ -27,7 +27,7 @@ func TestLanguages(t *testing.T) {
 		{"com", nil},
 		{"中国", []string{"zh-Hans-CN"}},
 		{"中國", []string{"zh-Hant-CN"}},
-		{"台灣", []string{"zh-Hant-TW"}},
+		{"台湾", []string{"zh-Hans-TW"}},
 		{"台灣", []string{"zh-Hant-TW"}},
 		{"香港", []string{"zh-Hans-HK"}},
 	}

@@ -50,7 +50,7 @@ type Zone struct {
 	// Locations associated with the Zone
 	Locations []string
 
-	// BCP 47 language tag associated with this Zone
+	// BCP 47 language tags associated with this Zone
 	// https://tools.ietf.org/html/bcp47
 	languages []string
 

@@ -39,7 +39,7 @@ func main() {
 	checkPS := flag.Bool("ps", false, "check against Public Suffix List")
 
 	// Mutate operations
-	addLanguages := flag.String("add-languages", "", "add BCP 48 language tags to zones (comma-delimited)")
+	addLanguages := flag.String("add-languages", "", "add BCP 47 language tags to zones (comma-delimited)")
 	guessLanguages := flag.Bool("guess-languages", false, "guess BCP 47 languages for zones")
 	setInfoURL := flag.String("set-info-url", "", "set zone(s) info URLs")
 	updateInfoURL := flag.Bool("update-info-url", false, "update zone(s) info URLs")
