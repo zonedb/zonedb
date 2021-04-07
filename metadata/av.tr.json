@@ -1,8 +1,6 @@
 {
 	"domain": "av.tr",
 	"nameServers": [
-		"lns21.nic.tr",
-		"lns22.nic.tr",
 		"lns31.nic.tr",
 		"lns34.nic.tr",
 		"lns35.nic.tr",
