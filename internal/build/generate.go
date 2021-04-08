@@ -114,9 +114,7 @@ func (data *templateData) indexedStringSlice(slice []string) string {
 }
 
 func (data *templateData) domainString(s string) string {
-	s = ToASCII(s)
-	i, _ := IndexOrAppendStrings(&data.Strings, []string{s})
-	return fmt.Sprintf("s[%d]", i)
+	return data.indexedString(ToASCII(s))
 }
 
 func (data *templateData) domainStringSlice(slice []string) string {
@@ -124,14 +122,11 @@ func (data *templateData) domainStringSlice(slice []string) string {
 	for i := range slice {
 		needle[i] = ToASCII(slice[i])
 	}
-	i, j := IndexOrAppendStrings(&data.Strings, needle)
-	return fmt.Sprintf("s[%d:%d]", i, j)
+	return data.indexedStringSlice(needle)
 }
 
 func (data *templateData) urlString(s string) string {
-	s = ToASCIIURL(s)
-	i, _ := IndexOrAppendStrings(&data.Strings, []string{s})
-	return fmt.Sprintf("s[%d]", i)
+	return data.indexedString(ToASCIIURL(s))
 }
 
 func (data *templateData) urlStringSlice(slice []string) string {
@@ -139,8 +134,7 @@ func (data *templateData) urlStringSlice(slice []string) string {
 	for i := range slice {
 		needle[i] = ToASCIIURL(slice[i])
 	}
-	i, j := IndexOrAppendStrings(&data.Strings, needle)
-	return fmt.Sprintf("s[%d:%d]", i, j)
+	return data.indexedStringSlice(needle)
 }
 
 func quoted(s string) string {
