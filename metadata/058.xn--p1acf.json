@@ -2,9 +2,5 @@
 	"domain": "058.рус",
 	"tags": [
 		"private"
-	],
-	"nameServers": [
-		"ns1.rlnic.ru",
-		"ns2.rlnic.ru"
 	]
 }
