@@ -276,7 +276,7 @@ var y = [5192]Zone{
 	{"bloomberg", r, x, 0x42, "https://newgtlds.icann.org/", w{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, n, e, e, f},
 	{"bloomingdales", r, x, 0x2042, "https://newgtlds.icann.org/", n, n, n, n, e, e, f},
 	{"blue", r, x, 0x40, "https://dotblue.blue/", w{"a0.nic.blue", "a2.nic.blue", "b0.nic.blue", "b2.nic.blue", "c0.nic.blue"}, n, n, n, "whois.afilias.net", e, t},
-	{"bm", r, z[2001:2006], 0xa0, e, w{"a0.bm.afilias-nst.info", "a2.bm.afilias-nst.info", "b0.bm.afilias-nst.org", "b2.bm.afilias-nst.org", "c0.bm.afilias-nst.info", "d0.bm.afilias-nst.org"}, n, n, n, e, "https://www.bermudanic.bm/", f},
+	{"bm", r, z[2001:2006], 0xa0, "https://www.bermudanic.bm/", w{"a0.bm.afilias-nst.info", "a2.bm.afilias-nst.info", "b0.bm.afilias-nst.org", "b2.bm.afilias-nst.org", "c0.bm.afilias-nst.info", "d0.bm.afilias-nst.org"}, n, n, n, e, "https://www.bermudanic.bm/whois.htm", f},
 	{"bms", r, x, 0x42, "https://newgtlds.icann.org/", w{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, n, "whois.nic.bms", e, f},
 	{"bmw", r, x, 0x42, "https://newgtlds.icann.org/", w{"a.nic.bmw", "b.nic.bmw", "c.nic.bmw", "d.nic.bmw"}, n, n, n, "whois.nic.bmw", e, f},
 	{"bn", r, z[2006:2011], 0xa0, "http://www.brunet.bn/products_webrelated_domain_main.htm", w{"bn-ns.anycast.pch.net", "ns1.bnnic.bn", "ns2.bnnic.bn", "ns4.apnic.net"}, n, n, n, "whois.bnnic.bn", e, f},

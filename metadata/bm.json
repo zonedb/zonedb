@@ -1,10 +1,11 @@
 {
 	"domain": "bm",
+	"infoURL": "https://www.bermudanic.bm/",
 	"tags": [
 		"country",
 		"geo"
 	],
-	"whoisURL": "https://www.bermudanic.bm/",
+	"whoisURL": "https://www.bermudanic.bm/whois.htm",
 	"nameServers": [
 		"a0.bm.afilias-nst.info",
 		"a2.bm.afilias-nst.info",
