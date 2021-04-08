@@ -104,11 +104,17 @@ type templateData struct {
 }
 
 func (data *templateData) indexedString(s string) string {
+	if s == "" {
+		return "e"
+	}
 	i, _ := IndexOrAppendStrings(&data.Strings, []string{s})
 	return fmt.Sprintf("s[%d]", i)
 }
 
 func (data *templateData) indexedStringSlice(slice []string) string {
+	if len(slice) == 0 {
+		return "n"
+	}
 	i, j := IndexOrAppendStrings(&data.Strings, slice)
 	return fmt.Sprintf("s[%d:%d]", i, j)
 }
