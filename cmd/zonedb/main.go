@@ -43,6 +43,7 @@ func main() {
 	guessLanguages := flag.Bool("guess-languages", false, "guess BCP 47 languages for zones")
 	setInfoURL := flag.String("set-info-url", "", "set zone(s) info URLs")
 	updateInfoURL := flag.Bool("update-info-url", false, "update zone(s) info URLs")
+	addRDAPURLs := flag.String("add-rdap-urls", "", "add RDAP URLs to zones (comma-delimited)")
 	addTags := flag.String("add-tags", "", "add tags to zones (comma-delimited)")
 	addLocations := flag.String("add-locations", "", "add locations to zones (comma-delimited)")
 	removeTags := flag.String("remove-tags", "", "remove tags from zones (comma-delimited)")
@@ -54,7 +55,7 @@ func main() {
 	updateWhois := flag.Bool("update-whois", false, "query whois-servers.net for whois servers")
 	updateIANA := flag.Bool("update-iana", false, "query IANA for metadata")
 	updateIDN := flag.Bool("update-idn", false, "query IANA for IDN tables")
-	updateRDAP := flag.Bool("update-rdap", false, "query IANA for RDAP hosts")
+	updateRDAP := flag.Bool("update-rdap", false, "query IANA for RDAP URLs")
 	updateAll := flag.Bool("update", false, "update all (root zone, whois, IANA data, IDN tables)")
 
 	// Write operations
@@ -237,6 +238,11 @@ func main() {
 			errs = append(errs, err)
 			build.LogError(err)
 		}
+	}
+
+	if *addRDAPURLs != "" {
+		urls := strings.Split(*addRDAPURLs, ",")
+		build.AddRDAPURLs(workZones, urls)
 	}
 
 	if *removeTags != "" {

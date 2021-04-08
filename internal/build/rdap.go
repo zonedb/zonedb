@@ -49,7 +49,7 @@ func FetchRDAPFromIANA(zones map[string]*Zone) error {
 		for _, domain := range domains {
 			z, ok := zones[domain]
 			if !ok {
-				color.Fprintf(os.Stderr, "@{y}domain %s not found in zones map", domain)
+				color.Fprintf(os.Stderr, "@{y}domain %s not found in zones map\n", domain)
 				continue
 			}
 
@@ -70,4 +70,29 @@ func FetchRDAPFromIANA(zones map[string]*Zone) error {
 	}
 
 	return nil
+}
+
+func AddRDAPURLs(zones map[string]*Zone, urls []string) {
+	var added, modified int
+
+	for _, z := range zones {
+		oldAdded := added
+	URLloop:
+		for _, rdapURL := range urls {
+			normURL := NormalizeURL(rdapURL)
+			for _, zru := range z.RDAPURLs {
+				if zru == normURL {
+					// If the URL already exists on the zone then skip
+					continue URLloop
+				}
+			}
+			z.RDAPURLs = append(z.RDAPURLs, normURL)
+			added++
+		}
+		if oldAdded < added {
+			modified++
+		}
+	}
+
+	color.Fprintf(os.Stderr, "@{.}Added %d RDAP URL(s) to %d zone(s)\n", added, modified)
 }
