@@ -1,10 +1,6 @@
 {
 	"domain": "uk",
 	"infoURL": "https://www.nominet.uk/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.uk",
 	"nameServers": [
 		"dns1.nic.uk",
@@ -15,6 +11,10 @@
 		"nsb.nic.uk",
 		"nsc.nic.uk",
 		"nsd.nic.uk"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

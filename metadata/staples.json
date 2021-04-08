@@ -1,10 +1,6 @@
 {
 	"domain": "staples",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.staples",
 	"nameServers": [
 		"ns1.dns.nic.staples",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.staples",
 		"ns5.dns.nic.staples",
 		"ns6.dns.nic.staples"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

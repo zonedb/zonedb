@@ -1,15 +1,15 @@
 {
 	"domain": "basketball",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.basketball",
 	"nameServers": [
 		"a.nic.basketball",
 		"b.nic.basketball",
 		"c.nic.basketball",
 		"d.nic.basketball"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

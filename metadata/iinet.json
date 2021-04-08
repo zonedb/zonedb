@@ -1,12 +1,12 @@
 {
 	"domain": "iinet",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.aridnrs.net.au",
 	"tags": [
 		"brand",
 		"generic",
 		"withdrawn"
 	],
-	"whoisServer": "whois.aridnrs.net.au",
 	"policies": [
 		{
 			"type": "idn-disallowed"

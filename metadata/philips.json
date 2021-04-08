@@ -1,16 +1,16 @@
 {
 	"domain": "philips",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.philips",
 	"nameServers": [
 		"a.nic.philips",
 		"b.nic.philips",
 		"c.nic.philips",
 		"d.nic.philips"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

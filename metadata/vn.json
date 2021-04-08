@@ -1,9 +1,5 @@
 {
 	"domain": "vn",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.vnnic.vn/en/domain",
 	"nameServers": [
 		"a.dns-servers.vn",
@@ -13,5 +9,9 @@
 		"e.dns-servers.vn",
 		"f.dns-servers.vn",
 		"g.dns-servers.vn"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

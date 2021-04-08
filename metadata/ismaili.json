@@ -1,16 +1,16 @@
 {
 	"domain": "ismaili",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.ismaili",
 		"a2.nic.ismaili",
 		"b0.nic.ismaili",
 		"c0.nic.ismaili"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

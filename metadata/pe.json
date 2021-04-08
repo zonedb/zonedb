@@ -1,15 +1,15 @@
 {
 	"domain": "pe",
 	"infoURL": "https://punto.pe/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "kero.yachay.pe",
 	"nameServers": [
 		"a.lactld.org",
 		"pch.rcp.pe",
 		"pe1.dnsnode.net",
 		"quipu.rcp.net.pe"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

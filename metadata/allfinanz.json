@@ -1,16 +1,16 @@
 {
 	"domain": "allfinanz",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.allfinanz",
 	"nameServers": [
 		"a.nic.allfinanz",
 		"b.nic.allfinanz",
 		"c.nic.allfinanz",
 		"d.nic.allfinanz"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

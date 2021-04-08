@@ -1,14 +1,14 @@
 {
 	"domain": "global",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.global",
 	"nameServers": [
 		"a0.nic.global",
 		"a2.nic.global",
 		"b0.nic.global",
 		"c0.nic.global"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

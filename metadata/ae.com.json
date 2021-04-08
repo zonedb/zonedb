@@ -1,8 +1,5 @@
 {
 	"domain": "ae.com",
-	"tags": [
-		"private"
-	],
 	"nameServers": [
 		"asia3.akam.net",
 		"eur2.akam.net",
@@ -12,5 +9,8 @@
 		"usc3.akam.net",
 		"use4.akam.net",
 		"usw1.akam.net"
+	],
+	"tags": [
+		"private"
 	]
 }

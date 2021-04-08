@@ -1,20 +1,20 @@
 {
 	"domain": "vegas",
 	"infoURL": "http://nic.vegas/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Las Vegas"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.vegas",
 		"a2.nic.vegas",
 		"b0.nic.vegas",
 		"c0.nic.vegas"
+	],
+	"locations": [
+		"Las Vegas"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "rogers",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.rogers",
 		"a2.nic.rogers",
 		"b0.nic.rogers",
 		"c0.nic.rogers"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

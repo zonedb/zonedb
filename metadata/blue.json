@@ -1,9 +1,6 @@
 {
 	"domain": "blue",
 	"infoURL": "https://dotblue.blue/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.afilias.net",
 	"nameServers": [
 		"a0.nic.blue",
@@ -11,6 +8,9 @@
 		"b0.nic.blue",
 		"b2.nic.blue",
 		"c0.nic.blue"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

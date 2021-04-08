@@ -1,13 +1,6 @@
 {
 	"domain": "tatar",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic",
-		"region"
-	],
-	"locations": [
-		"RU-TA"
-	],
 	"whoisServer": "whois.nic.tatar",
 	"nameServers": [
 		"a.dns.ripn.net",
@@ -15,6 +8,13 @@
 		"d.dns.ripn.net",
 		"e.dns.ripn.net",
 		"f.dns.ripn.net"
+	],
+	"locations": [
+		"RU-TA"
+	],
+	"tags": [
+		"generic",
+		"region"
 	],
 	"policies": [
 		{

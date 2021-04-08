@@ -1,15 +1,15 @@
 {
 	"domain": "college",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.college",
 	"nameServers": [
 		"a.nic.college",
 		"b.nic.college",
 		"c.nic.college",
 		"d.nic.college"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

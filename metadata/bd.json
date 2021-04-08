@@ -1,16 +1,16 @@
 {
 	"domain": "bd",
 	"infoURL": "http://www.bttb.net.bd/",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://whois.btcl.net.bd/",
 	"nameServers": [
 		"bd-ns.anycast.pch.net",
 		"dns.bd",
 		"jamuna.btcl.net.bd",
 		"surma.btcl.net.bd"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	]
 }

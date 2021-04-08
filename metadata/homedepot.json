@@ -1,16 +1,16 @@
 {
 	"domain": "homedepot",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.homedepot",
 	"nameServers": [
 		"a0.nic.homedepot",
 		"a2.nic.homedepot",
 		"b0.nic.homedepot",
 		"c0.nic.homedepot"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

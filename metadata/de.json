@@ -1,10 +1,6 @@
 {
 	"domain": "de",
 	"infoURL": "https://www.denic.de/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.denic.de",
 	"nameServers": [
 		"a.nic.de",
@@ -13,6 +9,10 @@
 		"n.de.net",
 		"s.de.net",
 		"z.nic.de"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

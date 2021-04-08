@@ -1,16 +1,16 @@
 {
 	"domain": "sbi",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.sbi",
 	"nameServers": [
 		"a0.nic.sbi",
 		"a2.nic.sbi",
 		"b0.nic.sbi",
 		"c0.nic.sbi"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

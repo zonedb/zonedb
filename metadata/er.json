@@ -1,14 +1,14 @@
 {
 	"domain": "er",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"er.cctld.authdns.ripe.net",
 		"sawanew.noc.net.er",
 		"zaranew.noc.net.er"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

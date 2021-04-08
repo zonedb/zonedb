@@ -1,9 +1,6 @@
 {
 	"domain": "horse",
 	"infoURL": "http://nic.horse/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.horse",
 	"nameServers": [
 		"dns1.nic.horse",
@@ -14,6 +11,9 @@
 		"dnsb.nic.horse",
 		"dnsc.nic.horse",
 		"dnsd.nic.horse"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

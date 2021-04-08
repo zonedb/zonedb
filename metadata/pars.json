@@ -1,18 +1,18 @@
 {
 	"domain": "pars",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
-	"locations": [
-		"Iran"
-	],
 	"whoisServer": "whois.nic.pars",
 	"nameServers": [
 		"a.ns.nic.pars",
 		"b.ns.nic.pars",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
+	],
+	"locations": [
+		"Iran"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

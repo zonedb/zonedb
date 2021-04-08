@@ -1,9 +1,5 @@
 {
 	"domain": "gg",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.gg",
 	"nameServers": [
 		"c.ci-servers.org",
@@ -12,6 +8,10 @@
 		"dns3.nominetdns.uk",
 		"dns4.nominetdns.uk",
 		"e.ci-servers.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

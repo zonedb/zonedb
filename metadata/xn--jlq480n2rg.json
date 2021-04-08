@@ -1,10 +1,6 @@
 {
 	"domain": "亚马逊",
 	"infoURL": "http://nic.亚马逊/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.亚马逊",
 	"nameServers": [
 		"dns1.nic.亚马逊",
@@ -15,6 +11,10 @@
 		"dnsb.nic.亚马逊",
 		"dnsc.nic.亚马逊",
 		"dnsd.nic.亚马逊"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

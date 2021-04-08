@@ -1,8 +1,5 @@
 {
 	"domain": "台湾",
-	"languages": [
-		"zh-Hans-TW"
-	],
 	"whoisServer": "whois.twnic.net.tw",
 	"nameServers": [
 		"anytld.apnic.net",
@@ -11,5 +8,8 @@
 		"f.dns.tw",
 		"g.dns.tw",
 		"h.dns.tw"
+	],
+	"languages": [
+		"zh-Hans-TW"
 	]
 }

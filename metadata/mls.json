@@ -1,13 +1,13 @@
 {
 	"domain": "mls",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.mls",
 	"nameServers": [
 		"a.ns.nic.mls",
 		"b.ns.nic.mls"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

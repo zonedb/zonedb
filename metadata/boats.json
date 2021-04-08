@@ -1,15 +1,15 @@
 {
 	"domain": "boats",
 	"infoURL": "https://nic.boats/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.boats",
 	"nameServers": [
 		"a.nic.boats",
 		"b.nic.boats",
 		"c.nic.boats",
 		"d.nic.boats"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "dell",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.dell",
 	"nameServers": [
 		"ns1.dns.nic.dell",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.dell",
 		"ns5.dns.nic.dell",
 		"ns6.dns.nic.dell"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

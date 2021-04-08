@@ -1,19 +1,19 @@
 {
 	"domain": "nrw",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic",
-		"region"
-	],
-	"locations": [
-		"DE-NW"
-	],
 	"whoisServer": "whois.nic.nrw",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
+	],
+	"locations": [
+		"DE-NW"
+	],
+	"tags": [
+		"generic",
+		"region"
 	],
 	"policies": [
 		{

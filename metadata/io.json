@@ -1,17 +1,17 @@
 {
 	"domain": "io",
 	"infoURL": "https://www.nic.io/",
-	"tags": [
-		"country",
-		"generic",
-		"geo"
-	],
 	"whoisServer": "whois.nic.io",
 	"nameServers": [
 		"a0.nic.io",
 		"a2.nic.io",
 		"b0.nic.io",
 		"c0.nic.io"
+	],
+	"tags": [
+		"country",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

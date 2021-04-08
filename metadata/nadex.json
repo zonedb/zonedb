@@ -1,11 +1,11 @@
 {
 	"domain": "nadex",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.nadex",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.nadex",
 	"policies": [
 		{
 			"type": "idn-disallowed"

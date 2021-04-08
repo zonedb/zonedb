@@ -1,10 +1,6 @@
 {
 	"domain": "bom",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.gtlds.nic.br",
 	"nameServers": [
 		"a.dns.br",
@@ -13,6 +9,10 @@
 		"d.dns.br",
 		"e.dns.br",
 		"f.dns.br"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

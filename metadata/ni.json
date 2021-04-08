@@ -1,11 +1,6 @@
 {
 	"domain": "ni",
 	"infoURL": "https://www.nic.ni/",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.nic.ni/",
 	"nameServers": [
 		"dns-ext.nic.cr",
@@ -14,6 +9,11 @@
 		"ns.uu.net",
 		"ns2.ni",
 		"ns3.ni"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

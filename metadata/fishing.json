@@ -1,9 +1,6 @@
 {
 	"domain": "fishing",
 	"infoURL": "http://nic.fishing/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.fishing",
 	"nameServers": [
 		"dns1.nic.fishing",
@@ -14,6 +11,9 @@
 		"dnsb.nic.fishing",
 		"dnsc.nic.fishing",
 		"dnsd.nic.fishing"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

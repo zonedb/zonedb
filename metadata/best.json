@@ -1,15 +1,15 @@
 {
 	"domain": "best",
 	"infoURL": "https://nic.best/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.best",
 	"nameServers": [
 		"a.nic.best",
 		"b.nic.best",
 		"c.nic.best",
 		"d.nic.best"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

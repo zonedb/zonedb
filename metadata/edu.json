@@ -1,9 +1,5 @@
 {
 	"domain": "edu",
-	"tags": [
-		"generic",
-		"sponsored"
-	],
 	"whoisServer": "whois.educause.net",
 	"nameServers": [
 		"a.edu-servers.net",
@@ -19,6 +15,10 @@
 		"k.edu-servers.net",
 		"l.edu-servers.net",
 		"m.edu-servers.net"
+	],
+	"tags": [
+		"generic",
+		"sponsored"
 	],
 	"policies": [
 		{

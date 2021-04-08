@@ -1,10 +1,6 @@
 {
 	"domain": "praxi",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.praxi",
 	"nameServers": [
 		"ns1.dns.nic.praxi",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.praxi",
 		"ns5.dns.nic.praxi",
 		"ns6.dns.nic.praxi"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

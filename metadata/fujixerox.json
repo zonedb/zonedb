@@ -1,11 +1,11 @@
 {
 	"domain": "fujixerox",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.fujixerox",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.fujixerox",
 	"policies": [
 		{
 			"type": "idn-table",

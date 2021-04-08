@@ -1,10 +1,6 @@
 {
 	"domain": "read",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.read",
 	"nameServers": [
 		"dns1.nic.read",
@@ -15,6 +11,10 @@
 		"dnsb.nic.read",
 		"dnsc.nic.read",
 		"dnsd.nic.read"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

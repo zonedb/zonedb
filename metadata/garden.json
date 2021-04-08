@@ -1,9 +1,6 @@
 {
 	"domain": "garden",
 	"infoURL": "http://nic.garden/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.garden",
 	"nameServers": [
 		"dns1.nic.garden",
@@ -14,6 +11,9 @@
 		"dnsb.nic.garden",
 		"dnsc.nic.garden",
 		"dnsd.nic.garden"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

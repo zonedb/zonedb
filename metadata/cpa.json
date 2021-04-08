@@ -1,15 +1,15 @@
 {
 	"domain": "cpa",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.cpa",
 	"nameServers": [
 		"a.nic.cpa",
 		"b.nic.cpa",
 		"c.nic.cpa",
 		"d.nic.cpa"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

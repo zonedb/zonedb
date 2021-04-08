@@ -1,9 +1,5 @@
 {
 	"domain": "cu",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.nic.cu/",
 	"nameServers": [
 		"cu.cctld.authdns.ripe.net",
@@ -12,6 +8,10 @@
 		"ns2.ceniai.net.cu",
 		"ns2.gip.net",
 		"rip.psg.com"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,15 +1,15 @@
 {
 	"domain": "sucks",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.sucks",
 	"nameServers": [
 		"a.nic.sucks",
 		"b.nic.sucks",
 		"c.nic.sucks",
 		"d.nic.sucks"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

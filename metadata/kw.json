@@ -1,9 +1,5 @@
 {
 	"domain": "kw",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.kw/",
 	"nameServers": [
 		"a.nic.kw",
@@ -12,6 +8,10 @@
 		"d.nic.kw",
 		"e.nic.kw",
 		"pch.nic.kw"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,9 +1,6 @@
 {
 	"domain": "hot",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.hot",
 	"nameServers": [
 		"dns1.nic.hot",
@@ -14,6 +11,9 @@
 		"dnsb.nic.hot",
 		"dnsc.nic.hot",
 		"dnsd.nic.hot"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

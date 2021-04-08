@@ -1,17 +1,17 @@
 {
 	"domain": "scot",
-	"tags": [
-		"generic",
-		"region"
-	],
-	"locations": [
-		"GB-SCT"
-	],
 	"whoisServer": "whois.nic.scot",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
+	],
+	"locations": [
+		"GB-SCT"
+	],
+	"tags": [
+		"generic",
+		"region"
 	]
 }

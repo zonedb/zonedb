@@ -1,15 +1,15 @@
 {
 	"domain": "bv",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.norid.no",
 	"nameServers": [
 		"nac.no",
 		"nn.uninett.no",
 		"server.nordu.net"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

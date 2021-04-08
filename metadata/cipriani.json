@@ -1,16 +1,16 @@
 {
 	"domain": "cipriani",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.cipriani",
 		"a2.nic.cipriani",
 		"b0.nic.cipriani",
 		"c0.nic.cipriani"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

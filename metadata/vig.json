@@ -1,16 +1,16 @@
 {
 	"domain": "vig",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.vig",
 		"a2.nic.vig",
 		"b0.nic.vig",
 		"c0.nic.vig"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

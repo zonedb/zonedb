@@ -1,11 +1,11 @@
 {
 	"domain": "boots",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.boots",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.boots",
 	"policies": [
 		{
 			"type": "idn-disallowed"

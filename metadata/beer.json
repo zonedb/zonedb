@@ -1,9 +1,6 @@
 {
 	"domain": "beer",
 	"infoURL": "http://nic.beer/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.beer",
 	"nameServers": [
 		"dns1.nic.beer",
@@ -14,6 +11,9 @@
 		"dnsb.nic.beer",
 		"dnsc.nic.beer",
 		"dnsd.nic.beer"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

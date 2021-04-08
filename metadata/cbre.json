@@ -1,10 +1,6 @@
 {
 	"domain": "cbre",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.cbre",
 	"nameServers": [
 		"ns1.dns.nic.cbre",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.cbre",
 		"ns5.dns.nic.cbre",
 		"ns6.dns.nic.cbre"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

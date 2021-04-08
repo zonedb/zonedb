@@ -1,10 +1,6 @@
 {
 	"domain": "netflix",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.netflix",
 	"nameServers": [
 		"ns1.dns.nic.netflix",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.netflix",
 		"ns5.dns.nic.netflix",
 		"ns6.dns.nic.netflix"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

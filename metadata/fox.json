@@ -1,10 +1,6 @@
 {
 	"domain": "fox",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.fox",
 	"nameServers": [
 		"ns1.dns.nic.fox",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.fox",
 		"ns5.dns.nic.fox",
 		"ns6.dns.nic.fox"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

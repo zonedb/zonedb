@@ -1,15 +1,15 @@
 {
 	"domain": "vote",
 	"infoURL": "https://get.vote/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.afilias.net",
 	"nameServers": [
 		"a0.nic.vote",
 		"a2.nic.vote",
 		"b0.nic.vote",
 		"c0.nic.vote"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

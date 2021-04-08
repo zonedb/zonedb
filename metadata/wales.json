@@ -1,14 +1,6 @@
 {
 	"domain": "wales",
 	"infoURL": "https://ourhomeonline.wales/",
-	"tags": [
-		"generic",
-		"geo",
-		"region"
-	],
-	"locations": [
-		"GB-WLS"
-	],
 	"whoisServer": "whois.nic.wales",
 	"nameServers": [
 		"dns1.nic.wales",
@@ -19,6 +11,14 @@
 		"dnsb.nic.wales",
 		"dnsc.nic.wales",
 		"dnsd.nic.wales"
+	],
+	"locations": [
+		"GB-WLS"
+	],
+	"tags": [
+		"generic",
+		"geo",
+		"region"
 	],
 	"policies": [
 		{

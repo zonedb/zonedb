@@ -1,19 +1,19 @@
 {
 	"domain": "quebec",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Quebec",
-		"CA-QC"
-	],
 	"whoisServer": "whois.nic.quebec",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
+	],
+	"locations": [
+		"Quebec",
+		"CA-QC"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	]
 }

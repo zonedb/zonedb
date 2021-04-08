@@ -1,16 +1,16 @@
 {
 	"domain": "nokia",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.nokia",
 		"a2.nic.nokia",
 		"b0.nic.nokia",
 		"c0.nic.nokia"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

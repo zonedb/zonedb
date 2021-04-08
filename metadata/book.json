@@ -1,9 +1,6 @@
 {
 	"domain": "book",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.book",
 	"nameServers": [
 		"dns1.nic.book",
@@ -14,6 +11,9 @@
 		"dnsb.nic.book",
 		"dnsc.nic.book",
 		"dnsd.nic.book"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

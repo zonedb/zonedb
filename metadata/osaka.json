@@ -1,15 +1,6 @@
 {
 	"domain": "osaka",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Osaka",
-		"JP-27"
-	],
 	"whoisServer": "whois.nic.osaka",
 	"nameServers": [
 		"ns1.dns.nic.osaka",
@@ -18,6 +9,15 @@
 		"ns4.dns.nic.osaka",
 		"ns5.dns.nic.osaka",
 		"ns6.dns.nic.osaka"
+	],
+	"locations": [
+		"Osaka",
+		"JP-27"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,14 +1,14 @@
 {
 	"domain": "كاثوليك",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.كاثوليك",
 	"nameServers": [
 		"a.nic.كاثوليك",
 		"b.nic.كاثوليك",
 		"c.nic.كاثوليك",
 		"d.nic.كاثوليك"
+	],
+	"tags": [
+		"generic"
 	]
 }

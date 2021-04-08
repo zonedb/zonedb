@@ -1,21 +1,21 @@
 {
 	"domain": "ist",
 	"infoURL": "http://nic.ist/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Istanbul",
-		"TR-34"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.ist",
 		"a2.nic.ist",
 		"b0.nic.ist",
 		"c0.nic.ist"
+	],
+	"locations": [
+		"Istanbul",
+		"TR-34"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

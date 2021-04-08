@@ -1,10 +1,6 @@
 {
 	"domain": "skype",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.skype",
 	"nameServers": [
 		"ns1.dns.nic.skype",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.skype",
 		"ns5.dns.nic.skype",
 		"ns6.dns.nic.skype"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

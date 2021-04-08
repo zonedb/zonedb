@@ -1,16 +1,16 @@
 {
 	"domain": "al",
 	"infoURL": "http://www.ert.gov.al/ert_eng/domain.html",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.akep.al/sq/kerkoni-domain",
 	"nameServers": [
 		"munnari.oz.au",
 		"ns1.nic.al",
 		"nsx.nic.al",
 		"rip.psg.com"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

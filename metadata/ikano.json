@@ -1,15 +1,15 @@
 {
 	"domain": "ikano",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.ikano",
 	"nameServers": [
 		"a.dns.nic.ikano",
 		"m.dns.nic.ikano",
 		"n.dns.nic.ikano"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

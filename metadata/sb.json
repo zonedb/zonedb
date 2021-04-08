@@ -1,14 +1,14 @@
 {
 	"domain": "sb",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.net.sb",
 	"nameServers": [
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz",
 		"pch.nic.sb"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

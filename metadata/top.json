@@ -1,9 +1,6 @@
 {
 	"domain": "top",
 	"infoURL": "http://www.nic.top/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.top",
 	"nameServers": [
 		"a.zdnscloud.com",
@@ -14,6 +11,9 @@
 		"g.zdnscloud.com",
 		"i.zdnscloud.com",
 		"j.zdnscloud.com"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

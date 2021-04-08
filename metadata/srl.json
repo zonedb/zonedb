@@ -1,15 +1,15 @@
 {
 	"domain": "srl",
 	"infoURL": "https://www.internetx.info/en/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.srl",
 		"a2.nic.srl",
 		"b0.nic.srl",
 		"c0.nic.srl"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

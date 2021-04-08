@@ -1,9 +1,5 @@
 {
 	"domain": "mo",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.monic.mo",
 	"nameServers": [
 		"a.monic.mo",
@@ -13,6 +9,10 @@
 		"e.monic.mo",
 		"ns17.cdns.net",
 		"ns2.cuhk.edu.hk"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

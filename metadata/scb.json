@@ -1,16 +1,16 @@
 {
 	"domain": "scb",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.scb",
 	"nameServers": [
 		"a.nic.scb",
 		"b.nic.scb",
 		"c.nic.scb",
 		"d.nic.scb"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

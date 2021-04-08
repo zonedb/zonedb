@@ -1,19 +1,19 @@
 {
 	"domain": "saarland",
-	"tags": [
-		"generic",
-		"geo",
-		"region"
-	],
-	"locations": [
-		"DE-SL"
-	],
 	"whoisServer": "whois.nic.saarland",
 	"nameServers": [
 		"a.nic.saarland",
 		"b.nic.saarland",
 		"c.nic.saarland",
 		"d.nic.saarland"
+	],
+	"locations": [
+		"DE-SL"
+	],
+	"tags": [
+		"generic",
+		"geo",
+		"region"
 	],
 	"policies": [
 		{

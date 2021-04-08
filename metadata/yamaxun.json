@@ -1,10 +1,6 @@
 {
 	"domain": "yamaxun",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.yamaxun",
 	"nameServers": [
 		"dns1.nic.yamaxun",
@@ -15,6 +11,10 @@
 		"dnsb.nic.yamaxun",
 		"dnsc.nic.yamaxun",
 		"dnsd.nic.yamaxun"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

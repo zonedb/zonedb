@@ -1,10 +1,6 @@
 {
 	"domain": "frontier",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.frontier",
 	"nameServers": [
 		"ns1.dns.nic.frontier",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.frontier",
 		"ns5.dns.nic.frontier",
 		"ns6.dns.nic.frontier"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

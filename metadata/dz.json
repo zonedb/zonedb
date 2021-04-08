@@ -1,9 +1,5 @@
 {
 	"domain": "dz",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.dz",
 	"nameServers": [
 		"ns-dz.afrinic.net",
@@ -12,6 +8,10 @@
 		"ns3.nic.fr",
 		"ns4.nic.dz",
 		"ns5.nic.dz"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

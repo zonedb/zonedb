@@ -1,8 +1,5 @@
 {
 	"domain": "sex.pl",
-	"tags": [
-		"adult"
-	],
 	"nameServers": [
 		"a-dns.pl",
 		"b-dns.pl",
@@ -13,6 +10,9 @@
 		"g-dns.pl",
 		"h-dns.pl",
 		"i-dns.pl"
+	],
+	"tags": [
+		"adult"
 	],
 	"policies": [
 		{

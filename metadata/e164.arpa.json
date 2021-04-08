@@ -1,8 +1,5 @@
 {
 	"domain": "e164.arpa",
-	"tags": [
-		"closed"
-	],
 	"whoisServer": "whois.ripe.net",
 	"nameServers": [
 		"ns3.afrinic.net",
@@ -10,6 +7,9 @@
 		"ns4.apnic.net",
 		"pri.authdns.ripe.net",
 		"rirns.arin.net"
+	],
+	"tags": [
+		"closed"
 	],
 	"policies": [
 		{

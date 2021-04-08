@@ -1,11 +1,11 @@
 {
 	"domain": "jlc",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.jlc",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.jlc",
 	"policies": [
 		{
 			"type": "idn-disallowed"

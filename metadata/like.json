@@ -1,10 +1,6 @@
 {
 	"domain": "like",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.like",
 	"nameServers": [
 		"dns1.nic.like",
@@ -15,6 +11,10 @@
 		"dnsb.nic.like",
 		"dnsc.nic.like",
 		"dnsd.nic.like"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,9 +1,5 @@
 {
 	"domain": "ro",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.rotld.ro",
 	"nameServers": [
 		"dns-at.rotld.ro",
@@ -12,6 +8,10 @@
 		"primary.rotld.ro",
 		"sec-dns-a.rotld.ro",
 		"sec-dns-b.rotld.ro"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

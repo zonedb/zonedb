@@ -1,10 +1,6 @@
 {
 	"domain": "homesense",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.homesense",
 	"nameServers": [
 		"ns1.dns.nic.homesense",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.homesense",
 		"ns5.dns.nic.homesense",
 		"ns6.dns.nic.homesense"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

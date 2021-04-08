@@ -1,10 +1,6 @@
 {
 	"domain": "itau",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.itau",
 	"nameServers": [
 		"ns1.dns.nic.itau",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.itau",
 		"ns5.dns.nic.itau",
 		"ns6.dns.nic.itau"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

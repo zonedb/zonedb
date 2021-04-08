@@ -1,10 +1,5 @@
 {
 	"domain": "np",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://register.mos.com.np/np-whois-lookup",
 	"nameServers": [
 		"np-ns.npix.net.np",
@@ -12,6 +7,11 @@
 		"ns4.apnic.net",
 		"pch.nnic.np",
 		"shikhar.mos.com.np"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

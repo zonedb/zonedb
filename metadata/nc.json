@@ -1,15 +1,15 @@
 {
 	"domain": "nc",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nc",
 	"nameServers": [
 		"any-ns1.nc",
 		"nc.cctld.authdns.ripe.net",
 		"ns1.nc",
 		"ns2.nc"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

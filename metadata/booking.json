@@ -1,10 +1,6 @@
 {
 	"domain": "booking",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"closed",
-		"generic"
-	],
 	"whoisServer": "whois.nic.booking",
 	"nameServers": [
 		"ns1.dns.nic.booking",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.booking",
 		"ns5.dns.nic.booking",
 		"ns6.dns.nic.booking"
+	],
+	"tags": [
+		"closed",
+		"generic"
 	],
 	"policies": [
 		{

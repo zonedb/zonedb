@@ -1,15 +1,15 @@
 {
 	"domain": "rent",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.rent",
 	"nameServers": [
 		"a.nic.rent",
 		"b.nic.rent",
 		"c.nic.rent",
 		"d.nic.rent"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

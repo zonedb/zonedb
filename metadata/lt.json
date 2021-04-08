@@ -1,9 +1,5 @@
 {
 	"domain": "lt",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.domreg.lt",
 	"nameServers": [
 		"a.tld.lt",
@@ -12,5 +8,9 @@
 		"d.tld.lt",
 		"e.tld.lt",
 		"f.tld.lt"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

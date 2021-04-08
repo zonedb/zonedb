@@ -1,15 +1,15 @@
 {
 	"domain": "tt",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.nic.tt/cgi-bin/search.pl",
 	"nameServers": [
 		"a.lactld.org",
 		"ns3.nic.mx",
 		"pch.nic.tt",
 		"ripe.nic.tt"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

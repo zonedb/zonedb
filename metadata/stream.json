@@ -1,9 +1,6 @@
 {
 	"domain": "stream",
 	"infoURL": "https://www.famousfourmedia.com/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.stream",
 	"nameServers": [
 		"ns1.dns.nic.stream",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.stream",
 		"ns5.dns.nic.stream",
 		"ns6.dns.nic.stream"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,9 +1,6 @@
 {
 	"domain": "talk",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.talk",
 	"nameServers": [
 		"dns1.nic.talk",
@@ -14,6 +11,9 @@
 		"dnsb.nic.talk",
 		"dnsc.nic.talk",
 		"dnsd.nic.talk"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

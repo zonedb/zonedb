@@ -1,9 +1,6 @@
 {
 	"domain": "you",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.you",
 	"nameServers": [
 		"dns1.nic.you",
@@ -14,6 +11,9 @@
 		"dnsb.nic.you",
 		"dnsc.nic.you",
 		"dnsd.nic.you"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

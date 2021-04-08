@@ -1,15 +1,15 @@
 {
 	"domain": "gov",
-	"tags": [
-		"generic",
-		"sponsored"
-	],
 	"whoisServer": "whois.nic.gov",
 	"nameServers": [
 		"a.gov-servers.net",
 		"b.gov-servers.net",
 		"c.gov-servers.net",
 		"d.gov-servers.net"
+	],
+	"tags": [
+		"generic",
+		"sponsored"
 	],
 	"policies": [
 		{

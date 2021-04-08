@@ -1,10 +1,6 @@
 {
 	"domain": "rw",
 	"infoURL": "https://ricta.org.rw/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.ricta.org.rw",
 	"nameServers": [
 		"fork.sth.dnsnode.net",
@@ -12,6 +8,10 @@
 		"ns1.ricta.org.rw",
 		"ns3.ricta.org.rw",
 		"pch.ricta.org.rw"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

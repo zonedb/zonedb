@@ -1,9 +1,5 @@
 {
 	"domain": "va",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.iana.org",
 	"nameServers": [
 		"dns.nic.it",
@@ -12,6 +8,10 @@
 		"osiris.namex.it",
 		"seth.namex.it",
 		"va.cctld.authdns.ripe.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

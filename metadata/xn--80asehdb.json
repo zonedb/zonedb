@@ -1,14 +1,14 @@
 {
 	"domain": "онлайн",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.онлайн",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,15 +1,6 @@
 {
 	"domain": "brussels",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Brussels",
-		"BE-BRU"
-	],
 	"whoisServer": "whois.nic.brussels",
 	"nameServers": [
 		"a.nsset.brussels",
@@ -18,6 +9,15 @@
 		"d.nsset.brussels",
 		"y.nsset.brussels",
 		"z.nsset.brussels"
+	],
+	"locations": [
+		"Brussels",
+		"BE-BRU"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

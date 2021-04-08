@@ -1,16 +1,16 @@
 {
 	"domain": "edeka",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.edeka",
 		"a2.nic.edeka",
 		"b0.nic.edeka",
 		"c0.nic.edeka"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

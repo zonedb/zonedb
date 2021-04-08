@@ -1,14 +1,14 @@
 {
 	"domain": "nf",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.nf",
 	"nameServers": [
 		"ns.anycast.nic.nf",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

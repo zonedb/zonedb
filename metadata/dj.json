@@ -1,15 +1,15 @@
 {
 	"domain": "dj",
-	"tags": [
-		"country",
-		"generic",
-		"geo"
-	],
 	"whoisURL": "http://www.nic.dj/whois.php",
 	"nameServers": [
 		"bow1.intnet.dj",
 		"bow5.intnet.dj",
 		"vps443605.ovh.net"
+	],
+	"tags": [
+		"country",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

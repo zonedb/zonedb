@@ -1,8 +1,5 @@
 {
 	"domain": "бел",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.cctld.by",
 	"nameServers": [
 		"dns1.tld.hosterby.com",
@@ -11,5 +8,8 @@
 		"dns4.tld.hosterby.com",
 		"dns5.tld.hosterby.com",
 		"dns6.tld.hosterby.com"
+	],
+	"tags": [
+		"generic"
 	]
 }

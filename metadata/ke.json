@@ -1,11 +1,6 @@
 {
 	"domain": "ke",
 	"infoURL": "https://kenic.or.ke/",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.kenic.or.ke",
 	"nameServers": [
 		"kenic.anycastdns.cz",
@@ -13,6 +8,11 @@
 		"ns-ke.afrinic.net",
 		"ns.anycast.kenic.or.ke",
 		"ns2ke.dns.business"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,12 +1,12 @@
 {
 	"domain": "doosan",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.삼성",
 	"tags": [
 		"brand",
 		"generic",
 		"withdrawn"
 	],
-	"whoisServer": "whois.nic.삼성",
 	"policies": [
 		{
 			"type": "idn-disallowed"

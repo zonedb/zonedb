@@ -1,15 +1,15 @@
 {
 	"domain": "ba",
 	"infoURL": "https://www.nic.ba/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://nic.ba/lat/menu/view/13",
 	"nameServers": [
 		"ns.ba",
 		"sava.utic.net.ba",
 		"una.utic.net.ba"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

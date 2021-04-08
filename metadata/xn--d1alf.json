@@ -1,14 +1,14 @@
 {
 	"domain": "мкд",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.marnet.mk",
 	"nameServers": [
 		"d.ext.nic.cz",
 		"dns-mk.univie.ac.at",
 		"ns2.arnes.si",
 		"tld1.marnet.mk"
+	],
+	"tags": [
+		"generic"
 	]
 }

@@ -1,14 +1,14 @@
 {
 	"domain": "sl",
 	"infoURL": "https://www.nic.sl/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.sl",
 	"nameServers": [
 		"ns1.neoip.com",
 		"ns2.neoip.com"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

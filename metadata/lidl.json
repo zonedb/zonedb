@@ -1,16 +1,16 @@
 {
 	"domain": "lidl",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.lidl",
 	"nameServers": [
 		"a.nic.lidl",
 		"b.nic.lidl",
 		"c.nic.lidl",
 		"d.nic.lidl"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

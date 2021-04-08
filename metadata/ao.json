@@ -1,14 +1,14 @@
 {
 	"domain": "ao",
 	"infoURL": "https://www.dns.ao/ao/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"ao01.dns.pt",
 		"ao03.dns.pt",
 		"h.dns.pt"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

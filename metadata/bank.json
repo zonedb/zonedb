@@ -1,9 +1,6 @@
 {
 	"domain": "bank",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.bank",
 	"nameServers": [
 		"a.nic.bank",
@@ -12,6 +9,9 @@
 		"d.nic.bank",
 		"e.nic.bank",
 		"f.nic.bank"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

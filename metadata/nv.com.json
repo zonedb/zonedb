@@ -1,8 +1,5 @@
 {
 	"domain": "nv.com",
-	"tags": [
-		"private"
-	],
 	"nameServers": [
 		"a.root-servers.nv.com",
 		"b.root-servers.nv.com",
@@ -15,6 +12,9 @@
 	"wildcards": [
 		"205.159.223.111",
 		"hosting.gi.net"
+	],
+	"tags": [
+		"private"
 	],
 	"policies": [
 		{

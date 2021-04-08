@@ -1,16 +1,16 @@
 {
 	"domain": "bond",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.bond",
 	"nameServers": [
 		"a.nic.bond",
 		"b.nic.bond",
 		"c.nic.bond",
 		"d.nic.bond"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

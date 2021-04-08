@@ -1,16 +1,16 @@
 {
 	"domain": "yandex",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.yandex",
 	"nameServers": [
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns3.uniregistry.net",
 		"ns4.uniregistry.info"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "coop",
 	"infoURL": "https://identity.coop/",
-	"tags": [
-		"generic",
-		"sponsored"
-	],
 	"whoisServer": "whois.nic.coop",
 	"nameServers": [
 		"a.nic.coop",
 		"b.nic.coop",
 		"c.nic.coop",
 		"d.nic.coop"
+	],
+	"tags": [
+		"generic",
+		"sponsored"
 	],
 	"policies": [
 		{

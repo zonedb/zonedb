@@ -1,16 +1,16 @@
 {
 	"domain": "mtr",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.mtr",
 	"nameServers": [
 		"ns1.nic.mtr",
 		"ns2.nic.mtr",
 		"ns3.nic.mtr",
 		"ns4.nic.mtr"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

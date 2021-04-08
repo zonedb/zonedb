@@ -1,9 +1,6 @@
 {
 	"domain": "vodka",
 	"infoURL": "http://nic.vodka/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.vodka",
 	"nameServers": [
 		"dns1.nic.vodka",
@@ -14,6 +11,9 @@
 		"dnsb.nic.vodka",
 		"dnsc.nic.vodka",
 		"dnsd.nic.vodka"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "bb",
 	"infoURL": "http://www.barbadosdomains.net/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://whois.telecoms.gov.bb/search_domain.php",
 	"nameServers": [
 		"ns1.nic.bb",
@@ -12,6 +8,10 @@
 		"ns3.nic.bb",
 		"ns4.nic.bb",
 		"ns5.nic.bb"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

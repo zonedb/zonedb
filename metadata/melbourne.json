@@ -1,20 +1,20 @@
 {
 	"domain": "melbourne",
 	"infoURL": "https://www.live.melbourne/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Melbourne"
-	],
 	"whoisServer": "whois.nic.melbourne",
 	"nameServers": [
 		"a.nic.melbourne",
 		"b.nic.melbourne",
 		"c.nic.melbourne",
 		"d.nic.melbourne"
+	],
+	"locations": [
+		"Melbourne"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

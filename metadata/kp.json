@@ -1,12 +1,12 @@
 {
 	"domain": "kp",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"ns1.kptc.kp",
 		"ns2.kptc.kp"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

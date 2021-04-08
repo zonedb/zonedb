@@ -1,16 +1,16 @@
 {
 	"domain": "mckinsey",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.mckinsey",
 	"nameServers": [
 		"a0.nic.mckinsey",
 		"a2.nic.mckinsey",
 		"b0.nic.mckinsey",
 		"c0.nic.mckinsey"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

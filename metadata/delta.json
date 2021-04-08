@@ -1,16 +1,16 @@
 {
 	"domain": "delta",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.delta",
 	"nameServers": [
 		"a0.nic.delta",
 		"a2.nic.delta",
 		"b0.nic.delta",
 		"c0.nic.delta"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

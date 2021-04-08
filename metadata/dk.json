@@ -1,10 +1,6 @@
 {
 	"domain": "dk",
 	"infoURL": "https://www.dk-hostmaster.dk/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.dk-hostmaster.dk",
 	"nameServers": [
 		"a.nic.dk",
@@ -14,6 +10,10 @@
 		"l.nic.dk",
 		"p.nic.dk",
 		"s.nic.dk"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

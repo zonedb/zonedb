@@ -1,10 +1,6 @@
 {
 	"domain": "neustar",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.neustar",
 	"nameServers": [
 		"ns1.dns.nic.neustar",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.neustar",
 		"ns5.dns.nic.neustar",
 		"ns6.dns.nic.neustar"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

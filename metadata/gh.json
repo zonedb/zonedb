@@ -1,15 +1,15 @@
 {
 	"domain": "gh",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.nic.gh/customer/search_c.htm",
 	"nameServers": [
 		"ns.dns.br",
 		"ns1.nic.gh",
 		"ns2.nic.gh"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

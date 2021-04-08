@@ -1,16 +1,16 @@
 {
 	"domain": "jll",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.jll",
 		"a2.nic.jll",
 		"b0.nic.jll",
 		"c0.nic.jll"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

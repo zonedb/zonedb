@@ -1,14 +1,14 @@
 {
 	"domain": "voting",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.voting",
 	"nameServers": [
 		"a.nic.voting",
 		"b.nic.voting",
 		"c.nic.voting",
 		"d.nic.voting"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

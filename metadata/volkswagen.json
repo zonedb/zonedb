@@ -1,16 +1,16 @@
 {
 	"domain": "volkswagen",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.volkswagen",
 		"a2.nic.volkswagen",
 		"b0.nic.volkswagen",
 		"c0.nic.volkswagen"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

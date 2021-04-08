@@ -1,14 +1,6 @@
 {
 	"domain": "bayern",
 	"infoURL": "https://nic.bayern/",
-	"tags": [
-		"generic",
-		"geo",
-		"region"
-	],
-	"locations": [
-		"DE-BY"
-	],
 	"whoisServer": "whois.nic.bayern",
 	"nameServers": [
 		"dns1.nic.bayern",
@@ -19,6 +11,14 @@
 		"dnsb.nic.bayern",
 		"dnsc.nic.bayern",
 		"dnsd.nic.bayern"
+	],
+	"locations": [
+		"DE-BY"
+	],
+	"tags": [
+		"generic",
+		"geo",
+		"region"
 	],
 	"policies": [
 		{

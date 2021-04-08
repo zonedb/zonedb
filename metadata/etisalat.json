@@ -1,16 +1,16 @@
 {
 	"domain": "etisalat",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"a.nic.etisalat",
 		"b.nic.etisalat",
 		"c.nic.etisalat",
 		"d.nic.etisalat"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

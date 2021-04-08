@@ -1,11 +1,11 @@
 {
 	"domain": "telecity",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.telecity",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.telecity",
 	"policies": [
 		{
 			"type": "idn-disallowed"

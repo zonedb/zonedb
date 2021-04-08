@@ -1,9 +1,5 @@
 {
 	"domain": "kr",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.kr",
 	"nameServers": [
 		"b.dns.kr",
@@ -12,6 +8,10 @@
 		"e.dns.kr",
 		"f.dns.kr",
 		"g.dns.kr"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

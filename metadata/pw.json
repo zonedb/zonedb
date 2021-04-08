@@ -1,15 +1,15 @@
 {
 	"domain": "pw",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.pw",
 	"nameServers": [
 		"ns1.nic.pw",
 		"ns2.nic.pw",
 		"ns5.nic.pw",
 		"ns6.nic.pw"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

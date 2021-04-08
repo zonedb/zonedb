@@ -1,13 +1,13 @@
 {
 	"domain": "gy",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.registry.gy",
 	"nameServers": [
 		"a.lactld.org",
 		"gy-ns.anycast.pch.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

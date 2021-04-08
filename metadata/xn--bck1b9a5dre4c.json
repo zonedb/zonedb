@@ -1,9 +1,6 @@
 {
 	"domain": "ファッション",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.ファッション",
 	"nameServers": [
 		"ns1.dns.nic.ファッション",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.ファッション",
 		"ns5.dns.nic.ファッション",
 		"ns6.dns.nic.ファッション"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

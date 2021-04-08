@@ -1,9 +1,6 @@
 {
 	"domain": "analytics",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.analytics",
 	"nameServers": [
 		"ns1.dns.nic.analytics",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.analytics",
 		"ns5.dns.nic.analytics",
 		"ns6.dns.nic.analytics"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

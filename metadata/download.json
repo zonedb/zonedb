@@ -1,9 +1,6 @@
 {
 	"domain": "download",
 	"infoURL": "https://www.famousfourmedia.com/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.download",
 	"nameServers": [
 		"ns1.dns.nic.download",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.download",
 		"ns5.dns.nic.download",
 		"ns6.dns.nic.download"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

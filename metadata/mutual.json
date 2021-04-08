@@ -1,10 +1,6 @@
 {
 	"domain": "mutual",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.mutual",
 	"nameServers": [
 		"ns1.dns.nic.mutual",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.mutual",
 		"ns5.dns.nic.mutual",
 		"ns6.dns.nic.mutual"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

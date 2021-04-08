@@ -1,14 +1,14 @@
 {
 	"domain": "eg",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://lookup.egregistry.eg/english.aspx",
 	"nameServers": [
 		"frcu.eun.eg",
 		"ns5.univie.ac.at",
 		"rip.psg.com"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

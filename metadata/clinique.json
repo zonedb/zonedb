@@ -1,16 +1,16 @@
 {
 	"domain": "clinique",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.clinique",
 	"nameServers": [
 		"a0.nic.clinique",
 		"a2.nic.clinique",
 		"b0.nic.clinique",
 		"c0.nic.clinique"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

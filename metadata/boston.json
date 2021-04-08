@@ -1,14 +1,6 @@
 {
 	"domain": "boston",
 	"infoURL": "http://nic.boston/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Boston"
-	],
 	"whoisServer": "whois.nic.boston",
 	"nameServers": [
 		"dns1.nic.boston",
@@ -19,6 +11,14 @@
 		"dnsb.nic.boston",
 		"dnsc.nic.boston",
 		"dnsd.nic.boston"
+	],
+	"locations": [
+		"Boston"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

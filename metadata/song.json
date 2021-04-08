@@ -1,10 +1,6 @@
 {
 	"domain": "song",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.song",
 	"nameServers": [
 		"ns1.dns.nic.song",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.song",
 		"ns5.dns.nic.song",
 		"ns6.dns.nic.song"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

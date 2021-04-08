@@ -1,13 +1,13 @@
 {
 	"domain": "so",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.so",
 	"nameServers": [
 		"d.nic.so",
 		"e.nic.so"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

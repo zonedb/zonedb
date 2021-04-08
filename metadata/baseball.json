@@ -1,9 +1,6 @@
 {
 	"domain": "baseball",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.baseball",
 	"nameServers": [
 		"ns1.dns.nic.baseball",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.baseball",
 		"ns5.dns.nic.baseball",
 		"ns6.dns.nic.baseball"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,11 +1,11 @@
 {
 	"domain": "liaison",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.liaison",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.liaison",
 	"policies": [
 		{
 			"type": "idn-disallowed"

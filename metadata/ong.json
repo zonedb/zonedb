@@ -1,9 +1,6 @@
 {
 	"domain": "ong",
 	"infoURL": "https://pir.org/products/ngo-ong-domain/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.publicinterestregistry.net",
 	"nameServers": [
 		"a0.nic.ong",
@@ -12,6 +9,9 @@
 		"b2.nic.ong",
 		"c0.nic.ong",
 		"d0.nic.ong"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

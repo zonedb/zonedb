@@ -1,14 +1,14 @@
 {
 	"domain": "zm",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.zicta.zm",
 	"nameServers": [
 		"cocca.nic.zm",
 		"gransy.nic.zm",
 		"pch.nic.zm"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

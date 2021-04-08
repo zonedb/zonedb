@@ -1,11 +1,11 @@
 {
 	"domain": "scor",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.scor",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.scor",
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -1,9 +1,5 @@
 {
 	"domain": "mg",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.mg",
 	"nameServers": [
 		"censvrns0001.ird.fr",
@@ -11,6 +7,10 @@
 		"ns.dts.mg",
 		"ns.nic.mg",
 		"pch.nic.mg"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

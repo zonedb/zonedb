@@ -1,16 +1,16 @@
 {
 	"domain": "ollo",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.ollo",
 	"nameServers": [
 		"a0.nic.ollo",
 		"a2.nic.ollo",
 		"b0.nic.ollo",
 		"c0.nic.ollo"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

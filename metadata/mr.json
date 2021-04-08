@@ -1,9 +1,5 @@
 {
 	"domain": "mr",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.mr",
 	"nameServers": [
 		"ns-mr.afrinic.net",
@@ -12,6 +8,10 @@
 		"ns1.nic.mr",
 		"ns2.nic.mr",
 		"ns3.nic.mr"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

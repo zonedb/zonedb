@@ -1,16 +1,16 @@
 {
 	"domain": "sfr",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.sfr",
 	"nameServers": [
 		"a.nic.sfr",
 		"b.nic.sfr",
 		"c.nic.sfr",
 		"d.nic.sfr"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

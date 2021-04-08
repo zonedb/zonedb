@@ -1,21 +1,21 @@
 {
 	"domain": "madrid",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Madrid",
-		"ES-MD"
-	],
 	"whoisServer": "whois.nic.madrid",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
+	],
+	"locations": [
+		"Madrid",
+		"ES-MD"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

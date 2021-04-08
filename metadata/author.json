@@ -1,9 +1,6 @@
 {
 	"domain": "author",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.author",
 	"nameServers": [
 		"dns1.nic.author",
@@ -14,6 +11,9 @@
 		"dnsb.nic.author",
 		"dnsc.nic.author",
 		"dnsd.nic.author"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

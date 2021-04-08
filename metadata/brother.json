@@ -1,16 +1,16 @@
 {
 	"domain": "brother",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.brother",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

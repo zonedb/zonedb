@@ -1,19 +1,19 @@
 {
 	"domain": "nagoya",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Nagoya-shi"
-	],
 	"whoisServer": "whois.nic.nagoya",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
+	],
+	"locations": [
+		"Nagoya-shi"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

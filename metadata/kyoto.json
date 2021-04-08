@@ -1,21 +1,21 @@
 {
 	"domain": "kyoto",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Kyoto",
-		"JP-26"
-	],
 	"whoisServer": "whois.nic.kyoto",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
+	],
+	"locations": [
+		"Kyoto",
+		"JP-26"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

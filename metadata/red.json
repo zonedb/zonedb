@@ -1,15 +1,15 @@
 {
 	"domain": "red",
 	"infoURL": "https://get.red/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.afilias.net",
 	"nameServers": [
 		"a0.nic.red",
 		"a2.nic.red",
 		"b0.nic.red",
 		"c0.nic.red"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "swiftcover",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.swiftcover",
 	"nameServers": [
 		"ns1.dns.nic.swiftcover",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.swiftcover",
 		"ns5.dns.nic.swiftcover",
 		"ns6.dns.nic.swiftcover"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

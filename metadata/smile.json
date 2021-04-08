@@ -1,9 +1,6 @@
 {
 	"domain": "smile",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.smile",
 	"nameServers": [
 		"dns1.nic.smile",
@@ -14,6 +11,9 @@
 		"dnsb.nic.smile",
 		"dnsc.nic.smile",
 		"dnsd.nic.smile"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

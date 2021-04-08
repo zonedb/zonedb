@@ -1,10 +1,6 @@
 {
 	"domain": "hbo",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.hbo",
 	"nameServers": [
 		"ns1.dns.nic.hbo",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.hbo",
 		"ns5.dns.nic.hbo",
 		"ns6.dns.nic.hbo"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

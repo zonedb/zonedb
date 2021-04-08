@@ -1,9 +1,5 @@
 {
 	"domain": "md",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.md",
 	"nameServers": [
 		"nsa.tld.md",
@@ -11,6 +7,10 @@
 		"nsc.dns.md",
 		"nsf.dns.md",
 		"nsr.dns.md"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

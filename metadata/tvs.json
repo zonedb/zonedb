@@ -1,16 +1,16 @@
 {
 	"domain": "tvs",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.tvs",
 	"nameServers": [
 		"a0.nic.tvs",
 		"a2.nic.tvs",
 		"b0.nic.tvs",
 		"c0.nic.tvs"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

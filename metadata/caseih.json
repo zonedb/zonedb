@@ -1,11 +1,11 @@
 {
 	"domain": "caseih",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.caseih",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.caseih",
 	"policies": [
 		{
 			"type": "idn-disallowed"

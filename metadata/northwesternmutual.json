@@ -1,10 +1,6 @@
 {
 	"domain": "northwesternmutual",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.northwesternmutual",
 	"nameServers": [
 		"ns1.dns.nic.northwesternmutual",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.northwesternmutual",
 		"ns5.dns.nic.northwesternmutual",
 		"ns6.dns.nic.northwesternmutual"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

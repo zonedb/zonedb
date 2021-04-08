@@ -1,13 +1,13 @@
 {
 	"domain": "kg",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.kg",
 	"nameServers": [
 		"kg.cctld.authdns.ripe.net",
 		"ns.kg"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

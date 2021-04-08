@@ -1,16 +1,16 @@
 {
 	"domain": "travelersinsurance",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.travelersinsurance",
 		"a2.nic.travelersinsurance",
 		"b0.nic.travelersinsurance",
 		"c0.nic.travelersinsurance"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "cn",
 	"infoURL": "http://cnnic.cn/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.cnnic.cn",
 	"nameServers": [
 		"a.dns.cn",
@@ -15,6 +11,10 @@
 		"f.dns.cn",
 		"g.dns.cn",
 		"ns.cernet.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

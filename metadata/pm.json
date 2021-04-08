@@ -1,14 +1,14 @@
 {
 	"domain": "pm",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.pm",
 	"nameServers": [
 		"d.nic.fr",
 		"e.ext.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

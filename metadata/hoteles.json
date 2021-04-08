@@ -1,9 +1,6 @@
 {
 	"domain": "hoteles",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.hoteles",
 	"nameServers": [
 		"ns1.dns.nic.hoteles",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.hoteles",
 		"ns5.dns.nic.hoteles",
 		"ns6.dns.nic.hoteles"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

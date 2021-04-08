@@ -1,10 +1,6 @@
 {
 	"domain": "mtn",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.mtn",
 	"nameServers": [
 		"dns1.nic.mtn",
@@ -15,6 +11,10 @@
 		"dnsb.nic.mtn",
 		"dnsc.nic.mtn",
 		"dnsd.nic.mtn"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

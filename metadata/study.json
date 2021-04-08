@@ -1,15 +1,15 @@
 {
 	"domain": "study",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.study",
 	"nameServers": [
 		"a.nic.study",
 		"b.nic.study",
 		"c.nic.study",
 		"d.nic.study"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

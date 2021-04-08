@@ -1,16 +1,16 @@
 {
 	"domain": "frogans",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.frogans",
 	"nameServers": [
 		"a0.nic.frogans",
 		"a2.nic.frogans",
 		"b0.nic.frogans",
 		"c0.nic.frogans"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

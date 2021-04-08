@@ -1,16 +1,16 @@
 {
 	"domain": "nsw.au",
-	"tags": [
-		"geo"
-	],
-	"locations": [
-		"AU-NSW"
-	],
 	"nameServers": [
 		"q.au",
 		"r.au",
 		"s.au",
 		"t.au"
+	],
+	"locations": [
+		"AU-NSW"
+	],
+	"tags": [
+		"geo"
 	],
 	"policies": [
 		{

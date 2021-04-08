@@ -1,10 +1,6 @@
 {
 	"domain": "intuit",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.intuit",
 	"nameServers": [
 		"ns1.dns.nic.intuit",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.intuit",
 		"ns5.dns.nic.intuit",
 		"ns6.dns.nic.intuit"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

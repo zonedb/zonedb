@@ -1,10 +1,6 @@
 {
 	"domain": "lanxess",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.lanxess",
 	"nameServers": [
 		"ns1.dns.nic.lanxess",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.lanxess",
 		"ns5.dns.nic.lanxess",
 		"ns6.dns.nic.lanxess"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

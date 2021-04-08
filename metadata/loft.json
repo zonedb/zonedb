@@ -1,9 +1,6 @@
 {
 	"domain": "loft",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.loft",
 	"nameServers": [
 		"ns1.dns.nic.loft",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.loft",
 		"ns5.dns.nic.loft",
 		"ns6.dns.nic.loft"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

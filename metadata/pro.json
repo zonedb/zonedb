@@ -1,9 +1,6 @@
 {
 	"domain": "pro",
 	"infoURL": "https://registry.pro/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.afilias.net",
 	"nameServers": [
 		"a0.pro.afilias-nst.info",
@@ -12,6 +9,9 @@
 		"b2.pro.afilias-nst.org",
 		"c0.pro.afilias-nst.info",
 		"d0.pro.afilias-nst.org"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

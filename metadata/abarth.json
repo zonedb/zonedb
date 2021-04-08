@@ -1,16 +1,16 @@
 {
 	"domain": "abarth",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.abarth",
 		"a2.nic.abarth",
 		"b0.nic.abarth",
 		"c0.nic.abarth"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

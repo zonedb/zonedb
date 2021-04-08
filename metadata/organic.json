@@ -1,15 +1,15 @@
 {
 	"domain": "organic",
 	"infoURL": "https://get.organic/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.afilias.net",
 	"nameServers": [
 		"a0.nic.organic",
 		"a2.nic.organic",
 		"b0.nic.organic",
 		"c0.nic.organic"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

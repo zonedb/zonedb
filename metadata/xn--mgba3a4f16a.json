@@ -1,11 +1,11 @@
 {
 	"domain": "ایران",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.ir",
 	"nameServers": [
 		"a.nic.ir",
 		"ns.irnic.ir"
+	],
+	"tags": [
+		"generic"
 	]
 }

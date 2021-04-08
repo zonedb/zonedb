@@ -1,19 +1,19 @@
 {
 	"domain": "corsica",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic",
-		"geo",
-		"region"
-	],
-	"locations": [
-		"FR-H"
-	],
 	"whoisServer": "whois-corsica.nic.fr",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
+	],
+	"locations": [
+		"FR-H"
+	],
+	"tags": [
+		"generic",
+		"geo",
+		"region"
 	],
 	"policies": [
 		{

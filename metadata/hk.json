@@ -1,9 +1,5 @@
 {
 	"domain": "hk",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.hkirc.hk",
 	"nameServers": [
 		"c.hkirc.net.hk",
@@ -14,5 +10,9 @@
 		"x.hkirc.net.hk",
 		"y.hkirc.net.hk",
 		"z.hkirc.net.hk"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

@@ -1,11 +1,6 @@
 {
 	"domain": "mz",
 	"infoURL": "https://www.domains.co.mz/",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.mz",
 	"nameServers": [
 		"anyns.uem.mz",
@@ -14,6 +9,11 @@
 		"oceano.uem.mz",
 		"phloem.uoregon.edu",
 		"zebra.uem.mz"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

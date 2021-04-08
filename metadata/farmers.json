@@ -1,10 +1,6 @@
 {
 	"domain": "farmers",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.farmers",
 	"nameServers": [
 		"ns1.dns.nic.farmers",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.farmers",
 		"ns5.dns.nic.farmers",
 		"ns6.dns.nic.farmers"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

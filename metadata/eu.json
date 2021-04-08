@@ -1,9 +1,5 @@
 {
 	"domain": "eu",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.eu",
 	"nameServers": [
 		"nl.dns.eu",
@@ -11,6 +7,10 @@
 		"w.dns.eu",
 		"x.dns.eu",
 		"y.dns.eu"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,11 +1,11 @@
 {
 	"domain": "statoil",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.statoil",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.statoil",
 	"policies": [
 		{
 			"type": "idn-disallowed"

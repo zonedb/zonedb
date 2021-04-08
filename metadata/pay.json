@@ -1,9 +1,6 @@
 {
 	"domain": "pay",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.pay",
 	"nameServers": [
 		"dns1.nic.pay",
@@ -14,6 +11,9 @@
 		"dnsb.nic.pay",
 		"dnsc.nic.pay",
 		"dnsd.nic.pay"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "gap",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.gap",
 	"nameServers": [
 		"ns1.dns.nic.gap",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.gap",
 		"ns5.dns.nic.gap",
 		"ns6.dns.nic.gap"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

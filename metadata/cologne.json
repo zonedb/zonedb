@@ -1,19 +1,19 @@
 {
 	"domain": "cologne",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Cologne",
-		"Koeln"
-	],
 	"whoisServer": "whois.ryce-rsp.com",
 	"nameServers": [
 		"dns.ryce-rsp.com",
 		"ns1.dns.business",
 		"ns1.ryce-rsp.com"
+	],
+	"locations": [
+		"Cologne",
+		"Koeln"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

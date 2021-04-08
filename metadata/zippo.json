@@ -1,11 +1,11 @@
 {
 	"domain": "zippo",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.zippo",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.zippo",
 	"policies": [
 		{
 			"type": "idn-disallowed"

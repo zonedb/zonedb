@@ -1,15 +1,15 @@
 {
 	"domain": "tv",
-	"tags": [
-		"country",
-		"generic",
-		"geo"
-	],
 	"whoisServer": "tvwhois.verisign-grs.com",
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",
 		"ac3.nstld.com",
 		"ac4.nstld.com"
+	],
+	"tags": [
+		"country",
+		"generic",
+		"geo"
 	]
 }

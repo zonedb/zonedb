@@ -1,18 +1,18 @@
 {
 	"domain": "tirol",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic",
-		"region"
-	],
-	"locations": [
-		"AT-7"
-	],
 	"whoisServer": "whois.nic.tirol",
 	"nameServers": [
 		"dns.ryce-rsp.com",
 		"ns1.dns.business",
 		"ns1.ryce-rsp.com"
+	],
+	"locations": [
+		"AT-7"
+	],
+	"tags": [
+		"generic",
+		"region"
 	],
 	"policies": [
 		{

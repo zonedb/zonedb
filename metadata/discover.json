@@ -1,10 +1,6 @@
 {
 	"domain": "discover",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.discover",
 	"nameServers": [
 		"ns1.dns.nic.discover",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.discover",
 		"ns5.dns.nic.discover",
 		"ns6.dns.nic.discover"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

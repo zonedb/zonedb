@@ -1,16 +1,16 @@
 {
 	"domain": "adac",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.adac",
 	"nameServers": [
 		"a.nic.adac",
 		"b.nic.adac",
 		"c.nic.adac",
 		"d.nic.adac"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

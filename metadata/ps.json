@@ -1,9 +1,5 @@
 {
 	"domain": "ps",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.pnina.ps",
 	"nameServers": [
 		"dns1.gov.ps",
@@ -12,6 +8,10 @@
 		"ps-ns.anycast.pch.net",
 		"ps.cctld.authdns.ripe.net",
 		"rip.psg.com"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

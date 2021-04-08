@@ -1,17 +1,17 @@
 {
 	"domain": "capetown",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Cape Town"
-	],
 	"whoisServer": "capetown-whois.registry.net.za",
 	"nameServers": [
 		"coza1.dnsnode.net",
 		"ns.coza.net.za",
 		"ns2us.dns.business"
+	],
+	"locations": [
+		"Cape Town"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	]
 }

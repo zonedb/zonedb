@@ -1,10 +1,6 @@
 {
 	"domain": "taobao",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.taobao",
 	"nameServers": [
 		"ns1.dns.nic.taobao",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.taobao",
 		"ns5.dns.nic.taobao",
 		"ns6.dns.nic.taobao"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

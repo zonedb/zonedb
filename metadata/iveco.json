@@ -1,16 +1,16 @@
 {
 	"domain": "iveco",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.iveco",
 	"nameServers": [
 		"a0.nic.iveco",
 		"a2.nic.iveco",
 		"b0.nic.iveco",
 		"c0.nic.iveco"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

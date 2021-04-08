@@ -1,10 +1,6 @@
 {
 	"domain": "bentley",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.bentley",
 	"nameServers": [
 		"dns1.nic.bentley",
@@ -15,6 +11,10 @@
 		"dnsb.nic.bentley",
 		"dnsc.nic.bentley",
 		"dnsd.nic.bentley"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

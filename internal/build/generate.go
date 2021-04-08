@@ -2,6 +2,7 @@ package build
 
 import (
 	"bytes"
+	"fmt"
 	"go/format"
 	"os"
 	"path/filepath"
@@ -46,22 +47,71 @@ func GenerateGo(zones map[string]*Zone) error {
 		z.TagBits = tagBits(tagValues, z.Tags)
 	}
 
-	data := struct {
-		Zones     map[string]*Zone
-		TLDs      map[string]*Zone
-		Domains   []string
-		Offsets   map[string]int
-		TagType   string
-		Tags      []string
-		TagValues map[string]uint64
-	}{
-		zones,
-		tlds,
-		domains,
-		offsets,
-		tagType,
-		tags,
-		tagValues,
+	data := templateData{
+		Zones:     zones,
+		TLDs:      tlds,
+		Domains:   domains,
+		Offsets:   offsets,
+		TagType:   tagType,
+		Tags:      tags,
+		TagValues: tagValues,
+		Strings:   []string{},
+	}
+
+	// Pre-index 2-letter pairs
+	var pairs string
+	const alphabet = "abcdefghijklmnopqrstuvwxyz"
+	for _, i := range alphabet {
+		for _, j := range alphabet {
+			s := string(i) + string(j)
+			if strings.Contains(pairs, s) {
+				continue
+			}
+			if len(pairs) > 0 && pairs[len(pairs)-1] == s[0] {
+				pairs = pairs + s[1:]
+			} else {
+				pairs = pairs + s
+			}
+		}
+	}
+	data.indexedString(pairs)
+
+	// Pre-index strings and string slices
+	set := NewSet()
+	for _, z := range zones {
+		set.Add(ToASCII(z.WhoisServer))
+		set.Add(ToASCIIURL(z.WhoisURL))
+		set.Add(ToASCIIURL(z.InfoURL))
+	}
+
+	// Sort by length desc, then alphabetically asc
+	all := set.Values()
+	sort.Slice(all, func(i, j int) bool {
+		if len(all[i]) == len(all[j]) {
+			return all[i] < all[j]
+		}
+		return len(all[i]) > len(all[j])
+	})
+	for _, s := range all {
+		data.indexedString(s)
+	}
+
+	for _, d := range domains {
+		data.domainStringSlice(zones[d].NameServers)
+	}
+	for _, d := range domains {
+		data.domainStringSlice(zones[d].Wildcards)
+	}
+	for _, d := range domains {
+		data.indexedStringSlice(zones[d].Locations)
+	}
+	for _, d := range domains {
+		data.indexedStringSlice(zones[d].Languages)
+	}
+
+	// Add domains last, as these are most likely to be the shortest strings
+	for i := range domains {
+		data.domainString(domains[len(domains)-i-1])
 	}
 
 	err := generate("zones.go", zonesGoSrc, &data)
@@ -72,10 +122,63 @@ func GenerateGo(zones map[string]*Zone) error {
 	return nil
 }
 
-// Helper funcs
+type templateData struct {
+	Zones     map[string]*Zone
+	TLDs      map[string]*Zone
+	Domains   []string
+	Offsets   map[string]int
+	TagType   string
+	Tags      []string
+	TagValues map[string]uint64
+	Strings   []string
+}
 
-func cont(s string) string {
-	return strings.ReplaceAll(s, "\\\n", "")
+func (data *templateData) indexedString(s string) string {
+	if s == "" {
+		return "e"
+	}
+	i, j, k := IndexOrAppendString(&data.Strings, s)
+	if j == 0 && k == len(data.Strings[i]) {
+		return fmt.Sprintf("s[%d]", i)
+	} else if j == 0 {
+		return fmt.Sprintf("s[%d][:%d]", i, k)
+	}
+	return fmt.Sprintf("s[%d][%d:%d]", i, j, k)
+}
+
+func (data *templateData) indexedStringSlice(slice []string) string {
+	if len(slice) == 0 {
+		return "n"
+	}
+	// if len(slice) == 1 {
+	// 	return "[]string{" + data.indexedString(slice[0]) + "}"
+	// }
+	i, j := IndexOrAppendStrings(&data.Strings, slice)
+	return fmt.Sprintf("s[%d:%d]", i, j)
+}
+
+func (data *templateData) domainString(s string) string {
+	return data.indexedString(ToASCII(s))
+}
+
+func (data *templateData) domainStringSlice(slice []string) string {
+	needle := make([]string, len(slice))
+	for i := range slice {
+		needle[i] = ToASCII(slice[i])
+	}
+	return data.indexedStringSlice(needle)
+}
+
+func (data *templateData) urlString(s string) string {
+	return data.indexedString(ToASCIIURL(s))
+}
+
+func (data *templateData) urlStringSlice(slice []string) string {
+	needle := make([]string, len(slice))
+	for i := range slice {
+		needle[i] = ToASCIIURL(slice[i])
+	}
+	return data.indexedStringSlice(needle)
 }
 
 func quoted(s string) string {
@@ -93,16 +196,20 @@ func quotedURL(s string) string {
 	return quoted(ToASCIIURL(s))
 }
 
-var (
-	funcMap = template.FuncMap{
+func generate(filename, src string, data *templateData) error {
+	funcMap := template.FuncMap{
 		"title":        strings.Title,
 		"quoted":       quoted,
 		"quotedDomain": quotedDomain,
 		"quotedURL":    quotedURL,
+		"string":       data.indexedString,
+		"stringSlice":  data.indexedStringSlice,
+		"domainString": data.domainString,
+		"domainSlice":  data.domainStringSlice,
+		"urlString":    data.urlString,
+		"urlSlice":     data.urlStringSlice,
 	}
-)
 
-func generate(fn, src string, data interface{}) error {
 	t := template.Must(template.New("").Funcs(funcMap).Parse(cont(src)))
 	buf := new(bytes.Buffer)
 	err := t.Execute(buf, data)
@@ -113,15 +220,19 @@ func generate(fn, src string, data interface{}) error {
 	if err != nil {
 		return err
 	}
-	fn = filepath.Join(BaseDir, fn)
-	color.Fprintf(os.Stderr, "@{.}Generating Go source code: %s\n", fn)
-	f, err := os.Create(fn)
+	filename = filepath.Join(BaseDir, filename)
+	color.Fprintf(os.Stderr, "@{.}Generating Go source code: %s\n", filename)
+	f, err := os.Create(filename)
 	if err != nil {
 		return err
 	}
 	defer f.Close()
 	_, err = f.Write(formatted)
 	return err
+}
+
+func cont(s string) string {
+	return strings.ReplaceAll(s, "\\\n", "")
 }
 
 const zonesGoSrc = `// Automatically generated
@@ -140,8 +251,8 @@ func initZones() {
 	}
 }
 
-// Type s is an alias for []string to generate smaller source code
-type s []string
+// Type w is an alias for []string to generate smaller source code
+type w []string
 
 // Constants to generate smaller source code
 const (
@@ -204,14 +315,14 @@ var y = [{{len .Zones}}]Zone{
 			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
 			{{if $z.ParentDomain}} &z[{{$z.ParentOffset}}] {{else}} r {{end}}, \
 			{{if $z.SubdomainsEnd}} z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} x {{end}}, \
-			{{if $z.NameServers}} s{ {{range $z.NameServers}}{{quotedDomain .}},{{end}}} {{else}} n {{end}}, \
-			{{if $z.Wildcards}} s{ {{range $z.Wildcards}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
-			{{if $z.Locations}} s{ {{range $z.Locations}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
-			{{if $z.Languages}} s{ {{range $z.Languages}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
+			{{if $z.TagBits}} {{printf "0x%x" $z.TagBits}} {{else}} 0 {{end}}, \
+			{{quotedURL $z.InfoURL}}, \
+			{{if $z.NameServers}} w{ {{range $z.NameServers}}{{quotedDomain .}},{{end}}} {{else}} n {{end}}, \
+			{{if $z.Wildcards}} w{ {{range $z.Wildcards}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
+			{{if $z.Locations}} w{ {{range $z.Locations}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
+			{{if $z.Languages}} w{ {{range $z.Languages}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
 			{{quotedDomain $z.WhoisServer}}, \
 			{{quotedURL $z.WhoisURL}}, \
-			{{quotedURL $z.InfoURL}}, \
-			{{printf "0x%x" $z.TagBits}}, \
 			{{if $z.IDNDisallowed}} f {{else}} t {{end}}, \
 		},
 	{{end}} \

@@ -1,15 +1,15 @@
 {
 	"domain": "bostik",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.bostik",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

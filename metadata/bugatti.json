@@ -1,16 +1,16 @@
 {
 	"domain": "bugatti",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.bugatti",
 		"a2.nic.bugatti",
 		"b0.nic.bugatti",
 		"c0.nic.bugatti"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

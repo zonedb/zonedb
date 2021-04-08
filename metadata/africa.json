@@ -1,18 +1,18 @@
 {
 	"domain": "africa",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Africa"
-	],
 	"whoisServer": "africa-whois.registry.net.za",
 	"nameServers": [
 		"coza1.dnsnode.net",
 		"ns.coza.net.za",
 		"ns2us.dns.business"
+	],
+	"locations": [
+		"Africa"
+	],
+	"tags": [
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

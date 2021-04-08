@@ -1,10 +1,6 @@
 {
 	"domain": "imdb",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.imdb",
 	"nameServers": [
 		"dns1.nic.imdb",
@@ -15,6 +11,10 @@
 		"dnsb.nic.imdb",
 		"dnsc.nic.imdb",
 		"dnsd.nic.imdb"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

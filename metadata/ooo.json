@@ -1,14 +1,14 @@
 {
 	"domain": "ooo",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.ooo",
 	"nameServers": [
 		"a.nic.ooo",
 		"b.nic.ooo",
 		"c.nic.ooo",
 		"d.nic.ooo"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

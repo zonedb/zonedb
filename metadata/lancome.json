@@ -1,11 +1,11 @@
 {
 	"domain": "lancome",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.lancome",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.lancome",
 	"policies": [
 		{
 			"type": "idn-disallowed"

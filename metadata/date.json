@@ -1,9 +1,6 @@
 {
 	"domain": "date",
 	"infoURL": "https://www.famousfourmedia.com/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.date",
 	"nameServers": [
 		"ns1.dns.nic.date",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.date",
 		"ns5.dns.nic.date",
 		"ns6.dns.nic.date"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

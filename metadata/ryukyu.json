@@ -1,20 +1,20 @@
 {
 	"domain": "ryukyu",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic",
-		"region"
-	],
-	"locations": [
-		"JP-46",
-		"JP-47"
-	],
 	"whoisServer": "whois.nic.ryukyu",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
+	],
+	"locations": [
+		"JP-46",
+		"JP-47"
+	],
+	"tags": [
+		"generic",
+		"region"
 	],
 	"policies": [
 		{

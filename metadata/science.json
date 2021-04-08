@@ -1,9 +1,6 @@
 {
 	"domain": "science",
 	"infoURL": "https://www.famousfourmedia.com/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.science",
 	"nameServers": [
 		"ns1.dns.nic.science",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.science",
 		"ns5.dns.nic.science",
 		"ns6.dns.nic.science"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

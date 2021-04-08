@@ -1,16 +1,16 @@
 {
 	"domain": "commbank",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.commbank",
 	"nameServers": [
 		"a.nic.commbank",
 		"b.nic.commbank",
 		"c.nic.commbank",
 		"d.nic.commbank"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

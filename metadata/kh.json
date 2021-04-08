@@ -1,14 +1,14 @@
 {
 	"domain": "kh",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"dns1.online.com.kh",
 		"ns.camnet.com.kh",
 		"ns1.dns.net.kh",
 		"ns4.apnic.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

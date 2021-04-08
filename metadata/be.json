@@ -1,9 +1,5 @@
 {
 	"domain": "be",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.dns.be",
 	"nameServers": [
 		"a.nsset.be",
@@ -12,6 +8,10 @@
 		"d.nsset.be",
 		"y.nsset.be",
 		"z.nsset.be"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

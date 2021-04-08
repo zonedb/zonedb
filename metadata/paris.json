@@ -1,20 +1,20 @@
 {
 	"domain": "paris",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Paris",
-		"FR-J"
-	],
 	"whoisServer": "whois-paris.nic.fr",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr",
 		"h.ext.nic.fr"
+	],
+	"locations": [
+		"Paris",
+		"FR-J"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,13 +1,13 @@
 {
 	"domain": "mv",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"mv-ns.anycast.pch.net",
 		"ns.dhivehinet.net.mv",
 		"ns2.dhivehinet.net.mv"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

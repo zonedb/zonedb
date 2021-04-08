@@ -1,9 +1,6 @@
 {
 	"domain": "health",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.health",
 	"nameServers": [
 		"ns1.dns.nic.health",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.health",
 		"ns5.dns.nic.health",
 		"ns6.dns.nic.health"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

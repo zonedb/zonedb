@@ -1,6 +1,14 @@
 {
 	"domain": "укр",
 	"infoURL": "http://uanic.net/",
+	"whoisServer": "whois.dotukr.com",
+	"nameServers": [
+		"dns1.u-registry.com",
+		"dns2.u-registry.net",
+		"dns3.dotukr.com",
+		"nsi.uanic.net",
+		"tier1.num.net.ua"
+	],
 	"languages": [
 		"crh-UA",
 		"mul-Cyrl-UA",
@@ -11,13 +19,5 @@
 		"country",
 		"generic",
 		"geo"
-	],
-	"whoisServer": "whois.dotukr.com",
-	"nameServers": [
-		"dns1.u-registry.com",
-		"dns2.u-registry.net",
-		"dns3.dotukr.com",
-		"nsi.uanic.net",
-		"tier1.num.net.ua"
 	]
 }

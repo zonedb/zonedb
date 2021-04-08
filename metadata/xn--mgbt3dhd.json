@@ -1,17 +1,17 @@
 {
 	"domain": "همراه",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
-	"locations": [
-		"Iran"
-	],
 	"whoisServer": "whois.nic.همراه",
 	"nameServers": [
 		"a.ns.nic.همراه",
 		"b.ns.nic.همراه",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
+	],
+	"locations": [
+		"Iran"
+	],
+	"tags": [
+		"generic"
 	]
 }

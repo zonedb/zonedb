@@ -1,10 +1,6 @@
 {
 	"domain": "ly",
 	"infoURL": "https://nic.ly/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.ly",
 	"nameServers": [
 		"dns.lttnet.net",
@@ -12,6 +8,10 @@
 		"ns-ly.afrinic.net",
 		"pch.ltt.ly",
 		"phloem.uoregon.edu"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

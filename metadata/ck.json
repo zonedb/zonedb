@@ -1,17 +1,17 @@
 {
 	"domain": "ck",
 	"infoURL": "http://www.oyster.net.ck/about/index.php?about=domain",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.ck-nic.org.ck",
 	"nameServers": [
 		"circa.mcs.vuw.ac.nz",
 		"downstage.mcs.vuw.ac.nz",
 		"parau.oyster.net.ck",
 		"poiparau.oyster.net.ck"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,15 +1,15 @@
 {
 	"domain": "cv",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.dns.cv/",
 	"nameServers": [
 		"c.dns.pt",
 		"cv01.dns.pt",
 		"ns-ext.isc.org",
 		"ns.dns.cv"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

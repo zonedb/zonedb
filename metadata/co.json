@@ -1,11 +1,6 @@
 {
 	"domain": "co",
 	"infoURL": "https://www.go.co/",
-	"tags": [
-		"country",
-		"generic",
-		"geo"
-	],
 	"whoisServer": "whois.nic.co",
 	"nameServers": [
 		"ns1.cctld.co",
@@ -14,6 +9,11 @@
 		"ns4.cctld.co",
 		"ns5.cctld.co",
 		"ns6.cctld.co"
+	],
+	"tags": [
+		"country",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

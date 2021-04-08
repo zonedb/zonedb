@@ -1,15 +1,15 @@
 {
 	"domain": "za",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.za",
 	"nameServers": [
 		"nsza.is.co.za",
 		"za-ns.anycast.pch.net",
 		"za1.dnsnode.net"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

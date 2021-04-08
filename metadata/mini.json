@@ -1,16 +1,16 @@
 {
 	"domain": "mini",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.mini",
 	"nameServers": [
 		"a.nic.mini",
 		"b.nic.mini",
 		"c.nic.mini",
 		"d.nic.mini"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

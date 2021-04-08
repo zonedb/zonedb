@@ -1,16 +1,16 @@
 {
 	"domain": "sandvik",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.sandvik",
 	"nameServers": [
 		"a.nic.sandvik",
 		"b.nic.sandvik",
 		"c.nic.sandvik",
 		"d.nic.sandvik"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

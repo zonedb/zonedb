@@ -1,16 +1,16 @@
 {
 	"domain": "latrobe",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.latrobe",
 	"nameServers": [
 		"a.nic.latrobe",
 		"b.nic.latrobe",
 		"c.nic.latrobe",
 		"d.nic.latrobe"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

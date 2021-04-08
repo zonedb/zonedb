@@ -1,11 +1,11 @@
 {
 	"domain": "warman",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.warman",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.warman",
 	"policies": [
 		{
 			"type": "idn-disallowed"

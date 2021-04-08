@@ -1,9 +1,6 @@
 {
 	"domain": "secure",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.secure",
 	"nameServers": [
 		"dns1.nic.secure",
@@ -14,6 +11,9 @@
 		"dnsb.nic.secure",
 		"dnsc.nic.secure",
 		"dnsd.nic.secure"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "prime",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.prime",
 	"nameServers": [
 		"dns1.nic.prime",
@@ -15,6 +11,10 @@
 		"dnsb.nic.prime",
 		"dnsc.nic.prime",
 		"dnsd.nic.prime"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

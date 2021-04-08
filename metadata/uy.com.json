@@ -1,11 +1,11 @@
 {
 	"domain": "uy.com",
-	"tags": [
-		"private"
-	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns49.domaincontrol.com",
 		"ns50.domaincontrol.com"
+	],
+	"tags": [
+		"private"
 	]
 }

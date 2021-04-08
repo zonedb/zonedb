@@ -1,9 +1,5 @@
 {
 	"domain": "jp",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.jprs.jp",
 	"nameServers": [
 		"a.dns.jp",
@@ -14,6 +10,10 @@
 		"f.dns.jp",
 		"g.dns.jp",
 		"h.dns.jp"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "travelers",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.travelers",
 		"a2.nic.travelers",
 		"b0.nic.travelers",
 		"c0.nic.travelers"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

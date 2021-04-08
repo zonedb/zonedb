@@ -1,9 +1,5 @@
 {
 	"domain": "sk",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.sk-nic.sk",
 	"nameServers": [
 		"a.tld.sk",
@@ -13,6 +9,10 @@
 		"f.tld.sk",
 		"g.tld.sk",
 		"h.tld.sk"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

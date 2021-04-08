@@ -1,10 +1,6 @@
 {
 	"domain": "qvc",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.qvc",
 	"nameServers": [
 		"ns1.dns.nic.qvc",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.qvc",
 		"ns5.dns.nic.qvc",
 		"ns6.dns.nic.qvc"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

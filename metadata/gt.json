@@ -1,9 +1,5 @@
 {
 	"domain": "gt",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.gt/",
 	"nameServers": [
 		"a.lactld.org",
@@ -12,6 +8,10 @@
 		"ns.dns.br",
 		"pch.gt",
 		"ssdns-tld.nic.cl"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

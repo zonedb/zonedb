@@ -1,9 +1,5 @@
 {
 	"domain": "uz",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.cctld.uz",
 	"nameServers": [
 		"ns1.uz",
@@ -13,6 +9,10 @@
 		"ns5.uz",
 		"ns6.uz",
 		"ns7.uz"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

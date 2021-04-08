@@ -1,8 +1,5 @@
 {
 	"domain": "مليسيا",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.mynic.my",
 	"nameServers": [
 		"a.mynic.centralnic-dns.com",
@@ -11,5 +8,8 @@
 		"b.mynic.centralnic-dns.com",
 		"c.mynic.centralnic-dns.com",
 		"d.mynic.centralnic-dns.com"
+	],
+	"tags": [
+		"generic"
 	]
 }

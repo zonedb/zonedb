@@ -1,9 +1,5 @@
 {
 	"domain": "uy",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.org.uy",
 	"nameServers": [
 		"a.lactld.org",
@@ -14,6 +10,10 @@
 		"ns1.anteldata.com.uy",
 		"ns2.anteldata.com.uy",
 		"ns3.nic.mx"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

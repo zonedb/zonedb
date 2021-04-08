@@ -1,9 +1,6 @@
 {
 	"domain": "win",
 	"infoURL": "https://www.famousfourmedia.com/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.win",
 	"nameServers": [
 		"ns1.dns.nic.win",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.win",
 		"ns5.dns.nic.win",
 		"ns6.dns.nic.win"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

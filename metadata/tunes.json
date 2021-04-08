@@ -1,10 +1,6 @@
 {
 	"domain": "tunes",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"closed",
-		"generic"
-	],
 	"whoisServer": "whois.nic.tunes",
 	"nameServers": [
 		"dns1.nic.tunes",
@@ -15,6 +11,10 @@
 		"dnsb.nic.tunes",
 		"dnsc.nic.tunes",
 		"dnsd.nic.tunes"
+	],
+	"tags": [
+		"closed",
+		"generic"
 	],
 	"policies": [
 		{

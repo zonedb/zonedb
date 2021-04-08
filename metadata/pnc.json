@@ -1,16 +1,16 @@
 {
 	"domain": "pnc",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.pnc",
 	"nameServers": [
 		"a0.nic.pnc",
 		"a2.nic.pnc",
 		"b0.nic.pnc",
 		"c0.nic.pnc"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

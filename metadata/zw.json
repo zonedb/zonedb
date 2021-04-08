@@ -1,9 +1,5 @@
 {
 	"domain": "zw",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.zispa.org.zw/",
 	"nameServers": [
 		"ns1.liquidtelecom.net",
@@ -11,6 +7,10 @@
 		"ns2.liquidtelecom.net",
 		"ns2zim.telone.co.zw",
 		"zw-ns.anycast.pch.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

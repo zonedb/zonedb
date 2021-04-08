@@ -1,9 +1,6 @@
 {
 	"domain": "coupon",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.coupon",
 	"nameServers": [
 		"ns1.dns.nic.coupon",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.coupon",
 		"ns5.dns.nic.coupon",
 		"ns6.dns.nic.coupon"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

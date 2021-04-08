@@ -1,14 +1,14 @@
 {
 	"domain": "cf",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.dot.cf",
 	"nameServers": [
 		"a.ns.cf",
 		"b.ns.cf",
 		"c.ns.cf",
 		"d.ns.cf"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

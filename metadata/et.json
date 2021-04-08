@@ -1,13 +1,13 @@
 {
 	"domain": "et",
 	"infoURL": "http://www.ethionet.et/?q=ipservicedomainname",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"a.nic.et",
 		"b.nic.et"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

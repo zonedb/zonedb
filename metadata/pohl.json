@@ -1,16 +1,16 @@
 {
 	"domain": "pohl",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.pohl",
 	"nameServers": [
 		"a.nic.pohl",
 		"b.nic.pohl",
 		"c.nic.pohl",
 		"d.nic.pohl"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

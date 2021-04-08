@@ -1,16 +1,16 @@
 {
 	"domain": "blockbuster",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.blockbuster",
 	"nameServers": [
 		"a0.nic.blockbuster",
 		"a2.nic.blockbuster",
 		"b0.nic.blockbuster",
 		"c0.nic.blockbuster"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

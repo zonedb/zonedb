@@ -1,9 +1,5 @@
 {
 	"domain": "sg",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.sgnic.sg",
 	"nameServers": [
 		"dsany.sgnic.sg",
@@ -11,5 +7,9 @@
 		"dsany3.sgnic.sg",
 		"ns4.apnic.net",
 		"pch.sgzones.sg"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

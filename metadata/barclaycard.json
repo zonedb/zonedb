@@ -1,16 +1,16 @@
 {
 	"domain": "barclaycard",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.barclaycard",
 	"nameServers": [
 		"a.nic.barclaycard",
 		"b.nic.barclaycard",
 		"c.nic.barclaycard",
 		"d.nic.barclaycard"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

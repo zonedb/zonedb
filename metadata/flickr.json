@@ -1,10 +1,6 @@
 {
 	"domain": "flickr",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.flickr",
 	"nameServers": [
 		"ns1.dns.nic.flickr",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.flickr",
 		"ns5.dns.nic.flickr",
 		"ns6.dns.nic.flickr"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

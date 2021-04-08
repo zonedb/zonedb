@@ -1,18 +1,18 @@
 {
 	"domain": "shia",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
-	"locations": [
-		"Iran"
-	],
 	"whoisServer": "whois.nic.shia",
 	"nameServers": [
 		"a.ns.nic.shia",
 		"b.ns.nic.shia",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
+	],
+	"locations": [
+		"Iran"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

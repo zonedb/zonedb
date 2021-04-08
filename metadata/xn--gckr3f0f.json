@@ -1,9 +1,6 @@
 {
 	"domain": "クラウド",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.クラウド",
 	"nameServers": [
 		"ns1.dns.nic.クラウド",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.クラウド",
 		"ns5.dns.nic.クラウド",
 		"ns6.dns.nic.クラウド"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,11 +1,6 @@
 {
 	"domain": "as",
 	"infoURL": "https://nic.as/",
-	"tags": [
-		"country",
-		"generic",
-		"geo"
-	],
 	"whoisServer": "whois.nic.as",
 	"nameServers": [
 		"ns1.asnic.biz",
@@ -14,6 +9,11 @@
 		"ns4.asnic.uk",
 		"ns5.asnic.us",
 		"pch.nic.as"
+	],
+	"tags": [
+		"country",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

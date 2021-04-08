@@ -1,12 +1,12 @@
 {
 	"domain": "nagano.jp",
-	"tags": [
-		"city",
-		"geo"
-	],
 	"locations": [
 		"Nagano",
 		"JP-20"
+	],
+	"tags": [
+		"city",
+		"geo"
 	],
 	"policies": [
 		{

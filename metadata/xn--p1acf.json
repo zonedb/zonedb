@@ -1,14 +1,14 @@
 {
 	"domain": "рус",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.рус",
 	"nameServers": [
 		"ns1.anycastdns.cz",
 		"ns1.nic.рус",
 		"ns2.anycastdns.cz",
 		"ns2.nic.рус"
+	],
+	"tags": [
+		"generic"
 	]
 }

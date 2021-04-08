@@ -1,14 +1,14 @@
 {
 	"domain": "sr",
-	"tags": [
-		"country",
-		"generic",
-		"geo"
-	],
 	"whoisURL": "http://www.register.sr/",
 	"nameServers": [
 		"ns1.sr.net",
 		"ns2.sr.net"
+	],
+	"tags": [
+		"country",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

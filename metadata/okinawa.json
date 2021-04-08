@@ -1,20 +1,20 @@
 {
 	"domain": "okinawa",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Okinawa",
-		"JP-47"
-	],
 	"whoisServer": "whois.nic.okinawa",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
+	],
+	"locations": [
+		"Okinawa",
+		"JP-47"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "cern",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.cern",
 		"a2.nic.cern",
 		"b0.nic.cern",
 		"c0.nic.cern"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

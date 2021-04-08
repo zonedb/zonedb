@@ -1,15 +1,15 @@
 {
 	"domain": "skin",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.skin",
 	"nameServers": [
 		"a.nic.skin",
 		"b.nic.skin",
 		"c.nic.skin",
 		"d.nic.skin"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

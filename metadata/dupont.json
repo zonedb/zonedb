@@ -1,10 +1,6 @@
 {
 	"domain": "dupont",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.dupont",
 	"nameServers": [
 		"ns1.dns.nic.dupont",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.dupont",
 		"ns5.dns.nic.dupont",
 		"ns6.dns.nic.dupont"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

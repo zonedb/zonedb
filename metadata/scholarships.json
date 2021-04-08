@@ -1,15 +1,15 @@
 {
 	"domain": "scholarships",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.scholarships",
 	"nameServers": [
 		"a0.nic.scholarships",
 		"a2.nic.scholarships",
 		"b0.nic.scholarships",
 		"c0.nic.scholarships"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

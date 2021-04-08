@@ -1,15 +1,15 @@
 {
 	"domain": "build",
 	"infoURL": "https://about.build/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.build",
 	"nameServers": [
 		"a.nic.build",
 		"b.nic.build",
 		"c.nic.build",
 		"d.nic.build"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

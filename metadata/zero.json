@@ -1,9 +1,6 @@
 {
 	"domain": "zero",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.zero",
 	"nameServers": [
 		"ns1.dns.nic.zero",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.zero",
 		"ns5.dns.nic.zero",
 		"ns6.dns.nic.zero"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

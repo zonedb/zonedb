@@ -1,15 +1,15 @@
 {
 	"domain": "cancerresearch",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.cancerresearch",
 	"nameServers": [
 		"a.nic.cancerresearch",
 		"b.nic.cancerresearch",
 		"c.nic.cancerresearch",
 		"d.nic.cancerresearch"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

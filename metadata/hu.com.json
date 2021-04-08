@@ -1,11 +1,11 @@
 {
 	"domain": "hu.com",
-	"tags": [
-		"private"
-	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns3.dns.com",
 		"ns4.dns.com"
+	],
+	"tags": [
+		"private"
 	]
 }

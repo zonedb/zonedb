@@ -1,10 +1,5 @@
 {
 	"domain": "cy",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.nic.cy/nslookup/online_database.php",
 	"nameServers": [
 		"cy-ns.anycast.pch.net",
@@ -15,6 +10,11 @@
 		"ns02.savvis.net",
 		"ns31.rcode0.net",
 		"ns4.apnic.net"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

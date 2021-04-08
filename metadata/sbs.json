@@ -1,16 +1,16 @@
 {
 	"domain": "sbs",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.sbs",
 	"nameServers": [
 		"a.nic.sbs",
 		"b.nic.sbs",
 		"c.nic.sbs",
 		"d.nic.sbs"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

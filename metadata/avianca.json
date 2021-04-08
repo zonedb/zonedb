@@ -1,16 +1,16 @@
 {
 	"domain": "avianca",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.avianca",
 		"a2.nic.avianca",
 		"b0.nic.avianca",
 		"c0.nic.avianca"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

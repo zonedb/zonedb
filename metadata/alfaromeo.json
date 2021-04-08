@@ -1,16 +1,16 @@
 {
 	"domain": "alfaromeo",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.alfaromeo",
 		"a2.nic.alfaromeo",
 		"b0.nic.alfaromeo",
 		"c0.nic.alfaromeo"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

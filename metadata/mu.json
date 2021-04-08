@@ -1,15 +1,15 @@
 {
 	"domain": "mu",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.mu",
 	"nameServers": [
 		"anycast1.irondns.net",
 		"fork.sth.dnsnode.net",
 		"udns1.tld.mu",
 		"udns2.tld.mu"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

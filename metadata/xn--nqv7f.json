@@ -1,15 +1,15 @@
 {
 	"domain": "机构",
 	"infoURL": "https://pir.org/products/chinese2char-domain/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.publicinterestregistry.net",
 	"nameServers": [
 		"a0.nic.机构",
 		"a2.nic.机构",
 		"b0.nic.机构",
 		"c0.nic.机构"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

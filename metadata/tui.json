@@ -1,16 +1,16 @@
 {
 	"domain": "tui",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.tui",
 	"nameServers": [
 		"a.nic.tui",
 		"b.nic.tui",
 		"c.nic.tui",
 		"d.nic.tui"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

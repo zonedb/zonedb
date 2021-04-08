@@ -1,9 +1,6 @@
 {
 	"domain": "fashion",
 	"infoURL": "http://nic.fashion/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.fashion",
 	"nameServers": [
 		"dns1.nic.fashion",
@@ -14,6 +11,9 @@
 		"dnsb.nic.fashion",
 		"dnsc.nic.fashion",
 		"dnsd.nic.fashion"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

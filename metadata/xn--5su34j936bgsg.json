@@ -1,15 +1,15 @@
 {
 	"domain": "香格里拉",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.香格里拉",
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",
 		"ac3.nstld.com",
 		"ac4.nstld.com"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

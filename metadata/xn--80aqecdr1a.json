@@ -1,14 +1,14 @@
 {
 	"domain": "католик",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.католик",
 	"nameServers": [
 		"a.nic.католик",
 		"b.nic.католик",
 		"c.nic.католик",
 		"d.nic.католик"
+	],
+	"tags": [
+		"generic"
 	]
 }

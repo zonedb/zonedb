@@ -1,10 +1,6 @@
 {
 	"domain": "ie",
 	"infoURL": "https://www.iedr.ie/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.weare.ie",
 	"nameServers": [
 		"b.ns.ie",
@@ -13,6 +9,10 @@
 		"g.ns.ie",
 		"h.ns.ie",
 		"i.ns.ie"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

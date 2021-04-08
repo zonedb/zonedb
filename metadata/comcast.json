@@ -1,10 +1,6 @@
 {
 	"domain": "comcast",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.comcast",
 	"nameServers": [
 		"dns1.nic.comcast",
@@ -15,6 +11,10 @@
 		"dnsb.nic.comcast",
 		"dnsc.nic.comcast",
 		"dnsd.nic.comcast"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "pr",
 	"infoURL": "https://domains.pr/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a.lactld.org",
@@ -15,5 +11,9 @@
 		"c0.pr.afilias-nst.info",
 		"d0.pr.afilias-nst.org",
 		"pr-dns.denic.de"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

@@ -1,15 +1,15 @@
 {
 	"domain": "autos",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.autos",
 	"nameServers": [
 		"a.nic.autos",
 		"b.nic.autos",
 		"c.nic.autos",
 		"d.nic.autos"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

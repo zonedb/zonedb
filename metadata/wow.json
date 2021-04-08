@@ -1,9 +1,6 @@
 {
 	"domain": "wow",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.wow",
 	"nameServers": [
 		"dns1.nic.wow",
@@ -14,6 +11,9 @@
 		"dnsb.nic.wow",
 		"dnsc.nic.wow",
 		"dnsd.nic.wow"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

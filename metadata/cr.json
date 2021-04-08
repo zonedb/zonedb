@@ -1,10 +1,6 @@
 {
 	"domain": "cr",
 	"infoURL": "https://www.nic.cr/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.cr",
 	"nameServers": [
 		"a.lactld.org",
@@ -13,6 +9,10 @@
 		"de.nic.cr",
 		"dns.nic.cr",
 		"p.nic.cr"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,9 +1,5 @@
 {
 	"domain": "rs",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.rnids.rs",
 	"nameServers": [
 		"a.nic.rs",
@@ -12,6 +8,10 @@
 		"g.nic.rs",
 		"h.nic.rs",
 		"l.nic.rs"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

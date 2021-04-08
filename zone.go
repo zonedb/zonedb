@@ -37,9 +37,11 @@ type Zone struct {
 	// Slice of subdomain (child) Zones (nil if empty)
 	Subdomains []Zone
 
-	// CodePoints is deprecated and IDNTables has been removed. We searched for public code
-	// on GitHub that imported the zonedb package and found no packages using these symbols.
-	// CodePoints []rune
+	// Tags stored as an integer bit field
+	Tags Tags
+
+	// Informational URL for this Zone
+	InfoURL string
 
 	// DNS name servers for the Zone
 	NameServers []string
@@ -59,12 +61,6 @@ type Zone struct {
 
 	// URL to look up whois info for a subdomain of this Zone
 	whoisURL string
-
-	// Informational URL for this Zone
-	InfoURL string
-
-	// Tags stored as an integer bit field
-	Tags Tags
 
 	// Transitional: does the zone operator allow registration of non-ASCII subdomains?
 	allowsIDN bool

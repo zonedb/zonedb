@@ -1,9 +1,6 @@
 {
 	"domain": "webcam",
 	"infoURL": "https://www.famousfourmedia.com/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.webcam",
 	"nameServers": [
 		"ns1.dns.nic.webcam",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.webcam",
 		"ns5.dns.nic.webcam",
 		"ns6.dns.nic.webcam"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

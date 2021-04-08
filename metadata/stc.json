@@ -1,16 +1,16 @@
 {
 	"domain": "stc",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.stc",
 	"nameServers": [
 		"a.nic.stc",
 		"b.nic.stc",
 		"c.nic.stc",
 		"d.nic.stc"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

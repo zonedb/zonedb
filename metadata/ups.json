@@ -1,16 +1,16 @@
 {
 	"domain": "ups",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.ups",
 	"nameServers": [
 		"a0.nic.ups",
 		"a2.nic.ups",
 		"b0.nic.ups",
 		"c0.nic.ups"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

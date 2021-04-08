@@ -1,11 +1,11 @@
 {
 	"domain": "symantec",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.symantec",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.symantec",
 	"policies": [
 		{
 			"type": "idn-table",

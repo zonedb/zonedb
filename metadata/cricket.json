@@ -1,9 +1,6 @@
 {
 	"domain": "cricket",
 	"infoURL": "https://www.famousfourmedia.com/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.cricket",
 	"nameServers": [
 		"ns1.dns.nic.cricket",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.cricket",
 		"ns5.dns.nic.cricket",
 		"ns6.dns.nic.cricket"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

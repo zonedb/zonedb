@@ -1,21 +1,21 @@
 {
 	"domain": "moscow",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Moscow",
-		"RU-MOW"
-	],
 	"whoisServer": "whois.nic.moscow",
 	"nameServers": [
 		"a.dns.flexireg.ru",
 		"b.dns.flexireg.net",
 		"c.dns.flexireg.org",
 		"d.dns.flexireg.domains"
+	],
+	"locations": [
+		"Moscow",
+		"RU-MOW"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,9 +1,5 @@
 {
 	"domain": "pl",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.dns.pl",
 	"nameServers": [
 		"a-dns.pl",
@@ -15,6 +11,10 @@
 		"g-dns.pl",
 		"h-dns.pl",
 		"i-dns.pl"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "asia",
 	"infoURL": "https://www.dot.asia/",
-	"tags": [
-		"generic",
-		"sponsored"
-	],
 	"whoisServer": "whois.nic.asia",
 	"nameServers": [
 		"a0.asia.afilias-nst.info",
@@ -13,6 +9,10 @@
 		"b2.asia.afilias-nst.org",
 		"c0.asia.afilias-nst.info",
 		"d0.asia.afilias-nst.asia"
+	],
+	"tags": [
+		"generic",
+		"sponsored"
 	],
 	"policies": [
 		{

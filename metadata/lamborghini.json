@@ -1,16 +1,16 @@
 {
 	"domain": "lamborghini",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.lamborghini",
 		"a2.nic.lamborghini",
 		"b0.nic.lamborghini",
 		"c0.nic.lamborghini"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

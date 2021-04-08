@@ -1,16 +1,16 @@
 {
 	"domain": "ott",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"closed",
-		"generic"
-	],
 	"whoisServer": "whois.nic.ott",
 	"nameServers": [
 		"a0.nic.ott",
 		"a2.nic.ott",
 		"b0.nic.ott",
 		"c0.nic.ott"
+	],
+	"tags": [
+		"closed",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,15 +1,15 @@
 {
 	"domain": "nr",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.cenpac.net.nr/dns/whois.html",
 	"nameServers": [
 		"ns0.cenpac.net.nr",
 		"ns1.cenpac.net.nr",
 		"ns2.cenpac.net.nr",
 		"phloem.uoregon.edu"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

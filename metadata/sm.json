@@ -1,15 +1,15 @@
 {
 	"domain": "sm",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.sm",
 	"nameServers": [
 		"dns.intelcom.sm",
 		"dns.omniway.sm",
 		"ns3.telecomitalia.sm",
 		"sm.cctld.authdns.ripe.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

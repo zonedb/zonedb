@@ -1,11 +1,11 @@
 {
 	"domain": "piaget",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.piaget",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.piaget",
 	"policies": [
 		{
 			"type": "idn-disallowed"

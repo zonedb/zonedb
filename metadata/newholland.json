@@ -1,11 +1,11 @@
 {
 	"domain": "newholland",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.newholland",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.newholland",
 	"policies": [
 		{
 			"type": "idn-disallowed"

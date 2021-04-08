@@ -1,9 +1,6 @@
 {
 	"domain": "com",
 	"infoURL": "https://www.verisign.com/en_US/domain-names/com-domain-names/index.xhtml",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.verisign-grs.com",
 	"nameServers": [
 		"a.gtld-servers.net",
@@ -19,6 +16,9 @@
 		"k.gtld-servers.net",
 		"l.gtld-servers.net",
 		"m.gtld-servers.net"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

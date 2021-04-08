@@ -1,10 +1,6 @@
 {
 	"domain": "pfizer",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.pfizer",
 	"nameServers": [
 		"ns1.dns.nic.pfizer",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.pfizer",
 		"ns5.dns.nic.pfizer",
 		"ns6.dns.nic.pfizer"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

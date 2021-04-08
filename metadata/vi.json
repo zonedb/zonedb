@@ -1,17 +1,17 @@
 {
 	"domain": "vi",
 	"infoURL": "https://secure.nic.vi/",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisURL": "https://secure.nic.vi/whois-lookup/",
 	"nameServers": [
 		"auth100.ns.uu.net",
 		"auth110.ns.uu.net",
 		"ns3.nic.vi",
 		"pch.nic.vi"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

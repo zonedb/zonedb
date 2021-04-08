@@ -1,16 +1,16 @@
 {
 	"domain": "dish",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.dish",
 	"nameServers": [
 		"a0.nic.dish",
 		"a2.nic.dish",
 		"b0.nic.dish",
 		"c0.nic.dish"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

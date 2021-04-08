@@ -1,8 +1,5 @@
 {
 	"domain": "تونس",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.ati.tn",
 	"nameServers": [
 		"ns-tn.afrinic.net",
@@ -11,5 +8,8 @@
 		"ns2.nic.fr",
 		"pch.ati.tn",
 		"rip.psg.com"
+	],
+	"tags": [
+		"generic"
 	]
 }

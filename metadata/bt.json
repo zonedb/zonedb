@@ -1,9 +1,5 @@
 {
 	"domain": "bt",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.nic.bt/",
 	"nameServers": [
 		"auth00.ns.uu.net",
@@ -13,6 +9,10 @@
 		"ns2.druknet.bt",
 		"ns3.druknet.bt",
 		"phloem.uoregon.edu"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

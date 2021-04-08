@@ -1,10 +1,6 @@
 {
 	"domain": "ferrero",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.ferrero",
 	"nameServers": [
 		"ns1.dns.nic.ferrero",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.ferrero",
 		"ns5.dns.nic.ferrero",
 		"ns6.dns.nic.ferrero"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

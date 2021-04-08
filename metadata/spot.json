@@ -1,9 +1,6 @@
 {
 	"domain": "spot",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.spot",
 	"nameServers": [
 		"dns1.nic.spot",
@@ -14,6 +11,9 @@
 		"dnsb.nic.spot",
 		"dnsc.nic.spot",
 		"dnsd.nic.spot"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

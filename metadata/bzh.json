@@ -1,19 +1,19 @@
 {
 	"domain": "bzh",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic",
-		"geo",
-		"region"
-	],
-	"locations": [
-		"FR-E"
-	],
 	"whoisServer": "whois.nic.bzh",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
+	],
+	"locations": [
+		"FR-E"
+	],
+	"tags": [
+		"generic",
+		"geo",
+		"region"
 	],
 	"policies": [
 		{

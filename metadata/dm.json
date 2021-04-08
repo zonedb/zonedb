@@ -1,14 +1,14 @@
 {
 	"domain": "dm",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.dm",
 	"nameServers": [
 		"ns.blacknightsolutions.com",
 		"ns2.blacknightsolutions.com",
 		"ns2.nic.dm",
 		"ns34.cdns.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

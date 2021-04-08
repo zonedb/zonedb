@@ -1,16 +1,16 @@
 {
 	"domain": "ai",
 	"infoURL": "http://nic.com.ai/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.ai",
 	"nameServers": [
 		"a.lactld.org",
 		"anycastdns1-cz.nic.ai",
 		"anycastdns2-cz.nic.ai",
 		"pch.whois.ai"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

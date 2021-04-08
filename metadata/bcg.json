@@ -1,16 +1,16 @@
 {
 	"domain": "bcg",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.bcg",
 	"nameServers": [
 		"a0.nic.bcg",
 		"a2.nic.bcg",
 		"b0.nic.bcg",
 		"c0.nic.bcg"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

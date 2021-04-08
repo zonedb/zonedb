@@ -1,13 +1,13 @@
 {
 	"domain": "mh",
+	"nameServers": [
+		"ns.amarshallinc.com",
+		"ns.ntamar.net"
+	],
 	"tags": [
 		"closed",
 		"country",
 		"geo"
-	],
-	"nameServers": [
-		"ns.amarshallinc.com",
-		"ns.ntamar.net"
 	],
 	"policies": [
 		{

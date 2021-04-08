@@ -1,16 +1,16 @@
 {
 	"domain": "reit",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"community",
-		"generic"
-	],
 	"whoisServer": "whois.nic.reit",
 	"nameServers": [
 		"a.nic.reit",
 		"b.nic.reit",
 		"c.nic.reit",
 		"d.nic.reit"
+	],
+	"tags": [
+		"community",
+		"generic"
 	],
 	"policies": [
 		{

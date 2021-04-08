@@ -1,16 +1,16 @@
 {
 	"domain": "ua",
 	"infoURL": "http://www.nic.net.ua/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.ua",
 	"nameServers": [
 		"cd1.ns.ua",
 		"ho1.ns.ua",
 		"in1.ns.ua",
 		"pch.ns.ua"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

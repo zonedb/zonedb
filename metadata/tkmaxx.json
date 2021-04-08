@@ -1,10 +1,6 @@
 {
 	"domain": "tkmaxx",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.tkmaxx",
 	"nameServers": [
 		"ns1.dns.nic.tkmaxx",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.tkmaxx",
 		"ns5.dns.nic.tkmaxx",
 		"ns6.dns.nic.tkmaxx"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

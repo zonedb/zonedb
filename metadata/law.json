@@ -1,9 +1,6 @@
 {
 	"domain": "law",
 	"infoURL": "https://nic.law/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.law",
 	"nameServers": [
 		"dns1.nic.law",
@@ -14,6 +11,9 @@
 		"dnsb.nic.law",
 		"dnsc.nic.law",
 		"dnsd.nic.law"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

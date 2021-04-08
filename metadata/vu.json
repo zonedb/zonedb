@@ -1,15 +1,15 @@
 {
 	"domain": "vu",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.dnrs.neustar",
 	"nameServers": [
 		"ns1.neustar.vu",
 		"ns2.neustar.vu",
 		"ns3.neustar.vu",
 		"ns4.neustar.vu"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

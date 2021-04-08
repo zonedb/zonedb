@@ -1,10 +1,6 @@
 {
 	"domain": "aetna",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.aetna",
 	"nameServers": [
 		"ns1.dns.nic.aetna",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.aetna",
 		"ns5.dns.nic.aetna",
 		"ns6.dns.nic.aetna"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "ge",
 	"infoURL": "https://nic.ge/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.ge",
 	"nameServers": [
 		"ge.hostmaster.ua",
@@ -12,6 +8,10 @@
 		"ns.uu.net",
 		"ns2.nic.fr",
 		"ns2.nic.ge"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

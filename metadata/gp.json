@@ -1,10 +1,6 @@
 {
 	"domain": "gp",
 	"infoURL": "https://www.nic.gp/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.gp",
 	"nameServers": [
 		"a.lactld.org",
@@ -12,6 +8,10 @@
 		"ns-gp.nic.fr",
 		"ns1.nic.gp",
 		"ns2.nic.gp"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

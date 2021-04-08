@@ -1,10 +1,6 @@
 {
 	"domain": "citi",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.citi",
 	"nameServers": [
 		"ns1.dns.nic.citi",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.citi",
 		"ns5.dns.nic.citi",
 		"ns6.dns.nic.citi"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

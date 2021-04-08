@@ -1,17 +1,17 @@
 {
 	"domain": "joburg",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Johannesburg"
-	],
 	"whoisServer": "joburg-whois.registry.net.za",
 	"nameServers": [
 		"coza1.dnsnode.net",
 		"ns.coza.net.za",
 		"ns2us.dns.business"
+	],
+	"locations": [
+		"Johannesburg"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	]
 }

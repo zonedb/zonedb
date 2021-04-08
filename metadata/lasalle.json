@@ -1,16 +1,16 @@
 {
 	"domain": "lasalle",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.lasalle",
 		"a2.nic.lasalle",
 		"b0.nic.lasalle",
 		"c0.nic.lasalle"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,14 +1,14 @@
 {
 	"domain": "组织机构",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.组织机构",
 	"nameServers": [
 		"a0.nic.组织机构",
 		"a2.nic.组织机构",
 		"b0.nic.组织机构",
 		"c0.nic.组织机构"
+	],
+	"tags": [
+		"generic"
 	]
 }

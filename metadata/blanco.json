@@ -1,10 +1,10 @@
 {
 	"domain": "blanco",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.blanco",
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.nic.blanco",
 	"policies": [
 		{
 			"type": "idn-table",

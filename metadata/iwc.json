@@ -1,11 +1,11 @@
 {
 	"domain": "iwc",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.iwc",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.iwc",
 	"policies": [
 		{
 			"type": "idn-disallowed"

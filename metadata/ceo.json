@@ -1,14 +1,14 @@
 {
 	"domain": "ceo",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.ceo",
 	"nameServers": [
 		"a.nic.ceo",
 		"b.nic.ceo",
 		"c.nic.ceo",
 		"d.nic.ceo"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

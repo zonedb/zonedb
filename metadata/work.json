@@ -1,9 +1,6 @@
 {
 	"domain": "work",
 	"infoURL": "http://nic.work/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.work",
 	"nameServers": [
 		"dns1.nic.work",
@@ -14,6 +11,9 @@
 		"dnsb.nic.work",
 		"dnsc.nic.work",
 		"dnsd.nic.work"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

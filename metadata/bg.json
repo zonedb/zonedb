@@ -1,10 +1,6 @@
 {
 	"domain": "bg",
 	"infoURL": "https://www.register.bg/user/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.register.bg",
 	"nameServers": [
 		"a.nic.bg",
@@ -13,6 +9,10 @@
 		"d.nic.bg",
 		"e.nic.bg",
 		"p.nic.bg"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,9 +1,6 @@
 {
 	"domain": "dds",
 	"infoURL": "http://nic.dds/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.dds",
 	"nameServers": [
 		"dns1.nic.dds",
@@ -14,6 +11,9 @@
 		"dnsb.nic.dds",
 		"dnsc.nic.dds",
 		"dnsd.nic.dds"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

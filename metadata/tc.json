@@ -1,9 +1,5 @@
 {
 	"domain": "tc",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.tc",
 	"nameServers": [
 		"root1.zone.tc",
@@ -14,6 +10,10 @@
 		"root6.zone.tc",
 		"root7.zone.tc",
 		"root8.zone.tc"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

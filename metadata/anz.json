@@ -1,16 +1,16 @@
 {
 	"domain": "anz",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.anz",
 	"nameServers": [
 		"a.nic.anz",
 		"b.nic.anz",
 		"c.nic.anz",
 		"d.nic.anz"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

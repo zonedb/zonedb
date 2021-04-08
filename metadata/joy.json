@@ -1,9 +1,6 @@
 {
 	"domain": "joy",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.joy",
 	"nameServers": [
 		"dns1.nic.joy",
@@ -14,6 +11,9 @@
 		"dnsb.nic.joy",
 		"dnsc.nic.joy",
 		"dnsd.nic.joy"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

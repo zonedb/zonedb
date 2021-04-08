@@ -1,16 +1,16 @@
 {
 	"domain": "vermögensberatung",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"closed",
-		"generic"
-	],
 	"whoisServer": "whois.nic.vermögensberatung",
 	"nameServers": [
 		"a.nic.vermögensberatung",
 		"b.nic.vermögensberatung",
 		"c.nic.vermögensberatung",
 		"d.nic.vermögensberatung"
+	],
+	"tags": [
+		"closed",
+		"generic"
 	],
 	"policies": [
 		{

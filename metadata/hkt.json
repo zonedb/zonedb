@@ -1,16 +1,16 @@
 {
 	"domain": "hkt",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.hkt",
 	"nameServers": [
 		"a0.nic.hkt",
 		"a2.nic.hkt",
 		"b0.nic.hkt",
 		"c0.nic.hkt"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

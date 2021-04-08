@@ -1,15 +1,15 @@
 {
 	"domain": "dhl",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"nameServers": [
 		"a.nic.dhl",
 		"b.nic.dhl",
 		"c.nic.dhl",
 		"d.nic.dhl"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

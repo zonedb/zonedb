@@ -1,9 +1,6 @@
 {
 	"domain": "lifeinsurance",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.lifeinsurance",
 	"nameServers": [
 		"ns1.dns.nic.lifeinsurance",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.lifeinsurance",
 		"ns5.dns.nic.lifeinsurance",
 		"ns6.dns.nic.lifeinsurance"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,20 +1,20 @@
 {
 	"domain": "sydney",
 	"infoURL": "https://www.iconic.sydney/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Sydney"
-	],
 	"whoisServer": "whois.nic.sydney",
 	"nameServers": [
 		"a.nic.sydney",
 		"b.nic.sydney",
 		"c.nic.sydney",
 		"d.nic.sydney"
+	],
+	"locations": [
+		"Sydney"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

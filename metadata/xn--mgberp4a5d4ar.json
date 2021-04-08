@@ -1,12 +1,5 @@
 {
 	"domain": "السعودية",
-	"languages": [
-		"ar-SA"
-	],
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.net.sa",
 	"nameServers": [
 		"c1.dns.sa",
@@ -16,6 +9,13 @@
 		"p1.dns.sa",
 		"s1.dns.sa",
 		"s2.dns.sa"
+	],
+	"languages": [
+		"ar-SA"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,9 +1,6 @@
 {
 	"domain": "rodeo",
 	"infoURL": "http://nic.rodeo/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.rodeo",
 	"nameServers": [
 		"dns1.nic.rodeo",
@@ -14,6 +11,9 @@
 		"dnsb.nic.rodeo",
 		"dnsc.nic.rodeo",
 		"dnsd.nic.rodeo"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

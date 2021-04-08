@@ -1,15 +1,15 @@
 {
 	"domain": "giving",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.giving",
 	"nameServers": [
 		"a.nic.giving",
 		"b.nic.giving",
 		"c.nic.giving",
 		"d.nic.giving"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

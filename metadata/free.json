@@ -1,9 +1,6 @@
 {
 	"domain": "free",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.free",
 	"nameServers": [
 		"dns1.nic.free",
@@ -14,6 +11,9 @@
 		"dnsb.nic.free",
 		"dnsc.nic.free",
 		"dnsd.nic.free"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

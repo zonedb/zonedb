@@ -1,13 +1,13 @@
 {
 	"domain": "az",
 	"infoURL": "https://www.nic.az/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"az.hostmaster.ua",
 		"rip.psg.com"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

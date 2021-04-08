@@ -1,10 +1,5 @@
 {
 	"domain": "ve",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.ve",
 	"nameServers": [
 		"ns3.nic.ve",
@@ -12,6 +7,11 @@
 		"ns5.nic.ve",
 		"ns6.nic.ve",
 		"ssdns-tld.nic.cl"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

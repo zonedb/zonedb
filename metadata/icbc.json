@@ -1,16 +1,16 @@
 {
 	"domain": "icbc",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.icbc",
 	"nameServers": [
 		"a0.nic.icbc",
 		"a2.nic.icbc",
 		"b0.nic.icbc",
 		"c0.nic.icbc"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

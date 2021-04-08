@@ -1,9 +1,6 @@
 {
 	"domain": "safety",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.safety",
 	"nameServers": [
 		"ns1.dns.nic.safety",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.safety",
 		"ns5.dns.nic.safety",
 		"ns6.dns.nic.safety"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

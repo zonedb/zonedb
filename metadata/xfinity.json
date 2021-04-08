@@ -1,10 +1,6 @@
 {
 	"domain": "xfinity",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.xfinity",
 	"nameServers": [
 		"dns1.nic.xfinity",
@@ -15,6 +11,10 @@
 		"dnsb.nic.xfinity",
 		"dnsc.nic.xfinity",
 		"dnsd.nic.xfinity"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

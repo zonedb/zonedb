@@ -1,16 +1,16 @@
 {
 	"domain": "fresenius",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.fresenius",
 	"nameServers": [
 		"a.nic.fresenius",
 		"b.nic.fresenius",
 		"c.nic.fresenius",
 		"d.nic.fresenius"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

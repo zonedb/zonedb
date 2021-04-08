@@ -1,15 +1,15 @@
 {
 	"domain": "ca",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.cira.ca",
 	"nameServers": [
 		"any.ca-servers.ca",
 		"c.ca-servers.ca",
 		"j.ca-servers.ca",
 		"x.ca-servers.ca"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

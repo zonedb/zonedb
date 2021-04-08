@@ -1,10 +1,6 @@
 {
 	"domain": "ieee",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.ieee",
 	"nameServers": [
 		"ns1.dns.nic.ieee",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.ieee",
 		"ns5.dns.nic.ieee",
 		"ns6.dns.nic.ieee"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

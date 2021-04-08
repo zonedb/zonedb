@@ -1,10 +1,6 @@
 {
 	"domain": "got",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.got",
 	"nameServers": [
 		"dns1.nic.got",
@@ -15,6 +11,10 @@
 		"dnsb.nic.got",
 		"dnsc.nic.got",
 		"dnsd.nic.got"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

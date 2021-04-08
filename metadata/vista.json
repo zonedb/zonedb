@@ -1,11 +1,11 @@
 {
 	"domain": "vista",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.vista",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.vista",
 	"policies": [
 		{
 			"type": "idn-disallowed"

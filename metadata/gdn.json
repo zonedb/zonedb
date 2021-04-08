@@ -1,15 +1,15 @@
 {
 	"domain": "gdn",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.gdn",
 	"nameServers": [
 		"ns1.nic.gdn",
 		"ns3.nic.gdn",
 		"ns4.nic.gdn"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,8 +1,5 @@
 {
 	"domain": "gr.com",
-	"tags": [
-		"private"
-	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns1.centralnic.net",
@@ -12,6 +9,9 @@
 	],
 	"wildcards": [
 		"72.34.38.11"
+	],
+	"tags": [
+		"private"
 	],
 	"policies": [
 		{

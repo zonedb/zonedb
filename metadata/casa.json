@@ -1,9 +1,6 @@
 {
 	"domain": "casa",
 	"infoURL": "http://nic.casa/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.casa",
 	"nameServers": [
 		"dns1.nic.casa",
@@ -14,6 +11,9 @@
 		"dnsb.nic.casa",
 		"dnsc.nic.casa",
 		"dnsd.nic.casa"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

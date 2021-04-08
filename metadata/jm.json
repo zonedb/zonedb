@@ -1,16 +1,16 @@
 {
 	"domain": "jm",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"jm.cctld.authdns.ripe.net",
 		"ns.jm",
 		"ns.utechjamaica.edu.jm",
 		"ns3-jm.fsl.org.jm",
 		"phloem.uoregon.edu"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

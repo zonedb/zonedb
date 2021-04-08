@@ -1,15 +1,15 @@
 {
 	"domain": "men",
 	"infoURL": "https://www.famousfourmedia.com/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.men",
 	"nameServers": [
 		"a.nic.men",
 		"b.nic.men",
 		"c.nic.men",
 		"d.nic.men"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

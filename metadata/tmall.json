@@ -1,10 +1,6 @@
 {
 	"domain": "tmall",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.tmall",
 	"nameServers": [
 		"ns1.dns.nic.tmall",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.tmall",
 		"ns5.dns.nic.tmall",
 		"ns6.dns.nic.tmall"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,9 +1,5 @@
 {
 	"domain": "bi",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois1.nic.bi",
 	"nameServers": [
 		"anyns.nic.bi",
@@ -11,6 +7,10 @@
 		"ns-bi.afrinic.net",
 		"ns.nic.bi",
 		"ns1.nic.bi"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

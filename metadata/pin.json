@@ -1,10 +1,6 @@
 {
 	"domain": "pin",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"closed",
-		"generic"
-	],
 	"whoisServer": "whois.nic.pin",
 	"nameServers": [
 		"dns1.nic.pin",
@@ -15,6 +11,10 @@
 		"dnsb.nic.pin",
 		"dnsc.nic.pin",
 		"dnsd.nic.pin"
+	],
+	"tags": [
+		"closed",
+		"generic"
 	],
 	"policies": [
 		{

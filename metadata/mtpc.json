@@ -1,12 +1,12 @@
 {
 	"domain": "mtpc",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.mtpc",
 	"tags": [
 		"brand",
 		"generic",
 		"withdrawn"
 	],
-	"whoisServer": "whois.nic.mtpc",
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -1,10 +1,6 @@
 {
 	"domain": "office",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.office",
 	"nameServers": [
 		"ns1.dns.nic.office",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.office",
 		"ns5.dns.nic.office",
 		"ns6.dns.nic.office"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

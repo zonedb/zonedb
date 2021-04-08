@@ -1,15 +1,15 @@
 {
 	"domain": "hm",
 	"infoURL": "http://www.registry.hm/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.registry.hm",
 	"nameServers": [
 		"ns1.registry.hm",
 		"ns2.registry.hm",
 		"ns3.registry.hm"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

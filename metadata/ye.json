@@ -1,15 +1,15 @@
 {
 	"domain": "ye",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"ns1.yemen.net.ye",
 		"ns2.yemen.net.ye",
 		"sah1.ye",
 		"sah2.ye"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

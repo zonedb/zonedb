@@ -1,16 +1,16 @@
 {
 	"domain": "smart",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.smart",
 	"nameServers": [
 		"a.nic.smart",
 		"b.nic.smart",
 		"c.nic.smart",
 		"d.nic.smart"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

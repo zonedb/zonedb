@@ -1,16 +1,16 @@
 {
 	"domain": "porn",
 	"infoURL": "https://nic.porn/",
-	"tags": [
-		"adult",
-		"generic"
-	],
 	"whoisServer": "whois.registrar.adult",
 	"nameServers": [
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns5.uniregistry.net",
 		"ns6.uniregistry.info"
+	],
+	"tags": [
+		"adult",
+		"generic"
 	],
 	"policies": [
 		{

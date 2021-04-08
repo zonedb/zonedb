@@ -1,10 +1,6 @@
 {
 	"domain": "hsbc",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.hsbc",
 	"nameServers": [
 		"ns1.dns.nic.hsbc",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.hsbc",
 		"ns5.dns.nic.hsbc",
 		"ns6.dns.nic.hsbc"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "pa",
 	"infoURL": "http://www.nic.pa/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.nic.pa/",
 	"nameServers": [
 		"dns-ext.nic.cr",
@@ -13,6 +9,10 @@
 		"ns.pa",
 		"ns2.pa",
 		"ssdns-tld.nic.cl"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

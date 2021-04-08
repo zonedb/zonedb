@@ -1,10 +1,6 @@
 {
 	"domain": "tm",
 	"infoURL": "http://nic.tm/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.tm",
 	"nameServers": [
 		"ns-a1.tm",
@@ -14,5 +10,9 @@
 		"ns-d1.tm",
 		"ns-l1.tm",
 		"ns-y1.tm"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

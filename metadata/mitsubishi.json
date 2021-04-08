@@ -1,16 +1,16 @@
 {
 	"domain": "mitsubishi",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.gmo",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

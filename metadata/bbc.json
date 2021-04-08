@@ -1,10 +1,6 @@
 {
 	"domain": "bbc",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.bbc",
 	"nameServers": [
 		"dns1.nic.bbc",
@@ -15,6 +11,10 @@
 		"dnsb.nic.bbc",
 		"dnsc.nic.bbc",
 		"dnsd.nic.bbc"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

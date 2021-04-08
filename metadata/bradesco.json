@@ -1,10 +1,6 @@
 {
 	"domain": "bradesco",
 	"infoURL": "http://nic.bradesco/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.bradesco",
 	"nameServers": [
 		"dns1.nic.bradesco",
@@ -15,6 +11,10 @@
 		"dnsb.nic.bradesco",
 		"dnsc.nic.bradesco",
 		"dnsd.nic.bradesco"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

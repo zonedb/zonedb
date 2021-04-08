@@ -1,9 +1,6 @@
 {
 	"domain": "abogado",
 	"infoURL": "http://nic.abogado/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.abogado",
 	"nameServers": [
 		"dns1.nic.abogado",
@@ -14,6 +11,9 @@
 		"dnsb.nic.abogado",
 		"dnsc.nic.abogado",
 		"dnsd.nic.abogado"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,11 +1,11 @@
 {
 	"domain": "pro.uz",
-	"tags": [
-		"closed"
-	],
 	"nameServers": [
 		"ns3.uzinfocom.uz",
 		"rdns3.uzinfocom.uz"
+	],
+	"tags": [
+		"closed"
 	],
 	"policies": [
 		{

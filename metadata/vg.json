@@ -1,9 +1,5 @@
 {
 	"domain": "vg",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.vg",
 	"nameServers": [
 		"a.nic.vg",
@@ -13,6 +9,10 @@
 	],
 	"wildcards": [
 		"88.198.29.97"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

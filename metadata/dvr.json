@@ -1,16 +1,16 @@
 {
 	"domain": "dvr",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.dvr",
 	"nameServers": [
 		"a0.nic.dvr",
 		"a2.nic.dvr",
 		"b0.nic.dvr",
 		"c0.nic.dvr"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

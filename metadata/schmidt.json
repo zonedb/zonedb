@@ -1,16 +1,16 @@
 {
 	"domain": "schmidt",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.schmidt",
 	"nameServers": [
 		"a.nic.schmidt",
 		"b.nic.schmidt",
 		"c.nic.schmidt",
 		"d.nic.schmidt"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

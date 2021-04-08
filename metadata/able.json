@@ -1,10 +1,6 @@
 {
 	"domain": "able",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.able",
 	"nameServers": [
 		"ns1.dns.nic.able",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.able",
 		"ns5.dns.nic.able",
 		"ns6.dns.nic.able"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

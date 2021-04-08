@@ -1,11 +1,6 @@
 {
 	"domain": "au",
 	"infoURL": "https://www.auda.org.au/",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.auda.org.au",
 	"nameServers": [
 		"a.au",
@@ -17,6 +12,11 @@
 		"r.au",
 		"s.au",
 		"t.au"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

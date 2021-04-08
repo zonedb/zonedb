@@ -1,9 +1,5 @@
 {
 	"domain": "jo",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.dns.jo/Whois.aspx",
 	"nameServers": [
 		"amra.nic.gov.jo",
@@ -11,6 +7,10 @@
 		"jordan1st.nic.gov.jo",
 		"petra.nic.gov.jo",
 		"rip.psg.com"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,9 +1,5 @@
 {
 	"domain": "cl",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.cl",
 	"nameServers": [
 		"a.nic.cl",
@@ -13,6 +9,10 @@
 		"cl1-tld.d-zone.ca",
 		"cl1.dnsnode.net",
 		"cl2-tld.d-zone.ca"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

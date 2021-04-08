@@ -1,10 +1,5 @@
 {
 	"domain": "sc",
-	"tags": [
-		"country",
-		"generic",
-		"geo"
-	],
 	"whoisServer": "whois2.afilias-grs.net",
 	"nameServers": [
 		"a0.cctld.afilias-nst.info",
@@ -14,6 +9,11 @@
 		"c0.cctld.afilias-nst.info",
 		"d0.cctld.afilias-nst.org",
 		"ns1.nic.sc"
+	],
+	"tags": [
+		"country",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

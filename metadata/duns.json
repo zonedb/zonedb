@@ -1,11 +1,11 @@
 {
 	"domain": "duns",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.duns",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.duns",
 	"policies": [
 		{
 			"type": "idn-disallowed"

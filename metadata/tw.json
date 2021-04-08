@@ -1,9 +1,5 @@
 {
 	"domain": "tw",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.twnic.net.tw",
 	"nameServers": [
 		"a.dns.tw",
@@ -16,6 +12,10 @@
 		"g.dns.tw",
 		"h.dns.tw",
 		"ns.twnic.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

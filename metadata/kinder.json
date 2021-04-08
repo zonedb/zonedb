@@ -1,9 +1,6 @@
 {
 	"domain": "kinder",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.kinder",
 	"nameServers": [
 		"ns1.dns.nic.kinder",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.kinder",
 		"ns5.dns.nic.kinder",
 		"ns6.dns.nic.kinder"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

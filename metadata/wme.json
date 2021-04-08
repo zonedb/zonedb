@@ -1,16 +1,16 @@
 {
 	"domain": "wme",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.wme",
 	"nameServers": [
 		"a.nic.wme",
 		"b.nic.wme",
 		"c.nic.wme",
 		"d.nic.wme"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

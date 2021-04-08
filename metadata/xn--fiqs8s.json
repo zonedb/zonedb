@@ -1,9 +1,6 @@
 {
 	"domain": "中国",
 	"infoURL": "http://cnnic.cn/",
-	"languages": [
-		"zh-Hans-CN"
-	],
 	"whoisServer": "cwhois.cnnic.cn",
 	"nameServers": [
 		"h.dns.cn",
@@ -16,5 +13,8 @@
 	],
 	"wildcards": [
 		"218.241.116.40"
+	],
+	"languages": [
+		"zh-Hans-CN"
 	]
 }

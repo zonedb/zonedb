@@ -1,16 +1,16 @@
 {
 	"domain": "pwc",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.pwc",
 		"a2.nic.pwc",
 		"b0.nic.pwc",
 		"c0.nic.pwc"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

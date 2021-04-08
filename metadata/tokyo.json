@@ -1,20 +1,20 @@
 {
 	"domain": "tokyo",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Tokyo",
-		"JP-13"
-	],
 	"whoisServer": "whois.nic.tokyo",
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
+	],
+	"locations": [
+		"Tokyo",
+		"JP-13"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

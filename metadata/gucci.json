@@ -1,10 +1,6 @@
 {
 	"domain": "gucci",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.gucci",
 	"nameServers": [
 		"dns1.nic.gucci",
@@ -15,6 +11,10 @@
 		"dnsb.nic.gucci",
 		"dnsc.nic.gucci",
 		"dnsd.nic.gucci"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

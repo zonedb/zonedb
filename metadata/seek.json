@@ -1,16 +1,16 @@
 {
 	"domain": "seek",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.seek",
 	"nameServers": [
 		"a.nic.seek",
 		"b.nic.seek",
 		"c.nic.seek",
 		"d.nic.seek"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

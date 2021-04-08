@@ -1,13 +1,13 @@
 {
 	"domain": "adult.ht",
-	"tags": [
-		"adult"
-	],
 	"nameServers": [
 		"ns1.nic.ht",
 		"ns1.polymtl.ca",
 		"ns3.nic.fr",
 		"pch.nic.ht"
+	],
+	"tags": [
+		"adult"
 	],
 	"policies": [
 		{

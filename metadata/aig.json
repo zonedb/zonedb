@@ -1,10 +1,6 @@
 {
 	"domain": "aig",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.aig",
 	"nameServers": [
 		"ns1.dns.nic.aig",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.aig",
 		"ns5.dns.nic.aig",
 		"ns6.dns.nic.aig"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

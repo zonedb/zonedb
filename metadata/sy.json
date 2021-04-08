@@ -1,15 +1,15 @@
 {
 	"domain": "sy",
 	"infoURL": "http://www.ste.gov.sy/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.tld.sy",
 	"nameServers": [
 		"ns1.tld.sy",
 		"pch.anycast.tld.sy",
 		"sy.cctld.authdns.ripe.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

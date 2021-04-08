@@ -1,9 +1,5 @@
 {
 	"domain": "ee",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.tld.ee",
 	"nameServers": [
 		"b.tld.ee",
@@ -11,6 +7,10 @@
 		"ee.aso.ee",
 		"ee.eenet.ee",
 		"ns.tld.ee"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,9 +1,6 @@
 {
 	"domain": "org",
 	"infoURL": "https://pir.org/products/org-domain/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.pir.org",
 	"nameServers": [
 		"a0.org.afilias-nst.info",
@@ -12,6 +9,9 @@
 		"b2.org.afilias-nst.org",
 		"c0.org.afilias-nst.info",
 		"d0.org.afilias-nst.org"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{
