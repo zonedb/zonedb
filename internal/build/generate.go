@@ -59,9 +59,25 @@ func GenerateGo(zones map[string]*Zone) error {
 	}
 
 	// Pre-index strings and string slices
-	for _, d := range domains {
-		data.domainString(d)
+	set := NewSet()
+	for _, z := range zones {
+		set.Add(ToASCII(z.WhoisServer))
+		set.Add(ToASCIIURL(z.WhoisURL))
+		set.Add(ToASCIIURL(z.InfoURL))
 	}
+
+	// Sort by length desc, then alphabetically asc
+	all := set.Values()
+	sort.Slice(all, func(i, j int) bool {
+		if len(all[i]) == len(all[j]) {
+			return all[i] < all[j]
+		}
+		return len(all[i]) > len(all[j])
+	})
+	for _, s := range all {
+		data.indexedString(s)
+	}
+
 	for _, d := range domains {
 		data.domainStringSlice(zones[d].NameServers)
 	}
@@ -69,19 +85,15 @@ func GenerateGo(zones map[string]*Zone) error {
 		data.domainStringSlice(zones[d].Wildcards)
 	}
 	for _, d := range domains {
-		data.domainString(zones[d].WhoisServer)
-	}
-	for _, d := range domains {
-		data.urlString(zones[d].WhoisURL)
-	}
-	for _, d := range domains {
-		data.urlString(zones[d].InfoURL)
-	}
-	for _, d := range domains {
 		data.indexedStringSlice(zones[d].Locations)
 	}
 	for _, d := range domains {
 		data.indexedStringSlice(zones[d].Languages)
+	}
+
+	// Add domains last, as these are most likely to be the shortest strings
+	for i := range domains {
+		data.domainString(domains[len(domains)-i-1])
 	}
 
 	err := generate("zones.go", zonesGoSrc, &data)
@@ -107,14 +119,22 @@ func (data *templateData) indexedString(s string) string {
 	if s == "" {
 		return "e"
 	}
-	i, _ := IndexOrAppendStrings(&data.Strings, []string{s})
-	return fmt.Sprintf("s[%d]", i)
+	i, j, k := IndexOrAppendString(&data.Strings, s)
+	if j == 0 && k == len(data.Strings[i]) {
+		return fmt.Sprintf("s[%d]", i)
+	} else if j == 0 {
+		return fmt.Sprintf("s[%d][:%d]", i, k)
+	}
+	return fmt.Sprintf("s[%d][%d:%d]", i, j, k)
 }
 
 func (data *templateData) indexedStringSlice(slice []string) string {
 	if len(slice) == 0 {
 		return "n"
 	}
+	// if len(slice) == 1 {
+	// 	return "[]string{" + data.indexedString(slice[0]) + "}"
+	// }
 	i, j := IndexOrAppendStrings(&data.Strings, slice)
 	return fmt.Sprintf("s[%d:%d]", i, j)
 }
