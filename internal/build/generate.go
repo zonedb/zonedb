@@ -160,9 +160,9 @@ func generate(filename, src string, data *templateData) error {
 		"quotedURL":    quotedURL,
 		"string":       data.indexedString,
 		"stringSlice":  data.indexedStringSlice,
-		"domain":       data.domainString,
+		"domainString": data.domainString,
 		"domainSlice":  data.domainStringSlice,
-		"url":          data.urlString,
+		"urlString":    data.urlString,
 		"urlSlice":     data.urlStringSlice,
 	}
 
@@ -207,8 +207,8 @@ func initZones() {
 	}
 }
 
-// Type s is an alias for []string to generate smaller source code
-type s []string
+// Type S is an alias for []string to generate smaller source code
+type S []string
 
 // Constants to generate smaller source code
 const (
@@ -271,10 +271,10 @@ var y = [{{len .Zones}}]Zone{
 			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
 			{{if $z.ParentDomain}} &z[{{$z.ParentOffset}}] {{else}} r {{end}}, \
 			{{if $z.SubdomainsEnd}} z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} x {{end}}, \
-			{{if $z.NameServers}} s{ {{range $z.NameServers}}{{quotedDomain .}},{{end}}} {{else}} n {{end}}, \
-			{{if $z.Wildcards}} s{ {{range $z.Wildcards}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
-			{{if $z.Locations}} s{ {{range $z.Locations}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
-			{{if $z.Languages}} s{ {{range $z.Languages}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
+			{{if $z.NameServers}} S{ {{range $z.NameServers}}{{quotedDomain .}},{{end}}} {{else}} n {{end}}, \
+			{{if $z.Wildcards}} S{ {{range $z.Wildcards}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
+			{{if $z.Locations}} S{ {{range $z.Locations}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
+			{{if $z.Languages}} S{ {{range $z.Languages}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
 			{{quotedDomain $z.WhoisServer}}, \
 			{{quotedURL $z.WhoisURL}}, \
 			{{quotedURL $z.InfoURL}}, \
