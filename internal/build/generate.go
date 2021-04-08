@@ -213,9 +213,6 @@ func initZones() {
 	}
 }
 
-// Type S is an alias for []string to generate smaller source code
-type S []string
-
 // Constants to generate smaller source code
 const (
 	t = true
@@ -273,17 +270,17 @@ var y = [{{len .Zones}}]Zone{
 	{{range $d := .Domains}} \
 		{{$z := (index $.Zones $d)}} \
 		{ \
-			{{quotedDomain $d}}, \
+			{{domainString $d}}, \
 			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
 			{{if $z.ParentDomain}} &z[{{$z.ParentOffset}}] {{else}} r {{end}}, \
 			{{if $z.SubdomainsEnd}} z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} x {{end}}, \
-			{{if $z.NameServers}} S{ {{range $z.NameServers}}{{quotedDomain .}},{{end}}} {{else}} n {{end}}, \
-			{{if $z.Wildcards}} S{ {{range $z.Wildcards}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
-			{{if $z.Locations}} S{ {{range $z.Locations}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
-			{{if $z.Languages}} S{ {{range $z.Languages}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
-			{{quotedDomain $z.WhoisServer}}, \
-			{{quotedURL $z.WhoisURL}}, \
-			{{quotedURL $z.InfoURL}}, \
+			{{domainSlice $z.NameServers}}, \
+			{{domainSlice $z.Wildcards}}, \
+			{{stringSlice $z.Locations}}, \
+			{{stringSlice $z.Languages}}, \
+			{{domainString $z.WhoisServer}}, \
+			{{urlString $z.WhoisURL}}, \
+			{{urlString $z.InfoURL}}, \
 			{{printf "0x%x" $z.TagBits}}, \
 			{{if $z.IDNDisallowed}} f {{else}} t {{end}}, \
 		},
