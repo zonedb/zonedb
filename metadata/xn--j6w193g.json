@@ -1,8 +1,5 @@
 {
 	"domain": "香港",
-	"languages": [
-		"zh-Hans-HK"
-	],
 	"whoisServer": "whois.hkirc.hk",
 	"nameServers": [
 		"c.hkirc.net.hk",
@@ -13,5 +10,8 @@
 		"x.hkirc.net.hk",
 		"y.hkirc.net.hk",
 		"z.hkirc.net.hk"
+	],
+	"languages": [
+		"zh-Hans-HK"
 	]
 }

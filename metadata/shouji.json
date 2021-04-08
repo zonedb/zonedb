@@ -1,16 +1,16 @@
 {
 	"domain": "shouji",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.teleinfo.cn",
 	"nameServers": [
 		"ns1.teleinfo.cn",
 		"ns2.teleinfoo.com",
 		"ns3.teleinfo.cn",
 		"ns4.teleinfoo.com"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

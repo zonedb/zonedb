@@ -1,9 +1,5 @@
 {
 	"domain": "hu",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.hu",
 	"nameServers": [
 		"a.hu",
@@ -13,5 +9,9 @@
 		"e.hu",
 		"ns-com.nic.hu",
 		"ns2.nic.fr"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

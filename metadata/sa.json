@@ -1,9 +1,5 @@
 {
 	"domain": "sa",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.net.sa",
 	"nameServers": [
 		"c1.dns.sa",
@@ -13,6 +9,10 @@
 		"p1.dns.sa",
 		"s1.dns.sa",
 		"s2.dns.sa"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,11 +1,11 @@
 {
 	"domain": "telefonica",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois-fe.telefonica.tango.knipp.de",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois-fe.telefonica.tango.knipp.de",
 	"policies": [
 		{
 			"type": "idn-disallowed"

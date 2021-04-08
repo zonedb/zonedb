@@ -1,9 +1,6 @@
 {
 	"domain": "broadway",
 	"infoURL": "https://discover.broadway/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.broadway",
 	"nameServers": [
 		"dns1.nic.broadway",
@@ -14,6 +11,9 @@
 		"dnsb.nic.broadway",
 		"dnsc.nic.broadway",
 		"dnsd.nic.broadway"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

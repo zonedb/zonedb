@@ -1,12 +1,12 @@
 {
 	"domain": "flsmidth",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.ksregistry.net",
 	"tags": [
 		"brand",
 		"generic",
 		"withdrawn"
 	],
-	"whoisServer": "whois.ksregistry.net",
 	"policies": [
 		{
 			"type": "idn-disallowed"

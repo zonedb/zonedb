@@ -1,11 +1,6 @@
 {
 	"domain": "ws",
 	"infoURL": "https://www.worldsite.ws/",
-	"tags": [
-		"country",
-		"generic",
-		"geo"
-	],
 	"whoisServer": "whois.website.ws",
 	"nameServers": [
 		"ns2.dns.ws",
@@ -17,6 +12,11 @@
 	],
 	"wildcards": [
 		"64.70.19.203"
+	],
+	"tags": [
+		"country",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

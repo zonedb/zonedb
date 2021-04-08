@@ -1,10 +1,6 @@
 {
 	"domain": "tg",
 	"infoURL": "http://www.nic.tg/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.tg",
 	"nameServers": [
 		"ns1.admin.net",
@@ -15,6 +11,10 @@
 		"ns4.admin.net",
 		"ns5.admin.net",
 		"tld.cafe.tg"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

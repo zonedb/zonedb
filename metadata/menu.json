@@ -1,14 +1,14 @@
 {
 	"domain": "menu",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.menu",
 	"nameServers": [
 		"a.nic.menu",
 		"b.nic.menu",
 		"c.nic.menu",
 		"d.nic.menu"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

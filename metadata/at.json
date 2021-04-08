@@ -1,10 +1,6 @@
 {
 	"domain": "at",
 	"infoURL": "https://www.nic.at/de",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.at",
 	"nameServers": [
 		"d.ns.at",
@@ -15,6 +11,10 @@
 		"ns9.univie.ac.at",
 		"r.ns.at",
 		"u.ns.at"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

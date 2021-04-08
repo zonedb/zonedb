@@ -1,14 +1,14 @@
 {
 	"domain": "ga",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.dot.ga",
 	"nameServers": [
 		"a.ns.ga",
 		"b.ns.ga",
 		"c.ns.ga",
 		"d.ns.ga"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

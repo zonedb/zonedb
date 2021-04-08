@@ -1,9 +1,6 @@
 {
 	"domain": "vuelos",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.vuelos",
 	"nameServers": [
 		"ns1.dns.nic.vuelos",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.vuelos",
 		"ns5.dns.nic.vuelos",
 		"ns6.dns.nic.vuelos"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

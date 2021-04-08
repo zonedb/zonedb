@@ -1,16 +1,16 @@
 {
 	"domain": "kfh",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.kfh",
 	"nameServers": [
 		"a.nic.kfh",
 		"b.nic.kfh",
 		"c.nic.kfh",
 		"d.nic.kfh"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

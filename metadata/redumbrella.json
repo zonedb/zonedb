@@ -1,16 +1,16 @@
 {
 	"domain": "redumbrella",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.redumbrella",
 		"a2.nic.redumbrella",
 		"b0.nic.redumbrella",
 		"c0.nic.redumbrella"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

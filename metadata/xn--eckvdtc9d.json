@@ -1,9 +1,6 @@
 {
 	"domain": "ポイント",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.ポイント",
 	"nameServers": [
 		"ns1.dns.nic.ポイント",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.ポイント",
 		"ns5.dns.nic.ポイント",
 		"ns6.dns.nic.ポイント"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

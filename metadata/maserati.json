@@ -1,16 +1,16 @@
 {
 	"domain": "maserati",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.maserati",
 	"nameServers": [
 		"a0.nic.maserati",
 		"a2.nic.maserati",
 		"b0.nic.maserati",
 		"c0.nic.maserati"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "locus",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.locus",
 	"nameServers": [
 		"dns1.nic.locus",
@@ -15,6 +11,10 @@
 		"dnsb.nic.locus",
 		"dnsc.nic.locus",
 		"dnsd.nic.locus"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

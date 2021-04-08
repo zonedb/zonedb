@@ -1,16 +1,16 @@
 {
 	"domain": "abbott",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.abbott",
 		"a2.nic.abbott",
 		"b0.nic.abbott",
 		"c0.nic.abbott"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

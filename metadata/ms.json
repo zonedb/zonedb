@@ -1,14 +1,14 @@
 {
 	"domain": "ms",
-	"tags": [
-		"country",
-		"generic",
-		"geo"
-	],
 	"whoisServer": "whois.nic.ms",
 	"nameServers": [
 		"ms-ns.anycast.pch.net",
 		"ns.cocca.fr"
+	],
+	"tags": [
+		"country",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

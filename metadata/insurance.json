@@ -1,9 +1,6 @@
 {
 	"domain": "insurance",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.insurance",
 	"nameServers": [
 		"a.nic.insurance",
@@ -12,6 +9,9 @@
 		"d.nic.insurance",
 		"e.nic.insurance",
 		"f.nic.insurance"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

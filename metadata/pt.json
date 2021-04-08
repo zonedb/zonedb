@@ -1,9 +1,5 @@
 {
 	"domain": "pt",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.dns.pt",
 	"nameServers": [
 		"a.dns.pt",
@@ -15,5 +11,9 @@
 		"h.dns.pt",
 		"ns.dns.br",
 		"ns2.nic.fr"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

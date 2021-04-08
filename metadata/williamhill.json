@@ -1,10 +1,6 @@
 {
 	"domain": "williamhill",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.williamhill",
 	"nameServers": [
 		"ns1.dns.nic.williamhill",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.williamhill",
 		"ns5.dns.nic.williamhill",
 		"ns6.dns.nic.williamhill"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

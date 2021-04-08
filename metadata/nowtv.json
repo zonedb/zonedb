@@ -1,16 +1,16 @@
 {
 	"domain": "nowtv",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.nowtv",
 	"nameServers": [
 		"a0.nic.nowtv",
 		"a2.nic.nowtv",
 		"b0.nic.nowtv",
 		"c0.nic.nowtv"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "vermögensberater",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"closed",
-		"generic"
-	],
 	"whoisServer": "whois.nic.vermögensberater",
 	"nameServers": [
 		"a.nic.vermögensberater",
 		"b.nic.vermögensberater",
 		"c.nic.vermögensberater",
 		"d.nic.vermögensberater"
+	],
+	"tags": [
+		"closed",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,11 +1,11 @@
 {
 	"domain": "qb.com",
-	"tags": [
-		"private"
-	],
 	"nameServers": [
 		"betty.ns.cloudflare.com",
 		"scott.ns.cloudflare.com"
+	],
+	"tags": [
+		"private"
 	],
 	"policies": [
 		{

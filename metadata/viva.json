@@ -1,16 +1,16 @@
 {
 	"domain": "viva",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.viva",
 	"nameServers": [
 		"a.nic.viva",
 		"b.nic.viva",
 		"c.nic.viva",
 		"d.nic.viva"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

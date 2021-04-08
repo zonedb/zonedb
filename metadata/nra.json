@@ -1,16 +1,16 @@
 {
 	"domain": "nra",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.nra",
 		"a2.nic.nra",
 		"b0.nic.nra",
 		"c0.nic.nra"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

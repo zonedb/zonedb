@@ -1,16 +1,16 @@
 {
 	"domain": "fido",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.fido",
 		"a2.nic.fido",
 		"b0.nic.fido",
 		"c0.nic.fido"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

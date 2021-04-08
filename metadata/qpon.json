@@ -1,13 +1,13 @@
 {
 	"domain": "qpon",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.qpon",
 	"nameServers": [
 		"a.nic.qpon",
 		"b.nic.qpon",
 		"c.nic.qpon",
 		"d.nic.qpon"
+	],
+	"tags": [
+		"generic"
 	]
 }

@@ -1,10 +1,6 @@
 {
 	"domain": "jnj",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.jnj",
 	"nameServers": [
 		"ns1.dns.nic.jnj",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.jnj",
 		"ns5.dns.nic.jnj",
 		"ns6.dns.nic.jnj"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

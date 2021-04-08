@@ -1,14 +1,14 @@
 {
 	"domain": "press",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.press",
 	"nameServers": [
 		"a.nic.press",
 		"b.nic.press",
 		"e.nic.press",
 		"f.nic.press"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,14 +1,14 @@
 {
 	"domain": "aq",
 	"infoURL": "http://www.gobin.info/domainname/aq.txt",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"fork.sth.dnsnode.net",
 		"ns1.anycast.dns.aq",
 		"ns99.dns.net.nz"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

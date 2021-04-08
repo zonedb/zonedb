@@ -1,11 +1,6 @@
 {
 	"domain": "fm",
 	"infoURL": "https://dot.fm/",
-	"tags": [
-		"country",
-		"generic",
-		"geo"
-	],
 	"whoisServer": "whois.nic.fm",
 	"nameServers": [
 		"a.nic.fm",
@@ -14,6 +9,11 @@
 		"d.nic.fm",
 		"e.nic.fm",
 		"f.nic.fm"
+	],
+	"tags": [
+		"country",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

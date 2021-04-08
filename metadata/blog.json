@@ -1,15 +1,15 @@
 {
 	"domain": "blog",
 	"infoURL": "https://my.blog/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.blog",
 	"nameServers": [
 		"a.nic.blog",
 		"b.nic.blog",
 		"c.nic.blog",
 		"d.nic.blog"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

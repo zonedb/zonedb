@@ -1,9 +1,6 @@
 {
 	"domain": "surf",
 	"infoURL": "http://nic.surf/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.surf",
 	"nameServers": [
 		"dns1.nic.surf",
@@ -14,6 +11,9 @@
 		"dnsb.nic.surf",
 		"dnsc.nic.surf",
 		"dnsd.nic.surf"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

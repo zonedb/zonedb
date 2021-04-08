@@ -1,19 +1,19 @@
 {
 	"domain": "alsace",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic",
-		"geo",
-		"region"
-	],
-	"locations": [
-		"FR-A"
-	],
 	"whoisServer": "whois-alsace.nic.fr",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
+	],
+	"locations": [
+		"FR-A"
+	],
+	"tags": [
+		"generic",
+		"geo",
+		"region"
 	],
 	"policies": [
 		{

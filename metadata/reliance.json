@@ -1,16 +1,16 @@
 {
 	"domain": "reliance",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.reliance",
 	"nameServers": [
 		"a0.nic.reliance",
 		"a2.nic.reliance",
 		"b0.nic.reliance",
 		"c0.nic.reliance"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

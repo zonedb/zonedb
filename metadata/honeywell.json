@@ -1,11 +1,11 @@
 {
 	"domain": "honeywell",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.honeywell",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.honeywell",
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -1,15 +1,15 @@
 {
 	"domain": "dabur",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.dabur",
 		"a2.nic.dabur",
 		"b0.nic.dabur",
 		"c0.nic.dabur"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

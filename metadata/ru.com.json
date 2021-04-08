@@ -1,8 +1,5 @@
 {
 	"domain": "ru.com",
-	"tags": [
-		"private"
-	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns1.centralnic.net",
@@ -12,5 +9,8 @@
 	],
 	"wildcards": [
 		"141.8.226.34"
+	],
+	"tags": [
+		"private"
 	]
 }

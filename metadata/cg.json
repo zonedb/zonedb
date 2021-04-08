@@ -1,14 +1,14 @@
 {
 	"domain": "cg",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.nic.cg/cgi-bin/whois.pl",
 	"nameServers": [
 		"dns-fr.dnsafrica.net",
 		"dns-za.dnsafrica.net",
 		"sunic.sunet.se"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

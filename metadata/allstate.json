@@ -1,16 +1,16 @@
 {
 	"domain": "allstate",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.allstate",
 		"a2.nic.allstate",
 		"b0.nic.allstate",
 		"c0.nic.allstate"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

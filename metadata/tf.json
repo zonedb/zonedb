@@ -1,14 +1,14 @@
 {
 	"domain": "tf",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.tf",
 	"nameServers": [
 		"d.nic.fr",
 		"e.ext.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

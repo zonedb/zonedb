@@ -1,9 +1,6 @@
 {
 	"domain": "room",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.room",
 	"nameServers": [
 		"dns1.nic.room",
@@ -14,6 +11,9 @@
 		"dnsb.nic.room",
 		"dnsc.nic.room",
 		"dnsd.nic.room"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

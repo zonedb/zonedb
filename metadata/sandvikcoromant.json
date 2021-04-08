@@ -1,16 +1,16 @@
 {
 	"domain": "sandvikcoromant",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.sandvikcoromant",
 	"nameServers": [
 		"a.nic.sandvikcoromant",
 		"b.nic.sandvikcoromant",
 		"c.nic.sandvikcoromant",
 		"d.nic.sandvikcoromant"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

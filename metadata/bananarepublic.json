@@ -1,10 +1,6 @@
 {
 	"domain": "bananarepublic",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.bananarepublic",
 	"nameServers": [
 		"ns1.dns.nic.bananarepublic",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.bananarepublic",
 		"ns5.dns.nic.bananarepublic",
 		"ns6.dns.nic.bananarepublic"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

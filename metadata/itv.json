@@ -1,16 +1,16 @@
 {
 	"domain": "itv",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.itv",
 		"a2.nic.itv",
 		"b0.nic.itv",
 		"c0.nic.itv"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

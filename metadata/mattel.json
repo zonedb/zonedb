@@ -1,10 +1,6 @@
 {
 	"domain": "mattel",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.mattel",
 	"nameServers": [
 		"ns1.dns.nic.mattel",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.mattel",
 		"ns5.dns.nic.mattel",
 		"ns6.dns.nic.mattel"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

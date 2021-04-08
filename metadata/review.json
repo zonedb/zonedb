@@ -1,9 +1,6 @@
 {
 	"domain": "review",
 	"infoURL": "https://www.famousfourmedia.com/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.review",
 	"nameServers": [
 		"ns1.dns.nic.review",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.review",
 		"ns5.dns.nic.review",
 		"ns6.dns.nic.review"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

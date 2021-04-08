@@ -1,9 +1,5 @@
 {
 	"domain": "se",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.iis.se",
 	"nameServers": [
 		"a.ns.se",
@@ -16,6 +12,10 @@
 		"x.ns.se",
 		"y.ns.se",
 		"z.ns.se"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

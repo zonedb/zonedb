@@ -1,10 +1,6 @@
 {
 	"domain": "fast",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.fast",
 	"nameServers": [
 		"dns1.nic.fast",
@@ -15,6 +11,10 @@
 		"dnsb.nic.fast",
 		"dnsc.nic.fast",
 		"dnsd.nic.fast"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

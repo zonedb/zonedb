@@ -1,10 +1,6 @@
 {
 	"domain": "pru",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.pru",
 	"nameServers": [
 		"ns1.dns.nic.pru",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.pru",
 		"ns5.dns.nic.pru",
 		"ns6.dns.nic.pru"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

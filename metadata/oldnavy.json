@@ -1,10 +1,6 @@
 {
 	"domain": "oldnavy",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.oldnavy",
 	"nameServers": [
 		"ns1.dns.nic.oldnavy",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.oldnavy",
 		"ns5.dns.nic.oldnavy",
 		"ns6.dns.nic.oldnavy"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

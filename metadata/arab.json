@@ -1,15 +1,15 @@
 {
 	"domain": "arab",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.arab",
 	"nameServers": [
 		"gtld.alpha.aridns.net.au",
 		"gtld.beta.aridns.net.au",
 		"gtld.delta.aridns.net.au",
 		"gtld.gamma.aridns.net.au"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "ford",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.ford",
 	"nameServers": [
 		"ns1.dns.nic.ford",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.ford",
 		"ns5.dns.nic.ford",
 		"ns6.dns.nic.ford"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

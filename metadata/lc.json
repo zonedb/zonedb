@@ -1,10 +1,6 @@
 {
 	"domain": "lc",
 	"infoURL": "http://www.nic.lc/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.afilias-grs.info",
 	"nameServers": [
 		"a0.cctld.afilias-nst.info",
@@ -13,6 +9,10 @@
 		"b2.cctld.afilias-nst.org",
 		"c0.cctld.afilias-nst.info",
 		"d0.cctld.afilias-nst.org"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

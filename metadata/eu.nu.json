@@ -1,8 +1,5 @@
 {
 	"domain": "eu.nu",
-	"tags": [
-		"private"
-	],
 	"nameServers": [
 		"ns1.subdomain.com",
 		"ns2.subdomain.com"
@@ -10,5 +7,8 @@
 	"wildcards": [
 		"144.76.162.245",
 		"eu.nu"
+	],
+	"tags": [
+		"private"
 	]
 }

@@ -1,10 +1,6 @@
 {
 	"domain": "cw",
 	"infoURL": "https://en.wikipedia.org/wiki/.cw",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"cw.cctld.authdns.ripe.net",
 		"kadushi.curinfo.cw",
@@ -13,6 +9,10 @@
 		"ns1.uoc.cw",
 		"ns2.uoc.cw",
 		"ns3.uoc.cw"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

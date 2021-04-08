@@ -1,12 +1,12 @@
 {
 	"domain": "pty-ltd.com",
-	"tags": [
-		"private"
-	],
 	"nameServers": [
 		"ns1.instradns.com",
 		"ns2.instradns.com",
 		"ns3.instradns.com"
+	],
+	"tags": [
+		"private"
 	],
 	"policies": [
 		{

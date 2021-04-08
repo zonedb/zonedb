@@ -1,15 +1,6 @@
 {
 	"domain": "budapest",
 	"infoURL": "http://nic.budapest/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Budapest",
-		"HU-BU"
-	],
 	"whoisServer": "whois.nic.budapest",
 	"nameServers": [
 		"dns1.nic.budapest",
@@ -20,6 +11,15 @@
 		"dnsb.nic.budapest",
 		"dnsc.nic.budapest",
 		"dnsd.nic.budapest"
+	],
+	"locations": [
+		"Budapest",
+		"HU-BU"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

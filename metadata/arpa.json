@@ -1,11 +1,6 @@
 {
 	"domain": "arpa",
 	"infoURL": "https://www.iana.org/domains/arpa",
-	"tags": [
-		"closed",
-		"generic",
-		"infrastructure"
-	],
 	"whoisServer": "whois.iana.org",
 	"nameServers": [
 		"a.root-servers.net",
@@ -20,6 +15,11 @@
 		"k.root-servers.net",
 		"l.root-servers.net",
 		"m.root-servers.net"
+	],
+	"tags": [
+		"closed",
+		"generic",
+		"infrastructure"
 	],
 	"policies": [
 		{

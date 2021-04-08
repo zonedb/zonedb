@@ -1,15 +1,15 @@
 {
 	"domain": "संगठन",
 	"infoURL": "https://pir.org/products/hindi-domain/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.publicinterestregistry.net",
 	"nameServers": [
 		"a0.nic.संगठन",
 		"a2.nic.संगठन",
 		"b0.nic.संगठन",
 		"c0.nic.संगठन"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

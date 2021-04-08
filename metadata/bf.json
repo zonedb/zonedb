@@ -1,12 +1,12 @@
 {
 	"domain": "bf",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"a.registre.bf",
 		"censvrns0001.ird.fr",
 		"nahouri.onatel.bf"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

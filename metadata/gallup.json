@@ -1,16 +1,16 @@
 {
 	"domain": "gallup",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.gallup",
 	"nameServers": [
 		"a0.nic.gallup",
 		"a2.nic.gallup",
 		"b0.nic.gallup",
 		"c0.nic.gallup"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

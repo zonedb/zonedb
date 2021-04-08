@@ -1,10 +1,6 @@
 {
 	"domain": "amazon",
 	"infoURL": "http://nic.amazon/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.amazon",
 	"nameServers": [
 		"dns1.nic.amazon",
@@ -15,6 +11,10 @@
 		"dnsb.nic.amazon",
 		"dnsc.nic.amazon",
 		"dnsd.nic.amazon"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "aws",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.aws",
 	"nameServers": [
 		"dns1.nic.aws",
@@ -15,6 +11,10 @@
 		"dnsb.nic.aws",
 		"dnsc.nic.aws",
 		"dnsd.nic.aws"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

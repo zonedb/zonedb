@@ -1,8 +1,5 @@
 {
 	"domain": "wang",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.gtld.knet.cn",
 	"nameServers": [
 		"a.zdnscloud.com",
@@ -13,6 +10,9 @@
 		"g.zdnscloud.com",
 		"i.zdnscloud.com",
 		"j.zdnscloud.com"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

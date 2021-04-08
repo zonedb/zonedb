@@ -1,9 +1,6 @@
 {
 	"domain": "accountant",
 	"infoURL": "https://www.famousfourmedia.com/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.accountant",
 	"nameServers": [
 		"ns1.dns.nic.accountant",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.accountant",
 		"ns5.dns.nic.accountant",
 		"ns6.dns.nic.accountant"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

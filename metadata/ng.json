@@ -1,16 +1,16 @@
 {
 	"domain": "ng",
 	"infoURL": "https://web4africa.ng/ng-domains/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.net.ng",
 	"nameServers": [
 		"ns1.nic.net.ng",
 		"ns2.nic.net.ng",
 		"ns5.nic.net.ng",
 		"nsa.nic.net.ng"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

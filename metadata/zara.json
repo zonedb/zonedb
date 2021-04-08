@@ -1,16 +1,16 @@
 {
 	"domain": "zara",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.zara",
 		"a2.nic.zara",
 		"b0.nic.zara",
 		"c0.nic.zara"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,15 +1,15 @@
 {
 	"domain": "pk",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.pknic.net.pk/",
 	"nameServers": [
 		"root-c1.pknic.pk",
 		"root-c2.pknic.pk",
 		"root-e.pknic.pk",
 		"root-s.pknic.pk"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

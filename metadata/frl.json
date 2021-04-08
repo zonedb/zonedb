@@ -1,19 +1,19 @@
 {
 	"domain": "frl",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic",
-		"region"
-	],
-	"locations": [
-		"NL-FY"
-	],
 	"whoisServer": "whois.nic.frl",
 	"nameServers": [
 		"a.nic.frl",
 		"b.nic.frl",
 		"c.nic.frl",
 		"d.nic.frl"
+	],
+	"locations": [
+		"NL-FY"
+	],
+	"tags": [
+		"generic",
+		"region"
 	],
 	"policies": [
 		{

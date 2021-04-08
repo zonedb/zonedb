@@ -1,14 +1,6 @@
 {
 	"domain": "miami",
 	"infoURL": "http://nic.miami/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Miami"
-	],
 	"whoisServer": "whois.nic.miami",
 	"nameServers": [
 		"dns1.nic.miami",
@@ -19,6 +11,14 @@
 		"dnsb.nic.miami",
 		"dnsc.nic.miami",
 		"dnsd.nic.miami"
+	],
+	"locations": [
+		"Miami"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

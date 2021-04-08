@@ -1,10 +1,6 @@
 {
 	"domain": "lilly",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.lilly",
 	"nameServers": [
 		"ns1.dns.nic.lilly",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.lilly",
 		"ns5.dns.nic.lilly",
 		"ns6.dns.nic.lilly"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

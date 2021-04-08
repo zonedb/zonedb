@@ -1,11 +1,6 @@
 {
 	"domain": "nu",
 	"infoURL": "https://www.nic.nu/",
-	"tags": [
-		"country",
-		"generic",
-		"geo"
-	],
 	"whoisServer": "whois.iis.nu",
 	"nameServers": [
 		"a.ns.nu",
@@ -14,6 +9,11 @@
 		"m.ns.nu",
 		"y.ns.nu",
 		"z.ns.nu"
+	],
+	"tags": [
+		"country",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

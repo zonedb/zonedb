@@ -1,16 +1,16 @@
 {
 	"domain": "ac",
 	"infoURL": "https://www.icb.co.uk/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.ac",
 	"nameServers": [
 		"a0.nic.ac",
 		"a2.nic.ac",
 		"b0.nic.ac",
 		"c0.nic.ac"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "ren",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.ren",
 	"nameServers": [
 		"a.zdnscloud.com",
@@ -15,6 +11,10 @@
 		"g.zdnscloud.com",
 		"i.zdnscloud.com",
 		"j.zdnscloud.com"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,14 +1,14 @@
 {
 	"domain": "guru",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.guru",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",
 		"demand.delta.aridns.net.au",
 		"demand.gamma.aridns.net.au"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

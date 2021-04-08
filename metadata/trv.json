@@ -1,16 +1,16 @@
 {
 	"domain": "trv",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.trv",
 		"a2.nic.trv",
 		"b0.nic.trv",
 		"c0.nic.trv"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

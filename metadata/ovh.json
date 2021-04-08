@@ -1,13 +1,13 @@
 {
 	"domain": "ovh",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois-ovh.nic.fr",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

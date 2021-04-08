@@ -1,9 +1,6 @@
 {
 	"domain": "luxe",
 	"infoURL": "http://nix.luxe/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.luxe",
 	"nameServers": [
 		"dns1.nic.luxe",
@@ -14,6 +11,9 @@
 		"dnsb.nic.luxe",
 		"dnsc.nic.luxe",
 		"dnsd.nic.luxe"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

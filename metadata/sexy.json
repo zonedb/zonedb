@@ -1,16 +1,16 @@
 {
 	"domain": "sexy",
 	"infoURL": "https://nic.sexy/",
-	"tags": [
-		"adult",
-		"generic"
-	],
 	"whoisServer": "whois.uniregistry.net",
 	"nameServers": [
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns3.uniregistry.net",
 		"ns4.uniregistry.info"
+	],
+	"tags": [
+		"adult",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,19 +1,19 @@
 {
 	"domain": "hamburg",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Hamburg",
-		"DE-HH"
-	],
 	"whoisServer": "whois.nic.hamburg",
 	"nameServers": [
 		"a.dns.nic.hamburg",
 		"m.dns.nic.hamburg",
 		"n.dns.nic.hamburg"
+	],
+	"locations": [
+		"Hamburg",
+		"DE-HH"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,8 +1,5 @@
 {
 	"domain": "срб",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.rnids.rs",
 	"nameServers": [
 		"a.nic.rs",
@@ -11,6 +8,9 @@
 		"g.nic.rs",
 		"h.nic.rs",
 		"l.nic.rs"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,15 +1,15 @@
 {
 	"domain": "shiksha",
 	"infoURL": "https://get.shiksha/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.afilias.net",
 	"nameServers": [
 		"a0.nic.shiksha",
 		"a2.nic.shiksha",
 		"b0.nic.shiksha",
 		"c0.nic.shiksha"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

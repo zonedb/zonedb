@@ -1,15 +1,15 @@
 {
 	"domain": "hair",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.hair",
 	"nameServers": [
 		"a.nic.hair",
 		"b.nic.hair",
 		"c.nic.hair",
 		"d.nic.hair"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "sina",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.sina",
 	"nameServers": [
 		"a0.nic.sina",
 		"a2.nic.sina",
 		"b0.nic.sina",
 		"c0.nic.sina"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

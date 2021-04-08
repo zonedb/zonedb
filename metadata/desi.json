@@ -1,13 +1,13 @@
 {
 	"domain": "desi",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.desi",
 	"nameServers": [
 		"a.nic.desi",
 		"b.nic.desi",
 		"c.nic.desi",
 		"d.nic.desi"
+	],
+	"tags": [
+		"generic"
 	]
 }

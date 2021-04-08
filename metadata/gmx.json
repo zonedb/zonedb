@@ -1,16 +1,16 @@
 {
 	"domain": "gmx",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.gmx",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

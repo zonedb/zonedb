@@ -1,14 +1,14 @@
 {
 	"domain": "eus",
-	"tags": [
-		"generic",
-		"region"
-	],
 	"whoisServer": "whois.nic.eus",
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
+	],
+	"tags": [
+		"generic",
+		"region"
 	]
 }

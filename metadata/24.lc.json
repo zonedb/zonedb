@@ -1,10 +1,10 @@
 {
 	"domain": "24.lc",
-	"tags": [
-		"private"
-	],
 	"nameServers": [
 		"ns1.subdomain.com",
 		"ns2.subdomain.com"
+	],
+	"tags": [
+		"private"
 	]
 }

@@ -1,16 +1,16 @@
 {
 	"domain": "alipay",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.alipay",
 	"nameServers": [
 		"a0.nic.alipay",
 		"a2.nic.alipay",
 		"b0.nic.alipay",
 		"c0.nic.alipay"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

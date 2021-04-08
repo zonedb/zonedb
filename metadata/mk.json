@@ -1,15 +1,15 @@
 {
 	"domain": "mk",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.marnet.mk",
 	"nameServers": [
 		"d.ext.nic.cz",
 		"dns-mk.univie.ac.at",
 		"ns2.arnes.si",
 		"tld1.marnet.mk"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

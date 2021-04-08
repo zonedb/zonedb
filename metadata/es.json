@@ -1,9 +1,5 @@
 {
 	"domain": "es",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.es",
 	"nameServers": [
 		"a.nic.es",
@@ -14,5 +10,9 @@
 		"ns-es.nic.fr",
 		"ns1.cesca.es",
 		"ssdns-tld.nic.cl"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

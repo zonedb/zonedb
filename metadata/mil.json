@@ -1,9 +1,5 @@
 {
 	"domain": "mil",
-	"tags": [
-		"generic",
-		"sponsored"
-	],
 	"whoisServer": "is-1.nic.mil",
 	"nameServers": [
 		"con1.nipr.mil",
@@ -12,6 +8,10 @@
 		"eur2.nipr.mil",
 		"pac1.nipr.mil",
 		"pac2.nipr.mil"
+	],
+	"tags": [
+		"generic",
+		"sponsored"
 	],
 	"policies": [
 		{

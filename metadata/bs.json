@@ -1,13 +1,13 @@
 {
 	"domain": "bs",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.nic.bs/cgi-bin/search.pl",
 	"nameServers": [
 		"anyns.dns.bs",
 		"anyns.pch.net",
 		"ns36.cdns.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

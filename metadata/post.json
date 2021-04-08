@@ -1,10 +1,6 @@
 {
 	"domain": "post",
 	"infoURL": "https://en.wikipedia.org/wiki/.post",
-	"tags": [
-		"generic",
-		"sponsored"
-	],
 	"whoisServer": "whois.dotpostregistry.net",
 	"nameServers": [
 		"a0.post.afilias-nst.info",
@@ -13,6 +9,10 @@
 		"b2.post.afilias-nst.org",
 		"c0.post.afilias-nst.info",
 		"d0.post.afilias-nst.org"
+	],
+	"tags": [
+		"generic",
+		"sponsored"
 	],
 	"policies": [
 		{

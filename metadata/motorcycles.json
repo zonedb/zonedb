@@ -1,15 +1,15 @@
 {
 	"domain": "motorcycles",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.motorcycles",
 	"nameServers": [
 		"a.nic.motorcycles",
 		"b.nic.motorcycles",
 		"c.nic.motorcycles",
 		"d.nic.motorcycles"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

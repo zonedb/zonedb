@@ -1,10 +1,6 @@
 {
 	"domain": "tjx",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.tjx",
 	"nameServers": [
 		"ns1.dns.nic.tjx",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.tjx",
 		"ns5.dns.nic.tjx",
 		"ns6.dns.nic.tjx"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

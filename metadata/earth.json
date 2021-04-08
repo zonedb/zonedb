@@ -1,9 +1,6 @@
 {
 	"domain": "earth",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.earth",
 	"nameServers": [
 		"ns1.dns.nic.earth",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.earth",
 		"ns5.dns.nic.earth",
 		"ns6.dns.nic.earth"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

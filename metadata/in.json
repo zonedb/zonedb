@@ -1,10 +1,6 @@
 {
 	"domain": "in",
 	"infoURL": "https://www.registry.in/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.registry.in",
 	"nameServers": [
 		"ns1.registry.in",
@@ -13,6 +9,10 @@
 		"ns4.registry.in",
 		"ns5.registry.in",
 		"ns6.registry.in"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

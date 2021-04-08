@@ -1,9 +1,6 @@
 {
 	"domain": "racing",
 	"infoURL": "https://www.famousfourmedia.com/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.racing",
 	"nameServers": [
 		"ns1.dns.nic.racing",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.racing",
 		"ns5.dns.nic.racing",
 		"ns6.dns.nic.racing"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

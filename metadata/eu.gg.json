@@ -1,10 +1,10 @@
 {
 	"domain": "eu.gg",
-	"tags": [
-		"private"
-	],
 	"nameServers": [
 		"ns1.dan.com",
 		"ns2.dan.com"
+	],
+	"tags": [
+		"private"
 	]
 }

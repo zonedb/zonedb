@@ -1,9 +1,6 @@
 {
 	"domain": "yoga",
 	"infoURL": "http://nic.yoga/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.yoga",
 	"nameServers": [
 		"dns1.nic.yoga",
@@ -14,6 +11,9 @@
 		"dnsb.nic.yoga",
 		"dnsc.nic.yoga",
 		"dnsd.nic.yoga"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

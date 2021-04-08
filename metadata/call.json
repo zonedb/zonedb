@@ -1,9 +1,6 @@
 {
 	"domain": "call",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.call",
 	"nameServers": [
 		"dns1.nic.call",
@@ -14,6 +11,9 @@
 		"dnsb.nic.call",
 		"dnsc.nic.call",
 		"dnsd.nic.call"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

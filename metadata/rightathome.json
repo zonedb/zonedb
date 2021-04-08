@@ -1,11 +1,11 @@
 {
 	"domain": "rightathome",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.rightathome",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.rightathome",
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -1,15 +1,15 @@
 {
 	"domain": "cloud",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.cloud",
 	"nameServers": [
 		"a.nic.cloud",
 		"b.nic.cloud",
 		"c.nic.cloud",
 		"d.nic.cloud"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

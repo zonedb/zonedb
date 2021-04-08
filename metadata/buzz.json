@@ -1,8 +1,5 @@
 {
 	"domain": "buzz",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.buzz",
 	"nameServers": [
 		"ns1.dns.nic.buzz",
@@ -11,6 +8,9 @@
 		"ns4.dns.nic.buzz",
 		"ns5.dns.nic.buzz",
 		"ns6.dns.nic.buzz"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

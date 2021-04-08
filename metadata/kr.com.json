@@ -1,11 +1,11 @@
 {
 	"domain": "kr.com",
-	"tags": [
-		"private"
-	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"jm1.dns.com",
 		"jm2.dns.com"
+	],
+	"tags": [
+		"private"
 	]
 }

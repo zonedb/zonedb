@@ -1,10 +1,6 @@
 {
 	"domain": "aramco",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.aramco",
 	"nameServers": [
 		"ns1.dns.nic.aramco",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.aramco",
 		"ns5.dns.nic.aramco",
 		"ns6.dns.nic.aramco"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,20 +1,20 @@
 {
 	"domain": "amsterdam",
 	"infoURL": "https://nic.amsterdam/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Amsterdam",
-		"NL-NH"
-	],
 	"whoisServer": "whois.nic.amsterdam",
 	"nameServers": [
 		"ns1.nic.amsterdam",
 		"ns2.nic.amsterdam",
 		"ns3.nic.amsterdam"
+	],
+	"locations": [
+		"Amsterdam",
+		"NL-NH"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

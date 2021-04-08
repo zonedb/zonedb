@@ -1,14 +1,14 @@
 {
 	"domain": "website",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.website",
 	"nameServers": [
 		"a.nic.website",
 		"b.nic.website",
 		"e.nic.website",
 		"f.nic.website"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

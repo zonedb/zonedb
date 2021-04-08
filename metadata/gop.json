@@ -1,9 +1,6 @@
 {
 	"domain": "gop",
 	"infoURL": "https://www.join.gop/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.gop",
 	"nameServers": [
 		"dns1.nic.gop",
@@ -14,6 +11,9 @@
 		"dnsb.nic.gop",
 		"dnsc.nic.gop",
 		"dnsd.nic.gop"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

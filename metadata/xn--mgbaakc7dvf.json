@@ -1,15 +1,15 @@
 {
 	"domain": "اتصالات",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"a.nic.اتصالات",
 		"b.nic.اتصالات",
 		"c.nic.اتصالات",
 		"d.nic.اتصالات"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

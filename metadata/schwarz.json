@@ -1,16 +1,16 @@
 {
 	"domain": "schwarz",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.schwarz",
 	"nameServers": [
 		"a.nic.schwarz",
 		"b.nic.schwarz",
 		"c.nic.schwarz",
 		"d.nic.schwarz"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

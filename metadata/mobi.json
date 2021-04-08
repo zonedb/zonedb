@@ -1,10 +1,6 @@
 {
 	"domain": "mobi",
 	"infoURL": "https://dotmobi.mobi/",
-	"tags": [
-		"generic",
-		"sponsored"
-	],
 	"whoisServer": "whois.nic.mobi",
 	"nameServers": [
 		"a0.mobi.afilias-nst.info",
@@ -13,6 +9,10 @@
 		"b2.mobi.afilias-nst.org",
 		"c0.mobi.afilias-nst.info",
 		"d0.mobi.afilias-nst.org"
+	],
+	"tags": [
+		"generic",
+		"sponsored"
 	],
 	"policies": [
 		{

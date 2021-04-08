@@ -1,13 +1,6 @@
 {
 	"domain": "vlaanderen",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic",
-		"region"
-	],
-	"locations": [
-		"BE-VLG"
-	],
 	"whoisServer": "whois.nic.vlaanderen",
 	"nameServers": [
 		"a.nsset.vlaanderen",
@@ -16,6 +9,13 @@
 		"d.nsset.vlaanderen",
 		"y.nsset.vlaanderen",
 		"z.nsset.vlaanderen"
+	],
+	"locations": [
+		"BE-VLG"
+	],
+	"tags": [
+		"generic",
+		"region"
 	],
 	"policies": [
 		{

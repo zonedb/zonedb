@@ -1,16 +1,16 @@
 {
 	"domain": "lpl",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.lpl",
 	"nameServers": [
 		"a.nic.lpl",
 		"b.nic.lpl",
 		"c.nic.lpl",
 		"d.nic.lpl"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

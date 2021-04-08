@@ -1,10 +1,6 @@
 {
 	"domain": "banamex",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.banamex",
 	"nameServers": [
 		"ns1.dns.nic.banamex",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.banamex",
 		"ns5.dns.nic.banamex",
 		"ns6.dns.nic.banamex"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

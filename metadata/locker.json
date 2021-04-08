@@ -1,16 +1,16 @@
 {
 	"domain": "locker",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.locker",
 	"nameServers": [
 		"a0.nic.locker",
 		"a2.nic.locker",
 		"b0.nic.locker",
 		"c0.nic.locker"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

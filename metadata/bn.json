@@ -1,16 +1,16 @@
 {
 	"domain": "bn",
 	"infoURL": "http://www.brunet.bn/products_webrelated_domain_main.htm",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.bnnic.bn",
 	"nameServers": [
 		"bn-ns.anycast.pch.net",
 		"ns1.bnnic.bn",
 		"ns2.bnnic.bn",
 		"ns4.apnic.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

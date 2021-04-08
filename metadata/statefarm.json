@@ -1,10 +1,6 @@
 {
 	"domain": "statefarm",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.statefarm",
 	"nameServers": [
 		"ns1.dns.nic.statefarm",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.statefarm",
 		"ns5.dns.nic.statefarm",
 		"ns6.dns.nic.statefarm"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

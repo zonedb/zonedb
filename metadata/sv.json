@@ -1,9 +1,5 @@
 {
 	"domain": "sv",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.svnet.org.sv/",
 	"nameServers": [
 		"a.lactld.org",
@@ -14,6 +10,10 @@
 		"ns.uu.net",
 		"sir.red.sv",
 		"sv.cctld.authdns.ripe.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

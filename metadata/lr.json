@@ -1,14 +1,14 @@
 {
 	"domain": "lr",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"fork.sth.dnsnode.net",
 		"ns-lr.afrinic.net",
 		"rip.psg.com"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

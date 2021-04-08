@@ -1,11 +1,11 @@
 {
 	"domain": "bnl",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.bnl",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.bnl",
 	"policies": [
 		{
 			"type": "idn-disallowed"

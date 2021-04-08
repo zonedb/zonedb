@@ -1,10 +1,6 @@
 {
 	"domain": "bm",
 	"infoURL": "https://www.bermudanic.bm/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "https://www.bermudanic.bm/whois.htm",
 	"nameServers": [
 		"a0.bm.afilias-nst.info",
@@ -13,6 +9,10 @@
 		"b2.bm.afilias-nst.org",
 		"c0.bm.afilias-nst.info",
 		"d0.bm.afilias-nst.org"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

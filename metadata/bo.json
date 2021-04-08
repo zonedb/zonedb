@@ -1,15 +1,15 @@
 {
 	"domain": "bo",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.bo",
 	"nameServers": [
 		"anycast.ns.nic.bo",
 		"ns.dns.br",
 		"ns.nic.bo",
 		"ns2.nic.fr"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

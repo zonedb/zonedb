@@ -1,16 +1,16 @@
 {
 	"domain": "tci",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.tci",
 	"nameServers": [
 		"a.ns.nic.tci",
 		"b.ns.nic.tci",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

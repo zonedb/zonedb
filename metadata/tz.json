@@ -1,10 +1,5 @@
 {
 	"domain": "tz",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.tznic.or.tz",
 	"nameServers": [
 		"d.ext.nic.cz",
@@ -13,6 +8,11 @@
 		"ns.anycast.co.tz",
 		"ns2.tznic.or.tz",
 		"rip.psg.com"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

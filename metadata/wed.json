@@ -1,9 +1,6 @@
 {
 	"domain": "wed",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.wed",
 	"nameServers": [
 		"dns1.emdns.uk",
@@ -14,6 +11,9 @@
 		"dnsb.emdns.uk",
 		"dnsc.emdns.uk",
 		"dnsd.emdns.uk"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

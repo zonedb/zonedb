@@ -1,14 +1,14 @@
 {
 	"domain": "gs",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.gs",
 	"nameServers": [
 		"ns.anycast.nic.gs",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

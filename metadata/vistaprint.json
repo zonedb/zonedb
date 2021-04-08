@@ -1,11 +1,11 @@
 {
 	"domain": "vistaprint",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.vistaprint",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.vistaprint",
 	"policies": [
 		{
 			"type": "idn-disallowed"

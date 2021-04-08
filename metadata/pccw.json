@@ -1,16 +1,16 @@
 {
 	"domain": "pccw",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.pccw",
 	"nameServers": [
 		"a0.nic.pccw",
 		"a2.nic.pccw",
 		"b0.nic.pccw",
 		"c0.nic.pccw"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

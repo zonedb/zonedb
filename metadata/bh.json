@@ -1,14 +1,14 @@
 {
 	"domain": "bh",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"a.bh.centralnic-dns.com",
 		"b.bh.centralnic-dns.com",
 		"c.bh.centralnic-dns.com",
 		"d.bh.centralnic-dns.com"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "mormon",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.mormon",
 	"nameServers": [
 		"a0.nic.mormon",
 		"a2.nic.mormon",
 		"b0.nic.mormon",
 		"c0.nic.mormon"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

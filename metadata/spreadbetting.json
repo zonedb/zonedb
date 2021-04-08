@@ -1,15 +1,15 @@
 {
 	"domain": "spreadbetting",
 	"infoURL": "https://bostonivy.co/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.spreadbetting",
 	"nameServers": [
 		"a.nic.spreadbetting",
 		"b.nic.spreadbetting",
 		"c.nic.spreadbetting",
 		"d.nic.spreadbetting"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

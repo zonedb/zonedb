@@ -1,8 +1,5 @@
 {
 	"domain": "biz",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.biz",
 	"nameServers": [
 		"a.gtld.biz",
@@ -11,6 +8,9 @@
 		"e.gtld.biz",
 		"f.gtld.biz",
 		"k.gtld.biz"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,14 +1,14 @@
 {
 	"domain": "sx",
 	"infoURL": "https://en.wikipedia.org/wiki/.sx",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.sx",
 	"nameServers": [
 		"ns1.ns.sx",
 		"ns2.ns.sx"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

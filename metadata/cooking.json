@@ -1,9 +1,6 @@
 {
 	"domain": "cooking",
 	"infoURL": "http://nic.cooking/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.cooking",
 	"nameServers": [
 		"dns1.nic.cooking",
@@ -14,6 +11,9 @@
 		"dnsb.nic.cooking",
 		"dnsc.nic.cooking",
 		"dnsd.nic.cooking"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

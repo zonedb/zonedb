@@ -1,16 +1,16 @@
 {
 	"domain": "hughes",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.hughes",
 	"nameServers": [
 		"a0.nic.hughes",
 		"a2.nic.hughes",
 		"b0.nic.hughes",
 		"c0.nic.hughes"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "monash",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.monash",
 	"nameServers": [
 		"a.nic.monash",
 		"b.nic.monash",
 		"c.nic.monash",
 		"d.nic.monash"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

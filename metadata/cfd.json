@@ -1,15 +1,15 @@
 {
 	"domain": "cfd",
 	"infoURL": "https://bostonivy.co/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.cfd",
 	"nameServers": [
 		"a.nic.cfd",
 		"b.nic.cfd",
 		"c.nic.cfd",
 		"d.nic.cfd"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,14 +1,14 @@
 {
 	"domain": "nl",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.domain-registry.nl",
 	"nameServers": [
 		"ns1.dns.nl",
 		"ns2.dns.nl",
 		"ns3.dns.nl"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "saxo",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.saxo",
 	"nameServers": [
 		"a.nic.saxo",
 		"b.nic.saxo",
 		"c.nic.saxo",
 		"d.nic.saxo"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

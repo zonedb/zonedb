@@ -1,11 +1,11 @@
 {
 	"domain": "metlife",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.metlife",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.metlife",
 	"policies": [
 		{
 			"type": "idn-disallowed"

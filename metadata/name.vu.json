@@ -1,8 +1,5 @@
 {
 	"domain": "name.vu",
-	"tags": [
-		"private"
-	],
 	"nameServers": [
 		"ns1.subdomain.com",
 		"ns2.subdomain.com"
@@ -10,5 +7,8 @@
 	"wildcards": [
 		"144.76.162.245",
 		"name.vu"
+	],
+	"tags": [
+		"private"
 	]
 }

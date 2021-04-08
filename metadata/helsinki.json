@@ -1,15 +1,15 @@
 {
 	"domain": "helsinki",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.helsinki",
 	"nameServers": [
 		"a0.nic.helsinki",
 		"a2.nic.helsinki",
 		"b0.nic.helsinki",
 		"c0.nic.helsinki"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

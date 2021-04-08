@@ -1,10 +1,6 @@
 {
 	"domain": "wanggou",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"closed",
-		"generic"
-	],
 	"whoisServer": "whois.nic.wanggou",
 	"nameServers": [
 		"dns1.nic.wanggou",
@@ -15,6 +11,10 @@
 		"dnsb.nic.wanggou",
 		"dnsc.nic.wanggou",
 		"dnsd.nic.wanggou"
+	],
+	"tags": [
+		"closed",
+		"generic"
 	],
 	"policies": [
 		{

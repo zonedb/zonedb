@@ -1,16 +1,16 @@
 {
 	"domain": "ibm",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.ibm",
 	"nameServers": [
 		"a.nic.ibm",
 		"b.nic.ibm",
 		"c.nic.ibm",
 		"d.nic.ibm"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

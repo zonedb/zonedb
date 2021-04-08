@@ -1,6 +1,17 @@
 {
 	"domain": "zuerich",
 	"infoURL": "http://nic.zuerich/",
+	"whoisServer": "whois.nic.zuerich",
+	"nameServers": [
+		"a.nic.zuerich",
+		"b.nic.zuerich",
+		"c.nic.zuerich",
+		"d.nic.zuerich"
+	],
+	"locations": [
+		"Zurich",
+		"CH-ZH"
+	],
 	"languages": [
 		"de-CH"
 	],
@@ -8,16 +19,5 @@
 		"city",
 		"generic",
 		"geo"
-	],
-	"locations": [
-		"Zurich",
-		"CH-ZH"
-	],
-	"whoisServer": "whois.nic.zuerich",
-	"nameServers": [
-		"a.nic.zuerich",
-		"b.nic.zuerich",
-		"c.nic.zuerich",
-		"d.nic.zuerich"
 	]
 }

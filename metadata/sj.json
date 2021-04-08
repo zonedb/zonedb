@@ -1,14 +1,14 @@
 {
 	"domain": "sj",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"nac.no",
 		"nn.uninett.no",
 		"server.nordu.net"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

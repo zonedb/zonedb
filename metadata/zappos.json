@@ -1,10 +1,6 @@
 {
 	"domain": "zappos",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.zappos",
 	"nameServers": [
 		"dns1.nic.zappos",
@@ -15,6 +11,10 @@
 		"dnsb.nic.zappos",
 		"dnsc.nic.zappos",
 		"dnsd.nic.zappos"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

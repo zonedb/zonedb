@@ -1,16 +1,16 @@
 {
 	"domain": "seven",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.seven",
 	"nameServers": [
 		"a.nic.seven",
 		"b.nic.seven",
 		"c.nic.seven",
 		"d.nic.seven"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

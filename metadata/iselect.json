@@ -1,11 +1,11 @@
 {
 	"domain": "iselect",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.iselect",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.iselect",
 	"policies": [
 		{
 			"type": "idn-disallowed"

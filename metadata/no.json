@@ -1,9 +1,5 @@
 {
 	"domain": "no",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.norid.no",
 	"nameServers": [
 		"i.nic.no",
@@ -12,5 +8,9 @@
 		"x.nic.no",
 		"y.nic.no",
 		"z.nic.no"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

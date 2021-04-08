@@ -1,16 +1,16 @@
 {
 	"domain": "wolterskluwer",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.wolterskluwer",
 	"nameServers": [
 		"a0.nic.wolterskluwer",
 		"a2.nic.wolterskluwer",
 		"b0.nic.wolterskluwer",
 		"c0.nic.wolterskluwer"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

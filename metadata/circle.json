@@ -1,9 +1,6 @@
 {
 	"domain": "circle",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.circle",
 	"nameServers": [
 		"dns1.nic.circle",
@@ -14,6 +11,9 @@
 		"dnsb.nic.circle",
 		"dnsc.nic.circle",
 		"dnsd.nic.circle"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

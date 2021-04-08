@@ -1,16 +1,16 @@
 {
 	"domain": "td",
 	"infoURL": "http://nic.td/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.td",
 	"nameServers": [
 		"anycastdns1.nic.td",
 		"anycastdns2.nic.td",
 		"ns-td.afrinic.net",
 		"pch.nic.td"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

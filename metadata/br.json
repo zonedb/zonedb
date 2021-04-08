@@ -1,10 +1,6 @@
 {
 	"domain": "br",
 	"infoURL": "https://nic.br/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.registro.br",
 	"nameServers": [
 		"a.dns.br",
@@ -13,6 +9,10 @@
 		"d.dns.br",
 		"e.dns.br",
 		"f.dns.br"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

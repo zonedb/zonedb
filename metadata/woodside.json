@@ -1,16 +1,16 @@
 {
 	"domain": "woodside",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.woodside",
 	"nameServers": [
 		"a.nic.woodside",
 		"b.nic.woodside",
 		"c.nic.woodside",
 		"d.nic.woodside"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

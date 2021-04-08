@@ -1,15 +1,15 @@
 {
 	"domain": "st",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.st",
 	"nameServers": [
 		"dns-au.st",
 		"dns-st.bahnhof.net",
 		"dns-us.st",
 		"ns1.bahnhof.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

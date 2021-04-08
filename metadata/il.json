@@ -1,11 +1,6 @@
 {
 	"domain": "il",
 	"infoURL": "https://www.isoc.org.il/domain-name-registry",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.isoc.org.il",
 	"nameServers": [
 		"ilns.ilan.net.il",
@@ -16,6 +11,11 @@
 		"nsa.ns.il",
 		"nsb.ns.il",
 		"nse.ns.il"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

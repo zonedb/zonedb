@@ -1,9 +1,5 @@
 {
 	"domain": "ci",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.ci",
 	"nameServers": [
 		"any.nic.ci",
@@ -12,6 +8,10 @@
 		"ns-ci.afrinic.net",
 		"ns.nic.ci",
 		"phloem.uoregon.edu"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

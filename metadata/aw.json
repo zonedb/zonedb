@@ -1,10 +1,6 @@
 {
 	"domain": "aw",
 	"infoURL": "http://www.setarnet.aw/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.aw",
 	"nameServers": [
 		"aw01.setarnet.aw",
@@ -12,6 +8,10 @@
 		"ns1.dns.aw",
 		"ns2.dns.aw",
 		"ns3.dns.aw"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

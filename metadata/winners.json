@@ -1,9 +1,6 @@
 {
 	"domain": "winners",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.winners",
 	"nameServers": [
 		"ns1.dns.nic.winners",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.winners",
 		"ns5.dns.nic.winners",
 		"ns6.dns.nic.winners"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

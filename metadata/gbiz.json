@@ -1,10 +1,6 @@
 {
 	"domain": "gbiz",
 	"infoURL": "https://www.registry.google/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.google",
 	"nameServers": [
 		"ns-tld1.charlestonroadregistry.com",
@@ -12,6 +8,10 @@
 		"ns-tld3.charlestonroadregistry.com",
 		"ns-tld4.charlestonroadregistry.com",
 		"ns-tld5.charlestonroadregistry.com"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

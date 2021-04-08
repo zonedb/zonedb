@@ -1,10 +1,6 @@
 {
 	"domain": "pramerica",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.pramerica",
 	"nameServers": [
 		"ns1.dns.nic.pramerica",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.pramerica",
 		"ns5.dns.nic.pramerica",
 		"ns6.dns.nic.pramerica"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

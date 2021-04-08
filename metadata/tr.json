@@ -1,11 +1,6 @@
 {
 	"domain": "tr",
 	"infoURL": "https://www.nic.tr/",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.tr",
 	"nameServers": [
 		"ns21.nic.tr",
@@ -14,5 +9,10 @@
 		"ns41.nic.tr",
 		"ns42.nic.tr",
 		"ns61.nic.tr"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	]
 }

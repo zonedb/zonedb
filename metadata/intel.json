@@ -1,11 +1,11 @@
 {
 	"domain": "intel",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.intel",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.intel",
 	"policies": [
 		{
 			"type": "idn-disallowed"

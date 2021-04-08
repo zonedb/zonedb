@@ -1,10 +1,5 @@
 {
 	"domain": "py",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.nic.py/consulta-datos.php",
 	"nameServers": [
 		"b.dns.py",
@@ -13,6 +8,11 @@
 		"m.dns.py",
 		"p.dns.py",
 		"u.dns.py"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

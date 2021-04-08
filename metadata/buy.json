@@ -1,9 +1,6 @@
 {
 	"domain": "buy",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.buy",
 	"nameServers": [
 		"dns1.nic.buy",
@@ -14,6 +11,9 @@
 		"dnsb.nic.buy",
 		"dnsc.nic.buy",
 		"dnsd.nic.buy"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

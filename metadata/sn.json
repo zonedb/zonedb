@@ -1,10 +1,5 @@
 {
 	"domain": "sn",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.sn",
 	"nameServers": [
 		"censvrns0001.ird.fr",
@@ -12,6 +7,11 @@
 		"ns.ucad.sn",
 		"ns1.sonatel.sn",
 		"sn.cctld.authdns.ripe.net"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

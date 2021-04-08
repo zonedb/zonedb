@@ -1,9 +1,6 @@
 {
 	"domain": "jot",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.jot",
 	"nameServers": [
 		"dns1.nic.jot",
@@ -14,6 +11,9 @@
 		"dnsb.nic.jot",
 		"dnsc.nic.jot",
 		"dnsd.nic.jot"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

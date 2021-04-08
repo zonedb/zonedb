@@ -1,15 +1,15 @@
 {
 	"domain": "诺基亚",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.诺基亚",
 	"nameServers": [
 		"a0.nic.诺基亚",
 		"a2.nic.诺基亚",
 		"b0.nic.诺基亚",
 		"c0.nic.诺基亚"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

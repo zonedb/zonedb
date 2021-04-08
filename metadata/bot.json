@@ -1,9 +1,6 @@
 {
 	"domain": "bot",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.bot",
 	"nameServers": [
 		"dns1.nic.bot",
@@ -14,6 +11,9 @@
 		"dnsb.nic.bot",
 		"dnsc.nic.bot",
 		"dnsd.nic.bot"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

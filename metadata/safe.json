@@ -1,10 +1,6 @@
 {
 	"domain": "safe",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"closed",
-		"generic"
-	],
 	"whoisServer": "whois.nic.safe",
 	"nameServers": [
 		"dns1.nic.safe",
@@ -15,6 +11,10 @@
 		"dnsb.nic.safe",
 		"dnsc.nic.safe",
 		"dnsd.nic.safe"
+	],
+	"tags": [
+		"closed",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,13 +1,13 @@
 {
 	"domain": "africa.com",
-	"tags": [
-		"private"
-	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"ns2.dns.business",
 		"ns3.dns.business",
 		"ns4.dns.business"
+	],
+	"tags": [
+		"private"
 	],
 	"policies": [
 		{

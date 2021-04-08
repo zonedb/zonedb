@@ -1,10 +1,6 @@
 {
 	"domain": "it",
 	"infoURL": "https://www.nic.it/it",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.it",
 	"nameServers": [
 		"a.dns.it",
@@ -13,6 +9,10 @@
 		"nameserver.cnr.it",
 		"r.dns.it",
 		"s.dns.it"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,11 +1,6 @@
 {
 	"domain": "th",
 	"infoURL": "https://www.thnic.co.th/",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.thnic.co.th",
 	"nameServers": [
 		"a.thains.co.th",
@@ -13,6 +8,11 @@
 		"c.thains.co.th",
 		"ns.thnic.net",
 		"p.thains.co.th"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

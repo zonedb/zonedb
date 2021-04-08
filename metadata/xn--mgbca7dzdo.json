@@ -1,14 +1,14 @@
 {
 	"domain": "ابوظبي",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.ابوظبي",
 	"nameServers": [
 		"gtld.alpha.aridns.net.au",
 		"gtld.beta.aridns.net.au",
 		"gtld.delta.aridns.net.au",
 		"gtld.gamma.aridns.net.au"
+	],
+	"tags": [
+		"generic"
 	]
 }

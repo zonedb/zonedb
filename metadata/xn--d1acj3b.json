@@ -1,8 +1,5 @@
 {
 	"domain": "дети",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.дети",
 	"nameServers": [
 		"a.dns.ripn.net",
@@ -10,6 +7,9 @@
 		"d.dns.ripn.net",
 		"e.dns.ripn.net",
 		"f.dns.ripn.net"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

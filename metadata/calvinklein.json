@@ -1,10 +1,6 @@
 {
 	"domain": "calvinklein",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.calvinklein",
 	"nameServers": [
 		"ns1.dns.nic.calvinklein",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.calvinklein",
 		"ns5.dns.nic.calvinklein",
 		"ns6.dns.nic.calvinklein"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

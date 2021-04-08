@@ -1,9 +1,5 @@
 {
 	"domain": "fi",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.fi",
 	"nameServers": [
 		"a.fi",
@@ -15,5 +11,9 @@
 		"g.fi",
 		"h.fi",
 		"i.fi"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

@@ -1,15 +1,15 @@
 {
 	"domain": "protection",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.protection",
 	"nameServers": [
 		"a.nic.protection",
 		"b.nic.protection",
 		"e.nic.protection",
 		"f.nic.protection"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

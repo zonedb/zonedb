@@ -1,10 +1,6 @@
 {
 	"domain": "swiss",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"community",
-		"generic"
-	],
 	"whoisServer": "whois.nic.swiss",
 	"nameServers": [
 		"anycast10.irondns.net",
@@ -14,6 +10,10 @@
 		"g.nic.swiss",
 		"ns15.rcode0.net",
 		"u.nic.swiss"
+	],
+	"tags": [
+		"community",
+		"generic"
 	],
 	"policies": [
 		{

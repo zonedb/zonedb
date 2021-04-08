@@ -1,16 +1,16 @@
 {
 	"domain": "showtime",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.showtime",
 		"a2.nic.showtime",
 		"b0.nic.showtime",
 		"c0.nic.showtime"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

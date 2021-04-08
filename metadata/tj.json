@@ -1,15 +1,15 @@
 {
 	"domain": "tj",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://www.nic.tj/whois.html",
 	"nameServers": [
 		"ns1.nic.tj",
 		"ns2.tojikiston.com",
 		"phloem.uoregon.edu",
 		"tj.cctld.authdns.ripe.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

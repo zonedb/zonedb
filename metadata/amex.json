@@ -1,10 +1,6 @@
 {
 	"domain": "amex",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.amex",
 	"nameServers": [
 		"ns1.dns.nic.amex",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.amex",
 		"ns5.dns.nic.amex",
 		"ns6.dns.nic.amex"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

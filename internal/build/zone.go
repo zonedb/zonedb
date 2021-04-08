@@ -15,13 +15,13 @@ import (
 type Zone struct {
 	Domain      string   `json:"domain,omitempty"`
 	InfoURL     string   `json:"infoURL,omitempty"`
-	Languages   []string `json:"languages,omitempty"`
-	Tags        []string `json:"tags,omitempty"`
-	Locations   []string `json:"locations,omitempty"`
-	WhoisServer string   `json:"whoisServer,omitempty"`
 	WhoisURL    string   `json:"whoisURL,omitempty"`
+	WhoisServer string   `json:"whoisServer,omitempty"`
 	NameServers []string `json:"nameServers,omitempty"`
 	Wildcards   []string `json:"wildcards,omitempty"`
+	Locations   []string `json:"locations,omitempty"`
+	Languages   []string `json:"languages,omitempty"`
+	Tags        []string `json:"tags,omitempty"`
 	Policies    []Policy `json:"policies,omitempty"`
 
 	// Internal

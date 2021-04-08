@@ -1,10 +1,6 @@
 {
 	"domain": "homegoods",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.homegoods",
 	"nameServers": [
 		"ns1.dns.nic.homegoods",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.homegoods",
 		"ns5.dns.nic.homegoods",
 		"ns6.dns.nic.homegoods"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

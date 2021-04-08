@@ -1,14 +1,14 @@
 {
 	"domain": "cx",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.cx",
 	"nameServers": [
 		"ns.anycast.nic.cx",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

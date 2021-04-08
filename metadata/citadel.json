@@ -1,10 +1,6 @@
 {
 	"domain": "citadel",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.citadel",
 	"nameServers": [
 		"ns1.dns.nic.citadel",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.citadel",
 		"ns5.dns.nic.citadel",
 		"ns6.dns.nic.citadel"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

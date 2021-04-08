@@ -1,16 +1,16 @@
 {
 	"domain": "quest",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.quest",
 	"nameServers": [
 		"a-cnic.nic.quest",
 		"b-cnic.nic.quest",
 		"c-cnic.nic.quest",
 		"d-cnic.nic.quest"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,9 +1,5 @@
 {
 	"domain": "is",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.isnic.is",
 	"nameServers": [
 		"bes.isnic.is",
@@ -11,5 +7,9 @@
 		"isgate.is",
 		"sab.isnic.is",
 		"sunic.sunet.se"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

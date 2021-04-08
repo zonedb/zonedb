@@ -1,9 +1,6 @@
 {
 	"domain": "我爱你",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.gtld.knet.cn",
 	"nameServers": [
 		"a.zdnscloud.com",
@@ -14,6 +11,9 @@
 		"g.zdnscloud.com",
 		"i.zdnscloud.com",
 		"j.zdnscloud.com"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

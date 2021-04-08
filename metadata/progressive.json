@@ -1,16 +1,16 @@
 {
 	"domain": "progressive",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.progressive",
 		"a2.nic.progressive",
 		"b0.nic.progressive",
 		"c0.nic.progressive"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

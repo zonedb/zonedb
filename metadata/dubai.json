@@ -1,21 +1,21 @@
 {
 	"domain": "dubai",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"AE-DU",
-		"Dubai"
-	],
 	"whoisServer": "whois.nic.dubai",
 	"nameServers": [
 		"gtld.alpha.aridns.net.au",
 		"gtld.beta.aridns.net.au",
 		"gtld.delta.aridns.net.au",
 		"gtld.gamma.aridns.net.au"
+	],
+	"locations": [
+		"AE-DU",
+		"Dubai"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

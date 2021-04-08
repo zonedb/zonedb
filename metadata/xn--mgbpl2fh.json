@@ -1,10 +1,10 @@
 {
 	"domain": "سودان",
-	"tags": [
-		"generic"
-	],
 	"nameServers": [
 		"ans1.sis.sd",
 		"pch.sis.sd"
+	],
+	"tags": [
+		"generic"
 	]
 }

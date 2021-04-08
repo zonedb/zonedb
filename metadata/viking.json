@@ -1,16 +1,16 @@
 {
 	"domain": "viking",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.viking",
 		"a2.nic.viking",
 		"b0.nic.viking",
 		"c0.nic.viking"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,10 +1,6 @@
 {
 	"domain": "cm",
 	"infoURL": "https://antic.cm/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.netcom.cm",
 	"nameServers": [
 		"auth02.ns.uu.net",
@@ -12,6 +8,10 @@
 		"lom.camnet.cm",
 		"ns.itu.ch",
 		"sanaga.camnet.cm"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

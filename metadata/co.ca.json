@@ -1,8 +1,5 @@
 {
 	"domain": "co.ca",
-	"tags": [
-		"private"
-	],
 	"whoisServer": "whois.co.ca",
 	"nameServers": [
 		"primary.relay.co.ca",
@@ -11,5 +8,8 @@
 		"secondary.relay.co.ca",
 		"senary.relay.co.ca",
 		"tertiary.relay.co.ca"
+	],
+	"tags": [
+		"private"
 	]
 }

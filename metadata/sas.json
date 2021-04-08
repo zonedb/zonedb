@@ -1,10 +1,6 @@
 {
 	"domain": "sas",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.sas",
 	"nameServers": [
 		"ns1.dns.nic.sas",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.sas",
 		"ns5.dns.nic.sas",
 		"ns6.dns.nic.sas"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

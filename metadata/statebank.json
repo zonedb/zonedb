@@ -1,16 +1,16 @@
 {
 	"domain": "statebank",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.statebank",
 	"nameServers": [
 		"a0.nic.statebank",
 		"a2.nic.statebank",
 		"b0.nic.statebank",
 		"c0.nic.statebank"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

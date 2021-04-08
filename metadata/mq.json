@@ -1,14 +1,14 @@
 {
 	"domain": "mq",
 	"infoURL": "https://www.dom-enic.com/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.mediaserv.net",
 	"nameServers": [
 		"ns1-gp.mediaserv.net",
 		"ns1-mq.mediaserv.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

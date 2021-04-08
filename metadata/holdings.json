@@ -1,14 +1,14 @@
 {
 	"domain": "holdings",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.holdings",
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",
 		"demand.delta.aridns.net.au",
 		"demand.gamma.aridns.net.au"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

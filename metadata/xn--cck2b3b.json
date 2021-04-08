@@ -1,9 +1,6 @@
 {
 	"domain": "ストア",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.ストア",
 	"nameServers": [
 		"ns1.dns.nic.ストア",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.ストア",
 		"ns5.dns.nic.ストア",
 		"ns6.dns.nic.ストア"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

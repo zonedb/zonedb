@@ -1,14 +1,14 @@
 {
 	"domain": "ml",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.dot.ml",
 	"nameServers": [
 		"a.ns.ml",
 		"b.ns.ml",
 		"c.ns.ml",
 		"d.ns.ml"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

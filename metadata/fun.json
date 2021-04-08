@@ -1,15 +1,15 @@
 {
 	"domain": "fun",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.fun",
 	"nameServers": [
 		"a.nic.fun",
 		"b.nic.fun",
 		"e.nic.fun",
 		"f.nic.fun"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

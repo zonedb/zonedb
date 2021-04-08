@@ -1,10 +1,6 @@
 {
 	"domain": "mint",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.mint",
 	"nameServers": [
 		"ns1.dns.nic.mint",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.mint",
 		"ns5.dns.nic.mint",
 		"ns6.dns.nic.mint"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

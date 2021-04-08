@@ -1,10 +1,6 @@
 {
 	"domain": "virgin",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.virgin",
 	"nameServers": [
 		"dns1.nic.virgin",
@@ -15,6 +11,10 @@
 		"dnsb.nic.virgin",
 		"dnsc.nic.virgin",
 		"dnsd.nic.virgin"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

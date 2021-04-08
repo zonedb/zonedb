@@ -1,16 +1,16 @@
 {
 	"domain": "sling",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.sling",
 	"nameServers": [
 		"a0.nic.sling",
 		"a2.nic.sling",
 		"b0.nic.sling",
 		"c0.nic.sling"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

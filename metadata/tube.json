@@ -1,9 +1,6 @@
 {
 	"domain": "tube",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.tube",
 	"nameServers": [
 		"ns1.dns.nic.tube",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.tube",
 		"ns5.dns.nic.tube",
 		"ns6.dns.nic.tube"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "auspost",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.auspost",
 	"nameServers": [
 		"a.nic.auspost",
 		"b.nic.auspost",
 		"c.nic.auspost",
 		"d.nic.auspost"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "olayangroup",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.olayangroup",
 	"nameServers": [
 		"a.nic.olayangroup",
 		"b.nic.olayangroup",
 		"c.nic.olayangroup",
 		"d.nic.olayangroup"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

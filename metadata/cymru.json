@@ -1,13 +1,6 @@
 {
 	"domain": "cymru",
 	"infoURL": "https://eincartrefarlein.cymru/",
-	"tags": [
-		"generic",
-		"region"
-	],
-	"locations": [
-		"GB-WLS"
-	],
 	"whoisServer": "whois.nic.cymru",
 	"nameServers": [
 		"dns1.nic.cymru",
@@ -18,6 +11,13 @@
 		"dnsb.nic.cymru",
 		"dnsc.nic.cymru",
 		"dnsd.nic.cymru"
+	],
+	"locations": [
+		"GB-WLS"
+	],
+	"tags": [
+		"generic",
+		"region"
 	],
 	"policies": [
 		{

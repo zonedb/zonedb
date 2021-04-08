@@ -1,10 +1,6 @@
 {
 	"domain": "id",
 	"infoURL": "https://pandi.id/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.id",
 	"nameServers": [
 		"b.dns.id",
@@ -12,5 +8,9 @@
 		"d.dns.id",
 		"e.dns.id",
 		"ns4.apnic.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

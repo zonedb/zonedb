@@ -1,9 +1,6 @@
 {
 	"domain": "pharmacy",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.pharmacy",
 	"nameServers": [
 		"dns1.nic.pharmacy",
@@ -14,6 +11,9 @@
 		"dnsb.nic.pharmacy",
 		"dnsc.nic.pharmacy",
 		"dnsd.nic.pharmacy"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

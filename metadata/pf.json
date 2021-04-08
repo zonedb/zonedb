@@ -1,13 +1,13 @@
 {
 	"domain": "pf",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.registry.pf",
 	"nameServers": [
 		"ns1.mana.pf",
 		"ns2.mana.pf"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

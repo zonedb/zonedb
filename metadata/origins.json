@@ -1,16 +1,16 @@
 {
 	"domain": "origins",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.origins",
 	"nameServers": [
 		"a0.nic.origins",
 		"a2.nic.origins",
 		"b0.nic.origins",
 		"c0.nic.origins"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

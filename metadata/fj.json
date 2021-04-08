@@ -1,10 +1,6 @@
 {
 	"domain": "fj",
 	"infoURL": "http://domains.fj/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.usp.ac.fj",
 	"nameServers": [
 		"ns1.fj",
@@ -12,6 +8,10 @@
 		"ns3.fj",
 		"ns4.fj",
 		"ns5.fj"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

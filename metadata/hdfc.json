@@ -1,16 +1,16 @@
 {
 	"domain": "hdfc",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.hdfc",
 	"nameServers": [
 		"a0.nic.hdfc",
 		"a2.nic.hdfc",
 		"b0.nic.hdfc",
 		"c0.nic.hdfc"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

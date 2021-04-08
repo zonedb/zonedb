@@ -1,19 +1,19 @@
 {
 	"domain": "wien",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Vienna",
-		"AT-9"
-	],
 	"whoisServer": "whois.nic.wien",
 	"nameServers": [
 		"dns.ryce-rsp.com",
 		"ns1.dns.business",
 		"ns1.ryce-rsp.com"
+	],
+	"locations": [
+		"Vienna",
+		"AT-9"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

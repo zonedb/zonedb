@@ -1,16 +1,16 @@
 {
 	"domain": "bestbuy",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.bestbuy",
 	"nameServers": [
 		"a0.nic.bestbuy",
 		"a2.nic.bestbuy",
 		"b0.nic.bestbuy",
 		"c0.nic.bestbuy"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

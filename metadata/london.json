@@ -1,10 +1,16 @@
 {
 	"domain": "london",
 	"infoURL": "http://nic.london/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
+	"whoisServer": "whois.nic.london",
+	"nameServers": [
+		"dns1.nic.london",
+		"dns2.nic.london",
+		"dns3.nic.london",
+		"dns4.nic.london",
+		"dnsa.nic.london",
+		"dnsb.nic.london",
+		"dnsc.nic.london",
+		"dnsd.nic.london"
 	],
 	"locations": [
 		"London",
@@ -42,16 +48,10 @@
 		"GB-WND",
 		"GB-WSM"
 	],
-	"whoisServer": "whois.nic.london",
-	"nameServers": [
-		"dns1.nic.london",
-		"dns2.nic.london",
-		"dns3.nic.london",
-		"dns4.nic.london",
-		"dnsa.nic.london",
-		"dnsb.nic.london",
-		"dnsc.nic.london",
-		"dnsd.nic.london"
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

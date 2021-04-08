@@ -1,9 +1,5 @@
 {
 	"domain": "ch",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.ch",
 	"nameServers": [
 		"a.nic.ch",
@@ -12,5 +8,9 @@
 		"e.nic.ch",
 		"f.nic.ch",
 		"g.nic.ch"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

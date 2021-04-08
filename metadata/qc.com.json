@@ -1,11 +1,11 @@
 {
 	"domain": "qc.com",
-	"tags": [
-		"private"
-	],
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
 		"pdns07.domaincontrol.com",
 		"pdns08.domaincontrol.com"
+	],
+	"tags": [
+		"private"
 	]
 }

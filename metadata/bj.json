@@ -1,9 +1,5 @@
 {
 	"domain": "bj",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.bj",
 	"nameServers": [
 		"anycastdns1.nic.bj",
@@ -13,6 +9,10 @@
 		"ns1.nic.bj",
 		"ns2.nic.bj",
 		"pch.nic.bj"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,15 +1,6 @@
 {
 	"domain": "taipei",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Taipei",
-		"TW-TPQ"
-	],
 	"whoisServer": "whois.nic.taipei",
 	"nameServers": [
 		"ns1.dns.nic.taipei",
@@ -18,6 +9,15 @@
 		"ns4.dns.nic.taipei",
 		"ns5.dns.nic.taipei",
 		"ns6.dns.nic.taipei"
+	],
+	"locations": [
+		"Taipei",
+		"TW-TPQ"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

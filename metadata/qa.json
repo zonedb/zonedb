@@ -1,9 +1,5 @@
 {
 	"domain": "qa",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.registry.qa",
 	"nameServers": [
 		"a.registry.qa",
@@ -15,6 +11,10 @@
 		"g.registry.qa",
 		"h.registry.qa",
 		"i.registry.qa"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

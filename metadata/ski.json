@@ -1,15 +1,15 @@
 {
 	"domain": "ski",
 	"infoURL": "https://domains.ski/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.afilias.net",
 	"nameServers": [
 		"a0.nic.ski",
 		"a2.nic.ski",
 		"b0.nic.ski",
 		"c0.nic.ski"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

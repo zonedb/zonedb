@@ -1,16 +1,16 @@
 {
 	"domain": "cd",
 	"infoURL": "https://www.nic.cd/nic.cd/",
-	"tags": [
-		"country",
-		"generic",
-		"geo"
-	],
 	"whoisServer": "whois.cd",
 	"nameServers": [
 		"ns-root-21.scpt-network.net",
 		"ns-root-22.scpt-network.net",
 		"ns-root-23.scpt-network.net"
+	],
+	"tags": [
+		"country",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

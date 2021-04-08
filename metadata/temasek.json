@@ -1,16 +1,16 @@
 {
 	"domain": "temasek",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.temasek",
 		"a2.nic.temasek",
 		"b0.nic.temasek",
 		"c0.nic.temasek"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

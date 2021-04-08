@@ -1,16 +1,16 @@
 {
 	"domain": "makeup",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.makeup",
 	"nameServers": [
 		"a.nic.makeup",
 		"b.nic.makeup",
 		"c.nic.makeup",
 		"d.nic.makeup"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

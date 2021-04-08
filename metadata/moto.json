@@ -1,9 +1,6 @@
 {
 	"domain": "moto",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.moto",
 	"nameServers": [
 		"ns1.dns.nic.moto",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.moto",
 		"ns5.dns.nic.moto",
 		"ns6.dns.nic.moto"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

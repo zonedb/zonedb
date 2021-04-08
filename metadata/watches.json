@@ -1,15 +1,15 @@
 {
 	"domain": "watches",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.watches",
 	"nameServers": [
 		"a0.nic.watches",
 		"a2.nic.watches",
 		"b0.nic.watches",
 		"c0.nic.watches"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

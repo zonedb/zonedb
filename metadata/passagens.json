@@ -1,10 +1,6 @@
 {
 	"domain": "passagens",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.passagens",
 	"nameServers": [
 		"ns1.dns.nic.passagens",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.passagens",
 		"ns5.dns.nic.passagens",
 		"ns6.dns.nic.passagens"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

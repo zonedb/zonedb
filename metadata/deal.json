@@ -1,9 +1,6 @@
 {
 	"domain": "deal",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.deal",
 	"nameServers": [
 		"dns1.nic.deal",
@@ -14,6 +11,9 @@
 		"dnsb.nic.deal",
 		"dnsc.nic.deal",
 		"dnsd.nic.deal"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

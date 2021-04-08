@@ -1,15 +1,15 @@
 {
 	"domain": "pid",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.pid",
 	"nameServers": [
 		"a.nic.pid",
 		"b.nic.pid",
 		"c.nic.pid",
 		"d.nic.pid"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

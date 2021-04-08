@@ -1,10 +1,6 @@
 {
 	"domain": "axa",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.axa",
 	"nameServers": [
 		"ns1.dns.nic.axa",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.axa",
 		"ns5.dns.nic.axa",
 		"ns6.dns.nic.axa"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

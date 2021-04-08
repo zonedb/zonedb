@@ -1,10 +1,6 @@
 {
 	"domain": "audible",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.audible",
 	"nameServers": [
 		"dns1.nic.audible",
@@ -15,6 +11,10 @@
 		"dnsb.nic.audible",
 		"dnsc.nic.audible",
 		"dnsd.nic.audible"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

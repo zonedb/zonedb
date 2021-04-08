@@ -1,9 +1,6 @@
 {
 	"domain": "party",
 	"infoURL": "https://www.famousfourmedia.com/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.party",
 	"nameServers": [
 		"ns1.dns.nic.party",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.party",
 		"ns5.dns.nic.party",
 		"ns6.dns.nic.party"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

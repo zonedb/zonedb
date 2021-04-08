@@ -1,11 +1,11 @@
 {
 	"domain": "xperia",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.xperia",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.xperia",
 	"policies": [
 		{
 			"type": "idn-disallowed"

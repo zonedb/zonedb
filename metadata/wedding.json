@@ -1,9 +1,6 @@
 {
 	"domain": "wedding",
 	"infoURL": "http://nic.wedding/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.wedding",
 	"nameServers": [
 		"dns1.nic.wedding",
@@ -14,6 +11,9 @@
 		"dnsb.nic.wedding",
 		"dnsc.nic.wedding",
 		"dnsd.nic.wedding"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "jeep",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.jeep",
 		"a2.nic.jeep",
 		"b0.nic.jeep",
 		"c0.nic.jeep"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

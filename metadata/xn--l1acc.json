@@ -1,13 +1,13 @@
 {
 	"domain": "мон",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"nameServers": [
 		"ns1.idn.mn",
 		"ns2.idn.mn",
 		"ns3.idn.mn"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

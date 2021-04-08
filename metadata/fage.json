@@ -1,16 +1,16 @@
 {
 	"domain": "fage",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.fage",
 		"a2.nic.fage",
 		"b0.nic.fage",
 		"c0.nic.fage"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

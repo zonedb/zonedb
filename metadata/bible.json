@@ -1,9 +1,6 @@
 {
 	"domain": "bible",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.bible",
 	"nameServers": [
 		"ns1.dns.nic.bible",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.bible",
 		"ns5.dns.nic.bible",
 		"ns6.dns.nic.bible"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "deloitte",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.deloitte",
 	"nameServers": [
 		"a.nic.deloitte",
 		"b.nic.deloitte",
 		"c.nic.deloitte",
 		"d.nic.deloitte"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

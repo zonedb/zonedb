@@ -1,9 +1,6 @@
 {
 	"domain": "セール",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.セール",
 	"nameServers": [
 		"ns1.dns.nic.セール",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.セール",
 		"ns5.dns.nic.セール",
 		"ns6.dns.nic.セール"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

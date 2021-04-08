@@ -1,11 +1,11 @@
 {
 	"domain": "mutuelle",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois-mutuelle.nic.fr",
 	"tags": [
 		"generic",
 		"retired"
 	],
-	"whoisServer": "whois-mutuelle.nic.fr",
 	"policies": [
 		{
 			"type": "idn-disallowed"

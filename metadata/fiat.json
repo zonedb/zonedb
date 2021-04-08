@@ -1,16 +1,16 @@
 {
 	"domain": "fiat",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.fiat",
 		"a2.nic.fiat",
 		"b0.nic.fiat",
 		"c0.nic.fiat"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

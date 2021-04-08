@@ -1,16 +1,16 @@
 {
 	"domain": "mit",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.mit",
 		"a2.nic.mit",
 		"b0.nic.mit",
 		"c0.nic.mit"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,11 +1,11 @@
 {
 	"domain": "nagasaki.jp",
+	"locations": [
+		"Nagasaki"
+	],
 	"tags": [
 		"city",
 		"geo"
-	],
-	"locations": [
-		"Nagasaki"
 	],
 	"policies": [
 		{

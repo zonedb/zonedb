@@ -1,9 +1,5 @@
 {
 	"domain": "li",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.li",
 	"nameServers": [
 		"a.nic.li",
@@ -12,5 +8,9 @@
 		"e.nic.li",
 		"f.nic.li",
 		"g.nic.li"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

@@ -1,15 +1,15 @@
 {
 	"domain": "kpn",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"nameServers": [
 		"a.nic.kpn",
 		"b.nic.kpn",
 		"c.nic.kpn",
 		"d.nic.kpn"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

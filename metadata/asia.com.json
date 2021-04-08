@@ -1,8 +1,5 @@
 {
 	"domain": "asia.com",
-	"tags": [
-		"private"
-	],
 	"nameServers": [
 		"pdns1.ultradns.net",
 		"pdns2.ultradns.net",
@@ -13,6 +10,9 @@
 	],
 	"wildcards": [
 		"72.55.150.59"
+	],
+	"tags": [
+		"private"
 	],
 	"policies": [
 		{

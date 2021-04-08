@@ -1,10 +1,6 @@
 {
 	"domain": "mw",
 	"infoURL": "http://nic.mw/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.mw",
 	"nameServers": [
 		"chambo.sdnp.org.mw",
@@ -14,6 +10,10 @@
 		"ns4.apnic.net",
 		"pch1.nic.mw",
 		"rip.psg.com"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

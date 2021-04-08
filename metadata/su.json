@@ -1,10 +1,5 @@
 {
 	"domain": "su",
-	"tags": [
-		"country",
-		"generic",
-		"geo"
-	],
 	"whoisServer": "whois.tcinet.ru",
 	"nameServers": [
 		"a.dns.ripn.net",
@@ -12,5 +7,10 @@
 		"d.dns.ripn.net",
 		"e.dns.ripn.net",
 		"f.dns.ripn.net"
+	],
+	"tags": [
+		"country",
+		"generic",
+		"geo"
 	]
 }

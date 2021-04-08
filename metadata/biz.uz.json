@@ -1,8 +1,5 @@
 {
 	"domain": "biz.uz",
-	"tags": [
-		"private"
-	],
 	"nameServers": [
 		"ns1.subdomain.com",
 		"ns2.subdomain.com"
@@ -10,6 +7,9 @@
 	"wildcards": [
 		"144.76.162.245",
 		"biz.uz"
+	],
+	"tags": [
+		"private"
 	],
 	"policies": [
 		{

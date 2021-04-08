@@ -1,9 +1,5 @@
 {
 	"domain": "mx",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.mx",
 	"nameServers": [
 		"c.mx-ns.mx",
@@ -12,6 +8,10 @@
 		"m.mx-ns.mx",
 		"o.mx-ns.mx",
 		"x.mx-ns.mx"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

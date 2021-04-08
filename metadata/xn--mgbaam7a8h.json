@@ -1,16 +1,16 @@
 {
 	"domain": "امارات",
+	"whoisServer": "whois.aeda.net.ae",
+	"nameServers": [
+		"ns1.aedns.ae",
+		"ns2.aedns.ae",
+		"nsext-pch.aedns.ae"
+	],
 	"languages": [
 		"ar-AE"
 	],
 	"tags": [
 		"country",
 		"geo"
-	],
-	"whoisServer": "whois.aeda.net.ae",
-	"nameServers": [
-		"ns1.aedns.ae",
-		"ns2.aedns.ae",
-		"nsext-pch.aedns.ae"
 	]
 }

@@ -1,10 +1,6 @@
 {
 	"domain": "do",
 	"infoURL": "https://www.nic.do/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.do",
 	"nameServers": [
 		"a.lactld.org",
@@ -15,6 +11,10 @@
 		"ns4.nic.do",
 		"ns5.nic.do",
 		"phloem.uoregon.edu"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

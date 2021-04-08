@@ -1,10 +1,6 @@
 {
 	"domain": "chase",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.chase",
 	"nameServers": [
 		"ns1.dns.nic.chase",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.chase",
 		"ns5.dns.nic.chase",
 		"ns6.dns.nic.chase"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

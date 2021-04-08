@@ -1,9 +1,5 @@
 {
 	"domain": "si",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.register.si",
 	"nameServers": [
 		"b.dns.si",
@@ -13,6 +9,10 @@
 		"i.dns.si",
 		"k.dns.si",
 		"l.dns.si"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

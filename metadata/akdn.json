@@ -1,16 +1,16 @@
 {
 	"domain": "akdn",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.akdn",
 		"a2.nic.akdn",
 		"b0.nic.akdn",
 		"c0.nic.akdn"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

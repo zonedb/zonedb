@@ -1,10 +1,6 @@
 {
 	"domain": "hyatt",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.hyatt",
 	"nameServers": [
 		"ns1.dns.nic.hyatt",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.hyatt",
 		"ns5.dns.nic.hyatt",
 		"ns6.dns.nic.hyatt"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

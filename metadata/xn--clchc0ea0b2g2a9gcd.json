@@ -1,8 +1,5 @@
 {
 	"domain": "சிங்கப்பூர்",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.sgnic.sg",
 	"nameServers": [
 		"dsany.sgnic.sg",
@@ -10,5 +7,8 @@
 		"dsany3.sgnic.sg",
 		"ns4.apnic.net",
 		"pch.sgzones.sg"
+	],
+	"tags": [
+		"generic"
 	]
 }

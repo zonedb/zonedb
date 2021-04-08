@@ -1,14 +1,14 @@
 {
 	"domain": "yt",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.yt",
 	"nameServers": [
 		"d.nic.fr",
 		"e.ext.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

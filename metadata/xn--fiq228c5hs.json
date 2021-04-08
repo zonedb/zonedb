@@ -1,14 +1,14 @@
 {
 	"domain": "中文网",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.teleinfo.cn",
 	"nameServers": [
 		"ns1.teleinfo.cn",
 		"ns2.teleinfoo.com",
 		"ns3.teleinfo.cn",
 		"ns4.teleinfoo.com"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

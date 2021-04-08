@@ -1,15 +1,15 @@
 {
 	"domain": "bio",
 	"infoURL": "https://domains.bio/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.afilias.net",
 	"nameServers": [
 		"a0.nic.bio",
 		"a2.nic.bio",
 		"b0.nic.bio",
 		"c0.nic.bio"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

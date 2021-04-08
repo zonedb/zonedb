@@ -1,10 +1,6 @@
 {
 	"domain": "aero",
 	"infoURL": "https://information.aero/",
-	"tags": [
-		"generic",
-		"sponsored"
-	],
 	"whoisServer": "whois.aero",
 	"nameServers": [
 		"a0.nic.aero",
@@ -12,6 +8,10 @@
 		"b0.nic.aero",
 		"b2.nic.aero",
 		"c0.nic.aero"
+	],
+	"tags": [
+		"generic",
+		"sponsored"
 	],
 	"policies": [
 		{

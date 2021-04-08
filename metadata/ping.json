@@ -1,10 +1,6 @@
 {
 	"domain": "ping",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.ping",
 	"nameServers": [
 		"ns1.dns.nic.ping",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.ping",
 		"ns5.dns.nic.ping",
 		"ns6.dns.nic.ping"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

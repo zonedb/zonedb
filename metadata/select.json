@@ -1,16 +1,16 @@
 {
 	"domain": "select",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.select",
 	"nameServers": [
 		"a.nic.select",
 		"b.nic.select",
 		"c.nic.select",
 		"d.nic.select"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,14 +1,14 @@
 {
 	"domain": "gn",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"fork.sth.dnsnode.net",
 		"ns-gn.afrinic.net",
 		"rip.psg.com"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

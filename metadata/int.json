@@ -1,9 +1,5 @@
 {
 	"domain": "int",
-	"tags": [
-		"generic",
-		"sponsored"
-	],
 	"whoisServer": "whois.iana.org",
 	"nameServers": [
 		"ns.uu.net",
@@ -12,6 +8,10 @@
 		"x.iana-servers.net",
 		"y.iana-servers.net",
 		"z.iana-servers.net"
+	],
+	"tags": [
+		"generic",
+		"sponsored"
 	],
 	"policies": [
 		{

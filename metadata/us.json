@@ -1,9 +1,5 @@
 {
 	"domain": "us",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.us",
 	"nameServers": [
 		"a.cctld.us",
@@ -12,6 +8,10 @@
 		"e.cctld.us",
 		"f.cctld.us",
 		"k.cctld.us"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

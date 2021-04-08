@@ -1,13 +1,13 @@
 {
 	"domain": "ไทย",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.thnic.co.th",
 	"nameServers": [
 		"a.thains.co.th",
 		"b.thains.co.th",
 		"ns.thnic.net",
 		"p.thains.co.th"
+	],
+	"tags": [
+		"generic"
 	]
 }

@@ -1,10 +1,6 @@
 {
 	"domain": "amica",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.amica",
 	"nameServers": [
 		"ns1.dns.nic.amica",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.amica",
 		"ns5.dns.nic.amica",
 		"ns6.dns.nic.amica"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

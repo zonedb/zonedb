@@ -1,10 +1,6 @@
 {
 	"domain": "vivo",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.vivo",
 	"nameServers": [
 		"ns1.dns.nic.vivo",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.vivo",
 		"ns5.dns.nic.vivo",
 		"ns6.dns.nic.vivo"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

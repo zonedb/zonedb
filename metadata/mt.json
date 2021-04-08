@@ -1,15 +1,15 @@
 {
 	"domain": "mt",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "https://www.nic.org.mt/dotmt/",
 	"nameServers": [
 		"a.ns.mt",
 		"b.ns.mt",
 		"f.ns.mt",
 		"p.ns.mt"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

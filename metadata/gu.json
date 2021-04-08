@@ -1,16 +1,16 @@
 {
 	"domain": "gu",
 	"infoURL": "http://gadao.gov.gu/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://gadao.gov.gu/domainsearch.htm",
 	"nameServers": [
 		"gold.uog.edu",
 		"green.uog.edu",
 		"gu.cctld.authdns.ripe.net",
 		"phloem.uoregon.edu"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

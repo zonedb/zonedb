@@ -1,9 +1,5 @@
 {
 	"domain": "ug",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.co.ug",
 	"nameServers": [
 		"anycast.eahd.or.ug",
@@ -11,6 +7,10 @@
 		"ns.icann.org",
 		"root.eahd.or.ug",
 		"ug.cctld.authdns.ripe.net"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

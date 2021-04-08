@@ -1,15 +1,15 @@
 {
 	"domain": "tickets",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.tickets",
 	"nameServers": [
 		"a.nic.tickets",
 		"b.nic.tickets",
 		"c.nic.tickets",
 		"d.nic.tickets"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

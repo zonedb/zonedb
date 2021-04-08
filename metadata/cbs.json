@@ -1,16 +1,16 @@
 {
 	"domain": "cbs",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.cbs",
 		"a2.nic.cbs",
 		"b0.nic.cbs",
 		"c0.nic.cbs"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

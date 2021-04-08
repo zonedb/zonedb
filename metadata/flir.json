@@ -1,10 +1,6 @@
 {
 	"domain": "flir",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.flir",
 	"nameServers": [
 		"ns1.dns.nic.flir",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.flir",
 		"ns5.dns.nic.flir",
 		"ns6.dns.nic.flir"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

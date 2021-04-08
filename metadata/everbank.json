@@ -1,11 +1,11 @@
 {
 	"domain": "everbank",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.everbank",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.everbank",
 	"policies": [
 		{
 			"type": "idn-disallowed"

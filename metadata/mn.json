@@ -1,9 +1,5 @@
 {
 	"domain": "mn",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.mn",
 	"nameServers": [
 		"a0.cctld.afilias-nst.info",
@@ -16,6 +12,10 @@
 		"ns2.magic.mn",
 		"ns3.magic.mn",
 		"ns4.magic.mn"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

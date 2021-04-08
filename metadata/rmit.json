@@ -1,16 +1,16 @@
 {
 	"domain": "rmit",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.rmit",
 	"nameServers": [
 		"a.nic.rmit",
 		"b.nic.rmit",
 		"c.nic.rmit",
 		"d.nic.rmit"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

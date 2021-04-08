@@ -1,15 +1,15 @@
 {
 	"domain": "beauty",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.beauty",
 	"nameServers": [
 		"a.nic.beauty",
 		"b.nic.beauty",
 		"c.nic.beauty",
 		"d.nic.beauty"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,14 +1,14 @@
 {
 	"domain": "wiki",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.wiki",
 	"nameServers": [
 		"a.nic.wiki",
 		"b.nic.wiki",
 		"c.nic.wiki",
 		"d.nic.wiki"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

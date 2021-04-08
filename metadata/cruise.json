@@ -1,15 +1,15 @@
 {
 	"domain": "cruise",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.cruise",
 	"nameServers": [
 		"a0.nic.cruise",
 		"a2.nic.cruise",
 		"b0.nic.cruise",
 		"c0.nic.cruise"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

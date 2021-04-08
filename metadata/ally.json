@@ -1,16 +1,16 @@
 {
 	"domain": "ally",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.ally",
 	"nameServers": [
 		"a.nic.ally",
 		"b.nic.ally",
 		"c.nic.ally",
 		"d.nic.ally"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

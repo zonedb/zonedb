@@ -1,10 +1,6 @@
 {
 	"domain": "ar",
 	"infoURL": "https://nic.ar/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.ar",
 	"nameServers": [
 		"a.dns.ar",
@@ -14,5 +10,9 @@
 		"d.dns.ar",
 		"e.dns.ar",
 		"f.dns.ar"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

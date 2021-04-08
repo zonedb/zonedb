@@ -1,16 +1,16 @@
 {
 	"domain": "spa",
 	"infoURL": "http://www.nic.spa/",
-	"tags": [
-		"community",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.spa",
 		"a2.nic.spa",
 		"b0.nic.spa",
 		"c0.nic.spa"
+	],
+	"tags": [
+		"community",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "ky",
 	"infoURL": "https://kyregistry.ky/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.kyregistry.ky",
 	"nameServers": [
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns3.uniregistry.net",
 		"ns4.uniregistry.info"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,13 +1,13 @@
 {
 	"domain": "co.nl",
-	"tags": [
-		"private"
-	],
 	"nameServers": [
 		"a.nic.co.nl",
 		"b.nic.co.nl",
 		"c.nic.co.nl",
 		"d.nic.co.nl"
+	],
+	"tags": [
+		"private"
 	],
 	"policies": [
 		{

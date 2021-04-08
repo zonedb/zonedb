@@ -1,9 +1,6 @@
 {
 	"domain": "bid",
 	"infoURL": "https://www.famousfourmedia.com/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.bid",
 	"nameServers": [
 		"ns1.dns.nic.bid",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.bid",
 		"ns5.dns.nic.bid",
 		"ns6.dns.nic.bid"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,14 +1,14 @@
 {
 	"domain": "gb",
-	"tags": [
-		"closed",
-		"country",
-		"geo"
-	],
 	"nameServers": [
 		"ns.uu.net",
 		"ns0.ja.net",
 		"ns4.ja.net"
+	],
+	"tags": [
+		"closed",
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,15 +1,15 @@
 {
 	"domain": "ntt",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"nameServers": [
 		"tld1.nic.ntt",
 		"tld2.nic.ntt",
 		"tld3.nic.ntt",
 		"tld5.nic.ntt"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

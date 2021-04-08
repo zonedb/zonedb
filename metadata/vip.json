@@ -1,9 +1,6 @@
 {
 	"domain": "vip",
 	"infoURL": "http://nic.vip/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.vip",
 	"nameServers": [
 		"dns1.nic.vip",
@@ -14,6 +11,9 @@
 		"dnsb.nic.vip",
 		"dnsc.nic.vip",
 		"dnsd.nic.vip"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,19 +1,19 @@
 {
 	"domain": "berlin",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Berlin",
-		"DE-BE"
-	],
 	"whoisServer": "whois.nic.berlin",
 	"nameServers": [
 		"a.dns.nic.berlin",
 		"m.dns.nic.berlin",
 		"n.dns.nic.berlin"
+	],
+	"locations": [
+		"Berlin",
+		"DE-BE"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{

@@ -1,14 +1,14 @@
 {
 	"domain": "gw",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisURL": "http://nic.gw/en/whois/",
 	"nameServers": [
 		"gw01.dns.pt",
 		"gw03.dns.pt",
 		"h.dns.pt"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

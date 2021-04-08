@@ -1,16 +1,16 @@
 {
 	"domain": "bnpparibas",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.bnpparibas",
 		"a2.nic.bnpparibas",
 		"b0.nic.bnpparibas",
 		"c0.nic.bnpparibas"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

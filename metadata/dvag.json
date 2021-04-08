@@ -1,16 +1,16 @@
 {
 	"domain": "dvag",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.dvag",
 	"nameServers": [
 		"a.nic.dvag",
 		"b.nic.dvag",
 		"c.nic.dvag",
 		"d.nic.dvag"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

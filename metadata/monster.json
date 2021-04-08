@@ -1,16 +1,16 @@
 {
 	"domain": "monster",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.monster",
 	"nameServers": [
 		"a.nic.monster",
 		"b.nic.monster",
 		"c.nic.monster",
 		"d.nic.monster"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

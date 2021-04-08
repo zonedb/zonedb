@@ -1,16 +1,16 @@
 {
 	"domain": "afl",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.afl",
 	"nameServers": [
 		"a.nic.afl",
 		"b.nic.afl",
 		"c.nic.afl",
 		"d.nic.afl"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

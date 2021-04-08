@@ -1,12 +1,12 @@
 {
 	"domain": "chloe",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.chloe",
 	"tags": [
 		"brand",
 		"generic",
 		"withdrawn"
 	],
-	"whoisServer": "whois.nic.chloe",
 	"policies": [
 		{
 			"type": "idn-disallowed"

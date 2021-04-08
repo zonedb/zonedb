@@ -1,8 +1,5 @@
 {
 	"domain": "قطر",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.registry.qa",
 	"nameServers": [
 		"a.registry.qa",
@@ -14,5 +11,8 @@
 		"g.registry.qa",
 		"h.registry.qa",
 		"i.registry.qa"
+	],
+	"tags": [
+		"generic"
 	]
 }

@@ -1,10 +1,6 @@
 {
 	"domain": "tushu",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.tushu",
 	"nameServers": [
 		"dns1.nic.tushu",
@@ -15,6 +11,10 @@
 		"dnsb.nic.tushu",
 		"dnsc.nic.tushu",
 		"dnsd.nic.tushu"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

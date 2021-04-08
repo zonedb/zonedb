@@ -1,9 +1,6 @@
 {
 	"domain": "fit",
 	"infoURL": "http://nic.fit/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.fit",
 	"nameServers": [
 		"dns1.nic.fit",
@@ -14,6 +11,9 @@
 		"dnsb.nic.fit",
 		"dnsc.nic.fit",
 		"dnsd.nic.fit"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

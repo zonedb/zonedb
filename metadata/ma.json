@@ -1,9 +1,5 @@
 {
 	"domain": "ma",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.registre.ma",
 	"nameServers": [
 		"a.tld.ma",
@@ -14,6 +10,10 @@
 		"e.tld.ma",
 		"f.tld.ma",
 		"ns-ma.nic.fr"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

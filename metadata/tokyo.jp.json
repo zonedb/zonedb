@@ -1,11 +1,11 @@
 {
 	"domain": "tokyo.jp",
+	"locations": [
+		"Tokyo"
+	],
 	"tags": [
 		"city",
 		"geo"
-	],
-	"locations": [
-		"Tokyo"
 	],
 	"policies": [
 		{

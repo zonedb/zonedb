@@ -1,9 +1,5 @@
 {
 	"domain": "lv",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.lv",
 	"nameServers": [
 		"a.nic.lv",
@@ -11,5 +7,9 @@
 		"c.nic.lv",
 		"d.nic.lv",
 		"sunic.sunet.se"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

@@ -1,16 +1,16 @@
 {
 	"domain": "lplfinancial",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.lplfinancial",
 	"nameServers": [
 		"a.nic.lplfinancial",
 		"b.nic.lplfinancial",
 		"c.nic.lplfinancial",
 		"d.nic.lplfinancial"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,16 +1,16 @@
 {
 	"domain": "tab",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.tab",
 	"nameServers": [
 		"a.nic.tab",
 		"b.nic.tab",
 		"c.nic.tab",
 		"d.nic.tab"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

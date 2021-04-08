@@ -1,16 +1,16 @@
 {
 	"domain": "krd",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic",
-		"region"
-	],
 	"whoisServer": "whois.nic.krd",
 	"nameServers": [
 		"a.nic.krd",
 		"b.nic.krd",
 		"c.nic.krd",
 		"d.nic.krd"
+	],
+	"tags": [
+		"generic",
+		"region"
 	],
 	"policies": [
 		{

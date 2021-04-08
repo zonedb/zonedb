@@ -1,9 +1,6 @@
 {
 	"domain": "loan",
 	"infoURL": "https://www.famousfourmedia.com/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.loan",
 	"nameServers": [
 		"ns1.dns.nic.loan",
@@ -12,6 +9,9 @@
 		"ns4.dns.nic.loan",
 		"ns5.dns.nic.loan",
 		"ns6.dns.nic.loan"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

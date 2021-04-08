@@ -1,16 +1,16 @@
 {
 	"domain": "cityeats",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"closed",
-		"generic"
-	],
 	"whoisServer": "whois.nic.cityeats",
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",
 		"ac3.nstld.com",
 		"ac4.nstld.com"
+	],
+	"tags": [
+		"closed",
+		"generic"
 	],
 	"policies": [
 		{

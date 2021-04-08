@@ -1,14 +1,14 @@
 {
 	"domain": "uno",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.uno",
 	"nameServers": [
 		"a.nic.uno",
 		"b.nic.uno",
 		"c.nic.uno",
 		"d.nic.uno"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

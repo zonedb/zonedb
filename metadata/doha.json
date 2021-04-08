@@ -1,16 +1,16 @@
 {
 	"domain": "doha",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.doha",
+	"locations": [
+		"Doha",
+		"QA-DA"
+	],
 	"tags": [
 		"city",
 		"generic",
 		"geo"
 	],
-	"locations": [
-		"Doha",
-		"QA-DA"
-	],
-	"whoisServer": "whois.nic.doha",
 	"policies": [
 		{
 			"type": "idn-disallowed"

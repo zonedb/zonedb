@@ -1,19 +1,19 @@
 {
 	"domain": "gent",
-	"tags": [
-		"city",
-		"generic",
-		"geo"
-	],
-	"locations": [
-		"Gent",
-		"Ghent"
-	],
 	"whoisServer": "whois.nic.gent",
 	"nameServers": [
 		"a.nic.gent",
 		"b.nic.gent",
 		"c.nic.gent",
 		"d.nic.gent"
+	],
+	"locations": [
+		"Gent",
+		"Ghent"
+	],
+	"tags": [
+		"city",
+		"generic",
+		"geo"
 	]
 }

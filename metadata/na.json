@@ -1,15 +1,15 @@
 {
 	"domain": "na",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.na-nic.com.na",
 	"nameServers": [
 		"anyc2.irondns.net",
 		"etld-1.anycast.net",
 		"na-ns.anycast.pch.net",
 		"na.anycastdns.cz"
+	],
+	"tags": [
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

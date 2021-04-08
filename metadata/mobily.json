@@ -1,10 +1,10 @@
 {
 	"domain": "mobily",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.mobily",
 	"tags": [
 		"generic"
 	],
-	"whoisServer": "whois.nic.mobily",
 	"policies": [
 		{
 			"type": "idn-disallowed"

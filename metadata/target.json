@@ -1,10 +1,6 @@
 {
 	"domain": "target",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.target",
 	"nameServers": [
 		"ns1.dns.nic.target",
@@ -13,6 +9,10 @@
 		"ns4.dns.nic.target",
 		"ns5.dns.nic.target",
 		"ns6.dns.nic.target"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

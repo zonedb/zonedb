@@ -1,14 +1,6 @@
 {
 	"domain": "cat",
 	"infoURL": "https://domini.cat/",
-	"tags": [
-		"generic",
-		"region",
-		"sponsored"
-	],
-	"locations": [
-		"ES-CT"
-	],
 	"whoisServer": "whois.nic.cat",
 	"nameServers": [
 		"anyc1.irondns.net",
@@ -17,6 +9,14 @@
 		"ns1.nic.es",
 		"nsc.nic.de",
 		"switch.nic.cat"
+	],
+	"locations": [
+		"ES-CT"
+	],
+	"tags": [
+		"generic",
+		"region",
+		"sponsored"
 	],
 	"policies": [
 		{

@@ -1,13 +1,6 @@
 {
 	"domain": "بارت",
 	"infoURL": "https://www.registry.in/",
-	"languages": [
-		"ks-IN"
-	],
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.registry.in",
 	"nameServers": [
 		"ns1.registry.in",
@@ -16,5 +9,12 @@
 		"ns4.registry.in",
 		"ns5.registry.in",
 		"ns6.registry.in"
+	],
+	"languages": [
+		"ks-IN"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

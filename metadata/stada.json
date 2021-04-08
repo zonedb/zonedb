@@ -1,16 +1,16 @@
 {
 	"domain": "stada",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.stada",
 		"a2.nic.stada",
 		"b0.nic.stada",
 		"c0.nic.stada"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

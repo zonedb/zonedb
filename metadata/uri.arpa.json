@@ -1,14 +1,14 @@
 {
 	"domain": "uri.arpa",
-	"tags": [
-		"closed"
-	],
 	"nameServers": [
 		"a.iana-servers.net",
 		"b.iana-servers.net",
 		"c.iana-servers.net",
 		"ns3.lacnic.net",
 		"ns4.apnic.net"
+	],
+	"tags": [
+		"closed"
 	],
 	"policies": [
 		{

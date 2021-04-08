@@ -1,15 +1,15 @@
 {
 	"domain": "cz",
 	"infoURL": "https://www.nic.cz/",
-	"tags": [
-		"country",
-		"geo"
-	],
 	"whoisServer": "whois.nic.cz",
 	"nameServers": [
 		"a.ns.nic.cz",
 		"b.ns.nic.cz",
 		"c.ns.nic.cz",
 		"d.ns.nic.cz"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

@@ -1,16 +1,16 @@
 {
 	"domain": "ferrari",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.ferrari",
 	"nameServers": [
 		"a0.nic.ferrari",
 		"a2.nic.ferrari",
 		"b0.nic.ferrari",
 		"c0.nic.ferrari"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

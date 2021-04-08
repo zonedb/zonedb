@@ -1,16 +1,16 @@
 {
 	"domain": "netbank",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.nic.netbank",
 	"nameServers": [
 		"a.nic.netbank",
 		"b.nic.netbank",
 		"c.nic.netbank",
 		"d.nic.netbank"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{

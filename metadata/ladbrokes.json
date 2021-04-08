@@ -1,11 +1,11 @@
 {
 	"domain": "ladbrokes",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.ladbrokes",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.ladbrokes",
 	"policies": [
 		{
 			"type": "idn-table",

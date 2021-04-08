@@ -1,9 +1,6 @@
 {
 	"domain": "final",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.gtlds.nic.br",
 	"nameServers": [
 		"a.dns.br",
@@ -12,6 +9,9 @@
 		"d.dns.br",
 		"e.dns.br",
 		"f.dns.br"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,15 +1,15 @@
 {
 	"domain": "fans",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"generic"
-	],
 	"whoisServer": "whois.nic.fans",
 	"nameServers": [
 		"a.nic.fans",
 		"b.nic.fans",
 		"c.nic.fans",
 		"d.nic.fans"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

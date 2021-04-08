@@ -1,11 +1,11 @@
 {
 	"domain": "panerai",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.panerai",
 	"tags": [
 		"brand",
 		"generic"
 	],
-	"whoisServer": "whois.nic.panerai",
 	"policies": [
 		{
 			"type": "idn-disallowed"

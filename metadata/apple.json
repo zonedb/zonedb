@@ -1,16 +1,16 @@
 {
 	"domain": "apple",
 	"infoURL": "https://newgtlds.icann.org/",
-	"tags": [
-		"brand",
-		"generic"
-	],
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.apple",
 		"a2.nic.apple",
 		"b0.nic.apple",
 		"c0.nic.apple"
+	],
+	"tags": [
+		"brand",
+		"generic"
 	],
 	"policies": [
 		{
