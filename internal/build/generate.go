@@ -289,4 +289,10 @@ var y = [{{len .Zones}}]Zone{
 		},
 	{{end}} \
 }
+
+// s is an array of unique string slices used in zone data.
+var s = [{{len .Strings}}]string{
+	{{range .Strings}}{{quoted .}},
+	{{end}}
+}
 `
