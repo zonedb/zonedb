@@ -98,6 +98,33 @@ func NormalizeDomains(in []string) []string {
 	return out
 }
 
+// IndexOfString finds s as a substring in haystack, returning the index and offset of s in haystack.
+// Returns -1, -1 if s is not present in haystack.
+func IndexOfString(haystack []string, s string) (int, int) {
+	for i := range haystack {
+		j := strings.Index(haystack[i], s)
+		if j < 0 {
+			continue
+		}
+		return i, j
+	}
+	return -1, -1
+}
+
+// IndexOrAppendString finds or adds s to haystack, returning the index and offset of s in haystack.
+// Returns 0, 0, 0 for an empty string.
+func IndexOrAppendString(haystack *[]string, s string) (int, int, int) {
+	if len(s) == 0 {
+		return 0, 0, 0
+	}
+	i, j := IndexOfString(*haystack, s)
+	if i < 0 {
+		i = len(*haystack)
+		*haystack = append(*haystack, s)
+	}
+	return i, j, j + len(s)
+}
+
 // IndexOfStrings finds a rank-sorted slice of domain names (needle)
 // within a larger slice (haystack).
 func IndexOfStrings(haystack []string, needle []string) int {
