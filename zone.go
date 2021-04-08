@@ -52,13 +52,13 @@ type Zone struct {
 
 	// BCP 47 language tags associated with this Zone
 	// https://tools.ietf.org/html/bcp47
-	languages []string
+	l []string
 
 	// Whois server responding on port 43
-	whoisServer string
+	w string
 
 	// URL to look up whois info for a subdomain of this Zone
-	whoisURL string
+	u string
 
 	// Informational URL for this Zone
 	InfoURL string
@@ -66,21 +66,35 @@ type Zone struct {
 	// Tags stored as an integer bit field
 	Tags Tags
 
-	// Transitional: does the zone operator allow registration of non-ASCII subdomains?
-	allowsIDN bool
+	// Transitional: does the zone allow registration of non-ASCII subdomains?
+	i bool
 }
+
+// type zone struct {
+// 	D string
+// 	P *zone
+// 	S []zone
+// 	N []string
+// 	W []string
+// 	L []string
+// 	l []string
+// 	w string
+// 	u string
+// 	I []string
+// 	T []string
+// }
 
 // Languages returns a slice of BCP 47 language specifiers.
 func (z *Zone) Languages() []string {
-	return z.languages
+	return z.l
 }
 
 // WhoisServer returns the whois server that responds on port 43
 // for the zone. It first searches the specific zone, then the parent,
 // returning an empty string if none found.
 func (z *Zone) WhoisServer() string {
-	if z.whoisServer != "" {
-		return z.whoisServer
+	if z.w != "" {
+		return z.w
 	}
 	if z.Parent != nil {
 		return z.Parent.WhoisServer()
@@ -92,8 +106,8 @@ func (z *Zone) WhoisServer() string {
 // of the zone. It first searches the specific zone, then the parent,
 // returning an empty string if none found.
 func (z *Zone) WhoisURL() string {
-	if z.whoisURL != "" {
-		return z.whoisURL
+	if z.u != "" {
+		return z.u
 	}
 	if z.Parent != nil {
 		return z.Parent.WhoisURL()
@@ -132,7 +146,7 @@ func (z *Zone) IsInRootZone() bool {
 // AllowsIDN returns true if the zone operator (registry)
 // permits registration of non-ASCII labels under this Zone.
 func (z *Zone) AllowsIDN() bool {
-	return z.allowsIDN
+	return z.i
 }
 
 // AllowsRegistration returns true if the Zone’s authority (registry)

@@ -36,7 +36,7 @@ func TestLanguages(t *testing.T) {
 		t.Run(tt.domain, func(t *testing.T) {
 			domain := ToASCII(tt.domain)
 			z := ZoneMap[domain]
-			got := z.languages
+			got := z.l
 			if !reflect.DeepEqual(tt.want, got) {
 				t.Errorf("Zone.Language(), got: %v, want: %v", got, tt.want)
 			}

@@ -270,19 +270,19 @@ var y = [{{len .Zones}}]Zone{
 	{{range $d := .Domains}} \
 		{{$z := (index $.Zones $d)}} \
 		{ \
-			{{domainString $d}}, \
+			Domain: {{domainString $d}}, \
 			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
-			{{if $z.ParentDomain}} &z[{{$z.ParentOffset}}] {{else}} r {{end}}, \
-			{{if $z.SubdomainsEnd}} z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} x {{end}}, \
-			{{domainSlice $z.NameServers}}, \
-			{{domainSlice $z.Wildcards}}, \
-			{{stringSlice $z.Locations}}, \
-			{{stringSlice $z.Languages}}, \
-			{{domainString $z.WhoisServer}}, \
-			{{urlString $z.WhoisURL}}, \
-			{{urlString $z.InfoURL}}, \
-			{{printf "0x%x" $z.TagBits}}, \
-			{{if $z.IDNDisallowed}} f {{else}} t {{end}}, \
+			{{if $z.ParentDomain}} Parent: &z[{{$z.ParentOffset}}], {{end}} \
+			{{if $z.SubdomainsEnd}} Subdomains: z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}], {{end}} \
+			{{if $z.NameServers}} NameServers: {{domainSlice $z.NameServers}}, {{end}} \
+			{{if $z.Wildcards}} Wildcards: {{domainSlice $z.Wildcards}}, {{end}} \
+			{{if $z.Locations}} Locations: {{stringSlice $z.Locations}}, {{end}} \
+			{{if $z.Languages}} l: {{stringSlice $z.Languages}}, {{end}} \
+			{{if $z.WhoisServer}} w: {{domainString $z.WhoisServer}}, {{end}} \
+			{{if $z.WhoisURL}} u: {{urlString $z.WhoisURL}}, {{end}} \
+			{{if $z.InfoURL}} InfoURL: {{urlString $z.InfoURL}}, {{end}} \
+			{{if $z.TagBits }} Tags: {{printf "0x%x" $z.TagBits}}, {{end}} \
+			{{if $z.IDNDisallowed}} {{ else }} i: t, {{end}} \
 		},
 	{{end}} \
 }
