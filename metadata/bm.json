@@ -4,7 +4,7 @@
 		"country",
 		"geo"
 	],
-	"whoisURL": "http://www.bermudanic.bm/cgi-bin/lansaweb?procfun+BMWHO+BMWHO2+WHO",
+	"whoisURL": "https://www.bermudanic.bm/",
 	"nameServers": [
 		"a0.bm.afilias-nst.info",
 		"a2.bm.afilias-nst.info",
