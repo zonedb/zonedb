@@ -2,6 +2,7 @@ package build
 
 import (
 	"bytes"
+	"fmt"
 	"go/format"
 	"os"
 	"path/filepath"
@@ -46,22 +47,41 @@ func GenerateGo(zones map[string]*Zone) error {
 		z.TagBits = tagBits(tagValues, z.Tags)
 	}
 
-	data := struct {
-		Zones     map[string]*Zone
-		TLDs      map[string]*Zone
-		Domains   []string
-		Offsets   map[string]int
-		TagType   string
-		Tags      []string
-		TagValues map[string]uint64
-	}{
-		zones,
-		tlds,
-		domains,
-		offsets,
-		tagType,
-		tags,
-		tagValues,
+	data := templateData{
+		Zones:     zones,
+		TLDs:      tlds,
+		Domains:   domains,
+		Offsets:   offsets,
+		TagType:   tagType,
+		Tags:      tags,
+		TagValues: tagValues,
+		Strings:   []string{},
+	}
+
+	// Pre-index strings and string slices
+	for _, d := range domains {
+		data.domainString(d)
+	}
+	for _, d := range domains {
+		data.domainStringSlice(zones[d].NameServers)
+	}
+	for _, d := range domains {
+		data.domainStringSlice(zones[d].Wildcards)
+	}
+	for _, d := range domains {
+		data.domainString(zones[d].WhoisServer)
+	}
+	for _, d := range domains {
+		data.urlString(zones[d].WhoisURL)
+	}
+	for _, d := range domains {
+		data.urlString(zones[d].InfoURL)
+	}
+	for _, d := range domains {
+		data.indexedStringSlice(zones[d].Locations)
+	}
+	for _, d := range domains {
+		data.indexedStringSlice(zones[d].Languages)
 	}
 
 	err := generate("zones.go", zonesGoSrc, &data)
@@ -72,10 +92,55 @@ func GenerateGo(zones map[string]*Zone) error {
 	return nil
 }
 
-// Helper funcs
+type templateData struct {
+	Zones     map[string]*Zone
+	TLDs      map[string]*Zone
+	Domains   []string
+	Offsets   map[string]int
+	TagType   string
+	Tags      []string
+	TagValues map[string]uint64
+	Strings   []string
+}
 
-func cont(s string) string {
-	return strings.ReplaceAll(s, "\\\n", "")
+func (data *templateData) indexedString(s string) string {
+	i, _ := IndexOrAppendStrings(&data.Strings, []string{s})
+	return fmt.Sprintf("s[%d]", i)
+}
+
+func (data *templateData) indexedStringSlice(slice []string) string {
+	i, j := IndexOrAppendStrings(&data.Strings, slice)
+	return fmt.Sprintf("s[%d:%d]", i, j)
+}
+
+func (data *templateData) domainString(s string) string {
+	s = ToASCII(s)
+	i, _ := IndexOrAppendStrings(&data.Strings, []string{s})
+	return fmt.Sprintf("s[%d]", i)
+}
+
+func (data *templateData) domainStringSlice(slice []string) string {
+	needle := make([]string, len(slice))
+	for i := range slice {
+		needle[i] = ToASCII(slice[i])
+	}
+	i, j := IndexOrAppendStrings(&data.Strings, needle)
+	return fmt.Sprintf("s[%d:%d]", i, j)
+}
+
+func (data *templateData) urlString(s string) string {
+	s = ToASCIIURL(s)
+	i, _ := IndexOrAppendStrings(&data.Strings, []string{s})
+	return fmt.Sprintf("s[%d]", i)
+}
+
+func (data *templateData) urlStringSlice(slice []string) string {
+	needle := make([]string, len(slice))
+	for i := range slice {
+		needle[i] = ToASCIIURL(slice[i])
+	}
+	i, j := IndexOrAppendStrings(&data.Strings, needle)
+	return fmt.Sprintf("s[%d:%d]", i, j)
 }
 
 func quoted(s string) string {
@@ -93,16 +158,20 @@ func quotedURL(s string) string {
 	return quoted(ToASCIIURL(s))
 }
 
-var (
-	funcMap = template.FuncMap{
+func generate(filename, src string, data *templateData) error {
+	funcMap := template.FuncMap{
 		"title":        strings.Title,
 		"quoted":       quoted,
 		"quotedDomain": quotedDomain,
 		"quotedURL":    quotedURL,
+		"string":       data.indexedString,
+		"stringSlice":  data.indexedStringSlice,
+		"domain":       data.domainString,
+		"domainSlice":  data.domainStringSlice,
+		"url":          data.urlString,
+		"urlSlice":     data.urlStringSlice,
 	}
-)
 
-func generate(fn, src string, data interface{}) error {
 	t := template.Must(template.New("").Funcs(funcMap).Parse(cont(src)))
 	buf := new(bytes.Buffer)
 	err := t.Execute(buf, data)
@@ -113,15 +182,19 @@ func generate(fn, src string, data interface{}) error {
 	if err != nil {
 		return err
 	}
-	fn = filepath.Join(BaseDir, fn)
-	color.Fprintf(os.Stderr, "@{.}Generating Go source code: %s\n", fn)
-	f, err := os.Create(fn)
+	filename = filepath.Join(BaseDir, filename)
+	color.Fprintf(os.Stderr, "@{.}Generating Go source code: %s\n", filename)
+	f, err := os.Create(filename)
 	if err != nil {
 		return err
 	}
 	defer f.Close()
 	_, err = f.Write(formatted)
 	return err
+}
+
+func cont(s string) string {
+	return strings.ReplaceAll(s, "\\\n", "")
 }
 
 const zonesGoSrc = `// Automatically generated
