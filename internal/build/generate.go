@@ -58,6 +58,24 @@ func GenerateGo(zones map[string]*Zone) error {
 		Strings:   []string{},
 	}
 
+	// Pre-index 2-letter pairs
+	var pairs string
+	const alphabet = "abcdefghijklmnopqrstuvwxyz"
+	for _, i := range alphabet {
+		for _, j := range alphabet {
+			s := string(i) + string(j)
+			if strings.Contains(pairs, s) {
+				continue
+			}
+			if len(pairs) > 0 && pairs[len(pairs)-1] == s[0] {
+				pairs = pairs + s[1:]
+			} else {
+				pairs = pairs + s
+			}
+		}
+	}
+	data.indexedString(pairs)
+
 	// Pre-index strings and string slices
 	set := NewSet()
 	for _, z := range zones {
