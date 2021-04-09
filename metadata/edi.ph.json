@@ -6,5 +6,10 @@
 		"ns3.dp47.parklogic.com",
 		"ns4.dp47.parklogic.com",
 		"ns5.dp47.parklogic.com"
+	],
+	"wildcards": [
+		"2600:3c02:1::2d4f:f40e",
+		"72.52.179.175",
+		"edi.ph"
 	]
 }
