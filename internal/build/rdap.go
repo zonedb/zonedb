@@ -3,9 +3,6 @@ package build
 import (
 	"encoding/json"
 	"fmt"
-	"os"
-
-	"github.com/wsxiaoys/terminal/color"
 )
 
 const ianaRDAPURL = "https://data.iana.org/rdap/dns.json"
@@ -49,7 +46,7 @@ func FetchRDAPFromIANA(zones map[string]*Zone) error {
 		for _, domain := range domains {
 			z, ok := zones[domain]
 			if !ok {
-				color.Fprintf(os.Stderr, "@{y}domain %s not found in zones map\n", domain)
+				Trace("@{y}domain %s not found in zones map\n", domain)
 				continue
 			}
 
@@ -73,26 +70,32 @@ func FetchRDAPFromIANA(zones map[string]*Zone) error {
 }
 
 func AddRDAPURLs(zones map[string]*Zone, urls []string) {
-	var added, modified int
-
-	for _, z := range zones {
-		oldAdded := added
-	URLloop:
-		for _, rdapURL := range urls {
-			normURL := NormalizeURL(rdapURL)
-			for _, zru := range z.RDAPURLs {
-				if zru == normURL {
-					// If the URL already exists on the zone then skip
-					continue URLloop
-				}
-			}
-			z.RDAPURLs = append(z.RDAPURLs, normURL)
-			added++
+	// Normalize the input URLS
+	var nurls []string
+	for _, u := range urls {
+		nu := NormalizeURL(u)
+		if nu == "" {
+			Trace("@{r}skipping invalid RDAP URL %q\n", u)
+			continue
 		}
-		if oldAdded < added {
+		nurls = append(nurls, nu)
+	}
+	if len(nurls) == 0 {
+		return
+	}
+
+	var added, modified int
+	for _, z := range zones {
+		rus := NewSet(z.RDAPURLs...)
+		n := len(rus)
+		rus.Add(nurls...)
+		m := len(rus) - n
+		if m != 0 {
+			z.RDAPURLs = rus.Values()
+			added += m
 			modified++
 		}
 	}
 
-	color.Fprintf(os.Stderr, "@{.}Added %d RDAP URL(s) to %d zone(s)\n", added, modified)
+	Trace("@{.}Added %d RDAP URL(s) to %d zone(s)\n", added, modified)
 }
