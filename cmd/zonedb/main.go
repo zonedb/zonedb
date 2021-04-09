@@ -43,7 +43,7 @@ func main() {
 	guessLanguages := flag.Bool("guess-languages", false, "guess BCP 47 languages for zones")
 	setInfoURL := flag.String("set-info-url", "", "set zone(s) info URLs")
 	updateInfoURL := flag.Bool("update-info-url", false, "update zone(s) info URLs")
-	addRDAPURLs := flag.String("add-rdap-urls", "", "add RDAP URLs to zones (comma-delimited)")
+	addRDAPURL := flag.String("add-rdap-url", "", "add RDAP URL to zones")
 	addTags := flag.String("add-tags", "", "add tags to zones (comma-delimited)")
 	addLocations := flag.String("add-locations", "", "add locations to zones (comma-delimited)")
 	removeTags := flag.String("remove-tags", "", "remove tags from zones (comma-delimited)")
@@ -240,9 +240,8 @@ func main() {
 		}
 	}
 
-	if *addRDAPURLs != "" {
-		urls := strings.Split(*addRDAPURLs, ",")
-		build.AddRDAPURLs(workZones, urls)
+	if *addRDAPURL != "" {
+		build.AddRDAPURLs(workZones, []string{*addRDAPURL})
 	}
 
 	if *removeTags != "" {
