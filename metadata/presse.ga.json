@@ -1,9 +1,5 @@
 {
 	"domain": "presse.ga",
-	"nameServers": [
-		"lia.ns.cloudflare.com",
-		"rudy.ns.cloudflare.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

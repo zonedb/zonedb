@@ -3,12 +3,13 @@
 	"infoURL": "https://www.nic.tr/",
 	"whoisServer": "whois.nic.tr",
 	"nameServers": [
-		"ns21.nic.tr",
-		"ns22.nic.tr",
 		"ns31.nic.tr",
+		"ns34.nic.tr",
+		"ns35.nic.tr",
 		"ns41.nic.tr",
 		"ns42.nic.tr",
-		"ns61.nic.tr"
+		"ns61.nic.tr",
+		"ns71.nic.tr"
 	],
 	"tags": [
 		"closed",
