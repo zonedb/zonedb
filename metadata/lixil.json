@@ -2,6 +2,9 @@
 	"domain": "lixil",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lixil",
+	"rdapURLs": [
+		"https://rdap.gmoregistry.net/rdap/"
+	],
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",

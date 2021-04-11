@@ -2,6 +2,9 @@
 	"domain": "afl",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.afl",
+	"rdapURLs": [
+		"https://rdap.nic.afl/"
+	],
 	"nameServers": [
 		"a.nic.afl",
 		"b.nic.afl",

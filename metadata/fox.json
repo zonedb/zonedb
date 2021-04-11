@@ -2,6 +2,9 @@
 	"domain": "fox",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.fox",
+	"rdapURLs": [
+		"https://rdap.nic.fox/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.fox",
 		"ns2.dns.nic.fox",

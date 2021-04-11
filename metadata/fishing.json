@@ -2,6 +2,9 @@
 	"domain": "fishing",
 	"infoURL": "http://nic.fishing/",
 	"whoisServer": "whois.nic.fishing",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/fishing/"
+	],
 	"nameServers": [
 		"dns1.nic.fishing",
 		"dns2.nic.fishing",

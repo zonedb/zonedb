@@ -2,6 +2,9 @@
 	"domain": "store",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.store",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/store/"
+	],
 	"nameServers": [
 		"a.nic.store",
 		"b.nic.store",

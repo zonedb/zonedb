@@ -1,6 +1,9 @@
 {
 	"domain": "сайт",
 	"whoisServer": "whois.nic.сайт",
+	"rdapURLs": [
+		"https://rdap.nic.сайт/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

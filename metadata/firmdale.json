@@ -2,6 +2,9 @@
 	"domain": "firmdale",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.firmdale",
+	"rdapURLs": [
+		"https://rdap.nic.firmdale/"
+	],
 	"nameServers": [
 		"ns1.nic.firmdale",
 		"ns2.nic.firmdale"

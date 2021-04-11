@@ -2,6 +2,9 @@
 	"domain": "购物",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.购物",
+	"rdapURLs": [
+		"https://rdap.nic.购物/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.购物",
 		"ns2.dns.nic.购物",

@@ -2,6 +2,9 @@
 	"domain": "abudhabi",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.abudhabi",
+	"rdapURLs": [
+		"https://rdap.nic.abudhabi/"
+	],
 	"nameServers": [
 		"gtld.alpha.aridns.net.au",
 		"gtld.beta.aridns.net.au",

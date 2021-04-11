@@ -2,6 +2,9 @@
 	"domain": "like",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.like",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/like/"
+	],
 	"nameServers": [
 		"dns1.nic.like",
 		"dns2.nic.like",

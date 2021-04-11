@@ -2,6 +2,9 @@
 	"domain": "swatch",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.swatch",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/swatch/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

@@ -1,6 +1,9 @@
 {
 	"domain": "accenture",
 	"infoURL": "https://newgtlds.icann.org/",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/accenture/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

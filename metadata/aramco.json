@@ -2,6 +2,9 @@
 	"domain": "aramco",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.aramco",
+	"rdapURLs": [
+		"https://rdap.nic.aramco/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.aramco",
 		"ns2.dns.nic.aramco",

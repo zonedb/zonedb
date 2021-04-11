@@ -1,6 +1,9 @@
 {
 	"domain": "voting",
 	"whoisServer": "whois.nic.voting",
+	"rdapURLs": [
+		"https://rdap.nic.voting/v1/"
+	],
 	"nameServers": [
 		"a.nic.voting",
 		"b.nic.voting",

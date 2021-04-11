@@ -2,6 +2,9 @@
 	"domain": "lincoln",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lincoln",
+	"rdapURLs": [
+		"https://rdap.nic.lincoln/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.lincoln",
 		"ns2.dns.nic.lincoln",

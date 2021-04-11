@@ -2,6 +2,9 @@
 	"domain": "you",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.you",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/you/"
+	],
 	"nameServers": [
 		"dns1.nic.you",
 		"dns2.nic.you",

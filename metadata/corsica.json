@@ -2,6 +2,9 @@
 	"domain": "corsica",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois-corsica.nic.fr",
+	"rdapURLs": [
+		"https://rdap.nic.corsica/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

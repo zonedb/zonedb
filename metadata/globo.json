@@ -2,6 +2,9 @@
 	"domain": "globo",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.gtlds.nic.br",
+	"rdapURLs": [
+		"https://rdap.gtlds.nic.br/"
+	],
 	"nameServers": [
 		"a.dns.br",
 		"b.dns.br",

@@ -2,6 +2,9 @@
 	"domain": "calvinklein",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.calvinklein",
+	"rdapURLs": [
+		"https://rdap.nic.calvinklein/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.calvinklein",
 		"ns2.dns.nic.calvinklein",

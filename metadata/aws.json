@@ -2,6 +2,9 @@
 	"domain": "aws",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.aws",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/aws/"
+	],
 	"nameServers": [
 		"dns1.nic.aws",
 		"dns2.nic.aws",

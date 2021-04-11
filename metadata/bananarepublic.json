@@ -2,6 +2,9 @@
 	"domain": "bananarepublic",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bananarepublic",
+	"rdapURLs": [
+		"https://rdap.nic.bananarepublic/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.bananarepublic",
 		"ns2.dns.nic.bananarepublic",

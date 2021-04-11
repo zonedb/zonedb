@@ -2,6 +2,9 @@
 	"domain": "americanfamily",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.americanfamily",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/americanfamily/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

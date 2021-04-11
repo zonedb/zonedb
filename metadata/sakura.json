@@ -1,6 +1,9 @@
 {
 	"domain": "sakura",
 	"infoURL": "https://newgtlds.icann.org/",
+	"rdapURLs": [
+		"https://rdap.nic.sakura/rdap/"
+	],
 	"nameServers": [
 		"tld1.nic.sakura",
 		"tld2.nic.sakura",

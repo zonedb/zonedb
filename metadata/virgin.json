@@ -2,6 +2,9 @@
 	"domain": "virgin",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.virgin",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/virgin/"
+	],
 	"nameServers": [
 		"dns1.nic.virgin",
 		"dns2.nic.virgin",

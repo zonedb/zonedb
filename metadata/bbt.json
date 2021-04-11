@@ -2,6 +2,9 @@
 	"domain": "bbt",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bbt",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/bbt/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

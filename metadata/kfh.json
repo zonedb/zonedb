@@ -2,6 +2,9 @@
 	"domain": "kfh",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.kfh",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/kfh/"
+	],
 	"nameServers": [
 		"a.nic.kfh",
 		"b.nic.kfh",

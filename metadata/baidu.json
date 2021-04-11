@@ -2,6 +2,9 @@
 	"domain": "baidu",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.gtld.knet.cn",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/baidu/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

@@ -1,6 +1,9 @@
 {
 	"domain": "jobs",
 	"whoisServer": "whois.nic.jobs",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/jobs/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

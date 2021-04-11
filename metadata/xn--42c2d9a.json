@@ -2,6 +2,9 @@
 	"domain": "คอม",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.คอม",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/xn--42c2d9a/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

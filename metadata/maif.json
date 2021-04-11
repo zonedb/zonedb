@@ -1,6 +1,9 @@
 {
 	"domain": "maif",
 	"infoURL": "https://newgtlds.icann.org/",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/maif/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

@@ -1,6 +1,9 @@
 {
 	"domain": "jprs",
 	"infoURL": "https://newgtlds.icann.org/",
+	"rdapURLs": [
+		"https://rdap.nic.jprs/rdap/"
+	],
 	"nameServers": [
 		"tld1.nic.jprs",
 		"tld2.nic.jprs",

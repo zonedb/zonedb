@@ -2,6 +2,9 @@
 	"domain": "swiftcover",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.swiftcover",
+	"rdapURLs": [
+		"https://rdap.nic.swiftcover/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.swiftcover",
 		"ns2.dns.nic.swiftcover",

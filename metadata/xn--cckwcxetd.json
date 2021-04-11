@@ -2,6 +2,9 @@
 	"domain": "アマゾン",
 	"infoURL": "http://nic.アマゾン/",
 	"whoisServer": "whois.nic.アマゾン",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/xn--cckwcxetd/"
+	],
 	"nameServers": [
 		"dns1.nic.アマゾン",
 		"dns2.nic.アマゾン",

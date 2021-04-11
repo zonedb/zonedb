@@ -2,6 +2,9 @@
 	"domain": "physio",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.physio",
+	"rdapURLs": [
+		"https://rdap.nic.physio/"
+	],
 	"nameServers": [
 		"a.nic.physio",
 		"b.nic.physio",

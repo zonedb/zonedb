@@ -1,6 +1,9 @@
 {
 	"domain": "pw",
 	"whoisServer": "whois.nic.pw",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/pw/"
+	],
 	"nameServers": [
 		"ns1.nic.pw",
 		"ns2.nic.pw",

@@ -2,6 +2,9 @@
 	"domain": "williamhill",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.williamhill",
+	"rdapURLs": [
+		"https://rdap.nic.williamhill/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.williamhill",
 		"ns2.dns.nic.williamhill",

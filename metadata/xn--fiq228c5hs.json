@@ -1,6 +1,9 @@
 {
 	"domain": "中文网",
 	"whoisServer": "whois.teleinfo.cn",
+	"rdapURLs": [
+		"https://rdap.teleinfo.cn/xn--fiq228c5hs/"
+	],
 	"nameServers": [
 		"ns1.teleinfo.cn",
 		"ns2.teleinfoo.com",

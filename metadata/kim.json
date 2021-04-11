@@ -2,6 +2,9 @@
 	"domain": "kim",
 	"infoURL": "https://get.kim/",
 	"whoisServer": "whois.afilias.net",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/kim/"
+	],
 	"nameServers": [
 		"a0.nic.kim",
 		"a2.nic.kim",

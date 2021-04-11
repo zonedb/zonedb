@@ -2,6 +2,9 @@
 	"domain": "sandvikcoromant",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.sandvikcoromant",
+	"rdapURLs": [
+		"https://rdap.nic.sandvikcoromant/"
+	],
 	"nameServers": [
 		"a.nic.sandvikcoromant",
 		"b.nic.sandvikcoromant",

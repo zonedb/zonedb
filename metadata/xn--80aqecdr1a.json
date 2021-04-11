@@ -2,6 +2,9 @@
 	"domain": "католик",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.католик",
+	"rdapURLs": [
+		"https://rdap.nic.католик/"
+	],
 	"nameServers": [
 		"a.nic.католик",
 		"b.nic.католик",

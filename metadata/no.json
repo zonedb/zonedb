@@ -1,6 +1,9 @@
 {
 	"domain": "no",
 	"whoisServer": "whois.norid.no",
+	"rdapURLs": [
+		"https://rdap.norid.no/"
+	],
 	"nameServers": [
 		"i.nic.no",
 		"njet.norid.no",

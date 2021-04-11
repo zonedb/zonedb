@@ -2,6 +2,9 @@
 	"domain": "cba",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.cba",
+	"rdapURLs": [
+		"https://rdap.nic.cba/"
+	],
 	"nameServers": [
 		"a.nic.cba",
 		"b.nic.cba",

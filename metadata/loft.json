@@ -2,6 +2,9 @@
 	"domain": "loft",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.loft",
+	"rdapURLs": [
+		"https://rdap.nic.loft/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.loft",
 		"ns2.dns.nic.loft",

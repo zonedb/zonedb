@@ -2,6 +2,9 @@
 	"domain": "oldnavy",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.oldnavy",
+	"rdapURLs": [
+		"https://rdap.nic.oldnavy/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.oldnavy",
 		"ns2.dns.nic.oldnavy",

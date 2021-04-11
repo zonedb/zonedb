@@ -2,6 +2,9 @@
 	"domain": "prime",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.prime",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/prime/"
+	],
 	"nameServers": [
 		"dns1.nic.prime",
 		"dns2.nic.prime",

@@ -1,6 +1,9 @@
 {
 	"domain": "kpn",
 	"infoURL": "https://newgtlds.icann.org/",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/kpn/"
+	],
 	"nameServers": [
 		"a.nic.kpn",
 		"b.nic.kpn",

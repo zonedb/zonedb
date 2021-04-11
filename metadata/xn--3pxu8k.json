@@ -2,6 +2,9 @@
 	"domain": "点看",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.点看",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/xn--3pxu8k/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

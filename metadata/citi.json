@@ -2,6 +2,9 @@
 	"domain": "citi",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.citi",
+	"rdapURLs": [
+		"https://rdap.nic.citi/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.citi",
 		"ns2.dns.nic.citi",

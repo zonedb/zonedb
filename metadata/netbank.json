@@ -2,6 +2,9 @@
 	"domain": "netbank",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.netbank",
+	"rdapURLs": [
+		"https://rdap.nic.netbank/"
+	],
 	"nameServers": [
 		"a.nic.netbank",
 		"b.nic.netbank",

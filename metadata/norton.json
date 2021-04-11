@@ -2,6 +2,9 @@
 	"domain": "norton",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.norton",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/norton/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

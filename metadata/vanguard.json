@@ -2,6 +2,9 @@
 	"domain": "vanguard",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.vanguard",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/vanguard/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

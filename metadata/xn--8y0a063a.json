@@ -2,6 +2,9 @@
 	"domain": "联通",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.联通",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/xn--8y0a063a/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

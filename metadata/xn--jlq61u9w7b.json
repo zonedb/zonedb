@@ -2,6 +2,9 @@
 	"domain": "诺基亚",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.诺基亚",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/xn--jlq61u9w7b/"
+	],
 	"nameServers": [
 		"a0.nic.诺基亚",
 		"a2.nic.诺基亚",

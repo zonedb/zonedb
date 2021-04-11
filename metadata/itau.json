@@ -2,6 +2,9 @@
 	"domain": "itau",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.itau",
+	"rdapURLs": [
+		"https://rdap.nic.itau/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.itau",
 		"ns2.dns.nic.itau",

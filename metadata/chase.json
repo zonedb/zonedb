@@ -2,6 +2,9 @@
 	"domain": "chase",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.chase",
+	"rdapURLs": [
+		"https://rdap.nic.chase/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.chase",
 		"ns2.dns.nic.chase",

@@ -2,6 +2,9 @@
 	"domain": "swiss",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.swiss",
+	"rdapURLs": [
+		"https://rdap.nic.swiss/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

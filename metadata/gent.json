@@ -1,6 +1,9 @@
 {
 	"domain": "gent",
 	"whoisServer": "whois.nic.gent",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/gent/"
+	],
 	"nameServers": [
 		"a.nic.gent",
 		"b.nic.gent",

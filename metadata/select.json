@@ -2,6 +2,9 @@
 	"domain": "select",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.select",
+	"rdapURLs": [
+		"https://rdap.nic.select/"
+	],
 	"nameServers": [
 		"a.nic.select",
 		"b.nic.select",

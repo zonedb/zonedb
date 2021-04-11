@@ -2,6 +2,9 @@
 	"domain": "statefarm",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.statefarm",
+	"rdapURLs": [
+		"https://rdap.nic.statefarm/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.statefarm",
 		"ns2.dns.nic.statefarm",

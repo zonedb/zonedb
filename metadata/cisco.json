@@ -2,6 +2,9 @@
 	"domain": "cisco",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.cisco",
+	"rdapURLs": [
+		"https://rdap.nic.cisco/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.cisco",
 		"ns2.dns.nic.cisco",

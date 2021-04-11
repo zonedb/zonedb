@@ -2,6 +2,9 @@
 	"domain": "banamex",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.banamex",
+	"rdapURLs": [
+		"https://rdap.nic.banamex/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.banamex",
 		"ns2.dns.nic.banamex",

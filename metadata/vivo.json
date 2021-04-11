@@ -2,6 +2,9 @@
 	"domain": "vivo",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.vivo",
+	"rdapURLs": [
+		"https://rdap.nic.vivo/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.vivo",
 		"ns2.dns.nic.vivo",

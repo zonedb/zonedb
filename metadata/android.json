@@ -2,6 +2,9 @@
 	"domain": "android",
 	"infoURL": "https://www.registry.google/",
 	"whoisServer": "whois.nic.google",
+	"rdapURLs": [
+		"https://www.registry.google/rdap/"
+	],
 	"nameServers": [
 		"ns-tld1.charlestonroadregistry.com",
 		"ns-tld2.charlestonroadregistry.com",

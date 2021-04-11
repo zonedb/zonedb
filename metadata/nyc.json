@@ -1,6 +1,9 @@
 {
 	"domain": "nyc",
 	"whoisServer": "whois.nic.nyc",
+	"rdapURLs": [
+		"https://rdap.nic.nyc/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.nyc",
 		"ns2.dns.nic.nyc",

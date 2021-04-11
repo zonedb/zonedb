@@ -2,6 +2,9 @@
 	"domain": "film",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.film",
+	"rdapURLs": [
+		"https://rdap.nic.film/"
+	],
 	"nameServers": [
 		"a.nic.film",
 		"b.nic.film",

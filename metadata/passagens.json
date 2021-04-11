@@ -2,6 +2,9 @@
 	"domain": "passagens",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.passagens",
+	"rdapURLs": [
+		"https://rdap.nic.passagens/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.passagens",
 		"ns2.dns.nic.passagens",

@@ -2,6 +2,9 @@
 	"domain": "pay",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.pay",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/pay/"
+	],
 	"nameServers": [
 		"dns1.nic.pay",
 		"dns2.nic.pay",

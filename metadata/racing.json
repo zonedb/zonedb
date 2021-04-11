@@ -2,6 +2,9 @@
 	"domain": "racing",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.racing",
+	"rdapURLs": [
+		"https://rdap.nic.racing/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.racing",
 		"ns2.dns.nic.racing",

@@ -2,6 +2,9 @@
 	"domain": "praxi",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.praxi",
+	"rdapURLs": [
+		"https://rdap.nic.praxi/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.praxi",
 		"ns2.dns.nic.praxi",

@@ -2,6 +2,9 @@
 	"domain": "kpmg",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.kpmg",
+	"rdapURLs": [
+		"https://rdap.nic.kpmg/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.kpmg",
 		"ns2.dns.nic.kpmg",

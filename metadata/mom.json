@@ -2,6 +2,9 @@
 	"domain": "mom",
 	"infoURL": "https://nic.mom/",
 	"whoisServer": "whois.uniregistry.net",
+	"rdapURLs": [
+		"https://whois.uniregistry.net/rdap/"
+	],
 	"nameServers": [
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",

@@ -2,6 +2,9 @@
 	"domain": "ストア",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ストア",
+	"rdapURLs": [
+		"https://rdap.nic.ストア/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.ストア",
 		"ns2.dns.nic.ストア",

@@ -1,6 +1,9 @@
 {
 	"domain": "realtor",
 	"infoURL": "https://www.claim.realtor/",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/realtor/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

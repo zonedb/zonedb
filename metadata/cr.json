@@ -2,6 +2,9 @@
 	"domain": "cr",
 	"infoURL": "https://www.nic.cr/",
 	"whoisServer": "whois.nic.cr",
+	"rdapURLs": [
+		"https://rdap.nic.cr/"
+	],
 	"nameServers": [
 		"a.lactld.org",
 		"ca1.nic.cr",

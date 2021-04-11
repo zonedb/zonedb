@@ -2,6 +2,9 @@
 	"domain": "wme",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.wme",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/wme/"
+	],
 	"nameServers": [
 		"a.nic.wme",
 		"b.nic.wme",

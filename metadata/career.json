@@ -1,6 +1,9 @@
 {
 	"domain": "career",
 	"whoisServer": "whois.nic.career",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/career/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

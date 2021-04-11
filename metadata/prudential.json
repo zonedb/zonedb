@@ -2,6 +2,9 @@
 	"domain": "prudential",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.prudential",
+	"rdapURLs": [
+		"https://rdap.nic.prudential/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.prudential",
 		"ns2.dns.nic.prudential",

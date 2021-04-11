@@ -2,6 +2,9 @@
 	"domain": "quest",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.quest",
+	"rdapURLs": [
+		"https://rdap.nic.quest/"
+	],
 	"nameServers": [
 		"a-cnic.nic.quest",
 		"b-cnic.nic.quest",

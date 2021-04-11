@@ -2,6 +2,9 @@
 	"domain": "giving",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.giving",
+	"rdapURLs": [
+		"https://rdap.nic.giving/"
+	],
 	"nameServers": [
 		"a.nic.giving",
 		"b.nic.giving",

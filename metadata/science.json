@@ -2,6 +2,9 @@
 	"domain": "science",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.science",
+	"rdapURLs": [
+		"https://rdap.nic.science/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.science",
 		"ns2.dns.nic.science",

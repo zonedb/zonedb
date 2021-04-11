@@ -2,6 +2,9 @@
 	"domain": "whoswho",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.whoswho",
+	"rdapURLs": [
+		"https://rdap.nic.whoswho/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

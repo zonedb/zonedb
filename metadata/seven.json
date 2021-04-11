@@ -2,6 +2,9 @@
 	"domain": "seven",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.seven",
+	"rdapURLs": [
+		"https://rdap.nic.seven/"
+	],
 	"nameServers": [
 		"a.nic.seven",
 		"b.nic.seven",

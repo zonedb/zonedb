@@ -2,6 +2,9 @@
 	"domain": "box",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.box",
+	"rdapURLs": [
+		"https://rdap.nic.box/"
+	],
 	"nameServers": [
 		"a.nic.box",
 		"b.nic.box",

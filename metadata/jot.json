@@ -2,6 +2,9 @@
 	"domain": "jot",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.jot",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/jot/"
+	],
 	"nameServers": [
 		"dns1.nic.jot",
 		"dns2.nic.jot",

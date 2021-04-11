@@ -2,6 +2,9 @@
 	"domain": "review",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.review",
+	"rdapURLs": [
+		"https://rdap.nic.review/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.review",
 		"ns2.dns.nic.review",

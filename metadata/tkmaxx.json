@@ -2,6 +2,9 @@
 	"domain": "tkmaxx",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tkmaxx",
+	"rdapURLs": [
+		"https://rdap.nic.tkmaxx/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.tkmaxx",
 		"ns2.dns.nic.tkmaxx",

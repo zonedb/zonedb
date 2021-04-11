@@ -2,6 +2,9 @@
 	"domain": "schaeffler",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.nic.schaeffler/"
+	],
 	"nameServers": [
 		"a.dns.nic.schaeffler",
 		"m.dns.nic.schaeffler",

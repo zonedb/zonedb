@@ -2,6 +2,9 @@
 	"domain": "ارامكو",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ارامكو",
+	"rdapURLs": [
+		"https://rdap.nic.ارامكو/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.ارامكو",
 		"ns2.dns.nic.ارامكو",

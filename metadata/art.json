@@ -2,6 +2,9 @@
 	"domain": "art",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.art",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/art/"
+	],
 	"nameServers": [
 		"a.nic.art",
 		"b.nic.art",

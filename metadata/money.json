@@ -2,6 +2,9 @@
 	"domain": "money",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.money",
+	"rdapURLs": [
+		"https://rdap.donuts.co/rdap/"
+	],
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

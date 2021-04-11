@@ -2,6 +2,9 @@
 	"domain": "auto",
 	"infoURL": "https://nic.auto/",
 	"whoisServer": "whois.nic.auto",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/auto/"
+	],
 	"nameServers": [
 		"a.nic.auto",
 		"b.nic.auto",

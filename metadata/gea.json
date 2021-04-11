@@ -2,6 +2,9 @@
 	"domain": "gea",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.gea",
+	"rdapURLs": [
+		"https://rdap.nic.gea/"
+	],
 	"nameServers": [
 		"a.dns.nic.gea",
 		"m.dns.nic.gea",

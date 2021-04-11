@@ -2,6 +2,9 @@
 	"domain": "bot",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bot",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/bot/"
+	],
 	"nameServers": [
 		"dns1.nic.bot",
 		"dns2.nic.bot",

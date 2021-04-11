@@ -2,6 +2,9 @@
 	"domain": "booking",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.booking",
+	"rdapURLs": [
+		"https://rdap.nic.booking/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.booking",
 		"ns2.dns.nic.booking",

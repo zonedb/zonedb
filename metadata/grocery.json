@@ -1,6 +1,9 @@
 {
 	"domain": "grocery",
 	"infoURL": "https://newgtlds.icann.org/",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/grocery/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

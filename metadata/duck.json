@@ -2,6 +2,9 @@
 	"domain": "duck",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.duck",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/duck/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

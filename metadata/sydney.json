@@ -2,6 +2,9 @@
 	"domain": "sydney",
 	"infoURL": "https://www.iconic.sydney/",
 	"whoisServer": "whois.nic.sydney",
+	"rdapURLs": [
+		"https://rdap.nic.sydney/"
+	],
 	"nameServers": [
 		"a.nic.sydney",
 		"b.nic.sydney",

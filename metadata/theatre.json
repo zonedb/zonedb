@@ -2,6 +2,9 @@
 	"domain": "theatre",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.theatre",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/theatre/"
+	],
 	"nameServers": [
 		"a.nic.theatre",
 		"b.nic.theatre",

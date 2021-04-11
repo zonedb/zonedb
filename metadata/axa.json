@@ -2,6 +2,9 @@
 	"domain": "axa",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.axa",
+	"rdapURLs": [
+		"https://rdap.nic.axa/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.axa",
 		"ns2.dns.nic.axa",

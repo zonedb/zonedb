@@ -2,6 +2,9 @@
 	"domain": "tab",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tab",
+	"rdapURLs": [
+		"https://rdap.nic.tab/"
+	],
 	"nameServers": [
 		"a.nic.tab",
 		"b.nic.tab",

@@ -2,6 +2,9 @@
 	"domain": "كوم",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.كوم",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/xn--fhbei/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

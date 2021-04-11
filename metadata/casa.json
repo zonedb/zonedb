@@ -2,6 +2,9 @@
 	"domain": "casa",
 	"infoURL": "http://nic.casa/",
 	"whoisServer": "whois.nic.casa",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/casa/"
+	],
 	"nameServers": [
 		"dns1.nic.casa",
 		"dns2.nic.casa",

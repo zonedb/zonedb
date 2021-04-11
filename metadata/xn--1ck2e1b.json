@@ -2,6 +2,9 @@
 	"domain": "セール",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.セール",
+	"rdapURLs": [
+		"https://rdap.nic.セール/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.セール",
 		"ns2.dns.nic.セール",

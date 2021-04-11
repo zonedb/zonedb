@@ -2,6 +2,9 @@
 	"domain": "autos",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.autos",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/autos/"
+	],
 	"nameServers": [
 		"a.nic.autos",
 		"b.nic.autos",

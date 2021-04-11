@@ -2,6 +2,9 @@
 	"domain": "cricket",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.cricket",
+	"rdapURLs": [
+		"https://rdap.nic.cricket/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.cricket",
 		"ns2.dns.nic.cricket",

@@ -2,6 +2,9 @@
 	"domain": "ファッション",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ファッション",
+	"rdapURLs": [
+		"https://rdap.nic.ファッション/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.ファッション",
 		"ns2.dns.nic.ファッション",

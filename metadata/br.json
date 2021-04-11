@@ -2,6 +2,9 @@
 	"domain": "br",
 	"infoURL": "https://nic.br/",
 	"whoisServer": "whois.registro.br",
+	"rdapURLs": [
+		"https://rdap.registro.br/"
+	],
 	"nameServers": [
 		"a.dns.br",
 		"b.dns.br",

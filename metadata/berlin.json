@@ -1,6 +1,9 @@
 {
 	"domain": "berlin",
 	"whoisServer": "whois.nic.berlin",
+	"rdapURLs": [
+		"https://rdap.nic.berlin/v1/"
+	],
 	"nameServers": [
 		"a.dns.nic.berlin",
 		"m.dns.nic.berlin",

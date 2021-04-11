@@ -2,6 +2,9 @@
 	"domain": "organic",
 	"infoURL": "https://get.organic/",
 	"whoisServer": "whois.afilias.net",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/organic/"
+	],
 	"nameServers": [
 		"a0.nic.organic",
 		"a2.nic.organic",

@@ -2,6 +2,9 @@
 	"domain": "fashion",
 	"infoURL": "http://nic.fashion/",
 	"whoisServer": "whois.nic.fashion",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/fashion/"
+	],
 	"nameServers": [
 		"dns1.nic.fashion",
 		"dns2.nic.fashion",

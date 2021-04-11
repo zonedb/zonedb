@@ -2,6 +2,9 @@
 	"domain": "circle",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.circle",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/circle/"
+	],
 	"nameServers": [
 		"dns1.nic.circle",
 		"dns2.nic.circle",

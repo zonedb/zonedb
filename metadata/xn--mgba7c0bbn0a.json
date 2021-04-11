@@ -2,6 +2,9 @@
 	"domain": "العليان",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.العليان",
+	"rdapURLs": [
+		"https://rdap.nic.العليان/"
+	],
 	"nameServers": [
 		"a.nic.العليان",
 		"b.nic.العليان",

@@ -2,6 +2,9 @@
 	"domain": "abogado",
 	"infoURL": "http://nic.abogado/",
 	"whoisServer": "whois.nic.abogado",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/abogado/"
+	],
 	"nameServers": [
 		"dns1.nic.abogado",
 		"dns2.nic.abogado",

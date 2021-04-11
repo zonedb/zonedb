@@ -2,6 +2,9 @@
 	"domain": "网店",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.网店",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/xn--hxt814e/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

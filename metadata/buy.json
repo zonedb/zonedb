@@ -2,6 +2,9 @@
 	"domain": "buy",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.buy",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/buy/"
+	],
 	"nameServers": [
 		"dns1.nic.buy",
 		"dns2.nic.buy",

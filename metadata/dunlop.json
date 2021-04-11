@@ -2,6 +2,9 @@
 	"domain": "dunlop",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.dunlop",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/dunlop/"
+	],
 	"nameServers": [
 		"a0.nic.dunlop",
 		"a2.nic.dunlop",

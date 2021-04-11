@@ -2,6 +2,9 @@
 	"domain": "kindle",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.kindle",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/kindle/"
+	],
 	"nameServers": [
 		"dns1.nic.kindle",
 		"dns2.nic.kindle",

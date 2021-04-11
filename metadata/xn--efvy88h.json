@@ -2,6 +2,9 @@
 	"domain": "新闻",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.新闻",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/XN--EFVY88H/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

@@ -2,6 +2,9 @@
 	"domain": "tjx",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tjx",
+	"rdapURLs": [
+		"https://rdap.nic.tjx/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.tjx",
 		"ns2.dns.nic.tjx",

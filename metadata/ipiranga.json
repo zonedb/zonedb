@@ -2,6 +2,9 @@
 	"domain": "ipiranga",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ipiranga",
+	"rdapURLs": [
+		"https://rdap.nic.ipiranga/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.ipiranga",
 		"ns2.dns.nic.ipiranga",

@@ -2,6 +2,9 @@
 	"domain": "comcast",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.comcast",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/comcast/"
+	],
 	"nameServers": [
 		"dns1.nic.comcast",
 		"dns2.nic.comcast",

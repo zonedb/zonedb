@@ -1,6 +1,9 @@
 {
 	"domain": "kiwi",
 	"whoisServer": "whois.nic.kiwi",
+	"rdapURLs": [
+		"https://rdap.kiwi.fury.ca/rdap/"
+	],
 	"nameServers": [
 		"a.ns.nic.kiwi",
 		"b.ns.nic.kiwi"

@@ -2,6 +2,9 @@
 	"domain": "auspost",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.auspost",
+	"rdapURLs": [
+		"https://rdap.nic.auspost/"
+	],
 	"nameServers": [
 		"a.nic.auspost",
 		"b.nic.auspost",

@@ -2,6 +2,9 @@
 	"domain": "fedex",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.fedex",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/fedex/"
+	],
 	"nameServers": [
 		"a0.nic.fedex",
 		"a2.nic.fedex",

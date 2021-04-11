@@ -1,6 +1,9 @@
 {
 	"domain": "餐厅",
 	"infoURL": "https://newgtlds.icann.org/",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/xn--imr513n/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

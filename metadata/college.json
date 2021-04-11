@@ -2,6 +2,9 @@
 	"domain": "college",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.college",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/college/"
+	],
 	"nameServers": [
 		"a.nic.college",
 		"b.nic.college",

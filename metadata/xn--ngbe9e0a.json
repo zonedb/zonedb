@@ -2,6 +2,9 @@
 	"domain": "بيتك",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.بيتك",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/xn--ngbe9e0a/"
+	],
 	"nameServers": [
 		"a.nic.بيتك",
 		"b.nic.بيتك",

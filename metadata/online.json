@@ -2,6 +2,9 @@
 	"domain": "online",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.online",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/online/"
+	],
 	"nameServers": [
 		"a.nic.online",
 		"b.nic.online",

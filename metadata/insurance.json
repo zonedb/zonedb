@@ -2,6 +2,9 @@
 	"domain": "insurance",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.insurance",
+	"rdapURLs": [
+		"https://rdap.nic.insurance/"
+	],
 	"nameServers": [
 		"a.nic.insurance",
 		"b.nic.insurance",

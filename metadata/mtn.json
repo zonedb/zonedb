@@ -2,6 +2,9 @@
 	"domain": "mtn",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.mtn",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/mtn/"
+	],
 	"nameServers": [
 		"dns1.nic.mtn",
 		"dns2.nic.mtn",

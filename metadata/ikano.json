@@ -2,6 +2,9 @@
 	"domain": "ikano",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ikano",
+	"rdapURLs": [
+		"https://rdap.nic.ikano/v1/"
+	],
 	"nameServers": [
 		"a.dns.nic.ikano",
 		"m.dns.nic.ikano",

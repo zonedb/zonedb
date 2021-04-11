@@ -2,6 +2,9 @@
 	"domain": "wow",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.wow",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/wow/"
+	],
 	"nameServers": [
 		"dns1.nic.wow",
 		"dns2.nic.wow",

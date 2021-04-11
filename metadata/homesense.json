@@ -2,6 +2,9 @@
 	"domain": "homesense",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.homesense",
+	"rdapURLs": [
+		"https://rdap.nic.homesense/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.homesense",
 		"ns2.dns.nic.homesense",

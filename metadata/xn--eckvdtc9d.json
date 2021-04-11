@@ -2,6 +2,9 @@
 	"domain": "ポイント",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ポイント",
+	"rdapURLs": [
+		"https://rdap.nic.ポイント/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.ポイント",
 		"ns2.dns.nic.ポイント",

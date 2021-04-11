@@ -2,6 +2,9 @@
 	"domain": "krd",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.krd",
+	"rdapURLs": [
+		"https://rdap.nic.krd/"
+	],
 	"nameServers": [
 		"a.nic.krd",
 		"b.nic.krd",

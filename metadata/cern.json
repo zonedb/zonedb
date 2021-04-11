@@ -2,6 +2,9 @@
 	"domain": "cern",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/cern/"
+	],
 	"nameServers": [
 		"a0.nic.cern",
 		"a2.nic.cern",

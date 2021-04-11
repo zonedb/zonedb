@@ -2,6 +2,9 @@
 	"domain": "hair",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.hair",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/hair/"
+	],
 	"nameServers": [
 		"a.nic.hair",
 		"b.nic.hair",

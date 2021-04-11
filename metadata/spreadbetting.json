@@ -2,6 +2,9 @@
 	"domain": "spreadbetting",
 	"infoURL": "https://bostonivy.co/",
 	"whoisServer": "whois.nic.spreadbetting",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/spreadbetting/"
+	],
 	"nameServers": [
 		"a.nic.spreadbetting",
 		"b.nic.spreadbetting",

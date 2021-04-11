@@ -2,6 +2,9 @@
 	"domain": "pramerica",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.pramerica",
+	"rdapURLs": [
+		"https://rdap.nic.pramerica/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.pramerica",
 		"ns2.dns.nic.pramerica",

@@ -2,6 +2,9 @@
 	"domain": "able",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.able",
+	"rdapURLs": [
+		"https://rdap.nic.able/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.able",
 		"ns2.dns.nic.able",

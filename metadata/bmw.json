@@ -2,6 +2,9 @@
 	"domain": "bmw",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bmw",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/bmw/"
+	],
 	"nameServers": [
 		"a.nic.bmw",
 		"b.nic.bmw",

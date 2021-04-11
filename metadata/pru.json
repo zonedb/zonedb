@@ -2,6 +2,9 @@
 	"domain": "pru",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.pru",
+	"rdapURLs": [
+		"https://rdap.nic.pru/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.pru",
 		"ns2.dns.nic.pru",

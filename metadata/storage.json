@@ -2,6 +2,9 @@
 	"domain": "storage",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.storage",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/storage/"
+	],
 	"nameServers": [
 		"a.nic.storage",
 		"b.nic.storage",

@@ -2,6 +2,9 @@
 	"domain": "glade",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.glade",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/glade/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

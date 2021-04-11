@@ -2,6 +2,9 @@
 	"domain": "qvc",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.qvc",
+	"rdapURLs": [
+		"https://rdap.nic.qvc/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.qvc",
 		"ns2.dns.nic.qvc",

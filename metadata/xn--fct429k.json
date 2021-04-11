@@ -2,6 +2,9 @@
 	"domain": "家電",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.家電",
+	"rdapURLs": [
+		"https://rdap.nic.家電/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.家電",
 		"ns2.dns.nic.家電",

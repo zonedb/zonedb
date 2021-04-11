@@ -2,6 +2,9 @@
 	"domain": "leclerc",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois-leclerc.nic.fr",
+	"rdapURLs": [
+		"https://rdap.nic.leclerc/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

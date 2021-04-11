@@ -2,6 +2,9 @@
 	"domain": "caravan",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.caravan",
+	"rdapURLs": [
+		"https://rdap.nic.caravan/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.caravan",
 		"ns2.dns.nic.caravan",

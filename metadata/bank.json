@@ -2,6 +2,9 @@
 	"domain": "bank",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bank",
+	"rdapURLs": [
+		"https://rdap.nic.bank/"
+	],
 	"nameServers": [
 		"a.nic.bank",
 		"b.nic.bank",

@@ -2,6 +2,9 @@
 	"domain": "bcn",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bcn",
+	"rdapURLs": [
+		"https://rdap.nic.bcn/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

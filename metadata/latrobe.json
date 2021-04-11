@@ -2,6 +2,9 @@
 	"domain": "latrobe",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.latrobe",
+	"rdapURLs": [
+		"https://rdap.nic.latrobe/"
+	],
 	"nameServers": [
 		"a.nic.latrobe",
 		"b.nic.latrobe",

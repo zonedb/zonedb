@@ -2,6 +2,9 @@
 	"domain": "commbank",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.commbank",
+	"rdapURLs": [
+		"https://rdap.nic.commbank/"
+	],
 	"nameServers": [
 		"a.nic.commbank",
 		"b.nic.commbank",

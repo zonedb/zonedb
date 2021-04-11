@@ -2,6 +2,9 @@
 	"domain": "كاثوليك",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.كاثوليك",
+	"rdapURLs": [
+		"https://rdap.nic.كاثوليك/"
+	],
 	"nameServers": [
 		"a.nic.كاثوليك",
 		"b.nic.كاثوليك",

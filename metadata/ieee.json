@@ -2,6 +2,9 @@
 	"domain": "ieee",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ieee",
+	"rdapURLs": [
+		"https://rdap.nic.ieee/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.ieee",
 		"ns2.dns.nic.ieee",

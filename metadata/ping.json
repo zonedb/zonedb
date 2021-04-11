@@ -2,6 +2,9 @@
 	"domain": "ping",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ping",
+	"rdapURLs": [
+		"https://rdap.nic.ping/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.ping",
 		"ns2.dns.nic.ping",

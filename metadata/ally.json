@@ -2,6 +2,9 @@
 	"domain": "ally",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ally",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/ally/"
+	],
 	"nameServers": [
 		"a.nic.ally",
 		"b.nic.ally",

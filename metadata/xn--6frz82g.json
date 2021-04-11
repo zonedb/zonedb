@@ -1,6 +1,9 @@
 {
 	"domain": "移动",
 	"whoisServer": "whois.afilias.net",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/xn--6frz82g/"
+	],
 	"nameServers": [
 		"a0.nic.移动",
 		"a2.nic.移动",

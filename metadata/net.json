@@ -2,6 +2,9 @@
 	"domain": "net",
 	"infoURL": "https://www.verisign.com/en_US/domain-names/net-domain-names/index.xhtml",
 	"whoisServer": "whois.verisign-grs.com",
+	"rdapURLs": [
+		"https://rdap.verisign.com/net/v1/"
+	],
 	"nameServers": [
 		"a.gtld-servers.net",
 		"b.gtld-servers.net",

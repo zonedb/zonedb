@@ -2,6 +2,9 @@
 	"domain": "pfizer",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.pfizer",
+	"rdapURLs": [
+		"https://rdap.nic.pfizer/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.pfizer",
 		"ns2.dns.nic.pfizer",

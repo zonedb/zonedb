@@ -2,6 +2,9 @@
 	"domain": "mutual",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.mutual",
+	"rdapURLs": [
+		"https://rdap.nic.mutual/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.mutual",
 		"ns2.dns.nic.mutual",

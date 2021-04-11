@@ -2,6 +2,9 @@
 	"domain": "vegas",
 	"infoURL": "http://nic.vegas/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/vegas/"
+	],
 	"nameServers": [
 		"a0.nic.vegas",
 		"a2.nic.vegas",

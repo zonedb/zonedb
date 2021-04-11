@@ -2,6 +2,9 @@
 	"domain": "forum",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.forum",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/forum/"
+	],
 	"nameServers": [
 		"a.nic.forum",
 		"b.nic.forum",

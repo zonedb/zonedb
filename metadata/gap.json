@@ -2,6 +2,9 @@
 	"domain": "gap",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.gap",
+	"rdapURLs": [
+		"https://rdap.nic.gap/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.gap",
 		"ns2.dns.nic.gap",

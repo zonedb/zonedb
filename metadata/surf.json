@@ -2,6 +2,9 @@
 	"domain": "surf",
 	"infoURL": "http://nic.surf/",
 	"whoisServer": "whois.nic.surf",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/surf/"
+	],
 	"nameServers": [
 		"dns1.nic.surf",
 		"dns2.nic.surf",

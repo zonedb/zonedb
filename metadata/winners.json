@@ -2,6 +2,9 @@
 	"domain": "winners",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.winners",
+	"rdapURLs": [
+		"https://rdap.nic.winners/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.winners",
 		"ns2.dns.nic.winners",

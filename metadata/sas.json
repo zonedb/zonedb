@@ -2,6 +2,9 @@
 	"domain": "sas",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.sas",
+	"rdapURLs": [
+		"https://rdap.nic.sas/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.sas",
 		"ns2.dns.nic.sas",

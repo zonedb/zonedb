@@ -2,6 +2,9 @@
 	"domain": "fire",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.fire",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/fire/"
+	],
 	"nameServers": [
 		"dns1.nic.fire",
 		"dns2.nic.fire",

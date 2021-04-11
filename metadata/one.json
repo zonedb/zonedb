@@ -2,6 +2,9 @@
 	"domain": "one",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.one",
+	"rdapURLs": [
+		"https://rdap.nic.one/"
+	],
 	"nameServers": [
 		"a.nic.one",
 		"b.nic.one",

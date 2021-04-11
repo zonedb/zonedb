@@ -2,6 +2,9 @@
 	"domain": "java",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.java",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/java/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

@@ -2,6 +2,9 @@
 	"domain": "ibm",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ibm",
+	"rdapURLs": [
+		"https://rdap.nic.ibm/"
+	],
 	"nameServers": [
 		"a.nic.ibm",
 		"b.nic.ibm",

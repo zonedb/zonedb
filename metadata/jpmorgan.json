@@ -2,6 +2,9 @@
 	"domain": "jpmorgan",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.jpmorgan",
+	"rdapURLs": [
+		"https://rdap.nic.jpmorgan/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.jpmorgan",
 		"ns2.dns.nic.jpmorgan",

@@ -2,6 +2,9 @@
 	"domain": "bayern",
 	"infoURL": "https://nic.bayern/",
 	"whoisServer": "whois.nic.bayern",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/bayern/"
+	],
 	"nameServers": [
 		"dns1.nic.bayern",
 		"dns2.nic.bayern",

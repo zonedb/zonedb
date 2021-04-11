@@ -2,6 +2,9 @@
 	"domain": "trust",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.trust",
+	"rdapURLs": [
+		"https://rdap.nic.trust/"
+	],
 	"nameServers": [
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",

@@ -2,6 +2,9 @@
 	"domain": "орг",
 	"infoURL": "https://pir.org/products/opr-domain/",
 	"whoisServer": "whois.publicinterestregistry.net",
+	"rdapURLs": [
+		"https://rdap.publicinterestregistry.net/rdap/xn--c1avg/"
+	],
 	"nameServers": [
 		"a0.nic.орг",
 		"a2.nic.орг",

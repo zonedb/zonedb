@@ -2,6 +2,9 @@
 	"domain": "cookingchannel",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.cookingchannel",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/cookingchannel/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

@@ -1,6 +1,9 @@
 {
 	"domain": "club",
 	"whoisServer": "whois.nic.club",
+	"rdapURLs": [
+		"https://rdap.nic.club/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.club",
 		"ns2.dns.nic.club",

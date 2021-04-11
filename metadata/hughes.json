@@ -2,6 +2,9 @@
 	"domain": "hughes",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.hughes",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/hughes/"
+	],
 	"nameServers": [
 		"a0.nic.hughes",
 		"a2.nic.hughes",

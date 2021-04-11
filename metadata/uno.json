@@ -1,6 +1,9 @@
 {
 	"domain": "uno",
 	"whoisServer": "whois.nic.uno",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/uno/"
+	],
 	"nameServers": [
 		"a.nic.uno",
 		"b.nic.uno",

@@ -2,6 +2,9 @@
 	"domain": "anz",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.anz",
+	"rdapURLs": [
+		"https://rdap.nic.anz/"
+	],
 	"nameServers": [
 		"a.nic.anz",
 		"b.nic.anz",

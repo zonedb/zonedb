@@ -2,6 +2,9 @@
 	"domain": "cbn",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.cbn",
+	"rdapURLs": [
+		"https://rdap.nic.cbn/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.cbn",
 		"ns2.dns.nic.cbn",

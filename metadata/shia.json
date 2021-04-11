@@ -2,6 +2,9 @@
 	"domain": "shia",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.shia",
+	"rdapURLs": [
+		"https://api.rdap.agitsys.net/"
+	],
 	"nameServers": [
 		"a.ns.nic.shia",
 		"b.ns.nic.shia",

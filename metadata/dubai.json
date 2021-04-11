@@ -2,6 +2,9 @@
 	"domain": "dubai",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.dubai",
+	"rdapURLs": [
+		"https://rdap.nic.dubai/"
+	],
 	"nameServers": [
 		"gtld.alpha.aridns.net.au",
 		"gtld.beta.aridns.net.au",

@@ -2,6 +2,9 @@
 	"domain": "adult",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.registrar.adult",
+	"rdapURLs": [
+		"https://whois.registrar.adult/rdap/"
+	],
 	"nameServers": [
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",

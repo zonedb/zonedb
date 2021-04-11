@@ -2,6 +2,9 @@
 	"domain": "xin",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.xin",
+	"rdapURLs": [
+		"https://rdap.aceregistry.net/rdap/xin/"
+	],
 	"nameServers": [
 		"a0.nic.xin",
 		"a2.nic.xin",

@@ -2,6 +2,9 @@
 	"domain": "tushu",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tushu",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/tushu/"
+	],
 	"nameServers": [
 		"dns1.nic.tushu",
 		"dns2.nic.tushu",

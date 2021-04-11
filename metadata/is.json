@@ -1,6 +1,9 @@
 {
 	"domain": "is",
 	"whoisServer": "whois.isnic.is",
+	"rdapURLs": [
+		"https://rdap.isnic.is/rdap/"
+	],
 	"nameServers": [
 		"bes.isnic.is",
 		"durinn.rhnet.is",

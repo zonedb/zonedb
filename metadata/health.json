@@ -2,6 +2,9 @@
 	"domain": "health",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.health",
+	"rdapURLs": [
+		"https://rdap.nic.health/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.health",
 		"ns2.dns.nic.health",

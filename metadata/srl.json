@@ -2,6 +2,9 @@
 	"domain": "srl",
 	"infoURL": "https://www.internetx.info/en/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/srl/"
+	],
 	"nameServers": [
 		"a0.nic.srl",
 		"a2.nic.srl",

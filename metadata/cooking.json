@@ -2,6 +2,9 @@
 	"domain": "cooking",
 	"infoURL": "http://nic.cooking/",
 	"whoisServer": "whois.nic.cooking",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/cooking/"
+	],
 	"nameServers": [
 		"dns1.nic.cooking",
 		"dns2.nic.cooking",

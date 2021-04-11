@@ -2,6 +2,9 @@
 	"domain": "tunes",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tunes",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/tunes/"
+	],
 	"nameServers": [
 		"dns1.nic.tunes",
 		"dns2.nic.tunes",

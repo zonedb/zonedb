@@ -2,6 +2,9 @@
 	"domain": "brussels",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.brussels",
+	"rdapURLs": [
+		"https://rdap.nic.brussels/"
+	],
 	"nameServers": [
 		"a.nsset.brussels",
 		"b.nsset.brussels",

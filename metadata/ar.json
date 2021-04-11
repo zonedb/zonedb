@@ -2,6 +2,9 @@
 	"domain": "ar",
 	"infoURL": "https://nic.ar/",
 	"whoisServer": "whois.nic.ar",
+	"rdapURLs": [
+		"https://rdap.nic.ar/"
+	],
 	"nameServers": [
 		"a.dns.ar",
 		"ar.cctld.authdns.ripe.net",

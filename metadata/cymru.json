@@ -2,6 +2,9 @@
 	"domain": "cymru",
 	"infoURL": "https://eincartrefarlein.cymru/",
 	"whoisServer": "whois.nic.cymru",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/cymru/"
+	],
 	"nameServers": [
 		"dns1.nic.cymru",
 		"dns2.nic.cymru",

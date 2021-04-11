@@ -2,6 +2,9 @@
 	"domain": "schmidt",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.schmidt",
+	"rdapURLs": [
+		"https://rdap.nic.schmidt/"
+	],
 	"nameServers": [
 		"a.nic.schmidt",
 		"b.nic.schmidt",

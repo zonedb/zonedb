@@ -2,6 +2,9 @@
 	"domain": "eco",
 	"infoURL": "https://bigroom.eco/",
 	"whoisServer": "whois.nic.eco",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/eco/"
+	],
 	"nameServers": [
 		"a0.nic.eco",
 		"a2.nic.eco",

@@ -1,6 +1,9 @@
 {
 	"domain": "solar",
 	"whoisServer": "whois.nic.solar",
+	"rdapURLs": [
+		"https://rdap.donuts.co/rdap/"
+	],
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

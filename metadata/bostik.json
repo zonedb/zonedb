@@ -2,6 +2,9 @@
 	"domain": "bostik",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bostik",
+	"rdapURLs": [
+		"https://rdap.nic.bostik/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

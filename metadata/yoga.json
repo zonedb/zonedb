@@ -2,6 +2,9 @@
 	"domain": "yoga",
 	"infoURL": "http://nic.yoga/",
 	"whoisServer": "whois.nic.yoga",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/yoga/"
+	],
 	"nameServers": [
 		"dns1.nic.yoga",
 		"dns2.nic.yoga",

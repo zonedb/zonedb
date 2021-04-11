@@ -2,6 +2,9 @@
 	"domain": "frl",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.frl",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/frl/"
+	],
 	"nameServers": [
 		"a.nic.frl",
 		"b.nic.frl",

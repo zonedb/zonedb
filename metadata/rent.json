@@ -2,6 +2,9 @@
 	"domain": "rent",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.rent",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/rent/"
+	],
 	"nameServers": [
 		"a.nic.rent",
 		"b.nic.rent",

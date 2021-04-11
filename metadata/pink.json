@@ -2,6 +2,9 @@
 	"domain": "pink",
 	"infoURL": "https://get.pink/",
 	"whoisServer": "whois.afilias.net",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/pink/"
+	],
 	"nameServers": [
 		"a0.nic.pink",
 		"a2.nic.pink",

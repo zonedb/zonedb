@@ -1,6 +1,9 @@
 {
 	"domain": "nagoya",
 	"whoisServer": "whois.nic.nagoya",
+	"rdapURLs": [
+		"https://rdap.gmoregistry.net/rdap/"
+	],
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",

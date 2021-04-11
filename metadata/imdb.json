@@ -2,6 +2,9 @@
 	"domain": "imdb",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.imdb",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/imdb/"
+	],
 	"nameServers": [
 		"dns1.nic.imdb",
 		"dns2.nic.imdb",

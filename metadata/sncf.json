@@ -2,6 +2,9 @@
 	"domain": "sncf",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.sncf",
+	"rdapURLs": [
+		"https://rdap.nic.sncf/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

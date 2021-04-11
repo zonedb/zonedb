@@ -2,6 +2,9 @@
 	"domain": "tatar",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tatar",
+	"rdapURLs": [
+		"https://whois.nic.tatar/rdap/"
+	],
 	"nameServers": [
 		"a.dns.ripn.net",
 		"b.dns.ripn.net",

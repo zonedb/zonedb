@@ -1,6 +1,9 @@
 {
 	"domain": "招聘",
 	"infoURL": "https://newgtlds.icann.org/",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/xn--otu796d/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

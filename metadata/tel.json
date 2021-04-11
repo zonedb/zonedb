@@ -1,6 +1,9 @@
 {
 	"domain": "tel",
 	"whoisServer": "whois.nic.tel",
+	"rdapURLs": [
+		"https://rdap.nic.tel/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.tel",
 		"ns2.dns.nic.tel",

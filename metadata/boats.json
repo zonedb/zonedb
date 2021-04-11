@@ -2,6 +2,9 @@
 	"domain": "boats",
 	"infoURL": "https://nic.boats/",
 	"whoisServer": "whois.nic.boats",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/boats/"
+	],
 	"nameServers": [
 		"a.nic.boats",
 		"b.nic.boats",

@@ -2,6 +2,9 @@
 	"domain": "gucci",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.gucci",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/gucci/"
+	],
 	"nameServers": [
 		"dns1.nic.gucci",
 		"dns2.nic.gucci",

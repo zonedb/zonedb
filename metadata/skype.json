@@ -2,6 +2,9 @@
 	"domain": "skype",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.skype",
+	"rdapURLs": [
+		"https://rdap.nic.skype/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.skype",
 		"ns2.dns.nic.skype",

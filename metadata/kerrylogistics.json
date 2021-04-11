@@ -1,6 +1,9 @@
 {
 	"domain": "kerrylogistics",
 	"whoisServer": "whois.nic.kerrylogistics",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/kerrylogistics/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

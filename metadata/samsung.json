@@ -2,6 +2,9 @@
 	"domain": "samsung",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.samsung",
+	"rdapURLs": [
+		"https://nic.samsung:8443/rdap/"
+	],
 	"nameServers": [
 		"ns1.samsung.centralnic-dns.com",
 		"ns2.samsung.centralnic-dns.com",

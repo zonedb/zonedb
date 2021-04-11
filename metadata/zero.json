@@ -2,6 +2,9 @@
 	"domain": "zero",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.zero",
+	"rdapURLs": [
+		"https://rdap.nic.zero/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.zero",
 		"ns2.dns.nic.zero",

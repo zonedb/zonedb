@@ -2,6 +2,9 @@
 	"domain": "philips",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.philips",
+	"rdapURLs": [
+		"https://rdap.nic.philips/"
+	],
 	"nameServers": [
 		"a.nic.philips",
 		"b.nic.philips",

@@ -2,6 +2,9 @@
 	"domain": "travelersinsurance",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/travelersinsurance/"
+	],
 	"nameServers": [
 		"a0.nic.travelersinsurance",
 		"a2.nic.travelersinsurance",

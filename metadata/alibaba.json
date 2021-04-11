@@ -2,6 +2,9 @@
 	"domain": "alibaba",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.alibaba",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/alibaba/"
+	],
 	"nameServers": [
 		"a0.nic.alibaba",
 		"a2.nic.alibaba",

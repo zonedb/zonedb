@@ -2,6 +2,9 @@
 	"domain": "men",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.men",
+	"rdapURLs": [
+		"https://rdap.nic.men/"
+	],
 	"nameServers": [
 		"a.nic.men",
 		"b.nic.men",

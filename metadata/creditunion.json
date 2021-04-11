@@ -2,6 +2,9 @@
 	"domain": "creditunion",
 	"infoURL": "https://nic.creditunion/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/creditunion/"
+	],
 	"nameServers": [
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",

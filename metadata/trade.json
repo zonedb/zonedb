@@ -2,6 +2,9 @@
 	"domain": "trade",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.trade",
+	"rdapURLs": [
+		"https://rdap.nic.trade/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.trade",
 		"ns2.dns.nic.trade",

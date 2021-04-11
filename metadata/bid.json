@@ -2,6 +2,9 @@
 	"domain": "bid",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.bid",
+	"rdapURLs": [
+		"https://rdap.nic.bid/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.bid",
 		"ns2.dns.nic.bid",

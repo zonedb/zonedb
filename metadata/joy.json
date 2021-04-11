@@ -2,6 +2,9 @@
 	"domain": "joy",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.joy",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/joy/"
+	],
 	"nameServers": [
 		"dns1.nic.joy",
 		"dns2.nic.joy",

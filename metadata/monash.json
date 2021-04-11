@@ -2,6 +2,9 @@
 	"domain": "monash",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.monash",
+	"rdapURLs": [
+		"https://rdap.nic.monash/"
+	],
 	"nameServers": [
 		"a.nic.monash",
 		"b.nic.monash",

@@ -1,6 +1,9 @@
 {
 	"domain": "qpon",
 	"whoisServer": "whois.nic.qpon",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/qpon/"
+	],
 	"nameServers": [
 		"a.nic.qpon",
 		"b.nic.qpon",

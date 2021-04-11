@@ -1,6 +1,9 @@
 {
 	"domain": "コム",
 	"whoisServer": "whois.nic.コム",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/xn--tckwe/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

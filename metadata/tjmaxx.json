@@ -2,6 +2,9 @@
 	"domain": "tjmaxx",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tjmaxx",
+	"rdapURLs": [
+		"https://rdap.nic.tjmaxx/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.tjmaxx",
 		"ns2.dns.nic.tjmaxx",

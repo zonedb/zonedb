@@ -2,6 +2,9 @@
 	"domain": "garden",
 	"infoURL": "http://nic.garden/",
 	"whoisServer": "whois.nic.garden",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/garden/"
+	],
 	"nameServers": [
 		"dns1.nic.garden",
 		"dns2.nic.garden",

@@ -2,6 +2,9 @@
 	"domain": "now",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.now",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/now/"
+	],
 	"nameServers": [
 		"dns1.nic.now",
 		"dns2.nic.now",

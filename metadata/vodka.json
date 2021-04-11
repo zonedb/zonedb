@@ -2,6 +2,9 @@
 	"domain": "vodka",
 	"infoURL": "http://nic.vodka/",
 	"whoisServer": "whois.nic.vodka",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/vodka/"
+	],
 	"nameServers": [
 		"dns1.nic.vodka",
 		"dns2.nic.vodka",

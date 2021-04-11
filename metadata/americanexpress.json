@@ -2,6 +2,9 @@
 	"domain": "americanexpress",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.americanexpress",
+	"rdapURLs": [
+		"https://rdap.nic.americanexpress/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.americanexpress",
 		"ns2.dns.nic.americanexpress",

@@ -2,6 +2,9 @@
 	"domain": "citic",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.citic",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/citic/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

@@ -2,6 +2,9 @@
 	"domain": "etisalat",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.centralnic.com",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/etisalat/"
+	],
 	"nameServers": [
 		"a.nic.etisalat",
 		"b.nic.etisalat",

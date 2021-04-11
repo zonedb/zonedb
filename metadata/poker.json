@@ -2,6 +2,9 @@
 	"domain": "poker",
 	"infoURL": "https://get.poker/",
 	"whoisServer": "whois.afilias.net",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/poker/"
+	],
 	"nameServers": [
 		"a0.nic.poker",
 		"a2.nic.poker",

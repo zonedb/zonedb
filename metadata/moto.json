@@ -2,6 +2,9 @@
 	"domain": "moto",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.moto",
+	"rdapURLs": [
+		"https://rdap.nic.moto/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.moto",
 		"ns2.dns.nic.moto",

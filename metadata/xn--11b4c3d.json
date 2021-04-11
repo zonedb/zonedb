@@ -2,6 +2,9 @@
 	"domain": "कॉम",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.कॉम",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/xn--11b4c3d/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

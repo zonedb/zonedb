@@ -2,6 +2,9 @@
 	"domain": "accountant",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.accountant",
+	"rdapURLs": [
+		"https://rdap.nic.accountant/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.accountant",
 		"ns2.dns.nic.accountant",

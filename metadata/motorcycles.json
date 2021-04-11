@@ -2,6 +2,9 @@
 	"domain": "motorcycles",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.motorcycles",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/motorcycles/"
+	],
 	"nameServers": [
 		"a.nic.motorcycles",
 		"b.nic.motorcycles",

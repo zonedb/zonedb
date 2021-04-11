@@ -2,6 +2,9 @@
 	"domain": "scb",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.scb",
+	"rdapURLs": [
+		"https://rdap.nic.scb/"
+	],
 	"nameServers": [
 		"a.nic.scb",
 		"b.nic.scb",

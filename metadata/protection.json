@@ -2,6 +2,9 @@
 	"domain": "protection",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.protection",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/protection/"
+	],
 	"nameServers": [
 		"a.nic.protection",
 		"b.nic.protection",

@@ -2,6 +2,9 @@
 	"domain": "horse",
 	"infoURL": "http://nic.horse/",
 	"whoisServer": "whois.nic.horse",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/horse/"
+	],
 	"nameServers": [
 		"dns1.nic.horse",
 		"dns2.nic.horse",

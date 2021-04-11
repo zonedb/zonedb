@@ -1,6 +1,9 @@
 {
 	"domain": "versicherung",
 	"whoisServer": "whois.nic.versicherung",
+	"rdapURLs": [
+		"https://rdap.nic.versicherung/v1/"
+	],
 	"nameServers": [
 		"a.dns.nic.versicherung",
 		"m.dns.nic.versicherung",

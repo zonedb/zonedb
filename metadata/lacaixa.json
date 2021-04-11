@@ -2,6 +2,9 @@
 	"domain": "lacaixa",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lacaixa",
+	"rdapURLs": [
+		"https://rdap.nic.lacaixa/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

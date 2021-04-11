@@ -2,6 +2,9 @@
 	"domain": "cbre",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.cbre",
+	"rdapURLs": [
+		"https://rdap.nic.cbre/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.cbre",
 		"ns2.dns.nic.cbre",

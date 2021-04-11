@@ -2,6 +2,9 @@
 	"domain": "hot",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.hot",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/hot/"
+	],
 	"nameServers": [
 		"dns1.nic.hot",
 		"dns2.nic.hot",

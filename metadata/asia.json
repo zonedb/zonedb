@@ -2,6 +2,9 @@
 	"domain": "asia",
 	"infoURL": "https://www.dot.asia/",
 	"whoisServer": "whois.nic.asia",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/asia/"
+	],
 	"nameServers": [
 		"a0.asia.afilias-nst.info",
 		"a2.asia.afilias-nst.info",

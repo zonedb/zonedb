@@ -2,6 +2,9 @@
 	"domain": "song",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.song",
+	"rdapURLs": [
+		"https://rdap.nic.song/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.song",
 		"ns2.dns.nic.song",

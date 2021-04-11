@@ -2,6 +2,9 @@
 	"domain": "eurovision",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.eurovision",
+	"rdapURLs": [
+		"https://rdap.nic.eurovision/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

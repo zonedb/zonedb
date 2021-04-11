@@ -2,6 +2,9 @@
 	"domain": "saxo",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.saxo",
+	"rdapURLs": [
+		"https://rdap.nic.saxo/"
+	],
 	"nameServers": [
 		"a.nic.saxo",
 		"b.nic.saxo",

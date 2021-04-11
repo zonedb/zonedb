@@ -2,6 +2,9 @@
 	"domain": "cloud",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.cloud",
+	"rdapURLs": [
+		"https://rdap.nic.cloud/"
+	],
 	"nameServers": [
 		"a.nic.cloud",
 		"b.nic.cloud",

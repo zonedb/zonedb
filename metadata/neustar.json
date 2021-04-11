@@ -2,6 +2,9 @@
 	"domain": "neustar",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.neustar",
+	"rdapURLs": [
+		"https://rdap.nic.neustar/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.neustar",
 		"ns2.dns.nic.neustar",

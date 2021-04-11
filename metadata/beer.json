@@ -2,6 +2,9 @@
 	"domain": "beer",
 	"infoURL": "http://nic.beer/",
 	"whoisServer": "whois.nic.beer",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/beer/"
+	],
 	"nameServers": [
 		"dns1.nic.beer",
 		"dns2.nic.beer",

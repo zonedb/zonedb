@@ -1,6 +1,9 @@
 {
 	"domain": "ca",
 	"whoisServer": "whois.cira.ca",
+	"rdapURLs": [
+		"https://rdap.ca.fury.ca/rdap/"
+	],
 	"nameServers": [
 		"any.ca-servers.ca",
 		"c.ca-servers.ca",

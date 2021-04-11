@@ -2,6 +2,9 @@
 	"domain": "lancaster",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lancaster",
+	"rdapURLs": [
+		"https://rdap.nic.lancaster/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

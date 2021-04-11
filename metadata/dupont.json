@@ -2,6 +2,9 @@
 	"domain": "dupont",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.dupont",
+	"rdapURLs": [
+		"https://rdap.nic.dupont/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.dupont",
 		"ns2.dns.nic.dupont",

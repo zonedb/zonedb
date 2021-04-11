@@ -2,6 +2,9 @@
 	"domain": "blog",
 	"infoURL": "https://my.blog/",
 	"whoisServer": "whois.nic.blog",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/blog/"
+	],
 	"nameServers": [
 		"a.nic.blog",
 		"b.nic.blog",

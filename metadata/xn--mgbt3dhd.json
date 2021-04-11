@@ -2,6 +2,9 @@
 	"domain": "همراه",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.همراه",
+	"rdapURLs": [
+		"https://api.rdap.agitsys.net/"
+	],
 	"nameServers": [
 		"a.ns.nic.همراه",
 		"b.ns.nic.همراه",

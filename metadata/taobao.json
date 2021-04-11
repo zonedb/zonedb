@@ -2,6 +2,9 @@
 	"domain": "taobao",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.taobao",
+	"rdapURLs": [
+		"https://rdap.nic.taobao/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.taobao",
 		"ns2.dns.nic.taobao",

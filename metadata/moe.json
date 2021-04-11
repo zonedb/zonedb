@@ -1,6 +1,9 @@
 {
 	"domain": "moe",
 	"whoisServer": "whois.nic.moe",
+	"rdapURLs": [
+		"https://rdap.nic.moe/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.moe",
 		"ns2.dns.nic.moe",

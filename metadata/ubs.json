@@ -2,6 +2,9 @@
 	"domain": "ubs",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ubs",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/ubs/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

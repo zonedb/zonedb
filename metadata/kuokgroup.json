@@ -2,6 +2,9 @@
 	"domain": "kuokgroup",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.kuokgroup",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/kuokgroup/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

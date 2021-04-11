@@ -2,6 +2,9 @@
 	"domain": "security",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.security",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/security/"
+	],
 	"nameServers": [
 		"a.nic.security",
 		"b.nic.security",

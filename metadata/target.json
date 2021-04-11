@@ -2,6 +2,9 @@
 	"domain": "target",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.target",
+	"rdapURLs": [
+		"https://rdap.nic.target/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.target",
 		"ns2.dns.nic.target",

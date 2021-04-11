@@ -2,6 +2,9 @@
 	"domain": "rmit",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.rmit",
+	"rdapURLs": [
+		"https://rdap.nic.rmit/"
+	],
 	"nameServers": [
 		"a.nic.rmit",
 		"b.nic.rmit",
