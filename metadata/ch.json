@@ -1,6 +1,9 @@
 {
 	"domain": "ch",
 	"whoisServer": "whois.nic.ch",
+	"rdapURLs": [
+		"https://rdap.nic.ch/"
+	],
 	"nameServers": [
 		"a.nic.ch",
 		"b.nic.ch",

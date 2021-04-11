@@ -1,6 +1,9 @@
 {
 	"domain": "li",
 	"whoisServer": "whois.nic.li",
+	"rdapURLs": [
+		"https://rdap.nic.li/"
+	],
 	"nameServers": [
 		"a.nic.li",
 		"b.nic.li",

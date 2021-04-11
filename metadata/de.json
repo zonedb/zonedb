@@ -2,6 +2,9 @@
 	"domain": "de",
 	"infoURL": "https://www.denic.de/",
 	"whoisServer": "whois.denic.de",
+	"rdapURLs": [
+		"https://rdap.denic.de/"
+	],
 	"nameServers": [
 		"a.nic.de",
 		"f.nic.de",
