@@ -112,4 +112,4 @@ func langFromURL(u string) (string, error) {
 	return normalizeLang(lang)
 }
 
-var errMalformedURL = errors.New("Malformed IDN table URL")
+var errMalformedURL = errors.New("malformed IDN table URL")
