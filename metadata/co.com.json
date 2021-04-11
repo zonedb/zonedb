@@ -2,6 +2,9 @@
 	"domain": "co.com",
 	"infoURL": "https://registry.co.com/",
 	"whoisServer": "whois.centralnic.net",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/co.com/"
+	],
 	"nameServers": [
 		"ns1.nic.co.com",
 		"ns2.nic.co.com",

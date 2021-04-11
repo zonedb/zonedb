@@ -1,6 +1,9 @@
 {
 	"domain": "us.com",
 	"whoisServer": "whois.centralnic.com",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/us.com/"
+	],
 	"nameServers": [
 		"ns1.centralnic.net",
 		"ns2.centralnic.net",

@@ -1,6 +1,9 @@
 {
 	"domain": "br.com",
 	"whoisServer": "whois.centralnic.com",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/br.com/"
+	],
 	"nameServers": [
 		"ns1.centralnic.net",
 		"ns2.centralnic.net",

@@ -1,6 +1,9 @@
 {
 	"domain": "uk.com",
 	"whoisServer": "whois.centralnic.com",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/uk.com/"
+	],
 	"nameServers": [
 		"ns1.centralnic.net",
 		"ns2.centralnic.net",

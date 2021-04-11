@@ -1,6 +1,9 @@
 {
 	"domain": "sa.com",
 	"whoisServer": "whois.centralnic.com",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/sa.com/"
+	],
 	"nameServers": [
 		"ns1.centralnic.net",
 		"ns2.centralnic.net",

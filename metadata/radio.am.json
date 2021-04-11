@@ -1,5 +1,8 @@
 {
 	"domain": "radio.am",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/radio.am/"
+	],
 	"nameServers": [
 		"a.nic.fm",
 		"b.nic.fm",

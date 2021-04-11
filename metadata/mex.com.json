@@ -1,5 +1,8 @@
 {
 	"domain": "mex.com",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/mex.com/"
+	],
 	"nameServers": [
 		"ns1.centralnic.net",
 		"ns2.centralnic.net",

@@ -1,5 +1,8 @@
 {
 	"domain": "co.nl",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/co.nl/"
+	],
 	"nameServers": [
 		"a.nic.co.nl",
 		"b.nic.co.nl",

@@ -1,6 +1,9 @@
 {
 	"domain": "co.no",
 	"infoURL": "https://www.norid.no/index.en.html",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/co.no/"
+	],
 	"nameServers": [
 		"ns1.centralnic.net",
 		"ns2.centralnic.net",

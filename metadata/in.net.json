@@ -1,6 +1,9 @@
 {
 	"domain": "in.net",
 	"whoisServer": "whois.centralnic.com",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/in.net/"
+	],
 	"nameServers": [
 		"ns1.nic.in.net",
 		"ns2.nic.in.net",
