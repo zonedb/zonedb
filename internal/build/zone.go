@@ -17,6 +17,7 @@ type Zone struct {
 	InfoURL     string   `json:"infoURL,omitempty"`
 	WhoisURL    string   `json:"whoisURL,omitempty"`
 	WhoisServer string   `json:"whoisServer,omitempty"`
+	RDAPURLs    []string `json:"rdapURLs,omitempty"`
 	NameServers []string `json:"nameServers,omitempty"`
 	Wildcards   []string `json:"wildcards,omitempty"`
 	Locations   []string `json:"locations,omitempty"`
