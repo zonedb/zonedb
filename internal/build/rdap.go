@@ -42,8 +42,9 @@ func FetchRDAPFromIANA(zones map[string]*Zone) error {
 
 	for _, svc := range x.Services {
 		domains := svc[0]
-
 		for _, domain := range domains {
+			// Convert IDNA ASCII to Unicode form
+			domain = Normalize(domain)
 			z, ok := zones[domain]
 			if !ok {
 				Trace("@{y}domain %s not found in zones map\n", domain)
