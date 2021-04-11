@@ -2,6 +2,9 @@
 	"domain": "zappos",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.zappos",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/zappos/"
+	],
 	"nameServers": [
 		"dns1.nic.zappos",
 		"dns2.nic.zappos",

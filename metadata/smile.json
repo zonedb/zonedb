@@ -2,6 +2,9 @@
 	"domain": "smile",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.smile",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/smile/"
+	],
 	"nameServers": [
 		"dns1.nic.smile",
 		"dns2.nic.smile",

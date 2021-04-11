@@ -1,6 +1,9 @@
 {
 	"domain": "дети",
 	"whoisServer": "whois.nic.дети",
+	"rdapURLs": [
+		"https://whois.nic.дети/rdap/"
+	],
 	"nameServers": [
 		"a.dns.ripn.net",
 		"b.dns.ripn.net",

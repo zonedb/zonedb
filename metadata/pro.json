@@ -2,6 +2,9 @@
 	"domain": "pro",
 	"infoURL": "https://registry.pro/",
 	"whoisServer": "whois.afilias.net",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/pro/"
+	],
 	"nameServers": [
 		"a0.pro.afilias-nst.info",
 		"a2.pro.afilias-nst.info",

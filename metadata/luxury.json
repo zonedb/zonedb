@@ -2,6 +2,9 @@
 	"domain": "luxury",
 	"infoURL": "https://nic.luxury/",
 	"whoisServer": "whois.nic.luxury",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/luxury/"
+	],
 	"nameServers": [
 		"a.nic.luxury",
 		"b.nic.luxury",

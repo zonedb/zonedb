@@ -2,6 +2,9 @@
 	"domain": "nba",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.nba",
+	"rdapURLs": [
+		"https://rdap.nic.nba/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.nba",
 		"ns2.dns.nic.nba",

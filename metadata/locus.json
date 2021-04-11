@@ -2,6 +2,9 @@
 	"domain": "locus",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.locus",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/locus/"
+	],
 	"nameServers": [
 		"dns1.nic.locus",
 		"dns2.nic.locus",

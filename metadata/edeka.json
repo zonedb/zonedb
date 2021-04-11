@@ -2,6 +2,9 @@
 	"domain": "edeka",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/edeka/"
+	],
 	"nameServers": [
 		"a0.nic.edeka",
 		"a2.nic.edeka",

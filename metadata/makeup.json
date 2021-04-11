@@ -2,6 +2,9 @@
 	"domain": "makeup",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.makeup",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/makeup/"
+	],
 	"nameServers": [
 		"a.nic.makeup",
 		"b.nic.makeup",

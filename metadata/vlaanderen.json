@@ -2,6 +2,9 @@
 	"domain": "vlaanderen",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.vlaanderen",
+	"rdapURLs": [
+		"https://rdap.nic.vlaanderen/"
+	],
 	"nameServers": [
 		"a.nsset.vlaanderen",
 		"b.nsset.vlaanderen",

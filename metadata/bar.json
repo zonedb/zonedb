@@ -1,6 +1,9 @@
 {
 	"domain": "bar",
 	"whoisServer": "whois.nic.bar",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/bar/"
+	],
 	"nameServers": [
 		"a.nic.bar",
 		"b.nic.bar",

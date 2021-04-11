@@ -2,6 +2,9 @@
 	"domain": "broadway",
 	"infoURL": "https://discover.broadway/",
 	"whoisServer": "whois.nic.broadway",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/broadway/"
+	],
 	"nameServers": [
 		"dns1.nic.broadway",
 		"dns2.nic.broadway",

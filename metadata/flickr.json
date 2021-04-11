@@ -2,6 +2,9 @@
 	"domain": "flickr",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.flickr",
+	"rdapURLs": [
+		"https://rdap.nic.flickr/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.flickr",
 		"ns2.dns.nic.flickr",

@@ -2,6 +2,9 @@
 	"domain": "work",
 	"infoURL": "http://nic.work/",
 	"whoisServer": "whois.nic.work",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/work/"
+	],
 	"nameServers": [
 		"dns1.nic.work",
 		"dns2.nic.work",

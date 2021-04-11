@@ -2,6 +2,9 @@
 	"domain": "mma",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.mma",
+	"rdapURLs": [
+		"https://rdap.nic.mma/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

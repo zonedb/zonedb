@@ -2,6 +2,9 @@
 	"domain": "aig",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.aig",
+	"rdapURLs": [
+		"https://rdap.nic.aig/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.aig",
 		"ns2.dns.nic.aig",

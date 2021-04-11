@@ -2,6 +2,9 @@
 	"domain": "vermögensberatung",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.vermögensberatung",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/xn--vermgensberatung-pwb/"
+	],
 	"nameServers": [
 		"a.nic.vermögensberatung",
 		"b.nic.vermögensberatung",

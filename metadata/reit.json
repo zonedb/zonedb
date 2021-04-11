@@ -2,6 +2,9 @@
 	"domain": "reit",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.reit",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/reit/"
+	],
 	"nameServers": [
 		"a.nic.reit",
 		"b.nic.reit",

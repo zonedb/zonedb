@@ -2,6 +2,9 @@
 	"domain": "free",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.free",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/free/"
+	],
 	"nameServers": [
 		"dns1.nic.free",
 		"dns2.nic.free",

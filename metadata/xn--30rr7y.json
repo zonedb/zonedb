@@ -2,6 +2,9 @@
 	"domain": "慈善",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.gtld.knet.cn",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/xn--30rr7y/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

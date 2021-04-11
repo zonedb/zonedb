@@ -2,6 +2,9 @@
 	"domain": "raid",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.raid",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/raid/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

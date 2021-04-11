@@ -2,6 +2,9 @@
 	"domain": "homes",
 	"infoURL": "https://nic.homes/",
 	"whoisServer": "whois.nic.homes",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/homes/"
+	],
 	"nameServers": [
 		"a.nic.homes",
 		"b.nic.homes",

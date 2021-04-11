@@ -2,6 +2,9 @@
 	"domain": "unicom",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.unicom",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/unicom/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

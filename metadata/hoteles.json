@@ -2,6 +2,9 @@
 	"domain": "hoteles",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.hoteles",
+	"rdapURLs": [
+		"https://rdap.nic.hoteles/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.hoteles",
 		"ns2.dns.nic.hoteles",

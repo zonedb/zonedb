@@ -2,6 +2,9 @@
 	"domain": "frontier",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.frontier",
+	"rdapURLs": [
+		"https://rdap.nic.frontier/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.frontier",
 		"ns2.dns.nic.frontier",

@@ -2,6 +2,9 @@
 	"domain": "yamaxun",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.yamaxun",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/yamaxun/"
+	],
 	"nameServers": [
 		"dns1.nic.yamaxun",
 		"dns2.nic.yamaxun",

@@ -2,6 +2,9 @@
 	"domain": "mango",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.mango",
+	"rdapURLs": [
+		"https://rdap.nic.mango/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

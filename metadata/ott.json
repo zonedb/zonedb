@@ -2,6 +2,9 @@
 	"domain": "ott",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ott",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/ott/"
+	],
 	"nameServers": [
 		"a0.nic.ott",
 		"a2.nic.ott",

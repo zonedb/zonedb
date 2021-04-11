@@ -1,6 +1,9 @@
 {
 	"domain": "بازار",
 	"whoisServer": "whois.nic.بازار",
+	"rdapURLs": [
+		"https://rdap.nic.بازار/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

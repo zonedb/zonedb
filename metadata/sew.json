@@ -2,6 +2,9 @@
 	"domain": "sew",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/sew/"
+	],
 	"nameServers": [
 		"a0.nic.sew",
 		"a2.nic.sew",

@@ -2,6 +2,9 @@
 	"domain": "cz",
 	"infoURL": "https://www.nic.cz/",
 	"whoisServer": "whois.nic.cz",
+	"rdapURLs": [
+		"https://rdap.nic.cz/"
+	],
 	"nameServers": [
 		"a.ns.nic.cz",
 		"b.ns.nic.cz",

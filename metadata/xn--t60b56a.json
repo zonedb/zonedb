@@ -2,6 +2,9 @@
 	"domain": "닷넷",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.닷넷",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/xn--t60b56a/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

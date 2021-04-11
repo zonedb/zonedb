@@ -2,6 +2,9 @@
 	"domain": "amsterdam",
 	"infoURL": "https://nic.amsterdam/",
 	"whoisServer": "whois.nic.amsterdam",
+	"rdapURLs": [
+		"https://rdap.nic.amsterdam/"
+	],
 	"nameServers": [
 		"ns1.nic.amsterdam",
 		"ns2.nic.amsterdam",

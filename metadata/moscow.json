@@ -2,6 +2,9 @@
 	"domain": "moscow",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.moscow",
+	"rdapURLs": [
+		"https://flexireg.net/moscow/rdap/"
+	],
 	"nameServers": [
 		"a.dns.flexireg.ru",
 		"b.dns.flexireg.net",

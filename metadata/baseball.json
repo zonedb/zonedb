@@ -2,6 +2,9 @@
 	"domain": "baseball",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.baseball",
+	"rdapURLs": [
+		"https://rdap.nic.baseball/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.baseball",
 		"ns2.dns.nic.baseball",

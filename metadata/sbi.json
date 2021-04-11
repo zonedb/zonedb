@@ -2,6 +2,9 @@
 	"domain": "sbi",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.sbi",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/sbi/"
+	],
 	"nameServers": [
 		"a0.nic.sbi",
 		"a2.nic.sbi",

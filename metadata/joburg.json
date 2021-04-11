@@ -1,6 +1,9 @@
 {
 	"domain": "joburg",
 	"whoisServer": "joburg-whois.registry.net.za",
+	"rdapURLs": [
+		"https://rdap.registry.net.za/rdap/"
+	],
 	"nameServers": [
 		"coza1.dnsnode.net",
 		"ns.coza.net.za",

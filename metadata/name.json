@@ -1,6 +1,9 @@
 {
 	"domain": "name",
 	"whoisServer": "whois.nic.name",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/name/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

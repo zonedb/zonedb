@@ -2,6 +2,9 @@
 	"domain": "deal",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.deal",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/deal/"
+	],
 	"nameServers": [
 		"dns1.nic.deal",
 		"dns2.nic.deal",

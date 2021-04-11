@@ -2,6 +2,9 @@
 	"domain": "mlb",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.mlb",
+	"rdapURLs": [
+		"https://rdap.nic.mlb/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.mlb",
 		"ns2.dns.nic.mlb",

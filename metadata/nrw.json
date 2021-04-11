@@ -2,6 +2,9 @@
 	"domain": "nrw",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.nrw",
+	"rdapURLs": [
+		"https://rdap.nic.nrw/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

@@ -2,6 +2,9 @@
 	"domain": "talk",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.talk",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/talk/"
+	],
 	"nameServers": [
 		"dns1.nic.talk",
 		"dns2.nic.talk",

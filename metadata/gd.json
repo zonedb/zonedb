@@ -1,6 +1,9 @@
 {
 	"domain": "gd",
 	"whoisServer": "whois.nic.gd",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/gd/"
+	],
 	"nameServers": [
 		"a.nic.gd",
 		"b.nic.gd",

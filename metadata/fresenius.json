@@ -2,6 +2,9 @@
 	"domain": "fresenius",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.fresenius",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/fresenius/"
+	],
 	"nameServers": [
 		"a.nic.fresenius",
 		"b.nic.fresenius",

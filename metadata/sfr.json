@@ -2,6 +2,9 @@
 	"domain": "sfr",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.sfr",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/sfr/"
+	],
 	"nameServers": [
 		"a.nic.sfr",
 		"b.nic.sfr",

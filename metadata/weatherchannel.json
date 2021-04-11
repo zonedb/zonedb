@@ -2,6 +2,9 @@
 	"domain": "weatherchannel",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.weatherchannel",
+	"rdapURLs": [
+		"https://rdap.nic.weatherchannel/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.weatherchannel",
 		"ns2.dns.nic.weatherchannel",

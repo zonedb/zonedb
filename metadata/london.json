@@ -2,6 +2,9 @@
 	"domain": "london",
 	"infoURL": "http://nic.london/",
 	"whoisServer": "whois.nic.london",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/london/"
+	],
 	"nameServers": [
 		"dns1.nic.london",
 		"dns2.nic.london",

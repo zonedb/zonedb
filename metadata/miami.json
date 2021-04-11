@@ -2,6 +2,9 @@
 	"domain": "miami",
 	"infoURL": "http://nic.miami/",
 	"whoisServer": "whois.nic.miami",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/miami/"
+	],
 	"nameServers": [
 		"dns1.nic.miami",
 		"dns2.nic.miami",

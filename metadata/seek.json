@@ -2,6 +2,9 @@
 	"domain": "seek",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.seek",
+	"rdapURLs": [
+		"https://rdap.nic.seek/"
+	],
 	"nameServers": [
 		"a.nic.seek",
 		"b.nic.seek",

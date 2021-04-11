@@ -2,6 +2,9 @@
 	"domain": "亚马逊",
 	"infoURL": "http://nic.亚马逊/",
 	"whoisServer": "whois.nic.亚马逊",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/xn--jlq480n2rg/"
+	],
 	"nameServers": [
 		"dns1.nic.亚马逊",
 		"dns2.nic.亚马逊",

@@ -2,6 +2,9 @@
 	"domain": "amazon",
 	"infoURL": "http://nic.amazon/",
 	"whoisServer": "whois.nic.amazon",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/amazon/"
+	],
 	"nameServers": [
 		"dns1.nic.amazon",
 		"dns2.nic.amazon",

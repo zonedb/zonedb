@@ -2,6 +2,9 @@
 	"domain": "lilly",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lilly",
+	"rdapURLs": [
+		"https://rdap.nic.lilly/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.lilly",
 		"ns2.dns.nic.lilly",

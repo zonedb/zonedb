@@ -2,6 +2,9 @@
 	"domain": "kinder",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.kinder",
+	"rdapURLs": [
+		"https://rdap.nic.kinder/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.kinder",
 		"ns2.dns.nic.kinder",

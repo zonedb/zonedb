@@ -2,6 +2,9 @@
 	"domain": "beauty",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.beauty",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/beauty/"
+	],
 	"nameServers": [
 		"a.nic.beauty",
 		"b.nic.beauty",

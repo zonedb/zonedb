@@ -2,6 +2,9 @@
 	"domain": "download",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.download",
+	"rdapURLs": [
+		"https://rdap.nic.download/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.download",
 		"ns2.dns.nic.download",

@@ -2,6 +2,9 @@
 	"domain": "飞利浦",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.飞利浦",
+	"rdapURLs": [
+		"https://rdap.nic.飞利浦/"
+	],
 	"nameServers": [
 		"a.nic.飞利浦",
 		"b.nic.飞利浦",

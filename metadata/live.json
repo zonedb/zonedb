@@ -2,6 +2,9 @@
 	"domain": "live",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.live",
+	"rdapURLs": [
+		"https://rdap.donuts.co/rdap/"
+	],
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

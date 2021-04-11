@@ -2,6 +2,9 @@
 	"domain": "got",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.got",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/got/"
+	],
 	"nameServers": [
 		"dns1.nic.got",
 		"dns2.nic.got",

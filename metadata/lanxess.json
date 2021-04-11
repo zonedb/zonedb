@@ -2,6 +2,9 @@
 	"domain": "lanxess",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lanxess",
+	"rdapURLs": [
+		"https://rdap.nic.lanxess/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.lanxess",
 		"ns2.dns.nic.lanxess",

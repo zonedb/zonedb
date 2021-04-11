@@ -2,6 +2,9 @@
 	"domain": "dell",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.dell",
+	"rdapURLs": [
+		"https://rdap.nic.dell/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.dell",
 		"ns2.dns.nic.dell",

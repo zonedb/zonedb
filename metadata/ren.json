@@ -2,6 +2,9 @@
 	"domain": "ren",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ren",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/ren/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

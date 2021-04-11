@@ -2,6 +2,9 @@
 	"domain": "政府",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.政府",
+	"rdapURLs": [
+		"https://rdap.twnic.tw/rdap/"
+	],
 	"nameServers": [
 		"a.nic.政府",
 		"b.nic.政府",

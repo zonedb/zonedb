@@ -2,6 +2,9 @@
 	"domain": "med",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.med",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/med/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

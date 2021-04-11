@@ -2,6 +2,9 @@
 	"domain": "mls",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.mls",
+	"rdapURLs": [
+		"https://rdap.mls.fury.ca/rdap/"
+	],
 	"nameServers": [
 		"a.ns.nic.mls",
 		"b.ns.nic.mls"

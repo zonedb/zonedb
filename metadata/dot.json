@@ -2,6 +2,9 @@
 	"domain": "dot",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.dot",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/dot/"
+	],
 	"nameServers": [
 		"a0.nic.dot",
 		"a2.nic.dot",

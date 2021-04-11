@@ -2,6 +2,9 @@
 	"domain": "marshalls",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.marshalls",
+	"rdapURLs": [
+		"https://rdap.nic.marshalls/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.marshalls",
 		"ns2.dns.nic.marshalls",

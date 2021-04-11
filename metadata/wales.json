@@ -2,6 +2,9 @@
 	"domain": "wales",
 	"infoURL": "https://ourhomeonline.wales/",
 	"whoisServer": "whois.nic.wales",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/wales/"
+	],
 	"nameServers": [
 		"dns1.nic.wales",
 		"dns2.nic.wales",

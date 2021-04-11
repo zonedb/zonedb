@@ -2,6 +2,9 @@
 	"domain": "info",
 	"infoURL": "https://info.info/",
 	"whoisServer": "whois.afilias.net",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/info/"
+	],
 	"nameServers": [
 		"a0.info.afilias-nst.info",
 		"a2.info.afilias-nst.info",

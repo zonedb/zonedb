@@ -2,6 +2,9 @@
 	"domain": "homegoods",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.homegoods",
+	"rdapURLs": [
+		"https://rdap.nic.homegoods/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.homegoods",
 		"ns2.dns.nic.homegoods",

@@ -2,6 +2,9 @@
 	"domain": "aquarelle",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.aquarelle",
+	"rdapURLs": [
+		"https://rdap.nic.aquarelle/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

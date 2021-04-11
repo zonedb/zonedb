@@ -2,6 +2,9 @@
 	"domain": "ltda",
 	"infoURL": "https://nic.ltda/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/ltda/"
+	],
 	"nameServers": [
 		"a0.nic.ltda",
 		"a2.nic.ltda",

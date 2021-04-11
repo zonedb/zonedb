@@ -2,6 +2,9 @@
 	"domain": "cfd",
 	"infoURL": "https://bostonivy.co/",
 	"whoisServer": "whois.nic.cfd",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/cfd/"
+	],
 	"nameServers": [
 		"a.nic.cfd",
 		"b.nic.cfd",

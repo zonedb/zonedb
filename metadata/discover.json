@@ -2,6 +2,9 @@
 	"domain": "discover",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.discover",
+	"rdapURLs": [
+		"https://rdap.nic.discover/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.discover",
 		"ns2.dns.nic.discover",

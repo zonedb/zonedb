@@ -2,6 +2,9 @@
 	"domain": "citadel",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.citadel",
+	"rdapURLs": [
+		"https://rdap.nic.citadel/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.citadel",
 		"ns2.dns.nic.citadel",

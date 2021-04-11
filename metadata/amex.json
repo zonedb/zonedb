@@ -2,6 +2,9 @@
 	"domain": "amex",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.amex",
+	"rdapURLs": [
+		"https://rdap.nic.amex/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.amex",
 		"ns2.dns.nic.amex",

@@ -2,6 +2,9 @@
 	"domain": "barcelona",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.barcelona",
+	"rdapURLs": [
+		"https://rdap.nic.barcelona/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

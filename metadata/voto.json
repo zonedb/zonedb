@@ -2,6 +2,9 @@
 	"domain": "voto",
 	"infoURL": "https://get.voto/",
 	"whoisServer": "whois.afilias.net",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/voto/"
+	],
 	"nameServers": [
 		"a0.nic.voto",
 		"a2.nic.voto",

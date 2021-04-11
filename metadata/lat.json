@@ -2,6 +2,9 @@
 	"domain": "lat",
 	"infoURL": "https://www.nic.lat/en/",
 	"whoisServer": "whois.nic.lat",
+	"rdapURLs": [
+		"https://rdap.nic.lat/"
+	],
 	"nameServers": [
 		"c.mx-ns.mx",
 		"e.mx-ns.mx",

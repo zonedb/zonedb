@@ -2,6 +2,9 @@
 	"domain": "wed",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.wed",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/wed/"
+	],
 	"nameServers": [
 		"dns1.emdns.uk",
 		"dns2.emdns.uk",

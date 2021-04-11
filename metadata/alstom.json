@@ -2,6 +2,9 @@
 	"domain": "alstom",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.alstom",
+	"rdapURLs": [
+		"https://rdap.nic.alstom/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

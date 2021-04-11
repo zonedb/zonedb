@@ -2,6 +2,9 @@
 	"domain": "airtel",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.airtel",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/airtel/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

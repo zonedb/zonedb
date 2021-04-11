@@ -2,6 +2,9 @@
 	"domain": "office",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.office",
+	"rdapURLs": [
+		"https://rdap.nic.office/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.office",
 		"ns2.dns.nic.office",

@@ -2,6 +2,9 @@
 	"domain": "ferrero",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ferrero",
+	"rdapURLs": [
+		"https://rdap.nic.ferrero/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.ferrero",
 		"ns2.dns.nic.ferrero",

@@ -2,6 +2,9 @@
 	"domain": "香格里拉",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.香格里拉",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/xn--5su34j936bgsg/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

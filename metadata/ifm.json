@@ -2,6 +2,9 @@
 	"domain": "ifm",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ifm",
+	"rdapURLs": [
+		"https://rdap.nic.ifm/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

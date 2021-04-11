@@ -2,6 +2,9 @@
 	"domain": "id",
 	"infoURL": "https://pandi.id/",
 	"whoisServer": "whois.id",
+	"rdapURLs": [
+		"https://rdap.pandi.id/rdap/"
+	],
 	"nameServers": [
 		"b.dns.id",
 		"c.dns.id",

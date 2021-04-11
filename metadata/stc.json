@@ -2,6 +2,9 @@
 	"domain": "stc",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.stc",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/stc/"
+	],
 	"nameServers": [
 		"a.nic.stc",
 		"b.nic.stc",

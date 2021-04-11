@@ -2,6 +2,9 @@
 	"domain": "chintai",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.chintai",
+	"rdapURLs": [
+		"https://rdap.nic.chintai/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.chintai",
 		"ns2.dns.nic.chintai",

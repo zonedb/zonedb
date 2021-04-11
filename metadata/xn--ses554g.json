@@ -2,6 +2,9 @@
 	"domain": "网址",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.网址",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/xn--ses554g/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

@@ -2,6 +2,9 @@
 	"domain": "com",
 	"infoURL": "https://www.verisign.com/en_US/domain-names/com-domain-names/index.xhtml",
 	"whoisServer": "whois.verisign-grs.com",
+	"rdapURLs": [
+		"https://rdap.verisign.com/com/v1/"
+	],
 	"nameServers": [
 		"a.gtld-servers.net",
 		"b.gtld-servers.net",

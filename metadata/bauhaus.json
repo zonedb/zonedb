@@ -2,6 +2,9 @@
 	"domain": "bauhaus",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bauhaus",
+	"rdapURLs": [
+		"https://rdap.nic.bauhaus/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

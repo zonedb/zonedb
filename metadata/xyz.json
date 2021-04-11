@@ -1,6 +1,9 @@
 {
 	"domain": "xyz",
 	"whoisServer": "whois.nic.xyz",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/xyz/"
+	],
 	"nameServers": [
 		"generationxyz.nic.xyz",
 		"x.nic.xyz",

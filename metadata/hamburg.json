@@ -1,6 +1,9 @@
 {
 	"domain": "hamburg",
 	"whoisServer": "whois.nic.hamburg",
+	"rdapURLs": [
+		"https://rdap.nic.hamburg/v1/"
+	],
 	"nameServers": [
 		"a.dns.nic.hamburg",
 		"m.dns.nic.hamburg",

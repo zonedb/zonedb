@@ -2,6 +2,9 @@
 	"domain": "woodside",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.woodside",
+	"rdapURLs": [
+		"https://rdap.nic.woodside/"
+	],
 	"nameServers": [
 		"a.nic.woodside",
 		"b.nic.woodside",

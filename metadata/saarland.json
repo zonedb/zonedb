@@ -1,6 +1,9 @@
 {
 	"domain": "saarland",
 	"whoisServer": "whois.nic.saarland",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/saarland/"
+	],
 	"nameServers": [
 		"a.nic.saarland",
 		"b.nic.saarland",

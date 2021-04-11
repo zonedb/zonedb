@@ -1,6 +1,9 @@
 {
 	"domain": "ceo",
 	"whoisServer": "whois.nic.ceo",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/ceo/"
+	],
 	"nameServers": [
 		"a.nic.ceo",
 		"b.nic.ceo",

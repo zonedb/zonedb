@@ -2,6 +2,9 @@
 	"domain": "bible",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bible",
+	"rdapURLs": [
+		"https://rdap.nic.bible/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.bible",
 		"ns2.dns.nic.bible",

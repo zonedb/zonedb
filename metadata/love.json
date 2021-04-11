@@ -2,6 +2,9 @@
 	"domain": "love",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.love",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/love/"
+	],
 	"nameServers": [
 		"a.nic.love",
 		"b.nic.love",

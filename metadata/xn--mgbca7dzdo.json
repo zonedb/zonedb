@@ -2,6 +2,9 @@
 	"domain": "ابوظبي",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ابوظبي",
+	"rdapURLs": [
+		"https://rdap.nic.ابوظبي/"
+	],
 	"nameServers": [
 		"gtld.alpha.aridns.net.au",
 		"gtld.beta.aridns.net.au",

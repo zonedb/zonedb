@@ -1,6 +1,9 @@
 {
 	"domain": "works",
 	"whoisServer": "whois.nic.works",
+	"rdapURLs": [
+		"https://rdap.donuts.co/rdap/"
+	],
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

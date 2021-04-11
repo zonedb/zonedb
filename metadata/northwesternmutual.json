@@ -2,6 +2,9 @@
 	"domain": "northwesternmutual",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.northwesternmutual",
+	"rdapURLs": [
+		"https://rdap.nic.northwesternmutual/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.northwesternmutual",
 		"ns2.dns.nic.northwesternmutual",

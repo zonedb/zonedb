@@ -2,6 +2,9 @@
 	"domain": "coop",
 	"infoURL": "https://identity.coop/",
 	"whoisServer": "whois.nic.coop",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/coop/"
+	],
 	"nameServers": [
 		"a.nic.coop",
 		"b.nic.coop",

@@ -2,6 +2,9 @@
 	"domain": "faith",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.faith",
+	"rdapURLs": [
+		"https://rdap.nic.faith/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.faith",
 		"ns2.dns.nic.faith",

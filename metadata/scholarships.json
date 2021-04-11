@@ -2,6 +2,9 @@
 	"domain": "scholarships",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.scholarships",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/scholarships/"
+	],
 	"nameServers": [
 		"a0.nic.scholarships",
 		"a2.nic.scholarships",

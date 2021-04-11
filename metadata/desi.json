@@ -1,6 +1,9 @@
 {
 	"domain": "desi",
 	"whoisServer": "whois.nic.desi",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/desi/"
+	],
 	"nameServers": [
 		"a.nic.desi",
 		"b.nic.desi",

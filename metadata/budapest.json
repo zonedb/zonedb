@@ -2,6 +2,9 @@
 	"domain": "budapest",
 	"infoURL": "http://nic.budapest/",
 	"whoisServer": "whois.nic.budapest",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/budapest/"
+	],
 	"nameServers": [
 		"dns1.nic.budapest",
 		"dns2.nic.budapest",

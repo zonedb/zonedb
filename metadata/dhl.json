@@ -1,6 +1,9 @@
 {
 	"domain": "dhl",
 	"infoURL": "https://newgtlds.icann.org/",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/dhl/"
+	],
 	"nameServers": [
 		"a.nic.dhl",
 		"b.nic.dhl",

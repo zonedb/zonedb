@@ -2,6 +2,9 @@
 	"domain": "mtr",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.mtr",
+	"rdapURLs": [
+		"https://whois.nic.mtr/rdap/"
+	],
 	"nameServers": [
 		"ns1.nic.mtr",
 		"ns2.nic.mtr",

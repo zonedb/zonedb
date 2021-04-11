@@ -2,6 +2,9 @@
 	"domain": "tmall",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tmall",
+	"rdapURLs": [
+		"https://rdap.nic.tmall/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.tmall",
 		"ns2.dns.nic.tmall",

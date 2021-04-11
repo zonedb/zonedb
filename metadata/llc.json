@@ -2,6 +2,9 @@
 	"domain": "llc",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.llc",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/llc/"
+	],
 	"nameServers": [
 		"a0.nic.llc",
 		"a2.nic.llc",

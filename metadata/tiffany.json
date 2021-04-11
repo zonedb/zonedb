@@ -2,6 +2,9 @@
 	"domain": "tiffany",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tiffany",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/tiffany/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

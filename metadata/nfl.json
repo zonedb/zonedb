@@ -2,6 +2,9 @@
 	"domain": "nfl",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.nfl",
+	"rdapURLs": [
+		"https://rdap.nic.nfl/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.nfl",
 		"ns2.dns.nic.nfl",

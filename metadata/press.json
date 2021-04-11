@@ -1,6 +1,9 @@
 {
 	"domain": "press",
 	"whoisServer": "whois.nic.press",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/press/"
+	],
 	"nameServers": [
 		"a.nic.press",
 		"b.nic.press",

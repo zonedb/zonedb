@@ -1,6 +1,9 @@
 {
 	"domain": "tools",
 	"whoisServer": "whois.nic.tools",
+	"rdapURLs": [
+		"https://rdap.donuts.co/rdap/"
+	],
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

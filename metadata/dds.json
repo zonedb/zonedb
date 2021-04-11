@@ -2,6 +2,9 @@
 	"domain": "dds",
 	"infoURL": "http://nic.dds/",
 	"whoisServer": "whois.nic.dds",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/dds/"
+	],
 	"nameServers": [
 		"dns1.nic.dds",
 		"dns2.nic.dds",

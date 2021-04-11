@@ -2,6 +2,9 @@
 	"domain": "org",
 	"infoURL": "https://pir.org/products/org-domain/",
 	"whoisServer": "whois.pir.org",
+	"rdapURLs": [
+		"https://rdap.publicinterestregistry.net/rdap/org/"
+	],
 	"nameServers": [
 		"a0.org.afilias-nst.info",
 		"a2.org.afilias-nst.info",

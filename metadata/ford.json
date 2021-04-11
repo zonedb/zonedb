@@ -2,6 +2,9 @@
 	"domain": "ford",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ford",
+	"rdapURLs": [
+		"https://rdap.nic.ford/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.ford",
 		"ns2.dns.nic.ford",

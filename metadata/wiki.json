@@ -1,6 +1,9 @@
 {
 	"domain": "wiki",
 	"whoisServer": "whois.nic.wiki",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/wiki/"
+	],
 	"nameServers": [
 		"a.nic.wiki",
 		"b.nic.wiki",

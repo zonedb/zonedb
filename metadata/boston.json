@@ -2,6 +2,9 @@
 	"domain": "boston",
 	"infoURL": "http://nic.boston/",
 	"whoisServer": "whois.nic.boston",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/boston/"
+	],
 	"nameServers": [
 		"dns1.nic.boston",
 		"dns2.nic.boston",

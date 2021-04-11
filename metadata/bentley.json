@@ -2,6 +2,9 @@
 	"domain": "bentley",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bentley",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/bentley/"
+	],
 	"nameServers": [
 		"dns1.nic.bentley",
 		"dns2.nic.bentley",

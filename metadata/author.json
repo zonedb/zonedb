@@ -2,6 +2,9 @@
 	"domain": "author",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.author",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/author/"
+	],
 	"nameServers": [
 		"dns1.nic.author",
 		"dns2.nic.author",

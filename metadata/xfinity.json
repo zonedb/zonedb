@@ -2,6 +2,9 @@
 	"domain": "xfinity",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.xfinity",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/xfinity/"
+	],
 	"nameServers": [
 		"dns1.nic.xfinity",
 		"dns2.nic.xfinity",

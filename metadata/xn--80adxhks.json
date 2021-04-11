@@ -1,6 +1,9 @@
 {
 	"domain": "москва",
 	"whoisServer": "whois.nic.москва",
+	"rdapURLs": [
+		"https://flexireg.net/xn--80adxhks/rdap/"
+	],
 	"nameServers": [
 		"a.dns.flexireg.ru",
 		"b.dns.flexireg.net",

@@ -1,6 +1,9 @@
 {
 	"domain": "koeln",
 	"whoisServer": "whois.ryce-rsp.com",
+	"rdapURLs": [
+		"https://rdap.ryce-rsp.com/rdap/"
+	],
 	"nameServers": [
 		"dns.ryce-rsp.com",
 		"ns1.dns.business",

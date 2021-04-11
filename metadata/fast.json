@@ -2,6 +2,9 @@
 	"domain": "fast",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.fast",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/fast/"
+	],
 	"nameServers": [
 		"dns1.nic.fast",
 		"dns2.nic.fast",

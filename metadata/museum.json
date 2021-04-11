@@ -2,6 +2,9 @@
 	"domain": "museum",
 	"infoURL": "https://welcome.museum/",
 	"whoisServer": "whois.nic.museum",
+	"rdapURLs": [
+		"https://rdap.nic.museum/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

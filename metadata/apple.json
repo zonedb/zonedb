@@ -2,6 +2,9 @@
 	"domain": "apple",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/apple/"
+	],
 	"nameServers": [
 		"a0.nic.apple",
 		"a2.nic.apple",

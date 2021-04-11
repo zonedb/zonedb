@@ -1,6 +1,9 @@
 {
 	"domain": "yokohama",
 	"whoisServer": "whois.nic.yokohama",
+	"rdapURLs": [
+		"https://rdap.gmoregistry.net/rdap/"
+	],
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",

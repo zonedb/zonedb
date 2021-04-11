@@ -2,6 +2,9 @@
 	"domain": "天主教",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.天主教",
+	"rdapURLs": [
+		"https://rdap.nic.天主教/"
+	],
 	"nameServers": [
 		"a.nic.天主教",
 		"b.nic.天主教",

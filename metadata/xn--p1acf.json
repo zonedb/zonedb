@@ -2,6 +2,9 @@
 	"domain": "рус",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.рус",
+	"rdapURLs": [
+		"https://api.rdap.nic.рус/"
+	],
 	"nameServers": [
 		"ns1.anycastdns.cz",
 		"ns1.nic.рус",

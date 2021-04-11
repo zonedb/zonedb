@@ -2,6 +2,9 @@
 	"domain": "sport",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.sport",
+	"rdapURLs": [
+		"https://rdap.nic.sport/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

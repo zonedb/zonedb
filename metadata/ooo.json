@@ -1,6 +1,9 @@
 {
 	"domain": "ooo",
 	"whoisServer": "whois.nic.ooo",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/ooo/"
+	],
 	"nameServers": [
 		"a.nic.ooo",
 		"b.nic.ooo",

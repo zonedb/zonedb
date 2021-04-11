@@ -2,6 +2,9 @@
 	"domain": "basketball",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.basketball",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/basketball/"
+	],
 	"nameServers": [
 		"a.nic.basketball",
 		"b.nic.basketball",

@@ -2,6 +2,9 @@
 	"domain": "deloitte",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.deloitte",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/deloitte/"
+	],
 	"nameServers": [
 		"a.nic.deloitte",
 		"b.nic.deloitte",

@@ -2,6 +2,9 @@
 	"domain": "lundbeck",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lundbeck",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/lundbeck/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

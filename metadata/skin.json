@@ -2,6 +2,9 @@
 	"domain": "skin",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.skin",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/skin/"
+	],
 	"nameServers": [
 		"a.nic.skin",
 		"b.nic.skin",

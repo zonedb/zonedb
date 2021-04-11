@@ -2,6 +2,9 @@
 	"domain": "jnj",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.jnj",
+	"rdapURLs": [
+		"https://rdap.nic.jnj/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.jnj",
 		"ns2.dns.nic.jnj",

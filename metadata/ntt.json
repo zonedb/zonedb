@@ -1,6 +1,9 @@
 {
 	"domain": "ntt",
 	"infoURL": "https://newgtlds.icann.org/",
+	"rdapURLs": [
+		"https://rdap.nic.ntt/rdap/"
+	],
 	"nameServers": [
 		"tld1.nic.ntt",
 		"tld2.nic.ntt",

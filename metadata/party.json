@@ -2,6 +2,9 @@
 	"domain": "party",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.party",
+	"rdapURLs": [
+		"https://rdap.nic.party/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.party",
 		"ns2.dns.nic.party",

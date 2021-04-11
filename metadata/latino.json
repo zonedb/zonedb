@@ -2,6 +2,9 @@
 	"domain": "latino",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.latino",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/latino/"
+	],
 	"nameServers": [
 		"a0.nic.latino",
 		"a2.nic.latino",

@@ -2,6 +2,9 @@
 	"domain": "cyou",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.cyou",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/cyou/"
+	],
 	"nameServers": [
 		"a.nic.cyou",
 		"b.nic.cyou",

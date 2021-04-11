@@ -2,6 +2,9 @@
 	"domain": "hbo",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.hbo",
+	"rdapURLs": [
+		"https://rdap.nic.hbo/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.hbo",
 		"ns2.dns.nic.hbo",

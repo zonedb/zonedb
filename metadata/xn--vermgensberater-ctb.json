@@ -2,6 +2,9 @@
 	"domain": "vermögensberater",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.vermögensberater",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/xn--vermgensberater-ctb/"
+	],
 	"nameServers": [
 		"a.nic.vermögensberater",
 		"b.nic.vermögensberater",

@@ -2,6 +2,9 @@
 	"domain": "bzh",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bzh",
+	"rdapURLs": [
+		"https://rdap.nic.bzh/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

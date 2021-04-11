@@ -2,6 +2,9 @@
 	"domain": "nowtv",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.nowtv",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/nowtv/"
+	],
 	"nameServers": [
 		"a0.nic.nowtv",
 		"a2.nic.nowtv",

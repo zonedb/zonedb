@@ -2,6 +2,9 @@
 	"domain": "rodeo",
 	"infoURL": "http://nic.rodeo/",
 	"whoisServer": "whois.nic.rodeo",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/rodeo/"
+	],
 	"nameServers": [
 		"dns1.nic.rodeo",
 		"dns2.nic.rodeo",

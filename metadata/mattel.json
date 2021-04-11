@@ -2,6 +2,9 @@
 	"domain": "mattel",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.mattel",
+	"rdapURLs": [
+		"https://rdap.nic.mattel/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.mattel",
 		"ns2.dns.nic.mattel",

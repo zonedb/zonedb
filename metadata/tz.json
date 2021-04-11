@@ -1,6 +1,9 @@
 {
 	"domain": "tz",
 	"whoisServer": "whois.tznic.or.tz",
+	"rdapURLs": [
+		"https://whois.tznic.or.tz/rdap/"
+	],
 	"nameServers": [
 		"d.ext.nic.cz",
 		"fork.sth.dnsnode.net",

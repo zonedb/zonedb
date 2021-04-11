@@ -2,6 +2,9 @@
 	"domain": "gop",
 	"infoURL": "https://www.join.gop/",
 	"whoisServer": "whois.nic.gop",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/gop/"
+	],
 	"nameServers": [
 		"dns1.nic.gop",
 		"dns2.nic.gop",

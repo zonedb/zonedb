@@ -2,6 +2,9 @@
 	"domain": "secure",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.secure",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/secure/"
+	],
 	"nameServers": [
 		"dns1.nic.secure",
 		"dns2.nic.secure",

@@ -2,6 +2,9 @@
 	"domain": "win",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.win",
+	"rdapURLs": [
+		"https://rdap.nic.win/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.win",
 		"ns2.dns.nic.win",

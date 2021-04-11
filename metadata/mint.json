@@ -2,6 +2,9 @@
 	"domain": "mint",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.mint",
+	"rdapURLs": [
+		"https://rdap.nic.mint/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.mint",
 		"ns2.dns.nic.mint",

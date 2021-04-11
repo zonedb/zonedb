@@ -2,6 +2,9 @@
 	"domain": "cancerresearch",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.cancerresearch",
+	"rdapURLs": [
+		"https://rdap.nic.cancerresearch/"
+	],
 	"nameServers": [
 		"a.nic.cancerresearch",
 		"b.nic.cancerresearch",

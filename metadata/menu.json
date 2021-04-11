@@ -1,6 +1,9 @@
 {
 	"domain": "menu",
 	"whoisServer": "whois.nic.menu",
+	"rdapURLs": [
+		"https://rdap.nic.menu/"
+	],
 	"nameServers": [
 		"a.nic.menu",
 		"b.nic.menu",

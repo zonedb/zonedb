@@ -2,6 +2,9 @@
 	"domain": "삼성",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.kr",
+	"rdapURLs": [
+		"https://nic.samsung:8443/rdap/"
+	],
 	"nameServers": [
 		"ns1.삼성.centralnic-dns.com",
 		"ns2.삼성.centralnic-dns.com",

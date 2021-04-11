@@ -2,6 +2,9 @@
 	"domain": "hyatt",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.hyatt",
+	"rdapURLs": [
+		"https://rdap.nic.hyatt/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.hyatt",
 		"ns2.dns.nic.hyatt",

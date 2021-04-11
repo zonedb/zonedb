@@ -2,6 +2,9 @@
 	"domain": "abbvie",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/abbvie/"
+	],
 	"nameServers": [
 		"a0.nic.abbvie",
 		"a2.nic.abbvie",

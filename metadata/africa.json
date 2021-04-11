@@ -2,6 +2,9 @@
 	"domain": "africa",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "africa-whois.registry.net.za",
+	"rdapURLs": [
+		"https://rdap.registry.net.za/rdap/"
+	],
 	"nameServers": [
 		"coza1.dnsnode.net",
 		"ns.coza.net.za",

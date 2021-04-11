@@ -2,6 +2,9 @@
 	"domain": "madrid",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.madrid",
+	"rdapURLs": [
+		"https://rdap.nic.madrid/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

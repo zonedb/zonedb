@@ -2,6 +2,9 @@
 	"domain": "politie",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.politie",
+	"rdapURLs": [
+		"https://rdap.nic.politie/"
+	],
 	"nameServers": [
 		"ns1.nic.politie",
 		"ns2.nic.politie",

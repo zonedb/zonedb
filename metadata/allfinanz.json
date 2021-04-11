@@ -2,6 +2,9 @@
 	"domain": "allfinanz",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.allfinanz",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/allfinanz/"
+	],
 	"nameServers": [
 		"a.nic.allfinanz",
 		"b.nic.allfinanz",

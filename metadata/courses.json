@@ -2,6 +2,9 @@
 	"domain": "courses",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.courses",
+	"rdapURLs": [
+		"https://rdap.nic.courses/"
+	],
 	"nameServers": [
 		"a.nic.courses",
 		"b.nic.courses",

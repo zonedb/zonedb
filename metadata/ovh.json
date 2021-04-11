@@ -1,6 +1,9 @@
 {
 	"domain": "ovh",
 	"whoisServer": "whois-ovh.nic.fr",
+	"rdapURLs": [
+		"https://rdap.nic.ovh/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

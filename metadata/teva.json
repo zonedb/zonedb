@@ -2,6 +2,9 @@
 	"domain": "teva",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.teva",
+	"rdapURLs": [
+		"https://rdap.nic.teva/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.teva",
 		"ns2.dns.nic.teva",

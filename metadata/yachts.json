@@ -2,6 +2,9 @@
 	"domain": "yachts",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.yachts",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/yachts/"
+	],
 	"nameServers": [
 		"a.nic.yachts",
 		"b.nic.yachts",

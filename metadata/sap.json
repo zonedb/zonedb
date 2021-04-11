@@ -2,6 +2,9 @@
 	"domain": "sap",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.sap",
+	"rdapURLs": [
+		"https://rdap.nic.sap/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

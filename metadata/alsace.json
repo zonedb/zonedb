@@ -2,6 +2,9 @@
 	"domain": "alsace",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois-alsace.nic.fr",
+	"rdapURLs": [
+		"https://rdap.nic.alsace/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

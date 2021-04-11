@@ -1,6 +1,9 @@
 {
 	"domain": "商城",
 	"whoisServer": "whois.gtld.knet.cn",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/xn--czru2d/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

@@ -2,6 +2,9 @@
 	"domain": "bradesco",
 	"infoURL": "http://nic.bradesco/",
 	"whoisServer": "whois.nic.bradesco",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/bradesco/"
+	],
 	"nameServers": [
 		"dns1.nic.bradesco",
 		"dns2.nic.bradesco",

@@ -2,6 +2,9 @@
 	"domain": "earth",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.earth",
+	"rdapURLs": [
+		"https://rdap.nic.earth/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.earth",
 		"ns2.dns.nic.earth",

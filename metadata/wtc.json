@@ -2,6 +2,9 @@
 	"domain": "wtc",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.wtc",
+	"rdapURLs": [
+		"https://rdap.nic.wtc/"
+	],
 	"nameServers": [
 		"a.nic.wtc",
 		"b.nic.wtc",

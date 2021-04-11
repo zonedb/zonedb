@@ -1,6 +1,9 @@
 {
 	"domain": "limo",
 	"whoisServer": "whois.nic.limo",
+	"rdapURLs": [
+		"https://rdap.donuts.co/rdap/"
+	],
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
 		"demand.beta.aridns.net.au",

@@ -2,6 +2,9 @@
 	"domain": "ismaili",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/ismaili/"
+	],
 	"nameServers": [
 		"a0.nic.ismaili",
 		"a2.nic.ismaili",

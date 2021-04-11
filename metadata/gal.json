@@ -1,6 +1,9 @@
 {
 	"domain": "gal",
 	"whoisServer": "whois.nic.gal",
+	"rdapURLs": [
+		"https://rdap.nic.gal/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

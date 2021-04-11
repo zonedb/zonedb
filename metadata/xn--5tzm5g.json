@@ -2,6 +2,9 @@
 	"domain": "网站",
 	"infoURL": "https://nic.网站/",
 	"whoisServer": "whois.nic.网站",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/xn--5tzm5g/"
+	],
 	"nameServers": [
 		"a0.nic.网站",
 		"a2.nic.网站",

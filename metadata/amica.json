@@ -2,6 +2,9 @@
 	"domain": "amica",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.amica",
+	"rdapURLs": [
+		"https://rdap.nic.amica/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.amica",
 		"ns2.dns.nic.amica",

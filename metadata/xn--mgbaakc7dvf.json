@@ -2,6 +2,9 @@
 	"domain": "اتصالات",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.centralnic.com",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/xn--mgbaakc7dvf/"
+	],
 	"nameServers": [
 		"a.nic.اتصالات",
 		"b.nic.اتصالات",

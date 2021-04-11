@@ -2,6 +2,9 @@
 	"domain": "foodnetwork",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.foodnetwork",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/foodnetwork/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

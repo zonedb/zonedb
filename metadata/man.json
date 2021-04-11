@@ -2,6 +2,9 @@
 	"domain": "man",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.man",
+	"rdapURLs": [
+		"https://rdap.nic.man/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

@@ -2,6 +2,9 @@
 	"domain": "大拿",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.大拿",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/xn--pssy2u/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

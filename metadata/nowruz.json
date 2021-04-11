@@ -2,6 +2,9 @@
 	"domain": "nowruz",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.nowruz",
+	"rdapURLs": [
+		"https://api.rdap.agitsys.net/"
+	],
 	"nameServers": [
 		"a.ns.nic.nowruz",
 		"b.ns.nic.nowruz",

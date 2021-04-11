@@ -2,6 +2,9 @@
 	"domain": "flir",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.flir",
+	"rdapURLs": [
+		"https://rdap.nic.flir/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.flir",
 		"ns2.dns.nic.flir",

@@ -2,6 +2,9 @@
 	"domain": "fage",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/fage/"
+	],
 	"nameServers": [
 		"a0.nic.fage",
 		"a2.nic.fage",

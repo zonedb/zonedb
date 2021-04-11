@@ -2,6 +2,9 @@
 	"domain": "book",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.book",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/book/"
+	],
 	"nameServers": [
 		"dns1.nic.book",
 		"dns2.nic.book",

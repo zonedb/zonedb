@@ -1,6 +1,9 @@
 {
 	"domain": "ink",
 	"whoisServer": "whois.nic.ink",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/ink/"
+	],
 	"nameServers": [
 		"a.nic.ink",
 		"b.nic.ink",

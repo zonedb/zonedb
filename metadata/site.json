@@ -2,6 +2,9 @@
 	"domain": "site",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.site",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/site/"
+	],
 	"nameServers": [
 		"a.nic.site",
 		"b.nic.site",

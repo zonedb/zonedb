@@ -2,6 +2,9 @@
 	"domain": "微博",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.微博",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/xn--9krt00a/"
+	],
 	"nameServers": [
 		"a0.nic.微博",
 		"a2.nic.微博",

@@ -2,6 +2,9 @@
 	"domain": "safety",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.safety",
+	"rdapURLs": [
+		"https://rdap.nic.safety/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.safety",
 		"ns2.dns.nic.safety",

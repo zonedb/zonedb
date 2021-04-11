@@ -2,6 +2,9 @@
 	"domain": "baby",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.baby",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/baby/"
+	],
 	"nameServers": [
 		"a.nic.baby",
 		"b.nic.baby",

@@ -2,6 +2,9 @@
 	"domain": "smart",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.smart",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/smart/"
+	],
 	"nameServers": [
 		"a.nic.smart",
 		"b.nic.smart",

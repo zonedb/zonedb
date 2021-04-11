@@ -2,6 +2,9 @@
 	"domain": "vig",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/vig/"
+	],
 	"nameServers": [
 		"a0.nic.vig",
 		"a2.nic.vig",

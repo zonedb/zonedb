@@ -2,6 +2,9 @@
 	"domain": "seat",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.seat",
+	"rdapURLs": [
+		"https://rdap.nic.seat/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

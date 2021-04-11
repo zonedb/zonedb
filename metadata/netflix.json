@@ -2,6 +2,9 @@
 	"domain": "netflix",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.netflix",
+	"rdapURLs": [
+		"https://rdap.nic.netflix/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.netflix",
 		"ns2.dns.nic.netflix",

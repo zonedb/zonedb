@@ -2,6 +2,9 @@
 	"domain": "pohl",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.pohl",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/pohl/"
+	],
 	"nameServers": [
 		"a.nic.pohl",
 		"b.nic.pohl",

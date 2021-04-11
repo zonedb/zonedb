@@ -1,6 +1,9 @@
 {
 	"domain": "קום",
 	"whoisServer": "whois.nic.קום",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/xn--9dbq2a/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

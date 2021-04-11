@@ -2,6 +2,9 @@
 	"domain": "athleta",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.athleta",
+	"rdapURLs": [
+		"https://rdap.nic.athleta/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.athleta",
 		"ns2.dns.nic.athleta",

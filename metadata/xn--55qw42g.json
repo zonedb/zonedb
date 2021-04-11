@@ -2,6 +2,9 @@
 	"domain": "公益",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.conac.cn",
+	"rdapURLs": [
+		"https://rdap.conac.cn/"
+	],
 	"nameServers": [
 		"ns1.conac.cn",
 		"ns2.conac.cn",

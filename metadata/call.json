@@ -2,6 +2,9 @@
 	"domain": "call",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.call",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/call/"
+	],
 	"nameServers": [
 		"dns1.nic.call",
 		"dns2.nic.call",

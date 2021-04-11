@@ -2,6 +2,9 @@
 	"domain": "loan",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.loan",
+	"rdapURLs": [
+		"https://rdap.nic.loan/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.loan",
 		"ns2.dns.nic.loan",

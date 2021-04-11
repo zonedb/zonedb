@@ -2,6 +2,9 @@
 	"domain": "lifeinsurance",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lifeinsurance",
+	"rdapURLs": [
+		"https://rdap.nic.lifeinsurance/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.lifeinsurance",
 		"ns2.dns.nic.lifeinsurance",

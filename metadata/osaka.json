@@ -2,6 +2,9 @@
 	"domain": "osaka",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.osaka",
+	"rdapURLs": [
+		"https://rdap.nic.osaka/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.osaka",
 		"ns2.dns.nic.osaka",

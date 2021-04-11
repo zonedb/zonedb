@@ -2,6 +2,9 @@
 	"domain": "hsbc",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.hsbc",
+	"rdapURLs": [
+		"https://rdap.nic.hsbc/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.hsbc",
 		"ns2.dns.nic.hsbc",

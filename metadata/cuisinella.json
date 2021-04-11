@@ -2,6 +2,9 @@
 	"domain": "cuisinella",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.cuisinella",
+	"rdapURLs": [
+		"https://rdap.nic.cuisinella/"
+	],
 	"nameServers": [
 		"a.nic.cuisinella",
 		"b.nic.cuisinella",

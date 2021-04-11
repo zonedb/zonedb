@@ -2,6 +2,9 @@
 	"domain": "grainger",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.grainger",
+	"rdapURLs": [
+		"https://rdap.nic.grainger/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.grainger",
 		"ns2.dns.nic.grainger",

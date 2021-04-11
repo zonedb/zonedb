@@ -2,6 +2,9 @@
 	"domain": "vuelos",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.vuelos",
+	"rdapURLs": [
+		"https://rdap.nic.vuelos/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.vuelos",
 		"ns2.dns.nic.vuelos",

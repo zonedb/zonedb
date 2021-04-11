@@ -2,6 +2,9 @@
 	"domain": "watches",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.watches",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/watches/"
+	],
 	"nameServers": [
 		"a0.nic.watches",
 		"a2.nic.watches",

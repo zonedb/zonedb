@@ -2,6 +2,9 @@
 	"domain": "moi",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.moi",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/moi/"
+	],
 	"nameServers": [
 		"dns1.nic.moi",
 		"dns2.nic.moi",

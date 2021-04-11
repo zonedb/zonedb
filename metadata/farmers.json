@@ -2,6 +2,9 @@
 	"domain": "farmers",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.farmers",
+	"rdapURLs": [
+		"https://rdap.nic.farmers/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.farmers",
 		"ns2.dns.nic.farmers",

@@ -2,6 +2,9 @@
 	"domain": "pharmacy",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.pharmacy",
+	"rdapURLs": [
+		"https://rdap.nic.pharmacy/"
+	],
 	"nameServers": [
 		"dns1.nic.pharmacy",
 		"dns2.nic.pharmacy",

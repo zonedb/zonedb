@@ -2,6 +2,9 @@
 	"domain": "pars",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.pars",
+	"rdapURLs": [
+		"https://api.rdap.agitsys.net/"
+	],
 	"nameServers": [
 		"a.ns.nic.pars",
 		"b.ns.nic.pars",

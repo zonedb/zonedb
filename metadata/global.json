@@ -1,6 +1,9 @@
 {
 	"domain": "global",
 	"whoisServer": "whois.nic.global",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/global/"
+	],
 	"nameServers": [
 		"a0.nic.global",
 		"a2.nic.global",

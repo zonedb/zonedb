@@ -2,6 +2,9 @@
 	"domain": "coupon",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.coupon",
+	"rdapURLs": [
+		"https://rdap.nic.coupon/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.coupon",
 		"ns2.dns.nic.coupon",

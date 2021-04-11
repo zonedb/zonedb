@@ -2,6 +2,9 @@
 	"domain": "spot",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.spot",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/spot/"
+	],
 	"nameServers": [
 		"dns1.nic.spot",
 		"dns2.nic.spot",

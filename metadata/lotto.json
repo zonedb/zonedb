@@ -2,6 +2,9 @@
 	"domain": "lotto",
 	"infoURL": "https://nic.lotto/",
 	"whoisServer": "whois.afilias.net",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/lotto/"
+	],
 	"nameServers": [
 		"a0.nic.lotto",
 		"a2.nic.lotto",

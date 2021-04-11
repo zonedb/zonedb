@@ -2,6 +2,9 @@
 	"domain": "شبكة",
 	"infoURL": "https://www.dotshabaka.com/",
 	"whoisServer": "whois.nic.شبكة",
+	"rdapURLs": [
+		"https://rdap.nic.شبكة/"
+	],
 	"nameServers": [
 		"a.nic.شبكة",
 		"b.nic.شبكة",

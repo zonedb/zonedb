@@ -2,6 +2,9 @@
 	"domain": "intuit",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.intuit",
+	"rdapURLs": [
+		"https://rdap.nic.intuit/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.intuit",
 		"ns2.dns.nic.intuit",

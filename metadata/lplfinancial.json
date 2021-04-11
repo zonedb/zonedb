@@ -2,6 +2,9 @@
 	"domain": "lplfinancial",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lplfinancial",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/lplfinancial/"
+	],
 	"nameServers": [
 		"a.nic.lplfinancial",
 		"b.nic.lplfinancial",

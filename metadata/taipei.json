@@ -2,6 +2,9 @@
 	"domain": "taipei",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.taipei",
+	"rdapURLs": [
+		"https://rdap.nic.taipei/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.taipei",
 		"ns2.dns.nic.taipei",

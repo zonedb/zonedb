@@ -2,6 +2,9 @@
 	"domain": "pid",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.pid",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/pid/"
+	],
 	"nameServers": [
 		"a.nic.pid",
 		"b.nic.pid",

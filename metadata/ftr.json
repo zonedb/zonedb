@@ -2,6 +2,9 @@
 	"domain": "ftr",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ftr",
+	"rdapURLs": [
+		"https://rdap.nic.ftr/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.ftr",
 		"ns2.dns.nic.ftr",

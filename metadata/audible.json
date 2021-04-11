@@ -2,6 +2,9 @@
 	"domain": "audible",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.audible",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/audible/"
+	],
 	"nameServers": [
 		"dns1.nic.audible",
 		"dns2.nic.audible",

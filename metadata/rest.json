@@ -1,6 +1,9 @@
 {
 	"domain": "rest",
 	"whoisServer": "whois.nic.rest",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/rest/"
+	],
 	"nameServers": [
 		"a.nic.rest",
 		"b.nic.rest",

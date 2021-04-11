@@ -2,6 +2,9 @@
 	"domain": "webcam",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.webcam",
+	"rdapURLs": [
+		"https://rdap.nic.webcam/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.webcam",
 		"ns2.dns.nic.webcam",

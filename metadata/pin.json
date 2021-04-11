@@ -2,6 +2,9 @@
 	"domain": "pin",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.pin",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/pin/"
+	],
 	"nameServers": [
 		"dns1.nic.pin",
 		"dns2.nic.pin",

@@ -2,6 +2,9 @@
 	"domain": "bond",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bond",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/bond/"
+	],
 	"nameServers": [
 		"a.nic.bond",
 		"b.nic.bond",

@@ -2,6 +2,9 @@
 	"domain": "عرب",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.عرب",
+	"rdapURLs": [
+		"https://rdap.nic.عرب/"
+	],
 	"nameServers": [
 		"gtld.alpha.aridns.net.au",
 		"gtld.beta.aridns.net.au",

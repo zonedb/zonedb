@@ -2,6 +2,9 @@
 	"domain": "study",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.study",
+	"rdapURLs": [
+		"https://rdap.nic.study/"
+	],
 	"nameServers": [
 		"a.nic.study",
 		"b.nic.study",

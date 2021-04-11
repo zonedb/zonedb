@@ -2,6 +2,9 @@
 	"domain": "fit",
 	"infoURL": "http://nic.fit/",
 	"whoisServer": "whois.nic.fit",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/fit/"
+	],
 	"nameServers": [
 		"dns1.nic.fit",
 		"dns2.nic.fit",

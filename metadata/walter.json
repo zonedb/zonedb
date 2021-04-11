@@ -2,6 +2,9 @@
 	"domain": "walter",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.walter",
+	"rdapURLs": [
+		"https://rdap.nic.walter/"
+	],
 	"nameServers": [
 		"a.nic.walter",
 		"b.nic.walter",

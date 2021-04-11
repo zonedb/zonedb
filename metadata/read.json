@@ -2,6 +2,9 @@
 	"domain": "read",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.read",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/read/"
+	],
 	"nameServers": [
 		"dns1.nic.read",
 		"dns2.nic.read",

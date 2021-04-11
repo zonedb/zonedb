@@ -1,6 +1,9 @@
 {
 	"domain": "vg",
 	"whoisServer": "whois.nic.vg",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/vg/"
+	],
 	"nameServers": [
 		"a.nic.vg",
 		"b.nic.vg",

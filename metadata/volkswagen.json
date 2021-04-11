@@ -2,6 +2,9 @@
 	"domain": "volkswagen",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/volkswagen/"
+	],
 	"nameServers": [
 		"a0.nic.volkswagen",
 		"a2.nic.volkswagen",

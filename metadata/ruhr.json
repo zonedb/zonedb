@@ -1,6 +1,9 @@
 {
 	"domain": "ruhr",
 	"whoisServer": "whois.nic.ruhr",
+	"rdapURLs": [
+		"https://rdap.nic.ruhr/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

@@ -2,6 +2,9 @@
 	"domain": "クラウド",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.クラウド",
+	"rdapURLs": [
+		"https://rdap.nic.クラウド/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.クラウド",
 		"ns2.dns.nic.クラウド",

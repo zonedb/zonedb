@@ -2,6 +2,9 @@
 	"domain": "lefrak",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lefrak",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/lefrak/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

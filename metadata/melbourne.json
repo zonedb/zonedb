@@ -2,6 +2,9 @@
 	"domain": "melbourne",
 	"infoURL": "https://www.live.melbourne/",
 	"whoisServer": "whois.nic.melbourne",
+	"rdapURLs": [
+		"https://rdap.nic.melbourne/"
+	],
 	"nameServers": [
 		"a.nic.melbourne",
 		"b.nic.melbourne",

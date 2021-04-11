@@ -2,6 +2,9 @@
 	"domain": "barclaycard",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.barclaycard",
+	"rdapURLs": [
+		"https://rdap.nic.barclaycard/"
+	],
 	"nameServers": [
 		"a.nic.barclaycard",
 		"b.nic.barclaycard",

@@ -2,6 +2,9 @@
 	"domain": "silk",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.silk",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/silk/"
+	],
 	"nameServers": [
 		"dns1.nic.silk",
 		"dns2.nic.silk",

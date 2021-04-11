@@ -2,6 +2,9 @@
 	"domain": "radio",
 	"infoURL": "https://www.nic.radio/",
 	"whoisServer": "whois.nic.radio",
+	"rdapURLs": [
+		"https://rdap.nic.radio/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

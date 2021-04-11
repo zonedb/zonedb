@@ -2,6 +2,9 @@
 	"domain": "erni",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.erni",
+	"rdapURLs": [
+		"https://rdap.nic.erni/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

@@ -2,6 +2,9 @@
 	"domain": "tickets",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tickets",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/tickets/"
+	],
 	"nameServers": [
 		"a.nic.tickets",
 		"b.nic.tickets",

@@ -2,6 +2,9 @@
 	"domain": "top",
 	"infoURL": "http://www.nic.top/",
 	"whoisServer": "whois.nic.top",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/top/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

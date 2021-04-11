@@ -2,6 +2,9 @@
 	"domain": "build",
 	"infoURL": "https://about.build/",
 	"whoisServer": "whois.nic.build",
+	"rdapURLs": [
+		"https://rdap.nic.build/"
+	],
 	"nameServers": [
 		"a.nic.build",
 		"b.nic.build",

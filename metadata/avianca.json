@@ -2,6 +2,9 @@
 	"domain": "avianca",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/avianca/"
+	],
 	"nameServers": [
 		"a0.nic.avianca",
 		"a2.nic.avianca",

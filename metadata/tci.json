@@ -2,6 +2,9 @@
 	"domain": "tci",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tci",
+	"rdapURLs": [
+		"https://api.rdap.agitsys.net/"
+	],
 	"nameServers": [
 		"a.ns.nic.tci",
 		"b.ns.nic.tci",

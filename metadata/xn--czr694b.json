@@ -1,6 +1,9 @@
 {
 	"domain": "商标",
 	"infoURL": "https://newgtlds.icann.org/",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/xn--czr694b/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

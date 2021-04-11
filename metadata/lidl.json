@@ -2,6 +2,9 @@
 	"domain": "lidl",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lidl",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/lidl/"
+	],
 	"nameServers": [
 		"a.nic.lidl",
 		"b.nic.lidl",

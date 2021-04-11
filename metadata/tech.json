@@ -2,6 +2,9 @@
 	"domain": "tech",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tech",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/tech/"
+	],
 	"nameServers": [
 		"a.nic.tech",
 		"b.nic.tech",

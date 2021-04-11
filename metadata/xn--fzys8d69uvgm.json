@@ -2,6 +2,9 @@
 	"domain": "電訊盈科",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.電訊盈科",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/xn--fzys8d69uvgm/"
+	],
 	"nameServers": [
 		"a0.nic.電訊盈科",
 		"a2.nic.電訊盈科",

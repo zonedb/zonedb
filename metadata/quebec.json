@@ -1,6 +1,9 @@
 {
 	"domain": "quebec",
 	"whoisServer": "whois.nic.quebec",
+	"rdapURLs": [
+		"https://rdap.nic.quebec/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

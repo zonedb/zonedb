@@ -2,6 +2,9 @@
 	"domain": "tube",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tube",
+	"rdapURLs": [
+		"https://rdap.nic.tube/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.tube",
 		"ns2.dns.nic.tube",

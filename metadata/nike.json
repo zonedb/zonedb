@@ -2,6 +2,9 @@
 	"domain": "nike",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.nike",
+	"rdapURLs": [
+		"https://rdap.nic.nike/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.nike",
 		"ns2.dns.nic.nike",

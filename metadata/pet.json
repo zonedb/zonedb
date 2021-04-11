@@ -2,6 +2,9 @@
 	"domain": "pet",
 	"infoURL": "https://get.pet/",
 	"whoisServer": "whois.afilias.net",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/pet/"
+	],
 	"nameServers": [
 		"a0.nic.pet",
 		"a2.nic.pet",

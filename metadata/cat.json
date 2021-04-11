@@ -2,6 +2,9 @@
 	"domain": "cat",
 	"infoURL": "https://domini.cat/",
 	"whoisServer": "whois.nic.cat",
+	"rdapURLs": [
+		"https://rdap.nic.cat/"
+	],
 	"nameServers": [
 		"anyc1.irondns.net",
 		"cat.pch.net",

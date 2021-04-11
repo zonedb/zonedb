@@ -2,6 +2,9 @@
 	"domain": "toray",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.toray",
+	"rdapURLs": [
+		"https://rdap.gmoregistry.net/rdap/"
+	],
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",

@@ -2,6 +2,9 @@
 	"domain": "八卦",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.八卦",
+	"rdapURLs": [
+		"https://rdap.zdnsgtld.com/XN--45Q11C/"
+	],
 	"nameServers": [
 		"a.zdnscloud.com",
 		"b.zdnscloud.com",

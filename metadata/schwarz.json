@@ -2,6 +2,9 @@
 	"domain": "schwarz",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.schwarz",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/schwarz/"
+	],
 	"nameServers": [
 		"a.nic.schwarz",
 		"b.nic.schwarz",

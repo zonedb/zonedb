@@ -2,6 +2,9 @@
 	"domain": "law",
 	"infoURL": "https://nic.law/",
 	"whoisServer": "whois.nic.law",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/law/"
+	],
 	"nameServers": [
 		"dns1.nic.law",
 		"dns2.nic.law",

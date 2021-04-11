@@ -2,6 +2,9 @@
 	"domain": "bbc",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bbc",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/bbc/"
+	],
 	"nameServers": [
 		"dns1.nic.bbc",
 		"dns2.nic.bbc",

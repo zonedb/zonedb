@@ -2,6 +2,9 @@
 	"domain": "crs",
 	"infoURL": "http://nic.crs/",
 	"whoisServer": "whois.nic.crs",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/crs/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

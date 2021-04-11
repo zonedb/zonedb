@@ -2,6 +2,9 @@
 	"domain": "verisign",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.verisign",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/verisign/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

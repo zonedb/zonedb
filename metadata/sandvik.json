@@ -2,6 +2,9 @@
 	"domain": "sandvik",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.sandvik",
+	"rdapURLs": [
+		"https://rdap.nic.sandvik/"
+	],
 	"nameServers": [
 		"a.nic.sandvik",
 		"b.nic.sandvik",

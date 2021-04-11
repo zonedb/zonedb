@@ -2,6 +2,9 @@
 	"domain": "olayangroup",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.olayangroup",
+	"rdapURLs": [
+		"https://rdap.nic.olayangroup/"
+	],
 	"nameServers": [
 		"a.nic.olayangroup",
 		"b.nic.olayangroup",

@@ -2,6 +2,9 @@
 	"domain": "catholic",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.catholic",
+	"rdapURLs": [
+		"https://rdap.nic.catholic/"
+	],
 	"nameServers": [
 		"a.nic.catholic",
 		"b.nic.catholic",

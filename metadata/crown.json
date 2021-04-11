@@ -1,6 +1,9 @@
 {
 	"domain": "crown",
 	"infoURL": "https://newgtlds.icann.org/",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/crown/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

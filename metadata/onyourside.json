@@ -2,6 +2,9 @@
 	"domain": "onyourside",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.onyourside",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/onyourside/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

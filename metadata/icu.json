@@ -2,6 +2,9 @@
 	"domain": "icu",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.icu",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/icu/"
+	],
 	"nameServers": [
 		"a.nic.icu",
 		"b.nic.icu",

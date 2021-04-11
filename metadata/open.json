@@ -2,6 +2,9 @@
 	"domain": "open",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.open",
+	"rdapURLs": [
+		"https://rdap.nic.open/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.open",
 		"ns2.dns.nic.open",

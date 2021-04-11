@@ -2,6 +2,9 @@
 	"domain": "genting",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.genting",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/genting/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

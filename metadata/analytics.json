@@ -2,6 +2,9 @@
 	"domain": "analytics",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.analytics",
+	"rdapURLs": [
+		"https://rdap.nic.analytics/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.analytics",
 		"ns2.dns.nic.analytics",

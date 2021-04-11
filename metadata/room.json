@@ -2,6 +2,9 @@
 	"domain": "room",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.room",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/room/"
+	],
 	"nameServers": [
 		"dns1.nic.room",
 		"dns2.nic.room",

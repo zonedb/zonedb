@@ -2,6 +2,9 @@
 	"domain": "aetna",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.aetna",
+	"rdapURLs": [
+		"https://rdap.nic.aetna/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.aetna",
 		"ns2.dns.nic.aetna",

@@ -2,6 +2,9 @@
 	"domain": "save",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.save",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/save/"
+	],
 	"nameServers": [
 		"dns1.nic.save",
 		"dns2.nic.save",

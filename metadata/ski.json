@@ -2,6 +2,9 @@
 	"domain": "ski",
 	"infoURL": "https://domains.ski/",
 	"whoisServer": "whois.afilias.net",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/ski/"
+	],
 	"nameServers": [
 		"a0.nic.ski",
 		"a2.nic.ski",

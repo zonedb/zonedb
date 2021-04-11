@@ -2,6 +2,9 @@
 	"domain": "tdk",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tdk",
+	"rdapURLs": [
+		"https://rdap.nic.tdk/"
+	],
 	"nameServers": [
 		"ns1.dns.nic.tdk",
 		"ns2.dns.nic.tdk",

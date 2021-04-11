@@ -1,6 +1,9 @@
 {
 	"domain": "scot",
 	"whoisServer": "whois.nic.scot",
+	"rdapURLs": [
+		"https://rdap.nic.scot/"
+	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",

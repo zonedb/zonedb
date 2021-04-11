@@ -2,6 +2,9 @@
 	"domain": "vip",
 	"infoURL": "http://nic.vip/",
 	"whoisServer": "whois.nic.vip",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/vip/"
+	],
 	"nameServers": [
 		"dns1.nic.vip",
 		"dns2.nic.vip",

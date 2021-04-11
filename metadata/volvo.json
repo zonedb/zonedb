@@ -2,6 +2,9 @@
 	"domain": "volvo",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.volvo",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/volvo/v1/"
+	],
 	"nameServers": [
 		"ac1.nstld.com",
 		"ac2.nstld.com",

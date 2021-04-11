@@ -2,6 +2,9 @@
 	"domain": "thd",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.thd",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/thd/"
+	],
 	"nameServers": [
 		"a0.nic.thd",
 		"a2.nic.thd",

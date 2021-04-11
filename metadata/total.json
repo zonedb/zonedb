@@ -2,6 +2,9 @@
 	"domain": "total",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.total",
+	"rdapURLs": [
+		"https://rdap.nic.total/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

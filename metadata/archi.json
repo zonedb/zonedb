@@ -2,6 +2,9 @@
 	"domain": "archi",
 	"infoURL": "https://domains.archi/",
 	"whoisServer": "whois.afilias.net",
+	"rdapURLs": [
+		"https://rdap.afilias.net/rdap/archi/"
+	],
 	"nameServers": [
 		"a0.nic.archi",
 		"a2.nic.archi",

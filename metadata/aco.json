@@ -2,6 +2,9 @@
 	"domain": "aco",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.aco",
+	"rdapURLs": [
+		"https://rdap.nic.aco/"
+	],
 	"nameServers": [
 		"a.dns.nic.aco",
 		"m.dns.nic.aco",
