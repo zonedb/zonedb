@@ -15,8 +15,8 @@ import (
 type Zone struct {
 	Domain      string   `json:"domain,omitempty"`
 	InfoURL     string   `json:"infoURL,omitempty"`
-	WhoisURL    string   `json:"whoisURL,omitempty"`
 	WhoisServer string   `json:"whoisServer,omitempty"`
+	WhoisURL    string   `json:"whoisURL,omitempty"`
 	RDAPURLs    []string `json:"rdapURLs,omitempty"`
 	NameServers []string `json:"nameServers,omitempty"`
 	Wildcards   []string `json:"wildcards,omitempty"`
