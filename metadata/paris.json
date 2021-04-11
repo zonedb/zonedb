@@ -1,6 +1,6 @@
 {
 	"domain": "paris",
-	"whoisServer": "whois.nic.paris",
+	"whoisServer": "whois-paris.nic.fr",
 	"rdapURLs": [
 		"https://rdap.nic.paris/"
 	],
