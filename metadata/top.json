@@ -64,6 +64,16 @@
 			"type": "idn-table",
 			"key": "zh",
 			"value": "https://www.iana.org/domains/idn-tables/tables/top_zh_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_zh-hans_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hant",
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_zh-hant_1.0.txt"
 		}
 	]
 }

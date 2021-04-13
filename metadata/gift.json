@@ -1,7 +1,7 @@
 {
 	"domain": "gift",
 	"infoURL": "https://nic.gift/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.gift",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],

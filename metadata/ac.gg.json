@@ -1,9 +1,11 @@
 {
 	"domain": "ac.gg",
 	"nameServers": [
-		"nsa.dnsnode.net",
-		"nsp.dnsnode.net",
-		"nsu.dnsnode.net"
+		"dns0.mtgsy.com",
+		"dns1.name-s.net",
+		"dns2.name-s.net",
+		"dns3.mtgsy.com",
+		"dns4.mtgsy.com"
 	],
 	"policies": [
 		{
