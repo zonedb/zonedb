@@ -3,7 +3,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.pharmacy",
 	"rdapURLs": [
-		"https://rdap.nic.pharmacy/"
+		"https://rdap.nominet.uk/pharmacy/"
 	],
 	"nameServers": [
 		"dns1.nic.pharmacy",

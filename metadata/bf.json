@@ -2,8 +2,7 @@
 	"domain": "bf",
 	"nameServers": [
 		"a.registre.bf",
-		"censvrns0001.ird.fr",
-		"nahouri.onatel.bf"
+		"censvrns0001.ird.fr"
 	],
 	"tags": [
 		"country",
