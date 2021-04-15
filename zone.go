@@ -62,6 +62,9 @@ type Zone struct {
 	// URL to look up whois info for a subdomain of this Zone
 	whoisURL string
 
+	// URLs for RDAP endpoints for a subdomain of this Zone
+	rdapURLs []string
+
 	// Transitional: does the zone operator allow registration of non-ASCII subdomains?
 	allowsIDN bool
 }
@@ -95,6 +98,11 @@ func (z *Zone) WhoisURL() string {
 		return z.Parent.WhoisURL()
 	}
 	return ""
+}
+
+// RDAPURLs returns the set of RDAP URL endpoints for a zone.
+func (z *Zone) RDAPURLs() []string {
+	return z.rdapURLs
 }
 
 // IsTLD returns true if the Zone is a top-level domain.

@@ -323,6 +323,7 @@ var y = [{{len .Zones}}]Zone{
 			{{if $z.Languages}} w{ {{range $z.Languages}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
 			{{quotedDomain $z.WhoisServer}}, \
 			{{quotedURL $z.WhoisURL}}, \
+			{{if $z.RDAPURLs}} w{ {{range $z.RDAPURLs}}{{quotedDomain .}},{{end}}} {{else}} n {{end}}, \
 			{{if $z.IDNDisallowed}} f {{else}} t {{end}}, \
 		},
 	{{end}} \
