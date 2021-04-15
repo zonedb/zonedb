@@ -10,6 +10,11 @@
 		"ns5.registry.in",
 		"ns6.registry.in"
 	],
+	"locations": [
+		"IN-KL",
+		"IN-LD",
+		"IN-PY"
+	],
 	"languages": [
 		"ml-IN"
 	],

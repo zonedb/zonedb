@@ -10,6 +10,15 @@
 		"ns5.registry.in",
 		"ns6.registry.in"
 	],
+	"locations": [
+		"IN-KA",
+		"IN-MH",
+		"IN-AP",
+		"IN-TN",
+		"IN-TG",
+		"IN-KL",
+		"IN-GA"
+	],
 	"languages": [
 		"kn-IN"
 	],
