@@ -10,9 +10,6 @@
 		"ns5.registry.in",
 		"ns6.registry.in"
 	],
-	"languages": [
-		"or-IN"
-	],
 	"locations": [
 		"IN-OR",
 		"IN-AP",
@@ -20,6 +17,9 @@
 		"IN-JH",
 		"IN-WB",
 		"IN-CT"
+	],
+	"languages": [
+		"or-IN"
 	],
 	"tags": [
 		"country",

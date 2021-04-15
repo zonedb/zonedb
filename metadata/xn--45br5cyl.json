@@ -10,13 +10,13 @@
 		"ns5.registry.in",
 		"ns6.registry.in"
 	],
-	"languages": [
-		"as-IN"
-	],
 	"locations": [
 		"IN-AS",
 		"IN-AR",
 		"IN-NL"
+	],
+	"languages": [
+		"as-IN"
 	],
 	"tags": [
 		"country",

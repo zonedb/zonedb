@@ -10,9 +10,6 @@
 		"ns5.registry.in",
 		"ns6.registry.in"
 	],
-	"languages": [
-		"sat-Olck-IN"
-	],
 	"locations": [
 		"IN-AS",
 		"IN-BR",
@@ -21,6 +18,9 @@
 		"IN-OR",
 		"IN-TR",
 		"IN-WB"
+	],
+	"languages": [
+		"sat-Olck-IN"
 	],
 	"tags": [
 		"country",

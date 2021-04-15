@@ -10,11 +10,11 @@
 		"ns5.registry.in",
 		"ns6.registry.in"
 	],
-	"languages": [
-		"pa-Guru-IN"
-	],
 	"locations": [
 		"IN-PB"
+	],
+	"languages": [
+		"pa-Guru-IN"
 	],
 	"tags": [
 		"country",

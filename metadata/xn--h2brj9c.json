@@ -10,11 +10,11 @@
 		"ns5.registry.in",
 		"ns6.registry.in"
 	],
-	"languages": [
-		"hi-IN"
-	],
 	"locations": [
 		"IN"
+	],
+	"languages": [
+		"hi-IN"
 	],
 	"tags": [
 		"country",

@@ -10,9 +10,6 @@
 		"ns5.registry.in",
 		"ns6.registry.in"
 	],
-	"languages": [
-		"ur-IN"
-	],
 	"locations": [
 		"IN-JK",
 		"IN-TG",
@@ -21,7 +18,10 @@
 		"IN-JH",
 		"IN-WB",
 		"IN-DL"
-	],  
+	],
+	"languages": [
+		"ur-IN"
+	],
 	"tags": [
 		"country",
 		"geo"

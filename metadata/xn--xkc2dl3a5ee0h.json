@@ -10,12 +10,12 @@
 		"ns5.registry.in",
 		"ns6.registry.in"
 	],
-	"languages": [
-		"ta-IN"
-	],
 	"locations": [
 		"IN-TN",
 		"IN-PY"
+	],
+	"languages": [
+		"ta-IN"
 	],
 	"tags": [
 		"country",
