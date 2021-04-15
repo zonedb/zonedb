@@ -13,6 +13,11 @@
 	"languages": [
 		"as-IN"
 	],
+	"locations": [
+		"IN-AS",
+		"IN-AR",
+		"IN-NL"
+	],
 	"tags": [
 		"country",
 		"geo"

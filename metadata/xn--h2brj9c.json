@@ -13,6 +13,9 @@
 	"languages": [
 		"hi-IN"
 	],
+	"locations": [
+		"IN"
+	],
 	"tags": [
 		"country",
 		"geo"

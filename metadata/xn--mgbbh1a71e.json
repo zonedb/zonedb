@@ -13,6 +13,15 @@
 	"languages": [
 		"ur-IN"
 	],
+	"locations": [
+		"IN-JK",
+		"IN-TG",
+		"IN-UP",
+		"IN-BR",
+		"IN-JH",
+		"IN-WB",
+		"IN-DL"
+	],  
 	"tags": [
 		"country",
 		"geo"

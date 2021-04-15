@@ -13,6 +13,10 @@
 	"languages": [
 		"te-IN"
 	],
+	"locations": [
+		"IN-AP",
+		"IN-TG"
+	],
 	"tags": [
 		"country",
 		"geo"

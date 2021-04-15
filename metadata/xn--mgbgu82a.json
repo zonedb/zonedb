@@ -13,6 +13,11 @@
 	"languages": [
 		"sd-IN"
 	],
+	"locations": [
+		"IN-RJ",
+		"IN-GJ",
+		"IN-MP"
+	],
 	"tags": [
 		"country",
 		"geo"

@@ -13,6 +13,15 @@
 	"languages": [
 		"sat-Olck-IN"
 	],
+	"locations": [
+		"IN-AS",
+		"IN-BR",
+		"IN-JH",
+		"IN-MZ",
+		"IN-OR",
+		"IN-TR",
+		"IN-WB"
+	],
 	"tags": [
 		"country",
 		"geo"

@@ -13,6 +13,15 @@
 	"languages": [
 		"kn-IN"
 	],
+	"locations": [
+		"IN-KA",
+		"IN-MH",
+		"IN-AP",
+		"IN-TN",
+		"IN-TG",
+		"IN-KL",
+		"IN-GA"
+	],
 	"tags": [
 		"country",
 		"geo"

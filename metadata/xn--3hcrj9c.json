@@ -13,6 +13,14 @@
 	"languages": [
 		"or-IN"
 	],
+	"locations": [
+		"IN-OR",
+		"IN-AP",
+		"IN-MP",
+		"IN-JH",
+		"IN-WB",
+		"IN-CT"
+	],
 	"tags": [
 		"country",
 		"geo"

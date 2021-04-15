@@ -13,6 +13,10 @@
 	"languages": [
 		"ta-IN"
 	],
+	"locations": [
+		"IN-TN",
+		"IN-PY"
+	],
 	"tags": [
 		"country",
 		"geo"

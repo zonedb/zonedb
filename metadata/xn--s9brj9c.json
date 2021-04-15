@@ -13,6 +13,9 @@
 	"languages": [
 		"pa-Guru-IN"
 	],
+	"locations": [
+		"IN-PB"
+	],
 	"tags": [
 		"country",
 		"geo"

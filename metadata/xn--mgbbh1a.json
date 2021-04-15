@@ -13,6 +13,9 @@
 	"languages": [
 		"ks-IN"
 	],
+	"locations": [
+		"IN-MH"
+	],
 	"tags": [
 		"country",
 		"geo"
