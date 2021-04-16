@@ -2,7 +2,9 @@
 	"domain": "bf",
 	"nameServers": [
 		"a.registre.bf",
-		"censvrns0001.ird.fr"
+		"censvrns0001.ird.fr",
+		"ns-bf.nic.fr",
+		"pch.ns.registre.bf"
 	],
 	"tags": [
 		"country",
