@@ -7,5 +7,9 @@
 		"gr-c.ics.forth.gr",
 		"gr-d.ics.forth.gr",
 		"grdns.ics.forth.gr"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

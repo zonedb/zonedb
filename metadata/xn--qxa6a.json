@@ -7,5 +7,9 @@
 		"w.dns.eu",
 		"x.dns.eu",
 		"y.dns.eu"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

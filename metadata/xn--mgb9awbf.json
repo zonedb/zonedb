@@ -11,6 +11,7 @@
 		"ns2.registry.om"
 	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	]
 }

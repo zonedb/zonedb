@@ -9,6 +9,10 @@
 		"e.nic.bg",
 		"p.nic.bg"
 	],
+	"tags": [
+		"country",
+		"geo"
+	],
 	"policies": [
 		{
 			"type": "idn-table",

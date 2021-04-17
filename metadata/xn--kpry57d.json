@@ -11,5 +11,9 @@
 	],
 	"languages": [
 		"zh-Hant-TW"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

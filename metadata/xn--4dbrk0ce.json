@@ -9,5 +9,9 @@
 		"nsa.ns.il",
 		"nsb.ns.il",
 		"nse.ns.il"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

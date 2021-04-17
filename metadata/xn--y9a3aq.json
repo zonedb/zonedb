@@ -8,6 +8,7 @@
 		"ns-pri.nic.am"
 	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	]
 }

@@ -7,6 +7,7 @@
 		"idn2.nic.dz"
 	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	]
 }

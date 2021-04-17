@@ -16,5 +16,9 @@
 	],
 	"languages": [
 		"zh-Hans-CN"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

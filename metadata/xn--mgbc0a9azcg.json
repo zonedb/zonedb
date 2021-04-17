@@ -12,6 +12,7 @@
 		"ns-ma.nic.fr"
 	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	]
 }

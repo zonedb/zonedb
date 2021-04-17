@@ -13,6 +13,7 @@
 		"i.registry.qa"
 	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	]
 }

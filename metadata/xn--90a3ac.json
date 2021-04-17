@@ -10,7 +10,8 @@
 		"l.nic.rs"
 	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	],
 	"policies": [
 		{

@@ -8,6 +8,10 @@
 		"x.dns.eu",
 		"y.dns.eu"
 	],
+	"tags": [
+		"country",
+		"geo"
+	],
 	"policies": [
 		{
 			"type": "idn-table",
