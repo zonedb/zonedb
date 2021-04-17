@@ -318,7 +318,7 @@ var y = [{{len .Zones}}]Zone{
 			{{if $z.TagBits}} {{printf "0x%x" $z.TagBits}} {{else}} 0 {{end}}, \
 			{{quotedURL $z.InfoURL}}, \
 			{{if $z.NameServers}} w{ {{range $z.NameServers}}{{quotedDomain .}},{{end}}} {{else}} n {{end}}, \
-			{{if $z.Wildcards}} w{ {{range $z.Wildcards}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
+			{{if $z.Wildcards}} w{ {{range $z.Wildcards}}{{quotedDomain .}},{{end}}} {{else}} n {{end}}, \
 			{{if $z.Locations}} w{ {{range $z.Locations}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
 			{{if $z.Languages}} w{ {{range $z.Languages}}{{quoted .}},{{end}}} {{else}} n {{end}}, \
 			{{quotedDomain $z.WhoisServer}}, \
