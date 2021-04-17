@@ -18,12 +18,12 @@
 		{
 			"type": "idn-table",
 			"key": "zh-Hans",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--czru2d_zh-hans_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--czru2d_zh-hans_1.1.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh-Hant",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--czru2d_zh-hant_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--czru2d_zh-hant_1.1.txt"
 		}
 	]
 }

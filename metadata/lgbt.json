@@ -1,7 +1,7 @@
 {
 	"domain": "lgbt",
 	"infoURL": "https://get.lgbt/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.lgbt",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/lgbt/"
 	],
