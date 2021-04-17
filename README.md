@@ -113,6 +113,18 @@ Add `zh-Hans-HK` (Hong Kong Simplified Chinese) as a language (and write the out
 zonedb -zones 香港 -add-languages zh-Hans-HK -w
 ```
 
+List all zones with only one language:
+
+```shell
+zonedb -grep '"languages"\: \[\s+\S+\s+\]'
+```
+
+List all zones  with the `geo` tag that support a Chinese language variant:
+
+```shell
+zonedb  -tags geo -grep zh-
+```
+
 ## License
 
 This database is licensed under the [Open Database License (ODBl) version 1.0](http://opendatacommons.org/licenses/odbl/1.0/). See [LICENSE.md](https://github.com/zonedb/zonedb/blob/HEAD/LICENSE.md) for more information.
