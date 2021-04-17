@@ -15,6 +15,10 @@ const (
 	ianaBaseURL   = "https://www.iana.org"
 )
 
+var ianaTypos = map[string]string{
+	"shiksa": "shiksha",
+}
+
 // FetchIDNTablesFromIANA fetches IDN table references from the IANA website.
 func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 	tlds := TLDs(zones)
@@ -65,6 +69,12 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 			return
 		}
 		domain = domain[1:] // trim dot
+
+		// Check IANA typos (currently shiksa → shiksha)
+		if fixed, ok := ianaTypos[domain]; ok {
+			domain = fixed
+		}
+
 		z, ok := zones[domain]
 		if !ok {
 			if len(tlds) > 100 {
