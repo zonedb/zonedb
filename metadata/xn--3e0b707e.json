@@ -8,5 +8,9 @@
 		"e.dns.kr",
 		"f.dns.kr",
 		"g.dns.kr"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

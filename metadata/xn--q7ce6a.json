@@ -6,5 +6,9 @@
 		"b.ລາວ.centralnic-dns.com",
 		"c.ລາວ.centralnic-dns.com",
 		"d.ລາວ.centralnic-dns.com"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

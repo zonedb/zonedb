@@ -6,5 +6,9 @@
 		"dyn2.cmc.iq",
 		"ns1.cmc.iq",
 		"nsp-anycast.cmc.iq"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

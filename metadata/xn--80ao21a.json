@@ -6,6 +6,7 @@
 		"ns1.nic.kz"
 	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	]
 }

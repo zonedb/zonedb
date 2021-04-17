@@ -10,6 +10,7 @@
 		"dns6.tld.hosterby.com"
 	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	]
 }

@@ -9,6 +9,7 @@
 		"tld1.marnet.mk"
 	],
 	"tags": [
-		"generic"
+		"country",
+		"geo"
 	]
 }
