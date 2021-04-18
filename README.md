@@ -125,6 +125,18 @@ List all zones  with the `geo` tag that support a Chinese language variant:
 zonedb  -tags geo -grep zh-
 ```
 
+List all IDN zones with the `geo` tag:
+
+```shell
+zonedb -grep '[^\x{0000}-\x{007F}]' -tags geo
+```
+
+Or, using the `-idn` tag, all IDN TLDs with the `geo` tag:
+
+```shell
+zonedb -tlds -idn -tags geo
+```
+
 ## License
 
 This database is licensed under the [Open Database License (ODBl) version 1.0](http://opendatacommons.org/licenses/odbl/1.0/). See [LICENSE.md](https://github.com/zonedb/zonedb/blob/HEAD/LICENSE.md) for more information.
