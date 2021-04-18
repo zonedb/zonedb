@@ -21,6 +21,7 @@ func main() {
 
 	// Filters
 	tlds := flag.Bool("tlds", false, "work on top-level domains only")
+	filterIDN := flag.Bool("idn", false, "work on IDN (non-ASCII) zones only")
 	filterZones := flag.String("zones", "", "select specific working zones (comma-delimited)")
 	filterRegexp := flag.String("x", "", "filter working zones by regular expression")
 	filterGrep := flag.String("grep", "", "filter working zones by regular expression across all metadata")
@@ -92,6 +93,16 @@ func main() {
 	if *tlds {
 		workZones = build.TLDs(zones)
 		color.Fprintf(os.Stderr, "@{.}Working on top-level domains\n")
+	}
+
+	if *filterIDN {
+		filtered := make(map[string]*build.Zone, len(workZones))
+		for d, z := range workZones {
+			if z.IsIDN() {
+				filtered[d] = z
+			}
+		}
+		workZones = filtered
 	}
 
 	if *filterZones != "" {
