@@ -11,6 +11,28 @@
 		"b0.nic.lamborghini",
 		"c0.nic.lamborghini"
 	],
+	"languages": [
+		"be",
+		"bg",
+		"bs",
+		"da",
+		"de",
+		"es",
+		"hu",
+		"is",
+		"ko",
+		"lt",
+		"lv",
+		"mk",
+		"pl",
+		"ru",
+		"sr",
+		"sr-ME",
+		"sv",
+		"uk",
+		"zh-Hans",
+		"zh-Hant"
+	],
 	"tags": [
 		"brand",
 		"generic"

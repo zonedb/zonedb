@@ -13,6 +13,9 @@
 	"locations": [
 		"Yokohama"
 	],
+	"languages": [
+		"ja"
+	],
 	"tags": [
 		"city",
 		"generic",

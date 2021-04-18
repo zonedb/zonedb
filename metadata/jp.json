@@ -11,6 +11,9 @@
 		"g.dns.jp",
 		"h.dns.jp"
 	],
+	"languages": [
+		"ja-JP"
+	],
 	"tags": [
 		"country",
 		"geo"

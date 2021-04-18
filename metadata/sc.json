@@ -10,6 +10,9 @@
 		"d0.cctld.afilias-nst.org",
 		"ns1.nic.sc"
 	],
+	"languages": [
+		"zh-CN"
+	],
 	"tags": [
 		"country",
 		"generic",

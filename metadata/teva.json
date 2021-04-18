@@ -13,6 +13,24 @@
 		"ns5.dns.nic.teva",
 		"ns6.dns.nic.teva"
 	],
+	"languages": [
+		"da",
+		"de",
+		"es",
+		"fi",
+		"hu",
+		"is",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

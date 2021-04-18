@@ -11,6 +11,10 @@
 		"b0.nic.淡马锡",
 		"c0.nic.淡马锡"
 	],
+	"languages": [
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"generic"
 	],

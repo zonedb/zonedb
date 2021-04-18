@@ -13,6 +13,9 @@
 		"ns5.dns.nic.tdk",
 		"ns6.dns.nic.tdk"
 	],
+	"languages": [
+		"ja"
+	],
 	"tags": [
 		"brand",
 		"generic"

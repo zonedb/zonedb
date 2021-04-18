@@ -9,6 +9,9 @@
 		"td.ngtld.cn",
 		"te.ngtld.cn"
 	],
+	"languages": [
+		"zh-Hans"
+	],
 	"policies": [
 		{
 			"type": "idn-table",

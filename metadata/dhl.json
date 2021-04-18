@@ -10,6 +10,9 @@
 		"c.nic.dhl",
 		"d.nic.dhl"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"brand",
 		"generic"

@@ -9,6 +9,9 @@
 		"f.dns.kr",
 		"g.dns.kr"
 	],
+	"languages": [
+		"ko-KR"
+	],
 	"tags": [
 		"country",
 		"geo"

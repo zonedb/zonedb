@@ -15,6 +15,10 @@
 		"i.zdnscloud.com",
 		"j.zdnscloud.com"
 	],
+	"languages": [
+		"zh-Hans",
+		"zh-Hant"
+	],
 	"tags": [
 		"brand",
 		"generic"

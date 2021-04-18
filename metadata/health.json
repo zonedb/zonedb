@@ -13,6 +13,9 @@
 		"ns5.dns.nic.health",
 		"ns6.dns.nic.health"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"generic"
 	],

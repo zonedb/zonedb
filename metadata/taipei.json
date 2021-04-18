@@ -17,6 +17,24 @@
 		"Taipei",
 		"TW-TPQ"
 	],
+	"languages": [
+		"da",
+		"de",
+		"es",
+		"fi",
+		"hu",
+		"is",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"city",
 		"generic",

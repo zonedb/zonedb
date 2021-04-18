@@ -11,6 +11,10 @@
 		"b0.nic.机构",
 		"c0.nic.机构"
 	],
+	"languages": [
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"generic"
 	],

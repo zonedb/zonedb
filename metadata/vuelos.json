@@ -13,6 +13,9 @@
 		"ns5.dns.nic.vuelos",
 		"ns6.dns.nic.vuelos"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"generic"
 	],

@@ -13,6 +13,9 @@
 		"ns5.dns.nic.cbre",
 		"ns6.dns.nic.cbre"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

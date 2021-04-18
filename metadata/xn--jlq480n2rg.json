@@ -15,6 +15,24 @@
 		"dnsc.nic.亚马逊",
 		"dnsd.nic.亚马逊"
 	],
+	"languages": [
+		"da",
+		"de",
+		"es",
+		"fi",
+		"hu",
+		"is",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

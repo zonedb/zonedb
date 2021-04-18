@@ -13,6 +13,9 @@
 		"ns5.dns.nic.购物",
 		"ns6.dns.nic.购物"
 	],
+	"languages": [
+		"zh"
+	],
 	"policies": [
 		{
 			"type": "idn-table",

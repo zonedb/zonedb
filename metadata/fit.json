@@ -15,6 +15,12 @@
 		"dnsc.nic.fit",
 		"dnsd.nic.fit"
 	],
+	"languages": [
+		"de",
+		"es",
+		"fr",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

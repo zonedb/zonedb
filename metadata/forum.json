@@ -11,6 +11,9 @@
 		"c.nic.forum",
 		"d.nic.forum"
 	],
+	"languages": [
+		"ar"
+	],
 	"tags": [
 		"generic"
 	],

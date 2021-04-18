@@ -11,6 +11,15 @@
 		"k.gmoregistry.net",
 		"l.gmoregistry.net"
 	],
+	"languages": [
+		"es",
+		"fr",
+		"ja",
+		"ko",
+		"pl",
+		"pt",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

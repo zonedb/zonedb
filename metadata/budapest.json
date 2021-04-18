@@ -19,6 +19,9 @@
 		"Budapest",
 		"HU-BU"
 	],
+	"languages": [
+		"hu"
+	],
 	"tags": [
 		"city",
 		"generic",

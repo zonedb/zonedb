@@ -13,6 +13,9 @@
 		"ns5.dns.nic.baseball",
 		"ns6.dns.nic.baseball"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"generic"
 	],

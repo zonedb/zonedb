@@ -11,6 +11,18 @@
 		"c.nic.theatre",
 		"d.nic.theatre"
 	],
+	"languages": [
+		"ar",
+		"he",
+		"ja",
+		"ko",
+		"lo",
+		"mul-Grek",
+		"mul-Latn",
+		"ru",
+		"th",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

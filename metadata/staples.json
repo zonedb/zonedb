@@ -13,6 +13,9 @@
 		"ns5.dns.nic.staples",
 		"ns6.dns.nic.staples"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

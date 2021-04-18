@@ -9,6 +9,9 @@
 		"a.ns.nic.mls",
 		"b.ns.nic.mls"
 	],
+	"languages": [
+		"fr"
+	],
 	"tags": [
 		"generic"
 	],

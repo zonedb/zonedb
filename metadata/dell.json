@@ -13,6 +13,9 @@
 		"ns5.dns.nic.dell",
 		"ns6.dns.nic.dell"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

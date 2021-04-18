@@ -10,6 +10,9 @@
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"brand",
 		"generic"

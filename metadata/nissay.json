@@ -11,6 +11,12 @@
 		"ac3.nstld.com",
 		"ac4.nstld.com"
 	],
+	"languages": [
+		"ja",
+		"mul-Hang",
+		"mul-Hani",
+		"mul-Hano"
+	],
 	"tags": [
 		"brand",
 		"generic"

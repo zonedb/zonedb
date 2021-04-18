@@ -15,6 +15,11 @@
 		"dnsc.nic.cooking",
 		"dnsd.nic.cooking"
 	],
+	"languages": [
+		"de",
+		"es",
+		"fr"
+	],
 	"tags": [
 		"generic"
 	],

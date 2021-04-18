@@ -14,6 +14,25 @@
 		"ns7.dns.nic.tel",
 		"ns8.dns.nic.tel"
 	],
+	"languages": [
+		"da",
+		"de",
+		"es",
+		"fi",
+		"fr",
+		"hu",
+		"is",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"generic",
 		"sponsored"

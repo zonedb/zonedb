@@ -11,6 +11,10 @@
 		"b0.nic.nowtv",
 		"c0.nic.nowtv"
 	],
+	"languages": [
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"brand",
 		"generic"

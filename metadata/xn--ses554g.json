@@ -15,6 +15,15 @@
 		"i.zdnscloud.com",
 		"j.zdnscloud.com"
 	],
+	"languages": [
+		"de",
+		"es",
+		"fr",
+		"ja",
+		"ru",
+		"zh-Hans",
+		"zh-Hant"
+	],
 	"policies": [
 		{
 			"type": "idn-table",

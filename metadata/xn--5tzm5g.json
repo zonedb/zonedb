@@ -11,6 +11,10 @@
 		"b0.nic.网站",
 		"c0.nic.网站"
 	],
+	"languages": [
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"generic"
 	],

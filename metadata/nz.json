@@ -10,6 +10,9 @@
 		"ns6.dns.net.nz",
 		"ns7.dns.net.nz"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"country",
 		"geo"

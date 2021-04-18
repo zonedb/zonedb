@@ -11,6 +11,18 @@
 		"c.nic.rent",
 		"d.nic.rent"
 	],
+	"languages": [
+		"ar",
+		"he",
+		"ja",
+		"ko",
+		"lo",
+		"mul-Grek",
+		"mul-Latn",
+		"ru",
+		"th",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

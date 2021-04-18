@@ -13,6 +13,9 @@
 		"ns5.dns.nic.sas",
 		"ns6.dns.nic.sas"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

@@ -11,6 +11,14 @@
 		"c.nic.sandvikcoromant",
 		"d.nic.sandvikcoromant"
 	],
+	"languages": [
+		"da",
+		"fr",
+		"pl",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

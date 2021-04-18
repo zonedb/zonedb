@@ -13,6 +13,12 @@
 		"ns5.dns.nic.stream",
 		"ns6.dns.nic.stream"
 	],
+	"languages": [
+		"da",
+		"de",
+		"no",
+		"sv"
+	],
 	"tags": [
 		"generic"
 	],

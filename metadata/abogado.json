@@ -15,6 +15,9 @@
 		"dnsc.nic.abogado",
 		"dnsd.nic.abogado"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"generic"
 	],

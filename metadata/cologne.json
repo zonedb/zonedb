@@ -13,6 +13,10 @@
 		"Cologne",
 		"Koeln"
 	],
+	"languages": [
+		"de",
+		"mul-Latn"
+	],
 	"tags": [
 		"city",
 		"generic",

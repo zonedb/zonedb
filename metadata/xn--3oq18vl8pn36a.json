@@ -11,6 +11,28 @@
 		"b0.nic.大众汽车",
 		"c0.nic.大众汽车"
 	],
+	"languages": [
+		"be",
+		"bg",
+		"bs",
+		"da",
+		"de",
+		"es",
+		"hu",
+		"is",
+		"ko",
+		"lt",
+		"lv",
+		"mk",
+		"pl",
+		"ru",
+		"sr",
+		"sr-ME",
+		"sv",
+		"uk",
+		"zh-Hans",
+		"zh-Hant"
+	],
 	"tags": [
 		"generic"
 	],

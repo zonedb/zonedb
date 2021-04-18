@@ -14,6 +14,9 @@
 	"locations": [
 		"NL-FY"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"generic",
 		"region"

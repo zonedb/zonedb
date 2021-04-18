@@ -10,6 +10,9 @@
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
 	],
+	"languages": [
+		"mul-Arab"
+	],
 	"tags": [
 		"generic"
 	],

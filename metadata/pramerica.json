@@ -13,6 +13,24 @@
 		"ns5.dns.nic.pramerica",
 		"ns6.dns.nic.pramerica"
 	],
+	"languages": [
+		"da",
+		"de",
+		"es",
+		"fi",
+		"hu",
+		"is",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

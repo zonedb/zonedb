@@ -11,6 +11,15 @@
 		"c.nic.auto",
 		"d.nic.auto"
 	],
+	"languages": [
+		"de",
+		"es",
+		"fr",
+		"it",
+		"mul-Cyrl",
+		"pt",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

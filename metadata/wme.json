@@ -11,6 +11,9 @@
 		"c.nic.wme",
 		"d.nic.wme"
 	],
+	"languages": [
+		"de"
+	],
 	"tags": [
 		"brand",
 		"generic"

@@ -10,6 +10,9 @@
 		"j.ca-servers.ca",
 		"x.ca-servers.ca"
 	],
+	"languages": [
+		"fr"
+	],
 	"tags": [
 		"country",
 		"geo"

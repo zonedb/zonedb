@@ -2,6 +2,13 @@
 	"domain": "blanco",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.blanco",
+	"languages": [
+		"mul-Hang",
+		"mul-Hani",
+		"mul-Hano",
+		"mul-Latn",
+		"ru"
+	],
 	"tags": [
 		"generic"
 	],

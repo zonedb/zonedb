@@ -11,6 +11,21 @@
 		"c.nic.best",
 		"d.nic.best"
 	],
+	"languages": [
+		"ar",
+		"da",
+		"de",
+		"es",
+		"fr",
+		"ja",
+		"ko",
+		"nl",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

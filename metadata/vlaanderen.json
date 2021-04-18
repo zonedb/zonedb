@@ -16,6 +16,9 @@
 	"locations": [
 		"BE-VLG"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"generic",
 		"region"

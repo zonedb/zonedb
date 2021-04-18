@@ -11,6 +11,14 @@
 		"ac3.nstld.com",
 		"ac4.nstld.com"
 	],
+	"languages": [
+		"mul-Arab",
+		"mul-Hang",
+		"mul-Hani",
+		"mul-Hano",
+		"mul-Latn",
+		"ru"
+	],
 	"tags": [
 		"brand",
 		"generic"

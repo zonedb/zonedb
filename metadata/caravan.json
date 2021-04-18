@@ -13,6 +13,9 @@
 		"ns5.dns.nic.caravan",
 		"ns6.dns.nic.caravan"
 	],
+	"languages": [
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

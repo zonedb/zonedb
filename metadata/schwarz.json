@@ -11,6 +11,11 @@
 		"c.nic.schwarz",
 		"d.nic.schwarz"
 	],
+	"languages": [
+		"mul-Cyrl",
+		"mul-Grek",
+		"mul-Latn"
+	],
 	"tags": [
 		"brand",
 		"generic"

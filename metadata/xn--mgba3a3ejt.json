@@ -13,6 +13,10 @@
 		"ns5.dns.nic.ارامكو",
 		"ns6.dns.nic.ارامكو"
 	],
+	"languages": [
+		"ar",
+		"es"
+	],
 	"tags": [
 		"generic"
 	],

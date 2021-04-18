@@ -13,6 +13,9 @@
 	"locations": [
 		"DE-SL"
 	],
+	"languages": [
+		"de"
+	],
 	"tags": [
 		"generic",
 		"geo",

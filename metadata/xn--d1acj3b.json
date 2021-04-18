@@ -11,6 +11,9 @@
 		"e.dns.ripn.net",
 		"f.dns.ripn.net"
 	],
+	"languages": [
+		"ru"
+	],
 	"tags": [
 		"generic"
 	],

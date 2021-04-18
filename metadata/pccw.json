@@ -11,6 +11,10 @@
 		"b0.nic.pccw",
 		"c0.nic.pccw"
 	],
+	"languages": [
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"brand",
 		"generic"

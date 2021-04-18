@@ -10,6 +10,28 @@
 		"m.dns.nic.aco",
 		"n.dns.nic.aco"
 	],
+	"languages": [
+		"be",
+		"bg",
+		"bs",
+		"da",
+		"de",
+		"es",
+		"hu",
+		"is",
+		"ko",
+		"lt",
+		"lv",
+		"mk",
+		"pl",
+		"ru",
+		"sr",
+		"sr-ME",
+		"sv",
+		"uk",
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"brand",
 		"generic"

@@ -8,6 +8,9 @@
 		"in1.ns.ua",
 		"pch.ns.ua"
 	],
+	"languages": [
+		"mul-Cyrl"
+	],
 	"tags": [
 		"country",
 		"geo"

@@ -13,6 +13,10 @@
 		"ns5.dns.nic.aramco",
 		"ns6.dns.nic.aramco"
 	],
+	"languages": [
+		"ar",
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

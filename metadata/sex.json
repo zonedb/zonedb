@@ -11,6 +11,32 @@
 		"ns5.uniregistry.net",
 		"ns6.uniregistry.info"
 	],
+	"languages": [
+		"ar",
+		"be",
+		"bg",
+		"bs",
+		"cnr",
+		"da",
+		"de",
+		"es",
+		"fr",
+		"hu",
+		"is",
+		"it",
+		"ko",
+		"lt",
+		"lv",
+		"mk",
+		"pl",
+		"pt",
+		"ru",
+		"sr",
+		"sv",
+		"uk",
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"adult",
 		"generic"

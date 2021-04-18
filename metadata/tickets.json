@@ -11,6 +11,13 @@
 		"c.nic.tickets",
 		"d.nic.tickets"
 	],
+	"languages": [
+		"da",
+		"de",
+		"es",
+		"pl",
+		"sv"
+	],
 	"tags": [
 		"generic"
 	],

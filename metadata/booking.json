@@ -13,6 +13,24 @@
 		"ns5.dns.nic.booking",
 		"ns6.dns.nic.booking"
 	],
+	"languages": [
+		"da",
+		"de",
+		"es",
+		"fi",
+		"hu",
+		"is",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"closed",
 		"generic"

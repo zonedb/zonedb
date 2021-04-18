@@ -10,6 +10,18 @@
 		"ns5.nic.pw",
 		"ns6.nic.pw"
 	],
+	"languages": [
+		"ar",
+		"he",
+		"ja",
+		"ko",
+		"lo",
+		"mul-Cyrl",
+		"mul-Grek",
+		"mul-Latn",
+		"th",
+		"zh"
+	],
 	"tags": [
 		"country",
 		"geo"

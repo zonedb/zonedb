@@ -12,6 +12,10 @@
 		"g.dns.cn",
 		"ns.cernet.net"
 	],
+	"languages": [
+		"zh",
+		"zh-Hans"
+	],
 	"tags": [
 		"country",
 		"geo"

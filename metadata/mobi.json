@@ -13,6 +13,9 @@
 		"c0.mobi.afilias-nst.info",
 		"d0.mobi.afilias-nst.org"
 	],
+	"languages": [
+		"zh-CN"
+	],
 	"tags": [
 		"generic",
 		"sponsored"

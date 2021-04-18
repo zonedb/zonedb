@@ -13,6 +13,9 @@
 		"Hamburg",
 		"DE-HH"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"city",
 		"generic",

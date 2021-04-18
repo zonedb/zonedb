@@ -13,6 +13,9 @@
 	"locations": [
 		"DE-NW"
 	],
+	"languages": [
+		"de"
+	],
 	"tags": [
 		"generic",
 		"region"

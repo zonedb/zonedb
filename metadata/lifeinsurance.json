@@ -13,6 +13,9 @@
 		"ns5.dns.nic.lifeinsurance",
 		"ns6.dns.nic.lifeinsurance"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"generic"
 	],

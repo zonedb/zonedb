@@ -8,6 +8,11 @@
 		"x.dns.eu",
 		"y.dns.eu"
 	],
+	"languages": [
+		"mul-Cyrl",
+		"mul-Grek",
+		"mul-Latn"
+	],
 	"tags": [
 		"country",
 		"geo"

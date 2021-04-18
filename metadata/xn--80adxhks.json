@@ -13,6 +13,9 @@
 	"locations": [
 		"Moscow"
 	],
+	"languages": [
+		"ru"
+	],
 	"tags": [
 		"city",
 		"generic",

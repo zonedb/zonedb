@@ -7,6 +7,9 @@
 		"ir.cctld.authdns.ripe.net",
 		"ns5.univie.ac.at"
 	],
+	"languages": [
+		"fa"
+	],
 	"tags": [
 		"country",
 		"geo"

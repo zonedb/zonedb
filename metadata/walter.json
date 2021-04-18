@@ -11,6 +11,14 @@
 		"c.nic.walter",
 		"d.nic.walter"
 	],
+	"languages": [
+		"da",
+		"fr",
+		"pl",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

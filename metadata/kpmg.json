@@ -13,6 +13,13 @@
 		"ns5.dns.nic.kpmg",
 		"ns6.dns.nic.kpmg"
 	],
+	"languages": [
+		"de",
+		"es",
+		"ja",
+		"ko",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

@@ -9,6 +9,9 @@
 		"m.dns.nic.versicherung",
 		"n.dns.nic.versicherung"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"generic"
 	],

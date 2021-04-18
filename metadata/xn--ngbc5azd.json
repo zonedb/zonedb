@@ -11,6 +11,9 @@
 		"c.nic.شبكة",
 		"d.nic.شبكة"
 	],
+	"languages": [
+		"mul-Arab"
+	],
 	"tags": [
 		"generic"
 	],

@@ -15,6 +15,11 @@
 		"dnsc.nic.fishing",
 		"dnsd.nic.fishing"
 	],
+	"languages": [
+		"de",
+		"es",
+		"fr"
+	],
 	"tags": [
 		"generic"
 	],

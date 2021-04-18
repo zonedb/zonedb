@@ -10,6 +10,10 @@
 		"e.nic.bg",
 		"p.nic.bg"
 	],
+	"languages": [
+		"bg-BG",
+		"ru-BG"
+	],
 	"tags": [
 		"country",
 		"geo"

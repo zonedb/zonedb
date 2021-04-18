@@ -15,6 +15,26 @@
 		"dnsc.nic.got",
 		"dnsd.nic.got"
 	],
+	"languages": [
+		"ar",
+		"da",
+		"de",
+		"es",
+		"fi",
+		"fr",
+		"hu",
+		"is",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

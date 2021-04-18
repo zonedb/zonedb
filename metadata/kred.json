@@ -11,6 +11,21 @@
 		"c.nic.kred",
 		"d.nic.kred"
 	],
+	"languages": [
+		"ar",
+		"da",
+		"de",
+		"es",
+		"fr",
+		"ja",
+		"ko",
+		"nl",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"community",
 		"generic"

@@ -11,6 +11,9 @@
 		"c.nic.sfr",
 		"d.nic.sfr"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"brand",
 		"generic"

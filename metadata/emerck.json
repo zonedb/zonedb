@@ -11,6 +11,17 @@
 		"b0.nic.emerck",
 		"c0.nic.emerck"
 	],
+	"languages": [
+		"da",
+		"de",
+		"es",
+		"hu",
+		"is",
+		"lt",
+		"lv",
+		"pl",
+		"sv"
+	],
 	"tags": [
 		"brand",
 		"generic"

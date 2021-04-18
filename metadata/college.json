@@ -11,6 +11,18 @@
 		"c.nic.college",
 		"d.nic.college"
 	],
+	"languages": [
+		"ar",
+		"he",
+		"ja",
+		"ko",
+		"lo",
+		"mul-Grek",
+		"mul-Latn",
+		"ru",
+		"th",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],
