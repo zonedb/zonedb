@@ -13,6 +13,9 @@
 		"e.dns.br",
 		"f.dns.br"
 	],
+	"languages": [
+		"pt-BR"
+	],
 	"tags": [
 		"country",
 		"geo"
