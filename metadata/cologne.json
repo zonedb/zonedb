@@ -1,6 +1,6 @@
 {
 	"domain": "cologne",
-	"whoisServer": "whois.nic.cologne",
+	"whoisServer": "whois.ryce-rsp.com",
 	"rdapURLs": [
 		"https://rdap.ryce-rsp.com/rdap/"
 	],
