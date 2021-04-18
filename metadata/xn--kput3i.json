@@ -11,6 +11,9 @@
 		"b0.nic.手机",
 		"c0.nic.手机"
 	],
+	"tags": [
+		"generic"
+	],
 	"policies": [
 		{
 			"type": "idn-table",

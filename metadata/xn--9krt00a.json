@@ -11,6 +11,10 @@
 		"b0.nic.微博",
 		"c0.nic.微博"
 	],
+	"tags": [
+		"brand",
+		"generic"
+	],
 	"policies": [
 		{
 			"type": "idn-table",

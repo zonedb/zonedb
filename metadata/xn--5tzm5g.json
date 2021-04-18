@@ -11,6 +11,9 @@
 		"b0.nic.网站",
 		"c0.nic.网站"
 	],
+	"tags": [
+		"generic"
+	],
 	"policies": [
 		{
 			"type": "idn-table",
