@@ -11,6 +11,17 @@
 		"c.nic.deloitte",
 		"d.nic.deloitte"
 	],
+	"languages": [
+		"ar",
+		"de",
+		"es",
+		"fr",
+		"ja",
+		"nl",
+		"pt",
+		"ru",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

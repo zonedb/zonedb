@@ -11,6 +11,17 @@
 		"e.nic.fun",
 		"f.nic.fun"
 	],
+	"languages": [
+		"ar",
+		"he",
+		"ja",
+		"ko",
+		"lo",
+		"mul-Cyrl",
+		"mul-Grek",
+		"mul-Latn",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

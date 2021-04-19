@@ -13,6 +13,9 @@
 		"ns5.dns.nic.americanexpress",
 		"ns6.dns.nic.americanexpress"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

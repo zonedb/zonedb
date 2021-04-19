@@ -11,6 +11,9 @@
 		"demand.delta.aridns.net.au",
 		"demand.gamma.aridns.net.au"
 	],
+	"languages": [
+		"ar"
+	],
 	"tags": [
 		"generic"
 	],

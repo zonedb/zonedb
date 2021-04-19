@@ -13,6 +13,9 @@
 		"ns5.dns.nic.analytics",
 		"ns6.dns.nic.analytics"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"generic"
 	],

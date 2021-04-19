@@ -15,6 +15,20 @@
 		"dnsc.nic.vip",
 		"dnsd.nic.vip"
 	],
+	"languages": [
+		"ar",
+		"da",
+		"de",
+		"es",
+		"fi",
+		"fr",
+		"he",
+		"it",
+		"no",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

@@ -18,6 +18,9 @@
 	"locations": [
 		"DE-BY"
 	],
+	"languages": [
+		"de"
+	],
 	"tags": [
 		"generic",
 		"geo",

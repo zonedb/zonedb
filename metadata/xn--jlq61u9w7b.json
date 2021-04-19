@@ -11,6 +11,10 @@
 		"b0.nic.诺基亚",
 		"c0.nic.诺基亚"
 	],
+	"languages": [
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"generic"
 	],

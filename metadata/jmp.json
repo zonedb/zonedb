@@ -13,6 +13,9 @@
 		"ns5.dns.nic.jmp",
 		"ns6.dns.nic.jmp"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

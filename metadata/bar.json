@@ -10,6 +10,9 @@
 		"c.nic.bar",
 		"d.nic.bar"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"generic"
 	],

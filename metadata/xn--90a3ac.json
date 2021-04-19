@@ -9,6 +9,9 @@
 		"h.nic.rs",
 		"l.nic.rs"
 	],
+	"languages": [
+		"sr-Cyrl"
+	],
 	"tags": [
 		"country",
 		"geo"

@@ -10,6 +10,13 @@
 		"ns3.teleinfo.cn",
 		"ns4.teleinfoo.com"
 	],
+	"languages": [
+		"zh-CN",
+		"zh-Hant"
+	],
+	"tags": [
+		"generic"
+	],
 	"policies": [
 		{
 			"type": "idn-table",

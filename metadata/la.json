@@ -10,6 +10,15 @@
 	"locations": [
 		"Los Angeles"
 	],
+	"languages": [
+		"ja",
+		"lo",
+		"mul-Grek",
+		"mul-Latn",
+		"mul-Tavt",
+		"th",
+		"zh"
+	],
 	"tags": [
 		"city",
 		"country",

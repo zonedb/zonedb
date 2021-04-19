@@ -13,6 +13,10 @@
 		"ns5.dns.nic.aetna",
 		"ns6.dns.nic.aetna"
 	],
+	"languages": [
+		"es",
+		"pt"
+	],
 	"tags": [
 		"brand",
 		"generic"

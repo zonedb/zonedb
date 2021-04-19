@@ -10,6 +10,22 @@
 		"c.nic.ceo",
 		"d.nic.ceo"
 	],
+	"languages": [
+		"ar",
+		"da",
+		"de",
+		"es",
+		"fr",
+		"ja",
+		"ko",
+		"mul-Latn",
+		"nl",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

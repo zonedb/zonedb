@@ -13,6 +13,9 @@
 		"o.mx-ns.mx",
 		"x.mx-ns.mx"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"generic"
 	],

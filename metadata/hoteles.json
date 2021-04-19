@@ -13,6 +13,9 @@
 		"ns5.dns.nic.hoteles",
 		"ns6.dns.nic.hoteles"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"generic"
 	],

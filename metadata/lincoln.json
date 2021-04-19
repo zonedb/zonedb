@@ -13,6 +13,14 @@
 		"ns5.dns.nic.lincoln",
 		"ns6.dns.nic.lincoln"
 	],
+	"languages": [
+		"da",
+		"fr",
+		"pl",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

@@ -8,6 +8,10 @@
 		"ns3.uniregistry.net",
 		"ns4.uniregistry.info"
 	],
+	"languages": [
+		"es",
+		"ja"
+	],
 	"tags": [
 		"generic"
 	],

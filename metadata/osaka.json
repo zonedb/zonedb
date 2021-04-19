@@ -17,6 +17,9 @@
 		"Osaka",
 		"JP-27"
 	],
+	"languages": [
+		"ja"
+	],
 	"tags": [
 		"city",
 		"generic",

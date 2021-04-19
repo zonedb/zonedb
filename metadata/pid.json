@@ -11,6 +11,9 @@
 		"c.nic.pid",
 		"d.nic.pid"
 	],
+	"languages": [
+		"ar"
+	],
 	"tags": [
 		"generic"
 	],

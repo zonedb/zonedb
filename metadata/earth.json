@@ -13,6 +13,11 @@
 		"ns5.dns.nic.earth",
 		"ns6.dns.nic.earth"
 	],
+	"languages": [
+		"ja",
+		"ko",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

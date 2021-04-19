@@ -9,6 +9,9 @@
 		"y.nsset.be",
 		"z.nsset.be"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"country",
 		"geo"

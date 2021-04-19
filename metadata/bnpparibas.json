@@ -11,6 +11,32 @@
 		"b0.nic.bnpparibas",
 		"c0.nic.bnpparibas"
 	],
+	"languages": [
+		"ar",
+		"be",
+		"bg",
+		"bs",
+		"da",
+		"de",
+		"es",
+		"fr",
+		"hu",
+		"is",
+		"it",
+		"ko",
+		"lt",
+		"lv",
+		"mk",
+		"pl",
+		"pt",
+		"ru",
+		"sr",
+		"sr-ME",
+		"sv",
+		"uk",
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"brand",
 		"generic"

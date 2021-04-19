@@ -13,6 +13,25 @@
 		"ns5.dns.nic.accountant",
 		"ns6.dns.nic.accountant"
 	],
+	"languages": [
+		"da",
+		"de",
+		"es",
+		"fi",
+		"fr",
+		"hu",
+		"is",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

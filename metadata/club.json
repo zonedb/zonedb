@@ -12,6 +12,27 @@
 		"ns5.dns.nic.club",
 		"ns6.dns.nic.club"
 	],
+	"languages": [
+		"ar",
+		"da",
+		"de",
+		"es",
+		"fi",
+		"fr",
+		"hu",
+		"is",
+		"it",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

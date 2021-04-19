@@ -24,7 +24,7 @@ func TestLanguages(t *testing.T) {
 		domain string
 		want   []string
 	}{
-		{"com", nil},
+		{"us", nil},
 		{"中国", []string{"zh-Hans-CN"}},
 		{"中國", []string{"zh-Hant-CN"}},
 		{"台湾", []string{"zh-Hans-TW"}},

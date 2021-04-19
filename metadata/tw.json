@@ -13,6 +13,15 @@
 		"h.dns.tw",
 		"ns.twnic.net"
 	],
+	"languages": [
+		"de",
+		"fr",
+		"ja",
+		"ko",
+		"th",
+		"zh",
+		"zh-Hant"
+	],
 	"tags": [
 		"country",
 		"geo"

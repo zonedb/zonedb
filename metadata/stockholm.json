@@ -15,6 +15,9 @@
 		"Stockholm",
 		"SE-AB"
 	],
+	"languages": [
+		"sv"
+	],
 	"tags": [
 		"city",
 		"generic",

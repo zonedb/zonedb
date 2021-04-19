@@ -13,6 +13,9 @@
 		"ns5.dns.nic.mattel",
 		"ns6.dns.nic.mattel"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

@@ -11,6 +11,14 @@
 		"b0.nic.微博",
 		"c0.nic.微博"
 	],
+	"languages": [
+		"zh-CN",
+		"zh-TW"
+	],
+	"tags": [
+		"brand",
+		"generic"
+	],
 	"policies": [
 		{
 			"type": "idn-table",

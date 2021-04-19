@@ -17,6 +17,9 @@
 		"Brussels",
 		"BE-BRU"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"city",
 		"generic",

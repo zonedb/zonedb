@@ -15,6 +15,11 @@
 		"dnsc.nic.dds",
 		"dnsd.nic.dds"
 	],
+	"languages": [
+		"de",
+		"es",
+		"fr"
+	],
 	"tags": [
 		"generic"
 	],

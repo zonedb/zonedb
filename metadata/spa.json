@@ -8,6 +8,10 @@
 		"b0.nic.spa",
 		"c0.nic.spa"
 	],
+	"languages": [
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"community",
 		"generic"

@@ -11,6 +11,13 @@
 		"b0.nic.手机",
 		"c0.nic.手机"
 	],
+	"languages": [
+		"zh-CN",
+		"zh-TW"
+	],
+	"tags": [
+		"generic"
+	],
 	"policies": [
 		{
 			"type": "idn-table",

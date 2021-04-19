@@ -13,6 +13,9 @@
 		"ns5.dns.nic.safety",
 		"ns6.dns.nic.safety"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"generic"
 	],

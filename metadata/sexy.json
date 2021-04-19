@@ -11,6 +11,16 @@
 		"ns3.uniregistry.net",
 		"ns4.uniregistry.info"
 	],
+	"languages": [
+		"de",
+		"es",
+		"fr",
+		"it",
+		"ja",
+		"mul-Cyrl",
+		"pt",
+		"zh"
+	],
 	"tags": [
 		"adult",
 		"generic"

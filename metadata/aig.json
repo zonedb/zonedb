@@ -13,6 +13,9 @@
 		"ns5.dns.nic.aig",
 		"ns6.dns.nic.aig"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

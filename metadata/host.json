@@ -10,6 +10,18 @@
 		"e.nic.host",
 		"f.nic.host"
 	],
+	"languages": [
+		"ar",
+		"he",
+		"ja",
+		"ko",
+		"lo",
+		"mul-Cyrl",
+		"mul-Grek",
+		"mul-Latn",
+		"th",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

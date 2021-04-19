@@ -11,6 +11,32 @@
 		"anycast24.irondns.net",
 		"anycast9.irondns.net"
 	],
+	"languages": [
+		"ar",
+		"ca",
+		"cs",
+		"da",
+		"de",
+		"el",
+		"es",
+		"fi",
+		"fr",
+		"he",
+		"hr",
+		"hu",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"tr",
+		"uk",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

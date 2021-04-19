@@ -13,6 +13,9 @@
 		"ns5.dns.nic.nfl",
 		"ns6.dns.nic.nfl"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

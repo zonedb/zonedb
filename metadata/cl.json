@@ -10,6 +10,9 @@
 		"cl1.dnsnode.net",
 		"cl2-tld.d-zone.ca"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"country",
 		"geo"

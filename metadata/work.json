@@ -15,6 +15,12 @@
 		"dnsc.nic.work",
 		"dnsd.nic.work"
 	],
+	"languages": [
+		"de",
+		"es",
+		"fr",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

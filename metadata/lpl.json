@@ -11,6 +11,9 @@
 		"c.nic.lpl",
 		"d.nic.lpl"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

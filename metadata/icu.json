@@ -11,6 +11,21 @@
 		"c.nic.icu",
 		"d.nic.icu"
 	],
+	"languages": [
+		"ar",
+		"da",
+		"de",
+		"es",
+		"fr",
+		"ja",
+		"ko",
+		"nl",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

@@ -10,6 +10,9 @@
 		"tld3.nic.ntt",
 		"tld5.nic.ntt"
 	],
+	"languages": [
+		"ja"
+	],
 	"tags": [
 		"brand",
 		"generic"

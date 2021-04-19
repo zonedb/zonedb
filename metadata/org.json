@@ -13,6 +13,27 @@
 		"c0.org.afilias-nst.info",
 		"d0.org.afilias-nst.org"
 	],
+	"languages": [
+		"be",
+		"bg",
+		"bs",
+		"da",
+		"de",
+		"es",
+		"hu",
+		"is",
+		"ko",
+		"lt",
+		"lv",
+		"mk",
+		"pl",
+		"ru",
+		"sr",
+		"sv",
+		"uk",
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"generic"
 	],

@@ -11,6 +11,15 @@
 		"b0.nic.орг",
 		"c0.nic.орг"
 	],
+	"languages": [
+		"be",
+		"bg",
+		"bs",
+		"mk",
+		"ru",
+		"sr",
+		"uk"
+	],
 	"tags": [
 		"generic"
 	],

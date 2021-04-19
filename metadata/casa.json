@@ -15,6 +15,11 @@
 		"dnsc.nic.casa",
 		"dnsd.nic.casa"
 	],
+	"languages": [
+		"es",
+		"it",
+		"pt"
+	],
 	"tags": [
 		"generic"
 	],

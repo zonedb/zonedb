@@ -15,6 +15,26 @@
 		"dnsc.nic.tunes",
 		"dnsd.nic.tunes"
 	],
+	"languages": [
+		"ar",
+		"da",
+		"de",
+		"es",
+		"fi",
+		"fr",
+		"hu",
+		"is",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"closed",
 		"generic"

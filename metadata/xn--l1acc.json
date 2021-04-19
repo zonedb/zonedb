@@ -6,6 +6,9 @@
 		"ns2.idn.mn",
 		"ns3.idn.mn"
 	],
+	"languages": [
+		"mn"
+	],
 	"tags": [
 		"country",
 		"geo"

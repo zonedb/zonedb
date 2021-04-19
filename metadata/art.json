@@ -11,6 +11,22 @@
 		"c.nic.art",
 		"d.nic.art"
 	],
+	"languages": [
+		"ar",
+		"da",
+		"he",
+		"ja",
+		"ko",
+		"lo",
+		"mul-Cyrl",
+		"mul-Grek",
+		"mul-Latn",
+		"mul-Mymr",
+		"pl",
+		"ru",
+		"sv",
+		"th"
+	],
 	"tags": [
 		"generic"
 	],

@@ -11,6 +11,10 @@
 		"b0.nic.temasek",
 		"c0.nic.temasek"
 	],
+	"languages": [
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"brand",
 		"generic"

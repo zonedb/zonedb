@@ -11,6 +11,9 @@
 		"c.nic.scb",
 		"d.nic.scb"
 	],
+	"languages": [
+		"th"
+	],
 	"tags": [
 		"brand",
 		"generic"

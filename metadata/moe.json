@@ -12,6 +12,9 @@
 		"ns5.dns.nic.moe",
 		"ns6.dns.nic.moe"
 	],
+	"languages": [
+		"ja"
+	],
 	"tags": [
 		"generic"
 	],

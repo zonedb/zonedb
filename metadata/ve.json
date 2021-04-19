@@ -8,6 +8,9 @@
 		"ns6.nic.ve",
 		"ssdns-tld.nic.cl"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"closed",
 		"country",

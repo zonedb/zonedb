@@ -15,6 +15,9 @@
 		"Istanbul",
 		"TR-34"
 	],
+	"languages": [
+		"tr"
+	],
 	"tags": [
 		"city",
 		"generic",

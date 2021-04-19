@@ -11,6 +11,9 @@
 		"c.nic.box",
 		"d.nic.box"
 	],
+	"languages": [
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

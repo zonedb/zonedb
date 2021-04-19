@@ -51,6 +51,12 @@
 		"GB-WND",
 		"GB-WSM"
 	],
+	"languages": [
+		"de",
+		"es",
+		"fr",
+		"it"
+	],
 	"tags": [
 		"city",
 		"generic",

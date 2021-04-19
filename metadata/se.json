@@ -13,6 +13,10 @@
 		"y.ns.se",
 		"z.ns.se"
 	],
+	"languages": [
+		"mul-Latn",
+		"yi"
+	],
 	"tags": [
 		"country",
 		"geo"

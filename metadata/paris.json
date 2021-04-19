@@ -14,6 +14,9 @@
 		"Paris",
 		"FR-J"
 	],
+	"languages": [
+		"fr"
+	],
 	"tags": [
 		"city",
 		"generic",

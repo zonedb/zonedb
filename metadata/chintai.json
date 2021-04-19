@@ -13,6 +13,9 @@
 		"ns5.dns.nic.chintai",
 		"ns6.dns.nic.chintai"
 	],
+	"languages": [
+		"ja"
+	],
 	"tags": [
 		"brand",
 		"generic"

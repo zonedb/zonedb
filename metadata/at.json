@@ -12,6 +12,9 @@
 		"r.ns.at",
 		"u.ns.at"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"country",
 		"geo"

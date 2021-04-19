@@ -13,6 +13,9 @@
 		"Vienna",
 		"AT-9"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"city",
 		"generic",

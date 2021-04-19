@@ -8,6 +8,9 @@
 		"e.dns.ripn.net",
 		"f.dns.ripn.net"
 	],
+	"languages": [
+		"ru-RU"
+	],
 	"tags": [
 		"country",
 		"geo"

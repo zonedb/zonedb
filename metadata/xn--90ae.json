@@ -9,6 +9,9 @@
 		"e.nic.bg",
 		"p.nic.bg"
 	],
+	"languages": [
+		"bg-BG"
+	],
 	"tags": [
 		"country",
 		"geo"

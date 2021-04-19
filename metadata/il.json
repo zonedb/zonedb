@@ -12,6 +12,9 @@
 		"nsb.ns.il",
 		"nse.ns.il"
 	],
+	"languages": [
+		"he"
+	],
 	"tags": [
 		"closed",
 		"country",

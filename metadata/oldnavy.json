@@ -13,6 +13,9 @@
 		"ns5.dns.nic.oldnavy",
 		"ns6.dns.nic.oldnavy"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

@@ -12,6 +12,23 @@
 		"f.gtld.biz",
 		"k.gtld.biz"
 	],
+	"languages": [
+		"da",
+		"de",
+		"es",
+		"fi",
+		"hu",
+		"is",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

@@ -8,6 +8,9 @@
 		"a.ns.nic.kiwi",
 		"b.ns.nic.kiwi"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"generic"
 	],

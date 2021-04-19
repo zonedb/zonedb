@@ -13,6 +13,9 @@
 		"ns5.dns.nic.mutual",
 		"ns6.dns.nic.mutual"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

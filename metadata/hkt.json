@@ -11,6 +11,10 @@
 		"b0.nic.hkt",
 		"c0.nic.hkt"
 	],
+	"languages": [
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"brand",
 		"generic"

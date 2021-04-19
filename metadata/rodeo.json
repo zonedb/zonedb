@@ -15,6 +15,11 @@
 		"dnsc.nic.rodeo",
 		"dnsd.nic.rodeo"
 	],
+	"languages": [
+		"de",
+		"es",
+		"fr"
+	],
 	"tags": [
 		"generic"
 	],

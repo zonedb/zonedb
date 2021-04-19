@@ -11,6 +11,17 @@
 		"c.nic.love",
 		"d.nic.love"
 	],
+	"languages": [
+		"ar",
+		"he",
+		"ja",
+		"ko",
+		"lo",
+		"mul-Cyrl",
+		"mul-Grek",
+		"mul-Latn",
+		"th"
+	],
 	"tags": [
 		"generic"
 	],

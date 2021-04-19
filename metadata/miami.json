@@ -18,6 +18,10 @@
 	"locations": [
 		"Miami"
 	],
+	"languages": [
+		"es",
+		"fr"
+	],
 	"tags": [
 		"city",
 		"generic",

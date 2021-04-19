@@ -15,6 +15,12 @@
 		"dnsc.nic.law",
 		"dnsd.nic.law"
 	],
+	"languages": [
+		"de",
+		"es",
+		"fr",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

@@ -10,6 +10,17 @@
 		"ns5.cctld.co",
 		"ns6.cctld.co"
 	],
+	"languages": [
+		"da",
+		"es",
+		"fi",
+		"is",
+		"ja",
+		"ko",
+		"no",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"country",
 		"generic",

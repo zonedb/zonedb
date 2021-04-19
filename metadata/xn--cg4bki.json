@@ -11,6 +11,9 @@
 		"ns3.삼성.centralnic-dns.com",
 		"ns4.삼성.centralnic-dns.com"
 	],
+	"languages": [
+		"ko"
+	],
 	"tags": [
 		"brand",
 		"generic"

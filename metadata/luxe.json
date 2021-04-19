@@ -15,6 +15,20 @@
 		"dnsc.nic.luxe",
 		"dnsd.nic.luxe"
 	],
+	"languages": [
+		"ar",
+		"da",
+		"de",
+		"es",
+		"fi",
+		"fr",
+		"he",
+		"it",
+		"no",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

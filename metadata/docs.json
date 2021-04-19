@@ -12,6 +12,33 @@
 		"ns-tld4.charlestonroadregistry.com",
 		"ns-tld5.charlestonroadregistry.com"
 	],
+	"languages": [
+		"mul-Arab",
+		"mul-Armn",
+		"mul-Beng",
+		"mul-Cyrl",
+		"mul-Deva",
+		"mul-Ethi",
+		"mul-Geor",
+		"mul-Grek",
+		"mul-Guru",
+		"mul-Hebr",
+		"mul-Jpan",
+		"mul-Khmr",
+		"mul-Knda",
+		"mul-Kore",
+		"mul-Latn",
+		"mul-Mlym",
+		"mul-Mymr",
+		"mul-Orya",
+		"mul-Sinh",
+		"mul-Taml",
+		"mul-Telu",
+		"mul-Thai",
+		"mul-Tibt",
+		"zh-Hans",
+		"zh-Hant"
+	],
 	"tags": [
 		"generic"
 	],

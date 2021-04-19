@@ -15,6 +15,9 @@
 		"dnsc.nic.pharmacy",
 		"dnsd.nic.pharmacy"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"generic"
 	],

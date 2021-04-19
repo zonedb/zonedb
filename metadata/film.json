@@ -11,6 +11,30 @@
 		"c.nic.film",
 		"d.nic.film"
 	],
+	"languages": [
+		"ar",
+		"da",
+		"de",
+		"es",
+		"fi",
+		"fr",
+		"he",
+		"hi",
+		"hu",
+		"is",
+		"it",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"nl",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

@@ -11,6 +11,10 @@
 		"c.nic.feedback",
 		"d.nic.feedback"
 	],
+	"languages": [
+		"ar",
+		"mul-Latn"
+	],
 	"tags": [
 		"generic"
 	],

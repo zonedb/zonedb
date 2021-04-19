@@ -13,6 +13,9 @@
 	"locations": [
 		"FR-A"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"generic",
 		"geo",

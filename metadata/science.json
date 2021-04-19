@@ -13,6 +13,25 @@
 		"ns5.dns.nic.science",
 		"ns6.dns.nic.science"
 	],
+	"languages": [
+		"da",
+		"de",
+		"es",
+		"fi",
+		"fr",
+		"hu",
+		"is",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

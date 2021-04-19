@@ -13,6 +13,9 @@
 	"locations": [
 		"AT-7"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"generic",
 		"region"

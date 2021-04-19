@@ -12,6 +12,9 @@
 		"ns5.dns.nic.buzz",
 		"ns6.dns.nic.buzz"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"generic"
 	],

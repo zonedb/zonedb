@@ -11,6 +11,23 @@
 		"b0.nic.watches",
 		"c0.nic.watches"
 	],
+	"languages": [
+		"da",
+		"de",
+		"es",
+		"fi",
+		"hu",
+		"is",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh-TW"
+	],
 	"tags": [
 		"generic"
 	],

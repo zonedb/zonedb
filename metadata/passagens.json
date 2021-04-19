@@ -13,6 +13,9 @@
 		"ns5.dns.nic.passagens",
 		"ns6.dns.nic.passagens"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

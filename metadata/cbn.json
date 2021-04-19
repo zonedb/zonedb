@@ -13,6 +13,9 @@
 		"ns5.dns.nic.cbn",
 		"ns6.dns.nic.cbn"
 	],
+	"languages": [
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

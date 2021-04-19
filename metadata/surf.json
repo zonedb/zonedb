@@ -15,6 +15,11 @@
 		"dnsc.nic.surf",
 		"dnsd.nic.surf"
 	],
+	"languages": [
+		"de",
+		"es",
+		"fr"
+	],
 	"tags": [
 		"generic"
 	],

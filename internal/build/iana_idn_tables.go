@@ -90,6 +90,7 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 		}
 
 		z.AddPolicy(TypeIDNTable, lang, u.String(), "") // "Fetched from "+ianaTablesURL)
+		z.Languages = append(z.Languages, lang)
 
 		atomic.AddUint64(&extractedCount, 1)
 	})

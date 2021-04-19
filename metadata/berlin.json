@@ -13,6 +13,10 @@
 		"Berlin",
 		"DE-BE"
 	],
+	"languages": [
+		"mul-Cyrl",
+		"mul-Latn"
+	],
 	"tags": [
 		"city",
 		"generic",

@@ -10,6 +10,9 @@
 		"k.dns.si",
 		"l.dns.si"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"country",
 		"geo"

@@ -11,6 +11,9 @@
 		"b0.nic.frogans",
 		"c0.nic.frogans"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"brand",
 		"generic"

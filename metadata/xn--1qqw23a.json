@@ -12,6 +12,9 @@
 	"locations": [
 		"Foshan"
 	],
+	"languages": [
+		"zh-Hans"
+	],
 	"tags": [
 		"city",
 		"generic",

@@ -11,6 +11,22 @@
 		"demand.delta.aridns.net.au",
 		"demand.gamma.aridns.net.au"
 	],
+	"languages": [
+		"de",
+		"es",
+		"fr",
+		"ja",
+		"ko",
+		"mul-Arab",
+		"mul-Cyrl",
+		"mul-Deva",
+		"mul-Grek",
+		"mul-Hebr",
+		"mul-Latn",
+		"mul-Taml",
+		"mul-Thai",
+		"zh"
+	],
 	"policies": [
 		{
 			"type": "idn-table",

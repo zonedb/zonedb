@@ -14,6 +14,9 @@
 		"ns15.rcode0.net",
 		"u.nic.swiss"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"community",
 		"generic"

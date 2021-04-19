@@ -13,6 +13,9 @@
 		"ns5.dns.nic.gap",
 		"ns6.dns.nic.gap"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

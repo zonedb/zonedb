@@ -13,6 +13,9 @@
 		"ns5.dns.nic.target",
 		"ns6.dns.nic.target"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

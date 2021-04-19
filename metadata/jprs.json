@@ -11,6 +11,9 @@
 		"tld4.nic.jprs",
 		"tld5.nic.jprs"
 	],
+	"languages": [
+		"ja"
+	],
 	"tags": [
 		"brand",
 		"generic"

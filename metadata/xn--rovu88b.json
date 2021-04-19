@@ -13,6 +13,26 @@
 		"ns5.dns.nic.書籍",
 		"ns6.dns.nic.書籍"
 	],
+	"languages": [
+		"ar",
+		"da",
+		"de",
+		"es",
+		"fi",
+		"fr",
+		"hu",
+		"is",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh"
+	],
 	"policies": [
 		{
 			"type": "idn-table",

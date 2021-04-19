@@ -13,6 +13,14 @@
 		"ns5.dns.nic.flickr",
 		"ns6.dns.nic.flickr"
 	],
+	"languages": [
+		"de",
+		"es",
+		"ja",
+		"ko",
+		"ru",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"

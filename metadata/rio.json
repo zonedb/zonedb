@@ -17,6 +17,9 @@
 		"Rio de Janeiro",
 		"BR-RJ"
 	],
+	"languages": [
+		"pt"
+	],
 	"tags": [
 		"city",
 		"generic",

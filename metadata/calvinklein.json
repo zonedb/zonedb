@@ -13,6 +13,9 @@
 		"ns5.dns.nic.calvinklein",
 		"ns6.dns.nic.calvinklein"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"brand",
 		"generic"

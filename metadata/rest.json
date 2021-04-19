@@ -10,6 +10,9 @@
 		"c.nic.rest",
 		"d.nic.rest"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"generic"
 	],

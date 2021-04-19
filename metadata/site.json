@@ -11,6 +11,18 @@
 		"e.nic.site",
 		"f.nic.site"
 	],
+	"languages": [
+		"ar",
+		"he",
+		"ja",
+		"ko",
+		"lo",
+		"mul-Cyrl",
+		"mul-Grek",
+		"mul-Latn",
+		"th",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],

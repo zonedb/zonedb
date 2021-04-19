@@ -11,6 +11,10 @@
 		"b0.nic.richardli",
 		"c0.nic.richardli"
 	],
+	"languages": [
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"brand",
 		"generic"
