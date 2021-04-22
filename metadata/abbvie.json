@@ -6,10 +6,12 @@
 		"https://rdap.afilias-srs.net/rdap/abbvie/"
 	],
 	"nameServers": [
-		"a0.nic.abbvie",
-		"a2.nic.abbvie",
 		"b0.nic.abbvie",
-		"c0.nic.abbvie"
+		"c0.nic.abbvie",
+		"dns1.nic.abbvie",
+		"dns2.nic.abbvie",
+		"dns3.nic.abbvie",
+		"dns4.nic.abbvie"
 	],
 	"tags": [
 		"brand",

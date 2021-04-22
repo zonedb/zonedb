@@ -1,7 +1,7 @@
 {
 	"domain": "ukots.com",
 	"nameServers": [
-		"ns43.domaincontrol.com",
-		"ns44.domaincontrol.com"
+		"cdns1.main-hosting.eu",
+		"cdns2.main-hosting.eu"
 	]
 }
