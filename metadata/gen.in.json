@@ -9,6 +9,9 @@
 		"ns5.registry.in",
 		"ns6.registry.in"
 	],
+	"tags": [
+		"private"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
