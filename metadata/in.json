@@ -2,6 +2,9 @@
 	"domain": "in",
 	"infoURL": "https://www.registry.in/",
 	"whoisServer": "whois.registry.in",
+	"rdapURLs": [
+		"https://rdap.registry.in/"
+	],
 	"nameServers": [
 		"ns1.registry.in",
 		"ns2.registry.in",
