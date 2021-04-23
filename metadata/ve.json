@@ -2,6 +2,7 @@
 	"domain": "ve",
 	"whoisServer": "whois.nic.ve",
 	"nameServers": [
+		"a.lactld.org",
 		"ns3.nic.ve",
 		"ns4.nic.ve",
 		"ns5.nic.ve",
