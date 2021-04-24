@@ -1,7 +1,7 @@
 {
 	"domain": "kim",
 	"infoURL": "https://get.kim/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.kim",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/kim/"
 	],
