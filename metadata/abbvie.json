@@ -11,7 +11,11 @@
 		"dns1.nic.abbvie",
 		"dns2.nic.abbvie",
 		"dns3.nic.abbvie",
-		"dns4.nic.abbvie"
+		"dns4.nic.abbvie",
+		"dnsa.nic.abbvie",
+		"dnsb.nic.abbvie",
+		"dnsc.nic.abbvie",
+		"dnsd.nic.abbvie"
 	],
 	"tags": [
 		"brand",

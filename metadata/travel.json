@@ -3,7 +3,7 @@
 	"infoURL": "https://www.travel.domains/",
 	"whoisServer": "whois.nic.travel",
 	"rdapURLs": [
-		"https://rdap.nic.travel/"
+		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
 		"demand.alpha.aridns.net.au",
