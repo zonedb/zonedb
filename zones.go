@@ -1551,7 +1551,7 @@ var y = [5192]Zone{
 	{"ubs", r, x, 0x42, "https://newgtlds.icann.org/", w{"ac1.nstld.com", "ac2.nstld.com", "ac3.nstld.com", "ac4.nstld.com"}, n, n, n, "whois.nic.ubs", e, w{"https://tld-rdap.verisign.com/ubs/v1/"}, f},
 	{"uconnect", r, x, 0x42, "https://newgtlds.icann.org/", n, n, n, n, "whois.afilias-srs.net", e, n, f},
 	{"ug", r, z[4659:4668], 0xa0, e, w{"anycast.eahd.or.ug", "ns-ug.afrinic.net", "ns.icann.org", "root.eahd.or.ug", "ug.cctld.authdns.ripe.net"}, n, n, n, "whois.co.ug", e, n, f},
-	{"uk", r, z[4668:4678], 0xa0, "https://www.nominet.uk/", w{"dns1.nic.uk", "dns2.nic.uk", "dns3.nic.uk", "dns4.nic.uk", "nsa.nic.uk", "nsb.nic.uk", "nsc.nic.uk", "nsd.nic.uk"}, n, n, n, "whois.nic.uk", e, n, f},
+	{"uk", r, z[4668:4678], 0xa0, "https://www.nominet.uk/", w{"dns1.nic.uk", "dns2.nic.uk", "dns3.nic.uk", "dns4.nic.uk", "nsa.nic.uk", "nsb.nic.uk", "nsc.nic.uk", "nsd.nic.uk"}, n, n, n, "whois.nic.uk", e, w{"https://rdap.nominet.uk/uk/"}, f},
 	{"ultrabook", r, x, 0x42, "https://newgtlds.icann.org/", n, n, n, n, e, e, n, f},
 	{"um", r, x, 0x8a0, e, n, n, n, n, e, e, n, f},
 	{"ummah", r, x, 0x2042, "https://newgtlds.icann.org/", n, n, n, n, e, e, n, f},

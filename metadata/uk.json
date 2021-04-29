@@ -2,6 +2,9 @@
 	"domain": "uk",
 	"infoURL": "https://www.nominet.uk/",
 	"whoisServer": "whois.nic.uk",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/uk/"
+	],
 	"nameServers": [
 		"dns1.nic.uk",
 		"dns2.nic.uk",
