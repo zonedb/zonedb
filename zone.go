@@ -102,7 +102,13 @@ func (z *Zone) WhoisURL() string {
 
 // RDAPURLs returns the set of RDAP URL endpoints for a zone.
 func (z *Zone) RDAPURLs() []string {
-	return z.rdapURLs
+	if len(z.rdapURLs) != 0 {
+		return z.rdapURLs
+	}
+	if z.Parent != nil {
+		return z.Parent.RDAPURLs()
+	}
+	return nil
 }
 
 // IsTLD returns true if the Zone is a top-level domain.

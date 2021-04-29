@@ -38,7 +38,32 @@ func TestLanguages(t *testing.T) {
 			z := ZoneMap[domain]
 			got := z.languages
 			if !reflect.DeepEqual(tt.want, got) {
-				t.Errorf("Zone.Language(), got: %v, want: %v", got, tt.want)
+				t.Errorf("Zone.Language(), got: %#v, want: %#v", got, tt.want)
+			}
+		})
+	}
+}
+
+func TestRDAPURLs(t *testing.T) {
+	tests := []struct {
+		domain string
+		want   []string
+	}{
+		{"nr", nil},
+		{"uk", []string{"https://rdap.nominet.uk/uk/"}},
+		{"co.uk", []string{"https://rdap.nominet.uk/uk/"}},
+		{"ac.uk", []string{"https://rdap.nominet.uk/uk/"}},
+		{"bbc", []string{"https://rdap.nominet.uk/bbc/"}},
+		{"lol", []string{"https://whois.uniregistry.net/rdap/"}},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.domain, func(t *testing.T) {
+			domain := ToASCII(tt.domain)
+			z := ZoneMap[domain]
+			got := z.RDAPURLs()
+			if !reflect.DeepEqual(tt.want, got) {
+				t.Errorf("Zone.RDAPURLs(), got: %#v, want: %#v", got, tt.want)
 			}
 		})
 	}
