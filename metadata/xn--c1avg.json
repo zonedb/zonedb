@@ -18,6 +18,7 @@
 		"mk",
 		"ru",
 		"sr",
+		"sr-ME",
 		"uk"
 	],
 	"tags": [
@@ -53,6 +54,11 @@
 			"type": "idn-table",
 			"key": "sr",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_sr_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sr-ME",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_sr-me_1.txt"
 		},
 		{
 			"type": "idn-table",

@@ -11,7 +11,23 @@
 		"b0.nic.组织机构",
 		"c0.nic.组织机构"
 	],
+	"languages": [
+		"zh-CN",
+		"zh-TW"
+	],
 	"tags": [
 		"generic"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh-CN",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--nqv7fs00ema_zh-cn_4.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-TW",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--nqv7fs00ema_zh-tw_4.0.txt"
+		}
 	]
 }

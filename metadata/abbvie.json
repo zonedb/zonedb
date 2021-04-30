@@ -6,8 +6,6 @@
 		"https://rdap.afilias-srs.net/rdap/abbvie/"
 	],
 	"nameServers": [
-		"b0.nic.abbvie",
-		"c0.nic.abbvie",
 		"dns1.nic.abbvie",
 		"dns2.nic.abbvie",
 		"dns3.nic.abbvie",

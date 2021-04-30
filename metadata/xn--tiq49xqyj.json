@@ -11,7 +11,23 @@
 		"c.nic.天主教",
 		"d.nic.天主教"
 	],
+	"languages": [
+		"zh-Hans",
+		"zh-Hant"
+	],
 	"tags": [
 		"generic"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh-Hans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--tiq49xqyj_zh-hans_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hant",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--tiq49xqyj_zh-hant_3.0.xml"
+		}
 	]
 }

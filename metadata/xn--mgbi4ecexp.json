@@ -11,7 +11,17 @@
 		"c.nic.كاثوليك",
 		"d.nic.كاثوليك"
 	],
+	"languages": [
+		"ar"
+	],
 	"tags": [
 		"generic"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgbi4ecexp_ar_3.0.xml"
+		}
 	]
 }
