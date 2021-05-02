@@ -1,5 +1,9 @@
 {
 	"domain": "com.ki",
+	"nameServers": [
+		"ns.cocca.fr",
+		"pch.nic.ki"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
