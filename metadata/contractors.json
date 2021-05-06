@@ -1,6 +1,6 @@
 {
 	"domain": "contractors",
-	"whoisServer": "whois.nic.contractors",
+	"whoisServer": "whois.nic.technology",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"
 	],

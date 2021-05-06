@@ -1,7 +1,6 @@
 {
 	"domain": "co.kn",
 	"nameServers": [
-		"ns.cocca.fr",
 		"pch.nic.kn"
 	]
 }

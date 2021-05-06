@@ -1,7 +1,7 @@
 {
 	"domain": "green",
 	"infoURL": "https://get.green/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.green",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/green/"
 	],

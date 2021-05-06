@@ -14,6 +14,16 @@
 		"de",
 		"es",
 		"fr",
+		"ja",
+		"ko",
+		"mul-Arab",
+		"mul-Cyrl",
+		"mul-Deva",
+		"mul-Grek",
+		"mul-Hebr",
+		"mul-Latn",
+		"mul-Taml",
+		"mul-Thai",
 		"zh"
 	],
 	"tags": [
@@ -23,22 +33,72 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/actor_de_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocks_de_1.1.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/actor_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocks_es_1.1.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/actor_fr_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocks_fr_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocks_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocks_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Arab",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocks_arab_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocks_cyrl_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Deva",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocks_deva_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocks_grek_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hebr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocks_hebr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocks_latn_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Taml",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocks_taml_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Thai",
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocks_thai_1.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/actor_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rocks_zh_1.1.txt"
 		}
 	]
 }

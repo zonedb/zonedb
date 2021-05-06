@@ -1,6 +1,6 @@
 {
 	"domain": "sg",
-	"whoisServer": "whois.sgnic.sg",
+	"whoisServer": "whois.nic.net.sg",
 	"nameServers": [
 		"dsany.sgnic.sg",
 		"dsany2.sgnic.sg",
