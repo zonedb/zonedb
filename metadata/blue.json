@@ -1,7 +1,7 @@
 {
 	"domain": "blue",
 	"infoURL": "https://dotblue.blue/",
-	"whoisServer": "whois.nic.blue",
+	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/blue/"
 	],

@@ -1,7 +1,7 @@
 {
 	"domain": "xxx",
 	"infoURL": "https://nic.xxx/",
-	"whoisServer": "whois.nic.xxx",
+	"whoisServer": "whois.registrar.adult",
 	"rdapURLs": [
 		"https://whois.registrar.adult/rdap/"
 	],

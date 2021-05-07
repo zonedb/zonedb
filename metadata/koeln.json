@@ -1,6 +1,6 @@
 {
 	"domain": "koeln",
-	"whoisServer": "whois.nic.koeln",
+	"whoisServer": "whois.ryce-rsp.com",
 	"rdapURLs": [
 		"https://rdap.ryce-rsp.com/rdap/"
 	],

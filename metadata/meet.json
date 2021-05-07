@@ -1,7 +1,7 @@
 {
 	"domain": "meet",
 	"infoURL": "https://www.registry.google/",
-	"whoisServer": "whois.nic.google",
+	"whoisServer": "whois.nic.meet",
 	"rdapURLs": [
 		"https://www.registry.google/rdap/"
 	],
