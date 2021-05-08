@@ -2,7 +2,9 @@
 	"domain": "pro.mk",
 	"nameServers": [
 		"ns1.he.net",
-		"ns2.he.net"
+		"ns2.he.net",
+		"ns3.he.net",
+		"ns4.he.net"
 	],
 	"wildcards": [
 		"162.218.232.95"

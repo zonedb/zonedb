@@ -1,7 +1,7 @@
 {
 	"domain": "pro",
 	"infoURL": "https://registry.pro/",
-	"whoisServer": "whois.registrypro.pro",
+	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/pro/"
 	],

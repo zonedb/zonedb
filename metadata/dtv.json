@@ -6,7 +6,10 @@
 		"https://rdap.afilias-srs.net/rdap/dtv/"
 	],
 	"nameServers": [
-		"a0.nic.dtv"
+		"a0.nic.dtv",
+		"a2.nic.dtv",
+		"b0.nic.dtv",
+		"c0.nic.dtv"
 	],
 	"tags": [
 		"brand",

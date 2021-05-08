@@ -13,9 +13,19 @@
 	"locations": [
 		"ES-GA"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"generic",
 		"geo",
 		"region"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/gal_latn_1.0.txt"
+		}
 	]
 }

@@ -1,7 +1,7 @@
 {
 	"domain": "rich",
 	"infoURL": "https://nic.rich/",
-	"whoisServer": "whois.nic.rich",
+	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/rich/"
 	],

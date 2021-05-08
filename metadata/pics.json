@@ -1,7 +1,7 @@
 {
 	"domain": "pics",
 	"infoURL": "https://nic.pics/",
-	"whoisServer": "whois.nic.pics",
+	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],

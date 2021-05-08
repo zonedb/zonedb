@@ -1,7 +1,7 @@
 {
 	"domain": "sexy",
 	"infoURL": "https://nic.sexy/",
-	"whoisServer": "whois.nic.sexy",
+	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],

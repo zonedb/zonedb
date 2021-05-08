@@ -1,6 +1,6 @@
 {
 	"domain": "biz",
-	"whoisServer": "whois.biz",
+	"whoisServer": "whois.nic.biz",
 	"rdapURLs": [
 		"https://rdap.nic.biz/"
 	],

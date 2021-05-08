@@ -1,7 +1,7 @@
 {
 	"domain": "africa",
 	"infoURL": "https://newgtlds.icann.org/",
-	"whoisServer": "whois.nic.africa",
+	"whoisServer": "africa-whois.registry.net.za",
 	"rdapURLs": [
 		"https://rdap.registry.net.za/rdap/"
 	],
