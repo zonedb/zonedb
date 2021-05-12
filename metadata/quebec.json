@@ -14,9 +14,19 @@
 		"Quebec",
 		"CA-QC"
 	],
+	"languages": [
+		"fr"
+	],
 	"tags": [
 		"city",
 		"generic",
 		"geo"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/quebec_fr_1.0.txt"
+		}
 	]
 }

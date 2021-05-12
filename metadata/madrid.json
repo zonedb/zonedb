@@ -15,6 +15,9 @@
 		"Madrid",
 		"ES-MD"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"city",
 		"generic",
@@ -22,7 +25,9 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/madrid_latn_1.0.txt"
 		}
 	]
 }
