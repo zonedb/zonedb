@@ -2,11 +2,8 @@
 	"domain": "gov.np",
 	"infoURL": "https://nitc.gov.np/",
 	"nameServers": [
-		"koshi.nitc.gov.np",
-		"mechi.nitc.gov.np",
 		"np-ns.npix.net.np",
 		"np.cctld.authdns.ripe.net",
-		"ns-ext.vix.com",
 		"ns-np.ripe.net",
 		"ns4.apnic.net",
 		"pch.nnic.np",
