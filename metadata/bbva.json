@@ -6,8 +6,6 @@
 		"https://tld-rdap.verisign.com/bbva/v1/"
 	],
 	"nameServers": [
-		"ac3.nstld.com",
-		"ac4.nstld.com",
 		"dns1-bbva.nominetdns.uk",
 		"dns2-bbva.nominetdns.uk",
 		"dns3-bbva.nominetdns.uk",
