@@ -1,7 +1,7 @@
 {
 	"domain": "country",
 	"infoURL": "https://nic.country/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.country",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],

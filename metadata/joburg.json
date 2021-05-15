@@ -1,6 +1,6 @@
 {
 	"domain": "joburg",
-	"whoisServer": "joburg-whois.registry.net.za",
+	"whoisServer": "whois.nic.joburg",
 	"rdapURLs": [
 		"https://rdap.registry.net.za/rdap/"
 	],

@@ -3,6 +3,9 @@
 	"whoisURL": "http://www.aub.edu.lb/lbdr/",
 	"nameServers": [
 		"fork.sth.dnsnode.net",
+		"nn.uninett.no",
+		"ns3.seacomnet.com",
+		"ns4.seacomnet.com",
 		"rip.psg.com",
 		"zeina.aub.edu.lb"
 	],

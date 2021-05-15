@@ -1,6 +1,6 @@
 {
 	"domain": "durban",
-	"whoisServer": "durban-whois.registry.net.za",
+	"whoisServer": "whois.nic.durban",
 	"rdapURLs": [
 		"https://rdap.registry.net.za/rdap/"
 	],

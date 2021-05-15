@@ -7,12 +7,8 @@
 	],
 	"nameServers": [
 		"a.nic.case",
-		"a0.nic.case",
-		"a2.nic.case",
 		"b.nic.case",
-		"b0.nic.case",
 		"c.nic.case",
-		"c0.nic.case",
 		"d.nic.case"
 	],
 	"tags": [
