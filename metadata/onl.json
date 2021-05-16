@@ -1,7 +1,7 @@
 {
 	"domain": "onl",
 	"infoURL": "https://nic.onl/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.onl",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/onl/"
 	],

@@ -1,5 +1,8 @@
 {
 	"domain": "mil.ph",
+	"wildcards": [
+		"45.79.222.138"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
