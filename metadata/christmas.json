@@ -1,7 +1,7 @@
 {
 	"domain": "christmas",
 	"infoURL": "https://nic.christmas/",
-	"whoisServer": "whois.nic.christmas",
+	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],
