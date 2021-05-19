@@ -1,7 +1,7 @@
 {
 	"domain": "red",
 	"infoURL": "https://get.red/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.red",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/red/"
 	],

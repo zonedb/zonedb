@@ -1,11 +1,8 @@
 {
 	"domain": "1x.de",
 	"nameServers": [
-		"ns1.dev.kv.de",
-		"ns2.dev.kv.de"
-	],
-	"wildcards": [
-		"95.217.58.108"
+		"ns1.subdomain.net",
+		"ns2.subdomain.net"
 	],
 	"tags": [
 		"private"

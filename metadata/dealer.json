@@ -6,10 +6,10 @@
 		"https://rdap.nic.dealer/"
 	],
 	"nameServers": [
-		"ns1.uniregistry.net",
-		"ns2.uniregistry.info",
-		"ns3.uniregistry.net",
-		"ns4.uniregistry.info"
+		"a.nic.dealer",
+		"b.nic.dealer",
+		"c.nic.dealer",
+		"d.nic.dealer"
 	],
 	"languages": [
 		"de",

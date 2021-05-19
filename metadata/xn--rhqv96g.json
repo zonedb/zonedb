@@ -9,5 +9,129 @@
 		"ns2.teleinfoo.com",
 		"ns3.teleinfo.cn",
 		"ns4.teleinfoo.com"
+	],
+	"languages": [
+		"ar",
+		"da",
+		"de",
+		"es",
+		"fi",
+		"fr",
+		"hu",
+		"is",
+		"it",
+		"ja",
+		"ko",
+		"lt",
+		"lv",
+		"no",
+		"pl",
+		"pt",
+		"ru",
+		"sv",
+		"zh-Hans",
+		"zh-Hant"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_ar_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_da_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_de_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_es_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_fi_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_fr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "hu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_hu_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "is",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_is_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "it",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_it_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_lt_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_lv_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "no",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_no_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_pl_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_pt_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_ru_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_sv_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_zh-hans_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hant",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--rhqv96g_zh-hant_1.0.txt"
+		}
 	]
 }
