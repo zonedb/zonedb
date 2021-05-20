@@ -6,10 +6,9 @@
 		"ns4.dns.ws",
 		"ns5.dns.ws",
 		"ns6.dns.ws",
-		"ns7.dns.ws"
-	],
-	"wildcards": [
-		"202.4.48.211"
+		"ns7.dns.ws",
+		"us3.dns.ws",
+		"us4.dns.ws"
 	],
 	"policies": [
 		{
