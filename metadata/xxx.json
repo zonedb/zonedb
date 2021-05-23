@@ -6,6 +6,8 @@
 		"https://whois.registrar.adult/rdap/"
 	],
 	"nameServers": [
+		"a.nic.xxx",
+		"b.nic.xxx",
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns5.uniregistry.net",

@@ -10,5 +10,21 @@
 		"ns2.teleinfoo.com",
 		"ns3.teleinfo.cn",
 		"ns4.teleinfoo.com"
+	],
+	"languages": [
+		"zh-Hans",
+		"zh-Hant"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh-Hans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--vuq861b_zh-hans_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hant",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--vuq861b_zh-hant_1.0.txt"
+		}
 	]
 }

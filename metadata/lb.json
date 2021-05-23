@@ -1,5 +1,6 @@
 {
 	"domain": "lb",
+	"whoisServer": "whois.lbdr.org.lb",
 	"nameServers": [
 		"fork.sth.dnsnode.net",
 		"nn.uninett.no",
