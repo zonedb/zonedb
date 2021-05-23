@@ -1,6 +1,5 @@
 {
 	"domain": "lb",
-	"whoisURL": "http://www.aub.edu.lb/lbdr/",
 	"nameServers": [
 		"fork.sth.dnsnode.net",
 		"nn.uninett.no",
