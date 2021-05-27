@@ -5,11 +5,7 @@
 	"nameServers": [
 		"a.dns.ws",
 		"ns2.dns.ws",
-		"ns3.dns.ws",
-		"ns4.dns.ws",
 		"ns5.dns.ws",
-		"ns6.dns.ws",
-		"ns7.dns.ws",
 		"s.dns.ws",
 		"us3.dns.ws",
 		"us4.dns.ws"

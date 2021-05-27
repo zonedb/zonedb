@@ -8,10 +8,8 @@
 	"nameServers": [
 		"a.nic.adult",
 		"b.nic.adult",
-		"ns1.uniregistry.net",
-		"ns2.uniregistry.info",
-		"ns5.uniregistry.net",
-		"ns6.uniregistry.info"
+		"c.nic.adult",
+		"d.nic.adult"
 	],
 	"languages": [
 		"ar",

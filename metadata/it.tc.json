@@ -6,9 +6,6 @@
 		"ns3.dnsmadeeasy.com",
 		"ns4.dnsmadeeasy.com"
 	],
-	"wildcards": [
-		"91.121.71.36"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
