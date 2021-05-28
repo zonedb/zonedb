@@ -3,7 +3,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.dealer",
 	"rdapURLs": [
-		"https://rdap.nic.dealer/"
+		"https://rdap.centralnic.com/dealer/"
 	],
 	"nameServers": [
 		"a.nic.dealer",

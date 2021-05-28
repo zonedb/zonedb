@@ -3,7 +3,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.case",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/case/"
+		"https://rdap.centralnic.com/case/"
 	],
 	"nameServers": [
 		"a.nic.case",

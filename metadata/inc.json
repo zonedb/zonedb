@@ -3,7 +3,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.inc",
 	"rdapURLs": [
-		"https://whois.nic.inc/rdap/"
+		"https://rdap.centralnic.com/inc/"
 	],
 	"nameServers": [
 		"a.nic.inc",

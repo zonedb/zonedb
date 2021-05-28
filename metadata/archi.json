@@ -1,7 +1,7 @@
 {
 	"domain": "archi",
 	"infoURL": "https://domains.archi/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.archi",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/archi/"
 	],

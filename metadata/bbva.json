@@ -3,7 +3,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bbva",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/bbva/v1/"
+		"https://rdap.nominet.uk/bbva/"
 	],
 	"nameServers": [
 		"dns1-bbva.nominetdns.uk",
