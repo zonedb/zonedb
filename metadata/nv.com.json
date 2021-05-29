@@ -9,10 +9,6 @@
 		"f.root-servers.nv.com",
 		"g.root-servers.nv.com"
 	],
-	"wildcards": [
-		"205.159.223.111",
-		"hosting.gi.net"
-	],
 	"tags": [
 		"private"
 	],
