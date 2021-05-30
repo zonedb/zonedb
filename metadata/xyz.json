@@ -10,7 +10,71 @@
 		"y.nic.xyz",
 		"z.nic.xyz"
 	],
+	"languages": [
+		"ar",
+		"he",
+		"ja",
+		"ko",
+		"lo",
+		"mul-Grek",
+		"mul-Latn",
+		"ru",
+		"th",
+		"zh"
+	],
 	"tags": [
 		"generic"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xyz_ar_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "he",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xyz_he_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xyz_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xyz_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xyz_lo_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xyz_grek_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xyz_latn_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xyz_ru_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "th",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xyz_th_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xyz_zh_1.1.txt"
+		}
 	]
 }

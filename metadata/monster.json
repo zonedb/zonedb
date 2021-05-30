@@ -11,13 +11,72 @@
 		"c.nic.monster",
 		"d.nic.monster"
 	],
+	"languages": [
+		"ar",
+		"he",
+		"ja",
+		"ko",
+		"lo",
+		"mul-Grek",
+		"mul-Latn",
+		"ru",
+		"th",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/monster_ar_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "he",
+			"value": "https://www.iana.org/domains/idn-tables/tables/monster_he_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/monster_ja_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/monster_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/monster_lo_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/monster_grek_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/monster_latn_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/monster_ru_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "th",
+			"value": "https://www.iana.org/domains/idn-tables/tables/monster_th_2.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/monster_zh_1.1.txt"
 		}
 	]
 }

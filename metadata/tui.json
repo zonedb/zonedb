@@ -11,13 +11,18 @@
 		"c.nic.tui",
 		"d.nic.tui"
 	],
+	"languages": [
+		"de"
+	],
 	"tags": [
 		"brand",
 		"generic"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tui_de_1.0.txt"
 		}
 	]
 }

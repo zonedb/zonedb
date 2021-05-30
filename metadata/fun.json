@@ -20,6 +20,7 @@
 		"mul-Cyrl",
 		"mul-Grek",
 		"mul-Latn",
+		"th",
 		"zh"
 	],
 	"tags": [
@@ -65,6 +66,11 @@
 			"type": "idn-table",
 			"key": "mul-Latn",
 			"value": "https://www.iana.org/domains/idn-tables/tables/fun_latn_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "th",
+			"value": "https://www.iana.org/domains/idn-tables/tables/fun_th_2.2.txt"
 		},
 		{
 			"type": "idn-table",

@@ -27,6 +27,7 @@
 		"mul-Latn",
 		"mul-Mymr",
 		"mul-Ogam",
+		"mul-Phnx",
 		"mul-Runr",
 		"pl",
 		"ru",
@@ -119,6 +120,11 @@
 			"type": "idn-table",
 			"key": "mul-Ogam",
 			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_ogam_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Phnx",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_phnx_2.5.txt"
 		},
 		{
 			"type": "idn-table",

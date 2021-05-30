@@ -70,7 +70,7 @@
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/deloitte_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/deloitte_zh_1.1.txt"
 		}
 	]
 }

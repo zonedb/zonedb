@@ -25,7 +25,8 @@
 		"pl",
 		"ru",
 		"sv",
-		"th"
+		"th",
+		"zh"
 	],
 	"tags": [
 		"generic"
@@ -100,6 +101,11 @@
 			"type": "idn-table",
 			"key": "th",
 			"value": "https://www.iana.org/domains/idn-tables/tables/art_th_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/art_zh_1.1.txt"
 		}
 	]
 }

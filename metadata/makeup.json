@@ -11,13 +11,48 @@
 		"c.nic.makeup",
 		"d.nic.makeup"
 	],
+	"languages": [
+		"ja",
+		"ko",
+		"mul-Grek",
+		"mul-Latn",
+		"ru",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/makeup_ja_1.2.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/makeup_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/makeup_grek_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/makeup_latn_1.2.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/makeup_ru_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/makeup_zh_1.1.txt"
 		}
 	]
 }

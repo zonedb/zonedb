@@ -13,17 +13,28 @@
 	],
 	"languages": [
 		"ar",
+		"cs",
 		"da",
 		"de",
 		"es",
 		"fr",
+		"he",
+		"is",
+		"it",
 		"ja",
 		"ko",
+		"lb",
+		"lo",
+		"mul-Grek",
+		"mul-Latn",
 		"nl",
 		"pl",
 		"pt",
+		"ro",
 		"ru",
 		"sv",
+		"tr",
+		"uk",
 		"zh"
 	],
 	"tags": [
@@ -35,6 +46,11 @@
 			"type": "idn-table",
 			"key": "ar",
 			"value": "https://www.iana.org/domains/idn-tables/tables/icu_ar_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "cs",
+			"value": "https://www.iana.org/domains/idn-tables/tables/icu_cs_1.1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -58,6 +74,21 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "he",
+			"value": "https://www.iana.org/domains/idn-tables/tables/icu_he_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "is",
+			"value": "https://www.iana.org/domains/idn-tables/tables/icu_is_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "it",
+			"value": "https://www.iana.org/domains/idn-tables/tables/icu_it_1.0.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "ja",
 			"value": "https://www.iana.org/domains/idn-tables/tables/icu_ja_1.0.txt"
 		},
@@ -65,6 +96,26 @@
 			"type": "idn-table",
 			"key": "ko",
 			"value": "https://www.iana.org/domains/idn-tables/tables/icu_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lb",
+			"value": "https://www.iana.org/domains/idn-tables/tables/icu_lb_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/icu_lo_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/icu_grek_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/icu_latn_1.1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -83,6 +134,11 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "ro",
+			"value": "https://www.iana.org/domains/idn-tables/tables/icu_ro_1.0.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "ru",
 			"value": "https://www.iana.org/domains/idn-tables/tables/icu_ru_1.0.txt"
 		},
@@ -90,6 +146,16 @@
 			"type": "idn-table",
 			"key": "sv",
 			"value": "https://www.iana.org/domains/idn-tables/tables/icu_sv_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "tr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/icu_tr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "uk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/icu_uk_1.0.txt"
 		},
 		{
 			"type": "idn-table",

@@ -11,13 +11,48 @@
 		"c-cnic.nic.quest",
 		"d-cnic.nic.quest"
 	],
+	"languages": [
+		"ja",
+		"ko",
+		"mul-Grek",
+		"mul-Latn",
+		"ru",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/quest_ja_1.2.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/quest_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/quest_grek_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/quest_latn_1.2.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/quest_ru_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/quest_zh_1.1.txt"
 		}
 	]
 }

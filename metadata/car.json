@@ -16,6 +16,7 @@
 		"es",
 		"fr",
 		"it",
+		"ja",
 		"mul-Cyrl",
 		"pt",
 		"zh"
@@ -43,6 +44,11 @@
 			"type": "idn-table",
 			"key": "it",
 			"value": "https://www.iana.org/domains/idn-tables/tables/audio_it_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/car_ja_1.2.txt"
 		},
 		{
 			"type": "idn-table",

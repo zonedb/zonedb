@@ -20,7 +20,8 @@
 		"mul-Cyrl",
 		"mul-Grek",
 		"mul-Latn",
-		"th"
+		"th",
+		"zh"
 	],
 	"tags": [
 		"generic"
@@ -70,6 +71,11 @@
 			"type": "idn-table",
 			"key": "th",
 			"value": "https://www.iana.org/domains/idn-tables/tables/love_th_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/love_zh_1.1.txt"
 		}
 	]
 }

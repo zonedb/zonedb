@@ -11,13 +11,18 @@
 		"c.nic.vermögensberater",
 		"d.nic.vermögensberater"
 	],
+	"languages": [
+		"de"
+	],
 	"tags": [
 		"closed",
 		"generic"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--vermgensberater-ctb_de_1.0.txt"
 		}
 	]
 }

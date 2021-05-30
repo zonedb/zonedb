@@ -11,13 +11,17 @@
 		"c.nic.blog",
 		"d.nic.blog"
 	],
+	"languages": [
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/blog_zh_1.1.txt"
 		}
 	]
 }

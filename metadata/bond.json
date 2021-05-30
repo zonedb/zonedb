@@ -11,13 +11,132 @@
 		"c.nic.bond",
 		"d.nic.bond"
 	],
+	"languages": [
+		"cs",
+		"da",
+		"de",
+		"es",
+		"fr",
+		"he",
+		"is",
+		"it",
+		"ja",
+		"ko",
+		"lb",
+		"lo",
+		"mul-Grek",
+		"mul-Latn",
+		"pt",
+		"ro",
+		"ru",
+		"tr",
+		"uk",
+		"zh"
+	],
 	"tags": [
 		"brand",
 		"generic"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "cs",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_cs_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_da_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_de_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_es_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_fr_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "he",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_he_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "is",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_is_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "it",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_it_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_ja_1.2.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_ko_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lb",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_lb_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "lo",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_lo_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_grek_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_latn_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_pt_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ro",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_ro_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_ru_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "tr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_tr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "uk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_uk_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/bond_zh_1.1.txt"
 		}
 	]
 }

@@ -13,12 +13,14 @@
 	"languages": [
 		"ar",
 		"he",
+		"ja",
 		"ko",
 		"lo",
 		"mul-Cyrl",
 		"mul-Grek",
 		"mul-Latn",
-		"th"
+		"th",
+		"zh"
 	],
 	"tags": [
 		"generic"
@@ -33,6 +35,11 @@
 			"type": "idn-table",
 			"key": "he",
 			"value": "https://www.iana.org/domains/idn-tables/tables/wiki_he_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/wiki_ja_1.0.txt"
 		},
 		{
 			"type": "idn-table",
@@ -63,6 +70,11 @@
 			"type": "idn-table",
 			"key": "th",
 			"value": "https://www.iana.org/domains/idn-tables/tables/wiki_th_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/wiki_zh_1.1.txt"
 		}
 	]
 }
