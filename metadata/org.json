@@ -1,7 +1,7 @@
 {
 	"domain": "org",
 	"infoURL": "https://pir.org/products/org-domain/",
-	"whoisServer": "whois.pir.org",
+	"whoisServer": "whois.publicinterestregistry.net",
 	"rdapURLs": [
 		"https://rdap.publicinterestregistry.net/rdap/org/"
 	],
