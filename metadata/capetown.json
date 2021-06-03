@@ -1,6 +1,6 @@
 {
 	"domain": "capetown",
-	"whoisServer": "capetown-whois.registry.net.za",
+	"whoisServer": "whois.nic.capetown",
 	"rdapURLs": [
 		"https://rdap.registry.net.za/rdap/"
 	],
