@@ -8,7 +8,8 @@
 	"nameServers": [
 		"a0.nic.dunlop",
 		"a2.nic.dunlop",
-		"b0.nic.dunlop"
+		"b0.nic.dunlop",
+		"c0.nic.dunlop"
 	],
 	"tags": [
 		"brand",
