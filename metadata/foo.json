@@ -1,7 +1,7 @@
 {
 	"domain": "foo",
 	"infoURL": "https://www.registry.google/",
-	"whoisServer": "whois.nic.foo",
+	"whoisServer": "whois.nic.google",
 	"rdapURLs": [
 		"https://www.registry.google/rdap/"
 	],

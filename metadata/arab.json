@@ -11,12 +11,17 @@
 		"gtld.delta.aridns.net.au",
 		"gtld.gamma.aridns.net.au"
 	],
+	"languages": [
+		"ar"
+	],
 	"tags": [
 		"generic"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/arab_ar_3.0.xml"
 		}
 	]
 }

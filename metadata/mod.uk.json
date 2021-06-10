@@ -1,9 +1,8 @@
 {
 	"domain": "mod.uk",
 	"nameServers": [
-		"ns1.cs.ucl.ac.uk",
-		"ns1.mod.uk",
-		"ns2.mod.uk"
+		"ns0047.secondary.cloudflare.com",
+		"ns0170.secondary.cloudflare.com"
 	],
 	"policies": [
 		{

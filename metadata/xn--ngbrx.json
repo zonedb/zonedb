@@ -11,7 +11,17 @@
 		"gtld.delta.aridns.net.au",
 		"gtld.gamma.aridns.net.au"
 	],
+	"languages": [
+		"ar"
+	],
 	"tags": [
 		"generic"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--ngbrx_ar_3.0.xml"
+		}
 	]
 }

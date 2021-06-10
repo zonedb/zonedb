@@ -15,6 +15,9 @@
 		"Abu Dhabi",
 		"AE-AZ"
 	],
+	"languages": [
+		"ar"
+	],
 	"tags": [
 		"city",
 		"generic",
@@ -22,7 +25,9 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/abudhabi_ar_3.0.xml"
 		}
 	]
 }
