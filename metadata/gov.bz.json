@@ -6,7 +6,11 @@
 		"b0.cctld.afilias-nst.org",
 		"b2.cctld.afilias-nst.org",
 		"c0.cctld.afilias-nst.info",
-		"d0.cctld.afilias-nst.org"
+		"d0.cctld.afilias-nst.org",
+		"ns1-03.azure-dns.com",
+		"ns2-03.azure-dns.net",
+		"ns3-03.azure-dns.org",
+		"ns4-03.azure-dns.info"
 	],
 	"policies": [
 		{
