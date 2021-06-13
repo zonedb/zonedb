@@ -1,8 +1,8 @@
 {
 	"domain": "perso.sn",
 	"nameServers": [
-		"ns1.dns.com",
-		"ns2.dns.com"
+		"ns1.huaweicloud-dns.com",
+		"ns1.huaweicloud-dns.org"
 	],
 	"policies": [
 		{
