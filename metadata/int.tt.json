@@ -1,10 +1,7 @@
 {
 	"domain": "int.tt",
 	"nameServers": [
-		"ns1.dnsdun.com",
-		"ns1.dnsdun.net"
-	],
-	"wildcards": [
-		"209.99.40.222"
+		"ns1.huaweicloud-dns.com",
+		"ns1.huaweicloud-dns.org"
 	]
 }
