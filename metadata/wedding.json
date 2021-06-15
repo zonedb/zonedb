@@ -18,7 +18,8 @@
 	"languages": [
 		"de",
 		"es",
-		"fr"
+		"fr",
+		"zh"
 	],
 	"tags": [
 		"generic"
@@ -45,7 +46,7 @@
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/wedding_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/wedding_zh_1.1.txt"
 		}
 	]
 }

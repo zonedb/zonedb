@@ -26,6 +26,7 @@
 		"pt",
 		"ru",
 		"sv",
+		"zh-Hans",
 		"zh-TW"
 	],
 	"tags": [
@@ -101,6 +102,11 @@
 			"type": "idn-table",
 			"key": "sv",
 			"value": "https://www.iana.org/domains/idn-tables/tables/watches_sv_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_zh-hans_4.0.txt"
 		},
 		{
 			"type": "idn-table",

@@ -15,13 +15,17 @@
 		"dnsc.nic.gop",
 		"dnsd.nic.gop"
 	],
+	"languages": [
+		"es"
+	],
 	"tags": [
 		"generic"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/gop_es_1.0.txt"
 		}
 	]
 }

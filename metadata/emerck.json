@@ -20,6 +20,7 @@
 		"lt",
 		"lv",
 		"pl",
+		"ru",
 		"sv"
 	],
 	"tags": [
@@ -66,6 +67,11 @@
 			"type": "idn-table",
 			"key": "pl",
 			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_pl_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_ru_1.txt"
 		},
 		{
 			"type": "idn-table",
