@@ -7,11 +7,6 @@
 		"ns6.dnsmadeeasy.com",
 		"ns7.dnsmadeeasy.com"
 	],
-	"wildcards": [
-		"194.60.252.133",
-		"194.60.252.141",
-		"2001:67c:11a0::aaaa"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
