@@ -4,9 +4,10 @@
 		"a-dns.pl",
 		"b-dns.pl",
 		"c-dns.pl",
+		"d-dns.pl",
 		"e-dns.pl",
 		"f-dns.pl",
-		"g-dns.pl",
+		"h-dns.pl",
 		"i-dns.pl"
 	],
 	"policies": [
