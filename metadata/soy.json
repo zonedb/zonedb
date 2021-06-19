@@ -1,7 +1,7 @@
 {
 	"domain": "soy",
 	"infoURL": "https://www.registry.google/",
-	"whoisServer": "whois.nic.soy",
+	"whoisServer": "whois.nic.google",
 	"rdapURLs": [
 		"https://www.registry.google/rdap/"
 	],
