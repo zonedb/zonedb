@@ -1,10 +1,5 @@
 {
 	"domain": "edu.bj",
-	"nameServers": [
-		"ns.cocca.fr",
-		"ns1.nic.bj",
-		"pch.nic.fr"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
