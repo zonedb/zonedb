@@ -6,14 +6,14 @@
 		"https://rdap.nominet.uk/bbva/"
 	],
 	"nameServers": [
-		"dns1-bbva.nominetdns.uk",
-		"dns2-bbva.nominetdns.uk",
-		"dns3-bbva.nominetdns.uk",
-		"dns4-bbva.nominetdns.uk",
-		"dnsa-bbva.nominetdns.uk",
-		"dnsb-bbva.nominetdns.uk",
-		"dnsc-bbva.nominetdns.uk",
-		"dnsd-bbva.nominetdns.uk"
+		"dns1.nic.bbva",
+		"dns2.nic.bbva",
+		"dns3.nic.bbva",
+		"dns4.nic.bbva",
+		"dnsa.nic.bbva",
+		"dnsb.nic.bbva",
+		"dnsc.nic.bbva",
+		"dnsd.nic.bbva"
 	],
 	"languages": [
 		"az",

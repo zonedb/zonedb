@@ -1,7 +1,7 @@
 {
 	"domain": "voto",
 	"infoURL": "https://get.voto/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.voto",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/voto/"
 	],
