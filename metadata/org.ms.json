@@ -1,5 +1,8 @@
 {
 	"domain": "org.ms",
+	"nameServers": [
+		"ns.cocca.fr"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
