@@ -11,12 +11,29 @@
 		"c.nic.fans",
 		"d.nic.fans"
 	],
+	"languages": [
+		"ar",
+		"mul-Latn",
+		"zh"
+	],
 	"tags": [
 		"generic"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/fans_ar_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/fans_latn_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/fans_zh_1.0.txt"
 		}
 	]
 }

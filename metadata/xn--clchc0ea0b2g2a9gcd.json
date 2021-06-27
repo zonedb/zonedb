@@ -3,8 +3,6 @@
 	"whoisServer": "whois.sgnic.sg",
 	"nameServers": [
 		"dsany.sgnic.sg",
-		"dsany2.sgnic.sg",
-		"dsany3.sgnic.sg",
 		"ns4.apnic.net",
 		"pch.sgzones.sg"
 	],

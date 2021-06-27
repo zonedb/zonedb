@@ -11,7 +11,17 @@
 		"ns2.anycastdns.cz",
 		"ns2.nic.рус"
 	],
+	"languages": [
+		"mul-Cyrl"
+	],
 	"tags": [
 		"generic"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--p1acf_cyrl_1.0.txt"
+		}
 	]
 }

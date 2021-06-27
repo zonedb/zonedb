@@ -5,10 +5,12 @@
 		"https://tld-rdap.verisign.com/realtor/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
 		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"ac4.nstld.com",
+		"dns1-realtor.nominetdns.uk",
+		"dns2-realtor.nominetdns.uk",
+		"dns3-realtor.nominetdns.uk",
+		"dns4-realtor.nominetdns.uk"
 	],
 	"tags": [
 		"generic"
