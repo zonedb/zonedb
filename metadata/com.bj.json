@@ -1,5 +1,10 @@
 {
 	"domain": "com.bj",
+	"nameServers": [
+		"ns.cocca.fr",
+		"ns1.nic.bj",
+		"pch.nic.bj"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

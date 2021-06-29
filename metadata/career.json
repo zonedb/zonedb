@@ -5,10 +5,12 @@
 		"https://tld-rdap.verisign.com/career/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
 		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"ac4.nstld.com",
+		"dns1-career.nominetdns.uk",
+		"dns2-career.nominetdns.uk",
+		"dns3-career.nominetdns.uk",
+		"dns4-career.nominetdns.uk"
 	],
 	"languages": [
 		"az",
