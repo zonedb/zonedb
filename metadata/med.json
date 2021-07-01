@@ -11,7 +11,11 @@
 		"dns1-med.nominetdns.uk",
 		"dns2-med.nominetdns.uk",
 		"dns3-med.nominetdns.uk",
-		"dns4-med.nominetdns.uk"
+		"dns4-med.nominetdns.uk",
+		"dnsa-med.nominetdns.uk",
+		"dnsb-med.nominetdns.uk",
+		"dnsc-med.nominetdns.uk",
+		"dnsd-med.nominetdns.uk"
 	],
 	"tags": [
 		"generic"

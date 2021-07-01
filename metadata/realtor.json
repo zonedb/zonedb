@@ -10,7 +10,11 @@
 		"dns1-realtor.nominetdns.uk",
 		"dns2-realtor.nominetdns.uk",
 		"dns3-realtor.nominetdns.uk",
-		"dns4-realtor.nominetdns.uk"
+		"dns4-realtor.nominetdns.uk",
+		"dnsa-realtor.nominetdns.uk",
+		"dnsb-realtor.nominetdns.uk",
+		"dnsc-realtor.nominetdns.uk",
+		"dnsd-realtor.nominetdns.uk"
 	],
 	"tags": [
 		"generic"

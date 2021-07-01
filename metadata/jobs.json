@@ -10,7 +10,11 @@
 		"dns1-jobs.nominetdns.uk",
 		"dns2-jobs.nominetdns.uk",
 		"dns3-jobs.nominetdns.uk",
-		"dns4-jobs.nominetdns.uk"
+		"dns4-jobs.nominetdns.uk",
+		"dnsa-jobs.nominetdns.uk",
+		"dnsb-jobs.nominetdns.uk",
+		"dnsc-jobs.nominetdns.uk",
+		"dnsd-jobs.nominetdns.uk"
 	],
 	"tags": [
 		"generic",
