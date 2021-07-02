@@ -6,8 +6,6 @@
 		"https://tld-rdap.verisign.com/med/v1/"
 	],
 	"nameServers": [
-		"ac3.nstld.com",
-		"ac4.nstld.com",
 		"dns1-med.nominetdns.uk",
 		"dns2-med.nominetdns.uk",
 		"dns3-med.nominetdns.uk",
