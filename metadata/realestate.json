@@ -6,8 +6,6 @@
 		"https://tld-rdap.verisign.com/realestate/v1/"
 	],
 	"nameServers": [
-		"ac3.nstld.com",
-		"ac4.nstld.com",
 		"dns1-realestate.nominetdns.uk",
 		"dns2-realestate.nominetdns.uk",
 		"dns3-realestate.nominetdns.uk",
