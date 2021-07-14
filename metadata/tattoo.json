@@ -1,7 +1,7 @@
 {
 	"domain": "tattoo",
 	"infoURL": "https://nic.tattoo/",
-	"whoisServer": "whois.nic.tattoo",
+	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],

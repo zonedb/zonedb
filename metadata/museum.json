@@ -1,7 +1,7 @@
 {
 	"domain": "museum",
 	"infoURL": "https://welcome.museum/",
-	"whoisServer": "whois.museum",
+	"whoisServer": "whois.nic.museum",
 	"rdapURLs": [
 		"https://rdap.nic.museum/"
 	],
