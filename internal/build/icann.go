@@ -41,15 +41,27 @@ func FetchGTLDsFromICANN(zones map[string]*Zone) error {
 
 		var modified bool
 
-		// Widthdrawn or retired?
-		if g.ContractTerminated && g.DelegationDate.IsZero() {
+		switch {
+		// gTLD was withdrawn
+		case g.DelegationDate.IsZero() && g.ContractTerminated:
 			z.AddTags(TagWithdrawn)
 			z.RemoveTags(TagRetired)
 			zonesWithdrawn++
-		} else if !g.RemovalDate.IsZero() {
+			modified = true
+
+		// gTLD was retired
+		case !g.RemovalDate.IsZero():
 			z.RemoveTags(TagWithdrawn)
 			z.AddTags(TagRetired)
 			zonesRetired++
+			modified = true
+
+		// Pending delegation
+		case g.DelegationDate.IsZero() && !g.ContractTerminated:
+			n := len(z.NameServers)
+			if n > 0 {
+				Trace("@{y}Warning: undelegated gTLD with %d name servers: @{y!}%s\n", n, z.Domain)
+			}
 		}
 
 		// Brand TLD?
