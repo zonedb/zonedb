@@ -210,17 +210,7 @@ func (z *Zone) IsTLD() bool {
 	return !strings.Contains(z.Domain, ".")
 }
 
-// Retire marks a zone as retired.
-func (z *Zone) Retire() {
-	z.AddTags(TagRetired)
-}
-
-// Withdraw marks a zone as withdrawn.
-func (z *Zone) Widthdraw() {
-	z.AddTags(TagWithdrawn)
-}
-
-// Retired returns true if the zone is retired or withdrawn.
+// IsRetiredOrWithdrawn returns true if the zone is retired or withdrawn.
 func (z *Zone) IsRetiredOrWithdrawn() bool {
 	s := NewSet(z.Tags...)
 	return s[TagRetired] || s[TagWithdrawn]
