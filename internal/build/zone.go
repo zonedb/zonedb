@@ -13,17 +13,18 @@ import (
 
 // Zone represents a build-time DNS zone (public suffix).
 type Zone struct {
-	Domain      string   `json:"domain,omitempty"`
-	InfoURL     string   `json:"infoURL,omitempty"`
-	WhoisServer string   `json:"whoisServer,omitempty"`
-	WhoisURL    string   `json:"whoisURL,omitempty"`
-	RDAPURLs    []string `json:"rdapURLs,omitempty"`
-	NameServers []string `json:"nameServers,omitempty"`
-	Wildcards   []string `json:"wildcards,omitempty"`
-	Locations   []string `json:"locations,omitempty"`
-	Languages   []string `json:"languages,omitempty"`
-	Tags        []string `json:"tags,omitempty"`
-	Policies    []Policy `json:"policies,omitempty"`
+	Domain           string   `json:"domain,omitempty"`
+	RegistryOperator string   `json:"registryOperator,omitempty"`
+	InfoURL          string   `json:"infoURL,omitempty"`
+	WhoisServer      string   `json:"whoisServer,omitempty"`
+	WhoisURL         string   `json:"whoisURL,omitempty"`
+	RDAPURLs         []string `json:"rdapURLs,omitempty"`
+	NameServers      []string `json:"nameServers,omitempty"`
+	Wildcards        []string `json:"wildcards,omitempty"`
+	Locations        []string `json:"locations,omitempty"`
+	Languages        []string `json:"languages,omitempty"`
+	Tags             []string `json:"tags,omitempty"`
+	Policies         []Policy `json:"policies,omitempty"`
 
 	// Internal
 	subdomains     []string

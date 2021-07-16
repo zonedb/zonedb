@@ -76,6 +76,12 @@ func FetchGTLDsFromICANN(zones map[string]*Zone) error {
 			Trace("@{y}Brand gTLD without ICANN Specification 13: @{y!}%s\n", z.Domain)
 		}
 
+		// Extract registry operator
+		if g.RegistryOperator != "" {
+			z.RegistryOperator = g.RegistryOperator
+			modified = true
+		}
+
 		if modified {
 			zonesModified++
 		}
@@ -98,9 +104,9 @@ type icannGTLDResponse struct {
 		RegistryOperator              string      `json:"registryOperator"`
 		RegistryOperatorCountryCode   *string     `json:"registryOperatorCountryCode"` // (always null)
 		RemovalDate                   ISODate     `json:"removalDate"`
-		Specification13               bool        `json:"specification13"` // Brand TLD
-		ThirdOrLowerLevelRegistration bool        `json:"thirdOrLowerLevelRegistration"`
-		ULabel                        string      `json:"uLabel"` // Unicode IDN label
+		Specification13               bool        `json:"specification13"`               // Brand TLD
+		ThirdOrLowerLevelRegistration bool        `json:"thirdOrLowerLevelRegistration"` // (always false or null)
+		ULabel                        string      `json:"uLabel"`                        // Unicode IDN label
 	} `json:"gTLDs"`
 	// UpdatedOn time.Time `json:"updatedOn"` // Ignored because of nonstandard format
 	Version int `json:"version"`
