@@ -214,12 +214,12 @@ func (z *Zone) IsTLD() bool {
 func (z *Zone) Retire() {
 	// Brand TLDs are withdrawn, not retired
 	for _, tag := range z.Tags {
-		if tag == "brand" {
-			z.Tags = append(z.Tags, "withdrawn")
+		if tag == TagBrand {
+			z.AddTags(TagWithdrawn)
 			return
 		}
 	}
-	z.Tags = append(z.Tags, "retired")
+	z.AddTags(TagRetired)
 }
 
 // TLDs filters a zone set for top-level domains.

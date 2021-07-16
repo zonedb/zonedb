@@ -6,6 +6,24 @@ import (
 	"github.com/wsxiaoys/terminal/color"
 )
 
+// Well-known tags
+const (
+	TagAdult          = "adult"
+	TagBrand          = "brand"
+	TagCity           = "city"
+	TagClosed         = "closed"
+	TagCommunity      = "community"
+	TagCountry        = "country"
+	TagGeneric        = "generic"
+	TagGeo            = "geo"
+	TagInfrastructure = "infrastructure"
+	TagPrivate        = "private"
+	TagRegion         = "region"
+	TagRetired        = "retired"
+	TagSponsored      = "sponsored"
+	TagWithdrawn      = "withdrawn"
+)
+
 // AddTags adds one or more tags to a Zone.
 func AddTags(zones map[string]*Zone, tags []string) {
 	var added, modified int
