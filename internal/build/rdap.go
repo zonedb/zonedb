@@ -47,7 +47,9 @@ func FetchRDAPFromIANA(zones map[string]*Zone) error {
 			domain = Normalize(domain)
 			z, ok := zones[domain]
 			if !ok {
-				Trace("@{y}domain %s not found in zones map\n", domain)
+				if len(zones) > 100 {
+					Trace("@{y}Unknown domain in IANA RDAP feed: %s\n", domain)
+				}
 				continue
 			}
 
