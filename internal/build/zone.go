@@ -119,6 +119,32 @@ func (z *Zone) transition() {
 	}
 }
 
+// AddTags adds tags to z, returning the number of tag(s) added, if any.
+func (z *Zone) AddTags(tags ...string) int {
+	s := NewSet(z.Tags...)
+	n := len(s)
+	s.Add(tags...)
+	d := len(s) - n
+	if d != 0 {
+		z.Tags = s.Values()
+	}
+	return d
+}
+
+// RemoveTags removes tags from z, returning the number of tag(s) removed, if any.
+func (z *Zone) RemoveTags(tags ...string) int {
+	s := NewSet(z.Tags...)
+	n := len(s)
+	for _, t := range tags {
+		delete(s, t)
+	}
+	d := n - len(s)
+	if d != 0 {
+		z.Tags = s.Values()
+	}
+	return d
+}
+
 // AddPolicy adds a single policy to Zone z.
 func (z *Zone) AddPolicy(ptype, key, value, comment string) {
 	if ptype == "" {
