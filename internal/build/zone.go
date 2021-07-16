@@ -210,16 +210,25 @@ func (z *Zone) IsTLD() bool {
 	return !strings.Contains(z.Domain, ".")
 }
 
-// Retire marks a zone as retired or withdrawn.
+// Retire marks a zone as retired.
 func (z *Zone) Retire() {
-	// Brand TLDs are withdrawn, not retired
-	for _, tag := range z.Tags {
-		if tag == TagBrand {
-			z.AddTags(TagWithdrawn)
-			return
-		}
-	}
 	z.AddTags(TagRetired)
+}
+
+// Withdraw marks a zone as withdrawn.
+func (z *Zone) Widthdraw() {
+	z.AddTags(TagWithdrawn)
+}
+
+// Retired returns true if the zone is retired or withdrawn.
+func (z *Zone) IsRetiredOrWithdrawn() bool {
+	s := NewSet(z.Tags...)
+	return s[TagRetired] || s[TagWithdrawn]
+}
+
+// Brand TLDs have tag "brand".
+func (z *Zone) IsBrand() bool {
+	return NewSet(z.Tags...)[TagBrand]
 }
 
 // TLDs filters a zone set for top-level domains.
