@@ -1,0 +1,158 @@
+package build
+
+import (
+	"encoding/json"
+	"fmt"
+	"strings"
+	"time"
+)
+
+const icannGTLDsURL = "https://www.icann.org/resources/registries/gtlds/v2/gtlds.json"
+
+// FetchGTLDsFromICANN retrieves the a list of gTLDs from ICANN.
+func FetchGTLDsFromICANN(zones map[string]*Zone) error {
+	res, err := Fetch(icannGTLDsURL)
+	if err != nil {
+		return err
+	}
+	defer res.Body.Close()
+
+	var x icannGTLDResponse
+	d := json.NewDecoder(res.Body)
+	err = d.Decode(&x)
+	if err != nil {
+		return err
+	}
+
+	if x.Version != 2 {
+		return fmt.Errorf("unknown ICANN gTLDs list version: %d", x.Version)
+	}
+
+	var tagsAdded, tagsRemoved, zonesWithdrawn, zonesRetired, zonesModified int
+	for _, g := range x.GTLDs {
+		domain := Normalize(g.GTLD)
+		z, ok := zones[domain]
+		if !ok {
+			if len(zones) > 100 {
+				Trace("@{y}Unknown domain in ICANN gTLD feed: %s\n", domain)
+			}
+			continue
+		}
+
+		var modified bool
+
+		// Widthdrawn or retired?
+		if g.ContractTerminated && g.DelegationDate.IsZero() {
+			z.AddTags(TagWithdrawn)
+			z.RemoveTags(TagRetired)
+			zonesWithdrawn++
+		} else if !g.RemovalDate.IsZero() {
+			z.RemoveTags(TagWithdrawn)
+			z.AddTags(TagRetired)
+			zonesRetired++
+		}
+
+		// Brand TLD?
+		if g.Specification13 {
+			d := z.AddTags(TagBrand)
+			if d != 0 {
+				tagsAdded += d
+				modified = true
+			}
+		} else if !z.IsRetiredOrWithdrawn() && z.IsBrand() {
+			// https://newgtlds.icann.org/en/applicants/agb/base-agreement-contracting/specification-13-applications
+			Trace("@{y}Brand gTLD without ICANN Specification 13: @{y!}%s\n", z.Domain)
+		}
+
+		if modified {
+			zonesModified++
+		}
+	}
+
+	Trace("@{.}Added %d tag(s), removed %d tag(s) from %d zone(s)\n", tagsAdded, tagsRemoved, zonesModified)
+	Trace("@{.}Widthdrew %d and retired %d zone(s)\n", zonesWithdrawn, zonesRetired)
+
+	return nil
+}
+
+type icannGTLDResponse struct {
+	GTLDs []struct {
+		ApplicationID                 string      `json:"applicationID"`
+		ContractTerminated            bool        `json:"contractTerminated"`
+		DateOfContractSignature       ISODate     `json:"dateOfContractSignature"`
+		DelegationDate                ISODate     `json:"delegationDate"`
+		GTLD                          string      `json:"gTLD"`
+		RegistryClassDomainNameList   interface{} `json:"registryClassDomainNameList"` // (always null)
+		RegistryOperator              string      `json:"registryOperator"`
+		RegistryOperatorCountryCode   *string     `json:"registryOperatorCountryCode"` // (always null)
+		RemovalDate                   ISODate     `json:"removalDate"`
+		Specification13               bool        `json:"specification13"` // Brand TLD
+		ThirdOrLowerLevelRegistration bool        `json:"thirdOrLowerLevelRegistration"`
+		ULabel                        string      `json:"uLabel"` // Unicode IDN label
+	} `json:"gTLDs"`
+	// UpdatedOn time.Time `json:"updatedOn"` // Ignored because of nonstandard format
+	Version int `json:"version"`
+}
+
+/*
+{
+	"gTLDs": [
+		{
+			"applicationId": "1-1386-27446",
+			"contractTerminated": false,
+			"dateOfContractSignature": "2015-02-26",
+			"delegationDate": "2015-08-28",
+			"gTLD": "aaa",
+			"registryClassDomainNameList": null,
+			"registryOperator": "American Automobile Association, Inc.",
+			"registryOperatorCountryCode": null,
+			"removalDate": null,
+			"specification13": true,
+			"thirdOrLowerLevelRegistration": false,
+			"uLabel": null
+		},
+		{
+			"applicationId": "1-1169-4534",
+			"contractTerminated": false,
+			"dateOfContractSignature": "2015-05-21",
+			"delegationDate": "2015-11-03",
+			"gTLD": "aarp",
+			"registryClassDomainNameList": null,
+			"registryOperator": "AARP",
+			"registryOperatorCountryCode": null,
+			"removalDate": null,
+			"specification13": true,
+			"thirdOrLowerLevelRegistration": false,
+			"uLabel": null
+		}
+	],
+	"updatedOn": "2021-07-16T15:54:03.596+0000",
+	"version": 2
+}
+*/
+
+type ISODate struct {
+	time.Time
+}
+
+func (d *ISODate) UnmarshalJSON(b []byte) error {
+	s := strings.Trim(string(b), "\"")
+	if s == "null" {
+		return nil
+	}
+	t, err := time.Parse("2006-01-02", s)
+	if err != nil {
+		return err
+	}
+	*d = ISODate{t}
+	return nil
+}
+
+// func (d ISODate) MarshalJSON() ([]byte, error) {
+// 	return json.Marshal(d)
+// }
+
+// func (j ISODate) Format(s string) string {
+// 	t := time.Time(j)
+// 	return t.Format(s)
+// }
