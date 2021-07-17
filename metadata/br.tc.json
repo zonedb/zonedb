@@ -1,5 +1,11 @@
 {
 	"domain": "br.tc",
+	"nameServers": [
+		"ns1.iwantmyname.net",
+		"ns2.iwantmyname.net",
+		"ns3.iwantmyname.net",
+		"ns4.iwantmyname.net"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
