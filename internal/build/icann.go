@@ -39,6 +39,11 @@ func FetchGTLDsFromICANN(zones map[string]*Zone) error {
 			continue
 		}
 
+		// Compare ICANN uLabel to our normalized Unicode form
+		if g.ULabel != "" && g.ULabel != domain {
+			Trace("@{y}Warning: IDN U-label %s != @{y!}%s\n", g.ULabel, z.Domain)
+		}
+
 		var modified bool
 
 		switch {
