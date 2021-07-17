@@ -9,7 +9,7 @@ import (
 
 const icannGTLDsURL = "https://www.icann.org/resources/registries/gtlds/v2/gtlds.json"
 
-// FetchGTLDsFromICANN retrieves the a list of gTLDs from ICANN.
+// FetchGTLDsFromICANN retrieves the list of gTLDs from ICANN.
 func FetchGTLDsFromICANN(zones map[string]*Zone) error {
 	res, err := Fetch(icannGTLDsURL)
 	if err != nil {
@@ -88,25 +88,25 @@ func FetchGTLDsFromICANN(zones map[string]*Zone) error {
 	}
 
 	Trace("@{.}Added %d tag(s), removed %d tag(s) from %d zone(s)\n", tagsAdded, tagsRemoved, zonesModified)
-	Trace("@{.}Widthdrew %d and retired %d zone(s)\n", zonesWithdrawn, zonesRetired)
+	Trace("@{.}Withdrew %d and retired %d zone(s)\n", zonesWithdrawn, zonesRetired)
 
 	return nil
 }
 
 type icannGTLDResponse struct {
 	GTLDs []struct {
-		ApplicationID                 string      `json:"applicationID"`
-		ContractTerminated            bool        `json:"contractTerminated"`
-		DateOfContractSignature       ISODate     `json:"dateOfContractSignature"`
-		DelegationDate                ISODate     `json:"delegationDate"`
-		GTLD                          string      `json:"gTLD"`
-		RegistryClassDomainNameList   interface{} `json:"registryClassDomainNameList"` // (always null)
-		RegistryOperator              string      `json:"registryOperator"`
-		RegistryOperatorCountryCode   *string     `json:"registryOperatorCountryCode"` // (always null)
-		RemovalDate                   ISODate     `json:"removalDate"`
-		Specification13               bool        `json:"specification13"`               // Brand TLD
-		ThirdOrLowerLevelRegistration bool        `json:"thirdOrLowerLevelRegistration"` // (always false or null)
-		ULabel                        string      `json:"uLabel"`                        // Unicode IDN label
+		ApplicationID           string  `json:"applicationID"`
+		ContractTerminated      bool    `json:"contractTerminated"`
+		DateOfContractSignature ISODate `json:"dateOfContractSignature"`
+		DelegationDate          ISODate `json:"delegationDate"`
+		GTLD                    string  `json:"gTLD"`
+		// RegistryClassDomainNameList   interface{} `json:"registryClassDomainNameList"` // (always null)
+		RegistryOperator string `json:"registryOperator"`
+		// RegistryOperatorCountryCode   *string     `json:"registryOperatorCountryCode"` // (always null)
+		RemovalDate                   ISODate `json:"removalDate"`
+		Specification13               bool    `json:"specification13"`               // Brand TLD
+		ThirdOrLowerLevelRegistration bool    `json:"thirdOrLowerLevelRegistration"` // (always false or null)
+		ULabel                        string  `json:"uLabel"`                        // Unicode IDN label
 	} `json:"gTLDs"`
 	// UpdatedOn time.Time `json:"updatedOn"` // Ignored because of nonstandard format
 	Version int `json:"version"`
