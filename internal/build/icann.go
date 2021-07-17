@@ -154,7 +154,7 @@ type ISODate struct {
 }
 
 func (d *ISODate) UnmarshalJSON(b []byte) error {
-	s := strings.Trim(string(b), "\"")
+	s := strings.Trim(string(b), `"`)
 	if s == "null" {
 		return nil
 	}
