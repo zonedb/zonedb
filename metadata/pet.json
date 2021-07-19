@@ -1,5 +1,6 @@
 {
 	"domain": "pet",
+	"registryOperator": "Afilias Limited",
 	"infoURL": "https://get.pet/",
 	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [

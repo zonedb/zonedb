@@ -1,5 +1,6 @@
 {
 	"domain": "bot",
+	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bot",
 	"rdapURLs": [

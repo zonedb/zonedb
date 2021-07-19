@@ -1,5 +1,6 @@
 {
 	"domain": "christmas",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.christmas/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

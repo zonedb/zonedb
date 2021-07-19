@@ -1,5 +1,6 @@
 {
 	"domain": "guide",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.guide",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

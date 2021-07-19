@@ -1,5 +1,6 @@
 {
 	"domain": "army",
+	"registryOperator": "Dog Beach, LLC",
 	"whoisServer": "whois.nic.army",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

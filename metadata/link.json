@@ -1,5 +1,6 @@
 {
 	"domain": "link",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.link/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

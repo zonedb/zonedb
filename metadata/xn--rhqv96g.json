@@ -1,5 +1,6 @@
 {
 	"domain": "世界",
+	"registryOperator": "Stable Tone Limited",
 	"whoisServer": "whois.nic.世界",
 	"rdapURLs": [
 		"https://rdap.teleinfo.cn/xn--rhqv96g/"

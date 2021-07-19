@@ -1,5 +1,6 @@
 {
 	"domain": "maison",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.maison",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

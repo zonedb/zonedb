@@ -1,5 +1,6 @@
 {
 	"domain": "mls",
+	"registryOperator": "The Canadian Real Estate Association",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.mls",
 	"rdapURLs": [

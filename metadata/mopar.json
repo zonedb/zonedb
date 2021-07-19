@@ -4,7 +4,8 @@
 	"whoisServer": "whois.afilias-srs.net",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

@@ -1,5 +1,6 @@
 {
 	"domain": "moto",
+	"registryOperator": "Motorola Trademark Holdings, LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.moto",
 	"rdapURLs": [
@@ -33,6 +34,7 @@
 		"zh"
 	],
 	"tags": [
+		"brand",
 		"generic"
 	],
 	"policies": [

@@ -1,5 +1,6 @@
 {
 	"domain": "qvc",
+	"registryOperator": "QVC, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.qvc",
 	"rdapURLs": [

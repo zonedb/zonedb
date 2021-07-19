@@ -1,5 +1,6 @@
 {
 	"domain": "tui",
+	"registryOperator": "TUI AG",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tui",
 	"rdapURLs": [

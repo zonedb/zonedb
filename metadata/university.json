@@ -1,5 +1,6 @@
 {
 	"domain": "university",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.university",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

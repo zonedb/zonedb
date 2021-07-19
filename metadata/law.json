@@ -1,5 +1,6 @@
 {
 	"domain": "law",
+	"registryOperator": "LW TLD Limited",
 	"infoURL": "https://nic.law/",
 	"whoisServer": "whois.nic.law",
 	"rdapURLs": [

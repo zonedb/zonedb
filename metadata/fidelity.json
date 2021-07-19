@@ -1,5 +1,6 @@
 {
 	"domain": "fidelity",
+	"registryOperator": "Fidelity Brokerage Services LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.fidelity",
 	"rdapURLs": [

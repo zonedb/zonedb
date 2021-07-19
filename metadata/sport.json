@@ -1,5 +1,6 @@
 {
 	"domain": "sport",
+	"registryOperator": "Global Association of International Sports Federations (GAISF)",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.sport",
 	"rdapURLs": [

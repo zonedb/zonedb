@@ -1,5 +1,6 @@
 {
 	"domain": "beauty",
+	"registryOperator": "XYZ.COM LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.beauty",
 	"rdapURLs": [

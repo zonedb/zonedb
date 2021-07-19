@@ -1,5 +1,6 @@
 {
 	"domain": "bcn",
+	"registryOperator": "Municipi de Barcelona",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bcn",
 	"rdapURLs": [

@@ -4,7 +4,8 @@
 	"whoisServer": "whois.nic.nadex",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

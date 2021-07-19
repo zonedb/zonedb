@@ -1,5 +1,6 @@
 {
 	"domain": "audio",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.audio/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

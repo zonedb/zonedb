@@ -1,5 +1,6 @@
 {
 	"domain": "careers",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.careers",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

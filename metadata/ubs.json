@@ -1,5 +1,6 @@
 {
 	"domain": "ubs",
+	"registryOperator": "UBS AG",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ubs",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "scholarships",
+	"registryOperator": "Scholarships.com, LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.scholarships",
 	"rdapURLs": [

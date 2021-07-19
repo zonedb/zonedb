@@ -4,7 +4,8 @@
 	"whoisServer": "whois.nic.zippo",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

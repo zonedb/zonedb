@@ -1,5 +1,6 @@
 {
 	"domain": "msd",
+	"registryOperator": "MSD Registry Holdings, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/msd/v1/"

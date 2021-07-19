@@ -1,5 +1,6 @@
 {
 	"domain": "jio",
+	"registryOperator": "Reliance Industries Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.jio",
 	"rdapURLs": [
@@ -12,6 +13,7 @@
 		"c0.nic.jio"
 	],
 	"tags": [
+		"brand",
 		"generic"
 	],
 	"policies": [

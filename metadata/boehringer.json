@@ -1,5 +1,6 @@
 {
 	"domain": "boehringer",
+	"registryOperator": "Boehringer Ingelheim International GmbH",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "post",
+	"registryOperator": "Universal Postal Union",
 	"infoURL": "https://en.wikipedia.org/wiki/.post",
 	"whoisServer": "whois.dotpostregistry.net",
 	"rdapURLs": [

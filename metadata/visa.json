@@ -1,5 +1,6 @@
 {
 	"domain": "visa",
+	"registryOperator": "Visa Worldwide Pte. Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.visa",
 	"rdapURLs": [

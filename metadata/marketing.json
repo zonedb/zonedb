@@ -1,5 +1,6 @@
 {
 	"domain": "marketing",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.marketing",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

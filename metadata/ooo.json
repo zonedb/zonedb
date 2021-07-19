@@ -1,5 +1,6 @@
 {
 	"domain": "ooo",
+	"registryOperator": "INFIBEAM AVENUES LIMITED",
 	"whoisServer": "whois.nic.ooo",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/ooo/"

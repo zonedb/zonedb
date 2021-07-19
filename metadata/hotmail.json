@@ -1,5 +1,6 @@
 {
 	"domain": "hotmail",
+	"registryOperator": "Microsoft Corporation",
 	"infoURL": "https://newgtlds.icann.org/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/hotmail/v1/"

@@ -1,5 +1,6 @@
 {
 	"domain": "auto",
+	"registryOperator": "XYZ.COM LLC",
 	"infoURL": "https://nic.auto/",
 	"whoisServer": "whois.nic.auto",
 	"rdapURLs": [

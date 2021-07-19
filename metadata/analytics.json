@@ -1,5 +1,6 @@
 {
 	"domain": "analytics",
+	"registryOperator": "Campus IP LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.analytics",
 	"rdapURLs": [

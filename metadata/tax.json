@@ -1,5 +1,6 @@
 {
 	"domain": "tax",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.tax",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

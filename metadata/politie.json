@@ -1,5 +1,6 @@
 {
 	"domain": "politie",
+	"registryOperator": "Politie Nederland",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.politie",
 	"rdapURLs": [

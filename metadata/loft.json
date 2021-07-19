@@ -1,5 +1,6 @@
 {
 	"domain": "loft",
+	"registryOperator": "Annco, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.loft",
 	"rdapURLs": [
@@ -14,6 +15,7 @@
 		"ns6.dns.nic.loft"
 	],
 	"tags": [
+		"brand",
 		"generic"
 	],
 	"policies": [

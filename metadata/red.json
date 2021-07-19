@@ -1,5 +1,6 @@
 {
 	"domain": "red",
+	"registryOperator": "Afilias Limited",
 	"infoURL": "https://get.red/",
 	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [

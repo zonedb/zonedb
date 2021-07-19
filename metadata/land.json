@@ -1,5 +1,6 @@
 {
 	"domain": "land",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.land",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

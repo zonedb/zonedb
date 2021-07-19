@@ -1,5 +1,6 @@
 {
 	"domain": "moda",
+	"registryOperator": "Dog Beach, LLC",
 	"whoisServer": "whois.nic.moda",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

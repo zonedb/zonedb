@@ -1,5 +1,6 @@
 {
 	"domain": "website",
+	"registryOperator": "DotWebsite Inc.",
 	"whoisServer": "whois.nic.website",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/website/"

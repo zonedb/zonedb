@@ -1,5 +1,6 @@
 {
 	"domain": "reisen",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.reisen",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

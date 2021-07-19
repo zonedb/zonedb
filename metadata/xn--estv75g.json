@@ -1,5 +1,8 @@
 {
 	"domain": "工行",
 	"infoURL": "https://newgtlds.icann.org/",
-	"whoisServer": "whois.nic.工行"
+	"whoisServer": "whois.nic.工行",
+	"tags": [
+		"retired"
+	]
 }

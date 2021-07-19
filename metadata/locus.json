@@ -1,5 +1,6 @@
 {
 	"domain": "locus",
+	"registryOperator": "Locus Analytics LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.locus",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "fishing",
+	"registryOperator": "Minds + Machines Group Limited",
 	"infoURL": "http://nic.fishing/",
 	"whoisServer": "whois.nic.fishing",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "cab",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.cab",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

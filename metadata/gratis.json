@@ -1,5 +1,6 @@
 {
 	"domain": "gratis",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.gratis",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

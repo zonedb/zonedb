@@ -1,5 +1,6 @@
 {
 	"domain": "alstom",
+	"registryOperator": "ALSTOM",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.alstom",
 	"rdapURLs": [

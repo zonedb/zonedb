@@ -1,5 +1,6 @@
 {
 	"domain": "career",
+	"registryOperator": "dotCareer LLC",
 	"whoisServer": "whois.nic.career",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/career/v1/"

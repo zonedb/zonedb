@@ -1,5 +1,6 @@
 {
 	"domain": "med",
+	"registryOperator": "Medistry LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.med",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "property",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.property/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "mutual",
+	"registryOperator": "Northwestern Mutual MU TLD Registry, LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.mutual",
 	"rdapURLs": [

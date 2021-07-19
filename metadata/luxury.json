@@ -1,5 +1,6 @@
 {
 	"domain": "luxury",
+	"registryOperator": "Luxury Partners, LLC",
 	"infoURL": "https://nic.luxury/",
 	"whoisServer": "whois.nic.luxury",
 	"rdapURLs": [

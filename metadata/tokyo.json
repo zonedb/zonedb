@@ -1,5 +1,6 @@
 {
 	"domain": "tokyo",
+	"registryOperator": "GMO Registry, Inc.",
 	"whoisServer": "whois.nic.tokyo",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

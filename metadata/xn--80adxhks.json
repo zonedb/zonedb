@@ -1,5 +1,6 @@
 {
 	"domain": "москва",
+	"registryOperator": "Foundation for Assistance for Internet Technologies and Infrastructure Development (FAITID)",
 	"whoisServer": "whois.nic.москва",
 	"rdapURLs": [
 		"https://flexireg.net/xn--80adxhks/rdap/"

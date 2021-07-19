@@ -4,7 +4,8 @@
 	"whoisServer": "whois.nic.telecity",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

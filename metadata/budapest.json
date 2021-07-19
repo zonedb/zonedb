@@ -1,5 +1,6 @@
 {
 	"domain": "budapest",
+	"registryOperator": "Minds + Machines Group Limited",
 	"infoURL": "http://nic.budapest/",
 	"whoisServer": "whois.nic.budapest",
 	"rdapURLs": [

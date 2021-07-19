@@ -1,5 +1,6 @@
 {
 	"domain": "pccw",
+	"registryOperator": "PCCW Enterprises Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.pccw",
 	"rdapURLs": [

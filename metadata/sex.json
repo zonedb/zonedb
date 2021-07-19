@@ -1,5 +1,6 @@
 {
 	"domain": "sex",
+	"registryOperator": "ICM Registry SX LLC",
 	"infoURL": "https://nic.sex/",
 	"whoisServer": "whois.registrar.adult",
 	"rdapURLs": [

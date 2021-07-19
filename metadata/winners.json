@@ -1,5 +1,6 @@
 {
 	"domain": "winners",
+	"registryOperator": "The TJX Companies, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.winners",
 	"rdapURLs": [
@@ -14,6 +15,7 @@
 		"ns6.dns.nic.winners"
 	],
 	"tags": [
+		"brand",
 		"generic"
 	],
 	"policies": [

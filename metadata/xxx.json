@@ -1,5 +1,6 @@
 {
 	"domain": "xxx",
+	"registryOperator": "ICM Registry LLC",
 	"infoURL": "https://nic.xxx/",
 	"whoisServer": "whois.nic.xxx",
 	"rdapURLs": [

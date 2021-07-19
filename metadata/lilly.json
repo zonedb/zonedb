@@ -1,5 +1,6 @@
 {
 	"domain": "lilly",
+	"registryOperator": "Eli Lilly and Company",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lilly",
 	"rdapURLs": [

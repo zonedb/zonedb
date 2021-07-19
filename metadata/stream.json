@@ -1,5 +1,6 @@
 {
 	"domain": "stream",
+	"registryOperator": "dot Stream Limited",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.stream",
 	"rdapURLs": [

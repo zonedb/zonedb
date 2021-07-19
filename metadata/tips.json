@@ -1,5 +1,6 @@
 {
 	"domain": "tips",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.tips",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

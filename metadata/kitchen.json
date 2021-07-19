@@ -1,5 +1,6 @@
 {
 	"domain": "kitchen",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.kitchen",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

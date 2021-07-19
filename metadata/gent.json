@@ -1,5 +1,6 @@
 {
 	"domain": "gent",
+	"registryOperator": "COMBELL NV",
 	"whoisServer": "whois.nic.gent",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/gent/"

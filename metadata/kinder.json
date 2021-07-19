@@ -1,5 +1,6 @@
 {
 	"domain": "kinder",
+	"registryOperator": "Ferrero Trading Lux S.A.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.kinder",
 	"rdapURLs": [
@@ -33,6 +34,7 @@
 		"zh"
 	],
 	"tags": [
+		"brand",
 		"generic"
 	],
 	"policies": [

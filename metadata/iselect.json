@@ -4,7 +4,8 @@
 	"whoisServer": "whois.nic.iselect",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

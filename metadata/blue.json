@@ -1,5 +1,6 @@
 {
 	"domain": "blue",
+	"registryOperator": "Afilias Limited",
 	"infoURL": "https://dotblue.blue/",
 	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [

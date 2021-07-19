@@ -1,5 +1,6 @@
 {
 	"domain": "green",
+	"registryOperator": "Afilias Limited",
 	"infoURL": "https://get.green/",
 	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [

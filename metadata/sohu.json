@@ -1,5 +1,6 @@
 {
 	"domain": "sohu",
+	"registryOperator": "Sohu.com Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.sohu",
 	"rdapURLs": [

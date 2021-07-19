@@ -1,5 +1,6 @@
 {
 	"domain": "ntt",
+	"registryOperator": "NIPPON TELEGRAPH AND TELEPHONE CORPORATION",
 	"infoURL": "https://newgtlds.icann.org/",
 	"rdapURLs": [
 		"https://rdap.nic.ntt/rdap/"

@@ -1,5 +1,6 @@
 {
 	"domain": "sakura",
+	"registryOperator": "SAKURA Internet Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"rdapURLs": [
 		"https://rdap.nic.sakura/rdap/"

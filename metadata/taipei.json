@@ -1,5 +1,6 @@
 {
 	"domain": "taipei",
+	"registryOperator": "Taipei City Government",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.taipei",
 	"rdapURLs": [

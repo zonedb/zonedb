@@ -1,5 +1,6 @@
 {
 	"domain": "コム",
+	"registryOperator": "VeriSign Sarl",
 	"whoisServer": "whois.nic.コム",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/xn--tckwe/v1/"

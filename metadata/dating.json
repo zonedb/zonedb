@@ -1,5 +1,6 @@
 {
 	"domain": "dating",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.dating",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

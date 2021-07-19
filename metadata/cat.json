@@ -1,5 +1,6 @@
 {
 	"domain": "cat",
+	"registryOperator": "Fundació puntCAT",
 	"infoURL": "https://domini.cat/",
 	"whoisServer": "whois.nic.cat",
 	"rdapURLs": [

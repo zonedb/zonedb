@@ -1,5 +1,6 @@
 {
 	"domain": "download",
+	"registryOperator": "dot Support Limited",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.download",
 	"rdapURLs": [

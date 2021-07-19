@@ -1,5 +1,6 @@
 {
 	"domain": "menu",
+	"registryOperator": "Dot Menu Registry, LLC",
 	"whoisServer": "whois.nic.menu",
 	"rdapURLs": [
 		"https://rdap.nic.menu/"

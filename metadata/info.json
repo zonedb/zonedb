@@ -1,5 +1,6 @@
 {
 	"domain": "info",
+	"registryOperator": "Afilias Limited",
 	"infoURL": "https://info.info/",
 	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [

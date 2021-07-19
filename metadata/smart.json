@@ -1,5 +1,6 @@
 {
 	"domain": "smart",
+	"registryOperator": "Smart Communications, Inc. (SMART)",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.smart",
 	"rdapURLs": [

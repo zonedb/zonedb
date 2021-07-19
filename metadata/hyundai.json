@@ -1,5 +1,6 @@
 {
 	"domain": "hyundai",
+	"registryOperator": "Hyundai Motor Company",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.hyundai",
 	"rdapURLs": [

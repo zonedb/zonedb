@@ -1,5 +1,6 @@
 {
 	"domain": "istanbul",
+	"registryOperator": "Istanbul Metropolitan Municipality",
 	"infoURL": "https://nic.istanbul/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "goo",
+	"registryOperator": "NTT Resonant Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.gmo",
 	"rdapURLs": [

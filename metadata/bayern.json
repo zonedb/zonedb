@@ -1,5 +1,6 @@
 {
 	"domain": "bayern",
+	"registryOperator": "Bayern Connect GmbH",
 	"infoURL": "https://nic.bayern/",
 	"whoisServer": "whois.nic.bayern",
 	"rdapURLs": [

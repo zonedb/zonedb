@@ -1,5 +1,6 @@
 {
 	"domain": "mma",
+	"registryOperator": "MMA IARD",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.mma",
 	"rdapURLs": [

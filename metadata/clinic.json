@@ -1,5 +1,6 @@
 {
 	"domain": "clinic",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.clinic",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

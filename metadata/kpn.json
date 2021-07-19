@@ -1,5 +1,6 @@
 {
 	"domain": "kpn",
+	"registryOperator": "Koninklijke KPN N.V.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/kpn/"

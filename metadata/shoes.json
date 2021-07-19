@@ -1,5 +1,6 @@
 {
 	"domain": "shoes",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.shoes",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

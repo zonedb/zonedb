@@ -1,5 +1,6 @@
 {
 	"domain": "alibaba",
+	"registryOperator": "Alibaba Group Holding Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.alibaba",
 	"rdapURLs": [

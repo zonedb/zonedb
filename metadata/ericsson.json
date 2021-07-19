@@ -1,5 +1,6 @@
 {
 	"domain": "ericsson",
+	"registryOperator": "Telefonaktiebolaget L M Ericsson",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ericsson",
 	"rdapURLs": [

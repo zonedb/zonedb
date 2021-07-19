@@ -4,7 +4,8 @@
 	"whoisServer": "whois.nic.newholland",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

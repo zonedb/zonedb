@@ -1,5 +1,6 @@
 {
 	"domain": "bostik",
+	"registryOperator": "Bostik SA",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bostik",
 	"rdapURLs": [

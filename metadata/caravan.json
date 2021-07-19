@@ -1,5 +1,6 @@
 {
 	"domain": "caravan",
+	"registryOperator": "Caravan International, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.caravan",
 	"rdapURLs": [

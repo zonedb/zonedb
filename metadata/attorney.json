@@ -1,5 +1,6 @@
 {
 	"domain": "attorney",
+	"registryOperator": "Dog Beach, LLC",
 	"whoisServer": "whois.nic.attorney",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

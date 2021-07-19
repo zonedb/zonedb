@@ -4,7 +4,8 @@
 	"whoisServer": "whois.nic.bnl",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

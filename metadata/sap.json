@@ -1,5 +1,6 @@
 {
 	"domain": "sap",
+	"registryOperator": "SAP AG",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.sap",
 	"rdapURLs": [

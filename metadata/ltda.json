@@ -1,5 +1,6 @@
 {
 	"domain": "ltda",
+	"registryOperator": "InterNetX, Corp",
 	"infoURL": "https://nic.ltda/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [

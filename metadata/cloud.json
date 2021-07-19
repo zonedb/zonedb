@@ -1,5 +1,6 @@
 {
 	"domain": "cloud",
+	"registryOperator": "Aruba PEC S.p.A.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.cloud",
 	"rdapURLs": [

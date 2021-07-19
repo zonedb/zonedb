@@ -1,5 +1,6 @@
 {
 	"domain": "norton",
+	"registryOperator": "NortonLifeLock Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.norton",
 	"rdapURLs": [

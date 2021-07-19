@@ -1,5 +1,6 @@
 {
 	"domain": "poker",
+	"registryOperator": "Afilias Limited",
 	"infoURL": "https://get.poker/",
 	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [

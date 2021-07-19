@@ -1,5 +1,6 @@
 {
 	"domain": "zuerich",
+	"registryOperator": "Kanton Zürich (Canton of Zurich)",
 	"infoURL": "http://nic.zuerich/",
 	"whoisServer": "whois.nic.zuerich",
 	"rdapURLs": [

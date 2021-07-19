@@ -1,5 +1,6 @@
 {
 	"domain": "aero",
+	"registryOperator": "SITA",
 	"infoURL": "https://information.aero/",
 	"whoisServer": "whois.aero",
 	"nameServers": [

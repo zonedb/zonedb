@@ -1,5 +1,6 @@
 {
 	"domain": "联通",
+	"registryOperator": "China United Network Communications Corporation Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.联通",
 	"rdapURLs": [
@@ -14,5 +15,8 @@
 		"g.zdnscloud.com",
 		"i.zdnscloud.com",
 		"j.zdnscloud.com"
+	],
+	"tags": [
+		"brand"
 	]
 }

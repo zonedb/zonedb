@@ -1,5 +1,6 @@
 {
 	"domain": "sydney",
+	"registryOperator": "State of New South Wales, Department of Premier and Cabinet",
 	"infoURL": "https://www.iconic.sydney/",
 	"whoisServer": "whois.nic.sydney",
 	"rdapURLs": [

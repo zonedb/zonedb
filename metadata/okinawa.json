@@ -1,5 +1,6 @@
 {
 	"domain": "okinawa",
+	"registryOperator": "BRregistry, Inc.",
 	"whoisServer": "whois.nic.okinawa",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

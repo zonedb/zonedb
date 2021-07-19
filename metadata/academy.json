@@ -1,5 +1,6 @@
 {
 	"domain": "academy",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.academy",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

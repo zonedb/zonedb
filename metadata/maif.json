@@ -1,5 +1,6 @@
 {
 	"domain": "maif",
+	"registryOperator": "Mutuelle Assurance Instituteur France (MAIF)",
 	"infoURL": "https://newgtlds.icann.org/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/maif/v1/"

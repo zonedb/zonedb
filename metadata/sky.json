@@ -1,5 +1,6 @@
 {
 	"domain": "sky",
+	"registryOperator": "Sky International AG",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.sky",
 	"rdapURLs": [

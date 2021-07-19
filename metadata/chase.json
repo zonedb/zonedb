@@ -1,5 +1,6 @@
 {
 	"domain": "chase",
+	"registryOperator": "JPMorgan Chase Bank, National Association",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.chase",
 	"rdapURLs": [

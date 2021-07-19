@@ -1,5 +1,6 @@
 {
 	"domain": "giving",
+	"registryOperator": "Giving Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.giving",
 	"rdapURLs": [

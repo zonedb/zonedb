@@ -1,5 +1,6 @@
 {
 	"domain": "science",
+	"registryOperator": "dot Science Limited",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.science",
 	"rdapURLs": [

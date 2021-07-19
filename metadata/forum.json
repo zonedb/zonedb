@@ -1,5 +1,6 @@
 {
 	"domain": "forum",
+	"registryOperator": "Fegistry, LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.forum",
 	"rdapURLs": [

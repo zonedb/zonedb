@@ -1,5 +1,6 @@
 {
 	"domain": "kaufen",
+	"registryOperator": "Dog Beach, LLC",
 	"whoisServer": "whois.nic.kaufen",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

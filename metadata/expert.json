@@ -1,5 +1,6 @@
 {
 	"domain": "expert",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.expert",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

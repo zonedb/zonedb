@@ -1,5 +1,6 @@
 {
 	"domain": "dds",
+	"registryOperator": "Minds + Machines Group Limited",
 	"infoURL": "http://nic.dds/",
 	"whoisServer": "whois.nic.dds",
 	"rdapURLs": [

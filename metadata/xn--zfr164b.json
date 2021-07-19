@@ -1,5 +1,6 @@
 {
 	"domain": "政务",
+	"registryOperator": "China Organizational Name Administration Center",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.conac.cn",
 	"rdapURLs": [

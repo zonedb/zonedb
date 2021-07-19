@@ -1,5 +1,6 @@
 {
 	"domain": "gea",
+	"registryOperator": "GEA Group Aktiengesellschaft",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.gea",
 	"rdapURLs": [

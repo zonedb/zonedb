@@ -1,5 +1,6 @@
 {
 	"domain": "accountants",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.accountants",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

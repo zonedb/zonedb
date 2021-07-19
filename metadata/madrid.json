@@ -1,5 +1,6 @@
 {
 	"domain": "madrid",
+	"registryOperator": "Comunidad de Madrid",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.madrid",
 	"rdapURLs": [

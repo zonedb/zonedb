@@ -1,5 +1,6 @@
 {
 	"domain": "market",
+	"registryOperator": "Dog Beach, LLC",
 	"whoisServer": "whois.nic.market",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

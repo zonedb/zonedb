@@ -1,5 +1,6 @@
 {
 	"domain": "hosting",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.hosting/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

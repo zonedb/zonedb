@@ -1,5 +1,6 @@
 {
 	"domain": "top",
+	"registryOperator": ".TOP Registry",
 	"infoURL": "http://www.nic.top/",
 	"whoisServer": "whois.nic.top",
 	"rdapURLs": [

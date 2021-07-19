@@ -1,5 +1,6 @@
 {
 	"domain": "camp",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.camp",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

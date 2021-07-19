@@ -1,5 +1,6 @@
 {
 	"domain": "asia",
+	"registryOperator": "DotAsia Organisation Limited",
 	"infoURL": "https://www.dot.asia/",
 	"whoisServer": "whois.nic.asia",
 	"rdapURLs": [

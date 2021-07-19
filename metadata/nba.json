@@ -1,5 +1,6 @@
 {
 	"domain": "nba",
+	"registryOperator": "NBA REGISTRY, LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.nba",
 	"rdapURLs": [

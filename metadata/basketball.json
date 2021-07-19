@@ -1,5 +1,6 @@
 {
 	"domain": "basketball",
+	"registryOperator": "Fédération Internationale de Basketball (FIBA)",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.basketball",
 	"rdapURLs": [

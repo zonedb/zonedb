@@ -1,5 +1,6 @@
 {
 	"domain": "london",
+	"registryOperator": "Dot London Domains Limited",
 	"infoURL": "http://nic.london/",
 	"whoisServer": "whois.nic.london",
 	"rdapURLs": [

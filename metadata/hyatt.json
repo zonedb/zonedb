@@ -1,5 +1,6 @@
 {
 	"domain": "hyatt",
+	"registryOperator": "Hyatt GTLD, L.L.C.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.hyatt",
 	"rdapURLs": [

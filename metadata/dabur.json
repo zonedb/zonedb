@@ -1,5 +1,6 @@
 {
 	"domain": "dabur",
+	"registryOperator": "Dabur India Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
@@ -12,6 +13,7 @@
 		"c0.nic.dabur"
 	],
 	"tags": [
+		"brand",
 		"generic"
 	],
 	"policies": [

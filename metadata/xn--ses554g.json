@@ -1,5 +1,6 @@
 {
 	"domain": "网址",
+	"registryOperator": "KNET Co., Ltd.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.网址",
 	"rdapURLs": [
@@ -11,9 +12,7 @@
 		"c.zdnscloud.com",
 		"d.zdnscloud.com",
 		"f.zdnscloud.com",
-		"g.zdnscloud.com",
-		"i.zdnscloud.com",
-		"j.zdnscloud.com"
+		"g.zdnscloud.com"
 	],
 	"languages": [
 		"de",

@@ -1,5 +1,6 @@
 {
 	"domain": "tech",
+	"registryOperator": "Personals TLD Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tech",
 	"rdapURLs": [

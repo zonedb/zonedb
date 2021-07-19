@@ -1,5 +1,6 @@
 {
 	"domain": "hkt",
+	"registryOperator": "PCCW-HKT DataCom Services Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.hkt",
 	"rdapURLs": [

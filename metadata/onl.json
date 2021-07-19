@@ -1,5 +1,6 @@
 {
 	"domain": "onl",
+	"registryOperator": "iRegistry GmbH",
 	"infoURL": "https://nic.onl/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [

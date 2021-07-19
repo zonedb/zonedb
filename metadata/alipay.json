@@ -1,5 +1,6 @@
 {
 	"domain": "alipay",
+	"registryOperator": "Alibaba Group Holding Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.alipay",
 	"rdapURLs": [

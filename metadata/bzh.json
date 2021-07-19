@@ -1,5 +1,6 @@
 {
 	"domain": "bzh",
+	"registryOperator": "Association www.bzh",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bzh",
 	"rdapURLs": [

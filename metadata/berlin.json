@@ -1,5 +1,6 @@
 {
 	"domain": "berlin",
+	"registryOperator": "dotBERLIN GmbH \u0026 Co. KG",
 	"whoisServer": "whois.nic.berlin",
 	"rdapURLs": [
 		"https://rdap.nic.berlin/v1/"

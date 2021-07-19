@@ -1,5 +1,6 @@
 {
 	"domain": "bosch",
+	"registryOperator": "Robert Bosch GMBH",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bosch",
 	"rdapURLs": [

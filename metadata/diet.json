@@ -1,5 +1,6 @@
 {
 	"domain": "diet",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.diet/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "gallo",
+	"registryOperator": "Gallo Vineyards, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.gallo",
 	"rdapURLs": [

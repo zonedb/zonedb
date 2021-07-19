@@ -1,5 +1,6 @@
 {
 	"domain": "diy",
+	"registryOperator": "Lifestyle Domain Holdings, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.diy",
 	"rdapURLs": [
@@ -12,6 +13,7 @@
 		"ac4.nstld.com"
 	],
 	"tags": [
+		"brand",
 		"generic"
 	],
 	"policies": [

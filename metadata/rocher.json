@@ -1,5 +1,6 @@
 {
 	"domain": "rocher",
+	"registryOperator": "Ferrero Trading Lux S.A.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.rocher",
 	"rdapURLs": [

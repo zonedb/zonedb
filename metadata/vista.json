@@ -4,7 +4,8 @@
 	"whoisServer": "whois.nic.vista",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

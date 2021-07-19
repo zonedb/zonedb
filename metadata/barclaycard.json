@@ -1,5 +1,6 @@
 {
 	"domain": "barclaycard",
+	"registryOperator": "Barclays Bank PLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.barclaycard",
 	"rdapURLs": [

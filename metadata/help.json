@@ -1,5 +1,6 @@
 {
 	"domain": "help",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.help/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

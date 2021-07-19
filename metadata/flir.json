@@ -1,5 +1,6 @@
 {
 	"domain": "flir",
+	"registryOperator": "FLIR Systems, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.flir",
 	"rdapURLs": [

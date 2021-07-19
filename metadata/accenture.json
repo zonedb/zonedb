@@ -1,5 +1,6 @@
 {
 	"domain": "accenture",
+	"registryOperator": "Accenture plc",
 	"infoURL": "https://newgtlds.icann.org/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/accenture/v1/"

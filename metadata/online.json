@@ -1,5 +1,6 @@
 {
 	"domain": "online",
+	"registryOperator": "DotOnline Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.online",
 	"rdapURLs": [

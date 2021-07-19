@@ -1,5 +1,6 @@
 {
 	"domain": "fish",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.fish",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

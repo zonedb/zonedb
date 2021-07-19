@@ -1,5 +1,6 @@
 {
 	"domain": "大众汽车",
+	"registryOperator": "Volkswagen (China) Investment Co., Ltd.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.大众汽车",
 	"rdapURLs": [
@@ -34,6 +35,7 @@
 		"zh-Hant"
 	],
 	"tags": [
+		"brand",
 		"generic"
 	],
 	"policies": [

@@ -1,5 +1,6 @@
 {
 	"domain": "wiki",
+	"registryOperator": "Top Level Design, LLC",
 	"whoisServer": "whois.nic.wiki",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/wiki/"

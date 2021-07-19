@@ -1,5 +1,6 @@
 {
 	"domain": "grocery",
+	"registryOperator": "Wal-Mart Stores, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/grocery/v1/"

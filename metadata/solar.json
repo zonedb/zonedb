@@ -1,5 +1,6 @@
 {
 	"domain": "solar",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.solar",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

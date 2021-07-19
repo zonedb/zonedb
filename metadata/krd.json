@@ -1,5 +1,6 @@
 {
 	"domain": "krd",
+	"registryOperator": "KRG Department of Information Technology",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.krd",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "watches",
+	"registryOperator": "Afilias Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.watches",
 	"rdapURLs": [

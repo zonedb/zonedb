@@ -1,5 +1,6 @@
 {
 	"domain": "data",
+	"registryOperator": "Dish DBS Corporation",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.data",
 	"rdapURLs": [

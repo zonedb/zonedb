@@ -1,5 +1,6 @@
 {
 	"domain": "radio",
+	"registryOperator": "European Broadcasting Union (EBU)",
 	"infoURL": "https://www.nic.radio/",
 	"whoisServer": "whois.nic.radio",
 	"rdapURLs": [

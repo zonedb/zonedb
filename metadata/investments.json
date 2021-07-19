@@ -1,5 +1,6 @@
 {
 	"domain": "investments",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.investments",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

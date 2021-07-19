@@ -1,5 +1,6 @@
 {
 	"domain": "catering",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.catering",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

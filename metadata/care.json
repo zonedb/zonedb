@@ -1,5 +1,6 @@
 {
 	"domain": "care",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.care",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

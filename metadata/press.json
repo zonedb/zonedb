@@ -1,5 +1,6 @@
 {
 	"domain": "press",
+	"registryOperator": "DotPress Inc.",
 	"whoisServer": "whois.nic.press",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/press/"

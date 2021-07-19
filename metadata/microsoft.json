@@ -1,5 +1,6 @@
 {
 	"domain": "microsoft",
+	"registryOperator": "Microsoft Corporation",
 	"infoURL": "https://newgtlds.icann.org/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/microsoft/v1/"

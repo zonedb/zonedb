@@ -1,5 +1,6 @@
 {
 	"domain": "name",
+	"registryOperator": "VeriSign, Inc.",
 	"whoisServer": "whois.nic.name",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/name/v1/"

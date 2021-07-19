@@ -1,5 +1,6 @@
 {
 	"domain": "trust",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.trust",
 	"rdapURLs": [

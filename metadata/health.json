@@ -1,5 +1,6 @@
 {
 	"domain": "health",
+	"registryOperator": "DotHealth, LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.health",
 	"rdapURLs": [

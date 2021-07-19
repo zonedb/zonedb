@@ -1,5 +1,6 @@
 {
 	"domain": "country",
+	"registryOperator": "DotCountry LLC",
 	"infoURL": "https://nic.country/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

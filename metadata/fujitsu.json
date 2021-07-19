@@ -1,5 +1,6 @@
 {
 	"domain": "fujitsu",
+	"registryOperator": "Fujitsu Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.gmo",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "онлайн",
+	"registryOperator": "CORE Association",
 	"whoisServer": "whois.nic.онлайн",
 	"rdapURLs": [
 		"https://rdap.nic.онлайн/"

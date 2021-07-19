@@ -1,5 +1,6 @@
 {
 	"domain": "tattoo",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.tattoo/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

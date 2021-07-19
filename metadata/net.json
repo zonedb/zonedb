@@ -1,5 +1,6 @@
 {
 	"domain": "net",
+	"registryOperator": "VeriSign, Inc.",
 	"infoURL": "https://www.verisign.com/en_US/domain-names/net-domain-names/index.xhtml",
 	"whoisServer": "whois.verisign-grs.com",
 	"rdapURLs": [

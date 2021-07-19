@@ -1,5 +1,6 @@
 {
 	"domain": "kerrylogistics",
+	"registryOperator": "Kerry Trading Co. Limited",
 	"whoisServer": "whois.nic.kerrylogistics",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/kerrylogistics/v1/"

@@ -1,5 +1,6 @@
 {
 	"domain": "city",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.city",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

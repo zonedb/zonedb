@@ -1,5 +1,6 @@
 {
 	"domain": "buzz",
+	"registryOperator": "DOTSTRATEGY CO.",
 	"whoisServer": "whois.nic.buzz",
 	"rdapURLs": [
 		"https://rdap.nic.buzz/"

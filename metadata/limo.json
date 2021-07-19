@@ -1,5 +1,6 @@
 {
 	"domain": "limo",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.limo",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

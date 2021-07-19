@@ -1,5 +1,6 @@
 {
 	"domain": "webcam",
+	"registryOperator": "dot Webcam Limited",
 	"infoURL": "https://www.famousfourmedia.com/",
 	"whoisServer": "whois.nic.webcam",
 	"rdapURLs": [

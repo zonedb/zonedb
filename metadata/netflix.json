@@ -1,5 +1,6 @@
 {
 	"domain": "netflix",
+	"registryOperator": "Netflix, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.netflix",
 	"rdapURLs": [

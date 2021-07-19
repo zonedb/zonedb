@@ -1,5 +1,6 @@
 {
 	"domain": "qpon",
+	"registryOperator": "dotCOOL, Inc.",
 	"whoisServer": "whois.nic.qpon",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/qpon/"

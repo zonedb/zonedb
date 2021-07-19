@@ -1,5 +1,6 @@
 {
 	"domain": "weir",
+	"registryOperator": "Weir Group IP Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/weir/v1/"

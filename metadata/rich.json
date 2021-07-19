@@ -1,5 +1,6 @@
 {
 	"domain": "rich",
+	"registryOperator": "iRegistry GmbH",
 	"infoURL": "https://nic.rich/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [

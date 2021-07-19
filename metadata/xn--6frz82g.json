@@ -1,5 +1,6 @@
 {
 	"domain": "移动",
+	"registryOperator": "Afilias Limited",
 	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/xn--6frz82g/"

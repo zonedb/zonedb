@@ -1,5 +1,6 @@
 {
 	"domain": "amsterdam",
+	"registryOperator": "Gemeente Amsterdam",
 	"infoURL": "https://nic.amsterdam/",
 	"whoisServer": "whois.nic.amsterdam",
 	"rdapURLs": [

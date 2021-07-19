@@ -1,5 +1,6 @@
 {
 	"domain": "consulting",
+	"registryOperator": "Dog Beach, LLC",
 	"whoisServer": "whois.nic.consulting",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

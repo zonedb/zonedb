@@ -1,5 +1,6 @@
 {
 	"domain": "hiphop",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.hiphop/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

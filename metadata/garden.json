@@ -1,5 +1,6 @@
 {
 	"domain": "garden",
+	"registryOperator": "Minds + Machines Group Limited",
 	"infoURL": "http://nic.garden/",
 	"whoisServer": "whois.nic.garden",
 	"rdapURLs": [

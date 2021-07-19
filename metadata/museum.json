@@ -1,7 +1,8 @@
 {
 	"domain": "museum",
+	"registryOperator": "Museum Domain Management Association (MuseDoma)",
 	"infoURL": "https://welcome.museum/",
-	"whoisServer": "whois.museum",
+	"whoisServer": "whois.nic.museum",
 	"rdapURLs": [
 		"https://rdap.nic.museum/"
 	],

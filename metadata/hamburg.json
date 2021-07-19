@@ -1,5 +1,6 @@
 {
 	"domain": "hamburg",
+	"registryOperator": "Hamburg Top-Level-Domain GmbH",
 	"whoisServer": "whois.nic.hamburg",
 	"rdapURLs": [
 		"https://rdap.nic.hamburg/v1/"

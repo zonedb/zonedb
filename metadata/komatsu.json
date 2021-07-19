@@ -1,5 +1,6 @@
 {
 	"domain": "komatsu",
+	"registryOperator": "Komatsu Ltd.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.komatsu",
 	"rdapURLs": [

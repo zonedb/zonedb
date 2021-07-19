@@ -1,5 +1,6 @@
 {
 	"domain": "insure",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.insure",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

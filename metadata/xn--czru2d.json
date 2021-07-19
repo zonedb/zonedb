@@ -1,5 +1,6 @@
 {
 	"domain": "商城",
+	"registryOperator": "Zodiac Aquarius Limited",
 	"whoisServer": "whois.gtld.knet.cn",
 	"rdapURLs": [
 		"https://rdap.zdnsgtld.com/xn--czru2d/"

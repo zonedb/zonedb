@@ -1,5 +1,6 @@
 {
 	"domain": "paris",
+	"registryOperator": "City of Paris",
 	"whoisServer": "whois-paris.nic.fr",
 	"rdapURLs": [
 		"https://rdap.nic.paris/"

@@ -1,5 +1,6 @@
 {
 	"domain": "дети",
+	"registryOperator": "The Foundation for Network Initiatives “The Smart Internet”",
 	"whoisServer": "whois.nic.дети",
 	"rdapURLs": [
 		"https://whois.nic.дети/rdap/"

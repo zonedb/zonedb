@@ -1,5 +1,6 @@
 {
 	"domain": "bofa",
+	"registryOperator": "Bank of America Corporation",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bofa",
 	"rdapURLs": [

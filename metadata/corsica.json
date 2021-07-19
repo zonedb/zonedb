@@ -1,5 +1,6 @@
 {
 	"domain": "corsica",
+	"registryOperator": "Collectivité de Corse",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois-corsica.nic.fr",
 	"rdapURLs": [

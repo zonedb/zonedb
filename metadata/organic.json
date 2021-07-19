@@ -1,5 +1,6 @@
 {
 	"domain": "organic",
+	"registryOperator": "Afilias Limited",
 	"infoURL": "https://get.organic/",
 	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "guitars",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.guitars/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

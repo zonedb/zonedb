@@ -4,7 +4,8 @@
 	"whoisServer": "whois.nic.everbank",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

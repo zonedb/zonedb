@@ -1,5 +1,6 @@
 {
 	"domain": "promo",
+	"registryOperator": "Afilias Limited",
 	"infoURL": "https://get.promo/",
 	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [

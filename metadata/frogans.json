@@ -1,5 +1,6 @@
 {
 	"domain": "frogans",
+	"registryOperator": "OP3FT",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.frogans",
 	"rdapURLs": [

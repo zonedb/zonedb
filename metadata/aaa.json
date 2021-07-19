@@ -1,5 +1,6 @@
 {
 	"domain": "aaa",
+	"registryOperator": "American Automobile Association, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.aaa",
 	"rdapURLs": [

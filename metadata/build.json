@@ -1,5 +1,6 @@
 {
 	"domain": "build",
+	"registryOperator": "Plan Bee LLC",
 	"infoURL": "https://about.build/",
 	"whoisServer": "whois.nic.build",
 	"rdapURLs": [

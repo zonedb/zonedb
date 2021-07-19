@@ -1,5 +1,6 @@
 {
 	"domain": "boats",
+	"registryOperator": "XYZ.COM LLC",
 	"infoURL": "https://nic.boats/",
 	"whoisServer": "whois.nic.boats",
 	"rdapURLs": [

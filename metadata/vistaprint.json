@@ -4,7 +4,8 @@
 	"whoisServer": "whois.nic.vistaprint",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

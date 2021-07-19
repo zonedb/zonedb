@@ -1,5 +1,6 @@
 {
 	"domain": "eurovision",
+	"registryOperator": "European Broadcasting Union (EBU)",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.eurovision",
 	"rdapURLs": [

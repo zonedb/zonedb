@@ -1,5 +1,6 @@
 {
 	"domain": "nextdirect",
+	"registryOperator": "Next plc",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.nextdirect",
 	"rdapURLs": [

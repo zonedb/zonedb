@@ -1,5 +1,6 @@
 {
 	"domain": "volvo",
+	"registryOperator": "Volvo Holding Sverige Aktiebolag",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.volvo",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "рус",
+	"registryOperator": "Rusnames Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.рус",
 	"rdapURLs": [

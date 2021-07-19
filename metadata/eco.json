@@ -1,5 +1,6 @@
 {
 	"domain": "eco",
+	"registryOperator": "Big Room Inc.",
 	"infoURL": "https://bigroom.eco/",
 	"whoisServer": "whois.nic.eco",
 	"rdapURLs": [

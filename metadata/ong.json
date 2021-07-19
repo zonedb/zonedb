@@ -1,5 +1,6 @@
 {
 	"domain": "ong",
+	"registryOperator": "Public Interest Registry",
 	"infoURL": "https://pir.org/products/ngo-ong-domain/",
 	"whoisServer": "whois.publicinterestregistry.net",
 	"rdapURLs": [

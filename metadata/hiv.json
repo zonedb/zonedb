@@ -1,5 +1,6 @@
 {
 	"domain": "hiv",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.hiv/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

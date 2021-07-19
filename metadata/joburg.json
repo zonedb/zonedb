@@ -1,5 +1,6 @@
 {
 	"domain": "joburg",
+	"registryOperator": "ZA Central Registry NPC trading as ZA Central Registry",
 	"whoisServer": "joburg-whois.registry.net.za",
 	"rdapURLs": [
 		"https://rdap.registry.net.za/rdap/"

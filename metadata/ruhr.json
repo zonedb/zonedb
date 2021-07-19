@@ -1,5 +1,6 @@
 {
 	"domain": "ruhr",
+	"registryOperator": "regiodot GmbH \u0026 Co. KG",
 	"whoisServer": "whois.nic.ruhr",
 	"rdapURLs": [
 		"https://rdap.nic.ruhr/"

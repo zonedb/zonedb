@@ -1,5 +1,6 @@
 {
 	"domain": "bet",
+	"registryOperator": "Afilias Limited",
 	"infoURL": "https://get.bet/",
 	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [

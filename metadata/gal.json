@@ -1,5 +1,6 @@
 {
 	"domain": "gal",
+	"registryOperator": "Asociación puntoGAL",
 	"whoisServer": "whois.nic.gal",
 	"rdapURLs": [
 		"https://rdap.nic.gal/"

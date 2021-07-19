@@ -1,5 +1,6 @@
 {
 	"domain": "ifm",
+	"registryOperator": "ifm electronic gmbh",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ifm",
 	"rdapURLs": [

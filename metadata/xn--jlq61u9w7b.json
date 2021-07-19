@@ -1,5 +1,6 @@
 {
 	"domain": "诺基亚",
+	"registryOperator": "Nokia Corporation",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.诺基亚",
 	"rdapURLs": [
@@ -16,6 +17,7 @@
 		"zh-TW"
 	],
 	"tags": [
+		"brand",
 		"generic"
 	],
 	"policies": [

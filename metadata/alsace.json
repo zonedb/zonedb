@@ -1,5 +1,6 @@
 {
 	"domain": "alsace",
+	"registryOperator": "Region Grand Est",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois-alsace.nic.fr",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "lifeinsurance",
+	"registryOperator": "American Council of Life Insurers",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lifeinsurance",
 	"rdapURLs": [

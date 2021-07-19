@@ -1,5 +1,6 @@
 {
 	"domain": "feedback",
+	"registryOperator": "Top Level Spectrum, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.feedback",
 	"rdapURLs": [

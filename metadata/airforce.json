@@ -1,5 +1,6 @@
 {
 	"domain": "airforce",
+	"registryOperator": "Dog Beach, LLC",
 	"whoisServer": "whois.nic.airforce",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

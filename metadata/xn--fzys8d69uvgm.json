@@ -1,5 +1,6 @@
 {
 	"domain": "電訊盈科",
+	"registryOperator": "PCCW Enterprises Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.電訊盈科",
 	"rdapURLs": [
@@ -16,6 +17,7 @@
 		"zh-TW"
 	],
 	"tags": [
+		"brand",
 		"generic"
 	],
 	"policies": [

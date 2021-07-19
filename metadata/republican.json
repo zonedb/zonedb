@@ -1,5 +1,6 @@
 {
 	"domain": "republican",
+	"registryOperator": "Dog Beach, LLC",
 	"whoisServer": "whois.nic.republican",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

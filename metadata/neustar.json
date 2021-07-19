@@ -1,5 +1,6 @@
 {
 	"domain": "neustar",
+	"registryOperator": "NeuStar, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.neustar",
 	"rdapURLs": [

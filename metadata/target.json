@@ -1,5 +1,6 @@
 {
 	"domain": "target",
+	"registryOperator": "Target Domain Holdings, LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.target",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "بازار",
+	"registryOperator": "CORE Association",
 	"whoisServer": "whois.nic.بازار",
 	"rdapURLs": [
 		"https://rdap.nic.بازار/"

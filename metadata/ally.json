@@ -1,5 +1,6 @@
 {
 	"domain": "ally",
+	"registryOperator": "Ally Financial Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ally",
 	"rdapURLs": [

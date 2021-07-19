@@ -1,5 +1,6 @@
 {
 	"domain": "social",
+	"registryOperator": "Dog Beach, LLC",
 	"whoisServer": "whois.nic.social",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

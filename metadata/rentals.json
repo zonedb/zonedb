@@ -1,5 +1,6 @@
 {
 	"domain": "rentals",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.rentals",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

@@ -1,5 +1,6 @@
 {
 	"domain": "orange",
+	"registryOperator": "Orange Brand Services Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.orange",
 	"rdapURLs": [

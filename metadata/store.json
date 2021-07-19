@@ -1,5 +1,6 @@
 {
 	"domain": "store",
+	"registryOperator": "DotStore Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.store",
 	"rdapURLs": [

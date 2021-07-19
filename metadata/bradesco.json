@@ -1,5 +1,6 @@
 {
 	"domain": "bradesco",
+	"registryOperator": "Banco Bradesco S.A.",
 	"infoURL": "http://nic.bradesco/",
 	"whoisServer": "whois.nic.bradesco",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "lol",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.lol/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

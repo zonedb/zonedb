@@ -1,5 +1,6 @@
 {
 	"domain": "epson",
+	"registryOperator": "Seiko Epson Corporation",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.epson",
 	"rdapURLs": [

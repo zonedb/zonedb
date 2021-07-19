@@ -1,5 +1,6 @@
 {
 	"domain": "softbank",
+	"registryOperator": "SoftBank Group Corp.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.softbank",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "wtf",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.wtf",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

@@ -1,5 +1,6 @@
 {
 	"domain": "oracle",
+	"registryOperator": "Oracle Corporation",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.oracle",
 	"rdapURLs": [

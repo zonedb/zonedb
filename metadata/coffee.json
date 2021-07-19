@@ -1,5 +1,6 @@
 {
 	"domain": "coffee",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.coffee",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

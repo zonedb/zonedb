@@ -1,5 +1,6 @@
 {
 	"domain": "cfa",
+	"registryOperator": "CFA Institute",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.cfa",
 	"rdapURLs": [

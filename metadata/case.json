@@ -1,5 +1,6 @@
 {
 	"domain": "case",
+	"registryOperator": "CNH Industrial N.V.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.case",
 	"rdapURLs": [
@@ -12,6 +13,7 @@
 		"d.nic.case"
 	],
 	"tags": [
+		"brand",
 		"generic"
 	],
 	"policies": [

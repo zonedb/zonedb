@@ -1,5 +1,6 @@
 {
 	"domain": "site",
+	"registryOperator": "DotSite Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.site",
 	"rdapURLs": [

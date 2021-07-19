@@ -1,5 +1,6 @@
 {
 	"domain": "samsung",
+	"registryOperator": "SAMSUNG SDS CO., LTD",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.samsung",
 	"rdapURLs": [

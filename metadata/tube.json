@@ -1,5 +1,6 @@
 {
 	"domain": "tube",
+	"registryOperator": "Latin American Telecom LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tube",
 	"rdapURLs": [

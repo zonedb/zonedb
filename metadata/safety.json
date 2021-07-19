@@ -1,5 +1,6 @@
 {
 	"domain": "safety",
+	"registryOperator": "Safety Registry Services, LLC.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.safety",
 	"rdapURLs": [

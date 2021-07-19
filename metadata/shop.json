@@ -1,5 +1,6 @@
 {
 	"domain": "shop",
+	"registryOperator": "GMO Registry, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.shop",
 	"rdapURLs": [

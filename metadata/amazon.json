@@ -1,5 +1,6 @@
 {
 	"domain": "amazon",
+	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "http://nic.amazon/",
 	"whoisServer": "whois.nic.amazon",
 	"rdapURLs": [

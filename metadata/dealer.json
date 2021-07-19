@@ -1,5 +1,6 @@
 {
 	"domain": "dealer",
+	"registryOperator": "Intercap Registry Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.dealer",
 	"rdapURLs": [

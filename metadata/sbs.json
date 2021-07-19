@@ -1,5 +1,6 @@
 {
 	"domain": "sbs",
+	"registryOperator": "ShortDot SA",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.sbs",
 	"rdapURLs": [

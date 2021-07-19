@@ -1,5 +1,6 @@
 {
 	"domain": "pictet",
+	"registryOperator": "Pictet Europe S.A.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/pictet/v1/"

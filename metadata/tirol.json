@@ -1,5 +1,6 @@
 {
 	"domain": "tirol",
+	"registryOperator": "punkt Tirol GmbH",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.tirol",
 	"rdapURLs": [

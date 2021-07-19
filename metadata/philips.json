@@ -1,5 +1,6 @@
 {
 	"domain": "philips",
+	"registryOperator": "Koninklijke Philips N.V.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.philips",
 	"rdapURLs": [

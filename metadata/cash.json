@@ -1,5 +1,6 @@
 {
 	"domain": "cash",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.cash",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

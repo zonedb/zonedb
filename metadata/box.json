@@ -1,5 +1,6 @@
 {
 	"domain": "box",
+	"registryOperator": "Intercap Registry Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.box",
 	"rdapURLs": [

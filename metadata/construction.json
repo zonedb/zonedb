@@ -1,5 +1,6 @@
 {
 	"domain": "construction",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.construction",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

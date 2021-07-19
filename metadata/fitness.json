@@ -1,5 +1,6 @@
 {
 	"domain": "fitness",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.fitness",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

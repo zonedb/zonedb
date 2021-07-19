@@ -1,5 +1,6 @@
 {
 	"domain": "ice",
+	"registryOperator": "IntercontinentalExchange, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ice",
 	"rdapURLs": [

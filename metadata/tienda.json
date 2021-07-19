@@ -1,5 +1,6 @@
 {
 	"domain": "tienda",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.tienda",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

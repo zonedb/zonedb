@@ -1,5 +1,6 @@
 {
 	"domain": "holiday",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.holiday",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

@@ -1,5 +1,6 @@
 {
 	"domain": "nagoya",
+	"registryOperator": "GMO Registry, Inc.",
 	"whoisServer": "whois.nic.nagoya",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

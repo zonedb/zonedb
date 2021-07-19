@@ -1,5 +1,6 @@
 {
 	"domain": "club",
+	"registryOperator": ".CLUB DOMAINS, LLC",
 	"whoisServer": "whois.nic.club",
 	"rdapURLs": [
 		"https://rdap.nic.club/"

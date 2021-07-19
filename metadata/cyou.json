@@ -1,5 +1,6 @@
 {
 	"domain": "cyou",
+	"registryOperator": "ShortDot SA",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.cyou",
 	"rdapURLs": [

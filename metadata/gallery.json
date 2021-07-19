@@ -1,5 +1,6 @@
 {
 	"domain": "gallery",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.gallery",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

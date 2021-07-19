@@ -1,5 +1,6 @@
 {
 	"domain": "lds",
+	"registryOperator": "IRI Domain Management, LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lds",
 	"rdapURLs": [

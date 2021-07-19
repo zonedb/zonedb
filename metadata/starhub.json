@@ -4,7 +4,8 @@
 	"whoisServer": "whois.nic.starhub",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

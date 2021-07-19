@@ -1,5 +1,6 @@
 {
 	"domain": "teva",
+	"registryOperator": "Teva Pharmaceutical Industries Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.teva",
 	"rdapURLs": [

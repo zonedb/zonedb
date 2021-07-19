@@ -1,5 +1,6 @@
 {
 	"domain": "eus",
+	"registryOperator": "Puntueus Fundazioa",
 	"whoisServer": "whois.nic.eus",
 	"rdapURLs": [
 		"https://rdap.nic.eus/"

@@ -1,5 +1,6 @@
 {
 	"domain": "lexus",
+	"registryOperator": "TOYOTA MOTOR CORPORATION",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lexus",
 	"rdapURLs": [

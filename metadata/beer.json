@@ -1,5 +1,6 @@
 {
 	"domain": "beer",
+	"registryOperator": "Minds + Machines Group Limited",
 	"infoURL": "http://nic.beer/",
 	"whoisServer": "whois.nic.beer",
 	"rdapURLs": [

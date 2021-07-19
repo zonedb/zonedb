@@ -1,5 +1,6 @@
 {
 	"domain": "hitachi",
+	"registryOperator": "Hitachi, Ltd.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.gmo",
 	"rdapURLs": [

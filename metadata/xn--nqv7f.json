@@ -1,5 +1,6 @@
 {
 	"domain": "机构",
+	"registryOperator": "Public Interest Registry",
 	"infoURL": "https://pir.org/products/chinese2char-domain/",
 	"whoisServer": "whois.publicinterestregistry.net",
 	"rdapURLs": [

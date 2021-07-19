@@ -1,5 +1,6 @@
 {
 	"domain": "hbo",
+	"registryOperator": "HBO Registry Services, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.hbo",
 	"rdapURLs": [

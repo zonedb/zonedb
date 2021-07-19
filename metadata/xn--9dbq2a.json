@@ -1,5 +1,6 @@
 {
 	"domain": "קום",
+	"registryOperator": "VeriSign Sarl",
 	"whoisServer": "whois.nic.קום",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/xn--9dbq2a/v1/"

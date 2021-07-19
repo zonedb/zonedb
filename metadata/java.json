@@ -1,5 +1,6 @@
 {
 	"domain": "java",
+	"registryOperator": "Oracle Corporation",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.java",
 	"rdapURLs": [

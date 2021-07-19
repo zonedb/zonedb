@@ -1,5 +1,6 @@
 {
 	"domain": "guardian",
+	"registryOperator": "The Guardian Life Insurance Company of America",
 	"infoURL": "https://newgtlds.icann.org/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/guardian/v1/"

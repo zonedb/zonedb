@@ -1,5 +1,6 @@
 {
 	"domain": "nec",
+	"registryOperator": "NEC Corporation",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.nec",
 	"rdapURLs": [

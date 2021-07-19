@@ -1,5 +1,6 @@
 {
 	"domain": "quebec",
+	"registryOperator": "PointQuébec Inc",
 	"whoisServer": "whois.nic.quebec",
 	"rdapURLs": [
 		"https://rdap.nic.quebec/"

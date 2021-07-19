@@ -1,5 +1,6 @@
 {
 	"domain": "mortgage",
+	"registryOperator": "Dog Beach, LLC",
 	"whoisServer": "whois.nic.mortgage",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

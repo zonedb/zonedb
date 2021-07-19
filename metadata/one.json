@@ -1,5 +1,6 @@
 {
 	"domain": "one",
+	"registryOperator": "One.com A/S",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.one",
 	"rdapURLs": [

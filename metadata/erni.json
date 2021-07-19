@@ -1,5 +1,6 @@
 {
 	"domain": "erni",
+	"registryOperator": "ERNI Group Holding AG",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.erni",
 	"rdapURLs": [

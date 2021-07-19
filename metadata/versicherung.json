@@ -1,5 +1,6 @@
 {
 	"domain": "versicherung",
+	"registryOperator": "tldbox GmbH",
 	"whoisServer": "whois.nic.versicherung",
 	"rdapURLs": [
 		"https://rdap.nic.versicherung/v1/"

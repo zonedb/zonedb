@@ -1,5 +1,6 @@
 {
 	"domain": "sony",
+	"registryOperator": "Sony Corporation",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.sony",
 	"rdapURLs": [

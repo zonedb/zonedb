@@ -1,5 +1,6 @@
 {
 	"domain": "life",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.life",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

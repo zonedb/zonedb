@@ -4,7 +4,8 @@
 	"whoisServer": "whois.nic.metlife",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

@@ -1,5 +1,6 @@
 {
 	"domain": "coop",
+	"registryOperator": "DotCooperation LLC",
 	"infoURL": "https://identity.coop/",
 	"whoisServer": "whois.nic.coop",
 	"rdapURLs": [

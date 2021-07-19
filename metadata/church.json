@@ -1,5 +1,6 @@
 {
 	"domain": "church",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.church",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

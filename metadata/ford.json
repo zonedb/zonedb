@@ -1,5 +1,6 @@
 {
 	"domain": "ford",
+	"registryOperator": "Ford Motor Company",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ford",
 	"rdapURLs": [

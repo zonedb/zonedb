@@ -1,5 +1,6 @@
 {
 	"domain": "mitsubishi",
+	"registryOperator": "Mitsubishi Corporation",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.gmo",
 	"rdapURLs": [

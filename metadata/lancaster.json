@@ -1,5 +1,6 @@
 {
 	"domain": "lancaster",
+	"registryOperator": "LANCASTER",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lancaster",
 	"rdapURLs": [

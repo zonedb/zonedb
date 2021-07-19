@@ -1,5 +1,6 @@
 {
 	"domain": "toyota",
+	"registryOperator": "TOYOTA MOTOR CORPORATION",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.toyota",
 	"rdapURLs": [

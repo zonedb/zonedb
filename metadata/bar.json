@@ -1,5 +1,6 @@
 {
 	"domain": "bar",
+	"registryOperator": "Punto 2012 Sociedad Anonima Promotora de Inversion de Capital Variable",
 	"whoisServer": "whois.nic.bar",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/bar/"

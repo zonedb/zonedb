@@ -1,5 +1,6 @@
 {
 	"domain": "飞利浦",
+	"registryOperator": "Koninklijke Philips N.V.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.飞利浦",
 	"rdapURLs": [
@@ -17,6 +18,7 @@
 		"zh-Hant"
 	],
 	"tags": [
+		"brand",
 		"generic"
 	],
 	"policies": [

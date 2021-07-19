@@ -1,5 +1,6 @@
 {
 	"domain": "blog",
+	"registryOperator": "Knock Knock WHOIS There, LLC",
 	"infoURL": "https://my.blog/",
 	"whoisServer": "whois.nic.blog",
 	"rdapURLs": [

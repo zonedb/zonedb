@@ -1,5 +1,6 @@
 {
 	"domain": "fund",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.fund",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

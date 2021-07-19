@@ -1,5 +1,6 @@
 {
 	"domain": "global",
+	"registryOperator": "Dot Global Domain Registry Limited",
 	"whoisServer": "whois.nic.global",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/global/"

@@ -1,5 +1,6 @@
 {
 	"domain": "college",
+	"registryOperator": "XYZ.COM LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.college",
 	"rdapURLs": [

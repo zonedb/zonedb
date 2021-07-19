@@ -1,5 +1,6 @@
 {
 	"domain": "voting",
+	"registryOperator": "Valuetainment Corp.",
 	"whoisServer": "whois.nic.voting",
 	"rdapURLs": [
 		"https://rdap.nic.voting/v1/"

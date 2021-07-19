@@ -1,5 +1,6 @@
 {
 	"domain": "desi",
+	"registryOperator": "Desi Networks LLC",
 	"whoisServer": "whois.nic.desi",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/desi/"

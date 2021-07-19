@@ -1,5 +1,6 @@
 {
 	"domain": "bond",
+	"registryOperator": "ShortDot SA",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.bond",
 	"rdapURLs": [

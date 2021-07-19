@@ -1,5 +1,6 @@
 {
 	"domain": "bloomberg",
+	"registryOperator": "Bloomberg IP Holdings LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/bloomberg/v1/"

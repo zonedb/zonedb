@@ -1,5 +1,6 @@
 {
 	"domain": "kred",
+	"registryOperator": "KredTLD Pty Ltd",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.kred",
 	"rdapURLs": [

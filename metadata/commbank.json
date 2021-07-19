@@ -1,5 +1,6 @@
 {
 	"domain": "commbank",
+	"registryOperator": "COMMONWEALTH BANK OF AUSTRALIA",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.commbank",
 	"rdapURLs": [

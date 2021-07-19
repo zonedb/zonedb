@@ -1,5 +1,6 @@
 {
 	"domain": "estate",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.estate",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

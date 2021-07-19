@@ -1,5 +1,6 @@
 {
 	"domain": "bike",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.bike",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

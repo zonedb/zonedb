@@ -1,5 +1,6 @@
 {
 	"domain": "icbc",
+	"registryOperator": "Industrial and Commercial Bank of China Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.icbc",
 	"rdapURLs": [

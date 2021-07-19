@@ -1,5 +1,6 @@
 {
 	"domain": "realtor",
+	"registryOperator": "Real Estate Domains LLC",
 	"infoURL": "https://www.claim.realtor/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/realtor/v1/"

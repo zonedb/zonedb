@@ -1,5 +1,6 @@
 {
 	"domain": "discover",
+	"registryOperator": "Discover Financial Services",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.discover",
 	"rdapURLs": [

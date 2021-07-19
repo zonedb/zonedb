@@ -1,5 +1,6 @@
 {
 	"domain": "srl",
+	"registryOperator": "InterNetX, Corp",
 	"infoURL": "https://www.internetx.info/en/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [

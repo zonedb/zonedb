@@ -1,5 +1,6 @@
 {
 	"domain": "helsinki",
+	"registryOperator": "City of Helsinki",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.helsinki",
 	"rdapURLs": [

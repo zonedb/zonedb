@@ -1,5 +1,6 @@
 {
 	"domain": "moe",
+	"registryOperator": "Interlink Co., Ltd.",
 	"whoisServer": "whois.nic.moe",
 	"rdapURLs": [
 		"https://rdap.nic.moe/"

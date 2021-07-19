@@ -1,5 +1,6 @@
 {
 	"domain": "wien",
+	"registryOperator": "punkt.wien GmbH",
 	"whoisServer": "whois.nic.wien",
 	"rdapURLs": [
 		"https://rdap.ryce-rsp.com/rdap/"

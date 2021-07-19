@@ -1,5 +1,6 @@
 {
 	"domain": "rodeo",
+	"registryOperator": "Minds + Machines Group Limited",
 	"infoURL": "http://nic.rodeo/",
 	"whoisServer": "whois.nic.rodeo",
 	"rdapURLs": [

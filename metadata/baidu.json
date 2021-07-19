@@ -1,5 +1,6 @@
 {
 	"domain": "baidu",
+	"registryOperator": "Baidu, Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.gtld.knet.cn",
 	"rdapURLs": [

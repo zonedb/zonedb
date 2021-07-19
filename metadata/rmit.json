@@ -1,5 +1,6 @@
 {
 	"domain": "rmit",
+	"registryOperator": "Royal Melbourne Institute of Technology",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.rmit",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "adac",
+	"registryOperator": "Allgemeiner Deutscher Automobil-Club e.V. (ADAC)",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.adac",
 	"rdapURLs": [

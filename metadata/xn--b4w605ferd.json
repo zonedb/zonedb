@@ -1,5 +1,6 @@
 {
 	"domain": "淡马锡",
+	"registryOperator": "Temasek Holdings (Private) Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
@@ -16,6 +17,7 @@
 		"zh-TW"
 	],
 	"tags": [
+		"brand",
 		"generic"
 	],
 	"policies": [

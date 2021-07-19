@@ -1,5 +1,6 @@
 {
 	"domain": "yokohama",
+	"registryOperator": "GMO Registry, Inc.",
 	"whoisServer": "whois.nic.yokohama",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

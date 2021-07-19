@@ -1,5 +1,6 @@
 {
 	"domain": "citi",
+	"registryOperator": "Citigroup Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.citi",
 	"rdapURLs": [

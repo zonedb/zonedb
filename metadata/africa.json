@@ -1,5 +1,6 @@
 {
 	"domain": "africa",
+	"registryOperator": "ZA Central Registry NPC trading as Registry.Africa",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "africa-whois.registry.net.za",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "surf",
+	"registryOperator": "Minds + Machines Group Limited",
 	"infoURL": "http://nic.surf/",
 	"whoisServer": "whois.nic.surf",
 	"rdapURLs": [

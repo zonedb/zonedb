@@ -1,5 +1,6 @@
 {
 	"domain": "center",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.center",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

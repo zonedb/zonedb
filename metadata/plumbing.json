@@ -1,5 +1,6 @@
 {
 	"domain": "plumbing",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.plumbing",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

@@ -1,5 +1,6 @@
 {
 	"domain": "deloitte",
+	"registryOperator": "Deloitte Touche Tohmatsu",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.deloitte",
 	"rdapURLs": [

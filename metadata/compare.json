@@ -1,5 +1,6 @@
 {
 	"domain": "compare",
+	"registryOperator": "Registry Services, LLC",
 	"infoURL": "https://www.go.compare/",
 	"whoisServer": "whois.nic.compare",
 	"rdapURLs": [

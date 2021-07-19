@@ -1,5 +1,6 @@
 {
 	"domain": "cern",
+	"registryOperator": "European Organization for Nuclear Research (\"CERN\")",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [

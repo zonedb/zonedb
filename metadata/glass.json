@@ -1,5 +1,6 @@
 {
 	"domain": "glass",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.glass",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

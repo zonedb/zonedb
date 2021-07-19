@@ -1,5 +1,6 @@
 {
 	"domain": "horse",
+	"registryOperator": "Minds + Machines Group Limited",
 	"infoURL": "http://nic.horse/",
 	"whoisServer": "whois.nic.horse",
 	"rdapURLs": [

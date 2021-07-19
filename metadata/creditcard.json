@@ -1,5 +1,6 @@
 {
 	"domain": "creditcard",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.creditcard",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

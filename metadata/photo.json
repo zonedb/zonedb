@@ -1,5 +1,6 @@
 {
 	"domain": "photo",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.photo/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

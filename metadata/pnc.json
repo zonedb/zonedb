@@ -1,5 +1,6 @@
 {
 	"domain": "pnc",
+	"registryOperator": "PNC Domain Co., LLC",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.pnc",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "scot",
+	"registryOperator": "Dot Scot Registry Limited",
 	"whoisServer": "whois.nic.scot",
 	"rdapURLs": [
 		"https://rdap.nic.scot/"

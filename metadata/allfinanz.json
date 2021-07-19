@@ -1,5 +1,6 @@
 {
 	"domain": "allfinanz",
+	"registryOperator": "Allfinanz Deutsche Vermögensberatung Aktiengesellschaft",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.allfinanz",
 	"rdapURLs": [

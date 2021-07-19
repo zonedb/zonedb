@@ -1,5 +1,6 @@
 {
 	"domain": "best",
+	"registryOperator": "BestTLD Pty Ltd",
 	"infoURL": "https://nic.best/",
 	"whoisServer": "whois.nic.best",
 	"rdapURLs": [

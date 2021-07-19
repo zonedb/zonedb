@@ -4,7 +4,8 @@
 	"whoisServer": "whois-fe.movistar.tango.knipp.de",
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

@@ -1,5 +1,6 @@
 {
 	"domain": "vip",
+	"registryOperator": "Minds + Machines Group Limited",
 	"infoURL": "http://nic.vip/",
 	"whoisServer": "whois.nic.vip",
 	"rdapURLs": [

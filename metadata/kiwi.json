@@ -1,5 +1,6 @@
 {
 	"domain": "kiwi",
+	"registryOperator": "DOT KIWI LIMITED",
 	"whoisServer": "whois.nic.kiwi",
 	"rdapURLs": [
 		"https://rdap.kiwi.fury.ca/rdap/"

@@ -6,7 +6,8 @@
 		"https://rdap.centralnic.com/spreadbetting/"
 	],
 	"tags": [
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

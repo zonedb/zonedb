@@ -1,5 +1,6 @@
 {
 	"domain": "citic",
+	"registryOperator": "CITIC Group Corporation",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.citic",
 	"rdapURLs": [

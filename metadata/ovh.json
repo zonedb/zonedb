@@ -1,5 +1,6 @@
 {
 	"domain": "ovh",
+	"registryOperator": "MédiaBC",
 	"whoisServer": "whois-ovh.nic.fr",
 	"rdapURLs": [
 		"https://rdap.nic.ovh/"

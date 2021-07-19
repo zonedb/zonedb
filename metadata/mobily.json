@@ -3,7 +3,8 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.mobily",
 	"tags": [
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

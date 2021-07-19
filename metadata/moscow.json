@@ -1,5 +1,6 @@
 {
 	"domain": "moscow",
+	"registryOperator": "Foundation for Assistance for Internet Technologies and Infrastructure Development (FAITID)",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.moscow",
 	"rdapURLs": [

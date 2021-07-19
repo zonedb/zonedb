@@ -1,5 +1,6 @@
 {
 	"domain": "mtn",
+	"registryOperator": "MTN Dubai Limited",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.mtn",
 	"rdapURLs": [

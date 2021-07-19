@@ -1,5 +1,6 @@
 {
 	"domain": "com",
+	"registryOperator": "VeriSign, Inc.",
 	"infoURL": "https://www.verisign.com/en_US/domain-names/com-domain-names/index.xhtml",
 	"whoisServer": "whois.verisign-grs.com",
 	"rdapURLs": [

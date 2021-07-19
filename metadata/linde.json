@@ -1,5 +1,6 @@
 {
 	"domain": "linde",
+	"registryOperator": "Linde Aktiengesellschaft",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.linde",
 	"rdapURLs": [

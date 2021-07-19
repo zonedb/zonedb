@@ -1,5 +1,6 @@
 {
 	"domain": "futbol",
+	"registryOperator": "Dog Beach, LLC",
 	"whoisServer": "whois.nic.futbol",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

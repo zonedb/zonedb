@@ -1,5 +1,6 @@
 {
 	"domain": "statebank",
+	"registryOperator": "STATE BANK OF INDIA",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.statebank",
 	"rdapURLs": [

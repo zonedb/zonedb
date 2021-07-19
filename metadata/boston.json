@@ -1,5 +1,6 @@
 {
 	"domain": "boston",
+	"registryOperator": "Boston TLD Management, LLC",
 	"infoURL": "http://nic.boston/",
 	"whoisServer": "whois.nic.boston",
 	"rdapURLs": [

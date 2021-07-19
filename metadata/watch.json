@@ -1,5 +1,6 @@
 {
 	"domain": "watch",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.watch",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

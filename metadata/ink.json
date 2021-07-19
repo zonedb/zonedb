@@ -1,5 +1,6 @@
 {
 	"domain": "ink",
+	"registryOperator": "Top Level Design, LLC",
 	"whoisServer": "whois.nic.ink",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/ink/"

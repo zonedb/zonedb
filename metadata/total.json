@@ -1,5 +1,6 @@
 {
 	"domain": "total",
+	"registryOperator": "Total SA",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.total",
 	"rdapURLs": [

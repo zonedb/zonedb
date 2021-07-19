@@ -1,5 +1,6 @@
 {
 	"domain": "saarland",
+	"registryOperator": "dotSaarland GmbH",
 	"whoisServer": "whois.nic.saarland",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/saarland/"

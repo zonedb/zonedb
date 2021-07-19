@@ -1,5 +1,6 @@
 {
 	"domain": "nyc",
+	"registryOperator": "The City of New York by and through the New York City Department of Information Technology \u0026 Telecommunications",
 	"whoisServer": "whois.nic.nyc",
 	"rdapURLs": [
 		"https://rdap.nic.nyc/"

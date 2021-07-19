@@ -1,5 +1,6 @@
 {
 	"domain": "网络",
+	"registryOperator": "China Internet Network Information Center (CNNIC)",
 	"whoisServer": "whois.ngtld.cn",
 	"nameServers": [
 		"a.ngtld.cn",

@@ -1,5 +1,6 @@
 {
 	"domain": "flowers",
+	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.flowers/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "android",
+	"registryOperator": "Charleston Road Registry Inc.",
 	"infoURL": "https://www.registry.google/",
 	"whoisServer": "whois.nic.google",
 	"rdapURLs": [

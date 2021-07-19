@@ -1,5 +1,6 @@
 {
 	"domain": "jetzt",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.jetzt",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

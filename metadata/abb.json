@@ -1,5 +1,6 @@
 {
 	"domain": "abb",
+	"registryOperator": "ABB Ltd",
 	"infoURL": "https://newgtlds.icann.org/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/abb/v1/"

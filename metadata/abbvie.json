@@ -1,5 +1,6 @@
 {
 	"domain": "abbvie",
+	"registryOperator": "AbbVie Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.abbvie",
 	"rdapURLs": [

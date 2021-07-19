@@ -1,5 +1,6 @@
 {
 	"domain": "shell",
+	"registryOperator": "Shell Information Technology International Inc",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.shell",
 	"rdapURLs": [

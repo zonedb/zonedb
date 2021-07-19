@@ -1,5 +1,6 @@
 {
 	"domain": "vote",
+	"registryOperator": "Monolith Registry LLC",
 	"infoURL": "https://get.vote/",
 	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [

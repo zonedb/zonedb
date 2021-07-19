@@ -1,5 +1,6 @@
 {
 	"domain": "skype",
+	"registryOperator": "Microsoft Corporation",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.skype",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "ses",
+	"registryOperator": "SES",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ses",
 	"rdapURLs": [

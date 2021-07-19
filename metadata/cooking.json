@@ -1,5 +1,6 @@
 {
 	"domain": "cooking",
+	"registryOperator": "Minds + Machines Group Limited",
 	"infoURL": "http://nic.cooking/",
 	"whoisServer": "whois.nic.cooking",
 	"rdapURLs": [

@@ -1,5 +1,6 @@
 {
 	"domain": "wales",
+	"registryOperator": "Nominet UK",
 	"infoURL": "https://ourhomeonline.wales/",
 	"whoisServer": "whois.nic.wales",
 	"rdapURLs": [

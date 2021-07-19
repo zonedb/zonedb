@@ -1,5 +1,6 @@
 {
 	"domain": "pfizer",
+	"registryOperator": "Pfizer Inc.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.pfizer",
 	"rdapURLs": [

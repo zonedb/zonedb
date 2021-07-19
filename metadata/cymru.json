@@ -1,5 +1,6 @@
 {
 	"domain": "cymru",
+	"registryOperator": "Nominet UK",
 	"infoURL": "https://eincartrefarlein.cymru/",
 	"whoisServer": "whois.nic.cymru",
 	"rdapURLs": [

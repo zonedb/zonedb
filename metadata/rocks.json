@@ -1,5 +1,6 @@
 {
 	"domain": "rocks",
+	"registryOperator": "Dog Beach, LLC",
 	"whoisServer": "whois.nic.rocks",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

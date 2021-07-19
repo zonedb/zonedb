@@ -1,5 +1,6 @@
 {
 	"domain": "boutique",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.boutique",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

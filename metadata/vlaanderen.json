@@ -1,5 +1,6 @@
 {
 	"domain": "vlaanderen",
+	"registryOperator": "DNS.be vzw",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.vlaanderen",
 	"rdapURLs": [

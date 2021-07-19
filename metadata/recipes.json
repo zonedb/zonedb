@@ -1,5 +1,6 @@
 {
 	"domain": "recipes",
+	"registryOperator": "Binky Moon, LLC",
 	"whoisServer": "whois.nic.recipes",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"
