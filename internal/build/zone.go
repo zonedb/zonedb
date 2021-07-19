@@ -13,17 +13,18 @@ import (
 
 // Zone represents a build-time DNS zone (public suffix).
 type Zone struct {
-	Domain      string   `json:"domain,omitempty"`
-	InfoURL     string   `json:"infoURL,omitempty"`
-	WhoisServer string   `json:"whoisServer,omitempty"`
-	WhoisURL    string   `json:"whoisURL,omitempty"`
-	RDAPURLs    []string `json:"rdapURLs,omitempty"`
-	NameServers []string `json:"nameServers,omitempty"`
-	Wildcards   []string `json:"wildcards,omitempty"`
-	Locations   []string `json:"locations,omitempty"`
-	Languages   []string `json:"languages,omitempty"`
-	Tags        []string `json:"tags,omitempty"`
-	Policies    []Policy `json:"policies,omitempty"`
+	Domain           string   `json:"domain,omitempty"`
+	RegistryOperator string   `json:"registryOperator,omitempty"`
+	InfoURL          string   `json:"infoURL,omitempty"`
+	WhoisServer      string   `json:"whoisServer,omitempty"`
+	WhoisURL         string   `json:"whoisURL,omitempty"`
+	RDAPURLs         []string `json:"rdapURLs,omitempty"`
+	NameServers      []string `json:"nameServers,omitempty"`
+	Wildcards        []string `json:"wildcards,omitempty"`
+	Locations        []string `json:"locations,omitempty"`
+	Languages        []string `json:"languages,omitempty"`
+	Tags             []string `json:"tags,omitempty"`
+	Policies         []Policy `json:"policies,omitempty"`
 
 	// Internal
 	subdomains     []string
@@ -119,6 +120,32 @@ func (z *Zone) transition() {
 	}
 }
 
+// AddTags adds tags to z, returning the number of tag(s) added, if any.
+func (z *Zone) AddTags(tags ...string) int {
+	s := NewSet(z.Tags...)
+	n := len(s)
+	s.Add(tags...)
+	d := len(s) - n
+	if d != 0 {
+		z.Tags = s.Values()
+	}
+	return d
+}
+
+// RemoveTags removes tags from z, returning the number of tag(s) removed, if any.
+func (z *Zone) RemoveTags(tags ...string) int {
+	s := NewSet(z.Tags...)
+	n := len(s)
+	for _, t := range tags {
+		delete(s, t)
+	}
+	d := n - len(s)
+	if d != 0 {
+		z.Tags = s.Values()
+	}
+	return d
+}
+
 // AddPolicy adds a single policy to Zone z.
 func (z *Zone) AddPolicy(ptype, key, value, comment string) {
 	if ptype == "" {
@@ -184,16 +211,15 @@ func (z *Zone) IsTLD() bool {
 	return !strings.Contains(z.Domain, ".")
 }
 
-// Retire marks a zone as retired or withdrawn.
-func (z *Zone) Retire() {
-	// Brand TLDs are withdrawn, not retired
-	for _, tag := range z.Tags {
-		if tag == "brand" {
-			z.Tags = append(z.Tags, "withdrawn")
-			return
-		}
-	}
-	z.Tags = append(z.Tags, "retired")
+// IsRetiredOrWithdrawn returns true if the zone is retired or withdrawn.
+func (z *Zone) IsRetiredOrWithdrawn() bool {
+	s := NewSet(z.Tags...)
+	return s[TagRetired] || s[TagWithdrawn]
+}
+
+// Brand TLDs have tag "brand".
+func (z *Zone) IsBrand() bool {
+	return NewSet(z.Tags...)[TagBrand]
 }
 
 // TLDs filters a zone set for top-level domains.

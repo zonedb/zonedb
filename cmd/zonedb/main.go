@@ -55,6 +55,7 @@ func main() {
 	updateRubyWhois := flag.Bool("update-ruby-whois", false, "query Ruby Whois for whois servers")
 	updateWhois := flag.Bool("update-whois", false, "query whois-servers.net for whois servers")
 	updateIANA := flag.Bool("update-iana", false, "query IANA for metadata")
+	updateICANN := flag.Bool("update-icann", false, "query ICANN for metadata")
 	updateIDN := flag.Bool("update-idn", false, "query IANA for IDN tables")
 	updateRDAP := flag.Bool("update-rdap", false, "query IANA for RDAP URLs")
 	updateAll := flag.Bool("update", false, "update all (root zone, whois, IANA data, IDN tables)")
@@ -189,6 +190,14 @@ func main() {
 
 	if *updateRoot || *updateAll {
 		err := build.FetchRootZone(workZones, addNew)
+		if err != nil {
+			errs = append(errs, err)
+			build.LogError(err)
+		}
+	}
+
+	if *updateICANN || *updateAll {
+		err := build.FetchGTLDsFromICANN(workZones)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)

@@ -6,18 +6,32 @@ import (
 	"github.com/wsxiaoys/terminal/color"
 )
 
+// Well-known tags
+const (
+	TagAdult          = "adult"
+	TagBrand          = "brand"
+	TagCity           = "city"
+	TagClosed         = "closed"
+	TagCommunity      = "community"
+	TagCountry        = "country"
+	TagGeneric        = "generic"
+	TagGeo            = "geo"
+	TagInfrastructure = "infrastructure"
+	TagPrivate        = "private"
+	TagRegion         = "region"
+	TagRetired        = "retired"
+	TagSponsored      = "sponsored"
+	TagWithdrawn      = "withdrawn"
+)
+
 // AddTags adds one or more tags to a Zone.
 func AddTags(zones map[string]*Zone, tags []string) {
 	var added, modified int
 	for _, z := range zones {
-		s := NewSet(z.Tags...)
-		n := len(s)
-		s.Add(tags...)
-		m := len(s) - n
-		if m != 0 {
-			z.Tags = s.Values()
-			added += m
+		d := z.AddTags(tags...)
+		if d > 0 {
 			modified++
+			added += d
 		}
 	}
 	color.Fprintf(os.Stderr, "@{.}Added %d tag(s) to %d zone(s)\n", added, modified)
@@ -27,16 +41,10 @@ func AddTags(zones map[string]*Zone, tags []string) {
 func RemoveTags(zones map[string]*Zone, tags []string) {
 	var removed, modified int
 	for _, z := range zones {
-		s := NewSet(z.Tags...)
-		n := len(s)
-		for _, t := range tags {
-			delete(s, t)
-		}
-		m := n - len(s)
-		if m != 0 {
-			z.Tags = s.Values()
-			removed += m
+		d := z.RemoveTags(tags...)
+		if d > 0 {
 			modified++
+			removed += d
 		}
 	}
 	color.Fprintf(os.Stderr, "@{.}Removed %d tag(s) from %d zone(s)\n", removed, modified)
