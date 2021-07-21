@@ -1,12 +1,7 @@
 {
 	"domain": "ph.tc",
 	"nameServers": [
-		"ns1.openprovider.nl",
-		"ns2.openprovider.be",
-		"ns3.openprovider.eu"
-	],
-	"wildcards": [
-		"165.231.26.233"
+		"suspended.nic.tc"
 	],
 	"policies": [
 		{
