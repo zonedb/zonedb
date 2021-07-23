@@ -1053,7 +1053,7 @@ var y = [5192]Zone{
 	{"movie", r, x, 0x40, "https://newgtlds.icann.org/", w{"demand.alpha.aridns.net.au", "demand.beta.aridns.net.au", "demand.delta.aridns.net.au", "demand.gamma.aridns.net.au"}, n, n, w{"de", "es", "fr", "ja", "ko", "mul-Arab", "mul-Cyrl", "mul-Deva", "mul-Grek", "mul-Hebr", "mul-Latn", "mul-Taml", "mul-Thai", "zh"}, "whois.nic.movie", e, w{"https://rdap.donuts.co/rdap/"}, t},
 	{"movistar", r, x, 0x842, "https://newgtlds.icann.org/", n, n, n, n, "whois-fe.movistar.tango.knipp.de", e, n, f},
 	{"mozaic", r, x, 0x42, "https://newgtlds.icann.org/", n, n, n, n, e, e, n, f},
-	{"mp", r, z[3425:3429], 0xa0, "https://get.mp/", n, n, n, n, "whois.nic.mp", e, n, f},
+	{"mp", r, z[3425:3429], 0xa0, "https://get.mp/", w{"ns1.nic.mp", "ns2.nic.mp", "ns3.nic.mp", "ns4.nic.mp"}, n, n, n, "whois.nic.mp", e, n, f},
 	{"mq", r, x, 0xa0, "https://www.dom-enic.com/", w{"ns1-gp.mediaserv.net", "ns1-mq.mediaserv.net"}, n, n, n, "whois.mediaserv.net", e, n, f},
 	{"mr", r, z[3429:3433], 0xa0, e, w{"ns-mr.afrinic.net", "ns-mr.nic.fr", "ns1.nic.mr", "ns2.nic.mr", "ns3.nic.mr"}, n, n, n, "whois.nic.mr", e, n, f},
 	{"mrmuscle", r, x, 0x42, "https://newgtlds.icann.org/", n, n, n, n, e, e, n, f},
