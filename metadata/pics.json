@@ -2,7 +2,7 @@
 	"domain": "pics",
 	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.pics/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.pics",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],
