@@ -8,6 +8,8 @@
 	],
 	"nameServers": [
 		"a.nic.olayangroup",
+		"b.nic.olayangroup",
+		"c.nic.olayangroup",
 		"d.nic.olayangroup"
 	],
 	"languages": [
