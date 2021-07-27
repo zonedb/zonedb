@@ -3,7 +3,7 @@
 	"registryOperator": "dotCareer LLC",
 	"whoisServer": "whois.nic.career",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/career/v1/"
+		"https://rdap.nominet.uk/career/"
 	],
 	"nameServers": [
 		"dns1-career.nominetdns.uk",

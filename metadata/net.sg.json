@@ -2,6 +2,8 @@
 	"domain": "net.sg",
 	"nameServers": [
 		"dsany.sgnic.sg",
+		"dsany2.sgnic.sg",
+		"dsany3.sgnic.sg",
 		"pch.sgzones.sg"
 	],
 	"policies": [

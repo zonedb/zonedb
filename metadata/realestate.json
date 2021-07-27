@@ -4,7 +4,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.realestate",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/realestate/v1/"
+		"https://rdap.nominet.uk/realestate/"
 	],
 	"nameServers": [
 		"dns1-realestate.nominetdns.uk",

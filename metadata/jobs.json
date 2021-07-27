@@ -3,7 +3,7 @@
 	"registryOperator": "Employ Media LLC",
 	"whoisServer": "whois.nic.jobs",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/jobs/v1/"
+		"https://rdap.nominet.uk/jobs/"
 	],
 	"nameServers": [
 		"dns1-jobs.nominetdns.uk",

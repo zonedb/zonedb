@@ -4,7 +4,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.med",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/med/v1/"
+		"https://rdap.nominet.uk/med/"
 	],
 	"nameServers": [
 		"dns1-med.nominetdns.uk",

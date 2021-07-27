@@ -3,7 +3,7 @@
 	"registryOperator": "Real Estate Domains LLC",
 	"infoURL": "https://www.claim.realtor/",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/realtor/v1/"
+		"https://rdap.nominet.uk/realtor/"
 	],
 	"nameServers": [
 		"dns1-realtor.nominetdns.uk",
