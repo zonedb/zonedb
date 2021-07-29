@@ -7,12 +7,12 @@
 		"https://rdap.nic.insurance/"
 	],
 	"nameServers": [
-		"a.nic.insurance",
-		"b.nic.insurance",
-		"c.nic.insurance",
 		"d.nic.insurance",
 		"e.nic.insurance",
-		"f.nic.insurance"
+		"f.nic.insurance",
+		"w.nic.insurance",
+		"x.nic.insurance",
+		"y.nic.insurance"
 	],
 	"tags": [
 		"generic"

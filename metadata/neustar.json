@@ -7,9 +7,9 @@
 		"https://rdap.nic.neustar/"
 	],
 	"nameServers": [
-		"ns1.dns.nic.neustar",
-		"ns2.dns.nic.neustar",
-		"ns3.dns.nic.neustar",
+		"a.nic.neustar",
+		"b.nic.neustar",
+		"c.nic.neustar",
 		"ns4.dns.nic.neustar",
 		"ns5.dns.nic.neustar",
 		"ns6.dns.nic.neustar"
