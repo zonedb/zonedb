@@ -7,13 +7,14 @@
 		"https://rdap.nominet.uk/realestate/"
 	],
 	"nameServers": [
-		"dns1-realestate.nominetdns.uk",
-		"dns2-realestate.nominetdns.uk",
-		"dns3-realestate.nominetdns.uk",
-		"dns4-realestate.nominetdns.uk",
-		"dnsa-realestate.nominetdns.uk",
-		"dnsb-realestate.nominetdns.uk",
-		"dnsc-realestate.nominetdns.uk"
+		"dns1.nic.realestate",
+		"dns2.nic.realestate",
+		"dns3.nic.realestate",
+		"dns4.nic.realestate",
+		"dnsa.nic.realestate",
+		"dnsb.nic.realestate",
+		"dnsc.nic.realestate",
+		"dnsd.nic.realestate"
 	],
 	"languages": [
 		"az",

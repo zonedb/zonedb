@@ -6,14 +6,14 @@
 		"https://rdap.nominet.uk/career/"
 	],
 	"nameServers": [
-		"dns1-career.nominetdns.uk",
-		"dns2-career.nominetdns.uk",
-		"dns3-career.nominetdns.uk",
-		"dns4-career.nominetdns.uk",
-		"dnsa-career.nominetdns.uk",
-		"dnsb-career.nominetdns.uk",
-		"dnsc-career.nominetdns.uk",
-		"dnsd-career.nominetdns.uk"
+		"dns1.nic.career",
+		"dns2.nic.career",
+		"dns3.nic.career",
+		"dns4.nic.career",
+		"dnsa.nic.career",
+		"dnsb.nic.career",
+		"dnsc.nic.career",
+		"dnsd.nic.career"
 	],
 	"languages": [
 		"az",

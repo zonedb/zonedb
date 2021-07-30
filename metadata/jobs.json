@@ -6,14 +6,14 @@
 		"https://rdap.nominet.uk/jobs/"
 	],
 	"nameServers": [
-		"dns1-jobs.nominetdns.uk",
-		"dns2-jobs.nominetdns.uk",
-		"dns3-jobs.nominetdns.uk",
-		"dns4-jobs.nominetdns.uk",
-		"dnsa-jobs.nominetdns.uk",
-		"dnsb-jobs.nominetdns.uk",
-		"dnsc-jobs.nominetdns.uk",
-		"dnsd-jobs.nominetdns.uk"
+		"dns1.nic.jobs",
+		"dns2.nic.jobs",
+		"dns3.nic.jobs",
+		"dns4.nic.jobs",
+		"dnsa.nic.jobs",
+		"dnsb.nic.jobs",
+		"dnsc.nic.jobs",
+		"dnsd.nic.jobs"
 	],
 	"tags": [
 		"generic",

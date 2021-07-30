@@ -7,14 +7,14 @@
 		"https://rdap.nominet.uk/med/"
 	],
 	"nameServers": [
-		"dns1-med.nominetdns.uk",
-		"dns2-med.nominetdns.uk",
-		"dns3-med.nominetdns.uk",
-		"dns4-med.nominetdns.uk",
-		"dnsa-med.nominetdns.uk",
-		"dnsb-med.nominetdns.uk",
-		"dnsc-med.nominetdns.uk",
-		"dnsd-med.nominetdns.uk"
+		"dns1.nic.med",
+		"dns2.nic.med",
+		"dns3.nic.med",
+		"dns4.nic.med",
+		"dnsa.nic.med",
+		"dnsb.nic.med",
+		"dnsc.nic.med",
+		"dnsd.nic.med"
 	],
 	"tags": [
 		"generic"

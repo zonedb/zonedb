@@ -7,9 +7,6 @@
 		"https://rdap.nic.bank/"
 	],
 	"nameServers": [
-		"a.nic.bank",
-		"b.nic.bank",
-		"c.nic.bank",
 		"d.nic.bank",
 		"e.nic.bank",
 		"f.nic.bank",

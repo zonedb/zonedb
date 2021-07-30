@@ -6,14 +6,14 @@
 		"https://rdap.nominet.uk/realtor/"
 	],
 	"nameServers": [
-		"dns1-realtor.nominetdns.uk",
-		"dns2-realtor.nominetdns.uk",
-		"dns3-realtor.nominetdns.uk",
-		"dns4-realtor.nominetdns.uk",
-		"dnsa-realtor.nominetdns.uk",
-		"dnsb-realtor.nominetdns.uk",
-		"dnsc-realtor.nominetdns.uk",
-		"dnsd-realtor.nominetdns.uk"
+		"dns1.nic.realtor",
+		"dns2.nic.realtor",
+		"dns3.nic.realtor",
+		"dns4.nic.realtor",
+		"dnsa.nic.realtor",
+		"dnsb.nic.realtor",
+		"dnsc.nic.realtor",
+		"dnsd.nic.realtor"
 	],
 	"tags": [
 		"generic"

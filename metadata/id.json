@@ -6,6 +6,9 @@
 		"https://rdap.pandi.id/rdap/"
 	],
 	"nameServers": [
+		"b.dns.id",
+		"c.dns.id",
+		"d.dns.id",
 		"e.dns.id",
 		"ns4.apnic.net"
 	],
