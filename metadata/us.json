@@ -2,12 +2,12 @@
 	"domain": "us",
 	"whoisServer": "whois.nic.us",
 	"nameServers": [
-		"a.cctld.us",
 		"b.cctld.us",
-		"c.cctld.us",
-		"e.cctld.us",
 		"f.cctld.us",
-		"k.cctld.us"
+		"k.cctld.us",
+		"w.cctld.us",
+		"x.cctld.us",
+		"y.cctld.us"
 	],
 	"tags": [
 		"country",
