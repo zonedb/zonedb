@@ -1,6 +1,6 @@
 {
 	"domain": "uno",
-	"registryOperator": "DotSite Inc.",
+	"registryOperator": "Radix FZC",
 	"whoisServer": "whois.nic.uno",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/uno/"
