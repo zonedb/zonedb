@@ -5,6 +5,9 @@
 		"ns4-geo.nic.ru",
 		"ns8-geo.nic.ru"
 	],
+	"wildcards": [
+		"185.76.145.93"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
