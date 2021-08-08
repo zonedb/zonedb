@@ -1,7 +1,10 @@
 {
 	"domain": "କମ୍ପାନୀ.ଭାରତ",
 	"nameServers": [
-		"ns1.w3infotech.net",
-		"ns2.w3infotech.net"
+		"melnicoff.ns.cloudflare.com",
+		"riya.ns.cloudflare.com"
+	],
+	"wildcards": [
+		"127.0.0.1"
 	]
 }

@@ -12,7 +12,8 @@
 		"tld5.nic.ntt"
 	],
 	"languages": [
-		"ja"
+		"ja",
+		"ja-JP"
 	],
 	"tags": [
 		"brand",
@@ -23,6 +24,11 @@
 			"type": "idn-table",
 			"key": "ja",
 			"value": "https://www.iana.org/domains/idn-tables/tables/ntt_ja_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja-JP",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ntt_ja-jp_1.1.txt"
 		}
 	]
 }

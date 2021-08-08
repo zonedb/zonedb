@@ -10,13 +10,19 @@
 		"e.ngtld.cn"
 	],
 	"languages": [
-		"zh-Hans"
+		"zh-Hans",
+		"zh-Hant"
 	],
 	"policies": [
 		{
 			"type": "idn-table",
 			"key": "zh-Hans",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--io0a7i_zh-hans_4.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hant",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--io0a7i_zh-hant_4.1.txt"
 		}
 	]
 }
