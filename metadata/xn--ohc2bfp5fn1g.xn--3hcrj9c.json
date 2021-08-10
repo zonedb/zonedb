@@ -3,5 +3,8 @@
 	"nameServers": [
 		"melnicoff.ns.cloudflare.com",
 		"riya.ns.cloudflare.com"
+	],
+	"wildcards": [
+		"127.0.0.1"
 	]
 }
