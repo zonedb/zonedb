@@ -2,6 +2,7 @@
 	"domain": "ею",
 	"whoisServer": "whois.eu",
 	"nameServers": [
+		"be.dns.eu",
 		"nl.dns.eu",
 		"si.dns.eu",
 		"w.dns.eu",

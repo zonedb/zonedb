@@ -7,6 +7,10 @@
 		"https://rdap.nominet.uk/london/"
 	],
 	"nameServers": [
+		"a.nic.london",
+		"b.nic.london",
+		"c.nic.london",
+		"d.nic.london",
 		"dns1.nic.london",
 		"dns2.nic.london",
 		"dns3.nic.london",

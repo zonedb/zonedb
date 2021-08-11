@@ -6,9 +6,6 @@
 		"secdns1.posix.co.za",
 		"za-ns.anycast.pch.net"
 	],
-	"wildcards": [
-		"78.31.111.139"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
