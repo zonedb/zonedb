@@ -12,13 +12,9 @@
 		"c.nic.london",
 		"d.nic.london",
 		"dns1.nic.london",
-		"dns2.nic.london",
 		"dns3.nic.london",
-		"dns4.nic.london",
 		"dnsa.nic.london",
-		"dnsb.nic.london",
-		"dnsc.nic.london",
-		"dnsd.nic.london"
+		"dnsc.nic.london"
 	],
 	"locations": [
 		"London",
