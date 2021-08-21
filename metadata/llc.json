@@ -2,7 +2,7 @@
 	"domain": "llc",
 	"registryOperator": "Afilias Limited",
 	"infoURL": "https://newgtlds.icann.org/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.llc",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/llc/"
 	],
