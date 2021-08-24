@@ -2,7 +2,7 @@
 	"domain": "adult",
 	"registryOperator": "ICM Registry AD LLC",
 	"infoURL": "https://newgtlds.icann.org/",
-	"whoisServer": "whois.registrar.adult",
+	"whoisServer": "whois.nic.adult",
 	"rdapURLs": [
 		"https://whois.registrar.adult/rdap/"
 	],

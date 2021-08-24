@@ -2,7 +2,7 @@
 	"domain": "sex",
 	"registryOperator": "ICM Registry SX LLC",
 	"infoURL": "https://nic.sex/",
-	"whoisServer": "whois.registrar.adult",
+	"whoisServer": "whois.nic.sex",
 	"rdapURLs": [
 		"https://whois.registrar.adult/rdap/"
 	],
