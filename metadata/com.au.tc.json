@@ -1,5 +1,8 @@
 {
 	"domain": "com.au.tc",
+	"wildcards": [
+		"199.59.242.153"
+	],
 	"tags": [
 		"retired"
 	]

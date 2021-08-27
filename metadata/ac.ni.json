@@ -1,8 +1,8 @@
 {
 	"domain": "ac.ni",
 	"nameServers": [
-		"auth01.ns.uu.net",
 		"dns-ext.nic.cr",
+		"dns.nic.cr",
 		"ns.ideay.net.ni",
 		"ns.ni",
 		"ns.uu.net",

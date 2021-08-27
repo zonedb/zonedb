@@ -1,9 +1,5 @@
 {
 	"domain": "net.gl",
-	"nameServers": [
-		"a.nuuk.nic.gl",
-		"d.nic.gl"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
