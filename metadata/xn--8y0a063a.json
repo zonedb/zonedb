@@ -16,7 +16,23 @@
 		"i.zdnscloud.com",
 		"j.zdnscloud.com"
 	],
+	"languages": [
+		"zh-Hans",
+		"zh-Hant"
+	],
 	"tags": [
 		"brand"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh-Hans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--8y0a063a_zh-hans_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hant",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--8y0a063a_zh-hant_1.0.txt"
+		}
 	]
 }
