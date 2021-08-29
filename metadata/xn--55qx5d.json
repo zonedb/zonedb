@@ -2,6 +2,9 @@
 	"domain": "公司",
 	"registryOperator": "China Internet Network Information Center (CNNIC)",
 	"whoisServer": "whois.ngtld.cn",
+	"rdapURLs": [
+		"https://restwhois.ngtld.cn/"
+	],
 	"nameServers": [
 		"a.ngtld.cn",
 		"b.ngtld.cn",
