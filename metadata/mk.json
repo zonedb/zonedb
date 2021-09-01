@@ -4,7 +4,8 @@
 	"nameServers": [
 		"d.ext.nic.cz",
 		"dns-mk.univie.ac.at",
-		"ns2.arnes.si"
+		"ns2.arnes.si",
+		"tld1.marnet.mk"
 	],
 	"tags": [
 		"country",
