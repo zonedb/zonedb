@@ -1,9 +1,8 @@
 {
 	"domain": "cz.tc",
 	"nameServers": [
-		"ns1.ispapi.net",
-		"ns2.ispapi.net",
-		"ns3.ispapi.net"
+		"fish.ns.cloudflare.com",
+		"jack.ns.cloudflare.com"
 	],
 	"policies": [
 		{

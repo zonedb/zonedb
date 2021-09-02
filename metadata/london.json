@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.london/",
 	"whoisServer": "whois.nic.london",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/london/"
+		"https://rdap.centralnic.com/london/"
 	],
 	"nameServers": [
 		"a.nic.london",
