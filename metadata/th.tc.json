@@ -1,11 +1,5 @@
 {
 	"domain": "th.tc",
-	"nameServers": [
-		"ns-cloud-b1.googledomains.com",
-		"ns-cloud-b2.googledomains.com",
-		"ns-cloud-b3.googledomains.com",
-		"ns-cloud-b4.googledomains.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
