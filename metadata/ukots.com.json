@@ -1,7 +1,7 @@
 {
 	"domain": "ukots.com",
 	"nameServers": [
-		"ns1.dns-parking.com",
-		"ns2.dns-parking.com"
+		"cdns1.main-hosting.eu",
+		"cdns2.main-hosting.eu"
 	]
 }

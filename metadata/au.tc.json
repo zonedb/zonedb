@@ -1,8 +1,8 @@
 {
 	"domain": "au.tc",
 	"nameServers": [
-		"ns1.bodis.com",
-		"ns2.bodis.com"
+		"jake.ns.cloudflare.com",
+		"sue.ns.cloudflare.com"
 	],
 	"policies": [
 		{
