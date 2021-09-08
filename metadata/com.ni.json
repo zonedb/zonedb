@@ -2,6 +2,7 @@
 	"domain": "com.ni",
 	"nameServers": [
 		"dns-ext.nic.cr",
+		"dns.nic.cr",
 		"ns.ideay.net.ni",
 		"ns.ni",
 		"ns.uu.net",

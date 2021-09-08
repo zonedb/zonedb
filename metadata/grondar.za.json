@@ -1,10 +1,9 @@
 {
 	"domain": "grondar.za",
 	"nameServers": [
-		"grandfather.grondar.org",
-		"ns1.iafrica.com",
-		"ns2.iafrica.com",
-		"rip.psg.com"
+		"ns.rail.eu.org",
+		"ns0.keltia.net",
+		"ns2.bortzmeyer.org"
 	],
 	"policies": [
 		{
