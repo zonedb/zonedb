@@ -11,8 +11,7 @@
 		"ns2.dns.nic.booking",
 		"ns3.dns.nic.booking",
 		"ns4.dns.nic.booking",
-		"ns5.dns.nic.booking",
-		"ns6.dns.nic.booking"
+		"ns5.dns.nic.booking"
 	],
 	"languages": [
 		"da",
