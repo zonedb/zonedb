@@ -1,10 +1,11 @@
 {
 	"domain": "mil.sy",
 	"nameServers": [
-		"ns31.cloudns.net",
-		"ns32.cloudns.net",
-		"ns33.cloudns.net",
-		"ns34.cloudns.net"
+		"freedns1.registrar-servers.com",
+		"freedns2.registrar-servers.com",
+		"freedns3.registrar-servers.com",
+		"freedns4.registrar-servers.com",
+		"freedns5.registrar-servers.com"
 	],
 	"policies": [
 		{

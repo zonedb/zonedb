@@ -2,7 +2,8 @@
 	"domain": "ngo.pl",
 	"nameServers": [
 		"ns1.ngo.pl",
-		"ns2.ngo.pl"
+		"ns2.ngo.pl",
+		"ns3.ngo.pl"
 	],
 	"policies": [
 		{
