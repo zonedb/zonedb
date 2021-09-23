@@ -5,9 +5,6 @@
 		"ns2.hosting.bhtelecom.ba",
 		"ns3.hosting.bhtelecom.ba"
 	],
-	"wildcards": [
-		"195.222.33.180"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

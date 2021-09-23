@@ -9,8 +9,7 @@
 	"nameServers": [
 		"a.nic.homes",
 		"b.nic.homes",
-		"c.nic.homes",
-		"d.nic.homes"
+		"c.nic.homes"
 	],
 	"tags": [
 		"generic"
