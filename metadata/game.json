@@ -2,7 +2,7 @@
 	"domain": "game",
 	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.game/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.game",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],
