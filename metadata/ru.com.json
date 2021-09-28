@@ -10,6 +10,9 @@
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
 	],
+	"wildcards": [
+		"141.8.226.34"
+	],
 	"tags": [
 		"private"
 	]

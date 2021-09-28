@@ -6,15 +6,10 @@
 	"rdapURLs": [
 		"https://rdap.nic.rmit/"
 	],
-	"nameServers": [
-		"a.nic.rmit",
-		"b.nic.rmit",
-		"c.nic.rmit",
-		"d.nic.rmit"
-	],
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{
