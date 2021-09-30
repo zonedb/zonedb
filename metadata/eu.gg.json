@@ -1,11 +1,8 @@
 {
 	"domain": "eu.gg",
 	"nameServers": [
-		"ns1.sedoparking.com",
-		"ns2.sedoparking.com"
-	],
-	"wildcards": [
-		"64.190.62.111"
+		"ns1-show.myhostadmin.net",
+		"ns2-show.myhostadmin.net"
 	],
 	"tags": [
 		"private"
