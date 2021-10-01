@@ -1,8 +1,8 @@
 {
 	"domain": "eu.gg",
 	"nameServers": [
-		"ns1-show.myhostadmin.net",
-		"ns2-show.myhostadmin.net"
+		"ns1.dan.com",
+		"ns2.dan.com"
 	],
 	"tags": [
 		"private"
