@@ -6,14 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.nic.swiftcover/"
 	],
-	"nameServers": [
-		"ns1.dns.nic.swiftcover",
-		"ns2.dns.nic.swiftcover",
-		"ns3.dns.nic.swiftcover",
-		"ns4.dns.nic.swiftcover",
-		"ns5.dns.nic.swiftcover",
-		"ns6.dns.nic.swiftcover"
-	],
 	"languages": [
 		"da",
 		"de",

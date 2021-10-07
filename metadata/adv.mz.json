@@ -1,5 +1,13 @@
 {
 	"domain": "adv.mz",
+	"nameServers": [
+		"anyns.uem.mz",
+		"dzowo.uem.mz",
+		"ns-mz.afrinic.net",
+		"oceano.uem.mz",
+		"phloem.uoregon.edu",
+		"zebra.uem.mz"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
