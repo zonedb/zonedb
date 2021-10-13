@@ -1,8 +1,8 @@
 {
 	"domain": "gov.fo",
 	"nameServers": [
-		"ns1.olivant.fo",
-		"ns2.olivant.fo"
+		"ns1.elektron.fo",
+		"ns2.elektron.fo"
 	],
 	"policies": [
 		{
