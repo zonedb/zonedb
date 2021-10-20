@@ -6,12 +6,12 @@
 		"https://rdap.nic.club/"
 	],
 	"nameServers": [
+		"a.nic.club",
+		"b.nic.club",
+		"c.nic.club",
 		"ns1.dns.nic.club",
 		"ns2.dns.nic.club",
-		"ns3.dns.nic.club",
-		"ns4.dns.nic.club",
-		"ns5.dns.nic.club",
-		"ns6.dns.nic.club"
+		"ns3.dns.nic.club"
 	],
 	"languages": [
 		"ar",
