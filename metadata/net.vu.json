@@ -1,10 +1,10 @@
 {
 	"domain": "net.vu",
 	"nameServers": [
-		"ns1.neustar.vu",
-		"ns2.neustar.vu",
-		"ns3.neustar.vu",
-		"ns4.neustar.vu"
+		"ns1.tldns.vu",
+		"ns2.tldns.vu",
+		"ns3.tldns.vu",
+		"ns4.tldns.vu"
 	],
 	"policies": [
 		{
