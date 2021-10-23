@@ -11,8 +11,7 @@
 		"ns4.centralnic.net"
 	],
 	"wildcards": [
-		"54.153.56.183",
-		"de.com"
+		"54.153.56.183"
 	],
 	"tags": [
 		"private"

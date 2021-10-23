@@ -1,12 +1,12 @@
 {
 	"domain": "24.gg",
 	"nameServers": [
-		"ns1.subdomain.com",
-		"ns2.subdomain.com"
+		"ns1.subdomain.net",
+		"ns2.subdomain.net"
 	],
 	"wildcards": [
-		"144.76.162.245",
-		"24.gg"
+		"24.gg",
+		"95.217.58.108"
 	],
 	"tags": [
 		"private"

@@ -1,13 +1,11 @@
 {
 	"domain": "in.ni",
 	"nameServers": [
-		"dns-ext.nic.cr",
 		"dns.nic.cr",
 		"ns.ideay.net.ni",
 		"ns.ni",
 		"ns.uu.net",
-		"ns2.ni",
-		"ns3.ni"
+		"ns2.ni"
 	],
 	"policies": [
 		{

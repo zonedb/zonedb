@@ -2,7 +2,7 @@
 	"domain": "black",
 	"registryOperator": "Afilias Limited",
 	"infoURL": "https://get.black/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.black",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/black/"
 	],
