@@ -4,7 +4,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.quest",
 	"rdapURLs": [
-		"https://rdap.nic.quest/"
+		"https://rdap.centralnic.com/quest/"
 	],
 	"nameServers": [
 		"a-cnic.nic.quest",

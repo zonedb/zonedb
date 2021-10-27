@@ -8,11 +8,7 @@
 	],
 	"nameServers": [
 		"a.ns.nic.eco",
-		"a0.nic.eco",
-		"a2.nic.eco",
-		"b.ns.nic.eco",
-		"b0.nic.eco",
-		"c0.nic.eco"
+		"b.ns.nic.eco"
 	],
 	"tags": [
 		"generic"
