@@ -1,11 +1,11 @@
 {
 	"domain": "info.fo",
 	"nameServers": [
-		"ns1.voodoo.com",
-		"ns2.voodoo.com"
+		"ns1.parkingcrew.net",
+		"ns2.parkingcrew.net"
 	],
 	"wildcards": [
-		"192.64.147.231"
+		"104.247.81.11"
 	],
 	"policies": [
 		{
