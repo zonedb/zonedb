@@ -4,7 +4,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.box",
 	"rdapURLs": [
-		"https://rdap.nic.box/"
+		"https://rdap.centralnic.com/box/"
 	],
 	"nameServers": [
 		"a.nic.box",
