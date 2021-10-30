@@ -2,6 +2,13 @@
 	"domain": "music",
 	"registryOperator": "DotMusic Limited",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.nic.music",
+	"nameServers": [
+		"a.nic.music",
+		"b.nic.music",
+		"c.nic.music",
+		"d.nic.music"
+	],
 	"tags": [
 		"generic"
 	],
