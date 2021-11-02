@@ -1,10 +1,5 @@
 {
 	"domain": "gov.cx",
-	"nameServers": [
-		"ns.anycast.nic.cx",
-		"ns1.anycastdns.cz",
-		"ns2.anycastdns.cz"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -1,10 +1,5 @@
 {
 	"domain": "org.af",
-	"nameServers": [
-		"ns.anycast.nic.af",
-		"ns1.anycastdns.cz",
-		"ns2.anycastdns.cz"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

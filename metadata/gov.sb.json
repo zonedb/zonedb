@@ -1,10 +1,5 @@
 {
 	"domain": "gov.sb",
-	"nameServers": [
-		"ns1.anycastdns.cz",
-		"ns2.anycastdns.cz",
-		"pch.nic.sb"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

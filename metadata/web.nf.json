@@ -1,10 +1,5 @@
 {
 	"domain": "web.nf",
-	"nameServers": [
-		"ns.anycast.nic.nf",
-		"ns.cocca.fr",
-		"ns.coccaregistry.org"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

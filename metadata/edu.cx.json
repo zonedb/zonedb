@@ -1,8 +1,0 @@
-{
-	"domain": "edu.cx",
-	"nameServers": [
-		"ns.anycast.nic.cx",
-		"ns1.anycastdns.cz",
-		"ns2.anycastdns.cz"
-	]
-}

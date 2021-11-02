@@ -1,9 +1,5 @@
 {
 	"domain": "other.nf",
-	"nameServers": [
-		"ns.anycast.nic.nf",
-		"ns.cocca.fr"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

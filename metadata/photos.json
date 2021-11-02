@@ -6,10 +6,12 @@
 		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
-		"demand.alpha.aridns.net.au",
-		"demand.beta.aridns.net.au",
-		"demand.delta.aridns.net.au",
-		"demand.gamma.aridns.net.au"
+		"v0n0.nic.photos",
+		"v0n1.nic.photos",
+		"v0n2.nic.photos",
+		"v0n3.nic.photos",
+		"v2n0.nic.photos",
+		"v2n1.nic.photos"
 	],
 	"languages": [
 		"de",
