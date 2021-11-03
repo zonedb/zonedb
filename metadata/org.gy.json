@@ -1,7 +1,0 @@
-{
-	"domain": "org.gy",
-	"nameServers": [
-		"a.lactld.org",
-		"gy-ns.anycast.pch.net"
-	]
-}
