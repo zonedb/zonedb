@@ -1,9 +1,5 @@
 {
 	"domain": "com.hn",
-	"nameServers": [
-		"nicmx-anycast.rds.org.hn",
-		"pch-anycast.rds.org.hn"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
