@@ -2270,6 +2270,7 @@ gb.com
 gr.com
 hk.com
 hu.com
+it.com
 jpn.com
 kr.com
 mex.com
