@@ -4,7 +4,7 @@
 	"infoURL": "https://bigroom.eco/",
 	"whoisServer": "whois.nic.eco",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/eco/"
+		"https://rdap.eco.fury.ca/rdap/"
 	],
 	"nameServers": [
 		"a.ns.nic.eco",
