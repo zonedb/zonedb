@@ -6,12 +6,12 @@
 		"https://rdap.nic.buzz/"
 	],
 	"nameServers": [
+		"a.nic.buzz",
+		"b.nic.buzz",
+		"c.nic.buzz",
 		"ns1.dns.nic.buzz",
 		"ns2.dns.nic.buzz",
-		"ns3.dns.nic.buzz",
-		"ns4.dns.nic.buzz",
-		"ns5.dns.nic.buzz",
-		"ns6.dns.nic.buzz"
+		"ns3.dns.nic.buzz"
 	],
 	"languages": [
 		"es"

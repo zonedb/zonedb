@@ -7,12 +7,12 @@
 		"https://rdap.nic.pramerica/"
 	],
 	"nameServers": [
+		"a.nic.pramerica",
+		"b.nic.pramerica",
+		"c.nic.pramerica",
 		"ns1.dns.nic.pramerica",
 		"ns2.dns.nic.pramerica",
-		"ns3.dns.nic.pramerica",
-		"ns4.dns.nic.pramerica",
-		"ns5.dns.nic.pramerica",
-		"ns6.dns.nic.pramerica"
+		"ns3.dns.nic.pramerica"
 	],
 	"languages": [
 		"da",

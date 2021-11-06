@@ -7,12 +7,12 @@
 		"https://rdap.nic.homegoods/"
 	],
 	"nameServers": [
+		"a.nic.homegoods",
+		"b.nic.homegoods",
+		"c.nic.homegoods",
 		"ns1.dns.nic.homegoods",
 		"ns2.dns.nic.homegoods",
-		"ns3.dns.nic.homegoods",
-		"ns4.dns.nic.homegoods",
-		"ns5.dns.nic.homegoods",
-		"ns6.dns.nic.homegoods"
+		"ns3.dns.nic.homegoods"
 	],
 	"tags": [
 		"brand",

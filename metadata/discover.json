@@ -7,12 +7,12 @@
 		"https://rdap.nic.discover/"
 	],
 	"nameServers": [
+		"a.nic.discover",
+		"b.nic.discover",
+		"c.nic.discover",
 		"ns1.dns.nic.discover",
 		"ns2.dns.nic.discover",
-		"ns3.dns.nic.discover",
-		"ns4.dns.nic.discover",
-		"ns5.dns.nic.discover",
-		"ns6.dns.nic.discover"
+		"ns3.dns.nic.discover"
 	],
 	"tags": [
 		"brand",

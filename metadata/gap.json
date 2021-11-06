@@ -7,12 +7,12 @@
 		"https://rdap.nic.gap/"
 	],
 	"nameServers": [
+		"a.nic.gap",
+		"b.nic.gap",
+		"c.nic.gap",
 		"ns1.dns.nic.gap",
 		"ns2.dns.nic.gap",
-		"ns3.dns.nic.gap",
-		"ns4.dns.nic.gap",
-		"ns5.dns.nic.gap",
-		"ns6.dns.nic.gap"
+		"ns3.dns.nic.gap"
 	],
 	"languages": [
 		"es"

@@ -7,12 +7,12 @@
 		"https://rdap.nic.nike/"
 	],
 	"nameServers": [
+		"a.nic.nike",
+		"b.nic.nike",
+		"c.nic.nike",
 		"ns1.dns.nic.nike",
 		"ns2.dns.nic.nike",
-		"ns3.dns.nic.nike",
-		"ns4.dns.nic.nike",
-		"ns5.dns.nic.nike",
-		"ns6.dns.nic.nike"
+		"ns3.dns.nic.nike"
 	],
 	"languages": [
 		"es"

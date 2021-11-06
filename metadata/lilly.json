@@ -7,12 +7,12 @@
 		"https://rdap.nic.lilly/"
 	],
 	"nameServers": [
+		"a.nic.lilly",
+		"b.nic.lilly",
+		"c.nic.lilly",
 		"ns1.dns.nic.lilly",
 		"ns2.dns.nic.lilly",
-		"ns3.dns.nic.lilly",
-		"ns4.dns.nic.lilly",
-		"ns5.dns.nic.lilly",
-		"ns6.dns.nic.lilly"
+		"ns3.dns.nic.lilly"
 	],
 	"languages": [
 		"es"

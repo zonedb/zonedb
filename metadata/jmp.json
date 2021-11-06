@@ -7,12 +7,12 @@
 		"https://rdap.nic.jmp/"
 	],
 	"nameServers": [
+		"a.nic.jmp",
+		"b.nic.jmp",
+		"c.nic.jmp",
 		"ns1.dns.nic.jmp",
 		"ns2.dns.nic.jmp",
-		"ns3.dns.nic.jmp",
-		"ns4.dns.nic.jmp",
-		"ns5.dns.nic.jmp",
-		"ns6.dns.nic.jmp"
+		"ns3.dns.nic.jmp"
 	],
 	"languages": [
 		"es"

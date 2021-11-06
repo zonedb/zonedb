@@ -6,12 +6,12 @@
 		"https://rdap.nic.moe/"
 	],
 	"nameServers": [
+		"a.nic.moe",
+		"b.nic.moe",
+		"c.nic.moe",
 		"ns1.dns.nic.moe",
 		"ns2.dns.nic.moe",
-		"ns3.dns.nic.moe",
-		"ns4.dns.nic.moe",
-		"ns5.dns.nic.moe",
-		"ns6.dns.nic.moe"
+		"ns3.dns.nic.moe"
 	],
 	"languages": [
 		"ja"

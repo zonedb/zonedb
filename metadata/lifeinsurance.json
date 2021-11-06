@@ -7,12 +7,12 @@
 		"https://rdap.nic.lifeinsurance/"
 	],
 	"nameServers": [
+		"a.nic.lifeinsurance",
+		"b.nic.lifeinsurance",
+		"c.nic.lifeinsurance",
 		"ns1.dns.nic.lifeinsurance",
 		"ns2.dns.nic.lifeinsurance",
-		"ns3.dns.nic.lifeinsurance",
-		"ns4.dns.nic.lifeinsurance",
-		"ns5.dns.nic.lifeinsurance",
-		"ns6.dns.nic.lifeinsurance"
+		"ns3.dns.nic.lifeinsurance"
 	],
 	"languages": [
 		"es"

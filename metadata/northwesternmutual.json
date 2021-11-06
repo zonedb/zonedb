@@ -7,12 +7,12 @@
 		"https://rdap.nic.northwesternmutual/"
 	],
 	"nameServers": [
+		"a.nic.northwesternmutual",
+		"b.nic.northwesternmutual",
+		"c.nic.northwesternmutual",
 		"ns1.dns.nic.northwesternmutual",
 		"ns2.dns.nic.northwesternmutual",
-		"ns3.dns.nic.northwesternmutual",
-		"ns4.dns.nic.northwesternmutual",
-		"ns5.dns.nic.northwesternmutual",
-		"ns6.dns.nic.northwesternmutual"
+		"ns3.dns.nic.northwesternmutual"
 	],
 	"languages": [
 		"es"

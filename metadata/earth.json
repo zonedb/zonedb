@@ -7,12 +7,12 @@
 		"https://rdap.nic.earth/"
 	],
 	"nameServers": [
+		"a.nic.earth",
+		"b.nic.earth",
+		"c.nic.earth",
 		"ns1.dns.nic.earth",
 		"ns2.dns.nic.earth",
-		"ns3.dns.nic.earth",
-		"ns4.dns.nic.earth",
-		"ns5.dns.nic.earth",
-		"ns6.dns.nic.earth"
+		"ns3.dns.nic.earth"
 	],
 	"languages": [
 		"ja",

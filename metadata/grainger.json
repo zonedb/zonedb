@@ -7,12 +7,12 @@
 		"https://rdap.nic.grainger/"
 	],
 	"nameServers": [
+		"a.nic.grainger",
+		"b.nic.grainger",
+		"c.nic.grainger",
 		"ns1.dns.nic.grainger",
 		"ns2.dns.nic.grainger",
-		"ns3.dns.nic.grainger",
-		"ns4.dns.nic.grainger",
-		"ns5.dns.nic.grainger",
-		"ns6.dns.nic.grainger"
+		"ns3.dns.nic.grainger"
 	],
 	"languages": [
 		"es"

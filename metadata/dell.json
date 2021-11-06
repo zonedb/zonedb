@@ -7,12 +7,12 @@
 		"https://rdap.nic.dell/"
 	],
 	"nameServers": [
+		"a.nic.dell",
+		"b.nic.dell",
+		"c.nic.dell",
 		"ns1.dns.nic.dell",
 		"ns2.dns.nic.dell",
-		"ns3.dns.nic.dell",
-		"ns4.dns.nic.dell",
-		"ns5.dns.nic.dell",
-		"ns6.dns.nic.dell"
+		"ns3.dns.nic.dell"
 	],
 	"languages": [
 		"es"

@@ -7,12 +7,12 @@
 		"https://rdap.nic.axa/"
 	],
 	"nameServers": [
+		"a.nic.axa",
+		"b.nic.axa",
+		"c.nic.axa",
 		"ns1.dns.nic.axa",
 		"ns2.dns.nic.axa",
-		"ns3.dns.nic.axa",
-		"ns4.dns.nic.axa",
-		"ns5.dns.nic.axa",
-		"ns6.dns.nic.axa"
+		"ns3.dns.nic.axa"
 	],
 	"languages": [
 		"da",

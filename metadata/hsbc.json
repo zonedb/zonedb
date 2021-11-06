@@ -7,12 +7,12 @@
 		"https://rdap.nic.hsbc/"
 	],
 	"nameServers": [
+		"a.nic.hsbc",
+		"b.nic.hsbc",
+		"c.nic.hsbc",
 		"ns1.dns.nic.hsbc",
 		"ns2.dns.nic.hsbc",
-		"ns3.dns.nic.hsbc",
-		"ns4.dns.nic.hsbc",
-		"ns5.dns.nic.hsbc",
-		"ns6.dns.nic.hsbc"
+		"ns3.dns.nic.hsbc"
 	],
 	"languages": [
 		"da",

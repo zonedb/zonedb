@@ -7,12 +7,12 @@
 		"https://rdap.nic.homesense/"
 	],
 	"nameServers": [
+		"a.nic.homesense",
+		"b.nic.homesense",
+		"c.nic.homesense",
 		"ns1.dns.nic.homesense",
 		"ns2.dns.nic.homesense",
-		"ns3.dns.nic.homesense",
-		"ns4.dns.nic.homesense",
-		"ns5.dns.nic.homesense",
-		"ns6.dns.nic.homesense"
+		"ns3.dns.nic.homesense"
 	],
 	"tags": [
 		"brand",

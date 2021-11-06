@@ -7,12 +7,12 @@
 		"https://rdap.nic.citi/"
 	],
 	"nameServers": [
+		"a.nic.citi",
+		"b.nic.citi",
+		"c.nic.citi",
 		"ns1.dns.nic.citi",
 		"ns2.dns.nic.citi",
-		"ns3.dns.nic.citi",
-		"ns4.dns.nic.citi",
-		"ns5.dns.nic.citi",
-		"ns6.dns.nic.citi"
+		"ns3.dns.nic.citi"
 	],
 	"languages": [
 		"ar",

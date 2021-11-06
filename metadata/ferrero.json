@@ -7,12 +7,12 @@
 		"https://rdap.nic.ferrero/"
 	],
 	"nameServers": [
+		"a.nic.ferrero",
+		"b.nic.ferrero",
+		"c.nic.ferrero",
 		"ns1.dns.nic.ferrero",
 		"ns2.dns.nic.ferrero",
-		"ns3.dns.nic.ferrero",
-		"ns4.dns.nic.ferrero",
-		"ns5.dns.nic.ferrero",
-		"ns6.dns.nic.ferrero"
+		"ns3.dns.nic.ferrero"
 	],
 	"languages": [
 		"da",

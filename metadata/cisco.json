@@ -7,12 +7,12 @@
 		"https://rdap.nic.cisco/"
 	],
 	"nameServers": [
+		"a.nic.cisco",
+		"b.nic.cisco",
+		"c.nic.cisco",
 		"ns1.dns.nic.cisco",
 		"ns2.dns.nic.cisco",
-		"ns3.dns.nic.cisco",
-		"ns4.dns.nic.cisco",
-		"ns5.dns.nic.cisco",
-		"ns6.dns.nic.cisco"
+		"ns3.dns.nic.cisco"
 	],
 	"tags": [
 		"brand",

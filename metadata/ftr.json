@@ -7,12 +7,12 @@
 		"https://rdap.nic.ftr/"
 	],
 	"nameServers": [
+		"a.nic.ftr",
+		"b.nic.ftr",
+		"c.nic.ftr",
 		"ns1.dns.nic.ftr",
 		"ns2.dns.nic.ftr",
-		"ns3.dns.nic.ftr",
-		"ns4.dns.nic.ftr",
-		"ns5.dns.nic.ftr",
-		"ns6.dns.nic.ftr"
+		"ns3.dns.nic.ftr"
 	],
 	"tags": [
 		"brand",

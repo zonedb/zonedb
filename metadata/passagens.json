@@ -7,12 +7,12 @@
 		"https://rdap.nic.passagens/"
 	],
 	"nameServers": [
+		"a.nic.passagens",
+		"b.nic.passagens",
+		"c.nic.passagens",
 		"ns1.dns.nic.passagens",
 		"ns2.dns.nic.passagens",
-		"ns3.dns.nic.passagens",
-		"ns4.dns.nic.passagens",
-		"ns5.dns.nic.passagens",
-		"ns6.dns.nic.passagens"
+		"ns3.dns.nic.passagens"
 	],
 	"languages": [
 		"es"

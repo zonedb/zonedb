@@ -7,12 +7,12 @@
 		"https://rdap.nic.jnj/"
 	],
 	"nameServers": [
+		"a.nic.jnj",
+		"b.nic.jnj",
+		"c.nic.jnj",
 		"ns1.dns.nic.jnj",
 		"ns2.dns.nic.jnj",
-		"ns3.dns.nic.jnj",
-		"ns4.dns.nic.jnj",
-		"ns5.dns.nic.jnj",
-		"ns6.dns.nic.jnj"
+		"ns3.dns.nic.jnj"
 	],
 	"languages": [
 		"es"

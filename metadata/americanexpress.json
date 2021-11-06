@@ -7,12 +7,12 @@
 		"https://rdap.nic.americanexpress/"
 	],
 	"nameServers": [
+		"a.nic.americanexpress",
+		"b.nic.americanexpress",
+		"c.nic.americanexpress",
 		"ns1.dns.nic.americanexpress",
 		"ns2.dns.nic.americanexpress",
-		"ns3.dns.nic.americanexpress",
-		"ns4.dns.nic.americanexpress",
-		"ns5.dns.nic.americanexpress",
-		"ns6.dns.nic.americanexpress"
+		"ns3.dns.nic.americanexpress"
 	],
 	"languages": [
 		"es"

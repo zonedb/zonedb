@@ -7,12 +7,12 @@
 		"https://rdap.nic.booking/"
 	],
 	"nameServers": [
+		"a.nic.booking",
+		"b.nic.booking",
+		"c.nic.booking",
 		"ns1.dns.nic.booking",
 		"ns2.dns.nic.booking",
-		"ns3.dns.nic.booking",
-		"ns4.dns.nic.booking",
-		"ns5.dns.nic.booking",
-		"ns6.dns.nic.booking"
+		"ns3.dns.nic.booking"
 	],
 	"languages": [
 		"da",

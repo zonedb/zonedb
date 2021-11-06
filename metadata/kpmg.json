@@ -7,12 +7,12 @@
 		"https://rdap.nic.kpmg/"
 	],
 	"nameServers": [
+		"a.nic.kpmg",
+		"b.nic.kpmg",
+		"c.nic.kpmg",
 		"ns1.dns.nic.kpmg",
 		"ns2.dns.nic.kpmg",
-		"ns3.dns.nic.kpmg",
-		"ns4.dns.nic.kpmg",
-		"ns5.dns.nic.kpmg",
-		"ns6.dns.nic.kpmg"
+		"ns3.dns.nic.kpmg"
 	],
 	"languages": [
 		"de",

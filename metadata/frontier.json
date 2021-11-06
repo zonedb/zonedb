@@ -7,12 +7,12 @@
 		"https://rdap.nic.frontier/"
 	],
 	"nameServers": [
+		"a.nic.frontier",
+		"b.nic.frontier",
+		"c.nic.frontier",
 		"ns1.dns.nic.frontier",
 		"ns2.dns.nic.frontier",
-		"ns3.dns.nic.frontier",
-		"ns4.dns.nic.frontier",
-		"ns5.dns.nic.frontier",
-		"ns6.dns.nic.frontier"
+		"ns3.dns.nic.frontier"
 	],
 	"tags": [
 		"brand",

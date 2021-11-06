@@ -7,12 +7,12 @@
 		"https://rdap.nic.amex/"
 	],
 	"nameServers": [
+		"a.nic.amex",
+		"b.nic.amex",
+		"c.nic.amex",
 		"ns1.dns.nic.amex",
 		"ns2.dns.nic.amex",
-		"ns3.dns.nic.amex",
-		"ns4.dns.nic.amex",
-		"ns5.dns.nic.amex",
-		"ns6.dns.nic.amex"
+		"ns3.dns.nic.amex"
 	],
 	"languages": [
 		"es"

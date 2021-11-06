@@ -7,12 +7,12 @@
 		"https://rdap.nic.mlb/"
 	],
 	"nameServers": [
+		"a.nic.mlb",
+		"b.nic.mlb",
+		"c.nic.mlb",
 		"ns1.dns.nic.mlb",
 		"ns2.dns.nic.mlb",
-		"ns3.dns.nic.mlb",
-		"ns4.dns.nic.mlb",
-		"ns5.dns.nic.mlb",
-		"ns6.dns.nic.mlb"
+		"ns3.dns.nic.mlb"
 	],
 	"languages": [
 		"es"

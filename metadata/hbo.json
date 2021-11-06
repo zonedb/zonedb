@@ -7,12 +7,12 @@
 		"https://rdap.nic.hbo/"
 	],
 	"nameServers": [
+		"a.nic.hbo",
+		"b.nic.hbo",
+		"c.nic.hbo",
 		"ns1.dns.nic.hbo",
 		"ns2.dns.nic.hbo",
-		"ns3.dns.nic.hbo",
-		"ns4.dns.nic.hbo",
-		"ns5.dns.nic.hbo",
-		"ns6.dns.nic.hbo"
+		"ns3.dns.nic.hbo"
 	],
 	"languages": [
 		"da",

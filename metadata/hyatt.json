@@ -7,12 +7,12 @@
 		"https://rdap.nic.hyatt/"
 	],
 	"nameServers": [
+		"a.nic.hyatt",
+		"b.nic.hyatt",
+		"c.nic.hyatt",
 		"ns1.dns.nic.hyatt",
 		"ns2.dns.nic.hyatt",
-		"ns3.dns.nic.hyatt",
-		"ns4.dns.nic.hyatt",
-		"ns5.dns.nic.hyatt",
-		"ns6.dns.nic.hyatt"
+		"ns3.dns.nic.hyatt"
 	],
 	"languages": [
 		"es"

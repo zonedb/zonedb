@@ -7,12 +7,12 @@
 		"https://rdap.nic.athleta/"
 	],
 	"nameServers": [
+		"a.nic.athleta",
+		"b.nic.athleta",
+		"c.nic.athleta",
 		"ns1.dns.nic.athleta",
 		"ns2.dns.nic.athleta",
-		"ns3.dns.nic.athleta",
-		"ns4.dns.nic.athleta",
-		"ns5.dns.nic.athleta",
-		"ns6.dns.nic.athleta"
+		"ns3.dns.nic.athleta"
 	],
 	"languages": [
 		"es"

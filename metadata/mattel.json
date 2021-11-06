@@ -7,12 +7,12 @@
 		"https://rdap.nic.mattel/"
 	],
 	"nameServers": [
+		"a.nic.mattel",
+		"b.nic.mattel",
+		"c.nic.mattel",
 		"ns1.dns.nic.mattel",
 		"ns2.dns.nic.mattel",
-		"ns3.dns.nic.mattel",
-		"ns4.dns.nic.mattel",
-		"ns5.dns.nic.mattel",
-		"ns6.dns.nic.mattel"
+		"ns3.dns.nic.mattel"
 	],
 	"languages": [
 		"es"

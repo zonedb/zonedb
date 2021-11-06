@@ -7,12 +7,12 @@
 		"https://rdap.nic.caravan/"
 	],
 	"nameServers": [
+		"a.nic.caravan",
+		"b.nic.caravan",
+		"c.nic.caravan",
 		"ns1.dns.nic.caravan",
 		"ns2.dns.nic.caravan",
-		"ns3.dns.nic.caravan",
-		"ns4.dns.nic.caravan",
-		"ns5.dns.nic.caravan",
-		"ns6.dns.nic.caravan"
+		"ns3.dns.nic.caravan"
 	],
 	"languages": [
 		"zh"

@@ -7,12 +7,12 @@
 		"https://rdap.nic.osaka/"
 	],
 	"nameServers": [
+		"a.nic.osaka",
+		"b.nic.osaka",
+		"c.nic.osaka",
 		"ns1.dns.nic.osaka",
 		"ns2.dns.nic.osaka",
-		"ns3.dns.nic.osaka",
-		"ns4.dns.nic.osaka",
-		"ns5.dns.nic.osaka",
-		"ns6.dns.nic.osaka"
+		"ns3.dns.nic.osaka"
 	],
 	"locations": [
 		"Osaka",

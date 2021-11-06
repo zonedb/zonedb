@@ -7,12 +7,12 @@
 		"https://rdap.nic.aetna/"
 	],
 	"nameServers": [
+		"a.nic.aetna",
+		"b.nic.aetna",
+		"c.nic.aetna",
 		"ns1.dns.nic.aetna",
 		"ns2.dns.nic.aetna",
-		"ns3.dns.nic.aetna",
-		"ns4.dns.nic.aetna",
-		"ns5.dns.nic.aetna",
-		"ns6.dns.nic.aetna"
+		"ns3.dns.nic.aetna"
 	],
 	"languages": [
 		"es",

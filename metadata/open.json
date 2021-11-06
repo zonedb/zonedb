@@ -7,12 +7,12 @@
 		"https://rdap.nic.open/"
 	],
 	"nameServers": [
+		"a.nic.open",
+		"b.nic.open",
+		"c.nic.open",
 		"ns1.dns.nic.open",
 		"ns2.dns.nic.open",
-		"ns3.dns.nic.open",
-		"ns4.dns.nic.open",
-		"ns5.dns.nic.open",
-		"ns6.dns.nic.open"
+		"ns3.dns.nic.open"
 	],
 	"languages": [
 		"es"

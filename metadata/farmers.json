@@ -7,12 +7,12 @@
 		"https://rdap.nic.farmers/"
 	],
 	"nameServers": [
+		"a.nic.farmers",
+		"b.nic.farmers",
+		"c.nic.farmers",
 		"ns1.dns.nic.farmers",
 		"ns2.dns.nic.farmers",
-		"ns3.dns.nic.farmers",
-		"ns4.dns.nic.farmers",
-		"ns5.dns.nic.farmers",
-		"ns6.dns.nic.farmers"
+		"ns3.dns.nic.farmers"
 	],
 	"languages": [
 		"da",

@@ -7,12 +7,12 @@
 		"https://rdap.nic.chintai/"
 	],
 	"nameServers": [
+		"a.nic.chintai",
+		"b.nic.chintai",
+		"c.nic.chintai",
 		"ns1.dns.nic.chintai",
 		"ns2.dns.nic.chintai",
-		"ns3.dns.nic.chintai",
-		"ns4.dns.nic.chintai",
-		"ns5.dns.nic.chintai",
-		"ns6.dns.nic.chintai"
+		"ns3.dns.nic.chintai"
 	],
 	"languages": [
 		"ja"
