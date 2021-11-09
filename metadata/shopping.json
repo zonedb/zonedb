@@ -7,10 +7,12 @@
 		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
-		"demand.alpha.aridns.net.au",
-		"demand.beta.aridns.net.au",
-		"demand.delta.aridns.net.au",
-		"demand.gamma.aridns.net.au"
+		"v0n0.nic.shopping",
+		"v0n1.nic.shopping",
+		"v0n2.nic.shopping",
+		"v0n3.nic.shopping",
+		"v2n0.nic.shopping",
+		"v2n1.nic.shopping"
 	],
 	"languages": [
 		"de",
