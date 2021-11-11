@@ -2,7 +2,7 @@
 	"domain": "mobi",
 	"registryOperator": "Afilias Limited",
 	"infoURL": "https://dotmobi.mobi/",
-	"whoisServer": "whois.nic.mobi",
+	"whoisServer": "whois.dotmobiregistry.net",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/mobi/"
 	],
