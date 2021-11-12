@@ -1,7 +1,7 @@
 {
 	"domain": "durban",
 	"registryOperator": "ZA Central Registry NPC trading as ZA Central Registry",
-	"whoisServer": "whois.nic.durban",
+	"whoisServer": "durban-whois.registry.net.za",
 	"rdapURLs": [
 		"https://rdap.registry.net.za/rdap/"
 	],

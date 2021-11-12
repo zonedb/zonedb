@@ -1,7 +1,7 @@
 {
 	"domain": "ws",
 	"infoURL": "https://www.worldsite.ws/",
-	"whoisServer": "whois.worldsite.ws",
+	"whoisServer": "whois.website.ws",
 	"nameServers": [
 		"a.dns.ws",
 		"ns2.dns.ws",

@@ -1,6 +1,6 @@
 {
 	"domain": "hn",
-	"whoisServer": "whois2.afilias-grs.net",
+	"whoisServer": "whois.nic.hn",
 	"nameServers": [
 		"a.lactld.org",
 		"pch-anycast.rds.org.hn"

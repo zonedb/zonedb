@@ -2,7 +2,7 @@
 	"domain": "kim",
 	"registryOperator": "Afilias Limited",
 	"infoURL": "https://get.kim/",
-	"whoisServer": "whois.nic.kim",
+	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/kim/"
 	],

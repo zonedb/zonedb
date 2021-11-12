@@ -1,6 +1,6 @@
 {
 	"domain": "mn",
-	"whoisServer": "whois.afilias-grs.info",
+	"whoisServer": "whois.nic.mn",
 	"nameServers": [
 		"a0.cctld.afilias-nst.info",
 		"a2.cctld.afilias-nst.info",
