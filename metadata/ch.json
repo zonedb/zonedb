@@ -7,11 +7,9 @@
 	"nameServers": [
 		"a.nic.ch",
 		"b.nic.ch",
-		"c.nic.ch",
 		"d.nic.ch",
 		"e.nic.ch",
-		"f.nic.ch",
-		"g.nic.ch"
+		"f.nic.ch"
 	],
 	"tags": [
 		"country",
