@@ -2,7 +2,7 @@
 	"domain": "shiksha",
 	"registryOperator": "Afilias Limited",
 	"infoURL": "https://get.shiksha/",
-	"whoisServer": "whois.nic.shiksha",
+	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/shiksha/"
 	],
