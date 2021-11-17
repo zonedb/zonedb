@@ -2,7 +2,7 @@
 	"domain": "0.fm",
 	"nameServers": [
 		"ns1.bb-online.net",
-		"ns2.bb-online.net"
+		"ns2.bb-online.org"
 	],
 	"wildcards": [
 		"0.fm",

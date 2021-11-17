@@ -1,5 +1,9 @@
 {
 	"domain": "bus.pro",
+	"nameServers": [
+		"dns1.registrar-servers.com",
+		"dns2.registrar-servers.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
