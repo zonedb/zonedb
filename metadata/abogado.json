@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/abogado/"
 	],
 	"nameServers": [
+		"a.nic.abogado",
+		"b.nic.abogado",
 		"dns1.nic.abogado",
-		"dns2.nic.abogado",
 		"dns3.nic.abogado",
-		"dns4.nic.abogado",
 		"dnsa.nic.abogado",
-		"dnsb.nic.abogado",
-		"dnsc.nic.abogado",
-		"dnsd.nic.abogado"
+		"dnsc.nic.abogado"
 	],
 	"languages": [
 		"es"

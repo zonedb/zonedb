@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/boston/"
 	],
 	"nameServers": [
+		"a.nic.boston",
+		"b.nic.boston",
 		"dns1.nic.boston",
-		"dns2.nic.boston",
 		"dns3.nic.boston",
-		"dns4.nic.boston",
 		"dnsa.nic.boston",
-		"dnsb.nic.boston",
-		"dnsc.nic.boston",
-		"dnsd.nic.boston"
+		"dnsc.nic.boston"
 	],
 	"locations": [
 		"Boston"

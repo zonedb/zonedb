@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/miami/"
 	],
 	"nameServers": [
+		"a.nic.miami",
+		"b.nic.miami",
 		"dns1.nic.miami",
-		"dns2.nic.miami",
 		"dns3.nic.miami",
-		"dns4.nic.miami",
 		"dnsa.nic.miami",
-		"dnsb.nic.miami",
-		"dnsc.nic.miami",
-		"dnsd.nic.miami"
+		"dnsc.nic.miami"
 	],
 	"locations": [
 		"Miami"

@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/casa/"
 	],
 	"nameServers": [
+		"a.nic.casa",
+		"b.nic.casa",
 		"dns1.nic.casa",
-		"dns2.nic.casa",
 		"dns3.nic.casa",
-		"dns4.nic.casa",
 		"dnsa.nic.casa",
-		"dnsb.nic.casa",
-		"dnsc.nic.casa",
-		"dnsd.nic.casa"
+		"dnsc.nic.casa"
 	],
 	"languages": [
 		"es",

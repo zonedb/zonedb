@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/cooking/"
 	],
 	"nameServers": [
+		"a.nic.cooking",
+		"b.nic.cooking",
 		"dns1.nic.cooking",
-		"dns2.nic.cooking",
 		"dns3.nic.cooking",
-		"dns4.nic.cooking",
 		"dnsa.nic.cooking",
-		"dnsb.nic.cooking",
-		"dnsc.nic.cooking",
-		"dnsd.nic.cooking"
+		"dnsc.nic.cooking"
 	],
 	"languages": [
 		"de",
