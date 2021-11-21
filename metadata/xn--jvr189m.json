@@ -7,12 +7,12 @@
 		"https://rdap.nic.食品/"
 	],
 	"nameServers": [
+		"a.nic.食品",
+		"b.nic.食品",
+		"c.nic.食品",
 		"ns1.dns.nic.食品",
 		"ns2.dns.nic.食品",
-		"ns3.dns.nic.食品",
-		"ns4.dns.nic.食品",
-		"ns5.dns.nic.食品",
-		"ns6.dns.nic.食品"
+		"ns3.dns.nic.食品"
 	],
 	"languages": [
 		"ar",

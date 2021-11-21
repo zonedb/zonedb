@@ -7,12 +7,12 @@
 		"https://rdap.nic.faith/"
 	],
 	"nameServers": [
+		"a.nic.faith",
+		"b.nic.faith",
+		"c.nic.faith",
 		"ns1.dns.nic.faith",
 		"ns2.dns.nic.faith",
-		"ns3.dns.nic.faith",
-		"ns4.dns.nic.faith",
-		"ns5.dns.nic.faith",
-		"ns6.dns.nic.faith"
+		"ns3.dns.nic.faith"
 	],
 	"languages": [
 		"da",

@@ -7,12 +7,12 @@
 		"https://rdap.nic.cricket/"
 	],
 	"nameServers": [
+		"a.nic.cricket",
+		"b.nic.cricket",
+		"c.nic.cricket",
 		"ns1.dns.nic.cricket",
 		"ns2.dns.nic.cricket",
-		"ns3.dns.nic.cricket",
-		"ns4.dns.nic.cricket",
-		"ns5.dns.nic.cricket",
-		"ns6.dns.nic.cricket"
+		"ns3.dns.nic.cricket"
 	],
 	"languages": [
 		"da",

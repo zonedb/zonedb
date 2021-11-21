@@ -7,12 +7,12 @@
 		"https://rdap.nic.health/"
 	],
 	"nameServers": [
+		"a.nic.health",
+		"b.nic.health",
+		"c.nic.health",
 		"ns1.dns.nic.health",
 		"ns2.dns.nic.health",
-		"ns3.dns.nic.health",
-		"ns4.dns.nic.health",
-		"ns5.dns.nic.health",
-		"ns6.dns.nic.health"
+		"ns3.dns.nic.health"
 	],
 	"languages": [
 		"es"

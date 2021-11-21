@@ -7,12 +7,12 @@
 		"https://rdap.nic.lincoln/"
 	],
 	"nameServers": [
+		"a.nic.lincoln",
+		"b.nic.lincoln",
+		"c.nic.lincoln",
 		"ns1.dns.nic.lincoln",
 		"ns2.dns.nic.lincoln",
-		"ns3.dns.nic.lincoln",
-		"ns4.dns.nic.lincoln",
-		"ns5.dns.nic.lincoln",
-		"ns6.dns.nic.lincoln"
+		"ns3.dns.nic.lincoln"
 	],
 	"languages": [
 		"da",

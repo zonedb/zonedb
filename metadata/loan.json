@@ -7,12 +7,12 @@
 		"https://rdap.nic.loan/"
 	],
 	"nameServers": [
+		"a.nic.loan",
+		"b.nic.loan",
+		"c.nic.loan",
 		"ns1.dns.nic.loan",
 		"ns2.dns.nic.loan",
-		"ns3.dns.nic.loan",
-		"ns4.dns.nic.loan",
-		"ns5.dns.nic.loan",
-		"ns6.dns.nic.loan"
+		"ns3.dns.nic.loan"
 	],
 	"languages": [
 		"da",

@@ -7,12 +7,12 @@
 		"https://rdap.nic.tjmaxx/"
 	],
 	"nameServers": [
+		"a.nic.tjmaxx",
+		"b.nic.tjmaxx",
+		"c.nic.tjmaxx",
 		"ns1.dns.nic.tjmaxx",
 		"ns2.dns.nic.tjmaxx",
-		"ns3.dns.nic.tjmaxx",
-		"ns4.dns.nic.tjmaxx",
-		"ns5.dns.nic.tjmaxx",
-		"ns6.dns.nic.tjmaxx"
+		"ns3.dns.nic.tjmaxx"
 	],
 	"tags": [
 		"brand",

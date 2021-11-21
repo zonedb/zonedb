@@ -7,12 +7,12 @@
 		"https://rdap.nic.クラウド/"
 	],
 	"nameServers": [
+		"a.nic.クラウド",
+		"b.nic.クラウド",
+		"c.nic.クラウド",
 		"ns1.dns.nic.クラウド",
 		"ns2.dns.nic.クラウド",
-		"ns3.dns.nic.クラウド",
-		"ns4.dns.nic.クラウド",
-		"ns5.dns.nic.クラウド",
-		"ns6.dns.nic.クラウド"
+		"ns3.dns.nic.クラウド"
 	],
 	"languages": [
 		"ar",

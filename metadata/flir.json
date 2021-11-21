@@ -7,12 +7,12 @@
 		"https://rdap.nic.flir/"
 	],
 	"nameServers": [
+		"a.nic.flir",
+		"b.nic.flir",
+		"c.nic.flir",
 		"ns1.dns.nic.flir",
 		"ns2.dns.nic.flir",
-		"ns3.dns.nic.flir",
-		"ns4.dns.nic.flir",
-		"ns5.dns.nic.flir",
-		"ns6.dns.nic.flir"
+		"ns3.dns.nic.flir"
 	],
 	"tags": [
 		"brand",

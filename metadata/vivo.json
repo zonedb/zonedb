@@ -7,12 +7,12 @@
 		"https://rdap.nic.vivo/"
 	],
 	"nameServers": [
+		"a.nic.vivo",
+		"b.nic.vivo",
+		"c.nic.vivo",
 		"ns1.dns.nic.vivo",
 		"ns2.dns.nic.vivo",
-		"ns3.dns.nic.vivo",
-		"ns4.dns.nic.vivo",
-		"ns5.dns.nic.vivo",
-		"ns6.dns.nic.vivo"
+		"ns3.dns.nic.vivo"
 	],
 	"languages": [
 		"da",

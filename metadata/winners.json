@@ -7,12 +7,12 @@
 		"https://rdap.nic.winners/"
 	],
 	"nameServers": [
+		"a.nic.winners",
+		"b.nic.winners",
+		"c.nic.winners",
 		"ns1.dns.nic.winners",
 		"ns2.dns.nic.winners",
-		"ns3.dns.nic.winners",
-		"ns4.dns.nic.winners",
-		"ns5.dns.nic.winners",
-		"ns6.dns.nic.winners"
+		"ns3.dns.nic.winners"
 	],
 	"tags": [
 		"brand",

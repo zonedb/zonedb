@@ -7,12 +7,12 @@
 		"https://rdap.nic.prudential/"
 	],
 	"nameServers": [
+		"a.nic.prudential",
+		"b.nic.prudential",
+		"c.nic.prudential",
 		"ns1.dns.nic.prudential",
 		"ns2.dns.nic.prudential",
-		"ns3.dns.nic.prudential",
-		"ns4.dns.nic.prudential",
-		"ns5.dns.nic.prudential",
-		"ns6.dns.nic.prudential"
+		"ns3.dns.nic.prudential"
 	],
 	"languages": [
 		"da",

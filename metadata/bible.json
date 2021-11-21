@@ -7,12 +7,12 @@
 		"https://rdap.nic.bible/"
 	],
 	"nameServers": [
+		"a.nic.bible",
+		"b.nic.bible",
+		"c.nic.bible",
 		"ns1.dns.nic.bible",
 		"ns2.dns.nic.bible",
-		"ns3.dns.nic.bible",
-		"ns4.dns.nic.bible",
-		"ns5.dns.nic.bible",
-		"ns6.dns.nic.bible"
+		"ns3.dns.nic.bible"
 	],
 	"languages": [
 		"da",

@@ -7,12 +7,12 @@
 		"https://rdap.nic.party/"
 	],
 	"nameServers": [
+		"a.nic.party",
+		"b.nic.party",
+		"c.nic.party",
 		"ns1.dns.nic.party",
 		"ns2.dns.nic.party",
-		"ns3.dns.nic.party",
-		"ns4.dns.nic.party",
-		"ns5.dns.nic.party",
-		"ns6.dns.nic.party"
+		"ns3.dns.nic.party"
 	],
 	"languages": [
 		"da",

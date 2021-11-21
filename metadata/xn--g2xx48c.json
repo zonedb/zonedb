@@ -7,12 +7,12 @@
 		"https://rdap.nic.购物/"
 	],
 	"nameServers": [
+		"a.nic.购物",
+		"b.nic.购物",
+		"c.nic.购物",
 		"ns1.dns.nic.购物",
 		"ns2.dns.nic.购物",
-		"ns3.dns.nic.购物",
-		"ns4.dns.nic.购物",
-		"ns5.dns.nic.购物",
-		"ns6.dns.nic.购物"
+		"ns3.dns.nic.购物"
 	],
 	"languages": [
 		"zh"

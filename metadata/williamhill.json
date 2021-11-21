@@ -7,12 +7,12 @@
 		"https://rdap.nic.williamhill/"
 	],
 	"nameServers": [
+		"a.nic.williamhill",
+		"b.nic.williamhill",
+		"c.nic.williamhill",
 		"ns1.dns.nic.williamhill",
 		"ns2.dns.nic.williamhill",
-		"ns3.dns.nic.williamhill",
-		"ns4.dns.nic.williamhill",
-		"ns5.dns.nic.williamhill",
-		"ns6.dns.nic.williamhill"
+		"ns3.dns.nic.williamhill"
 	],
 	"tags": [
 		"brand",

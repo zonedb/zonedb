@@ -7,12 +7,12 @@
 		"https://rdap.nic.stream/"
 	],
 	"nameServers": [
+		"a.nic.stream",
+		"b.nic.stream",
+		"c.nic.stream",
 		"ns1.dns.nic.stream",
 		"ns2.dns.nic.stream",
-		"ns3.dns.nic.stream",
-		"ns4.dns.nic.stream",
-		"ns5.dns.nic.stream",
-		"ns6.dns.nic.stream"
+		"ns3.dns.nic.stream"
 	],
 	"languages": [
 		"da",

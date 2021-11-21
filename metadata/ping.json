@@ -7,12 +7,12 @@
 		"https://rdap.nic.ping/"
 	],
 	"nameServers": [
+		"a.nic.ping",
+		"b.nic.ping",
+		"c.nic.ping",
 		"ns1.dns.nic.ping",
 		"ns2.dns.nic.ping",
-		"ns3.dns.nic.ping",
-		"ns4.dns.nic.ping",
-		"ns5.dns.nic.ping",
-		"ns6.dns.nic.ping"
+		"ns3.dns.nic.ping"
 	],
 	"tags": [
 		"brand",

@@ -7,12 +7,12 @@
 		"https://rdap.nic.skype/"
 	],
 	"nameServers": [
+		"a.nic.skype",
+		"b.nic.skype",
+		"c.nic.skype",
 		"ns1.dns.nic.skype",
 		"ns2.dns.nic.skype",
-		"ns3.dns.nic.skype",
-		"ns4.dns.nic.skype",
-		"ns5.dns.nic.skype",
-		"ns6.dns.nic.skype"
+		"ns3.dns.nic.skype"
 	],
 	"languages": [
 		"da",

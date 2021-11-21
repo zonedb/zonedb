@@ -7,12 +7,12 @@
 		"https://rdap.nic.target/"
 	],
 	"nameServers": [
+		"a.nic.target",
+		"b.nic.target",
+		"c.nic.target",
 		"ns1.dns.nic.target",
 		"ns2.dns.nic.target",
-		"ns3.dns.nic.target",
-		"ns4.dns.nic.target",
-		"ns5.dns.nic.target",
-		"ns6.dns.nic.target"
+		"ns3.dns.nic.target"
 	],
 	"languages": [
 		"es"

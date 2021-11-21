@@ -7,12 +7,12 @@
 		"https://rdap.nic.cbn/"
 	],
 	"nameServers": [
+		"a.nic.cbn",
+		"b.nic.cbn",
+		"c.nic.cbn",
 		"ns1.dns.nic.cbn",
 		"ns2.dns.nic.cbn",
-		"ns3.dns.nic.cbn",
-		"ns4.dns.nic.cbn",
-		"ns5.dns.nic.cbn",
-		"ns6.dns.nic.cbn"
+		"ns3.dns.nic.cbn"
 	],
 	"languages": [
 		"zh"

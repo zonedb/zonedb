@@ -7,12 +7,12 @@
 		"https://rdap.nic.zero/"
 	],
 	"nameServers": [
+		"a.nic.zero",
+		"b.nic.zero",
+		"c.nic.zero",
 		"ns1.dns.nic.zero",
 		"ns2.dns.nic.zero",
-		"ns3.dns.nic.zero",
-		"ns4.dns.nic.zero",
-		"ns5.dns.nic.zero",
-		"ns6.dns.nic.zero"
+		"ns3.dns.nic.zero"
 	],
 	"languages": [
 		"ar",

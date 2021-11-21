@@ -7,12 +7,12 @@
 		"https://rdap.nic.通販/"
 	],
 	"nameServers": [
+		"a.nic.通販",
+		"b.nic.通販",
+		"c.nic.通販",
 		"ns1.dns.nic.通販",
 		"ns2.dns.nic.通販",
-		"ns3.dns.nic.通販",
-		"ns4.dns.nic.通販",
-		"ns5.dns.nic.通販",
-		"ns6.dns.nic.通販"
+		"ns3.dns.nic.通販"
 	],
 	"languages": [
 		"ar",

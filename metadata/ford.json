@@ -7,12 +7,12 @@
 		"https://rdap.nic.ford/"
 	],
 	"nameServers": [
+		"a.nic.ford",
+		"b.nic.ford",
+		"c.nic.ford",
 		"ns1.dns.nic.ford",
 		"ns2.dns.nic.ford",
-		"ns3.dns.nic.ford",
-		"ns4.dns.nic.ford",
-		"ns5.dns.nic.ford",
-		"ns6.dns.nic.ford"
+		"ns3.dns.nic.ford"
 	],
 	"languages": [
 		"da",

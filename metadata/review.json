@@ -7,12 +7,12 @@
 		"https://rdap.nic.review/"
 	],
 	"nameServers": [
+		"a.nic.review",
+		"b.nic.review",
+		"c.nic.review",
 		"ns1.dns.nic.review",
 		"ns2.dns.nic.review",
-		"ns3.dns.nic.review",
-		"ns4.dns.nic.review",
-		"ns5.dns.nic.review",
-		"ns6.dns.nic.review"
+		"ns3.dns.nic.review"
 	],
 	"languages": [
 		"da",

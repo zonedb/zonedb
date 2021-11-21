@@ -7,12 +7,12 @@
 		"https://rdap.nic.statefarm/"
 	],
 	"nameServers": [
+		"a.nic.statefarm",
+		"b.nic.statefarm",
+		"c.nic.statefarm",
 		"ns1.dns.nic.statefarm",
 		"ns2.dns.nic.statefarm",
-		"ns3.dns.nic.statefarm",
-		"ns4.dns.nic.statefarm",
-		"ns5.dns.nic.statefarm",
-		"ns6.dns.nic.statefarm"
+		"ns3.dns.nic.statefarm"
 	],
 	"languages": [
 		"da",

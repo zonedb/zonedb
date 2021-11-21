@@ -7,12 +7,12 @@
 		"https://rdap.nic.nba/"
 	],
 	"nameServers": [
+		"a.nic.nba",
+		"b.nic.nba",
+		"c.nic.nba",
 		"ns1.dns.nic.nba",
 		"ns2.dns.nic.nba",
-		"ns3.dns.nic.nba",
-		"ns4.dns.nic.nba",
-		"ns5.dns.nic.nba",
-		"ns6.dns.nic.nba"
+		"ns3.dns.nic.nba"
 	],
 	"languages": [
 		"es"

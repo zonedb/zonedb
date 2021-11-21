@@ -7,12 +7,12 @@
 		"https://rdap.nic.download/"
 	],
 	"nameServers": [
+		"a.nic.download",
+		"b.nic.download",
+		"c.nic.download",
 		"ns1.dns.nic.download",
 		"ns2.dns.nic.download",
-		"ns3.dns.nic.download",
-		"ns4.dns.nic.download",
-		"ns5.dns.nic.download",
-		"ns6.dns.nic.download"
+		"ns3.dns.nic.download"
 	],
 	"languages": [
 		"da",
