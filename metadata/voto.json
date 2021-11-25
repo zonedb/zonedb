@@ -2,7 +2,7 @@
 	"domain": "voto",
 	"registryOperator": "Monolith Registry LLC",
 	"infoURL": "https://get.voto/",
-	"whoisServer": "whois.nic.voto",
+	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/voto/"
 	],

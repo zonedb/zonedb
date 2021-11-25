@@ -2,7 +2,7 @@
 	"domain": "blackfriday",
 	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.blackfriday/",
-	"whoisServer": "whois.nic.blackfriday",
+	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],
