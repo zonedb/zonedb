@@ -4,7 +4,7 @@
 	"infoURL": "https://about.build/",
 	"whoisServer": "whois.nic.build",
 	"rdapURLs": [
-		"https://rdap.nic.build/"
+		"https://rdap.centralnic.com/build/"
 	],
 	"nameServers": [
 		"a.nic.build",

@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.boston",
 		"b.nic.boston",
-		"dns1.nic.boston",
-		"dns3.nic.boston",
-		"dnsa.nic.boston",
-		"dnsc.nic.boston"
+		"c.nic.boston",
+		"d.nic.boston"
 	],
 	"locations": [
 		"Boston"

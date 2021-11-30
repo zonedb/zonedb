@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.abogado",
 		"b.nic.abogado",
-		"dns1.nic.abogado",
-		"dns3.nic.abogado",
-		"dnsa.nic.abogado",
-		"dnsc.nic.abogado"
+		"c.nic.abogado",
+		"d.nic.abogado"
 	],
 	"languages": [
 		"es"

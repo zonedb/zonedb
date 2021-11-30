@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.casa",
 		"b.nic.casa",
-		"dns1.nic.casa",
-		"dns3.nic.casa",
-		"dnsa.nic.casa",
-		"dnsc.nic.casa"
+		"c.nic.casa",
+		"d.nic.casa"
 	],
 	"languages": [
 		"es",

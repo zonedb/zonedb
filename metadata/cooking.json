@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.cooking",
 		"b.nic.cooking",
-		"dns1.nic.cooking",
-		"dns3.nic.cooking",
-		"dnsa.nic.cooking",
-		"dnsc.nic.cooking"
+		"c.nic.cooking",
+		"d.nic.cooking"
 	],
 	"languages": [
 		"de",

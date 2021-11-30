@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.miami",
 		"b.nic.miami",
-		"dns1.nic.miami",
-		"dns3.nic.miami",
-		"dnsa.nic.miami",
-		"dnsc.nic.miami"
+		"c.nic.miami",
+		"d.nic.miami"
 	],
 	"locations": [
 		"Miami"
