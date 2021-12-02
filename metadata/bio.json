@@ -2,7 +2,7 @@
 	"domain": "bio",
 	"registryOperator": "Afilias Limited",
 	"infoURL": "https://domains.bio/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.bio",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/bio/"
 	],

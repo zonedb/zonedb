@@ -1,9 +1,12 @@
 {
 	"domain": "relarn.ru",
 	"nameServers": [
-		"int2.dns.ripn.net",
-		"int3.dns.ripn.net",
-		"ns.relarn.ru"
+		"dnsproxy1.fm.nic.ru",
+		"dnsproxy2.fm.nic.ru"
+	],
+	"wildcards": [
+		"109.70.26.37",
+		"194.85.61.76"
 	],
 	"policies": [
 		{

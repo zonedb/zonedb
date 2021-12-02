@@ -11,6 +11,10 @@
 		"m.dns.cn",
 		"n.dns.cn"
 	],
+	"wildcards": [
+		"218.241.116.40",
+		"wildcard.cnnic.cn"
+	],
 	"languages": [
 		"zh-Hans-CN"
 	],
