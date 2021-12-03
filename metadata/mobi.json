@@ -4,7 +4,7 @@
 	"infoURL": "https://dotmobi.mobi/",
 	"whoisServer": "whois.nic.mobi",
 	"rdapURLs": [
-		"https://rdap.afilias.net/rdap/mobi/"
+		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
 		"a0.mobi.afilias-nst.info",

@@ -2,9 +2,9 @@
 	"domain": "promo",
 	"registryOperator": "Afilias Limited",
 	"infoURL": "https://get.promo/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.promo",
 	"rdapURLs": [
-		"https://rdap.afilias.net/rdap/promo/"
+		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.promo",

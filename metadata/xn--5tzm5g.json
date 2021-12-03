@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.网站/",
 	"whoisServer": "whois.nic.网站",
 	"rdapURLs": [
-		"https://rdap.afilias.net/rdap/xn--5tzm5g/"
+		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.网站",

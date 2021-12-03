@@ -2,9 +2,9 @@
 	"domain": "lotto",
 	"registryOperator": "Afilias Limited",
 	"infoURL": "https://nic.lotto/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.lotto",
 	"rdapURLs": [
-		"https://rdap.afilias.net/rdap/lotto/"
+		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.lotto",

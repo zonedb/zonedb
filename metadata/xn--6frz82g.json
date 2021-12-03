@@ -1,9 +1,9 @@
 {
 	"domain": "移动",
 	"registryOperator": "Afilias Limited",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.移动",
 	"rdapURLs": [
-		"https://rdap.afilias.net/rdap/xn--6frz82g/"
+		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.移动",

@@ -2,9 +2,9 @@
 	"domain": "organic",
 	"registryOperator": "Afilias Limited",
 	"infoURL": "https://get.organic/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.organic",
 	"rdapURLs": [
-		"https://rdap.afilias.net/rdap/organic/"
+		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.organic",

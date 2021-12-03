@@ -4,7 +4,7 @@
 	"infoURL": "https://domains.archi/",
 	"whoisServer": "whois.nic.archi",
 	"rdapURLs": [
-		"https://rdap.afilias.net/rdap/archi/"
+		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.archi",

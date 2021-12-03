@@ -2,9 +2,9 @@
 	"domain": "poker",
 	"registryOperator": "Afilias Limited",
 	"infoURL": "https://get.poker/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.poker",
 	"rdapURLs": [
-		"https://rdap.afilias.net/rdap/poker/"
+		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.poker",

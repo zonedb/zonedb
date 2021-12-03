@@ -2,9 +2,9 @@
 	"domain": "ski",
 	"registryOperator": "Afilias Limited",
 	"infoURL": "https://domains.ski/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.ski",
 	"rdapURLs": [
-		"https://rdap.afilias.net/rdap/ski/"
+		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.ski",

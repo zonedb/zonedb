@@ -4,7 +4,7 @@
 	"infoURL": "https://domains.bio/",
 	"whoisServer": "whois.nic.bio",
 	"rdapURLs": [
-		"https://rdap.afilias.net/rdap/bio/"
+		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.bio",

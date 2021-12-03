@@ -2,9 +2,9 @@
 	"domain": "pink",
 	"registryOperator": "Afilias Limited",
 	"infoURL": "https://get.pink/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.pink",
 	"rdapURLs": [
-		"https://rdap.afilias.net/rdap/pink/"
+		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.pink",
