@@ -1,8 +1,7 @@
 {
 	"domain": "info.na",
 	"nameServers": [
-		"clint.ns.cloudflare.com",
-		"jocelyn.ns.cloudflare.com"
+		"suspended.omadhina.co.na"
 	],
 	"policies": [
 		{
