@@ -1,9 +1,9 @@
 {
 	"domain": "joburg",
 	"registryOperator": "ZA Central Registry NPC trading as ZA Central Registry",
-	"whoisServer": "joburg-whois.registry.net.za",
+	"whoisServer": "whois.nic.joburg",
 	"rdapURLs": [
-		"https://rdap.registry.net.za/rdap/"
+		"https://rdap.nic.joburg/rdap/"
 	],
 	"nameServers": [
 		"coza1.dnsnode.net",

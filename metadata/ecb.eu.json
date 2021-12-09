@@ -3,7 +3,7 @@
 	"nameServers": [
 		"auth02.ns.de.uu.net",
 		"auth52.ns.de.uu.net",
-		"ns1.de.colt.net",
+		"ns1.coltnet.at",
 		"ns8.colt.net"
 	],
 	"policies": [

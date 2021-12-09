@@ -164,12 +164,12 @@
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/beauty_ja_2.5.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/beauty_ja_3.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/beauty_ko_2.5.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/beauty_ko_3.0.txt"
 		},
 		{
 			"type": "idn-table",
@@ -299,7 +299,7 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Grek",
-			"value": "https://www.iana.org/domains/idn-tables/tables/beauty_grek_2.5.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/beauty_grek_3.0.txt"
 		},
 		{
 			"type": "idn-table",
@@ -384,7 +384,7 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/beauty_latn_2.5.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/beauty_latn_3.0.txt"
 		},
 		{
 			"type": "idn-table",
@@ -614,7 +614,7 @@
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/beauty_ru_2.5.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/beauty_ru_2.6.txt"
 		},
 		{
 			"type": "idn-table",
@@ -634,7 +634,7 @@
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/beauty_zh_2.5.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/beauty_zh_3.0.txt"
 		}
 	]
 }
