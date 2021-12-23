@@ -5,9 +5,6 @@
 		"ns.udag.net",
 		"ns.udag.org"
 	],
-	"wildcards": [
-		"89.31.143.1"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
