@@ -7,9 +7,6 @@
 		"ns4.apnic.net",
 		"ph.communitydns.net"
 	],
-	"wildcards": [
-		"45.79.222.138"
-	],
 	"tags": [
 		"country",
 		"geo"

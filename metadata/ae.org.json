@@ -9,5 +9,9 @@
 		"ns2.centralnic.net",
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
+	],
+	"wildcards": [
+		"54.153.56.183",
+		"ae.org"
 	]
 }
