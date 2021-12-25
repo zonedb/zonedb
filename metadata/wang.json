@@ -1,7 +1,7 @@
 {
 	"domain": "wang",
 	"registryOperator": "Zodiac Wang Limited",
-	"whoisServer": "whois.nic.wang",
+	"whoisServer": "whois.gtld.knet.cn",
 	"rdapURLs": [
 		"https://rdap.zdnsgtld.com/wang/"
 	],
@@ -11,7 +11,9 @@
 		"c.zdnscloud.com",
 		"d.zdnscloud.com",
 		"f.zdnscloud.com",
-		"g.zdnscloud.com"
+		"g.zdnscloud.com",
+		"i.zdnscloud.com",
+		"j.zdnscloud.com"
 	],
 	"languages": [
 		"zh-Hans",
