@@ -1,12 +1,5 @@
 {
 	"domain": "go.ga",
-	"nameServers": [
-		"ns81.rookdns.com",
-		"ns82.rookdns.com"
-	],
-	"wildcards": [
-		"66.81.199.56"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

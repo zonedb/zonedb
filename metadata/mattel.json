@@ -6,14 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.nic.mattel/"
 	],
-	"nameServers": [
-		"a.nic.mattel",
-		"b.nic.mattel",
-		"c.nic.mattel",
-		"ns1.dns.nic.mattel",
-		"ns2.dns.nic.mattel",
-		"ns3.dns.nic.mattel"
-	],
 	"languages": [
 		"es"
 	],
