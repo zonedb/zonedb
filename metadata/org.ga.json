@@ -1,5 +1,11 @@
 {
 	"domain": "org.ga",
+	"nameServers": [
+		"isp1.ib.ga",
+		"isp2.ib.ga",
+		"nsi1.inet.ga",
+		"nsi2.inet.ga"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
