@@ -6,6 +6,11 @@
 	"rdapURLs": [
 		"https://rdap.nic.ikano/v1/"
 	],
+	"nameServers": [
+		"a.dns.nic.ikano",
+		"m.dns.nic.ikano",
+		"n.dns.nic.ikano"
+	],
 	"languages": [
 		"mul-Cyrl",
 		"mul-Latn",
