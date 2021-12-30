@@ -4,7 +4,9 @@
 	"nameServers": [
 		"dns1.tld.hosterby.com",
 		"dns2.tld.hosterby.com",
+		"dns3.tld.becloudby.com",
 		"dns3.tld.hosterby.com",
+		"dns4.tld.becloudby.com",
 		"dns4.tld.hosterby.com",
 		"dns6.tld.hosterby.com"
 	],

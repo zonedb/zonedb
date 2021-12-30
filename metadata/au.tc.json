@@ -4,6 +4,11 @@
 		"jake.ns.cloudflare.com",
 		"sue.ns.cloudflare.com"
 	],
+	"wildcards": [
+		"199.59.243.200",
+		"216.120.146.200",
+		"68815.bodis.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
