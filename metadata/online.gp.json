@@ -4,6 +4,10 @@
 		"ns1.subdomain.net",
 		"ns2.subdomain.net.gp"
 	],
+	"wildcards": [
+		"95.217.58.108",
+		"online.gp"
+	],
 	"tags": [
 		"private"
 	]
