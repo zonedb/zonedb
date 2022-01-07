@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/garden/"
 	],
 	"nameServers": [
+		"a.nic.garden",
+		"b.nic.garden",
 		"dns1.nic.garden",
-		"dns2.nic.garden",
 		"dns3.nic.garden",
-		"dns4.nic.garden",
 		"dnsa.nic.garden",
-		"dnsb.nic.garden",
-		"dnsc.nic.garden",
-		"dnsd.nic.garden"
+		"dnsc.nic.garden"
 	],
 	"languages": [
 		"de",

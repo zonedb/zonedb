@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/rodeo/"
 	],
 	"nameServers": [
+		"a.nic.rodeo",
+		"b.nic.rodeo",
 		"dns1.nic.rodeo",
-		"dns2.nic.rodeo",
 		"dns3.nic.rodeo",
-		"dns4.nic.rodeo",
 		"dnsa.nic.rodeo",
-		"dnsb.nic.rodeo",
-		"dnsc.nic.rodeo",
-		"dnsd.nic.rodeo"
+		"dnsc.nic.rodeo"
 	],
 	"languages": [
 		"de",

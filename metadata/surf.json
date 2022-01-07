@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/surf/"
 	],
 	"nameServers": [
+		"a.nic.surf",
+		"b.nic.surf",
 		"dns1.nic.surf",
-		"dns2.nic.surf",
 		"dns3.nic.surf",
-		"dns4.nic.surf",
 		"dnsa.nic.surf",
-		"dnsb.nic.surf",
-		"dnsc.nic.surf",
-		"dnsd.nic.surf"
+		"dnsc.nic.surf"
 	],
 	"languages": [
 		"de",

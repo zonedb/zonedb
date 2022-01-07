@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/yoga/"
 	],
 	"nameServers": [
+		"a.nic.yoga",
+		"b.nic.yoga",
 		"dns1.nic.yoga",
-		"dns2.nic.yoga",
 		"dns3.nic.yoga",
-		"dns4.nic.yoga",
 		"dnsa.nic.yoga",
-		"dnsb.nic.yoga",
-		"dnsc.nic.yoga",
-		"dnsd.nic.yoga"
+		"dnsc.nic.yoga"
 	],
 	"languages": [
 		"de",

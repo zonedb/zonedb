@@ -1,11 +1,10 @@
 {
 	"domain": "org.fo",
 	"nameServers": [
-		"ns1.catched.com",
-		"ns2.catched.com"
-	],
-	"wildcards": [
-		"199.59.243.200"
+		"pns101.cloudns.net",
+		"pns102.cloudns.net",
+		"pns103.cloudns.net",
+		"pns104.cloudns.net"
 	],
 	"policies": [
 		{

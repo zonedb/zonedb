@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/law/"
 	],
 	"nameServers": [
+		"a.nic.law",
+		"b.nic.law",
 		"dns1.nic.law",
-		"dns2.nic.law",
 		"dns3.nic.law",
-		"dns4.nic.law",
 		"dnsa.nic.law",
-		"dnsb.nic.law",
-		"dnsc.nic.law",
-		"dnsd.nic.law"
+		"dnsc.nic.law"
 	],
 	"languages": [
 		"de",

@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/wedding/"
 	],
 	"nameServers": [
+		"a.nic.wedding",
+		"b.nic.wedding",
 		"dns1.nic.wedding",
-		"dns2.nic.wedding",
 		"dns3.nic.wedding",
-		"dns4.nic.wedding",
 		"dnsa.nic.wedding",
-		"dnsb.nic.wedding",
-		"dnsc.nic.wedding",
-		"dnsd.nic.wedding"
+		"dnsc.nic.wedding"
 	],
 	"languages": [
 		"de",

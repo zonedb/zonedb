@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/dds/"
 	],
 	"nameServers": [
+		"a.nic.dds",
+		"b.nic.dds",
 		"dns1.nic.dds",
-		"dns2.nic.dds",
 		"dns3.nic.dds",
-		"dns4.nic.dds",
 		"dnsa.nic.dds",
-		"dnsb.nic.dds",
-		"dnsc.nic.dds",
-		"dnsd.nic.dds"
+		"dnsc.nic.dds"
 	],
 	"languages": [
 		"de",

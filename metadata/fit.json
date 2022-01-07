@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/fit/"
 	],
 	"nameServers": [
+		"a.nic.fit",
+		"b.nic.fit",
 		"dns1.nic.fit",
-		"dns2.nic.fit",
 		"dns3.nic.fit",
-		"dns4.nic.fit",
 		"dnsa.nic.fit",
-		"dnsb.nic.fit",
-		"dnsc.nic.fit",
-		"dnsd.nic.fit"
+		"dnsc.nic.fit"
 	],
 	"languages": [
 		"de",

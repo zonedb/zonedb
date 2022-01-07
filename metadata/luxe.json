@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/luxe/"
 	],
 	"nameServers": [
+		"a.nic.luxe",
+		"b.nic.luxe",
 		"dns1.nic.luxe",
-		"dns2.nic.luxe",
 		"dns3.nic.luxe",
-		"dns4.nic.luxe",
 		"dnsa.nic.luxe",
-		"dnsb.nic.luxe",
-		"dnsc.nic.luxe",
-		"dnsd.nic.luxe"
+		"dnsc.nic.luxe"
 	],
 	"languages": [
 		"ar",

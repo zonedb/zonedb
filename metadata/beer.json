@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/beer/"
 	],
 	"nameServers": [
+		"a.nic.beer",
+		"b.nic.beer",
 		"dns1.nic.beer",
-		"dns2.nic.beer",
 		"dns3.nic.beer",
-		"dns4.nic.beer",
 		"dnsa.nic.beer",
-		"dnsb.nic.beer",
-		"dnsc.nic.beer",
-		"dnsd.nic.beer"
+		"dnsc.nic.beer"
 	],
 	"languages": [
 		"de",

@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/horse/"
 	],
 	"nameServers": [
+		"a.nic.horse",
+		"b.nic.horse",
 		"dns1.nic.horse",
-		"dns2.nic.horse",
 		"dns3.nic.horse",
-		"dns4.nic.horse",
 		"dnsa.nic.horse",
-		"dnsb.nic.horse",
-		"dnsc.nic.horse",
-		"dnsd.nic.horse"
+		"dnsc.nic.horse"
 	],
 	"languages": [
 		"de",
