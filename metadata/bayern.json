@@ -7,13 +7,13 @@
 		"https://rdap.nominet.uk/bayern/"
 	],
 	"nameServers": [
-		"dns1.nic.bayern",
+		"anycast10.irondns.net",
+		"anycast23.irondns.net",
+		"anycast24.irondns.net",
+		"anycast9.irondns.net",
 		"dns2.nic.bayern",
-		"dns3.nic.bayern",
 		"dns4.nic.bayern",
-		"dnsa.nic.bayern",
 		"dnsb.nic.bayern",
-		"dnsc.nic.bayern",
 		"dnsd.nic.bayern"
 	],
 	"locations": [

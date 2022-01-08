@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/fashion/"
 	],
 	"nameServers": [
+		"a.nic.fashion",
+		"b.nic.fashion",
 		"dns1.nic.fashion",
-		"dns2.nic.fashion",
 		"dns3.nic.fashion",
-		"dns4.nic.fashion",
 		"dnsa.nic.fashion",
-		"dnsb.nic.fashion",
-		"dnsc.nic.fashion",
-		"dnsd.nic.fashion"
+		"dnsc.nic.fashion"
 	],
 	"languages": [
 		"de",
