@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/work/"
 	],
 	"nameServers": [
+		"a.nic.work",
+		"b.nic.work",
 		"dns1.nic.work",
-		"dns2.nic.work",
 		"dns3.nic.work",
-		"dns4.nic.work",
 		"dnsa.nic.work",
-		"dnsb.nic.work",
-		"dnsc.nic.work",
-		"dnsd.nic.work"
+		"dnsc.nic.work"
 	],
 	"languages": [
 		"de",

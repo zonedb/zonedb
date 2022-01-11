@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/vip/"
 	],
 	"nameServers": [
+		"a.nic.vip",
+		"b.nic.vip",
 		"dns1.nic.vip",
-		"dns2.nic.vip",
 		"dns3.nic.vip",
-		"dns4.nic.vip",
 		"dnsa.nic.vip",
-		"dnsb.nic.vip",
-		"dnsc.nic.vip",
-		"dnsd.nic.vip"
+		"dnsc.nic.vip"
 	],
 	"languages": [
 		"ar",

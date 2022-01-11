@@ -7,14 +7,12 @@
 		"https://rdap.nominet.uk/vodka/"
 	],
 	"nameServers": [
+		"a.nic.vodka",
+		"b.nic.vodka",
 		"dns1.nic.vodka",
-		"dns2.nic.vodka",
 		"dns3.nic.vodka",
-		"dns4.nic.vodka",
 		"dnsa.nic.vodka",
-		"dnsb.nic.vodka",
-		"dnsc.nic.vodka",
-		"dnsd.nic.vodka"
+		"dnsc.nic.vodka"
 	],
 	"languages": [
 		"de",
