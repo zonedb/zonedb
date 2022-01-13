@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.wedding",
 		"b.nic.wedding",
-		"dns1.nic.wedding",
-		"dns3.nic.wedding",
-		"dnsa.nic.wedding",
-		"dnsc.nic.wedding"
+		"c.nic.wedding",
+		"d.nic.wedding"
 	],
 	"languages": [
 		"de",

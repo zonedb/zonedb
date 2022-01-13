@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.garden",
 		"b.nic.garden",
-		"dns1.nic.garden",
-		"dns3.nic.garden",
-		"dnsa.nic.garden",
-		"dnsc.nic.garden"
+		"c.nic.garden",
+		"d.nic.garden"
 	],
 	"languages": [
 		"de",

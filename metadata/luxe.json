@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.luxe",
 		"b.nic.luxe",
-		"dns1.nic.luxe",
-		"dns3.nic.luxe",
-		"dnsa.nic.luxe",
-		"dnsc.nic.luxe"
+		"c.nic.luxe",
+		"d.nic.luxe"
 	],
 	"languages": [
 		"ar",

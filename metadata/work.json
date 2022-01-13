@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.work",
 		"b.nic.work",
-		"dns1.nic.work",
-		"dns3.nic.work",
-		"dnsa.nic.work",
-		"dnsc.nic.work"
+		"c.nic.work",
+		"d.nic.work"
 	],
 	"languages": [
 		"de",

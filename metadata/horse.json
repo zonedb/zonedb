@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.horse",
 		"b.nic.horse",
-		"dns1.nic.horse",
-		"dns3.nic.horse",
-		"dnsa.nic.horse",
-		"dnsc.nic.horse"
+		"c.nic.horse",
+		"d.nic.horse"
 	],
 	"languages": [
 		"de",

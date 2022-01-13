@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.surf",
 		"b.nic.surf",
-		"dns1.nic.surf",
-		"dns3.nic.surf",
-		"dnsa.nic.surf",
-		"dnsc.nic.surf"
+		"c.nic.surf",
+		"d.nic.surf"
 	],
 	"languages": [
 		"de",

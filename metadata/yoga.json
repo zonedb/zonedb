@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.yoga",
 		"b.nic.yoga",
-		"dns1.nic.yoga",
-		"dns3.nic.yoga",
-		"dnsa.nic.yoga",
-		"dnsc.nic.yoga"
+		"c.nic.yoga",
+		"d.nic.yoga"
 	],
 	"languages": [
 		"de",

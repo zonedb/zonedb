@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.dds",
 		"b.nic.dds",
-		"dns1.nic.dds",
-		"dns3.nic.dds",
-		"dnsa.nic.dds",
-		"dnsc.nic.dds"
+		"c.nic.dds",
+		"d.nic.dds"
 	],
 	"languages": [
 		"de",

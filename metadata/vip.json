@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.vip",
 		"b.nic.vip",
-		"dns1.nic.vip",
-		"dns3.nic.vip",
-		"dnsa.nic.vip",
-		"dnsc.nic.vip"
+		"c.nic.vip",
+		"d.nic.vip"
 	],
 	"languages": [
 		"ar",

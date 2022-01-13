@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.fishing",
 		"b.nic.fishing",
-		"dns1.nic.fishing",
-		"dns3.nic.fishing",
-		"dnsa.nic.fishing",
-		"dnsc.nic.fishing"
+		"c.nic.fishing",
+		"d.nic.fishing"
 	],
 	"languages": [
 		"de",

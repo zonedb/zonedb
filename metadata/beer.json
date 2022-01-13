@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.beer",
 		"b.nic.beer",
-		"dns1.nic.beer",
-		"dns3.nic.beer",
-		"dnsa.nic.beer",
-		"dnsc.nic.beer"
+		"c.nic.beer",
+		"d.nic.beer"
 	],
 	"languages": [
 		"de",

@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.rodeo",
 		"b.nic.rodeo",
-		"dns1.nic.rodeo",
-		"dns3.nic.rodeo",
-		"dnsa.nic.rodeo",
-		"dnsc.nic.rodeo"
+		"c.nic.rodeo",
+		"d.nic.rodeo"
 	],
 	"languages": [
 		"de",

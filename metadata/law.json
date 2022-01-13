@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.law",
 		"b.nic.law",
-		"dns1.nic.law",
-		"dns3.nic.law",
-		"dnsa.nic.law",
-		"dnsc.nic.law"
+		"c.nic.law",
+		"d.nic.law"
 	],
 	"languages": [
 		"de",

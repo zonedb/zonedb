@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.fashion",
 		"b.nic.fashion",
-		"dns1.nic.fashion",
-		"dns3.nic.fashion",
-		"dnsa.nic.fashion",
-		"dnsc.nic.fashion"
+		"c.nic.fashion",
+		"d.nic.fashion"
 	],
 	"languages": [
 		"de",

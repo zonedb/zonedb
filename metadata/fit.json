@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.fit",
 		"b.nic.fit",
-		"dns1.nic.fit",
-		"dns3.nic.fit",
-		"dnsa.nic.fit",
-		"dnsc.nic.fit"
+		"c.nic.fit",
+		"d.nic.fit"
 	],
 	"languages": [
 		"de",
