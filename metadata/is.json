@@ -7,9 +7,10 @@
 	"nameServers": [
 		"bes.isnic.is",
 		"durinn.rhnet.is",
-		"isgate.is",
+		"ht-tldsecondary01.isnic.is",
 		"sab.isnic.is",
-		"sunic.sunet.se"
+		"sunic.sunet.se",
+		"tg-tldsecondary01.isnic.is"
 	],
 	"tags": [
 		"country",

@@ -9,6 +9,7 @@
 	"nameServers": [
 		"a0.nic.lamer",
 		"a2.nic.lamer",
+		"b0.nic.lamer",
 		"c0.nic.lamer"
 	],
 	"tags": [

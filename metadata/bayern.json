@@ -10,11 +10,7 @@
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
-		"anycast9.irondns.net",
-		"dns2.nic.bayern",
-		"dns4.nic.bayern",
-		"dnsb.nic.bayern",
-		"dnsd.nic.bayern"
+		"anycast9.irondns.net"
 	],
 	"locations": [
 		"DE-BY"

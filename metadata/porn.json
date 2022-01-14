@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.porn/",
 	"whoisServer": "whois.nic.porn",
 	"rdapURLs": [
-		"https://whois.registrar.adult/rdap/"
+		"https://rdap.nic.porn/"
 	],
 	"nameServers": [
 		"a.nic.porn",

@@ -10,7 +10,13 @@
 		"l.nic.rs"
 	],
 	"languages": [
-		"sr-Cyrl"
+		"bg",
+		"cnr-Cyrl",
+		"mk",
+		"ru",
+		"rue-Cyrl",
+		"sr-Cyrl",
+		"uk"
 	],
 	"tags": [
 		"country",
@@ -19,8 +25,38 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"key": "bg",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--90a3ac_bg_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "cnr-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--90a3ac_cnr-cyrl_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "mk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--90a3ac_mk_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--90a3ac_ru_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "rue-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--90a3ac_rue-cyrl_2.0.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "sr-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--90a3ac_sr-cyrl_1.3.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--90a3ac_sr-cyrl_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "uk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--90a3ac_uk_2.0.txt"
 		}
 	]
 }

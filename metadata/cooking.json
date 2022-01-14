@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.cooking/",
 	"whoisServer": "whois.nic.cooking",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/cooking/"
+		"https://rdap.nic.cooking/"
 	],
 	"nameServers": [
 		"a.nic.cooking",
