@@ -9,10 +9,8 @@
 	"nameServers": [
 		"a.nic.vodka",
 		"b.nic.vodka",
-		"dns1.nic.vodka",
-		"dns3.nic.vodka",
-		"dnsa.nic.vodka",
-		"dnsc.nic.vodka"
+		"c.nic.vodka",
+		"d.nic.vodka"
 	],
 	"languages": [
 		"de",

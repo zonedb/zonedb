@@ -4,7 +4,10 @@
 	"nameServers": [
 		"nac.no",
 		"nn.uninett.no",
-		"server.nordu.net"
+		"server.nordu.net",
+		"x.nic.no",
+		"y.nic.no",
+		"z.nic.no"
 	],
 	"tags": [
 		"closed",
