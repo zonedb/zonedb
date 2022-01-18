@@ -1,9 +1,5 @@
 {
 	"domain": "net.ml",
-	"nameServers": [
-		"dns01.gouv.ml",
-		"dns02.gouv.ml"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

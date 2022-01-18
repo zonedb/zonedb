@@ -1,9 +1,8 @@
 {
 	"domain": "com.ba",
 	"nameServers": [
-		"ns1.hosting.bhtelecom.ba",
-		"ns2.hosting.bhtelecom.ba",
-		"ns3.hosting.bhtelecom.ba"
+		"dns01.hosting.bhtelecom.ba",
+		"dns02.hosting.bhtelecom.ba"
 	],
 	"policies": [
 		{

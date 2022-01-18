@@ -1,9 +1,5 @@
 {
 	"domain": "presse.ml",
-	"nameServers": [
-		"cdns1.main-hosting.eu",
-		"cdns2.main-hosting.eu"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
