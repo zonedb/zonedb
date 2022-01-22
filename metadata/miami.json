@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.miami/",
 	"whoisServer": "whois.nic.miami",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/miami/"
+		"https://rdap.nic.miami/"
 	],
 	"nameServers": [
 		"a.nic.miami",

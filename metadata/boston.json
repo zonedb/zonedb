@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.boston/",
 	"whoisServer": "whois.nic.boston",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/boston/"
+		"https://rdap.nic.boston/"
 	],
 	"nameServers": [
 		"a.nic.boston",
