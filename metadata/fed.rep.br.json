@@ -1,7 +1,7 @@
 {
 	"domain": "fed.rep.br",
 	"nameServers": [
-		"ns1.sdserver28.com",
-		"ns2.sdserver28.com"
+		"a.auto.dns.br",
+		"b.auto.dns.br"
 	]
 }

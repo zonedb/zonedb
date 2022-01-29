@@ -1,8 +1,10 @@
 {
 	"domain": "ae.si",
 	"nameServers": [
-		"ns1.anycastdns.cz",
-		"ns2.anycastdns.cz"
+		"b.ns14.net",
+		"c.ns14.net",
+		"d.ns14.net",
+		"ns.2020.si"
 	],
 	"policies": [
 		{

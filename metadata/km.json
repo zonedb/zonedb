@@ -1,7 +1,6 @@
 {
 	"domain": "km",
 	"nameServers": [
-		"dns1.nic.km",
 		"dns2.nic.km",
 		"ns-km.afrinic.net"
 	],

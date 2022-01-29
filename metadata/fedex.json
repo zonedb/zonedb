@@ -6,6 +6,12 @@
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/fedex/"
 	],
+	"nameServers": [
+		"a0.nic.fedex",
+		"a2.nic.fedex",
+		"b0.nic.fedex",
+		"c0.nic.fedex"
+	],
 	"tags": [
 		"brand",
 		"generic"
