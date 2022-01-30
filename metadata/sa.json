@@ -1,6 +1,6 @@
 {
 	"domain": "sa",
-	"whoisServer": "whois.saudinic.net.sa",
+	"whoisServer": "whois.nic.net.sa",
 	"nameServers": [
 		"c1.dns.sa",
 		"c2.dns.sa",

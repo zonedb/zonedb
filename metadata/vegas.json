@@ -2,7 +2,7 @@
 	"domain": "vegas",
 	"registryOperator": "Dot Vegas, Inc.",
 	"infoURL": "http://nic.vegas/",
-	"whoisServer": "whois.nic.vegas",
+	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/vegas/"
 	],
