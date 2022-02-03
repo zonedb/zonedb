@@ -4,9 +4,7 @@
 	"whoisURL": "http://whois.btcl.net.bd/",
 	"nameServers": [
 		"bd-ns.anycast.pch.net",
-		"dns.bd",
-		"jamuna.btcl.net.bd",
-		"surma.btcl.net.bd"
+		"dns.bd"
 	],
 	"tags": [
 		"closed",
