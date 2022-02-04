@@ -7,10 +7,6 @@
 		"idn.pnina.ps",
 		"ns1.pnina.ps"
 	],
-	"wildcards": [
-		"2001:cdba::3257:9652",
-		"208.91.112.55"
-	],
 	"tags": [
 		"country",
 		"geo"
