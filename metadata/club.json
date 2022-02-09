@@ -8,6 +8,7 @@
 	"nameServers": [
 		"a.nic.club",
 		"b.nic.club",
+		"c.nic.club",
 		"ns1.dns.nic.club",
 		"ns2.dns.nic.club",
 		"ns3.dns.nic.club"
