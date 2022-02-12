@@ -1,6 +1,8 @@
 {
 	"domain": "adult.ht",
 	"nameServers": [
+		"charles.cdec.polymtl.ca",
+		"ht-ns.anycast.pch.net",
 		"ns1.nic.ht",
 		"ns1.polymtl.ca",
 		"ns3.nic.fr",
