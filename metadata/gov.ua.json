@@ -1,9 +1,9 @@
 {
 	"domain": "gov.ua",
 	"nameServers": [
+		"ad.ns.ua",
 		"ba1.ns.ua",
-		"ho1.ns.gov.ua",
-		"nix.ns.ua"
+		"ho1.ns.gov.ua"
 	],
 	"policies": [
 		{
