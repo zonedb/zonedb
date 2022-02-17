@@ -2,6 +2,7 @@
 	"domain": "com.es",
 	"nameServers": [
 		"c.nic.es",
+		"fnicdos.rediris.es",
 		"g.nic.es",
 		"h.nic.es",
 		"n3ns.nic.es"

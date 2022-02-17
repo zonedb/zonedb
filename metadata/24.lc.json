@@ -1,11 +1,11 @@
 {
 	"domain": "24.lc",
 	"nameServers": [
-		"ns1.subdomain.com",
-		"ns2.subdomain.com"
+		"ns1.website.org",
+		"ns2.website.org"
 	],
 	"wildcards": [
-		"144.76.162.245",
+		"138.201.129.184",
 		"24.lc"
 	],
 	"tags": [

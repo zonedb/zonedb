@@ -3,7 +3,8 @@
 	"nameServers": [
 		"dns1.gov.ps",
 		"ns1.gov.ps",
-		"ns1.palgov.net"
+		"ns1.palgov.net",
+		"ns3.gov.ps"
 	],
 	"policies": [
 		{
