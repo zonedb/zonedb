@@ -7,8 +7,6 @@
 		"https://rdap.centralnic.com/love/"
 	],
 	"nameServers": [
-		"a.nic.love",
-		"b.nic.love",
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns3.uniregistry.net",

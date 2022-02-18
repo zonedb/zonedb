@@ -1,9 +1,7 @@
 {
 	"domain": "bh",
 	"nameServers": [
-		"a.bh.centralnic-dns.com",
 		"a.nic.bh",
-		"b.bh.centralnic-dns.com",
 		"b.nic.bh",
 		"c.bh.centralnic-dns.com",
 		"d.bh.centralnic-dns.com"
