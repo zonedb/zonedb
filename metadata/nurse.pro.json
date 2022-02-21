@@ -4,9 +4,6 @@
 		"park1.encirca.net",
 		"park2.encirca.net"
 	],
-	"wildcards": [
-		"3.209.180.95"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
