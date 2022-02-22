@@ -2,8 +2,8 @@
 	"domain": "kyiv.ua",
 	"nameServers": [
 		"ba1.ns.ua",
-		"ho1.ns.kiev.ua",
-		"k.ns.com.ua",
-		"nix.ns.ua"
+		"bg.ns.ua",
+		"ho1.kv.ns.ua",
+		"k.ns.com.ua"
 	]
 }

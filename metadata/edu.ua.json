@@ -2,9 +2,9 @@
 	"domain": "edu.ua",
 	"nameServers": [
 		"ba1.ns.ua",
+		"bg.ns.ua",
 		"deneb.dfn.de",
-		"ho1.ns.edu.ua",
-		"nix.ns.ua"
+		"ho1.edu.ns.ua"
 	],
 	"policies": [
 		{
