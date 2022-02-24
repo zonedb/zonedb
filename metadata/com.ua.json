@@ -3,9 +3,9 @@
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
 		"ba1.ns.ua",
-		"ho1.ns.com.ua",
-		"k.ns.com.ua",
-		"nix.ns.ua"
+		"cfdf1.com.ns.ua",
+		"cfdf2.com.ns.ua",
+		"ho1.com.ns.ua"
 	],
 	"policies": [
 		{
