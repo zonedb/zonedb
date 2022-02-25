@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.fit/",
 	"whoisServer": "whois.nic.fit",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/fit/"
+		"https://rdap.nic.fit/"
 	],
 	"nameServers": [
 		"a.nic.fit",

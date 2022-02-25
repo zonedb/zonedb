@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.law/",
 	"whoisServer": "whois.nic.law",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/law/"
+		"https://rdap.nic.law/"
 	],
 	"nameServers": [
 		"a.nic.law",

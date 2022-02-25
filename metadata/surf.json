@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.surf/",
 	"whoisServer": "whois.nic.surf",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/surf/"
+		"https://rdap.nic.surf/"
 	],
 	"nameServers": [
 		"a.nic.surf",

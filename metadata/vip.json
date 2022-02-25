@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.vip/",
 	"whoisServer": "whois.nic.vip",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/vip/"
+		"https://rdap.nic.vip/"
 	],
 	"nameServers": [
 		"a.nic.vip",

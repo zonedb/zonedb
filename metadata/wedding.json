@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.wedding/",
 	"whoisServer": "whois.nic.wedding",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/wedding/"
+		"https://rdap.nic.wedding/"
 	],
 	"nameServers": [
 		"a.nic.wedding",

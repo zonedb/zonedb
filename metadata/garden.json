@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.garden/",
 	"whoisServer": "whois.nic.garden",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/garden/"
+		"https://rdap.nic.garden/"
 	],
 	"nameServers": [
 		"a.nic.garden",

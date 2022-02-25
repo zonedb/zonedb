@@ -4,7 +4,7 @@
 	"infoURL": "http://nix.luxe/",
 	"whoisServer": "whois.nic.luxe",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/luxe/"
+		"https://rdap.nic.luxe/"
 	],
 	"nameServers": [
 		"a.nic.luxe",

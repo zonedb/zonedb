@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.fishing/",
 	"whoisServer": "whois.nic.fishing",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/fishing/"
+		"https://rdap.nic.fishing/"
 	],
 	"nameServers": [
 		"a.nic.fishing",

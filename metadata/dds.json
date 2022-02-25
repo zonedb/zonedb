@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.dds/",
 	"whoisServer": "whois.nic.dds",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/dds/"
+		"https://rdap.nic.dds/"
 	],
 	"nameServers": [
 		"a.nic.dds",

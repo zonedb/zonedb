@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.fashion/",
 	"whoisServer": "whois.nic.fashion",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/fashion/"
+		"https://rdap.nic.fashion/"
 	],
 	"nameServers": [
 		"a.nic.fashion",

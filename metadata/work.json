@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.work/",
 	"whoisServer": "whois.nic.work",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/work/"
+		"https://rdap.nic.work/"
 	],
 	"nameServers": [
 		"a.nic.work",

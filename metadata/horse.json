@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.horse/",
 	"whoisServer": "whois.nic.horse",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/horse/"
+		"https://rdap.nic.horse/"
 	],
 	"nameServers": [
 		"a.nic.horse",

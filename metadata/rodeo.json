@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.rodeo/",
 	"whoisServer": "whois.nic.rodeo",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/rodeo/"
+		"https://rdap.nic.rodeo/"
 	],
 	"nameServers": [
 		"a.nic.rodeo",
