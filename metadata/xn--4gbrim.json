@@ -7,10 +7,10 @@
 		"https://rdap.afilias-srs.net/rdap/xn--4gbrim/"
 	],
 	"nameServers": [
-		"a0.nic.موقع",
-		"a2.nic.موقع",
-		"b0.nic.موقع",
-		"c0.nic.موقع"
+		"a.nic.موقع",
+		"b.nic.موقع",
+		"c.nic.موقع",
+		"d.nic.موقع"
 	],
 	"tags": [
 		"generic"
