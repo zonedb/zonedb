@@ -1,11 +1,5 @@
 {
 	"domain": "net.ht",
-	"nameServers": [
-		"ns1.nic.ht",
-		"ns1.polymtl.ca",
-		"ns3.nic.fr",
-		"pch.nic.ht"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
