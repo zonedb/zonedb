@@ -7,9 +7,10 @@
 		"https://rdap.nic.ieee/"
 	],
 	"nameServers": [
-		"a.nic.ieee",
-		"b.nic.ieee",
-		"c.nic.ieee",
+		"dns1.nic.ieee",
+		"dns2.nic.ieee",
+		"dns3.nic.ieee",
+		"dns4.nic.ieee",
 		"ns1.dns.nic.ieee",
 		"ns2.dns.nic.ieee",
 		"ns3.dns.nic.ieee"

@@ -1,12 +1,8 @@
 {
 	"domain": "art.pl",
 	"nameServers": [
-		"bilbo.nask.org.pl",
-		"hermes.sgh.waw.pl",
-		"ns.tpnet.pl",
-		"ns1.agh.edu.pl",
-		"ns1.net.icm.edu.pl",
-		"ns2.net.icm.edu.pl"
+		"dns14.ovh.net",
+		"ns14.ovh.net"
 	],
 	"policies": [
 		{

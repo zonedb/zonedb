@@ -1,8 +1,9 @@
 {
 	"domain": "gov.by",
 	"nameServers": [
-		"u1.hoster.by",
-		"u2.hoster.by"
+		"ns1.g-cloud.by",
+		"ns2.g-cloud.by",
+		"ns3.g-cloud.by"
 	],
 	"policies": [
 		{

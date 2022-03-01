@@ -3,6 +3,7 @@
 	"infoURL": "http://www.nic.net.ua/",
 	"whoisServer": "whois.ua",
 	"nameServers": [
+		"bg.ns.ua",
 		"cd1.ns.ua",
 		"ho1.ns.ua",
 		"in1.ns.ua",
