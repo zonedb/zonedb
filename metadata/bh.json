@@ -3,8 +3,8 @@
 	"nameServers": [
 		"a.nic.bh",
 		"b.nic.bh",
-		"c.bh.centralnic-dns.com",
-		"d.bh.centralnic-dns.com"
+		"c.nic.bh",
+		"d.nic.bh"
 	],
 	"tags": [
 		"country",

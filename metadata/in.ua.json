@@ -3,8 +3,8 @@
 	"whoisServer": "whois.in.ua",
 	"nameServers": [
 		"ho1.ns.od.ua",
-		"ns.in.ua",
-		"nss.ukr.net"
+		"nn.ns.ua",
+		"ns.in.ua"
 	],
 	"policies": [
 		{
