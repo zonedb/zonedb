@@ -2,7 +2,7 @@
 	"domain": "موقع",
 	"registryOperator": "Helium TLDs Ltd",
 	"infoURL": "https://newgtlds.icann.org/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.موقع",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/xn--4gbrim/"
 	],

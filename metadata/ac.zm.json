@@ -1,9 +1,5 @@
 {
 	"domain": "ac.zm",
-	"nameServers": [
-		"gransy.nic.zm",
-		"pch.nic.zm"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

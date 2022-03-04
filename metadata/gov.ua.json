@@ -1,10 +1,10 @@
 {
 	"domain": "gov.ua",
 	"nameServers": [
-		"ad.ns.ua",
 		"ba1.ns.ua",
 		"bg.ns.ua",
-		"ho1.gov.ns.ua"
+		"ho1.gov.ns.ua",
+		"nn.ns.ua"
 	],
 	"policies": [
 		{

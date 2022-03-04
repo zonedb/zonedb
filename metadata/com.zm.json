@@ -1,10 +1,5 @@
 {
 	"domain": "com.zm",
-	"nameServers": [
-		"cocca.nic.zm",
-		"gransy.nic.zm",
-		"pch.nic.zm"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
