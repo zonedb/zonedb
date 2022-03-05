@@ -4,7 +4,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.موقع",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/xn--4gbrim/"
+		"https://rdap.centralnic.com/xn--4gbrim/"
 	],
 	"nameServers": [
 		"a.nic.موقع",
