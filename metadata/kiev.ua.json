@@ -2,10 +2,10 @@
 	"domain": "kiev.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"ba1.ns.ua",
 		"cfdf1.kiev.ns.ua",
 		"cfdf2.kiev.ns.ua",
-		"ho1.kv.ns.ua"
+		"ho1.kv.ns.ua",
+		"nn.ns.ua"
 	],
 	"policies": [
 		{

@@ -4,7 +4,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.design",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/design/"
+		"https://rdap.nic.design/"
 	],
 	"nameServers": [
 		"a.nic.design",
