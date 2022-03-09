@@ -3,7 +3,7 @@
 	"registryOperator": "Top Level Design, LLC",
 	"whoisServer": "whois.nic.wiki",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/wiki/"
+		"https://rdap.nic.wiki/"
 	],
 	"nameServers": [
 		"a.nic.wiki",

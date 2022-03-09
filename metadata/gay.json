@@ -4,7 +4,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.gay",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/gay/"
+		"https://rdap.nic.gay/"
 	],
 	"nameServers": [
 		"a.nic.gay",
