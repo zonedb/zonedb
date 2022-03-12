@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.bayern/",
 	"whoisServer": "whois.nic.bayern",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/bayern/"
+		"https://rdap.nic.bayern/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
