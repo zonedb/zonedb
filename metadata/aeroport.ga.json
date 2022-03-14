@@ -1,9 +1,5 @@
 {
 	"domain": "aeroport.ga",
-	"nameServers": [
-		"ns81.rookdns.com",
-		"ns82.rookdns.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

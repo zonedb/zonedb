@@ -4,7 +4,6 @@
 	"nameServers": [
 		"dns1.gov.ps",
 		"dns3.gov.ps",
-		"idn.pnina.ps",
 		"ns1.pnina.ps"
 	],
 	"tags": [
