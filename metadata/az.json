@@ -3,6 +3,7 @@
 	"infoURL": "https://www.nic.az/",
 	"nameServers": [
 		"az.hostmaster.ua",
+		"ns3.intrans.az",
 		"rip.psg.com"
 	],
 	"tags": [

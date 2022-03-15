@@ -4,7 +4,9 @@
 	"nameServers": [
 		"a.udrtld.net",
 		"b.udrtld.net",
-		"c.udrtld.net"
+		"c.udrtld.net",
+		"d.udrtld.net",
+		"e.udrtld.net"
 	],
 	"tags": [
 		"private"
