@@ -1,10 +1,12 @@
 {
 	"domain": "ecb.eu",
 	"nameServers": [
-		"auth02.ns.de.uu.net",
-		"auth52.ns.de.uu.net",
 		"ns1.coltnet.at",
-		"ns8.colt.net"
+		"ns8.colt.net",
+		"pdns109.ultradns.biz",
+		"pdns109.ultradns.com",
+		"pdns109.ultradns.net",
+		"pdns109.ultradns.org"
 	],
 	"policies": [
 		{

@@ -1,13 +1,12 @@
 {
 	"domain": "ie",
 	"infoURL": "https://www.iedr.ie/",
-	"whoisServer": "whois.domainregistry.ie",
+	"whoisServer": "whois.weare.ie",
 	"nameServers": [
 		"b.ns.ie",
 		"c.ns.ie",
 		"d.ns.ie",
 		"g.ns.ie",
-		"h.ns.ie",
 		"i.ns.ie"
 	],
 	"tags": [

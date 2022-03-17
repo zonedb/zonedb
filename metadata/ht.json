@@ -2,8 +2,10 @@
 	"domain": "ht",
 	"whoisServer": "whois.nic.ht",
 	"nameServers": [
+		"ns1.nic.ht",
 		"ns1.polymtl.ca",
-		"ns3.nic.fr"
+		"ns3.nic.fr",
+		"pch.nic.ht"
 	],
 	"tags": [
 		"country",

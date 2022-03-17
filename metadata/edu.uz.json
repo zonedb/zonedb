@@ -2,7 +2,9 @@
 	"domain": "edu.uz",
 	"nameServers": [
 		"dns1.webspace.uz",
-		"dns2.webspace.uz"
+		"dns2.webspace.uz",
+		"dns3.webspace.uz",
+		"dns4.webspace.uz"
 	],
 	"policies": [
 		{
