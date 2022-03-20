@@ -1,6 +1,6 @@
 {
 	"domain": "dm",
-	"whoisServer": "whois.dmdomains.dm",
+	"whoisServer": "whois.nic.dm",
 	"nameServers": [
 		"ns.blacknightsolutions.com",
 		"ns2.blacknightsolutions.com",
