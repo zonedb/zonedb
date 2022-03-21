@@ -2,6 +2,7 @@
 	"domain": "gs",
 	"whoisServer": "whois.nic.gs",
 	"nameServers": [
+		"ns.anycast.nic.gs",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
 	],
