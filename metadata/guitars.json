@@ -1,8 +1,8 @@
 {
 	"domain": "guitars",
-	"registryOperator": "UNR Corp.",
+	"registryOperator": "XYZ.COM LLC",
 	"infoURL": "https://nic.guitars/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.guitars",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],
