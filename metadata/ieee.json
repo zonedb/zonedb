@@ -4,7 +4,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.ieee",
 	"rdapURLs": [
-		"https://rdap.nic.ieee/"
+		"https://rdap.nominet.uk/ieee/"
 	],
 	"nameServers": [
 		"dns1.nic.ieee",
