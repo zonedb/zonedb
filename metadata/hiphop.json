@@ -2,7 +2,7 @@
 	"domain": "hiphop",
 	"registryOperator": "Dot Hip Hop, LLC",
 	"infoURL": "https://nic.hiphop/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.hiphop",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],
