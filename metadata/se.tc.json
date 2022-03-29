@@ -1,8 +1,7 @@
 {
 	"domain": "se.tc",
 	"nameServers": [
-		"gabriel.ns.cloudflare.com",
-		"jamie.ns.cloudflare.com"
+		"suspended.nic.tc"
 	],
 	"policies": [
 		{
