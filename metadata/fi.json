@@ -1,6 +1,9 @@
 {
 	"domain": "fi",
-	"whoisServer": "whois.ficora.fi",
+	"whoisServer": "whois.fi",
+	"rdapURLs": [
+		"https://rdap.fi/rdap/rdap/"
+	],
 	"nameServers": [
 		"a.fi",
 		"b.fi",
