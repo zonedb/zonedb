@@ -1,5 +1,11 @@
 {
 	"domain": "telememo.au",
+	"nameServers": [
+		"ns-1046.awsdns-02.org",
+		"ns-2022.awsdns-60.co.uk",
+		"ns-467.awsdns-58.com",
+		"ns-554.awsdns-05.net"
+	],
 	"tags": [
 		"retired"
 	],
