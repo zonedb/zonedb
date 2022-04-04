@@ -3,11 +3,8 @@
 	"infoURL": "https://register.com.np/",
 	"nameServers": [
 		"np-ns.npix.net.np",
-		"ns-ext.vix.com",
-		"ns4.apnic.net",
 		"pch.nnic.np",
-		"shikhar.mos.com.np",
-		"sungava.mos.com.np"
+		"shikhar.mos.com.np"
 	],
 	"policies": [
 		{

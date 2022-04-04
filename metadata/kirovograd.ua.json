@@ -2,12 +2,12 @@
 	"domain": "kirovograd.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"185.159.140.34",
-		"74.123.224.126",
 		"ba1.ns.ua",
 		"nix.ns.ua",
 		"ns.host.kr.ua",
-		"ns.infocom.kr.ua"
+		"ns.infocom.kr.ua",
+		"ns1.hostmaster.ua",
+		"xfr-k.hm.na.kolo.net"
 	],
 	"policies": [
 		{
