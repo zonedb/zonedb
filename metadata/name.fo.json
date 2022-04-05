@@ -1,8 +1,9 @@
 {
 	"domain": "name.fo",
 	"nameServers": [
-		"ns1.gratisdns.dk",
-		"ns2.gratisdns.dk"
+		"ns1.økisnavn.fo",
+		"ns2.økisnavn.fo",
+		"ns3.økisnavn.fo"
 	],
 	"policies": [
 		{

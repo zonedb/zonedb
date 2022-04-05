@@ -5,9 +5,7 @@
 		"ba1.ns.ua",
 		"nix.ns.ua",
 		"ns.host.kr.ua",
-		"ns.infocom.kr.ua",
-		"ns1.hostmaster.ua",
-		"xfr-k.hm.na.kolo.net"
+		"ns.infocom.kr.ua"
 	],
 	"policies": [
 		{

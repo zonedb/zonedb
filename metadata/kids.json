@@ -2,6 +2,13 @@
 	"domain": "kids",
 	"registryOperator": "DotKids Foundation Limited",
 	"infoURL": "https://newgtlds.icann.org/",
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.kids",
+		"a2.nic.kids",
+		"b0.nic.kids",
+		"c0.nic.kids"
+	],
 	"tags": [
 		"generic"
 	],
