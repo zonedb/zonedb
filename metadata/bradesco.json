@@ -7,14 +7,10 @@
 		"https://rdap.nominet.uk/bradesco/"
 	],
 	"nameServers": [
-		"dns1.nic.bradesco",
-		"dns2.nic.bradesco",
-		"dns3.nic.bradesco",
-		"dns4.nic.bradesco",
-		"dnsa.nic.bradesco",
-		"dnsb.nic.bradesco",
-		"dnsc.nic.bradesco",
-		"dnsd.nic.bradesco"
+		"a0.nic.bradesco",
+		"a2.nic.bradesco",
+		"b0.nic.bradesco",
+		"c0.nic.bradesco"
 	],
 	"tags": [
 		"brand",
