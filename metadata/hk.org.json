@@ -6,7 +6,8 @@
 		"b.udrtld.net",
 		"c.udrtld.net",
 		"dns7.cloudns.net",
-		"dns8.cloudns.net"
+		"dns8.cloudns.net",
+		"ns3.he.net"
 	],
 	"policies": [
 		{
