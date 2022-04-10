@@ -8,8 +8,6 @@
 	],
 	"nameServers": [
 		"a0.nic.lasalle",
-		"a2.nic.lasalle",
-		"b0.nic.lasalle",
 		"c0.nic.lasalle"
 	],
 	"tags": [
