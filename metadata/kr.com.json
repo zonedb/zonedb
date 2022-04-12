@@ -2,8 +2,9 @@
 	"domain": "kr.com",
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
-		"jm1.dns.com",
-		"jm2.dns.com"
+		"fc3e244b.verify.hn",
+		"ns1.dan.com",
+		"ns2.dan.com"
 	],
 	"tags": [
 		"private"

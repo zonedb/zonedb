@@ -1,9 +1,8 @@
 {
 	"domain": "nom.nl",
 	"nameServers": [
-		"ns1.hostnet.nl",
-		"ns2.hostnetbv.com",
-		"ns3.hostnetbv.nl"
+		"ns01.hostnet.nl",
+		"ns02.hostnet.nl"
 	],
 	"policies": [
 		{

@@ -1,9 +1,10 @@
 {
 	"domain": "relarn.ru",
 	"nameServers": [
-		"int2.dns.ripn.net",
-		"int3.dns.ripn.net",
-		"ns.relarn.ru"
+		"ns1.timeweb.ru",
+		"ns2.timeweb.ru",
+		"ns3.timeweb.org",
+		"ns4.timeweb.org"
 	],
 	"policies": [
 		{

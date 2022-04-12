@@ -2,6 +2,7 @@
 	"domain": "org.mn",
 	"nameServers": [
 		"ns1.magic.mn",
+		"ns2.magic.mn",
 		"ns3.magic.mn"
 	],
 	"policies": [
