@@ -1,11 +1,9 @@
 {
 	"domain": "presse.ml",
 	"nameServers": [
-		"ns1.presse.ml",
-		"ns2.presse.ml",
-		"ns3.presse.ml",
-		"ns4.presse.ml",
-		"ns5.presse.ml"
+		"helium.ns.hetzner.de",
+		"hydrogen.ns.hetzner.com",
+		"oxygen.ns.hetzner.com"
 	],
 	"policies": [
 		{
