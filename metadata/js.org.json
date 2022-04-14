@@ -3,8 +3,5 @@
 	"nameServers": [
 		"miles.ns.cloudflare.com",
 		"pam.ns.cloudflare.com"
-	],
-	"wildcards": [
-		"162.0.217.23"
 	]
 }

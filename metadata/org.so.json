@@ -1,10 +1,5 @@
 {
 	"domain": "org.so",
-	"nameServers": [
-		"d.nic.so",
-		"e.nic.so",
-		"ns.cocca.fr"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

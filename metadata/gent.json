@@ -1,6 +1,6 @@
 {
 	"domain": "gent",
-	"registryOperator": "COMBELL NV",
+	"registryOperator": "Easyhost BV",
 	"whoisServer": "whois.nic.gent",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/gent/"
