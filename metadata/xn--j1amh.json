@@ -3,11 +3,12 @@
 	"infoURL": "http://uanic.net/",
 	"whoisServer": "whois.dotukr.com",
 	"nameServers": [
+		"dns.tci.net.ua",
 		"dns1.u-registry.com",
 		"dns2.u-registry.net",
 		"dns3.dotukr.com",
-		"nsi.uanic.net",
-		"tier1.num.net.ua"
+		"tier1.num.net.ua",
+		"ukr.ns.ua"
 	],
 	"languages": [
 		"crh-UA",

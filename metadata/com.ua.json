@@ -2,10 +2,10 @@
 	"domain": "com.ua",
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
-		"cfdf1.com.ns.ua",
-		"cfdf2.com.ns.ua",
+		"cfdf.com.ns.ua",
 		"ho1.com.ns.ua",
-		"nn.ns.ua"
+		"nn.ns.ua",
+		"sx.ns.ua"
 	],
 	"policies": [
 		{
