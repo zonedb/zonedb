@@ -2,7 +2,7 @@
 	"domain": "meet",
 	"registryOperator": "Charleston Road Registry Inc.",
 	"infoURL": "https://www.registry.google/",
-	"whoisServer": "whois.nic.meet",
+	"whoisServer": "whois.nic.google",
 	"rdapURLs": [
 		"https://www.registry.google/rdap/"
 	],
