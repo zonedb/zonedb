@@ -1,9 +1,10 @@
 {
 	"domain": "presse.ml",
 	"nameServers": [
-		"helium.ns.hetzner.de",
-		"hydrogen.ns.hetzner.com",
-		"oxygen.ns.hetzner.com"
+		"cygnus.ns.nova53.org",
+		"draco.ns.nova53.net",
+		"orion.ns.nova53.net",
+		"perseus.ns.nova53.com"
 	],
 	"policies": [
 		{
