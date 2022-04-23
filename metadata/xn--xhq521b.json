@@ -3,6 +3,9 @@
 	"registryOperator": "Guangzhou YU Wei Information Technology Co., Ltd.",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.ngtld.cn",
+	"rdapURLs": [
+		"https://restwhois.ngtld.cn/"
+	],
 	"nameServers": [
 		"ta.ngtld.cn",
 		"tb.ngtld.cn",
