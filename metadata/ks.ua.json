@@ -6,8 +6,7 @@
 		"nix.ns.ua",
 		"ns.dn.ua",
 		"ns.kharkov.ua",
-		"ns.ks-host.com",
-		"ns.ks.ua"
+		"ns.ks-host.com"
 	],
 	"policies": [
 		{
