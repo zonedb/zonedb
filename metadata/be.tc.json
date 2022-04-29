@@ -4,9 +4,6 @@
 		"ns1.be.tc",
 		"ns2.be.tc"
 	],
-	"wildcards": [
-		"213.136.89.177"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
