@@ -1,7 +1,7 @@
 {
 	"domain": "ok.ag",
 	"nameServers": [
-		"ns1.provider.at",
-		"ns2.provider.at"
+		"ns1.webagentur.at",
+		"ns2.webagentur.at"
 	]
 }
