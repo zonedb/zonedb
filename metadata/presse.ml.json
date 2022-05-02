@@ -1,8 +1,10 @@
 {
 	"domain": "presse.ml",
 	"nameServers": [
-		"ns1.presse.ml",
-		"ns2.presse.ml"
+		"cygnus.ns.nova53.org",
+		"draco.ns.nova53.net",
+		"orion.ns.nova53.net",
+		"perseus.ns.nova53.com"
 	],
 	"policies": [
 		{
