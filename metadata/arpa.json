@@ -4,17 +4,17 @@
 	"whoisServer": "whois.iana.org",
 	"nameServers": [
 		"a.ns.arpa",
-		"b.root-servers.net",
+		"b.ns.arpa",
 		"c.ns.arpa",
-		"d.root-servers.net",
+		"d.ns.arpa",
 		"e.ns.arpa",
-		"f.root-servers.net",
-		"g.root-servers.net",
-		"h.root-servers.net",
-		"i.root-servers.net",
-		"k.root-servers.net",
-		"l.root-servers.net",
-		"m.root-servers.net"
+		"f.ns.arpa",
+		"g.ns.arpa",
+		"h.ns.arpa",
+		"i.ns.arpa",
+		"k.ns.arpa",
+		"l.ns.arpa",
+		"m.ns.arpa"
 	],
 	"tags": [
 		"closed",
