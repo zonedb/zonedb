@@ -2,6 +2,7 @@
 	"domain": "khmelnitskiy.ua",
 	"nameServers": [
 		"ba1.ns.ua",
+		"nix.ns.ua",
 		"nn.ns.ua",
 		"ns.km.ua",
 		"ns2.km.ua",
