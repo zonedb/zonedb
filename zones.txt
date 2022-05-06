@@ -1952,6 +1952,8 @@ com.bh
 edu.bh
 gov.bh
 info.bh
+me.bh
+med.bh
 net.bh
 org.bh
 co.bi
