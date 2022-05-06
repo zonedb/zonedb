@@ -1954,6 +1954,7 @@ gov.bh
 info.bh
 me.bh
 med.bh
+name.bh
 net.bh
 org.bh
 co.bi
