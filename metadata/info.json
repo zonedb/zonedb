@@ -2,7 +2,7 @@
 	"domain": "info",
 	"registryOperator": "Afilias Limited",
 	"infoURL": "https://info.info/",
-	"whoisServer": "whois.afilias.net",
+	"whoisServer": "whois.nic.info",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"
 	],
