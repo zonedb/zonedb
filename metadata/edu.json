@@ -1,6 +1,6 @@
 {
 	"domain": "edu",
-	"whoisServer": "whois.educause.edu",
+	"whoisServer": "whois.educause.net",
 	"nameServers": [
 		"a.edu-servers.net",
 		"b.edu-servers.net",
