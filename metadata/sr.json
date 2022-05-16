@@ -2,7 +2,8 @@
 	"domain": "sr",
 	"whoisURL": "http://www.register.sr/",
 	"nameServers": [
-		"ns1.sr.net"
+		"ns1.sr.net",
+		"ns2.sr.net"
 	],
 	"tags": [
 		"country",
