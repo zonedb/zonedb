@@ -1,8 +1,8 @@
 {
 	"domain": "presse.ml",
 	"nameServers": [
-		"ns1.bbc.ovh",
-		"ns2.bbc.ovh"
+		"dns19.ovh.net",
+		"ns19.ovh.net"
 	],
 	"policies": [
 		{
