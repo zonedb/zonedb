@@ -9,7 +9,8 @@
 	"nameServers": [
 		"ns1.nic.amsterdam",
 		"ns2.nic.amsterdam",
-		"ns3.nic.amsterdam"
+		"ns3.nic.amsterdam",
+		"ns4.nic.amsterdam"
 	],
 	"locations": [
 		"Amsterdam",

@@ -9,7 +9,8 @@
 	"nameServers": [
 		"ns1.nic.politie",
 		"ns2.nic.politie",
-		"ns3.nic.politie"
+		"ns3.nic.politie",
+		"ns4.nic.politie"
 	],
 	"tags": [
 		"brand",
