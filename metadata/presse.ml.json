@@ -1,8 +1,9 @@
 {
 	"domain": "presse.ml",
 	"nameServers": [
-		"dns19.ovh.net",
-		"ns19.ovh.net"
+		"ns1.presse.ml",
+		"ns2.presse.ml",
+		"ns3.presse.ml"
 	],
 	"policies": [
 		{

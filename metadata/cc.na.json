@@ -1,8 +1,7 @@
 {
 	"domain": "cc.na",
 	"nameServers": [
-		"beau.ns.cloudflare.com",
-		"reza.ns.cloudflare.com"
+		"suspended.omadhina.co.na"
 	],
 	"policies": [
 		{
