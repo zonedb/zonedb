@@ -4,11 +4,6 @@
 		"ns1.bodis.com",
 		"ns2.bodis.com"
 	],
-	"wildcards": [
-		"199.59.243.201",
-		"199.59.243.220",
-		"216.120.146.201"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
