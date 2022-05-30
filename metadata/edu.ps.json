@@ -2,7 +2,6 @@
 	"domain": "edu.ps",
 	"infoURL": "https://www.tonic.to/",
 	"nameServers": [
-		"185.153.163.153",
 		"dns1.gov.ps",
 		"dns3.gov.ps",
 		"dns4.pna.ps",
