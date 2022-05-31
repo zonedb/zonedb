@@ -1,8 +1,8 @@
 {
 	"domain": "at.tt",
 	"nameServers": [
-		"a.ns.viennaweb.at",
-		"b.ns.viennaweb.at"
+		"ns1.viennaweb.at",
+		"ns2.viennaweb.at"
 	],
 	"wildcards": [
 		"195.225.236.206"
