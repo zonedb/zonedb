@@ -3,6 +3,7 @@
 	"whoisServer": "whois.dnrs.vu",
 	"nameServers": [
 		"ns1.tldns.vu",
+		"ns2.tldns.vu",
 		"ns3.tldns.vu",
 		"ns4.tldns.vu"
 	],

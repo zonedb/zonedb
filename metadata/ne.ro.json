@@ -1,10 +1,5 @@
 {
 	"domain": "ne.ro",
-	"nameServers": [
-		"ns1.eunoc.net",
-		"ns2.eunoc.net",
-		"ns3.eunoc.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
