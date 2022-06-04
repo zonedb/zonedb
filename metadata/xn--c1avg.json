@@ -2,7 +2,7 @@
 	"domain": "орг",
 	"registryOperator": "Public Interest Registry",
 	"infoURL": "https://pir.org/products/opr-domain/",
-	"whoisServer": "whois.publicinterestregistry.net",
+	"whoisServer": "whois.nic.орг",
 	"rdapURLs": [
 		"https://rdap.publicinterestregistry.net/rdap/xn--c1avg/"
 	],

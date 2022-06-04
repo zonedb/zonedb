@@ -3,6 +3,9 @@
 	"registryOperator": "Joint Stock Company \"Navigation-information systems\"",
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.gdn",
+	"rdapURLs": [
+		"https://rdap.nic.gdn/"
+	],
 	"nameServers": [
 		"ns1.nic.gdn",
 		"ns3.nic.gdn",

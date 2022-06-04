@@ -2,7 +2,7 @@
 	"domain": "संगठन",
 	"registryOperator": "Public Interest Registry",
 	"infoURL": "https://pir.org/products/hindi-domain/",
-	"whoisServer": "whois.publicinterestregistry.net",
+	"whoisServer": "whois.nic.संगठन",
 	"rdapURLs": [
 		"https://rdap.publicinterestregistry.net/rdap/xn--i1b6b1a6a2e/"
 	],
