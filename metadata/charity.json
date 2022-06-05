@@ -4,7 +4,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.charity",
 	"rdapURLs": [
-		"https://rdap.donuts.co/rdap/"
+		"https://rdap.publicinterestregistry.org/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.charity",

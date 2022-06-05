@@ -3,7 +3,7 @@
 	"registryOperator": "Public Interest Registry",
 	"whoisServer": "whois.nic.foundation",
 	"rdapURLs": [
-		"https://rdap.donuts.co/rdap/"
+		"https://rdap.publicinterestregistry.org/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.foundation",

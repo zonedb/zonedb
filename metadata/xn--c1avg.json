@@ -4,7 +4,7 @@
 	"infoURL": "https://pir.org/products/opr-domain/",
 	"whoisServer": "whois.nic.орг",
 	"rdapURLs": [
-		"https://rdap.publicinterestregistry.net/rdap/xn--c1avg/"
+		"https://rdap.publicinterestregistry.org/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.орг",

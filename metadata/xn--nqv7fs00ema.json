@@ -4,7 +4,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.组织机构",
 	"rdapURLs": [
-		"https://rdap.publicinterestregistry.net/rdap/xn--nqv7fs00ema/"
+		"https://rdap.publicinterestregistry.org/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.组织机构",

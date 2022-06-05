@@ -4,7 +4,7 @@
 	"infoURL": "https://pir.org/products/org-domain/",
 	"whoisServer": "whois.publicinterestregistry.org",
 	"rdapURLs": [
-		"https://rdap.publicinterestregistry.net/rdap/org/"
+		"https://rdap.publicinterestregistry.org/rdap/"
 	],
 	"nameServers": [
 		"a0.org.afilias-nst.info",

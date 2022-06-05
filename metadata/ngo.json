@@ -4,7 +4,7 @@
 	"infoURL": "https://pir.org/products/ngo-ong-domain/",
 	"whoisServer": "whois.nic.ngo",
 	"rdapURLs": [
-		"https://rdap.publicinterestregistry.net/rdap/ngo/"
+		"https://rdap.publicinterestregistry.org/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.ngo",

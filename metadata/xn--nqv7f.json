@@ -4,7 +4,7 @@
 	"infoURL": "https://pir.org/products/chinese2char-domain/",
 	"whoisServer": "whois.nic.机构",
 	"rdapURLs": [
-		"https://rdap.publicinterestregistry.net/rdap/xn--nqv7f/"
+		"https://rdap.publicinterestregistry.org/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.机构",
