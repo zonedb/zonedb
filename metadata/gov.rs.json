@@ -1,11 +1,10 @@
 {
 	"domain": "gov.rs",
 	"nameServers": [
-		"a.nic.rs",
 		"dagda1.isp.telekom.rs",
-		"h.nic.rs",
+		"gov1.nic.rs",
+		"gov2.nic.rs",
 		"ns1.gov.rs",
-		"ns1.nic.rs",
 		"ns2.gov.rs",
 		"ns3.gov.rs",
 		"ns4.gov.rs"
