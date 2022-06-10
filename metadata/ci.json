@@ -3,7 +3,6 @@
 	"whoisServer": "whois.nic.ci",
 	"nameServers": [
 		"any.nic.ci",
-		"censvrns0001.ird.fr",
 		"ci.hosting.nic.fr",
 		"ns-ci.afrinic.net",
 		"ns.nic.ci",

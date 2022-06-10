@@ -2,6 +2,7 @@
 	"domain": "or.ci",
 	"nameServers": [
 		"any.nic.ci",
+		"ci.cctld.authdns.ripe.net",
 		"ci.hosting.nic.fr",
 		"ns-ci.afrinic.net",
 		"ns.nic.ci",
