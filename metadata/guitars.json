@@ -2,7 +2,7 @@
 	"domain": "guitars",
 	"registryOperator": "XYZ.COM LLC",
 	"infoURL": "https://nic.guitars/",
-	"whoisServer": "whois.nic.guitars",
+	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],
