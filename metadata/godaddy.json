@@ -7,9 +7,10 @@
 		"https://rdap.afilias-srs.net/rdap/godaddy/"
 	],
 	"nameServers": [
-		"a0.nic.godaddy",
+		"a.nic.godaddy",
 		"a2.nic.godaddy",
-		"b0.nic.godaddy",
+		"b.nic.godaddy",
+		"c.nic.godaddy",
 		"c0.nic.godaddy"
 	],
 	"languages": [
