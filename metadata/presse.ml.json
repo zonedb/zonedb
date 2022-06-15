@@ -1,9 +1,8 @@
 {
 	"domain": "presse.ml",
 	"nameServers": [
-		"ns1.presse.ml",
-		"ns2.presse.ml",
-		"ns3.presse.ml"
+		"ns1.r4ns.com",
+		"ns2.r4ns.net"
 	],
 	"policies": [
 		{
