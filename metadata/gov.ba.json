@@ -1,7 +1,7 @@
 {
 	"domain": "gov.ba",
 	"nameServers": [
-		"auth03.ns.uu.net",
+		"lim.utic.net.ba",
 		"ns.ba",
 		"sava.utic.net.ba",
 		"una.utic.net.ba"
