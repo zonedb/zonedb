@@ -1,12 +1,5 @@
 {
 	"domain": "ed.ci",
-	"nameServers": [
-		"any.nic.ci",
-		"ci.cctld.authdns.ripe.net",
-		"ci.hosting.nic.fr",
-		"ns-ci.afrinic.net",
-		"phloem.uoregon.edu"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

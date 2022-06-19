@@ -1,12 +1,5 @@
 {
 	"domain": "net.ci",
-	"nameServers": [
-		"ci.cctld.authdns.ripe.net",
-		"ci.hosting.nic.fr",
-		"ns-ci.afrinic.net",
-		"ns.nic.ci",
-		"phloem.uoregon.edu"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
