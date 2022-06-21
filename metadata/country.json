@@ -2,7 +2,7 @@
 	"domain": "country",
 	"registryOperator": "DotCountry LLC",
 	"infoURL": "https://nic.country/",
-	"whoisServer": "whois.nic.country",
+	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],

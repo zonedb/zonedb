@@ -3,7 +3,9 @@
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
 		"ba1.ns.ua",
-		"ns5.dnsmadeeasy.com",
+		"dns1.easydns.com",
+		"dns2.easydns.net",
+		"dns3.easydns.org",
 		"pns41.cloudns.net",
 		"pns42.cloudns.net"
 	],
