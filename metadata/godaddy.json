@@ -8,10 +8,11 @@
 	],
 	"nameServers": [
 		"a.nic.godaddy",
-		"a2.nic.godaddy",
 		"b.nic.godaddy",
 		"c.nic.godaddy",
-		"c0.nic.godaddy"
+		"x.nic.godaddy",
+		"y.nic.godaddy",
+		"z.nic.godaddy"
 	],
 	"languages": [
 		"ar",
