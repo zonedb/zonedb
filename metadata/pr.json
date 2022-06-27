@@ -1,7 +1,7 @@
 {
 	"domain": "pr",
 	"infoURL": "https://domains.pr/",
-	"whoisServer": "whois.nic.pr",
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a.lactld.org",
 		"a0.pr.afilias-nst.info",
