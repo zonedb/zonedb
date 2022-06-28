@@ -1,7 +1,7 @@
 {
 	"domain": "ie",
 	"infoURL": "https://www.iedr.ie/",
-	"whoisServer": "whois.domainregistry.ie",
+	"whoisServer": "whois.weare.ie",
 	"nameServers": [
 		"b.ns.ie",
 		"c.ns.ie",
