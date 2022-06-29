@@ -1,6 +1,6 @@
 {
 	"domain": "gov",
-	"whoisServer": "whois.dotgov.gov",
+	"whoisServer": "whois.nic.gov",
 	"nameServers": [
 		"a.gov-servers.net",
 		"b.gov-servers.net",
