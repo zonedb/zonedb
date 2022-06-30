@@ -2,7 +2,8 @@
 	"domain": "gov.lv",
 	"nameServers": [
 		"a.gov.lv",
-		"b.gov.lv"
+		"b.gov.lv",
+		"c.gov.lv"
 	],
 	"policies": [
 		{
