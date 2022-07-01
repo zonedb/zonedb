@@ -1,6 +1,5 @@
 {
 	"domain": "pk",
-	"whoisURL": "http://www.pknic.net.pk/",
 	"nameServers": [
 		"root-c1.pknic.pk",
 		"root-c2.pknic.pk",
