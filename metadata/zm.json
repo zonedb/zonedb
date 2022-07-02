@@ -2,7 +2,6 @@
 	"domain": "zm",
 	"whoisServer": "whois.zicta.zm",
 	"nameServers": [
-		"cocca.nic.zm",
 		"gransy.nic.zm",
 		"pch.nic.zm"
 	],
