@@ -7,7 +7,6 @@
 		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
-		"v0n0.nic.irish",
 		"v0n1.nic.irish",
 		"v0n2.nic.irish",
 		"v0n3.nic.irish",

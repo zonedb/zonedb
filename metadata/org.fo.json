@@ -1,8 +1,8 @@
 {
 	"domain": "org.fo",
 	"nameServers": [
-		"ns1.dan.com",
-		"ns2.dan.com"
+		"cash.ns.cloudflare.com",
+		"nelly.ns.cloudflare.com"
 	],
 	"policies": [
 		{
