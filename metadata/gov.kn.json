@@ -1,7 +1,6 @@
 {
 	"domain": "gov.kn",
 	"nameServers": [
-		"ns.cocca.fr",
 		"pch.nic.kn"
 	],
 	"policies": [
