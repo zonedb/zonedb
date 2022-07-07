@@ -4,7 +4,6 @@
 	"whoisServer": "whois.nic.mp",
 	"nameServers": [
 		"ns1.nic.mp",
-		"ns2.nic.mp",
 		"ns3.nic.mp",
 		"ns4.nic.mp"
 	],
