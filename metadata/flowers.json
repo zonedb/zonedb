@@ -7,6 +7,10 @@
 		"https://whois.uniregistry.net/rdap/"
 	],
 	"nameServers": [
+		"a.nic.flowers",
+		"b.nic.flowers",
+		"c.nic.flowers",
+		"d.nic.flowers",
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns3.uniregistry.net",

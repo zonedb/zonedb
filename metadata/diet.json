@@ -7,6 +7,10 @@
 		"https://whois.uniregistry.net/rdap/"
 	],
 	"nameServers": [
+		"a.nic.diet",
+		"b.nic.diet",
+		"c.nic.diet",
+		"d.nic.diet",
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns3.uniregistry.net",

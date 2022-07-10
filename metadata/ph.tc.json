@@ -1,12 +1,14 @@
 {
 	"domain": "ph.tc",
 	"nameServers": [
-		"ns1.openprovider.nl",
-		"ns2.openprovider.be",
-		"ns3.openprovider.eu"
+		"dns1.name-services.com",
+		"dns2.name-services.com",
+		"dns3.name-services.com",
+		"dns4.name-services.com",
+		"dns5.name-services.com"
 	],
 	"wildcards": [
-		"165.231.26.233"
+		"91.195.240.87"
 	],
 	"policies": [
 		{
