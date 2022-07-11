@@ -1,8 +1,8 @@
 {
 	"domain": "presse.ml",
 	"nameServers": [
-		"ns1.anycastdns.cz",
-		"ns2.anycastdns.cz"
+		"ns1.r4ns.com",
+		"ns2.r4ns.net"
 	],
 	"policies": [
 		{
