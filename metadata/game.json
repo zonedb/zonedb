@@ -2,11 +2,15 @@
 	"domain": "game",
 	"registryOperator": "XYZ.COM LLC",
 	"infoURL": "https://nic.game/",
-	"whoisServer": "whois.nic.game",
+	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],
 	"nameServers": [
+		"a.nic.game",
+		"b.nic.game",
+		"c.nic.game",
+		"d.nic.game",
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns3.uniregistry.net",
