@@ -1,6 +1,8 @@
 {
 	"domain": "europa.eu",
 	"nameServers": [
+		"ans1.cw.net",
+		"ans2.cw.net",
 		"ns1.bt.net",
 		"ns1bru.europa.eu",
 		"ns1lux.europa.eu",
