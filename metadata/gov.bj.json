@@ -1,7 +1,6 @@
 {
 	"domain": "gov.bj",
 	"nameServers": [
-		"nakayo.leland.bj",
 		"ns1.intnet.bj"
 	],
 	"policies": [
