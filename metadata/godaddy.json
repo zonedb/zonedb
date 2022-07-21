@@ -2,9 +2,9 @@
 	"domain": "godaddy",
 	"registryOperator": "Go Daddy East, LLC",
 	"infoURL": "https://newgtlds.icann.org/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.godaddy",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/godaddy/"
+		"https://rdap.nic.godaddy/"
 	],
 	"nameServers": [
 		"a.nic.godaddy",
