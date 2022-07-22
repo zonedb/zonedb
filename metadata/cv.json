@@ -2,6 +2,7 @@
 	"domain": "cv",
 	"whoisURL": "http://www.dns.cv/",
 	"nameServers": [
+		"anyc.dnsnode.net",
 		"c.dns.pt",
 		"cv01.dns.pt",
 		"ns-ext.isc.org",

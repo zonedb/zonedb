@@ -34,17 +34,17 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/audio_es_2.6.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_fr_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/audio_fr_2.6.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_it_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/audio_it_1.1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -59,7 +59,7 @@
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_pt_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/audio_pt_1.1.txt"
 		},
 		{
 			"type": "idn-table",
