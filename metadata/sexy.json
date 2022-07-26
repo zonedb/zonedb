@@ -2,7 +2,7 @@
 	"domain": "sexy",
 	"registryOperator": "UNR Corp.",
 	"infoURL": "https://nic.sexy/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.sexy",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],

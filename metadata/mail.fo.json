@@ -1,8 +1,9 @@
 {
 	"domain": "mail.fo",
 	"nameServers": [
-		"ns1.olivant.fo",
-		"ns2.olivant.fo"
+		"ns1.nic.fo",
+		"ns2.nic.fo",
+		"ns3.nic.fo"
 	],
 	"policies": [
 		{

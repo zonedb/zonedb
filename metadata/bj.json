@@ -2,8 +2,6 @@
 	"domain": "bj",
 	"whoisServer": "whois.nic.bj",
 	"nameServers": [
-		"anycastdns1.nic.bj",
-		"anycastdns2.nic.bj",
 		"ns-bj.afrinic.net",
 		"ns-bj.nic.fr",
 		"ns1.nic.bj",
