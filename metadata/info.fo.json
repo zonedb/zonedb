@@ -1,11 +1,11 @@
 {
 	"domain": "info.fo",
 	"nameServers": [
-		"ns1.parkingcrew.net",
-		"ns2.parkingcrew.net"
+		"ns1.bodis.com",
+		"ns2.bodis.com"
 	],
 	"wildcards": [
-		"104.247.81.51"
+		"199.59.243.220"
 	],
 	"policies": [
 		{
