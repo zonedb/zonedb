@@ -2,7 +2,9 @@
 	"domain": "gov.ee",
 	"nameServers": [
 		"ans2.aso.ee",
-		"ns.gov.ee"
+		"ns.gov.ee",
+		"sec1.rcode0.net",
+		"sec2.rcode0.net"
 	],
 	"policies": [
 		{
