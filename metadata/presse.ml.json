@@ -1,8 +1,11 @@
 {
 	"domain": "presse.ml",
 	"nameServers": [
-		"ns1.anycastdns.cz",
-		"ns2.anycastdns.cz"
+		"ns1.bbc.ovh",
+		"ns2.bbc.ovh",
+		"ns3.bbc.ovh",
+		"ns4.bbc.ovh",
+		"ns5.bbc.ovh"
 	],
 	"policies": [
 		{
