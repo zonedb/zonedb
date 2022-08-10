@@ -1,7 +1,7 @@
 {
 	"domain": "fj",
 	"infoURL": "http://domains.fj/",
-	"whoisServer": "whois.usp.ac.fj",
+	"whoisServer": "www.whois.fj",
 	"nameServers": [
 		"ns1.fj",
 		"ns2.fj",
