@@ -5,7 +5,8 @@
 		"fork.sth.dnsnode.net",
 		"ns.anycast.co.tz",
 		"ns2.tznic.or.tz",
-		"rip.psg.com"
+		"rip.psg.com",
+		"tz-e.ns.nic.cz"
 	],
 	"policies": [
 		{

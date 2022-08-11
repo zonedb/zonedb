@@ -2,7 +2,7 @@
 	"domain": "gift",
 	"registryOperator": "DotGift, LLC",
 	"infoURL": "https://nic.gift/",
-	"whoisServer": "whois.nic.gift",
+	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],
