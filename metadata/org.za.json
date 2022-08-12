@@ -4,7 +4,6 @@
 	"nameServers": [
 		"ns0.is.co.za",
 		"ns0.plig.net",
-		"ns3.iafrica.com",
 		"za-ns.anycast.pch.net"
 	],
 	"policies": [
