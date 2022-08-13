@@ -4,9 +4,6 @@
 		"ns1.123k-elazz.com",
 		"ns2.123k-elazz.com"
 	],
-	"wildcards": [
-		"209.99.40.222"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
