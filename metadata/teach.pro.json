@@ -1,10 +1,10 @@
 {
 	"domain": "teach.pro",
 	"nameServers": [
-		"curitiba.porkbun.com",
-		"fortaleza.porkbun.com",
-		"maceio.porkbun.com",
-		"salvador.porkbun.com"
+		"curitiba.ns.porkbun.com",
+		"fortaleza.ns.porkbun.com",
+		"maceio.ns.porkbun.com",
+		"salvador.ns.porkbun.com"
 	],
 	"wildcards": [
 		"44.230.85.241",
