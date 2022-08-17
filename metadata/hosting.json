@@ -2,7 +2,7 @@
 	"domain": "hosting",
 	"registryOperator": "XYZ.COM LLC",
 	"infoURL": "https://nic.hosting/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.hosting",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],

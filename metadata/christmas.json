@@ -2,7 +2,7 @@
 	"domain": "christmas",
 	"registryOperator": "XYZ.COM LLC",
 	"infoURL": "https://nic.christmas/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.christmas",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],

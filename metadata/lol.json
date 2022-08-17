@@ -2,7 +2,7 @@
 	"domain": "lol",
 	"registryOperator": "XYZ.COM LLC",
 	"infoURL": "https://nic.lol/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.lol",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],

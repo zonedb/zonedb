@@ -2,7 +2,7 @@
 	"domain": "diet",
 	"registryOperator": "XYZ.COM LLC",
 	"infoURL": "https://nic.diet/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.diet",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],

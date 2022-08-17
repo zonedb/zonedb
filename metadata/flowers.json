@@ -2,7 +2,7 @@
 	"domain": "flowers",
 	"registryOperator": "XYZ.COM LLC",
 	"infoURL": "https://nic.flowers/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.flowers",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],

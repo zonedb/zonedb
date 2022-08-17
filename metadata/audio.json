@@ -2,7 +2,7 @@
 	"domain": "audio",
 	"registryOperator": "XYZ.COM LLC",
 	"infoURL": "https://nic.audio/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.audio",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],
