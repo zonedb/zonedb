@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.flowers/",
 	"whoisServer": "whois.nic.flowers",
 	"rdapURLs": [
-		"https://whois.uniregistry.net/rdap/"
+		"https://rdap.centralnic.com/flowers/"
 	],
 	"nameServers": [
 		"a.nic.flowers",

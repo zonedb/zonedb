@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.audio/",
 	"whoisServer": "whois.nic.audio",
 	"rdapURLs": [
-		"https://whois.uniregistry.net/rdap/"
+		"https://rdap.centralnic.com/audio/"
 	],
 	"nameServers": [
 		"a.nic.audio",

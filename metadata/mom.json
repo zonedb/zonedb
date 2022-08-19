@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.mom/",
 	"whoisServer": "whois.nic.mom",
 	"rdapURLs": [
-		"https://whois.uniregistry.net/rdap/"
+		"https://rdap.centralnic.com/mom/"
 	],
 	"nameServers": [
 		"a.nic.mom",

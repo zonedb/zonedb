@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.game/",
 	"whoisServer": "whois.nic.game",
 	"rdapURLs": [
-		"https://whois.uniregistry.net/rdap/"
+		"https://rdap.centralnic.com/game/"
 	],
 	"nameServers": [
 		"a.nic.game",

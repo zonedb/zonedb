@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.christmas/",
 	"whoisServer": "whois.nic.christmas",
 	"rdapURLs": [
-		"https://whois.uniregistry.net/rdap/"
+		"https://rdap.centralnic.com/christmas/"
 	],
 	"nameServers": [
 		"a.nic.christmas",

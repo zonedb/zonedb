@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.pics/",
 	"whoisServer": "whois.nic.pics",
 	"rdapURLs": [
-		"https://whois.uniregistry.net/rdap/"
+		"https://rdap.centralnic.com/pics/"
 	],
 	"nameServers": [
 		"a.nic.pics",

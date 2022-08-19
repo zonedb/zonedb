@@ -7,10 +7,12 @@
 		"https://rdap.nic.giving/"
 	],
 	"nameServers": [
-		"a.nic.giving",
-		"b.nic.giving",
-		"c.nic.giving",
-		"d.nic.giving"
+		"a0.nic.giving",
+		"a2.nic.giving",
+		"b0.nic.giving",
+		"b2.nic.giving",
+		"c0.nic.giving",
+		"d0.nic.giving"
 	],
 	"tags": [
 		"generic"

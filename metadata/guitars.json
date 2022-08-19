@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.guitars/",
 	"whoisServer": "whois.nic.guitars",
 	"rdapURLs": [
-		"https://whois.uniregistry.net/rdap/"
+		"https://rdap.centralnic.com/guitars/"
 	],
 	"nameServers": [
 		"a.nic.guitars",

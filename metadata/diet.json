@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.diet/",
 	"whoisServer": "whois.nic.diet",
 	"rdapURLs": [
-		"https://whois.uniregistry.net/rdap/"
+		"https://rdap.centralnic.com/diet/"
 	],
 	"nameServers": [
 		"a.nic.diet",

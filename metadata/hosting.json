@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.hosting/",
 	"whoisServer": "whois.nic.hosting",
 	"rdapURLs": [
-		"https://whois.uniregistry.net/rdap/"
+		"https://rdap.centralnic.com/hosting/"
 	],
 	"nameServers": [
 		"a.nic.hosting",
