@@ -54,7 +54,7 @@ func TestRDAPURLs(t *testing.T) {
 		{"co.uk", []string{"https://rdap.nominet.uk/uk/"}},
 		{"ac.uk", []string{"https://rdap.nominet.uk/uk/"}},
 		{"bbc", []string{"https://rdap.nominet.uk/bbc/"}},
-		{"lol", []string{"https://whois.uniregistry.net/rdap/"}},
+		{"lol", []string{"https://rdap.centralnic.com/lol/"}},
 	}
 
 	for _, tt := range tests {
