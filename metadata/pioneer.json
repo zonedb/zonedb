@@ -2,15 +2,19 @@
 	"domain": "pioneer",
 	"registryOperator": "Pioneer Corporation",
 	"infoURL": "https://newgtlds.icann.org/",
-	"whoisServer": "whois.nic.gmo",
+	"whoisServer": "whois.nic.pioneer",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],
 	"nameServers": [
-		"a.gmoregistry.net",
-		"b.gmoregistry.net",
-		"k.gmoregistry.net",
-		"l.gmoregistry.net"
+		"ns1.nominetdns.uk",
+		"ns2.nominetdns.uk",
+		"ns3.nominetdns.uk",
+		"ns4.nominetdns.uk",
+		"nsa.nominetdns.uk",
+		"nsb.nominetdns.uk",
+		"nsc.nominetdns.uk",
+		"nsd.nominetdns.uk"
 	],
 	"languages": [
 		"ja"
