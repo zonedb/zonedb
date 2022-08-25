@@ -4,7 +4,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.pioneer",
 	"rdapURLs": [
-		"https://rdap.gmoregistry.net/rdap/"
+		"https://rdap.nominet.uk/pioneer/"
 	],
 	"nameServers": [
 		"ns1.nominetdns.uk",
