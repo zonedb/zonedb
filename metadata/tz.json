@@ -5,12 +5,12 @@
 		"https://whois.tznic.or.tz/rdap/"
 	],
 	"nameServers": [
-		"d.ext.nic.cz",
 		"fork.sth.dnsnode.net",
 		"ns-tz.afrinic.net",
 		"ns.anycast.co.tz",
 		"ns2.tznic.or.tz",
-		"rip.psg.com"
+		"rip.psg.com",
+		"tz-e.ns.nic.cz"
 	],
 	"tags": [
 		"closed",
