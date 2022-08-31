@@ -81,7 +81,7 @@
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://www.iana.org/domains/idn-tables/tables/club_it_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/club_it_3.1.xml"
 		},
 		{
 			"type": "idn-table",
