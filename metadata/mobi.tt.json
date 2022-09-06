@@ -1,0 +1,9 @@
+{
+	"domain": "mobi.tt",
+	"nameServers": [
+		"pns101.cloudns.net",
+		"pns102.cloudns.net",
+		"pns103.cloudns.net",
+		"pns104.cloudns.net"
+	]
+}

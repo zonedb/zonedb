@@ -5,9 +5,7 @@
 		"np-ns.npix.net.np",
 		"np.cctld.authdns.ripe.net",
 		"ns4.apnic.net",
-		"pch.nnic.np",
-		"shikhar.mos.com.np",
-		"sullivan.ns.cloudfare.com"
+		"shikhar.mos.com.np"
 	],
 	"policies": [
 		{

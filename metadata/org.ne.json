@@ -1,5 +1,9 @@
 {
 	"domain": "org.ne",
+	"nameServers": [
+		"nafarko.netlink-niger.biz",
+		"server1.netlink-niger.biz"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
