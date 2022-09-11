@@ -3,7 +3,7 @@
 	"registryOperator": "dotSaarland GmbH",
 	"whoisServer": "whois.nic.ruhr",
 	"rdapURLs": [
-		"https://rdap.nic.ruhr/"
+		"https://rdap.centralnic.com/ruhr/"
 	],
 	"nameServers": [
 		"a.nic.ruhr",
