@@ -1,10 +1,5 @@
 {
 	"domain": "net.bw",
-	"nameServers": [
-		"dns1.nic.net.bw",
-		"ns-bw.afrinic.net",
-		"pch.nic.net.bw"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
