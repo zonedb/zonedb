@@ -2547,6 +2547,7 @@ org.gi
 co.gl
 com.gl
 edu.gl
+gov.gl
 net.gl
 org.gl
 ac.gn
