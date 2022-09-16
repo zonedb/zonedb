@@ -1,5 +1,9 @@
 {
 	"domain": "ph.tc",
+	"nameServers": [
+		"default1.nic.tc",
+		"default2.nic.tc"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
