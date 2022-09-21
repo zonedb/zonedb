@@ -10,7 +10,11 @@
 		"a0.nic.手机",
 		"a2.nic.手机",
 		"b0.nic.手机",
-		"c0.nic.手机"
+		"c0.nic.手机",
+		"ns1.teleinfo.cn",
+		"ns2.teleinfoo.com",
+		"ns3.teleinfo.cn",
+		"ns4.teleinfoo.com"
 	],
 	"languages": [
 		"zh-CN",

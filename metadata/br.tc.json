@@ -1,5 +1,9 @@
 {
 	"domain": "br.tc",
+	"nameServers": [
+		"ns1.bursanalbur.com",
+		"ns2.bursanalbur.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
