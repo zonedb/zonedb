@@ -5,6 +5,7 @@
 		"sue.ns.cloudflare.com"
 	],
 	"wildcards": [
+		"199.59.243.220",
 		"199.59.243.222",
 		"68815.bodis.com"
 	],
