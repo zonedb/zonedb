@@ -25,7 +25,7 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ruhr_de_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ruhr_de_2.6.txt"
 		}
 	]
 }
