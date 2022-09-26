@@ -1,6 +1,8 @@
 {
 	"domain": "com.ai",
 	"nameServers": [
+		"anycastdns1-cz.nic.ai",
+		"anycastdns2-cz.nic.ai",
 		"pch.whois.ai"
 	],
 	"policies": [
