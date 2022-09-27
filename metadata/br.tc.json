@@ -1,8 +1,8 @@
 {
 	"domain": "br.tc",
 	"nameServers": [
-		"ns1.bursanalbur.com",
-		"ns2.bursanalbur.com"
+		"ns3.gofasthost.com",
+		"ns4.gofasthost.com"
 	],
 	"policies": [
 		{

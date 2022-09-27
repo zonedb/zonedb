@@ -1,5 +1,10 @@
 {
 	"domain": "net.bs",
+	"nameServers": [
+		"anyns.dns.bs",
+		"anyns.pch.net",
+		"ns36.cdns.net"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
