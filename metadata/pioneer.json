@@ -7,12 +7,12 @@
 		"https://rdap.nominet.uk/pioneer/"
 	],
 	"nameServers": [
-		"ns1.nominetdns.uk",
-		"ns2.nominetdns.uk",
+		"dns1.nic.pioneer",
+		"dns2.nic.pioneer",
+		"dnsa.nic.pioneer",
+		"dnsb.nic.pioneer",
 		"ns3.nominetdns.uk",
 		"ns4.nominetdns.uk",
-		"nsa.nominetdns.uk",
-		"nsb.nominetdns.uk",
 		"nsc.nominetdns.uk",
 		"nsd.nominetdns.uk"
 	],

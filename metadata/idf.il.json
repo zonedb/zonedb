@@ -1,15 +1,10 @@
 {
 	"domain": "idf.il",
 	"nameServers": [
-		"asia3.akam.net",
-		"asia4.akam.net",
-		"dns3.gov.il",
-		"eur2.akam.net",
-		"eur6.akam.net",
-		"ns1-111.akam.net",
-		"ns1-69.akam.net",
-		"use4.akam.net",
-		"usw2.akam.net"
+		"ns-1425.awsdns-50.org",
+		"ns-1637.awsdns-12.co.uk",
+		"ns-458.awsdns-57.com",
+		"ns-817.awsdns-38.net"
 	],
 	"policies": [
 		{
