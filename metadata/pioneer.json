@@ -9,12 +9,12 @@
 	"nameServers": [
 		"dns1.nic.pioneer",
 		"dns2.nic.pioneer",
+		"dns3.nic.pioneer",
+		"dns4.nic.pioneer",
 		"dnsa.nic.pioneer",
 		"dnsb.nic.pioneer",
-		"ns3.nominetdns.uk",
-		"ns4.nominetdns.uk",
-		"nsc.nominetdns.uk",
-		"nsd.nominetdns.uk"
+		"dnsc.nic.pioneer",
+		"dnsd.nic.pioneer"
 	],
 	"languages": [
 		"ja"

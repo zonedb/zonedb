@@ -1,9 +1,8 @@
 {
 	"domain": "school.za",
 	"nameServers": [
-		"ns0.serendipity.org.za",
-		"ochre.school.za",
-		"ucthpx.uct.ac.za"
+		"ns10.dns.business",
+		"ns11.dns.business"
 	],
 	"policies": [
 		{

@@ -1,9 +1,9 @@
 {
 	"domain": "kzn.school.za",
 	"nameServers": [
-		"mopani.school.za",
 		"ns0.serendipity.org.za",
-		"ochre.school.za",
+		"ns10.dns.business",
+		"ns11.dns.business",
 		"sec.zadns.net",
 		"ucthpx.uct.ac.za"
 	]
