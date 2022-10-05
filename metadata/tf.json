@@ -1,6 +1,9 @@
 {
 	"domain": "tf",
 	"whoisServer": "whois.nic.tf",
+	"rdapURLs": [
+		"https://rdap.nic.tf/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"e.ext.nic.fr",

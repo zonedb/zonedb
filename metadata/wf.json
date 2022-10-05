@@ -1,6 +1,9 @@
 {
 	"domain": "wf",
 	"whoisServer": "whois.nic.wf",
+	"rdapURLs": [
+		"https://rdap.nic.wf/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"e.ext.nic.fr",

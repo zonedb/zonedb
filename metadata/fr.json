@@ -1,6 +1,9 @@
 {
 	"domain": "fr",
 	"whoisServer": "whois.nic.fr",
+	"rdapURLs": [
+		"https://rdap.nic.fr/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"e.ext.nic.fr",

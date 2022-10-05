@@ -1,6 +1,9 @@
 {
 	"domain": "yt",
 	"whoisServer": "whois.nic.yt",
+	"rdapURLs": [
+		"https://rdap.nic.yt/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"e.ext.nic.fr",

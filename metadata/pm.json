@@ -1,6 +1,9 @@
 {
 	"domain": "pm",
 	"whoisServer": "whois.nic.pm",
+	"rdapURLs": [
+		"https://rdap.nic.pm/"
+	],
 	"nameServers": [
 		"d.nic.fr",
 		"e.ext.nic.fr",
