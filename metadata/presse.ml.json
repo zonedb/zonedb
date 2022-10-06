@@ -1,11 +1,8 @@
 {
 	"domain": "presse.ml",
 	"nameServers": [
-		"ns1.bbc.ovh",
-		"ns2.bbc.ovh",
-		"ns3.bbc.ovh",
-		"ns4.bbc.ovh",
-		"ns5.bbc.ovh"
+		"ns1.zilore.net",
+		"ns2.zilore.net"
 	],
 	"policies": [
 		{
