@@ -6,14 +6,9 @@
 	"rdapURLs": [
 		"https://rdap.nic.cancerresearch/"
 	],
-	"nameServers": [
-		"a.nic.cancerresearch",
-		"b.nic.cancerresearch",
-		"c.nic.cancerresearch",
-		"d.nic.cancerresearch"
-	],
 	"tags": [
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{
