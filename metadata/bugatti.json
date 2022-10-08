@@ -6,12 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/bugatti/"
 	],
-	"nameServers": [
-		"a0.nic.bugatti",
-		"a2.nic.bugatti",
-		"b0.nic.bugatti",
-		"c0.nic.bugatti"
-	],
 	"languages": [
 		"be",
 		"bg",
