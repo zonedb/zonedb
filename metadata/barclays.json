@@ -7,10 +7,10 @@
 		"https://rdap.nic.barclays/"
 	],
 	"nameServers": [
-		"a.nic.barclays",
-		"b.nic.barclays",
-		"c.nic.barclays",
-		"d.nic.barclays"
+		"a0.nic.barclays",
+		"a2.nic.barclays",
+		"b0.nic.barclays",
+		"c0.nic.barclays"
 	],
 	"tags": [
 		"brand",

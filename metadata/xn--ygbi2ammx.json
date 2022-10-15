@@ -7,11 +7,6 @@
 		"idn.pnina.ps",
 		"ns1.pnina.ps"
 	],
-	"wildcards": [
-		"2001:4860:4802:32::78",
-		"216.239.38.120",
-		"forcesafesearch.google.com"
-	],
 	"tags": [
 		"country",
 		"geo"
