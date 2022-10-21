@@ -1,7 +1,6 @@
 {
 	"domain": "alt.za",
 	"nameServers": [
-		"mumble.proxima.alt.za",
 		"ns-za.afrinic.net",
 		"ns1.iafrica.com",
 		"ns2.iafrica.com",
