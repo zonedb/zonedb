@@ -2,7 +2,7 @@
 	"domain": "map",
 	"registryOperator": "Charleston Road Registry Inc.",
 	"infoURL": "https://www.registry.google/",
-	"whoisServer": "whois.nic.map",
+	"whoisServer": "whois.nic.google",
 	"rdapURLs": [
 		"https://www.registry.google/rdap/"
 	],

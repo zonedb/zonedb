@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/obi/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.obi",
+		"a2.nic.obi",
+		"b0.nic.obi",
+		"c0.nic.obi"
 	],
 	"tags": [
 		"brand",

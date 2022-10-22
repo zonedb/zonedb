@@ -7,12 +7,12 @@
 		"https://rdap.nic.lat/"
 	],
 	"nameServers": [
-		"c.mx-ns.mx",
+		"a.nic.lat",
+		"b.nic.lat",
 		"e.mx-ns.mx",
 		"i.mx-ns.mx",
 		"m.mx-ns.mx",
-		"o.mx-ns.mx",
-		"x.mx-ns.mx"
+		"o.mx-ns.mx"
 	],
 	"languages": [
 		"es"
