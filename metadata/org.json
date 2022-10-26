@@ -18,16 +18,23 @@
 		"be",
 		"bg",
 		"bs",
+		"cnr",
 		"da",
 		"de",
 		"es",
+		"fi",
+		"hi",
+		"hr",
 		"hu",
 		"is",
+		"it",
+		"ja",
 		"ko",
 		"lt",
 		"lv",
 		"mk",
 		"pl",
+		"pt",
 		"ru",
 		"sr",
 		"sv",
@@ -56,6 +63,11 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "cnr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/org_cnr_1.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "da",
 			"value": "https://www.iana.org/domains/idn-tables/tables/org_da_1.0.html"
 		},
@@ -71,6 +83,21 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "fi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/org_fi_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "hi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/org_hi_2.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "hr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/org_hr_1.txt"
+		},
+		{
+			"type": "idn-table",
 			"key": "hu",
 			"value": "https://www.iana.org/domains/idn-tables/tables/org_hu_1.txt"
 		},
@@ -78,6 +105,16 @@
 			"type": "idn-table",
 			"key": "is",
 			"value": "https://www.iana.org/domains/idn-tables/tables/org_is_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "it",
+			"value": "https://www.iana.org/domains/idn-tables/tables/org_it_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://www.iana.org/domains/idn-tables/tables/org_ja_1.1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -103,6 +140,11 @@
 			"type": "idn-table",
 			"key": "pl",
 			"value": "https://www.iana.org/domains/idn-tables/tables/org_pl_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/org_pt_1.txt"
 		},
 		{
 			"type": "idn-table",

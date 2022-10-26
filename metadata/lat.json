@@ -9,6 +9,8 @@
 	"nameServers": [
 		"a.nic.lat",
 		"b.nic.lat",
+		"c.nic.lat",
+		"d.nic.lat",
 		"e.mx-ns.mx",
 		"i.mx-ns.mx",
 		"m.mx-ns.mx",

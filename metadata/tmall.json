@@ -30,7 +30,9 @@
 		"pt",
 		"ru",
 		"sv",
-		"zh"
+		"zh",
+		"zh-CN",
+		"zh-TW"
 	],
 	"tags": [
 		"brand",
@@ -116,6 +118,16 @@
 			"type": "idn-table",
 			"key": "zh",
 			"value": "https://www.iana.org/domains/idn-tables/tables/tmall_zh_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-CN",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tmall_zh-cn_4.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-TW",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tmall_zh-tw_4.0.txt"
 		}
 	]
 }
