@@ -1,6 +1,7 @@
 {
 	"domain": "mil.se",
 	"nameServers": [
+		"dns5.telia.com",
 		"dns6.telia.com",
 		"ns.defence.se",
 		"ns.mil.se",

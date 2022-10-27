@@ -10,11 +10,7 @@
 		"a.nic.lat",
 		"b.nic.lat",
 		"c.nic.lat",
-		"d.nic.lat",
-		"e.mx-ns.mx",
-		"i.mx-ns.mx",
-		"m.mx-ns.mx",
-		"o.mx-ns.mx"
+		"d.nic.lat"
 	],
 	"languages": [
 		"es"

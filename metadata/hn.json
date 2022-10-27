@@ -3,6 +3,8 @@
 	"whoisServer": "whois.nic.hn",
 	"nameServers": [
 		"a.lactld.org",
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz",
 		"pch-anycast.rds.org.hn"
 	],
 	"tags": [
