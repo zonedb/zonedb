@@ -14,6 +14,8 @@
 	],
 	"languages": [
 		"zh-CN",
+		"zh-Hans",
+		"zh-Hant",
 		"zh-TW"
 	],
 	"tags": [
@@ -24,6 +26,16 @@
 			"type": "idn-table",
 			"key": "zh-CN",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--kput3i_zh-cn_4.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--kput3i_zh-hans_4.0.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hant",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--kput3i_zh-hant_4.0.2.txt"
 		},
 		{
 			"type": "idn-table",

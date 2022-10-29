@@ -4,7 +4,7 @@
 	"infoURL": "https://www.nic.lat/en/",
 	"whoisServer": "whois.nic.lat",
 	"rdapURLs": [
-		"https://rdap.nic.lat/"
+		"https://rdap.centralnic.com/lat/"
 	],
 	"nameServers": [
 		"a.nic.lat",
@@ -22,7 +22,7 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lat_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lat_es_2.6.txt"
 		}
 	]
 }

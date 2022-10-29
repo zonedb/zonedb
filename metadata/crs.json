@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/crs/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.crs",
+		"a2.nic.crs",
+		"b0.nic.crs",
+		"c0.nic.crs"
 	],
 	"tags": [
 		"brand",
