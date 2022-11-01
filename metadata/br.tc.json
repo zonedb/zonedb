@@ -1,8 +1,8 @@
 {
 	"domain": "br.tc",
 	"nameServers": [
-		"ns3.gofasthost.com",
-		"ns4.gofasthost.com"
+		"ns1.odeaweb.com",
+		"ns2.odeaweb.com"
 	],
 	"policies": [
 		{
