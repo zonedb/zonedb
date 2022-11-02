@@ -1,9 +1,5 @@
 {
 	"domain": "com.kn",
-	"nameServers": [
-		"ns.cocca.fr",
-		"pch.nic.kn"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

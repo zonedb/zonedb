@@ -1,8 +1,5 @@
 {
 	"domain": "gov.kn",
-	"nameServers": [
-		"pch.nic.kn"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
