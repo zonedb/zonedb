@@ -4,7 +4,7 @@
 	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.barclaycard",
 	"rdapURLs": [
-		"https://rdap.nic.barclaycard/"
+		"https://rdap.afilias-srs.net/rdap/barclaycard/"
 	],
 	"nameServers": [
 		"a0.nic.barclaycard",
