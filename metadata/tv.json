@@ -5,10 +5,10 @@
 		"https://tld-rdap.verisign.com/tv/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
+		"a.nic.tv",
 		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"ac4.nstld.com",
+		"b.nic.tv"
 	],
 	"tags": [
 		"country",
