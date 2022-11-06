@@ -6,7 +6,10 @@
 		"dns.edu.cn",
 		"dns2.edu.cn",
 		"ns2.cernet.net",
-		"ns2.cuhk.hk"
+		"ns2.cuhk.hk",
+		"ns3.cernet.net",
+		"ns4.cernet.net",
+		"ns5.cernet.net"
 	],
 	"policies": [
 		{
