@@ -1,7 +1,7 @@
 {
 	"domain": "ftr",
 	"registryOperator": "Frontier Communications Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.ftr/",
 	"whoisServer": "whois.nic.ftr",
 	"rdapURLs": [
 		"https://rdap.nic.ftr/"

@@ -1,7 +1,7 @@
 {
 	"domain": "booking",
 	"registryOperator": "Booking.com B.V.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.booking/",
 	"whoisServer": "whois.nic.booking",
 	"rdapURLs": [
 		"https://rdap.nic.booking/"

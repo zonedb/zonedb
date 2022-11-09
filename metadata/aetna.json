@@ -1,7 +1,7 @@
 {
 	"domain": "aetna",
 	"registryOperator": "Aetna Life Insurance Company",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.aetna/",
 	"whoisServer": "whois.nic.aetna",
 	"rdapURLs": [
 		"https://rdap.nic.aetna/"

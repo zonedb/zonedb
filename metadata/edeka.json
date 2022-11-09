@@ -1,7 +1,7 @@
 {
 	"domain": "edeka",
 	"registryOperator": "EDEKA Verband kaufmännischer Genossenschaften e.V.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.nic.edeka/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/edeka/"

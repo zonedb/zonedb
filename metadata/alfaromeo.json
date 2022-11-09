@@ -1,7 +1,7 @@
 {
 	"domain": "alfaromeo",
 	"registryOperator": "Fiat Chrysler Automobiles N.V.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.alfaromeo/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/alfaromeo/"

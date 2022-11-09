@@ -1,7 +1,7 @@
 {
 	"domain": "country",
 	"registryOperator": "Internet Naming Company LLC",
-	"infoURL": "https://nic.country/",
+	"infoURL": "https://uniregistry.link/extensions/country/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"

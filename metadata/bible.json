@@ -1,7 +1,7 @@
 {
 	"domain": "bible",
 	"registryOperator": "American Bible Society",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://get.bible/",
 	"whoisServer": "whois.nic.bible",
 	"rdapURLs": [
 		"https://rdap.nic.bible/"

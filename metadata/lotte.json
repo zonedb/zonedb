@@ -1,7 +1,7 @@
 {
 	"domain": "lotte",
 	"registryOperator": "Lotte Holdings Co., Ltd.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.lotte/",
 	"whoisServer": "whois.nic.lotte",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

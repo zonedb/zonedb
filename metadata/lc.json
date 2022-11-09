@@ -1,6 +1,6 @@
 {
 	"domain": "lc",
-	"infoURL": "http://www.nic.lc/",
+	"infoURL": "https://www.nic.lc/",
 	"whoisServer": "whois.afilias-grs.info",
 	"nameServers": [
 		"a0.cctld.afilias-nst.info",

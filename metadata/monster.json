@@ -1,7 +1,7 @@
 {
 	"domain": "monster",
 	"registryOperator": "XYZ.COM LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.monster/",
 	"whoisServer": "whois.nic.monster",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/monster/"

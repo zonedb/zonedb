@@ -1,7 +1,7 @@
 {
 	"domain": "cern",
 	"registryOperator": "European Organization for Nuclear Research (\"CERN\")",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.cern/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/cern/"

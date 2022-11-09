@@ -1,7 +1,7 @@
 {
 	"domain": "amica",
 	"registryOperator": "Amica Mutual Insurance Company",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.amica/",
 	"whoisServer": "whois.nic.amica",
 	"rdapURLs": [
 		"https://rdap.nic.amica/"

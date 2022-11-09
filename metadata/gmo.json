@@ -1,7 +1,7 @@
 {
 	"domain": "gmo",
 	"registryOperator": "GMO Internet, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.gmo/",
 	"whoisServer": "whois.nic.gmo",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

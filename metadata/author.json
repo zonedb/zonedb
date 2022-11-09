@@ -1,7 +1,7 @@
 {
 	"domain": "author",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.author/",
 	"whoisServer": "whois.nic.author",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/author/"

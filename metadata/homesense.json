@@ -1,7 +1,7 @@
 {
 	"domain": "homesense",
 	"registryOperator": "The TJX Companies, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.homesense/",
 	"whoisServer": "whois.nic.homesense",
 	"rdapURLs": [
 		"https://rdap.nic.homesense/"

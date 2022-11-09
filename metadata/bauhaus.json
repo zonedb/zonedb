@@ -1,7 +1,7 @@
 {
 	"domain": "bauhaus",
 	"registryOperator": "Werkhaus GmbH",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.bauhaus/",
 	"whoisServer": "whois.nic.bauhaus",
 	"rdapURLs": [
 		"https://rdap.nic.bauhaus/"

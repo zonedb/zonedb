@@ -1,7 +1,7 @@
 {
 	"domain": "icu",
 	"registryOperator": "ShortDot SA",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://shortdot.bond/icu/",
 	"whoisServer": "whois.nic.icu",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/icu/"

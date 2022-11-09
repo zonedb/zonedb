@@ -1,7 +1,7 @@
 {
 	"domain": "auspost",
 	"registryOperator": "Australian Postal Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.auspost/",
 	"whoisServer": "whois.nic.auspost",
 	"rdapURLs": [
 		"https://rdap.nic.auspost/"

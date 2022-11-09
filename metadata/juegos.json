@@ -1,7 +1,7 @@
 {
 	"domain": "juegos",
 	"registryOperator": "Internet Naming Company LLC",
-	"infoURL": "https://nic.juegos/",
+	"infoURL": "https://uniregistry.link/extensions/juegos/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"

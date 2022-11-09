@@ -1,7 +1,7 @@
 {
 	"domain": "hoteles",
 	"registryOperator": "Travel Reservations SRL",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.hoteles/",
 	"whoisServer": "whois.nic.hoteles",
 	"rdapURLs": [
 		"https://rdap.nic.hoteles/"

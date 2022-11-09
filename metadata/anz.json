@@ -1,7 +1,7 @@
 {
 	"domain": "anz",
 	"registryOperator": "Australia and New Zealand Banking Group Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.anz/",
 	"whoisServer": "whois.nic.anz",
 	"rdapURLs": [
 		"https://rdap.nic.anz/"

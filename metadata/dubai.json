@@ -1,7 +1,7 @@
 {
 	"domain": "dubai",
 	"registryOperator": "Dubai Smart Government Department",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.dubai/",
 	"whoisServer": "whois.nic.dubai",
 	"rdapURLs": [
 		"https://rdap.nic.dubai/"

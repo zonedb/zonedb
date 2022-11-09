@@ -1,7 +1,7 @@
 {
 	"domain": "apple",
 	"registryOperator": "Apple Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.apple.com/legal/intellectual-property/tld/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/apple/"

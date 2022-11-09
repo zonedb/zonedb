@@ -1,7 +1,7 @@
 {
 	"domain": "got",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.got/",
 	"whoisServer": "whois.nic.got",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/got/"

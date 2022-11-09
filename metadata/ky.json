@@ -1,6 +1,6 @@
 {
 	"domain": "ky",
-	"infoURL": "https://kyregistry.ky/",
+	"infoURL": "https://uniregistry.ky/",
 	"whoisServer": "whois.kyregistry.ky",
 	"rdapURLs": [
 		"https://whois.kyregistry.ky/rdap/"

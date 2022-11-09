@@ -1,7 +1,7 @@
 {
 	"domain": "jprs",
 	"registryOperator": "Japan Registry Services Co., Ltd.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.jprs/",
 	"rdapURLs": [
 		"https://rdap.nic.jprs/rdap/"
 	],

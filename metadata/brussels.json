@@ -1,7 +1,7 @@
 {
 	"domain": "brussels",
 	"registryOperator": "DNS.be vzw",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.dnsbelgium.be/",
 	"whoisServer": "whois.nic.brussels",
 	"rdapURLs": [
 		"https://rdap.nic.brussels/"

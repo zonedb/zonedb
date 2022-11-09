@@ -1,7 +1,7 @@
 {
 	"domain": "creditunion",
 	"registryOperator": "DotCooperation LLC",
-	"infoURL": "https://nic.creditunion/",
+	"infoURL": "https://identity.coop/creditunion/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/creditunion/"

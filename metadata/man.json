@@ -1,7 +1,7 @@
 {
 	"domain": "man",
 	"registryOperator": "MAN SE",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.man/en/index.jsp",
 	"whoisServer": "whois.nic.man",
 	"rdapURLs": [
 		"https://rdap.nic.man/"

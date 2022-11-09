@@ -1,7 +1,7 @@
 {
 	"domain": "abbott",
 	"registryOperator": "Abbott Laboratories, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.abbott/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/abbott/"

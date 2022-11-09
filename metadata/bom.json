@@ -1,7 +1,7 @@
 {
 	"domain": "bom",
 	"registryOperator": "Núcleo de Informação e Coordenação do Ponto BR - NIC.br",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://gtlds.nic.br/",
 	"whoisServer": "whois.gtlds.nic.br",
 	"rdapURLs": [
 		"https://rdap.gtlds.nic.br/"

@@ -1,7 +1,7 @@
 {
 	"domain": "itau",
 	"registryOperator": "Itau Unibanco Holding S.A.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.itau/",
 	"whoisServer": "whois.nic.itau",
 	"rdapURLs": [
 		"https://rdap.nic.itau/"

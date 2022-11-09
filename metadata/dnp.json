@@ -1,7 +1,7 @@
 {
 	"domain": "dnp",
 	"registryOperator": "Dai Nippon Printing Co., Ltd.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.dnp/",
 	"whoisServer": "whois.nic.dnp",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

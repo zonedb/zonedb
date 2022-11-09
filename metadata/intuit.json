@@ -1,7 +1,7 @@
 {
 	"domain": "intuit",
 	"registryOperator": "Intuit Administrative Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.intuit/",
 	"whoisServer": "whois.nic.intuit",
 	"rdapURLs": [
 		"https://rdap.nic.intuit/"

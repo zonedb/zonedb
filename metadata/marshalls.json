@@ -1,7 +1,7 @@
 {
 	"domain": "marshalls",
 	"registryOperator": "The TJX Companies, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.marshalls/",
 	"whoisServer": "whois.nic.marshalls",
 	"rdapURLs": [
 		"https://rdap.nic.marshalls/"

@@ -1,7 +1,7 @@
 {
 	"domain": "gallup",
 	"registryOperator": "Gallup, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.gallup/home.aspx",
 	"whoisServer": "whois.nic.gallup",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/gallup/"

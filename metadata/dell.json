@@ -1,7 +1,7 @@
 {
 	"domain": "dell",
 	"registryOperator": "Dell Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.dell/",
 	"whoisServer": "whois.nic.dell",
 	"rdapURLs": [
 		"https://rdap.nic.dell/"

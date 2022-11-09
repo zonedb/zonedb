@@ -1,7 +1,7 @@
 {
 	"domain": "lamborghini",
 	"registryOperator": "Automobili Lamborghini S.p.A.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.lamborghini/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/lamborghini/"

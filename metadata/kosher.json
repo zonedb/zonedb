@@ -1,7 +1,7 @@
 {
 	"domain": "kosher",
 	"registryOperator": "Kosher Marketing Assets LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.kosher/",
 	"whoisServer": "whois.nic.kosher",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/kosher/"

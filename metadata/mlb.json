@@ -1,7 +1,7 @@
 {
 	"domain": "mlb",
 	"registryOperator": "MLB Advanced Media DH, LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.mlb.com/official-information/mlb-nic",
 	"whoisServer": "whois.nic.mlb",
 	"rdapURLs": [
 		"https://rdap.nic.mlb/"

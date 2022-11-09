@@ -1,7 +1,7 @@
 {
 	"domain": "microsoft",
 	"registryOperator": "Microsoft Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.microsoft/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/microsoft/v1/"
 	],

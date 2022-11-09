@@ -1,7 +1,7 @@
 {
 	"domain": "jcb",
 	"registryOperator": "JCB Co., Ltd.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.jcb/",
 	"whoisServer": "whois.nic.gmo",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

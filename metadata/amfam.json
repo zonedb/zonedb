@@ -1,7 +1,7 @@
 {
 	"domain": "amfam",
 	"registryOperator": "AmFam, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.amfam.com/nic-amfam",
 	"whoisServer": "whois.nic.amfam",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/amfam/v1/"

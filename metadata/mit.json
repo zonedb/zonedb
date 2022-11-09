@@ -1,7 +1,7 @@
 {
 	"domain": "mit",
 	"registryOperator": "Massachusetts Institute of Technology",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.mit/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/mit/"

@@ -1,7 +1,7 @@
 {
 	"domain": "ibm",
 	"registryOperator": "International Business Machines Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.nic.ibm/",
 	"whoisServer": "whois.nic.ibm",
 	"rdapURLs": [
 		"https://rdap.nic.ibm/"

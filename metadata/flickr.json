@@ -1,7 +1,7 @@
 {
 	"domain": "flickr",
 	"registryOperator": "Flickr, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.flickr/",
 	"whoisServer": "whois.nic.flickr",
 	"rdapURLs": [
 		"https://rdap.nic.flickr/"

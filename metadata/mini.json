@@ -1,7 +1,7 @@
 {
 	"domain": "mini",
 	"registryOperator": "Bayerische Motoren Werke Aktiengesellschaft",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.mini/",
 	"whoisServer": "whois.nic.mini",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/mini/"

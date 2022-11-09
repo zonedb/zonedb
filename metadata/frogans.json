@@ -1,7 +1,7 @@
 {
 	"domain": "frogans",
 	"registryOperator": "OP3FT",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.frogans/en/main.html",
 	"whoisServer": "whois.nic.frogans",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/frogans/"

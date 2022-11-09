@@ -1,7 +1,7 @@
 {
 	"domain": "fairwinds",
 	"registryOperator": "FairWinds Partners, LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.fairwinds/",
 	"whoisServer": "whois.nic.fairwinds",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/fairwinds/v1/"

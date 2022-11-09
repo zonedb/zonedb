@@ -1,7 +1,7 @@
 {
 	"domain": "dhl",
 	"registryOperator": "Deutsche Post AG",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.nic.dhl/",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/dhl/"
 	],

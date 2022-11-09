@@ -1,7 +1,7 @@
 {
 	"domain": "imdb",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.imdb/",
 	"whoisServer": "whois.nic.imdb",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/imdb/"

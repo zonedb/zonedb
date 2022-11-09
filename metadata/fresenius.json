@@ -1,7 +1,7 @@
 {
 	"domain": "fresenius",
 	"registryOperator": "Fresenius Immobilien-Verwaltungs-GmbH",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.fresenius/",
 	"whoisServer": "whois.nic.fresenius",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/fresenius/"

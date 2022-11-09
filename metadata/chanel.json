@@ -1,7 +1,7 @@
 {
 	"domain": "chanel",
 	"registryOperator": "Chanel International B.V.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.chanel/",
 	"whoisServer": "whois.nic.chanel",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/chanel/v1/"

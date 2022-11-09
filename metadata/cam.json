@@ -1,7 +1,7 @@
 {
 	"domain": "cam",
 	"registryOperator": "Cam Connecting SARL",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.cam/",
 	"whoisServer": "whois.nic.cam",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/cam/"

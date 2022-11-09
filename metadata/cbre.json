@@ -1,7 +1,7 @@
 {
 	"domain": "cbre",
 	"registryOperator": "CBRE, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.cbre/",
 	"whoisServer": "whois.nic.cbre",
 	"rdapURLs": [
 		"https://rdap.nic.cbre/"

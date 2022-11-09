@@ -1,7 +1,7 @@
 {
 	"domain": "courses",
 	"registryOperator": "Registry Services, LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.get.courses/",
 	"whoisServer": "whois.nic.courses",
 	"rdapURLs": [
 		"https://rdap.nic.courses/"

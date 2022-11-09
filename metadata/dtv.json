@@ -1,7 +1,7 @@
 {
 	"domain": "dtv",
 	"registryOperator": "Dish DBS Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://dishtlds.com/dtv/",
 	"whoisServer": "whois.nic.dtv",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/dtv/"

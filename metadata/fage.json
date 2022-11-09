@@ -1,7 +1,7 @@
 {
 	"domain": "fage",
 	"registryOperator": "Fage International S.A.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.fage/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/fage/"

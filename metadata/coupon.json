@@ -1,7 +1,7 @@
 {
 	"domain": "coupon",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.coupon/",
 	"whoisServer": "whois.nic.coupon",
 	"rdapURLs": [
 		"https://rdap.nic.coupon/"

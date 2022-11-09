@@ -1,7 +1,7 @@
 {
 	"domain": "itv",
 	"registryOperator": "ITV Services Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.itv/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/itv/"

@@ -1,7 +1,7 @@
 {
 	"domain": "bbc",
 	"registryOperator": "British Broadcasting Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.bbc/",
 	"whoisServer": "whois.nic.bbc",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/bbc/"

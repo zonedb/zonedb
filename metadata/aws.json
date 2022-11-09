@@ -1,7 +1,7 @@
 {
 	"domain": "aws",
 	"registryOperator": "AWS Registry LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.aws/",
 	"whoisServer": "whois.nic.aws",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/aws/"

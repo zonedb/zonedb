@@ -1,7 +1,7 @@
 {
 	"domain": "landrover",
 	"registryOperator": "Jaguar Land Rover Ltd",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.landrover/",
 	"whoisServer": "whois.nic.landrover",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/landrover/v1/"

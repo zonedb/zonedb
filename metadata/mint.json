@@ -1,7 +1,7 @@
 {
 	"domain": "mint",
 	"registryOperator": "Intuit Administrative Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.mint/",
 	"whoisServer": "whois.nic.mint",
 	"rdapURLs": [
 		"https://rdap.nic.mint/"

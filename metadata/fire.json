@@ -1,7 +1,7 @@
 {
 	"domain": "fire",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.fire/",
 	"whoisServer": "whois.nic.fire",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/fire/"

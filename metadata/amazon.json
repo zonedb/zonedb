@@ -1,7 +1,7 @@
 {
 	"domain": "amazon",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "http://nic.amazon/",
+	"infoURL": "https://nic.amazon/",
 	"whoisServer": "whois.nic.amazon",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/amazon/"

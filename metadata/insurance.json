@@ -1,7 +1,7 @@
 {
 	"domain": "insurance",
 	"registryOperator": "fTLD Registry Services LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.register.insurance/",
 	"whoisServer": "whois.nic.insurance",
 	"rdapURLs": [
 		"https://rdap.nic.insurance/"

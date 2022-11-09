@@ -1,7 +1,7 @@
 {
 	"domain": "clubmed",
 	"registryOperator": "Club Méditerranée S.A.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://ns.clubmed.com/ipm/nic_clubmed/index.html",
 	"whoisServer": "whois.nic.clubmed",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/clubmed/v1/"

@@ -1,7 +1,7 @@
 {
 	"domain": "frl",
 	"registryOperator": "FRLregistry B.V.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.frl/",
 	"whoisServer": "whois.nic.frl",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/frl/"

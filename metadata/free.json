@@ -1,7 +1,7 @@
 {
 	"domain": "free",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.free/",
 	"whoisServer": "whois.nic.free",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/free/"

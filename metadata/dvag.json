@@ -1,7 +1,7 @@
 {
 	"domain": "dvag",
 	"registryOperator": "Deutsche Vermögensberatung Aktiengesellschaft DVAG",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.dvag/",
 	"whoisServer": "whois.nic.dvag",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/dvag/"

@@ -1,6 +1,6 @@
 {
 	"domain": "ag",
-	"infoURL": "http://www.nic.ag/",
+	"infoURL": "https://www.nic.ag/",
 	"whoisServer": "whois.nic.ag",
 	"nameServers": [
 		"a0.cctld.afilias-nst.info",

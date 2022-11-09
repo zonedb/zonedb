@@ -1,7 +1,7 @@
 {
 	"domain": "cpa",
 	"registryOperator": "American Institute of Certified Public Accountants",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.cpa/",
 	"whoisServer": "whois.nic.cpa",
 	"nameServers": [
 		"a.nic.cpa",

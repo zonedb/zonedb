@@ -1,7 +1,7 @@
 {
 	"domain": "calvinklein",
 	"registryOperator": "PVH gTLD Holdings LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.calvinklein/",
 	"whoisServer": "whois.nic.calvinklein",
 	"rdapURLs": [
 		"https://rdap.nic.calvinklein/"
