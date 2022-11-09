@@ -1,7 +1,7 @@
 {
 	"domain": "crown",
 	"registryOperator": "Crown Equipment Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.crown/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/crown/v1/"
 	],

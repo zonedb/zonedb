@@ -1,7 +1,7 @@
 {
 	"domain": "genting",
 	"registryOperator": "Resorts World Inc Pte. Ltd.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.genting/",
 	"whoisServer": "whois.nic.genting",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/genting/v1/"

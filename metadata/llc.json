@@ -1,7 +1,7 @@
 {
 	"domain": "llc",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://identity.digital/",
 	"whoisServer": "whois.nic.llc",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

@@ -1,7 +1,7 @@
 {
 	"domain": "ferrero",
 	"registryOperator": "Ferrero Trading Lux S.A.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.ferrero/",
 	"whoisServer": "whois.nic.ferrero",
 	"rdapURLs": [
 		"https://rdap.nic.ferrero/"

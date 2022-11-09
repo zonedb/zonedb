@@ -1,7 +1,7 @@
 {
 	"domain": "lefrak",
 	"registryOperator": "LeFrak Organization, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.lefrak/",
 	"whoisServer": "whois.nic.lefrak",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/lefrak/v1/"

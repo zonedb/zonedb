@@ -1,7 +1,7 @@
 {
 	"domain": "gucci",
 	"registryOperator": "Guccio Gucci S.p.a.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.gucci/",
 	"whoisServer": "whois.nic.gucci",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/gucci/"

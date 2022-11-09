@@ -1,7 +1,7 @@
 {
 	"domain": "jot",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.jot/",
 	"whoisServer": "whois.nic.jot",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/jot/"

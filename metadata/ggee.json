@@ -1,7 +1,7 @@
 {
 	"domain": "ggee",
 	"registryOperator": "GMO Internet, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.ggee/",
 	"whoisServer": "whois.nic.ggee",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

@@ -1,7 +1,7 @@
 {
 	"domain": "aol",
 	"registryOperator": "Oath Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.aol.com/",
 	"whoisServer": "whois.nic.aol",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/aol/v1/"

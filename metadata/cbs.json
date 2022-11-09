@@ -1,7 +1,7 @@
 {
 	"domain": "cbs",
 	"registryOperator": "CBS Domains Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.cbs/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/cbs/"

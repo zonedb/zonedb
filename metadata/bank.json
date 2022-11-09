@@ -1,7 +1,7 @@
 {
 	"domain": "bank",
 	"registryOperator": "fTLD Registry Services LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.register.bank/",
 	"whoisServer": "whois.nic.bank",
 	"rdapURLs": [
 		"https://rdap.nic.bank/"

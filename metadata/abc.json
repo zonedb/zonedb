@@ -1,7 +1,7 @@
 {
 	"domain": "abc",
 	"registryOperator": "Disney Enterprises, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.nic.abc/",
 	"whoisServer": "whois.nic.abc",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/abc/v1/"

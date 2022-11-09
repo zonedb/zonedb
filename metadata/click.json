@@ -1,7 +1,7 @@
 {
 	"domain": "click",
 	"registryOperator": "Internet Naming Company LLC",
-	"infoURL": "https://nic.click/",
+	"infoURL": "https://uniregistry.link/extensions/click/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"

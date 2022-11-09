@@ -1,7 +1,7 @@
 {
 	"domain": "helsinki",
 	"registryOperator": "City of Helsinki",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.hel.fi/Helsinki/en/administration/information/information/nic.helsinki/",
 	"whoisServer": "whois.nic.helsinki",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/helsinki/"

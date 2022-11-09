@@ -1,7 +1,7 @@
 {
 	"domain": "bestbuy",
 	"registryOperator": "BBY Solutions, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.bestbuy/",
 	"whoisServer": "whois.nic.bestbuy",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/bestbuy/"

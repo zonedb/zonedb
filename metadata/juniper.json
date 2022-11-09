@@ -1,7 +1,7 @@
 {
 	"domain": "juniper",
 	"registryOperator": "JUNIPER NETWORKS, INC.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.juniper/",
 	"whoisServer": "whois.nic.juniper",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/juniper/v1/"

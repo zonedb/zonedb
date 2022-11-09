@@ -1,7 +1,7 @@
 {
 	"domain": "afl",
 	"registryOperator": "Australian Football League",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.afl/",
 	"whoisServer": "whois.nic.afl",
 	"rdapURLs": [
 		"https://rdap.nic.afl/"

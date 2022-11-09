@@ -1,7 +1,7 @@
 {
 	"domain": "grainger",
 	"registryOperator": "Grainger Registry Services, LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.grainger/",
 	"whoisServer": "whois.nic.grainger",
 	"rdapURLs": [
 		"https://rdap.nic.grainger/"

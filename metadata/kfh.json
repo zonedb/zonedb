@@ -1,7 +1,7 @@
 {
 	"domain": "kfh",
 	"registryOperator": "Kuwait Finance House",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.kfh/",
 	"whoisServer": "whois.nic.kfh",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/kfh/"

@@ -185,7 +185,7 @@ func quoted(s string) string {
 	if s == "" {
 		return "e" // const e = ""
 	}
-	return `"` + s + `"`
+	return fmt.Sprintf("%q", s)
 }
 
 func quotedDomain(s string) string {
@@ -316,6 +316,7 @@ var y = [{{len .Zones}}]Zone{
 			{{if $z.ParentDomain}} &z[{{$z.ParentOffset}}] {{else}} r {{end}}, \
 			{{if $z.SubdomainsEnd}} z[{{$z.SubdomainsOffset}}:{{$z.SubdomainsEnd}}] {{else}} x {{end}}, \
 			{{if $z.TagBits}} {{printf "0x%x" $z.TagBits}} {{else}} 0 {{end}}, \
+			{{quoted $z.RegistryOperator}}, \
 			{{quotedURL $z.InfoURL}}, \
 			{{if $z.NameServers}} w{ {{range $z.NameServers}}{{quotedDomain .}},{{end}}} {{else}} n {{end}}, \
 			{{if $z.Wildcards}} w{ {{range $z.Wildcards}}{{quotedDomain .}},{{end}}} {{else}} n {{end}}, \

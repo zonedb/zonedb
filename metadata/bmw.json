@@ -1,7 +1,7 @@
 {
 	"domain": "bmw",
 	"registryOperator": "Bayerische Motoren Werke Aktiengesellschaft",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.bmw/",
 	"whoisServer": "whois.nic.bmw",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/bmw/"

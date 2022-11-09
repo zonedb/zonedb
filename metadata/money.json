@@ -1,7 +1,7 @@
 {
 	"domain": "money",
 	"registryOperator": "Binky Moon, LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://identity.digital/",
 	"whoisServer": "whois.nic.money",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

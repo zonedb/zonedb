@@ -1,7 +1,7 @@
 {
 	"domain": "arab",
 	"registryOperator": "League of Arab States",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.arab/",
 	"whoisServer": "whois.nic.arab",
 	"rdapURLs": [
 		"https://rdap.nic.arab/"

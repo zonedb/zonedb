@@ -1,7 +1,7 @@
 {
 	"domain": "lat",
 	"registryOperator": "XYZ.COM LLC",
-	"infoURL": "https://www.nic.lat/en/",
+	"infoURL": "https://nic.lat/",
 	"whoisServer": "whois.nic.lat",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/lat/"

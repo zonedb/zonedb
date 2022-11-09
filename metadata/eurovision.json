@@ -1,7 +1,7 @@
 {
 	"domain": "eurovision",
 	"registryOperator": "European Broadcasting Union (EBU)",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.ebu.ch/home",
 	"whoisServer": "whois.nic.eurovision",
 	"rdapURLs": [
 		"https://rdap.nic.eurovision/"

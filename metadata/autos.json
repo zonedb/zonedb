@@ -1,7 +1,7 @@
 {
 	"domain": "autos",
 	"registryOperator": "XYZ.COM LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.autos/",
 	"whoisServer": "whois.nic.autos",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/autos/"

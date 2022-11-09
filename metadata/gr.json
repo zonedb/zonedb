@@ -1,6 +1,6 @@
 {
 	"domain": "gr",
-	"whoisURL": "https://grweb.ics.forth.gr/Whois?lang=en",
+	"whoisURL": "https://grweb.ics.forth.gr/",
 	"nameServers": [
 		"estia.ics.forth.gr",
 		"gr-at.ics.forth.gr",

@@ -1,7 +1,7 @@
 {
 	"domain": "aarp",
 	"registryOperator": "AARP",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.aarp.org/everywhere/aarp-nic/",
 	"whoisServer": "whois.nic.aarp",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/aarp/v1/"

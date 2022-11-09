@@ -1,7 +1,7 @@
 {
 	"domain": "fans",
 	"registryOperator": "ZDNS International Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.fans/",
 	"whoisServer": "whois.nic.fans",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/fans/"

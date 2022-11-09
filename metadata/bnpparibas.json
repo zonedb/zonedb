@@ -1,7 +1,7 @@
 {
 	"domain": "bnpparibas",
 	"registryOperator": "BNP Paribas",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.bnpparibas/en/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/bnpparibas/"

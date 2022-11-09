@@ -1,7 +1,7 @@
 {
 	"domain": "bing",
 	"registryOperator": "Microsoft Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.bing/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/bing/v1/"
 	],

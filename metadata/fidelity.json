@@ -1,7 +1,7 @@
 {
 	"domain": "fidelity",
 	"registryOperator": "Fidelity Brokerage Services LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.fidelity.com/why-fidelity/nic",
 	"whoisServer": "whois.nic.fidelity",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/fidelity/v1/"

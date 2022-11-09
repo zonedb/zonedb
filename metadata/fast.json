@@ -1,7 +1,7 @@
 {
 	"domain": "fast",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.fast/",
 	"whoisServer": "whois.nic.fast",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/fast/"

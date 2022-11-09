@@ -1,7 +1,7 @@
 {
 	"domain": "bms",
 	"registryOperator": "Bristol-Myers Squibb Company",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.bms/",
 	"whoisServer": "whois.nic.bms",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/bms/v1/"

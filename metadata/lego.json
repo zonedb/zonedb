@@ -1,7 +1,7 @@
 {
 	"domain": "lego",
 	"registryOperator": "LEGO Juris A/S",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.lego/",
 	"whoisServer": "whois.nic.lego",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/lego/v1/"

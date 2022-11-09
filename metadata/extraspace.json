@@ -1,7 +1,7 @@
 {
 	"domain": "extraspace",
 	"registryOperator": "Extra Space Storage LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.extraspace/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/extraspace/"

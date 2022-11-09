@@ -1,7 +1,7 @@
 {
 	"domain": "homegoods",
 	"registryOperator": "The TJX Companies, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.homegoods/",
 	"whoisServer": "whois.nic.homegoods",
 	"rdapURLs": [
 		"https://rdap.nic.homegoods/"

@@ -1,7 +1,7 @@
 {
 	"domain": "chintai",
 	"registryOperator": "CHINTAI Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.chintai/",
 	"whoisServer": "whois.nic.chintai",
 	"rdapURLs": [
 		"https://rdap.nic.chintai/"

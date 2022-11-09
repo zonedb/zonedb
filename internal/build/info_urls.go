@@ -26,12 +26,20 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 		if z.InfoURL == "" {
 			return
 		}
-		urls := []string{
-			z.InfoURL,
-		}
-		if strings.HasPrefix(z.InfoURL, "http:") {
+		var urls []string
+		if strings.HasPrefix(z.InfoURL, "https://newgtlds.icann.org") {
+			urls = []string{
+				"https://nic." + z.Domain,
+				"http://nic." + z.Domain,
+				z.InfoURL,
+			}
+		} else if strings.HasPrefix(z.InfoURL, "http:") {
 			urls = []string{
 				strings.Replace(z.InfoURL, "http:", "https:", 1),
+				z.InfoURL,
+			}
+		} else {
+			urls = []string{
 				z.InfoURL,
 			}
 		}
@@ -41,12 +49,12 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 				// color.Fprintf(os.Stderr, "@{y!}Warning:@{y} error fetching info URL for @{y!}%s@{y}: (%s): %v\n", z.Domain, u, err)
 				continue
 			}
-			ru := NormalizeURL(res.Request.URL.String())
-			if ru != z.InfoURL {
-				z.InfoURL = ru
-				color.Fprintf(os.Stderr, "@{.}Updated info URLs for @{c}%s@{c}: @{y}%s\n", z.Domain, z.InfoURL)
-			}
 			CloseN(res.Body, 10_000_000)
+			ru := NormalizeURL(res.Request.URL.String())
+			if ru != z.InfoURL && !strings.HasPrefix(ru, "https://newgtlds.icann.org") {
+				color.Fprintf(os.Stderr, "@{.}Updated info URL for @{c}%s@{c}: @{y}%s@{c} → @{g}%s\n", z.Domain, z.InfoURL, ru)
+				z.InfoURL = ru
+			}
 			break
 		}
 	})
@@ -62,4 +70,15 @@ func CloseN(rc io.ReadCloser, n int64) (int64, error) {
 		err = cerr
 	}
 	return n, err
+}
+
+// trimURL trims query strings and /index.htm(l)? from a URL.
+func trimURL(u string) string {
+	u, _, _ = strings.Cut(u, "?")
+	if strings.HasSuffix(u, "/index.html") {
+		u = strings.TrimSuffix(u, "/index.html")
+	} else {
+		u = strings.TrimSuffix(u, "/index.htm")
+	}
+	return u
 }

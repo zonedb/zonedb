@@ -1,7 +1,7 @@
 {
 	"domain": "aeg",
 	"registryOperator": "Aktiebolaget Electrolux",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.aeg/",
 	"whoisServer": "whois.nic.aeg",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/aeg/v1/"

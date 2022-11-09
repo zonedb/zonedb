@@ -1,7 +1,7 @@
 {
 	"domain": "bcg",
 	"registryOperator": "The Boston Consulting Group, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.bcg.com/topic/nic",
 	"whoisServer": "whois.nic.bcg",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/bcg/"

@@ -1,7 +1,7 @@
 {
 	"domain": "kddi",
 	"registryOperator": "KDDI CORPORATION",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.kddi/",
 	"whoisServer": "whois.nic.kddi",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

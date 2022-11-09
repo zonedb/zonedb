@@ -1,7 +1,7 @@
 {
 	"domain": "able",
 	"registryOperator": "Able Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.able/",
 	"whoisServer": "whois.nic.able",
 	"rdapURLs": [
 		"https://rdap.nic.able/"

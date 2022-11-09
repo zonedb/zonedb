@@ -1,7 +1,7 @@
 {
 	"domain": "med",
 	"registryOperator": "Medistry LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.med/",
 	"whoisServer": "whois.nic.med",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/med/"

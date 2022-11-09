@@ -1,7 +1,7 @@
 {
 	"domain": "barclays",
 	"registryOperator": "Barclays Bank PLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.barclays/",
 	"whoisServer": "whois.nic.barclays",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/barclays/"

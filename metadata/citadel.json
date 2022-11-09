@@ -1,7 +1,7 @@
 {
 	"domain": "citadel",
 	"registryOperator": "Citadel Domain LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.citadel/",
 	"whoisServer": "whois.nic.citadel",
 	"rdapURLs": [
 		"https://rdap.nic.citadel/"

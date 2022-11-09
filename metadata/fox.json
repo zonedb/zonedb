@@ -1,7 +1,7 @@
 {
 	"domain": "fox",
 	"registryOperator": "FOX Registry, LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.nic.fox/",
 	"whoisServer": "whois.nic.fox",
 	"rdapURLs": [
 		"https://rdap.nic.fox/"

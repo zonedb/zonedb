@@ -1,7 +1,7 @@
 {
 	"domain": "audi",
 	"registryOperator": "AUDI Aktiengesellschaft",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.nic.audi/nic/web/en.html",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/audi/"

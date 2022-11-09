@@ -1,7 +1,7 @@
 {
 	"domain": "bbva",
 	"registryOperator": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.bbva/",
 	"whoisServer": "whois.nic.bbva",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/bbva/"

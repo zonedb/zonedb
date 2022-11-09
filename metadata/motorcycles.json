@@ -1,7 +1,7 @@
 {
 	"domain": "motorcycles",
 	"registryOperator": "XYZ.COM LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.motorcycles/",
 	"whoisServer": "whois.nic.motorcycles",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/motorcycles/"

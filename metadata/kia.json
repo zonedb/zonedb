@@ -1,7 +1,7 @@
 {
 	"domain": "kia",
 	"registryOperator": "KIA MOTORS CORPORATION",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.kia/",
 	"whoisServer": "whois.nic.kia",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

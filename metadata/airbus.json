@@ -1,7 +1,7 @@
 {
 	"domain": "airbus",
 	"registryOperator": "Airbus S.A.S.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.airbus/",
 	"whoisServer": "whois.nic.airbus",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/airbus/v1/"

@@ -1,7 +1,7 @@
 {
 	"domain": "ieee",
 	"registryOperator": "IEEE Global LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.ieee/",
 	"whoisServer": "whois.nic.ieee",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/ieee/"

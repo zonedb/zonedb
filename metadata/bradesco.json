@@ -1,7 +1,7 @@
 {
 	"domain": "bradesco",
 	"registryOperator": "Banco Bradesco S.A.",
-	"infoURL": "http://nic.bradesco/",
+	"infoURL": "https://nic.bradesco/",
 	"whoisServer": "whois.nic.bradesco",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/bradesco/"

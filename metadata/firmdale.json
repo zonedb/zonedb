@@ -1,7 +1,7 @@
 {
 	"domain": "firmdale",
 	"registryOperator": "Firmdale Holdings Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.firmdale/",
 	"whoisServer": "whois.nic.firmdale",
 	"rdapURLs": [
 		"https://rdap.nic.firmdale/"

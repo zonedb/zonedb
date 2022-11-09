@@ -1,7 +1,7 @@
 {
 	"domain": "office",
 	"registryOperator": "Microsoft Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.office/",
 	"whoisServer": "whois.nic.office",
 	"rdapURLs": [
 		"https://rdap.nic.office/"

@@ -1,7 +1,7 @@
 {
 	"domain": "hsbc",
 	"registryOperator": "HSBC Global Services (UK) Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.hsbc/",
 	"whoisServer": "whois.nic.hsbc",
 	"rdapURLs": [
 		"https://rdap.nic.hsbc/"

@@ -1,7 +1,7 @@
 {
 	"domain": "lanxess",
 	"registryOperator": "LANXESS Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.lanxess/",
 	"whoisServer": "whois.nic.lanxess",
 	"rdapURLs": [
 		"https://rdap.nic.lanxess/"

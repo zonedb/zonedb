@@ -1,7 +1,7 @@
 {
 	"domain": "aramco",
 	"registryOperator": "Aramco Services Company",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.aramco/",
 	"whoisServer": "whois.nic.aramco",
 	"rdapURLs": [
 		"https://rdap.nic.aramco/"

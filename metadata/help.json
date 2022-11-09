@@ -1,7 +1,7 @@
 {
 	"domain": "help",
 	"registryOperator": "Innovation service Limited",
-	"infoURL": "https://nic.help/",
+	"infoURL": "https://uniregistry.link/extensions/help/",
 	"whoisServer": "whois.nic.help",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"

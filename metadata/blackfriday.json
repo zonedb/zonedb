@@ -1,7 +1,7 @@
 {
 	"domain": "blackfriday",
 	"registryOperator": "Registry Services, LLC",
-	"infoURL": "https://nic.blackfriday/",
+	"infoURL": "https://uniregistry.link/extensions/blackfriday/",
 	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"

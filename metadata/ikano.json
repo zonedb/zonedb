@@ -1,7 +1,7 @@
 {
 	"domain": "ikano",
 	"registryOperator": "Ikano S.A.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://group.ikano/nic-ikano/",
 	"whoisServer": "whois.nic.ikano",
 	"rdapURLs": [
 		"https://rdap.nic.ikano/v1/"

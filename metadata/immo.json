@@ -1,7 +1,7 @@
 {
 	"domain": "immo",
 	"registryOperator": "Binky Moon, LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://identity.digital/",
 	"whoisServer": "whois.nic.immo",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

@@ -1,7 +1,7 @@
 {
 	"domain": "netbank",
 	"registryOperator": "COMMONWEALTH BANK OF AUSTRALIA",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.netbank/",
 	"whoisServer": "whois.nic.netbank",
 	"rdapURLs": [
 		"https://rdap.nic.netbank/"

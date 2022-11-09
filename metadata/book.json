@@ -1,7 +1,7 @@
 {
 	"domain": "book",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.book/",
 	"whoisServer": "whois.nic.book",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/book/"

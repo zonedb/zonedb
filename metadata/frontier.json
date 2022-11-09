@@ -1,7 +1,7 @@
 {
 	"domain": "frontier",
 	"registryOperator": "Frontier Communications Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.frontier/",
 	"whoisServer": "whois.nic.frontier",
 	"rdapURLs": [
 		"https://rdap.nic.frontier/"

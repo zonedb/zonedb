@@ -1,7 +1,7 @@
 {
 	"domain": "film",
 	"registryOperator": "Motion Picture Domain Registry Pty Ltd",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.film/",
 	"whoisServer": "whois.nic.film",
 	"rdapURLs": [
 		"https://rdap.nic.film/"

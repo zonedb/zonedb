@@ -1,7 +1,7 @@
 {
 	"domain": "cbn",
 	"registryOperator": "The Christian Broadcasting Network, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.cbn/",
 	"whoisServer": "whois.nic.cbn",
 	"rdapURLs": [
 		"https://rdap.nic.cbn/"
