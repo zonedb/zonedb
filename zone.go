@@ -40,16 +40,19 @@ type Zone struct {
 	// Tags stored as an integer bit field
 	Tags Tags
 
+	// Registry operator for this Zone
+	RegistryOperator string
+
 	// Informational URL for this Zone
 	InfoURL string
 
-	// DNS name servers for the Zone
+	// DNS name servers for this Zone
 	NameServers []string
 
 	// Wildcard addresses for unregistered subdomains
 	Wildcards []string
 
-	// Locations associated with the Zone
+	// Locations associated with this Zone
 	Locations []string
 
 	// BCP 47 language tags associated with this Zone
