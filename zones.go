@@ -1961,7 +1961,7 @@ var y = [5227]Zone{
 	{"qld.au", &z[96], x, 0, e, w{"q.au", "r.au", "s.au", "t.au"}, n, n, n, e, e, n, f},
 	{"sa.au", &z[96], x, 0, e, w{"q.au", "r.au", "s.au", "t.au"}, n, n, n, e, e, n, f},
 	{"tas.au", &z[96], x, 0, e, w{"q.au", "r.au", "s.au", "t.au"}, n, n, n, e, e, n, f},
-	{"telememo.au", &z[96], x, 0x800, e, w{"ns-1046.awsdns-02.org", "ns-2022.awsdns-60.co.uk", "ns-467.awsdns-58.com", "ns-554.awsdns-05.net"}, n, n, n, e, e, n, f},
+	{"telememo.au", &z[96], x, 0, e, w{"ns-1046.awsdns-02.org", "ns-2022.awsdns-60.co.uk", "ns-467.awsdns-58.com", "ns-554.awsdns-05.net"}, n, n, n, e, e, n, f},
 	{"vic.au", &z[96], x, 0, "http://www.aucd.org.au/", w{"q.au", "r.au", "s.au", "t.au"}, n, n, n, e, e, n, f},
 	{"wa.au", &z[96], x, 0, e, w{"q.au", "r.au", "s.au", "t.au"}, n, n, n, e, e, n, f},
 	{"com.aw", &z[108], x, 0, e, w{"ns1.setarnet.aw", "ns2.setarnet.aw"}, n, n, n, e, e, n, f},

@@ -6,9 +6,6 @@
 		"ns-467.awsdns-58.com",
 		"ns-554.awsdns-05.net"
 	],
-	"tags": [
-		"retired"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
