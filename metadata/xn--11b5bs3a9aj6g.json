@@ -1,6 +1,9 @@
 {
 	"domain": "परीक्षा",
+	"registryOperator": "IANA",
+	"infoURL": "https://www.iana.org/domains/reserved",
 	"tags": [
-		"generic"
+		"retired",
+		"test"
 	]
 }
