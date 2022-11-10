@@ -1,7 +1,6 @@
 {
 	"domain": "duck",
 	"registryOperator": "Johnson Shareholdings, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.duck",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/duck/v1/"

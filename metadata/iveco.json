@@ -1,6 +1,5 @@
 {
 	"domain": "iveco",
-	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.iveco",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/iveco/"

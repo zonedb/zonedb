@@ -1,7 +1,7 @@
 {
 	"domain": "fedex",
 	"registryOperator": "Federal Express Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.fedex.com/en-us/shipping.html",
 	"whoisServer": "whois.nic.fedex",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/fedex/"

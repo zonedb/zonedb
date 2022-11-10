@@ -1,7 +1,6 @@
 {
 	"domain": "glade",
 	"registryOperator": "Johnson Shareholdings, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.glade",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/glade/v1/"
