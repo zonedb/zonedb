@@ -15,11 +15,11 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 	color.Fprintf(os.Stderr, "@{.}Updating info URLs for %d zones...\n", len(zones))
 
 	transport := http.DefaultTransport.(*http.Transport).Clone()
-	transport.TLSHandshakeTimeout = 2 * time.Second
+	transport.TLSHandshakeTimeout = 5 * time.Second
 	transport.MaxIdleConnsPerHost = 10
 	client := &http.Client{
 		Transport: transport,
-		Timeout:   4 * time.Second,
+		Timeout:   10 * time.Second,
 	}
 
 	mapZones(zones, func(z *Zone) {
@@ -28,6 +28,11 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 		}
 		var urls []string
 		if strings.HasPrefix(z.InfoURL, "https://newgtlds.icann.org") {
+			if len(z.NameServers) == 0 {
+				color.Fprintf(os.Stderr, "@{.}Removed info URL for @{c}%s@{c} (no DNS entries): @{y}%s@{c}\n", z.Domain, z.InfoURL)
+				z.InfoURL = ""
+				return
+			}
 			urls = []string{
 				"https://nic." + z.Domain,
 				"http://nic." + z.Domain,
@@ -46,7 +51,7 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 		for _, u := range urls {
 			res, err := client.Get(u)
 			if err != nil {
-				// color.Fprintf(os.Stderr, "@{y!}Warning:@{y} error fetching info URL for @{y!}%s@{y}: (%s): %v\n", z.Domain, u, err)
+				color.Fprintf(os.Stderr, "@{y!}Warning:@{y} error fetching info URL for @{y!}%s@{y}: (%s): %v\n", z.Domain, u, err)
 				continue
 			}
 			CloseN(res.Body, 10_000_000)
