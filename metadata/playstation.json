@@ -1,7 +1,7 @@
 {
 	"domain": "playstation",
 	"registryOperator": "Sony Interactive Entertainment Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.playstation/",
 	"whoisServer": "whois.nic.playstation",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

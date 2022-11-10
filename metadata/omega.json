@@ -1,7 +1,7 @@
 {
 	"domain": "omega",
 	"registryOperator": "The Swatch Group Ltd",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.omega/",
 	"whoisServer": "whois.nic.omega",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/omega/v1/"

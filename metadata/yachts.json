@@ -1,7 +1,7 @@
 {
 	"domain": "yachts",
 	"registryOperator": "XYZ.COM LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.yachts/",
 	"whoisServer": "whois.nic.yachts",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/yachts/"

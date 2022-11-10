@@ -1,7 +1,7 @@
 {
 	"domain": "ren",
 	"registryOperator": "ZDNS International Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.ren/",
 	"whoisServer": "whois.nic.ren",
 	"rdapURLs": [
 		"https://rdap.zdnsgtld.com/ren/"

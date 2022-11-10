@@ -1,7 +1,7 @@
 {
 	"domain": "网址",
 	"registryOperator": "KNET Co., Ltd.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.网址/",
 	"whoisServer": "whois.nic.网址",
 	"rdapURLs": [
 		"https://rdap.zdnsgtld.com/xn--ses554g/"

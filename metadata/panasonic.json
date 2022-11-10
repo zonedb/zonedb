@@ -1,7 +1,7 @@
 {
 	"domain": "panasonic",
 	"registryOperator": "Panasonic Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.panasonic/",
 	"whoisServer": "whois.nic.gmo",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

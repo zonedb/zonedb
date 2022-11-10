@@ -1,7 +1,7 @@
 {
 	"domain": "winners",
 	"registryOperator": "The TJX Companies, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.winners/",
 	"whoisServer": "whois.nic.winners",
 	"rdapURLs": [
 		"https://rdap.nic.winners/"

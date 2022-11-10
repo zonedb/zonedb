@@ -1,7 +1,7 @@
 {
 	"domain": "rogers",
 	"registryOperator": "Rogers Communications Canada Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.rogers.com/nic",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/rogers/"

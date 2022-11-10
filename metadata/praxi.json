@@ -1,7 +1,7 @@
 {
 	"domain": "praxi",
 	"registryOperator": "Praxi S.p.A.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.praxi/",
 	"whoisServer": "whois.nic.praxi",
 	"rdapURLs": [
 		"https://rdap.nic.praxi/"

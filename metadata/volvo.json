@@ -1,7 +1,7 @@
 {
 	"domain": "volvo",
 	"registryOperator": "Volvo Holding Sverige Aktiebolag",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.nic.volvo/en/",
 	"whoisServer": "whois.nic.volvo",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/volvo/v1/"

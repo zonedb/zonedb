@@ -1,7 +1,7 @@
 {
 	"domain": "pnc",
 	"registryOperator": "PNC Domain Co., LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.pnc.com/en/security-privacy/nic.html",
 	"whoisServer": "whois.nic.pnc",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/pnc/"

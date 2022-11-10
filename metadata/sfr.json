@@ -1,7 +1,7 @@
 {
 	"domain": "sfr",
 	"registryOperator": "Societe Francaise du Radiotelephone - SFR",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.sfr/",
 	"whoisServer": "whois.nic.sfr",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/sfr/"

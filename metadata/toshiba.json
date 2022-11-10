@@ -1,7 +1,7 @@
 {
 	"domain": "toshiba",
 	"registryOperator": "TOSHIBA Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.toshiba/",
 	"whoisServer": "whois.nic.toshiba",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

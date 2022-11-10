@@ -1,7 +1,7 @@
 {
 	"domain": "lundbeck",
 	"registryOperator": "H. Lundbeck A/S",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.lundbeck.com/global/nic",
 	"whoisServer": "whois.nic.lundbeck",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/lundbeck/v1/"

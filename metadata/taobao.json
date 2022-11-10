@@ -1,7 +1,7 @@
 {
 	"domain": "taobao",
 	"registryOperator": "Alibaba Group Holding Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.taobao/",
 	"whoisServer": "whois.nic.taobao",
 	"rdapURLs": [
 		"https://rdap.nic.taobao/"

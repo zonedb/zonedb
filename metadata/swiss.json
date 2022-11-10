@@ -1,7 +1,7 @@
 {
 	"domain": "swiss",
 	"registryOperator": "Swiss Confederation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.nic.swiss/nic/de/home.html",
 	"whoisServer": "whois.nic.swiss",
 	"rdapURLs": [
 		"https://rdap.nic.swiss/"

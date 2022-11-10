@@ -1,7 +1,7 @@
 {
 	"domain": "zero",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.zero/",
 	"whoisServer": "whois.nic.zero",
 	"rdapURLs": [
 		"https://rdap.nic.zero/"

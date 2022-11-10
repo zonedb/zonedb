@@ -1,7 +1,7 @@
 {
 	"domain": "tdk",
 	"registryOperator": "TDK Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.tdk/",
 	"whoisServer": "whois.nic.tdk",
 	"rdapURLs": [
 		"https://rdap.nic.tdk/"

@@ -1,7 +1,7 @@
 {
 	"domain": "yandex",
 	"registryOperator": "Yandex Europe B.V.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.yandex/",
 	"whoisServer": "whois.nic.yandex",
 	"rdapURLs": [
 		"https://rdap.nic.yandex/"

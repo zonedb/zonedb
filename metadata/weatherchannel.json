@@ -1,7 +1,7 @@
 {
 	"domain": "weatherchannel",
 	"registryOperator": "International Business Machines Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.weatherchannel/",
 	"whoisServer": "whois.nic.weatherchannel",
 	"rdapURLs": [
 		"https://rdap.nic.weatherchannel/"

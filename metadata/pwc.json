@@ -1,7 +1,7 @@
 {
 	"domain": "pwc",
 	"registryOperator": "PricewaterhouseCoopers LLP",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.pwc/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/pwc/"

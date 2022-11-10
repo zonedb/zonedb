@@ -1,7 +1,7 @@
 {
 	"domain": "silk",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.silk/",
 	"whoisServer": "whois.nic.silk",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/silk/"

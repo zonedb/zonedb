@@ -1,7 +1,7 @@
 {
 	"domain": "nab",
 	"registryOperator": "National Australia Bank Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.nab.com.au/nic",
 	"whoisServer": "whois.nic.nab",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/nab/v1/"

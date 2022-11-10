@@ -1,7 +1,7 @@
 {
 	"domain": "書籍",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.書籍/",
 	"whoisServer": "whois.nic.書籍",
 	"rdapURLs": [
 		"https://rdap.nic.書籍/"

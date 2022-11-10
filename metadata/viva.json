@@ -1,7 +1,7 @@
 {
 	"domain": "viva",
 	"registryOperator": "Saudi Telecom Company",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.viva/",
 	"whoisServer": "whois.nic.viva",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/viva/"

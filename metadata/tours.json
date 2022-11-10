@@ -1,7 +1,7 @@
 {
 	"domain": "tours",
 	"registryOperator": "Binky Moon, LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://identity.digital/",
 	"whoisServer": "whois.nic.tours",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

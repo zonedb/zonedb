@@ -1,7 +1,7 @@
 {
 	"domain": "微博",
 	"registryOperator": "Sina Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.微博/",
 	"whoisServer": "whois.nic.微博",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/xn--9krt00a/"

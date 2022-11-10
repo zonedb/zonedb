@@ -1,7 +1,7 @@
 {
 	"domain": "zappos",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.zappos/",
 	"whoisServer": "whois.nic.zappos",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/zappos/"

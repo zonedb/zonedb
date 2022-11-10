@@ -1,7 +1,7 @@
 {
 	"domain": "sas",
 	"registryOperator": "Research IP LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.sas/",
 	"whoisServer": "whois.nic.sas",
 	"rdapURLs": [
 		"https://rdap.nic.sas/"

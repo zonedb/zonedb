@@ -1,7 +1,7 @@
 {
 	"domain": "tech",
 	"registryOperator": "Radix FZC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://radix.website/dot-tech",
 	"whoisServer": "whois.nic.tech",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/tech/"

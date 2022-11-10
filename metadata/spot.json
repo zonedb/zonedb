@@ -1,7 +1,7 @@
 {
 	"domain": "spot",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.spot/",
 	"whoisServer": "whois.nic.spot",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/spot/"

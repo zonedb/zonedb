@@ -1,7 +1,7 @@
 {
 	"domain": "security",
 	"registryOperator": "XYZ.COM LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.security/",
 	"whoisServer": "whois.nic.security",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/security/"

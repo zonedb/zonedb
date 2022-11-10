@@ -1,7 +1,7 @@
 {
 	"domain": "read",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.read/",
 	"whoisServer": "whois.nic.read",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/read/"

@@ -1,7 +1,7 @@
 {
 	"domain": "statebank",
 	"registryOperator": "STATE BANK OF INDIA",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.statebank/",
 	"whoisServer": "whois.nic.statebank",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/statebank/"

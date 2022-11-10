@@ -1,7 +1,7 @@
 {
 	"domain": "tab",
 	"registryOperator": "Tabcorp Holdings Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.tab/",
 	"whoisServer": "whois.nic.tab",
 	"rdapURLs": [
 		"https://rdap.nic.tab/"

@@ -1,7 +1,7 @@
 {
 	"domain": "vuelos",
 	"registryOperator": "Travel Reservations SRL",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.vuelos/",
 	"whoisServer": "whois.nic.vuelos",
 	"rdapURLs": [
 		"https://rdap.nic.vuelos/"

@@ -1,7 +1,7 @@
 {
 	"domain": "whoswho",
 	"registryOperator": "Who's Who Registry",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://internet.whoswho/",
 	"whoisServer": "whois.nic.whoswho",
 	"rdapURLs": [
 		"https://rdap.nic.whoswho/"

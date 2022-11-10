@@ -1,7 +1,7 @@
 {
 	"domain": "next",
 	"registryOperator": "Next plc",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.next/",
 	"whoisServer": "whois.nic.next",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/next/v1/"

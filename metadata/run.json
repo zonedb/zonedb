@@ -1,7 +1,7 @@
 {
 	"domain": "run",
 	"registryOperator": "Binky Moon, LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://identity.digital/",
 	"whoisServer": "whois.nic.run",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

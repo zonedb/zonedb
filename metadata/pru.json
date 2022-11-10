@@ -1,7 +1,7 @@
 {
 	"domain": "pru",
 	"registryOperator": "Prudential Financial, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.pru/nicpru/nic-%20pru.html",
 	"whoisServer": "whois.nic.pru",
 	"rdapURLs": [
 		"https://rdap.nic.pru/"

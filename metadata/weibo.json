@@ -1,7 +1,7 @@
 {
 	"domain": "weibo",
 	"registryOperator": "Sina Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.weibo/",
 	"whoisServer": "whois.nic.weibo",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/weibo/"

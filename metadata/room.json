@@ -1,7 +1,7 @@
 {
 	"domain": "room",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.room/",
 	"whoisServer": "whois.nic.room",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/room/"

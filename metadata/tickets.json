@@ -1,7 +1,7 @@
 {
 	"domain": "tickets",
 	"registryOperator": "XYZ.COM LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.tickets/",
 	"whoisServer": "whois.nic.tickets",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/tickets/"

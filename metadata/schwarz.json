@@ -1,7 +1,7 @@
 {
 	"domain": "schwarz",
 	"registryOperator": "Schwarz Domains und Services GmbH \u0026 Co. KG",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.schwarz/",
 	"whoisServer": "whois.nic.schwarz",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/schwarz/"

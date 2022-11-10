@@ -1,7 +1,7 @@
 {
 	"domain": "nokia",
 	"registryOperator": "Nokia Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.nokia/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/nokia/"

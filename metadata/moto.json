@@ -1,7 +1,7 @@
 {
 	"domain": "moto",
 	"registryOperator": "Motorola Trademark Holdings, LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.moto/",
 	"whoisServer": "whois.nic.moto",
 	"rdapURLs": [
 		"https://rdap.nic.moto/"

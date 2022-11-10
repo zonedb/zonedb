@@ -1,7 +1,7 @@
 {
 	"domain": "rent",
 	"registryOperator": "XYZ.COM LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.rent/",
 	"whoisServer": "whois.nic.rent",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/rent/"

@@ -1,7 +1,7 @@
 {
 	"domain": "ping",
 	"registryOperator": "Ping Registry Provider, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.ping/",
 	"whoisServer": "whois.nic.ping",
 	"rdapURLs": [
 		"https://rdap.nic.ping/"

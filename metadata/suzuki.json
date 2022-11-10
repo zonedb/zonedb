@@ -1,7 +1,7 @@
 {
 	"domain": "suzuki",
 	"registryOperator": "SUZUKI MOTOR CORPORATION",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.suzuki/",
 	"whoisServer": "whois.nic.suzuki",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

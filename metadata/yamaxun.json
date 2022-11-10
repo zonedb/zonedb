@@ -1,7 +1,7 @@
 {
 	"domain": "yamaxun",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.yamaxun/",
 	"whoisServer": "whois.nic.yamaxun",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/yamaxun/"

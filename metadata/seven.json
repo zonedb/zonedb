@@ -1,7 +1,7 @@
 {
 	"domain": "seven",
 	"registryOperator": "Seven West Media Ltd",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.seven/",
 	"whoisServer": "whois.nic.seven",
 	"rdapURLs": [
 		"https://rdap.nic.seven/"

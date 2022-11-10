@@ -1,7 +1,7 @@
 {
 	"domain": "saxo",
 	"registryOperator": "Saxo Bank A/S",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.saxo/",
 	"whoisServer": "whois.nic.saxo",
 	"rdapURLs": [
 		"https://rdap.nic.saxo/"

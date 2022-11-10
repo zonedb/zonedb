@@ -1,7 +1,7 @@
 {
 	"domain": "pioneer",
 	"registryOperator": "Pioneer Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.pioneer/",
 	"whoisServer": "whois.nic.pioneer",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/pioneer/"

@@ -1,7 +1,7 @@
 {
 	"domain": "nico",
 	"registryOperator": "DWANGO Co., Ltd.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.nico/",
 	"whoisServer": "whois.nic.nico",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
