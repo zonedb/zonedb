@@ -6,9 +6,9 @@
 	],
 	"nameServers": [
 		"a.nic.tv",
-		"ac3.nstld.com",
-		"ac4.nstld.com",
-		"b.nic.tv"
+		"b.nic.tv",
+		"c.nic.tv",
+		"d.nic.tv"
 	],
 	"tags": [
 		"country",

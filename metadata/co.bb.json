@@ -1,9 +1,7 @@
 {
 	"domain": "co.bb",
 	"nameServers": [
-		"bds-tlcm-ns-001.barbados.gov.bb",
 		"bds-tlcm-ns-001.gov.bb",
-		"bds-tlcm-ns-002.barbados.gov.bb",
 		"bds-tlcm-ns-002.gov.bb",
 		"ns1.nic.bb",
 		"ns2.nic.bb",
