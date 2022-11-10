@@ -1,7 +1,8 @@
 {
 	"domain": "thai",
 	"tags": [
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"policies": [
 		{

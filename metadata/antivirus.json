@@ -1,7 +1,8 @@
 {
 	"domain": "antivirus",
 	"tags": [
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"policies": [
 		{

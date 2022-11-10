@@ -1,7 +1,8 @@
 {
 	"domain": "kid",
 	"tags": [
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"policies": [
 		{

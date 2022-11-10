@@ -1,0 +1,9 @@
+{
+	"domain": "测试",
+	"registryOperator": "IANA",
+	"infoURL": "https://www.iana.org/domains/reserved",
+	"tags": [
+		"retired",
+		"test"
+	]
+}

@@ -2,7 +2,8 @@
 	"domain": "cashbackbonus",
 	"tags": [
 		"closed",
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"policies": [
 		{

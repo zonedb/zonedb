@@ -1,7 +1,8 @@
 {
 	"domain": "zulu",
 	"tags": [
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"policies": [
 		{

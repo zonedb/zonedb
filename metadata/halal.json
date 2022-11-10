@@ -1,7 +1,8 @@
 {
 	"domain": "halal",
 	"tags": [
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"policies": [
 		{

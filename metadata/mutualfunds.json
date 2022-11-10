@@ -1,7 +1,8 @@
 {
 	"domain": "mutualfunds",
 	"tags": [
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"policies": [
 		{

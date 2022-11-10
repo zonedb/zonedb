@@ -1,7 +1,8 @@
 {
 	"domain": "finish",
 	"tags": [
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"policies": [
 		{

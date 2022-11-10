@@ -1,7 +1,8 @@
 {
 	"domain": "banque",
 	"tags": [
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"policies": [
 		{

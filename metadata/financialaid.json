@@ -1,7 +1,8 @@
 {
 	"domain": "financialaid",
 	"tags": [
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"policies": [
 		{
