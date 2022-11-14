@@ -1,5 +1,6 @@
 {
 	"domain": "aq",
+	"registryOperator": "Antarctica Network Information Centre Limited",
 	"infoURL": "http://www.gobin.info/domainname/aq.txt",
 	"nameServers": [
 		"fork.sth.dnsnode.net",
