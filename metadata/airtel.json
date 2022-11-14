@@ -1,7 +1,7 @@
 {
 	"domain": "airtel",
 	"registryOperator": "Bharti Airtel Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/airtel",
 	"whoisServer": "whois.nic.airtel",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/airtel/v1/"
