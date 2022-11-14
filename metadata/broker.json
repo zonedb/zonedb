@@ -1,7 +1,7 @@
 {
 	"domain": "broker",
 	"registryOperator": "Dog Beach, LLC",
-	"infoURL": "https://bostonivy.co/",
+	"infoURL": "https://identity.digital/",
 	"whoisServer": "whois.nic.broker",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

@@ -1,7 +1,7 @@
 {
 	"domain": "bet",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://get.bet/",
+	"infoURL": "https://identity.digital/",
 	"whoisServer": "whois.nic.bet",
 	"rdapURLs": [
 		"https://rdap.afilias.net/rdap/bet/"

@@ -1,6 +1,6 @@
 {
 	"domain": "bn",
-	"infoURL": "http://www.brunet.bn/products_webrelated_domain_main.htm",
+	"infoURL": "https://www.iana.org/domains/root/db/bn.html",
 	"whoisServer": "whois.bnnic.bn",
 	"nameServers": [
 		"bn-ns.anycast.pch.net",
