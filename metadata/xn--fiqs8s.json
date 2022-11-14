@@ -1,6 +1,6 @@
 {
 	"domain": "中国",
-	"infoURL": "http://cnnic.cn/",
+	"infoURL": "https://www.cnnic.cn/",
 	"whoisServer": "cwhois.cnnic.cn",
 	"nameServers": [
 		"h.dns.cn",
