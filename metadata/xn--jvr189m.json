@@ -1,7 +1,7 @@
 {
 	"domain": "食品",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "http://nic.食品/",
+	"infoURL": "https://nic.食品/",
 	"whoisServer": "whois.nic.食品",
 	"rdapURLs": [
 		"https://rdap.nic.食品/"

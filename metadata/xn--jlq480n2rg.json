@@ -1,7 +1,7 @@
 {
 	"domain": "亚马逊",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "http://nic.亚马逊/",
+	"infoURL": "https://nic.亚马逊/",
 	"whoisServer": "whois.nic.亚马逊",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/xn--jlq480n2rg/"
