@@ -54,7 +54,14 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 			if u == "" {
 				continue
 			}
-			res, err := client.Get(u)
+			u = NormalizeURL(u)
+			req, err := http.NewRequest(http.MethodGet, u, nil)
+			if err != nil {
+				Trace("@{y!}Warning:@{y} error fetching info URL for @{y!}%s@{y}: (%s): %v\n", z.Domain, u, err)
+				continue
+			}
+			req.Header.Set("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36")
+			res, err := client.Do(req)
 			if err != nil {
 				if u == z.InfoURL {
 					Trace("@{y!}Warning:@{y} error fetching info URL for @{y!}%s@{y}: (%s): %v\n", z.Domain, u, err)
@@ -67,7 +74,9 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 				continue
 			}
 			CloseN(res.Body, 10_000_000)
-			infoURL = NormalizeURL(res.Request.URL.String())
+			// Don’t use redirected URL, use the URL we crafted
+			// infoURL = NormalizeURL(res.Request.URL.String())
+			infoURL = u
 			break
 		}
 
