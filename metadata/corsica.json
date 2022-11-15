@@ -1,7 +1,7 @@
 {
 	"domain": "corsica",
 	"registryOperator": "Collectivité de Corse",
-	"infoURL": "http://nic.corsica/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/corsica",
 	"whoisServer": "whois.nic.corsica",
 	"rdapURLs": [
 		"https://rdap.nic.corsica/"

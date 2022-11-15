@@ -1,7 +1,7 @@
 {
 	"domain": "cisco",
 	"registryOperator": "Cisco Technology, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.nic.cisco/",
 	"whoisServer": "whois.nic.cisco",
 	"rdapURLs": [
 		"https://rdap.nic.cisco/"
