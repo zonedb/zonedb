@@ -2,7 +2,7 @@
 	"domain": "info",
 	"registryOperator": "Identity Digital Limited",
 	"infoURL": "https://info.info/",
-	"whoisServer": "whois.nic.info",
+	"whoisServer": "whois.afilias.net",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"
 	],

@@ -2,7 +2,7 @@
 	"domain": "rich",
 	"registryOperator": "iRegistry GmbH",
 	"infoURL": "https://nic.rich/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.rich",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/rich/"
 	],

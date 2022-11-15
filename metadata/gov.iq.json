@@ -1,10 +1,8 @@
 {
 	"domain": "gov.iq",
 	"nameServers": [
-		"ns.cocca.fr",
 		"ns1.cmc.iq",
-		"nsp-anycast.cmc.iq",
-		"sns-pb.isc.org"
+		"nsp-anycast.cmc.iq"
 	],
 	"policies": [
 		{

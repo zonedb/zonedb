@@ -2,7 +2,7 @@
 	"domain": "llp",
 	"registryOperator": "Intercap Registry Inc.",
 	"infoURL": "https://uniregistry.link/extensions/llp/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.llp",
 	"nameServers": [
 		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",

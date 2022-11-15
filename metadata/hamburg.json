@@ -15,6 +15,7 @@
 		"DE-HH"
 	],
 	"languages": [
+		"mul-Cyrl",
 		"mul-Latn"
 	],
 	"tags": [
@@ -23,6 +24,11 @@
 		"geo"
 	],
 	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/hamburg_cyrl_2.txt"
+		},
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",

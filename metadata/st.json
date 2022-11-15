@@ -2,10 +2,9 @@
 	"domain": "st",
 	"whoisServer": "whois.nic.st",
 	"nameServers": [
-		"dns-au.st",
 		"dns-st.bahnhof.net",
-		"dns-us.st",
-		"ns1.bahnhof.net"
+		"ns1.bahnhof.net",
+		"southeast-2.dns-au.st"
 	],
 	"tags": [
 		"country",
