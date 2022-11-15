@@ -1,7 +1,7 @@
 {
 	"domain": "delta",
 	"registryOperator": "Delta Air Lines, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.delta/",
 	"whoisServer": "whois.nic.delta",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/delta/"

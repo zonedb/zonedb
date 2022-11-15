@@ -1,7 +1,7 @@
 {
 	"domain": "george",
 	"registryOperator": "Wal-Mart Stores, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/george",
 	"whoisServer": "whois.nic.george",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/george/v1/"

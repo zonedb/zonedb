@@ -1,6 +1,6 @@
 {
 	"domain": "mp",
-	"infoURL": "http://get.mp/",
+	"infoURL": "https://get.mp/",
 	"whoisServer": "whois.nic.mp",
 	"nameServers": [
 		"ns1.nic.mp",

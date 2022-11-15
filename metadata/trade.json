@@ -1,7 +1,7 @@
 {
 	"domain": "trade",
 	"registryOperator": "Elite Registry Limited",
-	"infoURL": "https://www.famousfourmedia.com/",
+	"infoURL": "http://nic.trade/",
 	"whoisServer": "whois.nic.trade",
 	"rdapURLs": [
 		"https://rdap.nic.trade/"

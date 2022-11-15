@@ -1,7 +1,7 @@
 {
 	"domain": "linde",
 	"registryOperator": "Linde Aktiengesellschaft",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/linde",
 	"whoisServer": "whois.nic.linde",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/linde/v1/"

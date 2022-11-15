@@ -1,7 +1,7 @@
 {
 	"domain": "toshiba",
 	"registryOperator": "TOSHIBA Corporation",
-	"infoURL": "http://www.nic.toshiba/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/toshiba",
 	"whoisServer": "whois.nic.toshiba",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

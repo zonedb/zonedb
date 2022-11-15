@@ -1,7 +1,7 @@
 {
 	"domain": "phone",
 	"registryOperator": "Dish DBS Corporation",
-	"infoURL": "http://www.dishtlds.com/phone/",
+	"infoURL": "https://www.dishtlds.com/phone/",
 	"whoisServer": "whois.nic.phone",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/phone/"

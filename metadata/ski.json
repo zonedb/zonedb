@@ -1,7 +1,7 @@
 {
 	"domain": "ski",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://domains.ski/",
+	"infoURL": "http://nic.ski/",
 	"whoisServer": "whois.nic.ski",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

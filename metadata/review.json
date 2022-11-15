@@ -1,7 +1,7 @@
 {
 	"domain": "review",
 	"registryOperator": "dot Review Limited",
-	"infoURL": "https://www.famousfourmedia.com/",
+	"infoURL": "http://nic.review/",
 	"whoisServer": "whois.nic.review",
 	"rdapURLs": [
 		"https://rdap.nic.review/"

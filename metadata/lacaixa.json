@@ -1,7 +1,7 @@
 {
 	"domain": "lacaixa",
 	"registryOperator": "Fundación Bancaria Caixa d’Estalvis i Pensions de Barcelona, “la Caixa”",
-	"infoURL": "http://nic.lacaixa/",
+	"infoURL": "http://www.nic.lacaixa/",
 	"whoisServer": "whois.nic.lacaixa",
 	"rdapURLs": [
 		"https://rdap.nic.lacaixa/"

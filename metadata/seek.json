@@ -1,7 +1,7 @@
 {
 	"domain": "seek",
 	"registryOperator": "Seek Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.seek/",
 	"whoisServer": "whois.nic.seek",
 	"rdapURLs": [
 		"https://rdap.nic.seek/"

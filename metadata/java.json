@@ -1,7 +1,7 @@
 {
 	"domain": "java",
 	"registryOperator": "Oracle Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/java",
 	"whoisServer": "whois.nic.java",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/java/v1/"

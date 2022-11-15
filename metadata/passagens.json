@@ -1,7 +1,7 @@
 {
 	"domain": "passagens",
 	"registryOperator": "Travel Reservations SRL",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/passagens",
 	"whoisServer": "whois.nic.passagens",
 	"rdapURLs": [
 		"https://rdap.nic.passagens/"

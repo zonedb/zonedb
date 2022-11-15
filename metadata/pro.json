@@ -1,8 +1,8 @@
 {
 	"domain": "pro",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://registry.pro/",
-	"whoisServer": "whois.registrypro.pro",
+	"infoURL": "http://nic.pro/",
+	"whoisServer": "whois.nic.pro",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"
 	],

@@ -1,7 +1,7 @@
 {
 	"domain": "top",
 	"registryOperator": ".TOP Registry",
-	"infoURL": "http://www.nic.top/",
+	"infoURL": "https://www.nic.top/",
 	"whoisServer": "whois.nic.top",
 	"rdapURLs": [
 		"https://rdap.zdnsgtld.com/top/"

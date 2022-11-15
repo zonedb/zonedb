@@ -1,7 +1,7 @@
 {
 	"domain": "pink",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://get.pink/",
+	"infoURL": "http://nic.pink/",
 	"whoisServer": "whois.nic.pink",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

@@ -1,7 +1,7 @@
 {
 	"domain": "locker",
 	"registryOperator": "Dish DBS Corporation",
-	"infoURL": "http://dishtlds.com/locker/",
+	"infoURL": "https://dishtlds.com/locker/",
 	"whoisServer": "whois.nic.locker",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/locker/"

@@ -1,7 +1,7 @@
 {
 	"domain": "oracle",
 	"registryOperator": "Oracle Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/oracle",
 	"whoisServer": "whois.nic.oracle",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/oracle/v1/"

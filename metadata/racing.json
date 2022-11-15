@@ -1,7 +1,7 @@
 {
 	"domain": "racing",
 	"registryOperator": "Premier Registry Limited",
-	"infoURL": "https://www.famousfourmedia.com/",
+	"infoURL": "http://nic.racing/",
 	"whoisServer": "whois.nic.racing",
 	"rdapURLs": [
 		"https://rdap.nic.racing/"

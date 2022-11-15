@@ -1,7 +1,7 @@
 {
 	"domain": "vanguard",
 	"registryOperator": "The Vanguard Group, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/vanguard",
 	"whoisServer": "whois.nic.vanguard",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/vanguard/v1/"

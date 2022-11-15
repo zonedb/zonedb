@@ -1,7 +1,7 @@
 {
 	"domain": "lotto",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://nic.lotto/",
+	"infoURL": "http://nic.lotto/",
 	"whoisServer": "whois.nic.lotto",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

@@ -1,7 +1,7 @@
 {
 	"domain": "forum",
 	"registryOperator": "Fegistry, LLC",
-	"infoURL": "http://nic.forum/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/forum",
 	"whoisServer": "whois.nic.forum",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/forum/"

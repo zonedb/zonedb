@@ -1,7 +1,7 @@
 {
 	"domain": "vote",
 	"registryOperator": "Monolith Registry LLC",
-	"infoURL": "https://get.vote/",
+	"infoURL": "http://nic.vote/",
 	"whoisServer": "whois.nic.vote",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

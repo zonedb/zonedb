@@ -1,7 +1,7 @@
 {
 	"domain": "shangrila",
 	"registryOperator": "Shangri‐La International Hotel Management Limited",
-	"infoURL": "http://nic.shangrila/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/shangrila",
 	"whoisServer": "whois.nic.shangrila",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/shangrila/v1/"
