@@ -1,7 +1,7 @@
 {
 	"domain": "accountant",
 	"registryOperator": "dot Accountant Limited",
-	"infoURL": "https://www.famousfourmedia.com/",
+	"infoURL": "http://nic.accountant/",
 	"whoisServer": "whois.nic.accountant",
 	"rdapURLs": [
 		"https://rdap.nic.accountant/"

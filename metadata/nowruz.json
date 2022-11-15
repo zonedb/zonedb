@@ -1,7 +1,7 @@
 {
 	"domain": "nowruz",
 	"registryOperator": "Asia Green IT System Bilgisayar San. ve Tic. Ltd. Sti.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.nowruz/",
 	"whoisServer": "whois.nic.nowruz",
 	"rdapURLs": [
 		"https://api.rdap.agitsys.net/"

@@ -1,7 +1,7 @@
 {
 	"domain": "cricket",
 	"registryOperator": "dot Cricket Limited",
-	"infoURL": "https://www.famousfourmedia.com/",
+	"infoURL": "http://nic.cricket/",
 	"whoisServer": "whois.nic.cricket",
 	"rdapURLs": [
 		"https://rdap.nic.cricket/"

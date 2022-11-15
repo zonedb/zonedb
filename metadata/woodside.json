@@ -1,7 +1,7 @@
 {
 	"domain": "woodside",
 	"registryOperator": "Woodside Petroleum Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.woodside/",
 	"whoisServer": "whois.nic.woodside",
 	"rdapURLs": [
 		"https://rdap.nic.woodside/"

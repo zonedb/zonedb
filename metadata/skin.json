@@ -1,7 +1,7 @@
 {
 	"domain": "skin",
 	"registryOperator": "XYZ.COM LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.skin/",
 	"whoisServer": "whois.nic.skin",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/skin/"

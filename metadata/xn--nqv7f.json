@@ -1,7 +1,7 @@
 {
 	"domain": "机构",
 	"registryOperator": "Public Interest Registry",
-	"infoURL": "https://pir.org/products/chinese2char-domain/",
+	"infoURL": "https://thenew.org/org-people/domain-products/%E6%9C%BA%E6%9E%84/",
 	"whoisServer": "whois.nic.机构",
 	"rdapURLs": [
 		"https://rdap.publicinterestregistry.org/rdap/"

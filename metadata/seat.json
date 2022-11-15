@@ -1,7 +1,7 @@
 {
 	"domain": "seat",
 	"registryOperator": "SEAT, S.A. (Sociedad Unipersonal)",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/seat",
 	"whoisServer": "whois.nic.seat",
 	"rdapURLs": [
 		"https://rdap.nic.seat/"

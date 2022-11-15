@@ -1,7 +1,7 @@
 {
 	"domain": "spa",
 	"registryOperator": "Asia Spa and Wellness Promotion Council Limited",
-	"infoURL": "http://www.nic.spa/",
+	"infoURL": "https://www.nic.spa/",
 	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.spa",

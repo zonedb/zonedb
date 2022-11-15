@@ -1,7 +1,7 @@
 {
 	"domain": "sca",
 	"registryOperator": "SVENSKA CELLULOSA AKTIEBOLAGET SCA (publ)",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.sca/",
 	"whoisServer": "whois.nic.sca",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/sca/v1/"

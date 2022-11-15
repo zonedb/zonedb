@@ -1,7 +1,7 @@
 {
 	"domain": "organic",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://get.organic/",
+	"infoURL": "http://nic.organic/",
 	"whoisServer": "whois.nic.organic",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

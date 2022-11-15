@@ -1,7 +1,7 @@
 {
 	"domain": "luxe",
 	"registryOperator": "Registry Services, LLC",
-	"infoURL": "http://nix.luxe/",
+	"infoURL": "https://nic.luxe/",
 	"whoisServer": "whois.nic.luxe",
 	"rdapURLs": [
 		"https://rdap.nic.luxe/"

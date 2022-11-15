@@ -1,7 +1,7 @@
 {
 	"domain": "realestate",
 	"registryOperator": "dotRealEstate LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://home.realestate/",
 	"whoisServer": "whois.nic.realestate",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/realestate/"

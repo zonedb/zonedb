@@ -1,7 +1,7 @@
 {
 	"domain": "tiffany",
 	"registryOperator": "Tiffany and Company",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.tiffany/",
 	"whoisServer": "whois.nic.tiffany",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/tiffany/v1/"

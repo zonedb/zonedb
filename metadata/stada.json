@@ -1,7 +1,7 @@
 {
 	"domain": "stada",
 	"registryOperator": "STADA Arzneimittel AG",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.stada/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/stada/"

@@ -1,7 +1,7 @@
 {
 	"domain": "olayan",
 	"registryOperator": "Crescent Holding GmbH",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.olayan/",
 	"whoisServer": "whois.nic.olayan",
 	"rdapURLs": [
 		"https://rdap.nic.olayan/"

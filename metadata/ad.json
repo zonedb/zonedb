@@ -1,6 +1,6 @@
 {
 	"domain": "ad",
-	"infoURL": "http://www.nic.ad/",
+	"infoURL": "https://www.iana.org/domains/root/db/ad.html",
 	"nameServers": [
 		"ad.cctld.authdns.ripe.net",
 		"ad.ns.nic.es",

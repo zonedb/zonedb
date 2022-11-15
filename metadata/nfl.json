@@ -1,7 +1,7 @@
 {
 	"domain": "nfl",
 	"registryOperator": "NFL Reg Ops LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.nfl/",
 	"whoisServer": "whois.nic.nfl",
 	"rdapURLs": [
 		"https://rdap.nic.nfl/"

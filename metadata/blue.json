@@ -1,7 +1,7 @@
 {
 	"domain": "blue",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://dotblue.blue/",
+	"infoURL": "https://identity.digital/",
 	"whoisServer": "whois.nic.blue",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

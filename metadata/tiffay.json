@@ -1,4 +1,7 @@
 {
 	"domain": "tiffay",
-	"whoisServer": "whois.nic.tiffany"
+	"whoisServer": "whois.nic.tiffany",
+	"tags": [
+		"withdrawn"
+	]
 }

@@ -1,7 +1,7 @@
 {
 	"domain": "date",
 	"registryOperator": "dot Date Limited",
-	"infoURL": "https://www.famousfourmedia.com/",
+	"infoURL": "http://nic.date/",
 	"whoisServer": "whois.nic.date",
 	"rdapURLs": [
 		"https://rdap.nic.date/"

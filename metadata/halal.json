@@ -1,8 +1,8 @@
 {
 	"domain": "halal",
-	"infoURL": "https://newgtlds.icann.org/",
 	"tags": [
-		"generic"
+		"generic",
+		"withdrawn"
 	],
 	"policies": [
 		{

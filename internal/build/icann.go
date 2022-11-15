@@ -29,8 +29,12 @@ func FetchGTLDsFromICANN(zones map[string]*Zone) error {
 	}
 
 	var tagsAdded, tagsRemoved, zonesWithdrawn, zonesRetired, zonesModified int
+	gTLDs := make(map[string]icannGTLD, len(x.GTLDs))
+
+	// Iterate over ICANN-known gTLDs
 	for _, g := range x.GTLDs {
 		domain := Normalize(g.GTLD)
+		gTLDs[domain] = g
 		z, ok := zones[domain]
 		if !ok {
 			if len(zones) > 100 {
@@ -92,6 +96,17 @@ func FetchGTLDsFromICANN(zones map[string]*Zone) error {
 		}
 	}
 
+	// Iterate over work zones
+	for _, z := range zones {
+		if !z.IsTLD() || z.IsRetiredOrWithdrawn() {
+			continue
+		}
+		_, ok := gTLDs[z.Domain]
+		if !ok && len(z.NameServers) == 0 {
+			z.AddTags(TagWithdrawn)
+		}
+	}
+
 	Trace("@{.}Added %d tag(s), removed %d tag(s) from %d zone(s)\n", tagsAdded, tagsRemoved, zonesModified)
 	Trace("@{.}Withdrew %d and retired %d zone(s)\n", zonesWithdrawn, zonesRetired)
 
@@ -99,22 +114,24 @@ func FetchGTLDsFromICANN(zones map[string]*Zone) error {
 }
 
 type icannGTLDResponse struct {
-	GTLDs []struct {
-		ApplicationID           string  `json:"applicationID"`
-		ContractTerminated      bool    `json:"contractTerminated"`
-		DateOfContractSignature ISODate `json:"dateOfContractSignature"`
-		DelegationDate          ISODate `json:"delegationDate"`
-		GTLD                    string  `json:"gTLD"`
-		// RegistryClassDomainNameList   interface{} `json:"registryClassDomainNameList"` // (always null)
-		RegistryOperator string `json:"registryOperator"`
-		// RegistryOperatorCountryCode   *string     `json:"registryOperatorCountryCode"` // (always null)
-		RemovalDate                   ISODate `json:"removalDate"`
-		Specification13               bool    `json:"specification13"`               // Brand TLD
-		ThirdOrLowerLevelRegistration bool    `json:"thirdOrLowerLevelRegistration"` // (always false or null)
-		ULabel                        string  `json:"uLabel"`                        // Unicode IDN label
-	} `json:"gTLDs"`
+	GTLDs []icannGTLD `json:"gTLDs"`
 	// UpdatedOn time.Time `json:"updatedOn"` // Ignored because of nonstandard format
 	Version int `json:"version"`
+}
+
+type icannGTLD struct {
+	ApplicationID           string  `json:"applicationID"`
+	ContractTerminated      bool    `json:"contractTerminated"`
+	DateOfContractSignature ISODate `json:"dateOfContractSignature"`
+	DelegationDate          ISODate `json:"delegationDate"`
+	GTLD                    string  `json:"gTLD"`
+	// RegistryClassDomainNameList   interface{} `json:"registryClassDomainNameList"` // (always null)
+	RegistryOperator string `json:"registryOperator"`
+	// RegistryOperatorCountryCode   *string     `json:"registryOperatorCountryCode"` // (always null)
+	RemovalDate                   ISODate `json:"removalDate"`
+	Specification13               bool    `json:"specification13"`               // Brand TLD
+	ThirdOrLowerLevelRegistration bool    `json:"thirdOrLowerLevelRegistration"` // (always false or null)
+	ULabel                        string  `json:"uLabel"`                        // Unicode IDN label
 }
 
 /*

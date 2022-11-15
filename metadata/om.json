@@ -1,6 +1,6 @@
 {
 	"domain": "om",
-	"infoURL": "http://www.registry.om/",
+	"infoURL": "https://www.registry.om/",
 	"whoisServer": "whois.registry.om",
 	"nameServers": [
 		"cctld.alpha.aridns.net.au",

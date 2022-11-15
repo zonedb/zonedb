@@ -1,7 +1,7 @@
 {
 	"domain": "sandvik",
 	"registryOperator": "Sandvik AB",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.nic.sandvik/en/",
 	"whoisServer": "whois.nic.sandvik",
 	"rdapURLs": [
 		"https://rdap.nic.sandvik/"

@@ -1,7 +1,7 @@
 {
 	"domain": "stcgroup",
 	"registryOperator": "Saudi Telecom Company",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.stcgroup/",
 	"whoisServer": "whois.nic.stcgroup",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/stcgroup/"

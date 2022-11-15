@@ -1,7 +1,7 @@
 {
 	"domain": "tirol",
 	"registryOperator": "punkt Tirol GmbH",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.tirol/",
 	"whoisServer": "whois.nic.tirol",
 	"rdapURLs": [
 		"https://rdap.ryce-rsp.com/rdap/"

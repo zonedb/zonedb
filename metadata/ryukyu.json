@@ -1,7 +1,7 @@
 {
 	"domain": "ryukyu",
 	"registryOperator": "BRregistry, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.brregistry.com/geotlds/",
 	"whoisServer": "whois.nic.ryukyu",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

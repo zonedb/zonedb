@@ -1,7 +1,7 @@
 {
 	"domain": "bid",
 	"registryOperator": "dot Bid Limited",
-	"infoURL": "https://www.famousfourmedia.com/",
+	"infoURL": "http://nic.bid/",
 	"whoisServer": "whois.nic.bid",
 	"rdapURLs": [
 		"https://rdap.nic.bid/"

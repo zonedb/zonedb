@@ -1,6 +1,5 @@
 {
 	"domain": "nationwide",
-	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.nationwide",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/nationwide/v1/"

@@ -1,7 +1,7 @@
 {
 	"domain": "party",
 	"registryOperator": "Blue Sky Registry Limited",
-	"infoURL": "https://www.famousfourmedia.com/",
+	"infoURL": "http://nic.party/",
 	"whoisServer": "whois.nic.party",
 	"rdapURLs": [
 		"https://rdap.nic.party/"

@@ -1,7 +1,7 @@
 {
 	"domain": "pet",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://get.pet/",
+	"infoURL": "http://nic.pet/",
 	"whoisServer": "whois.nic.pet",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

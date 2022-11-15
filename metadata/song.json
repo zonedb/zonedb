@@ -1,7 +1,7 @@
 {
 	"domain": "song",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.song/",
 	"whoisServer": "whois.nic.song",
 	"rdapURLs": [
 		"https://rdap.nic.song/"

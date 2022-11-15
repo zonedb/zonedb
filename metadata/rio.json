@@ -1,7 +1,7 @@
 {
 	"domain": "rio",
 	"registryOperator": "Empresa Municipal de Informática SA - IPLANRIO",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.rio/",
 	"whoisServer": "whois.gtlds.nic.br",
 	"rdapURLs": [
 		"https://rdap.gtlds.nic.br/"

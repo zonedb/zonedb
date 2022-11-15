@@ -1,7 +1,7 @@
 {
 	"domain": "site",
 	"registryOperator": "Radix FZC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://radix.website/dot-site",
 	"whoisServer": "whois.nic.site",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/site/"

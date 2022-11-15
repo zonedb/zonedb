@@ -1,7 +1,7 @@
 {
 	"domain": "mtr",
 	"registryOperator": "MTR Corporation Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/mtr",
 	"whoisServer": "whois.nic.mtr",
 	"rdapURLs": [
 		"https://whois.nic.mtr/rdap/"

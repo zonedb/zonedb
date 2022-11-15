@@ -1,7 +1,7 @@
 {
 	"domain": "bbt",
 	"registryOperator": "BB\u0026T Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.bbt/",
 	"whoisServer": "whois.nic.bbt",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/bbt/v1/"

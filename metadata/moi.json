@@ -1,7 +1,7 @@
 {
 	"domain": "moi",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "http://bienvenue.moi/",
+	"infoURL": "https://bienvenue.moi/",
 	"whoisServer": "whois.nic.moi",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/moi/"

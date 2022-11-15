@@ -1,6 +1,6 @@
 {
 	"domain": "ua",
-	"infoURL": "http://www.nic.net.ua/",
+	"infoURL": "https://www.nic.net.ua/",
 	"whoisServer": "whois.ua",
 	"nameServers": [
 		"bg.ns.ua",

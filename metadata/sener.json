@@ -1,7 +1,7 @@
 {
 	"domain": "sener",
 	"registryOperator": "Sener Ingeniería y Sistemas, S.A.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.sener/",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/sener/v1/"
 	],

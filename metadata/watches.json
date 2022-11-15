@@ -1,7 +1,7 @@
 {
 	"domain": "watches",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://identity.digital/",
 	"whoisServer": "whois.nic.watches",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

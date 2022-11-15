@@ -1,7 +1,7 @@
 {
 	"domain": "shia",
 	"registryOperator": "Asia Green IT System Bilgisayar San. ve Tic. Ltd. Sti.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.shia/",
 	"whoisServer": "whois.nic.shia",
 	"rdapURLs": [
 		"https://api.rdap.agitsys.net/"

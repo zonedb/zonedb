@@ -1,7 +1,7 @@
 {
 	"domain": "comsec",
 	"registryOperator": "VeriSign, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/comsec",
 	"whoisServer": "whois.nic.comsec",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/comsec/v1/"

@@ -1,7 +1,7 @@
 {
 	"domain": "trust",
 	"registryOperator": "Internet Naming Company LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://uniregistry.link/extensions/trust/",
 	"whoisServer": "whois.nic.trust",
 	"rdapURLs": [
 		"https://rdap.nic.trust/"

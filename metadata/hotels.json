@@ -1,7 +1,7 @@
 {
 	"domain": "hotels",
 	"registryOperator": "Booking.com B.V.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/hotels",
 	"whoisServer": "whois.nic.hotels",
 	"rdapURLs": [
 		"https://rdap.nic.hotels/"

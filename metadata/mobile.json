@@ -1,7 +1,7 @@
 {
 	"domain": "mobile",
 	"registryOperator": "Dish DBS Corporation",
-	"infoURL": "http://www.dishtlds.com/mobile/",
+	"infoURL": "https://www.dishtlds.com/mobile/",
 	"whoisServer": "whois.nic.mobile",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/mobile/"

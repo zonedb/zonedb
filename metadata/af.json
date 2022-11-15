@@ -1,6 +1,6 @@
 {
 	"domain": "af",
-	"infoURL": "http://www.nic.af/",
+	"infoURL": "https://nic.af/",
 	"whoisServer": "whois.nic.af",
 	"nameServers": [
 		"ns1.anycastdns.cz",

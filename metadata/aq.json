@@ -1,6 +1,7 @@
 {
 	"domain": "aq",
-	"infoURL": "http://www.gobin.info/domainname/aq.txt",
+	"registryOperator": "Antarctica Network Information Centre Limited",
+	"infoURL": "https://www.iana.org/domains/root/db/aq.html",
 	"nameServers": [
 		"fork.sth.dnsnode.net",
 		"ns1.anycast.dns.aq",

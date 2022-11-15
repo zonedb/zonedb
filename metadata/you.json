@@ -1,7 +1,7 @@
 {
 	"domain": "you",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.you/",
 	"whoisServer": "whois.nic.you",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/you/"

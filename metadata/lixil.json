@@ -1,7 +1,6 @@
 {
 	"domain": "lixil",
 	"registryOperator": "LIXIL Group Corporation",
-	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.lixil",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

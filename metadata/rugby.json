@@ -1,7 +1,7 @@
 {
 	"domain": "rugby",
 	"registryOperator": "World Rugby Strategic Developments Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.rugby/",
 	"whoisServer": "whois.nic.rugby",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/rugby/"

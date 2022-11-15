@@ -1,7 +1,6 @@
 {
 	"domain": "off",
 	"registryOperator": "Johnson Shareholdings, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.off",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/off/v1/"

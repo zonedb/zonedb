@@ -1,4 +1,7 @@
 {
 	"domain": "origin",
-	"whoisServer": "whois.afilias-srs.net"
+	"whoisServer": "whois.afilias-srs.net",
+	"tags": [
+		"withdrawn"
+	]
 }

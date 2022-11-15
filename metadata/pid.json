@@ -1,7 +1,7 @@
 {
 	"domain": "pid",
 	"registryOperator": "Top Level Spectrum, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://www.nic.pid/",
 	"whoisServer": "whois.nic.pid",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/pid/"

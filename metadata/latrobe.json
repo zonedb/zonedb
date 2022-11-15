@@ -1,7 +1,7 @@
 {
 	"domain": "latrobe",
 	"registryOperator": "La Trobe University",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/latrobe",
 	"whoisServer": "whois.nic.latrobe",
 	"rdapURLs": [
 		"https://rdap.nic.latrobe/"

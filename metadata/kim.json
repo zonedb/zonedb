@@ -1,7 +1,7 @@
 {
 	"domain": "kim",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://get.kim/",
+	"infoURL": "http://nic.kim/",
 	"whoisServer": "whois.nic.kim",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

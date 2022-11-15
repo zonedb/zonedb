@@ -1,7 +1,7 @@
 {
 	"domain": "trading",
 	"registryOperator": "Dog Beach, LLC",
-	"infoURL": "https://bostonivy.co/",
+	"infoURL": "http://nic.trading/",
 	"whoisServer": "whois.nic.trading",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

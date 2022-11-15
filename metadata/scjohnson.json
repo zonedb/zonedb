@@ -1,7 +1,6 @@
 {
 	"domain": "scjohnson",
 	"registryOperator": "Johnson Shareholdings, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.scjohnson",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/scjohnson/v1/"

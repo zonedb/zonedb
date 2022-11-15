@@ -1,7 +1,7 @@
 {
 	"domain": "wolterskluwer",
 	"registryOperator": "Wolters Kluwer N.V.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.wolterskluwer/",
 	"whoisServer": "whois.nic.wolterskluwer",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/wolterskluwer/"

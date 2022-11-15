@@ -1,7 +1,7 @@
 {
 	"domain": "ricoh",
 	"registryOperator": "Ricoh Company, Ltd.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.ricoh/",
 	"whoisServer": "whois.nic.ricoh",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"

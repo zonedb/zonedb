@@ -1,7 +1,7 @@
 {
 	"domain": "final",
 	"registryOperator": "Núcleo de Informação e Coordenação do Ponto BR - NIC.br",
-	"infoURL": "https://gtlds.nic.br/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/final",
 	"whoisServer": "whois.gtlds.nic.br",
 	"rdapURLs": [
 		"https://rdap.gtlds.nic.br/"

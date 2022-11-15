@@ -1,6 +1,6 @@
 {
 	"domain": "tg",
-	"infoURL": "http://www.nic.tg/",
+	"infoURL": "https://www.nic.tg/",
 	"whoisServer": "whois.nic.tg",
 	"nameServers": [
 		"ns1.admin.net",

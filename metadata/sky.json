@@ -1,7 +1,7 @@
 {
 	"domain": "sky",
 	"registryOperator": "Sky International AG",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.skygroup.sky/nic-sky",
 	"whoisServer": "whois.nic.sky",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/sky/v1/"

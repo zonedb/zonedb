@@ -1,7 +1,7 @@
 {
 	"domain": "redstone",
 	"registryOperator": "Redstone Haute Couture Co., Ltd.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.redstone/",
 	"whoisServer": "whois.nic.redstone",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/redstone/"

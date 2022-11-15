@@ -1,7 +1,7 @@
 {
 	"domain": "storage",
 	"registryOperator": "XYZ.COM LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.storage/",
 	"whoisServer": "whois.nic.storage",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/storage/"

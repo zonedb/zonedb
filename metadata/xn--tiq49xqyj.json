@@ -1,7 +1,7 @@
 {
 	"domain": "天主教",
 	"registryOperator": "Pontificium Consilium de Comunicationibus Socialibus (PCCS) (Pontifical Council for Social Communication)",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.天主教/",
 	"whoisServer": "whois.nic.天主教",
 	"rdapURLs": [
 		"https://rdap.nic.天主教/"

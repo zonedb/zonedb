@@ -1,7 +1,7 @@
 {
 	"domain": "tci",
 	"registryOperator": "Asia Green IT System Bilgisayar San. ve Tic. Ltd. Sti.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.tci/",
 	"whoisServer": "whois.nic.tci",
 	"rdapURLs": [
 		"https://api.rdap.agitsys.net/"

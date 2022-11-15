@@ -1,7 +1,7 @@
 {
 	"domain": "pay",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.pay/",
 	"whoisServer": "whois.nic.pay",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/pay/"

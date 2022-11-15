@@ -1,7 +1,7 @@
 {
 	"domain": "win",
 	"registryOperator": "First Registry Limited",
-	"infoURL": "https://www.famousfourmedia.com/",
+	"infoURL": "http://nic.win/",
 	"whoisServer": "whois.nic.win",
 	"rdapURLs": [
 		"https://rdap.nic.win/"

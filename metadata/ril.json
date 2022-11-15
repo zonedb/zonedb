@@ -1,7 +1,7 @@
 {
 	"domain": "ril",
 	"registryOperator": "Reliance Industries Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.ril/",
 	"whoisServer": "whois.nic.ril",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/ril/"

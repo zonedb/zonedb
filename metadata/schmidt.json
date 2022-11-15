@@ -1,7 +1,7 @@
 {
 	"domain": "schmidt",
 	"registryOperator": "SCHMIDT GROUPE S.A.S.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.schmidt/",
 	"whoisServer": "whois.nic.schmidt",
 	"rdapURLs": [
 		"https://rdap.nic.schmidt/"

@@ -1,6 +1,6 @@
 {
 	"domain": "td",
-	"infoURL": "http://nic.td/",
+	"infoURL": "https://nic.td/",
 	"whoisServer": "whois.nic.td",
 	"nameServers": [
 		"anycastdns1.nic.td",

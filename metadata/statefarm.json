@@ -1,7 +1,7 @@
 {
 	"domain": "statefarm",
 	"registryOperator": "State Farm Mutual Automobile Insurance Company",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.statefarm/",
 	"whoisServer": "whois.nic.statefarm",
 	"rdapURLs": [
 		"https://rdap.nic.statefarm/"

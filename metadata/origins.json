@@ -1,7 +1,7 @@
 {
 	"domain": "origins",
 	"registryOperator": "The Estée Lauder Companies Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/origins",
 	"whoisServer": "whois.nic.origins",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/origins/"

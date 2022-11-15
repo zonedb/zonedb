@@ -1,7 +1,7 @@
 {
 	"domain": "sncf",
 	"registryOperator": "Société Nationale des Chemins de fer Francais S N C F",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/sncf",
 	"whoisServer": "whois.nic.sncf",
 	"rdapURLs": [
 		"https://rdap.nic.sncf/"

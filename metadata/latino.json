@@ -1,7 +1,7 @@
 {
 	"domain": "latino",
 	"registryOperator": "Dish DBS Corporation",
-	"infoURL": "http://www.dishtlds.com/latino/",
+	"infoURL": "https://www.dishtlds.com/latino/",
 	"whoisServer": "whois.nic.latino",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/latino/"

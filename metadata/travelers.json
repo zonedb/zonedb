@@ -1,7 +1,7 @@
 {
 	"domain": "travelers",
 	"registryOperator": "Travelers TLD, LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.travelers/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/travelers/"

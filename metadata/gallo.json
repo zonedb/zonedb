@@ -1,7 +1,7 @@
 {
 	"domain": "gallo",
 	"registryOperator": "Gallo Vineyards, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/gallo",
 	"whoisServer": "whois.nic.gallo",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/gallo/v1/"

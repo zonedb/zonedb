@@ -1,7 +1,7 @@
 {
 	"domain": "tjmaxx",
 	"registryOperator": "The TJX Companies, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.tjmaxx/",
 	"whoisServer": "whois.nic.tjmaxx",
 	"rdapURLs": [
 		"https://rdap.nic.tjmaxx/"

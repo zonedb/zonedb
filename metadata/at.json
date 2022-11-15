@@ -1,6 +1,6 @@
 {
 	"domain": "at",
-	"infoURL": "https://www.nic.at/de",
+	"infoURL": "https://www.nic.at/",
 	"whoisServer": "whois.nic.at",
 	"nameServers": [
 		"d.ns.at",

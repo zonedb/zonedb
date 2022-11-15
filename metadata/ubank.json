@@ -1,7 +1,7 @@
 {
 	"domain": "ubank",
 	"registryOperator": "National Australia Bank Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.ubank.com.au/nic",
 	"whoisServer": "whois.nic.ubank",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/ubank/v1/"

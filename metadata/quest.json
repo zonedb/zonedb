@@ -1,7 +1,7 @@
 {
 	"domain": "quest",
 	"registryOperator": "XYZ.COM LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.quest/",
 	"whoisServer": "whois.nic.quest",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/quest/"

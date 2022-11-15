@@ -1,7 +1,7 @@
 {
 	"domain": "sew",
 	"registryOperator": "SEW-EURODRIVE GmbH \u0026 Co KG",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.sew/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/sew/"

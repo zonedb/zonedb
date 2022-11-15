@@ -1,7 +1,7 @@
 {
 	"domain": "realtor",
 	"registryOperator": "Real Estate Domains LLC",
-	"infoURL": "https://www.claim.realtor/",
+	"infoURL": "http://nic.realtor/",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/realtor/"
 	],

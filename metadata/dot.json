@@ -1,7 +1,7 @@
 {
 	"domain": "dot",
 	"registryOperator": "Dish DBS Corporation",
-	"infoURL": "http://www.dishtlds.com/dot/",
+	"infoURL": "https://www.dishtlds.com/dot/",
 	"whoisServer": "whois.nic.dot",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/dot/"

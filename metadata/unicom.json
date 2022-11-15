@@ -1,7 +1,7 @@
 {
 	"domain": "unicom",
 	"registryOperator": "China United Network Communications Corporation Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/unicom",
 	"whoisServer": "whois.nic.unicom",
 	"rdapURLs": [
 		"https://rdap.zdnsgtld.com/unicom/"

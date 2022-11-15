@@ -1,7 +1,7 @@
 {
 	"domain": "tunes",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.tunes/",
 	"whoisServer": "whois.nic.tunes",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/tunes/"

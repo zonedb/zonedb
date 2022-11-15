@@ -1,7 +1,7 @@
 {
 	"domain": "promo",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://get.promo/",
+	"infoURL": "http://nic.promo/",
 	"whoisServer": "whois.nic.promo",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

@@ -25,6 +25,7 @@ func main() {
 	filterZones := flag.String("zones", "", "select specific working zones (comma-delimited)")
 	filterRegexp := flag.String("x", "", "filter working zones by regular expression")
 	filterGrep := flag.String("grep", "", "filter working zones by regular expression across all metadata")
+	excludeGrep := flag.String("exclude-grep", "", "exclude working zones by regular expression across all metadata")
 	filterTags := flag.String("tags", "", "filter working zones by tags (comma-delimited)")
 	excludeTags := flag.String("exclude-tags", "", "exclude working zones with tags (comma-delimited)")
 
@@ -143,6 +144,22 @@ func main() {
 		for d, z := range workZones {
 			j, _ := json.MarshalIndent(z, "", "\t")
 			if re.Match(j) {
+				filtered[d] = z
+			}
+		}
+		workZones = filtered
+	}
+
+	if *excludeGrep != "" {
+		re, err := regexp.Compile(*excludeGrep)
+		if err != nil {
+			errs = append(errs, err)
+			build.LogFatal(err)
+		}
+		filtered := make(map[string]*build.Zone, len(workZones))
+		for d, z := range workZones {
+			j, _ := json.MarshalIndent(z, "", "\t")
+			if !re.Match(j) {
 				filtered[d] = z
 			}
 		}

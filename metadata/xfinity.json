@@ -1,7 +1,7 @@
 {
 	"domain": "xfinity",
 	"registryOperator": "Comcast IP Holdings I, LLC",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.xfinity/",
 	"whoisServer": "whois.nic.xfinity",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/xfinity/"

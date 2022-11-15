@@ -1,7 +1,7 @@
 {
 	"domain": "cfa",
 	"registryOperator": "CFA Institute",
-	"infoURL": "https://www.cfainstitute.org/utility/Pages/nic.aspx",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/cfa",
 	"whoisServer": "whois.nic.cfa",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/cfa/v1/"

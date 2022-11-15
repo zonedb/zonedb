@@ -1,7 +1,7 @@
 {
 	"domain": "now",
 	"registryOperator": "Amazon Registry Services, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.now/",
 	"whoisServer": "whois.nic.now",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/now/"

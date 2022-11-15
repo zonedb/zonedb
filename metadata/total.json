@@ -1,7 +1,7 @@
 {
 	"domain": "total",
 	"registryOperator": "TOTAL SE",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.total/",
 	"whoisServer": "whois.nic.total",
 	"rdapURLs": [
 		"https://rdap.nic.total/"

@@ -1,7 +1,7 @@
 {
 	"domain": "wtc",
 	"registryOperator": "World Trade Centers Association, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.wtc/",
 	"whoisServer": "whois.nic.wtc",
 	"rdapURLs": [
 		"https://rdap.nic.wtc/"

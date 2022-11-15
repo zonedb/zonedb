@@ -1,7 +1,7 @@
 {
 	"domain": "loan",
 	"registryOperator": "dot Loan Limited",
-	"infoURL": "https://www.famousfourmedia.com/",
+	"infoURL": "http://nic.loan/",
 	"whoisServer": "whois.nic.loan",
 	"rdapURLs": [
 		"https://rdap.nic.loan/"

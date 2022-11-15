@@ -1,7 +1,6 @@
 {
 	"domain": "swiftcover",
 	"registryOperator": "Swiftcover Insurance Services Limited",
-	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.swiftcover",
 	"rdapURLs": [
 		"https://rdap.nic.swiftcover/"

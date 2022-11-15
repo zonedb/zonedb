@@ -1,6 +1,5 @@
 {
 	"domain": "onyourside",
-	"infoURL": "https://newgtlds.icann.org/",
 	"whoisServer": "whois.nic.onyourside",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/onyourside/v1/"

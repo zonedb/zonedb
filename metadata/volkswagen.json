@@ -1,7 +1,7 @@
 {
 	"domain": "volkswagen",
 	"registryOperator": "Volkswagen Group of America Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.volkswagen/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/volkswagen/"

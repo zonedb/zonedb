@@ -1,7 +1,7 @@
 {
 	"domain": "rwe",
 	"registryOperator": "RWE AG",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.rwe/",
 	"whoisServer": "whois.nic.rwe",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/rwe/v1/"

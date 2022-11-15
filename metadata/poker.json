@@ -1,7 +1,7 @@
 {
 	"domain": "poker",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://get.poker/",
+	"infoURL": "http://nic.poker/",
 	"whoisServer": "whois.nic.poker",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

@@ -1,7 +1,7 @@
 {
 	"domain": "red",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://get.red/",
+	"infoURL": "http://nic.red/",
 	"whoisServer": "whois.nic.red",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

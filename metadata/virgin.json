@@ -1,7 +1,7 @@
 {
 	"domain": "virgin",
 	"registryOperator": "Virgin Enterprises Limited",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "http://nic.virgin/",
 	"whoisServer": "whois.nic.virgin",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/virgin/"

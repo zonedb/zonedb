@@ -1,6 +1,7 @@
 {
 	"domain": "мон",
-	"infoURL": "https://newgtlds.icann.org/",
+	"registryOperator": "Datacom Co.,Ltd",
+	"infoURL": "https://www.mon.mn/",
 	"nameServers": [
 		"ns1.idn.mn",
 		"ns2.idn.mn",

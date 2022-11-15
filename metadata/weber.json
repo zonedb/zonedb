@@ -1,7 +1,7 @@
 {
 	"domain": "weber",
 	"registryOperator": "Saint-Gobain Weber SA",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.weber/",
 	"whoisServer": "whois.nic.weber",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/weber/v1/"

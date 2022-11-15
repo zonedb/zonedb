@@ -1,7 +1,7 @@
 {
 	"domain": "pharmacy",
 	"registryOperator": "National Association of Boards of Pharmacy",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://nic.pharmacy/",
 	"whoisServer": "whois.nic.pharmacy",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/pharmacy/"

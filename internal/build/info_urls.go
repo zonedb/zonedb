@@ -4,58 +4,91 @@ import (
 	"io"
 	"io/ioutil"
 	"net/http"
-	"os"
 	"strings"
 	"time"
-
-	"github.com/wsxiaoys/terminal/color"
 )
 
 func UpdateInfoURLs(zones map[string]*Zone) {
-	color.Fprintf(os.Stderr, "@{.}Updating info URLs for %d zones...\n", len(zones))
+	Trace("@{.}Updating info URLs for %d zones...\n", len(zones))
 
 	transport := http.DefaultTransport.(*http.Transport).Clone()
-	transport.TLSHandshakeTimeout = 2 * time.Second
+	transport.TLSHandshakeTimeout = 5 * time.Second
 	transport.MaxIdleConnsPerHost = 10
 	client := &http.Client{
 		Transport: transport,
-		Timeout:   4 * time.Second,
+		Timeout:   10 * time.Second,
 	}
 
 	mapZones(zones, func(z *Zone) {
-		if z.InfoURL == "" {
-			return
-		}
 		var urls []string
-		if strings.HasPrefix(z.InfoURL, "https://newgtlds.icann.org") {
-			urls = []string{
-				"https://nic." + z.Domain,
-				"http://nic." + z.Domain,
-				z.InfoURL,
-			}
-		} else if strings.HasPrefix(z.InfoURL, "http:") {
+
+		if strings.HasPrefix(z.InfoURL, "http:") {
 			urls = []string{
 				strings.Replace(z.InfoURL, "http:", "https:", 1),
 				z.InfoURL,
 			}
-		} else {
+		} else if !strings.HasPrefix(z.InfoURL, "https://newgtlds.icann.org") {
 			urls = []string{
 				z.InfoURL,
 			}
 		}
+
+		if z.IsTLD() {
+			urls = append(urls,
+				// Try NIC websites
+				"https://nic."+z.Domain,
+				"https://www.nic."+z.Domain,
+				"http://nic."+z.Domain,
+				"http://www.nic."+z.Domain,
+
+				// Try ICANN first
+				"https://www.icann.org/en/registry-agreements/details/"+z.ASCII(),
+
+				// Then fall back to IANA
+				"https://www.iana.org/domains/root/db/"+z.ASCII()+".html",
+			)
+		}
+
+		var infoURL string
 		for _, u := range urls {
-			res, err := client.Get(u)
+			if u == "" {
+				continue
+			}
+			u = NormalizeURL(u)
+			req, err := http.NewRequest(http.MethodGet, u, nil)
 			if err != nil {
-				// color.Fprintf(os.Stderr, "@{y!}Warning:@{y} error fetching info URL for @{y!}%s@{y}: (%s): %v\n", z.Domain, u, err)
+				Trace("@{y!}Warning:@{y} error fetching info URL for @{y!}%s@{y}: (%s): %v\n", z.Domain, u, err)
+				continue
+			}
+			req.Header.Set("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36")
+			res, err := client.Do(req)
+			if err != nil {
+				if u == z.InfoURL {
+					Trace("@{y!}Warning:@{y} error fetching info URL for @{y!}%s@{y}: (%s): %v\n", z.Domain, u, err)
+				}
+				continue
+			} else if res.StatusCode != http.StatusOK {
+				if u == z.InfoURL {
+					Trace("@{y!}Warning:@{y} non-200 status for info URL for @{y!}%s@{y}: (%s): %s\n", z.Domain, u, res.Status)
+				}
 				continue
 			}
 			CloseN(res.Body, 10_000_000)
-			ru := NormalizeURL(res.Request.URL.String())
-			if ru != z.InfoURL && !strings.HasPrefix(ru, "https://newgtlds.icann.org") {
-				color.Fprintf(os.Stderr, "@{.}Updated info URL for @{c}%s@{c}: @{y}%s@{c} → @{g}%s\n", z.Domain, z.InfoURL, ru)
-				z.InfoURL = ru
-			}
+			// Don’t use redirected URL, use the URL we crafted
+			// infoURL = NormalizeURL(res.Request.URL.String())
+			infoURL = u
 			break
+		}
+
+		// Do not rewrite URLs that just add tracking or query string info
+		if infoURL != z.InfoURL && !strings.HasPrefix(infoURL, z.InfoURL) {
+			if infoURL == "" {
+				Trace("@{.!}Removed@{.} info URL for @{c}%s@{c}: @{y}%s@{c}\n", z.Domain, z.InfoURL)
+
+			} else {
+				Trace("@{.}Updated info URL for @{c}%s@{c}: @{y}%s@{c} → @{g}%s\n", z.Domain, z.InfoURL, infoURL)
+			}
+			z.InfoURL = infoURL
 		}
 	})
 }

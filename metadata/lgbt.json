@@ -1,7 +1,7 @@
 {
 	"domain": "lgbt",
 	"registryOperator": "Identity Digital Limited",
-	"infoURL": "https://get.lgbt/",
+	"infoURL": "http://nic.lgbt/",
 	"whoisServer": "whois.nic.lgbt",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"

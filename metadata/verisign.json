@@ -1,7 +1,7 @@
 {
 	"domain": "verisign",
 	"registryOperator": "VeriSign, Inc.",
-	"infoURL": "https://newgtlds.icann.org/",
+	"infoURL": "https://www.icann.org/en/registry-agreements/details/verisign",
 	"whoisServer": "whois.nic.verisign",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/verisign/v1/"
