@@ -4,7 +4,8 @@
 	"nameServers": [
 		"dns-st.bahnhof.net",
 		"ns1.bahnhof.net",
-		"southeast-2.dns-au.st"
+		"southeast-2.dns-au.st",
+		"west-2.dns-us.st"
 	],
 	"tags": [
 		"country",

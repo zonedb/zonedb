@@ -1,7 +1,9 @@
 {
 	"domain": "বাংলা",
 	"nameServers": [
-		"bd-ns.anycast.pch.net"
+		"bayanno.btcl.net.bd",
+		"bd-ns.anycast.pch.net",
+		"ekushey.btcl.net.bd"
 	],
 	"tags": [
 		"country",

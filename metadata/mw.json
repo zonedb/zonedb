@@ -4,8 +4,8 @@
 	"whoisServer": "whois.nic.mw",
 	"nameServers": [
 		"chambo.sdnp.org.mw",
-		"d.ext.nic.cz",
 		"domwe.sdn.mw",
+		"mw-e.ns.nic.cz",
 		"mw.cctld.authdns.ripe.net",
 		"ns4.apnic.net",
 		"pch1.nic.mw",

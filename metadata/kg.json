@@ -1,6 +1,9 @@
 {
 	"domain": "kg",
 	"whoisServer": "whois.domain.kg",
+	"rdapURLs": [
+		"https://rdap.cctld.kg/"
+	],
 	"nameServers": [
 		"kg.cctld.authdns.ripe.net",
 		"ns.kg",
