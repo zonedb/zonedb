@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--kput3i",
 	"whoisServer": "whois.nic.手机",
 	"rdapURLs": [
-		"https://rdap.registrysystem.net/rdap/xn--kput3i/"
+		"https://rdap.teleinfo.cn/xn--kput3i/"
 	],
 	"nameServers": [
 		"ns1.teleinfo.cn",

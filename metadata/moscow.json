@@ -7,7 +7,6 @@
 		"https://flexireg.net/moscow/rdap/"
 	],
 	"nameServers": [
-		"a.dns.flexireg.ru",
 		"b.dns.flexireg.net",
 		"c.dns.flexireg.org",
 		"d.dns.flexireg.domains"
