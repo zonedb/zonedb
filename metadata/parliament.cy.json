@@ -1,8 +1,8 @@
 {
 	"domain": "parliament.cy",
 	"nameServers": [
-		"ns01.gov.cy",
-		"ns02.gov.cy"
+		"armfazh.ns.cloudflare.com",
+		"mona.ns.cloudflare.com"
 	],
 	"policies": [
 		{

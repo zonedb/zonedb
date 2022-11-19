@@ -3,15 +3,11 @@
 	"registryOperator": "Telecom Cook Islands",
 	"infoURL": "https://www.vodafone.co.ck/domain-admin-policy",
 	"whoisServer": "whois.ck-nic.org.ck",
-	"nameServers": [
-		"circa.mcs.vuw.ac.nz",
-		"parau.oyster.net.ck",
-		"poiparau.oyster.net.ck"
-	],
 	"tags": [
 		"closed",
 		"country",
-		"geo"
+		"geo",
+		"withdrawn"
 	],
 	"policies": [
 		{
