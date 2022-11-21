@@ -11,13 +11,6 @@
 		"ns2.pnina.ps",
 		"ote.pnina.ps"
 	],
-	"wildcards": [
-		"2001:4860:4802:32::78",
-		"2001:cdba::3257:9652",
-		"208.91.112.55",
-		"216.239.38.120",
-		"forcesafesearch.google.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
