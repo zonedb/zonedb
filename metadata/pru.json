@@ -7,10 +7,8 @@
 		"https://rdap.nic.pru/"
 	],
 	"nameServers": [
-		"a.nic.pru",
 		"b.nic.pru",
 		"c.nic.pru",
-		"ns1.dns.nic.pru",
 		"ns2.dns.nic.pru",
 		"ns3.dns.nic.pru"
 	],

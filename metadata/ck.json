@@ -5,7 +5,9 @@
 	"whoisServer": "whois.ck-nic.org.ck",
 	"nameServers": [
 		"circa.mcs.vuw.ac.nz",
-		"downstage.mcs.vuw.ac.nz"
+		"downstage.mcs.vuw.ac.nz",
+		"parau.oyster.net.ck",
+		"poiparau.oyster.net.ck"
 	],
 	"tags": [
 		"closed",
