@@ -7,10 +7,10 @@
 		"https://rdap.centralnic.com/coop/"
 	],
 	"nameServers": [
-		"a.nic.coop",
-		"b.nic.coop",
-		"c.nic.coop",
-		"d.nic.coop"
+		"ns1.uniregistry.net",
+		"ns2.uniregistry.info",
+		"ns3.uniregistry.net",
+		"ns4.uniregistry.info"
 	],
 	"tags": [
 		"generic",

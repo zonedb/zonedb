@@ -6,8 +6,10 @@
 		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
+		"v0n0.nic.properties",
 		"v0n1.nic.properties",
 		"v0n2.nic.properties",
+		"v0n3.nic.properties",
 		"v2n0.nic.properties",
 		"v2n1.nic.properties"
 	],
