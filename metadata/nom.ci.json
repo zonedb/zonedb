@@ -1,5 +1,5 @@
 {
-	"domain": "net.ci",
+	"domain": "nom.ci",
 	"nameServers": [
 		"any.nic.ci",
 		"censvrns0001.ird.fr",
@@ -7,10 +7,5 @@
 		"ns-ci.afrinic.net",
 		"ns.nic.ci",
 		"phloem.uoregon.edu"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
 	]
 }
