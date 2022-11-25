@@ -1,7 +1,6 @@
 {
 	"domain": "edu.gl",
 	"nameServers": [
-		"a.nuuk.nic.gl",
 		"d.nic.gl",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
