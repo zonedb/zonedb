@@ -5,8 +5,7 @@
 		"anyc.dnsnode.net",
 		"c.dns.pt",
 		"cv01.dns.pt",
-		"ns-ext.isc.org",
-		"ns.dns.cv"
+		"ns-ext.isc.org"
 	],
 	"tags": [
 		"country",

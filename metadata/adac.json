@@ -6,12 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.centralnic.com/adac/"
 	],
-	"nameServers": [
-		"a.nic.adac",
-		"b.nic.adac",
-		"c.nic.adac",
-		"d.nic.adac"
-	],
 	"languages": [
 		"mul-Cyrl",
 		"mul-Grek",
