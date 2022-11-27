@@ -1,13 +1,5 @@
 {
 	"domain": "me.ke",
-	"nameServers": [
-		"b.ns.tznic.or.tz",
-		"kenic.anycastdns.cz",
-		"mzizi.kenic.or.ke",
-		"ns-ke.afrinic.net",
-		"ns.anycast.kenic.or.ke",
-		"ns2ke.dns.business"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

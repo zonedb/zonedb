@@ -6,12 +6,6 @@
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/obi/v1/"
 	],
-	"nameServers": [
-		"a0.nic.obi",
-		"a2.nic.obi",
-		"b0.nic.obi",
-		"c0.nic.obi"
-	],
 	"tags": [
 		"brand",
 		"generic"
