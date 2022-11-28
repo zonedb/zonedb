@@ -3,7 +3,12 @@
 	"infoURL": "https://www.nic.nu/",
 	"whoisServer": "whois.iis.nu",
 	"nameServers": [
-		"a.ns.nu"
+		"a.ns.nu",
+		"c.ns.nu",
+		"d.ns.nu",
+		"m.ns.nu",
+		"y.ns.nu",
+		"z.ns.nu"
 	],
 	"languages": [
 		"und-Latn"

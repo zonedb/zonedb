@@ -5,6 +5,14 @@
 	"rdapURLs": [
 		"https://rdap.nic.nyc/"
 	],
+	"nameServers": [
+		"a.nic.nyc",
+		"b.nic.nyc",
+		"c.nic.nyc",
+		"ns1.dns.nic.nyc",
+		"ns2.dns.nic.nyc",
+		"ns3.dns.nic.nyc"
+	],
 	"locations": [
 		"New York City"
 	],

@@ -6,13 +6,6 @@
 		"dns3.gov.ps",
 		"ns1.pnina.ps"
 	],
-	"wildcards": [
-		"2001:4860:4802:32::78",
-		"204.79.197.220",
-		"216.239.38.120",
-		"a-0017.a-msedge.net",
-		"forcesafesearch.google.com"
-	],
 	"tags": [
 		"country",
 		"geo"

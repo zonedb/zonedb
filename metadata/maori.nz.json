@@ -1,5 +1,14 @@
 {
 	"domain": "maori.nz",
+	"nameServers": [
+		"ns1.dns.net.nz",
+		"ns2.dns.net.nz",
+		"ns3.dns.net.nz",
+		"ns4.dns.net.nz",
+		"ns5.dns.net.nz",
+		"ns6.dns.net.nz",
+		"ns7.dns.net.nz"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
