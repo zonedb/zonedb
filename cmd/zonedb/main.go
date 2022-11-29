@@ -26,8 +26,8 @@ func main() {
 	filterRegexp := flag.String("x", "", "filter working zones by regular expression")
 	filterGrep := flag.String("grep", "", "filter working zones by regular expression across all metadata")
 	excludeGrep := flag.String("exclude-grep", "", "exclude working zones by regular expression across all metadata")
-	filterTags := flag.String("tags", "", "filter working zones by tags (comma-delimited)")
-	excludeTags := flag.String("exclude-tags", "", "exclude working zones with tags (comma-delimited)")
+	filterTags := flag.String("tags", "", "filter working zones that match ALL tags (comma-delimited)")
+	excludeTags := flag.String("exclude-tags", "", "exclude working zones with ANY supplied tags (comma-delimited)")
 
 	// Query operations
 	listZones := flag.Bool("list", false, "list working zones")
@@ -170,11 +170,14 @@ func main() {
 		tags := build.NewSet(strings.Split(*filterTags, ",")...)
 		filtered := make(map[string]*build.Zone, len(workZones))
 		for d, z := range workZones {
+			n := 0
 			for _, t := range z.Tags {
 				if _, ok := tags[t]; ok {
-					filtered[d] = z
-					break
+					n++
 				}
+			}
+			if n == len(tags) {
+				filtered[d] = z
 			}
 		}
 		workZones = filtered
