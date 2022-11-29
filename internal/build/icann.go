@@ -98,7 +98,7 @@ func FetchGTLDsFromICANN(zones map[string]*Zone) error {
 
 	// Iterate over work zones
 	for _, z := range zones {
-		if !z.IsTLD() || z.IsRetiredOrWithdrawn() {
+		if !z.IsTLD() || !z.IsGeneric() || z.IsRetiredOrWithdrawn() {
 			continue
 		}
 		_, ok := gTLDs[z.Domain]

@@ -211,6 +211,12 @@ func (z *Zone) IsTLD() bool {
 	return !strings.Contains(z.Domain, ".")
 }
 
+// IsGeneric returns true if the zone is generic.
+func (z *Zone) IsGeneric() bool {
+	s := NewSet(z.Tags...)
+	return s[TagGeneric]
+}
+
 // IsRetiredOrWithdrawn returns true if the zone is retired or withdrawn.
 func (z *Zone) IsRetiredOrWithdrawn() bool {
 	s := NewSet(z.Tags...)

@@ -1049,7 +1049,6 @@ orange
 org
 organic
 orientexpress
-origin
 origins
 osaka
 otsuka
@@ -1388,7 +1387,6 @@ tiaa
 tickets
 tienda
 tiffany
-tiffay
 tiia
 tips
 tires
