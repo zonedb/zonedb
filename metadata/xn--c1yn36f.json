@@ -1,6 +1,9 @@
 {
 	"domain": "點看",
+	"registryOperator": "VeriSign Sarl",
+	"infoURL": "https://gtldresult.icann.org/applicationstatus/applicationdetails/1142",
 	"tags": [
+		"generic",
 		"withdrawn"
 	]
 }
