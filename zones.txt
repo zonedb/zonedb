@@ -1049,7 +1049,6 @@ orange
 org
 organic
 orientexpress
-origin
 origins
 osaka
 otsuka
