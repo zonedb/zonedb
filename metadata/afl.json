@@ -10,7 +10,9 @@
 		"a.nic.afl",
 		"b.nic.afl",
 		"c.nic.afl",
-		"d.nic.afl"
+		"x.nic.afl",
+		"y.nic.afl",
+		"z.nic.afl"
 	],
 	"tags": [
 		"brand",

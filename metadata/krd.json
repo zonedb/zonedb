@@ -10,7 +10,9 @@
 		"a.nic.krd",
 		"b.nic.krd",
 		"c.nic.krd",
-		"d.nic.krd"
+		"x.nic.krd",
+		"y.nic.krd",
+		"z.nic.krd"
 	],
 	"tags": [
 		"generic",

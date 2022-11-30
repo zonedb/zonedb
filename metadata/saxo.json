@@ -10,7 +10,9 @@
 		"a.nic.saxo",
 		"b.nic.saxo",
 		"c.nic.saxo",
-		"d.nic.saxo"
+		"x.nic.saxo",
+		"y.nic.saxo",
+		"z.nic.saxo"
 	],
 	"tags": [
 		"brand",

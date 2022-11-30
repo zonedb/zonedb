@@ -10,7 +10,9 @@
 		"a.nic.seek",
 		"b.nic.seek",
 		"c.nic.seek",
-		"d.nic.seek"
+		"x.nic.seek",
+		"y.nic.seek",
+		"z.nic.seek"
 	],
 	"tags": [
 		"brand",

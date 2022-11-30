@@ -10,7 +10,9 @@
 		"a.nic.woodside",
 		"b.nic.woodside",
 		"c.nic.woodside",
-		"d.nic.woodside"
+		"x.nic.woodside",
+		"y.nic.woodside",
+		"z.nic.woodside"
 	],
 	"tags": [
 		"brand",

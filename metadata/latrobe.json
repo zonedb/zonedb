@@ -10,7 +10,9 @@
 		"a.nic.latrobe",
 		"b.nic.latrobe",
 		"c.nic.latrobe",
-		"d.nic.latrobe"
+		"x.nic.latrobe",
+		"y.nic.latrobe",
+		"z.nic.latrobe"
 	],
 	"tags": [
 		"brand",

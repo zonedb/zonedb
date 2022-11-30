@@ -10,7 +10,9 @@
 		"a.nic.cloud",
 		"b.nic.cloud",
 		"c.nic.cloud",
-		"d.nic.cloud"
+		"x.nic.cloud",
+		"y.nic.cloud",
+		"z.nic.cloud"
 	],
 	"tags": [
 		"generic"
