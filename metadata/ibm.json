@@ -10,7 +10,9 @@
 		"a.nic.ibm",
 		"b.nic.ibm",
 		"c.nic.ibm",
-		"d.nic.ibm"
+		"x.nic.ibm",
+		"y.nic.ibm",
+		"z.nic.ibm"
 	],
 	"tags": [
 		"brand",

@@ -1,9 +1,13 @@
 {
 	"domain": "sch.ps",
 	"nameServers": [
+		"dns1.gov.ps",
 		"dns3.gov.ps",
 		"dns4.pna.ps",
-		"dns5.gov.ps"
+		"dns5.gov.ps",
+		"ns1.gov.ps",
+		"ns1.pnina.ps",
+		"ns2.pnina.ps"
 	],
 	"policies": [
 		{

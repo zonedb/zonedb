@@ -4,9 +4,9 @@
 	"whoisServer": "whois.ua",
 	"nameServers": [
 		"bg.ns.ua",
-		"cd1.ns.ua",
 		"ho1.ns.ua",
 		"in1.ns.ua",
+		"nn.ns.ua",
 		"pch.ns.ua",
 		"rcz.ns.ua"
 	],
