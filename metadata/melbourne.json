@@ -10,7 +10,9 @@
 		"a.nic.melbourne",
 		"b.nic.melbourne",
 		"c.nic.melbourne",
-		"d.nic.melbourne"
+		"x.nic.melbourne",
+		"y.nic.melbourne",
+		"z.nic.melbourne"
 	],
 	"locations": [
 		"Melbourne"

@@ -10,7 +10,9 @@
 		"a.nic.beer",
 		"b.nic.beer",
 		"c.nic.beer",
-		"d.nic.beer"
+		"x.nic.beer",
+		"y.nic.beer",
+		"z.nic.beer"
 	],
 	"languages": [
 		"de",

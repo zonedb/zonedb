@@ -1,12 +1,6 @@
 {
 	"domain": "fed.us",
 	"whoisServer": "whois.dotgov.gov",
-	"nameServers": [
-		"a.gov-servers.net",
-		"b.gov-servers.net",
-		"c.gov-servers.net",
-		"d.gov-servers.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

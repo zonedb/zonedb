@@ -10,7 +10,9 @@
 		"a.nic.miami",
 		"b.nic.miami",
 		"c.nic.miami",
-		"d.nic.miami"
+		"x.nic.miami",
+		"y.nic.miami",
+		"z.nic.miami"
 	],
 	"locations": [
 		"Miami"

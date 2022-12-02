@@ -10,7 +10,9 @@
 		"a.nic.courses",
 		"b.nic.courses",
 		"c.nic.courses",
-		"d.nic.courses"
+		"x.nic.courses",
+		"y.nic.courses",
+		"z.nic.courses"
 	],
 	"tags": [
 		"generic"

@@ -10,7 +10,9 @@
 		"a.nic.vip",
 		"b.nic.vip",
 		"c.nic.vip",
-		"d.nic.vip"
+		"x.nic.vip",
+		"y.nic.vip",
+		"z.nic.vip"
 	],
 	"languages": [
 		"ar",

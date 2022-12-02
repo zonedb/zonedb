@@ -10,7 +10,9 @@
 		"a.nic.select",
 		"b.nic.select",
 		"c.nic.select",
-		"d.nic.select"
+		"x.nic.select",
+		"y.nic.select",
+		"z.nic.select"
 	],
 	"tags": [
 		"brand",

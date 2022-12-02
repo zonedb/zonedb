@@ -10,7 +10,9 @@
 		"a.nic.horse",
 		"b.nic.horse",
 		"c.nic.horse",
-		"d.nic.horse"
+		"x.nic.horse",
+		"y.nic.horse",
+		"z.nic.horse"
 	],
 	"languages": [
 		"de",

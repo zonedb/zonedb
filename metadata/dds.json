@@ -10,7 +10,9 @@
 		"a.nic.dds",
 		"b.nic.dds",
 		"c.nic.dds",
-		"d.nic.dds"
+		"x.nic.dds",
+		"y.nic.dds",
+		"z.nic.dds"
 	],
 	"languages": [
 		"de",

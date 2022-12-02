@@ -10,7 +10,9 @@
 		"a.nic.rodeo",
 		"b.nic.rodeo",
 		"c.nic.rodeo",
-		"d.nic.rodeo"
+		"x.nic.rodeo",
+		"y.nic.rodeo",
+		"z.nic.rodeo"
 	],
 	"languages": [
 		"de",

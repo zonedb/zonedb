@@ -10,7 +10,9 @@
 		"a.nic.xxx",
 		"b.nic.xxx",
 		"c.nic.xxx",
-		"d.nic.xxx"
+		"x.nic.xxx",
+		"y.nic.xxx",
+		"z.nic.xxx"
 	],
 	"languages": [
 		"be",

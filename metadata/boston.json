@@ -10,7 +10,9 @@
 		"a.nic.boston",
 		"b.nic.boston",
 		"c.nic.boston",
-		"d.nic.boston"
+		"x.nic.boston",
+		"y.nic.boston",
+		"z.nic.boston"
 	],
 	"locations": [
 		"Boston"

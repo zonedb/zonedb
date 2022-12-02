@@ -10,7 +10,9 @@
 		"a.nic.fit",
 		"b.nic.fit",
 		"c.nic.fit",
-		"d.nic.fit"
+		"x.nic.fit",
+		"y.nic.fit",
+		"z.nic.fit"
 	],
 	"languages": [
 		"de",

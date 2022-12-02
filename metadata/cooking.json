@@ -10,7 +10,9 @@
 		"a.nic.cooking",
 		"b.nic.cooking",
 		"c.nic.cooking",
-		"d.nic.cooking"
+		"x.nic.cooking",
+		"y.nic.cooking",
+		"z.nic.cooking"
 	],
 	"languages": [
 		"de",

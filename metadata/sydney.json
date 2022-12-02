@@ -10,7 +10,9 @@
 		"a.nic.sydney",
 		"b.nic.sydney",
 		"c.nic.sydney",
-		"d.nic.sydney"
+		"x.nic.sydney",
+		"y.nic.sydney",
+		"z.nic.sydney"
 	],
 	"locations": [
 		"Sydney"

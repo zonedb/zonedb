@@ -10,7 +10,9 @@
 		"a.nic.surf",
 		"b.nic.surf",
 		"c.nic.surf",
-		"d.nic.surf"
+		"x.nic.surf",
+		"y.nic.surf",
+		"z.nic.surf"
 	],
 	"languages": [
 		"de",
