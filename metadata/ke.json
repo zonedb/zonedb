@@ -4,7 +4,6 @@
 	"whoisServer": "whois.kenic.or.ke",
 	"nameServers": [
 		"kenic.anycastdns.cz",
-		"mzizi.kenic.or.ke",
 		"ns-ke.afrinic.net",
 		"ns.anycast.kenic.or.ke",
 		"ns2ke.dns.business"

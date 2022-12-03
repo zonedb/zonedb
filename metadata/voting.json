@@ -9,7 +9,9 @@
 		"a.nic.voting",
 		"b.nic.voting",
 		"c.nic.voting",
-		"d.nic.voting"
+		"x.nic.voting",
+		"y.nic.voting",
+		"z.nic.voting"
 	],
 	"languages": [
 		"mul-Cyrl",

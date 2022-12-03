@@ -10,7 +10,9 @@
 		"a.nic.xerox",
 		"b.nic.xerox",
 		"c.nic.xerox",
-		"d.nic.xerox"
+		"x.nic.xerox",
+		"y.nic.xerox",
+		"z.nic.xerox"
 	],
 	"tags": [
 		"brand",
