@@ -10,7 +10,9 @@
 		"a.nic.physio",
 		"b.nic.physio",
 		"c.nic.physio",
-		"d.nic.physio"
+		"x.nic.physio",
+		"y.nic.physio",
+		"z.nic.physio"
 	],
 	"tags": [
 		"generic"

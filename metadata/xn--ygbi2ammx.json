@@ -11,7 +11,8 @@
 		"2001:cdba::3257:9652",
 		"208.91.112.55",
 		"216.239.38.120",
-		"forcesafesearch.google.com"
+		"forcesafesearch.google.com",
+		"restrict.youtube.com"
 	],
 	"tags": [
 		"country",

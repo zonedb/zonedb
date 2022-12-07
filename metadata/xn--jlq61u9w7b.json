@@ -6,19 +6,14 @@
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/xn--jlq61u9w7b/"
 	],
-	"nameServers": [
-		"a0.nic.诺基亚",
-		"a2.nic.诺基亚",
-		"b0.nic.诺基亚",
-		"c0.nic.诺基亚"
-	],
 	"languages": [
 		"zh-CN",
 		"zh-TW"
 	],
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{
