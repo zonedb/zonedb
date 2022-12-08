@@ -3,7 +3,6 @@
 	"whoisServer": "whois.domain-registry.nl",
 	"nameServers": [
 		"ns1.dns.nl",
-		"ns2.dns.nl",
 		"ns3.dns.nl",
 		"ns4.dns.nl"
 	],

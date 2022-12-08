@@ -10,7 +10,9 @@
 		"a.nic.one",
 		"b.nic.one",
 		"c.nic.one",
-		"d.nic.one"
+		"x.nic.one",
+		"y.nic.one",
+		"z.nic.one"
 	],
 	"tags": [
 		"generic"
