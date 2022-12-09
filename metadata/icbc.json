@@ -7,10 +7,12 @@
 		"https://rdap.afilias-srs.net/rdap/icbc/"
 	],
 	"nameServers": [
-		"a0.nic.icbc",
-		"a2.nic.icbc",
-		"b0.nic.icbc",
-		"c0.nic.icbc"
+		"a.zdnscloud.com",
+		"b.zdnscloud.com",
+		"c.zdnscloud.com",
+		"d.zdnscloud.com",
+		"f.zdnscloud.com",
+		"g.zdnscloud.com"
 	],
 	"tags": [
 		"brand",

@@ -7,12 +7,10 @@
 		"https://rdap.nic.tmall/"
 	],
 	"nameServers": [
-		"a.nic.tmall",
-		"b.nic.tmall",
-		"c.nic.tmall",
-		"ns1.dns.nic.tmall",
-		"ns2.dns.nic.tmall",
-		"ns3.dns.nic.tmall"
+		"a0.nic.tmall",
+		"a2.nic.tmall",
+		"b0.nic.tmall",
+		"c0.nic.tmall"
 	],
 	"languages": [
 		"da",

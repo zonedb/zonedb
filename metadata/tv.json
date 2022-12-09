@@ -2,7 +2,7 @@
 	"domain": "tv",
 	"whoisServer": "tvwhois.verisign-grs.com",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/tv/v1/"
+		"https://rdap.nic.tv/"
 	],
 	"nameServers": [
 		"a.nic.tv",

@@ -10,7 +10,9 @@
 		"a.nic.philips",
 		"b.nic.philips",
 		"c.nic.philips",
-		"d.nic.philips"
+		"x.nic.philips",
+		"y.nic.philips",
+		"z.nic.philips"
 	],
 	"tags": [
 		"brand",

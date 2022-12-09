@@ -7,12 +7,10 @@
 		"https://rdap.nic.taobao/"
 	],
 	"nameServers": [
-		"a.nic.taobao",
-		"b.nic.taobao",
-		"c.nic.taobao",
-		"ns1.dns.nic.taobao",
-		"ns2.dns.nic.taobao",
-		"ns3.dns.nic.taobao"
+		"a0.nic.taobao",
+		"a2.nic.taobao",
+		"b0.nic.taobao",
+		"c0.nic.taobao"
 	],
 	"languages": [
 		"da",
