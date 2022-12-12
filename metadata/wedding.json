@@ -7,7 +7,6 @@
 		"https://rdap.nic.wedding/"
 	],
 	"nameServers": [
-		"a.nic.wedding",
 		"b.nic.wedding",
 		"c.nic.wedding",
 		"x.nic.wedding",
