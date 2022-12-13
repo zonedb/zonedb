@@ -8,9 +8,6 @@
 		"ns2.ni",
 		"ns3.ni"
 	],
-	"wildcards": [
-		"72.5.65.111"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
