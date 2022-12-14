@@ -1,10 +1,8 @@
 {
 	"domain": "gov.gd",
 	"nameServers": [
-		"a.nic.gd",
-		"b.nic.gd",
-		"c.nic.gd",
-		"d.nic.gd"
+		"pam.ns.cloudflare.com",
+		"reese.ns.cloudflare.com"
 	],
 	"policies": [
 		{
