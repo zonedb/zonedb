@@ -9,7 +9,9 @@
 		"a.nic.menu",
 		"b.nic.menu",
 		"c.nic.menu",
-		"d.nic.menu"
+		"x.nic.menu",
+		"y.nic.menu",
+		"z.nic.menu"
 	],
 	"tags": [
 		"generic"
