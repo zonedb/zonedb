@@ -2,8 +2,8 @@
 	"domain": "org.iq",
 	"nameServers": [
 		"ns.cocca.fr",
-		"nsp-anycast.cmc.iq",
-		"sns-pb.isc.org"
+		"ns1.cmc.iq",
+		"nsp-anycast.cmc.iq"
 	],
 	"policies": [
 		{
