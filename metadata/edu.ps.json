@@ -2,14 +2,9 @@
 	"domain": "edu.ps",
 	"infoURL": "https://www.tonic.to/",
 	"nameServers": [
-		"dns1.gov.ps",
 		"dns3.gov.ps",
 		"dns4.pna.ps",
-		"dns5.gov.ps",
-		"ns1.gov.ps",
-		"ns1.pnina.ps",
-		"ns2.pnina.ps",
-		"ote.pnina.ps"
+		"dns5.gov.ps"
 	],
 	"wildcards": [
 		"2001:cdba::3257:9652",
