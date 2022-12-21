@@ -2,6 +2,7 @@
 	"domain": "com.kz",
 	"nameServers": [
 		"ns.nic.kz",
+		"ns1.nic.kz",
 		"ns2.nic.kz"
 	],
 	"policies": [
