@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.icbc/",
 	"whoisServer": "whois.nic.icbc",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/icbc/"
+		"https://rdap.zdnsgtld.com/icbc/"
 	],
 	"nameServers": [
 		"a.zdnscloud.com",

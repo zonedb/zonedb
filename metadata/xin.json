@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.xin/",
 	"whoisServer": "whois.nic.xin",
 	"rdapURLs": [
-		"https://rdap.aceregistry.net/rdap/xin/"
+		"https://rdap.afilias-srs.net/rdap/xin/"
 	],
 	"nameServers": [
 		"a0.nic.xin",
