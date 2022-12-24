@@ -1,7 +1,9 @@
 {
 	"domain": "mx.tc",
 	"nameServers": [
-		"suspended.nic.tc"
+		"ns1.dreamhost.com",
+		"ns2.dreamhost.com",
+		"ns3.dreamhost.com"
 	],
 	"policies": [
 		{
