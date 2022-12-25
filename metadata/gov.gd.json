@@ -1,9 +1,5 @@
 {
 	"domain": "gov.gd",
-	"nameServers": [
-		"pam.ns.cloudflare.com",
-		"reese.ns.cloudflare.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
