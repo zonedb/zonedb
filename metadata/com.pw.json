@@ -1,5 +1,9 @@
 {
 	"domain": "com.pw",
+	"nameServers": [
+		"ns13.xincache.com",
+		"ns14.xincache.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
