@@ -1,10 +1,5 @@
 {
 	"domain": "mail.fo",
-	"nameServers": [
-		"ns1.nic.fo",
-		"ns2.nic.fo",
-		"ns3.nic.fo"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

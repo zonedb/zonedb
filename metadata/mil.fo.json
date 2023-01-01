@@ -1,9 +1,5 @@
 {
 	"domain": "mil.fo",
-	"nameServers": [
-		"ns1.afriregister.com",
-		"ns3.afriregister.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

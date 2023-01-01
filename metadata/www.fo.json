@@ -1,10 +1,5 @@
 {
 	"domain": "www.fo",
-	"nameServers": [
-		"ns1.økisnavn.fo",
-		"ns2.økisnavn.fo",
-		"ns3.økisnavn.fo"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

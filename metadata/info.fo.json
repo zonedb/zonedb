@@ -1,9 +1,5 @@
 {
 	"domain": "info.fo",
-	"nameServers": [
-		"ns1.bodis.com",
-		"ns2.bodis.com"
-	],
 	"wildcards": [
 		"199.59.243.222"
 	],
