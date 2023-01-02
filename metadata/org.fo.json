@@ -1,5 +1,9 @@
 {
 	"domain": "org.fo",
+	"nameServers": [
+		"cash.ns.cloudflare.com",
+		"nelly.ns.cloudflare.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -1,6 +1,7 @@
 {
 	"domain": "go.pw",
-	"wildcards": [
-		"141.8.226.59"
+	"nameServers": [
+		"ns1390.ztomy.com",
+		"ns2390.ztomy.com"
 	]
 }

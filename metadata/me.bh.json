@@ -1,14 +1,9 @@
 {
-	"domain": "org.bh",
+	"domain": "me.bh",
 	"nameServers": [
 		"a.bh.centralnic-dns.com",
 		"b.bh.centralnic-dns.com",
 		"c.bh.centralnic-dns.com",
 		"d.bh.centralnic-dns.com"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
 	]
 }
