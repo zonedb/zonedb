@@ -1,5 +1,8 @@
 {
 	"domain": "org.pw",
+	"wildcards": [
+		"141.8.226.59"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
