@@ -1,5 +1,11 @@
 {
 	"domain": "movie.blog",
+	"nameServers": [
+		"ns1.automattic.com",
+		"ns2.automattic.com",
+		"ns3.automattic.com",
+		"ns4.automattic.com"
+	],
 	"wildcards": [
 		"192.0.78.30",
 		"192.0.78.31",

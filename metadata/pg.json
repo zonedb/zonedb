@@ -2,7 +2,8 @@
 	"domain": "pg",
 	"nameServers": [
 		"munnari.oz.au",
-		"ns.uu.net"
+		"ns.uu.net",
+		"ns1.unitech.ac.pg"
 	],
 	"tags": [
 		"country",

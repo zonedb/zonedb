@@ -1,7 +1,8 @@
 {
 	"domain": "it.com",
 	"nameServers": [
-		"liz.ns.cloudflare.com",
-		"lynn.ns.cloudflare.com"
+		"ns1.it.com",
+		"ns2.it.com",
+		"ns3.it.com"
 	]
 }

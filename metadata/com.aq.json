@@ -1,9 +1,5 @@
 {
 	"domain": "com.aq",
-	"nameServers": [
-		"ns1.internet.com.pe",
-		"ns2.internet.com.pe"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
