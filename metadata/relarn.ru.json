@@ -1,12 +1,10 @@
 {
 	"domain": "relarn.ru",
 	"nameServers": [
-		"dnsproxy1.fm.nic.ru",
-		"dnsproxy2.fm.nic.ru"
-	],
-	"wildcards": [
-		"109.70.26.37",
-		"194.85.61.76"
+		"ns1.timeweb.ru",
+		"ns2.timeweb.ru",
+		"ns3.timeweb.org",
+		"ns4.timeweb.org"
 	],
 	"policies": [
 		{
