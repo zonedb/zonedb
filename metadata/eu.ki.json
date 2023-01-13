@@ -1,9 +1,5 @@
 {
 	"domain": "eu.ki",
-	"wildcards": [
-		"95.217.58.108",
-		"eu.ki"
-	],
 	"tags": [
 		"private"
 	]
