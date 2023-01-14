@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.taobao/",
 	"whoisServer": "whois.nic.taobao",
 	"rdapURLs": [
-		"https://rdap.nic.taobao/"
+		"https://rdap.afilias-srs.net/rdap/taobao/"
 	],
 	"nameServers": [
 		"a0.nic.taobao",

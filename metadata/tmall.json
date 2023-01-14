@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.tmall/",
 	"whoisServer": "whois.nic.tmall",
 	"rdapURLs": [
-		"https://rdap.nic.tmall/"
+		"https://rdap.afilias-srs.net/rdap/tmall/"
 	],
 	"nameServers": [
 		"a0.nic.tmall",

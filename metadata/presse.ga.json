@@ -1,5 +1,10 @@
 {
 	"domain": "presse.ga",
+	"nameServers": [
+		"ns1.francedns.com",
+		"ns2.francedns.com",
+		"ns3.francedns.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
