@@ -2,7 +2,6 @@
 	"domain": "ci",
 	"whoisServer": "whois.nic.ci",
 	"nameServers": [
-		"any.nic.ci",
 		"ci.hosting.nic.fr",
 		"ns-ci.afrinic.net",
 		"ns.nic.ci",
