@@ -1,7 +1,9 @@
 {
 	"domain": "com.cu",
 	"nameServers": [
-		"ns.ceniai.net.cu"
+		"canada.cuba.cu",
+		"ns.ceniai.net.cu",
+		"ns.citmatel.com.cu"
 	],
 	"policies": [
 		{

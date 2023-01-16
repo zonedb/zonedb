@@ -8,6 +8,7 @@
 	],
 	"nameServers": [
 		"a.nic.sbs",
+		"b.nic.sbs",
 		"c.nic.sbs",
 		"d.nic.sbs"
 	],

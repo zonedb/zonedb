@@ -1,7 +1,6 @@
 {
 	"domain": "sz",
 	"nameServers": [
-		"ns1.sispa.org.sz",
 		"rip.psg.com",
 		"sz.cctld.authdns.ripe.net"
 	],
