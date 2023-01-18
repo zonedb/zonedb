@@ -1,10 +1,5 @@
 {
 	"domain": "adult.ht",
-	"nameServers": [
-		"charles.cdec.polymtl.ca",
-		"ht-ns.anycast.pch.net",
-		"ns3.nic.fr"
-	],
 	"tags": [
 		"adult"
 	],

@@ -3,6 +3,7 @@
 	"infoURL": "http://www.nic.pa/",
 	"whoisURL": "http://www.nic.pa/",
 	"nameServers": [
+		"a.lactld.org",
 		"dns-ext.nic.cr",
 		"ns.dns.br",
 		"ns.nic.pa",
