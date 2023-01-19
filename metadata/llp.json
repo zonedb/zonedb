@@ -4,10 +4,10 @@
 	"infoURL": "https://uniregistry.link/extensions/llp/",
 	"whoisServer": "whois.nic.llp",
 	"nameServers": [
-		"ns1.uniregistry.net",
-		"ns2.uniregistry.info",
-		"ns3.uniregistry.net",
-		"ns4.uniregistry.info"
+		"a.nic.llp",
+		"b.nic.llp",
+		"c.nic.llp",
+		"d.nic.llp"
 	],
 	"languages": [
 		"es",
