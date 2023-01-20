@@ -4,8 +4,7 @@
 	"nameServers": [
 		"iq.cctld.authdns.ripe.net",
 		"ns.cocca.fr",
-		"ns1.cmc.iq",
-		"nsp-anycast.cmc.iq"
+		"ns1.cmc.iq"
 	],
 	"tags": [
 		"country",

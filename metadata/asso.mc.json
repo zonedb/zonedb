@@ -1,10 +1,5 @@
 {
 	"domain": "asso.mc",
-	"nameServers": [
-		"mc.cctld.authdns.ripe.net",
-		"ns1.nic.mc",
-		"ns2.nic.mc"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
