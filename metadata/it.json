@@ -4,11 +4,11 @@
 	"whoisServer": "whois.nic.it",
 	"nameServers": [
 		"a.dns.it",
+		"d.dns.it",
 		"dns.nic.it",
 		"m.dns.it",
 		"nameserver.cnr.it",
-		"r.dns.it",
-		"s.dns.it"
+		"r.dns.it"
 	],
 	"tags": [
 		"country",

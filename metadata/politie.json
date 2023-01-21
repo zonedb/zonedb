@@ -7,8 +7,11 @@
 		"https://rdap.nic.politie/"
 	],
 	"nameServers": [
+		"ns1.dns.politie",
 		"ns1.nic.politie",
+		"ns3.dns.politie",
 		"ns3.nic.politie",
+		"ns4.dns.politie",
 		"ns4.nic.politie"
 	],
 	"tags": [
