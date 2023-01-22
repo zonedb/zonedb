@@ -3,6 +3,9 @@
 	"registryOperator": "Intercap Registry Inc.",
 	"infoURL": "https://uniregistry.link/extensions/llp/",
 	"whoisServer": "whois.nic.llp",
+	"rdapURLs": [
+		"https://rdap.centralnic.com/llp/"
+	],
 	"nameServers": [
 		"a.nic.llp",
 		"b.nic.llp",
