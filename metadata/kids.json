@@ -2,7 +2,7 @@
 	"domain": "kids",
 	"registryOperator": "DotKids Foundation Limited",
 	"infoURL": "https://nic.kids/",
-	"whoisServer": "whois.nic.kids",
+	"whoisServer": "whois.afilias-srs.net",
 	"nameServers": [
 		"a0.nic.kids",
 		"a2.nic.kids",

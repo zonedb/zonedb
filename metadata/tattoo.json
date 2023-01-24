@@ -2,7 +2,7 @@
 	"domain": "tattoo",
 	"registryOperator": "Top Level Design, LLC",
 	"infoURL": "https://nic.tattoo/",
-	"whoisServer": "whois.nic.tattoo",
+	"whoisServer": "whois.uniregistry.net",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],

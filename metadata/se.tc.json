@@ -4,6 +4,10 @@
 		"jill.ns.cloudflare.com",
 		"noah.ns.cloudflare.com"
 	],
+	"wildcards": [
+		"199.59.243.222",
+		"68815.bodis.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

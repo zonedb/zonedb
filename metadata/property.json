@@ -2,7 +2,7 @@
 	"domain": "property",
 	"registryOperator": "Internet Naming Company LLC",
 	"infoURL": "https://nic.property/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.property",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],

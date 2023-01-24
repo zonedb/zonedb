@@ -2,7 +2,7 @@
 	"domain": "hiv",
 	"registryOperator": "Internet Naming Company LLC",
 	"infoURL": "https://uniregistry.link/extensions/hiv/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.hiv",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],
