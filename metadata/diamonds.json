@@ -8,10 +8,7 @@
 	"nameServers": [
 		"v0n0.nic.diamonds",
 		"v0n1.nic.diamonds",
-		"v0n2.nic.diamonds",
-		"v0n3.nic.diamonds",
-		"v2n0.nic.diamonds",
-		"v2n1.nic.diamonds"
+		"v0n2.nic.diamonds"
 	],
 	"languages": [
 		"de",
