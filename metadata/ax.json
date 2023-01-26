@@ -4,6 +4,7 @@
 	"whoisServer": "whois.ax",
 	"nameServers": [
 		"ns1.aland.net",
+		"ns2.aland.net",
 		"ns3.alcom.fi",
 		"ns4.alcom.fi"
 	],

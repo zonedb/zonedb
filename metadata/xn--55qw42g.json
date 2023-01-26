@@ -6,6 +6,13 @@
 	"rdapURLs": [
 		"https://rdap.conac.cn/"
 	],
+	"nameServers": [
+		"ns1.conac.cn",
+		"ns2.conac.cn",
+		"ns3.conac.cn",
+		"ns4.conac.cn",
+		"ns5.conac.cn"
+	],
 	"languages": [
 		"zh"
 	],
