@@ -1,6 +1,6 @@
 {
 	"domain": "kr",
-	"whoisServer": "whois.kr",
+	"whoisServer": "whois.krnic.net",
 	"nameServers": [
 		"b.dns.kr",
 		"c.dns.kr",
