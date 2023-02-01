@@ -3,8 +3,6 @@
 	"whoisURL": "http://www.nic.cy/nslookup/online_database.php",
 	"nameServers": [
 		"cy-ns.anycast.pch.net",
-		"cynic4.dns.cy",
-		"cynic6.dns.cy",
 		"estia.ics.forth.gr",
 		"ns31.rcode0.net",
 		"ns4.apnic.net"
