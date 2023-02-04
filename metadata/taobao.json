@@ -40,32 +40,32 @@
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_da_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_da_4.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_de_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_de_4.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_es_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_es_4.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_fi_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_fi_4.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_hu_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_hu_4.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "is",
-			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_is_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_is_4.0.txt"
 		},
 		{
 			"type": "idn-table",
@@ -75,17 +75,17 @@
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_ko_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_ko_4.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "lt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_lt_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_lt_4.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "lv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_lv_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_lv_4.0.txt"
 		},
 		{
 			"type": "idn-table",
@@ -95,22 +95,22 @@
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_pl_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_pl_4.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_pt_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_pt_4.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_ru_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_ru_4.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_sv_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/taobao_sv_4.0.txt"
 		},
 		{
 			"type": "idn-table",

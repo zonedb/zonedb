@@ -1,6 +1,7 @@
 {
 	"domain": "alt.za",
 	"nameServers": [
+		"ns-za.afrinic.net",
 		"ns1.iafrica.com",
 		"ns2.iafrica.com",
 		"psg.com",
