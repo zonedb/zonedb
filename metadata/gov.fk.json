@@ -1,9 +1,5 @@
 {
 	"domain": "gov.fk",
-	"nameServers": [
-		"ns1.horizon.net.fk",
-		"ns2.horizon.net.fk"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
