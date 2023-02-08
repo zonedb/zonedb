@@ -2,6 +2,7 @@
 	"domain": "edu.np",
 	"infoURL": "https://register.com.np/",
 	"nameServers": [
+		"lana.ns.cloudflare.com",
 		"np-ns.npix.net.np",
 		"np.cctld.authdns.ripe.net",
 		"ns4.apnic.net",

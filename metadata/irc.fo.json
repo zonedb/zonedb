@@ -1,9 +1,8 @@
 {
 	"domain": "irc.fo",
 	"nameServers": [
-		"ns1.økisnavn.fo",
-		"ns2.økisnavn.fo",
-		"ns3.økisnavn.fo"
+		"art.ns.cloudflare.com",
+		"sandy.ns.cloudflare.com"
 	],
 	"policies": [
 		{
