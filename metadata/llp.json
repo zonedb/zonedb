@@ -23,7 +23,7 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/llp_es_2.6.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/llp_es_1.0.txt"
 		},
 		{
 			"type": "idn-table",
