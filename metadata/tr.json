@@ -1,7 +1,7 @@
 {
 	"domain": "tr",
 	"infoURL": "https://www.iana.org/domains/root/db/tr.html",
-	"whoisServer": "whois.nic.tr",
+	"whoisServer": "whois.trabis.gov.tr",
 	"nameServers": [
 		"ns31.nic.tr",
 		"ns34.nic.tr",
