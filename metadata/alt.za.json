@@ -1,6 +1,7 @@
 {
 	"domain": "alt.za",
 	"nameServers": [
+		"ans.dnsstudy.africa",
 		"ns-za.afrinic.net",
 		"ns1.iafrica.com",
 		"ns2.iafrica.com",
