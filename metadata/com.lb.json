@@ -5,8 +5,7 @@
 		"ns-jp.lbdr.org.lb",
 		"ns3.seacomnet.com",
 		"ns4.seacomnet.com",
-		"rip.psg.com",
-		"zeina.aub.edu.lb"
+		"rip.psg.com"
 	],
 	"policies": [
 		{
