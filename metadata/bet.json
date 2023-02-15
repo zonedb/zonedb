@@ -4,7 +4,7 @@
 	"infoURL": "https://identity.digital/",
 	"whoisServer": "whois.nic.bet",
 	"rdapURLs": [
-		"https://rdap.afilias.net/rdap/bet/"
+		"https://rdap.donuts.co/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.bet",
