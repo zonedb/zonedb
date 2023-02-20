@@ -1,8 +1,10 @@
 {
 	"domain": "org.fo",
 	"nameServers": [
-		"cash.ns.cloudflare.com",
-		"nelly.ns.cloudflare.com"
+		"ns1.idvdns.com",
+		"ns2.idvdns.com",
+		"ns3.idvdns.com",
+		"ns4.idvdns.com"
 	],
 	"policies": [
 		{
