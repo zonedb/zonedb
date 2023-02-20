@@ -1,0 +1,10 @@
+{
+	"domain": "org.sk",
+	"nameServers": [
+		"a.tld.sk",
+		"e.tld.sk",
+		"f.tld.sk",
+		"g.tld.sk",
+		"h.tld.sk"
+	]
+}

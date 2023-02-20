@@ -4327,6 +4327,7 @@ co.si
 de.si
 uk.si
 us.si
+org.sk
 com.sl
 edu.sl
 gov.sl
