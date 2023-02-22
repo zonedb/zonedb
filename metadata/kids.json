@@ -3,6 +3,9 @@
 	"registryOperator": "DotKids Foundation Limited",
 	"infoURL": "https://nic.kids/",
 	"whoisServer": "whois.afilias-srs.net",
+	"rdapURLs": [
+		"https://rdap.afilias-srs.net/rdap/kids/"
+	],
 	"nameServers": [
 		"a0.nic.kids",
 		"a2.nic.kids",

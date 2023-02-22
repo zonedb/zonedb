@@ -1,6 +1,6 @@
 {
 	"domain": "global",
-	"registryOperator": "Dot Global Domain Registry Limited",
+	"registryOperator": "Identity Digital Limited",
 	"whoisServer": "whois.nic.global",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"
