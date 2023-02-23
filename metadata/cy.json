@@ -4,6 +4,7 @@
 	"nameServers": [
 		"cy-ns.anycast.pch.net",
 		"cynic4.dns.cy",
+		"cynic5.dns.cy",
 		"cynic6.dns.cy",
 		"estia.ics.forth.gr",
 		"ns31.rcode0.net",
