@@ -1,8 +1,8 @@
 {
 	"domain": "mil.bj",
 	"nameServers": [
-		"ns01.gouv.bj",
-		"ns1.jenysas.bj"
+		"beau.ns.cloudflare.com",
+		"emma.ns.cloudflare.com"
 	],
 	"policies": [
 		{
