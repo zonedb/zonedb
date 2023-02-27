@@ -2,6 +2,7 @@
 	"domain": "dj",
 	"whoisURL": "http://www.nic.dj/whois.php",
 	"nameServers": [
+		"bow1.intnet.dj",
 		"bow5.intnet.dj",
 		"vps443605.ovh.net"
 	],
