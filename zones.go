@@ -2391,7 +2391,7 @@ var y = [5226]Zone{
 	{"qc.com", &z[314], x, 0x200, e, e, w{"pdns07.domaincontrol.com", "pdns08.domaincontrol.com"}, n, n, n, "whois.centralnic.com", e, n, t},
 	{"ru.com", &z[314], x, 0x200, e, e, w{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, n, n, n, "whois.centralnic.com", e, w{"https://rdap.centralnic.com/ru.com/"}, t},
 	{"sa.com", &z[314], x, 0x200, e, e, w{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, n, n, n, "whois.centralnic.com", e, w{"https://rdap.centralnic.com/sa.com/"}, t},
-	{"se.com", &z[314], x, 0x200, e, e, w{"nsa.perf1.fr", "nsb.perf1.com", "nsc.perf1.com", "nsz.perf1.com", "nsz.perf1.fr"}, n, n, n, "whois.centralnic.com", e, n, t},
+	{"se.com", &z[314], x, 0xa00, e, e, n, n, n, n, e, e, n, t},
 	{"uk.com", &z[314], x, 0x200, e, e, w{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, w{"54.153.56.183"}, n, n, "whois.centralnic.com", e, w{"https://rdap.centralnic.com/uk.com/"}, t},
 	{"ukots.com", &z[314], x, 0, e, e, w{"blerghmaheuikcnho.hydrapiglephant.com", "blerghoqannsvwfvm.hydrapiglephant.com"}, n, n, n, e, e, n, t},
 	{"us.com", &z[314], x, 0x200, e, e, w{"ns1.centralnic.net", "ns2.centralnic.net", "ns3.centralnic.net", "ns4.centralnic.net"}, w{"45.56.79.23"}, n, n, "whois.centralnic.com", e, w{"https://rdap.centralnic.com/us.com/"}, t},
