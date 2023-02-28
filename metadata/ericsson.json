@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/ericsson/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.ericsson",
+		"a2.nic.ericsson",
+		"b0.nic.ericsson",
+		"c0.nic.ericsson"
 	],
 	"tags": [
 		"brand",

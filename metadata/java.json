@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/java/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.java",
+		"a2.nic.java",
+		"b0.nic.java",
+		"c0.nic.java"
 	],
 	"tags": [
 		"brand",

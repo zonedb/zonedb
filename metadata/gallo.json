@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/gallo/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.gallo",
+		"a2.nic.gallo",
+		"b0.nic.gallo",
+		"c0.nic.gallo"
 	],
 	"tags": [
 		"brand",
