@@ -4,11 +4,6 @@
 		"ns81.rookdns.com",
 		"ns82.rookdns.com"
 	],
-	"wildcards": [
-		"66.81.203.130",
-		"66.81.203.195",
-		"66.81.203.5"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
