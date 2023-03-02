@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.shia/",
 	"whoisServer": "whois.nic.shia",
 	"rdapURLs": [
-		"https://api.rdap.agitsys.net/"
+		"https://api.rdap.nic.shia/"
 	],
 	"nameServers": [
 		"a.ns.nic.shia",

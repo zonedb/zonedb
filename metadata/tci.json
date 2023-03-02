@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.tci/",
 	"whoisServer": "whois.nic.tci",
 	"rdapURLs": [
-		"https://api.rdap.agitsys.net/"
+		"https://api.rdap.nic.tci/"
 	],
 	"nameServers": [
 		"a.ns.nic.tci",

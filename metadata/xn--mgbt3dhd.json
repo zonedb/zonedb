@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--mgbt3dhd",
 	"whoisServer": "whois.nic.همراه",
 	"rdapURLs": [
-		"https://api.rdap.agitsys.net/"
+		"https://api.rdap.nic.همراه/"
 	],
 	"nameServers": [
 		"a.ns.nic.همراه",

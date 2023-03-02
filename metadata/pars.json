@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.pars/",
 	"whoisServer": "whois.nic.pars",
 	"rdapURLs": [
-		"https://api.rdap.agitsys.net/"
+		"https://api.rdap.nic.pars/"
 	],
 	"nameServers": [
 		"a.ns.nic.pars",
