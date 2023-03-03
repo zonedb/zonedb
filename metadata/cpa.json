@@ -3,6 +3,9 @@
 	"registryOperator": "American Institute of Certified Public Accountants",
 	"infoURL": "http://nic.cpa/",
 	"whoisServer": "whois.nic.cpa",
+	"rdapURLs": [
+		"http://rdap.nic.cpa/"
+	],
 	"nameServers": [
 		"a.nic.cpa",
 		"b.nic.cpa",
