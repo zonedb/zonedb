@@ -3,6 +3,9 @@
 	"registryOperator": "DotMusic Limited",
 	"infoURL": "https://nic.music/",
 	"whoisServer": "whois.nic.music",
+	"rdapURLs": [
+		"http://rdap.centralnic.com/music/"
+	],
 	"nameServers": [
 		"a.nic.music",
 		"b.nic.music",

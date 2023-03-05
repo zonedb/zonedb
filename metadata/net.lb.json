@@ -1,6 +1,7 @@
 {
 	"domain": "net.lb",
 	"nameServers": [
+		"nabil.beirutix.net",
 		"nn.uninett.no",
 		"ns-jp.lbdr.org.lb",
 		"ns3.seacomnet.com",

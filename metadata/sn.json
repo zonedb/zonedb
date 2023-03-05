@@ -3,6 +3,7 @@
 	"whoisServer": "whois.nic.sn",
 	"nameServers": [
 		"censvrns0001.ird.fr",
+		"dns-tld.ird.fr",
 		"ns-sn.nic.fr",
 		"ns.ucad.sn",
 		"ns1.sonatel.sn",
