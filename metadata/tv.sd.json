@@ -1,6 +1,8 @@
 {
 	"domain": "tv.sd",
 	"nameServers": [
+		"ans1.sis.sd",
+		"ns.cocca.fr",
 		"ns1.domains.sd",
 		"ns2.domains.sd"
 	],
