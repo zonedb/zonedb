@@ -3,6 +3,7 @@
 	"whoisServer": "whois.zicta.zm",
 	"nameServers": [
 		"gransy.nic.zm",
+		"ns-zm.afrinic.net",
 		"pch.nic.zm"
 	],
 	"tags": [
