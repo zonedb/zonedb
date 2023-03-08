@@ -2,7 +2,7 @@
 	"domain": "ht",
 	"whoisServer": "whois.nic.ht",
 	"nameServers": [
-		"ns3.nic.fr",
+		"ns-ht.nic.fr",
 		"pch.nic.ht"
 	],
 	"tags": [
