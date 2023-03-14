@@ -1,8 +1,8 @@
 {
 	"domain": "ac.uz",
 	"nameServers": [
-		"ns1.sarkor.uz",
-		"ns2.sarkor.uz"
+		"p3.dc.uz",
+		"p4.dc.uz"
 	],
 	"policies": [
 		{
