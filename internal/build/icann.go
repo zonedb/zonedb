@@ -103,7 +103,10 @@ func FetchGTLDsFromICANN(zones map[string]*Zone) error {
 		}
 		_, ok := gTLDs[z.Domain]
 		if !ok && len(z.NameServers) == 0 {
-			z.AddTags(TagWithdrawn)
+			// @ydnar 2023-03-14: warn instead of automatically withdrawing a TLD.
+			// https://github.com/zonedb/zonedb/commit/d965a0e6e4eab28e741fde39661cbcfadac4aa5e
+			Trace("@{r}Alert: active TLD without name servers: @{y!}%s\n", z.Domain)
+			// z.AddTags(TagWithdrawn)
 		}
 	}
 
