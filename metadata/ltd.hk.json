@@ -8,6 +8,9 @@
 		"dns7.cloudns.net",
 		"dns8.cloudns.net"
 	],
+	"wildcards": [
+		"127.0.0.1"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
