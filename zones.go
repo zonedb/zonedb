@@ -999,7 +999,7 @@ var y = [5225]Zone{
 	{"mcdonalds", r, x, 0x842, e, e, n, n, n, n, e, e, n, f},
 	{"mckinsey", r, x, 0x42, "McKinsey Holdings, Inc.", "https://www.mckinsey.com/nic", w{"a0.nic.mckinsey", "a2.nic.mckinsey", "b0.nic.mckinsey", "c0.nic.mckinsey"}, n, n, n, "whois.nic.mckinsey", e, w{"https://rdap.afilias-srs.net/rdap/mckinsey/"}, f},
 	{"md", r, x, 0xa0, e, e, w{"nsa.tld.md", "nsb.tld.md", "nsc.dns.md", "nsf.dns.md", "nsr.dns.md"}, n, n, n, "whois.nic.md", e, n, f},
-	{"me", r, z[3407:3415], 0x40e0, e, "https://domain.me/", w{"a0.nic.me", "a2.nic.me", "b0.nic.me", "b2.nic.me", "c0.nic.me"}, n, n, n, "whois.nic.me", e, n, f},
+	{"me", r, z[3407:3415], 0xe0, e, "https://domain.me/", w{"a0.nic.me", "a2.nic.me", "b0.nic.me", "b2.nic.me", "c0.nic.me"}, n, n, n, "whois.nic.me", e, n, f},
 	{"med", r, x, 0x40, "Medistry LLC", "http://www.nic.med/", w{"dns1.nic.med", "dns2.nic.med", "dns3.nic.med", "dns4.nic.med", "dnsa.nic.med", "dnsb.nic.med", "dnsc.nic.med", "dnsd.nic.med"}, n, n, n, "whois.nic.med", e, w{"https://rdap.nominet.uk/med/"}, f},
 	{"media", r, x, 0x40, "Binky Moon, LLC", e, w{"v0n0.nic.media", "v0n1.nic.media", "v0n2.nic.media", "v0n3.nic.media", "v2n0.nic.media", "v2n1.nic.media"}, n, n, w{"de", "es", "fr", "ja", "ko", "mul-Arab", "mul-Cyrl", "mul-Deva", "mul-Grek", "mul-Hebr", "mul-Latn", "mul-Taml", "mul-Thai", "zh"}, "whois.nic.media", e, w{"https://rdap.donuts.co/rdap/"}, t},
 	{"medical", r, x, 0x4040, e, e, n, n, n, n, e, e, n, f},
