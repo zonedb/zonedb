@@ -10,11 +10,7 @@
 		"a.nic.help",
 		"b.nic.help",
 		"c.nic.help",
-		"d.nic.help",
-		"ns1.uniregistry.net",
-		"ns2.uniregistry.info",
-		"ns3.uniregistry.net",
-		"ns4.uniregistry.info"
+		"d.nic.help"
 	],
 	"languages": [
 		"de",
