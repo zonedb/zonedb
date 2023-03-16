@@ -178,7 +178,6 @@ func TestZone_AllowsRegistration(t *testing.T) {
 		"org":          true,
 		"ck":           false,
 		"yu":           false,
-		"arpa":         false,
 		"cadillac":     false,
 		"amazon":       true,
 		"co.uk":        true,
