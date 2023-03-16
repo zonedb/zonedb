@@ -4,6 +4,9 @@
 		"ns1.dan.com",
 		"ns2.dan.com"
 	],
+	"wildcards": [
+		"3.64.163.50"
+	],
 	"tags": [
 		"private"
 	]

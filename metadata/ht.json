@@ -2,6 +2,7 @@
 	"domain": "ht",
 	"whoisServer": "whois.nic.ht",
 	"nameServers": [
+		"a.lactld.org",
 		"ns-ht.nic.fr",
 		"pch.nic.ht"
 	],
