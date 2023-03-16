@@ -149,10 +149,15 @@ func (z *Zone) AllowsIDN() bool {
 }
 
 // AllowsRegistration returns true if the Zone’s authority (registry)
-// permits registration of subdomains of this Zone. Examples:
-// closed, withdrawn, retired, or infrastructure zones.
+// permits registration of subdomains of this Zone. Examples include
+// zones that are closed, withdrawn, or retired zones.
+// A closed zone is where the registry operator does not permit registration,
+// typically at the second level, like .ck.
+// A withdrawn zone is a gTLD that was withdrawn and removed from the root
+// zone file by the RO.
+// A retired zone was active, but has since been undelegated.
 func (z *Zone) AllowsRegistration() bool {
-	return !z.Tags.And(TagClosed | TagWithdrawn | TagRetired | TagInfrastructure)
+	return !z.Tags.And(TagClosed | TagWithdrawn | TagRetired)
 }
 
 // IsZone returns true if the input domain is a Zone.
