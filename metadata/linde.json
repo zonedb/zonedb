@@ -6,12 +6,6 @@
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/linde/v1/"
 	],
-	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
-	],
 	"languages": [
 		"az",
 		"be",
@@ -119,7 +113,8 @@
 	],
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{
