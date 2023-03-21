@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/barefoot",
 	"whoisServer": "whois.nic.barefoot",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/barefoot/v1/"
+		"https://rdap.afilias-srs.net/rdap/barefoot/"
 	],
 	"nameServers": [
 		"a0.nic.barefoot",

@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.ericsson/",
 	"whoisServer": "whois.nic.ericsson",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/ericsson/v1/"
+		"https://rdap.afilias-srs.net/rdap/ericsson/"
 	],
 	"nameServers": [
 		"a0.nic.ericsson",
