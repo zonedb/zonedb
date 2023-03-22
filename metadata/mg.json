@@ -3,6 +3,7 @@
 	"whoisServer": "whois.nic.mg",
 	"nameServers": [
 		"dns-tld.ird.fr",
+		"ns-mg.afrinic.net",
 		"ns-mg.malagasy.com",
 		"ns.dts.mg",
 		"ns.nic.mg",
