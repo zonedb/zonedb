@@ -2,7 +2,7 @@
 	"domain": "bf",
 	"nameServers": [
 		"a.registre.bf",
-		"censvrns0001.ird.fr",
+		"dns-tld.ird.fr",
 		"ns-bf.nic.fr",
 		"pch.ns.registre.bf"
 	],
