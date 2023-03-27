@@ -2,6 +2,7 @@
 	"domain": "net.mg",
 	"nameServers": [
 		"censvrns0001.ird.fr",
+		"dns-tld.ird.fr",
 		"ns-mg.malagasy.com",
 		"ns.dts.mg",
 		"ns.nic.mg",
