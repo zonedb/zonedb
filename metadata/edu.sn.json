@@ -1,10 +1,5 @@
 {
 	"domain": "edu.sn",
-	"nameServers": [
-		"ns.nic.sn",
-		"ns.ucad.sn",
-		"ns3.cctld.sn"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
