@@ -2,8 +2,7 @@
 	"domain": "kul.ee",
 	"nameServers": [
 		"ans2.aso.ee",
-		"ns1.rmit.ee",
-		"ns2.rmit.ee"
+		"dns.rmit.ee"
 	],
 	"policies": [
 		{
