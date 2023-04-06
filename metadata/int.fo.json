@@ -1,5 +1,10 @@
 {
 	"domain": "int.fo",
+	"nameServers": [
+		"1-you.njalla.no",
+		"2-can.njalla.in",
+		"3-get.njalla.fo"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
