@@ -1,12 +1,7 @@
 {
 	"domain": "ru.tc",
 	"nameServers": [
-		"jake.ns.cloudflare.com",
-		"sue.ns.cloudflare.com"
-	],
-	"wildcards": [
-		"199.59.243.223",
-		"68815.bodis.com"
+		"suspended.nic.tc"
 	],
 	"policies": [
 		{
