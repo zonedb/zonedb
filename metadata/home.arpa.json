@@ -1,0 +1,11 @@
+{
+	"domain": "home.arpa",
+	"nameServers": [
+		"blackhole-1.iana.org",
+		"blackhole-2.iana.org"
+	],
+	"tags": [
+		"closed",
+		"infrastructure"
+	]
+}

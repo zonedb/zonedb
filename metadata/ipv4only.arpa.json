@@ -1,19 +1,13 @@
 {
-	"domain": "urn.arpa",
+	"domain": "ipv4only.arpa",
 	"nameServers": [
 		"a.iana-servers.net",
 		"b.iana-servers.net",
 		"c.iana-servers.net",
-		"ns3.lacnic.net",
-		"ns4.apnic.net"
+		"ns.icann.org"
 	],
 	"tags": [
 		"closed",
 		"infrastructure"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
 	]
 }

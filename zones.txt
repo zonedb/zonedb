@@ -1823,10 +1823,17 @@ mil.ar
 net.ar
 org.ar
 tur.ar
+as112.arpa
 e164.arpa
+home.arpa
 in-addr.arpa
+in-addr-servers.arpa
 ip6.arpa
+ip6-servers.arpa
+ipv4only.arpa
 iris.arpa
+ns.arpa
+resolver.arpa
 uri.arpa
 urn.arpa
 ac.at

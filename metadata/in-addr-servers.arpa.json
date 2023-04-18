@@ -1,5 +1,5 @@
 {
-	"domain": "in-addr.arpa",
+	"domain": "in-addr-servers.arpa",
 	"nameServers": [
 		"a.in-addr-servers.arpa",
 		"b.in-addr-servers.arpa",
@@ -11,10 +11,5 @@
 	"tags": [
 		"closed",
 		"infrastructure"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
 	]
 }
