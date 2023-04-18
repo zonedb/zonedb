@@ -11,8 +11,8 @@
 		"j-dns.pl"
 	],
 	"tags": [
-		"closed",
-		"infrastructure"
+		"city",
+		"geo"
 	],
 	"policies": [
 		{
