@@ -5,6 +5,10 @@
 		"ns1.lublin.pl",
 		"ns2.lublin.pl"
 	],
+	"tags": [
+		"geo",
+		"region"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -6,6 +6,10 @@
 		"dns4.man.lodz.pl",
 		"ns1.tpnet.pl"
 	],
+	"tags": [
+		"geo",
+		"region"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
