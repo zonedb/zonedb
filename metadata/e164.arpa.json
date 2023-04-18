@@ -9,7 +9,8 @@
 		"rirns.arin.net"
 	],
 	"tags": [
-		"closed"
+		"closed",
+		"infrastructure"
 	],
 	"policies": [
 		{

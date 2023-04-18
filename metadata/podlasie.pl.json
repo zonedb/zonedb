@@ -10,6 +10,10 @@
 		"h-dns.pl",
 		"j-dns.pl"
 	],
+	"tags": [
+		"geo",
+		"region"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

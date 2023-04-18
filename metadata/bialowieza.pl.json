@@ -9,5 +9,9 @@
 		"g-dns.pl",
 		"h-dns.pl",
 		"j-dns.pl"
+	],
+	"tags": [
+		"city",
+		"geo"
 	]
 }

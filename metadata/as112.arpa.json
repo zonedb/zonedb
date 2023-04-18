@@ -1,0 +1,12 @@
+{
+	"domain": "as112.arpa",
+	"nameServers": [
+		"a.iana-servers.net",
+		"b.iana-servers.net",
+		"c.iana-servers.net"
+	],
+	"tags": [
+		"closed",
+		"infrastructure"
+	]
+}
