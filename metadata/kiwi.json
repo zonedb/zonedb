@@ -1,6 +1,7 @@
 {
 	"domain": "kiwi",
-	"registryOperator": "DOT KIWI LIMITED",
+	"registryOperator": "Dot Kiwi Limited",
+	"infoURL": "https://hello.kiwi/",
 	"whoisServer": "whois.nic.kiwi",
 	"rdapURLs": [
 		"https://rdap.kiwi.fury.ca/rdap/"
@@ -13,7 +14,9 @@
 		"mul-Latn"
 	],
 	"tags": [
-		"generic"
+		"country",
+		"generic",
+		"geo"
 	],
 	"policies": [
 		{
