@@ -1,5 +1,9 @@
 {
 	"domain": "il.us",
+	"tags": [
+		"geo",
+		"region"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

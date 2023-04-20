@@ -1,5 +1,9 @@
 {
 	"domain": "sd.us",
+	"tags": [
+		"geo",
+		"region"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

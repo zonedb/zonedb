@@ -1,5 +1,9 @@
 {
 	"domain": "as.us",
+	"tags": [
+		"geo",
+		"region"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -1,5 +1,9 @@
 {
 	"domain": "nc.us",
+	"tags": [
+		"geo",
+		"region"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

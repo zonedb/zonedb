@@ -1,5 +1,9 @@
 {
 	"domain": "az.us",
+	"tags": [
+		"geo",
+		"region"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
