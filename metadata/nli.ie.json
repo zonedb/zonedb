@@ -1,8 +1,9 @@
 {
 	"domain": "nli.ie",
 	"nameServers": [
-		"ns.heanet.ie",
-		"vax1.baker.ie"
+		"auth-ns2.heanet.ie",
+		"auth-ns3.heanet.ie",
+		"ns.heanet.ie"
 	],
 	"policies": [
 		{
