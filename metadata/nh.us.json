@@ -1,5 +1,9 @@
 {
 	"domain": "nh.us",
+	"tags": [
+		"geo",
+		"region"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

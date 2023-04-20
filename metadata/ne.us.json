@@ -1,5 +1,9 @@
 {
 	"domain": "ne.us",
+	"tags": [
+		"geo",
+		"region"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

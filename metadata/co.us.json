@@ -1,7 +1,8 @@
 {
 	"domain": "co.us",
 	"tags": [
-		"retired"
+		"geo",
+		"region"
 	],
 	"policies": [
 		{

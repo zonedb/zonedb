@@ -1,5 +1,9 @@
 {
 	"domain": "mo.us",
+	"tags": [
+		"geo",
+		"region"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

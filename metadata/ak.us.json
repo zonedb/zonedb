@@ -1,4 +1,8 @@
 {
 	"domain": "ak.us",
-	"infoURL": "https://doa.alaska.gov/ets/eash/DNSrequestform.html"
+	"infoURL": "https://doa.alaska.gov/ets/eash/DNSrequestform.html",
+	"tags": [
+		"geo",
+		"region"
+	]
 }
