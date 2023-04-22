@@ -4,7 +4,7 @@
 	"infoURL": "https://get.love/",
 	"whoisServer": "whois.nic.love",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/love/"
+		"https://rdap.registry.love/rdap/"
 	],
 	"nameServers": [
 		"ns1.uniregistry.net",
