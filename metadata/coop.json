@@ -4,7 +4,7 @@
 	"infoURL": "https://identity.coop/",
 	"whoisServer": "whois.nic.coop",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/coop/"
+		"https://rdap.registry.coop/rdap/"
 	],
 	"nameServers": [
 		"ns1.uniregistry.net",

@@ -3,8 +3,6 @@
 	"nameServers": [
 		"ns.ankh.fr.eu.org",
 		"ns1.eriomem.net",
-		"ns1.eu.org",
-		"ns1.imp.ch",
-		"ns2.imp.ch"
+		"ns1.eu.org"
 	]
 }
