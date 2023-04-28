@@ -7,12 +7,14 @@
 		"https://tld-rdap.verisign.com/sky/v1/"
 	],
 	"nameServers": [
-		"ac3.nstld.com",
-		"ac4.nstld.com",
 		"ns1.nominetdns.uk",
 		"ns2.nominetdns.uk",
 		"ns3.nominetdns.uk",
-		"ns4.nominetdns.uk"
+		"ns4.nominetdns.uk",
+		"nsa.nominetdns.uk",
+		"nsb.nominetdns.uk",
+		"nsc.nominetdns.uk",
+		"nsd.nominetdns.uk"
 	],
 	"languages": [
 		"mul-Arab",

@@ -8,9 +8,8 @@
 	],
 	"nameServers": [
 		"a.nic.scb",
-		"b.nic.scb",
 		"c.nic.scb",
-		"d.nic.scb"
+		"rz.nic.scb"
 	],
 	"languages": [
 		"th"
