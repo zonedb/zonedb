@@ -4,6 +4,8 @@
 	"nameServers": [
 		"a.lactld.org",
 		"a.nic.uy",
+		"b.nic.uy",
+		"d.nic.uy",
 		"ns.dns.br",
 		"ns1.anteldata.com.uy",
 		"ns2.anteldata.com.uy"

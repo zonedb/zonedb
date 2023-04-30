@@ -1,6 +1,7 @@
 {
 	"domain": "org.mg",
 	"nameServers": [
+		"censvrns0001.ird.fr",
 		"dns-tld.ird.fr",
 		"ns-mg.malagasy.com",
 		"ns.dts.mg",
