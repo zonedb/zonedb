@@ -6,6 +6,9 @@
 		"ns3.idvdns.com",
 		"ns4.idvdns.com"
 	],
+	"wildcards": [
+		"45.125.32.130"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
