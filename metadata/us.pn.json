@@ -1,5 +1,8 @@
 {
 	"domain": "us.pn",
+	"tags": [
+		"private"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

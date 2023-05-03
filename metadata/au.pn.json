@@ -1,5 +1,8 @@
 {
 	"domain": "au.pn",
+	"tags": [
+		"private"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

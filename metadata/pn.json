@@ -1,7 +1,7 @@
 {
 	"domain": "pn",
-	"infoURL": "https://www.nic.pn/",
-	"whoisURL": "http://www.pitcairn.pn/PnRegistry/",
+	"infoURL": "https://nic.pn/",
+	"whoisURL": "https://nic.pn/whois.html",
 	"nameServers": [
 		"dns1.nominetdns.uk",
 		"dns4.nominetdns.uk",

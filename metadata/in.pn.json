@@ -5,5 +5,13 @@
 		"ns-1677.awsdns-17.co.uk",
 		"ns-441.awsdns-55.com",
 		"ns-906.awsdns-49.net"
+	],
+	"tags": [
+		"private"
+	],
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
 	]
 }

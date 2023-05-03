@@ -6,6 +6,9 @@
 		"ns-29.awsdns-03.com",
 		"ns-723.awsdns-26.net"
 	],
+	"tags": [
+		"private"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

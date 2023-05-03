@@ -6,6 +6,9 @@
 		"ns0.pitcairn.net.pn",
 		"ns1.pitcairn.net.pn"
 	],
+	"tags": [
+		"private"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
