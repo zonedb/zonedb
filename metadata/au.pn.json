@@ -1,8 +1,0 @@
-{
-	"domain": "au.pn",
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
-	]
-}

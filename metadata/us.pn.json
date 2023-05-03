@@ -1,8 +1,0 @@
-{
-	"domain": "us.pn",
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
-	]
-}

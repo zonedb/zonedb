@@ -1,8 +1,0 @@
-{
-	"domain": "ru.tc",
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
-	]
-}

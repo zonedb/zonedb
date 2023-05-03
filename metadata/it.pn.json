@@ -4,6 +4,9 @@
 		"ns1.speedydns.net",
 		"ns2.speedydns.net"
 	],
+	"tags": [
+		"private"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

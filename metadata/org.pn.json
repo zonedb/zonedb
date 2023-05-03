@@ -1,5 +1,6 @@
 {
 	"domain": "org.pn",
+	"infoURL": "https://nic.pn/",
 	"nameServers": [
 		"dns1.nominetdns.uk",
 		"dns4.nominetdns.uk",

@@ -1,8 +1,0 @@
-{
-	"domain": "ie.tc",
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
-	]
-}

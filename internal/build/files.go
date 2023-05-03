@@ -144,15 +144,6 @@ func ReadMetadata(zones map[string]*Zone) (errs []error) {
 	return
 }
 
-// WriteZones writes zones.txt and associated JSON metadata.
-func WriteZones(zones map[string]*Zone) error {
-	err := WriteZonesFile(zones)
-	if err != nil {
-		return err
-	}
-	return WriteMetadata(zones)
-}
-
 // WriteZonesFile writes the zones.txt file.
 func WriteZonesFile(zones map[string]*Zone) error {
 	domains := SortedDomains(zones)
@@ -171,12 +162,12 @@ func WriteZonesFile(zones map[string]*Zone) error {
 }
 
 // WriteMetadata writes the metadata/*.json files.
-func WriteMetadata(zones map[string]*Zone) error {
+func WriteMetadata(zones map[string]*Zone, delete bool) error {
 	var wrote, deleted int
 	for _, z := range zones {
 		z.Normalize()
 		path := filepath.Join(BaseDir, "metadata", z.ASCII()+".json")
-		if !z.HasMetadata() {
+		if delete || !z.HasMetadata() {
 			err := os.Remove(path)
 			if err == nil {
 				deleted++
