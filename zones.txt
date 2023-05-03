@@ -4054,7 +4054,6 @@ cn.pn
 co.pn
 de.pn
 edu.pn
-es.pn
 eu.pn
 fr.pn
 gov.pn
