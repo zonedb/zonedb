@@ -62,23 +62,26 @@ func FetchSpecialUseDomainsFromIANA(zones map[string]*Zone, addNew bool) error {
 			}
 
 			// Fix up metadata
-			if z.RegistryOperator != "IANA" {
-				z.RegistryOperator = "IANA"
-				modified = true
-			}
-			if z.InfoURL != infoURL {
-				z.InfoURL = infoURL
-			}
-			if z.AddTags("infrastructure", "closed") != 0 {
-				modified = true
+			if !z.HasMetadata() || z.ParentDomain() != "" {
+				if z.RegistryOperator != "IANA" {
+					z.RegistryOperator = "IANA"
+					modified = true
+				}
+				if z.InfoURL != infoURL && d == domain {
+					z.InfoURL = infoURL
+					modified = true
+				}
+				if z.AddTags("infrastructure", "closed") != 0 {
+					modified = true
+				}
 			}
 
 			if added {
 				zonesAdded++
-				color.Fprintf(os.Stderr, "@{g}     New zone @{g!}%s@{g}\t%s\n", d, infoURL)
+				color.Fprintf(os.Stderr, "@{g}New zone @{g!}%s@{.}\t%s\n", d, infoURL)
 			} else if modified {
 				zonesModified++
-				color.Fprintf(os.Stderr, "@{g}Modified zone @{g!}%s@{g}\t%s\n", d, infoURL)
+				color.Fprintf(os.Stderr, "@{y}Modified @{y!}%s@{.}\t%s\n", d, infoURL)
 			}
 
 			d = z.ParentDomain()
