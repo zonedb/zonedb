@@ -1,5 +1,9 @@
 {
 	"domain": "net.ph",
+	"nameServers": [
+		"7.ns.ph",
+		"8.ns.ph"
+	],
 	"wildcards": [
 		"45.79.222.138"
 	],
