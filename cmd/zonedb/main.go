@@ -43,7 +43,7 @@ func main() {
 	// Mutate operations
 	addLanguages := flag.String("add-languages", "", "add BCP 47 language tags to zones (comma-delimited)")
 	guessLanguages := flag.Bool("guess-languages", false, "guess BCP 47 languages for zones")
-	setInfoURL := flag.String("set-info-url", "", "set zone(s) info URLs")
+	setInfoURL := flag.String("set-info-url", "\u0000", "set zone(s) info URLs")
 	updateInfoURL := flag.Bool("update-info-url", false, "update zone(s) info URLs")
 	addRDAPURL := flag.String("add-rdap-url", "", "add RDAP URL to zones")
 	addTags := flag.String("add-tags", "", "add tags to zones (comma-delimited)")
@@ -348,7 +348,7 @@ func main() {
 		build.GuessLanguages(workZones)
 	}
 
-	if *setInfoURL != "" {
+	if *setInfoURL != "\u0000" {
 		for _, z := range workZones {
 			z.InfoURL = *setInfoURL
 		}
