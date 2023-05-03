@@ -29,7 +29,7 @@ func FetchSpecialUseDomainsFromIANA(zones map[string]*Zone, addNew bool) error {
 		return err
 	}
 
-	var added int
+	var zonesAdded, zonesModified int
 	for {
 		row, err := r.Read()
 		if err == io.EOF {
@@ -44,33 +44,48 @@ func FetchSpecialUseDomainsFromIANA(zones map[string]*Zone, addNew bool) error {
 		}
 
 		// Mangle reference into IETF data tracker URL
-		ref := rec["Reference"]
+		ref := strings.Trim(rec["Reference"], "[]")
 		ref = strings.Replace(ref, "RFC-ietf-", "draft-", 1)
 		infoURL := ietfDataTrackerBaseURL + strings.ToLower(ref)
 
 		domain := Normalize(rec["Name"])
 		d := domain
 		for d != "" {
+			var added, modified bool
 			z := zones[d]
 			if z == nil {
-				z = &Zone{
-					Domain:           d,
-					RegistryOperator: "IANA",
-					InfoURL:          infoURL,
-				}
-				z.AddTags("infrastructure")
+				z = &Zone{Domain: d}
 				if addNew {
-					z.RegistryOperator = "IANA"
-					color.Fprintf(os.Stderr, "@{g}New zone @{g!}%s@{g}\n", d)
 					zones[d] = z
-					added++
+					added = true
 				}
 			}
+
+			// Fix up metadata
+			if z.RegistryOperator != "IANA" {
+				z.RegistryOperator = "IANA"
+				modified = true
+			}
+			if z.InfoURL != infoURL {
+				z.InfoURL = infoURL
+			}
+			if z.AddTags("infrastructure", "closed") != 0 {
+				modified = true
+			}
+
+			if added {
+				zonesAdded++
+				color.Fprintf(os.Stderr, "@{g}     New zone @{g!}%s@{g}\t%s\n", d, infoURL)
+			} else if modified {
+				zonesModified++
+				color.Fprintf(os.Stderr, "@{g}Modified zone @{g!}%s@{g}\t%s\n", d, infoURL)
+			}
+
 			d = z.ParentDomain()
 		}
 	}
 
-	color.Fprintf(os.Stderr, "@{.}Added %d special domain (infrastructure) zone(s)\n", added)
+	color.Fprintf(os.Stderr, "@{.}Added %d and modified %d special domain (infrastructure) zone(s)\n", zonesAdded, zonesModified)
 
 	return nil
 }
