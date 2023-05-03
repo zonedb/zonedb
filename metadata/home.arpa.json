@@ -1,5 +1,7 @@
 {
 	"domain": "home.arpa",
+	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc8375",
 	"nameServers": [
 		"blackhole-1.iana.org",
 		"blackhole-2.iana.org"

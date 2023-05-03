@@ -1,5 +1,6 @@
 {
 	"domain": "in-addr.arpa",
+	"registryOperator": "IANA",
 	"nameServers": [
 		"a.in-addr-servers.arpa",
 		"b.in-addr-servers.arpa",

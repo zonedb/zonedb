@@ -1,0 +1,9 @@
+{
+	"domain": "example.com",
+	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc6761",
+	"tags": [
+		"closed",
+		"infrastructure"
+	]
+}

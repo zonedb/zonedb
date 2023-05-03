@@ -1,0 +1,9 @@
+{
+	"domain": "onion",
+	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc7686",
+	"tags": [
+		"closed",
+		"infrastructure"
+	]
+}

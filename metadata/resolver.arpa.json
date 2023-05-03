@@ -1,5 +1,7 @@
 {
 	"domain": "resolver.arpa",
+	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/draft-add-ddr-10",
 	"tags": [
 		"closed",
 		"infrastructure"

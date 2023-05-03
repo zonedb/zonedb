@@ -1,5 +1,7 @@
 {
 	"domain": "ipv4only.arpa",
+	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc8880",
 	"nameServers": [
 		"a.iana-servers.net",
 		"b.iana-servers.net",
