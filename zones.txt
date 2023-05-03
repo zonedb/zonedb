@@ -4444,7 +4444,6 @@ ac.sz
 co.sz
 org.sz
 at.tc
-au.tc
 be.tc
 biz.tc
 br.tc
@@ -4474,7 +4473,6 @@ se.tc
 shop.tc
 th.tc
 ua.tc
-uk.tc
 us.tc
 com.td
 net.td
@@ -5204,10 +5202,6 @@ tr.eu.org
 uk.eu.org
 us.eu.org
 co.at.tc
-com.au.tc
-co.uk.tc
-me.uk.tc
-org.uk.tc
 co.at.tt
 com.au.tt
 co.uk.tt
