@@ -1,8 +1,0 @@
-{
-	"domain": "eu.tc",
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
-	]
-}
