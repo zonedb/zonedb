@@ -1,0 +1,9 @@
+{
+	"domain": "a.e.f.ip6.arpa",
+	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc6762",
+	"tags": [
+		"closed",
+		"infrastructure"
+	]
+}

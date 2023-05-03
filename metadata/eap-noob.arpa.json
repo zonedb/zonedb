@@ -1,0 +1,9 @@
+{
+	"domain": "eap-noob.arpa",
+	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc9140",
+	"tags": [
+		"closed",
+		"infrastructure"
+	]
+}

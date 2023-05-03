@@ -1,5 +1,6 @@
 {
 	"domain": "ip6.arpa",
+	"registryOperator": "IANA",
 	"nameServers": [
 		"a.ip6-servers.arpa",
 		"b.ip6-servers.arpa",
