@@ -5206,9 +5206,6 @@ sk.eu.org
 tr.eu.org
 uk.eu.org
 us.eu.org
-co.at.pn
-com.au.pn
-co.uk.pn
 co.at.tc
 com.au.tc
 co.uk.tc
