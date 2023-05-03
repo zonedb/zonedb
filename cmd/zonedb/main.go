@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"errors"
 	"flag"
 	"fmt"
 	"os"
@@ -61,6 +62,9 @@ func main() {
 	updateIDN := flag.Bool("update-idn", false, "query IANA for IDN tables")
 	updateRDAP := flag.Bool("update-rdap", false, "query IANA for RDAP URLs")
 	updateAll := flag.Bool("update", false, "update all (root zone, whois, IANA data, IDN tables)")
+
+	// Delete operations
+	deleteZones := flag.Bool("delete", false, "delete working zones")
 
 	// Write operations
 	write := flag.Bool("w", false, "write zones.txt and metadata")
@@ -379,13 +383,25 @@ func main() {
 		zones[d] = z
 	}
 
+	// Delete zones
+	if *deleteZones {
+		if len(workZones) == len(zones) {
+			build.LogFatal(errors.New("cannot delete all zones, please select a subset"))
+		}
+		deleted := build.SortedDomains(workZones)
+		color.Fprintf(os.Stderr, "@{r!}Deleting %d zones: @{r}%s\n", len(workZones), strings.Join(deleted, " "))
+		for d := range workZones {
+			delete(zones, d)
+		}
+	}
+
 	if *write {
 		err := build.WriteZonesFile(zones)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogFatal(err)
 		}
-		err = build.WriteMetadata(workZones)
+		err = build.WriteMetadata(workZones, *deleteZones)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogFatal(err)
