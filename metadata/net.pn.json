@@ -6,10 +6,5 @@
 		"dns4.nominetdns.uk",
 		"ns0.pitcairn.net.pn",
 		"ns1.pitcairn.net.pn"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
 	]
 }

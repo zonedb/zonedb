@@ -6,10 +6,5 @@
 	],
 	"tags": [
 		"private"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
 	]
 }
