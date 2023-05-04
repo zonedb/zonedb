@@ -12,10 +12,5 @@
 	"tags": [
 		"country",
 		"geo"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
 	]
 }
