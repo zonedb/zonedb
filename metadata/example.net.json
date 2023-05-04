@@ -2,6 +2,10 @@
 	"domain": "example.net",
 	"registryOperator": "IANA",
 	"infoURL": "https://datatracker.ietf.org/doc/rfc6761",
+	"nameServers": [
+		"a.iana-servers.net",
+		"b.iana-servers.net"
+	],
 	"tags": [
 		"closed",
 		"infrastructure"

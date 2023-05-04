@@ -1,6 +1,14 @@
 {
 	"domain": "172.in-addr.arpa",
 	"registryOperator": "IANA",
+	"nameServers": [
+		"arin.authdns.ripe.net",
+		"r.arin.net",
+		"u.arin.net",
+		"x.arin.net",
+		"y.arin.net",
+		"z.arin.net"
+	],
 	"tags": [
 		"closed",
 		"infrastructure"

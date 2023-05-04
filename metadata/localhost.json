@@ -2,6 +2,10 @@
 	"domain": "localhost",
 	"registryOperator": "IANA",
 	"infoURL": "https://datatracker.ietf.org/doc/rfc6761",
+	"wildcards": [
+		"127.0.0.1",
+		"::1"
+	],
 	"tags": [
 		"closed",
 		"infrastructure"
