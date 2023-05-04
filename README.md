@@ -4,7 +4,7 @@
 [![go.dev reference](https://img.shields.io/badge/go.dev-reference-blue.svg?logo=go&logoColor=white)](https://pkg.go.dev/github.com/zonedb/zonedb)
 
 
-The Public Zone Database (zonedb) is a [free, open-source database](http://opendatacommons.org/licenses/odbl/1.0/) containing a list and associated metadata of public [DNS zones](http://en.wikipedia.org/wiki/DNS_zone) (domain name extensions). It attempts to be exhaustive, including current, retired, and withdrawn top-level domains and subdomains.
+The Public Zone Database (ZoneDB) is a [free, open-source database](http://opendatacommons.org/licenses/odbl/1.0/) containing a list and associated metadata of public [DNS zones](http://en.wikipedia.org/wiki/DNS_zone) (domain name extensions). It attempts to be exhaustive, including current, retired, and withdrawn top-level domains and subdomains.
 
 The intended use case is programs that interface with the [public domain name system](http://en.wikipedia.org/wiki/Domain_Name_System), including registry and registrar services. The data overlaps with and shares test cases with the [Public Suffix List](http://publicsuffix.org/) maintained by the [Mozilla Foundation](https://mozilla.org/). The source data was originally derived from the internal zone database in use at [Domainr](https://domainr.com/).
 
@@ -140,6 +140,8 @@ zonedb -tlds -idn -tags geo
 
 ## License
 
-This database is licensed under the [Open Database License (ODbL) version 1.0](http://opendatacommons.org/licenses/odbl/1.0/). See [LICENSE.md](https://github.com/zonedb/zonedb/blob/HEAD/LICENSE.md) for more information.
+The ZoneDB database is licensed under the [Open Database License (ODbL) version 1.0](http://opendatacommons.org/licenses/odbl/1.0/). See [LICENSE-DATA.md](https://github.com/zonedb/zonedb/blob/HEAD/LICENSE-DATA.md) for more information.
 
-Copyright © 2008–2023 the Public Zone Database authors.
+The [Go](https://go.dev/) package derived from this database is licensed under the [MIT license](https://opensource.org/license/mit/). See [LICENSE](https://github.com/zonedb/zonedb/blob/HEAD/LICENSE) for more information.
+
+Copyright © the Public Zone Database authors.
