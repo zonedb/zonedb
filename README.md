@@ -140,6 +140,6 @@ zonedb -tlds -idn -tags geo
 
 ## License
 
-This database is licensed under the [Open Database License (ODBl) version 1.0](http://opendatacommons.org/licenses/odbl/1.0/). See [LICENSE.md](https://github.com/zonedb/zonedb/blob/HEAD/LICENSE.md) for more information.
+This database is licensed under the [Open Database License (ODbL) version 1.0](http://opendatacommons.org/licenses/odbl/1.0/). See [LICENSE.md](https://github.com/zonedb/zonedb/blob/HEAD/LICENSE.md) for more information.
 
-Copyright © 2008–2020 the Public Zone Database authors.
+Copyright © 2008–2023 the Public Zone Database authors.
