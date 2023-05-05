@@ -1,9 +1,5 @@
 {
 	"domain": "tv.sd",
-	"nameServers": [
-		"ns1.domains.sd",
-		"ns2.domains.sd"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

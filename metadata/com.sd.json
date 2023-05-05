@@ -1,14 +1,5 @@
 {
 	"domain": "com.sd",
-	"nameServers": [
-		"ans1.canar.sd",
-		"ans1.sis.sd",
-		"ans2.canar.sd",
-		"ns-sd.afrinic.net",
-		"ns.cocca.fr",
-		"pch.sis.sd",
-		"sd.cctld.authdns.ripe.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
