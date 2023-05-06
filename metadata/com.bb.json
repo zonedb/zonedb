@@ -7,7 +7,8 @@
 		"ns2.nic.bb",
 		"ns3.nic.bb",
 		"ns4.nic.bb",
-		"ns5.nic.bb"
+		"ns5.nic.bb",
+		"ns6.nic.bb"
 	],
 	"policies": [
 		{
