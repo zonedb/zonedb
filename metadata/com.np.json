@@ -2,6 +2,7 @@
 	"domain": "com.np",
 	"infoURL": "https://register.com.np/",
 	"nameServers": [
+		"burt.ns.cloudflare.com",
 		"np-ns.npix.net.np",
 		"np.cctld.authdns.ripe.net",
 		"ns1.ncwizard.com",
