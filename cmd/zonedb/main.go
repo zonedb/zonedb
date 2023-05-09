@@ -57,7 +57,7 @@ func main() {
 	updateRubyWhois := flag.Bool("update-ruby-whois", false, "query Ruby Whois for whois servers")
 	updateWhois := flag.Bool("update-whois", false, "query whois-servers.net for whois servers")
 	updateIANA := flag.Bool("update-iana", false, "query IANA for metadata")
-	updateIANASpecial := flag.Bool("update-iana-special", false, "query IANA for special domains")
+	updateIANASpecial := flag.Bool("update-iana-special", false, "query IANA for special use domains")
 	updateICANN := flag.Bool("update-icann", false, "query ICANN for metadata")
 	updateIDN := flag.Bool("update-idn", false, "query IANA for IDN tables")
 	updateRDAP := flag.Bool("update-rdap", false, "query IANA for RDAP URLs")

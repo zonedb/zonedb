@@ -22,6 +22,7 @@ const (
 	TagPrivate        = "private"
 	TagRegion         = "region"
 	TagRetired        = "retired"
+	TagSpecial        = "special"
 	TagSponsored      = "sponsored"
 	TagTest           = "test"
 	TagWithdrawn      = "withdrawn"
