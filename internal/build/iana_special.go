@@ -79,7 +79,7 @@ func FetchSpecialUseDomainsFromIANA(zones map[string]*Zone, addNew bool) error {
 			if added {
 				zonesAdded++
 				color.Fprintf(os.Stderr, "@{g}New zone @{g!}%s@{.}\t%s\n", d, infoURL)
-			} else if modified {
+			} else if modified && zones[d] != nil {
 				zonesModified++
 				color.Fprintf(os.Stderr, "@{y}Modified @{y!}%s@{.}\t%s\n", d, infoURL)
 			}
