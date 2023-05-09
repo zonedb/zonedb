@@ -1,11 +1,9 @@
 {
-	"domain": "as112.arpa",
+	"domain": "empty.as112.arpa",
 	"registryOperator": "IANA",
 	"infoURL": "https://datatracker.ietf.org/doc/rfc7535",
 	"nameServers": [
-		"a.iana-servers.net",
-		"b.iana-servers.net",
-		"c.iana-servers.net"
+		"blackhole.as112.arpa"
 	],
 	"tags": [
 		"closed",
