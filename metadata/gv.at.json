@@ -1,7 +1,6 @@
 {
 	"domain": "gv.at",
 	"nameServers": [
-		"dns1.statistik.gv.at",
 		"dns4.statistik.gv.at",
 		"ns12.govix.at",
 		"ns3.wien.at",
