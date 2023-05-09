@@ -377,6 +377,11 @@ func main() {
 		build.CheckPublicSuffix(workZones)
 	}
 
+	err := build.ValidateTags(workZones)
+	if err != nil {
+		build.LogFatal(err)
+	}
+
 	// Fold newly added zones back in
 	for d, z := range workZones {
 		z.Normalize()
