@@ -1,6 +1,7 @@
 {
 	"domain": "169.in-addr.arpa",
 	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc6762",
 	"nameServers": [
 		"arin.authdns.ripe.net",
 		"r.arin.net",

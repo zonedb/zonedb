@@ -1,5 +1,7 @@
 {
 	"domain": "ip6-servers.arpa",
+	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc5855",
 	"nameServers": [
 		"a.ip6-servers.arpa",
 		"b.ip6-servers.arpa",

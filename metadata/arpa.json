@@ -1,5 +1,6 @@
 {
 	"domain": "arpa",
+	"registryOperator": "IANA",
 	"infoURL": "https://www.iana.org/domains/arpa",
 	"whoisServer": "whois.iana.org",
 	"nameServers": [

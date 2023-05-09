@@ -1,5 +1,7 @@
 {
 	"domain": "uri.arpa",
+	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc3405",
 	"nameServers": [
 		"a.iana-servers.net",
 		"b.iana-servers.net",
