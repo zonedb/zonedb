@@ -21,6 +21,7 @@ const (
 	TagInfrastructure = "infrastructure"
 	TagPrivate        = "private"
 	TagRegion         = "region"
+	TagReserved       = "reserved"
 	TagRetired        = "retired"
 	TagSpecial        = "special"
 	TagSponsored      = "sponsored"
