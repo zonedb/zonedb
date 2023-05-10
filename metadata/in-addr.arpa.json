@@ -1,6 +1,7 @@
 {
 	"domain": "in-addr.arpa",
 	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc1034",
 	"nameServers": [
 		"a.in-addr-servers.arpa",
 		"b.in-addr-servers.arpa",

@@ -11,6 +11,8 @@ import (
 	"text/template"
 
 	"github.com/wsxiaoys/terminal/color"
+	"golang.org/x/text/cases"
+	"golang.org/x/text/language"
 )
 
 // GenerateGo generates a Go source representation of ZoneDB.
@@ -181,6 +183,14 @@ func (data *templateData) urlStringSlice(slice []string) string {
 	return data.indexedStringSlice(needle)
 }
 
+// identifier converts a kebab-case string to a Go identifier string.
+func identifier(s string) string {
+	s = tagCaser.String(s)
+	return strings.ReplaceAll(s, "-", "")
+}
+
+var tagCaser = cases.Title(language.English)
+
 func quoted(s string) string {
 	if s == "" {
 		return "e" // const e = ""
@@ -198,7 +208,7 @@ func quotedURL(s string) string {
 
 func generate(filename, src string, data *templateData) error {
 	funcMap := template.FuncMap{
-		"title":        strings.Title,
+		"identifier":   identifier,
 		"quoted":       quoted,
 		"quotedDomain": quotedDomain,
 		"quotedURL":    quotedURL,
@@ -274,7 +284,7 @@ type Tags {{.TagType}}
 // Tag values corresponding to bit shifts (1 << iota)
 const (
 	{{range $i, $t := .Tags}} \
-		Tag{{title $t}} = {{index $.TagValues $t}}
+		Tag{{identifier $t}} = {{index $.TagValues $t}}
 	{{end}} \
 	numTags = {{len .Tags}}
 )
@@ -282,14 +292,14 @@ const (
 // TagStrings maps integer tag values to strings.
 var TagStrings = map[Tags]string{
 	{{range $t := .Tags}} \
-		Tag{{title $t}}: "{{$t}}",
+		Tag{{identifier $t}}: "{{$t}}",
 	{{end }}
 }
 
 // TagValues maps tag names to integer values.
 var TagValues  = map[string]Tags{
 	{{range $t := .Tags}} \
-		"{{$t}}": Tag{{title $t}},
+		"{{$t}}": Tag{{identifier $t}},
 	{{end }}
 }
 

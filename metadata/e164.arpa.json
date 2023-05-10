@@ -1,5 +1,7 @@
 {
 	"domain": "e164.arpa",
+	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc2916",
 	"whoisServer": "whois.ripe.net",
 	"nameServers": [
 		"ns3.afrinic.net",
