@@ -31,21 +31,21 @@ const (
 
 // ValidateTags validates tags in one or more zones.
 func ValidateTags(zones map[string]*Zone) error {
-	var tagCount, zoneCount int
+	var invalidTags, invalidZones int
 	for _, z := range zones {
 		for _, tag := range z.Tags {
-			t := tagCount
+			t := invalidTags
 			if !validTag.MatchString(tag) {
 				Trace("@{y}Warning: invalid tag in zone @{y!}%s: @{w!}%s\n", z.Domain, tag)
-				tagCount++
+				invalidTags++
 			}
-			if t != tagCount {
-				zoneCount++
+			if t != invalidTags {
+				invalidZones++
 			}
 		}
 	}
-	if tagCount > 0 {
-		return fmt.Errorf("found %d invalid tag(s) in %d zone(s)", tagCount, zoneCount)
+	if invalidTags > 0 {
+		return fmt.Errorf("found %d invalid tag(s) in %d zone(s)", invalidTags, invalidZones)
 	}
 	return nil
 }
