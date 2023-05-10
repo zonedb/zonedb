@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/ice/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.ice",
+		"a2.nic.ice",
+		"b0.nic.ice",
+		"c0.nic.ice"
 	],
 	"tags": [
 		"brand",

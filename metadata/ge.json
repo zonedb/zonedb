@@ -3,10 +3,8 @@
 	"infoURL": "https://nic.ge/",
 	"whoisServer": "whois.nic.ge",
 	"nameServers": [
-		"ge.hostmaster.ua",
 		"ns.nic.ge",
-		"ns.uu.net",
-		"ns2.nic.fr",
+		"ns1.nic-ge.com",
 		"ns2.nic.ge"
 	],
 	"tags": [

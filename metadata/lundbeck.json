@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/lundbeck/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.lundbeck",
+		"a2.nic.lundbeck",
+		"b0.nic.lundbeck",
+		"c0.nic.lundbeck"
 	],
 	"tags": [
 		"brand",

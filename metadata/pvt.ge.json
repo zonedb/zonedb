@@ -1,8 +1,10 @@
 {
 	"domain": "pvt.ge",
 	"nameServers": [
-		"auth02.ns.uu.net",
-		"ns.nic.ge"
+		"ns.nic.ge",
+		"ns1.nic-ge.com",
+		"ns2.nic-ge.com",
+		"ns2.nic.ge"
 	],
 	"policies": [
 		{

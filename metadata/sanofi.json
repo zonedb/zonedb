@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/sanofi/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.sanofi",
+		"a2.nic.sanofi",
+		"b0.nic.sanofi",
+		"c0.nic.sanofi"
 	],
 	"tags": [
 		"brand",

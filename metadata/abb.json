@@ -6,10 +6,10 @@
 		"https://tld-rdap.verisign.com/abb/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.abb",
+		"a2.nic.abb",
+		"b0.nic.abb",
+		"c0.nic.abb"
 	],
 	"tags": [
 		"brand",
