@@ -1,0 +1,9 @@
+{
+	"domain": "alt",
+	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/draft-dnsop-alt-tld-25",
+	"tags": [
+		"closed",
+		"infrastructure"
+	]
+}

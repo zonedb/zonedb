@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/lipsy/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.lipsy",
+		"a2.nic.lipsy",
+		"b0.nic.lipsy",
+		"c0.nic.lipsy"
 	],
 	"tags": [
 		"brand",

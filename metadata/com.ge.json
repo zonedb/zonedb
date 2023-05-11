@@ -2,6 +2,8 @@
 	"domain": "com.ge",
 	"nameServers": [
 		"ns.nic.ge",
+		"ns1.nic-ge.com",
+		"ns2.nic-ge.com",
 		"ns2.nic.ge"
 	],
 	"policies": [

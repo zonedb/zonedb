@@ -4,7 +4,7 @@
 	"infoURL": "https://www.skygroup.sky/nic-sky",
 	"whoisServer": "whois.nic.sky",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/sky/v1/"
+		"https://rdap.nominet.uk/sky/"
 	],
 	"nameServers": [
 		"ns1.nominetdns.uk",

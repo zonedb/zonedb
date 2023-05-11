@@ -52,6 +52,7 @@ allstate
 ally
 alsace
 alstom
+alt
 am
 amazon
 americanexpress
