@@ -3,9 +3,7 @@
 	"nameServers": [
 		"ins1.c6dns.com",
 		"nomza.cryger.com",
-		"ns0.plig.net",
-		"secdns1.posix.co.za",
-		"za-ns.anycast.pch.net"
+		"ns0.plig.net"
 	],
 	"wildcards": [
 		"78.31.111.139"
