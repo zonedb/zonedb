@@ -4,7 +4,7 @@
 	"infoURL": "https://get.hiphop/",
 	"whoisServer": "whois.nic.hiphop",
 	"rdapURLs": [
-		"https://whois.uniregistry.net/rdap/"
+		"https://rdap.registry.hiphop/rdap/"
 	],
 	"nameServers": [
 		"ns1.uniregistry.net",
