@@ -181,7 +181,15 @@ func TestZone_AllowsRegistration(t *testing.T) {
 		"cadillac":     false,
 		"amazon":       true,
 		"co.uk":        true,
+		"arpa":         true,
 		"in-addr.arpa": false,
+		"e.f.ip6.arpa": false,
+		"corp":         false,
+		"home":         false,
+		"mail":         false,
+		"test":         false,
+		"example.com":  false,
+		"example":      false,
 	}
 	for k, v := range tests {
 		g := ZoneMap[k].AllowsRegistration()
