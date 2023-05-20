@@ -157,7 +157,7 @@ func (z *Zone) AllowsIDN() bool {
 // zone file by the RO.
 // A retired zone was active, but has since been undelegated.
 func (z *Zone) AllowsRegistration() bool {
-	return !z.Tags.And(TagClosed | TagWithdrawn | TagRetired)
+	return !z.Tags.And(TagClosed | TagWithdrawn | TagReserved | TagRetired | TagSpecial | TagTest)
 }
 
 // IsZone returns true if the input domain is a Zone.
