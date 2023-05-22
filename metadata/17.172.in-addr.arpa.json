@@ -2,10 +2,6 @@
 	"domain": "17.172.in-addr.arpa",
 	"registryOperator": "IANA",
 	"infoURL": "https://datatracker.ietf.org/doc/rfc6761",
-	"nameServers": [
-		"blackhole-1.iana.org",
-		"blackhole-2.iana.org"
-	],
 	"tags": [
 		"closed",
 		"infrastructure"
