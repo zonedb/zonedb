@@ -39,7 +39,7 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 	}
 
 	zp := dns.NewZoneParser(res.Body, "", "")
-	rrs := make(map[string]dns.RR)
+	var rrs []dns.RR
 
 	for rr, ok := zp.Next(); ok; rr, ok = zp.Next() {
 		h := rr.Header()
@@ -48,7 +48,7 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 		}
 		d := Normalize(h.Name)
 		if d != "" {
-			rrs[d] = rr
+			rrs = append(rrs, rr)
 		}
 	}
 
@@ -61,7 +61,9 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 	limiter := make(chan struct{}, Concurrency)
 	var wg sync.WaitGroup
 
-	for d, rr := range rrs {
+	for _, rr := range rrs {
+		d := Normalize(rr.Header().Name)
+
 		// Identify the zone
 		z := zones[d]
 		if z == nil {
