@@ -223,7 +223,8 @@ func verifyNS(host string) error {
 	if err != nil {
 		return err
 	}
-	Trace("@{.}.")
+	// Do long colored lines break GitHub Actions logging?
+	// Trace("@{.}.")
 	err = CanDial("udp", host+":53")
 	return err
 }
