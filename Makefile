@@ -11,7 +11,7 @@ zones.go: zones.txt metadata/*.json internal/* internal/*/*
 	go generate
 
 update:
-	go run ./cmd/zonedb -update -w -c 10 $(ZONEDB_ARGS)
+	go run ./cmd/zonedb -update -w -c 100 $(ZONEDB_ARGS)
 	$(MAKE) zones.go
 
 normalize:
