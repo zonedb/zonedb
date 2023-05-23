@@ -39,9 +39,7 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 	}
 
 	zp := dns.NewZoneParser(res.Body, "", "")
-
-	limiter := make(chan struct{}, Concurrency)
-	var wg sync.WaitGroup
+	rrs := make(map[string]dns.RR)
 
 	for rr, ok := zp.Next(); ok; rr, ok = zp.Next() {
 		h := rr.Header()
@@ -49,10 +47,21 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 			continue
 		}
 		d := Normalize(h.Name)
-		if d == "" {
-			continue
+		if d != "" {
+			rrs[d] = rr
 		}
+	}
 
+	if err := zp.Err(); err != nil {
+		return err
+	}
+
+	color.Fprintf(os.Stderr, "@{.}Verifying %d RRs in root zone...\n", len(rrs))
+
+	limiter := make(chan struct{}, Concurrency)
+	var wg sync.WaitGroup
+
+	for d, rr := range rrs {
 		// Identify the zone
 		z := zones[d]
 		if z == nil {
@@ -81,10 +90,6 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 	}
 
 	wg.Wait()
-
-	if err := zp.Err(); err != nil {
-		return err
-	}
 
 	// Detect retired or withdrawn TLDs
 	for _, z := range zones {
@@ -223,7 +228,8 @@ func verifyNS(host string) error {
 	if err != nil {
 		return err
 	}
-	Trace("@{.}.")
+	// Do long colored lines break GitHub Actions logging?
+	// Trace("@{.}.")
 	err = CanDial("udp", host+":53")
 	return err
 }
