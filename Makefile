@@ -4,18 +4,18 @@ install:
 	go install ./cmd/zonedb
 
 test:
-	go run cmd/zonedb/main.go
+	go run ./cmd/zonedb
 	go test ./...
 
 zones.go: zones.txt metadata/*.json internal/* internal/*/*
 	go generate
 
 update:
-	go run cmd/zonedb/main.go -update -w -c 100 $(ZONEDB_ARGS)
+	go run ./cmd/zonedb -update -w -c 10 $(ZONEDB_ARGS)
 	$(MAKE) zones.go
 
 normalize:
-	go run cmd/zonedb/main.go -w
+	go run ./cmd/zonedb -w
 	$(MAKE) zones.go
 
 git_revision=$(shell git describe --no-tags --always --dirty --abbrev=0)
