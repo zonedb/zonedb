@@ -109,7 +109,7 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 
 // FetchNameServers fetches NS records for zones.
 func FetchNameServers(zones, allZones map[string]*Zone) error {
-	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zones\n", len(zones))
+	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zone(s)...\n", len(zones))
 	var found, added, removed, skipped, failed int32
 	mapZones(zones, func(z *Zone) {
 		// Skip TLDs
