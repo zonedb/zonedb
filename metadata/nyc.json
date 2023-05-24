@@ -17,7 +17,12 @@
 		"New York City"
 	],
 	"languages": [
-		"es"
+		"bn",
+		"es",
+		"fr",
+		"ru",
+		"yi",
+		"zh-Hani"
 	],
 	"tags": [
 		"city",
@@ -27,8 +32,33 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"key": "bn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_bn_3.1.xml"
+		},
+		{
+			"type": "idn-table",
 			"key": "es",
 			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_es_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "fr",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_fr_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_ru_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "yi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_yi_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hani",
+			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_zh-hani_4.1.xml"
 		}
 	]
 }
