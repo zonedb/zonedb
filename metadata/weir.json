@@ -2,6 +2,7 @@
 	"domain": "weir",
 	"registryOperator": "Weir Group IP Limited",
 	"infoURL": "http://nic.weir/",
+	"whoisServer": "whois.nic.weir",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/weir/v1/"
 	],

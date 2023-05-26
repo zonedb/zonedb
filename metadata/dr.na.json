@@ -2,8 +2,7 @@
 	"domain": "dr.na",
 	"nameServers": [
 		"ns1.click.na",
-		"ns2.click.na",
-		"suspended.omadhina.co.na"
+		"ns2.click.na"
 	],
 	"policies": [
 		{

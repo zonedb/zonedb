@@ -2,6 +2,7 @@
 	"domain": "abb",
 	"registryOperator": "ABB Ltd",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/abb",
+	"whoisServer": "whois.nic.abb",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/abb/v1/"
 	],
