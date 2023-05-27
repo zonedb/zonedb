@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.lipsy/",
 	"whoisServer": "whois.nic.lipsy",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/lipsy/v1/"
+		"https://rdap.afilias-srs.net/rdap/lipsy/"
 	],
 	"nameServers": [
 		"a0.nic.lipsy",

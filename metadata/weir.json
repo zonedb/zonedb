@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.weir/",
 	"whoisServer": "whois.nic.weir",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/weir/v1/"
+		"https://rdap.afilias-srs.net/rdap/weir/"
 	],
 	"nameServers": [
 		"a0.nic.weir",

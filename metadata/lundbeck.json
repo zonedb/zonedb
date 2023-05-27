@@ -4,7 +4,7 @@
 	"infoURL": "https://www.lundbeck.com/global/nic",
 	"whoisServer": "whois.nic.lundbeck",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/lundbeck/v1/"
+		"https://rdap.afilias-srs.net/rdap/lundbeck/"
 	],
 	"nameServers": [
 		"a0.nic.lundbeck",

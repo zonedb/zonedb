@@ -4,7 +4,7 @@
 	"infoURL": "https://apps.boschrexroth.com/microsites/nic_rexroth/index.html",
 	"whoisServer": "whois.nic.rexroth",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/rexroth/v1/"
+		"https://rdap.afilias-srs.net/rdap/rexroth/"
 	],
 	"nameServers": [
 		"a0.nic.rexroth",

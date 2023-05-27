@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.bosch/",
 	"whoisServer": "whois.nic.bosch",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/bosch/v1/"
+		"https://rdap.afilias-srs.net/rdap/bosch/"
 	],
 	"nameServers": [
 		"a0.nic.bosch",

@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/vanguard",
 	"whoisServer": "whois.nic.vanguard",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/vanguard/v1/"
+		"https://rdap.afilias-srs.net/rdap/vanguard/"
 	],
 	"nameServers": [
 		"a0.nic.vanguard",

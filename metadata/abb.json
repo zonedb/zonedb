@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/abb",
 	"whoisServer": "whois.nic.abb",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/abb/v1/"
+		"https://rdap.afilias-srs.net/rdap/abb/"
 	],
 	"nameServers": [
 		"a0.nic.abb",
