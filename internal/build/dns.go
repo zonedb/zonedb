@@ -2,6 +2,7 @@ package build
 
 import (
 	"context"
+	"errors"
 	"fmt"
 	"math/rand"
 	"net"
@@ -110,7 +111,8 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 // FetchNameServers fetches NS records for zones.
 func FetchNameServers(zones, allZones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zone(s)...\n", len(zones))
-	var found, added, removed, skipped, failed int32
+	var nx sync.Map
+	var found, added, removed, skipped, failed, unresolved int32
 	mapZones(zones, func(z *Zone) {
 		// Skip TLDs
 		if z.IsTLD() {
@@ -124,23 +126,46 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 			return
 		}
 
+		// Copy parent name servers
+		parent.m.Lock()
+		parentNS := make([]string, len(parent.NameServers))
+		copy(parentNS, parent.NameServers)
+		parent.m.Unlock()
+
 		// Clear out existing name servers
 		z.oldNameServers = z.NameServers
 		z.NameServers = nil
 
 		// Iterate over name servers
 		counts := make(map[string]int, 8)
-		for _, host := range parent.NameServers {
+		for _, host := range parentNS {
+			if _, ok := nx.Load(host); ok {
+				continue
+			}
 			ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
 			defer cancel()
 			rmsg, err := exchange(ctx, host, z.ASCII(), dns.TypeNS)
 			if err != nil {
-				if to, ok := err.(timeouter); ok {
-					if to.Timeout() {
-						continue
-					}
+				var to timeouter
+				if errors.As(err, &to) && to.Timeout() {
+					Trace("@{.}Timeout querying %s for @{!}%s@{.}: %s\n", host, z.Domain, err.Error())
+					continue
 				}
 				color.Fprintf(os.Stderr, "@{r}Error querying %s for @{r!}%s@{r}: %s\n", host, z.Domain, err.Error())
+
+				// Cache host not found
+				if strings.Contains(err.Error(), "no such host") {
+					if _, ok := nx.LoadOrStore(host, struct{}{}); !ok {
+						atomic.AddInt32(&unresolved, 1)
+					}
+				}
+				// var derr *net.DNSError
+				// if errors.As(err, &derr) && derr.IsNotFound {
+				// 	if _, ok := nx.LoadOrStore(host, struct{}{}); !ok {
+				// 		atomic.AddInt32(&unresolved, 1)
+				// 		Trace("@{y}! ")
+				// 	}
+				// }
 				continue
 			}
 			if rmsg.Rcode == dns.RcodeNameError {
@@ -163,8 +188,8 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 				max = count
 			}
 		}
-		// if max > 0 && max < len(parent.NameServers) {
-		// 	color.Fprintf(os.Stderr, "@{y}Warning: inconsistent DNS responses (%d < %d) for @{y!}%s\n", max, len(parent.NameServers), z.Domain)
+		// if max > 0 && max < len(parentNS) {
+		// 	color.Fprintf(os.Stderr, "@{y}Warning: inconsistent DNS responses (%d < %d) for @{y!}%s\n", max, len(parentNS), z.Domain)
 		// }
 
 		// Store new name servers
@@ -204,7 +229,7 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 			}
 		}
 	})
-	color.Fprintf(os.Stderr, "@{.}\nFound %d name servers, %d added, %d removed, %d non-consensus, %d failed\n", found, added, removed, skipped, failed)
+	color.Fprintf(os.Stderr, "@{.}\nFound %d name servers, %d added, %d removed, %d non-consensus, %d failed, %d NXDOMAIN\n", found, added, removed, skipped, failed, unresolved)
 
 	return nil
 }
@@ -357,16 +382,16 @@ func exchange(ctx context.Context, host, qname string, qtype uint16) (*dns.Msg, 
 	qmsg.MsgHdr.RecursionDesired = true
 	qmsg.SetQuestion(dns.Fqdn(qname), qtype)
 	client := &dns.Client{}
+	// if deadline, ok := ctx.Deadline(); ok {
+	// 	client.DialTimeout = time.Until(deadline)
+	// }
 	rmsg, _, err := client.ExchangeContext(ctx, qmsg, host+":53")
 	if err == nil {
 		return rmsg, err
 	}
-	if err, ok := err.(*net.DNSError); ok {
+	var derr *net.DNSError
+	if errors.As(err, &derr) {
 		return nil, err
-		// case *dns.Error:
-		// 	if err == dns.ErrTruncated {
-		// 		return rmsg, nil // Use truncated msg
-		// 	}
 	}
 	client.Net = "tcp" // Retry with TCP
 	rmsg, _, err = client.ExchangeContext(ctx, qmsg, host+":53")

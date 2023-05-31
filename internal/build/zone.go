@@ -250,6 +250,7 @@ func SortedDomains(zones map[string]*Zone) []string {
 }
 
 // mapZones concurrently applies a function to a set of Zones.
+// It wraps the call to fn with a lock on the Zone mutex.
 func mapZones(zones map[string]*Zone, fn func(*Zone)) {
 	domains := SortedDomains(zones)
 	limiter := make(chan struct{}, Concurrency)
@@ -262,6 +263,8 @@ func mapZones(zones map[string]*Zone, fn func(*Zone)) {
 				<-limiter
 				wg.Done()
 			}()
+			z.m.Lock()
+			defer z.m.Unlock()
 			fn(z)
 		}(zones[domain])
 	}
