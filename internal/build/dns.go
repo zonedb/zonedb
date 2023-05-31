@@ -382,19 +382,19 @@ func exchange(ctx context.Context, host, qname string, qtype uint16) (*dns.Msg, 
 	qmsg.MsgHdr.RecursionDesired = true
 	qmsg.SetQuestion(dns.Fqdn(qname), qtype)
 	client := &dns.Client{}
-	if deadline, ok := ctx.Deadline(); ok {
-		client.DialTimeout = time.Until(deadline)
-	}
-	// rmsg, _, err := client.ExchangeContext(ctx, qmsg, host+":53")
-	// if err == nil {
-	// 	return rmsg, err
+	// if deadline, ok := ctx.Deadline(); ok {
+	// 	client.DialTimeout = time.Until(deadline)
 	// }
-	// var derr *net.DNSError
-	// if errors.As(err, &derr) {
-	// 	return nil, err
-	// }
-	client.Net = "tcp" // Retry with TCP
 	rmsg, _, err := client.ExchangeContext(ctx, qmsg, host+":53")
+	if err == nil {
+		return rmsg, err
+	}
+	var derr *net.DNSError
+	if errors.As(err, &derr) {
+		return nil, err
+	}
+	client.Net = "tcp" // Retry with TCP
+	rmsg, _, err = client.ExchangeContext(ctx, qmsg, host+":53")
 	return rmsg, err
 }
 
