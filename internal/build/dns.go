@@ -114,9 +114,6 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 	var nx sync.Map
 	var found, added, removed, skipped, failed, unresolved int32
 	mapZones(zones, func(z *Zone) {
-		z.m.Lock()
-		defer z.m.Unlock()
-
 		// Skip TLDs
 		if z.IsTLD() {
 			return
