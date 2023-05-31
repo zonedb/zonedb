@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/bbt/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.bbt",
+		"a2.nic.bbt",
+		"b0.nic.bbt",
+		"c0.nic.bbt"
 	],
 	"tags": [
 		"brand",

@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/kuokgroup/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.kuokgroup",
+		"a2.nic.kuokgroup",
+		"b0.nic.kuokgroup",
+		"c0.nic.kuokgroup"
 	],
 	"tags": [
 		"brand",

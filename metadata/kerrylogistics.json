@@ -6,9 +6,9 @@
 		"https://tld-rdap.verisign.com/kerrylogistics/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.kerrylogistics",
+		"a2.nic.kerrylogistics",
+		"b0.nic.kerrylogistics",
+		"c0.nic.kerrylogistics"
 	]
 }

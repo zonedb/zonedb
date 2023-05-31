@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/kerryproperties/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.kerryproperties",
+		"a2.nic.kerryproperties",
+		"b0.nic.kerryproperties",
+		"c0.nic.kerryproperties"
 	],
 	"tags": [
 		"brand",

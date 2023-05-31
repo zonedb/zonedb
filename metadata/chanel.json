@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/chanel/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.chanel",
+		"a2.nic.chanel",
+		"b0.nic.chanel",
+		"c0.nic.chanel"
 	],
 	"tags": [
 		"brand",
