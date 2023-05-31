@@ -160,7 +160,6 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 				if strings.Contains(err.Error(), "no such host") {
 					if _, ok := nx.LoadOrStore(host, struct{}{}); !ok {
 						atomic.AddInt32(&unresolved, 1)
-						Trace("@{y}! ")
 					}
 				}
 				// var derr *net.DNSError
