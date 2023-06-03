@@ -1,8 +1,8 @@
 {
 	"domain": "tirana.al",
 	"nameServers": [
-		"ns3.albtelecom.net",
-		"ns4.albtelecom.net"
+		"ns3.onealbania.net",
+		"ns4.onealbania.net"
 	],
 	"policies": [
 		{
