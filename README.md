@@ -32,8 +32,6 @@ Each domain with associated metadata will have a JSON file in the `metadata` dir
 
 A [GitHub Actions workflow](https://github.com/zonedb/zonedb/blob/HEAD/.github/workflows/update.yaml) updates ZoneDB each night.
 
-#### zones.txt
-
 If a new SLD or third-level domain needs to be added to `zones.txt`, follow these steps locally:
 
 1. Add the new zone to the bottom of the `zones.txt` file.
