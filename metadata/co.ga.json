@@ -1,11 +1,9 @@
 {
 	"domain": "co.ga",
 	"nameServers": [
-		"isp1.ib.ga",
-		"isp2.ib.ga",
-		"ns.ripe.net",
-		"nsi1.inet.ga",
-		"nsi2.inet.ga"
+		"ns1.aninf.ga",
+		"ns2.aninf.ga",
+		"ns3.aninf.ga"
 	],
 	"policies": [
 		{

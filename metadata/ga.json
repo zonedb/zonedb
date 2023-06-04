@@ -2,10 +2,9 @@
 	"domain": "ga",
 	"whoisServer": "whois.dot.ga",
 	"nameServers": [
-		"a.ns.ga",
-		"b.ns.ga",
-		"c.ns.ga",
-		"d.ns.ga"
+		"d.nic.fr",
+		"f.ext.nic.fr",
+		"g.ext.nic.fr"
 	],
 	"tags": [
 		"country",

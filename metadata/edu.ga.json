@@ -1,5 +1,10 @@
 {
 	"domain": "edu.ga",
+	"nameServers": [
+		"ns1.aninf.ga",
+		"ns2.aninf.ga",
+		"ns3.aninf.ga"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

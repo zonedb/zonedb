@@ -1,10 +1,8 @@
 {
 	"domain": "org.ga",
 	"nameServers": [
-		"isp1.ib.ga",
-		"isp2.ib.ga",
-		"nsi1.inet.ga",
-		"nsi2.inet.ga"
+		"ns1.aninf.ga",
+		"ns2.aninf.ga"
 	],
 	"policies": [
 		{
