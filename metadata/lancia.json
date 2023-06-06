@@ -6,12 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/lancia/"
 	],
-	"nameServers": [
-		"a0.nic.lancia",
-		"a2.nic.lancia",
-		"b0.nic.lancia",
-		"c0.nic.lancia"
-	],
 	"tags": [
 		"brand",
 		"generic"
