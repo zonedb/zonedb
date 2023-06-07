@@ -28,6 +28,10 @@ The `zones.txt` file is a UTF-8 encoded text file containing a list of IDN & low
 
 Each domain with associated metadata will have a JSON file in the `metadata` directory.
 
+#### RDAP
+
+When adding an RDAP server URL, only the base URL is needed. e.g. `https://rdap.sidn.nl/`
+
 ### Updates
 
 A [GitHub Actions workflow](https://github.com/zonedb/zonedb/blob/HEAD/.github/workflows/update.yaml) updates ZoneDB each night.

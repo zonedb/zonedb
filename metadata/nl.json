@@ -1,6 +1,9 @@
 {
 	"domain": "nl",
 	"whoisServer": "whois.domain-registry.nl",
+	"rdapURLs": [
+		"https://rdap.sidn.nl/"
+	],
 	"nameServers": [
 		"ns1.dns.nl",
 		"ns3.dns.nl",
