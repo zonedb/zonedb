@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/juniper/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.juniper",
+		"a2.nic.juniper",
+		"b0.nic.juniper",
+		"c0.nic.juniper"
 	],
 	"tags": [
 		"brand",

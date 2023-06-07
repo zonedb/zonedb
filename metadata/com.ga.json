@@ -1,5 +1,9 @@
 {
 	"domain": "com.ga",
+	"nameServers": [
+		"ns1.netim.net",
+		"ns2.netim.net"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

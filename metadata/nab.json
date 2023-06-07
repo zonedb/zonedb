@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/nab/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.nab",
+		"a2.nic.nab",
+		"b0.nic.nab",
+		"c0.nic.nab"
 	],
 	"tags": [
 		"brand",

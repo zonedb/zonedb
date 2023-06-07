@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/volvo/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.volvo",
+		"a2.nic.volvo",
+		"b0.nic.volvo",
+		"c0.nic.volvo"
 	],
 	"tags": [
 		"brand",

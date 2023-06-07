@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/next/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.next",
+		"a2.nic.next",
+		"b0.nic.next",
+		"c0.nic.next"
 	],
 	"tags": [
 		"brand",

@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/aol/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.aol",
+		"a2.nic.aol",
+		"b0.nic.aol",
+		"c0.nic.aol"
 	],
 	"tags": [
 		"brand",

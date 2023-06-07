@@ -1,9 +1,5 @@
 {
 	"domain": "presse.ml",
-	"nameServers": [
-		"ns1.zilore.net",
-		"ns2.zilore.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/shangrila/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.shangrila",
+		"a2.nic.shangrila",
+		"b0.nic.shangrila",
+		"c0.nic.shangrila"
 	],
 	"tags": [
 		"brand",

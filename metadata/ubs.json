@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/ubs/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.ubs",
+		"a2.nic.ubs",
+		"b0.nic.ubs",
+		"c0.nic.ubs"
 	],
 	"tags": [
 		"brand",
