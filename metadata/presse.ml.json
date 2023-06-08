@@ -1,5 +1,9 @@
 {
 	"domain": "presse.ml",
+	"nameServers": [
+		"ns1.graphox.us",
+		"ns2.graphox.us"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
