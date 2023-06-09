@@ -1,9 +1,6 @@
 {
 	"domain": "jp",
 	"whoisServer": "whois.jprs.jp",
-	"rdapURLs": [
-		"https://rdap.gtld.jprs.jp/rdap/"
-	],
 	"nameServers": [
 		"a.dns.jp",
 		"b.dns.jp",
