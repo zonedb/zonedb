@@ -11,10 +11,10 @@
 		"dns2.nic.sky",
 		"dns3.nic.sky",
 		"dns4.nic.sky",
-		"nsa.nominetdns.uk",
-		"nsb.nominetdns.uk",
-		"nsc.nominetdns.uk",
-		"nsd.nominetdns.uk"
+		"dnsa.nic.sky",
+		"dnsb.nic.sky",
+		"dnsc.nic.sky",
+		"dnsd.nic.sky"
 	],
 	"languages": [
 		"mul-Arab",

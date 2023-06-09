@@ -4,7 +4,7 @@
 	"infoURL": "https://identity.coop/creditunion/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/creditunion/"
+		"https://rdap.registry.coop/rdap/"
 	],
 	"nameServers": [
 		"ns1.uniregistry.net",
