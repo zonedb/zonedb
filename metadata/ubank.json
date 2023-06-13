@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/ubank/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.ubank",
+		"a2.nic.ubank",
+		"b0.nic.ubank",
+		"c0.nic.ubank"
 	],
 	"tags": [
 		"brand",
