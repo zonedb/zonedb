@@ -6,9 +6,7 @@
 		"c.dns.cn",
 		"cns.cernet.net",
 		"d.dns.cn",
-		"e.dns.cn",
-		"f.dns.cn",
-		"g.dns.cn"
+		"e.dns.cn"
 	],
 	"policies": [
 		{
