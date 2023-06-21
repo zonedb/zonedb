@@ -3,9 +3,5 @@
 	"nameServers": [
 		"ns1.bb-online.net",
 		"ns2.bb-online.org"
-	],
-	"wildcards": [
-		"0.fm",
-		"139.162.244.72"
 	]
 }
