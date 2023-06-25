@@ -3,8 +3,8 @@
 	"infoURL": "https://nic.pn/",
 	"nameServers": [
 		"dns1.nominetdns.uk",
-		"dns4.nominetdns.uk",
-		"ns0.pitcairn.net.pn",
-		"ns1.pitcairn.net.pn"
+		"dns2.nominetdns.uk",
+		"dns3.nominetdns.uk",
+		"dns4.nominetdns.uk"
 	]
 }
