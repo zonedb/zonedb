@@ -2,8 +2,9 @@
 	"domain": "crown",
 	"registryOperator": "Crown Equipment Corporation",
 	"infoURL": "http://nic.crown/",
+	"whoisServer": "whois.nic.crown",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/crown/v1/"
+		"https://rdap.crown.fury.ca/rdap/"
 	],
 	"nameServers": [
 		"a.ns.nic.crown",
