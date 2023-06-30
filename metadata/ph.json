@@ -4,7 +4,8 @@
 	"nameServers": [
 		"1.ns.ph",
 		"ns2.cuhk.edu.hk",
-		"ns4.apnic.net"
+		"ns4.apnic.net",
+		"ph.communitydns.net"
 	],
 	"wildcards": [
 		"45.79.222.138"

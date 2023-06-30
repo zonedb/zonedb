@@ -3,6 +3,7 @@
 	"infoURL": "https://www.weare.ie/",
 	"whoisServer": "whois.weare.ie",
 	"nameServers": [
+		"a.ns.ie",
 		"b.ns.ie",
 		"c.ns.ie",
 		"d.ns.ie",

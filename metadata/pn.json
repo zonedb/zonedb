@@ -4,10 +4,13 @@
 	"whoisURL": "https://nic.pn/whois.html",
 	"nameServers": [
 		"dns1.nominetdns.uk",
+		"dns2.nominetdns.uk",
+		"dns3.nominetdns.uk",
 		"dns4.nominetdns.uk",
-		"fork.sth.dnsnode.net",
-		"ns0.pitcairn.net.pn",
-		"ns1.pitcairn.net.pn"
+		"dnsa.nominetdns.uk",
+		"dnsb.nominetdns.uk",
+		"dnsc.nominetdns.uk",
+		"dnsd.nominetdns.uk"
 	],
 	"tags": [
 		"country",
