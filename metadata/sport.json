@@ -1,6 +1,6 @@
 {
 	"domain": "sport",
-	"registryOperator": "Global Association of International Sports Federations (GAISF)",
+	"registryOperator": "SportAccord",
 	"infoURL": "https://nic.sport/",
 	"whoisServer": "whois.nic.sport",
 	"rdapURLs": [
