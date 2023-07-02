@@ -1,8 +1,8 @@
 {
 	"domain": "gouv.bj",
 	"nameServers": [
-		"beau.ns.cloudflare.com",
-		"emma.ns.cloudflare.com"
+		"ns01.gouv.bj",
+		"ns02.gouv.bj"
 	],
 	"policies": [
 		{
