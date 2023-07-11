@@ -2,7 +2,6 @@
 	"domain": "ph",
 	"whoisURL": "http://www.dot.ph/whois",
 	"nameServers": [
-		"1.ns.ph",
 		"ns2.cuhk.edu.hk",
 		"ns4.apnic.net",
 		"ph.communitydns.net"
