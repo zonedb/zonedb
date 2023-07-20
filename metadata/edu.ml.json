@@ -1,7 +1,0 @@
-{
-	"domain": "edu.ml",
-	"nameServers": [
-		"dns01.gouv.ml",
-		"dns02.gouv.ml"
-	]
-}

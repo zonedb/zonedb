@@ -2,10 +2,9 @@
 	"domain": "ml",
 	"whoisServer": "whois.dot.ml",
 	"nameServers": [
-		"a.ns.ml",
-		"b.ns.ml",
-		"c.ns.ml",
-		"d.ns.ml"
+		"ns2.gouv.ml",
+		"ns3.gouv.ml",
+		"ns4.gouv.ml"
 	],
 	"tags": [
 		"country",

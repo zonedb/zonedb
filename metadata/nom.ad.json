@@ -1,8 +1,8 @@
 {
 	"domain": "nom.ad",
 	"nameServers": [
-		"dnsc.ad",
-		"dnsm.ad"
+		"ns1.andorratelecom.ad",
+		"ns2.andorratelecom.ad"
 	],
 	"policies": [
 		{
