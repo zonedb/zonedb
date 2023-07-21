@@ -1,5 +1,6 @@
 {
 	"domain": "biz.ua",
+	"whoisServer": "whois.biz.ua",
 	"nameServers": [
 		"ns1.uadns.com",
 		"ns2.uadns.com",

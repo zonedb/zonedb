@@ -4718,7 +4718,7 @@ var y = [5229]Zone{
 	{"or.tz", &z[1445], x, 0, e, e, w{"fork.sth.dnsnode.net", "ns.anycast.co.tz", "ns2.tznic.or.tz", "rip.psg.com", "tz-e.ns.nic.cz"}, n, n, n, e, e, n, f},
 	{"sc.tz", &z[1445], x, 0, e, e, w{"fork.sth.dnsnode.net", "ns.anycast.co.tz", "ns2.tznic.or.tz", "tz-e.ns.nic.cz"}, n, n, n, e, e, n, f},
 	{"tv.tz", &z[1445], x, 0, e, e, w{"fork.sth.dnsnode.net", "ns.anycast.co.tz", "ns2.tznic.or.tz", "tz-e.ns.nic.cz"}, n, n, n, e, e, n, f},
-	{"biz.ua", &z[1446], x, 0, e, e, w{"ns1.uadns.com", "ns2.uadns.com", "ns3.uadns.com"}, n, n, n, e, e, n, f},
+	{"biz.ua", &z[1446], x, 0, e, e, w{"ns1.uadns.com", "ns2.uadns.com", "ns3.uadns.com"}, n, n, n, "whois.biz.ua", e, n, f},
 	{"cherkassy.ua", &z[1446], x, 0, e, "http://www.nic.net.ua/", w{"ba1.ns.ua", "nn.ns.ua", "ns2.km.ua", "zt.ns.ua"}, n, n, n, e, e, n, f},
 	{"cherkasy.ua", &z[1446], x, 0, e, e, w{"ba1.ns.ua", "nn.ns.ua", "ns2.km.ua", "zt.ns.ua"}, n, n, n, e, e, n, t},
 	{"chernigov.ua", &z[1446], x, 0, e, "http://www.nic.net.ua/", w{"nix.ns.ua", "ns.dn.ua", "ns3.cn.ua"}, n, n, n, e, e, n, f},
