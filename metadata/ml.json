@@ -1,6 +1,6 @@
 {
 	"domain": "ml",
-	"whoisServer": "whois.dot.ml",
+	"whoisServer": "whois.nic.ml",
 	"nameServers": [
 		"a.nic.ml",
 		"b.nic.ml",
