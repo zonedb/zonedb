@@ -4,7 +4,8 @@
 	"nameServers": [
 		"ns1.dotmasr.eg",
 		"ns2.dotmasr.eg",
-		"ns3.dotmasr.eg"
+		"ns3.dotmasr.eg",
+		"ns4.dotmasr.eg"
 	],
 	"languages": [
 		"ar-EG"
