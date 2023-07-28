@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/tatamotors",
 	"whoisServer": "whois.nic.tatamotors",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/tatamotors/v1/"
+		"https://rdap.afilias-srs.net/rdap/tatamotors/"
 	],
 	"nameServers": [
 		"a0.nic.tatamotors",

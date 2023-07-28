@@ -4,7 +4,7 @@
 	"infoURL": "https://www.nab.com.au/nic",
 	"whoisServer": "whois.nic.nab",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/nab/v1/"
+		"https://rdap.afilias-srs.net/rdap/nab/"
 	],
 	"nameServers": [
 		"a0.nic.nab",

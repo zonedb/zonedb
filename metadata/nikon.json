@@ -4,7 +4,7 @@
 	"infoURL": "https://www.nic.nikon/",
 	"whoisServer": "whois.nic.nikon",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/nikon/v1/"
+		"https://rdap.afilias-srs.net/rdap/nikon/"
 	],
 	"nameServers": [
 		"a0.nic.nikon",

@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.juniper/",
 	"whoisServer": "whois.nic.juniper",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/juniper/v1/"
+		"https://rdap.afilias-srs.net/rdap/juniper/"
 	],
 	"nameServers": [
 		"a0.nic.juniper",

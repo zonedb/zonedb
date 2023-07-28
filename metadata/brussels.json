@@ -30,7 +30,7 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/brussels_latn_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/brussels_latn_1.3.txt"
 		}
 	]
 }

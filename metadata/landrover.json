@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.landrover/",
 	"whoisServer": "whois.nic.landrover",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/landrover/v1/"
+		"https://rdap.afilias-srs.net/rdap/landrover/"
 	],
 	"nameServers": [
 		"a0.nic.landrover",

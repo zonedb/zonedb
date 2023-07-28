@@ -3,7 +3,7 @@
 	"registryOperator": "Kerry Trading Co. Limited",
 	"whoisServer": "whois.nic.kerrylogistics",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/kerrylogistics/v1/"
+		"https://rdap.afilias-srs.net/rdap/kerrylogistics/"
 	],
 	"nameServers": [
 		"a0.nic.kerrylogistics",

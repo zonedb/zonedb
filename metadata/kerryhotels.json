@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/kerryhotels",
 	"whoisServer": "whois.nic.kerryhotels",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/kerryhotels/v1/"
+		"https://rdap.afilias-srs.net/rdap/kerryhotels/"
 	],
 	"nameServers": [
 		"a0.nic.kerryhotels",

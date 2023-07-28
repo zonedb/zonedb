@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.aol.com/",
 	"whoisServer": "whois.nic.aol",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/aol/v1/"
+		"https://rdap.afilias-srs.net/rdap/aol/"
 	],
 	"nameServers": [
 		"a0.nic.aol",

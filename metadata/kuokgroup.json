@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/kuokgroup",
 	"whoisServer": "whois.nic.kuokgroup",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/kuokgroup/v1/"
+		"https://rdap.afilias-srs.net/rdap/kuokgroup/"
 	],
 	"nameServers": [
 		"a0.nic.kuokgroup",

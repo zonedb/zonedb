@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.next/",
 	"whoisServer": "whois.nic.next",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/next/v1/"
+		"https://rdap.afilias-srs.net/rdap/next/"
 	],
 	"nameServers": [
 		"a0.nic.next",

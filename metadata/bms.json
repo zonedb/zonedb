@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.bms/",
 	"whoisServer": "whois.nic.bms",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/bms/v1/"
+		"https://rdap.afilias-srs.net/rdap/bms/"
 	],
 	"nameServers": [
 		"a0.nic.bms",
