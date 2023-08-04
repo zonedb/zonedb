@@ -2,9 +2,9 @@
 	"domain": "srl",
 	"registryOperator": "InterNetX, Corp",
 	"infoURL": "https://www.internetx.info/en/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.srl",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/srl/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.srl",

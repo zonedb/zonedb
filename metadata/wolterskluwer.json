@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.wolterskluwer/",
 	"whoisServer": "whois.nic.wolterskluwer",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/wolterskluwer/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.wolterskluwer",

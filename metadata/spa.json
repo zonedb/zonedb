@@ -2,9 +2,9 @@
 	"domain": "spa",
 	"registryOperator": "Asia Spa and Wellness Promotion Council Limited",
 	"infoURL": "https://www.nic.spa/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.spa",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/spa/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.spa",

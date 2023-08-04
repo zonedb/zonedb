@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.bestbuy/",
 	"whoisServer": "whois.nic.bestbuy",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/bestbuy/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.bestbuy",

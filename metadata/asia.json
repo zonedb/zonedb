@@ -4,7 +4,7 @@
 	"infoURL": "https://www.dot.asia/",
 	"whoisServer": "whois.nic.asia",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/asia/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.asia.afilias-nst.info",
