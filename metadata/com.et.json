@@ -1,5 +1,8 @@
 {
 	"domain": "com.et",
+	"wildcards": [
+		"72.5.65.111"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

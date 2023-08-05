@@ -2,9 +2,9 @@
 	"domain": "dabur",
 	"registryOperator": "Dabur India Limited",
 	"infoURL": "http://nic.dabur/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.dabur",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/dabur/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.dabur",

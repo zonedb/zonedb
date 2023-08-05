@@ -2,7 +2,7 @@
 	"domain": "showtime",
 	"registryOperator": "CBS Domains Inc.",
 	"infoURL": "https://nic.showtime/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.showtime",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

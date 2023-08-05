@@ -1,8 +1,7 @@
 {
 	"domain": "info.et",
-	"nameServers": [
-		"a.nic.et",
-		"b.nic.et"
+	"wildcards": [
+		"72.5.65.111"
 	],
 	"policies": [
 		{
