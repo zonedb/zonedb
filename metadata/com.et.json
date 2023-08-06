@@ -1,7 +1,8 @@
 {
 	"domain": "com.et",
-	"wildcards": [
-		"72.5.65.111"
+	"nameServers": [
+		"a.nic.et",
+		"b.nic.et"
 	],
 	"policies": [
 		{
