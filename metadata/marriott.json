@@ -2,7 +2,7 @@
 	"domain": "marriott",
 	"registryOperator": "Marriott Worldwide Corporation",
 	"infoURL": "https://www.marriott.com/marriott/gtld.mi",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.marriott",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
