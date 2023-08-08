@@ -2,7 +2,7 @@
 	"domain": "mobi",
 	"registryOperator": "Identity Digital Limited",
 	"infoURL": "http://nic.mobi/",
-	"whoisServer": "whois.dotmobiregistry.net",
+	"whoisServer": "whois.nic.mobi",
 	"rdapURLs": [
 		"https://rdap.donuts.co/rdap/"
 	],
