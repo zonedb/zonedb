@@ -1,6 +1,6 @@
 {
 	"domain": "press",
-	"registryOperator": "Radix FZC",
+	"registryOperator": "Radix FZC DMCC",
 	"whoisServer": "whois.nic.press",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/press/"

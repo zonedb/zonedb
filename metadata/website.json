@@ -1,6 +1,6 @@
 {
 	"domain": "website",
-	"registryOperator": "Radix FZC",
+	"registryOperator": "Radix FZC DMCC",
 	"whoisServer": "whois.nic.website",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/website/"
