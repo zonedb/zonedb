@@ -4,7 +4,7 @@
 	"infoURL": "https://dishtlds.com/locker/",
 	"whoisServer": "whois.nic.locker",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/locker/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.locker",

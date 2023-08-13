@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.fage/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/fage/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.fage",

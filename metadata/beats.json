@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/beats",
 	"whoisServer": "whois.nic.beats",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/beats/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.beats",

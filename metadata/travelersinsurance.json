@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.travelersinsurance/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/travelersinsurance/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.travelersinsurance",

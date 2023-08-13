@@ -4,7 +4,7 @@
 	"infoURL": "https://www.dishtlds.com/dot/",
 	"whoisServer": "whois.nic.dot",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/dot/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.dot",

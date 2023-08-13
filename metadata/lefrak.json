@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.lefrak/",
 	"whoisServer": "whois.nic.lefrak",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/lefrak/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.lefrak",

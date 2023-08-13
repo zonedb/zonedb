@@ -4,7 +4,7 @@
 	"infoURL": "https://www.ups.com/lasso/login?reasonCode=-1",
 	"whoisServer": "whois.nic.ups",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/ups/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.ups",

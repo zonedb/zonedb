@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/jeep",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/jeep/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.jeep",

@@ -4,7 +4,7 @@
 	"infoURL": "http://www.nic.bbt/",
 	"whoisServer": "whois.nic.bbt",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/bbt/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.bbt",

@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.bradesco/",
 	"whoisServer": "whois.nic.bradesco",
 	"rdapURLs": [
-		"https://rdap.nominet.uk/bradesco/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.bradesco",

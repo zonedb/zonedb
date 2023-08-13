@@ -4,7 +4,7 @@
 	"infoURL": "https://www.progressive.com/support/gtld/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/progressive/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.progressive",

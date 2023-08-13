@@ -4,7 +4,7 @@
 	"infoURL": "https://www.dishtlds.com/mobile/",
 	"whoisServer": "whois.nic.mobile",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/mobile/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.mobile",
