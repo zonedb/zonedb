@@ -3,7 +3,10 @@
 	"infoURL": "https://www.tonic.to/",
 	"whoisServer": "whois.tonic.to",
 	"nameServers": [
-		"colo.tonic.to",
+		"cd5.tonic.to",
+		"cd6.tonic.to",
+		"cd7.tonic.to",
+		"cd8.tonic.to",
 		"frankfurt.tonic.to",
 		"helsinki.tonic.to",
 		"newyork.tonic.to",
