@@ -2,7 +2,7 @@
 	"domain": "jeep",
 	"registryOperator": "FCA US LLC.",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/jeep",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.jeep",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

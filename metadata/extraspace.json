@@ -2,7 +2,7 @@
 	"domain": "extraspace",
 	"registryOperator": "Extra Space Storage LLC",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/extraspace",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.extraspace",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

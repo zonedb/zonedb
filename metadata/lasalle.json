@@ -2,7 +2,7 @@
 	"domain": "lasalle",
 	"registryOperator": "Jones Lang LaSalle Incorporated",
 	"infoURL": "https://www.lasalle.com/tld",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.lasalle",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

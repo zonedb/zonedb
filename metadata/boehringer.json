@@ -2,7 +2,7 @@
 	"domain": "boehringer",
 	"registryOperator": "Boehringer Ingelheim International GmbH",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/boehringer",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.boehringer",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

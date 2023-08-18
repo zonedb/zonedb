@@ -2,7 +2,7 @@
 	"domain": "itv",
 	"registryOperator": "ITV Services Limited",
 	"infoURL": "http://nic.itv/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.itv",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

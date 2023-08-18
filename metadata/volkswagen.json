@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.volkswagen/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/volkswagen/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.volkswagen",

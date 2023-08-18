@@ -10,10 +10,11 @@
 		"a.nic.blackfriday",
 		"b.nic.blackfriday",
 		"c.nic.blackfriday",
-		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns3.uniregistry.net",
-		"ns4.uniregistry.info"
+		"x.nic.blackfriday",
+		"y.nic.blackfriday",
+		"z.nic.blackfriday"
 	],
 	"languages": [
 		"de",

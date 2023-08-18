@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.sbi/",
 	"whoisServer": "whois.nic.sbi",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/sbi/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.sbi",

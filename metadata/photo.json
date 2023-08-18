@@ -10,10 +10,11 @@
 		"a.nic.photo",
 		"b.nic.photo",
 		"c.nic.photo",
-		"ns1.uniregistry.net",
 		"ns2.uniregistry.info",
 		"ns3.uniregistry.net",
-		"ns4.uniregistry.info"
+		"x.nic.photo",
+		"y.nic.photo",
+		"z.nic.photo"
 	],
 	"languages": [
 		"de",

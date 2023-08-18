@@ -2,7 +2,7 @@
 	"domain": "stada",
 	"registryOperator": "STADA Arzneimittel AG",
 	"infoURL": "https://nic.stada/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.stada",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

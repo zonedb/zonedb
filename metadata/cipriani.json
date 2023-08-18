@@ -2,7 +2,7 @@
 	"domain": "cipriani",
 	"registryOperator": "Hotel Cipriani Srl",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/cipriani",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.cipriani",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

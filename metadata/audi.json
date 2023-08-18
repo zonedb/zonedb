@@ -2,9 +2,9 @@
 	"domain": "audi",
 	"registryOperator": "AUDI Aktiengesellschaft",
 	"infoURL": "https://www.nic.audi/nic/web/en.html",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.audi",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/audi/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.audi",
