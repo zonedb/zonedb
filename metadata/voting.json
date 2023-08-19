@@ -3,7 +3,7 @@
 	"registryOperator": "Valuetainment Corp.",
 	"whoisServer": "whois.nic.voting",
 	"rdapURLs": [
-		"https://rdap.nic.voting/v1/"
+		"https://rdap.nic.voting/"
 	],
 	"nameServers": [
 		"a.nic.voting",

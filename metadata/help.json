@@ -4,7 +4,7 @@
 	"infoURL": "https://uniregistry.link/extensions/help/",
 	"whoisServer": "whois.nic.help",
 	"rdapURLs": [
-		"https://whois.uniregistry.net/rdap/"
+		"https://rdap.centralnic.com/help/"
 	],
 	"nameServers": [
 		"a.nic.help",
