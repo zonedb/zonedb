@@ -1,9 +1,8 @@
 {
 	"domain": "prof.pro",
 	"nameServers": [
-		"dns1.encirca.net",
-		"dns2.encirca.net",
-		"dns3.encirca.net"
+		"standard1.encirca.net",
+		"standard2.encirca.net"
 	],
 	"policies": [
 		{
