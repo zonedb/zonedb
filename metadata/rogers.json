@@ -2,7 +2,7 @@
 	"domain": "rogers",
 	"registryOperator": "Rogers Communications Canada Inc.",
 	"infoURL": "https://www.rogers.com/nic",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.rogers",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

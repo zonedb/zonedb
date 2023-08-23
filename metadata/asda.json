@@ -7,10 +7,10 @@
 		"https://tld-rdap.verisign.com/asda/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a0.nic.asda",
+		"a2.nic.asda",
+		"b0.nic.asda",
+		"c0.nic.asda"
 	],
 	"tags": [
 		"brand",

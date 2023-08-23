@@ -3,7 +3,7 @@
 	"whoisServer": "whois.nic.ir",
 	"nameServers": [
 		"a.nic.ir",
-		"ns.irnic.ir"
+		"b.nic.ir"
 	],
 	"tags": [
 		"country",

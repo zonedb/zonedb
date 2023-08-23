@@ -2,7 +2,7 @@
 	"domain": "vig",
 	"registryOperator": "VIENNA INSURANCE GROUP AG Wiener Versicherung Gruppe",
 	"infoURL": "https://nic.vig/en/home.html",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.vig",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

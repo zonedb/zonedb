@@ -2,7 +2,7 @@
 	"domain": "nra",
 	"registryOperator": "NRA Holdings Company, INC.",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/nra",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.nra",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

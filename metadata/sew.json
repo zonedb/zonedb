@@ -2,7 +2,7 @@
 	"domain": "sew",
 	"registryOperator": "SEW-EURODRIVE GmbH \u0026 Co KG",
 	"infoURL": "http://nic.sew/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.sew",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

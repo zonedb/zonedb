@@ -2,7 +2,7 @@
 	"domain": "redumbrella",
 	"registryOperator": "Travelers TLD, LLC",
 	"infoURL": "https://nic.redumbrella/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.redumbrella",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
