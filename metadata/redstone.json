@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.redstone/",
 	"whoisServer": "whois.nic.redstone",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/redstone/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.redstone",

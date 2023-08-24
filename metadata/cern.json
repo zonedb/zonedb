@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.cern/",
 	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/cern/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.cern",

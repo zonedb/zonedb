@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/hdfcbank",
 	"whoisServer": "whois.nic.hdfcbank",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/hdfcbank/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.hdfcbank",
