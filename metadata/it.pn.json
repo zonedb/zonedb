@@ -1,8 +1,11 @@
 {
 	"domain": "it.pn",
 	"nameServers": [
-		"ns1.speedydns.net",
-		"ns2.speedydns.net"
+		"ns1.he.net",
+		"ns2.he.net",
+		"ns3.he.net",
+		"ns4.he.net",
+		"ns5.he.net"
 	],
 	"tags": [
 		"private"
