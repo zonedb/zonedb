@@ -2,7 +2,6 @@
 	"domain": "edu.kg",
 	"nameServers": [
 		"as.asiainfo.kg",
-		"kg.cctld.authdns.ripe.net",
 		"ns.kg"
 	]
 }

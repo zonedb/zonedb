@@ -7,9 +7,6 @@
 		"ns3.gov.mu",
 		"ns4.gov.mu"
 	],
-	"wildcards": [
-		"89.32.151.246"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

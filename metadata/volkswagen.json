@@ -2,7 +2,7 @@
 	"domain": "volkswagen",
 	"registryOperator": "Volkswagen Group of America Inc.",
 	"infoURL": "http://nic.volkswagen/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.volkswagen",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

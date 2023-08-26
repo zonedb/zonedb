@@ -2,7 +2,7 @@
 	"domain": "淡马锡",
 	"registryOperator": "Temasek Holdings (Private) Limited",
 	"infoURL": "https://www.temasek.com.sg/zh/site-services/nictemasek",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.淡马锡",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

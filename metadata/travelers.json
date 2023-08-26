@@ -2,7 +2,7 @@
 	"domain": "travelers",
 	"registryOperator": "Travelers TLD, LLC",
 	"infoURL": "https://nic.travelers/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.travelers",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
