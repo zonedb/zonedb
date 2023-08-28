@@ -2,7 +2,7 @@
 	"domain": "ist",
 	"registryOperator": "Istanbul Metropolitan Municipality",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/ist",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.ist",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

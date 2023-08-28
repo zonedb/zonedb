@@ -2,7 +2,7 @@
 	"domain": "cern",
 	"registryOperator": "European Organization for Nuclear Research (\"CERN\")",
 	"infoURL": "https://nic.cern/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.cern",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
