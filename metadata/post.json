@@ -4,7 +4,7 @@
 	"infoURL": "https://en.wikipedia.org/wiki/.post",
 	"whoisServer": "whois.dotpostregistry.net",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/post/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.post.afilias-nst.info",
