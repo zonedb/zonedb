@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.xerox/",
 	"whoisServer": "whois.nic.xerox",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/xerox/v1/"
+		"https://rdap.nic.xerox/"
 	],
 	"nameServers": [
 		"a.nic.xerox",

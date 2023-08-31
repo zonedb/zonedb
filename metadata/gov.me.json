@@ -2,8 +2,6 @@
 	"domain": "gov.me",
 	"nameServers": [
 		"derek.ns.cloudflare.com",
-		"ns.gov.me",
-		"ns1.gov.me",
 		"rosalie.ns.cloudflare.com"
 	],
 	"policies": [
