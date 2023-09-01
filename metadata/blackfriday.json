@@ -4,7 +4,7 @@
 	"infoURL": "https://uniregistry.link/extensions/blackfriday/",
 	"whoisServer": "whois.nic.blackfriday",
 	"rdapURLs": [
-		"https://whois.uniregistry.net/rdap/"
+		"https://rdap.nic.blackfriday/"
 	],
 	"nameServers": [
 		"a.nic.blackfriday",
