@@ -2,7 +2,7 @@
 	"domain": "bnpparibas",
 	"registryOperator": "BNP Paribas",
 	"infoURL": "https://nic.bnpparibas/en/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.bnpparibas",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

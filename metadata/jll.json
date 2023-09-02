@@ -2,7 +2,7 @@
 	"domain": "jll",
 	"registryOperator": "Jones Lang LaSalle Incorporated",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/jll",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.jll",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -2,7 +2,7 @@
 	"domain": "pwc",
 	"registryOperator": "PricewaterhouseCoopers LLP",
 	"infoURL": "http://www.nic.pwc/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.pwc",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
