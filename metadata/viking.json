@@ -2,7 +2,7 @@
 	"domain": "viking",
 	"registryOperator": "Viking River Cruises (Bermuda) Ltd.",
 	"infoURL": "http://nic.viking/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.viking",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

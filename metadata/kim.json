@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.kim/",
 	"whoisServer": "whois.nic.kim",
 	"rdapURLs": [
-		"https://rdap.donuts.co/rdap/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.kim",

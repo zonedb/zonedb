@@ -3,7 +3,7 @@
 	"registryOperator": "Identity Digital Limited",
 	"whoisServer": "whois.nic.移动",
 	"rdapURLs": [
-		"https://rdap.donuts.co/rdap/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.移动",

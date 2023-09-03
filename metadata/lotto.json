@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.lotto/",
 	"whoisServer": "whois.nic.lotto",
 	"rdapURLs": [
-		"https://rdap.donuts.co/rdap/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.lotto",

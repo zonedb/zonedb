@@ -2,7 +2,7 @@
 	"domain": "temasek",
 	"registryOperator": "Temasek Holdings (Private) Limited",
 	"infoURL": "https://www.temasek.com.sg/en/site-services/nictemasek",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.temasek",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -2,7 +2,7 @@
 	"domain": "hermes",
 	"registryOperator": "HERMES INTERNATIONAL",
 	"infoURL": "http://www.nic.hermes/index.php",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.hermes",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.promo/",
 	"whoisServer": "whois.nic.promo",
 	"rdapURLs": [
-		"https://rdap.donuts.co/rdap/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.promo",

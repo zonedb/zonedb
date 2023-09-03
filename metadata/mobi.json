@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.mobi/",
 	"whoisServer": "whois.nic.mobi",
 	"rdapURLs": [
-		"https://rdap.donuts.co/rdap/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.mobi.afilias-nst.info",
