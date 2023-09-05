@@ -1,7 +1,7 @@
 {
 	"domain": "dk",
 	"infoURL": "https://www.dk-hostmaster.dk/da",
-	"whoisServer": "whois.dk-hostmaster.dk",
+	"whoisServer": "whois.punktum.dk",
 	"nameServers": [
 		"a.nic.dk",
 		"b.nic.dk",
