@@ -7,9 +7,9 @@
 		"https://rdap.nic.itau/"
 	],
 	"nameServers": [
-		"ns1.dns.nic.itau",
-		"ns2.dns.nic.itau",
-		"ns3.dns.nic.itau",
+		"a.nic.itau",
+		"b.nic.itau",
+		"c.nic.itau",
 		"ns4.dns.nic.itau",
 		"ns5.dns.nic.itau",
 		"ns6.dns.nic.itau"

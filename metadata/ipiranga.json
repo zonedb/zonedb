@@ -7,9 +7,9 @@
 		"https://rdap.nic.ipiranga/"
 	],
 	"nameServers": [
-		"ns1.dns.nic.ipiranga",
-		"ns2.dns.nic.ipiranga",
-		"ns3.dns.nic.ipiranga",
+		"a.nic.ipiranga",
+		"b.nic.ipiranga",
+		"c.nic.ipiranga",
 		"ns4.dns.nic.ipiranga",
 		"ns5.dns.nic.ipiranga",
 		"ns6.dns.nic.ipiranga"

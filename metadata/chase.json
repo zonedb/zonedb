@@ -7,9 +7,9 @@
 		"https://rdap.nic.chase/"
 	],
 	"nameServers": [
-		"ns1.dns.nic.chase",
-		"ns2.dns.nic.chase",
-		"ns3.dns.nic.chase",
+		"a.nic.chase",
+		"b.nic.chase",
+		"c.nic.chase",
 		"ns4.dns.nic.chase",
 		"ns5.dns.nic.chase",
 		"ns6.dns.nic.chase"

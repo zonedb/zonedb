@@ -11,6 +11,9 @@
 		"ns3.nic.co.com",
 		"ns4.nic.co.com"
 	],
+	"wildcards": [
+		"173.192.115.17"
+	],
 	"tags": [
 		"private"
 	]

@@ -7,9 +7,9 @@
 		"https://rdap.nic.moto/"
 	],
 	"nameServers": [
-		"ns1.dns.nic.moto",
-		"ns2.dns.nic.moto",
-		"ns3.dns.nic.moto",
+		"a.nic.moto",
+		"b.nic.moto",
+		"c.nic.moto",
 		"ns4.dns.nic.moto",
 		"ns5.dns.nic.moto",
 		"ns6.dns.nic.moto"

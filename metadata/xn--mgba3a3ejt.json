@@ -7,9 +7,9 @@
 		"https://rdap.nic.ارامكو/"
 	],
 	"nameServers": [
-		"ns1.dns.nic.ارامكو",
-		"ns2.dns.nic.ارامكو",
-		"ns3.dns.nic.ارامكو",
+		"a.nic.ارامكو",
+		"b.nic.ارامكو",
+		"c.nic.ارامكو",
 		"ns4.dns.nic.ارامكو",
 		"ns5.dns.nic.ارامكو",
 		"ns6.dns.nic.ارامكو"

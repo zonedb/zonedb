@@ -7,9 +7,9 @@
 		"https://rdap.nic.jpmorgan/"
 	],
 	"nameServers": [
-		"ns1.dns.nic.jpmorgan",
-		"ns2.dns.nic.jpmorgan",
-		"ns3.dns.nic.jpmorgan",
+		"a.nic.jpmorgan",
+		"b.nic.jpmorgan",
+		"c.nic.jpmorgan",
 		"ns4.dns.nic.jpmorgan",
 		"ns5.dns.nic.jpmorgan",
 		"ns6.dns.nic.jpmorgan"

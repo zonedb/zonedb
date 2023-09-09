@@ -7,9 +7,9 @@
 		"https://rdap.nic.dupont/"
 	],
 	"nameServers": [
-		"ns1.dns.nic.dupont",
-		"ns2.dns.nic.dupont",
-		"ns3.dns.nic.dupont",
+		"a.nic.dupont",
+		"b.nic.dupont",
+		"c.nic.dupont",
 		"ns4.dns.nic.dupont",
 		"ns5.dns.nic.dupont",
 		"ns6.dns.nic.dupont"

@@ -7,9 +7,9 @@
 		"https://rdap.nic.netflix/"
 	],
 	"nameServers": [
-		"ns1.dns.nic.netflix",
-		"ns2.dns.nic.netflix",
-		"ns3.dns.nic.netflix",
+		"a.nic.netflix",
+		"b.nic.netflix",
+		"c.nic.netflix",
 		"ns4.dns.nic.netflix",
 		"ns5.dns.nic.netflix",
 		"ns6.dns.nic.netflix"
