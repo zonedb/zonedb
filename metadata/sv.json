@@ -3,12 +3,9 @@
 	"whoisURL": "http://www.svnet.org.sv/",
 	"nameServers": [
 		"a.lactld.org",
-		"auth02.ns.uu.net",
 		"dns-ext.nic.cr",
 		"ns.dns.br",
-		"ns.uu.net",
-		"sir.red.sv",
-		"sv.cctld.authdns.ripe.net"
+		"sir.red.sv"
 	],
 	"tags": [
 		"country",
