@@ -4,7 +4,7 @@
 	"infoURL": "https://identity.digital/",
 	"whoisServer": "whois.nic.business",
 	"rdapURLs": [
-		"https://rdap.donuts.co/rdap/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.business",

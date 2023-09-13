@@ -7,9 +7,9 @@
 		"https://rdap.nic.weather/"
 	],
 	"nameServers": [
-		"ns1.dns.nic.weather",
-		"ns2.dns.nic.weather",
-		"ns3.dns.nic.weather",
+		"a.nic.weather",
+		"b.nic.weather",
+		"c.nic.weather",
 		"ns4.dns.nic.weather",
 		"ns5.dns.nic.weather",
 		"ns6.dns.nic.weather"

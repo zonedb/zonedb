@@ -7,9 +7,9 @@
 		"https://rdap.nic.weatherchannel/"
 	],
 	"nameServers": [
-		"ns1.dns.nic.weatherchannel",
-		"ns2.dns.nic.weatherchannel",
-		"ns3.dns.nic.weatherchannel",
+		"a.nic.weatherchannel",
+		"b.nic.weatherchannel",
+		"c.nic.weatherchannel",
 		"ns4.dns.nic.weatherchannel",
 		"ns5.dns.nic.weatherchannel",
 		"ns6.dns.nic.weatherchannel"
