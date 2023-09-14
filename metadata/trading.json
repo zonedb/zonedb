@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.trading/",
 	"whoisServer": "whois.nic.trading",
 	"rdapURLs": [
-		"https://rdap.donuts.co/rdap/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.trading",

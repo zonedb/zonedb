@@ -3,7 +3,7 @@
 	"registryOperator": "Dog Beach, LLC",
 	"whoisServer": "whois.nic.kaufen",
 	"rdapURLs": [
-		"https://rdap.donuts.co/rdap/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.kaufen",
