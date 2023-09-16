@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/walmart",
 	"whoisServer": "whois.nic.walmart",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/walmart/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.walmart",

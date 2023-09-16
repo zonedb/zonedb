@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/samsclub",
 	"whoisServer": "whois.nic.samsclub",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/samsclub/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.samsclub",

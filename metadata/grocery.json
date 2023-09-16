@@ -3,7 +3,7 @@
 	"registryOperator": "Wal-Mart Stores, Inc.",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/grocery",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/grocery/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.grocery",

@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/george",
 	"whoisServer": "whois.nic.george",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/george/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.george",

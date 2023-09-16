@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/asda",
 	"whoisServer": "whois.nic.asda",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/asda/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.asda",
