@@ -3,6 +3,7 @@
 	"nameServers": [
 		"a.nic.ir",
 		"b.nic.ir",
+		"c.nic.ir",
 		"dns-ir.univie.ac.at",
 		"ir.cctld.authdns.ripe.net"
 	],
