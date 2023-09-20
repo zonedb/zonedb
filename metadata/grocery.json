@@ -2,6 +2,7 @@
 	"domain": "grocery",
 	"registryOperator": "Wal-Mart Stores, Inc.",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/grocery",
+	"whoisServer": "whois.nic.grocery",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

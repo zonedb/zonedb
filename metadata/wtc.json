@@ -10,7 +10,9 @@
 		"a.nic.wtc",
 		"b.nic.wtc",
 		"c.nic.wtc",
-		"d.nic.wtc"
+		"x.nic.wtc",
+		"y.nic.wtc",
+		"z.nic.wtc"
 	],
 	"tags": [
 		"brand",
