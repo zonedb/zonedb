@@ -2,6 +2,9 @@
 	"domain": "pn",
 	"infoURL": "https://nic.pn/",
 	"whoisURL": "https://nic.pn/whois.html",
+	"rdapURLs": [
+		"https://rdap.nominet.uk/pn/"
+	],
 	"nameServers": [
 		"dns1.nominetdns.uk",
 		"dns2.nominetdns.uk",
