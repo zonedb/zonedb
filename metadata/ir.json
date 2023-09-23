@@ -4,9 +4,7 @@
 	"nameServers": [
 		"a.nic.ir",
 		"b.nic.ir",
-		"c.nic.ir",
-		"ir.cctld.authdns.ripe.net",
-		"ns5.univie.ac.at"
+		"c.nic.ir"
 	],
 	"languages": [
 		"fa"
