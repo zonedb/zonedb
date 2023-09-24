@@ -2,12 +2,8 @@
 	"domain": "mil.er",
 	"nameServers": [
 		"er.cctld.authdns.ripe.net",
-		"ns0.punchdown.org",
-		"ns1.punchdown.net",
 		"sawanew.noc.net.er",
-		"sawaold.noc.net.er",
-		"zaranew.noc.net.er",
-		"zaraold.noc.net.er"
+		"zaranew.noc.net.er"
 	],
 	"policies": [
 		{
