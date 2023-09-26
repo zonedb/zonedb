@@ -7,12 +7,10 @@
 		"https://rdap.nic.citadel/"
 	],
 	"nameServers": [
-		"ns1.dns.nic.citadel",
-		"ns2.dns.nic.citadel",
-		"ns3.dns.nic.citadel",
-		"ns4.dns.nic.citadel",
-		"ns5.dns.nic.citadel",
-		"ns6.dns.nic.citadel"
+		"a0.nic.citadel",
+		"a2.nic.citadel",
+		"b0.nic.citadel",
+		"c0.nic.citadel"
 	],
 	"tags": [
 		"brand",
