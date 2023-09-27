@@ -3,7 +3,6 @@
 	"infoURL": "https://www.iana.org/domains/root/db/tr.html",
 	"whoisServer": "whois.trabis.gov.tr",
 	"nameServers": [
-		"ns31.nic.tr",
 		"ns34.nic.tr",
 		"ns35.nic.tr",
 		"ns41.nic.tr",
