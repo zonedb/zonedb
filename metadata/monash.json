@@ -10,7 +10,9 @@
 		"a.nic.monash",
 		"b.nic.monash",
 		"c.nic.monash",
-		"d.nic.monash"
+		"x.nic.monash",
+		"y.nic.monash",
+		"z.nic.monash"
 	],
 	"tags": [
 		"brand",
