@@ -1,6 +1,6 @@
 {
 	"domain": "ceo",
-	"registryOperator": "CEOTLD Pty Ltd",
+	"registryOperator": "XYZ.COM LLC",
 	"whoisServer": "whois.nic.ceo",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/ceo/"
