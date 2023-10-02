@@ -1,5 +1,9 @@
 {
 	"domain": "com.mp",
+	"nameServers": [
+		"eileen.dnspod.net",
+		"present.dnspod.net"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
