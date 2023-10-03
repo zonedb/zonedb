@@ -4,7 +4,8 @@
 	"nameServers": [
 		"a.nic.ir",
 		"b.nic.ir",
-		"c.nic.ir"
+		"c.nic.ir",
+		"d.nic.ir"
 	],
 	"languages": [
 		"fa"

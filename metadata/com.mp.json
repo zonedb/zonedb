@@ -1,8 +1,8 @@
 {
 	"domain": "com.mp",
 	"nameServers": [
-		"eileen.dnspod.net",
-		"present.dnspod.net"
+		"dawn.ns.cloudflare.com",
+		"gabriel.ns.cloudflare.com"
 	],
 	"policies": [
 		{
