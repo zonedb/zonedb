@@ -2,7 +2,7 @@
 	"domain": "nokia",
 	"registryOperator": "Nokia Corporation",
 	"infoURL": "http://nic.nokia/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.nokia",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -1,5 +1,6 @@
 {
 	"domain": "bf",
+	"whoisServer": "whois.registre.bf",
 	"nameServers": [
 		"a.registre.bf",
 		"dns-tld.ird.fr",
