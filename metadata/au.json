@@ -3,8 +3,6 @@
 	"infoURL": "https://www.auda.org.au/",
 	"whoisServer": "whois.auda.org.au",
 	"nameServers": [
-		"c.au",
-		"d.au",
 		"q.au",
 		"r.au",
 		"s.au",

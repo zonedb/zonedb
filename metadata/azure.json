@@ -6,10 +6,12 @@
 		"https://tld-rdap.verisign.com/azure/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
 		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"ac4.nstld.com",
+		"dns1.nominetdns.uk",
+		"dns2.nominetdns.uk",
+		"dns3.nominetdns.uk",
+		"dns4.nominetdns.uk"
 	],
 	"languages": [
 		"az",
