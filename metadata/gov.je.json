@@ -1,8 +1,10 @@
 {
 	"domain": "gov.je",
 	"nameServers": [
-		"ns1.gov.je",
-		"ns2.gov.je"
+		"ns1-38.azure-dns.com",
+		"ns2-38.azure-dns.net",
+		"ns3-38.azure-dns.org",
+		"ns4-38.azure-dns.info"
 	],
 	"policies": [
 		{
