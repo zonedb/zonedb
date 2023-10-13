@@ -56,7 +56,11 @@ If an update to one of the `{zone}.json` files is needed, do this locally:
 
 `go get github.com/zonedb/zonedb`
 
-This repository contains a reference implementation of the database written in [Go](https://golang.org). Unlike the source data, which is in Unicode, the Go implementation represents domain names in ASCII [IDNA](http://en.wikipedia.org/wiki/Internationalized_domain_name#Internationalizing_Domain_Names_in_Applications) form for interop with [existing](https://godoc.org/net) [libraries](https://godoc.org/golang.org/x/net/idna).
+This repository contains a reference implementation of the database written in [Go](https://go.dev/). Unlike the source data, which is in Unicode, the Go implementation represents domain names in ASCII [IDNA](http://en.wikipedia.org/wiki/Internationalized_domain_name#Internationalizing_Domain_Names_in_Applications) form for interop with [existing](https://godoc.org/net) [libraries](https://pkg.go.dev/golang.org/x/net/idna).
+
+#### Go Support
+
+ZoneDB supports a minimum of 3 Go releases. As of October 2023, this includes Go 1.21, 1.20, and 1.19.
 
 ## Contributing
 
@@ -64,7 +68,7 @@ Fork this repository, make changes, and send a pull request. Before submitting a
 
 ### zonedb build tool
 
-This database is generated and validated using the `zonedb` tool in this directory. To install, make sure you have a working [Go](https://golang.org) installation (1.4+) and run this command:
+This database is generated and validated using the `zonedb` tool in this directory. To install, make sure you have a working [Go](https://go.dev/) installation (1.4+) and run this command:
 
 ```shell
 go get -u github.com/zonedb/zonedb/cmd/zonedb

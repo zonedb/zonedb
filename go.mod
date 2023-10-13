@@ -1,6 +1,7 @@
 module github.com/zonedb/zonedb
 
-go 1.21.0
+// Minimum supported Go version (current - 2)
+go 1.19
 
 require (
 	github.com/PuerkitoBio/goquery v1.8.1
@@ -11,8 +12,8 @@ require (
 )
 
 require (
-	github.com/andybalholm/cascadia v1.3.1 // indirect
-	golang.org/x/mod v0.12.0 // indirect
+	github.com/andybalholm/cascadia v1.3.2 // indirect
+	golang.org/x/mod v0.13.0 // indirect
 	golang.org/x/sys v0.13.0 // indirect
-	golang.org/x/tools v0.13.0 // indirect
+	golang.org/x/tools v0.14.0 // indirect
 )
