@@ -3,9 +3,13 @@
 	"whoisServer": "whois.dotgov.gov",
 	"nameServers": [
 		"a.gov-servers.net",
+		"a.ns.gov",
 		"b.gov-servers.net",
+		"b.ns.gov",
 		"c.gov-servers.net",
-		"d.gov-servers.net"
+		"c.ns.gov",
+		"d.gov-servers.net",
+		"d.ns.gov"
 	],
 	"tags": [
 		"generic",
