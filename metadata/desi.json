@@ -3,13 +3,17 @@
 	"registryOperator": "Desi Networks LLC",
 	"whoisServer": "whois.nic.desi",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/desi/"
+		"https://rdap.nominet.uk/desi/"
 	],
 	"nameServers": [
-		"a.nic.desi",
-		"b.nic.desi",
-		"c.nic.desi",
-		"d.nic.desi"
+		"dns1.emdns.uk",
+		"dns2.emdns.uk",
+		"dns3.emdns.uk",
+		"dns4.emdns.uk",
+		"dnsa.emdns.uk",
+		"dnsb.emdns.uk",
+		"dnsc.emdns.uk",
+		"dnsd.emdns.uk"
 	],
 	"tags": [
 		"generic"
