@@ -3,8 +3,5 @@
 	"nameServers": [
 		"tld1.ye",
 		"tld2.ye"
-	],
-	"wildcards": [
-		"2001:ffff:ffff::a64:6402"
 	]
 }

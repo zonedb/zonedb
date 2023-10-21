@@ -1,9 +1,8 @@
 {
 	"domain": "gn",
 	"nameServers": [
-		"fork.sth.dnsnode.net",
 		"ns-gn.afrinic.net",
-		"rip.psg.com"
+		"ns1-gn.pch.net"
 	],
 	"tags": [
 		"closed",

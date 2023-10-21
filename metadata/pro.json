@@ -2,7 +2,7 @@
 	"domain": "pro",
 	"registryOperator": "Identity Digital Limited",
 	"infoURL": "http://nic.pro/",
-	"whoisServer": "whois.registrypro.pro",
+	"whoisServer": "whois.nic.pro",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
