@@ -2,8 +2,11 @@
 	"domain": "kr.com",
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
-		"jm1.dns.com",
-		"jm2.dns.com"
+		"sl1.sedo.com",
+		"sl2.sedo.com"
+	],
+	"wildcards": [
+		"91.195.241.232"
 	],
 	"tags": [
 		"private"
