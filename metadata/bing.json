@@ -3,7 +3,7 @@
 	"registryOperator": "Microsoft Corporation",
 	"infoURL": "https://nic.bing/",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/bing/v1/"
+		"https://rdap.nominet.uk/bing/"
 	],
 	"nameServers": [
 		"dns1.nominetdns.uk",

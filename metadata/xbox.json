@@ -3,7 +3,7 @@
 	"registryOperator": "Microsoft Corporation",
 	"infoURL": "https://nic.xbox/",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/xbox/v1/"
+		"https://rdap.nominet.uk/xbox/"
 	],
 	"nameServers": [
 		"dns1.nominetdns.uk",

@@ -3,7 +3,7 @@
 	"registryOperator": "Microsoft Corporation",
 	"infoURL": "https://nic.hotmail/",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/hotmail/v1/"
+		"https://rdap.nominet.uk/hotmail/"
 	],
 	"nameServers": [
 		"dns1.nominetdns.uk",

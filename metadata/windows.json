@@ -3,7 +3,7 @@
 	"registryOperator": "Microsoft Corporation",
 	"infoURL": "https://nic.windows/",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/windows/v1/"
+		"https://rdap.nominet.uk/windows/"
 	],
 	"nameServers": [
 		"dns1.nominetdns.uk",
