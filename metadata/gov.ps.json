@@ -2,6 +2,7 @@
 	"domain": "gov.ps",
 	"nameServers": [
 		"dns1.gov.ps",
+		"dns3.gov.ps",
 		"ns1.gov.ps",
 		"ns1.palgov.net",
 		"ns2.palgov.net"
