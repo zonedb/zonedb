@@ -3,6 +3,7 @@
 	"nameServers": [
 		"dns.man.lodz.pl",
 		"dns2.man.lodz.pl",
+		"ns1.task.gda.pl",
 		"ns1.tpnet.pl"
 	],
 	"tags": [
