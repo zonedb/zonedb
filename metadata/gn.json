@@ -1,5 +1,6 @@
 {
 	"domain": "gn",
+	"whoisServer": "whois.ande.gov.gn",
 	"nameServers": [
 		"ns-gn.afrinic.net",
 		"ns1-gn.pch.net"
