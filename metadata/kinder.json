@@ -6,14 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.nic.kinder/"
 	],
-	"nameServers": [
-		"a.nic.kinder",
-		"b.nic.kinder",
-		"c.nic.kinder",
-		"ns1.dns.nic.kinder",
-		"ns2.dns.nic.kinder",
-		"ns3.dns.nic.kinder"
-	],
 	"languages": [
 		"da",
 		"de",
@@ -35,7 +27,8 @@
 	],
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

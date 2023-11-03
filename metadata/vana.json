@@ -7,10 +7,6 @@
 		"https://tld-rdap.verisign.com/vana/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.info",
 		"ns01.trs-dns.net",

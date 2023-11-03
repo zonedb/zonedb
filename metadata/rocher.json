@@ -6,14 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.nic.rocher/"
 	],
-	"nameServers": [
-		"a.nic.rocher",
-		"b.nic.rocher",
-		"c.nic.rocher",
-		"ns1.dns.nic.rocher",
-		"ns2.dns.nic.rocher",
-		"ns3.dns.nic.rocher"
-	],
 	"languages": [
 		"da",
 		"de",
@@ -35,7 +27,8 @@
 	],
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{
