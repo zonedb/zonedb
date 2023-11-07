@@ -3,6 +3,7 @@
 	"infoURL": "https://ricta.org.rw/",
 	"whoisServer": "whois.ricta.org.rw",
 	"nameServers": [
+		"ans.dnsstudy.africa",
 		"fork.sth.dnsnode.net",
 		"ns-rw.afrinic.net",
 		"ns1.ricta.org.rw",

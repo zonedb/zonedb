@@ -4,9 +4,6 @@
 		"tld1.ye",
 		"tld2.ye"
 	],
-	"wildcards": [
-		"10.100.100.2"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
