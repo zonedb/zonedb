@@ -6,13 +6,13 @@
 		"https://rdap.nominet.uk/xbox/"
 	],
 	"nameServers": [
-		"dns1.nominetdns.uk",
+		"dns1.nic.xbox",
 		"dns2.nominetdns.uk",
-		"dns3.nominetdns.uk",
+		"dns3.nic.xbox",
 		"dns4.nominetdns.uk",
-		"dnsa.nominetdns.uk",
+		"dnsa.nic.xbox",
 		"dnsb.nominetdns.uk",
-		"dnsc.nominetdns.uk",
+		"dnsc.nic.xbox",
 		"dnsd.nominetdns.uk"
 	],
 	"languages": [

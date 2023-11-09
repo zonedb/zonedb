@@ -6,13 +6,13 @@
 		"https://rdap.nominet.uk/hotmail/"
 	],
 	"nameServers": [
-		"dns1.nominetdns.uk",
+		"dns1.nic.hotmail",
 		"dns2.nominetdns.uk",
-		"dns3.nominetdns.uk",
+		"dns3.nic.hotmail",
 		"dns4.nominetdns.uk",
-		"dnsa.nominetdns.uk",
+		"dnsa.nic.hotmail",
 		"dnsb.nominetdns.uk",
-		"dnsc.nominetdns.uk",
+		"dnsc.nic.hotmail",
 		"dnsd.nominetdns.uk"
 	],
 	"languages": [

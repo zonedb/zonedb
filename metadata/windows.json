@@ -6,13 +6,13 @@
 		"https://rdap.nominet.uk/windows/"
 	],
 	"nameServers": [
-		"dns1.nominetdns.uk",
+		"dns1.nic.windows",
 		"dns2.nominetdns.uk",
-		"dns3.nominetdns.uk",
+		"dns3.nic.windows",
 		"dns4.nominetdns.uk",
-		"dnsa.nominetdns.uk",
+		"dnsa.nic.windows",
 		"dnsb.nominetdns.uk",
-		"dnsc.nominetdns.uk",
+		"dnsc.nic.windows",
 		"dnsd.nominetdns.uk"
 	],
 	"languages": [

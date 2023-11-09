@@ -6,13 +6,13 @@
 		"https://rdap.nominet.uk/microsoft/"
 	],
 	"nameServers": [
-		"dns1.nominetdns.uk",
+		"dns1.nic.microsoft",
 		"dns2.nominetdns.uk",
-		"dns3.nominetdns.uk",
+		"dns3.nic.microsoft",
 		"dns4.nominetdns.uk",
-		"dnsa.nominetdns.uk",
+		"dnsa.nic.microsoft",
 		"dnsb.nominetdns.uk",
-		"dnsc.nominetdns.uk",
+		"dnsc.nic.microsoft",
 		"dnsd.nominetdns.uk"
 	],
 	"languages": [

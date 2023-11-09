@@ -6,13 +6,13 @@
 		"https://rdap.nominet.uk/azure/"
 	],
 	"nameServers": [
-		"dns1.nominetdns.uk",
+		"dns1.nic.azure",
 		"dns2.nominetdns.uk",
-		"dns3.nominetdns.uk",
+		"dns3.nic.azure",
 		"dns4.nominetdns.uk",
-		"dnsa.nominetdns.uk",
+		"dnsa.nic.azure",
 		"dnsb.nominetdns.uk",
-		"dnsc.nominetdns.uk",
+		"dnsc.nic.azure",
 		"dnsd.nominetdns.uk"
 	],
 	"languages": [
