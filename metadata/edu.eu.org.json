@@ -1,7 +1,7 @@
 {
 	"domain": "edu.eu.org",
 	"nameServers": [
-		"auth1.dns.elm.net",
+		"dns.elm.net",
 		"ns1.eu.org"
 	]
 }

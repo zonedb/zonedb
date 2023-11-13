@@ -1,11 +1,9 @@
 {
 	"domain": "nl.eu.org",
 	"nameServers": [
-		"auth.dns.suryo.com",
-		"auth1.dns.elm.net",
+		"dns.elm.net",
 		"ns.eu.org",
 		"ns.lf.net",
-		"ns1.elm-consultancy.nl",
-		"ns4.coloclue.net"
+		"stitch.dns.badassops.com"
 	]
 }
