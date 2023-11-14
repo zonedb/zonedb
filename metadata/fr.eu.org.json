@@ -1,7 +1,6 @@
 {
 	"domain": "fr.eu.org",
 	"nameServers": [
-		"auth1.dns.elm.net",
 		"dns.elm.net",
 		"ns.ankh.fr.eu.org",
 		"ns1.eriomem.net",

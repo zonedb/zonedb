@@ -1,8 +1,5 @@
 {
 	"domain": "off.ai",
-	"nameServers": [
-		"pch.whois.ai"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

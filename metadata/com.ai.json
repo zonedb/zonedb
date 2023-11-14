@@ -1,9 +1,5 @@
 {
 	"domain": "com.ai",
-	"nameServers": [
-		"a.lactld.org",
-		"pch.whois.ai"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
