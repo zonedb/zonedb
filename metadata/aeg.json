@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/aeg/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"v0n0.nic.aeg",
+		"v0n1.nic.aeg",
+		"v0n2.nic.aeg",
+		"v0n3.nic.aeg",
+		"v2n0.nic.aeg",
+		"v2n1.nic.aeg"
 	],
 	"languages": [
 		"az",

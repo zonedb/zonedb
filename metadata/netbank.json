@@ -10,7 +10,9 @@
 		"a.nic.netbank",
 		"b.nic.netbank",
 		"c.nic.netbank",
-		"d.nic.netbank"
+		"x.nic.netbank",
+		"y.nic.netbank",
+		"z.nic.netbank"
 	],
 	"tags": [
 		"brand",

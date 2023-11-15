@@ -10,7 +10,9 @@
 		"a.nic.commbank",
 		"b.nic.commbank",
 		"c.nic.commbank",
-		"d.nic.commbank"
+		"x.nic.commbank",
+		"y.nic.commbank",
+		"z.nic.commbank"
 	],
 	"tags": [
 		"brand",

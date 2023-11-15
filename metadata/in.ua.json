@@ -4,7 +4,8 @@
 	"nameServers": [
 		"ho1.ns.od.ua",
 		"nn.ns.ua",
-		"ns.in.ua"
+		"ns.in.ua",
+		"sx.ns.ua"
 	],
 	"policies": [
 		{

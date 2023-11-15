@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/bofa/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"v0n0.nic.bofa",
+		"v0n1.nic.bofa",
+		"v0n2.nic.bofa",
+		"v0n3.nic.bofa",
+		"v2n0.nic.bofa",
+		"v2n1.nic.bofa"
 	],
 	"tags": [
 		"brand",
