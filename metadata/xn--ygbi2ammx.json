@@ -7,10 +7,6 @@
 		"idn.pnina.ps",
 		"ns1.pnina.ps"
 	],
-	"wildcards": [
-		"72.5.65.111",
-		"sinkhole.paloaltonetworks.com"
-	],
 	"tags": [
 		"country",
 		"geo"

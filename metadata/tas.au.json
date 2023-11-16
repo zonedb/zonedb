@@ -1,6 +1,7 @@
 {
 	"domain": "tas.au",
 	"nameServers": [
+		"a.au",
 		"q.au",
 		"r.au",
 		"s.au",

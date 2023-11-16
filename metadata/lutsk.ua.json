@@ -4,7 +4,8 @@
 	"nameServers": [
 		"ho1.ns.lutsk.ua",
 		"nix.ns.ua",
-		"ns.zp.ua"
+		"ns.zp.ua",
+		"sx.ns.ua"
 	],
 	"policies": [
 		{

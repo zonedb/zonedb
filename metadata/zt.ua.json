@@ -4,7 +4,8 @@
 	"nameServers": [
 		"ba1.ns.ua",
 		"impuls.zhitomir.ua",
-		"nix.ns.ua"
+		"nix.ns.ua",
+		"zt.ns.ua"
 	],
 	"policies": [
 		{
