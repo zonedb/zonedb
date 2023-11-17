@@ -4,7 +4,8 @@
 	"nameServers": [
 		"nix.ns.ua",
 		"ns.dn.ua",
-		"ns3.cn.ua"
+		"ns3.cn.ua",
+		"sx.ns.ua"
 	],
 	"policies": [
 		{

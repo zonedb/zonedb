@@ -7,13 +7,13 @@
 	],
 	"nameServers": [
 		"dns1.nic.microsoft",
-		"dns2.nominetdns.uk",
+		"dns2.nic.microsoft",
 		"dns3.nic.microsoft",
-		"dns4.nominetdns.uk",
+		"dns4.nic.microsoft",
 		"dnsa.nic.microsoft",
-		"dnsb.nominetdns.uk",
+		"dnsb.nic.microsoft",
 		"dnsc.nic.microsoft",
-		"dnsd.nominetdns.uk"
+		"dnsd.nic.microsoft"
 	],
 	"languages": [
 		"az",

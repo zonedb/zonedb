@@ -1,7 +1,6 @@
 {
 	"domain": "gc.ca",
 	"nameServers": [
-		"dns1.nrc.ca",
 		"dns2.nrc.ca",
 		"ns1.d-zone.ca",
 		"ns2.d-zone.ca"

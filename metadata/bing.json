@@ -7,13 +7,13 @@
 	],
 	"nameServers": [
 		"dns1.nic.bing",
-		"dns2.nominetdns.uk",
+		"dns2.nic.bing",
 		"dns3.nic.bing",
-		"dns4.nominetdns.uk",
+		"dns4.nic.bing",
 		"dnsa.nic.bing",
-		"dnsb.nominetdns.uk",
+		"dnsb.nic.bing",
 		"dnsc.nic.bing",
-		"dnsd.nominetdns.uk"
+		"dnsd.nic.bing"
 	],
 	"languages": [
 		"az",

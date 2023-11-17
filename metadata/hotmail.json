@@ -7,13 +7,13 @@
 	],
 	"nameServers": [
 		"dns1.nic.hotmail",
-		"dns2.nominetdns.uk",
+		"dns2.nic.hotmail",
 		"dns3.nic.hotmail",
-		"dns4.nominetdns.uk",
+		"dns4.nic.hotmail",
 		"dnsa.nic.hotmail",
-		"dnsb.nominetdns.uk",
+		"dnsb.nic.hotmail",
 		"dnsc.nic.hotmail",
-		"dnsd.nominetdns.uk"
+		"dnsd.nic.hotmail"
 	],
 	"languages": [
 		"az",
