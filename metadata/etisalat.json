@@ -6,15 +6,10 @@
 	"rdapURLs": [
 		"https://rdap.centralnic.com/etisalat/"
 	],
-	"nameServers": [
-		"a.nic.etisalat",
-		"b.nic.etisalat",
-		"c.nic.etisalat",
-		"d.nic.etisalat"
-	],
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

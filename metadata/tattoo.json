@@ -22,7 +22,9 @@
 		"ja",
 		"mul-Cyrl",
 		"pt",
-		"zh"
+		"und-Cyrl",
+		"zh",
+		"zh-Hani"
 	],
 	"tags": [
 		"generic"
@@ -31,27 +33,27 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/auto_de_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_de_3.1.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/auto_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_es_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/auto_fr_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_fr_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://www.iana.org/domains/idn-tables/tables/auto_it_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_it_3.2.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_ja_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_ja_4.1.xml"
 		},
 		{
 			"type": "idn-table",
@@ -61,12 +63,22 @@
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/auto_pt_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_pt_3.0.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "und-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_und-cyrl_4.1.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
 			"value": "https://www.iana.org/domains/idn-tables/tables/auto_zh_1.1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hani",
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_zh-hani_4.1.xml"
 		}
 	]
 }

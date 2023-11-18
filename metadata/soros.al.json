@@ -1,8 +1,8 @@
 {
 	"domain": "soros.al",
 	"nameServers": [
-		"ns1.hostmonster.com",
-		"ns2.hostmonster.com"
+		"ns1.siteground.net",
+		"ns2.siteground.net"
 	],
 	"policies": [
 		{

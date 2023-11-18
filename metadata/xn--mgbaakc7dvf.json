@@ -6,17 +6,12 @@
 	"rdapURLs": [
 		"https://rdap.centralnic.com/xn--mgbaakc7dvf/"
 	],
-	"nameServers": [
-		"a.nic.اتصالات",
-		"b.nic.اتصالات",
-		"c.nic.اتصالات",
-		"d.nic.اتصالات"
-	],
 	"languages": [
 		"ar"
 	],
 	"tags": [
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{
