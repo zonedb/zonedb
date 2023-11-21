@@ -1,8 +1,11 @@
 {
 	"domain": "net.ws",
 	"nameServers": [
+		"europe1.dnsnode.net",
 		"ns2.dns.ws",
 		"ns5.dns.ws",
+		"nsp.dnsnode.net",
+		"nsu.dnsnode.net",
 		"us3.dns.ws",
 		"us4.dns.ws"
 	],
