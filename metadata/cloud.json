@@ -4,7 +4,7 @@
 	"infoURL": "https://www.get.cloud/home.aspx",
 	"whoisServer": "whois.nic.cloud",
 	"rdapURLs": [
-		"https://rdap.nic.cloud/"
+		"https://rdap.registry.cloud/rdap/"
 	],
 	"nameServers": [
 		"ns1.uniregistry.net",
