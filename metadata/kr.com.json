@@ -5,6 +5,9 @@
 		"sl1.sedo.com",
 		"sl2.sedo.com"
 	],
+	"wildcards": [
+		"91.195.241.232"
+	],
 	"tags": [
 		"private"
 	]
