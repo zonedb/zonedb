@@ -3450,6 +3450,7 @@ pro.mk
 com.ml
 edu.ml
 gov.ml
+info.ml
 net.ml
 org.ml
 presse.ml
