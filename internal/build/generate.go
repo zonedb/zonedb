@@ -206,8 +206,13 @@ func quotedURL(s string) string {
 	return quoted(ToASCIIURL(s))
 }
 
+func mod(i, j, k int) bool {
+	return i%j == k
+}
+
 func generate(filename, src string, data *templateData) error {
 	funcMap := template.FuncMap{
+		"mod":          mod,
 		"identifier":   identifier,
 		"quoted":       quoted,
 		"quotedDomain": quotedDomain,
@@ -249,17 +254,7 @@ const zonesGoSrc = `// Automatically generated
 
 package zonedb
 
-func init() {
-	initZones() // Separate function to report allocs in initialization
-}
-
-func initZones() {
-	z = y
-	ZoneMap = make(map[string]*Zone, len(z))
-	for i := range z {
-		ZoneMap[z[i].Domain] = &z[i]
-	}
-}
+import "os"
 
 // Type w is an alias for []string to generate smaller source code
 type w []string
@@ -303,8 +298,9 @@ var TagValues  = map[string]Tags{
 	{{end }}
 }
 
-// ZoneMap maps domain names to Zones.
-var ZoneMap map[string]*Zone
+// z is a static slice of Zones.
+// Other global variables have pointers into this slice.
+var z = make([]Zone, {{len .Zones}})
 
 // Zones is a slice of all Zones in the database.
 var Zones = z[:]
@@ -312,15 +308,14 @@ var Zones = z[:]
 // TLDs is a slice of all top-level domain Zones.
 var TLDs = z[:{{len .TLDs}}]
 
-// z is a static array of Zones.
-// Other global variables have pointers into this array.
-var z [{{len .Zones}}]Zone
+// ZoneMap maps domain names to Zones.
+var ZoneMap map[string]*Zone
 
-// y and z are separated to fix circular references.
-var y = [{{len .Zones}}]Zone{
-	{{range $d := .Domains}} \
-		{{$z := (index $.Zones $d)}} \
-		{ \
+//go:noinline
+func i0() {
+{{range $i, $d := .Domains}} \
+	{{$z := (index $.Zones $d)}} \
+		z[{{$i}}] = Zone{ \
 			{{quotedDomain $d}}, \
 			{{if $z.IsIDN}}/* {{$d}} */{{end }} \
 			{{if $z.ParentDomain}} &z[{{$z.ParentOffset}}] {{else}} r {{end}}, \
@@ -336,7 +331,34 @@ var y = [{{len .Zones}}]Zone{
 			{{quotedURL $z.WhoisURL}}, \
 			{{if $z.RDAPURLs}} w{ {{range $z.RDAPURLs}}{{quotedDomain .}},{{end}}} {{else}} n {{end}}, \
 			{{if $z.IDNDisallowed}} f {{else}} t {{end}}, \
-		},
-	{{end}} \
+		}
+{{if mod $i 8 7}} \
+	}
+
+//go:noinline
+func i{{$i}}() {
+{{end}} \
+{{end}}
 }
+
+func initZones() {
+	i0()
+{{range $i, $d := .Domains}} \
+	{{if mod $i 8 7}} \
+i{{$i}}()
+	{{end}} \
+{{end}}
+	ZoneMap = make(map[string]*Zone, len(z))
+	for i := range z {
+		ZoneMap[z[i].Domain] = &z[i]
+	}
+}
+
+func init() {
+	if os.Getenv("ZONEDB_SKIP_INIT") != "" {
+		return
+	}
+	initZones() // Separate function to report allocs in initialization
+}
+
 `
