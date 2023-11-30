@@ -4,6 +4,13 @@ package zonedb
 
 import "os"
 
+func init() {
+	if os.Getenv("ZONEDB_SKIP_INIT") != "" {
+		return
+	}
+	initZones() // Separate function to report allocs in initialization
+}
+
 // Type w is an alias for []string to generate smaller source code
 type w []string
 
@@ -8608,11 +8615,4 @@ func initZones() {
 	for i := range z {
 		ZoneMap[z[i].Domain] = &z[i]
 	}
-}
-
-func init() {
-	if os.Getenv("ZONEDB_SKIP_INIT") != "" {
-		return
-	}
-	initZones() // Separate function to report allocs in initialization
 }
