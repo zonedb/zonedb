@@ -62,7 +62,7 @@ jobs:
 
   # Test with TinyGo
   test-tinygo:
-    name: Test with Go
+    name: Test with TinyGo
     runs-on: ubuntu-latest
     timeout-minutes: 15
     strategy:
