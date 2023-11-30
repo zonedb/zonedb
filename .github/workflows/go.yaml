@@ -91,7 +91,7 @@ jobs:
       - name: Test with TinyGo
         # This only tests the apex package, not ./internal/build
         # due to TinyGo support for net.UDPConn and net.IPConn
-        run: tinygo test -v ./
+        run: tinygo test -v -bench . ./
 
       - name: Verify repo is unchanged
         run: git diff --exit-code HEAD
