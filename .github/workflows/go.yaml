@@ -16,7 +16,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4.1.1
         with:
-          fetch-depth: 0 # Retrieve all commit history, so `git rev-list --count` works correctly
           submodules: recursive
 
       - name: Set up Go
@@ -41,7 +40,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4.1.1
         with:
-          fetch-depth: 0 # Retrieve all commit history, so `git rev-list --count` works correctly
           submodules: recursive
 
       - name: Set up Go
@@ -74,7 +72,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4.1.1
         with:
-          fetch-depth: 0 # Retrieve all commit history, so `git rev-list --count` works correctly
           submodules: recursive
 
       - name: Set up Go
@@ -111,7 +108,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4.1.1
         with:
-          fetch-depth: 0 # Retrieve all commit history, so `git rev-list --count` works correctly
           submodules: recursive
 
       - name: Set up Go
@@ -151,8 +147,16 @@ jobs:
   # Tag release
   tag-release:
     name: Tag release
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
     needs: [vet-go, test-go, test-tinygo, test-wasm]
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4.1.1
+        with:
+          fetch-depth: 0 # Retrieve all commit history, so `git rev-list --count` works correctly
+          submodules: recursive
+
       - name: Tag release
         if: github.ref == 'refs/heads/main'
         run: make tag-version
