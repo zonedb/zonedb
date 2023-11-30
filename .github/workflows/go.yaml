@@ -49,6 +49,9 @@ jobs:
           check-latest: true
 
       - name: Run Go tests
+        run: go test -v -bench . ./...
+
+      - name: Run Go tests with race detector
         run: go test -v -race ./...
 
       - name: Test Go without cgo
