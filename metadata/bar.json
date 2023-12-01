@@ -6,10 +6,6 @@
 		"https://rdap.centralnic.com/bar/"
 	],
 	"nameServers": [
-		"a.nic.bar",
-		"b.nic.bar",
-		"c.nic.bar",
-		"d.nic.bar",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.info",
 		"ns01.trs-dns.net",

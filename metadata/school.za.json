@@ -2,7 +2,8 @@
 	"domain": "school.za",
 	"nameServers": [
 		"ns10.dns.business",
-		"ns11.dns.business"
+		"ns11.dns.business",
+		"za-ns.anycast.pch.net"
 	],
 	"policies": [
 		{
