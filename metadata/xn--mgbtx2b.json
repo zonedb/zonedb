@@ -2,9 +2,8 @@
 	"domain": "عراق",
 	"whoisServer": "whois.cmc.iq",
 	"nameServers": [
-		"dyn1.cmc.iq",
-		"dyn2.cmc.iq",
-		"ns1.cmc.iq",
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.net",
 		"nsp-anycast.cmc.iq"
 	],
 	"tags": [
