@@ -8,9 +8,6 @@
 		"pdns5.ultradns.info",
 		"pdns6.ultradns.co.uk"
 	],
-	"wildcards": [
-		"72.55.150.59"
-	],
 	"tags": [
 		"private"
 	],
