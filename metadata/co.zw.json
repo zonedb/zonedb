@@ -1,6 +1,7 @@
 {
 	"domain": "co.zw",
 	"nameServers": [
+		"ans.dnsstudy.africa",
 		"ns1.liquidtelecom.net",
 		"ns1.zispa.org.zw",
 		"ns2.liquidtelecom.net",
