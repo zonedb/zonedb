@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/bofa",
 	"whoisServer": "whois.nic.bofa",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/bofa/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.bofa",

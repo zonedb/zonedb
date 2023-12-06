@@ -3,7 +3,7 @@
 	"registryOperator": "Bloomberg IP Holdings LLC",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/bloomberg",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/bloomberg/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.bloomberg",
