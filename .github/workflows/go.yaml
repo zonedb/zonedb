@@ -35,3 +35,13 @@ jobs:
       - name: Tag release
         if: github.ref == 'refs/heads/main'
         run: make tag-version
+
+      - name: Notify if failure
+        if: ${{ failure() }}
+        run: |
+          curl -Ss -X POST -H 'Content-type: application/json' --data '{"text":"❌ ZoneDB tests failed"}' ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
+
+      - name: Notify if success
+        if: ${{ success() }}
+        run: |
+          curl -Ss -X POST -H 'Content-type: application/json' --data '{"text":"✅ ZoneDB tests passed"}' ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
