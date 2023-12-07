@@ -1,11 +1,9 @@
 {
 	"domain": "biz.iq",
 	"nameServers": [
-		"dyn1.cmc.iq",
-		"dyn2.cmc.iq",
-		"ns.cocca.fr",
-		"ns1.cmc.iq",
-		"nsp-anycast.cmc.iq",
-		"sns-pb.isc.org"
+		"ns.cmc.iq",
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.net",
+		"nsp-anycast.cmc.iq"
 	]
 }
