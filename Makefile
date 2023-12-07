@@ -1,3 +1,5 @@
+export PATH := $(PATH):$(shell go env GOROOT)/misc/wasm
+
 .PHONY: test update metadata/*.json
 
 install:
@@ -5,7 +7,16 @@ install:
 
 test:
 	go run ./cmd/zonedb
-	go test ./...
+	go test -v ./...
+
+test-wasm:
+	GOOS=wasip1 GOARCH=wasm go test -v ./...
+
+test-tinygo:
+	tinygo test -v ./...
+
+test-tinygo-wasm:
+	GOOS=wasip1 GOARCH=wasm tinygo test -v ./...
 
 zones.go: zones.txt metadata/*.json internal/* internal/*/*
 	go generate

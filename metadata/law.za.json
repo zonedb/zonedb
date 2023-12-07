@@ -3,7 +3,8 @@
 	"nameServers": [
 		"ns0.is.co.za",
 		"ns1.dns.net.za",
-		"ns2us.dns.business"
+		"ns2us.dns.business",
+		"za-ns.anycast.pch.net"
 	],
 	"policies": [
 		{
