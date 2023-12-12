@@ -2,8 +2,10 @@
 	"domain": "gn",
 	"whoisServer": "whois.ande.gov.gn",
 	"nameServers": [
+		"fork.sth.dnsnode.net",
 		"ns-gn.afrinic.net",
-		"ns1-gn.pch.net"
+		"ns-pch.gn",
+		"ns1.gn"
 	],
 	"tags": [
 		"closed",
