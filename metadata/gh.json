@@ -1,6 +1,6 @@
 {
 	"domain": "gh",
-	"whoisURL": "http://www.nic.gh/customer/search_c.htm",
+	"whoisServer": "whois.nic.gh",
 	"nameServers": [
 		"ns.dns.br",
 		"ns1.nic.gh",
