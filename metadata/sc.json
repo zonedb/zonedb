@@ -1,6 +1,9 @@
 {
 	"domain": "sc",
 	"whoisServer": "whois2.afilias-grs.net",
+	"rdapURLs": [
+		"https://rdap.identitydigital.services/rdap/"
+	],
 	"nameServers": [
 		"a0.cctld.afilias-nst.info",
 		"a2.cctld.afilias-nst.info",

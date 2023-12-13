@@ -2,6 +2,9 @@
 	"domain": "pr",
 	"infoURL": "https://domains.pr/",
 	"whoisServer": "whois.nic.pr",
+	"rdapURLs": [
+		"https://rdap.identitydigital.services/rdap/"
+	],
 	"nameServers": [
 		"a.lactld.org",
 		"a0.pr.afilias-nst.info",

@@ -2,6 +2,9 @@
 	"domain": "ag",
 	"infoURL": "https://www.nic.ag/",
 	"whoisServer": "whois.nic.ag",
+	"rdapURLs": [
+		"https://rdap.identitydigital.services/rdap/"
+	],
 	"nameServers": [
 		"a0.cctld.afilias-nst.info",
 		"a2.cctld.afilias-nst.info",

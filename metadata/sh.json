@@ -2,6 +2,9 @@
 	"domain": "sh",
 	"infoURL": "https://www.nic.sh/",
 	"whoisServer": "whois.nic.sh",
+	"rdapURLs": [
+		"https://rdap.identitydigital.services/rdap/"
+	],
 	"nameServers": [
 		"a0.nic.sh",
 		"a2.nic.sh",
