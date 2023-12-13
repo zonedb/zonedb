@@ -1,5 +1,6 @@
 {
 	"domain": "bh",
+	"whoisServer": "whois.nic.bh",
 	"nameServers": [
 		"a.nic.bh",
 		"b.nic.bh",

@@ -5,5 +5,9 @@
 		"pns102.cloudns.net",
 		"pns103.cloudns.net",
 		"pns104.cloudns.net"
+	],
+	"wildcards": [
+		"127.0.0.1",
+		"::1"
 	]
 }
