@@ -1,9 +1,8 @@
 {
 	"domain": "org.ph",
 	"nameServers": [
-		"ns2.cuhk.edu.hk",
-		"ns4.apnic.net",
-		"ph.communitydns.net"
+		"1.ns.ph",
+		"ns4.apnic.net"
 	],
 	"wildcards": [
 		"45.79.222.138"

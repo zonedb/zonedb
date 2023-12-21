@@ -1,6 +1,7 @@
 {
 	"domain": "vic.edu.au",
 	"nameServers": [
+		"a.au",
 		"q.au",
 		"r.au",
 		"s.au",

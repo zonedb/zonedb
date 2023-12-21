@@ -3,10 +3,10 @@
 	"infoURL": "https://www.dk-hostmaster.dk/da",
 	"whoisServer": "whois.punktum.dk",
 	"nameServers": [
-		"a.nic.dk",
 		"b.nic.dk",
 		"c.nic.dk",
 		"d.nic.dk",
+		"h.nic.dk",
 		"l.nic.dk",
 		"s.nic.dk"
 	],

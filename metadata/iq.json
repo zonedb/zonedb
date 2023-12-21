@@ -2,9 +2,9 @@
 	"domain": "iq",
 	"whoisServer": "whois.cmc.iq",
 	"nameServers": [
+		"ns.cmc.iq",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
-		"ns1.cmc.iq",
 		"nsp-anycast.cmc.iq"
 	],
 	"tags": [
