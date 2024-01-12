@@ -6,14 +6,12 @@
 		"https://rdap.nic.tel/"
 	],
 	"nameServers": [
+		"anycast10.irondns.net",
+		"anycast9.irondns.net",
 		"ns1.dns.nic.tel",
 		"ns2.dns.nic.tel",
 		"ns3.dns.nic.tel",
-		"ns4.dns.nic.tel",
-		"ns5.dns.nic.tel",
-		"ns6.dns.nic.tel",
-		"ns7.dns.nic.tel",
-		"ns8.dns.nic.tel"
+		"ns4.dns.nic.tel"
 	],
 	"languages": [
 		"da",
