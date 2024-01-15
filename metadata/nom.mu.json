@@ -4,6 +4,12 @@
 		"ns1.mu-dns.net",
 		"ns2.mu-dns.net"
 	],
+	"wildcards": [
+		"185.150.190.161",
+		"204.209.56.39",
+		"206.168.190.199",
+		"216.244.81.68"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
