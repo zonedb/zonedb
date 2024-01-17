@@ -2,9 +2,9 @@
 	"domain": "va",
 	"whoisServer": "whois.iana.org",
 	"nameServers": [
+		"a.nic.va",
+		"b.nic.va",
 		"dns.nic.it",
-		"john.vatican.va",
-		"michael.vatican.va",
 		"osiris.namex.it",
 		"seth.namex.it",
 		"va.cctld.authdns.ripe.net"

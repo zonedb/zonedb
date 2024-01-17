@@ -10,7 +10,11 @@
 		"ns1.samsung.centralnic-dns.com",
 		"ns2.samsung.centralnic-dns.com",
 		"ns3.samsung.centralnic-dns.com",
-		"ns4.samsung.centralnic-dns.com"
+		"ns4.samsung.centralnic-dns.com",
+		"tld01.akam.net",
+		"tld02.akam.net",
+		"tld03.akam.net",
+		"tld04.akam.net"
 	],
 	"languages": [
 		"ko"

@@ -5,13 +5,13 @@
 		"https://rdap.isnic.is/rdap/"
 	],
 	"nameServers": [
-		"bes.isnic.is",
+		"a.nic.is",
+		"b.nic.is",
+		"c.nic.is",
+		"d.nic.is",
 		"durinn.rhnet.is",
-		"ht-tldsecondary01.isnic.is",
-		"sab.isnic.is",
-		"set.isnic.is",
-		"sunic.sunet.se",
-		"tg-tldsecondary01.isnic.is"
+		"e.nic.is",
+		"sunic.sunet.se"
 	],
 	"tags": [
 		"country",
