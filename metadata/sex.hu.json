@@ -1,11 +1,5 @@
 {
 	"domain": "sex.hu",
-	"nameServers": [
-		"a.hu",
-		"b.hu",
-		"c.hu",
-		"d.hu"
-	],
 	"tags": [
 		"adult"
 	],

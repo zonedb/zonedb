@@ -1,6 +1,6 @@
 {
 	"domain": "press",
-	"registryOperator": "Radix FZC DMCC",
+	"registryOperator": "Radix Technologies Inc.",
 	"whoisServer": "whois.nic.press",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/press/"

@@ -1,6 +1,6 @@
 {
 	"domain": "uno",
-	"registryOperator": "Radix FZC DMCC",
+	"registryOperator": "Radix Technologies Inc.",
 	"whoisServer": "whois.nic.uno",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/uno/"

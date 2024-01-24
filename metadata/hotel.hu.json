@@ -1,11 +1,5 @@
 {
 	"domain": "hotel.hu",
-	"nameServers": [
-		"a.hu",
-		"b.hu",
-		"c.hu",
-		"d.hu"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
