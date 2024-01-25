@@ -4,10 +4,12 @@
 	"whoisServer": "whois.netcom.cm",
 	"nameServers": [
 		"auth02.ns.uu.net",
-		"kim.camnet.cm",
-		"lom.camnet.cm",
+		"ns-cm.afrinic.net",
+		"ns-cm.nic.fr",
 		"ns.itu.ch",
-		"sanaga.camnet.cm"
+		"ns1.nic.cm",
+		"ns2.nic.cm",
+		"phloem.uoregon.edu"
 	],
 	"tags": [
 		"country",

@@ -1,8 +1,10 @@
 {
 	"domain": "upt.al",
 	"nameServers": [
-		"abcom.abcom.com.al",
-		"smtphub.abcom.com.al"
+		"ns1.keminet.net",
+		"ns1.keminetdns.net",
+		"ns2.keminet.net",
+		"ns2.keminetdns.net"
 	],
 	"policies": [
 		{
