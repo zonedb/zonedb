@@ -8,13 +8,9 @@
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",
+		"ns01.trs-dns.info",
 		"ns01.trs-dns.net",
-		"v0n0.nic.realty",
-		"v0n1.nic.realty",
-		"v0n2.nic.realty",
-		"v0n3.nic.realty",
-		"v2n0.nic.realty",
-		"v2n1.nic.realty"
+		"ns01.trs-dns.org"
 	],
 	"languages": [
 		"ar"

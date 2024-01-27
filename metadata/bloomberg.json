@@ -2,6 +2,7 @@
 	"domain": "bloomberg",
 	"registryOperator": "Bloomberg IP Holdings LLC",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/bloomberg",
+	"whoisServer": "whois.nic.bloomberg",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
