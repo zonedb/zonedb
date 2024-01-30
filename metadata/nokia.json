@@ -42,22 +42,22 @@
 		{
 			"type": "idn-table",
 			"key": "be",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_be_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_be_1.1.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "bg",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_bg_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_bg_2.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "bs",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_bs_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_bs_2.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_da_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_da_1.2.txt"
 		},
 		{
 			"type": "idn-table",
@@ -67,32 +67,32 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_es_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_es_2.6.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_hu_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_hu_1.1.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "is",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_is_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_is_2.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_ko_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_ko_3.1.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "lt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_lt_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_lt_1.1.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "lv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_lv_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_lv_1.1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -102,22 +102,22 @@
 		{
 			"type": "idn-table",
 			"key": "mk",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_mk_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_mk_1.2.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_pl_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_pl_1.1.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_ru_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_ru_2.6.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "sr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_sr_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_sr_2.txt"
 		},
 		{
 			"type": "idn-table",
@@ -127,12 +127,12 @@
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_sv_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_sv_1.2.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "uk",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_uk_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_uk_2.6.txt"
 		},
 		{
 			"type": "idn-table",

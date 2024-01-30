@@ -1,5 +1,9 @@
 {
 	"domain": "sd",
+	"whoisServer": "whois.nic.sd",
+	"rdapURLs": [
+		"https://rdap.nic.sd/"
+	],
 	"nameServers": [
 		"ans1.canar.sd",
 		"ans1.sis.sd",
