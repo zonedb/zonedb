@@ -7,12 +7,10 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.locker",
-		"a2.nic.locker",
-		"b0.nic.locker",
-		"c0.nic.locker",
 		"ns01.trs-dns.com",
-		"ns01.trs-dns.net"
+		"ns01.trs-dns.info",
+		"ns01.trs-dns.net",
+		"ns01.trs-dns.org"
 	],
 	"tags": [
 		"brand",

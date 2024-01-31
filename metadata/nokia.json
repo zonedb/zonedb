@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.nokia/",
 	"whoisServer": "whois.nic.nokia",
 	"rdapURLs": [
-		"https://rdap.identitydigital.services/rdap/"
+		"https://rdap.centralnic.com/nokia/"
 	],
 	"nameServers": [
 		"a.nic.nokia",
