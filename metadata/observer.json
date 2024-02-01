@@ -4,7 +4,7 @@
 	"infoURL": "https://identity.digital/",
 	"whoisServer": "whois.nic.observer",
 	"rdapURLs": [
-		"https://rdap.identitydigital.services/rdap/"
+		"https://rdap.registry.click/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",
