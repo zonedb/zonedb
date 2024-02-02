@@ -8,6 +8,7 @@
 		"ns4.gov.mu"
 	],
 	"wildcards": [
+		"127.0.0.1",
 		"::1"
 	],
 	"policies": [

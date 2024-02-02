@@ -2,6 +2,7 @@
 	"domain": "net.au",
 	"whoisServer": "eleanba.connect.com.au",
 	"nameServers": [
+		"a.au",
 		"q.au",
 		"r.au",
 		"s.au",
