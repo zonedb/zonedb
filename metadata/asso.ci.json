@@ -2,8 +2,8 @@
 	"domain": "asso.ci",
 	"infoURL": "https://www.nic.ci/",
 	"nameServers": [
-		"a.dnspod.com",
-		"b.dnspod.com",
-		"c.dnspod.com"
+		"a.supersite.net",
+		"b.supersite.net",
+		"c.supersite.net"
 	]
 }
