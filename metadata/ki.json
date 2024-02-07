@@ -2,7 +2,8 @@
 	"domain": "ki",
 	"whoisServer": "whois.nic.ki",
 	"nameServers": [
-		"ns.cocca.fr",
+		"anycastdns1.nic.ki",
+		"anycastdns2.nic.ki",
 		"pch.nic.ki"
 	],
 	"tags": [

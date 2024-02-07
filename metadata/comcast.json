@@ -6,16 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.nominet.uk/comcast/"
 	],
-	"nameServers": [
-		"dns1.nic.comcast",
-		"dns2.nic.comcast",
-		"dns3.nic.comcast",
-		"dns4.nic.comcast",
-		"dnsa.nic.comcast",
-		"dnsb.nic.comcast",
-		"dnsc.nic.comcast",
-		"dnsd.nic.comcast"
-	],
 	"tags": [
 		"brand",
 		"generic"

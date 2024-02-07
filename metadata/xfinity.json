@@ -6,16 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.nominet.uk/xfinity/"
 	],
-	"nameServers": [
-		"dns1.nic.xfinity",
-		"dns2.nic.xfinity",
-		"dns3.nic.xfinity",
-		"dns4.nic.xfinity",
-		"dnsa.nic.xfinity",
-		"dnsb.nic.xfinity",
-		"dnsc.nic.xfinity",
-		"dnsd.nic.xfinity"
-	],
 	"tags": [
 		"brand",
 		"generic"

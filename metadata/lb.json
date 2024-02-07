@@ -2,13 +2,13 @@
 	"domain": "lb",
 	"whoisServer": "whois.lbdr.org.lb",
 	"nameServers": [
+		"b.ns.lb",
 		"fork.sth.dnsnode.net",
 		"nabil.beirutix.net",
 		"nn.uninett.no",
 		"ns-jp.lbdr.org.lb",
 		"ns3.seacomnet.com",
-		"ns4.seacomnet.com",
-		"rip.psg.com"
+		"ns4.seacomnet.com"
 	],
 	"tags": [
 		"closed",
