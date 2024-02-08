@@ -1,0 +1,27 @@
+{
+  "entries": {
+    "tap": {
+      "tinygo-org/tools": {
+        "revision": "854aa34566d1cb3bea204e39df550e193aaac9eb"
+      }
+    },
+    "brew": {
+      "tinygo": {
+        "version": "0.30.0",
+        "bottle": false
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "sonoma": {
+        "HOMEBREW_VERSION": "4.2.7",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "api",
+        "CLT": "15.1.0.0.1.1700200546",
+        "Xcode": "15.2",
+        "macOS": "14.3"
+      }
+    }
+  }
+}
