@@ -6,10 +6,12 @@
 		"https://tld-rdap.verisign.com/merckmsd/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a.nic.merckmsd",
+		"b.nic.merckmsd",
+		"c.nic.merckmsd",
+		"x.nic.merckmsd",
+		"y.nic.merckmsd",
+		"z.nic.merckmsd"
 	],
 	"tags": [
 		"brand",

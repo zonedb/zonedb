@@ -6,10 +6,12 @@
 		"https://tld-rdap.verisign.com/msd/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a.nic.msd",
+		"b.nic.msd",
+		"c.nic.msd",
+		"x.nic.msd",
+		"y.nic.msd",
+		"z.nic.msd"
 	],
 	"tags": [
 		"brand",
