@@ -21,12 +21,10 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5.0.0
         with:
-          go-version: ^1
-          check-latest: true
+          go-version-file: go.mod
 
       - name: Vet Go code
         run: go vet ./...
-
 
   # Test with Go
   test-go:
@@ -62,7 +60,6 @@ jobs:
       - name: Verify repo is unchanged
         run: git diff --exit-code HEAD
 
-
   # Test with TinyGo
   test-tinygo:
     name: Test with TinyGo
@@ -70,7 +67,8 @@ jobs:
     timeout-minutes: 15
     strategy:
       matrix:
-        version: ["0.30.0"]
+        tinygo-version: ["0.30.0"]
+        go-version: ["1.20", "1.21"] # Disable Go 1.22 until TinyGo releases update
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4.1.1
@@ -80,13 +78,12 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5.0.0
         with:
-          go-version: ^1
-          check-latest: true
+          go-version: ${{ matrix.go-version }}
 
       - name: Set up TinyGo
         uses: acifani/setup-tinygo@v2.0.0
         with:
-          tinygo-version: ${{ matrix.version }}
+          tinygo-version: ${{ matrix.tinygo-version }}
 
       - name: Test with TinyGo
         # This only tests the apex package, not ./internal/build
@@ -96,7 +93,6 @@ jobs:
       - name: Verify repo is unchanged
         run: git diff --exit-code HEAD
 
-
   # Test with WebAssembly
   test-wasm:
     name: Test with WebAssembly
@@ -104,7 +100,7 @@ jobs:
     timeout-minutes: 15
     strategy:
       matrix:
-        go-version: ["1.22"] # WASI Preview 1 only available in Go 1.21 or later
+        go-version: ["1.21"] # Disable Go 1.22 until TinyGo releases update
         tinygo-version: ["0.30.0"]
         wasmtime-version: ["v14.0.4", "v15.0.0"]
     steps:
@@ -148,7 +144,6 @@ jobs:
 
       - name: Verify repo is unchanged
         run: git diff --exit-code HEAD
-
 
   # Tag release
   tag-release:
