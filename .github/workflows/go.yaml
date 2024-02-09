@@ -43,7 +43,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5.0.0
         with:
-          go-version: ^${{ matrix.go-version }}
+          go-version: ${{ matrix.go-version }}
           check-latest: true
 
       - name: Run Go tests
@@ -112,7 +112,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5.0.0
         with:
-          go-version: ^${{ matrix.go-version }}
+          go-version: ${{ matrix.go-version }}
           check-latest: true
 
       - name: Set up TinyGo
