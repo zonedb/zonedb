@@ -3,12 +3,12 @@
 	"whoisServer": "whois.lbdr.org.lb",
 	"nameServers": [
 		"b.ns.lb",
-		"fork.sth.dnsnode.net",
+		"i.ns.lb",
 		"nabil.ns.lb",
 		"nn.uninett.no",
 		"ns-jp.lbdr.org.lb",
-		"ns3.seacomnet.com",
-		"ns4.seacomnet.com"
+		"r.ns.lb",
+		"s.ns.lb"
 	],
 	"tags": [
 		"closed",
