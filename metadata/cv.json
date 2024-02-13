@@ -1,5 +1,6 @@
 {
 	"domain": "cv",
+	"whoisServer": "whois.nic.cv",
 	"nameServers": [
 		"anyc.dnsnode.net",
 		"c.dns.pt",

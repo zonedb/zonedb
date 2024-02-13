@@ -4,11 +4,13 @@
 	"nameServers": [
 		"b.ns.lb",
 		"i.ns.lb",
+		"m.ns.lb",
+		"n.ns.lb",
 		"nabil.ns.lb",
-		"nn.uninett.no",
-		"ns-jp.lbdr.org.lb",
 		"r.ns.lb",
-		"s.ns.lb"
+		"s.ns.lb",
+		"t.ns.lb",
+		"w.ns.lb"
 	],
 	"tags": [
 		"closed",

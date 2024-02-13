@@ -1,12 +1,14 @@
 {
 	"domain": "edu.lb",
 	"nameServers": [
-		"nabil.beirutix.net",
-		"nn.uninett.no",
-		"ns-jp.lbdr.org.lb",
-		"ns3.seacomnet.com",
-		"ns4.seacomnet.com",
-		"rip.psg.com"
+		"b.ns.lb",
+		"m.ns.lb",
+		"n.ns.lb",
+		"nabil.ns.lb",
+		"r.ns.lb",
+		"s.ns.lb",
+		"t.ns.lb",
+		"w.ns.lb"
 	],
 	"policies": [
 		{
