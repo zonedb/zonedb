@@ -2,7 +2,7 @@
 	"domain": "uz",
 	"whoisServer": "whois.cctld.uz",
 	"rdapURLs": [
-		"http://cctld.uz:9000/"
+		"https://rdap.cctld.uz/"
 	],
 	"nameServers": [
 		"ns1.uz",
