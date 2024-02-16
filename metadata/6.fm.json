@@ -2,7 +2,9 @@
 	"domain": "6.fm",
 	"nameServers": [
 		"ns1.bb-online.net",
-		"ns2.bb-online.org"
+		"ns2.bb-online.org",
+		"ns3.bb-online.info",
+		"ns4.bb-online.biz"
 	],
 	"wildcards": [
 		"139.162.244.72",

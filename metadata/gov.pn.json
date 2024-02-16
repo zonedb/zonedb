@@ -1,13 +1,13 @@
 {
 	"domain": "gov.pn",
 	"nameServers": [
-		"dns1.nominetdns.uk",
-		"dns2.nominetdns.uk",
-		"dns3.nominetdns.uk",
-		"dns4.nominetdns.uk",
-		"dnsa.nominetdns.uk",
-		"dnsb.nominetdns.uk",
-		"dnsc.nominetdns.uk",
-		"dnsd.nominetdns.uk"
+		"dns1.nic.pn",
+		"dns2.nic.pn",
+		"dns3.nic.pn",
+		"dns4.nic.pn",
+		"dnsa.nic.pn",
+		"dnsb.nic.pn",
+		"dnsc.nic.pn",
+		"dnsd.nic.pn"
 	]
 }

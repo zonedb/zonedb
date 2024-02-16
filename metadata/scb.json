@@ -7,8 +7,8 @@
 		"https://rdap.nic.scb/"
 	],
 	"nameServers": [
-		"a.nic.scb",
 		"c.nic.scb",
+		"nn1.nic.scb",
 		"rz.nic.scb"
 	],
 	"languages": [
