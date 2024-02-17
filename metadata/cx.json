@@ -1,6 +1,9 @@
 {
 	"domain": "cx",
 	"whoisServer": "whois.nic.cx",
+	"rdapURLs": [
+		"https://rdap.nic.cx/"
+	],
 	"nameServers": [
 		"ns.anycast.nic.cx",
 		"ns1.anycastdns.cz",
