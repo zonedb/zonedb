@@ -2,6 +2,9 @@
 	"domain": "ua",
 	"infoURL": "https://www.nic.net.ua/",
 	"whoisServer": "whois.ua",
+	"rdapURLs": [
+		"https://rdap.hostmaster.ua/"
+	],
 	"nameServers": [
 		"bg.ns.ua",
 		"ho1.ns.ua",
