@@ -8,10 +8,6 @@
 		"ns2.pnina.ps",
 		"ote.pnina.ps"
 	],
-	"wildcards": [
-		"72.5.65.111",
-		"sinkhole.paloaltonetworks.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
