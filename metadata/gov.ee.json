@@ -1,10 +1,9 @@
 {
 	"domain": "gov.ee",
 	"nameServers": [
-		"ans2.aso.ee",
-		"ns.gov.ee",
-		"sec1.rcode0.net",
-		"sec2.rcode0.net"
+		"ns.zone.eu",
+		"ns2.zone.ee",
+		"ns3.zonedata.net"
 	],
 	"policies": [
 		{
