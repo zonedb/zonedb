@@ -1,6 +1,9 @@
 {
 	"domain": "nf",
 	"whoisServer": "whois.nic.nf",
+	"rdapURLs": [
+		"https://rdap.nic.nf/"
+	],
 	"nameServers": [
 		"ns.anycast.nic.nf",
 		"ns1.anycastdns.cz",

@@ -2,6 +2,9 @@
 	"domain": "ai",
 	"infoURL": "http://nic.com.ai/",
 	"whoisServer": "whois.nic.ai",
+	"rdapURLs": [
+		"https://rdap.whois.ai/"
+	],
 	"nameServers": [
 		"a.lactld.org",
 		"anycastdns1-cz.nic.ai",
