@@ -1,8 +1,8 @@
 {
 	"domain": "agrinet.tn",
 	"nameServers": [
-		"ns4.ati.tn",
-		"ns6.ati.tn"
+		"ns33.ati.tn",
+		"ns44.ati.tn"
 	],
 	"policies": [
 		{
