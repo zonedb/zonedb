@@ -1,7 +1,6 @@
 {
 	"domain": "ecape.school.za",
 	"nameServers": [
-		"ns0.serendipity.org.za",
 		"ns10.dns.business",
 		"ns11.dns.business"
 	]

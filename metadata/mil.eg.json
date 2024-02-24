@@ -1,5 +1,9 @@
 {
 	"domain": "mil.eg",
+	"nameServers": [
+		"frcu.eun.eg",
+		"rip.psg.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

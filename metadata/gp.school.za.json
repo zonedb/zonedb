@@ -1,7 +1,6 @@
 {
 	"domain": "gp.school.za",
 	"nameServers": [
-		"lava.obsidian.co.za",
 		"ns0.serendipity.org.za",
 		"ns10.dns.business",
 		"ns11.dns.business",
