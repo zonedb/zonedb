@@ -1,7 +1,7 @@
 {
 	"domain": "vi",
 	"infoURL": "https://secure.nic.vi/",
-	"whoisURL": "https://secure.nic.vi/whois-lookup/",
+	"whoisServer": "virgil.nic.vi",
 	"nameServers": [
 		"ns3.nic.vi",
 		"pch.nic.vi"
