@@ -1,6 +1,9 @@
 {
 	"domain": "lb",
 	"whoisServer": "whois.lbdr.org.lb",
+	"rdapURLs": [
+		"https://rdap.lbdr.org.lb/"
+	],
 	"nameServers": [
 		"b.ns.lb",
 		"i.ns.lb",

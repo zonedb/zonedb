@@ -1,6 +1,9 @@
 {
 	"domain": "cv",
 	"whoisServer": "whois.nic.cv",
+	"rdapURLs": [
+		"https://rdap.nic.cv/"
+	],
 	"nameServers": [
 		"anyc.dnsnode.net",
 		"c.dns.pt",

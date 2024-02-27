@@ -1,9 +1,9 @@
 {
 	"domain": "com.ar",
 	"nameServers": [
-		"a.dns.ar",
-		"b.dns.ar",
+		"a.lactld.org",
 		"c.dns.ar",
+		"d.dns.ar",
 		"e.dns.ar",
 		"f.dns.ar"
 	]
