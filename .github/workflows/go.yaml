@@ -121,7 +121,7 @@ jobs:
           tinygo-version: ${{ matrix.tinygo-version }}
 
       - name: Set up Wasmtime
-        uses: bytecodealliance/actions/wasmtime/setup@v1.0.2
+        uses: bytecodealliance/actions/wasmtime/setup@v1.1.0
         with:
           version: ${{ matrix.wasmtime-version }}
 

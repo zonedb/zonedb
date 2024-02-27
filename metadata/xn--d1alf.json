@@ -3,9 +3,9 @@
 	"infoURL": "https://www.iana.org/domains/root/db/xn--d1alf.html",
 	"whoisServer": "whois.marnet.mk",
 	"nameServers": [
-		"d.ext.nic.cz",
+		"b.dns.si",
 		"dns-mk.univie.ac.at",
-		"ns2.arnes.si",
+		"mk-e.ns.nic.cz",
 		"tld1.marnet.mk"
 	],
 	"tags": [
