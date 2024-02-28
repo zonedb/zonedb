@@ -2,6 +2,7 @@
 	"domain": "com.np",
 	"infoURL": "https://register.com.np/",
 	"nameServers": [
+		"kcns2.thulo.com",
 		"np-ns.npix.net.np",
 		"np.cctld.authdns.ripe.net",
 		"ns4.apnic.net",
