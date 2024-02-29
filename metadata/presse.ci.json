@@ -1,9 +1,9 @@
 {
 	"domain": "presse.ci",
 	"nameServers": [
-		"a.supersite.net",
-		"b.supersite.net",
-		"c.supersite.net"
+		"a.dnspod.com",
+		"b.dnspod.com",
+		"c.dnspod.com"
 	],
 	"policies": [
 		{
