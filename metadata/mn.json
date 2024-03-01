@@ -1,6 +1,6 @@
 {
 	"domain": "mn",
-	"whoisServer": "whois.afilias-grs.info",
+	"whoisServer": "whois.nic.mn",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
