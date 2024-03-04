@@ -2,6 +2,7 @@
 	"domain": "mil.jo",
 	"nameServers": [
 		"amra.nic.gov.jo",
+		"cloudns.nic.net.jo",
 		"jo.cctld.authdns.ripe.net",
 		"jordan1st.nic.gov.jo",
 		"petra.nic.gov.jo",

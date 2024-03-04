@@ -3079,7 +3079,7 @@ func i1975() {
 	z[1978] = Zone{"or.bi", &z[156], x, 0, e, e, w{"anyns.nic.bi", "bi.cctld.authdns.ripe.net", "ns-bi.afrinic.net", "ns.nic.bi", "ns1.nic.bi"}, n, n, n, e, e, n, f}
 	z[1979] = Zone{"org.bi", &z[156], x, 0, e, e, w{"anyns.nic.bi", "bi.cctld.authdns.ripe.net", "ns-bi.afrinic.net", "ns.nic.bi", "ns1.nic.bi"}, n, n, n, e, e, n, f}
 	z[1980] = Zone{"ote.bi", &z[156], x, 0, e, e, n, n, n, n, e, e, n, t}
-	z[1981] = Zone{"1x.biz", &z[163], x, 0x200, e, e, w{"ns1.subdomain.net", "ns2.subdomain.net"}, n, n, n, e, e, n, t}
+	z[1981] = Zone{"1x.biz", &z[163], x, 0x200, e, e, w{"ns1.subdomain.net", "ns2.subdomain.net"}, w{"1x.biz", "95.217.58.108"}, n, n, e, e, n, t}
 	z[1982] = Zone{"auz.biz", &z[163], x, 0, e, e, w{"ns1.instradns.com", "ns2.instradns.com", "ns3.instradns.com"}, n, n, n, e, e, n, f}
 	z[1983] = Zone{"asso.bj", &z[164], x, 0, e, e, n, n, n, n, e, e, n, f}
 }
@@ -3737,7 +3737,7 @@ func i2415() {
 	z[2416] = Zone{"org.eg", &z[435], x, 0, e, e, w{"frcu.eun.eg", "rip.psg.com", "www.frcu.eun.eg"}, n, n, n, e, e, n, f}
 	z[2417] = Zone{"sci.eg", &z[435], x, 0, e, e, w{"frcu.eun.eg", "rip.psg.com"}, n, n, n, e, e, n, f}
 	z[2418] = Zone{"sport.eg", &z[435], x, 0, e, e, w{"frcu.eun.eg", "rip.psg.com"}, n, n, n, e, e, n, t}
-	z[2419] = Zone{"tv.eg", &z[435], x, 0, e, e, n, n, n, n, e, e, n, f}
+	z[2419] = Zone{"tv.eg", &z[435], x, 0, e, e, w{"frcu.eun.eg", "rip.psg.com"}, n, n, n, e, e, n, f}
 	z[2420] = Zone{"com.er", &z[446], x, 0, e, e, w{"er.cctld.authdns.ripe.net", "sawanew.noc.net.er", "zaranew.noc.net.er"}, n, n, n, e, e, n, t}
 	z[2421] = Zone{"edu.er", &z[446], x, 0, e, e, w{"er.cctld.authdns.ripe.net", "sawanew.noc.net.er", "zaranew.noc.net.er"}, n, n, n, e, e, n, f}
 	z[2422] = Zone{"gov.er", &z[446], x, 0, e, e, w{"er.cctld.authdns.ripe.net", "sawanew.noc.net.er", "zaranew.noc.net.er"}, n, n, n, e, e, n, f}
@@ -4819,17 +4819,17 @@ func i3135() {
 	z[3138] = Zone{"mil.jm", &z[738], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[3139] = Zone{"net.jm", &z[738], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[3140] = Zone{"org.jm", &z[738], x, 0, e, e, n, n, n, n, e, e, n, f}
-	z[3141] = Zone{"com.jo", &z[741], x, 0, e, e, w{"amra.nic.gov.jo", "jo.cctld.authdns.ripe.net", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "rip.psg.com"}, n, n, n, e, e, n, f}
-	z[3142] = Zone{"edu.jo", &z[741], x, 0, e, e, w{"amra.nic.gov.jo", "jo.cctld.authdns.ripe.net", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "rip.psg.com"}, n, n, n, e, e, n, t}
-	z[3143] = Zone{"gov.jo", &z[741], x, 0, e, e, w{"amra.nic.gov.jo", "jo.cctld.authdns.ripe.net", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "rip.psg.com"}, n, n, n, e, e, n, f}
+	z[3141] = Zone{"com.jo", &z[741], x, 0, e, e, w{"amra.nic.gov.jo", "cloudns.nic.net.jo", "jo.cctld.authdns.ripe.net", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "rip.psg.com"}, n, n, n, e, e, n, f}
+	z[3142] = Zone{"edu.jo", &z[741], x, 0, e, e, w{"amra.nic.gov.jo", "cloudns.nic.net.jo", "jo.cctld.authdns.ripe.net", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "rip.psg.com"}, n, n, n, e, e, n, t}
+	z[3143] = Zone{"gov.jo", &z[741], x, 0, e, e, w{"amra.nic.gov.jo", "cloudns.nic.net.jo", "jo.cctld.authdns.ripe.net", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "rip.psg.com"}, n, n, n, e, e, n, f}
 }
 
 //go:noinline
 func i3143() {
-	z[3144] = Zone{"mil.jo", &z[741], x, 0, e, e, w{"amra.nic.gov.jo", "jo.cctld.authdns.ripe.net", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "rip.psg.com"}, n, n, n, e, e, n, f}
+	z[3144] = Zone{"mil.jo", &z[741], x, 0, e, e, w{"amra.nic.gov.jo", "cloudns.nic.net.jo", "jo.cctld.authdns.ripe.net", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "rip.psg.com"}, n, n, n, e, e, n, f}
 	z[3145] = Zone{"name.jo", &z[741], x, 0, e, e, n, n, n, n, e, e, n, f}
-	z[3146] = Zone{"net.jo", &z[741], x, 0, e, e, w{"amra.nic.gov.jo", "jo.cctld.authdns.ripe.net", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "rip.psg.com"}, n, n, n, e, e, n, f}
-	z[3147] = Zone{"org.jo", &z[741], x, 0, e, e, w{"amra.nic.gov.jo", "jo.cctld.authdns.ripe.net", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "rip.psg.com"}, n, n, n, e, e, n, f}
+	z[3146] = Zone{"net.jo", &z[741], x, 0, e, e, w{"amra.nic.gov.jo", "cloudns.nic.net.jo", "jo.cctld.authdns.ripe.net", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "rip.psg.com"}, n, n, n, e, e, n, f}
+	z[3147] = Zone{"org.jo", &z[741], x, 0, e, e, w{"amra.nic.gov.jo", "cloudns.nic.net.jo", "jo.cctld.authdns.ripe.net", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "rip.psg.com"}, n, n, n, e, e, n, f}
 	z[3148] = Zone{"sch.jo", &z[741], x, 0, e, e, w{"amra.nic.gov.jo", "cloudns.nic.net.jo", "jo.cctld.authdns.ripe.net", "jordan1st.nic.gov.jo", "petra.nic.gov.jo", "rip.psg.com"}, n, n, n, e, e, n, f}
 	z[3149] = Zone{"ac.jp", &z[746], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[3150] = Zone{"ad.jp", &z[746], x, 0, e, e, n, n, n, n, e, e, n, f}
@@ -5354,7 +5354,7 @@ func i3487() {
 
 //go:noinline
 func i3495() {
-	z[3496] = Zone{"nom.mu", &z[964], x, 0, e, e, w{"ns1.mu-dns.net", "ns2.mu-dns.net"}, w{"104.194.8.11", "142.54.186.122", "142.54.186.124", "142.54.186.126", "172.96.172.79", "185.150.190.161", "206.168.190.199", "216.244.81.67", "216.244.81.68", "216.244.81.69", "38.101.149.116", "45.135.163.187", "45.135.163.188", "45.135.163.189", "45.135.163.190", "66.187.75.46"}, n, n, e, e, n, f}
+	z[3496] = Zone{"nom.mu", &z[964], x, 0, e, e, w{"ns1.mu-dns.net", "ns2.mu-dns.net"}, w{"104.194.8.11", "185.150.190.161", "216.244.81.67", "216.244.81.69", "38.101.149.116", "66.187.75.46"}, n, n, e, e, n, f}
 	z[3497] = Zone{"or.mu", &z[964], x, 0, e, e, w{"anycast1.irondns.net", "fork.sth.dnsnode.net", "mu1.dyntld.net", "mu2.dyntld.net", "mu3.dyntld.net", "mu4.dyntld.net", "udns1.tld.mu", "udns2.tld.mu"}, n, n, n, e, e, n, f}
 	z[3498] = Zone{"org.mu", &z[964], x, 0, e, e, w{"anycast1.irondns.net", "fork.sth.dnsnode.net", "mu1.dyntld.net", "mu2.dyntld.net", "mu3.dyntld.net", "mu4.dyntld.net", "udns1.tld.mu", "udns2.tld.mu"}, n, n, n, e, e, n, f}
 	z[3499] = Zone{"aero.mv", &z[971], x, 0, e, "http://www.brunet.bn/products_webrelated_domain_main.htm", w{"mv-ns.anycast.pch.net", "ns-cache01.dhivehinet.net.mv", "ns.aero.mv", "ns2.dhivehinet.net.mv"}, n, n, n, e, e, n, f}
@@ -5528,7 +5528,7 @@ func i3607() {
 	z[3611] = Zone{"gov.ni", &z[1007], x, 0, e, e, n, n, n, n, e, e, n, t}
 	z[3612] = Zone{"in.ni", &z[1007], x, 0, e, e, w{"dns-ext.nic.cr", "ns.ideay.net.ni", "ns.ni", "ns.uu.net", "ns2.ni", "ns3.ni"}, n, n, n, e, e, n, f}
 	z[3613] = Zone{"info.ni", &z[1007], x, 0, e, e, w{"dns-ext.nic.cr", "ns.ideay.net.ni", "ns.ni", "ns.uu.net", "ns2.ni", "ns3.ni"}, n, n, n, e, e, n, f}
-	z[3614] = Zone{"int.ni", &z[1007], x, 0, e, e, w{"dns-ext.nic.cr", "ns.ideay.net.ni", "ns.ni", "ns.uu.net", "ns2.ni", "ns3.ni"}, n, n, n, e, e, n, f}
+	z[3614] = Zone{"int.ni", &z[1007], x, 0, e, e, w{"dns-ext.nic.cr", "ns.ideay.net.ni", "ns.ni", "ns.uu.net", "ns2.ni", "ns3.ni"}, w{"72.5.65.111", "sinkhole.paloaltonetworks.com"}, n, n, e, e, n, f}
 	z[3615] = Zone{"mil.ni", &z[1007], x, 0, e, e, w{"dns-ext.nic.cr", "ns.ideay.net.ni", "ns.ni", "ns.uu.net", "ns2.ni", "ns3.ni"}, n, n, n, e, e, n, f}
 }
 
@@ -6331,8 +6331,8 @@ func i4143() {
 	z[4146] = Zone{"teach.pro", &z[1127], x, 0, e, e, w{"curitiba.ns.porkbun.com", "fortaleza.ns.porkbun.com", "maceio.ns.porkbun.com", "salvador.ns.porkbun.com"}, w{"44.227.65.245", "44.227.76.166", "pixie.porkbun.com"}, n, n, e, e, n, f}
 	z[4147] = Zone{"vet.pro", &z[1127], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[4148] = Zone{"com.ps", &z[1138], x, 0, e, "https://www.pnina.ps/registration-policy/", w{"ns1.pnina.ps", "ns2.pnina.ps", "ote.pnina.ps", "ps-ns.anycast.pch.net", "ps.cctld.authdns.ripe.net", "rip.psg.com"}, n, n, n, e, e, n, f}
-	z[4149] = Zone{"edu.ps", &z[1138], x, 0, e, "https://www.tonic.to/", w{"dns1.gov.ps", "dns3.gov.ps", "ns1.pnina.ps", "ns2.pnina.ps", "ote.pnina.ps"}, w{"72.5.65.111", "sinkhole.paloaltonetworks.com"}, n, n, e, e, n, f}
-	z[4150] = Zone{"gov.ps", &z[1138], x, 0, e, e, w{"dns1.gov.ps", "dns3.gov.ps", "ns1.gov.ps", "ns1.palgov.net", "ns2.palgov.net"}, w{"72.5.65.111", "sinkhole.paloaltonetworks.com"}, n, n, e, e, n, f}
+	z[4149] = Zone{"edu.ps", &z[1138], x, 0, e, "https://www.tonic.to/", w{"dns1.gov.ps", "dns3.gov.ps", "ns1.pnina.ps", "ns2.pnina.ps", "ote.pnina.ps"}, n, n, n, e, e, n, f}
+	z[4150] = Zone{"gov.ps", &z[1138], x, 0, e, e, w{"dns1.gov.ps", "dns3.gov.ps", "ns1.gov.ps", "ns1.palgov.net", "ns2.palgov.net"}, n, n, n, e, e, n, f}
 	z[4151] = Zone{"mobi.ps", &z[1138], x, 0x200, e, e, w{"ns1.subdomain.net", "ns2.subdomain.net"}, w{"95.217.58.108", "mobi.ps"}, n, n, e, e, n, t}
 }
 
