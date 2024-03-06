@@ -2,6 +2,7 @@
 	"domain": "merckmsd",
 	"registryOperator": "MSD Registry Holdings, Inc.",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/merckmsd",
+	"whoisServer": "whois.nic.merckmsd",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/merckmsd/v1/"
 	],

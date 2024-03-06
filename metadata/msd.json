@@ -2,6 +2,7 @@
 	"domain": "msd",
 	"registryOperator": "MSD Registry Holdings, Inc.",
 	"infoURL": "https://www.nic.msd/",
+	"whoisServer": "whois.nic.msd",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/msd/v1/"
 	],

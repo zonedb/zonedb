@@ -2,12 +2,12 @@
 	"domain": "edu.ps",
 	"infoURL": "https://www.tonic.to/",
 	"nameServers": [
-		"dns1.gov.ps",
 		"dns3.gov.ps",
-		"ns1.gov.ps",
 		"ns1.pnina.ps",
 		"ns2.pnina.ps",
-		"ote.pnina.ps"
+		"ote.pnina.ps",
+		"ps-ns.anycast.pch.net",
+		"ps.cctld.authdns.ripe.net"
 	],
 	"policies": [
 		{
