@@ -4,7 +4,7 @@
 	"infoURL": "https://www.nic.msd/",
 	"whoisServer": "whois.nic.msd",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/msd/v1/"
+		"http://rdap.nic.msd/"
 	],
 	"nameServers": [
 		"a.nic.msd",

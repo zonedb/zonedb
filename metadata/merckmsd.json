@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/merckmsd",
 	"whoisServer": "whois.nic.merckmsd",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/merckmsd/v1/"
+		"http://rdap.nic.merckmsd/"
 	],
 	"nameServers": [
 		"a.nic.merckmsd",
