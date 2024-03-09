@@ -1,6 +1,9 @@
 {
 	"domain": "ms",
 	"whoisServer": "whois.nic.ms",
+	"rdapURLs": [
+		"https://rdap.nic.ms/"
+	],
 	"nameServers": [
 		"a.lactld.org",
 		"ms-ns.anycast.pch.net",

@@ -4,9 +4,6 @@
 		"ns1.sedoparking.com",
 		"ns2.sedoparking.com"
 	],
-	"wildcards": [
-		"64.190.63.222"
-	],
 	"tags": [
 		"private"
 	],
