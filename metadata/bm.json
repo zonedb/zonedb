@@ -2,6 +2,9 @@
 	"domain": "bm",
 	"infoURL": "https://www.bermudanic.bm/",
 	"whoisURL": "https://www.bermudanic.bm/whois.htm",
+	"rdapURLs": [
+		"https://rdap.identitydigital.services/rdap/"
+	],
 	"nameServers": [
 		"a0.bm.afilias-nst.info",
 		"a2.bm.afilias-nst.info",
