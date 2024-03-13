@@ -1,7 +1,7 @@
 {
 	"domain": "contractors",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.technology",
+	"whoisServer": "whois.nic.contractors",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
