@@ -10,7 +10,11 @@
 		"a.nic.forum",
 		"b.nic.forum",
 		"c.nic.forum",
-		"d.nic.forum"
+		"d.nic.forum",
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.info",
+		"ns01.trs-dns.net",
+		"ns01.trs-dns.org"
 	],
 	"languages": [
 		"ar"

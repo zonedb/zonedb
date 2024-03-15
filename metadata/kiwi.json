@@ -8,7 +8,9 @@
 	],
 	"nameServers": [
 		"a.ns.nic.kiwi",
-		"b.ns.nic.kiwi"
+		"b.ns.nic.kiwi",
+		"c.ns.nic.kiwi",
+		"d.ns.nic.kiwi"
 	],
 	"languages": [
 		"mul-Latn"
