@@ -8,7 +8,9 @@
 	],
 	"nameServers": [
 		"a.ns.nic.crown",
-		"b.ns.nic.crown"
+		"b.ns.nic.crown",
+		"c.ns.nic.crown",
+		"d.ns.nic.crown"
 	],
 	"tags": [
 		"brand",

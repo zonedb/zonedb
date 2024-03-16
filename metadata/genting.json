@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/genting/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"v0n0.nic.genting",
+		"v0n1.nic.genting",
+		"v0n2.nic.genting",
+		"v0n3.nic.genting",
+		"v2n0.nic.genting",
+		"v2n1.nic.genting"
 	],
 	"languages": [
 		"az",

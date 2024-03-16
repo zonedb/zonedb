@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/clubmed/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"v0n0.nic.clubmed",
+		"v0n1.nic.clubmed",
+		"v0n2.nic.clubmed",
+		"v0n3.nic.clubmed",
+		"v2n0.nic.clubmed",
+		"v2n1.nic.clubmed"
 	],
 	"languages": [
 		"ja",

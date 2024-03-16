@@ -7,12 +7,12 @@
 		"https://rdap.nic.saxo/"
 	],
 	"nameServers": [
-		"a.nic.saxo",
-		"b.nic.saxo",
-		"c.nic.saxo",
-		"x.nic.saxo",
-		"y.nic.saxo",
-		"z.nic.saxo"
+		"v0n0.nic.saxo",
+		"v0n1.nic.saxo",
+		"v0n2.nic.saxo",
+		"v0n3.nic.saxo",
+		"v2n0.nic.saxo",
+		"v2n1.nic.saxo"
 	],
 	"tags": [
 		"brand",

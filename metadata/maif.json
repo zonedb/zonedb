@@ -6,10 +6,12 @@
 		"https://tld-rdap.verisign.com/maif/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"v0n0.nic.maif",
+		"v0n1.nic.maif",
+		"v0n2.nic.maif",
+		"v0n3.nic.maif",
+		"v2n0.nic.maif",
+		"v2n1.nic.maif"
 	],
 	"languages": [
 		"mul-Latn"

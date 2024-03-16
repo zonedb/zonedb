@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/cfa/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"v0n0.nic.cfa",
+		"v0n1.nic.cfa",
+		"v0n2.nic.cfa",
+		"v0n3.nic.cfa",
+		"v2n0.nic.cfa",
+		"v2n1.nic.cfa"
 	],
 	"tags": [
 		"brand",
