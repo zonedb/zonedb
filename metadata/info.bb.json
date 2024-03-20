@@ -1,8 +1,6 @@
 {
 	"domain": "info.bb",
 	"nameServers": [
-		"bds-tlcm-ns-001.gov.bb",
-		"bds-tlcm-ns-002.gov.bb",
 		"ns1.nic.bb",
 		"ns2.nic.bb",
 		"ns3.nic.bb",
