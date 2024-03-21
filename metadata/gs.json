@@ -1,6 +1,9 @@
 {
 	"domain": "gs",
 	"whoisServer": "whois.nic.gs",
+	"rdapURLs": [
+		"https://rdap.nic.gs/"
+	],
 	"nameServers": [
 		"ns.anycast.nic.gs",
 		"ns1.anycastdns.cz",
