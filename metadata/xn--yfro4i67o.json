@@ -1,6 +1,6 @@
 {
 	"domain": "新加坡",
-	"whoisServer": "whois.sgnic.sg",
+	"whoisServer": "whois.zh.sgnic.sg",
 	"nameServers": [
 		"dsany.sgnic.sg",
 		"dsany2.sgnic.sg",

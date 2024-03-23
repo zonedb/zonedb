@@ -1,6 +1,6 @@
 {
 	"domain": "சிங்கப்பூர்",
-	"whoisServer": "whois.sgnic.sg",
+	"whoisServer": "whois.ta.sgnic.sg",
 	"nameServers": [
 		"dsany.sgnic.sg",
 		"dsany2.sgnic.sg",
