@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.saxo/",
 	"whoisServer": "whois.nic.saxo",
 	"rdapURLs": [
-		"https://rdap.nic.saxo/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.saxo",

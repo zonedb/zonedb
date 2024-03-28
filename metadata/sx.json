@@ -4,7 +4,9 @@
 	"whoisServer": "whois.sx",
 	"nameServers": [
 		"ns1.ns.sx",
-		"ns2.ns.sx"
+		"ns2.ns.sx",
+		"ns3.ns.sx",
+		"ns4.ns.sx"
 	],
 	"tags": [
 		"country",
