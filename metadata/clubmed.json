@@ -4,7 +4,7 @@
 	"infoURL": "https://ns.clubmed.com/ipm/nic_clubmed/index.html",
 	"whoisServer": "whois.nic.clubmed",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/clubmed/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.clubmed",

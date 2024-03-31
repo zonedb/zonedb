@@ -4,7 +4,7 @@
 	"infoURL": "https://www.orange.com/en/nic/domains",
 	"whoisServer": "whois.nic.orange",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/orange/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.orange",

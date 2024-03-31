@@ -3,7 +3,7 @@
 	"registryOperator": "Mutuelle Assurance Instituteur France (MAIF)",
 	"infoURL": "http://nic.maif/",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/maif/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.maif",
