@@ -1,7 +1,7 @@
 {
 	"domain": "bm",
 	"infoURL": "https://www.bermudanic.bm/",
-	"whoisURL": "https://www.bermudanic.bm/whois.htm",
+	"whoisServer": "whois.nic.bm",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
