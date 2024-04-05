@@ -7,10 +7,10 @@
 		"https://rdap.registry.coop/rdap/"
 	],
 	"nameServers": [
-		"ns1.uniregistry.net",
-		"ns2.uniregistry.info",
-		"ns5.uniregistry.net",
-		"ns6.uniregistry.info"
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.info",
+		"ns01.trs-dns.net",
+		"ns01.trs-dns.org"
 	],
 	"tags": [
 		"generic"
