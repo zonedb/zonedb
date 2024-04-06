@@ -1,7 +1,6 @@
 {
 	"domain": "mil.ba",
 	"nameServers": [
-		"bosna.utic.net.ba",
 		"ns.ba",
 		"sava.utic.net.ba",
 		"una.utic.net.ba"
