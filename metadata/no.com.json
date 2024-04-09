@@ -2,8 +2,8 @@
 	"domain": "no.com",
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
-		"pdns07.domaincontrol.com",
-		"pdns08.domaincontrol.com"
+		"lana.ns.cloudflare.com",
+		"osmar.ns.cloudflare.com"
 	],
 	"tags": [
 		"private"
