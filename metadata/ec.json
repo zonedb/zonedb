@@ -1,6 +1,9 @@
 {
 	"domain": "ec",
 	"whoisServer": "whois.nic.ec",
+	"rdapURLs": [
+		"https://rdap.registry.ec/"
+	],
 	"nameServers": [
 		"a.lactld.org",
 		"n2.nic.ec",
