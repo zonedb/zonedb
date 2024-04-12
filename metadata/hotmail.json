@@ -2,6 +2,7 @@
 	"domain": "hotmail",
 	"registryOperator": "Microsoft Corporation",
 	"infoURL": "https://nic.hotmail/",
+	"whoisServer": "whois.nic.hotmail",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/hotmail/"
 	],

@@ -2,6 +2,7 @@
 	"domain": "microsoft",
 	"registryOperator": "Microsoft Corporation",
 	"infoURL": "https://nic.microsoft/",
+	"whoisServer": "whois.nic.microsoft",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/microsoft/"
 	],

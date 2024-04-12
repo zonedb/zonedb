@@ -2,6 +2,7 @@
 	"domain": "azure",
 	"registryOperator": "Microsoft Corporation",
 	"infoURL": "https://nic.azure/",
+	"whoisServer": "whois.nic.azure",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/azure/"
 	],
