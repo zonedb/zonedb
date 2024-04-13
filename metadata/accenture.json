@@ -2,6 +2,7 @@
 	"domain": "accenture",
 	"registryOperator": "Accenture plc",
 	"infoURL": "https://www.accenture.com/us-en/acn-welcome-registry",
+	"whoisServer": "whois.nic.accenture",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
