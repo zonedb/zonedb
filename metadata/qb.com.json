@@ -1,11 +1,8 @@
 {
 	"domain": "qb.com",
 	"nameServers": [
-		"ns1.sedoparking.com",
-		"ns2.sedoparking.com"
-	],
-	"wildcards": [
-		"64.190.63.222"
+		"dns1.registrar-servers.com",
+		"dns2.registrar-servers.com"
 	],
 	"tags": [
 		"private"
