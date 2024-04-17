@@ -6,6 +6,7 @@ on:
       - main
   pull_request:
   workflow_dispatch: # Enables the web UI manual trigger
+  # Note: ^^ will fail the "tag-release" step if the git tag already exists
 
 jobs:
   # Go vulnerability check
