@@ -7,6 +7,16 @@ on:
   pull_request:
 
 jobs:
+  # Go vulnerability check
+  vuln:
+    name: govulncheck
+    runs-on: ubuntu-latest
+    steps:
+      - name: govulncheck
+        uses: golang/govulncheck-action@v1.0.1
+        with:
+          go-version-file: go.mod
+
   # Vet Go code
   vet-go:
     name: Vet Go code
