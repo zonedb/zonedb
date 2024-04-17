@@ -1,7 +1,9 @@
 module github.com/zonedb/zonedb
 
-// Minimum supported Go version (current - 2)
-go 1.20
+// Minimum supported Go version
+// (current version -2, except when security fixes are only
+// backported to the current version -1)
+go 1.21
 
 require (
 	github.com/PuerkitoBio/goquery v1.9.1

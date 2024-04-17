@@ -7,6 +7,16 @@ on:
   pull_request:
 
 jobs:
+  # Go vulnerability check
+  vuln:
+    name: govulncheck
+    runs-on: ubuntu-latest
+    steps:
+      - name: govulncheck
+        uses: golang/govulncheck-action@v1.0.1
+        with:
+          go-version-file: go.mod
+
   # Vet Go code
   vet-go:
     name: Vet Go code
@@ -33,7 +43,7 @@ jobs:
     timeout-minutes: 15
     strategy:
       matrix:
-        go-version: ["1.20", "1.21", "1.22"]
+        go-version: ["1.21", "1.22"]
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4.1.2
@@ -67,8 +77,8 @@ jobs:
     timeout-minutes: 15
     strategy:
       matrix:
-        tinygo-version: ["0.30.0"]
-        go-version: ["1.20", "1.21"] # Disable Go 1.22 until TinyGo releases update
+        tinygo-version: ["0.31.2"] # FIXME: this needs to be manually bumped; something should ping when a new version is available
+        go-version: ["1.21", "1.22"]
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4.1.2
@@ -100,8 +110,8 @@ jobs:
     timeout-minutes: 15
     strategy:
       matrix:
-        go-version: ["1.21"] # Disable Go 1.22 until TinyGo releases update
-        tinygo-version: ["0.30.0"]
+        go-version: ["1.21", "1.22"]
+        tinygo-version: ["0.31.2"]
         wasmtime-version: ["v14.0.4", "v15.0.0"]
     steps:
       - name: Checkout repo
