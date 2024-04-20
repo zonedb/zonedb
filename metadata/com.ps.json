@@ -2,6 +2,7 @@
 	"domain": "com.ps",
 	"infoURL": "https://www.pnina.ps/registration-policy/",
 	"nameServers": [
+		"bilal.pnina.ps",
 		"ns1.pnina.ps",
 		"ns2.pnina.ps",
 		"ote.pnina.ps",

@@ -2,6 +2,7 @@
 	"domain": "edu.ps",
 	"infoURL": "https://www.tonic.to/",
 	"nameServers": [
+		"bilal.pnina.ps",
 		"dns3.gov.ps",
 		"ns1.pnina.ps",
 		"ns2.pnina.ps",

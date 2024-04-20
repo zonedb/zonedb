@@ -1,6 +1,7 @@
 {
 	"domain": "sch.ps",
 	"nameServers": [
+		"bilal.pnina.ps",
 		"dns1.gov.ps",
 		"ns1.pnina.ps",
 		"ns2.pnina.ps"
