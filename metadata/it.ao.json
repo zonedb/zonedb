@@ -1,8 +1,8 @@
 {
 	"domain": "it.ao",
 	"nameServers": [
+		"ao-e.ns.nic.cz",
 		"fred.nic.ao",
-		"ns-ext.nic.cz",
 		"ns0.nic.ao",
 		"ns02.fccn.pt",
 		"ns2.reg.it.ao"
