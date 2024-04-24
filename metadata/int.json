@@ -1,6 +1,9 @@
 {
 	"domain": "int",
 	"whoisServer": "whois.iana.org",
+	"rdapURLs": [
+		"https://rdap.iana.org/"
+	],
 	"nameServers": [
 		"ns.uu.net",
 		"ns0.ja.net",
