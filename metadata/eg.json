@@ -2,8 +2,8 @@
 	"domain": "eg",
 	"whoisURL": "http://lookup.egregistry.eg/english.aspx",
 	"nameServers": [
+		"dns-eg.univie.ac.at",
 		"frcu.eun.eg",
-		"ns5.univie.ac.at",
 		"rip.psg.com"
 	],
 	"tags": [
