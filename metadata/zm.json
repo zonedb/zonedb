@@ -1,6 +1,9 @@
 {
 	"domain": "zm",
 	"whoisServer": "whois.zicta.zm",
+	"rdapURLs": [
+		"https://rdap.nic.zm/"
+	],
 	"nameServers": [
 		"gransy.nic.zm",
 		"ns-zm.afrinic.net",
