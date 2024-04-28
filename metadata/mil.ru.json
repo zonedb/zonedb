@@ -2,8 +2,7 @@
 	"domain": "mil.ru",
 	"nameServers": [
 		"ns1.mil.ru",
-		"ns2.mil.ru",
-		"ns4.mil.ru"
+		"ns2.mil.ru"
 	],
 	"policies": [
 		{
