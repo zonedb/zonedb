@@ -2,13 +2,13 @@
 	"domain": "co.dm",
 	"nameServers": [
 		"ns.blacknightsolutions.com",
-		"ns1.uniregistry.net",
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.info",
+		"ns01.trs-dns.net",
+		"ns01.trs-dns.org",
 		"ns2.blacknightsolutions.com",
 		"ns2.nic.dm",
-		"ns2.uniregistry.info",
-		"ns3.uniregistry.net",
-		"ns34.cdns.net",
-		"ns4.uniregistry.info"
+		"ns34.cdns.net"
 	],
 	"policies": [
 		{
