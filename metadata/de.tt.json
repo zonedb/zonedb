@@ -1,5 +1,9 @@
 {
 	"domain": "de.tt",
+	"nameServers": [
+		"meera.ns.cloudflare.com",
+		"ram.ns.cloudflare.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
