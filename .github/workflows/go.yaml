@@ -31,7 +31,7 @@ jobs:
           submodules: recursive
 
       - name: Set up Go
-        uses: actions/setup-go@v5.0.0
+        uses: actions/setup-go@v5.0.1
         with:
           go-version-file: go.mod
 
@@ -53,7 +53,7 @@ jobs:
           submodules: recursive
 
       - name: Set up Go
-        uses: actions/setup-go@v5.0.0
+        uses: actions/setup-go@v5.0.1
         with:
           go-version: ${{ matrix.go-version }}
           check-latest: true
@@ -88,7 +88,7 @@ jobs:
           submodules: recursive
 
       - name: Set up Go
-        uses: actions/setup-go@v5.0.0
+        uses: actions/setup-go@v5.0.1
         with:
           go-version: ${{ matrix.go-version }}
 
@@ -122,7 +122,7 @@ jobs:
           submodules: recursive
 
       - name: Set up Go
-        uses: actions/setup-go@v5.0.0
+        uses: actions/setup-go@v5.0.1
         with:
           go-version: ${{ matrix.go-version }}
           check-latest: true
