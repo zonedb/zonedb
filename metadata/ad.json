@@ -7,9 +7,19 @@
 		"anycast9.irondns.net",
 		"ns3.nic.fr"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"country",
 		"generic",
 		"geo"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/ad_latn_1.0.txt"
+		}
 	]
 }
