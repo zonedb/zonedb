@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.fairwinds/",
 	"whoisServer": "whois.nic.fairwinds",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/fairwinds/v1/"
+		"https://rdap.nominet.uk/fairwinds/"
 	],
 	"nameServers": [
 		"ns1.nominetdns.uk",
