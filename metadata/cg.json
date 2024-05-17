@@ -3,6 +3,7 @@
 	"whoisURL": "http://www.nic.cg/cgi-bin/whois.pl",
 	"nameServers": [
 		"dns-fr.dnsafrica.net",
+		"dns-sg.dnsafrica.net",
 		"dns-za.dnsafrica.net",
 		"sunic.sunet.se"
 	],
