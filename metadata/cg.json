@@ -2,6 +2,7 @@
 	"domain": "cg",
 	"whoisURL": "http://www.nic.cg/cgi-bin/whois.pl",
 	"nameServers": [
+		"dns-ca.dnsafrica.net",
 		"dns-fr.dnsafrica.net",
 		"dns-sg.dnsafrica.net",
 		"dns-za.dnsafrica.net",
