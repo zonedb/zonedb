@@ -1,9 +1,5 @@
 {
 	"domain": "bank.af",
-	"nameServers": [
-		"ns-us.1and1-dns.com",
-		"ns-us.1and1-dns.us"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
