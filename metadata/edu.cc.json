@@ -1,7 +1,7 @@
 {
 	"domain": "edu.cc",
 	"nameServers": [
-		"ns1.netdns.co.nz",
-		"ns2.netdns.co.nz"
+		"ns53.domaincontrol.com",
+		"ns54.domaincontrol.com"
 	]
 }
