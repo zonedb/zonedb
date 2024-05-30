@@ -3,10 +3,10 @@
 	"whoisServer": "whois.dmdomains.dm",
 	"nameServers": [
 		"ns.blacknightsolutions.com",
-		"ns1.uniregistry.net",
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.net",
 		"ns2.blacknightsolutions.com",
 		"ns2.nic.dm",
-		"ns2.uniregistry.info",
 		"ns34.cdns.net"
 	],
 	"tags": [
