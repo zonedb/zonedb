@@ -1,6 +1,6 @@
 {
 	"domain": "sc",
-	"whoisServer": "whois2.afilias-grs.net",
+	"whoisServer": "whois.nic.sc",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
