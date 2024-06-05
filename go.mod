@@ -3,6 +3,7 @@ module github.com/zonedb/zonedb
 // Minimum supported Go version
 // (current version -2, except when security fixes are only
 // backported to the current version -1)
+// Note: this should use the latest dot release in CI, once GitHub has added it to "actions/go-versions"
 go 1.21
 
 require (
