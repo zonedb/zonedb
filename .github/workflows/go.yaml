@@ -9,43 +9,15 @@ on:
   # Note: ^^ will fail the "tag-release" step if the git tag already exists
 
 jobs:
-  # Go vulnerability check
-  vuln:
-    name: govulncheck
-    runs-on: ubuntu-latest
-    steps:
-      - name: govulncheck
-        uses: golang/govulncheck-action@v1.0.3
-        with:
-          go-version-file: go.mod
-
-  # Vet Go code
-  vet-go:
-    name: Vet Go code
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4.1.6
-        with:
-          submodules: recursive
-
-      - name: Set up Go
-        uses: actions/setup-go@v5.0.1
-        with:
-          go-version-file: go.mod
-
-      - name: Vet Go code
-        run: go vet ./...
-
-  # Test with Go
   test-go:
-    name: Test with Go
+    name: Test, Vet, Vulncheck Go code
     runs-on: ubuntu-latest
     timeout-minutes: 15
     strategy:
       matrix:
-        go-version: ["1.21", "1.22"]
+        go-version: ['oldstable', 'stable']
+    env:
+      CGO_ENABLED: 0
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4.1.6
@@ -56,18 +28,24 @@ jobs:
         uses: actions/setup-go@v5.0.1
         with:
           go-version: ${{ matrix.go-version }}
-          check-latest: true
+          # check-latest: true # not needed when using 'stable'
 
       - name: Run Go tests
         run: go test -v -bench . ./...
 
       - name: Run Go tests with race detector
         run: go test -v -race ./...
-
-      - name: Test Go without cgo
         env:
-          CGO_ENABLED: 0
-        run: go test -v ./...
+          CGO_ENABLED: '1'
+
+      - name: Vet Go code
+        run: go vet ./...
+
+      - name: govulncheck
+        uses: golang/govulncheck-action@v1.0.3
+        with:
+          cache: false
+          repo-checkout: false
 
       - name: Verify repo is unchanged
         run: git diff --exit-code HEAD
@@ -79,8 +57,7 @@ jobs:
     timeout-minutes: 15
     strategy:
       matrix:
-        tinygo-version: ["0.31.2"] # FIXME: this needs to be manually bumped; something should ping when a new version is available
-        go-version: ["1.21", "1.22"]
+        tinygo-version: ['0.31.2'] # FIXME: this needs to be manually bumped; something should ping when a new version is available
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4.1.6
@@ -90,7 +67,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5.0.1
         with:
-          go-version: ${{ matrix.go-version }}
+          go-version: 'stable'
 
       - name: Set up TinyGo
         uses: acifani/setup-tinygo@v2.0.0
@@ -112,9 +89,8 @@ jobs:
     timeout-minutes: 15
     strategy:
       matrix:
-        go-version: ["1.21", "1.22"]
-        tinygo-version: ["0.31.2"]
-        wasmtime-version: ["v14.0.4", "v15.0.0"]
+        tinygo-version: ['0.31.2']
+        wasmtime-version: ['v21.0.1']
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4.1.6
@@ -124,8 +100,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5.0.1
         with:
-          go-version: ${{ matrix.go-version }}
-          check-latest: true
+          go-version: 'stable'
 
       - name: Set up TinyGo
         uses: acifani/setup-tinygo@v2.0.0
@@ -162,7 +137,7 @@ jobs:
     name: Tag release
     runs-on: ubuntu-latest
     timeout-minutes: 1
-    needs: [vet-go, test-go, test-tinygo, test-wasm]
+    needs: [test-go, test-tinygo, test-wasm]
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4.1.6
@@ -182,4 +157,4 @@ jobs:
       # - name: Notify if success
       #   if: ${{ success() }}
       #   run: |
-      #     curl -Ss -X POST -H 'Content-type: application/json' --data '{"text":"✅ ZoneDB tests passed"}' ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
+      #   curl -Ss -X POST -H 'Content-type: application/json' --data '{"text":"✅ ZoneDB tests passed"}' ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
