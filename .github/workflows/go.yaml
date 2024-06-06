@@ -34,9 +34,9 @@ jobs:
         run: go test -v -bench . ./...
 
       - name: Run Go tests with race detector
-        run: go test -v -race ./...
         env:
           CGO_ENABLED: '1'
+        run: go test -v -race ./...
 
       - name: Vet Go code
         run: go vet ./...
@@ -51,46 +51,15 @@ jobs:
         run: git diff --exit-code HEAD
 
   # Test with TinyGo
-  test-tinygo:
+  test-tinygo-wasm:
     name: Test with TinyGo
     runs-on: ubuntu-latest
     timeout-minutes: 15
     strategy:
       matrix:
         tinygo-version: ['0.31.2'] # FIXME: this needs to be manually bumped; something should ping when a new version is available
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4.1.6
-        with:
-          submodules: recursive
-
-      - name: Set up Go
-        uses: actions/setup-go@v5.0.1
-        with:
-          go-version: 'stable'
-
-      - name: Set up TinyGo
-        uses: acifani/setup-tinygo@v2.0.0
-        with:
-          tinygo-version: ${{ matrix.tinygo-version }}
-
-      - name: Test with TinyGo
-        # This only tests the apex package, not ./internal/build
-        # due to TinyGo support for net.UDPConn and net.IPConn
-        run: tinygo test -v -bench . ./
-
-      - name: Verify repo is unchanged
-        run: git diff --exit-code HEAD
-
-  # Test with WebAssembly
-  test-wasm:
-    name: Test with WebAssembly
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    strategy:
-      matrix:
-        tinygo-version: ['0.31.2']
         wasmtime-version: ['v21.0.1']
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4.1.6
@@ -115,6 +84,11 @@ jobs:
       - name: Add Go wasm exec to $PATH
         run: echo "$(go env GOROOT)/misc/wasm" >> $GITHUB_PATH
 
+      - name: Test with TinyGo
+        # This only tests the apex package, not ./internal/build
+        # due to TinyGo support for net.UDPConn and net.IPConn
+        run: tinygo test -v -bench . ./
+
       - name: Test WebAssembly with Go + Wasmtime
         env:
           GOOS: wasip1
@@ -137,7 +111,7 @@ jobs:
     name: Tag release
     runs-on: ubuntu-latest
     timeout-minutes: 1
-    needs: [test-go, test-tinygo, test-wasm]
+    needs: [test-go, test-tinygo-wasm]
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4.1.6
