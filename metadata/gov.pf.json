@@ -1,6 +1,11 @@
 {
 	"domain": "gov.pf",
 	"nameServers": [
+		"ns1.gov.pf",
+		"ns1.vini.pf",
+		"ns2.gov.pf",
+		"ns2.vini.pf",
+		"reverse.gov.pf",
 		"services1.gov.pf",
 		"services2.gov.pf"
 	],
