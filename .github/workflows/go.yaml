@@ -52,7 +52,7 @@ jobs:
 
   # Test with TinyGo
   test-tinygo-wasm:
-    name: Test with TinyGo
+    name: Test with WASM and TinyGo
     runs-on: ubuntu-latest
     timeout-minutes: 15
     strategy:
