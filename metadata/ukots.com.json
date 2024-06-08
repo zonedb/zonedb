@@ -1,7 +1,11 @@
 {
 	"domain": "ukots.com",
 	"nameServers": [
-		"blerghmaheuikcnho.hydrapiglephant.com",
-		"blerghoqannsvwfvm.hydrapiglephant.com"
+		"ina1.registrar.eu",
+		"ina2.registrar.eu",
+		"ina3.registrar.eu"
+	],
+	"wildcards": [
+		"15.197.130.221"
 	]
 }
