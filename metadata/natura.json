@@ -6,20 +6,13 @@
 	"rdapURLs": [
 		"https://rdap.gtlds.nic.br/"
 	],
-	"nameServers": [
-		"a.dns.br",
-		"b.dns.br",
-		"c.dns.br",
-		"d.dns.br",
-		"e.dns.br",
-		"f.dns.br"
-	],
 	"languages": [
 		"pt"
 	],
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{
