@@ -1,5 +1,10 @@
 {
 	"domain": "pro.na",
+	"nameServers": [
+		"a.dnspod.com",
+		"b.dnspod.com",
+		"c.dnspod.com"
+	],
 	"tags": [
 		"retired"
 	],
