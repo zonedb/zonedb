@@ -3,11 +3,8 @@
 	"infoURL": "http://nic.გე/",
 	"whoisServer": "whois.itdc.ge",
 	"nameServers": [
-		"a.გე.globalanycastcloud.freenom.net",
-		"b.გე.globalanycastcloud.freenom.net",
-		"c.გე.globalanycastcloud.freenom.net",
-		"d.გე.globalanycastcloud.freenom.net",
-		"გე.ns.anycast.pch.net"
+		"გე.ns.anycast.pch.net",
+		"გე.ns.cloudhosted.io"
 	],
 	"wildcards": [
 		"188.93.95.11"

@@ -2,9 +2,10 @@
 	"domain": "ao",
 	"infoURL": "https://www.dns.ao/ao/",
 	"nameServers": [
-		"ao01.dns.pt",
-		"ao03.dns.pt",
-		"h.dns.pt"
+		"a.ns.ao",
+		"ao-e.ns.nic.cz",
+		"ao02.dns.pt",
+		"etld-1.anycast.net"
 	],
 	"tags": [
 		"country",
