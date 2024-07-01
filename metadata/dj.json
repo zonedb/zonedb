@@ -4,6 +4,8 @@
 	"nameServers": [
 		"bow1.intnet.dj",
 		"bow5.intnet.dj",
+		"ns1.djibtelecom.dj",
+		"ns2.djibtelecom.dj",
 		"vps443605.ovh.net"
 	],
 	"tags": [
