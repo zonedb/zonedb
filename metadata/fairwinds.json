@@ -7,10 +7,10 @@
 		"https://rdap.nominet.uk/fairwinds/"
 	],
 	"nameServers": [
-		"ns1.nominetdns.uk",
-		"ns2.nominetdns.uk",
-		"ns3.nominetdns.uk",
-		"ns4.nominetdns.uk",
+		"dns1.nic.fairwinds",
+		"dns2.nic.fairwinds",
+		"dns3.nic.fairwinds",
+		"dns4.nic.fairwinds",
 		"nsa.nominetdns.uk",
 		"nsb.nominetdns.uk",
 		"nsc.nominetdns.uk",
