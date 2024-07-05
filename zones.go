@@ -2834,10 +2834,10 @@ func i1807() {
 
 //go:noinline
 func i1815() {
-	z[1816] = Zone{"co.ao", &z[72], z[5102:5104], 0, e, e, w{"ao-e.ns.nic.cz", "fred.nic.ao", "ns0.nic.ao", "ns02.fccn.pt", "ns2.reg.it.ao"}, n, n, n, e, e, n, f}
+	z[1816] = Zone{"co.ao", &z[72], z[5102:5104], 0, e, e, n, n, n, n, e, e, n, f}
 	z[1817] = Zone{"ed.ao", &z[72], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[1818] = Zone{"gv.ao", &z[72], x, 0, e, e, w{"ns1.gov.ao", "ns2.gov.ao", "ns3.gov.ao", "ns4.gov.ao"}, n, n, n, e, e, n, f}
-	z[1819] = Zone{"it.ao", &z[72], x, 0, e, e, w{"ao-e.ns.nic.cz", "fred.nic.ao", "ns0.nic.ao", "ns02.fccn.pt", "ns2.reg.it.ao"}, n, n, n, e, e, n, f}
+	z[1819] = Zone{"it.ao", &z[72], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[1820] = Zone{"og.ao", &z[72], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[1821] = Zone{"pb.ao", &z[72], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[1822] = Zone{"com.aq", &z[77], x, 0, e, e, n, n, n, n, e, e, n, f}
@@ -3869,7 +3869,7 @@ func i2503() {
 	z[2504] = Zone{"tm.fr", &z[520], x, 0x1000, e, e, n, n, n, n, e, e, n, f}
 	z[2505] = Zone{"veterinaire.fr", &z[520], x, 0, e, e, w{"ns1.smallregistry.net", "ns2.smallregistry.net", "ns3.smallregistry.net", "ns4.smallregistry.net"}, n, n, n, "whois.smallregistry.net", e, n, t}
 	z[2506] = Zone{"ac.ga", &z[535], x, 0, e, e, n, n, n, n, e, e, n, f}
-	z[2507] = Zone{"aeroport.ga", &z[535], x, 0, e, e, n, n, n, n, e, e, n, f}
+	z[2507] = Zone{"aeroport.ga", &z[535], x, 0, e, e, w{"ns5.lwsdns.com", "ns6.lwsdns.com", "ns7.lwsdns.com", "ns8.lwsdns.com"}, n, n, n, e, e, n, f}
 	z[2508] = Zone{"asso.ga", &z[535], x, 0, e, e, w{"ns1.aninf.ga", "ns2.aninf.ga", "ns3.aninf.ga"}, n, n, n, e, e, n, f}
 	z[2509] = Zone{"co.ga", &z[535], x, 0, e, e, w{"ns1.aninf.ga", "ns2.aninf.ga", "ns3.aninf.ga"}, n, n, n, e, e, n, f}
 	z[2510] = Zone{"com.ga", &z[535], x, 0, e, e, n, n, n, n, e, e, n, f}
@@ -5354,7 +5354,7 @@ func i3487() {
 
 //go:noinline
 func i3495() {
-	z[3496] = Zone{"nom.mu", &z[964], x, 0, e, e, w{"ns1.mu-dns.net", "ns2.mu-dns.net"}, w{"104.194.8.11", "142.54.186.122", "142.54.186.123", "142.54.186.124", "142.54.186.126", "172.96.172.79", "185.150.190.161", "204.209.56.130", "204.209.56.150", "204.209.56.172", "204.209.56.255", "204.209.56.36", "204.209.56.38", "204.209.56.58", "206.168.190.199", "216.244.81.66", "216.244.81.68", "216.244.81.69", "38.101.149.116", "45.135.163.186", "45.135.163.187", "45.135.163.188", "45.135.163.190", "66.187.75.46"}, n, n, e, e, n, f}
+	z[3496] = Zone{"nom.mu", &z[964], x, 0, e, e, w{"ns1.mu-dns.net", "ns2.mu-dns.net"}, w{"104.194.8.11", "142.54.186.122", "142.54.186.123", "142.54.186.124", "142.54.186.125", "142.54.186.126", "172.96.172.79", "185.150.190.161", "204.209.56.187", "204.209.56.189", "204.209.56.210", "204.209.56.253", "204.209.56.27", "204.209.56.68", "204.209.56.74", "206.168.190.199", "216.244.81.66", "216.244.81.67", "216.244.81.68", "216.244.81.69", "38.101.149.116", "45.135.163.186", "45.135.163.187", "45.135.163.188", "45.135.163.189", "45.135.163.190", "66.187.75.46"}, n, n, e, e, n, f}
 	z[3497] = Zone{"or.mu", &z[964], x, 0, e, e, w{"anycast1.irondns.net", "fork.sth.dnsnode.net", "mu1.dyntld.net", "mu2.dyntld.net", "mu3.dyntld.net", "mu4.dyntld.net", "udns1.tld.mu", "udns2.tld.mu"}, n, n, n, e, e, n, f}
 	z[3498] = Zone{"org.mu", &z[964], x, 0, e, e, w{"anycast1.irondns.net", "fork.sth.dnsnode.net", "mu1.dyntld.net", "mu2.dyntld.net", "mu3.dyntld.net", "mu4.dyntld.net", "udns1.tld.mu", "udns2.tld.mu"}, n, n, n, e, e, n, f}
 	z[3499] = Zone{"aero.mv", &z[971], x, 0, e, "http://www.brunet.bn/products_webrelated_domain_main.htm", w{"mv-ns.anycast.pch.net", "ns-cache01.dhivehinet.net.mv", "ns.aero.mv", "ns2.dhivehinet.net.mv"}, n, n, n, e, e, n, f}
@@ -7760,7 +7760,7 @@ func i5095() {
 	z[5099] = Zone{"xn--wcvs22d.xn--j6w193g" /* 教育.香港 */, &z[1749], x, 0, e, e, w{"c.hkirc.net.hk", "d.hkirc.net.hk", "m.hkirc.net.hk", "t.hkirc.net.hk", "u.hkirc.net.hk", "v.hkirc.net.hk", "x.hkirc.net.hk", "y.hkirc.net.hk", "z.hkirc.net.hk"}, n, n, n, e, e, n, t}
 	z[5100] = Zone{"xn--uc0atv.xn--j6w193g" /* 組織.香港 */, &z[1749], x, 0, e, e, w{"c.hkirc.net.hk", "d.hkirc.net.hk", "m.hkirc.net.hk", "t.hkirc.net.hk", "u.hkirc.net.hk", "v.hkirc.net.hk", "x.hkirc.net.hk", "y.hkirc.net.hk", "z.hkirc.net.hk"}, n, n, n, e, e, n, t}
 	z[5101] = Zone{"xn--od0alg.xn--j6w193g" /* 網絡.香港 */, &z[1749], x, 0, e, e, w{"c.hkirc.net.hk", "d.hkirc.net.hk", "m.hkirc.net.hk", "t.hkirc.net.hk", "u.hkirc.net.hk", "v.hkirc.net.hk", "x.hkirc.net.hk", "y.hkirc.net.hk", "z.hkirc.net.hk"}, n, n, n, e, e, n, t}
-	z[5102] = Zone{"lda.co.ao", &z[1816], x, 0, e, e, w{"ns.inventadomains.com", "ns2.inventadomains.com"}, n, n, n, e, e, n, t}
+	z[5102] = Zone{"lda.co.ao", &z[1816], x, 0, e, e, n, n, n, n, e, e, n, t}
 	z[5103] = Zone{"sa.co.ao", &z[1816], x, 0, e, e, n, n, n, n, e, e, n, t}
 }
 
