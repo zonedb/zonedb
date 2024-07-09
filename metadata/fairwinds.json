@@ -11,10 +11,10 @@
 		"dns2.nic.fairwinds",
 		"dns3.nic.fairwinds",
 		"dns4.nic.fairwinds",
-		"nsa.nominetdns.uk",
-		"nsb.nominetdns.uk",
-		"nsc.nominetdns.uk",
-		"nsd.nominetdns.uk"
+		"dnsa.nic.fairwinds",
+		"dnsb.nic.fairwinds",
+		"dnsc.nic.fairwinds",
+		"dnsd.nic.fairwinds"
 	],
 	"languages": [
 		"az",

@@ -2,7 +2,8 @@
 	"domain": "me.ye",
 	"nameServers": [
 		"tld1.ye",
-		"tld2.ye"
+		"tld2.ye",
+		"tld3.ye"
 	],
 	"policies": [
 		{
