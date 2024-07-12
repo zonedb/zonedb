@@ -3,9 +3,10 @@
 	"infoURL": "http://www.nic.net.ua/",
 	"nameServers": [
 		"ba1.ns.ua",
-		"nix.ns.ua",
+		"nn.ns.ua",
 		"ns.host.kr.ua",
-		"ns.infocom.kr.ua"
+		"ns.infocom.kr.ua",
+		"zt.ns.ua"
 	],
 	"policies": [
 		{

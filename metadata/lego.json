@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/lego/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"v0n0.nic.lego",
+		"v0n1.nic.lego",
+		"v0n2.nic.lego",
+		"v0n3.nic.lego",
+		"v2n0.nic.lego",
+		"v2n1.nic.lego"
 	],
 	"languages": [
 		"mul-Arab",
