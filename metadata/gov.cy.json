@@ -2,9 +2,10 @@
 	"domain": "gov.cy",
 	"nameServers": [
 		"dns.cit.cornell.edu",
+		"dns41.cloudns.net",
+		"dns42.cloudns.net",
+		"dns43.cloudns.net",
 		"ns01.gov.cy",
-		"ns02.gov.cy",
-		"sns0.grnet.gr",
 		"sns1.grnet.gr"
 	],
 	"policies": [
