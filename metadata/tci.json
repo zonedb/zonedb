@@ -4,13 +4,17 @@
 	"infoURL": "http://nic.tci/",
 	"whoisServer": "whois.nic.tci",
 	"rdapURLs": [
-		"https://api.rdap.nic.tci/"
+		"https://rdap.nominet.uk/tci/"
 	],
 	"nameServers": [
-		"a.ns.nic.tci",
-		"b.ns.nic.tci",
-		"ns1.anycastdns.cz",
-		"ns2.anycastdns.cz"
+		"dns1.emdns.uk",
+		"dns2.emdns.uk",
+		"dns3.emdns.uk",
+		"dns4.emdns.uk",
+		"dnsa.emdns.uk",
+		"dnsb.emdns.uk",
+		"dnsc.emdns.uk",
+		"dnsd.emdns.uk"
 	],
 	"tags": [
 		"brand",

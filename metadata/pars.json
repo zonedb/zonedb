@@ -4,13 +4,17 @@
 	"infoURL": "http://nic.pars/",
 	"whoisServer": "whois.nic.pars",
 	"rdapURLs": [
-		"https://api.rdap.nic.pars/"
+		"https://rdap.nominet.uk/pars/"
 	],
 	"nameServers": [
-		"a.ns.nic.pars",
-		"b.ns.nic.pars",
-		"ns1.anycastdns.cz",
-		"ns2.anycastdns.cz"
+		"dns1.emdns.uk",
+		"dns2.emdns.uk",
+		"dns3.emdns.uk",
+		"dns4.emdns.uk",
+		"dnsa.emdns.uk",
+		"dnsb.emdns.uk",
+		"dnsc.emdns.uk",
+		"dnsd.emdns.uk"
 	],
 	"locations": [
 		"Iran"

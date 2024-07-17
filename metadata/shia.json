@@ -4,13 +4,17 @@
 	"infoURL": "http://nic.shia/",
 	"whoisServer": "whois.nic.shia",
 	"rdapURLs": [
-		"https://api.rdap.nic.shia/"
+		"https://rdap.nominet.uk/shia/"
 	],
 	"nameServers": [
-		"a.ns.nic.shia",
-		"b.ns.nic.shia",
-		"ns1.anycastdns.cz",
-		"ns2.anycastdns.cz"
+		"dns1.emdns.uk",
+		"dns2.emdns.uk",
+		"dns3.emdns.uk",
+		"dns4.emdns.uk",
+		"dnsa.emdns.uk",
+		"dnsb.emdns.uk",
+		"dnsc.emdns.uk",
+		"dnsd.emdns.uk"
 	],
 	"locations": [
 		"Iran"

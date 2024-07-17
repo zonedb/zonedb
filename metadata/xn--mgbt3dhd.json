@@ -4,13 +4,17 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--mgbt3dhd",
 	"whoisServer": "whois.nic.همراه",
 	"rdapURLs": [
-		"https://api.rdap.nic.همراه/"
+		"https://rdap.nominet.uk/xn--mgbt3dhd/"
 	],
 	"nameServers": [
-		"a.ns.nic.همراه",
-		"b.ns.nic.همراه",
-		"ns1.anycastdns.cz",
-		"ns2.anycastdns.cz"
+		"dns1.emdns.uk",
+		"dns2.emdns.uk",
+		"dns3.emdns.uk",
+		"dns4.emdns.uk",
+		"dnsa.emdns.uk",
+		"dnsb.emdns.uk",
+		"dnsc.emdns.uk",
+		"dnsd.emdns.uk"
 	],
 	"locations": [
 		"Iran"
