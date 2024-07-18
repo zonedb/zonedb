@@ -1,6 +1,9 @@
 {
 	"domain": "gy",
 	"whoisServer": "whois.registry.gy",
+	"rdapURLs": [
+		"https://rdap.registry.gy/"
+	],
 	"nameServers": [
 		"a.lactld.org",
 		"gy-ns.anycast.pch.net"
