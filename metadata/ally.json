@@ -4,7 +4,7 @@
 	"infoURL": "https://www.ally.com/learn/nic/",
 	"whoisServer": "whois.nic.ally",
 	"rdapURLs": [
-		"http://rdap.nic.ally/"
+		"https://rdap.nic.ally/"
 	],
 	"nameServers": [
 		"a.nic.ally",

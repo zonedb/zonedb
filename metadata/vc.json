@@ -1,6 +1,6 @@
 {
 	"domain": "vc",
-	"whoisServer": "whois2.afilias-grs.net",
+	"whoisServer": "whois.identitydigital.services",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

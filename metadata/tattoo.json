@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.tattoo/",
 	"whoisServer": "whois.nic.tattoo",
 	"rdapURLs": [
-		"http://rdap.nic.tattoo/"
+		"https://rdap.nic.tattoo/"
 	],
 	"nameServers": [
 		"a.nic.tattoo",
