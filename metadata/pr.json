@@ -1,7 +1,7 @@
 {
 	"domain": "pr",
 	"infoURL": "https://domains.pr/",
-	"whoisServer": "whois.afilias-srs.net",
+	"whoisServer": "whois.nic.pr",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

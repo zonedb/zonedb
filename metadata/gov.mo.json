@@ -5,7 +5,9 @@
 		"ns2.gov.mo",
 		"ns3.gov.mo",
 		"ns4.gov.mo",
-		"ns5.gov.mo"
+		"ns5.gov.mo",
+		"pns1.zdnscloud.net",
+		"pns2.zdnscloud.biz"
 	],
 	"policies": [
 		{
