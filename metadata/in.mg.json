@@ -1,7 +1,7 @@
 {
 	"domain": "in.mg",
 	"nameServers": [
-		"ns1.in.mg",
-		"ns2.in.mg"
+		"ns1.eftydns.com",
+		"ns2.eftydns.com"
 	]
 }
