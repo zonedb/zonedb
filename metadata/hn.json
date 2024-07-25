@@ -1,6 +1,9 @@
 {
 	"domain": "hn",
 	"whoisServer": "whois.nic.hn",
+	"rdapURLs": [
+		"https://rdap.nic.hn/"
+	],
 	"nameServers": [
 		"a.lactld.org",
 		"ns1.anycastdns.cz",
