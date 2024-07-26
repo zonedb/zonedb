@@ -1,12 +1,12 @@
 {
 	"domain": "k12.tr",
 	"nameServers": [
-		"lns41.nic.tr",
-		"lns42.nic.tr",
-		"lns61.nic.tr",
-		"lns71.nic.tr",
-		"lns72.nic.tr",
-		"lns73.nic.tr",
-		"lns74.nic.tr"
+		"ns41.ns.tr",
+		"ns42.ns.tr",
+		"ns61.ns.tr",
+		"ns71.ns.tr",
+		"ns72.ns.tr",
+		"ns73.ns.tr",
+		"ns74.ns.tr"
 	]
 }

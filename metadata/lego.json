@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.lego/",
 	"whoisServer": "whois.nic.lego",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/lego/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.lego",

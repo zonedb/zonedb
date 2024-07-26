@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.rwe/",
 	"whoisServer": "whois.nic.rwe",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/rwe/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.rwe",
