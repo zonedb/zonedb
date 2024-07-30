@@ -2,6 +2,9 @@
 	"domain": "ke",
 	"infoURL": "https://kenic.or.ke/",
 	"whoisServer": "whois.kenic.or.ke",
+	"rdapURLs": [
+		"https://rdap.kenic.or.ke/"
+	],
 	"nameServers": [
 		"kenic.anycastdns.cz",
 		"mzizi.kenic.or.ke",
