@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/aarp/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a.nic.aarp",
+		"b.nic.aarp",
+		"c.nic.aarp",
+		"x.nic.aarp",
+		"y.nic.aarp",
+		"z.nic.aarp"
 	],
 	"languages": [
 		"az",

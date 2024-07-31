@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/amfam/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a.nic.amfam",
+		"b.nic.amfam",
+		"c.nic.amfam",
+		"x.nic.amfam",
+		"y.nic.amfam",
+		"z.nic.amfam"
 	],
 	"languages": [
 		"az",

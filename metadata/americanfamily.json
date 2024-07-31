@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/americanfamily/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a.nic.americanfamily",
+		"b.nic.americanfamily",
+		"c.nic.americanfamily",
+		"x.nic.americanfamily",
+		"y.nic.americanfamily",
+		"z.nic.americanfamily"
 	],
 	"languages": [
 		"az",
