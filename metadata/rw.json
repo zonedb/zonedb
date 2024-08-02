@@ -2,6 +2,9 @@
 	"domain": "rw",
 	"infoURL": "https://ricta.org.rw/",
 	"whoisServer": "whois.ricta.org.rw",
+	"rdapURLs": [
+		"https://rdap.ricta.org.rw/"
+	],
 	"nameServers": [
 		"ans.dnsstudy.africa",
 		"fork.sth.dnsnode.net",
