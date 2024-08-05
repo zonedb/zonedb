@@ -1,8 +1,6 @@
 {
 	"domain": "net.ye",
 	"nameServers": [
-		"ns2.yemen.net.ye",
-		"sah2.ye",
 		"tld1.ye",
 		"tld2.ye",
 		"tld3.ye"
