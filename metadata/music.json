@@ -7,10 +7,6 @@
 		"http://rdap.centralnic.com/music/"
 	],
 	"nameServers": [
-		"a.nic.music",
-		"b.nic.music",
-		"c.nic.music",
-		"d.nic.music",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.info",
 		"ns01.trs-dns.net",
