@@ -1,17 +1,5 @@
 {
 	"domain": "info.ni",
-	"nameServers": [
-		"dns-ext.nic.cr",
-		"ns.ideay.net.ni",
-		"ns.ni",
-		"ns.uu.net",
-		"ns2.ni",
-		"ns3.ni"
-	],
-	"wildcards": [
-		"72.5.65.111",
-		"sinkhole.paloaltonetworks.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
