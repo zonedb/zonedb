@@ -2,7 +2,6 @@
 	"domain": "com.lb",
 	"nameServers": [
 		"b.ns.lb",
-		"m.ns.lb",
 		"n.ns.lb",
 		"nabil.ns.lb",
 		"r.ns.lb",
