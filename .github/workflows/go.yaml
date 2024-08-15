@@ -31,12 +31,12 @@ jobs:
           # check-latest: true # not needed when using 'stable'
 
       - name: Run Go tests
-        run: go test -v -bench . ./...
+        run: go test -bench . ./...
 
       - name: Run Go tests with race detector
         env:
           CGO_ENABLED: '1'
-        run: go test -v -race ./...
+        run: go test -race ./...
 
       - name: Vet Go code
         run: go vet ./...
@@ -87,13 +87,13 @@ jobs:
       - name: Test with TinyGo
         # This only tests the apex package, not ./internal/build
         # due to TinyGo support for net.UDPConn and net.IPConn
-        run: tinygo test -v -bench . ./
+        run: tinygo test -bench . ./
 
       - name: Test WebAssembly with Go + Wasmtime
         env:
           GOOS: wasip1
           GOARCH: wasm
-        run: go test -v ./...
+        run: go test ./...
 
       - name: Test WebAssembly with TinyGo + Wasmtime
         # This only tests the apex package, not ./internal/build
@@ -101,7 +101,7 @@ jobs:
         env:
           GOOS: wasip1
           GOARCH: wasm
-        run: tinygo test -v ./
+        run: tinygo test ./
 
       - name: Verify repo is unchanged
         run: git diff --exit-code HEAD
