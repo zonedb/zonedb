@@ -69,7 +69,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5.0.2
         with:
-          go-version: 'stable'
+          go-version: 'oldstable' # TinyGo doesn't immediately release support for new major Go versions
 
       - name: Set up TinyGo
         uses: acifani/setup-tinygo@v2.0.0
