@@ -1,7 +1,8 @@
 {
 	"domain": "us.tt",
 	"nameServers": [
-		"null.tt"
+		"ns1.us.tt",
+		"ns2.us.tt"
 	],
 	"policies": [
 		{
