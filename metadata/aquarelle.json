@@ -7,9 +7,10 @@
 		"https://rdap.nic.aquarelle/"
 	],
 	"nameServers": [
-		"d.nic.fr",
-		"f.ext.nic.fr",
-		"g.ext.nic.fr"
+		"a.nic.aquarelle",
+		"b.nic.aquarelle",
+		"c.nic.aquarelle",
+		"d.nic.aquarelle"
 	],
 	"languages": [
 		"mul-Latn"

@@ -4,7 +4,7 @@
 	"infoURL": "https://www.aarp.org/everywhere/aarp-nic/",
 	"whoisServer": "whois.nic.aarp",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/aarp/v1/"
+		"https://rdap.nic.aarp/"
 	],
 	"nameServers": [
 		"a.nic.aarp",
