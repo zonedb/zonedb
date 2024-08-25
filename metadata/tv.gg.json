@@ -1,5 +1,9 @@
 {
 	"domain": "tv.gg",
+	"nameServers": [
+		"ns1.change-me.now",
+		"ns2.change-me.now"
+	],
 	"tags": [
 		"private"
 	]

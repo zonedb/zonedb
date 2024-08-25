@@ -4,7 +4,7 @@
 	"infoURL": "https://www.amfam.com/nic-amfam",
 	"whoisServer": "whois.nic.amfam",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/amfam/v1/"
+		"https://rdap.nic.amfam/"
 	],
 	"nameServers": [
 		"a.nic.amfam",
