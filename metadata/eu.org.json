@@ -2,7 +2,6 @@
 	"domain": "eu.org",
 	"whoisServer": "whois.eu.org",
 	"nameServers": [
-		"dns.elm.net",
 		"gra.wolfhugel.eu",
 		"hobbes.bsd-dk.dk",
 		"ns.bortzmeyer.eu.org",
