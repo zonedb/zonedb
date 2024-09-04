@@ -5,6 +5,10 @@
 		"ns2.us.tt",
 		"ns3.us.tt"
 	],
+	"wildcards": [
+		"2607:5300:205:200::579b",
+		"51.79.64.166"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
