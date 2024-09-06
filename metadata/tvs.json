@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.tvs/",
 	"whoisServer": "whois.nic.tvs",
 	"rdapURLs": [
-		"https://rdap.afilias-srs.net/rdap/tvs/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.tvs",
