@@ -10,7 +10,11 @@
 		"a.nic.pid",
 		"b.nic.pid",
 		"c.nic.pid",
-		"d.nic.pid"
+		"d.nic.pid",
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.info",
+		"ns01.trs-dns.net",
+		"ns01.trs-dns.org"
 	],
 	"languages": [
 		"ar"
