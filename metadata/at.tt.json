@@ -4,9 +4,6 @@
 		"ns1.viennaweb.at",
 		"ns2.viennaweb.at"
 	],
-	"wildcards": [
-		"195.225.236.206"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
