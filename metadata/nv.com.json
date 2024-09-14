@@ -6,6 +6,11 @@
 		"c.root-servers.nv.com",
 		"d.root-servers.nv.com"
 	],
+	"wildcards": [
+		"199.59.243.226",
+		"50902.bodis.com",
+		"hosting.gi.net"
+	],
 	"tags": [
 		"private"
 	],
