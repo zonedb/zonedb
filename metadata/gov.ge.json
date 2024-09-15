@@ -1,8 +1,8 @@
 {
 	"domain": "gov.ge",
 	"nameServers": [
-		"ns01.gov.ge",
-		"ns02.gov.ge"
+		"a-root-ns.gov.ge",
+		"b-root-ns.gov.ge"
 	],
 	"policies": [
 		{
