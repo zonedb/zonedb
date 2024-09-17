@@ -1,8 +1,12 @@
 {
 	"domain": "info.fo",
 	"nameServers": [
-		"gwen.ns.cloudflare.com",
-		"kaiser.ns.cloudflare.com"
+		"ns1.dyna-ns.net",
+		"ns2.dyna-ns.net"
+	],
+	"wildcards": [
+		"199.59.243.226",
+		"7450.bodis.com"
 	],
 	"policies": [
 		{

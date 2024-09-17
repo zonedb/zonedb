@@ -1,6 +1,10 @@
 {
 	"domain": "ad",
 	"infoURL": "https://www.iana.org/domains/root/db/ad.html",
+	"whoisServer": "whois.nic.ad",
+	"rdapURLs": [
+		"https://rdap.nic.ad/"
+	],
 	"nameServers": [
 		"ad.ns.nic.es",
 		"anycast23.irondns.net",
