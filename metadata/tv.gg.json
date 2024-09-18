@@ -1,8 +1,13 @@
 {
 	"domain": "tv.gg",
 	"nameServers": [
-		"ns1.change-me.now",
-		"ns2.change-me.now"
+		"ns1.dan.com",
+		"ns2.dan.com",
+		"verification-na0vos8e.ns3.dan.hosting"
+	],
+	"wildcards": [
+		"13.248.252.114",
+		"99.83.138.213"
 	],
 	"tags": [
 		"private"
