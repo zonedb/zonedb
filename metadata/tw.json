@@ -1,6 +1,6 @@
 {
 	"domain": "tw",
-	"whoisServer": "whois.twnic.net.tw",
+	"whoisServer": "whois.twnic.net",
 	"nameServers": [
 		"a.dns.tw",
 		"anytld.apnic.net",
