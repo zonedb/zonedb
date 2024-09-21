@@ -1,11 +1,5 @@
 {
 	"domain": "gov.ir",
-	"nameServers": [
-		"a.nic.ir",
-		"b.nic.ir",
-		"c.nic.ir",
-		"d.nic.ir"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
