@@ -1,8 +1,8 @@
 {
 	"domain": "qb.com",
 	"nameServers": [
-		"dns1.registrar-servers.com",
-		"dns2.registrar-servers.com"
+		"ns1.sedoparking.com",
+		"ns2.sedoparking.com"
 	],
 	"tags": [
 		"private"
