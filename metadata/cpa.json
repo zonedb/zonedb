@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.cpa/",
 	"whoisServer": "whois.nic.cpa",
 	"rdapURLs": [
-		"http://rdap.nic.cpa/"
+		"https://rdap.nic.cpa/"
 	],
 	"nameServers": [
 		"a.nic.cpa",
