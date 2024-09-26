@@ -6,15 +6,10 @@
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
-	"nameServers": [
-		"a0.nic.dabur",
-		"a2.nic.dabur",
-		"b0.nic.dabur",
-		"c0.nic.dabur"
-	],
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{
