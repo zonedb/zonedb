@@ -1843,6 +1843,7 @@ ipv4only.arpa
 iris.arpa
 ns.arpa
 resolver.arpa
+service.arpa
 uri.arpa
 urn.arpa
 ac.at

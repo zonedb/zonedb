@@ -1,0 +1,13 @@
+{
+	"domain": "service.arpa",
+	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/draft-dnssd-srp-25",
+	"nameServers": [
+		"blackhole-1.iana.org",
+		"blackhole-2.iana.org"
+	],
+	"tags": [
+		"closed",
+		"infrastructure"
+	]
+}
