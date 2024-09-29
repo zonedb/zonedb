@@ -4,6 +4,10 @@
 		"ns1.nic.cm",
 		"ns2.nic.cm"
 	],
+	"wildcards": [
+		"208.91.112.55",
+		"2620:101:9000:53::55"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
