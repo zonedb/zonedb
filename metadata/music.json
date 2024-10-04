@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.music/",
 	"whoisServer": "whois.nic.music",
 	"rdapURLs": [
-		"http://rdap.centralnic.com/music/"
+		"https://rdap.registryservices.music/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",
