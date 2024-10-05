@@ -7,14 +7,16 @@
 		"https://nic.samsung:8443/rdap/"
 	],
 	"nameServers": [
+		"n1-a1.aka-ns.net",
+		"n1-a13.aka-ns.net",
+		"n1-a20.aka-ns.net",
+		"n1-a26.aka-ns.net",
+		"n1-a4.aka-ns.net",
+		"n1-a7.aka-ns.net",
 		"ns1.samsung.centralnic-dns.com",
 		"ns2.samsung.centralnic-dns.com",
 		"ns3.samsung.centralnic-dns.com",
-		"ns4.samsung.centralnic-dns.com",
-		"tld01.akam.net",
-		"tld02.akam.net",
-		"tld03.akam.net",
-		"tld04.akam.net"
+		"ns4.samsung.centralnic-dns.com"
 	],
 	"languages": [
 		"ko"

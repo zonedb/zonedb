@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/shell/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
 		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"ac4.nstld.com",
+		"dns1.nic.shell",
+		"dns2.nic.shell",
+		"dns3.nic.shell",
+		"dns4.nic.shell"
 	],
 	"languages": [
 		"az",

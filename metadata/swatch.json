@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/swatch/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
 		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"ac4.nstld.com",
+		"dns1.nic.swatch",
+		"dns2.nic.swatch",
+		"dns3.nic.swatch",
+		"dns4.nic.swatch"
 	],
 	"languages": [
 		"az",
