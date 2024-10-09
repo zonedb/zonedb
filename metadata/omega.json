@@ -7,12 +7,14 @@
 		"https://tld-rdap.verisign.com/omega/v1/"
 	],
 	"nameServers": [
-		"ac3.nstld.com",
-		"ac4.nstld.com",
 		"dns1.nic.omega",
 		"dns2.nic.omega",
 		"dns3.nic.omega",
-		"dns4.nic.omega"
+		"dns4.nic.omega",
+		"dnsa.nic.omega",
+		"dnsb.nic.omega",
+		"dnsc.nic.omega",
+		"dnsd.nic.omega"
 	],
 	"languages": [
 		"az",
