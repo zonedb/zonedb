@@ -1,13 +1,8 @@
 {
 	"domain": "tv.gg",
 	"nameServers": [
-		"ns1.dan.com",
-		"ns2.dan.com",
-		"verification-na0vos8e.ns3.dan.hosting"
-	],
-	"wildcards": [
-		"13.248.252.114",
-		"99.83.138.213"
+		"ns1.dyna-ns.net",
+		"ns2.dyna-ns.net"
 	],
 	"tags": [
 		"private"
