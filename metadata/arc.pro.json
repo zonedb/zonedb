@@ -1,9 +1,5 @@
 {
 	"domain": "arc.pro",
-	"nameServers": [
-		"ns46.phtco.com",
-		"ns47.phtco.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
