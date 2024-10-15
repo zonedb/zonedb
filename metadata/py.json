@@ -8,6 +8,9 @@
 		"p.dns.py",
 		"u.dns.py"
 	],
+	"languages": [
+		"gn"
+	],
 	"tags": [
 		"closed",
 		"country",
@@ -15,7 +18,9 @@
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "gn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/py_gn_1.xml"
 		}
 	]
 }
