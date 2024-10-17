@@ -1,6 +1,9 @@
 {
 	"domain": "na",
 	"whoisServer": "whois.na-nic.com.na",
+	"rdapURLs": [
+		"https://keetmans.omadhina.co.na/"
+	],
 	"nameServers": [
 		"anyc2.irondns.net",
 		"etld-1.anycast.net",

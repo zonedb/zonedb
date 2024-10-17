@@ -7,10 +7,6 @@
 		"ns1.palgov.net",
 		"ns2.palgov.net"
 	],
-	"wildcards": [
-		"72.5.65.111",
-		"sinkhole.paloaltonetworks.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
