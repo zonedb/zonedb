@@ -1,17 +1,18 @@
 {
 	"domain": "gouv.rw",
 	"nameServers": [
-		"a.name-servers.ch",
-		"b.name-servers.ch"
+		"0.rw.gouv.name-servers.ch",
+		"1.rw.gouv.name-servers.ch",
+		"2.rw.gouv.name-servers.ch",
+		"3.rw.gouv.name-servers.ch",
+		"4.rw.gouv.name-servers.ch"
 	],
 	"wildcards": [
 		"104.194.8.11",
-		"172.96.172.79",
-		"204.209.56.243",
+		"204.209.56.147",
+		"204.209.56.232",
 		"206.168.190.199",
-		"216.244.81.67",
-		"45.135.163.187",
-		"66.187.75.46"
+		"45.135.163.186"
 	],
 	"policies": [
 		{

@@ -3904,7 +3904,7 @@ func i2519() {
 func i2527() {
 	z[2528] = Zone{"com.ge", &z[551], x, 0, e, e, w{"ns.nic.ge", "ns1.nic-ge.com", "ns2.nic-ge.com", "ns2.nic.ge"}, n, n, n, e, e, n, f}
 	z[2529] = Zone{"edu.ge", &z[551], x, 0, e, e, w{"ns.nic.ge", "ns1.nic-ge.com", "ns2.nic-ge.com", "ns2.nic.ge"}, n, n, n, e, e, n, f}
-	z[2530] = Zone{"gov.ge", &z[551], x, 0, e, e, w{"a-root-ns.gov.ge", "b-root-ns.gov.ge"}, n, n, n, e, e, n, f}
+	z[2530] = Zone{"gov.ge", &z[551], x, 0, e, e, w{"a-root-ns.gov.ge", "b-root-ns.gov.ge", "c-root-ns.gov.ge", "d-root-ns.gov.ge"}, n, n, n, e, e, n, f}
 	z[2531] = Zone{"mil.ge", &z[551], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[2532] = Zone{"net.ge", &z[551], x, 0, e, e, w{"ns.nic.ge", "ns1.nic-ge.com", "ns2.nic-ge.com", "ns2.nic.ge"}, n, n, n, e, e, n, f}
 	z[2533] = Zone{"org.ge", &z[551], x, 0, e, e, w{"ns.nic.ge", "ns1.nic-ge.com", "ns2.nic-ge.com", "ns2.nic.ge"}, n, n, n, e, e, n, f}
@@ -5024,7 +5024,7 @@ func i3271() {
 	z[3275] = Zone{"biz.ki", &z[765], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[3276] = Zone{"com.ki", &z[765], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[3277] = Zone{"edu.ki", &z[765], x, 0, e, e, n, n, n, n, e, e, n, f}
-	z[3278] = Zone{"eu.ki", &z[765], x, 0x200, e, e, w{"ns1.subdomain.net", "ns2.subdomain.net"}, w{"95.217.58.108", "eu.ki"}, n, n, e, e, n, t}
+	z[3278] = Zone{"eu.ki", &z[765], x, 0x200, e, e, w{"ns1.subdomain.net", "ns2.subdomain.net"}, n, n, n, e, e, n, t}
 	z[3279] = Zone{"gov.ki", &z[765], x, 0, e, e, n, n, n, n, e, e, n, f}
 }
 
@@ -5349,13 +5349,13 @@ func i3487() {
 	z[3492] = Zone{"ac.mu", &z[964], x, 0, e, e, w{"anycast1.irondns.net", "fork.sth.dnsnode.net", "mu1.dyntld.net", "mu2.dyntld.net", "mu3.dyntld.net", "mu4.dyntld.net", "udns1.tld.mu", "udns2.tld.mu"}, n, n, n, e, e, n, f}
 	z[3493] = Zone{"co.mu", &z[964], x, 0, e, e, w{"anycast1.irondns.net", "fork.sth.dnsnode.net", "mu1.dyntld.net", "mu2.dyntld.net", "mu3.dyntld.net", "mu4.dyntld.net", "udns1.tld.mu", "udns2.tld.mu"}, n, n, n, e, e, n, t}
 	z[3494] = Zone{"com.mu", &z[964], x, 0, e, e, w{"anycast1.irondns.net", "fork.sth.dnsnode.net", "mu1.dyntld.net", "mu2.dyntld.net", "mu3.dyntld.net", "mu4.dyntld.net", "udns1.tld.mu", "udns2.tld.mu"}, n, n, n, e, e, n, f}
-	z[3495] = Zone{"gov.mu", &z[964], x, 0, e, e, w{"ns0.gov.mu", "ns1.gov.mu", "ns2.gov.mu", "ns3.gov.mu", "ns4.gov.mu"}, n, n, n, e, e, n, f}
+	z[3495] = Zone{"gov.mu", &z[964], x, 0, e, e, w{"ns0.gov.mu", "ns1.gov.mu", "ns2.gov.mu", "ns3.gov.mu", "ns4.gov.mu"}, w{"127.0.0.1", "::1"}, n, n, e, e, n, f}
 }
 
 //go:noinline
 func i3495() {
 	z[3496] = Zone{"net.mu", &z[964], x, 0, e, e, w{"anycast1.irondns.net", "fork.sth.dnsnode.net", "mu1.dyntld.net", "mu2.dyntld.net", "mu3.dyntld.net", "mu4.dyntld.net", "udns1.tld.mu", "udns2.tld.mu"}, n, n, n, e, e, n, f}
-	z[3497] = Zone{"nom.mu", &z[964], x, 0, e, e, w{"ns1.mu-dns.net", "ns2.mu-dns.net"}, w{"172.96.172.79", "204.209.56.107", "204.209.56.132", "204.209.56.237", "206.168.190.199", "216.244.81.68", "66.187.75.46"}, n, n, e, e, n, f}
+	z[3497] = Zone{"nom.mu", &z[964], x, 0, e, e, w{"ns1.mu-dns.net", "ns2.mu-dns.net"}, w{"104.194.8.11", "142.54.186.125", "172.96.172.79", "204.209.56.130", "216.244.81.66", "45.135.163.187", "45.135.163.188", "66.187.75.46"}, n, n, e, e, n, f}
 	z[3498] = Zone{"or.mu", &z[964], x, 0, e, e, w{"anycast1.irondns.net", "fork.sth.dnsnode.net", "mu1.dyntld.net", "mu2.dyntld.net", "mu3.dyntld.net", "mu4.dyntld.net", "udns1.tld.mu", "udns2.tld.mu"}, n, n, n, e, e, n, f}
 	z[3499] = Zone{"org.mu", &z[964], x, 0, e, e, w{"anycast1.irondns.net", "fork.sth.dnsnode.net", "mu1.dyntld.net", "mu2.dyntld.net", "mu3.dyntld.net", "mu4.dyntld.net", "udns1.tld.mu", "udns2.tld.mu"}, n, n, n, e, e, n, f}
 	z[3500] = Zone{"aero.mv", &z[971], x, 0, e, "http://www.brunet.bn/products_webrelated_domain_main.htm", w{"mv-ns.anycast.pch.net", "ns-cache01.dhivehinet.net.mv", "ns.aero.mv", "ns2.dhivehinet.net.mv"}, n, n, n, e, e, n, f}
@@ -6494,7 +6494,7 @@ func i4247() {
 
 //go:noinline
 func i4255() {
-	z[4256] = Zone{"gouv.rw", &z[1204], x, 0, e, e, w{"a.name-servers.ch", "b.name-servers.ch"}, w{"104.194.8.11", "172.96.172.79", "204.209.56.243", "206.168.190.199", "216.244.81.67", "45.135.163.187", "66.187.75.46"}, n, n, e, e, n, f}
+	z[4256] = Zone{"gouv.rw", &z[1204], x, 0, e, e, w{"0.rw.gouv.name-servers.ch", "1.rw.gouv.name-servers.ch", "2.rw.gouv.name-servers.ch", "3.rw.gouv.name-servers.ch", "4.rw.gouv.name-servers.ch"}, w{"104.194.8.11", "204.209.56.147", "204.209.56.232", "206.168.190.199", "45.135.163.186"}, n, n, e, e, n, f}
 	z[4257] = Zone{"gov.rw", &z[1204], x, 0, e, e, w{"ns1.rdb.rw", "ns2.aos.rw", "ns3.aos.rw"}, n, n, n, e, e, n, f}
 	z[4258] = Zone{"int.rw", &z[1204], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[4259] = Zone{"mil.rw", &z[1204], x, 0, e, e, n, n, n, n, e, e, n, f}
