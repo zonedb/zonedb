@@ -1,8 +1,11 @@
 {
 	"domain": "tv.gg",
 	"nameServers": [
-		"ns1.dyna-ns.net",
-		"ns2.dyna-ns.net"
+		"sl1.sedo.com",
+		"sl2.sedo.com"
+	],
+	"wildcards": [
+		"91.195.241.232"
 	],
 	"tags": [
 		"private"
