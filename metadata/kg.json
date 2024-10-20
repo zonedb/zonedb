@@ -1,6 +1,6 @@
 {
 	"domain": "kg",
-	"whoisServer": "whois.kg",
+	"whoisServer": "whois.domain.kg",
 	"rdapURLs": [
 		"http://rdap.cctld.kg/"
 	],
