@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/diy",
 	"whoisServer": "whois.nic.diy",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/diy/v1/"
+		"https://rdap.nic.diy/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",

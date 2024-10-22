@@ -3,7 +3,7 @@
 	"registryOperator": "Internet Naming Company LLC",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/living",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/living/v1/"
+		"https://rdap.nic.living/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",

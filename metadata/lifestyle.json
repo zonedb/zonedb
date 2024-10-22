@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/lifestyle",
 	"whoisServer": "whois.nic.lifestyle",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/lifestyle/v1/"
+		"https://rdap.nic.lifestyle/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",

@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/food",
 	"whoisServer": "whois.nic.food",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/food/v1/"
+		"https://rdap.nic.food/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",
