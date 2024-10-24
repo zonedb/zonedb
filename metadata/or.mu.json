@@ -2,11 +2,13 @@
 	"domain": "or.mu",
 	"nameServers": [
 		"anycast1.irondns.net",
+		"fork.sth.dnsnode.net",
 		"mu1.dyntld.net",
 		"mu2.dyntld.net",
 		"mu3.dyntld.net",
 		"mu4.dyntld.net",
-		"udns1.tld.mu"
+		"udns1.tld.mu",
+		"udns2.tld.mu"
 	],
 	"policies": [
 		{

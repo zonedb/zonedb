@@ -1,6 +1,6 @@
 {
 	"domain": "li",
-	"whoisServer": "whois.nic.ch",
+	"whoisServer": "whois.nic.li",
 	"rdapURLs": [
 		"https://rdap.nic.li/"
 	],

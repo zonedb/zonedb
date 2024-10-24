@@ -2,7 +2,6 @@
 	"domain": "gov.ar",
 	"nameServers": [
 		"a.lactld.org",
-		"ar.cctld.authdns.ripe.net",
 		"c.dns.ar",
 		"d.dns.ar",
 		"e.dns.ar",
