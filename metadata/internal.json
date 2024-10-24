@@ -1,0 +1,9 @@
+{
+	"domain": "internal",
+	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/draft-davies-internal-tld-01",
+	"tags": [
+		"closed",
+		"special"
+	]
+}

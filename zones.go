@@ -1168,7 +1168,7 @@ func i695() {
 func i703() {
 	z[704] = Zone{"int", r, z[2750:2751], 0x4040, e, e, w{"ns.uu.net", "ns0.ja.net", "sec2.authdns.ripe.net", "x.iana-servers.net", "y.iana-servers.net", "z.iana-servers.net"}, n, n, n, "whois.iana.org", e, w{"https://rdap.iana.org/"}, f}
 	z[705] = Zone{"intel", r, x, 0x1042, e, e, n, n, n, n, "whois.nic.intel", e, n, f}
-	z[706] = Zone{"internal", r, x, 0, e, e, n, n, n, n, e, e, n, t}
+	z[706] = Zone{"internal", r, x, 0x2008, "IANA", "https://datatracker.ietf.org/doc/draft-davies-internal-tld-01", n, n, n, n, e, e, n, t}
 	z[707] = Zone{"international", r, x, 0x40, "Binky Moon, LLC", e, w{"v0n0.nic.international", "v0n1.nic.international", "v0n2.nic.international", "v0n3.nic.international", "v2n0.nic.international", "v2n1.nic.international"}, n, n, w{"de", "es", "fr", "ja", "ko", "mul-Arab", "mul-Cyrl", "mul-Deva", "mul-Grek", "mul-Hebr", "mul-Latn", "mul-Taml", "mul-Thai", "zh"}, "whois.nic.international", e, w{"https://rdap.identitydigital.services/rdap/"}, t}
 	z[708] = Zone{"intuit", r, x, 0x42, "Intuit Administrative Services, Inc.", "http://www.nic.intuit/", w{"a.nic.intuit", "b.nic.intuit", "c.nic.intuit", "ns4.dns.nic.intuit", "ns5.dns.nic.intuit", "ns6.dns.nic.intuit"}, n, n, w{"da", "de", "es", "fi", "hu", "is", "ja", "ko", "lt", "lv", "no", "pl", "pt", "ru", "sv", "zh"}, "whois.nic.intuit", e, w{"https://rdap.nic.intuit/"}, t}
 	z[709] = Zone{"invalid", r, x, 0x2008, "IANA", "https://datatracker.ietf.org/doc/rfc6761", n, n, n, n, e, e, n, t}
