@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.swatch/",
 	"whoisServer": "whois.nic.swatch",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/swatch/v1/"
+		"https://rdap.nominet.uk/swatch/"
 	],
 	"nameServers": [
 		"dns1.nic.swatch",

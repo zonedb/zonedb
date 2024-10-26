@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.omega/",
 	"whoisServer": "whois.nic.omega",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/omega/v1/"
+		"https://rdap.nominet.uk/omega/"
 	],
 	"nameServers": [
 		"dns1.nic.omega",

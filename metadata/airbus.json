@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/airbus/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"v0n0.nic.airbus",
+		"v0n1.nic.airbus",
+		"v0n2.nic.airbus",
+		"v0n3.nic.airbus",
+		"v2n0.nic.airbus",
+		"v2n1.nic.airbus"
 	],
 	"languages": [
 		"mul-Arab",
