@@ -2,7 +2,6 @@
 	"domain": "ps",
 	"whoisServer": "whois.pnina.ps",
 	"nameServers": [
-		"dns1.gov.ps",
 		"fork.sth.dnsnode.net",
 		"ns1.pnina.ps",
 		"ps-ns.anycast.pch.net",
