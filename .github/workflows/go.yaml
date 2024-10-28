@@ -20,7 +20,7 @@ jobs:
       CGO_ENABLED: 0
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4.2.1
+        uses: actions/checkout@v4.2.2
         with:
           submodules: recursive
 
@@ -62,7 +62,7 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4.2.1
+        uses: actions/checkout@v4.2.2
         with:
           submodules: recursive
 
@@ -114,7 +114,7 @@ jobs:
     needs: [test-go, test-tinygo-wasm]
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4.2.1
+        uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0 # Retrieve all commit history, so `git rev-list --count` works correctly
           submodules: recursive
