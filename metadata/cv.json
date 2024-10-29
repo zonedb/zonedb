@@ -7,8 +7,7 @@
 	"nameServers": [
 		"anyc.dnsnode.net",
 		"c.dns.pt",
-		"cv01.dns.pt",
-		"ns.dns.cv"
+		"cv01.dns.pt"
 	],
 	"tags": [
 		"country",
