@@ -4,7 +4,7 @@
 	"infoURL": "http://www.nic.feedback/",
 	"whoisServer": "whois.nic.feedback",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/feedback/"
+		"https://rdap.nic.feedback/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",

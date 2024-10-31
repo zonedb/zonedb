@@ -1,10 +1,5 @@
 {
 	"domain": "cyt.cu",
-	"nameServers": [
-		"mail1.tur.cu",
-		"mail2.tur.cu",
-		"ns1.tur.cu"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
