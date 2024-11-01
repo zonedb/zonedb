@@ -3,8 +3,7 @@
 	"whoisServer": "whois.nic.ht",
 	"nameServers": [
 		"a.lactld.org",
-		"ns-ht.nic.fr",
-		"pch.nic.ht"
+		"ns-ht.nic.fr"
 	],
 	"tags": [
 		"country",
