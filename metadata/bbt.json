@@ -6,12 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
-	"nameServers": [
-		"a0.nic.bbt",
-		"a2.nic.bbt",
-		"b0.nic.bbt",
-		"c0.nic.bbt"
-	],
 	"tags": [
 		"brand",
 		"generic"
