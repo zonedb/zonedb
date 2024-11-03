@@ -1,5 +1,10 @@
 {
 	"domain": "com.gl",
+	"nameServers": [
+		"d.nic.gl",
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
