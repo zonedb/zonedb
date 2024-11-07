@@ -7,10 +7,12 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.walmart",
-		"a2.nic.walmart",
-		"b0.nic.walmart",
-		"c0.nic.walmart"
+		"a.nic.walmart",
+		"b.nic.walmart",
+		"c.nic.walmart",
+		"x.nic.walmart",
+		"y.nic.walmart",
+		"z.nic.walmart"
 	],
 	"tags": [
 		"brand",

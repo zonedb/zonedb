@@ -7,10 +7,12 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.samsclub",
-		"a2.nic.samsclub",
-		"b0.nic.samsclub",
-		"c0.nic.samsclub"
+		"a.nic.samsclub",
+		"b.nic.samsclub",
+		"c.nic.samsclub",
+		"x.nic.samsclub",
+		"y.nic.samsclub",
+		"z.nic.samsclub"
 	],
 	"tags": [
 		"brand",

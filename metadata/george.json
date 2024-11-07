@@ -7,10 +7,12 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.george",
-		"a2.nic.george",
-		"b0.nic.george",
-		"c0.nic.george"
+		"a.nic.george",
+		"b.nic.george",
+		"c.nic.george",
+		"x.nic.george",
+		"y.nic.george",
+		"z.nic.george"
 	],
 	"tags": [
 		"brand",

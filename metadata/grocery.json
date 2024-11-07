@@ -7,10 +7,12 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.grocery",
-		"a2.nic.grocery",
-		"b0.nic.grocery",
-		"c0.nic.grocery"
+		"a.nic.grocery",
+		"b.nic.grocery",
+		"c.nic.grocery",
+		"x.nic.grocery",
+		"y.nic.grocery",
+		"z.nic.grocery"
 	],
 	"tags": [
 		"generic"
