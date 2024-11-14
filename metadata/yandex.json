@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.yandex/",
 	"whoisServer": "whois.nic.yandex",
 	"rdapURLs": [
-		"https://rdap.nic.yandex/"
+		"https://rdap.nic.yandex/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",
