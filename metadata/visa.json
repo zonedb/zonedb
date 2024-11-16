@@ -4,7 +4,7 @@
 	"infoURL": "https://usa.visa.com/legal/visa-nic.html",
 	"whoisServer": "whois.nic.visa",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/visa/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.visa",
