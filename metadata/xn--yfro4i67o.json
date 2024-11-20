@@ -2,7 +2,6 @@
 	"domain": "新加坡",
 	"whoisServer": "whois.zh.sgnic.sg",
 	"nameServers": [
-		"dsany.sgnic.sg",
 		"dsany2.sgnic.sg",
 		"dsany3.sgnic.sg",
 		"dsany4.sgnic.sg",

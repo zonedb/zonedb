@@ -2,7 +2,6 @@
 	"domain": "சிங்கப்பூர்",
 	"whoisServer": "whois.ta.sgnic.sg",
 	"nameServers": [
-		"dsany.sgnic.sg",
 		"dsany2.sgnic.sg",
 		"dsany3.sgnic.sg",
 		"dsany4.sgnic.sg",
