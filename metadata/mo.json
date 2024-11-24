@@ -2,6 +2,7 @@
 	"domain": "mo",
 	"whoisServer": "whois.monic.mo",
 	"nameServers": [
+		"a.monic.mo",
 		"b.monic.mo",
 		"c.monic.mo",
 		"d.monic.mo",

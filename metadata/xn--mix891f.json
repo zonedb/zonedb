@@ -2,6 +2,7 @@
 	"domain": "澳門",
 	"whoisServer": "whois.monic.mo",
 	"nameServers": [
+		"a.monic.mo",
 		"b.monic.mo",
 		"c.monic.mo",
 		"d.monic.mo",
