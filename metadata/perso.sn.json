@@ -1,8 +1,5 @@
 {
 	"domain": "perso.sn",
-	"nameServers": [
-		"ns1.hellomouse.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -8,11 +8,7 @@
 	],
 	"nameServers": [
 		"a.nic.baseball",
-		"b.nic.baseball",
-		"c.nic.baseball",
-		"ns1.dns.nic.baseball",
-		"ns2.dns.nic.baseball",
-		"ns3.dns.nic.baseball"
+		"b.nic.baseball"
 	],
 	"languages": [
 		"es"
