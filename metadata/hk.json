@@ -1,6 +1,6 @@
 {
 	"domain": "hk",
-	"whoisServer": "whois.hkdnr.net.hk",
+	"whoisServer": "whois.hkirc.hk",
 	"nameServers": [
 		"c.hkirc.net.hk",
 		"d.hkirc.net.hk",
