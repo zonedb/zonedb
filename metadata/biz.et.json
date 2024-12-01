@@ -1,5 +1,9 @@
 {
 	"domain": "biz.et",
+	"nameServers": [
+		"a.nic.et",
+		"b.nic.et"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
