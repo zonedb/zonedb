@@ -6,8 +6,5 @@
 		"ns3.dp47.parklogic.com",
 		"ns4.dp47.parklogic.com",
 		"ns5.dp47.parklogic.com"
-	],
-	"wildcards": [
-		"69.16.231.56"
 	]
 }
