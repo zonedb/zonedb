@@ -5,10 +5,8 @@
 		"a.nic.va",
 		"b.nic.va",
 		"c.nic.va",
-		"dns.nic.it",
 		"osiris.namex.it",
-		"seth.namex.it",
-		"va.cctld.authdns.ripe.net"
+		"seth.namex.it"
 	],
 	"tags": [
 		"country",
