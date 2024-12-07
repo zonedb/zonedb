@@ -1,9 +1,5 @@
 {
 	"domain": "name.uz",
-	"nameServers": [
-		"ns1.billur.com",
-		"ns2.billur.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -1,9 +1,5 @@
 {
 	"domain": "ac.uz",
-	"nameServers": [
-		"p3.dc.uz",
-		"p4.dc.uz"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
