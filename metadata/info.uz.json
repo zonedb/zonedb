@@ -1,5 +1,9 @@
 {
 	"domain": "info.uz",
+	"nameServers": [
+		"ns.ol.uz",
+		"ns.tshtt.uz"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

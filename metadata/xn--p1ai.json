@@ -1,7 +1,7 @@
 {
 	"domain": "рф",
 	"infoURL": "https://www.iana.org/domains/root/db/xn--p1ai.html",
-	"whoisServer": "whois.ripn.net",
+	"whoisServer": "whois.tcinet.ru",
 	"nameServers": [
 		"a.dns.ripn.net",
 		"b.dns.ripn.net",
