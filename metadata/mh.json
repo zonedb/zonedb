@@ -1,8 +1,7 @@
 {
 	"domain": "mh",
 	"nameServers": [
-		"ns.amarshallinc.com",
-		"ns.ntamar.net"
+		"ns.amarshallinc.com"
 	],
 	"tags": [
 		"closed",
