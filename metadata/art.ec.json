@@ -1,0 +1,11 @@
+{
+	"domain": "art.ec",
+	"nameServers": [
+		"a.lactld.org",
+		"n2.nic.ec",
+		"n3.dns.ec"
+	],
+	"wildcards": [
+		"209.99.64.69"
+	]
+}

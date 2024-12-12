@@ -1,0 +1,10 @@
+{
+	"domain": "rrpp.ec",
+	"nameServers": [
+		"a.lactld.org",
+		"n2.nic.ec",
+		"n3.dns.ec",
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz"
+	]
+}

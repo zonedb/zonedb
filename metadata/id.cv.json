@@ -1,0 +1,7 @@
+{
+	"domain": "id.cv",
+	"nameServers": [
+		"brad.ns.cloudflare.com",
+		"coco.ns.cloudflare.com"
+	]
+}
