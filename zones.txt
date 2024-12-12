@@ -2328,6 +2328,7 @@ co.cv
 com.cv
 edu.cv
 gov.cv
+id.cv
 int.cv
 net.cv
 nome.cv
