@@ -11,7 +11,7 @@ on:
 jobs:
   test-go:
     name: Test, Vet, Vulncheck Go code
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     timeout-minutes: 15
     strategy:
       matrix:
@@ -53,7 +53,7 @@ jobs:
   # Test with TinyGo
   test-tinygo-wasm:
     name: Test with WASM and TinyGo
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     timeout-minutes: 15
     strategy:
       matrix:
@@ -109,7 +109,7 @@ jobs:
   # Tag release
   tag-release:
     name: Tag release
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     timeout-minutes: 1
     needs: [test-go, test-tinygo-wasm]
     steps:
