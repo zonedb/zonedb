@@ -1,7 +1,9 @@
 {
 	"domain": "valdaosta.it",
 	"nameServers": [
-		"dns2.alsitech.it",
-		"dns4.alsitech.it"
+		"dns.technorail.com",
+		"dns2.technorail.com",
+		"dns3.arubadns.net",
+		"dns4.arubadns.cz"
 	]
 }
