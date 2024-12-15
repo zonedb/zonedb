@@ -1,5 +1,10 @@
 {
 	"domain": "mil.gh",
+	"nameServers": [
+		"ns.dns.br",
+		"ns1.nic.gh",
+		"ns2.nic.gh"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
