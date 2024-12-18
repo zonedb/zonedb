@@ -6,10 +6,12 @@
 		"https://rdap.whois.ai/"
 	],
 	"nameServers": [
-		"a.lactld.org",
-		"anycastdns1-cz.nic.ai",
-		"anycastdns2-cz.nic.ai",
-		"pch.whois.ai"
+		"v0n0.nic.ai",
+		"v0n1.nic.ai",
+		"v0n2.nic.ai",
+		"v0n3.nic.ai",
+		"v2n0.nic.ai",
+		"v2n1.nic.ai"
 	],
 	"tags": [
 		"country",
