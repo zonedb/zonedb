@@ -1,5 +1,9 @@
 {
 	"domain": "com.rw",
+	"nameServers": [
+		"ns1.ricta.org.rw",
+		"ns3.ricta.org.rw"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
