@@ -2,6 +2,8 @@
 	"domain": "gl",
 	"whoisServer": "whois.nic.gl",
 	"nameServers": [
+		"a.nic.gl",
+		"b.nic.gl",
 		"d.nic.gl",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
