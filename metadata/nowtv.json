@@ -6,12 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
-	"nameServers": [
-		"a0.nic.nowtv",
-		"a2.nic.nowtv",
-		"b0.nic.nowtv",
-		"c0.nic.nowtv"
-	],
 	"languages": [
 		"zh-CN",
 		"zh-TW"

@@ -4,6 +4,9 @@
 		"ns1390.ztomy.com",
 		"ns2390.ztomy.com"
 	],
+	"wildcards": [
+		"127.0.0.1"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

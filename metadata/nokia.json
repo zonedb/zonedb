@@ -6,12 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.centralnic.com/nokia/"
 	],
-	"nameServers": [
-		"a.nic.nokia",
-		"b.nic.nokia",
-		"c.nic.nokia",
-		"d.nic.nokia"
-	],
 	"languages": [
 		"be",
 		"bg",
