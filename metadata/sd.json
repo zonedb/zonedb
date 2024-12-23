@@ -5,7 +5,7 @@
 		"https://rdap.nic.sd/"
 	],
 	"nameServers": [
-		"ans1.sis.sd",
+		"ans1.canar.sd",
 		"ns-sd.afrinic.net",
 		"pch.sis.sd",
 		"sd.cctld.authdns.ripe.net"

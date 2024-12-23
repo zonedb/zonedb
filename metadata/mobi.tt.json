@@ -1,7 +1,7 @@
 {
 	"domain": "mobi.tt",
 	"nameServers": [
-		"dina.ns.cloudflare.com",
-		"ken.ns.cloudflare.com"
+		"ns1.dns.com",
+		"ns2.dns.com"
 	]
 }
