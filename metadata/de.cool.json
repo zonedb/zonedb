@@ -3,5 +3,11 @@
 	"nameServers": [
 		"jake.ns.cloudflare.com",
 		"jill.ns.cloudflare.com"
+	],
+	"wildcards": [
+		"2a00:f48:2000:affe::50",
+		"91.216.248.20",
+		"91.216.248.21",
+		"91.216.248.22"
 	]
 }
