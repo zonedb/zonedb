@@ -4,5 +4,9 @@
 		"dns3.gov.ps",
 		"dns4.pna.ps",
 		"dns5.gov.ps"
+	],
+	"wildcards": [
+		"72.5.65.111",
+		"sinkhole.paloaltonetworks.com"
 	]
 }
