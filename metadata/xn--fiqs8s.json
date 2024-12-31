@@ -9,10 +9,6 @@
 		"k.dns.cn",
 		"l.dns.cn"
 	],
-	"wildcards": [
-		"218.241.105.10",
-		"wildcard.cnnic.cn"
-	],
 	"languages": [
 		"zh-Hans-CN"
 	],
