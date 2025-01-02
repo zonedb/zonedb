@@ -2,6 +2,7 @@
 	"domain": "sakura",
 	"registryOperator": "SAKURA Internet Inc.",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/sakura",
+	"whoisServer": "whois.nic.sakura",
 	"rdapURLs": [
 		"https://rdap.nic.sakura/rdap/"
 	],
