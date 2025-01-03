@@ -1,7 +1,7 @@
 {
 	"domain": "th",
 	"infoURL": "https://www.thnic.co.th/",
-	"whoisServer": "whois.thnic.net",
+	"whoisServer": "whois.thnic.co.th",
 	"nameServers": [
 		"a.thains.co.th",
 		"b.thains.co.th",
