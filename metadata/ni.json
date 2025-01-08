@@ -4,6 +4,7 @@
 	"whoisURL": "http://www.nic.ni/",
 	"nameServers": [
 		"dns-ext.nic.cr",
+		"ns.ideay.net.ni",
 		"ns.ni",
 		"ns.uu.net",
 		"ns2.ni",
