@@ -3,6 +3,7 @@
 	"infoURL": "https://www.nic.ba/",
 	"whoisURL": "http://nic.ba/lat/menu/view/13",
 	"nameServers": [
+		"ns.ba",
 		"sava.utic.net.ba",
 		"una.utic.net.ba"
 	],
