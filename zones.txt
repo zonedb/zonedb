@@ -2890,6 +2890,7 @@ fi.it
 firenze.it
 florence.it
 fm.it
+fo.it
 foggia.it
 forli-cesena.it
 forlicesena.it
