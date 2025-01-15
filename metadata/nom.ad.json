@@ -1,9 +1,5 @@
 {
 	"domain": "nom.ad",
-	"nameServers": [
-		"ns1.andorratelecom.ad",
-		"ns2.andorratelecom.ad"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
