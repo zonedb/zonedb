@@ -1,7 +1,7 @@
 {
 	"domain": "co.cv",
 	"nameServers": [
-		"edna.ns.cloudflare.com",
+		"edna.ns.cloudflare.come",
 		"kianchau.ns.cloudflare.com"
 	]
 }
