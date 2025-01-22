@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.rugby/",
 	"whoisServer": "whois.nic.rugby",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/rugby/"
+		"https://rdap.nic.rugby/"
 	],
 	"nameServers": [
 		"a.nic.rugby",

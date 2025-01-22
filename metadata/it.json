@@ -4,7 +4,6 @@
 	"whoisServer": "whois.nic.it",
 	"nameServers": [
 		"a.dns.it",
-		"d.dns.it",
 		"dns.nic.it",
 		"m.dns.it",
 		"nameserver.cnr.it",
