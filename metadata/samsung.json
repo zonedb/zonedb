@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.samsung/",
 	"whoisServer": "whois.nic.samsung",
 	"rdapURLs": [
-		"https://nic.samsung:8443/rdap/"
+		"https://nic.samsung/rdap/"
 	],
 	"nameServers": [
 		"n1-a1.aka-ns.net",
