@@ -1,6 +1,10 @@
 {
 	"domain": "edu.ph",
 	"nameServers": [
+		"dns1.apolloglobal.net",
+		"dns2.apolloglobal.net",
+		"dns3.apolloglobal.net",
+		"dns4.apolloglobal.net",
 		"evans.gov.ph",
 		"gabriela.ph.net",
 		"gomez.ph.net"
