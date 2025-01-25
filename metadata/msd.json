@@ -4,7 +4,7 @@
 	"infoURL": "https://www.nic.msd/",
 	"whoisServer": "whois.nic.msd",
 	"rdapURLs": [
-		"http://rdap.nic.msd/"
+		"https://rdap.nic.msd/"
 	],
 	"nameServers": [
 		"a.nic.msd",
