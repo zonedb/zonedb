@@ -3,12 +3,6 @@
 	"rdapURLs": [
 		"https://rdap.centralnic.com/radio.am/"
 	],
-	"nameServers": [
-		"a.nic.fm",
-		"b.nic.fm",
-		"c.nic.fm",
-		"d.nic.fm"
-	],
 	"policies": [
 		{
 			"type": "idn-table",
