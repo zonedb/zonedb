@@ -7,7 +7,7 @@ go 1.21
 
 require (
 	github.com/PuerkitoBio/goquery v1.9.2
-	github.com/miekg/dns v1.1.62
+	github.com/miekg/dns v1.1.63
 	github.com/wsxiaoys/terminal v0.0.0-20160513160801-0940f3fc43a0
 	golang.org/x/net v0.34.0
 	golang.org/x/text v0.21.0
