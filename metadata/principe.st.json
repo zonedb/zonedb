@@ -1,5 +1,10 @@
 {
 	"domain": "principe.st",
+	"nameServers": [
+		"ns1.govhost.st",
+		"ns2.govhost.st",
+		"ns3.govhost.st"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
