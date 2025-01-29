@@ -1,7 +1,6 @@
 {
 	"domain": "edu.ph",
 	"nameServers": [
-		"dns4.apolloglobal.net",
 		"gabriela.ph.net",
 		"gomez.ph.net",
 		"ns0110.secondary.cloudflare.com",

@@ -7,7 +7,8 @@
 		"dns.nic.it",
 		"m.dns.it",
 		"nameserver.cnr.it",
-		"r.dns.it"
+		"r.dns.it",
+		"v.dns.it"
 	],
 	"tags": [
 		"country",
