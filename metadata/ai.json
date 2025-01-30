@@ -3,7 +3,7 @@
 	"infoURL": "http://nic.com.ai/",
 	"whoisServer": "whois.nic.ai",
 	"rdapURLs": [
-		"https://rdap.nic.ai/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.ai",
