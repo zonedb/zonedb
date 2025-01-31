@@ -1,15 +1,11 @@
 {
 	"domain": "teach.pro",
 	"nameServers": [
-		"curitiba.ns.porkbun.com",
-		"fortaleza.ns.porkbun.com",
-		"maceio.ns.porkbun.com",
-		"salvador.ns.porkbun.com"
+		"ns1.sedoparking.com",
+		"ns2.sedoparking.com"
 	],
 	"wildcards": [
-		"44.227.65.245",
-		"44.227.76.166",
-		"pixie.porkbun.com"
+		"64.190.63.222"
 	],
 	"policies": [
 		{

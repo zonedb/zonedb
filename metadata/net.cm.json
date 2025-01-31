@@ -2,7 +2,8 @@
 	"domain": "net.cm",
 	"nameServers": [
 		"ns1.nic.cm",
-		"ns2.nic.cm"
+		"ns2.nic.cm",
+		"ns4.nic.cm"
 	],
 	"policies": [
 		{
