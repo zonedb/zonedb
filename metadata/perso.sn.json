@@ -1,5 +1,15 @@
 {
 	"domain": "perso.sn",
+	"nameServers": [
+		"c.name-servers.ch",
+		"d.name-servers.ch"
+	],
+	"wildcards": [
+		"142.54.186.124",
+		"149.112.84.184",
+		"216.244.81.66",
+		"66.187.75.46"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
