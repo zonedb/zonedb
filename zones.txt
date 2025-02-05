@@ -3532,6 +3532,7 @@ net.mv
 org.mv
 pro.mv
 ac.mw
+biz.mw
 co.mw
 com.mw
 coop.mw
