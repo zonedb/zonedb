@@ -7,6 +7,7 @@
 		"https://rdap.nic.one/"
 	],
 	"nameServers": [
+		"a.nic.one",
 		"b.nic.one",
 		"c.nic.one",
 		"x.nic.one",
