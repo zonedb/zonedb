@@ -5,5 +5,8 @@
 		"ns2.nic.cm",
 		"ns3.nic.cm",
 		"ns4.nic.cm"
+	],
+	"wildcards": [
+		"85.25.140.105"
 	]
 }
