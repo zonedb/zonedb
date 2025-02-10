@@ -7,6 +7,7 @@ import (
 	"math/rand"
 	"net"
 	"os"
+	"slices"
 	"sort"
 	"strings"
 	"sync"
@@ -81,9 +82,10 @@ func FetchRootZone(zones map[string]*Zone, addNew bool) error {
 			limiter <- struct{}{}
 			wg.Add(1)
 			go func(z *Zone, host string) {
-				if verifyNS(host) == nil {
+				host = Normalize(host)
+				if slices.Contains(z.oldNameServers, host) || verifyNS(host) == nil {
 					z.m.Lock()
-					z.NameServers = append(z.NameServers, Normalize(host))
+					z.NameServers = append(z.NameServers, host)
 					z.m.Unlock()
 				}
 				<-limiter
