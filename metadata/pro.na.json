@@ -5,9 +5,6 @@
 		"b.dnspod.com",
 		"c.dnspod.com"
 	],
-	"tags": [
-		"retired"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
