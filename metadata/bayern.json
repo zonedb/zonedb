@@ -10,11 +10,7 @@
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
-		"anycast9.irondns.net",
-		"ari.alpha.tldns.godaddy",
-		"ari.beta.tldns.godaddy",
-		"ari.delta.tldns.godaddy",
-		"ari.gamma.tldns.godaddy"
+		"anycast9.irondns.net"
 	],
 	"locations": [
 		"DE-BY"

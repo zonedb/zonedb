@@ -7,10 +7,6 @@
 		"https://rdap.nominet.uk/bbc/"
 	],
 	"nameServers": [
-		"dns1.nic.bbc",
-		"dns2.nic.bbc",
-		"dns3.nic.bbc",
-		"dns4.nic.bbc",
 		"dnsa.nic.bbc",
 		"dnsb.nic.bbc",
 		"dnsc.nic.bbc",
