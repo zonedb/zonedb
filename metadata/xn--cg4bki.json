@@ -13,10 +13,7 @@
 		"n1-a26.aka-ns.net",
 		"n1-a4.aka-ns.net",
 		"n1-a7.aka-ns.net",
-		"ns1.삼성.centralnic-dns.com",
-		"ns2.삼성.centralnic-dns.com",
-		"ns3.삼성.centralnic-dns.com",
-		"ns4.삼성.centralnic-dns.com"
+		"ns1.dns.samsung"
 	],
 	"languages": [
 		"ko"
