@@ -2,10 +2,12 @@
 	"domain": "mu",
 	"whoisServer": "whois.nic.mu",
 	"nameServers": [
-		"anycast1.irondns.net",
-		"fork.sth.dnsnode.net",
-		"udns1.tld.mu",
-		"udns2.tld.mu"
+		"v0n0.tld.mu",
+		"v0n1.tld.mu",
+		"v0n2.tld.mu",
+		"v0n3.tld.mu",
+		"v2n0.tld.mu",
+		"v2n1.tld.mu"
 	],
 	"tags": [
 		"country",

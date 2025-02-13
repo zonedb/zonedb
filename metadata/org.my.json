@@ -2,6 +2,7 @@
 	"domain": "org.my",
 	"nameServers": [
 		"a.mynic.centralnic-dns.com",
+		"a.mynic.net",
 		"b.mynic.centralnic-dns.com",
 		"b.nic.my",
 		"b1.nic.my",
