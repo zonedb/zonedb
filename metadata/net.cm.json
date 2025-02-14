@@ -3,8 +3,7 @@
 	"nameServers": [
 		"ns1.nic.cm",
 		"ns2.nic.cm",
-		"ns3.nic.cm",
-		"ns4.nic.cm"
+		"ns3.nic.cm"
 	],
 	"policies": [
 		{
