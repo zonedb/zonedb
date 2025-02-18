@@ -3,7 +3,10 @@
 	"nameServers": [
 		"ns.macomnet.ru",
 		"ns2.macomnet.ru",
-		"ns3.macomnet.ru"
+		"ns3.macomnet.ru",
+		"ns4.macomnet.net",
+		"ns5.macomnet.net",
+		"ns6.macomnet.net"
 	],
 	"policies": [
 		{

@@ -1,6 +1,11 @@
 {
 	"domain": "net.ye",
 	"nameServers": [
+		"a.tld.ye",
+		"b.tld.ye",
+		"c.tld.ye",
+		"d.tld.ye",
+		"e.tld.ye",
 		"tld1.ye",
 		"tld2.ye",
 		"tld3.ye"
