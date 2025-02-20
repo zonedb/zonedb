@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/weber/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"v0n0.nic.weber",
+		"v0n1.nic.weber",
+		"v0n2.nic.weber",
+		"v0n3.nic.weber",
+		"v2n0.nic.weber",
+		"v2n1.nic.weber"
 	],
 	"languages": [
 		"mul-Arab",

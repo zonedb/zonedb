@@ -1,6 +1,6 @@
 {
 	"domain": "host",
-	"registryOperator": "Radix Technologies Inc.",
+	"registryOperator": "Radix Technologies Inc SEZC",
 	"whoisServer": "whois.nic.host",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/host/"
