@@ -2,8 +2,8 @@
 	"domain": "lk",
 	"whoisServer": "whois.nic.lk",
 	"nameServers": [
-		"c.nic.lk",
 		"d.nic.lk",
+		"h.nic.lk",
 		"m.nic.lk",
 		"ns1.ac.lk",
 		"p.nic.lk",
