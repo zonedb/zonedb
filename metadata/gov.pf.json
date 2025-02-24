@@ -1,5 +1,9 @@
 {
 	"domain": "gov.pf",
+	"nameServers": [
+		"naya.ns.cloudflare.com",
+		"rocky.ns.cloudflare.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

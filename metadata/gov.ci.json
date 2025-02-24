@@ -1,0 +1,7 @@
+{
+	"domain": "gov.ci",
+	"nameServers": [
+		"keyla.ns.cloudflare.com",
+		"sterling.ns.cloudflare.com"
+	]
+}

@@ -1,14 +1,11 @@
 {
 	"domain": "gov.ps",
 	"nameServers": [
+		"dns1.gov.ps",
 		"dns3.gov.ps",
 		"dns4.pna.ps",
 		"dns5.gov.ps",
 		"ns1.pal-gov.net"
-	],
-	"wildcards": [
-		"72.5.65.111",
-		"sinkhole.paloaltonetworks.com"
 	],
 	"policies": [
 		{
