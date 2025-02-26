@@ -4,6 +4,7 @@
 	"infoURL": "https://www.registry.google/",
 	"whoisServer": "whois.nic.soy",
 	"rdapURLs": [
+		"https://pubapi.registry.google/rdap/",
 		"https://www.registry.google/rdap/"
 	],
 	"nameServers": [
