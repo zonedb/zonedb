@@ -3512,6 +3512,7 @@ org.mt
 ac.mu
 co.mu
 com.mu
+edu.mu
 gov.mu
 net.mu
 nom.mu
