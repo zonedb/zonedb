@@ -5,10 +5,7 @@
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
-	"nameServers": [
-		"a0.nic.kerrylogistics",
-		"a2.nic.kerrylogistics",
-		"b0.nic.kerrylogistics",
-		"c0.nic.kerrylogistics"
+	"tags": [
+		"retired"
 	]
 }

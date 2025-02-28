@@ -1,6 +1,9 @@
 {
 	"domain": "mu",
 	"whoisServer": "whois.nic.mu",
+	"rdapURLs": [
+		"https://rdap.identitydigital.services/rdap/"
+	],
 	"nameServers": [
 		"v0n0.tld.mu",
 		"v0n1.tld.mu",

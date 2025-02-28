@@ -6,15 +6,10 @@
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
-	"nameServers": [
-		"a0.nic.lipsy",
-		"a2.nic.lipsy",
-		"b0.nic.lipsy",
-		"c0.nic.lipsy"
-	],
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{
