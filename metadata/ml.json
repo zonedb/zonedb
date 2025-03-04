@@ -1,6 +1,9 @@
 {
 	"domain": "ml",
 	"whoisServer": "whois.nic.ml",
+	"rdapURLs": [
+		"https://rdap.nic.ml/"
+	],
 	"nameServers": [
 		"a.nic.ml",
 		"b.nic.ml",
