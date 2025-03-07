@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.weber/",
 	"whoisServer": "whois.nic.weber",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/weber/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.weber",

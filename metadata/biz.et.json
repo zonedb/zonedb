@@ -2,7 +2,9 @@
 	"domain": "biz.et",
 	"nameServers": [
 		"a.nic.et",
-		"b.nic.et"
+		"b.nic.et",
+		"c.nic.et",
+		"d.nic.et"
 	],
 	"policies": [
 		{

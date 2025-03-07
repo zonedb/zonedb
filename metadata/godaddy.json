@@ -19,6 +19,8 @@
 		"be",
 		"bg",
 		"bs",
+		"bs-Cyrl",
+		"cnr-Cyrl",
 		"da",
 		"de",
 		"es",
@@ -29,6 +31,7 @@
 		"is",
 		"it",
 		"ko",
+		"ko-Hang",
 		"lt",
 		"lv",
 		"mk",
@@ -36,10 +39,13 @@
 		"pt",
 		"ru",
 		"sr",
+		"sr-Cyrl",
 		"sr-ME",
 		"sv",
 		"uk",
 		"zh-CN",
+		"zh-Hans",
+		"zh-Hant",
 		"zh-TW"
 	],
 	"tags": [
@@ -50,17 +56,17 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_ar_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_ar_4.1.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "be",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_be_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_be_1.2.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "bg",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_bg_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_bg_1.2.xml"
 		},
 		{
 			"type": "idn-table",
@@ -69,48 +75,58 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "bs-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_bs-cyrl_1.3.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "cnr-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_cnr-cyrl_1.2.xml"
+		},
+		{
+			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_da_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_da_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_de_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_de_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_es_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_es_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_fi_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_fi_4.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_fr_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_fr_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "hi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_hi_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_hi_4.1.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_hu_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_hu_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "is",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_is_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_is_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_it_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_it_3.0.xml"
 		},
 		{
 			"type": "idn-table",
@@ -119,38 +135,48 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "ko-Hang",
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_ko-hang_3.1.xml"
+		},
+		{
+			"type": "idn-table",
 			"key": "lt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_lt_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_lt_3.1.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "lv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_lv_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_lv_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "mk",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_mk_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_mk_2.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_pl_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_pl_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_pt_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_pt_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_ru_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_ru_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "sr",
 			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_sr_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sr-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_sr-cyrl_1.2.xml"
 		},
 		{
 			"type": "idn-table",
@@ -160,17 +186,27 @@
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_sv_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_sv_3.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "uk",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_uk_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_uk_1.2.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh-CN",
 			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_zh-cn_4.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_zh-hans_4.1.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hant",
+			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_zh-hant_4.1.xml"
 		},
 		{
 			"type": "idn-table",

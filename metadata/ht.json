@@ -1,6 +1,9 @@
 {
 	"domain": "ht",
 	"whoisServer": "whois.nic.ht",
+	"rdapURLs": [
+		"https://rdap.nic.ht/"
+	],
 	"nameServers": [
 		"a.lactld.org",
 		"ns-ht.nic.fr",
