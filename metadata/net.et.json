@@ -2,9 +2,7 @@
 	"domain": "net.et",
 	"nameServers": [
 		"a.nic.et",
-		"b.nic.et",
-		"c.nic.et",
-		"d.nic.et"
+		"b.nic.et"
 	],
 	"policies": [
 		{
