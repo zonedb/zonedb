@@ -1,6 +1,7 @@
 {
 	"domain": "net.bi",
 	"nameServers": [
-		"ns.nic.bi"
+		"ns.nic.bi",
+		"ns1.nic.bi"
 	]
 }
