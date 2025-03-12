@@ -2,8 +2,8 @@
 	"domain": "net.za",
 	"whoisServer": "net-whois.registry.net.za",
 	"nameServers": [
-		"ns.coza.net.za",
-		"ns0.is.co.za",
+		"ns2.dns.net.za",
+		"ns2us.dns.business",
 		"za-ns.anycast.pch.net"
 	],
 	"policies": [

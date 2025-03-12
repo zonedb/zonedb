@@ -2,9 +2,8 @@
 	"domain": "org.za",
 	"whoisServer": "org-whois.registry.net.za",
 	"nameServers": [
-		"ns0.is.co.za",
+		"ns2.dns.net.za",
 		"ns2us.dns.business",
-		"ns3.dns.business",
 		"za-ns.anycast.pch.net"
 	],
 	"policies": [
