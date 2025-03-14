@@ -1,9 +1,6 @@
 {
 	"domain": "org.ye",
 	"nameServers": [
-		"a.tld.ye",
-		"b.tld.ye",
-		"c.tld.ye",
 		"d.tld.ye",
 		"e.tld.ye",
 		"tld1.ye",

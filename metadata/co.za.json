@@ -3,8 +3,10 @@
 	"whoisServer": "coza-whois.registry.net.za",
 	"nameServers": [
 		"coza1.dnsnode.net",
+		"ns.coza.net.za",
 		"ns2.dns.net.za",
-		"ns2us.dns.business"
+		"ns2us.dns.business",
+		"ns5.dns.net.za"
 	],
 	"policies": [
 		{
