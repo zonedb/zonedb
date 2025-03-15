@@ -4,10 +4,6 @@
 		"ns1.gov.bh",
 		"ns2.gov.bh"
 	],
-	"wildcards": [
-		"72.5.65.111",
-		"sinkhole.paloaltonetworks.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
