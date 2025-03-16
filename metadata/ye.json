@@ -2,6 +2,8 @@
 	"domain": "ye",
 	"whoisServer": "whois.y.net.ye",
 	"nameServers": [
+		"d.tld.ye",
+		"e.tld.ye",
 		"tld1.ye",
 		"tld2.ye",
 		"tld3.ye"
