@@ -1,6 +1,9 @@
 {
 	"domain": "ye",
 	"whoisServer": "whois.y.net.ye",
+	"rdapURLs": [
+		"https://rdap.y.net.ye/"
+	],
 	"nameServers": [
 		"d.tld.ye",
 		"e.tld.ye",
