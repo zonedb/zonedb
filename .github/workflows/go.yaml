@@ -43,9 +43,6 @@ jobs:
 
       - name: govulncheck
         uses: golang/govulncheck-action@v1.0.4
-        with:
-          cache: false
-          repo-checkout: false
 
       - name: Verify repo is unchanged
         run: git diff --exit-code HEAD
@@ -57,7 +54,7 @@ jobs:
     timeout-minutes: 15
     strategy:
       matrix:
-        tinygo-version: ['0.31.2'] # FIXME: this needs to be manually bumped; something should ping when a new version is available
+        tinygo-version: ['0.34.0'] # FIXME: this needs to be manually bumped; something should ping when a new version is available
         wasmtime-version: ['v21.0.1']
 
     steps:
@@ -105,6 +102,11 @@ jobs:
 
       - name: Verify repo is unchanged
         run: git diff --exit-code HEAD
+
+      - name: Notify if failure
+        if: ${{ failure() }}
+        run: |
+          curl -Ss -X POST -H 'Content-type: application/json' --data '{"text":"❌ ZoneDB TinyGo tests failed"}' ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
 
   # Tag release
   tag-release:
