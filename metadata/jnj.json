@@ -9,10 +9,9 @@
 	"nameServers": [
 		"a.nic.jnj",
 		"b.nic.jnj",
-		"c.nic.jnj",
 		"ns1.dns.nic.jnj",
-		"ns2.dns.nic.jnj",
-		"ns3.dns.nic.jnj"
+		"w.nic.jnj",
+		"x.nic.jnj"
 	],
 	"languages": [
 		"es"

@@ -8,11 +8,10 @@
 	],
 	"nameServers": [
 		"a.nic.tube",
-		"b.nic.tube",
-		"c.nic.tube",
+		"anycast23.irondns.net",
+		"anycast9.irondns.net",
 		"ns1.dns.nic.tube",
-		"ns2.dns.nic.tube",
-		"ns3.dns.nic.tube"
+		"ns2.dns.nic.tube"
 	],
 	"tags": [
 		"generic"

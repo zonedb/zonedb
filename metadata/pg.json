@@ -1,11 +1,10 @@
 {
 	"domain": "pg",
 	"nameServers": [
+		"dns.pch.pg",
 		"munnari.oz.au",
 		"ns.uu.net",
-		"ns1.tiare.net.pg",
-		"ns1.unitech.ac.pg",
-		"ns2.tiare.net.pg"
+		"ns1.unitech.ac.pg"
 	],
 	"tags": [
 		"country",

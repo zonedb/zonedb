@@ -1,6 +1,9 @@
 {
 	"domain": "pl",
 	"whoisServer": "whois.dns.pl",
+	"rdapURLs": [
+		"https://rdap.dns.pl/"
+	],
 	"nameServers": [
 		"a-dns.pl",
 		"b-dns.pl",
