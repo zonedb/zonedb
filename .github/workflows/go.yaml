@@ -90,16 +90,16 @@ jobs:
       - name: Add Go wasm exec to $PATH
         run: echo "$(go env GOROOT)/misc/wasm" >> $GITHUB_PATH
 
+      - name: Test WebAssembly with Go + Wasmtime
+        env:
+          GOARCH: wasm
+          GOOS: wasip1
+        run: go test ./...
+
       - name: Test with TinyGo
         # This only tests the apex package, not ./internal/build
         # due to TinyGo support for net.UDPConn and net.IPConn
         run: tinygo test -bench -target=wasip1 . ./
-
-      - name: Test WebAssembly with Go + Wasmtime
-        env:
-          GOOS: wasip1
-          GOARCH: wasm
-        run: go test ./...
 
       - name: Test WebAssembly with TinyGo + Wasmtime
         # This only tests the apex package, not ./internal/build
