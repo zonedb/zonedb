@@ -58,7 +58,7 @@ jobs:
     strategy:
       matrix:
         go-version: ["1.22", "1.23", "1.24"]
-        tinygo-version: ["0.34.0", "0.35.0", "0.36.0"] # FIXME: this needs to be manually bumped; something should ping when a new version is available
+        tinygo-version: ["0.34.0", "0.35.0", "0.36.0", "0.37.0"] # FIXME: this needs to be manually bumped; something should ping when a new version is available
         exclude:
           - go-version: "1.24"
             tinygo-version: "0.35.0"
