@@ -15,7 +15,7 @@ jobs:
     timeout-minutes: 15
     strategy:
       matrix:
-        go-version: ['oldstable', 'stable']
+        go-version: ["1.22.x", "1.23.x", "1.24.x"]
     env:
       CGO_ENABLED: 0
     steps:
@@ -57,7 +57,13 @@ jobs:
     timeout-minutes: 15
     strategy:
       matrix:
-        tinygo-version: ['0.34.0'] # FIXME: this needs to be manually bumped; something should ping when a new version is available
+        go-version: [ "1.22.x", "1.23.x", "1.24.x" ]
+        tinygo-version: [ "0.34.0", "0.35.0", "0.36.0", "0.37.0" ] # FIXME: this needs to be manually bumped; something should ping when a new version is available
+        exclude:
+          - go-version: "1.24"
+            tinygo-version: "0.35.0"
+          - go-version: "1.24"
+            tinygo-version: "0.34.0"
         wasmtime-version: ['v21.0.1']
 
     steps:
@@ -69,7 +75,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5.4.0
         with:
-          go-version: 'oldstable' # TinyGo doesn't immediately release support for new major Go versions
+          go-version: ${{ matrix.go-version }} # TinyGo doesn't immediately release support for new major Go versions
 
       - name: Set up TinyGo
         uses: acifani/setup-tinygo@v2.0.0
