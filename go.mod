@@ -5,8 +5,6 @@ module github.com/zonedb/zonedb
 // Note: this should use the latest dot release in CI, once GitHub has added it to "actions/go-versions"
 go 1.22.0
 
-toolchain go1.24.1
-
 require (
 	github.com/PuerkitoBio/goquery v1.9.2
 	github.com/miekg/dns v1.1.64
