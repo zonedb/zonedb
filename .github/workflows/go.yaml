@@ -104,10 +104,7 @@ jobs:
       - name: Test WebAssembly with TinyGo + Wasmtime
         # This only tests the apex package, not ./internal/build
         # due to TinyGo support for net.UDPConn and net.IPConn
-        env:
-          GOOS: wasip1
-          GOARCH: wasm
-        run: tinygo test ./
+        run: tinygo test -target=wasip1 ./
 
       - name: Verify repo is unchanged
         run: git diff --exit-code HEAD
