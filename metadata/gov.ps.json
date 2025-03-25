@@ -8,6 +8,7 @@
 		"ns1.pal-gov.net"
 	],
 	"wildcards": [
+		"198.135.184.22",
 		"72.5.65.111",
 		"sinkhole.paloaltonetworks.com"
 	],
