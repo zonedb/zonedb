@@ -25,7 +25,7 @@ jobs:
           submodules: recursive
 
       - name: Set up Go
-        uses: actions/setup-go@v5.3.0
+        uses: actions/setup-go@v5.4.0
         with:
           go-version: ${{ matrix.go-version }}
           # check-latest: true # not needed when using 'stable'
@@ -61,9 +61,9 @@ jobs:
         tinygo-version: ["0.34.0", "0.35.0", "0.36.0", "0.37.0"] # FIXME: this needs to be manually bumped; something should ping when a new version is available
         exclude:
           - go-version: "1.24"
-            tinygo-version: "0.35.0"
-          - go-version: "1.24"
             tinygo-version: "0.34.0"
+          - go-version: "1.24"
+            tinygo-version: "0.35.0"
         wasmtime-version: ['v21.0.1']
 
     steps:
