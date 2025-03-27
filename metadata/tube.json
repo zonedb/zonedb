@@ -7,11 +7,10 @@
 		"https://rdap.nic.tube/"
 	],
 	"nameServers": [
-		"a.nic.tube",
+		"anycast10.irondns.net",
 		"anycast23.irondns.net",
-		"anycast9.irondns.net",
-		"ns1.dns.nic.tube",
-		"ns2.dns.nic.tube"
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
 	],
 	"tags": [
 		"generic"
