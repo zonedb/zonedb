@@ -4,7 +4,7 @@
 	"infoURL": "http://www.nic.jnj/",
 	"whoisServer": "whois.nic.jnj",
 	"rdapURLs": [
-		"https://rdap.nic.jnj/"
+		"https://rdap.centralnicregistry.com/jnj/"
 	],
 	"nameServers": [
 		"w.nic.jnj",
