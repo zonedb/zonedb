@@ -1,5 +1,9 @@
 {
 	"domain": "arc.pro",
+	"nameServers": [
+		"ns1.timeweb.ru",
+		"ns2.timeweb.ru"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
