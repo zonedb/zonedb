@@ -1,9 +1,8 @@
 {
 	"domain": "asso.bj",
 	"nameServers": [
-		"a.dnspod.com",
-		"b.dnspod.com",
-		"c.dnspod.com"
+		"ns5.afriregister.co.ke",
+		"ns6.afriregister.co.ke"
 	],
 	"policies": [
 		{
