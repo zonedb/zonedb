@@ -3,7 +3,9 @@
 	"infoURL": "https://www.iana.org/domains/root/db/et.html",
 	"nameServers": [
 		"a.nic.et",
-		"b.nic.et"
+		"b.nic.et",
+		"c.nic.et",
+		"d.nic.et"
 	],
 	"tags": [
 		"country",
