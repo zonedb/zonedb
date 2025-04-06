@@ -1,5 +1,9 @@
 {
 	"domain": "unsa.ba",
+	"nameServers": [
+		"bosna.utic.net.ba",
+		"sava.utic.net.ba"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
