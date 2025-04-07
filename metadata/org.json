@@ -2,7 +2,7 @@
 	"domain": "org",
 	"registryOperator": "Public Interest Registry",
 	"infoURL": "https://pir.org/products/org-domain/",
-	"whoisServer": "whois.publicinterestregistry.org",
+	"whoisServer": "whois.publicinterestregistry.net",
 	"rdapURLs": [
 		"https://rdap.publicinterestregistry.org/rdap/"
 	],

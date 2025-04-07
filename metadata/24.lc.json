@@ -4,6 +4,10 @@
 		"ns1.website.org",
 		"ns2.website.org"
 	],
+	"wildcards": [
+		"138.201.129.184",
+		"24.lc"
+	],
 	"tags": [
 		"private"
 	]
