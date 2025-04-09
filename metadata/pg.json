@@ -1,5 +1,8 @@
 {
 	"domain": "pg",
+	"rdapURLs": [
+		"https://rdap.nic.pg/"
+	],
 	"nameServers": [
 		"dns.pch.pg",
 		"gransy1.nic.pg",
