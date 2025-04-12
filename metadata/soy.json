@@ -4,8 +4,7 @@
 	"infoURL": "https://www.registry.google/",
 	"whoisServer": "whois.nic.soy",
 	"rdapURLs": [
-		"https://pubapi.registry.google/rdap/",
-		"https://www.registry.google/rdap/"
+		"https://pubapi.registry.google/rdap/"
 	],
 	"nameServers": [
 		"ns-tld1.charlestonroadregistry.com",
