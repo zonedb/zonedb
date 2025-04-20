@@ -8,9 +8,12 @@
 	],
 	"nameServers": [
 		"a.nic.blog",
+		"a.ns.nic.blog",
 		"b.nic.blog",
+		"b.ns.nic.blog",
 		"c.nic.blog",
-		"d.nic.blog"
+		"d.nic.blog",
+		"d.ns.nic.blog"
 	],
 	"languages": [
 		"zh"
