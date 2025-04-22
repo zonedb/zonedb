@@ -2,6 +2,9 @@
 	"domain": "fj",
 	"infoURL": "https://www.domains.fj/index.php",
 	"whoisServer": "www.whois.fj",
+	"rdapURLs": [
+		"https://www.rdap.fj/"
+	],
 	"nameServers": [
 		"ns1.fj",
 		"ns2.fj",
