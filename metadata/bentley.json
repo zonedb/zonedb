@@ -6,16 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.nominet.uk/bentley/"
 	],
-	"nameServers": [
-		"dns1.nic.bentley",
-		"dns2.nic.bentley",
-		"dns3.nic.bentley",
-		"dns4.nic.bentley",
-		"dnsa.nic.bentley",
-		"dnsb.nic.bentley",
-		"dnsc.nic.bentley",
-		"dnsd.nic.bentley"
-	],
 	"languages": [
 		"az",
 		"be",
@@ -117,7 +107,8 @@
 	],
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{
