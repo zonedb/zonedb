@@ -29,32 +29,32 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_es_2.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_fr_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_fr_2.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_ja_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_ja_2.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_ko_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_ko_2.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_pl_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_pl_2.0.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_pt_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_pt_2.0.xml"
 		},
 		{
 			"type": "idn-table",

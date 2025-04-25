@@ -1,8 +1,6 @@
 {
 	"domain": "tsk.tr",
 	"nameServers": [
-		"ns41.ns.tr",
-		"ns42.ns.tr",
 		"ns43.ns.tr",
 		"ns44.ns.tr",
 		"ns71.ns.tr",
