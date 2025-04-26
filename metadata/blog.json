@@ -4,7 +4,7 @@
 	"infoURL": "https://my.blog/",
 	"whoisServer": "whois.nic.blog",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/blog/"
+		"https://rdap.blog.fury.ca/rdap/"
 	],
 	"nameServers": [
 		"a.ns.nic.blog",
