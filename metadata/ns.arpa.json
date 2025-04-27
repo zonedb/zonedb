@@ -2,6 +2,20 @@
 	"domain": "ns.arpa",
 	"registryOperator": "IANA",
 	"infoURL": "https://datatracker.ietf.org/doc/rfc9120",
+	"nameServers": [
+		"a.ns.arpa",
+		"b.ns.arpa",
+		"c.ns.arpa",
+		"d.ns.arpa",
+		"e.ns.arpa",
+		"f.ns.arpa",
+		"g.ns.arpa",
+		"h.ns.arpa",
+		"i.ns.arpa",
+		"k.ns.arpa",
+		"l.ns.arpa",
+		"m.ns.arpa"
+	],
 	"tags": [
 		"closed",
 		"infrastructure"
