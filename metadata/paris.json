@@ -8,8 +8,7 @@
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",
-		"g.ext.nic.fr",
-		"h.ext.nic.fr"
+		"g.ext.nic.fr"
 	],
 	"locations": [
 		"Paris",
