@@ -4,6 +4,9 @@
 		"ns1.mil.ru",
 		"ns2.mil.ru"
 	],
+	"wildcards": [
+		"212.192.156.38"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
