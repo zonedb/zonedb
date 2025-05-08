@@ -2,7 +2,7 @@
 	"domain": "link",
 	"registryOperator": "Nova Registry Ltd",
 	"infoURL": "https://nova.link/",
-	"whoisServer": "whois.uniregistry.net",
+	"whoisServer": "whois.nic.link",
 	"rdapURLs": [
 		"https://whois.uniregistry.net/rdap/"
 	],
