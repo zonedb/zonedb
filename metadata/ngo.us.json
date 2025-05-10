@@ -1,0 +1,15 @@
+{
+	"domain": "ngo.us",
+	"registryOperator": "NGO.US Registry",
+	"infoURL": "https://nic.ngo.us/",
+	"whoisServer": "whois.ngo.us",
+	"rdapURLs": [
+		"https://rdap.ngo.us/"
+	],
+	"nameServers": [
+		"ns-global.kjsl.com",
+		"ns1.first-ns.de",
+		"robotns2.second-ns.de",
+		"robotns3.second-ns.com"
+	]
+}
