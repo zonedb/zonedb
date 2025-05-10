@@ -4689,6 +4689,7 @@ te.ua
 ternopil.ua
 uz.ua
 uzhgorod.ua
+v.ua
 vinnica.ua
 vn.ua
 volyn.ua

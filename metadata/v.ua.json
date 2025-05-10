@@ -1,0 +1,13 @@
+{
+	"domain": "v.ua",
+	"infoURL": "https://www.v.ua/",
+	"whoisServer": "whois.v.ua",
+	"rdapURLs": [
+		"https://rdap.v.ua/"
+	],
+	"nameServers": [
+		"ns1.v.ua",
+		"ns2.v.ua",
+		"nsp.dnsnode.net"
+	]
+}
