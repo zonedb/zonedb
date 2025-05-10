@@ -3285,6 +3285,7 @@ gov.kg
 mil.kg
 net.kg
 org.kg
+us.kg
 com.kh
 edu.kh
 gov.kh

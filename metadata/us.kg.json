@@ -1,0 +1,11 @@
+{
+	"domain": "us.kg",
+	"registryOperator": "DigitalPlat",
+	"infoURL": "https://domain.digitalplat.org/",
+	"whoisServer": "whois.digitalplat.org",
+	"nameServers": [
+		"ns1.digitalplat.org",
+		"ns2.digitalplat.org",
+		"ns3.digitalplat.org"
+	]
+}
