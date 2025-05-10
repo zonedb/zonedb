@@ -2784,6 +2784,9 @@ id.ir
 net.ir
 org.ir
 sch.ir
+16-b.it
+32-b.it
+64-b.it
 abr.it
 abruzzo.it
 ag.it
@@ -3491,6 +3494,7 @@ edu.mo
 gov.mo
 net.mo
 org.mo
+pride.moe
 co.mp
 com.mp
 gov.mp
@@ -3625,6 +3629,7 @@ name.ng
 net.ng
 org.ng
 sch.ng
+pride.ngo
 ac.ni
 biz.ni
 co.ni
@@ -3860,6 +3865,7 @@ net.pa
 nom.pa
 org.pa
 sld.pa
+prvcy.page
 com.pe
 edu.pe
 gob.pe

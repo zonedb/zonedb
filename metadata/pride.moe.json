@@ -1,0 +1,11 @@
+{
+	"domain": "pride.moe",
+	"registryOperator": "OpenHost Registry",
+	"infoURL": "https://registry.openhost.uk/",
+	"whoisServer": "whois.openhost.uk",
+	"nameServers": [
+		"helium.ns.hetzner.de",
+		"hydrogen.ns.hetzner.com",
+		"oxygen.ns.hetzner.com"
+	]
+}
