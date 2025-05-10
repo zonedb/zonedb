@@ -2,6 +2,7 @@
 	"domain": "nyc.mn",
 	"registryOperator": "NYC.mn Subdomain Service",
 	"infoURL": "https://dot.nyc.mn/",
+	"whoisServer": "whois.dot.nyc.mn",
 	"rdapURLs": [
 		"https://rdap.dot.nyc.mn/domain/"
 	],

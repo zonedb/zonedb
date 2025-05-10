@@ -5336,7 +5336,7 @@ func i3479() {
 	z[3483] = Zone{"per.mm", &z[928], x, 0, e, e, w{"a.nic.net.mm", "b.nic.net.mm", "c.nic.net.mm", "d.nic.net.mm"}, n, n, n, e, e, n, f}
 	z[3484] = Zone{"edu.mn", &z[930], x, 0, e, e, w{"ns.erdemnet.mn", "ns1.erdemnet.mn", "ns2.erdemnet.mn"}, n, n, n, e, e, n, f}
 	z[3485] = Zone{"gov.mn", &z[930], x, 0, e, e, w{"ns.gov.mn", "ns1.gov.mn", "ns3.gov.mn", "ns4.gov.mn"}, n, n, n, e, e, n, f}
-	z[3486] = Zone{"nyc.mn", &z[930], x, 0, "NYC.mn Subdomain Service", "https://dot.nyc.mn/", w{"ns0.1984.is", "ns1.1984.is", "ns1.1984hosting.com", "ns2.1984.is", "ns2.1984hosting.com"}, n, n, n, e, e, w{"https://rdap.dot.nyc.mn/domain/"}, t}
+	z[3486] = Zone{"nyc.mn", &z[930], x, 0, "NYC.mn Subdomain Service", "https://dot.nyc.mn/", w{"ns0.1984.is", "ns1.1984.is", "ns1.1984hosting.com", "ns2.1984.is", "ns2.1984hosting.com"}, n, n, n, "whois.dot.nyc.mn", e, w{"https://rdap.dot.nyc.mn/domain/"}, t}
 	z[3487] = Zone{"org.mn", &z[930], x, 0, e, e, w{"ns10.dns.mn", "ns11.dns.mn"}, n, n, n, e, e, n, f}
 }
 
