@@ -1,0 +1,15 @@
+{
+	"domain": "nyc.mn",
+	"registryOperator": "NYC.mn Subdomain Service",
+	"infoURL": "https://dot.nyc.mn/",
+	"rdapURLs": [
+		"https://rdap.dot.nyc.mn/domain/"
+	],
+	"nameServers": [
+		"ns0.1984.is",
+		"ns1.1984.is",
+		"ns1.1984hosting.com",
+		"ns2.1984.is",
+		"ns2.1984hosting.com"
+	]
+}

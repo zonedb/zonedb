@@ -3484,6 +3484,7 @@ org.mm
 per.mm
 edu.mn
 gov.mn
+nyc.mn
 org.mn
 co.mo
 com.mo
