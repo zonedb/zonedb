@@ -35,7 +35,7 @@ jobs:
 
       - name: Run Go tests with race detector
         env:
-          CGO_ENABLED: '1'
+          CGO_ENABLED: "1"
         run: go test -race ./...
 
       - name: Vet Go code
@@ -64,7 +64,7 @@ jobs:
             tinygo-version: "0.34.0"
           - go-version: "1.24"
             tinygo-version: "0.35.0"
-        wasmtime-version: ['v21.0.1']
+        wasmtime-version: ["v21.0.1"]
 
     steps:
       - name: Checkout repo
@@ -87,8 +87,10 @@ jobs:
         with:
           version: ${{ matrix.wasmtime-version }}
 
-      - name: Add Go wasm exec to $PATH
-        run: echo "$(go env GOROOT)/misc/wasm" >> $GITHUB_PATH
+      - name: Add Go wasm exec to $PATH (for Go < 1.24 and Go >= 1.24)
+        run: |
+          echo "$(go env GOROOT)/misc/wasm" >> $GITHUB_PATH
+          echo "$(go env GOROOT)/lib/wasm" >> $GITHUB_PATH
 
       - name: Test with TinyGo
         # This only tests the apex package, not ./internal/build
