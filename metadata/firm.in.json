@@ -2,6 +2,8 @@
 	"domain": "firm.in",
 	"whoisServer": "whois.inregistry.net",
 	"nameServers": [
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.net",
 		"ns1.registry.in",
 		"ns2.registry.in",
 		"ns3.registry.in",
