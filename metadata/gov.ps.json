@@ -7,6 +7,10 @@
 		"dns5.gov.ps",
 		"ns1.pal-gov.net"
 	],
+	"wildcards": [
+		"198.135.184.22",
+		"sinkhole.paloaltonetworks.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

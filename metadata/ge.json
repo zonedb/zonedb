@@ -3,8 +3,8 @@
 	"infoURL": "https://nic.ge/",
 	"whoisServer": "whois.nic.ge",
 	"nameServers": [
-		"ns.nic.ge",
 		"ns1.nic-ge.com",
+		"ns1.nic.ge",
 		"ns2.nic-ge.com",
 		"ns2.nic.ge"
 	],
