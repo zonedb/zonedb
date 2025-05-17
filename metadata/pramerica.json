@@ -6,14 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.nic.pramerica/"
 	],
-	"nameServers": [
-		"a.nic.pramerica",
-		"b.nic.pramerica",
-		"c.nic.pramerica",
-		"ns1.dns.nic.pramerica",
-		"ns2.dns.nic.pramerica",
-		"ns3.dns.nic.pramerica"
-	],
 	"languages": [
 		"da",
 		"de",
@@ -34,7 +26,8 @@
 	],
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

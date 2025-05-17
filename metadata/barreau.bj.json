@@ -1,8 +1,8 @@
 {
 	"domain": "barreau.bj",
 	"nameServers": [
-		"n1.xundns.com",
-		"n2.xundns.com"
+		"dina.ns.cloudflare.com",
+		"ken.ns.cloudflare.com"
 	],
 	"policies": [
 		{
