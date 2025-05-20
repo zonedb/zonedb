@@ -1,9 +1,9 @@
 {
 	"domain": "school.ge",
 	"nameServers": [
-		"ns1.nic-ge.com",
 		"ns1.nic.ge",
-		"ns2.nic-ge.com",
-		"ns2.nic.ge"
+		"ns2.nic.ge",
+		"ns3.nic.ge",
+		"ns4.nic.ge"
 	]
 }
