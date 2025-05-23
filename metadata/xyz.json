@@ -1,6 +1,7 @@
 {
 	"domain": "xyz",
 	"registryOperator": "XYZ.COM LLC",
+	"infoURL": "https://nic.xyz/",
 	"whoisServer": "whois.nic.xyz",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/xyz/"
