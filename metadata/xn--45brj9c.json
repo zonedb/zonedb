@@ -5,12 +5,8 @@
 	"nameServers": [
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
-		"ns1.registry.in",
-		"ns2.registry.in",
-		"ns3.registry.in",
-		"ns4.registry.in",
-		"ns5.registry.in",
-		"ns6.registry.in"
+		"ns10.trs-dns.info",
+		"ns10.trs-dns.org"
 	],
 	"locations": [
 		"IN-WB",
