@@ -1,9 +1,8 @@
 {
 	"domain": "com.mp",
 	"nameServers": [
-		"a.dnspod.com",
-		"b.dnspod.com",
-		"c.dnspod.com"
+		"n1.xundns.com",
+		"n2.xundns.com"
 	],
 	"policies": [
 		{
