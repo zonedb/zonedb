@@ -149,16 +149,22 @@ func ReadMetadata(zones map[string]*Zone) (errs []error) {
 
 // WriteZonesFile writes the zones.txt file.
 func WriteZonesFile(zones map[string]*Zone) error {
-	domains := SortedDomains(zones)
 	path := filepath.Join(BaseDir, "zones.txt")
 	f, err := os.Create(path)
 	if err != nil {
 		return err
 	}
 	defer f.Close()
-	_, err = f.WriteString(strings.Join(domains, "\n"))
-	if err != nil {
-		return err
+	domains := SortedDomains(zones)
+	for i := range domains {
+		_, err = f.WriteString(domains[i])
+		if err != nil {
+			return err
+		}
+		_, err = f.WriteString("\n")
+		if err != nil {
+			return err
+		}
 	}
 	color.Fprintf(os.Stderr, "@{.}Wrote %d zones\n", len(domains))
 	return nil
