@@ -204,8 +204,8 @@ func WriteMetadata(zones map[string]*Zone, delete bool) error {
 	color.Fprintf(os.Stderr, "@{.}Wrote %d metadata files\n", written)
 	slices.Sort(created)
 	slices.Sort(deleted)
-	color.Fprintf(os.Stderr, "@{.}Created %d: %v\n", len(created), created)
-	color.Fprintf(os.Stderr, "@{.}Deleted %d: %v\n", len(deleted), deleted)
+	color.Fprintf(os.Stderr, "@{g}Created %d: %v\n", len(created), created)
+	color.Fprintf(os.Stderr, "@{b}Deleted %d: %v\n", len(deleted), deleted)
 	return nil
 }
 
