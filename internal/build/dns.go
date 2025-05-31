@@ -371,7 +371,7 @@ func FindWildcards(zones map[string]*Zone) error {
 }
 
 func randLabel(n int) string {
-	const ascii = "0123456789abcdefghijklmnopqrstuvwxyz-"
+	const ascii = "0123456789abcdefghijklmnopqrstuvwxyz"
 	b := make([]byte, n)
 	for i := range b {
 		b[i] = ascii[rand.Int63()%int64(len(ascii))]
