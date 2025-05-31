@@ -2,6 +2,7 @@ package build
 
 import (
 	"encoding/json"
+	"fmt"
 	"sort"
 	"strings"
 	"sync"
@@ -64,7 +65,6 @@ func (z *Zone) normalizeLanguages() {
 		tag, err := language.Parse(lang)
 		if err != nil {
 			Trace("Zone %s has malformed language tag: %s\n", z.Domain, lang)
-
 		}
 		nlangs.Add(tag.String())
 	}
@@ -74,7 +74,7 @@ func (z *Zone) normalizeLanguages() {
 
 func (z *Zone) normalizePolicies() {
 	// De-dupe
-	var set = make(map[Policy]struct{}, len(z.Policies))
+	set := make(map[Policy]struct{}, len(z.Policies))
 	var hasIDNTable bool
 	var hasIDNDisallowed bool
 	for _, p := range z.Policies {
@@ -226,6 +226,13 @@ func (z *Zone) IsRetiredOrWithdrawn() bool {
 // Brand TLDs have tag "brand".
 func (z *Zone) IsBrand() bool {
 	return NewSet(z.Tags...)[TagBrand]
+}
+
+func (z *Zone) String() string {
+	if z.IsIDN() {
+		return fmt.Sprintf("%s (%s)", z.Domain, z.ASCII())
+	}
+	return z.Domain
 }
 
 // TLDs filters a zone set for top-level domains.

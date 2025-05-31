@@ -3,10 +3,13 @@ package build
 import (
 	"bufio"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
+	"io/fs"
 	"os"
 	"path/filepath"
+	"slices"
 	"sort"
 	"strings"
 
@@ -146,16 +149,22 @@ func ReadMetadata(zones map[string]*Zone) (errs []error) {
 
 // WriteZonesFile writes the zones.txt file.
 func WriteZonesFile(zones map[string]*Zone) error {
-	domains := SortedDomains(zones)
 	path := filepath.Join(BaseDir, "zones.txt")
 	f, err := os.Create(path)
 	if err != nil {
 		return err
 	}
 	defer f.Close()
-	_, err = f.WriteString(strings.Join(domains, "\n"))
-	if err != nil {
-		return err
+	domains := SortedDomains(zones)
+	for i := range domains {
+		_, err = f.WriteString(domains[i])
+		if err != nil {
+			return err
+		}
+		_, err = f.WriteString("\n")
+		if err != nil {
+			return err
+		}
 	}
 	color.Fprintf(os.Stderr, "@{.}Wrote %d zones\n", len(domains))
 	return nil
@@ -163,30 +172,57 @@ func WriteZonesFile(zones map[string]*Zone) error {
 
 // WriteMetadata writes the metadata/*.json files.
 func WriteMetadata(zones map[string]*Zone, delete bool) error {
-	var wrote, deleted int
+	var created, deleted []string
+	var written int
 	for _, z := range zones {
 		z.Normalize()
 		path := filepath.Join(BaseDir, "metadata", z.ASCII()+".json")
 		if delete || !z.HasMetadata() {
 			err := os.Remove(path)
 			if err == nil {
-				deleted++
+				deleted = append(deleted, z.ASCII())
+			} else if !errors.Is(err, fs.ErrNotExist) {
+				LogError(err)
 			}
 			continue
 		}
-		f, err := os.Create(path)
+		var newFile bool
+		f, err := os.Open(path) // open read-only
+		newFile = errors.Is(err, fs.ErrNotExist)
+		if f != nil {
+			_ = f.Close() // nothing to sync, cannot error
+		}
+		err = writeMetadataFile(z, path)
 		if err != nil {
 			return err
 		}
-		b, err := json.MarshalIndent(&z, "", "\t")
-		if err != nil {
-			return err
+		written++
+		if newFile {
+			created = append(created, z.ASCII())
 		}
-		f.Write(b)
-		f.Write([]byte("\n"))
-		f.Close()
-		wrote++
 	}
-	color.Fprintf(os.Stderr, "@{.}Wrote %d metadata files, deleted %d\n", wrote, deleted)
+	color.Fprintf(os.Stderr, "@{.}Wrote %d metadata files\n", written)
+	slices.Sort(created)
+	slices.Sort(deleted)
+	color.Fprintf(os.Stderr, "@{g}Created %d: %v\n", len(created), created)
+	color.Fprintf(os.Stderr, "@{b}Deleted %d: %v\n", len(deleted), deleted)
 	return nil
+}
+
+func writeMetadataFile(z *Zone, path string) (err error) {
+	var f *os.File
+	f, err = os.Create(path) // open read-write and truncate
+	if err != nil {
+		return
+	}
+	defer func() {
+		if err != nil {
+			return
+		}
+		err = f.Close()
+	}()
+	enc := json.NewEncoder(f)
+	enc.SetIndent("", "\t")
+	err = enc.Encode(&z)
+	return
 }

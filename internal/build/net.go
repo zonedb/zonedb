@@ -4,8 +4,11 @@ import (
 	"fmt"
 	"net"
 	"net/http"
+	"os"
 	"sync"
 	"time"
+
+	"github.com/wsxiaoys/terminal/color"
 )
 
 const httpUserAgent = "zonedb/1.0 (https://github.com/zonedb/zonedb)"
@@ -20,6 +23,7 @@ var (
 
 // Fetch fetches a URL.
 func Fetch(u string) (*http.Response, error) {
+	color.Fprintf(os.Stderr, "@{.}Fetching %s\n", u)
 	req, err := http.NewRequest("GET", u, nil)
 	if err != nil {
 		return nil, err
@@ -38,7 +42,7 @@ func Fetch(u string) (*http.Response, error) {
 // CanDial verifies if possible to connect to a given network and address.
 // Returns nil for successful dial or an error.
 func CanDial(network, addr string) error {
-	var k = network + " " + addr
+	k := network + " " + addr
 	mtx.RLock()
 	err, ok := dialCache[k]
 	mtx.RUnlock()

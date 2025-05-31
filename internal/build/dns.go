@@ -150,10 +150,10 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 			if err != nil {
 				var to timeouter
 				if errors.As(err, &to) && to.Timeout() {
-					Trace("@{.}Timeout querying %s for @{!}%s@{.}: %s\n", host, z.Domain, err.Error())
+					Trace("@{.}Timeout querying %s for @{!}%s@{.}: %s\n", host, z, err.Error())
 					continue
 				}
-				color.Fprintf(os.Stderr, "@{r}Error querying %s for @{r!}%s@{r}: %s\n", host, z.Domain, err.Error())
+				color.Fprintf(os.Stderr, "@{r}Error querying %s for @{r!}%s@{r}: %s\n", host, z, err.Error())
 
 				// Cache host not found
 				if strings.Contains(err.Error(), "no such host") {
@@ -199,7 +199,7 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 			// Ignore non-consensus values where > 1 name server does not return ns
 			// FIXME: this criteria is subjective)
 			if count == 1 && max > 2 {
-				color.Fprintf(os.Stderr, "@{y}Warning: non-consensus name server for %s: %s (%d < %d)\n", z.Domain, ns, count, max)
+				color.Fprintf(os.Stderr, "@{y}Warning: non-consensus name server for %s: %s (%d < %d)\n", z, ns, count, max)
 				atomic.AddInt32(&skipped, 1)
 				continue
 			}
@@ -214,7 +214,7 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 
 		// Sanity check
 		if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 {
-			color.Fprintf(os.Stderr, "@{y}Zone lost all name servers: @{y!}%s@{y}\n", z.Domain)
+			color.Fprintf(os.Stderr, "@{y}Zone lost all name servers: @{y!}%s@{y}\n", z)
 		}
 
 		// Record changes
@@ -273,7 +273,7 @@ func CountNameServers(zones map[string]*Zone) {
 			atomic.AddInt32(&found, 1)
 			for _, tag := range z.Tags {
 				if tag == TagRetired || tag == TagWithdrawn {
-					color.Fprintf(os.Stderr, "@{y}Retired/withdrawn zone with active name servers: %s\n", z.Domain)
+					color.Fprintf(os.Stderr, "@{y}Retired/withdrawn zone with active name servers: %s\n", z)
 				}
 			}
 		}
@@ -371,7 +371,7 @@ func FindWildcards(zones map[string]*Zone) error {
 }
 
 func randLabel(n int) string {
-	const ascii = "0123456789abcdefghijklmnopqrstuvwxyz-"
+	const ascii = "0123456789abcdefghijklmnopqrstuvwxyz"
 	b := make([]byte, n)
 	for i := range b {
 		b[i] = ascii[rand.Int63()%int64(len(ascii))]
