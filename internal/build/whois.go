@@ -102,8 +102,8 @@ func FetchRubyWhoisServers(zones map[string]*Zone, addNew bool) error {
 			if !addNew {
 				continue
 			}
-			color.Fprintf(os.Stderr, "@{g}New zone @{g!}%s@{g}\n", d)
 			z = &Zone{Domain: d}
+			color.Fprintf(os.Stderr, "@{g}New zone @{g!}%s@{g}\n", z)
 			zones[d] = z
 		}
 		if rec.Host != "" && rec.Host != z.WhoisServer {
@@ -138,6 +138,7 @@ func QueryIANA(zones map[string]*Zone) error {
 			}()
 			err := tldWhois(z)
 			if err != nil {
+				err = fmt.Errorf("%s: whois.iana.org: %w", z, err)
 				LogWarning(err)
 			}
 		}(z)
