@@ -3,14 +3,12 @@
 	"infoURL": "https://www.iana.org/domains/root/db/xn--xkc2al3hye2a.html",
 	"whoisServer": "whois.nic.lk",
 	"nameServers": [
-		"lk.communitydns.net",
-		"nic.lk-anycast.pch.net",
-		"ns-c.nic.lk",
-		"ns-d.nic.lk",
-		"ns-l.nic.lk",
-		"ns-t.nic.lk",
+		"h.nic.lk",
+		"m.nic.lk",
 		"ns1.ac.lk",
-		"ns3.ac.lk"
+		"p.nic.lk",
+		"t.nic.lk",
+		"y.nic.lk"
 	],
 	"tags": [
 		"country",

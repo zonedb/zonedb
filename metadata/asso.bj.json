@@ -1,9 +1,5 @@
 {
 	"domain": "asso.bj",
-	"nameServers": [
-		"ns5.afriregister.co.ke",
-		"ns6.afriregister.co.ke"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

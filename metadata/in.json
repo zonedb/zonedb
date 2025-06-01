@@ -1,9 +1,9 @@
 {
 	"domain": "in",
 	"infoURL": "https://www.registry.in/",
-	"whoisServer": "whois.registry.in",
+	"whoisServer": "whois.nixiregistry.in",
 	"rdapURLs": [
-		"https://rdap.registry.in/"
+		"https://rdap.nixiregistry.in/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",

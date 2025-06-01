@@ -9,6 +9,7 @@
 	"nameServers": [
 		"a.ns.nic.blog",
 		"b.ns.nic.blog",
+		"c.ns.nic.blog",
 		"d.ns.nic.blog"
 	],
 	"languages": [

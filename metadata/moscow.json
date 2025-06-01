@@ -4,7 +4,7 @@
 	"infoURL": "http://www.nic.moscow/",
 	"whoisServer": "whois.nic.moscow",
 	"rdapURLs": [
-		"https://flexireg.net/moscow/rdap/"
+		"https://rdap.flexireg.net/"
 	],
 	"nameServers": [
 		"a.dns.flexireg.ru",
