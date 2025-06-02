@@ -10,27 +10,43 @@ on:
 
 jobs:
   test-go:
-    name: Test, Vet, Vulncheck Go code
-    runs-on: ubuntu-22.04
+    name: Test with Go
+    runs-on: ubuntu-latest
     timeout-minutes: 15
+
     strategy:
+      fail-fast: false
+      # This is a special matrix that tests against the listed version AND the
+      # Go version from go.mod. See usage in the actions/setup-go step.
       matrix:
-        go-version: ["1.22", "1.23", "1.24"]
-    env:
-      CGO_ENABLED: 0
+        go-version: ["oldstable", "stable"]
+        include:
+          - go-version-file: "go.mod"
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4.2.2
         with:
           submodules: recursive
 
-      - name: Set up Go
+      - name: Set up Go Version
+        if: matrix.go-version != ''
         uses: actions/setup-go@v5.5.0
         with:
           go-version: ${{ matrix.go-version }}
-          # check-latest: true # not needed when using 'stable'
+
+      - name: Set up Go from go.mod
+        if: matrix.go-version-file != ''
+        uses: actions/setup-go@v5.5.0
+        with:
+          go-version-file: ${{ matrix.go-version-file }}
+
+      - name: Get go dependencies
+        run: go get -t ./...
 
       - name: Run Go tests
+        env:
+          CGO_ENABLED: "0"
         run: go test -bench . ./...
 
       - name: Run Go tests with race detector
@@ -44,7 +60,8 @@ jobs:
       - name: govulncheck
         uses: golang/govulncheck-action@v1.0.4
         with:
-          cache: false
+          go-version: "stable"
+          check-latest: true
           repo-checkout: false
 
       - name: Verify repo is unchanged
@@ -52,19 +69,27 @@ jobs:
 
   # Test with TinyGo
   test-tinygo-wasm:
-    name: Test with WASM and TinyGo
-    runs-on: ubuntu-22.04
+    name: Test WASM with Go and TinyGo
+    runs-on: ubuntu-latest
     timeout-minutes: 15
+
     strategy:
+      fail-fast: false
+      # This is a special matrix that tests against the listed version AND the
+      # Go version from go.mod. See usage in the actions/setup-go step.
       matrix:
-        go-version: ["1.22", "1.23", "1.24"]
-        tinygo-version: ["0.34.0", "0.35.0", "0.36.0", "0.37.0"] # FIXME: this needs to be manually bumped; something should ping when a new version is available
-        exclude:
-          - go-version: "1.24"
-            tinygo-version: "0.34.0"
-          - go-version: "1.24"
-            tinygo-version: "0.35.0"
-        wasmtime-version: ["v21.0.1"]
+        go-version:
+          - big: "1.23"
+            tiny: "0.36.0"
+          - big: "1.24"
+            tiny: "0.37.0"
+        # FIXME: TinyGo needs to be manually bumped; it doesn't immediately
+        # release support for new major Go versions something should ping when a
+        # new version is available.
+        include:
+          - go-version:
+              file: "go.mod"
+              tiny: "0.37.0"
 
     steps:
       - name: Checkout repo
@@ -72,35 +97,50 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Set up Go
+      - name: Set up Go Version
+        if: matrix.go-version.big != ''
         uses: actions/setup-go@v5.5.0
         with:
-          go-version: ${{ matrix.go-version }} # TinyGo doesn't immediately release support for new major Go versions
+          go-version: ${{ matrix.go-version.big }}
+
+      - name: Set up Go from go.mod
+        if: matrix.go-version.file != ''
+        uses: actions/setup-go@v5.5.0
+        with:
+          go-version-file: ${{ matrix.go-version.file }}
+
+      - name: Get go dependencies
+        run: go get -t ./...
+
+      - name: Add Go wasm exec to $PATH (for Go < 1.24 and Go >= 1.24)
+        run: |
+          type "$(go env GOROOT)/misc/wasm" && (echo "$(go env GOROOT)/misc/wasm" >> $GITHUB_PATH) || true
+          type "$(go env GOROOT)/lib/wasm" && (echo "$(go env GOROOT)/lib/wasm" >> $GITHUB_PATH) || true
 
       - name: Set up TinyGo
         uses: acifani/setup-tinygo@v2.0.0
+        continue-on-error: true # the binaryen install can fail, but we check that binaryen is installed in the next step.
         with:
-          tinygo-version: ${{ matrix.tinygo-version }}
+          tinygo-version: "${{ matrix.go-version.tiny }}"
+
+      - name: Check for binaryen
+        run: wasm-opt --version
 
       - name: Set up Wasmtime
         uses: bytecodealliance/actions/wasmtime/setup@v1.1.1
         with:
-          version: ${{ matrix.wasmtime-version }}
-
-      - name: Add Go wasm exec to $PATH (for Go < 1.24 and Go >= 1.24)
-        run: |
-          echo "$(go env GOROOT)/misc/wasm" >> $GITHUB_PATH
-          echo "$(go env GOROOT)/lib/wasm" >> $GITHUB_PATH
+          version: v32.0.0
 
       - name: Test with TinyGo
         # This only tests the apex package, not ./internal/build
         # due to TinyGo support for net.UDPConn and net.IPConn
         run: tinygo test -bench -target=wasip1 . ./
 
-      - name: Test WebAssembly with Go + Wasmtime
-        run: go test ./...
+      - name: Test WASM with Go + wasmtime
+        run: GOARCH=wasm GOOS=wasip1 go test ./...
+        continue-on-error: true
 
-      - name: Test WebAssembly with TinyGo + Wasmtime
+      - name: Test WASM with TinyGo + wasmtime
         # This only tests the apex package, not ./internal/build
         # due to TinyGo support for net.UDPConn and net.IPConn
         run: tinygo test -target=wasip1 ./

@@ -4,16 +4,16 @@ on:
   workflow_dispatch:
     inputs:
       zonedbArgs:
-        description: 'zonedb arguments'
+        description: "zonedb arguments"
         required: false
-        default: ''
+        default: ""
   schedule:
     - cron: "07 8 * * *" # 08:07 UTC, or 12:07 AM PT
 
 jobs:
   update:
     name: Update ZoneDB
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
       - name: Checkout repo
@@ -25,7 +25,10 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5.5.0
         with:
-          go-version-file: 'go.mod'
+          go-version: "stable"
+
+      - name: Get go dependencies
+        run: go get -t ./...
 
       - name: Update ZoneDB
         env:
