@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   test-go:
-    name: Test with Go
+    name: Test Go
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -23,8 +23,8 @@ jobs:
       # This is a special matrix that tests against the listed version AND the
       # Go version from go.mod. See usage in the actions/setup-go step.
       matrix:
-        go-version: ["oldstable", "stable"]
         include:
+          - go-version: "stable"
           - go-version-file: "go.mod"
 
     steps:
@@ -34,15 +34,9 @@ jobs:
           submodules: recursive
 
       - name: Set up Go Version
-        if: matrix.go-version != ''
         uses: actions/setup-go@v5.5.0
         with:
           go-version: ${{ matrix.go-version }}
-
-      - name: Set up Go from go.mod
-        if: matrix.go-version-file != ''
-        uses: actions/setup-go@v5.5.0
-        with:
           go-version-file: ${{ matrix.go-version-file }}
 
       - name: Get go dependencies
@@ -64,8 +58,7 @@ jobs:
       - name: govulncheck
         uses: golang/govulncheck-action@v1.0.4
         with:
-          go-version: "stable"
-          check-latest: true
+          go-version-input: "stable"
           repo-checkout: false
 
       - name: Verify repo is unchanged
@@ -73,7 +66,7 @@ jobs:
 
   # Test with TinyGo
   test-tinygo-wasm:
-    name: Test WASM with Go and TinyGo
+    name: Test WASM Go & TinyGo
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -95,6 +88,10 @@ jobs:
               file: "go.mod"
               tiny: "0.37.0"
 
+    env:
+      GODEBUG: toolchaintrace=1
+      GOTOOLCHAIN: local
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4.2.2
@@ -102,24 +99,21 @@ jobs:
           submodules: recursive
 
       - name: Set up Go Version
-        if: matrix.go-version.big != ''
         uses: actions/setup-go@v5.5.0
         with:
           go-version: ${{ matrix.go-version.big }}
-
-      - name: Set up Go from go.mod
-        if: matrix.go-version.file != ''
-        uses: actions/setup-go@v5.5.0
-        with:
           go-version-file: ${{ matrix.go-version.file }}
-
-      - name: Get go dependencies
-        run: go get -t ./...
 
       - name: Add Go wasm exec to $PATH (for Go < 1.24 and Go >= 1.24)
         run: |
-          type "$(go env GOROOT)/misc/wasm" && (echo "$(go env GOROOT)/misc/wasm" >> $GITHUB_PATH) || true
-          type "$(go env GOROOT)/lib/wasm" && (echo "$(go env GOROOT)/lib/wasm" >> $GITHUB_PATH) || true
+          echo "$(go env GOROOT)/misc/wasm" >> $GITHUB_PATH
+          echo "$(go env GOROOT)/lib/wasm" >> $GITHUB_PATH
+
+      - name: Check for wasmtime bridge
+        run: which go_wasip1_wasm_exec
+
+      - name: Get go dependencies
+        run: go get -t ./...
 
       - name: Set up TinyGo
         uses: acifani/setup-tinygo@v2.0.0
@@ -141,8 +135,8 @@ jobs:
         run: tinygo test -bench -target=wasip1 . ./
 
       - name: Test WASM with Go + wasmtime
-        run: GOARCH=wasm GOOS=wasip1 go test ./...
-        continue-on-error: true
+        # https://go.dev/blog/wasi#running-go-tests-with-wasip1
+        run: GOOS=wasip1 GOARCH=wasm go test ./...
 
       - name: Test WASM with TinyGo + wasmtime
         # This only tests the apex package, not ./internal/build
@@ -159,8 +153,9 @@ jobs:
 
   # Tag release
   tag-release:
-    name: Tag release
-    runs-on: ubuntu-22.04
+    name: Tag Release
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
     timeout-minutes: 1
     needs: [test-go, test-tinygo-wasm]
     steps:
@@ -171,7 +166,6 @@ jobs:
           submodules: recursive
 
       - name: Tag release
-        if: github.ref == 'refs/heads/main'
         run: make tag-version
 
       - name: Notify if failure
