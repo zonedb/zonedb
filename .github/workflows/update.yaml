@@ -47,10 +47,9 @@ jobs:
 
       - name: Commit changes
         run: |
-          [[ -z $(git status -s) ]] || (
+          [[ -z $(git status -s) ]] || ( git add -v --all .
             git config --global user.email robot@zonedb.org
             git config --global user.name zonedbot
-            git add -v --all .
             git commit -m "Automatic update for `date -u`"
             git push origin -u HEAD
           )
