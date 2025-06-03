@@ -1,4 +1,4 @@
-name: Update
+name: Data Update
 
 on:
   workflow_dispatch:
@@ -9,6 +9,10 @@ on:
         default: ""
   schedule:
     - cron: "07 8 * * *" # 08:07 UTC, or 12:07 AM PT
+
+concurrency:
+  group: update-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   update:
