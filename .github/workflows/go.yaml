@@ -36,7 +36,7 @@ jobs:
       - name: Set up Go Version
         uses: actions/setup-go@v5.5.0
         with:
-          go-version: ${{ matrix.go-version }}
+          go-version: ${{ matrix.go-version }} # overrides go-version-file when a value is present
           go-version-file: ${{ matrix.go-version-file }}
 
       - name: Get go dependencies
@@ -101,7 +101,7 @@ jobs:
       - name: Set up Go Version
         uses: actions/setup-go@v5.5.0
         with:
-          go-version: ${{ matrix.go-version.big }}
+          go-version: ${{ matrix.go-version.big }} # overrides go-version-file when a value is present
           go-version-file: ${{ matrix.go-version.file }}
 
       - name: Add Go wasm exec to $PATH (for Go < 1.24 and Go >= 1.24)
@@ -116,10 +116,10 @@ jobs:
         run: go get -t ./...
 
       - name: Set up TinyGo
-        uses: acifani/setup-tinygo@v2.0.0
-        continue-on-error: true # the binaryen install can fail, but we check that binaryen is installed in the next step.
+        uses: acifani/setup-tinygo@v2.0.1
         with:
           tinygo-version: "${{ matrix.go-version.tiny }}"
+          binaryen-version: "123"
 
       - name: Check for binaryen
         run: wasm-opt --version
@@ -147,8 +147,9 @@ jobs:
         run: git diff --exit-code HEAD
 
       - name: Notify if failure
-        if: ${{ failure() }}
+        if: failure() # can't use secrets context here; shell command will exit if the secret is not set
         run: |
+          test -z "${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}" && exit 0
           curl -Ss -X POST -H 'Content-type: application/json' --data '{"text":"❌ ZoneDB TinyGo tests failed"}' ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
 
   # Tag release
@@ -169,7 +170,7 @@ jobs:
         run: make tag-version
 
       - name: Notify if failure
-        if: ${{ failure() }}
+        if: failure() # can't use secrets context here; shell command will exit if the secret is not set
         run: |
           curl -Ss -X POST -H 'Content-type: application/json' --data '{"text":"❌ ZoneDB tests failed"}' ${{ secrets.SLACK_WEBHOOK_URL_GH_ACTIONS }}
 
