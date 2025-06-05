@@ -10,7 +10,11 @@
 		"a0.nic.latino",
 		"a2.nic.latino",
 		"b0.nic.latino",
-		"c0.nic.latino"
+		"c0.nic.latino",
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.info",
+		"ns01.trs-dns.net",
+		"ns01.trs-dns.org"
 	],
 	"tags": [
 		"generic"

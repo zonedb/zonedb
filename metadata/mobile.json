@@ -10,7 +10,11 @@
 		"a0.nic.mobile",
 		"a2.nic.mobile",
 		"b0.nic.mobile",
-		"c0.nic.mobile"
+		"c0.nic.mobile",
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.info",
+		"ns01.trs-dns.net",
+		"ns01.trs-dns.org"
 	],
 	"tags": [
 		"generic"

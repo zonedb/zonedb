@@ -10,7 +10,11 @@
 		"a0.nic.dtv",
 		"a2.nic.dtv",
 		"b0.nic.dtv",
-		"c0.nic.dtv"
+		"c0.nic.dtv",
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.info",
+		"ns01.trs-dns.net",
+		"ns01.trs-dns.org"
 	],
 	"tags": [
 		"brand",

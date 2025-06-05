@@ -10,7 +10,11 @@
 		"a0.nic.blockbuster",
 		"a2.nic.blockbuster",
 		"b0.nic.blockbuster",
-		"c0.nic.blockbuster"
+		"c0.nic.blockbuster",
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.info",
+		"ns01.trs-dns.net",
+		"ns01.trs-dns.org"
 	],
 	"tags": [
 		"brand",
