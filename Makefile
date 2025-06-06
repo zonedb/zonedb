@@ -26,12 +26,14 @@ test-tinygo-wasm:
 	tinygo test -target wasip1 $(GO_TEST_ARGS)
 
 zones.go: zones.txt metadata/*.json internal/* internal/*/*
-	go generate
+	go generate -x
 
 .PHONY: update
-update:
+update: update-zones zones.go
+
+.PHONY: update-zones
+update-zones:
 	go run ./cmd/zonedb -update -w -c 100 $(ZONEDB_ARGS)
-	$(MAKE) zones.go
 
 .PHONY: normalize
 normalize:

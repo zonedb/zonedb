@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"net"
 	"os"
 	"regexp"
@@ -43,7 +43,9 @@ func QueryWhoisServers(zones map[string]*Zone) error {
 		name := z.ASCII() + ".whois-servers.net."
 		rmsg, err := exchange(ctx, host, name, dns.TypeCNAME) // Single-depth CNAME query
 		if err != nil {
-			// color.Fprintf(os.Stderr, "@{r}Error querying %s: %s\n", name, err.Error())
+			if terr, ok := err.(timeouter); ok && !terr.Timeout() {
+				color.Fprintf(os.Stderr, "@{r}Error querying %s for %s: %s\n", name, z, err.Error())
+			}
 			return
 		}
 		for _, rr := range rmsg.Answer {
@@ -102,8 +104,8 @@ func FetchRubyWhoisServers(zones map[string]*Zone, addNew bool) error {
 			if !addNew {
 				continue
 			}
-			color.Fprintf(os.Stderr, "@{g}New zone @{g!}%s@{g}\n", d)
 			z = &Zone{Domain: d}
+			color.Fprintf(os.Stderr, "@{g}New zone @{g!}%s@{g}\n", z)
 			zones[d] = z
 		}
 		if rec.Host != "" && rec.Host != z.WhoisServer {
@@ -138,6 +140,7 @@ func QueryIANA(zones map[string]*Zone) error {
 			}()
 			err := tldWhois(z)
 			if err != nil {
+				err = fmt.Errorf("%s: whois.iana.org: %w", z, err)
 				LogWarning(err)
 			}
 		}(z)
@@ -202,7 +205,7 @@ func queryWhois(addr, query string) ([]byte, error) {
 	if _, err = fmt.Fprint(c, query, "\r\n"); err != nil {
 		return nil, err
 	}
-	res, err := ioutil.ReadAll(c)
+	res, err := io.ReadAll(c)
 	if err != nil {
 		return nil, err
 	}

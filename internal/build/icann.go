@@ -82,7 +82,7 @@ func FetchGTLDsFromICANN(zones map[string]*Zone) error {
 			}
 		} else if !z.IsRetiredOrWithdrawn() && z.IsBrand() {
 			// https://newgtlds.icann.org/en/applicants/agb/base-agreement-contracting/specification-13-applications
-			Trace("@{y}Brand gTLD without ICANN Specification 13: @{y!}%s\n", z.Domain)
+			Trace("@{y}Brand gTLD without ICANN Specification 13: @{y!}%s\n", z)
 		}
 
 		// Extract registry operator
