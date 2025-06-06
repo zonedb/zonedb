@@ -5,6 +5,7 @@ module github.com/zonedb/zonedb
 // Note: this should use the latest dot release in CI, once GitHub has added it to "actions/go-versions"
 go 1.23.8
 
+// Internal packages rely on newer Go versions. GitHub Actions is set up to test versions between the go and toolchain declarations.
 toolchain go1.24.3
 
 require (
