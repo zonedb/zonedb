@@ -9,10 +9,10 @@
 	"nameServers": [
 		"a.nic.クラウド",
 		"b.nic.クラウド",
-		"c.nic.クラウド",
-		"ns1.dns.nic.クラウド",
-		"ns2.dns.nic.クラウド",
-		"ns3.dns.nic.クラウド"
+		"ns3.dns.nic.クラウド",
+		"v0n0.nic.クラウド",
+		"v0n1.nic.クラウド",
+		"v0n2.nic.クラウド"
 	],
 	"languages": [
 		"ar",

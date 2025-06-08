@@ -9,10 +9,10 @@
 	"nameServers": [
 		"a.nic.ポイント",
 		"b.nic.ポイント",
-		"c.nic.ポイント",
-		"ns1.dns.nic.ポイント",
-		"ns2.dns.nic.ポイント",
-		"ns3.dns.nic.ポイント"
+		"ns3.dns.nic.ポイント",
+		"v0n0.nic.ポイント",
+		"v0n1.nic.ポイント",
+		"v0n2.nic.ポイント"
 	],
 	"languages": [
 		"ar",

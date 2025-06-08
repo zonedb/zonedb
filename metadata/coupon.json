@@ -9,10 +9,10 @@
 	"nameServers": [
 		"a.nic.coupon",
 		"b.nic.coupon",
-		"c.nic.coupon",
-		"ns1.dns.nic.coupon",
-		"ns2.dns.nic.coupon",
-		"ns3.dns.nic.coupon"
+		"ns3.dns.nic.coupon",
+		"v0n0.nic.coupon",
+		"v0n1.nic.coupon",
+		"v0n2.nic.coupon"
 	],
 	"languages": [
 		"ar",

@@ -9,10 +9,10 @@
 	"nameServers": [
 		"a.nic.zero",
 		"b.nic.zero",
-		"c.nic.zero",
-		"ns1.dns.nic.zero",
-		"ns2.dns.nic.zero",
-		"ns3.dns.nic.zero"
+		"ns3.dns.nic.zero",
+		"v0n0.nic.zero",
+		"v0n1.nic.zero",
+		"v0n2.nic.zero"
 	],
 	"languages": [
 		"ar",

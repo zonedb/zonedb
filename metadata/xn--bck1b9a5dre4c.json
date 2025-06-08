@@ -9,10 +9,10 @@
 	"nameServers": [
 		"a.nic.ファッション",
 		"b.nic.ファッション",
-		"c.nic.ファッション",
-		"ns1.dns.nic.ファッション",
-		"ns2.dns.nic.ファッション",
-		"ns3.dns.nic.ファッション"
+		"ns3.dns.nic.ファッション",
+		"v0n0.nic.ファッション",
+		"v0n1.nic.ファッション",
+		"v0n2.nic.ファッション"
 	],
 	"languages": [
 		"ar",

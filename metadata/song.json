@@ -9,10 +9,10 @@
 	"nameServers": [
 		"a.nic.song",
 		"b.nic.song",
-		"c.nic.song",
-		"ns1.dns.nic.song",
-		"ns2.dns.nic.song",
-		"ns3.dns.nic.song"
+		"ns3.dns.nic.song",
+		"v0n0.nic.song",
+		"v0n1.nic.song",
+		"v0n2.nic.song"
 	],
 	"languages": [
 		"ar",

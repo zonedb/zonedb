@@ -9,10 +9,10 @@
 	"nameServers": [
 		"a.nic.ストア",
 		"b.nic.ストア",
-		"c.nic.ストア",
-		"ns1.dns.nic.ストア",
-		"ns2.dns.nic.ストア",
-		"ns3.dns.nic.ストア"
+		"ns3.dns.nic.ストア",
+		"v0n0.nic.ストア",
+		"v0n1.nic.ストア",
+		"v0n2.nic.ストア"
 	],
 	"languages": [
 		"ar",

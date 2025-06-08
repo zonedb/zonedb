@@ -1,5 +1,15 @@
 {
 	"domain": "gov.mu",
+	"nameServers": [
+		"ns1.gov.mu",
+		"ns2.gov.mu",
+		"ns3.gov.mu",
+		"ns4.gov.mu"
+	],
+	"wildcards": [
+		"127.0.0.1",
+		"::1"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
