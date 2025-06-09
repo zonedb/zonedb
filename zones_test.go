@@ -279,3 +279,27 @@ func BenchmarkInitAllocs(b *testing.B) {
 		initZones()
 	}
 }
+
+func TestSpecialDomainPolicies(t *testing.T) {
+	tests := []struct {
+		domain          string
+		expectAllowsIDN bool
+	}{
+		{domain: "s.bg", expectAllowsIDN: false}, // From s.bg.json, "idn-disallowed"
+		{domain: "bg", expectAllowsIDN: true},    // From bg.json, has IDN tables
+	}
+
+	for _, tt := range tests {
+		t.Run(fmt.Sprintf("Domain_%s", tt.domain), func(t *testing.T) {
+			zone, ok := ZoneMap[tt.domain]
+			if !ok {
+				t.Fatalf("Zone '%s' not found in ZoneMap", tt.domain)
+			}
+
+			allowsIDN := zone.AllowsIDN()
+			if allowsIDN != tt.expectAllowsIDN {
+				t.Errorf("Zone '%s': AllowsIDN() got %v, want %v", tt.domain, allowsIDN, tt.expectAllowsIDN)
+			}
+		})
+	}
+}
