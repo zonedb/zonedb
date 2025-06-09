@@ -290,7 +290,7 @@ func TestSpecialDomainPolicies(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		t.Run(fmt.Sprintf("Domain_%s", tt.domain), func(t *testing.T) {
+		t.Run(tt.domain, func(t *testing.T) {
 			zone, ok := ZoneMap[tt.domain]
 			if !ok {
 				t.Fatalf("Zone '%s' not found in ZoneMap", tt.domain)
