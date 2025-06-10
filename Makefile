@@ -1,3 +1,6 @@
+# Clear built-in suffix rules to prevent SCCS rule for s.* files
+.SUFFIXES:
+
 export PATH := $(PATH):$(shell go env GOROOT)/misc/wasm
 # wasm tools moved in Go 1.24:
 export PATH := $(PATH):$(shell go env GOROOT)/lib/wasm
