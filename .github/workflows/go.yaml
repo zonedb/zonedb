@@ -64,6 +64,27 @@ jobs:
       - name: Verify repo is unchanged
         run: git diff --exit-code HEAD
 
+  test-makefile:
+    name: Test Makefile Integrity
+    runs-on: ubuntu-22.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4.2.2
+        with:
+          submodules: recursive
+
+      - name: Set up Go
+        uses: actions/setup-go@v5.5.0
+        with:
+          go-version: "stable"
+
+      - name: Get go dependencies
+        run: go get -t ./...
+
+      - name: Run Makefile Integrity Tests
+        run: make test-makefile-integrity
+
   # Test with TinyGo
   test-tinygo-wasm:
     name: Test WASM Go & TinyGo
