@@ -1,5 +1,8 @@
-# Clear built-in suffix rules to prevent SCCS rule for s.* files
+# Clear many built-in suffix rules to speed things up
 .SUFFIXES:
+
+%.json ::
+	@# drop all implicit rules for .json files.
 
 export PATH := $(PATH):$(shell go env GOROOT)/misc/wasm
 # wasm tools moved in Go 1.24:
@@ -52,3 +55,18 @@ tag_version=v$(major_version).$(number_of_commits)
 tag-version: .git/refs/heads/main
 	git tag $(tag_version) $(git_revision)
 	git push --tags
+
+.PHONY: test-makefile-integrity
+test-makefile-integrity:
+	@echo ">>> Testing 'make install'..."
+	$(MAKE) install
+	@echo ">>> Testing 'make test'…"
+	$(MAKE) test
+	@echo ">>> Testing 'make test-wasm'…"
+	$(MAKE) test-wasm
+	@echo ">>> Testing 'make zones.go'…"
+	$(MAKE) zones.go
+	@echo ">>> Testing 'make normalize'…"
+	# This target modifies files, which is acceptable in an isolated CI test job.
+	$(MAKE) normalize
+	@echo ">>> Makefile integrity tests completed successfully."
