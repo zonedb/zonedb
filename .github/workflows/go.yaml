@@ -81,6 +81,11 @@ jobs:
 
       - name: Get go dependencies
         run: go get -t ./...
+      
+      - name: Set up Wasmtime
+        uses: bytecodealliance/actions/wasmtime/setup@v1.1.1
+        with:
+          version: v32.0.0
 
       - name: Run Makefile Integrity Tests
         run: make test-makefile-integrity
