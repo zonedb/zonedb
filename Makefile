@@ -1,5 +1,8 @@
-# Clear built-in suffix rules to prevent SCCS rule for s.* files
+# Clear many built-in suffix rules to speed things up
 .SUFFIXES:
+
+%.json ::
+	@# drop all implicit rules for .json files.
 
 export PATH := $(PATH):$(shell go env GOROOT)/misc/wasm
 # wasm tools moved in Go 1.24:
