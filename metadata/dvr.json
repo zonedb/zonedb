@@ -7,10 +7,6 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.dvr",
-		"a2.nic.dvr",
-		"b0.nic.dvr",
-		"c0.nic.dvr",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.info",
 		"ns01.trs-dns.net",

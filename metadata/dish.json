@@ -7,10 +7,6 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.dish",
-		"a2.nic.dish",
-		"b0.nic.dish",
-		"c0.nic.dish",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.info",
 		"ns01.trs-dns.net",

@@ -7,12 +7,12 @@
 		"https://rdap.nic.書籍/"
 	],
 	"nameServers": [
-		"a.nic.書籍",
-		"b.nic.書籍",
-		"ns3.dns.nic.書籍",
 		"v0n0.nic.書籍",
 		"v0n1.nic.書籍",
-		"v0n2.nic.書籍"
+		"v0n2.nic.書籍",
+		"v0n3.nic.書籍",
+		"v2n0.nic.書籍",
+		"v2n1.nic.書籍"
 	],
 	"languages": [
 		"ar",

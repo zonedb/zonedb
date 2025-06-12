@@ -7,12 +7,12 @@
 		"https://rdap.nic.ファッション/"
 	],
 	"nameServers": [
-		"a.nic.ファッション",
-		"b.nic.ファッション",
-		"ns3.dns.nic.ファッション",
 		"v0n0.nic.ファッション",
 		"v0n1.nic.ファッション",
-		"v0n2.nic.ファッション"
+		"v0n2.nic.ファッション",
+		"v0n3.nic.ファッション",
+		"v2n0.nic.ファッション",
+		"v2n1.nic.ファッション"
 	],
 	"languages": [
 		"ar",

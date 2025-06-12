@@ -7,10 +7,6 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.sling",
-		"a2.nic.sling",
-		"b0.nic.sling",
-		"c0.nic.sling",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.info",
 		"ns01.trs-dns.net",

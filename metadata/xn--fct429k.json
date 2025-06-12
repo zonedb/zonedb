@@ -7,12 +7,12 @@
 		"https://rdap.nic.家電/"
 	],
 	"nameServers": [
-		"a.nic.家電",
-		"b.nic.家電",
-		"ns3.dns.nic.家電",
 		"v0n0.nic.家電",
 		"v0n1.nic.家電",
-		"v0n2.nic.家電"
+		"v0n2.nic.家電",
+		"v0n3.nic.家電",
+		"v2n0.nic.家電",
+		"v2n1.nic.家電"
 	],
 	"languages": [
 		"ar",

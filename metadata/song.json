@@ -7,12 +7,12 @@
 		"https://rdap.nic.song/"
 	],
 	"nameServers": [
-		"a.nic.song",
-		"b.nic.song",
-		"ns3.dns.nic.song",
 		"v0n0.nic.song",
 		"v0n1.nic.song",
-		"v0n2.nic.song"
+		"v0n2.nic.song",
+		"v0n3.nic.song",
+		"v2n0.nic.song",
+		"v2n1.nic.song"
 	],
 	"languages": [
 		"ar",
