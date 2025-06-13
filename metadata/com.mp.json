@@ -1,9 +1,5 @@
 {
 	"domain": "com.mp",
-	"nameServers": [
-		"n1.xundns.com",
-		"n2.xundns.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
