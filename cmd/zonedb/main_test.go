@@ -12,6 +12,7 @@ func TestJSONOutput(t *testing.T) {
 	// Build the binary first
 	cmd := exec.Command("go", "build", "-o", "zonedb_test", "./cmd/zonedb")
 	cmd.Dir = "../../"
+	cmd.Env = os.Environ() // Inherit environment including PATH
 	err := cmd.Run()
 	if err != nil {
 		t.Fatalf("Failed to build zonedb: %v", err)
@@ -105,6 +106,7 @@ func TestJSONOutputTags(t *testing.T) {
 	// Build the binary first
 	cmd := exec.Command("go", "build", "-o", "zonedb_test", "./cmd/zonedb")
 	cmd.Dir = "../../"
+	cmd.Env = os.Environ() // Inherit environment including PATH
 	err := cmd.Run()
 	if err != nil {
 		t.Fatalf("Failed to build zonedb: %v", err)
@@ -167,6 +169,7 @@ func TestJSONOutputMultipleTags(t *testing.T) {
 	// Build the binary first
 	cmd := exec.Command("go", "build", "-o", "zonedb_test", "./cmd/zonedb")
 	cmd.Dir = "../../"
+	cmd.Env = os.Environ() // Inherit environment including PATH
 	err := cmd.Run()
 	if err != nil {
 		t.Fatalf("Failed to build zonedb: %v", err)
@@ -256,6 +259,7 @@ func TestNonJSONOutputStillWorks(t *testing.T) {
 	// Build the binary first
 	cmd := exec.Command("go", "build", "-o", "zonedb_test", "./cmd/zonedb")
 	cmd.Dir = "../../"
+	cmd.Env = os.Environ() // Inherit environment including PATH
 	err := cmd.Run()
 	if err != nil {
 		t.Fatalf("Failed to build zonedb: %v", err)
