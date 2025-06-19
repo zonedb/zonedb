@@ -179,7 +179,7 @@ func main() {
 
 	if *delegated {
 		workZones = build.Delegated(workZones)
-		color.Fprintf(os.Stderr, "@{.}Working on delegated zones\n")
+		build.Trace("@{.}Working on delegated zones\n")
 	}
 
 	if *filterIDN {
@@ -395,7 +395,7 @@ func main() {
 			tags.Add(z.Tags...)
 		}
 		outputJSONResult(*jsonOutput, tags.Values(), "tags", "", "", "", func() {
-			color.Fprintf(os.Stderr, "@{.}Tags: @{c}%s\n", strings.Join(tags.Values(), " "))
+			build.Trace("@{.}Tags: @{c}%s\n", strings.Join(tags.Values(), " "))
 		})
 	}
 
@@ -415,7 +415,7 @@ func main() {
 			locations.Add(z.Locations...)
 		}
 		outputJSONResult(*jsonOutput, locations.Values(), "locations", "", "", "", func() {
-			color.Fprintf(os.Stderr, "@{.}Locations: @{c}%s\n", strings.Join(locations.Values(), " "))
+			build.Trace("@{.}Locations: @{c}%s\n", strings.Join(locations.Values(), " "))
 		})
 	}
 
@@ -427,7 +427,7 @@ func main() {
 			}
 		}
 		outputJSONResult(*jsonOutput, zones.Values(), "zones", "", "", "", func() {
-			color.Fprintf(os.Stderr, "@{.}Zones: @{c}%s\n", strings.Join(zones.Values(), " "))
+			build.Trace("@{.}Zones: @{c}%s\n", strings.Join(zones.Values(), " "))
 		})
 	}
 
