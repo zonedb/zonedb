@@ -38,6 +38,11 @@ type Zone struct {
 	TagBits                                       uint64 `json:"-"`
 }
 
+// Delegated returns true if z has any name servers.
+func (z *Zone) Delegated() bool {
+	return len(z.NameServers) > 0
+}
+
 // Normalize formats a build.Zone into normal form suitable for serialization.
 func (z *Zone) Normalize() {
 	z.Domain = Normalize(z.Domain)
@@ -244,6 +249,17 @@ func TLDs(zones map[string]*Zone) map[string]*Zone {
 		}
 	}
 	return tlds
+}
+
+// TLDs filters a zone set for delegated zones (with DNS servers).
+func Delegated(zones map[string]*Zone) map[string]*Zone {
+	domains := make(map[string]*Zone)
+	for d, z := range zones {
+		if z.Delegated() {
+			domains[d] = z
+		}
+	}
+	return domains
 }
 
 // SortedDomains returns a list of domain names sorted by rank.
