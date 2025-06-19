@@ -30,6 +30,18 @@ func outputJSON(jsonOutput bool, data interface{}, key string, textOutput func()
 	}
 }
 
+// TagFilterOutput represents the JSON structure for tag-filtered zones
+type TagFilterOutput struct {
+	Tags     []string `json:"tags"`
+	Filtered []string `json:"filtered"`
+}
+
+// ZoneFilterOutput represents the JSON structure for non-tag filtered zones
+type ZoneFilterOutput struct {
+	Filter   map[string]interface{} `json:"filter"`
+	Filtered []string               `json:"filtered"`
+}
+
 // outputZonesJSON outputs zones with filter context when available
 func outputZonesJSON(jsonOutput bool, domains []string, filterTags string, filterZones string, filterRegexp string, textOutput func()) {
 	if jsonOutput {
@@ -38,31 +50,31 @@ func outputZonesJSON(jsonOutput bool, domains []string, filterTags string, filte
 		// Create structured output based on filters applied
 		if filterTags != "" {
 			tags := strings.Split(filterTags, ",")
-			// Consistent format: {"zones": {"tags": [...], "filtered": [...]}}
+			// Use struct to ensure field ordering: tags before filtered
 			jsonData = map[string]interface{}{
-				"zones": map[string]interface{}{
-					"tags":     tags,
-					"filtered": domains,
+				"zones": TagFilterOutput{
+					Tags:     tags,
+					Filtered: domains,
 				},
 			}
 		} else if filterZones != "" {
 			// Specific zones filter
 			jsonData = map[string]interface{}{
-				"zones": map[string]interface{}{
-					"filter": map[string]interface{}{
+				"zones": ZoneFilterOutput{
+					Filter: map[string]interface{}{
 						"domains": strings.Split(filterZones, ","),
 					},
-					"filtered": domains,
+					Filtered: domains,
 				},
 			}
 		} else if filterRegexp != "" {
 			// Regex filter
 			jsonData = map[string]interface{}{
-				"zones": map[string]interface{}{
-					"filter": map[string]interface{}{
+				"zones": ZoneFilterOutput{
+					Filter: map[string]interface{}{
 						"regexp": filterRegexp,
 					},
-					"filtered": domains,
+					Filtered: domains,
 				},
 			}
 		} else {
