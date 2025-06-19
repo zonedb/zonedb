@@ -84,6 +84,12 @@ List all zones that have wildcarded DNS:
 zonedb -list-wildcards
 ```
 
+List all zones tagged `brand`:
+
+```shell
+zonedb --tags brand
+```
+
 List all zones tagged `geo`:
 
 ```shell
