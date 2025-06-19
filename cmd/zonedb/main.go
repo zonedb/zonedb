@@ -48,12 +48,12 @@ func outputZonesJSON(jsonOutput bool, domains []string, filterTags string, filte
 					},
 				}
 			} else {
-				// Multiple tags: {"zones": {"tags": {"all_of": ["tag1", "tag2"], "domains": [...]}}}
+				// Multiple tags: {"zones": {"tags": {"all_of": ["tag1", "tag2"], "filtered": [...]}}}
 				jsonData = map[string]interface{}{
 					"zones": map[string]interface{}{
 						"tags": map[string]interface{}{
-							"all_of":  tags,
-							"domains": domains,
+							"all_of":   tags,
+							"filtered": domains,
 						},
 					},
 				}
@@ -65,7 +65,7 @@ func outputZonesJSON(jsonOutput bool, domains []string, filterTags string, filte
 					"filter": map[string]interface{}{
 						"domains": strings.Split(filterZones, ","),
 					},
-					"domains": domains,
+					"filtered": domains,
 				},
 			}
 		} else if filterRegexp != "" {
@@ -75,7 +75,7 @@ func outputZonesJSON(jsonOutput bool, domains []string, filterTags string, filte
 					"filter": map[string]interface{}{
 						"regexp": filterRegexp,
 					},
-					"domains": domains,
+					"filtered": domains,
 				},
 			}
 		} else {

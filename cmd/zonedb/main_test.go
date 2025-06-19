@@ -236,19 +236,19 @@ func TestJSONOutputMultipleTags(t *testing.T) {
 		t.Fatal("Expected 'generic' tag not found")
 	}
 
-	// Check domains array exists
-	domains, ok := tagsObj["domains"]
+	// Check filtered array exists
+	filtered, ok := tagsObj["filtered"]
 	if !ok {
-		t.Fatal("'zones.tags.domains' field missing")
+		t.Fatal("'zones.tags.filtered' field missing")
 	}
 
-	domainsArray, ok := domains.([]interface{})
+	filteredArray, ok := filtered.([]interface{})
 	if !ok {
-		t.Fatal("'zones.tags.domains' field is not an array")
+		t.Fatal("'zones.tags.filtered' field is not an array")
 	}
 
-	if len(domainsArray) == 0 {
-		t.Fatal("No domains found in JSON output")
+	if len(filteredArray) == 0 {
+		t.Fatal("No filtered zones found in JSON output")
 	}
 }
 
