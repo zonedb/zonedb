@@ -14,6 +14,22 @@ import (
 	"github.com/zonedb/zonedb/internal/build"
 )
 
+// outputJSON outputs data as JSON or falls back to text output with color formatting
+func outputJSON(jsonOutput bool, data interface{}, key string, textOutput func()) {
+	if jsonOutput {
+		jsonData := map[string]interface{}{
+			key: data,
+		}
+		if jsonBytes, err := json.MarshalIndent(jsonData, "", "  "); err == nil {
+			fmt.Println(string(jsonBytes))
+		} else {
+			build.LogError(fmt.Errorf("failed to marshal JSON: %v", err))
+		}
+	} else {
+		textOutput()
+	}
+}
+
 func main() {
 	// Default options
 	flag.BoolVar(&build.Verbose, "v", false, "enable verbose logging")
@@ -211,18 +227,9 @@ func main() {
 
 	if *listZones || len(workZones) < len(zones) {
 		domains := build.SortedDomains(workZones)
-		if *jsonOutput {
-			jsonData := map[string]interface{}{
-				"zones": domains,
-			}
-			if jsonBytes, err := json.MarshalIndent(jsonData, "", "  "); err == nil {
-				fmt.Println(string(jsonBytes))
-			} else {
-				build.LogError(fmt.Errorf("failed to marshal JSON: %v", err))
-			}
-		} else {
+		outputJSON(*jsonOutput, domains, "zones", func() {
 			color.Fprintf(os.Stderr, "@{.}Zones: @{c}%s\n", strings.Join(domains, " "))
-		}
+		})
 	}
 
 	if *updateRoot || *updateAll {
@@ -324,18 +331,9 @@ func main() {
 		for _, z := range workZones {
 			tags.Add(z.Tags...)
 		}
-		if *jsonOutput {
-			jsonData := map[string]interface{}{
-				"tags": tags.Values(),
-			}
-			if jsonBytes, err := json.MarshalIndent(jsonData, "", "  "); err == nil {
-				fmt.Println(string(jsonBytes))
-			} else {
-				build.LogError(fmt.Errorf("failed to marshal JSON: %v", err))
-			}
-		} else {
+		outputJSON(*jsonOutput, tags.Values(), "tags", func() {
 			color.Fprintf(os.Stderr, "@{.}Tags: @{c}%s\n", strings.Join(tags.Values(), " "))
-		}
+		})
 	}
 
 	if *removeLocations != "" {
@@ -353,18 +351,9 @@ func main() {
 		for _, z := range workZones {
 			locations.Add(z.Locations...)
 		}
-		if *jsonOutput {
-			jsonData := map[string]interface{}{
-				"locations": locations.Values(),
-			}
-			if jsonBytes, err := json.MarshalIndent(jsonData, "", "  "); err == nil {
-				fmt.Println(string(jsonBytes))
-			} else {
-				build.LogError(fmt.Errorf("failed to marshal JSON: %v", err))
-			}
-		} else {
+		outputJSON(*jsonOutput, locations.Values(), "locations", func() {
 			color.Fprintf(os.Stderr, "@{.}Locations: @{c}%s\n", strings.Join(locations.Values(), " "))
-		}
+		})
 	}
 
 	if *listWildcards {
@@ -374,18 +363,9 @@ func main() {
 				zones.Add(z.Domain)
 			}
 		}
-		if *jsonOutput {
-			jsonData := map[string]interface{}{
-				"zones": zones.Values(),
-			}
-			if jsonBytes, err := json.MarshalIndent(jsonData, "", "  "); err == nil {
-				fmt.Println(string(jsonBytes))
-			} else {
-				build.LogError(fmt.Errorf("failed to marshal JSON: %v", err))
-			}
-		} else {
+		outputJSON(*jsonOutput, zones.Values(), "zones", func() {
 			color.Fprintf(os.Stderr, "@{.}Zones: @{c}%s\n", strings.Join(zones.Values(), " "))
-		}
+		})
 	}
 
 	if *addLanguages != "" {
