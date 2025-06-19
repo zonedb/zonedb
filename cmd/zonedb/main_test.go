@@ -423,18 +423,18 @@ func TestJSONOutputZoneFilter(t *testing.T) {
 		t.Fatal("'zones.filter' field is not an object")
 	}
 
-	domains, ok := filterObj["domains"]
+	filterZones, ok := filterObj["zones"]
 	if !ok {
-		t.Fatal("'zones.filter.domains' field missing")
+		t.Fatal("'zones.filter.zones' field missing")
 	}
 
-	domainsArray, ok := domains.([]interface{})
+	filterZonesArray, ok := filterZones.([]interface{})
 	if !ok {
-		t.Fatal("'zones.filter.domains' field is not an array")
+		t.Fatal("'zones.filter.zones' field is not an array")
 	}
 
-	if len(domainsArray) != 3 {
-		t.Fatalf("Expected 3 domains in filter, got %d", len(domainsArray))
+	if len(filterZonesArray) != 3 {
+		t.Fatalf("Expected 3 zones in filter, got %d", len(filterZonesArray))
 	}
 
 	// Check filtered results

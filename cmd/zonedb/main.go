@@ -49,8 +49,8 @@ func outputJSONResult(jsonOutput bool, data interface{}, key string, filterTags 
 				jsonData = map[string]interface{}{
 					"zones": ZoneFilterOutput{
 						Filter: map[string]interface{}{
-							"domains": strings.Split(filterZones, ","),
-						},
+						"zones": strings.Split(filterZones, ","),
+					},
 						Filtered: domains,
 					},
 				}
