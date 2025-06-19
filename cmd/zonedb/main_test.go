@@ -4,13 +4,32 @@ import (
 	"encoding/json"
 	"os"
 	"os/exec"
+	"path/filepath"
+	"runtime"
 	"strings"
 	"testing"
 )
 
+// getGoBinary returns the path to the go executable
+func getGoBinary() string {
+	// Try to find go in PATH first
+	if goPath, err := exec.LookPath("go"); err == nil {
+		return goPath
+	}
+
+	// Fallback to GOROOT/bin/go
+	goroot := runtime.GOROOT()
+	if goroot != "" {
+		return filepath.Join(goroot, "bin", "go")
+	}
+
+	// Last resort
+	return "go"
+}
+
 func TestJSONOutput(t *testing.T) {
 	// Build the binary first
-	cmd := exec.Command("go", "build", "-o", "zonedb_test", "./cmd/zonedb")
+	cmd := exec.Command(getGoBinary(), "build", "-o", "zonedb_test", "./cmd/zonedb")
 	cmd.Dir = "../../"
 	cmd.Env = os.Environ() // Inherit environment including PATH
 	err := cmd.Run()
@@ -104,7 +123,7 @@ func TestJSONOutput(t *testing.T) {
 
 func TestJSONOutputTags(t *testing.T) {
 	// Build the binary first
-	cmd := exec.Command("go", "build", "-o", "zonedb_test", "./cmd/zonedb")
+	cmd := exec.Command(getGoBinary(), "build", "-o", "zonedb_test", "./cmd/zonedb")
 	cmd.Dir = "../../"
 	cmd.Env = os.Environ() // Inherit environment including PATH
 	err := cmd.Run()
@@ -167,7 +186,7 @@ func TestJSONOutputTags(t *testing.T) {
 
 func TestJSONOutputMultipleTags(t *testing.T) {
 	// Build the binary first
-	cmd := exec.Command("go", "build", "-o", "zonedb_test", "./cmd/zonedb")
+	cmd := exec.Command(getGoBinary(), "build", "-o", "zonedb_test", "./cmd/zonedb")
 	cmd.Dir = "../../"
 	cmd.Env = os.Environ() // Inherit environment including PATH
 	err := cmd.Run()
@@ -257,7 +276,7 @@ func TestJSONOutputMultipleTags(t *testing.T) {
 
 func TestNonJSONOutputStillWorks(t *testing.T) {
 	// Build the binary first
-	cmd := exec.Command("go", "build", "-o", "zonedb_test", "./cmd/zonedb")
+	cmd := exec.Command(getGoBinary(), "build", "-o", "zonedb_test", "./cmd/zonedb")
 	cmd.Dir = "../../"
 	cmd.Env = os.Environ() // Inherit environment including PATH
 	err := cmd.Run()
