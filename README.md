@@ -16,6 +16,11 @@ The database consists of a list of zones (`zones.txt`) and associated metadata i
 
 The `zonedb` CLI is fully documented. Run `go run cmd/zonedb/main.go -h` to see its arguments.
 
+To install the CLI in your `PATH`:
+
+1. Add `$(go env GOPATH)/bin` to your `PATH`
+1. Run `make install`
+
 ### zones.txt
 
 The `zones.txt` file is a UTF-8 encoded text file containing a list of IDN & lower-case domain names, one per line, followed by a newline (`\n`) character. The domain names in zones.txt are sorted according to the following rules:
