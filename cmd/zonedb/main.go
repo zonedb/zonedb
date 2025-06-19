@@ -22,6 +22,7 @@ func main() {
 
 	// Filters
 	tlds := flag.Bool("tlds", false, "work on top-level domains only")
+	delegated := flag.Bool("delegated", false, "work on delegated zones only")
 	filterIDN := flag.Bool("idn", false, "work on IDN (non-ASCII) zones only")
 	filterZones := flag.String("zones", "", "select specific working zones (comma-delimited)")
 	filterRegexp := flag.String("x", "", "filter working zones by regular expression")
@@ -98,8 +99,13 @@ func main() {
 	workZones := zones
 
 	if *tlds {
-		workZones = build.TLDs(zones)
+		workZones = build.TLDs(workZones)
 		color.Fprintf(os.Stderr, "@{.}Working on top-level domains\n")
+	}
+
+	if *delegated {
+		workZones = build.Delegated(workZones)
+		color.Fprintf(os.Stderr, "@{.}Working on delegated zones\n")
 	}
 
 	if *filterIDN {
