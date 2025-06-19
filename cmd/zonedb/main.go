@@ -38,25 +38,12 @@ func outputZonesJSON(jsonOutput bool, domains []string, filterTags string, filte
 		// Create structured output based on filters applied
 		if filterTags != "" {
 			tags := strings.Split(filterTags, ",")
-			if len(tags) == 1 {
-				// Single tag: {"zones": {"tags": {"brand": [...]}}}
-				jsonData = map[string]interface{}{
-					"zones": map[string]interface{}{
-						"tags": map[string]interface{}{
-							tags[0]: domains,
-						},
-					},
-				}
-			} else {
-				// Multiple tags: {"zones": {"tags": {"all_of": ["tag1", "tag2"], "filtered": [...]}}}
-				jsonData = map[string]interface{}{
-					"zones": map[string]interface{}{
-						"tags": map[string]interface{}{
-							"all_of":   tags,
-							"filtered": domains,
-						},
-					},
-				}
+			// Consistent format: {"zones": {"tags": [...], "filtered": [...]}}
+			jsonData = map[string]interface{}{
+				"zones": map[string]interface{}{
+					"tags":     tags,
+					"filtered": domains,
+				},
 			}
 		} else if filterZones != "" {
 			// Specific zones filter

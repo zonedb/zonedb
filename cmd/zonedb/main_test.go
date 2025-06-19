@@ -40,7 +40,7 @@ func TestJSONOutput(t *testing.T) {
 		t.Fatal("JSON output missing 'zones' field")
 	}
 
-	// For --tags brand, expect: {"zones": {"tags": {"brand": [...]}}}
+	// For --tags brand, expect: {"zones": {"tags": ["brand"], "filtered": [...]}}
 	zonesObj, ok := zones.(map[string]interface{})
 	if !ok {
 		t.Fatal("'zones' field is not an object")
@@ -51,19 +51,29 @@ func TestJSONOutput(t *testing.T) {
 		t.Fatal("'zones.tags' field missing")
 	}
 
-	tagsObj, ok := tags.(map[string]interface{})
+	tagsArray, ok := tags.([]interface{})
 	if !ok {
-		t.Fatal("'zones.tags' field is not an object")
+		t.Fatal("'zones.tags' field is not an array")
 	}
 
-	brandZones, ok := tagsObj["brand"]
-	if !ok {
-		t.Fatal("'zones.tags.brand' field missing")
+	// Check that we have the expected tag
+	if len(tagsArray) != 1 {
+		t.Fatalf("Expected 1 tag, got %d", len(tagsArray))
 	}
 
-	zonesArray, ok := brandZones.([]interface{})
+	if tagsArray[0].(string) != "brand" {
+		t.Fatalf("Expected 'brand' tag, got %v", tagsArray[0])
+	}
+
+	// Check filtered zones
+	filtered, ok := zonesObj["filtered"]
 	if !ok {
-		t.Fatal("'zones.tags.brand' field is not an array")
+		t.Fatal("'zones.filtered' field missing")
+	}
+
+	zonesArray, ok := filtered.([]interface{})
+	if !ok {
+		t.Fatal("'zones.filtered' field is not an array")
 	}
 
 	// Check that we have some zones
@@ -179,7 +189,7 @@ func TestJSONOutputMultipleTags(t *testing.T) {
 		t.Fatalf("Failed to parse JSON output: %v", err)
 	}
 
-	// For multiple tags, expect: {"zones": {"tags": {"all_of": [...], "domains": [...]}}}
+	// For multiple tags, expect: {"zones": {"tags": ["brand", "generic"], "filtered": [...]}}
 	zones, ok := result["zones"]
 	if !ok {
 		t.Fatal("JSON output missing 'zones' field")
@@ -195,29 +205,19 @@ func TestJSONOutputMultipleTags(t *testing.T) {
 		t.Fatal("'zones.tags' field missing")
 	}
 
-	tagsObj, ok := tags.(map[string]interface{})
+	tagsArray, ok := tags.([]interface{})
 	if !ok {
-		t.Fatal("'zones.tags' field is not an object")
-	}
-
-	allOf, ok := tagsObj["all_of"]
-	if !ok {
-		t.Fatal("'zones.tags.all_of' field missing")
-	}
-
-	allOfArray, ok := allOf.([]interface{})
-	if !ok {
-		t.Fatal("'zones.tags.all_of' field is not an array")
+		t.Fatal("'zones.tags' field is not an array")
 	}
 
 	// Check that we have the expected tags
-	if len(allOfArray) != 2 {
-		t.Fatalf("Expected 2 tags, got %d", len(allOfArray))
+	if len(tagsArray) != 2 {
+		t.Fatalf("Expected 2 tags, got %d", len(tagsArray))
 	}
 
 	// Check for brand and generic tags
 	foundBrand, foundGeneric := false, false
-	for _, tag := range allOfArray {
+	for _, tag := range tagsArray {
 		tagStr, ok := tag.(string)
 		if !ok {
 			t.Fatal("Tag is not a string")
@@ -237,14 +237,14 @@ func TestJSONOutputMultipleTags(t *testing.T) {
 	}
 
 	// Check filtered array exists
-	filtered, ok := tagsObj["filtered"]
+	filtered, ok := zonesObj["filtered"]
 	if !ok {
-		t.Fatal("'zones.tags.filtered' field missing")
+		t.Fatal("'zones.filtered' field missing")
 	}
 
 	filteredArray, ok := filtered.([]interface{})
 	if !ok {
-		t.Fatal("'zones.tags.filtered' field is not an array")
+		t.Fatal("'zones.filtered' field is not an array")
 	}
 
 	if len(filteredArray) == 0 {
