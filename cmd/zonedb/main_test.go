@@ -34,15 +34,36 @@ func TestJSONOutput(t *testing.T) {
 		t.Fatalf("Failed to parse JSON output: %v", err)
 	}
 
-	// Check that zones field exists and is an array
+	// Check that zones field exists and has the expected structure
 	zones, ok := result["zones"]
 	if !ok {
 		t.Fatal("JSON output missing 'zones' field")
 	}
 
-	zonesArray, ok := zones.([]interface{})
+	// For --tags brand, expect: {"zones": {"tags": {"brand": [...]}}}
+	zonesObj, ok := zones.(map[string]interface{})
 	if !ok {
-		t.Fatal("'zones' field is not an array")
+		t.Fatal("'zones' field is not an object")
+	}
+
+	tags, ok := zonesObj["tags"]
+	if !ok {
+		t.Fatal("'zones.tags' field missing")
+	}
+
+	tagsObj, ok := tags.(map[string]interface{})
+	if !ok {
+		t.Fatal("'zones.tags' field is not an object")
+	}
+
+	brandZones, ok := tagsObj["brand"]
+	if !ok {
+		t.Fatal("'zones.tags.brand' field missing")
+	}
+
+	zonesArray, ok := brandZones.([]interface{})
+	if !ok {
+		t.Fatal("'zones.tags.brand' field is not an array")
 	}
 
 	// Check that we have some zones
@@ -129,6 +150,105 @@ func TestJSONOutputTags(t *testing.T) {
 	}
 	if !found {
 		t.Fatal("Expected tag 'brand' not found in tags list")
+	}
+}
+
+func TestJSONOutputMultipleTags(t *testing.T) {
+	// Build the binary first
+	cmd := exec.Command("go", "build", "-o", "zonedb_test", "./cmd/zonedb")
+	cmd.Dir = "../../"
+	err := cmd.Run()
+	if err != nil {
+		t.Fatalf("Failed to build zonedb: %v", err)
+	}
+	defer os.Remove("../../zonedb_test")
+
+	// Test JSON output for multiple tags
+	cmd = exec.Command("./zonedb_test", "--tags", "brand,generic", "--json")
+	cmd.Dir = "../../"
+	cmd.Env = append(os.Environ(), "FORCE_COLOR=0") // Disable colors for testing
+	output, err := cmd.Output()
+	if err != nil {
+		t.Fatalf("Failed to run zonedb with JSON flag: %v", err)
+	}
+
+	// Parse JSON output
+	var result map[string]interface{}
+	err = json.Unmarshal(output, &result)
+	if err != nil {
+		t.Fatalf("Failed to parse JSON output: %v", err)
+	}
+
+	// For multiple tags, expect: {"zones": {"tags": {"all_of": [...], "domains": [...]}}}
+	zones, ok := result["zones"]
+	if !ok {
+		t.Fatal("JSON output missing 'zones' field")
+	}
+
+	zonesObj, ok := zones.(map[string]interface{})
+	if !ok {
+		t.Fatal("'zones' field is not an object")
+	}
+
+	tags, ok := zonesObj["tags"]
+	if !ok {
+		t.Fatal("'zones.tags' field missing")
+	}
+
+	tagsObj, ok := tags.(map[string]interface{})
+	if !ok {
+		t.Fatal("'zones.tags' field is not an object")
+	}
+
+	allOf, ok := tagsObj["all_of"]
+	if !ok {
+		t.Fatal("'zones.tags.all_of' field missing")
+	}
+
+	allOfArray, ok := allOf.([]interface{})
+	if !ok {
+		t.Fatal("'zones.tags.all_of' field is not an array")
+	}
+
+	// Check that we have the expected tags
+	if len(allOfArray) != 2 {
+		t.Fatalf("Expected 2 tags, got %d", len(allOfArray))
+	}
+
+	// Check for brand and generic tags
+	foundBrand, foundGeneric := false, false
+	for _, tag := range allOfArray {
+		tagStr, ok := tag.(string)
+		if !ok {
+			t.Fatal("Tag is not a string")
+		}
+		if tagStr == "brand" {
+			foundBrand = true
+		} else if tagStr == "generic" {
+			foundGeneric = true
+		}
+	}
+
+	if !foundBrand {
+		t.Fatal("Expected 'brand' tag not found")
+	}
+	if !foundGeneric {
+		t.Fatal("Expected 'generic' tag not found")
+	}
+
+	// Check domains array exists
+	domains, ok := tagsObj["domains"]
+	if !ok {
+		t.Fatal("'zones.tags.domains' field missing")
+	}
+
+	domainsArray, ok := domains.([]interface{})
+	if !ok {
+		t.Fatal("'zones.tags.domains' field is not an array")
+	}
+
+	if len(domainsArray) == 0 {
+		t.Fatal("No domains found in JSON output")
 	}
 }
 

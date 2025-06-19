@@ -30,6 +30,71 @@ func outputJSON(jsonOutput bool, data interface{}, key string, textOutput func()
 	}
 }
 
+// outputZonesJSON outputs zones with filter context when available
+func outputZonesJSON(jsonOutput bool, domains []string, filterTags string, filterZones string, filterRegexp string, textOutput func()) {
+	if jsonOutput {
+		var jsonData map[string]interface{}
+
+		// Create structured output based on filters applied
+		if filterTags != "" {
+			tags := strings.Split(filterTags, ",")
+			if len(tags) == 1 {
+				// Single tag: {"zones": {"tags": {"brand": [...]}}}
+				jsonData = map[string]interface{}{
+					"zones": map[string]interface{}{
+						"tags": map[string]interface{}{
+							tags[0]: domains,
+						},
+					},
+				}
+			} else {
+				// Multiple tags: {"zones": {"tags": {"all_of": ["tag1", "tag2"], "domains": [...]}}}
+				jsonData = map[string]interface{}{
+					"zones": map[string]interface{}{
+						"tags": map[string]interface{}{
+							"all_of":  tags,
+							"domains": domains,
+						},
+					},
+				}
+			}
+		} else if filterZones != "" {
+			// Specific zones filter
+			jsonData = map[string]interface{}{
+				"zones": map[string]interface{}{
+					"filter": map[string]interface{}{
+						"domains": strings.Split(filterZones, ","),
+					},
+					"domains": domains,
+				},
+			}
+		} else if filterRegexp != "" {
+			// Regex filter
+			jsonData = map[string]interface{}{
+				"zones": map[string]interface{}{
+					"filter": map[string]interface{}{
+						"regexp": filterRegexp,
+					},
+					"domains": domains,
+				},
+			}
+		} else {
+			// No specific filter, use simple format
+			jsonData = map[string]interface{}{
+				"zones": domains,
+			}
+		}
+
+		if jsonBytes, err := json.MarshalIndent(jsonData, "", "  "); err == nil {
+			fmt.Println(string(jsonBytes))
+		} else {
+			build.LogError(fmt.Errorf("failed to marshal JSON: %v", err))
+		}
+	} else {
+		textOutput()
+	}
+}
+
 func main() {
 	// Default options
 	flag.BoolVar(&build.Verbose, "v", false, "enable verbose logging")
@@ -232,8 +297,8 @@ func main() {
 
 	if *listZones || len(workZones) < len(zones) {
 		domains := build.SortedDomains(workZones)
-		outputJSON(*jsonOutput, domains, "zones", func() {
-			color.Fprintf(os.Stderr, "@{.}Zones: @{c}%s\n", strings.Join(domains, " "))
+		outputZonesJSON(*jsonOutput, domains, *filterTags, *filterZones, *filterRegexp, func() {
+			build.Trace("@{.}Zones: @{c}%s\n", strings.Join(domains, " "))
 		})
 	}
 
