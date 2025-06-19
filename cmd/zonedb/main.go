@@ -14,22 +14,6 @@ import (
 	"github.com/zonedb/zonedb/internal/build"
 )
 
-// outputJSON outputs data as JSON or falls back to text output with color formatting
-func outputJSON(jsonOutput bool, data interface{}, key string, textOutput func()) {
-	if jsonOutput {
-		jsonData := map[string]interface{}{
-			key: data,
-		}
-		if jsonBytes, err := json.MarshalIndent(jsonData, "", "  "); err == nil {
-			fmt.Println(string(jsonBytes))
-		} else {
-			build.LogError(fmt.Errorf("failed to marshal JSON: %v", err))
-		}
-	} else {
-		textOutput()
-	}
-}
-
 // TagFilterOutput represents the JSON structure for tag-filtered zones
 type TagFilterOutput struct {
 	Tags     []string `json:"tags"`
@@ -42,45 +26,49 @@ type ZoneFilterOutput struct {
 	Filtered []string               `json:"filtered"`
 }
 
-// outputZonesJSON outputs zones with filter context when available
-func outputZonesJSON(jsonOutput bool, domains []string, filterTags string, filterZones string, filterRegexp string, textOutput func()) {
+// outputJSONResult outputs data as JSON with optional filter context, or falls back to text output
+func outputJSONResult(jsonOutput bool, data interface{}, key string, filterTags string, filterZones string, filterRegexp string, textOutput func()) {
 	if jsonOutput {
 		var jsonData map[string]interface{}
 
-		// Create structured output based on filters applied
-		if filterTags != "" {
-			tags := strings.Split(filterTags, ",")
-			// Use struct to ensure field ordering: tags before filtered
-			jsonData = map[string]interface{}{
-				"zones": TagFilterOutput{
-					Tags:     tags,
-					Filtered: domains,
-				},
-			}
-		} else if filterZones != "" {
-			// Specific zones filter
-			jsonData = map[string]interface{}{
-				"zones": ZoneFilterOutput{
-					Filter: map[string]interface{}{
-						"domains": strings.Split(filterZones, ","),
+		// Check if this is a zone filtering operation (has filter parameters)
+		if filterTags != "" || filterZones != "" || filterRegexp != "" {
+			// This is a filtered zone operation - use complex structure
+			domains := data.([]string)
+			if filterTags != "" {
+				tags := strings.Split(filterTags, ",")
+				// Use struct to ensure field ordering: tags before filtered
+				jsonData = map[string]interface{}{
+					"zones": TagFilterOutput{
+						Tags:     tags,
+						Filtered: domains,
 					},
-					Filtered: domains,
-				},
-			}
-		} else if filterRegexp != "" {
-			// Regex filter
-			jsonData = map[string]interface{}{
-				"zones": ZoneFilterOutput{
-					Filter: map[string]interface{}{
-						"regexp": filterRegexp,
+				}
+			} else if filterZones != "" {
+				// Specific zones filter
+				jsonData = map[string]interface{}{
+					"zones": ZoneFilterOutput{
+						Filter: map[string]interface{}{
+							"domains": strings.Split(filterZones, ","),
+						},
+						Filtered: domains,
 					},
-					Filtered: domains,
-				},
+				}
+			} else if filterRegexp != "" {
+				// Regex filter
+				jsonData = map[string]interface{}{
+					"zones": ZoneFilterOutput{
+						Filter: map[string]interface{}{
+							"regexp": filterRegexp,
+						},
+						Filtered: domains,
+					},
+				}
 			}
 		} else {
-			// No specific filter, use simple format
+			// This is a simple list operation - use simple format
 			jsonData = map[string]interface{}{
-				"zones": domains,
+				key: data,
 			}
 		}
 
@@ -296,7 +284,7 @@ func main() {
 
 	if *listZones || len(workZones) < len(zones) {
 		domains := build.SortedDomains(workZones)
-		outputZonesJSON(*jsonOutput, domains, *filterTags, *filterZones, *filterRegexp, func() {
+		outputJSONResult(*jsonOutput, domains, "zones", *filterTags, *filterZones, *filterRegexp, func() {
 			build.Trace("@{.}Zones: @{c}%s\n", strings.Join(domains, " "))
 		})
 	}
@@ -400,7 +388,7 @@ func main() {
 		for _, z := range workZones {
 			tags.Add(z.Tags...)
 		}
-		outputJSON(*jsonOutput, tags.Values(), "tags", func() {
+		outputJSONResult(*jsonOutput, tags.Values(), "tags", "", "", "", func() {
 			color.Fprintf(os.Stderr, "@{.}Tags: @{c}%s\n", strings.Join(tags.Values(), " "))
 		})
 	}
@@ -420,7 +408,7 @@ func main() {
 		for _, z := range workZones {
 			locations.Add(z.Locations...)
 		}
-		outputJSON(*jsonOutput, locations.Values(), "locations", func() {
+		outputJSONResult(*jsonOutput, locations.Values(), "locations", "", "", "", func() {
 			color.Fprintf(os.Stderr, "@{.}Locations: @{c}%s\n", strings.Join(locations.Values(), " "))
 		})
 	}
@@ -432,7 +420,7 @@ func main() {
 				zones.Add(z.Domain)
 			}
 		}
-		outputJSON(*jsonOutput, zones.Values(), "zones", func() {
+		outputJSONResult(*jsonOutput, zones.Values(), "zones", "", "", "", func() {
 			color.Fprintf(os.Stderr, "@{.}Zones: @{c}%s\n", strings.Join(zones.Values(), " "))
 		})
 	}
