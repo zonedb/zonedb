@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.家電/",
 	"whoisServer": "whois.nic.家電",
 	"rdapURLs": [
-		"https://rdap.nic.家電/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.家電",

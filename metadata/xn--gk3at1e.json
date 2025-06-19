@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.通販/",
 	"whoisServer": "whois.nic.通販",
 	"rdapURLs": [
-		"https://rdap.nic.通販/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.通販",

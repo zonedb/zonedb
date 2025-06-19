@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.ファッション/",
 	"whoisServer": "whois.nic.ファッション",
 	"rdapURLs": [
-		"https://rdap.nic.ファッション/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.ファッション",

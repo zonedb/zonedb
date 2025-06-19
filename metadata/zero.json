@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.zero/",
 	"whoisServer": "whois.nic.zero",
 	"rdapURLs": [
-		"https://rdap.nic.zero/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.zero",

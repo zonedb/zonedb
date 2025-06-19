@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.ポイント/",
 	"whoisServer": "whois.nic.ポイント",
 	"rdapURLs": [
-		"https://rdap.nic.ポイント/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.ポイント",

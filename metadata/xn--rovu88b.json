@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.書籍/",
 	"whoisServer": "whois.nic.書籍",
 	"rdapURLs": [
-		"https://rdap.nic.書籍/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.書籍",

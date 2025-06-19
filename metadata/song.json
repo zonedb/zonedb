@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.song/",
 	"whoisServer": "whois.nic.song",
 	"rdapURLs": [
-		"https://rdap.nic.song/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.song",

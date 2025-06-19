@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.セール/",
 	"whoisServer": "whois.nic.セール",
 	"rdapURLs": [
-		"https://rdap.nic.セール/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.セール",

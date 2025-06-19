@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.食品/",
 	"whoisServer": "whois.nic.食品",
 	"rdapURLs": [
-		"https://rdap.nic.食品/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.食品",

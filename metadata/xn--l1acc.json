@@ -3,9 +3,8 @@
 	"registryOperator": "Datacom Co.,Ltd",
 	"infoURL": "https://www.mon.mn/",
 	"nameServers": [
-		"ns1.idn.mn",
-		"ns2.idn.mn",
-		"ns3.idn.mn"
+		"ns10.dns.mn",
+		"ns11.dns.mn"
 	],
 	"languages": [
 		"mn"
