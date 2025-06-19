@@ -401,7 +401,7 @@ func TestJSONOutputZoneFilter(t *testing.T) {
 		t.Fatalf("Failed to parse JSON output: %v", err)
 	}
 
-	// For zone filter, expect: {"zones": {"filter": {"domains": [...]}, "filtered": [...]}}
+	// For zone filter, expect: {"zones": {"filter": {"zones": [...]}, "filtered": [...]}}
 	zones, ok := result["zones"]
 	if !ok {
 		t.Fatal("JSON output missing 'zones' field")
@@ -649,7 +649,7 @@ func TestJSONOutputPurity(t *testing.T) {
 			cmd := exec.Command("./zonedb_test", tc.args...)
 			cmd.Dir = "../../"
 			cmd.Env = append(os.Environ(), "FORCE_COLOR=0")
-			
+
 			// Capture both stdout and stderr
 			output, err := cmd.CombinedOutput()
 			if err != nil {
