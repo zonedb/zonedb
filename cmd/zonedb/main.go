@@ -96,11 +96,16 @@ func main() {
 	}
 	flag.Parse()
 
+	// Enable quiet mode for JSON output to suppress diagnostic messages
+	if *jsonOutput {
+		build.Quiet = true
+	}
+
 	startTime := time.Now()
 	defer func() {
 		elapsed := time.Since(startTime)
 		elapsed -= elapsed % 1000000
-		color.Fprintf(os.Stderr, "@{.}Time elapsed: %s\n", elapsed)
+		build.Trace("@{.}Time elapsed: %s\n", elapsed)
 	}()
 
 	zones, errs := build.ReadZones()
@@ -116,7 +121,7 @@ func main() {
 
 	if *tlds {
 		workZones = build.TLDs(zones)
-		color.Fprintf(os.Stderr, "@{.}Working on top-level domains\n")
+		build.Trace("@{.}Working on top-level domains\n")
 	}
 
 	if *filterIDN {
@@ -220,7 +225,7 @@ func main() {
 		workZones = filtered
 	}
 
-	color.Fprintf(os.Stderr, "@{.}Working on %d zone(s) out of %d\n", len(workZones), len(zones))
+	build.Trace("@{.}Working on %d zone(s) out of %d\n", len(workZones), len(zones))
 
 	// Add newly found zones?
 	addNew := len(workZones) == len(zones)
@@ -381,7 +386,7 @@ func main() {
 		for _, z := range workZones {
 			z.InfoURL = *setInfoURL
 		}
-		color.Fprintf(os.Stderr, "@{.}Set info URL to: @{c}%s\n", *setInfoURL)
+		build.Trace("@{.}Set info URL to: @{c}%s\n", *setInfoURL)
 	}
 
 	if *updateInfoURL {
@@ -419,7 +424,7 @@ func main() {
 			build.LogFatal(errors.New("cannot delete all zones, please select a subset"))
 		}
 		deleted := build.SortedDomains(workZones)
-		color.Fprintf(os.Stderr, "@{r!}Deleting %d zones: @{r}%s\n", len(workZones), strings.Join(deleted, " "))
+		build.Trace("@{r!}Deleting %d zones: @{r}%s\n", len(workZones), strings.Join(deleted, " "))
 		for d := range workZones {
 			delete(zones, d)
 		}
