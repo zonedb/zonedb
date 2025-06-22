@@ -1,9 +1,5 @@
 {
 	"domain": "gov.pw",
-	"nameServers": [
-		"standard3.encirca.net",
-		"standard4.encirca.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
