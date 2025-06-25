@@ -2,11 +2,11 @@
 	"domain": "co.de",
 	"whoisServer": "whois.co.de",
 	"nameServers": [
-		"ns1.subdomain.net",
-		"ns2.subdomain.net"
+		"a.dns.subd.at",
+		"m.dns.subd.at",
+		"n.dns.subd.at"
 	],
 	"wildcards": [
-		"95.217.58.108",
-		"co.de"
+		"78.46.45.26"
 	]
 }
