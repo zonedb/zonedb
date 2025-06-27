@@ -13,6 +13,7 @@
 		"c0.nic.网站"
 	],
 	"languages": [
+		"zh",
 		"zh-CN",
 		"zh-TW"
 	],
@@ -20,6 +21,11 @@
 		"generic"
 	],
 	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--5tzm5g_zh_5.xml"
+		},
 		{
 			"type": "idn-table",
 			"key": "zh-CN",

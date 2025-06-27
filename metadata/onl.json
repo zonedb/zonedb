@@ -31,6 +31,7 @@
 		"sr-ME",
 		"sv",
 		"uk",
+		"zh",
 		"zh-CN",
 		"zh-TW"
 	],
@@ -127,6 +128,11 @@
 			"type": "idn-table",
 			"key": "uk",
 			"value": "https://www.iana.org/domains/idn-tables/tables/onl_uk_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/onl_zh_5.xml"
 		},
 		{
 			"type": "idn-table",
