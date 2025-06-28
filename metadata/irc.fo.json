@@ -1,9 +1,5 @@
 {
 	"domain": "irc.fo",
-	"nameServers": [
-		"art.ns.cloudflare.com",
-		"sandy.ns.cloudflare.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
