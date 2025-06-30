@@ -287,7 +287,7 @@ func CountNameServers(zones map[string]*Zone) {
 	// 	color.Fprintf(os.Stderr, "@{.}%s ", ns)
 	// }
 	// ccolor.Fprintf(os.Stderr, "\n")
-	color.Fprintf(os.Stderr, "@{.}Counted %d unique name servers in %d of %d zone(s)\n", len(all), found, len(zones))
+	Trace("@{.}Counted %d unique name servers in %d of %d zone(s)\n", len(all), found, len(zones))
 }
 
 // FindWildcards finds wildcard DNS records for a zone.
