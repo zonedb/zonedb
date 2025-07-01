@@ -1,5 +1,6 @@
 {
 	"domain": "pg",
+	"whoisServer": "whois.nic.pg",
 	"rdapURLs": [
 		"https://rdap.nic.pg/"
 	],
