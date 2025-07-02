@@ -15,9 +15,11 @@
 		"v2n1.nic.irish"
 	],
 	"languages": [
+		"ar",
 		"de",
 		"es",
 		"fr",
+		"he",
 		"ja",
 		"ko",
 		"mul-Arab",
@@ -36,6 +38,11 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/irish_ar_5.xml"
+		},
+		{
+			"type": "idn-table",
 			"key": "de",
 			"value": "https://www.iana.org/domains/idn-tables/tables/irish_de_1.0.txt"
 		},
@@ -48,6 +55,11 @@
 			"type": "idn-table",
 			"key": "fr",
 			"value": "https://www.iana.org/domains/idn-tables/tables/irish_fr_1.0.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "he",
+			"value": "https://www.iana.org/domains/idn-tables/tables/irish_he_5.xml"
 		},
 		{
 			"type": "idn-table",

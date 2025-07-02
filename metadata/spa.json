@@ -13,6 +13,7 @@
 		"c0.nic.spa"
 	],
 	"languages": [
+		"zh",
 		"zh-CN",
 		"zh-TW"
 	],
@@ -21,6 +22,11 @@
 		"generic"
 	],
 	"policies": [
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/spa_zh_5.xml"
+		},
 		{
 			"type": "idn-table",
 			"key": "zh-CN",
