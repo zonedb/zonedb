@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/dvr",
 	"whoisServer": "whois.nic.dvr",
 	"rdapURLs": [
-		"https://rdap.identitydigital.services/rdap/"
+		"https://rdap.mobile-registry.com/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",
