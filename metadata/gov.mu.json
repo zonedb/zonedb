@@ -4,11 +4,12 @@
 		"ns1.gov.mu",
 		"ns2.gov.mu",
 		"ns3.gov.mu",
-		"ns4.gov.mu"
+		"ns4.gov.mu",
+		"ns5.gov.mu",
+		"ns6.gov.mu"
 	],
 	"wildcards": [
-		"127.0.0.1",
-		"::1"
+		"102.113.208.105"
 	],
 	"policies": [
 		{

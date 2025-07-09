@@ -1,7 +1,7 @@
 {
 	"domain": "biz",
 	"registryOperator": "Registry Services, LLC",
-	"whoisServer": "whois.nic.biz",
+	"whoisServer": "whois.biz",
 	"rdapURLs": [
 		"https://rdap.nic.biz/"
 	],
