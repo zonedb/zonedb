@@ -7,12 +7,11 @@
 		"cd6.tonic.to",
 		"cd7.tonic.to",
 		"cd8.tonic.to",
-		"frankfurt.tonic.to",
-		"helsinki.tonic.to",
 		"newyork.tonic.to",
-		"singapore.tonic.to",
-		"sydney.tonic.to",
-		"tonic.to"
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.net",
+		"ns10.trs-dns.info",
+		"ns10.trs-dns.org"
 	],
 	"tags": [
 		"country",
