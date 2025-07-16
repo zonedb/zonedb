@@ -1,6 +1,9 @@
 {
 	"domain": "台灣",
 	"whoisServer": "whois.twnic.net.tw",
+	"rdapURLs": [
+		"https://ccrdap.twnic.tw/taiwan/"
+	],
 	"nameServers": [
 		"anytld.apnic.net",
 		"d.dns.tw",

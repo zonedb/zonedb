@@ -2,6 +2,9 @@
 	"domain": "cm",
 	"infoURL": "https://antic.cm/",
 	"whoisServer": "whois.netcom.cm",
+	"rdapURLs": [
+		"https://rdap.nic.cm/"
+	],
 	"nameServers": [
 		"auth02.ns.uu.net",
 		"ns-cm.afrinic.net",
