@@ -3,11 +3,6 @@
 	"infoURL": "https://www.tonic.to/",
 	"whoisServer": "whois.tonic.to",
 	"nameServers": [
-		"cd5.tonic.to",
-		"cd6.tonic.to",
-		"cd7.tonic.to",
-		"cd8.tonic.to",
-		"newyork.tonic.to",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
 		"ns10.trs-dns.info",
