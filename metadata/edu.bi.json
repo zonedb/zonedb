@@ -1,6 +1,7 @@
 {
 	"domain": "edu.bi",
 	"nameServers": [
+		"anyns.nic.bi",
 		"bi.cctld.authdns.ripe.net",
 		"ns-bi.afrinic.net",
 		"ns.nic.bi",
