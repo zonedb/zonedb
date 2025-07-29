@@ -1,5 +1,9 @@
 {
 	"domain": "co.fo",
+	"nameServers": [
+		"ns1.cctld.com",
+		"ns2.cctld.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
