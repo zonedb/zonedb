@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/norton/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a.nic.norton",
+		"b.nic.norton",
+		"c.nic.norton",
+		"x.nic.norton",
+		"y.nic.norton",
+		"z.nic.norton"
 	],
 	"languages": [
 		"az",
