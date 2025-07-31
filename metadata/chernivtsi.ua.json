@@ -3,7 +3,6 @@
 	"nameServers": [
 		"nix.ns.ua",
 		"ns.cv.ua",
-		"ns.kharkov.ua",
-		"ns2.km.ua"
+		"ns.kharkov.ua"
 	]
 }
