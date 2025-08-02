@@ -2,6 +2,9 @@
 	"domain": "to",
 	"infoURL": "https://www.tonic.to/",
 	"whoisServer": "whois.tonic.to",
+	"rdapURLs": [
+		"https://rdap.tonicregistry.to/rdap/"
+	],
 	"nameServers": [
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
