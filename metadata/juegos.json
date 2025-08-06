@@ -20,6 +20,7 @@
 		"ja",
 		"mul-Cyrl",
 		"pt",
+		"und-Cyrl",
 		"zh"
 	],
 	"tags": [
@@ -29,27 +30,27 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/auto_de_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_de_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/auto_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_es_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/auto_fr_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_fr_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://www.iana.org/domains/idn-tables/tables/auto_it_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_it_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_ja_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_ja_5.xml"
 		},
 		{
 			"type": "idn-table",
@@ -59,12 +60,17 @@
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/auto_pt_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_pt_5.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "und-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_und-cyrl_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/auto_zh_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_zh_5.xml"
 		}
 	]
 }
