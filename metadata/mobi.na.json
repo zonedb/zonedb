@@ -1,8 +1,7 @@
 {
 	"domain": "mobi.na",
 	"nameServers": [
-		"dina.ns.cloudflare.com",
-		"ken.ns.cloudflare.com"
+		"suspended.omadhina.co.na"
 	],
 	"policies": [
 		{
