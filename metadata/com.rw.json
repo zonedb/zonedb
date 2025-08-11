@@ -1,8 +1,8 @@
 {
 	"domain": "com.rw",
 	"nameServers": [
-		"ns1.ricta.org.rw",
-		"ns3.ricta.org.rw"
+		"ns1.scriptylabs.com",
+		"ns2.scriptylabs.com"
 	],
 	"policies": [
 		{
