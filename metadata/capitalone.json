@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/capitalone",
 	"whoisServer": "whois.nic.capitalone",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/capitalone/v1/"
+		"https://rdap.nic.capitalone/"
 	],
 	"nameServers": [
 		"a.nic.capitalone",

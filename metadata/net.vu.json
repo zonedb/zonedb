@@ -1,10 +1,12 @@
 {
 	"domain": "net.vu",
 	"nameServers": [
-		"ns1.tldns.vu",
-		"ns2.tldns.vu",
-		"ns3.tldns.vu",
-		"ns4.tldns.vu"
+		"a.tldns.vu",
+		"b.tldns.vu",
+		"c.tldns.vu",
+		"x.tldns.vu",
+		"y.tldns.vu",
+		"z.tldns.vu"
 	],
 	"policies": [
 		{
