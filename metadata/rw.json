@@ -6,9 +6,8 @@
 		"https://rdap.ricta.org.rw/"
 	],
 	"nameServers": [
-		"ans.dnsstudy.africa",
-		"fork.sth.dnsnode.net",
-		"ns-rw.afrinic.net",
+		"dnsnode.ricta.org.rw",
+		"ns-afrinic.ricta.org.rw",
 		"ns1.ricta.org.rw",
 		"ns2.ricta.org.rw",
 		"ns3.ricta.org.rw",
