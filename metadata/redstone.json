@@ -6,19 +6,10 @@
 	"rdapURLs": [
 		"https://rdap.zdnsgtld.com/redstone/"
 	],
-	"nameServers": [
-		"a.zdnscloud.cn",
-		"b.zdnscloud.cn",
-		"c.zdnscloud.com",
-		"d.zdnscloud.com",
-		"f.zdnscloud.cn",
-		"g.zdnscloud.com",
-		"i.zdnscloud.cn",
-		"j.zdnscloud.com"
-	],
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{
