@@ -3,5 +3,8 @@
 	"nameServers": [
 		"ns1.parkingcrew.net",
 		"ns2.parkingcrew.net"
+	],
+	"wildcards": [
+		"127.0.0.10"
 	]
 }
