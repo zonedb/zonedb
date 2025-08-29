@@ -1,11 +1,11 @@
 {
 	"domain": "it.pn",
 	"nameServers": [
-		"ns1.sedoparking.com",
-		"ns2.sedoparking.com"
+		"ns1.parkingcrew.net",
+		"ns2.parkingcrew.net"
 	],
 	"wildcards": [
-		"64.190.63.222"
+		"104.247.82.53"
 	],
 	"tags": [
 		"private"
