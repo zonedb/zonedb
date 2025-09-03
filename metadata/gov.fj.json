@@ -1,10 +1,7 @@
 {
 	"domain": "gov.fj",
 	"nameServers": [
-		"dnssecondary.auth-servers.net",
 		"itcns1.gov.fj",
-		"itcns2.gov.fj",
-		"ns-ext.vix.com",
-		"tabua.tfl.com.fj"
+		"itcns2.gov.fj"
 	]
 }
