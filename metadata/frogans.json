@@ -13,7 +13,8 @@
 		"c0.nic.frogans"
 	],
 	"languages": [
-		"mul-Latn"
+		"mul-Latn",
+		"und-Latn"
 	],
 	"tags": [
 		"brand",
@@ -24,6 +25,11 @@
 			"type": "idn-table",
 			"key": "mul-Latn",
 			"value": "https://www.iana.org/domains/idn-tables/tables/frogans_latn_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "und-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/frogans_und-latn_5.xml"
 		}
 	]
 }

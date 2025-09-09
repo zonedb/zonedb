@@ -1,10 +1,8 @@
 {
 	"domain": "bus.pro",
 	"nameServers": [
-		"ns1.name.com",
-		"ns2.name.com",
-		"ns3.name.com",
-		"ns4.name.com"
+		"arvind.ns.cloudflare.com",
+		"ryleigh.ns.cloudflare.com"
 	],
 	"policies": [
 		{

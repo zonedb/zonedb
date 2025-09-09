@@ -22,7 +22,7 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bio_de_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/bio_de_5.xml"
 		}
 	]
 }

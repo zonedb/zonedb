@@ -15,9 +15,11 @@
 		"v2n1.nic.business"
 	],
 	"languages": [
+		"ar",
 		"de",
 		"es",
 		"fr",
+		"he",
 		"ja",
 		"ko",
 		"mul-Arab",
@@ -28,6 +30,12 @@
 		"mul-Latn",
 		"mul-Taml",
 		"mul-Thai",
+		"und-Cyrl",
+		"und-Deva",
+		"und-Grek",
+		"und-Latn",
+		"und-Taml",
+		"und-Thai",
 		"zh"
 	],
 	"tags": [
@@ -36,28 +44,38 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/business_ar_5.xml"
+		},
+		{
+			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_de_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/business_de_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/business_es_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_fr_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/business_fr_5.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "he",
+			"value": "https://www.iana.org/domains/idn-tables/tables/business_he_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/business_ja_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/business_ja_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_ko_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/business_ko_5.xml"
 		},
 		{
 			"type": "idn-table",
@@ -101,8 +119,38 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "und-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/business_und-cyrl_5.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "und-Deva",
+			"value": "https://www.iana.org/domains/idn-tables/tables/business_und-deva_5.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "und-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/business_und-grek_5.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "und-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/business_und-latn_5.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "und-Taml",
+			"value": "https://www.iana.org/domains/idn-tables/tables/business_und-taml_5.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "und-Thai",
+			"value": "https://www.iana.org/domains/idn-tables/tables/business_und-thai_5.xml"
+		},
+		{
+			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/business_zh_5.xml"
 		}
 	]
 }

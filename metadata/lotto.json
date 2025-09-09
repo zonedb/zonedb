@@ -17,6 +17,8 @@
 		"be",
 		"bg",
 		"bs",
+		"bs-Cyrl",
+		"cnr-Cyrl",
 		"da",
 		"de",
 		"es",
@@ -34,6 +36,7 @@
 		"pt",
 		"ru",
 		"sr",
+		"sr-Cyrl",
 		"sr-ME",
 		"sv",
 		"uk",
@@ -47,17 +50,17 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_ar_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_ar_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "be",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_be_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_be_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "bg",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_bg_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_bg_5.xml"
 		},
 		{
 			"type": "idn-table",
@@ -66,13 +69,23 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "bs-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_bs-cyrl_5.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "cnr-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_cnr-cyrl_5.xml"
+		},
+		{
+			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_da_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_da_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_de_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_de_5.xml"
 		},
 		{
 			"type": "idn-table",
@@ -82,32 +95,32 @@
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_fi_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_fi_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_fr_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_fr_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "hi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_hi_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_hi_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_hu_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_hu_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "is",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_is_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_is_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_it_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_it_5.xml"
 		},
 		{
 			"type": "idn-table",
@@ -117,37 +130,42 @@
 		{
 			"type": "idn-table",
 			"key": "lt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_lt_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_lt_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "lv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_lv_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_lv_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "mk",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_mk_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_mk_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_pl_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_pl_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_pt_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_pt_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_ru_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_ru_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "sr",
 			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_sr_1.txt"
+		},
+		{
+			"type": "idn-table",
+			"key": "sr-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_sr-cyrl_5.xml"
 		},
 		{
 			"type": "idn-table",
@@ -157,12 +175,12 @@
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_sv_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_sv_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "uk",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_uk_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/lotto_uk_5.xml"
 		},
 		{
 			"type": "idn-table",

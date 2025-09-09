@@ -4,7 +4,7 @@
 	"infoURL": "https://uniregistry.link/extensions/trust/",
 	"whoisServer": "whois.nic.trust",
 	"rdapURLs": [
-		"https://whois.uniregistry.net/rdap/"
+		"https://rdap.tucowsregistry.net/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",

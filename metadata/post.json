@@ -14,13 +14,24 @@
 		"v2n0.nic.post",
 		"v2n1.nic.post"
 	],
+	"languages": [
+		"ar",
+		"es"
+	],
 	"tags": [
 		"generic",
 		"sponsored"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "ar",
+			"value": "https://www.iana.org/domains/idn-tables/tables/post_ar_5.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/post_es_5.xml"
 		}
 	]
 }

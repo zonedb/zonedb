@@ -28,7 +28,7 @@
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/stockholm_sv_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/stockholm_sv_5.xml"
 		}
 	]
 }

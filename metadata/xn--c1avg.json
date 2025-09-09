@@ -16,11 +16,15 @@
 		"be",
 		"bg",
 		"bs",
+		"bs-Cyrl",
+		"cnr-Cyrl",
 		"mk",
 		"ru",
 		"sr",
+		"sr-Cyrl",
 		"sr-ME",
-		"uk"
+		"uk",
+		"und-Cyrl"
 	],
 	"tags": [
 		"generic"
@@ -29,12 +33,12 @@
 		{
 			"type": "idn-table",
 			"key": "be",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_be_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_be_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "bg",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_bg_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_bg_5.xml"
 		},
 		{
 			"type": "idn-table",
@@ -43,8 +47,18 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "bs-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_bs-cyrl_5.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "cnr-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_cnr-cyrl_5.xml"
+		},
+		{
+			"type": "idn-table",
 			"key": "mk",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_mk_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_mk_5.xml"
 		},
 		{
 			"type": "idn-table",
@@ -58,13 +72,23 @@
 		},
 		{
 			"type": "idn-table",
+			"key": "sr-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_sr-cyrl_5.xml"
+		},
+		{
+			"type": "idn-table",
 			"key": "sr-ME",
 			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_sr-me_1.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "uk",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_uk_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_uk_5.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "und-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--c1avg_und-cyrl_5.xml"
 		}
 	]
 }

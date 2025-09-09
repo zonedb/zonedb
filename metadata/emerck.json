@@ -22,7 +22,8 @@
 		"lv",
 		"pl",
 		"ru",
-		"sv"
+		"sv",
+		"und-Cyrl"
 	],
 	"tags": [
 		"brand",
@@ -32,42 +33,42 @@
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_da_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_da_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_de_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_de_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_es_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_es_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_hu_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_hu_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "is",
-			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_is_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_is_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "lt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_lt_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_lt_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "lv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_lv_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_lv_5.xml"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_pl_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_pl_5.xml"
 		},
 		{
 			"type": "idn-table",
@@ -77,7 +78,12 @@
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_sv_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_sv_5.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "und-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/emerck_und-cyrl_5.xml"
 		}
 	]
 }

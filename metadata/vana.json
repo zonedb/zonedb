@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/vana",
 	"whoisServer": "whois.nic.vana",
 	"rdapURLs": [
-		"https://rdap.nic.vana/rdap/"
+		"https://rdap.tucowsregistry.net/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",
