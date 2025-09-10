@@ -41,6 +41,7 @@
 		"sr-ME",
 		"sv",
 		"uk",
+		"zh",
 		"zh-CN",
 		"zh-TW"
 	],
@@ -182,6 +183,11 @@
 			"type": "idn-table",
 			"key": "uk",
 			"value": "https://www.iana.org/domains/idn-tables/tables/pink_uk_5.xml"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh",
+			"value": "https://www.iana.org/domains/idn-tables/tables/pink_zh_5.xml"
 		},
 		{
 			"type": "idn-table",
