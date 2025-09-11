@@ -7,10 +7,12 @@
 		"https://whois.uniregistry.net/rdap/"
 	],
 	"nameServers": [
-		"ns01.trs-dns.com",
-		"ns01.trs-dns.info",
-		"ns01.trs-dns.net",
-		"ns01.trs-dns.org"
+		"v0n0.nic.juegos",
+		"v0n1.nic.juegos",
+		"v0n2.nic.juegos",
+		"v0n3.nic.juegos",
+		"v2n0.nic.juegos",
+		"v2n1.nic.juegos"
 	],
 	"languages": [
 		"de",
