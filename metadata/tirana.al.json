@@ -1,8 +1,8 @@
 {
 	"domain": "tirana.al",
 	"nameServers": [
-		"ivan.ns.cloudflare.com",
-		"lady.ns.cloudflare.com"
+		"lex.ns.cloudflare.com",
+		"robin.ns.cloudflare.com"
 	],
 	"policies": [
 		{
