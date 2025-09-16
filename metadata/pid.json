@@ -4,7 +4,7 @@
 	"infoURL": "http://www.nic.pid/",
 	"whoisServer": "whois.nic.pid",
 	"rdapURLs": [
-		"https://rdap.nic.pid/rdap/"
+		"https://rdap.registry.click/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",
