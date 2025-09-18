@@ -2,7 +2,6 @@
 	"domain": "kindle",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.kindle/",
-	"whoisServer": "whois.nic.kindle",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/kindle/"
 	],

@@ -2,7 +2,6 @@
 	"domain": "pramerica",
 	"registryOperator": "Prudential Financial, Inc.",
 	"infoURL": "http://nic.pramerica/nicpramerica/nic%20pramerica%20static%20page%20.html",
-	"whoisServer": "whois.nic.pramerica",
 	"rdapURLs": [
 		"https://rdap.nic.pramerica/"
 	],

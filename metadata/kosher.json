@@ -2,7 +2,6 @@
 	"domain": "kosher",
 	"registryOperator": "Kosher Marketing Assets LLC",
 	"infoURL": "https://nic.kosher/",
-	"whoisServer": "whois.nic.kosher",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -2,7 +2,6 @@
 	"domain": "foo",
 	"registryOperator": "Charleston Road Registry Inc.",
 	"infoURL": "https://www.registry.google/",
-	"whoisServer": "whois.nic.foo",
 	"rdapURLs": [
 		"https://pubapi.registry.google/rdap/"
 	],

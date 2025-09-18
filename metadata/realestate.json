@@ -2,7 +2,6 @@
 	"domain": "realestate",
 	"registryOperator": "dotRealEstate LLC",
 	"infoURL": "https://home.realestate/",
-	"whoisServer": "whois.nic.realestate",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/realestate/"
 	],

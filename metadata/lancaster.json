@@ -2,7 +2,6 @@
 	"domain": "lancaster",
 	"registryOperator": "LANCASTER",
 	"infoURL": "https://nic.lancaster/",
-	"whoisServer": "whois.nic.lancaster",
 	"rdapURLs": [
 		"https://rdap.nic.lancaster/"
 	],

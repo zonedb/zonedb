@@ -1,6 +1,5 @@
 {
 	"domain": "mu",
-	"whoisServer": "whois.tld.mu",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

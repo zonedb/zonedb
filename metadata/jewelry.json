@@ -2,7 +2,6 @@
 	"domain": "jewelry",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.jewelry",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

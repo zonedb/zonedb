@@ -2,7 +2,6 @@
 	"domain": "golf",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.golf",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

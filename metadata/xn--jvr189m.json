@@ -2,7 +2,6 @@
 	"domain": "食品",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.食品/",
-	"whoisServer": "whois.nic.食品",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

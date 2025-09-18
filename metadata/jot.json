@@ -2,7 +2,6 @@
 	"domain": "jot",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.jot/",
-	"whoisServer": "whois.nic.jot",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/jot/"
 	],

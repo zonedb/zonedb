@@ -1,6 +1,5 @@
 {
 	"domain": "co.in",
-	"whoisServer": "whois.inregistry.net",
 	"rdapURLs": [
 		"https://rdap.registry.in/"
 	],

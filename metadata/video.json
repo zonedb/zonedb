@@ -2,7 +2,6 @@
 	"domain": "video",
 	"registryOperator": "Dog Beach, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.video",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

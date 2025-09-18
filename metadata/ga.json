@@ -1,6 +1,5 @@
 {
 	"domain": "ga",
-	"whoisServer": "whois.dot.ga",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",

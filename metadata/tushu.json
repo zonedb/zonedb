@@ -2,7 +2,6 @@
 	"domain": "tushu",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.tushu/",
-	"whoisServer": "whois.nic.tushu",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/tushu/"
 	],

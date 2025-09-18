@@ -1,6 +1,5 @@
 {
 	"domain": "ලංකා",
-	"whoisServer": "whois.nic.lk",
 	"nameServers": [
 		"lk.communitydns.net",
 		"nic.lk-anycast.pch.net",

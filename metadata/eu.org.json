@@ -1,6 +1,5 @@
 {
 	"domain": "eu.org",
-	"whoisServer": "whois.eu.org",
 	"nameServers": [
 		"gra.wolfhugel.eu",
 		"hobbes.bsd-dk.dk",

@@ -1,7 +1,6 @@
 {
 	"domain": "vision",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.vision",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -2,7 +2,6 @@
 	"domain": "travel",
 	"registryOperator": "Dog Beach, LLC",
 	"infoURL": "https://www.travel.domains/",
-	"whoisServer": "whois.nic.travel",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

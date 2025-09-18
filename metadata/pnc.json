@@ -2,7 +2,6 @@
 	"domain": "pnc",
 	"registryOperator": "PNC Domain Co., LLC",
 	"infoURL": "https://www.pnc.com/en/security-privacy/nic.html",
-	"whoisServer": "whois.nic.pnc",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -1,6 +1,5 @@
 {
 	"domain": "tk",
-	"whoisServer": "whois.dot.tk",
 	"nameServers": [
 		"a.ns.tk",
 		"b.ns.tk",

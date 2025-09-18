@@ -1,7 +1,6 @@
 {
 	"domain": "investments",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.investments",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -1,6 +1,5 @@
 {
 	"domain": "mil.in",
-	"whoisServer": "whois.ncst.ernet.in",
 	"nameServers": [
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",

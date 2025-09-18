@@ -1,6 +1,5 @@
 {
 	"domain": "chambagri.fr",
-	"whoisServer": "whois.smallregistry.net",
 	"nameServers": [
 		"ns1.smallregistry.net",
 		"ns2.smallregistry.net",

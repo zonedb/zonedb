@@ -1,6 +1,5 @@
 {
 	"domain": "cf",
-	"whoisServer": "whois.dot.cf",
 	"nameServers": [
 		"a.ns.cf",
 		"b.ns.cf",

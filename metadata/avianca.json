@@ -2,7 +2,6 @@
 	"domain": "avianca",
 	"registryOperator": "Aerovias del Continente Americano S.A. Avianca",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/avianca",
-	"whoisServer": "whois.nic.avianca",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

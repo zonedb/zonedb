@@ -2,7 +2,6 @@
 	"domain": "wine",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.wine",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

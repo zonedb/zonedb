@@ -1,6 +1,5 @@
 {
 	"domain": "edu.ru",
-	"whoisServer": "whois.informika.ru",
 	"nameServers": [
 		"ns.informika.ru",
 		"ns.msu.ru",

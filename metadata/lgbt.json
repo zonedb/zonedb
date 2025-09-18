@@ -2,7 +2,6 @@
 	"domain": "lgbt",
 	"registryOperator": "Identity Digital Domains Limited",
 	"infoURL": "http://nic.lgbt/",
-	"whoisServer": "whois.nic.lgbt",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

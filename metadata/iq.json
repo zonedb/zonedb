@@ -1,6 +1,5 @@
 {
 	"domain": "iq",
-	"whoisServer": "whois.cmc.iq",
 	"nameServers": [
 		"ns.cmc.iq",
 		"ns01.trs-dns.com",

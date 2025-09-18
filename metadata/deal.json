@@ -2,7 +2,6 @@
 	"domain": "deal",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.deal/",
-	"whoisServer": "whois.nic.deal",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/deal/"
 	],

@@ -1,7 +1,6 @@
 {
 	"domain": "rocks",
 	"registryOperator": "Dog Beach, LLC",
-	"whoisServer": "whois.nic.rocks",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -2,7 +2,6 @@
 	"domain": "ポイント",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.ポイント/",
-	"whoisServer": "whois.nic.ポイント",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

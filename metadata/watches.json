@@ -2,7 +2,6 @@
 	"domain": "watches",
 	"registryOperator": "Identity Digital Domains Limited",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.watches",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

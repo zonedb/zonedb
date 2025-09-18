@@ -2,7 +2,6 @@
 	"domain": "lipsy",
 	"registryOperator": "Lipsy Ltd",
 	"infoURL": "http://nic.lipsy/",
-	"whoisServer": "whois.nic.lipsy",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

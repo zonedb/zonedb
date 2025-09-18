@@ -2,7 +2,6 @@
 	"domain": "shiksha",
 	"registryOperator": "Identity Digital Domains Limited",
 	"infoURL": "http://nic.shiksha/",
-	"whoisServer": "whois.nic.shiksha",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

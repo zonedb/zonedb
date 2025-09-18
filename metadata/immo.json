@@ -2,7 +2,6 @@
 	"domain": "immo",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.immo",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

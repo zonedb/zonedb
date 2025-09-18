@@ -1,7 +1,6 @@
 {
 	"domain": "ng",
 	"infoURL": "https://web4africa.ng/ng-domains/",
-	"whoisServer": "whois.nic.net.ng",
 	"nameServers": [
 		"ns2.nic.net.ng",
 		"ns3.nic.net.ng",

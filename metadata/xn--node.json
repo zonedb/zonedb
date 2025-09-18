@@ -1,7 +1,6 @@
 {
 	"domain": "გე",
 	"infoURL": "http://nic.გე/",
-	"whoisServer": "whois.itdc.ge",
 	"nameServers": [
 		"გე.ns.anycast.pch.net",
 		"გე.ns.cloudhosted.io"

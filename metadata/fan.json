@@ -2,7 +2,6 @@
 	"domain": "fan",
 	"registryOperator": "Dog Beach, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.fan",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

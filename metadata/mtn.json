@@ -2,7 +2,6 @@
 	"domain": "mtn",
 	"registryOperator": "MTN Dubai Limited",
 	"infoURL": "http://www.nic.mtn/",
-	"whoisServer": "whois.nic.mtn",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/mtn/"
 	],

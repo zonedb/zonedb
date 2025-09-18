@@ -2,7 +2,6 @@
 	"domain": "redstone",
 	"registryOperator": "Redstone Haute Couture Co., Ltd.",
 	"infoURL": "http://nic.redstone/",
-	"whoisServer": "whois.nic.redstone",
 	"rdapURLs": [
 		"https://rdap.zdnsgtld.com/redstone/"
 	],

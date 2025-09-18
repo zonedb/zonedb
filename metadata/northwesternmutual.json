@@ -2,7 +2,6 @@
 	"domain": "northwesternmutual",
 	"registryOperator": "Northwestern Mutual Registry, LLC",
 	"infoURL": "https://www.nic.northwesternmutual/",
-	"whoisServer": "whois.nic.northwesternmutual",
 	"rdapURLs": [
 		"https://rdap.nic.northwesternmutual/"
 	],

@@ -1,6 +1,5 @@
 {
 	"domain": "co.de",
-	"whoisServer": "whois.co.de",
 	"nameServers": [
 		"a.dns.subd.at",
 		"m.dns.subd.at",

@@ -2,7 +2,6 @@
 	"domain": "hoteles",
 	"registryOperator": "Travel Reservations SRL",
 	"infoURL": "http://nic.hoteles/",
-	"whoisServer": "whois.nic.hoteles",
 	"rdapURLs": [
 		"https://rdap.nic.hoteles/"
 	],

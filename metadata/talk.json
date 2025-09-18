@@ -2,7 +2,6 @@
 	"domain": "talk",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.talk/",
-	"whoisServer": "whois.nic.talk",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/talk/"
 	],

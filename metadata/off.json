@@ -1,7 +1,6 @@
 {
 	"domain": "off",
 	"registryOperator": "Johnson Shareholdings, Inc.",
-	"whoisServer": "whois.nic.off",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/off/v1/"
 	],

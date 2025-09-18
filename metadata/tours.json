@@ -2,7 +2,6 @@
 	"domain": "tours",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.tours",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

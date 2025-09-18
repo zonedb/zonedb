@@ -2,7 +2,6 @@
 	"domain": "xbox",
 	"registryOperator": "Microsoft Corporation",
 	"infoURL": "https://nic.xbox/",
-	"whoisServer": "whois.nic.xbox",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/xbox/"
 	],

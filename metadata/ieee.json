@@ -2,7 +2,6 @@
 	"domain": "ieee",
 	"registryOperator": "IEEE Global LLC",
 	"infoURL": "http://nic.ieee/",
-	"whoisServer": "whois.nic.ieee",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/ieee/"
 	],

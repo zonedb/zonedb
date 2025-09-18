@@ -2,7 +2,6 @@
 	"domain": "abbvie",
 	"registryOperator": "AbbVie Inc.",
 	"infoURL": "http://nic.abbvie/",
-	"whoisServer": "whois.nic.abbvie",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/abbvie/"
 	],

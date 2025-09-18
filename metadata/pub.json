@@ -1,7 +1,6 @@
 {
 	"domain": "pub",
 	"registryOperator": "Dog Beach, LLC",
-	"whoisServer": "whois.nic.pub",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -2,7 +2,6 @@
 	"domain": "secure",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.secure/",
-	"whoisServer": "whois.nic.secure",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/secure/"
 	],

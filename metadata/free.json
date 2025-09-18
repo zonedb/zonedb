@@ -2,7 +2,6 @@
 	"domain": "free",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.free/",
-	"whoisServer": "whois.nic.free",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/free/"
 	],

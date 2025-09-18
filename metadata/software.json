@@ -2,7 +2,6 @@
 	"domain": "software",
 	"registryOperator": "Dog Beach, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.software",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

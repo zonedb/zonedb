@@ -2,7 +2,6 @@
 	"domain": "娱乐",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.娱乐",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

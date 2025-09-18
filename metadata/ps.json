@@ -1,6 +1,5 @@
 {
 	"domain": "ps",
-	"whoisServer": "whois.pnina.ps",
 	"nameServers": [
 		"bilal.pnina.ps",
 		"fork.sth.dnsnode.net",

@@ -1,7 +1,6 @@
 {
 	"domain": "sarl",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.sarl",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

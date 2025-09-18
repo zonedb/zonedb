@@ -2,7 +2,6 @@
 	"domain": "llc",
 	"registryOperator": "Identity Digital Domains Limited",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.llc",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

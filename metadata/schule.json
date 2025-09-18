@@ -1,7 +1,6 @@
 {
 	"domain": "schule",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.schule",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

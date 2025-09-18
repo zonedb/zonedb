@@ -2,7 +2,6 @@
 	"domain": "gdn",
 	"registryOperator": "Joint Stock Company \"Navigation-information systems\"",
 	"infoURL": "http://nic.gdn/",
-	"whoisServer": "whois.nic.gdn",
 	"rdapURLs": [
 		"https://rdap.nic.gdn/"
 	],

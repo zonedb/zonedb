@@ -2,7 +2,6 @@
 	"domain": "loft",
 	"registryOperator": "Annco, Inc.",
 	"infoURL": "http://www.nic.loft/",
-	"whoisServer": "whois.nic.loft",
 	"rdapURLs": [
 		"https://rdap.nic.loft/"
 	],

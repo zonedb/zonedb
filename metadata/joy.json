@@ -2,7 +2,6 @@
 	"domain": "joy",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.joy/",
-	"whoisServer": "whois.nic.joy",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/joy/"
 	],

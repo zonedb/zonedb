@@ -2,7 +2,6 @@
 	"domain": "office",
 	"registryOperator": "Microsoft Corporation",
 	"infoURL": "https://nic.office/",
-	"whoisServer": "whois.nic.office",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/office/"
 	],

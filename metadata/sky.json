@@ -2,7 +2,6 @@
 	"domain": "sky",
 	"registryOperator": "Sky UK Limited",
 	"infoURL": "https://www.skygroup.sky/nic-sky",
-	"whoisServer": "whois.nic.sky",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/sky/"
 	],

@@ -1,7 +1,6 @@
 {
 	"domain": "vet",
 	"registryOperator": "Dog Beach, LLC",
-	"whoisServer": "whois.nic.vet",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

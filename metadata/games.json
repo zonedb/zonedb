@@ -2,7 +2,6 @@
 	"domain": "games",
 	"registryOperator": "Dog Beach, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.games",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

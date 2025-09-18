@@ -1,7 +1,6 @@
 {
 	"domain": "surgery",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.surgery",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

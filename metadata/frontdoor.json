@@ -2,7 +2,6 @@
 	"domain": "frontdoor",
 	"registryOperator": "Lifestyle Domain Holdings, Inc.",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/frontdoor",
-	"whoisServer": "whois.nic.frontdoor",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/frontdoor/v1/"
 	],

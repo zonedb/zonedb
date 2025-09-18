@@ -1,7 +1,6 @@
 {
 	"domain": "ly",
 	"infoURL": "https://nic.ly/",
-	"whoisServer": "whois.nic.ly",
 	"rdapURLs": [
 		"https://rdap.nic.ly/"
 	],

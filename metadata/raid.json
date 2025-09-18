@@ -1,7 +1,6 @@
 {
 	"domain": "raid",
 	"registryOperator": "Johnson Shareholdings, Inc.",
-	"whoisServer": "whois.nic.raid",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/raid/v1/"
 	],

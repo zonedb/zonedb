@@ -2,7 +2,6 @@
 	"domain": "dabur",
 	"registryOperator": "Dabur India Limited",
 	"infoURL": "http://nic.dabur/",
-	"whoisServer": "whois.nic.dabur",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

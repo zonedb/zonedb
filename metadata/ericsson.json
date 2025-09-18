@@ -2,7 +2,6 @@
 	"domain": "ericsson",
 	"registryOperator": "Telefonaktiebolaget L M Ericsson",
 	"infoURL": "https://nic.ericsson/",
-	"whoisServer": "whois.nic.ericsson",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

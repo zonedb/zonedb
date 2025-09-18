@@ -2,7 +2,6 @@
 	"domain": "prime",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.prime/",
-	"whoisServer": "whois.nic.prime",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/prime/"
 	],

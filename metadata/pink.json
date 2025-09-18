@@ -2,7 +2,6 @@
 	"domain": "pink",
 	"registryOperator": "Identity Digital Domains Limited",
 	"infoURL": "http://nic.pink/",
-	"whoisServer": "whois.nic.pink",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

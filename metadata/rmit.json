@@ -1,7 +1,6 @@
 {
 	"domain": "rmit",
 	"registryOperator": "Royal Melbourne Institute of Technology",
-	"whoisServer": "whois.nic.rmit",
 	"rdapURLs": [
 		"https://rdap.nic.rmit/"
 	],

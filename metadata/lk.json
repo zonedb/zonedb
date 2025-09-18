@@ -1,6 +1,5 @@
 {
 	"domain": "lk",
-	"whoisServer": "whois.nic.lk",
 	"nameServers": [
 		"d.nic.lk",
 		"h.nic.lk",

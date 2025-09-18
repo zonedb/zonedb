@@ -2,7 +2,6 @@
 	"domain": "irish",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.irish",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

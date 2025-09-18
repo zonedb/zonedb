@@ -2,7 +2,6 @@
 	"domain": "saxo",
 	"registryOperator": "Saxo Bank A/S",
 	"infoURL": "http://nic.saxo/",
-	"whoisServer": "whois.nic.saxo",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -1,7 +1,6 @@
 {
 	"domain": "vi",
 	"infoURL": "https://secure.nic.vi/",
-	"whoisServer": "virgil.nic.vi",
 	"rdapURLs": [
 		"https://rdap.nic.vi/"
 	],

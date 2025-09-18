@@ -2,7 +2,6 @@
 	"domain": "realtor",
 	"registryOperator": "Real Estate Domains LLC",
 	"infoURL": "http://nic.realtor/",
-	"whoisServer": "whois.nic.realtor",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/realtor/"
 	],

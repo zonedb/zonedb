@@ -1,7 +1,6 @@
 {
 	"domain": "ninja",
 	"registryOperator": "Dog Beach, LLC",
-	"whoisServer": "whois.nic.ninja",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

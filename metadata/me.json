@@ -1,7 +1,6 @@
 {
 	"domain": "me",
 	"infoURL": "https://domain.me/",
-	"whoisServer": "whois.nic.me",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

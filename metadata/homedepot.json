@@ -2,7 +2,6 @@
 	"domain": "homedepot",
 	"registryOperator": "Home Depot Product Authority, LLC",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/homedepot",
-	"whoisServer": "whois.nic.homedepot",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

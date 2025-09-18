@@ -1,7 +1,6 @@
 {
 	"domain": "immobilien",
 	"registryOperator": "Dog Beach, LLC",
-	"whoisServer": "whois.nic.immobilien",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

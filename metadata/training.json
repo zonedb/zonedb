@@ -1,7 +1,6 @@
 {
 	"domain": "training",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.training",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

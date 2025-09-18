@@ -2,7 +2,6 @@
 	"domain": "bbc",
 	"registryOperator": "British Broadcasting Corporation",
 	"infoURL": "http://nic.bbc/",
-	"whoisServer": "whois.nic.bbc",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/bbc/"
 	],

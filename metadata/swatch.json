@@ -2,7 +2,6 @@
 	"domain": "swatch",
 	"registryOperator": "The Swatch Group Ltd",
 	"infoURL": "https://nic.swatch/",
-	"whoisServer": "whois.nic.swatch",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/swatch/"
 	],

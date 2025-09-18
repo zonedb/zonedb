@@ -2,7 +2,6 @@
 	"domain": "ses",
 	"registryOperator": "SES",
 	"infoURL": "http://nic.ses/",
-	"whoisServer": "whois.nic.ses",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/ses/v1/"
 	],

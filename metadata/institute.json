@@ -1,7 +1,6 @@
 {
 	"domain": "institute",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.institute",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

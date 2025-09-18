@@ -2,7 +2,6 @@
 	"domain": "ファッション",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.ファッション/",
-	"whoisServer": "whois.nic.ファッション",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

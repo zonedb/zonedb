@@ -2,7 +2,6 @@
 	"domain": "cookingchannel",
 	"registryOperator": "Lifestyle Domain Holdings, Inc.",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/cookingchannel",
-	"whoisServer": "whois.nic.cookingchannel",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/cookingchannel/v1/"
 	],

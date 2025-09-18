@@ -2,7 +2,6 @@
 	"domain": "trading",
 	"registryOperator": "Dog Beach, LLC",
 	"infoURL": "http://nic.trading/",
-	"whoisServer": "whois.nic.trading",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

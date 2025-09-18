@@ -2,7 +2,6 @@
 	"domain": "yahoo",
 	"registryOperator": "Yahoo Inc.",
 	"infoURL": "https://gtldyahoo.tumblr.com/",
-	"whoisServer": "whois.nic.yahoo",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

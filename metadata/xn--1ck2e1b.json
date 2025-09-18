@@ -2,7 +2,6 @@
 	"domain": "セール",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.セール/",
-	"whoisServer": "whois.nic.セール",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

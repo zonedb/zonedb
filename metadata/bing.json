@@ -2,7 +2,6 @@
 	"domain": "bing",
 	"registryOperator": "Microsoft Corporation",
 	"infoURL": "https://nic.bing/",
-	"whoisServer": "whois.nic.bing",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/bing/"
 	],

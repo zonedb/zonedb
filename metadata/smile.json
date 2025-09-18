@@ -2,7 +2,6 @@
 	"domain": "smile",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.smile/",
-	"whoisServer": "whois.nic.smile",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/smile/"
 	],

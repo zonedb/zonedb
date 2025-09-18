@@ -2,7 +2,6 @@
 	"domain": "aco",
 	"registryOperator": "ACO Severin Ahlmann GmbH \u0026 Co. KG",
 	"infoURL": "https://nic.aco.com/",
-	"whoisServer": "whois.nic.aco",
 	"rdapURLs": [
 		"https://rdap.nic.aco/"
 	],

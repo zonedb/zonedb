@@ -2,7 +2,6 @@
 	"domain": "hot",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.hot/",
-	"whoisServer": "whois.nic.hot",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/hot/"
 	],

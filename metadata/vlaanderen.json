@@ -2,7 +2,6 @@
 	"domain": "vlaanderen",
 	"registryOperator": "DNS.be vzw",
 	"infoURL": "https://www.dnsbelgium.be/",
-	"whoisServer": "whois.nic.vlaanderen",
 	"rdapURLs": [
 		"https://rdap.nic.vlaanderen/"
 	],

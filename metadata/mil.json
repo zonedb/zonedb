@@ -1,6 +1,5 @@
 {
 	"domain": "mil",
-	"whoisServer": "is-1.nic.mil",
 	"nameServers": [
 		"con1.nipr.mil",
 		"con2.nipr.mil",

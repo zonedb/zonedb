@@ -2,7 +2,6 @@
 	"domain": "bentley",
 	"registryOperator": "Bentley Motors Limited",
 	"infoURL": "https://www.nic.bentley/",
-	"whoisServer": "whois.nic.bentley",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/bentley/"
 	],

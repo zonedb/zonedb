@@ -1,6 +1,5 @@
 {
 	"domain": "uy",
-	"whoisServer": "whois.nic.org.uy",
 	"nameServers": [
 		"a.lactld.org",
 		"a.nic.uy",

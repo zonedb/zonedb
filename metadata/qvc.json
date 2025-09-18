@@ -1,7 +1,6 @@
 {
 	"domain": "qvc",
 	"registryOperator": "QVC, Inc.",
-	"whoisServer": "whois.nic.qvc",
 	"rdapURLs": [
 		"https://rdap.nic.qvc/"
 	],

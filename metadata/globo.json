@@ -2,7 +2,6 @@
 	"domain": "globo",
 	"registryOperator": "Globo Comunicação e Participações S.A",
 	"infoURL": "https://nic.globo/",
-	"whoisServer": "whois.gtlds.nic.br",
 	"rdapURLs": [
 		"https://rdap.gtlds.nic.br/"
 	],

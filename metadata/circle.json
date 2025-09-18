@@ -2,7 +2,6 @@
 	"domain": "circle",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.circle/",
-	"whoisServer": "whois.nic.circle",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/circle/"
 	],

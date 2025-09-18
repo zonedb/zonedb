@@ -2,7 +2,6 @@
 	"domain": "mba",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.mba",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

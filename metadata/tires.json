@@ -2,7 +2,6 @@
 	"domain": "tires",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.tires",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -1,7 +1,6 @@
 {
 	"domain": "ଭାରତ",
 	"infoURL": "https://www.registry.in/",
-	"whoisServer": "whois.registry.in",
 	"nameServers": [
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",

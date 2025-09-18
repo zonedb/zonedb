@@ -2,7 +2,6 @@
 	"domain": "kim",
 	"registryOperator": "Identity Digital Domains Limited",
 	"infoURL": "http://nic.kim/",
-	"whoisServer": "whois.nic.kim",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

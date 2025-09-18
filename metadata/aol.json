@@ -2,7 +2,6 @@
 	"domain": "aol",
 	"registryOperator": "Yahoo Inc.",
 	"infoURL": "https://nic.aol.com/",
-	"whoisServer": "whois.nic.aol",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

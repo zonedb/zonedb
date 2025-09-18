@@ -2,7 +2,6 @@
 	"domain": "imamat",
 	"registryOperator": "Fondation Aga Khan (Aga Khan Foundation)",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/imamat",
-	"whoisServer": "whois.nic.imamat",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

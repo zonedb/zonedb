@@ -2,7 +2,6 @@
 	"domain": "wanggou",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.wanggou/",
-	"whoisServer": "whois.nic.wanggou",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/wanggou/"
 	],

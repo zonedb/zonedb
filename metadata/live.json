@@ -2,7 +2,6 @@
 	"domain": "live",
 	"registryOperator": "Dog Beach, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.live",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

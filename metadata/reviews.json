@@ -1,7 +1,6 @@
 {
 	"domain": "reviews",
 	"registryOperator": "Dog Beach, LLC",
-	"whoisServer": "whois.nic.reviews",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

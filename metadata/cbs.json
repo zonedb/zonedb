@@ -2,7 +2,6 @@
 	"domain": "cbs",
 	"registryOperator": "CBS Domains Inc.",
 	"infoURL": "https://nic.cbs/",
-	"whoisServer": "whois.nic.cbs",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

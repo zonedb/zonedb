@@ -2,7 +2,6 @@
 	"domain": "vegas",
 	"registryOperator": "Dot Vegas, Inc.",
 	"infoURL": "https://nic.vegas/",
-	"whoisServer": "whois.nic.vegas",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

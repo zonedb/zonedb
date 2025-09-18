@@ -2,7 +2,6 @@
 	"domain": "shell",
 	"registryOperator": "Shell Information Technology International Inc",
 	"infoURL": "https://www.nic.shell/",
-	"whoisServer": "whois.nic.shell",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/shell/"
 	],

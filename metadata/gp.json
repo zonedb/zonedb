@@ -1,7 +1,6 @@
 {
 	"domain": "gp",
 	"infoURL": "https://www.nic.gp/",
-	"whoisServer": "whois.nic.gp",
 	"nameServers": [
 		"a.lactld.org",
 		"gp.cctld.authdns.ripe.net",

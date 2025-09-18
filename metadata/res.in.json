@@ -1,6 +1,5 @@
 {
 	"domain": "res.in",
-	"whoisServer": "whois.ncst.ernet.in",
 	"rdapURLs": [
 		"https://rdap.registry.in/"
 	],

@@ -2,7 +2,6 @@
 	"domain": "style",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.style",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

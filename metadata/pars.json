@@ -2,7 +2,6 @@
 	"domain": "pars",
 	"registryOperator": "Asia Green IT System Bilgisayar San. ve Tic. Ltd. Sti.",
 	"infoURL": "http://nic.pars/",
-	"whoisServer": "whois.nic.pars",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/pars/"
 	],

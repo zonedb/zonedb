@@ -2,7 +2,6 @@
 	"domain": "クラウド",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.クラウド/",
-	"whoisServer": "whois.nic.クラウド",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

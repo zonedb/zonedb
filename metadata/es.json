@@ -1,6 +1,5 @@
 {
 	"domain": "es",
-	"whoisServer": "whois.nic.es",
 	"nameServers": [
 		"a.nic.es",
 		"c.nic.es",

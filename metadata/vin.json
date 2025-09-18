@@ -2,7 +2,6 @@
 	"domain": "vin",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.vin",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

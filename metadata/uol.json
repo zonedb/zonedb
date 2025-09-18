@@ -2,7 +2,6 @@
 	"domain": "uol",
 	"registryOperator": "UBN INTERNET LTDA.",
 	"infoURL": "https://nic.uol/",
-	"whoisServer": "whois.gtlds.nic.br",
 	"rdapURLs": [
 		"https://rdap.gtlds.nic.br/"
 	],

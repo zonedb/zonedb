@@ -1,6 +1,5 @@
 {
 	"domain": "ec",
-	"whoisServer": "whois.nic.ec",
 	"rdapURLs": [
 		"https://rdap.registry.ec/"
 	],

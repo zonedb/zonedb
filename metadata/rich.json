@@ -2,7 +2,6 @@
 	"domain": "rich",
 	"registryOperator": "iRegistry GmbH",
 	"infoURL": "https://nic.rich/",
-	"whoisServer": "whois.nic.rich",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

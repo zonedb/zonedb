@@ -2,7 +2,6 @@
 	"domain": "tci",
 	"registryOperator": "Asia Green IT System Bilgisayar San. ve Tic. Ltd. Sti.",
 	"infoURL": "http://nic.tci/",
-	"whoisServer": "whois.nic.tci",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/tci/"
 	],

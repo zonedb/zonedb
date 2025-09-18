@@ -1,6 +1,5 @@
 {
 	"domain": "bj",
-	"whoisServer": "whois.nic.bj",
 	"nameServers": [
 		"ns-bj.afrinic.net",
 		"ns-bj.nic.fr",

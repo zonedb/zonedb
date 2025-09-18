@@ -1,7 +1,6 @@
 {
 	"domain": "town",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.town",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

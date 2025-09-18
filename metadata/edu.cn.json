@@ -1,6 +1,5 @@
 {
 	"domain": "edu.cn",
-	"whoisServer": "whois.edu.cn",
 	"nameServers": [
 		"dns.edu.cn",
 		"dns2.edu.cn",

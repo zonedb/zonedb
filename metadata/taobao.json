@@ -2,7 +2,6 @@
 	"domain": "taobao",
 	"registryOperator": "Alibaba Group Holding Limited",
 	"infoURL": "http://nic.taobao/",
-	"whoisServer": "whois.nic.taobao",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

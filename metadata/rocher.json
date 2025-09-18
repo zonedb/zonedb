@@ -2,7 +2,6 @@
 	"domain": "rocher",
 	"registryOperator": "Ferrero Trading Lux S.A.",
 	"infoURL": "https://nic.rocher/",
-	"whoisServer": "whois.nic.rocher",
 	"rdapURLs": [
 		"https://rdap.nic.rocher/"
 	],

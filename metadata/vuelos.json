@@ -2,7 +2,6 @@
 	"domain": "vuelos",
 	"registryOperator": "Travel Reservations SRL",
 	"infoURL": "http://nic.vuelos/",
-	"whoisServer": "whois.nic.vuelos",
 	"rdapURLs": [
 		"https://rdap.nic.vuelos/"
 	],

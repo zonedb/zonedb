@@ -2,7 +2,6 @@
 	"domain": "fast",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.fast/",
-	"whoisServer": "whois.nic.fast",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/fast/"
 	],

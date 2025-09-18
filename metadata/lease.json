@@ -1,7 +1,6 @@
 {
 	"domain": "lease",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.lease",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

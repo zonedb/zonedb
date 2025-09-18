@@ -2,7 +2,6 @@
 	"domain": "comcast",
 	"registryOperator": "Comcast IP Holdings I, LLC",
 	"infoURL": "https://nic.comcast/",
-	"whoisServer": "whois.nic.comcast",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/comcast/"
 	],

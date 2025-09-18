@@ -2,7 +2,6 @@
 	"domain": "pin",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.pin/",
-	"whoisServer": "whois.nic.pin",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/pin/"
 	],

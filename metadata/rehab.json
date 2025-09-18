@@ -2,7 +2,6 @@
 	"domain": "rehab",
 	"registryOperator": "Dog Beach, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.rehab",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

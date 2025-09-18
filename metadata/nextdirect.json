@@ -2,7 +2,6 @@
 	"domain": "nextdirect",
 	"registryOperator": "Next plc",
 	"infoURL": "http://nic.nextdirect/",
-	"whoisServer": "whois.nic.nextdirect",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

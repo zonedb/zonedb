@@ -1,6 +1,5 @@
 {
 	"domain": "bo",
-	"whoisServer": "whois.nic.bo",
 	"nameServers": [
 		"anycast.ns.nic.bo",
 		"ns.dns.br",

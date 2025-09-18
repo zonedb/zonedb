@@ -1,7 +1,6 @@
 {
 	"domain": "afamilycompany",
 	"registryOperator": "Johnson Shareholdings, Inc.",
-	"whoisServer": "whois.nic.afamilycompany",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/afamilycompany/v1/"
 	],

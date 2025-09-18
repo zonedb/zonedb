@@ -2,7 +2,6 @@
 	"domain": "buy",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.buy/",
-	"whoisServer": "whois.nic.buy",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/buy/"
 	],

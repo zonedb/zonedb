@@ -2,7 +2,6 @@
 	"domain": "call",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.call/",
-	"whoisServer": "whois.nic.call",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/call/"
 	],

@@ -1,7 +1,6 @@
 {
 	"domain": "jobs",
 	"registryOperator": "Employ Media LLC",
-	"whoisServer": "whois.nic.jobs",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/jobs/"
 	],
