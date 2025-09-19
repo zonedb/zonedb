@@ -2,6 +2,7 @@
 	"domain": "lds",
 	"registryOperator": "IRI Domain Management, LLC",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/lds",
+	"whoisServer": "whois.nic.lds",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
