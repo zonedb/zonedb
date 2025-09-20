@@ -5,9 +5,6 @@
 		"ns2.eunoc.net",
 		"ns3.eunoc.net"
 	],
-	"wildcards": [
-		"185.27.255.8"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
