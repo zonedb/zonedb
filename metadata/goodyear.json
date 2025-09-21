@@ -2,6 +2,7 @@
 	"domain": "goodyear",
 	"registryOperator": "The Goodyear Tire \u0026 Rubber Company",
 	"infoURL": "https://nic.goodyear/",
+	"whoisServer": "whois.nic.goodyear",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
