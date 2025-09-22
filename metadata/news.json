@@ -2,6 +2,7 @@
 	"domain": "news",
 	"registryOperator": "Dog Beach, LLC",
 	"infoURL": "https://identity.digital/",
+	"whoisServer": "whois.nic.news",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
