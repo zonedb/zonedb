@@ -2,6 +2,7 @@
 	"domain": "hyundai",
 	"registryOperator": "Hyundai Motor Company",
 	"infoURL": "https://nic.hyundai/",
+	"whoisServer": "whois.nic.hyundai",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],
