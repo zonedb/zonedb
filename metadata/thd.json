@@ -2,6 +2,7 @@
 	"domain": "thd",
 	"registryOperator": "Home Depot Product Authority, LLC",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/thd",
+	"whoisServer": "whois.nic.thd",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
