@@ -1,6 +1,7 @@
 {
 	"domain": "gripe",
 	"registryOperator": "Binky Moon, LLC",
+	"whoisServer": "whois.nic.gripe",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

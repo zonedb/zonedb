@@ -2,7 +2,7 @@
 	"domain": "property",
 	"registryOperator": "Digital Property Infrastructure Limited",
 	"infoURL": "https://nic.property/",
-	"whoisServer": "whois.nic.property",
+	"whoisServer": "whois.tucowsregistry.net",
 	"rdapURLs": [
 		"https://rdap.tucowsregistry.net/rdap/"
 	],

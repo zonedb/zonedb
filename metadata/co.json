@@ -3,14 +3,12 @@
 	"infoURL": "https://www.go.co/",
 	"whoisServer": "whois.nic.co",
 	"nameServers": [
+		"a.registrydns.co",
+		"b.registrydns.co",
 		"ns1.cctld.co",
 		"ns2.cctld.co",
-		"ns3.cctld.co",
-		"ns4.cctld.co",
-		"ns5.cctld.co",
 		"ns6.cctld.co",
-		"ns7.cctld.co",
-		"ns8.cctld.co"
+		"ns7.cctld.co"
 	],
 	"languages": [
 		"da",
