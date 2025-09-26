@@ -2,6 +2,7 @@
 	"domain": "green",
 	"registryOperator": "Identity Digital Domains Limited",
 	"infoURL": "http://nic.green/",
+	"whoisServer": "whois.nic.green",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
