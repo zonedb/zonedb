@@ -2,6 +2,7 @@
 	"domain": "vanguard",
 	"registryOperator": "The Vanguard Group, Inc.",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/vanguard",
+	"whoisServer": "whois.nic.vanguard",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
