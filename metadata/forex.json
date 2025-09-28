@@ -2,6 +2,7 @@
 	"domain": "forex",
 	"registryOperator": "Dog Beach, LLC",
 	"infoURL": "http://nic.forex/",
+	"whoisServer": "whois.nic.forex",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
