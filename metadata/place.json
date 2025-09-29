@@ -1,6 +1,7 @@
 {
 	"domain": "place",
 	"registryOperator": "Binky Moon, LLC",
+	"whoisServer": "whois.nic.place",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

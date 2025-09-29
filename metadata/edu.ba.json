@@ -1,8 +1,7 @@
 {
 	"domain": "edu.ba",
 	"nameServers": [
-		"lim.utic.net.ba",
-		"ns.ba",
+		"bosna.utic.net.ba",
 		"sava.utic.net.ba",
 		"una.utic.net.ba"
 	],

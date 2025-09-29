@@ -2,6 +2,7 @@
 	"domain": "barefoot",
 	"registryOperator": "Gallo Vineyards, Inc.",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/barefoot",
+	"whoisServer": "whois.nic.barefoot",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
