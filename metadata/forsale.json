@@ -2,6 +2,7 @@
 	"domain": "forsale",
 	"registryOperator": "Dog Beach, LLC",
 	"infoURL": "https://identity.digital/",
+	"whoisServer": "whois.nic.forsale",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

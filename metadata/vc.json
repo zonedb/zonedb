@@ -1,5 +1,6 @@
 {
 	"domain": "vc",
+	"whoisServer": "whois.identitydigital.services",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
