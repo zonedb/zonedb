@@ -5,10 +5,8 @@
 	"nameServers": [
 		"a.registrydns.co",
 		"b.registrydns.co",
-		"ns1.cctld.co",
-		"ns2.cctld.co",
-		"ns6.cctld.co",
-		"ns7.cctld.co"
+		"c.registrydns.co",
+		"d.registrydns.co"
 	],
 	"languages": [
 		"da",
