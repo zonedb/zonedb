@@ -1,5 +1,6 @@
 {
 	"domain": "mn",
+	"whoisServer": "whois.nic.mn",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
