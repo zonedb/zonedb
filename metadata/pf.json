@@ -1,6 +1,7 @@
 {
 	"domain": "pf",
 	"nameServers": [
+		"ns03.pf",
 		"ns1.mana.pf",
 		"ns2.mana.pf"
 	],
