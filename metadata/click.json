@@ -2,7 +2,7 @@
 	"domain": "click",
 	"registryOperator": "Waterford Limited",
 	"infoURL": "https://uniregistry.link/extensions/click/",
-	"whoisServer": "whois.nic.click",
+	"whoisServer": "whois.tucowsregistry.net",
 	"rdapURLs": [
 		"https://rdap.tucowsregistry.net/rdap/"
 	],
