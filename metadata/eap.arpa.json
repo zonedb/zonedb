@@ -1,0 +1,9 @@
+{
+	"domain": "eap.arpa",
+	"registryOperator": "IANA",
+	"infoURL": "https://datatracker.ietf.org/doc/draft-emu-eap-arpa-10",
+	"tags": [
+		"closed",
+		"infrastructure"
+	]
+}
