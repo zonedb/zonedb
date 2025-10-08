@@ -4474,6 +4474,7 @@ net.tc
 org.tc
 pro.tc
 com.td
+info.td
 net.td
 org.td
 tourism.td

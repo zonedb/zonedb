@@ -1,0 +1,8 @@
+{
+	"domain": "info.td",
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
+}
