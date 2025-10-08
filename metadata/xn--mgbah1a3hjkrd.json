@@ -1,5 +1,6 @@
 {
 	"domain": "موريتانيا",
+	"whoisServer": "whois.nic.mr",
 	"nameServers": [
 		"ns-mr.afrinic.net",
 		"ns-mr.nic.fr",
