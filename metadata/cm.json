@@ -1,7 +1,7 @@
 {
 	"domain": "cm",
 	"infoURL": "https://antic.cm/",
-	"whoisServer": "whois.netcom.cm",
+	"whoisServer": "whois.nic.cm",
 	"rdapURLs": [
 		"https://rdap.nic.cm/"
 	],
