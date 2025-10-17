@@ -1,0 +1,7 @@
+{
+	"domain": "sid.do",
+	"nameServers": [
+		"dayana.ns.cloudflare.com",
+		"sean.ns.cloudflare.com"
+	]
+}
