@@ -1,6 +1,6 @@
 {
 	"domain": "si",
-	"whoisServer": "whois.register.si",
+	"whoisServer": "whois.arnes.si",
 	"rdapURLs": [
 		"https://rdap.register.si/"
 	],
