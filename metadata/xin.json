@@ -2,6 +2,7 @@
 	"domain": "xin",
 	"registryOperator": "Elegant Leader Limited",
 	"infoURL": "https://nic.xin/",
+	"whoisServer": "whois.nic.xin",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
