@@ -2,6 +2,7 @@
 	"domain": "ismaili",
 	"registryOperator": "Fondation Aga Khan (Aga Khan Foundation)",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/ismaili",
+	"whoisServer": "whois.nic.ismaili",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

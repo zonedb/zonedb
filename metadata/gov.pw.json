@@ -1,8 +1,8 @@
 {
 	"domain": "gov.pw",
 	"nameServers": [
-		"standard3.encirca.net",
-		"standard4.encirca.net"
+		"dnssec1.encirca.net",
+		"dnssec2.encirca.net"
 	],
 	"policies": [
 		{
