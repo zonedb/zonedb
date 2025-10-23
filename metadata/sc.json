@@ -1,5 +1,6 @@
 {
 	"domain": "sc",
+	"whoisServer": "whois.nic.sc",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

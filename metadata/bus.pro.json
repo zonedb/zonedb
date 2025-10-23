@@ -1,8 +1,8 @@
 {
 	"domain": "bus.pro",
 	"nameServers": [
-		"arvind.ns.cloudflare.com",
-		"ryleigh.ns.cloudflare.com"
+		"launch1.spaceship.net",
+		"launch2.spaceship.net"
 	],
 	"policies": [
 		{
