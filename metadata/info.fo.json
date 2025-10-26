@@ -4,9 +4,6 @@
 		"ns1.dyna-ns.net",
 		"ns2.dyna-ns.net"
 	],
-	"wildcards": [
-		"75.2.18.233"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
