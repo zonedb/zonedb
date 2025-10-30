@@ -2,6 +2,7 @@
 	"domain": "ice",
 	"registryOperator": "IntercontinentalExchange, Inc.",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/ice",
+	"whoisServer": "whois.nic.ice",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
