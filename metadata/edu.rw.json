@@ -6,6 +6,10 @@
 		"ns1.ricta.org.rw",
 		"pch.ricta.org.rw"
 	],
+	"wildcards": [
+		"208.91.112.55",
+		"2620:101:9000:53::55"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

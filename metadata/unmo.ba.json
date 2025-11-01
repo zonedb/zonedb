@@ -1,9 +1,9 @@
 {
 	"domain": "unmo.ba",
 	"nameServers": [
-		"dns2019.unmo.ba",
+		"dns2022.unmo.ba",
 		"pdc2019.unmo.ba",
-		"web2019.unmo.ba"
+		"web2022.unmo.ba"
 	],
 	"policies": [
 		{
