@@ -2,6 +2,7 @@
 	"domain": "電訊盈科",
 	"registryOperator": "PCCW Enterprises Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--fzys8d69uvgm",
+	"whoisServer": "whois.nic.電訊盈科",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
