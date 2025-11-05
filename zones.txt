@@ -3332,6 +3332,7 @@ net.kp
 org.kp
 rep.kp
 ac.kr
+ai.kr
 busan.kr
 chungbuk.kr
 chungnam.kr
@@ -3347,10 +3348,13 @@ gyeonggi.kr
 gyeongnam.kr
 hs.kr
 incheon.kr
+io.kr
+it.kr
 jeju.kr
 jeonbuk.kr
 jeonnam.kr
 kg.kr
+me.kr
 mil.kr
 ms.kr
 ne.kr
