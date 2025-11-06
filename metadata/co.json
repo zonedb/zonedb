@@ -1,7 +1,10 @@
 {
 	"domain": "co",
-	"infoURL": "https://www.go.co/",
-	"whoisServer": "whois.nic.co",
+	"infoURL": "https://registry.co/",
+	"whoisServer": "whois.registry.co",
+	"rdapURLs": [
+		"https://rdap.registry.co/"
+	],
 	"nameServers": [
 		"a.registrydns.co",
 		"b.registrydns.co",
