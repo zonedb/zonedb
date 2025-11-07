@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/xn--w4r85el8fhu5dnra/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"v0n0.nic.嘉里大酒店",
+		"v0n1.nic.嘉里大酒店",
+		"v0n2.nic.嘉里大酒店",
+		"v0n3.nic.嘉里大酒店",
+		"v2n0.nic.嘉里大酒店",
+		"v2n1.nic.嘉里大酒店"
 	],
 	"languages": [
 		"az",

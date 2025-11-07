@@ -4,13 +4,12 @@
 	"infoURL": "https://www.apple.com/legal/intellectual-property/tld/",
 	"whoisServer": "whois.nic.apple",
 	"rdapURLs": [
-		"https://rdap.identitydigital.services/rdap/"
+		"https://rdap.nic.apple/"
 	],
 	"nameServers": [
-		"a0.nic.apple",
-		"a2.nic.apple",
-		"b0.nic.apple",
-		"c0.nic.apple"
+		"apple-ns.pch.net",
+		"c.ns.apple.com",
+		"d.ns.apple.com"
 	],
 	"tags": [
 		"brand",

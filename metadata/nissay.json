@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/nissay/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"v0n0.nic.nissay",
+		"v0n1.nic.nissay",
+		"v0n2.nic.nissay",
+		"v0n3.nic.nissay",
+		"v2n0.nic.nissay",
+		"v2n1.nic.nissay"
 	],
 	"languages": [
 		"ja",

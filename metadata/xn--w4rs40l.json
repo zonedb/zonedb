@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/xn--w4rs40l/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"v0n0.nic.嘉里",
+		"v0n1.nic.嘉里",
+		"v0n2.nic.嘉里",
+		"v0n3.nic.嘉里",
+		"v2n0.nic.嘉里",
+		"v2n1.nic.嘉里"
 	],
 	"languages": [
 		"az",
