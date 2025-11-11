@@ -2,6 +2,7 @@
 	"domain": "hdfcbank",
 	"registryOperator": "HDFC BANK LIMITED",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/hdfcbank",
+	"whoisServer": "whois.nic.hdfcbank",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
