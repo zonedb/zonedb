@@ -1,8 +1,5 @@
 {
 	"domain": "mobi.na",
-	"nameServers": [
-		"suspended.omadhina.co.na"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
