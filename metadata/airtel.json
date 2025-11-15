@@ -7,10 +7,12 @@
 		"https://tld-rdap.verisign.com/airtel/v1/"
 	],
 	"nameServers": [
-		"ac1.nstld.com",
-		"ac2.nstld.com",
-		"ac3.nstld.com",
-		"ac4.nstld.com"
+		"a.nic.airtel",
+		"b.nic.airtel",
+		"c.nic.airtel",
+		"x.nic.airtel",
+		"y.nic.airtel",
+		"z.nic.airtel"
 	],
 	"tags": [
 		"brand",

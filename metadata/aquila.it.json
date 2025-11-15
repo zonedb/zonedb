@@ -1,7 +1,17 @@
 {
 	"domain": "aquila.it",
 	"nameServers": [
-		"ns1.parkingcrew.net",
-		"ns2.parkingcrew.net"
+		"lunlun.ns.giantpanda.com",
+		"yangyang.ns.giantpanda.com"
+	],
+	"wildcards": [
+		"192.155.84.236",
+		"23.239.3.104",
+		"2600:3c01::f03c:95ff:fe00:29ca",
+		"2600:3c01::f03c:95ff:fe91:5de5",
+		"2600:3c01::f03c:95ff:feeb:5ed6",
+		"2600:3c01::f03c:95ff:feed:cf2a",
+		"66.175.216.36",
+		"74.207.241.245"
 	]
 }
