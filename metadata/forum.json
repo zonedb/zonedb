@@ -2,7 +2,7 @@
 	"domain": "forum",
 	"registryOperator": "Waterford Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/forum",
-	"whoisServer": "whois.nic.forum",
+	"whoisServer": "whois.registry.click",
 	"rdapURLs": [
 		"https://rdap.registry.click/rdap/"
 	],
