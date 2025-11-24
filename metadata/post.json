@@ -2,6 +2,7 @@
 	"domain": "post",
 	"registryOperator": "Universal Postal Union",
 	"infoURL": "https://en.wikipedia.org/wiki/.post",
+	"whoisServer": "whois.nic.post",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
