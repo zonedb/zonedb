@@ -34,7 +34,7 @@ jobs:
           submodules: recursive
 
       - name: Set up Go Version
-        uses: actions/setup-go@v6.0.0
+        uses: actions/setup-go@v6.1.0
         with:
           go-version: ${{ matrix.go-version }} # overrides go-version-file when a value is present
           go-version-file: ${{ matrix.go-version-file }}
@@ -75,7 +75,7 @@ jobs:
           submodules: recursive
 
       - name: Set up Go
-        uses: actions/setup-go@v6.0.0
+        uses: actions/setup-go@v6.1.0
         with:
           go-version: "stable"
 
@@ -125,7 +125,7 @@ jobs:
           submodules: recursive
 
       - name: Set up Go Version
-        uses: actions/setup-go@v6.0.0
+        uses: actions/setup-go@v6.1.0
         with:
           go-version: ${{ matrix.go-version.big }} # overrides go-version-file when a value is present
           go-version-file: ${{ matrix.go-version.file }}
