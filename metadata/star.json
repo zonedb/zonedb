@@ -2,6 +2,7 @@
 	"domain": "star",
 	"registryOperator": "Star India Private Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/star",
+	"whoisServer": "whois.nic.star",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
