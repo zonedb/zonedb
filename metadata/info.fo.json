@@ -1,5 +1,9 @@
 {
 	"domain": "info.fo",
+	"nameServers": [
+		"ns1.atom.com",
+		"ns2.atom.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

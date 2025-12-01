@@ -1,4 +1,10 @@
 {
 	"domain": "co.vu",
-	"infoURL": "https://codotvu.co/"
+	"infoURL": "https://codotvu.co/",
+	"nameServers": [
+		"ns1.codotvu.com",
+		"ns2.codotvu.com",
+		"ns3.codotvu.com",
+		"ns4.codotvu.com"
+	]
 }
