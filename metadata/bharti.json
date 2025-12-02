@@ -3,7 +3,7 @@
 	"registryOperator": "Bharti Enterprises (Holding) Private Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/bharti",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/bharti/v1/"
+		"https://rdap.nic.bharti/"
 	],
 	"nameServers": [
 		"a.nic.bharti",
