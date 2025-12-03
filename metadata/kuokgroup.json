@@ -2,6 +2,7 @@
 	"domain": "kuokgroup",
 	"registryOperator": "Kerry Trading Co. Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/kuokgroup",
+	"whoisServer": "whois.nic.kuokgroup",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

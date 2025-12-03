@@ -3,7 +3,7 @@
 	"registryOperator": "Rusnames Limited",
 	"infoURL": "https://www.webnames.ru/",
 	"rdapURLs": [
-		"https://api.rdap.nic.рус/"
+		"https://rdap.nic.рус/"
 	],
 	"nameServers": [
 		"ns1.anycastdns.cz",
