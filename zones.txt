@@ -4470,6 +4470,7 @@ net.sy
 org.sy
 ac.sz
 co.sz
+gov.sz
 org.sz
 biz.tc
 com.tc
