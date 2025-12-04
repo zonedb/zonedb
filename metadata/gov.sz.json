@@ -1,0 +1,7 @@
+{
+	"domain": "gov.sz",
+	"nameServers": [
+		"celemba.dns.co.sz",
+		"ns2.posix.co.sz"
+	]
+}
