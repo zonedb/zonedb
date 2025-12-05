@@ -2,7 +2,7 @@
 	"domain": "vana",
 	"registryOperator": "D3 Registry LLC",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/vana",
-	"whoisServer": "whois.nic.vana",
+	"whoisServer": "whois.tucowsregistry.net",
 	"rdapURLs": [
 		"https://rdap.tucowsregistry.net/rdap/"
 	],
