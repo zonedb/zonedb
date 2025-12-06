@@ -2,6 +2,7 @@
 	"domain": "bharti",
 	"registryOperator": "Bharti Enterprises (Holding) Private Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/bharti",
+	"whoisServer": "whois.nic.bharti",
 	"rdapURLs": [
 		"https://rdap.nic.bharti/"
 	],
