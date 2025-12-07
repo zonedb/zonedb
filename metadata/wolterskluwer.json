@@ -2,6 +2,7 @@
 	"domain": "wolterskluwer",
 	"registryOperator": "Wolters Kluwer N.V.",
 	"infoURL": "http://nic.wolterskluwer/",
+	"whoisServer": "whois.nic.wolterskluwer",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
