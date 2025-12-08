@@ -3,7 +3,8 @@
 	"nameServers": [
 		"mv-ns.anycast.pch.net",
 		"ns.net.mv",
-		"ns2.dhivehinet.net.mv"
+		"ns2.dhivehinet.net.mv",
+		"sangu.ns.mv"
 	],
 	"policies": [
 		{

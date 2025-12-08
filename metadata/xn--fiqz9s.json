@@ -1,7 +1,7 @@
 {
 	"domain": "中國",
 	"infoURL": "https://wanwang.aliyun.com/hosting/cn_domain",
-	"whoisServer": "whois.cnnic.cn",
+	"whoisServer": "cwhois.cnnic.cn",
 	"nameServers": [
 		"h.dns.cn",
 		"i.dns.cn",

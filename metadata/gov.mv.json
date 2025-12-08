@@ -4,7 +4,8 @@
 		"mv-ns.anycast.pch.net",
 		"ns.dhivehinet.net.mv",
 		"ns.gov.mv",
-		"ns2.dhivehinet.net.mv"
+		"ns2.dhivehinet.net.mv",
+		"sangu.ns.mv"
 	],
 	"policies": [
 		{
