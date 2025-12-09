@@ -18,7 +18,7 @@ jobs:
         with:
           github-token: ${{ secrets.ZONEDBOT_RW_GITHUB_ACCESS_TOKEN }}
           script: |
-            github.pulls.merge({
+            github.rest.pulls.merge({
               owner: context.payload.repository.owner.login,
               repo: context.payload.repository.name,
               pull_number: context.payload.pull_request.number,
