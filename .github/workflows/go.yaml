@@ -81,7 +81,7 @@ jobs:
 
       - name: Get go dependencies
         run: go get -t ./...
-      
+
       - name: Set up Wasmtime
         uses: bytecodealliance/actions/wasmtime/setup@v1.1.2
         with:
@@ -102,7 +102,7 @@ jobs:
       # Go version from go.mod. See usage in the actions/setup-go step.
       matrix:
         go-version:
-          - big: "1.23"
+          - big: "1.24"
             tiny: "0.36.0"
           - big: "1.24"
             tiny: "0.37.0"
