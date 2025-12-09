@@ -5,7 +5,7 @@ module github.com/zonedb/zonedb
 // Note: this should use the latest dot release in CI, once GitHub has added it to "actions/go-versions"
 //
 // EDIT[2025.12.09]: golang.org/x/net requires go1.24.0 - so we have to avoid go1.23.x
-go 1.24.11
+go 1.24.10
 
 require (
 	github.com/PuerkitoBio/goquery v1.10.3
