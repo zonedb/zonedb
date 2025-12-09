@@ -303,3 +303,11 @@ func TestSpecialDomainPolicies(t *testing.T) {
 		})
 	}
 }
+
+func TestNoCcTLDsHaveBrandTag(t *testing.T) {
+	for _, z := range Zones {
+		if z.Tags.And(TagCountry) && z.Tags.And(TagBrand) {
+			t.Errorf("ccTLD %q should not have brand tag", z.Domain)
+		}
+	}
+}
