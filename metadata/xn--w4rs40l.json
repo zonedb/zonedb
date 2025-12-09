@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--w4rs40l",
 	"whoisServer": "whois.nic.嘉里",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/xn--w4rs40l/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.嘉里",

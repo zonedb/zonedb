@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--5su34j936bgsg",
 	"whoisServer": "whois.nic.香格里拉",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/xn--5su34j936bgsg/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.香格里拉",

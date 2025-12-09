@@ -2,6 +2,9 @@
 	"domain": "as",
 	"infoURL": "https://nic.as/",
 	"whoisServer": "whois.nic.as",
+	"rdapURLs": [
+		"https://rdap.nic.as/"
+	],
 	"nameServers": [
 		"ns1.asnic.biz",
 		"ns2.asnic.info",

@@ -9,7 +9,9 @@
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.info",
 		"ns01.trs-dns.net",
-		"ns01.trs-dns.org"
+		"ns01.trs-dns.org",
+		"ns10.trs-dns.info",
+		"ns10.trs-dns.org"
 	],
 	"tags": [
 		"country",

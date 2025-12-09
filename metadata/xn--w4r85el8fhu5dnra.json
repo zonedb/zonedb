@@ -4,7 +4,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--w4r85el8fhu5dnra",
 	"whoisServer": "whois.nic.嘉里大酒店",
 	"rdapURLs": [
-		"https://tld-rdap.verisign.com/xn--w4r85el8fhu5dnra/v1/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.嘉里大酒店",
