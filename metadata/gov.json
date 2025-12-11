@@ -1,6 +1,9 @@
 {
 	"domain": "gov",
 	"whoisServer": "whois.nic.gov",
+	"rdapURLs": [
+		"https://rdap.nic.gov/rdap/"
+	],
 	"nameServers": [
 		"a.ns.gov",
 		"b.ns.gov",
