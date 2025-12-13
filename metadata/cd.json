@@ -2,9 +2,9 @@
 	"domain": "cd",
 	"infoURL": "https://www.nic.cd/nic.cd/",
 	"nameServers": [
-		"ns-root-21.scpt-network.net",
-		"ns-root-22.scpt-network.net",
-		"ns-root-23.scpt-network.net"
+		"gransy-anycast1.nic.cd",
+		"gransy-anycast2.nic.cd",
+		"pch.nic.cd"
 	],
 	"tags": [
 		"country",
