@@ -1,6 +1,7 @@
 {
 	"domain": "gov.mv",
 	"nameServers": [
+		"boli.ns.mv",
 		"mv-ns.anycast.pch.net",
 		"ns.dhivehinet.net.mv",
 		"ns.gov.mv",

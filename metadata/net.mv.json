@@ -1,6 +1,7 @@
 {
 	"domain": "net.mv",
 	"nameServers": [
+		"boli.ns.mv",
 		"mv-ns.anycast.pch.net",
 		"ns.net.mv",
 		"ns2.dhivehinet.net.mv",

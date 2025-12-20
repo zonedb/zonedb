@@ -1,6 +1,7 @@
 {
 	"domain": "edu.mv",
 	"nameServers": [
+		"boli.ns.mv",
 		"mv-ns.anycast.pch.net",
 		"ns.edu.mv",
 		"ns1.edu.mv",
