@@ -2,6 +2,7 @@
 	"domain": "kyoto",
 	"registryOperator": "Academic Institution: Kyoto Jyoho Gakuen",
 	"infoURL": "https://nic.kyoto/",
+	"whoisServer": "whois.nic.kyoto",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

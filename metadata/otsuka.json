@@ -2,6 +2,7 @@
 	"domain": "otsuka",
 	"registryOperator": "Otsuka Holdings Co., Ltd.",
 	"infoURL": "https://nic.otsuka/",
+	"whoisServer": "whois.nic.otsuka",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],
