@@ -1,7 +1,7 @@
 {
 	"domain": "br",
 	"infoURL": "https://nic.br/",
-	"whoisServer": "whois.nic.br",
+	"whoisServer": "whois.registro.br",
 	"rdapURLs": [
 		"https://rdap.registro.br/"
 	],
