@@ -1,9 +1,5 @@
 {
 	"domain": "mil.st",
-	"nameServers": [
-		"ns.bahnhof.se",
-		"ns2.bahnhof.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
