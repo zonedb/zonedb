@@ -2,6 +2,7 @@
 	"domain": "rwe",
 	"registryOperator": "RWE AG",
 	"infoURL": "http://nic.rwe/",
+	"whoisServer": "whois.nic.rwe",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

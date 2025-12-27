@@ -2,8 +2,11 @@
 	"domain": "kr.com",
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
-		"jm1.dns.com",
-		"jm2.dns.com"
+		"ns1.judns.com",
+		"ns2.judns.com"
+	],
+	"wildcards": [
+		"129.226.170.70"
 	],
 	"tags": [
 		"private"

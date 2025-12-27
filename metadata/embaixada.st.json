@@ -1,0 +1,7 @@
+{
+	"domain": "embaixada.st",
+	"nameServers": [
+		"ns1.bahnhof.net",
+		"ns2.bahnhof.net"
+	]
+}

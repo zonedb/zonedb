@@ -1,9 +1,12 @@
 {
 	"domain": "mv",
 	"nameServers": [
+		"boli.ns.mv",
 		"mv-ns.anycast.pch.net",
 		"ns.dhivehinet.net.mv",
-		"ns2.dhivehinet.net.mv"
+		"ns.mv",
+		"ns2.dhivehinet.net.mv",
+		"sangu.ns.mv"
 	],
 	"tags": [
 		"country",
