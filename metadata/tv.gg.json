@@ -1,11 +1,11 @@
 {
 	"domain": "tv.gg",
 	"nameServers": [
-		"sl1.sedo.com",
-		"sl2.sedo.com"
+		"68m65hsbj9825b66p62z8d8h32s2r362.ns.namepros-dns.is",
+		"ns1.namepros-dns.com"
 	],
 	"wildcards": [
-		"91.195.241.232"
+		"54.237.57.21"
 	],
 	"tags": [
 		"private"
