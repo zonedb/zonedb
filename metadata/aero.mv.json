@@ -1,12 +1,6 @@
 {
 	"domain": "aero.mv",
 	"infoURL": "http://www.brunet.bn/products_webrelated_domain_main.htm",
-	"nameServers": [
-		"mv-ns.anycast.pch.net",
-		"ns-cache01.dhivehinet.net.mv",
-		"ns.aero.mv",
-		"ns2.dhivehinet.net.mv"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

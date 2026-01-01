@@ -1,5 +1,6 @@
 {
 	"domain": "gi",
+	"whoisServer": "whois.identitydigital.services",
 	"nameServers": [
 		"a0.cctld.afilias-nst.info",
 		"a2.cctld.afilias-nst.info",
