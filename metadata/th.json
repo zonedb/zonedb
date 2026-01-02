@@ -1,7 +1,7 @@
 {
 	"domain": "th",
 	"infoURL": "https://www.thnic.co.th/",
-	"whoisServer": "whois.thnic.co.th",
+	"whoisServer": "whois.thnic.net",
 	"rdapURLs": [
 		"https://rdap.thains.co.th/"
 	],

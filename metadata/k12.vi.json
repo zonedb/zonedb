@@ -1,5 +1,11 @@
 {
 	"domain": "k12.vi",
+	"nameServers": [
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz",
+		"ns3.nic.vi",
+		"pch.nic.vi"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
