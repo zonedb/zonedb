@@ -1,6 +1,7 @@
 {
 	"domain": "mc",
 	"infoURL": "https://www.nic.mc/",
+	"whoisServer": "whois.nic.mc",
 	"nameServers": [
 		"mc.cctld.authdns.ripe.net",
 		"ns1.nic.mc",
