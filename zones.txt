@@ -1819,9 +1819,11 @@ net.an
 org.an
 co.ao
 ed.ao
+edu.ao
 gv.ao
 it.ao
 og.ao
+org.ao
 pb.ao
 com.aq
 com.ar
