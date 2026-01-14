@@ -1,10 +1,9 @@
 {
 	"domain": "in.mg",
 	"nameServers": [
-		"ns1.sedoparking.com",
-		"ns2.sedoparking.com"
-	],
-	"wildcards": [
-		"64.190.63.222"
+		"cloud-un10.nokhosting.com",
+		"cloud-un11.nokhosting.com",
+		"cloud-un12.nokhosting.com",
+		"cloud-un9.nokhosting.com"
 	]
 }
