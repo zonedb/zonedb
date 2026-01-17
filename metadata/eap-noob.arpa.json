@@ -3,7 +3,7 @@
 	"registryOperator": "IANA",
 	"infoURL": "https://datatracker.ietf.org/doc/rfc9140",
 	"tags": [
-		"closed",
-		"infrastructure"
+		"infrastructure",
+		"retired"
 	]
 }
