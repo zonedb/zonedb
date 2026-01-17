@@ -1,4 +1,3 @@
- (deprecated)
 aaa
 aarp
 abarth
@@ -1757,7 +1756,6 @@ zw
 삼성
 테스트
 한국
-arpa. (deprecated)
 com.ac
 gov.ac
 mil.ac
@@ -5134,7 +5132,6 @@ oд.срб
 教育.香港
 組織.香港
 網絡.香港
-eap-noob.arpa. (deprecated)
 lda.co.ao
 sa.co.ao
 esc.edu.ar
