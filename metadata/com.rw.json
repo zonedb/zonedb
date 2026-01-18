@@ -1,9 +1,5 @@
 {
 	"domain": "com.rw",
-	"nameServers": [
-		"ns1.scriptylabs.com",
-		"ns2.scriptylabs.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
