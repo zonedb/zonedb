@@ -2,6 +2,7 @@
 	"domain": "nhk",
 	"registryOperator": "Japan Broadcasting Corporation (NHK)",
 	"infoURL": "https://nic.nhk/",
+	"whoisServer": "whois.nic.nhk",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],
