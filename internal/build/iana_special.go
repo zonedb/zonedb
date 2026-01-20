@@ -4,6 +4,7 @@ import (
 	"encoding/csv"
 	"io"
 	"os"
+	"regexp"
 	"strings"
 
 	"github.com/wsxiaoys/terminal/color"
@@ -14,6 +15,19 @@ const (
 	ianaSpecialUseURL      = "https://www.iana.org/assignments/special-use-domain-names/special-use-domain.csv"
 	ietfDataTrackerBaseURL = "https://datatracker.ietf.org/doc/"
 )
+
+// deprecatedSuffixPattern matches domain names with a deprecated marker suffix.
+// Example: "eap-noob.arpa. (DEPRECATED)"
+var deprecatedSuffixPattern = regexp.MustCompile(`(?i)\s*\(deprecated\)\s*$`)
+
+// stripDeprecatedSuffix removes deprecated markers from domain names.
+// Returns the cleaned domain name and whether it was marked as deprecated.
+func stripDeprecatedSuffix(domain string) (string, bool) {
+	if deprecatedSuffixPattern.MatchString(domain) {
+		return strings.TrimRight(deprecatedSuffixPattern.ReplaceAllString(domain, ""), "."), true
+	}
+	return domain, false
+}
 
 // FetchSpecialUseDomainsFromIANA fetches special use domains from the IANA website.
 func FetchSpecialUseDomainsFromIANA(zones map[string]*Zone, addNew bool) error {
@@ -48,7 +62,11 @@ func FetchSpecialUseDomainsFromIANA(zones map[string]*Zone, addNew bool) error {
 		ref = strings.Replace(ref, "RFC-ietf-", "draft-", 1)
 		infoURL := ietfDataTrackerBaseURL + strings.ToLower(ref)
 
-		domain := Normalize(rec["Name"])
+		// Strip deprecated/obsolete markers from domain names
+		rawName := rec["Name"]
+		cleanName, isDeprecated := stripDeprecatedSuffix(rawName)
+
+		domain := Normalize(cleanName)
 		d := domain
 		for d != "" {
 			var added, modified bool
@@ -71,8 +89,15 @@ func FetchSpecialUseDomainsFromIANA(zones map[string]*Zone, addNew bool) error {
 					z.InfoURL = infoURL
 					modified = true
 				}
-				if z.AddTags("infrastructure", "closed") != 0 {
-					modified = true
+				// Tag as retired if marked as deprecated, otherwise just closed infrastructure
+				if isDeprecated && d == domain {
+					if z.AddTags(TagInfrastructure, TagRetired) != 0 {
+						modified = true
+					}
+				} else {
+					if z.AddTags(TagInfrastructure, TagClosed) != 0 {
+						modified = true
+					}
 				}
 			}
 
