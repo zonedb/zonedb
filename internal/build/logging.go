@@ -9,6 +9,8 @@ import (
 var (
 	// Verbose enables verbose logging
 	Verbose bool
+	// Quiet suppresses diagnostic messages (useful for JSON output)
+	Quiet bool
 )
 
 // LogFatal logs an error to stderr and exits with a non-zero exit code.
@@ -37,7 +39,9 @@ func LogWarningForAt(err error, label string, offset int) {
 	color.Fprintf(os.Stderr, "@{y!}Warning:@{y} %s@{|}@{.} [%s]@@%d\n", err, label, offset)
 }
 
-// Trace logs an error to stderr.
+// Trace logs a message to stderr.
 func Trace(spec string, args ...interface{}) {
-	color.Fprintf(os.Stderr, spec, args...)
+	if !Quiet {
+		color.Fprintf(os.Stderr, spec, args...)
+	}
 }

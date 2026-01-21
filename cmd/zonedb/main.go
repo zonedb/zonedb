@@ -14,6 +14,74 @@ import (
 	"github.com/zonedb/zonedb/internal/build"
 )
 
+// TagFilterOutput represents the JSON structure for tag-filtered zones
+type TagFilterOutput struct {
+	Tags     []string `json:"tags"`
+	Filtered []string `json:"filtered"`
+}
+
+// ZoneFilterOutput represents the JSON structure for non-tag filtered zones
+type ZoneFilterOutput struct {
+	Filter   map[string]interface{} `json:"filter"`
+	Filtered []string               `json:"filtered"`
+}
+
+// outputJSONResult outputs data as JSON with optional filter context, or falls back to text output
+func outputJSONResult(jsonOutput bool, data interface{}, key string, filterTags string, filterZones string, filterRegexp string, textOutput func()) {
+	if jsonOutput {
+		var jsonData map[string]interface{}
+
+		// Check if this is a zone filtering operation (has filter parameters)
+		if filterTags != "" || filterZones != "" || filterRegexp != "" {
+			// This is a filtered zone operation - use complex structure
+			domains := data.([]string)
+			if filterTags != "" {
+				tags := strings.Split(filterTags, ",")
+				// Use struct to ensure field ordering: tags before filtered
+				jsonData = map[string]interface{}{
+					"zones": TagFilterOutput{
+						Tags:     tags,
+						Filtered: domains,
+					},
+				}
+			} else if filterZones != "" {
+				// Specific zones filter
+				jsonData = map[string]interface{}{
+					"zones": ZoneFilterOutput{
+						Filter: map[string]interface{}{
+						"zones": strings.Split(filterZones, ","),
+					},
+						Filtered: domains,
+					},
+				}
+			} else if filterRegexp != "" {
+				// Regex filter
+				jsonData = map[string]interface{}{
+					"zones": ZoneFilterOutput{
+						Filter: map[string]interface{}{
+							"regexp": filterRegexp,
+						},
+						Filtered: domains,
+					},
+				}
+			}
+		} else {
+			// This is a simple list operation - use simple format
+			jsonData = map[string]interface{}{
+				key: data,
+			}
+		}
+
+		if jsonBytes, err := json.MarshalIndent(jsonData, "", "  "); err == nil {
+			fmt.Println(string(jsonBytes))
+		} else {
+			build.LogError(fmt.Errorf("failed to marshal JSON: %v", err))
+		}
+	} else {
+		textOutput()
+	}
+}
+
 func main() {
 	// Default options
 	flag.BoolVar(&build.Verbose, "v", false, "enable verbose logging")
@@ -36,6 +104,7 @@ func main() {
 	listTags := flag.Bool("list-tags", false, "list tags in working zones")
 	listLocations := flag.Bool("list-locations", false, "list locations in working zones")
 	listWildcards := flag.Bool("list-wildcards", false, "list zones with wildcarded DNS")
+	jsonOutput := flag.Bool("json", false, "output results in JSON format")
 
 	// Test operations
 	verifyNS := flag.Bool("verify-ns", false, "verify name servers")
@@ -80,11 +149,16 @@ func main() {
 	}
 	flag.Parse()
 
+	// Enable quiet mode for JSON output to suppress diagnostic messages
+	if *jsonOutput {
+		build.Quiet = true
+	}
+
 	startTime := time.Now()
 	defer func() {
 		elapsed := time.Since(startTime)
 		elapsed -= elapsed % 1000000
-		color.Fprintf(os.Stderr, "@{.}Time elapsed: %s\n", elapsed)
+		build.Trace("@{.}Time elapsed: %s\n", elapsed)
 	}()
 
 	zones, errs := build.ReadZones()
@@ -100,12 +174,12 @@ func main() {
 
 	if *tlds {
 		workZones = build.TLDs(workZones)
-		color.Fprintf(os.Stderr, "@{.}Working on top-level domains\n")
+		build.Trace("@{.}Working on top-level domains\n")
 	}
 
 	if *delegated {
 		workZones = build.Delegated(workZones)
-		color.Fprintf(os.Stderr, "@{.}Working on delegated zones\n")
+		build.Trace("@{.}Working on delegated zones\n")
 	}
 
 	if *filterIDN {
@@ -209,14 +283,16 @@ func main() {
 		workZones = filtered
 	}
 
-	color.Fprintf(os.Stderr, "@{.}Working on %d zone(s) out of %d\n", len(workZones), len(zones))
+	build.Trace("@{.}Working on %d zone(s) out of %d\n", len(workZones), len(zones))
 
 	// Add newly found zones?
 	addNew := len(workZones) == len(zones)
 
 	if *listZones || len(workZones) < len(zones) {
 		domains := build.SortedDomains(workZones)
-		color.Fprintf(os.Stderr, "@{.}Zones: @{c}%s\n", strings.Join(domains, " "))
+		outputJSONResult(*jsonOutput, domains, "zones", *filterTags, *filterZones, *filterRegexp, func() {
+			build.Trace("@{.}Zones: @{c}%s\n", strings.Join(domains, " "))
+		})
 	}
 
 	if *updateRoot || *updateAll {
@@ -318,7 +394,9 @@ func main() {
 		for _, z := range workZones {
 			tags.Add(z.Tags...)
 		}
-		color.Fprintf(os.Stderr, "@{.}Tags: @{c}%s\n", strings.Join(tags.Values(), " "))
+		outputJSONResult(*jsonOutput, tags.Values(), "tags", "", "", "", func() {
+			build.Trace("@{.}Tags: @{c}%s\n", strings.Join(tags.Values(), " "))
+		})
 	}
 
 	if *removeLocations != "" {
@@ -336,7 +414,9 @@ func main() {
 		for _, z := range workZones {
 			locations.Add(z.Locations...)
 		}
-		color.Fprintf(os.Stderr, "@{.}Locations: @{c}%s\n", strings.Join(locations.Values(), " "))
+		outputJSONResult(*jsonOutput, locations.Values(), "locations", "", "", "", func() {
+			build.Trace("@{.}Locations: @{c}%s\n", strings.Join(locations.Values(), " "))
+		})
 	}
 
 	if *listWildcards {
@@ -346,7 +426,9 @@ func main() {
 				zones.Add(z.Domain)
 			}
 		}
-		color.Fprintf(os.Stderr, "@{.}Zones: @{c}%s\n", strings.Join(zones.Values(), " "))
+		outputJSONResult(*jsonOutput, zones.Values(), "zones", "", "", "", func() {
+			build.Trace("@{.}Zones: @{c}%s\n", strings.Join(zones.Values(), " "))
+		})
 	}
 
 	if *addLanguages != "" {
@@ -362,7 +444,7 @@ func main() {
 		for _, z := range workZones {
 			z.InfoURL = *setInfoURL
 		}
-		color.Fprintf(os.Stderr, "@{.}Set info URL to: @{c}%s\n", *setInfoURL)
+		build.Trace("@{.}Set info URL to: @{c}%s\n", *setInfoURL)
 	}
 
 	if *updateInfoURL {
@@ -400,7 +482,7 @@ func main() {
 			build.LogFatal(errors.New("cannot delete all zones, please select a subset"))
 		}
 		deleted := build.SortedDomains(workZones)
-		color.Fprintf(os.Stderr, "@{r!}Deleting %d zones: @{r}%s\n", len(workZones), strings.Join(deleted, " "))
+		build.Trace("@{r!}Deleting %d zones: @{r}%s\n", len(workZones), strings.Join(deleted, " "))
 		for d := range workZones {
 			delete(zones, d)
 		}

@@ -83,7 +83,7 @@ func ReadZonesFile() (zones map[string]*Zone, errs []error) {
 		sort.Strings(z.subdomains)
 	}
 
-	color.Fprintf(os.Stderr, "@{.}Read %d zones\n", len(zones))
+	Trace("@{.}Read %d zones\n", len(zones))
 	return
 }
 
@@ -143,7 +143,7 @@ func ReadMetadata(zones map[string]*Zone) (errs []error) {
 		// Transition on load
 		z.transition()
 	}
-	color.Fprintf(os.Stderr, "@{.}Read %d metadata files\n", read)
+	Trace("@{.}Read %d metadata files\n", read)
 	return
 }
 
