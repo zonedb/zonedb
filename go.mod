@@ -9,7 +9,7 @@ go 1.24.10
 
 require (
 	github.com/PuerkitoBio/goquery v1.11.0
-	github.com/miekg/dns v1.1.70
+	github.com/miekg/dns v1.1.72
 	github.com/wsxiaoys/terminal v0.0.0-20160513160801-0940f3fc43a0
 	golang.org/x/net v0.49.0
 	golang.org/x/text v0.33.0
