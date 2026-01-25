@@ -2,7 +2,7 @@
 	"domain": "lifestyle",
 	"registryOperator": "Internet Naming Company LLC",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/lifestyle",
-	"whoisServer": "whois.nic.lifestyle",
+	"whoisServer": "whois.tucowsregistry.net",
 	"rdapURLs": [
 		"https://rdap.tucowsregistry.net/rdap/"
 	],
