@@ -21,13 +21,13 @@ jobs:
     timeout-minutes: 60
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v6.0.1
+        uses: actions/checkout@v6
         with:
           token: ${{ secrets.ZONEDBOT_RW_GITHUB_ACCESS_TOKEN }}
           submodules: recursive
 
       - name: Set up Go
-        uses: actions/setup-go@v6.2.0
+        uses: actions/setup-go@v6
         with:
           go-version: "stable"
 

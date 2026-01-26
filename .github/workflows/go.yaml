@@ -29,12 +29,12 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v6.0.1
+        uses: actions/checkout@v6
         with:
           submodules: recursive
 
       - name: Set up Go Version
-        uses: actions/setup-go@v6.2.0
+        uses: actions/setup-go@v6
         with:
           go-version: ${{ matrix.go-version }} # overrides go-version-file when a value is present
           go-version-file: ${{ matrix.go-version-file }}
@@ -70,12 +70,12 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v6.0.1
+        uses: actions/checkout@v6
         with:
           submodules: recursive
 
       - name: Set up Go
-        uses: actions/setup-go@v6.2.0
+        uses: actions/setup-go@v6
         with:
           go-version: "stable"
 
@@ -120,12 +120,12 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v6.0.1
+        uses: actions/checkout@v6
         with:
           submodules: recursive
 
       - name: Set up Go Version
-        uses: actions/setup-go@v6.2.0
+        uses: actions/setup-go@v6
         with:
           go-version: ${{ matrix.go-version.big }} # overrides go-version-file when a value is present
           go-version-file: ${{ matrix.go-version.file }}
@@ -187,7 +187,7 @@ jobs:
     needs: [test-go, test-tinygo-wasm]
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v6.0.1
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0 # Retrieve all commit history, so `git rev-list --count` works correctly
           submodules: recursive
