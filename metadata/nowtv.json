@@ -2,6 +2,7 @@
 	"domain": "nowtv",
 	"registryOperator": "Starbucks (HK) Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/nowtv",
+	"whoisServer": "whois.nic.nowtv",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
