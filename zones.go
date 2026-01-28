@@ -7028,7 +7028,7 @@ func i4607() {
 	z[4611] = Zone{"org.tt", &z[1438], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[4612] = Zone{"pro.tt", &z[1438], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[4613] = Zone{"tel.tt", &z[1438], x, 0, e, e, n, n, n, n, e, e, n, t}
-	z[4614] = Zone{"travel.tt", &z[1438], x, 0x1000, e, e, n, n, n, n, e, e, n, t}
+	z[4614] = Zone{"travel.tt", &z[1438], x, 0, e, e, w{"n1.xundns.com", "n2.xundns.com"}, n, n, n, e, e, n, t}
 	z[4615] = Zone{"uk.tt", &z[1438], z[5211:5214], 0, e, e, n, n, n, n, e, e, n, f}
 }
 
