@@ -8,6 +8,9 @@
 		"ns5.gov.mu",
 		"ns6.gov.mu"
 	],
+	"wildcards": [
+		"196.13.125.126"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
