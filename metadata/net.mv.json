@@ -1,6 +1,7 @@
 {
 	"domain": "net.mv",
 	"nameServers": [
+		"baraveli.ns.mv",
 		"boli.ns.mv",
 		"mv-ns.anycast.pch.net",
 		"ns.net.mv",

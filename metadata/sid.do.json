@@ -1,7 +1,13 @@
 {
 	"domain": "sid.do",
 	"nameServers": [
-		"dayana.ns.cloudflare.com",
-		"sean.ns.cloudflare.com"
+		"ernest.ns.cloudflare.com",
+		"gina.ns.cloudflare.com"
+	],
+	"wildcards": [
+		"104.21.54.218",
+		"172.67.142.218",
+		"2606:4700:3033::6815:36da",
+		"2606:4700:3036::ac43:8eda"
 	]
 }
