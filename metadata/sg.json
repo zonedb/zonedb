@@ -1,6 +1,9 @@
 {
 	"domain": "sg",
 	"whoisServer": "whois.sgnic.sg",
+	"rdapURLs": [
+		"https://rdap.sgnic.sg/rdap/"
+	],
 	"nameServers": [
 		"dsany2.sgnic.sg",
 		"dsany3.sgnic.sg",
