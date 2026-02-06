@@ -1,11 +1,11 @@
 {
 	"domain": "sch.jo",
 	"nameServers": [
-		"amra.nic.gov.jo",
-		"cloudns.nic.net.jo",
+		"a.cctld-servers.net.jo",
+		"b.cctld-servers.net.jo",
+		"c.cctld-servers.net.jo",
+		"d.cctld-servers.net.jo",
 		"jo.cctld.authdns.ripe.net",
-		"jordan1st.nic.gov.jo",
-		"petra.nic.gov.jo",
 		"rip.psg.com"
 	],
 	"policies": [

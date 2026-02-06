@@ -2,11 +2,11 @@
 	"domain": "الاردن",
 	"whoisURL": "http://idn.jo/whois_a.aspx",
 	"nameServers": [
-		"amra.nic.gov.jo",
+		"a.cctld-servers.net.jo",
+		"b.cctld-servers.net.jo",
 		"c.cctld-servers.net.jo",
 		"d.cctld-servers.net.jo",
-		"jo.cctld.authdns.ripe.net",
-		"petra.nic.gov.jo"
+		"jo.cctld.authdns.ripe.net"
 	],
 	"tags": [
 		"country",
