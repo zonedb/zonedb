@@ -2,6 +2,9 @@
 	"domain": "au",
 	"infoURL": "https://www.auda.org.au/",
 	"whoisServer": "whois.auda.org.au",
+	"rdapURLs": [
+		"https://rdap.cctld.au/rdap/"
+	],
 	"nameServers": [
 		"a.au",
 		"q.au",

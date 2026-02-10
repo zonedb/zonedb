@@ -1,9 +1,5 @@
 {
 	"domain": "org.kg",
-	"nameServers": [
-		"as.asiainfo.kg",
-		"ns.kg"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
