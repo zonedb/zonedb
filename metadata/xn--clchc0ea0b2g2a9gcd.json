@@ -1,6 +1,9 @@
 {
 	"domain": "சிங்கப்பூர்",
 	"whoisServer": "whois.ta.sgnic.sg",
+	"rdapURLs": [
+		"https://rdap.ta.sgnic.sg/rdap/"
+	],
 	"nameServers": [
 		"dsany2.sgnic.sg",
 		"dsany3.sgnic.sg",

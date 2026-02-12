@@ -1,8 +1,8 @@
 {
 	"domain": "پاکستان",
 	"nameServers": [
-		"ns.ntc.net.pk",
-		"ns1.ntc.net.pk",
-		"ns2.ntc.net.pk"
+		"ns1.ntc.org.pk",
+		"ns2.ntc.org.pk",
+		"ns3.ntc.org.pk"
 	]
 }

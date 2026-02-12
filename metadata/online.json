@@ -10,7 +10,11 @@
 		"a.nic.online",
 		"b.nic.online",
 		"e.nic.online",
-		"f.nic.online"
+		"f.nic.online",
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.net",
+		"ns10.trs-dns.info",
+		"ns10.trs-dns.org"
 	],
 	"languages": [
 		"ar",
