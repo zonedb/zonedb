@@ -10,7 +10,11 @@
 		"a.nic.fun",
 		"b.nic.fun",
 		"e.nic.fun",
-		"f.nic.fun"
+		"f.nic.fun",
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.net",
+		"ns10.trs-dns.info",
+		"ns10.trs-dns.org"
 	],
 	"languages": [
 		"ar",
