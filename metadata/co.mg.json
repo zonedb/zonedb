@@ -2,7 +2,6 @@
 	"domain": "co.mg",
 	"nameServers": [
 		"dns-tld.ird.fr",
-		"ns-mg.malagasy.com",
 		"ns.dts.mg",
 		"ns.nic.mg",
 		"pch.nic.mg"
