@@ -1,5 +1,11 @@
 {
 	"domain": "org.mg",
+	"nameServers": [
+		"dns-tld.ird.fr",
+		"ns-mg.malagasy.com",
+		"ns.nic.mg",
+		"pch.nic.mg"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

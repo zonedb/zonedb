@@ -1,7 +1,7 @@
 {
 	"domain": "org.jo",
 	"nameServers": [
-		"amra.nic.gov.jo",
+		"b.cctld-servers.net.jo",
 		"c.cctld-servers.net.jo",
 		"d.cctld-servers.net.jo",
 		"jo.cctld.authdns.ripe.net",
