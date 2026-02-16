@@ -38,8 +38,7 @@
 		"sr-Cyrl",
 		"sv",
 		"uk",
-		"zh",
-		"zh-CN"
+		"zh"
 	],
 	"tags": [
 		"generic",
@@ -170,11 +169,6 @@
 			"type": "idn-table",
 			"key": "zh",
 			"value": "https://www.iana.org/domains/idn-tables/tables/mobi_zh_5.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-CN",
-			"value": "https://www.iana.org/domains/idn-tables/tables/mobi_zh-cn_4.1.txt"
 		}
 	]
 }

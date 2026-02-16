@@ -18,7 +18,6 @@
 		"ar",
 		"be",
 		"bg",
-		"bs",
 		"bs-Cyrl",
 		"cnr-Cyrl",
 		"da",
@@ -30,7 +29,6 @@
 		"hu",
 		"is",
 		"it",
-		"ko",
 		"ko-Hang",
 		"lt",
 		"lv",
@@ -38,15 +36,11 @@
 		"pl",
 		"pt",
 		"ru",
-		"sr",
 		"sr-Cyrl",
-		"sr-ME",
 		"sv",
 		"uk",
-		"zh-CN",
 		"zh-Hans",
-		"zh-Hant",
-		"zh-TW"
+		"zh-Hant"
 	],
 	"tags": [
 		"brand",
@@ -67,11 +61,6 @@
 			"type": "idn-table",
 			"key": "bg",
 			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_bg_1.2.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "bs",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_bs_1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -130,11 +119,6 @@
 		},
 		{
 			"type": "idn-table",
-			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_ko_1.txt"
-		},
-		{
-			"type": "idn-table",
 			"key": "ko-Hang",
 			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_ko-hang_3.1.xml"
 		},
@@ -170,18 +154,8 @@
 		},
 		{
 			"type": "idn-table",
-			"key": "sr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_sr_1.txt"
-		},
-		{
-			"type": "idn-table",
 			"key": "sr-Cyrl",
 			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_sr-cyrl_1.2.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "sr-ME",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_sr-me_1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -195,11 +169,6 @@
 		},
 		{
 			"type": "idn-table",
-			"key": "zh-CN",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_zh-cn_4.0.txt"
-		},
-		{
-			"type": "idn-table",
 			"key": "zh-Hans",
 			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_zh-hans_4.1.xml"
 		},
@@ -207,11 +176,6 @@
 			"type": "idn-table",
 			"key": "zh-Hant",
 			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_zh-hant_4.1.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-TW",
-			"value": "https://www.iana.org/domains/idn-tables/tables/godaddy_zh-tw_4.0.txt"
 		}
 	]
 }

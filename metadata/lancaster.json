@@ -5,19 +5,9 @@
 	"rdapURLs": [
 		"https://rdap.nic.lancaster/"
 	],
-	"languages": [
-		"mul-Latn"
-	],
 	"tags": [
 		"brand",
 		"generic",
 		"retired"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lancaster_latn_1.txt"
-		}
 	]
 }

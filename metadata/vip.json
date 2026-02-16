@@ -35,74 +35,62 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vip_ar_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vip_ar_1.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vip_da_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vip_da_1.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vip_de_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vip_de_1.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vip_es_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vip_es_1.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vip_fi_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vip_fi_1.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vip_fr_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vip_fr_1.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "he",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vip_he_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vip_he_1.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vip_it_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vip_it_1.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "no",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vip_no_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vip_no_1.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vip_ru_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vip_ru_1.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vip_sv_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vip_sv_1.0.txt"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vip_zh_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vip_zh_1.0.txt"
 		}
 	]
 }

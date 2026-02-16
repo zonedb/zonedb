@@ -13,8 +13,7 @@
 		"ns1.nic.sc"
 	],
 	"languages": [
-		"zh",
-		"zh-CN"
+		"zh"
 	],
 	"tags": [
 		"country",
@@ -25,11 +24,6 @@
 			"type": "idn-table",
 			"key": "zh",
 			"value": "https://www.iana.org/domains/idn-tables/tables/sc_zh_5.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-CN",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sc_zh-cn_4.0.txt"
 		}
 	]
 }

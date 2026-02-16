@@ -12,9 +12,7 @@
 		"c0.nic.spa"
 	],
 	"languages": [
-		"zh",
-		"zh-CN",
-		"zh-TW"
+		"zh"
 	],
 	"tags": [
 		"community",
@@ -25,16 +23,6 @@
 			"type": "idn-table",
 			"key": "zh",
 			"value": "https://www.iana.org/domains/idn-tables/tables/spa_zh_5.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-CN",
-			"value": "https://www.iana.org/domains/idn-tables/tables/spa_zh-cn_4.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-TW",
-			"value": "https://www.iana.org/domains/idn-tables/tables/spa_zh-tw_4.0.txt"
 		}
 	]
 }

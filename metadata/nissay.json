@@ -13,36 +13,8 @@
 		"v2n0.nic.nissay",
 		"v2n1.nic.nissay"
 	],
-	"languages": [
-		"ja",
-		"mul-Hang",
-		"mul-Hani",
-		"mul-Hano"
-	],
 	"tags": [
 		"brand",
 		"generic"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_ja_2.5.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Hang",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hang_2.5.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Hani",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hani_2.5.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Hano",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nissay_hano_2.5.txt"
-		}
 	]
 }

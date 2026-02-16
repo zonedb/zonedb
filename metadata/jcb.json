@@ -18,9 +18,7 @@
 		"ko",
 		"pl",
 		"pt",
-		"zh",
-		"zh-Hans",
-		"zh-Hant"
+		"zh"
 	],
 	"tags": [
 		"brand",
@@ -61,16 +59,6 @@
 			"type": "idn-table",
 			"key": "zh",
 			"value": "https://www.iana.org/domains/idn-tables/tables/jcb_zh_2.0.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-Hans",
-			"value": "https://www.iana.org/domains/idn-tables/tables/jcb_zh-hans_1.1.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-Hant",
-			"value": "https://www.iana.org/domains/idn-tables/tables/jcb_zh-hant_1.1.txt"
 		}
 	]
 }

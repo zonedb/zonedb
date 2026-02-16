@@ -13,7 +13,6 @@
 		"d.nic.box"
 	],
 	"languages": [
-		"zh",
 		"zh-Hans",
 		"zh-Hant"
 	],
@@ -21,11 +20,6 @@
 		"generic"
 	],
 	"policies": [
-		{
-			"type": "idn-table",
-			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/box_zh_3.0.xml"
-		},
 		{
 			"type": "idn-table",
 			"key": "zh-Hans",

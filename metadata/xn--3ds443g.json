@@ -12,7 +12,6 @@
 		"ns4.teleinfoo.com"
 	],
 	"languages": [
-		"zh-CN",
 		"zh-Hans",
 		"zh-Hant"
 	],
@@ -20,11 +19,6 @@
 		"generic"
 	],
 	"policies": [
-		{
-			"type": "idn-table",
-			"key": "zh-CN",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--3ds443g_zh-cn_4.0.txt"
-		},
 		{
 			"type": "idn-table",
 			"key": "zh-Hans",

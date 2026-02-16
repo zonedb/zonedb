@@ -17,8 +17,7 @@
 		"ja",
 		"ko",
 		"pl",
-		"pt",
-		"und"
+		"pt"
 	],
 	"tags": [
 		"brand",
@@ -54,11 +53,6 @@
 			"type": "idn-table",
 			"key": "pt",
 			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_pt_2.0.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "und",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nhk_none_1.0.txt"
 		}
 	]
 }

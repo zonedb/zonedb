@@ -5,19 +5,9 @@
 	"rdapURLs": [
 		"https://rdap.nic.mutual/"
 	],
-	"languages": [
-		"es"
-	],
 	"tags": [
 		"brand",
 		"generic",
 		"retired"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/mutual_es_3.0.xml"
-		}
 	]
 }

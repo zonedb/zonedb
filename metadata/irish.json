@@ -21,14 +21,6 @@
 		"he",
 		"ja",
 		"ko",
-		"mul-Arab",
-		"mul-Cyrl",
-		"mul-Deva",
-		"mul-Grek",
-		"mul-Hebr",
-		"mul-Latn",
-		"mul-Taml",
-		"mul-Thai",
 		"und-Cyrl",
 		"und-Deva",
 		"und-Grek",
@@ -75,46 +67,6 @@
 			"type": "idn-table",
 			"key": "ko",
 			"value": "https://www.iana.org/domains/idn-tables/tables/irish_ko_5.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Arab",
-			"value": "https://www.iana.org/domains/idn-tables/tables/irish_arab_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/irish_cyrl_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Deva",
-			"value": "https://www.iana.org/domains/idn-tables/tables/irish_deva_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Grek",
-			"value": "https://www.iana.org/domains/idn-tables/tables/irish_grek_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Hebr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/irish_hebr_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/irish_latn_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Taml",
-			"value": "https://www.iana.org/domains/idn-tables/tables/irish_taml_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Thai",
-			"value": "https://www.iana.org/domains/idn-tables/tables/irish_thai_1.0.txt"
 		},
 		{
 			"type": "idn-table",

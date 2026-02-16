@@ -6,18 +6,8 @@
 	"rdapURLs": [
 		"https://rdap.centralnic.com/xn--mgbaakc7dvf/"
 	],
-	"languages": [
-		"ar"
-	],
 	"tags": [
 		"generic",
 		"retired"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgbaakc7dvf_ar_1.1.txt"
-		}
 	]
 }

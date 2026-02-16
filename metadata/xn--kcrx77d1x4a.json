@@ -15,7 +15,6 @@
 		"z.nic.飞利浦"
 	],
 	"languages": [
-		"zh",
 		"zh-Hans",
 		"zh-Hant"
 	],
@@ -24,11 +23,6 @@
 		"generic"
 	],
 	"policies": [
-		{
-			"type": "idn-table",
-			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--kcrx77d1x4a_zh_3.0.xml"
-		},
 		{
 			"type": "idn-table",
 			"key": "zh-Hans",

@@ -20,7 +20,6 @@
 		"fr",
 		"it",
 		"ja",
-		"mul-Cyrl",
 		"pt",
 		"und-Cyrl",
 		"zh"
@@ -53,11 +52,6 @@
 			"type": "idn-table",
 			"key": "ja",
 			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_ja_5.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/auto_cyrl_1.0.txt"
 		},
 		{
 			"type": "idn-table",

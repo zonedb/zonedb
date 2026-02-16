@@ -33,9 +33,7 @@
 		"sr-ME",
 		"sv",
 		"uk",
-		"zh",
-		"zh-Hans",
-		"zh-Hant"
+		"zh"
 	],
 	"tags": [
 		"brand",
@@ -151,16 +149,6 @@
 			"type": "idn-table",
 			"key": "zh",
 			"value": "https://www.iana.org/domains/idn-tables/tables/stada_zh_5.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-Hans",
-			"value": "https://www.iana.org/domains/idn-tables/tables/stada_zh-hans_4.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-Hant",
-			"value": "https://www.iana.org/domains/idn-tables/tables/stada_zh-hant_4.0.txt"
 		}
 	]
 }

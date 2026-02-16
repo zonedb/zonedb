@@ -13,24 +13,8 @@
 		"v2n0.nic.orange",
 		"v2n1.nic.orange"
 	],
-	"languages": [
-		"mul-Arab",
-		"mul-Latn"
-	],
 	"tags": [
 		"brand",
 		"generic"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "mul-Arab",
-			"value": "https://www.iana.org/domains/idn-tables/tables/orange_arab_2.5.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/orange_latn_2.5.txt"
-		}
 	]
 }

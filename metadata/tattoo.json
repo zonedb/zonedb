@@ -20,10 +20,8 @@
 		"fr",
 		"it",
 		"ja",
-		"mul-Cyrl",
 		"pt",
 		"und-Cyrl",
-		"zh",
 		"zh-Hani"
 	],
 	"tags": [
@@ -57,11 +55,6 @@
 		},
 		{
 			"type": "idn-table",
-			"key": "mul-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/auto_cyrl_1.0.txt"
-		},
-		{
-			"type": "idn-table",
 			"key": "pt",
 			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_pt_3.0.xml"
 		},
@@ -69,11 +62,6 @@
 			"type": "idn-table",
 			"key": "und-Cyrl",
 			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_und-cyrl_4.1.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/auto_zh_1.1.txt"
 		},
 		{
 			"type": "idn-table",

@@ -14,7 +14,6 @@
 	"languages": [
 		"be",
 		"bg",
-		"bs",
 		"bs-Cyrl",
 		"cnr-Cyrl",
 		"da",
@@ -28,13 +27,9 @@
 		"mk",
 		"pl",
 		"ru",
-		"sr",
 		"sr-Cyrl",
-		"sr-ME",
 		"sv",
-		"uk",
-		"zh-Hans",
-		"zh-Hant"
+		"uk"
 	],
 	"tags": [
 		"brand",
@@ -50,11 +45,6 @@
 			"type": "idn-table",
 			"key": "bg",
 			"value": "https://www.iana.org/domains/idn-tables/tables/lamborghini_bg_5.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "bs",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lamborghini_bs_1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -123,18 +113,8 @@
 		},
 		{
 			"type": "idn-table",
-			"key": "sr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lamborghini_sr_1.txt"
-		},
-		{
-			"type": "idn-table",
 			"key": "sr-Cyrl",
 			"value": "https://www.iana.org/domains/idn-tables/tables/lamborghini_sr-cyrl_5.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "sr-ME",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lamborghini_sr-me_1.txt"
 		},
 		{
 			"type": "idn-table",
@@ -145,16 +125,6 @@
 			"type": "idn-table",
 			"key": "uk",
 			"value": "https://www.iana.org/domains/idn-tables/tables/lamborghini_uk_5.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-Hans",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lamborghini_zh-hans_4.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-Hant",
-			"value": "https://www.iana.org/domains/idn-tables/tables/lamborghini_zh-hant_4.0.txt"
 		}
 	]
 }

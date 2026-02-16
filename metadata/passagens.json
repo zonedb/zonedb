@@ -5,19 +5,9 @@
 	"rdapURLs": [
 		"https://rdap.nic.passagens/"
 	],
-	"languages": [
-		"es"
-	],
 	"tags": [
 		"brand",
 		"generic",
 		"retired"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/passagens_es_3.0.xml"
-		}
 	]
 }

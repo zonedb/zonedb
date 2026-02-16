@@ -59,11 +59,6 @@
 		},
 		{
 			"type": "idn-table",
-			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/axa_fr_1.0.txt"
-		},
-		{
-			"type": "idn-table",
 			"key": "hu",
 			"value": "https://www.iana.org/domains/idn-tables/tables/axa_hu_3.0.xml"
 		},

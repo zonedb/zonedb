@@ -13,7 +13,6 @@
 		"d.nic.icu"
 	],
 	"languages": [
-		"ar",
 		"cs",
 		"da",
 		"de",
@@ -28,12 +27,9 @@
 		"lo",
 		"mul-Grek",
 		"mul-Latn",
-		"nl",
-		"pl",
 		"pt",
 		"ro",
 		"ru",
-		"sv",
 		"tr",
 		"uk",
 		"zh"
@@ -43,11 +39,6 @@
 		"generic"
 	],
 	"policies": [
-		{
-			"type": "idn-table",
-			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/icu_ar_1.1.txt"
-		},
 		{
 			"type": "idn-table",
 			"key": "cs",
@@ -120,16 +111,6 @@
 		},
 		{
 			"type": "idn-table",
-			"key": "nl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/icu_nl_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/icu_pl_1.0.txt"
-		},
-		{
-			"type": "idn-table",
 			"key": "pt",
 			"value": "https://www.iana.org/domains/idn-tables/tables/icu_pt_1.0.txt"
 		},
@@ -142,11 +123,6 @@
 			"type": "idn-table",
 			"key": "ru",
 			"value": "https://www.iana.org/domains/idn-tables/tables/icu_ru_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/icu_sv_1.1.txt"
 		},
 		{
 			"type": "idn-table",

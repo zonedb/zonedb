@@ -13,18 +13,8 @@
 		"v2n0.nic.maif",
 		"v2n1.nic.maif"
 	],
-	"languages": [
-		"mul-Latn"
-	],
 	"tags": [
 		"brand",
 		"generic"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/maif_latn_2.5.txt"
-		}
 	]
 }

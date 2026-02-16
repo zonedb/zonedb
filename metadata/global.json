@@ -40,9 +40,7 @@
 		"sv",
 		"tr",
 		"uk",
-		"zh",
-		"zh-CN",
-		"zh-TW"
+		"zh"
 	],
 	"tags": [
 		"generic"
@@ -197,16 +195,6 @@
 			"type": "idn-table",
 			"key": "zh",
 			"value": "https://www.iana.org/domains/idn-tables/tables/global_zh_5.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-CN",
-			"value": "https://www.iana.org/domains/idn-tables/tables/global_zh-cn_1.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-TW",
-			"value": "https://www.iana.org/domains/idn-tables/tables/global_zh-tw_1.txt"
 		}
 	]
 }

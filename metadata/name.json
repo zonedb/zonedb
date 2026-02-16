@@ -612,11 +612,6 @@
 		},
 		{
 			"type": "idn-table",
-			"key": "ro-MD",
-			"value": "https://www.iana.org/domains/idn-tables/tables/name_mo_1.1.txt"
-		},
-		{
-			"type": "idn-table",
 			"key": "ru",
 			"value": "https://www.iana.org/domains/idn-tables/tables/name_ru_2.5.txt"
 		},

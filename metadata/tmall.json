@@ -18,16 +18,13 @@
 		"fi",
 		"hu",
 		"is",
-		"ja",
 		"ko",
 		"lt",
 		"lv",
-		"no",
 		"pl",
 		"pt",
 		"ru",
 		"sv",
-		"zh",
 		"zh-CN",
 		"zh-TW"
 	],
@@ -68,11 +65,6 @@
 		},
 		{
 			"type": "idn-table",
-			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tmall_ja_3.0.xml"
-		},
-		{
-			"type": "idn-table",
 			"key": "ko",
 			"value": "https://www.iana.org/domains/idn-tables/tables/tmall_ko_5.xml"
 		},
@@ -85,11 +77,6 @@
 			"type": "idn-table",
 			"key": "lv",
 			"value": "https://www.iana.org/domains/idn-tables/tables/tmall_lv_5.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "no",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tmall_no_3.0.xml"
 		},
 		{
 			"type": "idn-table",
@@ -110,11 +97,6 @@
 			"type": "idn-table",
 			"key": "sv",
 			"value": "https://www.iana.org/domains/idn-tables/tables/tmall_sv_5.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tmall_zh_3.0.xml"
 		},
 		{
 			"type": "idn-table",

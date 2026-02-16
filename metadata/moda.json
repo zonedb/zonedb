@@ -21,13 +21,7 @@
 		"ja",
 		"ko",
 		"mul-Arab",
-		"mul-Cyrl",
-		"mul-Deva",
-		"mul-Grek",
 		"mul-Hebr",
-		"mul-Latn",
-		"mul-Taml",
-		"mul-Thai",
 		"und-Cyrl",
 		"und-Deva",
 		"und-Grek",
@@ -82,38 +76,8 @@
 		},
 		{
 			"type": "idn-table",
-			"key": "mul-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moda_cyrl_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Deva",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moda_deva_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Grek",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moda_grek_1.0.txt"
-		},
-		{
-			"type": "idn-table",
 			"key": "mul-Hebr",
 			"value": "https://www.iana.org/domains/idn-tables/tables/moda_hebr_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moda_latn_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Taml",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moda_taml_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Thai",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moda_thai_1.0.txt"
 		},
 		{
 			"type": "idn-table",

@@ -12,7 +12,6 @@
 		"c0.nic.frogans"
 	],
 	"languages": [
-		"mul-Latn",
 		"und-Latn"
 	],
 	"tags": [
@@ -20,11 +19,6 @@
 		"generic"
 	],
 	"policies": [
-		{
-			"type": "idn-table",
-			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/frogans_latn_1.txt"
-		},
 		{
 			"type": "idn-table",
 			"key": "und-Latn",
