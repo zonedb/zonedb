@@ -9,8 +9,7 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
-const (
-	// I override the URL during dev.
+var (
 	ianaTablesURL = "https://www.iana.org/domains/idn-tables"
 	ianaBaseURL   = "https://www.iana.org"
 )
