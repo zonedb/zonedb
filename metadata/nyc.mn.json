@@ -1,5 +1,7 @@
 {
 	"domain": "nyc.mn",
+	"infoURL": "https://publiczone.org/",
+	"whoisServer": "whois43.publiczone.org",
 	"nameServers": [
 		"ns0.nic.publiczone.org",
 		"ns1.nic.publiczone.org",

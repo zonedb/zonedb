@@ -5347,7 +5347,7 @@ func i3487() {
 	z[3490] = Zone{"per.mm", &z[928], x, 0, e, e, w{"a.nic.net.mm", "b.nic.net.mm", "c.nic.net.mm", "d.nic.net.mm"}, n, n, n, e, e, n, f}
 	z[3491] = Zone{"edu.mn", &z[930], x, 0, e, e, w{"ns.erdemnet.mn", "ns1.erdemnet.mn", "ns2.erdemnet.mn"}, n, n, n, e, e, n, f}
 	z[3492] = Zone{"gov.mn", &z[930], x, 0, e, e, w{"ns.gov.mn", "ns1.gov.mn", "ns3.gov.mn", "ns4.gov.mn"}, n, n, n, e, e, n, f}
-	z[3493] = Zone{"nyc.mn", &z[930], x, 0, e, e, w{"ns0.nic.publiczone.org", "ns1.nic.publiczone.org", "ns2.nic.publiczone.org"}, n, n, n, e, e, n, t}
+	z[3493] = Zone{"nyc.mn", &z[930], x, 0, e, "https://publiczone.org/", w{"ns0.nic.publiczone.org", "ns1.nic.publiczone.org", "ns2.nic.publiczone.org"}, n, n, n, "whois43.publiczone.org", e, n, t}
 	z[3494] = Zone{"org.mn", &z[930], x, 0, e, e, w{"ns10.dns.mn", "ns11.dns.mn"}, n, n, n, e, e, n, f}
 	z[3495] = Zone{"co.mo", &z[932], x, 0, e, e, n, n, n, n, e, e, n, t}
 }
@@ -6701,7 +6701,7 @@ func i4391() {
 	z[4392] = Zone{"net.ss", &z[1318], x, 0, e, e, n, n, n, n, e, e, n, t}
 	z[4393] = Zone{"org.ss", &z[1318], x, 0, e, e, n, n, n, n, e, e, n, t}
 	z[4394] = Zone{"sch.ss", &z[1318], x, 0, e, e, n, n, n, n, e, e, n, t}
-	z[4395] = Zone{"cn.st", &z[1319], x, 0, e, e, w{"ns-global.kjsl.com", "ns0.nic.publiczone.org", "ns1.nic.publiczone.org", "ns2.nic.publiczone.org", "ns3.nic.publiczone.org", "ns4.nic.publiczone.org"}, n, n, n, e, e, n, t}
+	z[4395] = Zone{"cn.st", &z[1319], x, 0, e, "https://publiczone.org/", w{"ns-global.kjsl.com", "ns0.nic.publiczone.org", "ns1.nic.publiczone.org", "ns2.nic.publiczone.org", "ns3.nic.publiczone.org", "ns4.nic.publiczone.org"}, n, n, n, "whois43.publiczone.org", e, n, t}
 	z[4396] = Zone{"co.st", &z[1319], x, 0, e, e, w{"ns1-se.ns.gov.st", "ns1-us.ns.gov.st", "ns2-se.ns.gov.st"}, n, n, n, e, e, n, f}
 	z[4397] = Zone{"com.st", &z[1319], x, 0, e, e, w{"ns1-se.ns.gov.st", "ns1-us.ns.gov.st", "ns2-se.ns.gov.st"}, n, n, n, e, e, n, f}
 	z[4398] = Zone{"consulado.st", &z[1319], x, 0, e, e, w{"ns1.bahnhof.net", "ns2.bahnhof.net"}, n, n, n, e, e, n, f}
