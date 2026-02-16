@@ -21,8 +21,7 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.denic.de/en/know-how/idn-domains/idn-character-list/",
-			"comment": "https://www.denic.de/en/know-how/idn-domains/"
+			"comment": "https://www.denic.de/en/produkte/de-domains/idn-domains/"
 		}
 	]
 }
