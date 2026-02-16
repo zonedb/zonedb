@@ -2,7 +2,6 @@
 	"domain": "pictet",
 	"registryOperator": "Banque Pictet \u0026 Cie SA",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/pictet",
-	"whoisServer": "whois.nic.pictet",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

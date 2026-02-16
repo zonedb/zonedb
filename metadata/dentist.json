@@ -2,7 +2,6 @@
 	"domain": "dentist",
 	"registryOperator": "Dog Beach, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.dentist",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

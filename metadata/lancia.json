@@ -2,7 +2,6 @@
 	"domain": "lancia",
 	"registryOperator": "Fiat Chrysler Automobiles N.V.",
 	"infoURL": "http://nic.lancia/",
-	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/lancia/"
 	],

@@ -2,7 +2,6 @@
 	"domain": "srl",
 	"registryOperator": "InterNetX, Corp",
 	"infoURL": "https://www.internetx.info/en/",
-	"whoisServer": "whois.nic.srl",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

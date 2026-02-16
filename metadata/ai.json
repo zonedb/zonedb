@@ -1,7 +1,6 @@
 {
 	"domain": "ai",
 	"infoURL": "http://nic.com.ai/",
-	"whoisServer": "whois.nic.ai",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

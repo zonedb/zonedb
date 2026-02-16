@@ -2,7 +2,6 @@
 	"domain": "gmo",
 	"registryOperator": "GMO Internet, Inc.",
 	"infoURL": "https://nic.gmo/",
-	"whoisServer": "whois.nic.gmo",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

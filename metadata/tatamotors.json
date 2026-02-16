@@ -2,7 +2,6 @@
 	"domain": "tatamotors",
 	"registryOperator": "Tata Motors Ltd",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/tatamotors",
-	"whoisServer": "whois.nic.tatamotors",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

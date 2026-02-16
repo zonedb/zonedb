@@ -2,7 +2,6 @@
 	"domain": "shaw",
 	"registryOperator": "Shaw Cablesystems G.P.",
 	"infoURL": "https://www.shaw.ca/terms-of-use/",
-	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/shaw/"
 	],

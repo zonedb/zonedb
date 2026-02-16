@@ -2,7 +2,6 @@
 	"domain": "ubank",
 	"registryOperator": "National Australia Bank Limited",
 	"infoURL": "https://www.ubank.com.au/nic",
-	"whoisServer": "whois.nic.ubank",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -2,7 +2,6 @@
 	"domain": "мон",
 	"registryOperator": "Datacom Co.,Ltd",
 	"infoURL": "https://www.mon.mn/",
-	"whoisServer": "whois.mn",
 	"nameServers": [
 		"ns10.dns.mn",
 		"ns11.dns.mn"

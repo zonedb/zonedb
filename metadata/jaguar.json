@@ -2,7 +2,6 @@
 	"domain": "jaguar",
 	"registryOperator": "Jaguar Land Rover Ltd",
 	"infoURL": "http://nic.jaguar/",
-	"whoisServer": "whois.nic.jaguar",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

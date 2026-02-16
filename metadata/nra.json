@@ -2,7 +2,6 @@
 	"domain": "nra",
 	"registryOperator": "National Rifle Association of America",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/nra",
-	"whoisServer": "whois.nic.nra",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

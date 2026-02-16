@@ -2,7 +2,6 @@
 	"domain": "pccw",
 	"registryOperator": "PCCW Enterprises Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/pccw",
-	"whoisServer": "whois.nic.pccw",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

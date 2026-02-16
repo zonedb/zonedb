@@ -2,7 +2,6 @@
 	"domain": "fiat",
 	"registryOperator": "Fiat Chrysler Automobiles N.V.",
 	"infoURL": "http://nic.fiat/",
-	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/fiat/"
 	],

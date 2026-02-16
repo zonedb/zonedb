@@ -2,7 +2,6 @@
 	"domain": "apple",
 	"registryOperator": "Apple Inc.",
 	"infoURL": "https://www.apple.com/legal/intellectual-property/tld/",
-	"whoisServer": "whois.nic.apple",
 	"rdapURLs": [
 		"https://rdap.nic.apple/"
 	],

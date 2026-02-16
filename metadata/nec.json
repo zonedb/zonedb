@@ -2,7 +2,6 @@
 	"domain": "nec",
 	"registryOperator": "NEC Corporation",
 	"infoURL": "https://nic.nec/",
-	"whoisServer": "whois.nic.nec",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

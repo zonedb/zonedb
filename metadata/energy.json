@@ -2,7 +2,6 @@
 	"domain": "energy",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.energy",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

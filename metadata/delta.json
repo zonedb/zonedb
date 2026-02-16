@@ -2,7 +2,6 @@
 	"domain": "delta",
 	"registryOperator": "Delta Air Lines, Inc.",
 	"infoURL": "http://www.nic.delta/",
-	"whoisServer": "whois.nic.delta",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

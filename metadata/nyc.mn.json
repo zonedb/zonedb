@@ -1,0 +1,8 @@
+{
+	"domain": "nyc.mn",
+	"nameServers": [
+		"ns0.nic.publiczone.org",
+		"ns1.nic.publiczone.org",
+		"ns2.nic.publiczone.org"
+	]
+}

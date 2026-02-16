@@ -1,6 +1,5 @@
 {
 	"domain": "pt",
-	"whoisServer": "whois.dns.pt",
 	"nameServers": [
 		"a.dns.pt",
 		"b.dns.pt",

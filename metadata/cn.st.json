@@ -1,0 +1,11 @@
+{
+	"domain": "cn.st",
+	"nameServers": [
+		"ns-global.kjsl.com",
+		"ns0.nic.publiczone.org",
+		"ns1.nic.publiczone.org",
+		"ns2.nic.publiczone.org",
+		"ns3.nic.publiczone.org",
+		"ns4.nic.publiczone.org"
+	]
+}

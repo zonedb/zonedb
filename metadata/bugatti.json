@@ -1,7 +1,6 @@
 {
 	"domain": "bugatti",
 	"registryOperator": "Bugatti International SA",
-	"whoisServer": "whois.afilias-srs.net",
 	"rdapURLs": [
 		"https://rdap.afilias-srs.net/rdap/bugatti/"
 	],
