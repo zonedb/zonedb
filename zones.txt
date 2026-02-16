@@ -3491,6 +3491,7 @@ org.mm
 per.mm
 edu.mn
 gov.mn
+nyc.mn
 org.mn
 co.mo
 com.mo
@@ -4392,6 +4393,7 @@ me.ss
 net.ss
 org.ss
 sch.ss
+cn.st
 co.st
 com.st
 consulado.st
