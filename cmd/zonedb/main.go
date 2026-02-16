@@ -289,6 +289,7 @@ func main() {
 			errs = append(errs, err)
 			build.LogError(err)
 		}
+		build.ApplyIDNOverrides(workZones)
 	}
 
 	if *updateRDAP || *updateAll {
