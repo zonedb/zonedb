@@ -13,10 +13,14 @@
 		"d.nic.audio"
 	],
 	"languages": [
+		"de",
 		"es",
 		"fr",
 		"it",
-		"pt"
+		"ja",
+		"mul-Cyrl",
+		"pt",
+		"ru"
 	],
 	"tags": [
 		"generic"
@@ -24,23 +28,51 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"key": "de",
+			"value": "https://centralnicregistry.com/services/idn-table/de/20/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_es_2.6.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/audio_es_2.6.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_fr_2.6.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/audio_fr_2.6.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_it_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/audio_it_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "ja",
+			"value": "https://centralnicregistry.com/services/idn-table/ja/737/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://centralnicregistry.com/services/idn-table/cyrl/58/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/audio_pt_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/audio_pt_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://centralnicregistry.com/services/idn-table/ru/17/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		}
 	]
 }

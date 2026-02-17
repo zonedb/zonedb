@@ -25,12 +25,14 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgba3a3ejt_ar_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgba3a3ejt_ar_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgba3a3ejt_es_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgba3a3ejt_es_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

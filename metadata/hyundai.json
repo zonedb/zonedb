@@ -23,7 +23,8 @@
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/hyundai_ko_2.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/hyundai_ko_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

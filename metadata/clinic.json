@@ -38,82 +38,98 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_ar_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_ar_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_de_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_de_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_es_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_es_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_fr_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_fr_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "he",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_he_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_he_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_ja_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_ja_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_ko_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_ko_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Arab",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_arab_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_arab_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Hebr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_hebr_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_hebr_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_und-cyrl_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_und-cyrl_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Deva",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_und-deva_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_und-deva_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Grek",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_und-grek_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_und-grek_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_und-latn_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_und-latn_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Taml",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_und-taml_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_und-taml_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Thai",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_und-thai_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_und-thai_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_zh_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/clinic_zh_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

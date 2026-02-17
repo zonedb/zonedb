@@ -24,12 +24,14 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ifm_de_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ifm_de_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ifm_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ifm_zh_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

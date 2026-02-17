@@ -21,7 +21,8 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Arab",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgbab2bd_arab_1.3.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgbab2bd_arab_1.3.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

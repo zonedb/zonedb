@@ -25,7 +25,8 @@
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/caravan_zh_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/caravan_zh_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

@@ -23,7 +23,8 @@
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sc_zh_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/sc_zh_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

@@ -27,12 +27,14 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Arab",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sky_arab_3.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/sky_arab_3.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/sky_latn_4.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/sky_latn_4.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

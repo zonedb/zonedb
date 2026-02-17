@@ -22,7 +22,8 @@
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/mls_fr_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/mls_fr_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

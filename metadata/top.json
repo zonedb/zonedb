@@ -33,42 +33,50 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/top_ar_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_ar_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/top_de_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_de_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/top_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_es_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/top_fr_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_fr_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/top_ja_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_ja_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/top_ru_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_ru_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh-Hans",
-			"value": "https://www.iana.org/domains/idn-tables/tables/top_zh-hans_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_zh-hans_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh-Hant",
-			"value": "https://www.iana.org/domains/idn-tables/tables/top_zh-hant_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/top_zh-hant_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

@@ -43,92 +43,110 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_ar_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_ar_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_da_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_da_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_de_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_de_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_es_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_es_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_fi_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_fi_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_fr_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_fr_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_hu_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_hu_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "is",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_is_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_is_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_ja_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_ja_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_ko_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_ko_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "lt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_lt_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_lt_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "lv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_lv_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_lv_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "no",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_no_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_no_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_pl_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_pl_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_pt_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_pt_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_ru_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_ru_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_sv_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_sv_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/moi_zh_2.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/moi_zh_2.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

@@ -23,7 +23,8 @@
 		{
 			"type": "idn-table",
 			"key": "ja-JP",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ntt_ja-jp_1.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ntt_ja-jp_1.2.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

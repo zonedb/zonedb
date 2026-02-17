@@ -33,32 +33,38 @@
 		{
 			"type": "idn-table",
 			"key": "bn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_bn_3.1.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_bn_3.1.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_es_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_es_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_fr_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_fr_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_ru_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_ru_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "yi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_yi_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_yi_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh-Hani",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_zh-hani_4.1.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nyc_zh-hani_4.1.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

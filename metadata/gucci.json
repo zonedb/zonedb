@@ -43,92 +43,110 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_ar_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_ar_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_da_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_da_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_de_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_de_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_es_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_es_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_fi_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_fi_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_hu_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_hu_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "is",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_is_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_is_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_it_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_it_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_ja_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_ja_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_ko_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_ko_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "lt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_lt_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_lt_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "lv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_lv_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_lv_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "no",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_no_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_no_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_pl_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_pl_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_pt_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_pt_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_ru_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_ru_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_sv_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_sv_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_zh_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/gucci_zh_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

@@ -26,7 +26,8 @@
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/samsung_ko_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/samsung_ko_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

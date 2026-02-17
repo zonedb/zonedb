@@ -29,27 +29,32 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_de_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_de_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_es_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_es_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_ja_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_ja_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_ko_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_ko_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_zh_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/kpmg_zh_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

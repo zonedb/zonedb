@@ -17,6 +17,7 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"source": "https://www.iedr.ie/",
 			"comment": "https://www.iedr.ie/internationalised-ie-domain-names/"
 		}
 	]

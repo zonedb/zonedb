@@ -21,7 +21,8 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ve_es_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ve_es_1.0.html",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

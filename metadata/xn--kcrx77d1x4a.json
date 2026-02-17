@@ -26,12 +26,14 @@
 		{
 			"type": "idn-table",
 			"key": "zh-Hans",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--kcrx77d1x4a_zh-hans_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--kcrx77d1x4a_zh-hans_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh-Hant",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--kcrx77d1x4a_zh-hant_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--kcrx77d1x4a_zh-hant_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

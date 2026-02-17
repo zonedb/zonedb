@@ -21,6 +21,7 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
+			"source": "https://www.denic.de/",
 			"comment": "https://www.denic.de/en/produkte/de-domains/idn-domains/"
 		}
 	]

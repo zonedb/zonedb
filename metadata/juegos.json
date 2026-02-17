@@ -31,42 +31,50 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_de_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_de_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_es_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_es_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_fr_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_fr_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_it_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_it_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_ja_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_ja_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_pt_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_pt_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_und-cyrl_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_und-cyrl_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_zh_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/juegos_zh_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

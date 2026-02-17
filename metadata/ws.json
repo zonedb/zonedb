@@ -17,7 +17,8 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"comment": "http://website.ws/emoji.dhtml"
+			"source": "https://website.ws/",
+			"comment": "https://website.ws/emoji.dhtml"
 		}
 	]
 }

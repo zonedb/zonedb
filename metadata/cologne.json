@@ -27,12 +27,14 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cologne_de_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/cologne_de_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cologne_latn_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/cologne_latn_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

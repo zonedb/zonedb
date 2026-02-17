@@ -38,82 +38,98 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_ar_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_ar_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_de_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_de_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_es_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_es_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_fr_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_fr_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "he",
-			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_he_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_he_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_ja_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_ja_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_ko_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_ko_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Arab",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_arab_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_arab_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Hebr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_hebr_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/academy_hebr_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_und-cyrl_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_und-cyrl_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Deva",
-			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_und-deva_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_und-deva_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Grek",
-			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_und-grek_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_und-grek_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_und-latn_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_und-latn_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Taml",
-			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_und-taml_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_und-taml_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Thai",
-			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_und-thai_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_und-thai_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_zh_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/equipment_zh_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

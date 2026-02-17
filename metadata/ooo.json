@@ -13,21 +13,53 @@
 	],
 	"languages": [
 		"ar",
+		"az",
+		"be",
 		"es",
 		"fr",
 		"he",
+		"hr",
 		"ja",
 		"ko",
+		"ku",
 		"lo",
+		"mul-Arab",
+		"mul-Beng",
+		"mul-Bopo",
+		"mul-Cans",
+		"mul-Cari",
+		"mul-Cher",
 		"mul-Cyrl",
+		"mul-Deva",
+		"mul-Egyp",
+		"mul-Geor",
+		"mul-Glag",
 		"mul-Grek",
+		"mul-Gujr",
+		"mul-Hang",
+		"mul-Hano",
+		"mul-Hebr",
+		"mul-Khmr",
+		"mul-Kthi",
+		"mul-Laoo",
 		"mul-Latn",
+		"mul-Lyci",
 		"mul-Mymr",
+		"mul-Ogam",
+		"mul-Phag",
 		"mul-Phnx",
+		"mul-Runr",
+		"mul-Tale",
+		"mul-Taml",
+		"mul-Telu",
+		"mul-Thai",
+		"mul-Xpeo",
+		"mul-Xsux",
 		"pl",
 		"ru",
 		"sv",
 		"th",
+		"uk",
 		"zh"
 	],
 	"tags": [
@@ -37,87 +69,296 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_ar_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_ar_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "az",
+			"value": "https://centralnicregistry.com/services/idn-table/az/64/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "be",
+			"value": "https://centralnicregistry.com/services/idn-table/be/794/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_es_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_fr_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_fr_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "he",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_he_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_he_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "hr",
+			"value": "https://centralnicregistry.com/services/idn-table/hr/800/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_ja_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_ja_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_ko_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_ko_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "ku",
+			"value": "https://centralnicregistry.com/services/idn-table/ku/84/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
 			"type": "idn-table",
 			"key": "lo",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_lo_2.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_lo_2.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Arab",
+			"value": "https://centralnicregistry.com/services/idn-table/arab/339/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Beng",
+			"value": "https://centralnicregistry.com/services/idn-table/beng/324/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Bopo",
+			"value": "https://centralnicregistry.com/services/idn-table/bopo/104/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cans",
+			"value": "https://centralnicregistry.com/services/idn-table/cans/199/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cari",
+			"value": "https://centralnicregistry.com/services/idn-table/cari/109/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cher",
+			"value": "https://centralnicregistry.com/services/idn-table/cher/114/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_cyrl_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_cyrl_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Deva",
+			"value": "https://centralnicregistry.com/services/idn-table/deva/309/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Egyp",
+			"value": "https://centralnicregistry.com/services/idn-table/egyp/119/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Geor",
+			"value": "https://centralnicregistry.com/services/idn-table/geor/124/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Glag",
+			"value": "https://centralnicregistry.com/services/idn-table/glag/129/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Grek",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_grek_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_grek_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Gujr",
+			"value": "https://centralnicregistry.com/services/idn-table/gujr/314/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hang",
+			"value": "https://centralnicregistry.com/services/idn-table/hang/134/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hano",
+			"value": "https://centralnicregistry.com/services/idn-table/hano/144/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hebr",
+			"value": "https://centralnicregistry.com/services/idn-table/hebr/878/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Khmr",
+			"value": "https://centralnicregistry.com/services/idn-table/khmr/154/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Kthi",
+			"value": "https://centralnicregistry.com/services/idn-table/kthi/149/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Laoo",
+			"value": "https://centralnicregistry.com/services/idn-table/laoo/877/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_latn_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_latn_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Lyci",
+			"value": "https://centralnicregistry.com/services/idn-table/lyci/159/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Mymr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_mymr_2.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_mymr_2.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Ogam",
+			"value": "https://centralnicregistry.com/services/idn-table/ogam/806/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Phag",
+			"value": "https://centralnicregistry.com/services/idn-table/phag/174/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Phnx",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_phnx_2.5.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_phnx_2.5.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Runr",
+			"value": "https://centralnicregistry.com/services/idn-table/runr/184/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Tale",
+			"value": "https://centralnicregistry.com/services/idn-table/tale/194/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Taml",
+			"value": "https://centralnicregistry.com/services/idn-table/taml/319/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Telu",
+			"value": "https://centralnicregistry.com/services/idn-table/telu/329/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Thai",
+			"value": "https://centralnicregistry.com/services/idn-table/thai/879/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Xpeo",
+			"value": "https://centralnicregistry.com/services/idn-table/xpeo/169/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Xsux",
+			"value": "https://centralnicregistry.com/services/idn-table/xsux/189/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_pl_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_pl_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_ru_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_ru_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_sv_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_sv_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "th",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_th_2.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_th_2.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "uk",
+			"value": "https://centralnicregistry.com/services/idn-table/uk/99/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/ooo_zh_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

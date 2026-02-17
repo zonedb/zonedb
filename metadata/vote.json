@@ -45,127 +45,152 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_ar_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_ar_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "be",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_be_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_be_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "bg",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_bg_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_bg_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "bs-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_bs-cyrl_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_bs-cyrl_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "cnr-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_cnr-cyrl_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_cnr-cyrl_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_da_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_da_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_de_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_de_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_es_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_es_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_fi_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_fi_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_fr_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_fr_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "hi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_hi_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_hi_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_hu_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_hu_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "is",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_is_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_is_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_it_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_it_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_ko_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_ko_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "lt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_lt_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_lt_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "lv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_lv_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_lv_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mk",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_mk_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_mk_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_pl_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_pl_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_pt_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_pt_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_ru_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_ru_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "sr-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_sr-cyrl_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_sr-cyrl_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_sv_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_sv_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "uk",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_uk_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_uk_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vote_zh_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/vote_zh_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

@@ -24,7 +24,8 @@
 		{
 			"type": "idn-table",
 			"key": "he",
-			"value": "https://www.iana.org/domains/idn-tables/tables/il_he_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/il_he_1.0.html",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

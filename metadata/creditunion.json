@@ -14,12 +14,5 @@
 	],
 	"tags": [
 		"generic"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "is",
-			"value": "https://portal.afilias.info/sites/portal.afilias.info/files/icelandic-IS.txt"
-		}
 	]
 }

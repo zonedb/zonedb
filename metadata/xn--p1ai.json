@@ -19,12 +19,9 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"comment": "https://cctld.ru/en/docs/rulesrf.php"
-		},
-		{
-			"type": "idn-table",
 			"key": "mul-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--p1ai_cyrl_3.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--p1ai_cyrl_3.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

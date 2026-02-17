@@ -28,37 +28,44 @@
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/la_ja_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/la_ja_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "lo",
-			"value": "https://www.iana.org/domains/idn-tables/tables/la_lo_2.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/la_lo_2.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Grek",
-			"value": "https://www.iana.org/domains/idn-tables/tables/la_grek_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/la_grek_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/la_latn_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/la_latn_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Tavt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/la_tavt_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/la_tavt_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "th",
-			"value": "https://www.iana.org/domains/idn-tables/tables/la_th_2.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/la_th_2.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/la_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/la_zh_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

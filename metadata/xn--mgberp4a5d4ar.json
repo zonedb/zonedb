@@ -24,7 +24,8 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgberp4a5d4ar_ar_2.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--mgberp4a5d4ar_ar_2.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

@@ -24,17 +24,20 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/fans_ar_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/fans_ar_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/fans_latn_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/fans_latn_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/fans_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/fans_zh_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

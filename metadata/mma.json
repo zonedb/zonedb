@@ -22,7 +22,8 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/mma_latn_1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/mma_latn_1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

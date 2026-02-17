@@ -12,13 +12,19 @@
 		"guðrun.nic.fo",
 		"mimi.nic.fo"
 	],
+	"languages": [
+		"fo"
+	],
 	"tags": [
 		"country",
 		"geo"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "fo",
+			"value": "https://centralnicregistry.com/services/idn-table/fo/709/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		}
 	]
 }

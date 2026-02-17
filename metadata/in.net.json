@@ -12,9 +12,22 @@
 		"ns3.nic.in.net",
 		"ns4.nic.in.net"
 	],
+	"languages": [
+		"he",
+		"mul-Cyrl"
+	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "he",
+			"value": "https://centralnicregistry.com/services/idn-table/he/8/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://centralnicregistry.com/services/idn-table/cyrl/58/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		}
 	]
 }

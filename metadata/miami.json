@@ -30,12 +30,14 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/miami_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/miami_es_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/miami_fr_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/miami_fr_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

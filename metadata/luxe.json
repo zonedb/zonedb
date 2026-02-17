@@ -35,62 +35,74 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_ar_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_ar_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_da_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_da_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_de_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_de_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_es_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_fi_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_fi_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_fr_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_fr_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "he",
-			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_he_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_he_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_it_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_it_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "no",
-			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_no_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_no_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_ru_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_ru_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_sv_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_sv_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/luxe_zh_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

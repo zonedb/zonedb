@@ -31,42 +31,50 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_de_3.1.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_de_3.1.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_es_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_es_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_fr_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_fr_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "it",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_it_3.2.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_it_3.2.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_ja_4.1.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_ja_4.1.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_pt_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_pt_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_und-cyrl_4.1.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_und-cyrl_4.1.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh-Hani",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_zh-hani_4.1.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tattoo_zh-hani_4.1.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

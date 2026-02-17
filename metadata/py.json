@@ -20,7 +20,8 @@
 		{
 			"type": "idn-table",
 			"key": "gn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/py_gn_1.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/py_gn_1.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

@@ -30,22 +30,26 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/unicom_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/unicom_es_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/unicom_ru_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/unicom_ru_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh-Hans",
-			"value": "https://www.iana.org/domains/idn-tables/tables/unicom_zh-hans_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/unicom_zh-hans_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh-Hant",
-			"value": "https://www.iana.org/domains/idn-tables/tables/unicom_zh-hant_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/unicom_zh-hant_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

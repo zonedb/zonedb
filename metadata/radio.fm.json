@@ -9,11 +9,36 @@
 		"c.nic.fm",
 		"d.nic.fm"
 	],
+	"languages": [
+		"he",
+		"mul-Cyrl",
+		"mul-Mymr",
+		"mul-Zyyy"
+	],
 	"policies": [
 		{
 			"type": "idn-table",
+			"key": "he",
+			"value": "https://centralnicregistry.com/services/idn-table/he/8/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://centralnicregistry.com/services/idn-table/cyrl/58/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Mymr",
+			"value": "https://centralnicregistry.com/services/idn-table/mymr/239/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
 			"key": "mul-Zyyy",
-			"value": "https://manage.centralnic.com/support/idn_table/zyyy",
+			"value": "https://centralnicregistry.com/services/idn-table/zyyy/349/",
+			"source": "https://centralnicregistry.com/idn-tables/",
 			"comment": "experimental emoji support as of 2018-03-22"
 		}
 	]
