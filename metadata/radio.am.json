@@ -38,8 +38,7 @@
 			"type": "idn-table",
 			"key": "mul-Zyyy",
 			"value": "https://centralnicregistry.com/services/idn-table/zyyy/349/",
-			"source": "https://centralnicregistry.com/idn-tables/",
-			"comment": "experimental emoji support as of 2018-03-22"
+			"source": "https://centralnicregistry.com/idn-tables/"
 		}
 	]
 }

@@ -5,6 +5,9 @@
 		"ns1.judns.com",
 		"ns2.judns.com"
 	],
+	"wildcards": [
+		"129.226.170.70"
+	],
 	"tags": [
 		"private"
 	]
