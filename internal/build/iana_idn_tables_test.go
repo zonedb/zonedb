@@ -35,7 +35,7 @@ func TestFetchIDNTablesFromIANA_StaleRemoval(t *testing.T) {
 	zones := map[string]*Zone{
 		"aaa": {Domain: "aaa"},
 	}
-	if err := FetchIDNTablesFromIANA(zones); err != nil {
+	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
 		t.Fatalf("fetch from full fixture: %v", err)
 	}
 
@@ -47,12 +47,12 @@ func TestFetchIDNTablesFromIANA_StaleRemoval(t *testing.T) {
 	// Step 2: Add a non-IANA policy that must survive the next fetch.
 	nonIANAKey := "mul-Latn"
 	nonIANAValue := "https://example.com/aaa-latn.txt"
-	zones["aaa"].AddPolicy(TypeIDNTable, nonIANAKey, nonIANAValue, "")
+	zones["aaa"].AddPolicy(TypeIDNTable, nonIANAKey, nonIANAValue, "", "")
 	zones["aaa"].Languages = append(zones["aaa"].Languages, nonIANAKey)
 
 	// Step 3: Re-fetch from the reduced fixture (some entries removed).
 	ianaTablesURL = srv.URL + "/idn-tables-reduced.html"
-	if err := FetchIDNTablesFromIANA(zones); err != nil {
+	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
 		t.Fatalf("fetch from reduced fixture: %v", err)
 	}
 
@@ -63,7 +63,7 @@ func TestFetchIDNTablesFromIANA_StaleRemoval(t *testing.T) {
 	expectedZones := map[string]*Zone{
 		"aaa": {Domain: "aaa"},
 	}
-	if err := FetchIDNTablesFromIANA(expectedZones); err != nil {
+	if err := FetchIDNTablesFromIANA(expectedZones, nil); err != nil {
 		t.Fatalf("fetch expected from reduced fixture: %v", err)
 	}
 
@@ -132,7 +132,7 @@ func TestFetchIDNTablesFromIANA_NonIANAOnly(t *testing.T) {
 		},
 	}
 
-	if err := FetchIDNTablesFromIANA(zones); err != nil {
+	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromIANA: %v", err)
 	}
 
@@ -168,7 +168,7 @@ func TestFetchIDNTablesFromIANA_Full(t *testing.T) {
 		"aaa": {Domain: "aaa"},
 	}
 
-	if err := FetchIDNTablesFromIANA(zones); err != nil {
+	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromIANA: %v", err)
 	}
 

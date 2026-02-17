@@ -6,6 +6,7 @@ import (
 	"flag"
 	"fmt"
 	"os"
+	"path/filepath"
 	"regexp"
 	"strings"
 	"time"
@@ -79,6 +80,11 @@ func main() {
 		os.Exit(1)
 	}
 	flag.Parse()
+
+	// Load ETag cache for conditional HTTP requests
+	cache := build.NewETagCache(filepath.Join(build.BaseDir, ".cache", "etags.json"))
+	cache.Load()
+	defer cache.Save()
 
 	startTime := time.Now()
 	defer func() {
@@ -220,7 +226,7 @@ func main() {
 	}
 
 	if *updateRoot || *updateAll {
-		err := build.FetchRootZone(workZones, addNew)
+		err := build.FetchRootZone(workZones, addNew, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -228,7 +234,7 @@ func main() {
 	}
 
 	if *updateICANN || *updateAll {
-		err := build.FetchGTLDsFromICANN(workZones)
+		err := build.FetchGTLDsFromICANN(workZones, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -236,7 +242,7 @@ func main() {
 	}
 
 	if *updateRubyWhois {
-		err := build.FetchRubyWhoisServers(workZones, addNew)
+		err := build.FetchRubyWhoisServers(workZones, addNew, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -262,7 +268,7 @@ func main() {
 	}
 
 	if *updateIANASpecial || *updateAll {
-		err := build.FetchSpecialUseDomainsFromIANA(workZones, addNew)
+		err := build.FetchSpecialUseDomainsFromIANA(workZones, addNew, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -284,16 +290,22 @@ func main() {
 	}
 
 	if *updateIDN || *updateAll {
-		err := build.FetchIDNTablesFromIANA(workZones)
+		err := build.FetchIDNTablesFromIANA(workZones, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
 		}
 		build.ApplyIDNOverrides(workZones)
+
+		err = build.FetchIDNTablesFromCentralNic(workZones, cache)
+		if err != nil {
+			errs = append(errs, err)
+			build.LogError(err)
+		}
 	}
 
 	if *updateRDAP || *updateAll {
-		err := build.FetchRDAPFromIANA(workZones)
+		err := build.FetchRDAPFromIANA(workZones, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)

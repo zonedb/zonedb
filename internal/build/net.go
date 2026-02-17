@@ -39,6 +39,43 @@ func Fetch(u string) (*http.Response, error) {
 	return res, nil
 }
 
+// FetchWithETag performs a conditional GET using a stored ETag.
+// Returns (response, nil) on 200 OK (updates cache with new ETag).
+// Returns (nil, nil) on 304 Not Modified (content unchanged).
+// Returns (nil, error) on failure.
+// If cache is nil, behaves like Fetch.
+func FetchWithETag(u string, cache *ETagCache) (*http.Response, error) {
+	color.Fprintf(os.Stderr, "@{.}Fetching %s\n", u)
+	req, err := http.NewRequest("GET", u, nil)
+	if err != nil {
+		return nil, err
+	}
+	req.Header.Set("User-Agent", httpUserAgent)
+	if cache != nil {
+		if etag := cache.Get(u); etag != "" {
+			req.Header.Set("If-None-Match", etag)
+		}
+	}
+	res, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	if res.StatusCode == http.StatusNotModified {
+		res.Body.Close()
+		return nil, nil
+	}
+	if res.StatusCode != http.StatusOK {
+		res.Body.Close()
+		return nil, fmt.Errorf("HTTP error for %s: %s", u, res.Status)
+	}
+	if cache != nil {
+		if etag := res.Header.Get("ETag"); etag != "" {
+			cache.Set(u, etag)
+		}
+	}
+	return res, nil
+}
+
 // CanDial verifies if possible to connect to a given network and address.
 // Returns nil for successful dial or an error.
 func CanDial(network, addr string) error {

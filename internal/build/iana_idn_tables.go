@@ -19,15 +19,18 @@ var ianaTypos = map[string]string{
 }
 
 // FetchIDNTablesFromIANA fetches IDN table references from the IANA website.
-func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
+func FetchIDNTablesFromIANA(zones map[string]*Zone, cache *ETagCache) error {
 	tlds := TLDs(zones)
 	baseURL, err := url.Parse(ianaBaseURL)
 	if err != nil {
 		return err
 	}
-	res, err := Fetch(ianaTablesURL)
+	res, err := FetchWithETag(ianaTablesURL, cache)
 	if err != nil {
 		return err
+	}
+	if res == nil {
+		return nil // 304 Not Modified
 	}
 	defer res.Body.Close()
 	doc, err := goquery.NewDocumentFromReader(res.Body)
@@ -45,7 +48,7 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 		var filtered []Policy
 		var nonIANALangs []string
 		for _, p := range z.Policies {
-			if p.Type == TypeIDNTable && strings.HasPrefix(p.Value, ianaPrefix) {
+			if p.Type == TypeIDNTable && (strings.HasPrefix(p.Source, ianaPrefix) || (p.Source == "" && strings.HasPrefix(p.Value, ianaPrefix))) {
 				continue
 			}
 			filtered = append(filtered, p)
@@ -112,7 +115,7 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 			return
 		}
 
-		z.AddPolicy(TypeIDNTable, lang, u.String(), "") // "Fetched from "+ianaTablesURL)
+		z.AddPolicy(TypeIDNTable, lang, u.String(), ianaTablesURL, "")
 		z.Languages = append(z.Languages, lang)
 
 		atomic.AddUint64(&extractedCount, 1)
