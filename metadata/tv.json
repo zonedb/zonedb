@@ -1,6 +1,6 @@
 {
 	"domain": "tv",
-	"whoisServer": "whois.nic.tv",
+	"whoisServer": "tvwhois.verisign-grs.com",
 	"rdapURLs": [
 		"https://rdap.nic.tv/"
 	],
