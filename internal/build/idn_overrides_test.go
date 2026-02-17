@@ -6,6 +6,8 @@ import (
 	"testing"
 )
 
+// TestApplyIDNOverrides verifies that IDN table policies and languages
+// are copied from a source zone to an override target zone.
 func TestApplyIDNOverrides(t *testing.T) {
 	// Use the full fixture to populate the source zone with real
 	// IANA IDN table data, then verify the override copies it.
@@ -85,6 +87,8 @@ func TestApplyIDNOverrides(t *testing.T) {
 	}
 }
 
+// TestApplyIDNOverrides_PreservesExisting verifies that applying an override
+// adds source policies without removing pre-existing policies on the target.
 func TestApplyIDNOverrides_PreservesExisting(t *testing.T) {
 	// Target zone has a pre-existing non-IANA policy. The override
 	// should add source policies without removing the existing one.

@@ -83,7 +83,9 @@ func main() {
 
 	// Load ETag cache for conditional HTTP requests
 	cache := build.NewETagCache(filepath.Join(build.BaseDir, ".cache", "etags.json"))
-	cache.Load()
+	if err := cache.Load(); err != nil {
+		color.Fprintf(os.Stderr, "@{y}Warning: failed to load ETag cache, starting fresh: %s\n", err)
+	}
 	defer cache.Save()
 
 	startTime := time.Now()

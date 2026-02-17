@@ -24,8 +24,10 @@ func ApplyIDNOverrides(zones map[string]*Zone) {
 		}
 
 		// Collect source IDN table policies.
-		var policies []Policy
-		var languages []string
+		var (
+			policies  []Policy
+			languages []string
+		)
 		for _, p := range sz.Policies {
 			if p.Type == TypeIDNTable {
 				policies = append(policies, p)
