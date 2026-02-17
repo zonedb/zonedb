@@ -6,5 +6,16 @@
 		"d.nic.gl",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
+	],
+	"languages": [
+		"gl"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "gl",
+			"value": "https://centralnicregistry.com/services/idn-table/gl/778/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		}
 	]
 }

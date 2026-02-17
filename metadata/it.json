@@ -17,7 +17,8 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"comment": "http://www.crdd.it/norme/GuidelineTecnicheSincrono2.1-EN.pdf"
+			"source": "https://www.crdd.it/",
+			"comment": "https://www.crdd.it/norme/GuidelineTecnicheSincrono2.1-EN.pdf"
 		}
 	]
 }

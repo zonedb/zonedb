@@ -29,7 +29,8 @@
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/rio_pt_1.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/rio_pt_1.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

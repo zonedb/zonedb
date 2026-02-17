@@ -10,7 +10,81 @@
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
 	],
+	"languages": [
+		"be",
+		"de",
+		"es",
+		"he",
+		"hr",
+		"mul-Cyrl",
+		"mul-Ogam",
+		"mul-Runr",
+		"ru",
+		"uk"
+	],
 	"tags": [
 		"private"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "be",
+			"value": "https://centralnicregistry.com/services/idn-table/be/794/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "de",
+			"value": "https://centralnicregistry.com/services/idn-table/de/20/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://centralnicregistry.com/services/idn-table/es/40/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "he",
+			"value": "https://centralnicregistry.com/services/idn-table/he/8/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "hr",
+			"value": "https://centralnicregistry.com/services/idn-table/hr/800/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://centralnicregistry.com/services/idn-table/cyrl/58/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Ogam",
+			"value": "https://centralnicregistry.com/services/idn-table/ogam/806/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Runr",
+			"value": "https://centralnicregistry.com/services/idn-table/runr/184/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://centralnicregistry.com/services/idn-table/ru/17/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "uk",
+			"value": "https://centralnicregistry.com/services/idn-table/uk/99/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		}
 	]
 }

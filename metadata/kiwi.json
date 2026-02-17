@@ -22,7 +22,8 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/kiwi_latn_1.2bis.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/kiwi_latn_1.2bis.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

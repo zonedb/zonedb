@@ -28,7 +28,8 @@
 		{
 			"type": "idn-table",
 			"key": "ca",
-			"value": "https://www.iana.org/domains/idn-tables/tables/cat_ca_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/cat_ca_1.0.html",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

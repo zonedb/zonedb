@@ -10,10 +10,13 @@ import (
 const icannGTLDsURL = "https://www.icann.org/resources/registries/gtlds/v2/gtlds.json"
 
 // FetchGTLDsFromICANN retrieves the list of gTLDs from ICANN.
-func FetchGTLDsFromICANN(zones map[string]*Zone) error {
-	res, err := Fetch(icannGTLDsURL)
+func FetchGTLDsFromICANN(zones map[string]*Zone, cache *ETagCache) error {
+	res, err := FetchWithETag(icannGTLDsURL, cache)
 	if err != nil {
 		return err
+	}
+	if res == nil {
+		return nil // 304 Not Modified
 	}
 	defer res.Body.Close()
 

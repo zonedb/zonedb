@@ -39,92 +39,110 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_ar_1.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_ar_1.2.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_da_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_da_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_de_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_de_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_es_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_es_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_fr_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_fr_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "he",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_he_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_he_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_ja_1.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_ja_1.2.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_ko_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_ko_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "lo",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_lo_3.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_lo_3.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_cyrl_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_cyrl_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Grek",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_grek_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_grek_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_latn_1.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_latn_1.2.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Mymr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_mymr_2.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_mymr_2.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_pl_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_pl_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_ru_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_ru_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_sv_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_sv_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "th",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_th_2.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_th_2.2.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_zh_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tickets_zh_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

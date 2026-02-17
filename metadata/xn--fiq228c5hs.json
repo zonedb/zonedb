@@ -12,7 +12,6 @@
 		"ns4.teleinfoo.com"
 	],
 	"languages": [
-		"zh-CN",
 		"zh-Hans",
 		"zh-Hant"
 	],
@@ -22,18 +21,15 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"key": "zh-CN",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fiq228c5hs_zh-cn_4.0.txt"
-		},
-		{
-			"type": "idn-table",
 			"key": "zh-Hans",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fiq228c5hs_zh-hans_4.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fiq228c5hs_zh-hans_4.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh-Hant",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fiq228c5hs_zh-hant_4.0.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--fiq228c5hs_zh-hant_4.0.2.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

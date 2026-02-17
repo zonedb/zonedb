@@ -17,6 +17,7 @@
 	"policies": [
 		{
 			"type": "idn-table",
+			"source": "https://www.dk-hostmaster.dk/",
 			"comment": "https://www.dk-hostmaster.dk/en/approved-characters"
 		}
 	]

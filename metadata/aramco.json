@@ -26,12 +26,14 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/aramco_ar_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/aramco_ar_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/aramco_es_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/aramco_es_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

@@ -6,19 +6,9 @@
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],
-	"languages": [
-		"ja"
-	],
 	"tags": [
 		"brand",
 		"generic",
 		"retired"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/goo_ja_2.0.xml"
-		}
 	]
 }

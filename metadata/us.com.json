@@ -10,7 +10,32 @@
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
 	],
+	"languages": [
+		"he",
+		"mul-Cans",
+		"mul-Cyrl"
+	],
 	"tags": [
 		"private"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "he",
+			"value": "https://centralnicregistry.com/services/idn-table/he/8/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cans",
+			"value": "https://centralnicregistry.com/services/idn-table/cans/199/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://centralnicregistry.com/services/idn-table/cyrl/58/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		}
 	]
 }

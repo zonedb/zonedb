@@ -32,42 +32,44 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tw_de_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tw_de_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tw_fr_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tw_fr_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tw_ja_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tw_ja_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tw_ko_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tw_ko_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "th",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tw_th_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tw_th_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tw_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tw_zh_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh-Hant",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tw_zh-hant_4.1.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-TW",
-			"value": "https://www.iana.org/domains/idn-tables/tables/tw_zh-tw_4.0.1.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/tw_zh-hant_4.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

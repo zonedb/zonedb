@@ -21,23 +21,15 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"key": "bg",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bg_bg-bg_1.0.html"
-		},
-		{
-			"type": "idn-table",
 			"key": "bg-BG",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bg_bg-bg_1.0.html"
-		},
-		{
-			"type": "idn-table",
-			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bg_ru-bg_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/bg_bg-bg_1.0.html",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru-BG",
-			"value": "https://www.iana.org/domains/idn-tables/tables/bg_ru-bg_1.0.html"
+			"value": "https://www.iana.org/domains/idn-tables/tables/bg_ru-bg_1.0.html",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

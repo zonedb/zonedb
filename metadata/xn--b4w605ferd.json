@@ -23,12 +23,14 @@
 		{
 			"type": "idn-table",
 			"key": "zh-CN",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--b4w605ferd_zh-cn_4.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--b4w605ferd_zh-cn_4.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh-TW",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--b4w605ferd_zh-tw_4.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--b4w605ferd_zh-tw_4.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

@@ -29,42 +29,50 @@
 		{
 			"type": "idn-table",
 			"key": "el",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_el_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_el_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "he",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_he_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_he_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_ja_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_ja_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_ko_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_ko_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Arab",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_arab_1.3.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_arab_1.3.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_cyrl_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_cyrl_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_latn_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_latn_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_zh_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_zh_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

@@ -30,10 +30,13 @@ func stripDeprecatedSuffix(domain string) (string, bool) {
 }
 
 // FetchSpecialUseDomainsFromIANA fetches special use domains from the IANA website.
-func FetchSpecialUseDomainsFromIANA(zones map[string]*Zone, addNew bool) error {
-	res, err := Fetch(ianaSpecialUseURL)
+func FetchSpecialUseDomainsFromIANA(zones map[string]*Zone, addNew bool, cache *ETagCache) error {
+	res, err := FetchWithETag(ianaSpecialUseURL, cache)
 	if err != nil {
 		return err
+	}
+	if res == nil {
+		return nil // 304 Not Modified
 	}
 	defer res.Body.Close()
 	r := csv.NewReader(res.Body)

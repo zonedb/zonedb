@@ -22,10 +22,13 @@ import (
 const rootZoneURL = "https://www.internic.net/domain/root.zone"
 
 // FetchRootZone fetches the IANA root zone file and adds name servers to zones.
-func FetchRootZone(zones map[string]*Zone, addNew bool) error {
-	res, err := Fetch(rootZoneURL)
+func FetchRootZone(zones map[string]*Zone, addNew bool, cache *ETagCache) error {
+	res, err := FetchWithETag(rootZoneURL, cache)
 	if err != nil {
 		return err
+	}
+	if res == nil {
+		return nil // 304 Not Modified
 	}
 	defer res.Body.Close()
 

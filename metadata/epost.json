@@ -1,18 +1,8 @@
 {
 	"domain": "epost",
-	"languages": [
-		"mul-Latn"
-	],
 	"tags": [
 		"brand",
 		"generic",
 		"retired"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/epost_latn_1.0.txt"
-		}
 	]
 }

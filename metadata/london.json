@@ -64,25 +64,25 @@
 			"type": "idn-table",
 			"key": "de",
 			"value": "https://www.iana.org/domains/idn-tables/tables/london_de_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
 			"value": "https://www.iana.org/domains/idn-tables/tables/london_es_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
 			"value": "https://www.iana.org/domains/idn-tables/tables/london_fr_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "it",
 			"value": "https://www.iana.org/domains/idn-tables/tables/london_it_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

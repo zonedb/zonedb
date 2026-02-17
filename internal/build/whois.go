@@ -72,10 +72,13 @@ func QueryWhoisServers(zones map[string]*Zone) error {
 const rubyWhoisURL = "https://github.com/weppos/whois/raw/HEAD/data/tld.json"
 
 // FetchRubyWhoisServers fetches whois servers from the Ruby Whois project.
-func FetchRubyWhoisServers(zones map[string]*Zone, addNew bool) error {
-	res, err := Fetch(rubyWhoisURL)
+func FetchRubyWhoisServers(zones map[string]*Zone, addNew bool, cache *ETagCache) error {
+	res, err := FetchWithETag(rubyWhoisURL, cache)
 	if err != nil {
 		return err
+	}
+	if res == nil {
+		return nil // 304 Not Modified
 	}
 	defer res.Body.Close()
 	records := make(map[string]struct {

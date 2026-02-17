@@ -22,12 +22,14 @@
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/helsinki_fi_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/helsinki_fi_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/helsinki_sv_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/helsinki_sv_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

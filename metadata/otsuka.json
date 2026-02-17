@@ -19,9 +19,7 @@
 		"ko",
 		"pl",
 		"pt",
-		"zh",
-		"zh-Hans",
-		"zh-Hant"
+		"zh"
 	],
 	"tags": [
 		"brand",
@@ -31,47 +29,44 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_es_2.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_es_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_fr_2.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_fr_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_ja_2.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_ja_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_ko_2.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_ko_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_pl_2.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_pl_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_pt_2.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_pt_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_zh_2.0.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-Hans",
-			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_zh-hans_1.1.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-Hant",
-			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_zh-hant_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/otsuka_zh_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

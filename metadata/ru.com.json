@@ -10,7 +10,25 @@
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
 	],
+	"languages": [
+		"mul-Cyrl",
+		"ru"
+	],
 	"tags": [
 		"private"
+	],
+	"policies": [
+		{
+			"type": "idn-table",
+			"key": "mul-Cyrl",
+			"value": "https://centralnicregistry.com/services/idn-table/cyrl/58/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://centralnicregistry.com/services/idn-table/ru/17/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		}
 	]
 }

@@ -22,13 +22,7 @@
 		"ja",
 		"ko",
 		"mul-Arab",
-		"mul-Cyrl",
-		"mul-Deva",
-		"mul-Grek",
 		"mul-Hebr",
-		"mul-Latn",
-		"mul-Taml",
-		"mul-Thai",
 		"und-Cyrl",
 		"und-Deva",
 		"und-Grek",
@@ -44,112 +38,98 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_ar_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_ar_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_de_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_de_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_es_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_es_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_fr_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_fr_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "he",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_he_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_he_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_ja_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_ja_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_ko_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_ko_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Arab",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_arab_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_cyrl_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Deva",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_deva_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Grek",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_grek_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_arab_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Hebr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_hebr_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_latn_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Taml",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_taml_1.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Thai",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_thai_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_hebr_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_und-cyrl_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_und-cyrl_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Deva",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_und-deva_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_und-deva_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Grek",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_und-grek_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_und-grek_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_und-latn_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_und-latn_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Taml",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_und-taml_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_und-taml_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Thai",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_und-thai_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_und-thai_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_zh_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_zh_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

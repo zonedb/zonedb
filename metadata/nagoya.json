@@ -26,7 +26,8 @@
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nagoya_ja_2.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nagoya_ja_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

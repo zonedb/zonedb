@@ -27,32 +27,38 @@
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/skin_ja_1.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/skin_ja_1.2.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/skin_ko_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/skin_ko_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Grek",
-			"value": "https://www.iana.org/domains/idn-tables/tables/skin_grek_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/skin_grek_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/skin_latn_1.2.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/skin_latn_1.2.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/skin_ru_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/skin_ru_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/skin_zh_1.1.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/skin_zh_1.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

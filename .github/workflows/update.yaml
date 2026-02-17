@@ -34,6 +34,18 @@ jobs:
       - name: Get go dependencies
         run: go get -t ./...
 
+      # Since github.run_id makes the primary cache key unique per run,
+      # this step will usually restore .cache/ via the restore-keys:
+      # etag-cache- prefix (latest match), then save a new snapshot
+      # under the run-specific key for future runs.
+      - name: Restore ETag cache
+        uses: actions/cache@v5
+        with:
+          path: .cache/
+          key: etag-cache-${{ github.run_id }}
+          restore-keys: |
+            etag-cache-
+
       - name: Update ZoneDB
         env:
           ZONEDB_ARGS: ${{ github.event.inputs.zonedbArgs }}

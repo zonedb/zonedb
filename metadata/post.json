@@ -26,17 +26,20 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/post_ar_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/post_ar_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/post_es_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/post_es_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/post_zh_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/post_zh_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

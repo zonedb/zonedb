@@ -30,7 +30,8 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/nrw_de_1.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/nrw_de_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

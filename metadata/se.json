@@ -26,17 +26,13 @@
 			"type": "idn-table",
 			"key": "mul-Latn",
 			"value": "https://www.iana.org/domains/idn-tables/tables/se_latn_3.xml",
-			"comment": "https://www.iis.se/english/domains/se/idn/"
-		},
-		{
-			"type": "idn-table",
-			"key": "sv-SE",
-			"value": "https://www.iana.org/domains/idn-tables/tables/se_sv-se_1.0.html"
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "yi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/se_yi_3.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/se_yi_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

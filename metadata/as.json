@@ -19,7 +19,8 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"value": "https://nic.as/idn/chars.cfm"
+			"value": "https://nic.as/idn/chars.cfm",
+			"source": "https://nic.as/"
 		}
 	]
 }

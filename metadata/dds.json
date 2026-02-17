@@ -27,19 +27,19 @@
 			"type": "idn-table",
 			"key": "de",
 			"value": "https://www.iana.org/domains/idn-tables/tables/dds_de_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
 			"value": "https://www.iana.org/domains/idn-tables/tables/dds_es_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
 			"value": "https://www.iana.org/domains/idn-tables/tables/dds_fr_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

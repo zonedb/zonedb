@@ -14,18 +14,8 @@
 		"d0.pr.afilias-nst.org",
 		"pr-dns.denic.de"
 	],
-	"languages": [
-		"gn"
-	],
 	"tags": [
 		"country",
 		"geo"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "gn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/pr_gn_1.xml"
-		}
 	]
 }

@@ -9,21 +9,10 @@
 		"Budapest",
 		"HU-BU"
 	],
-	"languages": [
-		"hu"
-	],
 	"tags": [
 		"city",
 		"generic",
 		"geo",
 		"retired"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/budapest_hu_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
-		}
 	]
 }

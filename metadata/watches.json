@@ -26,9 +26,7 @@
 		"pt",
 		"ru",
 		"sv",
-		"zh",
-		"zh-Hans",
-		"zh-TW"
+		"zh"
 	],
 	"tags": [
 		"generic"
@@ -37,87 +35,92 @@
 		{
 			"type": "idn-table",
 			"key": "da",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_da_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_da_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_de_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_de_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_es_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_es_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fi",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_fi_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_fi_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "hu",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_hu_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_hu_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "is",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_is_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_is_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_ja_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_ja_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_ko_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_ko_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "lt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_lt_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_lt_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "lv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_lv_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_lv_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_pl_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_pl_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_pt_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_pt_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ru",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_ru_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_ru_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "sv",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_sv_5.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_sv_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_zh_5.xml"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-Hans",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_zh-hans_4.0.txt"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh-TW",
-			"value": "https://www.iana.org/domains/idn-tables/tables/watches_zh-tw_4.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/watches_zh_5.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

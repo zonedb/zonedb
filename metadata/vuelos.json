@@ -5,18 +5,8 @@
 	"rdapURLs": [
 		"https://rdap.nic.vuelos/"
 	],
-	"languages": [
-		"es"
-	],
 	"tags": [
 		"generic",
 		"retired"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/vuelos_es_3.0.xml"
-		}
 	]
 }

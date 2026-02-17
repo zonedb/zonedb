@@ -32,7 +32,7 @@
 			"type": "idn-table",
 			"key": "de",
 			"value": "https://www.iana.org/domains/idn-tables/tables/bayern_de_1.0.txt",
-			"comment": "https://registrars.nominet.uk/gtlds/gtld-registrar-systems/internationalised-domain-names-idns"
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

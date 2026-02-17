@@ -22,7 +22,8 @@
 		{
 			"type": "idn-table",
 			"key": "ar",
-			"value": "https://www.iana.org/domains/idn-tables/tables/forum_ar_2.0.txt"
+			"value": "https://www.iana.org/domains/idn-tables/tables/forum_ar_2.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

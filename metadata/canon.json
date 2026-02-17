@@ -28,32 +28,38 @@
 		{
 			"type": "idn-table",
 			"key": "es",
-			"value": "https://www.iana.org/domains/idn-tables/tables/canon_es_2.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/canon_es_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "fr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/canon_fr_2.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/canon_fr_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/canon_ja_2.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/canon_ja_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/canon_ko_2.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/canon_ko_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/canon_pl_2.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/canon_pl_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "pt",
-			"value": "https://www.iana.org/domains/idn-tables/tables/canon_pt_2.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/canon_pt_2.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

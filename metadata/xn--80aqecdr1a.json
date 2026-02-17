@@ -24,7 +24,8 @@
 		{
 			"type": "idn-table",
 			"key": "mul-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--80aqecdr1a_cyrl_3.0.xml"
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--80aqecdr1a_cyrl_3.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

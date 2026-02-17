@@ -8,10 +8,13 @@ import (
 const ianaRDAPURL = "https://data.iana.org/rdap/dns.json"
 
 // FetchRDAPFromIANA retrieves the map of zones to RDAP service endpoints from IANA.
-func FetchRDAPFromIANA(zones map[string]*Zone) error {
-	res, err := Fetch(ianaRDAPURL)
+func FetchRDAPFromIANA(zones map[string]*Zone, cache *ETagCache) error {
+	res, err := FetchWithETag(ianaRDAPURL, cache)
 	if err != nil {
 		return err
+	}
+	if res == nil {
+		return nil // 304 Not Modified
 	}
 	defer res.Body.Close()
 

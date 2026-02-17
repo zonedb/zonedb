@@ -12,17 +12,7 @@
 		"c.ns.nic.blog",
 		"d.ns.nic.blog"
 	],
-	"languages": [
-		"zh"
-	],
 	"tags": [
 		"generic"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/blog_zh_1.1.txt"
-		}
 	]
 }

@@ -9,8 +9,7 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
-const (
-	// I override the URL during dev.
+var (
 	ianaTablesURL = "https://www.iana.org/domains/idn-tables"
 	ianaBaseURL   = "https://www.iana.org"
 )
@@ -20,20 +19,47 @@ var ianaTypos = map[string]string{
 }
 
 // FetchIDNTablesFromIANA fetches IDN table references from the IANA website.
-func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
+func FetchIDNTablesFromIANA(zones map[string]*Zone, cache *ETagCache) error {
 	tlds := TLDs(zones)
 	baseURL, err := url.Parse(ianaBaseURL)
 	if err != nil {
 		return err
 	}
-	res, err := Fetch(ianaTablesURL)
+	res, err := FetchWithETag(ianaTablesURL, cache)
 	if err != nil {
 		return err
+	}
+	if res == nil {
+		return nil // 304 Not Modified
 	}
 	defer res.Body.Close()
 	doc, err := goquery.NewDocumentFromReader(res.Body)
 	if err != nil {
 		return err
+	}
+
+	// Clear IANA-sourced IDN table policies and languages so that the
+	// IANA page is treated as the authoritative snapshot. Stale entries
+	// that IANA no longer lists will be removed and tracked via git
+	// history. Non-IANA entries (e.g. from registry operators) are
+	// preserved.
+	ianaPrefix := ianaBaseURL + "/"
+	for _, z := range zones {
+		var filtered []Policy
+		var nonIANALangs []string
+		for _, p := range z.Policies {
+			if p.Type == TypeIDNTable && (strings.HasPrefix(p.Source, ianaPrefix) || (p.Source == "" && strings.HasPrefix(p.Value, ianaPrefix))) {
+				continue
+			}
+			filtered = append(filtered, p)
+			if p.Type == TypeIDNTable && p.Key != "" {
+				nonIANALangs = append(nonIANALangs, p.Key)
+			}
+		}
+		if len(filtered) != len(z.Policies) {
+			z.Policies = filtered
+			z.Languages = nonIANALangs
+		}
 	}
 
 	var (
@@ -89,7 +115,7 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 			return
 		}
 
-		z.AddPolicy(TypeIDNTable, lang, u.String(), "") // "Fetched from "+ianaTablesURL)
+		z.AddPolicy(TypeIDNTable, lang, u.String(), ianaTablesURL, "")
 		z.Languages = append(z.Languages, lang)
 
 		atomic.AddUint64(&extractedCount, 1)
@@ -98,9 +124,6 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone) error {
 	if extractedCount == 0 && len(tlds) > 100 {
 		return errors.New("failed to extract any URLs from IANA index page, HTML change?")
 	}
-
-	// TODO: Do we want to _remove_ URLs if zone not found here?
-	//       How do we handle multiple sources of URLs if so?
 
 	return nil
 }
