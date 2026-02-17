@@ -160,6 +160,9 @@ func centralNicTestHandler() http.Handler {
 	mux.HandleFunc("/services/idn-table/ar/", func(w http.ResponseWriter, r *http.Request) {
 		http.ServeFile(w, r, "testdata/centralnic-idn-table-detail-ar.html")
 	})
+	mux.HandleFunc("/services/idn-table/fo/", func(w http.ResponseWriter, r *http.Request) {
+		http.ServeFile(w, r, "testdata/centralnic-idn-table-detail-fo.html")
+	})
 	mux.HandleFunc("/services/idn-table/latn/", func(w http.ResponseWriter, r *http.Request) {
 		http.ServeFile(w, r, "testdata/centralnic-idn-table-detail-latn.html")
 	})
@@ -276,5 +279,117 @@ func TestFetchIDNTablesFromCentralNic_StaleRemoval(t *testing.T) {
 	// Fresh CentralNic data should be present (ar from the fixture)
 	if _, ok := bestPolicies["ar"]; !ok {
 		t.Error("fresh CentralNic policy 'ar' should have been added")
+	}
+}
+
+// TestIDNPipeline_IANAThenCentralNic runs the real pipeline order:
+// FetchIDNTablesFromIANA → FetchIDNTablesFromCentralNic, and verifies
+// that IANA data takes precedence, CentralNic supplements with new
+// languages, and CentralNic-only zones (ccTLDs) get populated.
+func TestIDNPipeline_IANAThenCentralNic(t *testing.T) {
+	// Separate servers so source URL prefix checks work correctly
+	// (in production IANA and CentralNic have different hosts).
+	ianaSrv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		http.ServeFile(w, r, "testdata/idn-tables-full.html")
+	}))
+	defer ianaSrv.Close()
+
+	cnSrv := httptest.NewServer(centralNicTestHandler())
+	defer cnSrv.Close()
+
+	// Override IANA URLs
+	origIANATablesURL := ianaTablesURL
+	origIANABaseURL := ianaBaseURL
+	ianaTablesURL = ianaSrv.URL + "/idn-tables-full.html"
+	ianaBaseURL = ianaSrv.URL
+	defer func() {
+		ianaTablesURL = origIANATablesURL
+		ianaBaseURL = origIANABaseURL
+	}()
+
+	// Override CentralNic URLs
+	origCNIndexURL := centralNicIndexURL
+	origCNBaseURL := centralNicBaseURL
+	centralNicIndexURL = cnSrv.URL + "/idn-tables/"
+	centralNicBaseURL = cnSrv.URL
+	defer func() {
+		centralNicIndexURL = origCNIndexURL
+		centralNicBaseURL = origCNBaseURL
+	}()
+
+	// Zones: "best" is in both IANA and CentralNic Arabic detail page,
+	// "fo" is a ccTLD only in CentralNic (Faroese detail page).
+	zones := map[string]*Zone{
+		"best": {Domain: "best"},
+		"fo":   {Domain: "fo"},
+	}
+
+	// Step 1: IANA
+	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
+		t.Fatalf("FetchIDNTablesFromIANA: %v", err)
+	}
+
+	// Sanity: IANA should have populated "best" with ar (and others)
+	bestIANA := idnPolicies(zones["best"])
+	if _, ok := bestIANA["ar"]; !ok {
+		t.Fatal("after IANA, best should have 'ar' policy")
+	}
+	if len(bestIANA) == 0 {
+		t.Fatal("after IANA, best should have policies")
+	}
+
+	// .fo is a ccTLD not in IANA IDN tables — should have no policies yet
+	foAfterIANA := idnPolicies(zones["fo"])
+	if len(foAfterIANA) != 0 {
+		t.Fatalf("after IANA, fo should have no policies, got %d", len(foAfterIANA))
+	}
+
+	// Step 2: CentralNic
+	if err := FetchIDNTablesFromCentralNic(zones, nil); err != nil {
+		t.Fatalf("FetchIDNTablesFromCentralNic: %v", err)
+	}
+
+	// Verify: best's "ar" should still be IANA-sourced (precedence)
+	for _, p := range zones["best"].Policies {
+		if p.Type == TypeIDNTable && p.Key == "ar" {
+			if p.Source != ianaTablesURL {
+				t.Errorf("best 'ar' source = %q, want IANA source %q", p.Source, ianaTablesURL)
+			}
+			break
+		}
+	}
+
+	// Verify: best should NOT have duplicate "ar" entries
+	arCount := 0
+	for _, p := range zones["best"].Policies {
+		if p.Type == TypeIDNTable && p.Key == "ar" {
+			arCount++
+		}
+	}
+	if arCount != 1 {
+		t.Errorf("best has %d 'ar' policies, want exactly 1", arCount)
+	}
+
+	// Verify: .fo should have CentralNic "fo" policy (Faroese, ccTLD-only)
+	foPolicies := idnPolicies(zones["fo"])
+	if _, ok := foPolicies["fo"]; !ok {
+		t.Error("fo should have CentralNic 'fo' (Faroese) policy")
+	}
+	for _, p := range zones["fo"].Policies {
+		if p.Type == TypeIDNTable && p.Key == "fo" {
+			if p.Source != centralNicIndexURL {
+				t.Errorf("fo 'fo' source = %q, want CentralNic source %q", p.Source, centralNicIndexURL)
+			}
+			break
+		}
+	}
+
+	// Verify: .fo should have "fo" in its languages
+	foLangSet := make(map[string]bool)
+	for _, l := range zones["fo"].Languages {
+		foLangSet[l] = true
+	}
+	if !foLangSet["fo"] {
+		t.Errorf("fo languages = %v, want 'fo' present", zones["fo"].Languages)
 	}
 }
