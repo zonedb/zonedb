@@ -152,7 +152,7 @@ func (z *Zone) RemoveTags(tags ...string) int {
 }
 
 // AddPolicy adds a single policy to Zone z.
-func (z *Zone) AddPolicy(ptype, key, value, comment string) {
+func (z *Zone) AddPolicy(ptype, key, value, source, comment string) {
 	if ptype == "" {
 		return
 	}
@@ -163,6 +163,9 @@ func (z *Zone) AddPolicy(ptype, key, value, comment string) {
 		if p.Type == ptype && p.Key == key {
 			done = true
 			p.Value = value
+			if source != "" {
+				p.Source = source
+			}
 			if comment != "" {
 				p.Comment = comment
 			}
@@ -175,6 +178,7 @@ func (z *Zone) AddPolicy(ptype, key, value, comment string) {
 		Type:    ptype,
 		Key:     key,
 		Value:   value,
+		Source:  source,
 		Comment: comment,
 	})
 }

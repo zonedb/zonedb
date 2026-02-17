@@ -41,7 +41,7 @@ func TestApplyIDNOverrides(t *testing.T) {
 	}
 	IDNOverrides = map[string]string{"cc": "aaa"}
 
-	if err := FetchIDNTablesFromIANA(zones); err != nil {
+	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromIANA: %v", err)
 	}
 
@@ -111,7 +111,7 @@ func TestApplyIDNOverrides_PreservesExisting(t *testing.T) {
 		"cc":  {Domain: "cc", Policies: []Policy{existingPolicy}, Languages: []string{"mul-Latn"}},
 	}
 
-	if err := FetchIDNTablesFromIANA(zones); err != nil {
+	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromIANA: %v", err)
 	}
 

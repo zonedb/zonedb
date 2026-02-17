@@ -43,7 +43,7 @@ func ApplyIDNOverrides(zones map[string]*Zone) {
 		// Add source policies to target, preserving any existing
 		// non-IANA policies the target already has.
 		for _, p := range policies {
-			tz.AddPolicy(p.Type, p.Key, p.Value, p.Comment)
+			tz.AddPolicy(p.Type, p.Key, p.Value, p.Source, p.Comment)
 		}
 		tz.Languages = append(tz.Languages, languages...)
 

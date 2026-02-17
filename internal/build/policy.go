@@ -25,6 +25,7 @@ type Policy struct {
 	Type    string `json:"type"`
 	Key     string `json:"key,omitempty"`
 	Value   string `json:"value,omitempty"`
+	Source  string `json:"source,omitempty"`
 	Comment string `json:"comment,omitempty"`
 }
 
@@ -39,6 +40,8 @@ func sortPolicies(policies []Policy) {
 			return a.Key < b.Key
 		case a.Value != b.Value:
 			return a.Value < b.Value
+		case a.Source != b.Source:
+			return a.Source < b.Source
 		case a.Comment != b.Comment:
 			return a.Comment < b.Comment
 		}
