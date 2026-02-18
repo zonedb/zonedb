@@ -1,6 +1,7 @@
 {
 	"domain": "global",
 	"registryOperator": "Identity Digital Domains Limited",
+	"whoisServer": "whois.nic.global",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
