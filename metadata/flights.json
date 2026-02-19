@@ -1,6 +1,7 @@
 {
 	"domain": "flights",
 	"registryOperator": "Binky Moon, LLC",
+	"whoisServer": "whois.nic.flights",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -2,7 +2,7 @@
 	"domain": "pid",
 	"registryOperator": "Top Level Spectrum, Inc.",
 	"infoURL": "http://www.nic.pid/",
-	"whoisServer": "whois.nic.pid",
+	"whoisServer": "whois.registry.click",
 	"rdapURLs": [
 		"https://rdap.registry.click/rdap/"
 	],

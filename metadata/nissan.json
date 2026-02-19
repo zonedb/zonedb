@@ -2,6 +2,7 @@
 	"domain": "nissan",
 	"registryOperator": "NISSAN MOTOR CO., LTD.",
 	"infoURL": "https://www.nissan-global.com/EN/NIC/NISSAN/",
+	"whoisServer": "whois.nic.gmo",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],
