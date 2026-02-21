@@ -7,12 +7,8 @@
 	"nameServers": [
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
-		"ns1.nic.pw",
 		"ns10.trs-dns.info",
-		"ns10.trs-dns.org",
-		"ns2.nic.pw",
-		"ns5.nic.pw",
-		"ns6.nic.pw"
+		"ns10.trs-dns.org"
 	],
 	"languages": [
 		"ar",
