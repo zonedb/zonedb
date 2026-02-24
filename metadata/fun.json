@@ -7,10 +7,6 @@
 		"https://rdap.centralnic.com/fun/"
 	],
 	"nameServers": [
-		"a.nic.fun",
-		"b.nic.fun",
-		"e.nic.fun",
-		"f.nic.fun",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
 		"ns10.trs-dns.info",

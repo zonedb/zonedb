@@ -7,10 +7,6 @@
 		"https://rdap.centralnic.com/tech/"
 	],
 	"nameServers": [
-		"a.nic.tech",
-		"b.nic.tech",
-		"e.nic.tech",
-		"f.nic.tech",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
 		"ns10.trs-dns.info",

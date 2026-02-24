@@ -7,10 +7,6 @@
 		"https://rdap.centralnic.com/space/"
 	],
 	"nameServers": [
-		"a.nic.space",
-		"b.nic.space",
-		"e.nic.space",
-		"f.nic.space",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
 		"ns10.trs-dns.info",
