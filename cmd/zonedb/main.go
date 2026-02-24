@@ -20,6 +20,7 @@ func main() {
 	flag.BoolVar(&build.Verbose, "v", false, "enable verbose logging")
 	flag.StringVar(&build.BaseDir, "dir", "./", "working directory (location of zones.txt and metadata dir)")
 	flag.IntVar(&build.Concurrency, "c", build.Concurrency, "number of concurrent connections")
+	noCache := flag.Bool("no-cache", false, "disable ETag cache (force fresh fetches)")
 
 	// Filters
 	tlds := flag.Bool("tlds", false, "work on top-level domains only")
@@ -83,10 +84,12 @@ func main() {
 
 	// Load ETag cache for conditional HTTP requests
 	cache := build.NewETagCache(filepath.Join(build.BaseDir, ".cache", "etags.json"))
-	if err := cache.Load(); err != nil {
-		color.Fprintf(os.Stderr, "@{y}Warning: failed to load ETag cache, starting fresh: %s\n", err)
+	if !*noCache {
+		if err := cache.Load(); err != nil {
+			color.Fprintf(os.Stderr, "@{y}Warning: failed to load ETag cache, starting fresh: %s\n", err)
+		}
+		defer cache.Save()
 	}
-	defer cache.Save()
 
 	startTime := time.Now()
 	defer func() {
