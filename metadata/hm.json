@@ -8,6 +8,9 @@
 		"ns2.registry.hm",
 		"ns3.registry.hm"
 	],
+	"languages": [
+		"en-AU"
+	],
 	"tags": [
 		"country",
 		"geo"

@@ -1,6 +1,11 @@
 {
 	"domain": "an",
+	"countryName": "Netherlands Antilles",
 	"infoURL": "https://www.iana.org/domains/root/db/an.html",
+	"languages": [
+		"nl-CW",
+		"pap-CW"
+	],
 	"tags": [
 		"closed",
 		"country",

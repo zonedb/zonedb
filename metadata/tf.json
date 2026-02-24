@@ -11,6 +11,9 @@
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
 	],
+	"languages": [
+		"fr-FR"
+	],
 	"tags": [
 		"country",
 		"geo"

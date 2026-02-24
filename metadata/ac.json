@@ -13,6 +13,9 @@
 		"b0.nic.ac",
 		"c0.nic.ac"
 	],
+	"languages": [
+		"en-SH"
+	],
 	"tags": [
 		"country",
 		"geo"

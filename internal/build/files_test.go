@@ -9,6 +9,21 @@ import (
 	"golang.org/x/text/language"
 )
 
+// readAllZones is a test helper that reads zones.txt and metadata from the
+// repository root.
+func readAllZones(t *testing.T) map[string]*Zone {
+	t.Helper()
+	oldBaseDir := BaseDir
+	BaseDir = "../.."
+	defer func() { BaseDir = oldBaseDir }()
+
+	zones, errs := ReadZones()
+	if len(errs) > 0 {
+		t.Fatalf("ReadZones: %d error(s)", len(errs))
+	}
+	return zones
+}
+
 func TestZonesFileValid(t *testing.T) {
 	// This test validates that zones.txt contains only valid domain names.
 	// It will fail if any invalid zones are present (e.g., " (deprecated)").
@@ -72,14 +87,7 @@ func TestWriteMetadataFileNoHTMLEscape(t *testing.T) {
 // syntactically well-formed). language.Parse returns an error for tags like
 // "xx-YY" where the subtag is well-formed but not in the IANA subtag registry.
 func TestMetadataLanguageTagsValid(t *testing.T) {
-	oldBaseDir := BaseDir
-	BaseDir = "../.."
-	defer func() { BaseDir = oldBaseDir }()
-
-	zones, errs := ReadZones()
-	if len(errs) > 0 {
-		t.Fatalf("ReadZones: %d error(s)", len(errs))
-	}
+	zones := readAllZones(t)
 
 	var checked int
 	for _, z := range zones {
@@ -96,4 +104,87 @@ func TestMetadataLanguageTagsValid(t *testing.T) {
 		}
 	}
 	t.Logf("validated %d language tags across %d zones", checked, len(zones))
+}
+
+// asciiCCTLD returns the ASCII ccTLD domain for a zone, used for exception
+// lookups. For IDN ccTLDs this is domainAscii; for ASCII ccTLDs it's the
+// domain itself.
+func asciiCCTLD(z *Zone) string {
+	if z.DomainAscii != "" {
+		return z.DomainAscii
+	}
+	return z.Domain
+}
+
+// TestMetadataCCTLDsHaveCountryName validates that every country-code TLD has
+// a countryName populated.
+func TestMetadataCCTLDsHaveCountryName(t *testing.T) {
+	zones := readAllZones(t)
+
+	var checked int
+	for _, z := range zones {
+		if !z.IsTLD() || !NewSet(z.Tags...)[TagCountry] {
+			continue
+		}
+		if z.CountryName == "" {
+			t.Errorf("zone %s: country-code TLD missing countryName", z)
+		}
+		checked++
+	}
+	t.Logf("validated countryName for %d country-code TLDs", checked)
+}
+
+// TestMetadataCCTLDsHaveLanguages validates that every country-code TLD has
+// at least one language tag, except territories with no official language
+// listed in CCTLDsWithoutOfficialLanguages.
+func TestMetadataCCTLDsHaveLanguages(t *testing.T) {
+	zones := readAllZones(t)
+
+	var checked, skipped int
+	for _, z := range zones {
+		if !z.IsTLD() || !NewSet(z.Tags...)[TagCountry] {
+			continue
+		}
+		if CCTLDsWithoutOfficialLanguages[asciiCCTLD(z)] {
+			skipped++
+			continue
+		}
+		if len(z.Languages) == 0 {
+			t.Errorf("zone %s: country-code TLD missing languages", z)
+		}
+		checked++
+	}
+	t.Logf("validated languages for %d country-code TLDs (%d skipped — no CLDR data)", checked, skipped)
+}
+
+// TestMetadataIDNccTLDsComplete validates that every IDN country-code TLD has
+// domainPunycode and domainAscii, and that the ASCII counterpart's domainIdn
+// contains the reverse mapping.
+func TestMetadataIDNccTLDsComplete(t *testing.T) {
+	zones := readAllZones(t)
+
+	var checked int
+	for _, z := range zones {
+		if !z.IsTLD() || !z.IsIDN() || !NewSet(z.Tags...)[TagCountry] {
+			continue
+		}
+		if z.DomainPunycode == "" {
+			t.Errorf("zone %s: IDN ccTLD missing domainPunycode", z)
+		}
+		if z.DomainAscii == "" {
+			t.Errorf("zone %s: IDN ccTLD missing domainAscii", z)
+			continue
+		}
+		ascii := zones[z.DomainAscii]
+		if ascii == nil {
+			t.Errorf("zone %s: domainAscii %q not found in zones", z, z.DomainAscii)
+			continue
+		}
+		if !NewSet(ascii.DomainIdn...)[z.Domain] {
+			t.Errorf("zone %s: ASCII counterpart %q domainIdn=%v missing %q",
+				z, z.DomainAscii, ascii.DomainIdn, z.Domain)
+		}
+		checked++
+	}
+	t.Logf("validated %d IDN ccTLD mappings", checked)
 }

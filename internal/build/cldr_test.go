@@ -164,6 +164,43 @@ func TestCountryName(t *testing.T) {
 	}
 }
 
+func TestCountryNameForCCTLD(t *testing.T) {
+	tests := []struct {
+		domain string
+		want   string
+	}{
+		// Standard ccTLDs — direct uppercase works
+		{"ru", "Russia"},
+		{"de", "Germany"},
+		{"uk", "United Kingdom"},
+
+		// Uninhabited territories — preserve territorial identity, not admin country
+		{"ac", "Ascension Island"},
+		{"bv", "Bouvet Island"},
+		{"hm", "Heard & McDonald Islands"},
+		{"tf", "French Southern Territories"},
+
+		// Defunct ccTLDs — explicit overrides (codes not in x/text)
+		{"an", "Netherlands Antilles"},
+		{"su", "USSR"},
+		{"yu", "Yugoslavia"},
+
+		// Defunct but code recognized by x/text
+		{"tp", "Timor-Leste"},
+
+		// Supranational / special
+		{"aq", "Antarctica"},
+		{"eu", "European Union"},
+	}
+
+	for _, tt := range tests {
+		got := CountryNameForCCTLD(tt.domain)
+		if got != tt.want {
+			t.Errorf("CountryNameForCCTLD(%q) = %q, want %q", tt.domain, got, tt.want)
+		}
+	}
+}
+
 func TestApplyCLDRMetadata(t *testing.T) {
 	f, err := os.Open("testdata/territoryInfo.json")
 	if err != nil {
