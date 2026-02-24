@@ -2,6 +2,7 @@
 	"domain": "trv",
 	"registryOperator": "Travelers TLD, LLC",
 	"infoURL": "https://nic.trv/",
+	"whoisServer": "whois.nic.trv",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

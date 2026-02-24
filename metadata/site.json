@@ -7,10 +7,6 @@
 		"https://rdap.centralnic.com/site/"
 	],
 	"nameServers": [
-		"a.nic.site",
-		"b.nic.site",
-		"e.nic.site",
-		"f.nic.site",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
 		"ns10.trs-dns.info",

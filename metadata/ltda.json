@@ -2,6 +2,7 @@
 	"domain": "ltda",
 	"registryOperator": "InterNetX, Corp",
 	"infoURL": "http://nic.ltda/",
+	"whoisServer": "whois.nic.ltda",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

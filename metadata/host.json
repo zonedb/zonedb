@@ -6,10 +6,6 @@
 		"https://rdap.centralnic.com/host/"
 	],
 	"nameServers": [
-		"a.nic.host",
-		"b.nic.host",
-		"e.nic.host",
-		"f.nic.host",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
 		"ns10.trs-dns.info",

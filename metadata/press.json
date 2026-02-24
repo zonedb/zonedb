@@ -6,10 +6,6 @@
 		"https://rdap.centralnic.com/press/"
 	],
 	"nameServers": [
-		"a.nic.press",
-		"b.nic.press",
-		"e.nic.press",
-		"f.nic.press",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
 		"ns10.trs-dns.info",

@@ -6,10 +6,6 @@
 		"https://rdap.centralnic.com/uno/"
 	],
 	"nameServers": [
-		"a.nic.uno",
-		"b.nic.uno",
-		"c.nic.uno",
-		"d.nic.uno",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
 		"ns10.trs-dns.info",
