@@ -224,6 +224,9 @@ func TestApplyCLDRMetadata(t *testing.T) {
 			DomainAscii: "ru",
 			Tags:        []string{"country", "geo"},
 			Languages:   []string{"mul-Cyrl"},
+			Policies: []Policy{
+				{Type: TypeIDNTable, Key: "mul-Cyrl"},
+			},
 		},
 	}
 

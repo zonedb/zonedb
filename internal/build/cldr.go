@@ -5,7 +5,9 @@ import (
 	"fmt"
 	"io"
 	"sort"
+	"strconv"
 	"strings"
+	"unicode"
 
 	"golang.org/x/text/language"
 	"golang.org/x/text/language/display"
@@ -58,6 +60,34 @@ func (info *CLDRTerritoryInfo) OfficialLanguages(territory string) []string {
 	return langs
 }
 
+// DominantOfficialLanguages returns official/de facto official language codes
+// that are spoken by at least the given percentage of the population.
+// This filters out regional or minority official languages that, while
+// recognized, do not represent the dominant language(s) of the territory.
+func (info *CLDRTerritoryInfo) DominantOfficialLanguages(territory string, minPopulationPercent float64) []string {
+	t, ok := info.Supplemental.TerritoryInfo[territory]
+	if !ok {
+		return nil
+	}
+	var langs []string
+	for lang, pop := range t.LanguagePopulation {
+		switch pop.OfficialStatus {
+		case "official", "de_facto_official":
+		default:
+			continue
+		}
+		pct, err := strconv.ParseFloat(pop.PopulationPercent, 64)
+		if err != nil {
+			continue
+		}
+		if pct >= minPopulationPercent {
+			langs = append(langs, lang)
+		}
+	}
+	sort.Strings(langs)
+	return langs
+}
+
 // ccTLDLangTerritory maps ccTLD domains to ISO 3166 territory codes for
 // CLDR language lookup. These overrides point to territories that have
 // language data in CLDR, which may differ from the ccTLD's own territory.
@@ -86,13 +116,68 @@ var ccTLDCountryName = map[string]string{
 	"yu": "Yugoslavia",
 }
 
-// CCTLDsWithoutOfficialLanguages lists ASCII ccTLD domains whose territories
-// have no official languages in CLDR. These zones get countryName but not
+// CCTLDsWithoutOfficialLanguages lists ASCII ccTLD domains that should not
+// receive language data from CLDR. These zones get countryName but not
 // languages. IDN ccTLDs inherit this via their domainAscii mapping.
 var CCTLDsWithoutOfficialLanguages = NewSet(
 	"aq", // Antarctica — no permanent population, no official language
 	"eu", // European Union — supranational; member states have their own ccTLDs
+
+	// Defunct/historical ccTLDs — not actively associated with a living language community
+	"an", // Netherlands Antilles (dissolved 2010)
+	"su", // Soviet Union (dissolved 1991)
+	"tp", // East Timor (replaced by .tl)
+	"yu", // Yugoslavia (dissolved 2003)
 )
+
+// hanScriptVariants maps IDN ccTLD punycode domains to Han script variants
+// (Hans = simplified, Hant = traditional). Unicode cannot distinguish
+// simplified from traditional Chinese characters — both are "Han" script —
+// so variant pairs for the same territory must be specified explicitly.
+// Domains not in this table that use Han script derive their variant from
+// CLDR territory data (e.g., HK → zh_Hant → "Hant").
+var hanScriptVariants = map[string]string{
+	"xn--fiqs8s":  "Hans", // .中国 — simplified Chinese
+	"xn--fiqz9s":  "Hant", // .中國 — traditional Chinese
+	"xn--kprw13d": "Hans", // .台湾 — simplified Chinese
+	"xn--kpry57d": "Hant", // .台灣 — traditional Chinese
+}
+
+// scriptAmbiguousOverrides provides explicit language assignments for IDN
+// ccTLDs where multiple domains share the same Unicode script for the same
+// territory, making automated script-matching ambiguous. When the pre-scan
+// detects such ambiguity, only domains in this table receive CLDR languages.
+var scriptAmbiguousOverrides = map[string][]string{
+	"xn--h2brj9c": {"hi-IN"}, // .भारत — Hindi (multiple Devanagari ccTLDs for IN)
+}
+
+// iso15924ToUnicode maps BCP 47 / ISO 15924 script codes to Go Unicode range
+// tables. Used to match IDN domain scripts against CLDR language scripts.
+var iso15924ToUnicode = map[string]*unicode.RangeTable{
+	"Arab": unicode.Arabic,
+	"Armn": unicode.Armenian,
+	"Beng": unicode.Bengali,
+	"Cyrl": unicode.Cyrillic,
+	"Deva": unicode.Devanagari,
+	"Geor": unicode.Georgian,
+	"Grek": unicode.Greek,
+	"Gujr": unicode.Gujarati,
+	"Guru": unicode.Gurmukhi,
+	"Hang": unicode.Hangul,
+	"Hans": unicode.Han,
+	"Hant": unicode.Han,
+	"Khmr": unicode.Khmer,
+	"Knda": unicode.Kannada,
+	"Laoo": unicode.Lao,
+	"Mlym": unicode.Malayalam,
+	"Mymr": unicode.Myanmar,
+	"Orya": unicode.Oriya,
+	"Sinh": unicode.Sinhala,
+	"Taml": unicode.Tamil,
+	"Telu": unicode.Telugu,
+	"Thai": unicode.Thai,
+	"Tibt": unicode.Tibetan,
+}
 
 // TerritoryFromCCTLD derives the ISO 3166 territory code for CLDR language
 // lookup from an ASCII ccTLD domain. Most ccTLDs are simply the uppercased
@@ -148,6 +233,182 @@ func ComposeBCP47Tags(langs []string, territory string) []string {
 	return tags
 }
 
+// domainUsesHan reports whether any rune in the domain belongs to the Han
+// (CJK Unified Ideographs) Unicode block.
+func domainUsesHan(domain string) bool {
+	for _, r := range domain {
+		if unicode.Is(unicode.Han, r) {
+			return true
+		}
+	}
+	return false
+}
+
+// domainUsesScript reports whether any rune in the domain belongs to the
+// Unicode range table for the given BCP 47 / ISO 15924 script code.
+func domainUsesScript(domain, scriptCode string) bool {
+	rt, ok := iso15924ToUnicode[scriptCode]
+	if !ok {
+		return false
+	}
+	for _, r := range domain {
+		if unicode.Is(rt, r) {
+			return true
+		}
+	}
+	return false
+}
+
+// dominantNonHanScript returns the BCP 47 script code of the first non-ASCII,
+// non-Han rune in the domain, or "" if no recognized script is found.
+// Han domains are handled separately via hanScriptVariants.
+func dominantNonHanScript(domain string) string {
+	for _, r := range domain {
+		if r < 0x80 || unicode.Is(unicode.Han, r) {
+			continue
+		}
+		for code, table := range iso15924ToUnicode {
+			if code == "Hans" || code == "Hant" {
+				continue
+			}
+			if unicode.Is(table, r) {
+				return code
+			}
+		}
+	}
+	return ""
+}
+
+// idnScriptCountsByTerritory counts IDN ccTLDs per territory+script pair.
+// Used to detect ambiguous script-matching (e.g., multiple Devanagari domains
+// for India) where automated language assignment would be incorrect.
+func idnScriptCountsByTerritory(zones map[string]*Zone) map[string]int {
+	counts := map[string]int{}
+	for _, z := range zones {
+		if !z.IsTLD() || !z.IsIDN() {
+			continue
+		}
+		tags := NewSet(z.Tags...)
+		if !tags[TagCountry] || z.DomainAscii == "" {
+			continue
+		}
+		territory := TerritoryFromCCTLD(z.DomainAscii)
+		script := dominantNonHanScript(z.Domain)
+		if script != "" {
+			counts[territory+":"+script]++
+		}
+	}
+	return counts
+}
+
+// hanVariantForIDN determines the Han script variant (Hans or Hant) for an
+// IDN ccTLD. It checks the hanScriptVariants table first (for variant pairs
+// like .中国/.中國), then derives the variant from CLDR territory data
+// (e.g., HK has zh_Hant → "Hant"), defaulting to "Hans".
+func hanVariantForIDN(punycode string, cldr *CLDRTerritoryInfo, territory string) string {
+	if v, ok := hanScriptVariants[punycode]; ok {
+		return v
+	}
+	// Derive from CLDR: look for zh with explicit script in territory
+	t, ok := cldr.Supplemental.TerritoryInfo[territory]
+	if !ok {
+		return "Hans"
+	}
+	for lang := range t.LanguagePopulation {
+		if !strings.HasPrefix(lang, "zh") {
+			continue
+		}
+		tag, err := language.Parse(strings.ReplaceAll(lang, "_", "-"))
+		if err != nil {
+			continue
+		}
+		if s, conf := tag.Script(); conf >= language.High {
+			return s.String()
+		}
+	}
+	return "Hans"
+}
+
+// languageScriptMatchesDomain checks whether a CLDR language code, when
+// composed with a territory, produces a BCP 47 tag whose script matches
+// the Unicode script used in the domain name.
+func languageScriptMatchesDomain(lang, territory, domain string) bool {
+	lang = strings.ReplaceAll(lang, "_", "-")
+	base, err := language.Parse(lang)
+	if err != nil {
+		return false
+	}
+	reg, err := language.ParseRegion(territory)
+	if err != nil {
+		return false
+	}
+	tag, _ := language.Compose(base, reg)
+	script, _ := tag.Script()
+	return domainUsesScript(domain, script.String())
+}
+
+// composeSingleBCP47 composes a single BCP 47 tag from a CLDR language code
+// and a parsed region.
+func composeSingleBCP47(lang string, reg language.Region) string {
+	lang = strings.ReplaceAll(lang, "_", "-")
+	base, err := language.Parse(lang)
+	if err != nil {
+		return ""
+	}
+	tag, _ := language.Compose(base, reg)
+	return tag.String()
+}
+
+// scriptMatchedLanguages returns BCP 47 language tags from CLDR for the
+// given territory whose scripts match the Unicode script used in the domain.
+// It tries official/de_facto_official languages first, falling back to
+// include official_regional if no script matches are found.
+func scriptMatchedLanguages(domain string, cldr *CLDRTerritoryInfo, territory string) []string {
+	t, ok := cldr.Supplemental.TerritoryInfo[territory]
+	if !ok {
+		return nil
+	}
+	reg, err := language.ParseRegion(territory)
+	if err != nil {
+		return nil
+	}
+
+	// First pass: official and de_facto_official
+	var matched []string
+	for lang, pop := range t.LanguagePopulation {
+		switch pop.OfficialStatus {
+		case "official", "de_facto_official":
+		default:
+			continue
+		}
+		if languageScriptMatchesDomain(lang, territory, domain) {
+			if tag := composeSingleBCP47(lang, reg); tag != "" {
+				matched = append(matched, tag)
+			}
+		}
+	}
+	if len(matched) > 0 {
+		sort.Strings(matched)
+		return matched
+	}
+
+	// Second pass: include official_regional
+	for lang, pop := range t.LanguagePopulation {
+		switch pop.OfficialStatus {
+		case "official", "de_facto_official", "official_regional":
+		default:
+			continue
+		}
+		if languageScriptMatchesDomain(lang, territory, domain) {
+			if tag := composeSingleBCP47(lang, reg); tag != "" {
+				matched = append(matched, tag)
+			}
+		}
+	}
+	sort.Strings(matched)
+	return matched
+}
+
 // CountryName returns the English name for an ISO 3166 territory code.
 func CountryName(territory string) string {
 	reg, err := language.ParseRegion(territory)
@@ -183,8 +444,26 @@ func FetchAndApplyCLDRMetadata(zones map[string]*Zone, cache *ETagCache) error {
 // country-code TLDs. It uses the CLDR territory info, zone domainAscii
 // mappings (set by FetchRootDBIndex), and golang.org/x/text for BCP 47
 // composition and country names.
+//
+// Language handling differs by zone type:
+//   - IDN ccTLDs: languages are determined by matching the domain's Unicode
+//     script against CLDR language data for the territory. Han script domains
+//     use hanScriptVariants for simplified/traditional disambiguation. IDN
+//     table policy languages are merged with CLDR-derived languages.
+//   - ASCII ccTLDs with IDN table policies: languages are rebuilt from those
+//     policies only, removing any stale CLDR-derived languages from prior builds.
+//   - ASCII ccTLDs without IDN table policies: CLDR adds a language only when
+//     the territory has exactly one dominant official language (≥50% population)
+//     and the zone does not have idn-disallowed. Multi-language territories
+//     (e.g., HK) are skipped so language search results come from IDN variants.
 func ApplyCLDRMetadata(zones map[string]*Zone, cldr *CLDRTerritoryInfo) {
-	var langsSet, namesSet int
+	// Pre-scan: count IDN ccTLDs per territory+script to detect ambiguity.
+	// When multiple IDN ccTLDs share the same script for the same territory
+	// (e.g., three Devanagari domains for India), automated script-matching
+	// can't determine which domain represents which language.
+	idnScriptCounts := idnScriptCountsByTerritory(zones)
+
+	var langsSet, langsCleaned, namesSet int
 	for _, z := range zones {
 		if !z.IsTLD() {
 			continue
@@ -215,29 +494,153 @@ func ApplyCLDRMetadata(zones map[string]*Zone, cldr *CLDRTerritoryInfo) {
 			z.CountryName = name
 		}
 
-		// Language territory may differ (e.g., .tf → FR for French language data)
-		langTerritory := TerritoryFromCCTLD(asciiDomain)
+		// --- Language handling for IDN ccTLDs ---
+		if z.IsIDN() {
+			// Collect IDN table policy languages
+			var idnTableLangs []string
+			for _, p := range z.Policies {
+				if p.Type == TypeIDNTable && p.Key != "" {
+					idnTableLangs = append(idnTableLangs, p.Key)
+				}
+			}
 
-		// Official languages from CLDR
-		officialLangs := cldr.OfficialLanguages(langTerritory)
-		if len(officialLangs) == 0 {
+			// Skip excluded zones (keep IDN table languages only)
+			if CCTLDsWithoutOfficialLanguages[asciiDomain] {
+				if len(idnTableLangs) > 0 {
+					sort.Strings(idnTableLangs)
+					z.Languages = idnTableLangs
+				} else if len(z.Languages) > 0 {
+					z.Languages = nil
+					langsCleaned++
+				}
+				continue
+			}
+
+			langTerritory := TerritoryFromCCTLD(asciiDomain)
+
+			// Script-based language matching
+			var cldrLangs []string
+			if domainUsesHan(z.Domain) {
+				// Han script: compose zh-{variant}-{region}
+				variant := hanVariantForIDN(z.DomainPunycode, cldr, langTerritory)
+				reg, err := language.ParseRegion(langTerritory)
+				if err == nil {
+					script, err2 := language.ParseScript(variant)
+					if err2 == nil {
+						zh := language.MustParse("zh")
+						tag, _ := language.Compose(zh, script, reg)
+						cldrLangs = []string{tag.String()}
+					}
+				}
+			} else {
+				// Non-Han: check for script ambiguity before matching
+				script := dominantNonHanScript(z.Domain)
+				key := langTerritory + ":" + script
+				if script != "" && idnScriptCounts[key] > 1 {
+					// Multiple domains share this script for this territory.
+					// Use explicit override if available; otherwise skip.
+					if override, ok := scriptAmbiguousOverrides[z.DomainPunycode]; ok {
+						cldrLangs = override
+					}
+				} else {
+					// Unambiguous: match CLDR languages by detected domain script
+					cldrLangs = scriptMatchedLanguages(z.Domain, cldr, langTerritory)
+				}
+			}
+
+			// Merge IDN table languages + CLDR-derived languages
+			merged := make(map[string]bool)
+			for _, l := range idnTableLangs {
+				merged[l] = true
+			}
+			for _, l := range cldrLangs {
+				merged[l] = true
+			}
+
+			if len(merged) > 0 {
+				var langs []string
+				for l := range merged {
+					langs = append(langs, l)
+				}
+				sort.Strings(langs)
+				z.Languages = langs
+				langsSet++
+			} else if len(z.Languages) > 0 {
+				z.Languages = nil
+				langsCleaned++
+			}
+			continue
+		}
+
+		// --- Language handling for ASCII ccTLDs ---
+
+		// Rebuild languages from IDN table policies, removing any stale
+		// CLDR-derived languages from previous builds.
+		var idnTableLangs []string
+		for _, p := range z.Policies {
+			if p.Type == TypeIDNTable && p.Key != "" {
+				idnTableLangs = append(idnTableLangs, p.Key)
+			}
+		}
+		sort.Strings(idnTableLangs)
+
+		if len(idnTableLangs) > 0 {
+			// IDN table policies are the authoritative source of languages.
+			if len(z.Languages) != len(idnTableLangs) {
+				langsCleaned++
+			}
+			z.Languages = idnTableLangs
+			continue
+		}
+
+		// No IDN table policies. Use CLDR as a fallback only when the
+		// territory has a single dominant official language.
+		// Skip zones with idn-disallowed (e.g., .us) or those in the
+		// explicit exclusion set.
+		if hasIDNDisallowedPolicy(z) || CCTLDsWithoutOfficialLanguages[asciiDomain] {
+			if len(z.Languages) > 0 {
+				z.Languages = nil
+				langsCleaned++
+			}
+			continue
+		}
+
+		langTerritory := TerritoryFromCCTLD(asciiDomain)
+		officialLangs := cldr.DominantOfficialLanguages(langTerritory, 50)
+
+		// Only add when exactly one dominant language exists.
+		// Multi-language territories (e.g., HK) are skipped so that
+		// language search results come from IDN variants instead.
+		if len(officialLangs) != 1 {
+			if len(z.Languages) > 0 {
+				z.Languages = nil
+				langsCleaned++
+			}
 			continue
 		}
 
 		bcp47Tags := ComposeBCP47Tags(officialLangs, langTerritory)
 		if len(bcp47Tags) == 0 {
+			if len(z.Languages) > 0 {
+				z.Languages = nil
+				langsCleaned++
+			}
 			continue
 		}
 
-		// Merge CLDR-derived languages into existing languages (additive)
-		existing := NewSet(z.Languages...)
-		before := len(existing)
-		existing.Add(bcp47Tags...)
-		if len(existing) > before {
-			langsSet++
-		}
-		z.Languages = existing.Values()
+		z.Languages = bcp47Tags
+		langsSet++
 	}
 
-	Trace("@{.}CLDR: set %d country names, added languages to %d zone(s)\n", namesSet, langsSet)
+	Trace("@{.}CLDR: set %d country names, added languages to %d zone(s), cleaned %d zone(s)\n", namesSet, langsSet, langsCleaned)
+}
+
+// hasIDNDisallowedPolicy reports whether the zone has an idn-disallowed policy.
+func hasIDNDisallowedPolicy(z *Zone) bool {
+	for _, p := range z.Policies {
+		if p.Type == TypeIDNDisallowed {
+			return true
+		}
+	}
+	return false
 }

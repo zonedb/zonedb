@@ -245,7 +245,12 @@ func FetchIDNTablesFromCentralNic(zones map[string]*Zone, cache *ETagCache) erro
 			}
 
 			z.AddPolicy(TypeIDNTable, r.lang, r.entry.URL, centralNicIndexURL, "")
-			z.Languages = append(z.Languages, r.lang)
+			// Only add languages for TLDs. SLDs (e.g., ru.com) get policies
+			// to document IDN support, but not language tags which would
+			// incorrectly surface them in language-based search results.
+			if z.IsTLD() {
+				z.Languages = append(z.Languages, r.lang)
+			}
 			atomic.AddUint64(&added, 1)
 		}
 	}
