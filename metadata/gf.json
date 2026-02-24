@@ -1,11 +1,16 @@
 {
 	"domain": "gf",
+	"registryOperator": "CANAL+ TELECOM",
+	"countryName": "French Guiana",
 	"infoURL": "https://www.dom-enic.com/",
 	"whoisServer": "whois.mediaserv.net",
 	"nameServers": [
 		"ns1-fr.mediaserv.net",
 		"ns1-gp.mediaserv.net",
 		"ns1-mq.mediaserv.net"
+	],
+	"languages": [
+		"fr-GF"
 	],
 	"tags": [
 		"country",

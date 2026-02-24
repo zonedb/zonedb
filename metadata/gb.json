@@ -1,9 +1,14 @@
 {
 	"domain": "gb",
+	"registryOperator": "Reserved Domain - IANA",
+	"countryName": "United Kingdom",
 	"nameServers": [
 		"ns.uu.net",
 		"ns0.ja.net",
 		"ns4.ja.net"
+	],
+	"languages": [
+		"en-GB"
 	],
 	"tags": [
 		"closed",

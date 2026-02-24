@@ -1,5 +1,9 @@
 {
 	"domain": "مليسيا",
+	"domainPunycode": "xn--mgbx4cd0ab",
+	"domainAscii": "my",
+	"registryOperator": "MYNIC Berhad",
+	"countryName": "Malaysia",
 	"whoisServer": "whois.mynic.my",
 	"nameServers": [
 		"a.mynic.centralnic-dns.com",
@@ -8,7 +12,12 @@
 		"c.mynic.centralnic-dns.com",
 		"d.mynic.centralnic-dns.com"
 	],
+	"languages": [
+		"ms-MY"
+	],
 	"tags": [
-		"generic"
+		"country",
+		"generic",
+		"geo"
 	]
 }

@@ -1,5 +1,7 @@
 {
 	"domain": "uy",
+	"registryOperator": "SeCIU - Universidad de la Republica",
+	"countryName": "Uruguay",
 	"nameServers": [
 		"a.lactld.org",
 		"a.nic.uy",
@@ -8,6 +10,9 @@
 		"ns.dns.br",
 		"ns1.anteldata.com.uy",
 		"ns2.anteldata.com.uy"
+	],
+	"languages": [
+		"es-UY"
 	],
 	"tags": [
 		"country",

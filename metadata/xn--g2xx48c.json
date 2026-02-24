@@ -1,5 +1,6 @@
 {
 	"domain": "购物",
+	"domainPunycode": "xn--g2xx48c",
 	"registryOperator": "Nawang Heli(Xiamen) Network Service Co., LTD.",
 	"infoURL": "http://nic.购物/",
 	"whoisServer": "whois.nic.购物",
@@ -16,6 +17,9 @@
 	],
 	"languages": [
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

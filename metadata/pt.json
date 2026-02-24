@@ -1,5 +1,7 @@
 {
 	"domain": "pt",
+	"registryOperator": "Associação DNS.PT",
+	"countryName": "Portugal",
 	"nameServers": [
 		"a.dns.pt",
 		"b.dns.pt",
@@ -10,6 +12,9 @@
 		"h.dns.pt",
 		"ns.dns.br",
 		"ns2.nic.fr"
+	],
+	"languages": [
+		"pt-PT"
 	],
 	"tags": [
 		"country",

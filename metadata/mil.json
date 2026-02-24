@@ -1,5 +1,6 @@
 {
 	"domain": "mil",
+	"registryOperator": "DoD Network Information Center",
 	"nameServers": [
 		"con1.nipr.mil",
 		"con2.nipr.mil",

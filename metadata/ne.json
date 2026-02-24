@@ -1,10 +1,15 @@
 {
 	"domain": "ne",
+	"registryOperator": "SONITEL",
+	"countryName": "Niger",
 	"nameServers": [
 		"bow.rain.fr",
 		"ne.cctld.authdns.ripe.net",
 		"ns-ne.afrinic.net",
 		"ns.intnet.ne"
+	],
+	"languages": [
+		"fr-NE"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,7 @@
 {
 	"domain": "gp",
+	"registryOperator": "Networking Technologies Group",
+	"countryName": "Guadeloupe",
 	"infoURL": "https://www.nic.gp/",
 	"nameServers": [
 		"a.lactld.org",
@@ -7,6 +9,9 @@
 		"ns-gp.nic.fr",
 		"ns1.nic.gp",
 		"ns2.nic.gp"
+	],
+	"languages": [
+		"fr-GP"
 	],
 	"tags": [
 		"country",

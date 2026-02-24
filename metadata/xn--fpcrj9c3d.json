@@ -1,5 +1,9 @@
 {
 	"domain": "భారత్",
+	"domainPunycode": "xn--fpcrj9c3d",
+	"domainAscii": "in",
+	"registryOperator": "National Internet Exchange of India",
+	"countryName": "India",
 	"infoURL": "https://www.registry.in/",
 	"whoisServer": "whois.nixiregistry.in",
 	"nameServers": [
@@ -13,6 +17,8 @@
 		"IN-TG"
 	],
 	"languages": [
+		"en-IN",
+		"hi-IN",
 		"te-IN"
 	],
 	"tags": [

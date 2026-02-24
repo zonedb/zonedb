@@ -1,5 +1,7 @@
 {
 	"domain": "je",
+	"registryOperator": "Island Networks (Jersey) Ltd.",
+	"countryName": "Jersey",
 	"whoisServer": "whois.je",
 	"nameServers": [
 		"c.ci-servers.org",
@@ -8,6 +10,9 @@
 		"dns3.nominetdns.uk",
 		"dns4.nominetdns.uk",
 		"e.ci-servers.net"
+	],
+	"languages": [
+		"en-JE"
 	],
 	"tags": [
 		"country",

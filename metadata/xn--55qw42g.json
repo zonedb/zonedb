@@ -1,5 +1,6 @@
 {
 	"domain": "公益",
+	"domainPunycode": "xn--55qw42g",
 	"registryOperator": "China Organizational Name Administration Center",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--55qw42g",
 	"whoisServer": "whois.conac.cn",
@@ -15,6 +16,9 @@
 	],
 	"languages": [
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

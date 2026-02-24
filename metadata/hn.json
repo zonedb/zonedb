@@ -1,5 +1,7 @@
 {
 	"domain": "hn",
+	"registryOperator": "Red de Desarrollo Sostenible Honduras",
+	"countryName": "Honduras",
 	"whoisServer": "whois.nic.hn",
 	"rdapURLs": [
 		"https://rdap.nic.hn/"
@@ -9,6 +11,9 @@
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz",
 		"pch-anycast.rds.org.hn"
+	],
+	"languages": [
+		"es-HN"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,6 @@
 {
 	"domain": "世界",
+	"domainPunycode": "xn--rhqv96g",
 	"registryOperator": "Stable Tone Limited",
 	"whoisServer": "whois.nic.世界",
 	"rdapURLs": [
@@ -32,6 +33,9 @@
 		"sv",
 		"zh-Hans",
 		"zh-Hant"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

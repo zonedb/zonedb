@@ -1,5 +1,7 @@
 {
 	"domain": "mv",
+	"registryOperator": "Dhivehi Raajjeyge Gulhun PLC",
+	"countryName": "Maldives",
 	"nameServers": [
 		"baraveli.ns.mv",
 		"boli.ns.mv",
@@ -8,6 +10,9 @@
 		"ns.mv",
 		"ns2.dhivehinet.net.mv",
 		"sangu.ns.mv"
+	],
+	"languages": [
+		"dv-MV"
 	],
 	"tags": [
 		"country",

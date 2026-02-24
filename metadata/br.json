@@ -1,5 +1,7 @@
 {
 	"domain": "br",
+	"registryOperator": "Comite Gestor da Internet no Brasil",
+	"countryName": "Brazil",
 	"infoURL": "https://nic.br/",
 	"whoisServer": "whois.nic.br",
 	"rdapURLs": [

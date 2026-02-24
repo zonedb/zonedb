@@ -1,5 +1,7 @@
 {
 	"domain": "sx",
+	"registryOperator": "SX Registry SA B.V.",
+	"countryName": "Sint Maarten",
 	"infoURL": "https://en.wikipedia.org/wiki/.sx",
 	"whoisServer": "whois.sx",
 	"nameServers": [
@@ -7,6 +9,10 @@
 		"ns2.ns.sx",
 		"ns3.ns.sx",
 		"ns4.ns.sx"
+	],
+	"languages": [
+		"en-SX",
+		"nl-SX"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,7 @@
 {
 	"domain": "sj",
+	"registryOperator": "Norid A/S",
+	"countryName": "Svalbard & Jan Mayen",
 	"nameServers": [
 		"nac.no",
 		"nn.uninett.no",
@@ -7,6 +9,9 @@
 		"x.nic.no",
 		"y.nic.no",
 		"z.nic.no"
+	],
+	"languages": [
+		"nb-SJ"
 	],
 	"tags": [
 		"closed",

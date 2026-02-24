@@ -1,5 +1,10 @@
 {
 	"domain": "ma",
+	"domainIdn": [
+		"المغرب"
+	],
+	"registryOperator": "Agence Nationale de Réglementation des Télécommunications (ANRT)",
+	"countryName": "Morocco",
 	"whoisServer": "whois.registre.ma",
 	"nameServers": [
 		"a.tld.ma",
@@ -10,6 +15,11 @@
 		"e.tld.ma",
 		"f.tld.ma",
 		"ns-ma.nic.fr"
+	],
+	"languages": [
+		"ar-MA",
+		"fr-MA",
+		"tzm-MA"
 	],
 	"tags": [
 		"country",

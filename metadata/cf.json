@@ -1,10 +1,16 @@
 {
 	"domain": "cf",
+	"registryOperator": "Societe Centrafricaine de Telecommunications (SOCATEL)",
+	"countryName": "Central African Republic",
 	"nameServers": [
 		"a.ns.cf",
 		"b.ns.cf",
 		"c.ns.cf",
 		"d.ns.cf"
+	],
+	"languages": [
+		"fr-CF",
+		"sg-CF"
 	],
 	"tags": [
 		"country",

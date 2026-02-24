@@ -1,5 +1,9 @@
 {
 	"domain": "ਭਾਰਤ",
+	"domainPunycode": "xn--s9brj9c",
+	"domainAscii": "in",
+	"registryOperator": "National Internet Exchange of India",
+	"countryName": "India",
 	"infoURL": "https://www.registry.in/",
 	"whoisServer": "whois.nixiregistry.in",
 	"nameServers": [
@@ -12,6 +16,8 @@
 		"IN-PB"
 	],
 	"languages": [
+		"en-IN",
+		"hi-IN",
 		"pa-Guru-IN"
 	],
 	"tags": [

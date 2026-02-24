@@ -1,10 +1,15 @@
 {
 	"domain": "gh",
+	"registryOperator": "Network Computer Systems Limited",
+	"countryName": "Ghana",
 	"whoisServer": "whois.nic.gh",
 	"nameServers": [
 		"ns.dns.br",
 		"ns1.nic.gh",
 		"ns2.nic.gh"
+	],
+	"languages": [
+		"en-GH"
 	],
 	"tags": [
 		"closed",

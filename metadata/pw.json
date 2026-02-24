@@ -1,5 +1,7 @@
 {
 	"domain": "pw",
+	"registryOperator": "Micronesia Investment and Development Corporation",
+	"countryName": "Palau",
 	"whoisServer": "whois.nic.pw",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/pw/"
@@ -12,6 +14,7 @@
 	],
 	"languages": [
 		"ar",
+		"en-PW",
 		"he",
 		"ja",
 		"ko",
@@ -19,6 +22,7 @@
 		"mul-Cyrl",
 		"mul-Grek",
 		"mul-Latn",
+		"pau-PW",
 		"th",
 		"zh"
 	],

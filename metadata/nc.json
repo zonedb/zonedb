@@ -1,11 +1,16 @@
 {
 	"domain": "nc",
+	"registryOperator": "Office des Postes et Telecommunications",
+	"countryName": "New Caledonia",
 	"whoisServer": "whois.nc",
 	"nameServers": [
 		"any-ns1.nc",
 		"nc.cctld.authdns.ripe.net",
 		"ns1.nc",
 		"ns2.nc"
+	],
+	"languages": [
+		"fr-NC"
 	],
 	"tags": [
 		"country",

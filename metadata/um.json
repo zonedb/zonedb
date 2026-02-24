@@ -1,5 +1,9 @@
 {
 	"domain": "um",
+	"countryName": "U.S. Outlying Islands",
+	"languages": [
+		"en-UM"
+	],
 	"tags": [
 		"country",
 		"geo",

@@ -1,6 +1,6 @@
 {
 	"domain": "ovh",
-	"registryOperator": "MédiaBC",
+	"registryOperator": "OVH SAS",
 	"whoisServer": "whois.nic.ovh",
 	"rdapURLs": [
 		"https://rdap.nic.ovh/"

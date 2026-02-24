@@ -1,5 +1,7 @@
 {
 	"domain": "ye",
+	"registryOperator": "TeleYemen",
+	"countryName": "Yemen",
 	"whoisServer": "whois.y.net.ye",
 	"rdapURLs": [
 		"https://rdap.y.net.ye/"
@@ -10,6 +12,9 @@
 		"tld1.ye",
 		"tld2.ye",
 		"tld3.ye"
+	],
+	"languages": [
+		"ar-YE"
 	],
 	"tags": [
 		"closed",

@@ -1,5 +1,7 @@
 {
 	"domain": "li",
+	"registryOperator": "SWITCH The Swiss Education & Research Network",
+	"countryName": "Liechtenstein",
 	"whoisServer": "whois.nic.ch",
 	"rdapURLs": [
 		"https://rdap.nic.li/"
@@ -10,6 +12,10 @@
 		"d.nic.li",
 		"e.nic.li",
 		"f.nic.li"
+	],
+	"languages": [
+		"de-LI",
+		"gsw-LI"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,7 @@
 {
 	"domain": "cg",
+	"registryOperator": "Interpoint Switzerland",
+	"countryName": "Congo - Brazzaville",
 	"whoisURL": "http://www.nic.cg/cgi-bin/whois.pl",
 	"nameServers": [
 		"dns-ca.dnsafrica.net",
@@ -7,6 +9,9 @@
 		"dns-sg.dnsafrica.net",
 		"dns-za.dnsafrica.net",
 		"sunic.sunet.se"
+	],
+	"languages": [
+		"fr-CG"
 	],
 	"tags": [
 		"country",

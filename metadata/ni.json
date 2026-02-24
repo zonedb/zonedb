@@ -1,5 +1,7 @@
 {
 	"domain": "ni",
+	"registryOperator": "Universidad Nacional del Ingernieria. Division de Tecnologias de la Informacion.",
+	"countryName": "Nicaragua",
 	"infoURL": "https://www.nic.ni/",
 	"whoisURL": "http://www.nic.ni/",
 	"nameServers": [
@@ -9,6 +11,9 @@
 		"ns.uu.net",
 		"ns2.ni",
 		"ns3.ni"
+	],
+	"languages": [
+		"es-NI"
 	],
 	"tags": [
 		"closed",

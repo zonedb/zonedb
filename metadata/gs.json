@@ -1,5 +1,7 @@
 {
 	"domain": "gs",
+	"registryOperator": "Government of South Georgia and South Sandwich Islands (GSGSSI)",
+	"countryName": "South Georgia & South Sandwich Islands",
 	"whoisServer": "whois.nic.gs",
 	"rdapURLs": [
 		"https://rdap.nic.gs/"
@@ -8,6 +10,9 @@
 		"ns.anycast.nic.gs",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
+	],
+	"languages": [
+		"en-GS"
 	],
 	"tags": [
 		"country",

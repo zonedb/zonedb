@@ -1,5 +1,7 @@
 {
 	"domain": "mu",
+	"registryOperator": "Internet Direct Ltd",
+	"countryName": "Mauritius",
 	"whoisServer": "whois.tld.mu",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
@@ -11,6 +13,10 @@
 		"v0n3.tld.mu",
 		"v2n0.tld.mu",
 		"v2n1.tld.mu"
+	],
+	"languages": [
+		"en-MU",
+		"fr-MU"
 	],
 	"tags": [
 		"country",

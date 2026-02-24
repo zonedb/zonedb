@@ -1,9 +1,15 @@
 {
 	"domain": "pf",
+	"registryOperator": "Gouvernement de la Polynésie française",
+	"countryName": "French Polynesia",
 	"nameServers": [
 		"ns03.pf",
 		"ns1.mana.pf",
 		"ns2.mana.pf"
+	],
+	"languages": [
+		"fr-PF",
+		"ty-PF"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,7 @@
 {
 	"domain": "ro",
+	"registryOperator": "National Institute for R&D in Informatics",
+	"countryName": "Romania",
 	"whoisServer": "whois.rotld.ro",
 	"nameServers": [
 		"dns-at.rotld.ro",
@@ -8,6 +10,9 @@
 		"primary.rotld.ro",
 		"sec-dns-a.rotld.ro",
 		"sec-dns-b.rotld.ro"
+	],
+	"languages": [
+		"ro-RO"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,7 @@
 {
 	"domain": "nf",
+	"registryOperator": "Norfolk Island Data Services",
+	"countryName": "Norfolk Island",
 	"whoisServer": "whois.nic.nf",
 	"rdapURLs": [
 		"https://rdap.nic.nf/"
@@ -8,6 +10,9 @@
 		"ns.anycast.nic.nf",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
+	],
+	"languages": [
+		"en-NF"
 	],
 	"tags": [
 		"country",

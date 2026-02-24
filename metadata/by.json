@@ -1,5 +1,10 @@
 {
 	"domain": "by",
+	"domainIdn": [
+		"бел"
+	],
+	"registryOperator": "Belarusian Cloud Technologies LLC",
+	"countryName": "Belarus",
 	"infoURL": "https://domain.by/",
 	"whoisServer": "whois.cctld.by",
 	"nameServers": [
@@ -8,6 +13,10 @@
 		"dns3.tld.becloudby.tech",
 		"dns4.tld.becloudby.tech",
 		"dns7.tld.becloudby.com"
+	],
+	"languages": [
+		"be-BY",
+		"ru-BY"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,9 @@
 {
 	"domain": "ලංකා",
+	"domainPunycode": "xn--fzc2c9e2c",
+	"domainAscii": "lk",
+	"registryOperator": "LK Domain Registry",
+	"countryName": "Sri Lanka",
 	"nameServers": [
 		"lk.communitydns.net",
 		"nic.lk-anycast.pch.net",
@@ -9,6 +13,10 @@
 		"ns-t.nic.lk",
 		"ns1.ac.lk",
 		"ns3.ac.lk"
+	],
+	"languages": [
+		"si-LK",
+		"ta-LK"
 	],
 	"tags": [
 		"country",

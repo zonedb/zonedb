@@ -1,5 +1,7 @@
 {
 	"domain": "tr",
+	"registryOperator": "Bilgi Teknolojileri ve İletişim Kurumu (BTK)",
+	"countryName": "Turkey",
 	"infoURL": "https://www.iana.org/domains/root/db/tr.html",
 	"whoisServer": "whois.trabis.gov.tr",
 	"nameServers": [
@@ -10,6 +12,9 @@
 		"ns72.ns.tr",
 		"ns73.ns.tr",
 		"ns74.ns.tr"
+	],
+	"languages": [
+		"tr-TR"
 	],
 	"tags": [
 		"closed",

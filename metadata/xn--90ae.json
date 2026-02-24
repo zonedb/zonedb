@@ -1,5 +1,9 @@
 {
 	"domain": "бг",
+	"domainPunycode": "xn--90ae",
+	"domainAscii": "bg",
+	"registryOperator": "Imena.BG AD",
+	"countryName": "Bulgaria",
 	"whoisServer": "whois.imena.bg",
 	"nameServers": [
 		"a.nic.bg",

@@ -1,5 +1,7 @@
 {
 	"domain": "vu",
+	"registryOperator": "Telecommunications Radiocommunications and Broadcasting Regulator (TRBR)",
+	"countryName": "Vanuatu",
 	"whoisServer": "whois.dnrs.vu",
 	"nameServers": [
 		"a.tldns.vu",
@@ -8,6 +10,11 @@
 		"x.tldns.vu",
 		"y.tldns.vu",
 		"z.tldns.vu"
+	],
+	"languages": [
+		"bi-VU",
+		"en-VU",
+		"fr-VU"
 	],
 	"tags": [
 		"country",

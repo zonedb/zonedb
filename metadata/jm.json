@@ -1,10 +1,15 @@
 {
 	"domain": "jm",
+	"registryOperator": "University of West Indies",
+	"countryName": "Jamaica",
 	"nameServers": [
 		"jm.cctld.authdns.ripe.net",
 		"ns.jm",
 		"ns3-jm.fsl.org.jm",
 		"phloem.uoregon.edu"
+	],
+	"languages": [
+		"en-JM"
 	],
 	"tags": [
 		"closed",

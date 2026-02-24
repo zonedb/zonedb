@@ -1,10 +1,15 @@
 {
 	"domain": "za",
+	"registryOperator": "ZA Domain Name Authority",
+	"countryName": "South Africa",
 	"whoisServer": "whois.nic.za",
 	"nameServers": [
 		"nsza.is.co.za",
 		"za-ns.anycast.pch.net",
 		"za1.dnsnode.net"
+	],
+	"languages": [
+		"en-ZA"
 	],
 	"tags": [
 		"closed",

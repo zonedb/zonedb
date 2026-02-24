@@ -1,5 +1,10 @@
 {
 	"domain": "hk",
+	"domainIdn": [
+		"香港"
+	],
+	"registryOperator": "Hong Kong Internet Registration Corporation Ltd.",
+	"countryName": "Hong Kong SAR China",
 	"whoisServer": "whois.hkdnr.net.hk",
 	"nameServers": [
 		"c.hkirc.net.hk",
@@ -11,6 +16,10 @@
 		"x.hkirc.net.hk",
 		"y.hkirc.net.hk",
 		"z.hkirc.net.hk"
+	],
+	"languages": [
+		"en-HK",
+		"zh-Hant-HK"
 	],
 	"tags": [
 		"country",

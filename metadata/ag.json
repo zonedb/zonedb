@@ -1,5 +1,7 @@
 {
 	"domain": "ag",
+	"registryOperator": "UHSA School of Medicine",
+	"countryName": "Antigua & Barbuda",
 	"infoURL": "https://www.nic.ag/",
 	"whoisServer": "whois.nic.ag",
 	"rdapURLs": [
@@ -12,6 +14,9 @@
 		"b2.cctld.afilias-nst.org",
 		"c0.cctld.afilias-nst.info",
 		"d0.cctld.afilias-nst.org"
+	],
+	"languages": [
+		"en-AG"
 	],
 	"tags": [
 		"country",

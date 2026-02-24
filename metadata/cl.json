@@ -1,5 +1,7 @@
 {
 	"domain": "cl",
+	"registryOperator": "NIC Chile (University of Chile)",
+	"countryName": "Chile",
 	"whoisServer": "whois.nic.cl",
 	"nameServers": [
 		"a.nic.cl",
@@ -11,6 +13,7 @@
 		"cl2-tld.d-zone.ca"
 	],
 	"languages": [
+		"es-CL",
 		"mul-Latn"
 	],
 	"tags": [

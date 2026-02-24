@@ -1,5 +1,7 @@
 {
 	"domain": "lc",
+	"registryOperator": "University of Puerto Rico",
+	"countryName": "St. Lucia",
 	"infoURL": "https://www.nic.lc/",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
@@ -11,6 +13,9 @@
 		"b2.cctld.afilias-nst.org",
 		"c0.cctld.afilias-nst.info",
 		"d0.cctld.afilias-nst.org"
+	],
+	"languages": [
+		"en-LC"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,11 @@
 {
 	"domain": "sg",
+	"domainIdn": [
+		"சிங்கப்பூர்",
+		"新加坡"
+	],
+	"registryOperator": "Singapore Network Information Centre (SGNIC) Pte Ltd",
+	"countryName": "Singapore",
 	"whoisServer": "whois.sgnic.sg",
 	"rdapURLs": [
 		"https://rdap.sgnic.sg/rdap/"
@@ -10,6 +16,12 @@
 		"dsany4.sgnic.sg",
 		"ns4.apnic.net",
 		"pch.sgzones.sg"
+	],
+	"languages": [
+		"en-SG",
+		"ms-SG",
+		"ta-SG",
+		"zh-SG"
 	],
 	"tags": [
 		"country",

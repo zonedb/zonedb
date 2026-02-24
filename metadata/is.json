@@ -1,5 +1,7 @@
 {
 	"domain": "is",
+	"registryOperator": "ISNIC - Internet á Íslandi hf.",
+	"countryName": "Iceland",
 	"whoisServer": "whois.isnic.is",
 	"rdapURLs": [
 		"https://rdap.isnic.is/rdap/"
@@ -10,6 +12,9 @@
 		"d.nic.is",
 		"e.nic.is",
 		"f.nic.is"
+	],
+	"languages": [
+		"is-IS"
 	],
 	"tags": [
 		"country",

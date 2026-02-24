@@ -1,5 +1,7 @@
 {
 	"domain": "at",
+	"registryOperator": "nic.at GmbH",
+	"countryName": "Austria",
 	"infoURL": "https://www.nic.at/",
 	"whoisServer": "whois.nic.at",
 	"nameServers": [
@@ -12,6 +14,7 @@
 		"u.ns.at"
 	],
 	"languages": [
+		"de-AT",
 		"mul-Latn"
 	],
 	"tags": [

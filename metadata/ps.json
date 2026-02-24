@@ -1,5 +1,10 @@
 {
 	"domain": "ps",
+	"domainIdn": [
+		"فلسطين"
+	],
+	"registryOperator": "Ministry of Telecommunications & Information Technology, Government Computer Center",
+	"countryName": "Palestinian Territories",
 	"nameServers": [
 		"bilal.pnina.ps",
 		"fork.sth.dnsnode.net",
@@ -7,6 +12,9 @@
 		"ps-ns.anycast.pch.net",
 		"ps.cctld.authdns.ripe.net",
 		"rip.psg.com"
+	],
+	"languages": [
+		"ar-PS"
 	],
 	"tags": [
 		"country",

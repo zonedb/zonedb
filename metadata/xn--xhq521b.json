@@ -1,5 +1,6 @@
 {
 	"domain": "广东",
+	"domainPunycode": "xn--xhq521b",
 	"registryOperator": "Guangzhou YU Wei Information Technology Co., Ltd.",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--xhq521b",
 	"whoisServer": "whois.ngtld.cn",
@@ -15,6 +16,9 @@
 	],
 	"languages": [
 		"zh-Hans"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

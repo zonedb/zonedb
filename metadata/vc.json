@@ -1,5 +1,7 @@
 {
 	"domain": "vc",
+	"registryOperator": "Ministry of Telecommunications, Science, Technology and Industry",
+	"countryName": "St. Vincent & Grenadines",
 	"whoisServer": "whois.identitydigital.services",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
@@ -11,6 +13,9 @@
 		"b2.cctld.afilias-nst.org",
 		"c0.cctld.afilias-nst.info",
 		"d0.cctld.afilias-nst.org"
+	],
+	"languages": [
+		"en-VC"
 	],
 	"tags": [
 		"country",

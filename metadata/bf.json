@@ -1,11 +1,16 @@
 {
 	"domain": "bf",
+	"registryOperator": "Autorité de Régulation des Communications Electroniques et des Postes (ARCEP)",
+	"countryName": "Burkina Faso",
 	"whoisServer": "whois.registre.bf",
 	"nameServers": [
 		"a.registre.bf",
 		"dns-tld.ird.fr",
 		"ns-bf.nic.fr",
 		"pch.ns.registre.bf"
+	],
+	"languages": [
+		"fr-BF"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,10 @@
 {
 	"domain": "ru",
+	"domainIdn": [
+		"рф"
+	],
+	"registryOperator": "Coordination Center for TLD RU",
+	"countryName": "Russia",
 	"whoisServer": "whois.ripn.net",
 	"nameServers": [
 		"a.dns.ripn.net",
@@ -7,6 +12,9 @@
 		"d.dns.ripn.net",
 		"e.dns.ripn.net",
 		"f.dns.ripn.net"
+	],
+	"languages": [
+		"ru-RU"
 	],
 	"tags": [
 		"country",

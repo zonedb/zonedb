@@ -1,5 +1,9 @@
 {
 	"domain": "भारोत",
+	"domainPunycode": "xn--h2brj9c8c",
+	"domainAscii": "in",
+	"registryOperator": "National Internet eXchange of India",
+	"countryName": "India",
 	"infoURL": "https://www.registry.in/",
 	"whoisServer": "whois.nixiregistry.in",
 	"nameServers": [
@@ -18,6 +22,8 @@
 		"IN-WB"
 	],
 	"languages": [
+		"en-IN",
+		"hi-IN",
 		"sat-Olck-IN"
 	],
 	"tags": [

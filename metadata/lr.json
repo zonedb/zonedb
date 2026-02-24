@@ -1,10 +1,15 @@
 {
 	"domain": "lr",
+	"registryOperator": "Data Technology Solutions, Inc.",
+	"countryName": "Liberia",
 	"nameServers": [
 		"fork.sth.dnsnode.net",
 		"ns-lr.afrinic.net",
 		"ns1.rg.net",
 		"rip.psg.com"
+	],
+	"languages": [
+		"en-LR"
 	],
 	"tags": [
 		"closed",

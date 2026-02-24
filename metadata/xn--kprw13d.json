@@ -1,5 +1,9 @@
 {
 	"domain": "台湾",
+	"domainPunycode": "xn--kprw13d",
+	"domainAscii": "tw",
+	"registryOperator": "Taiwan Network Information Center (TWNIC)",
+	"countryName": "Taiwan",
 	"whoisServer": "whois.twnic.net.tw",
 	"nameServers": [
 		"anytld.apnic.net",
@@ -10,7 +14,10 @@
 		"h.dns.tw"
 	],
 	"languages": [
-		"zh-Hans-TW"
+		"hak-Hant-TW",
+		"nan-Hant-TW",
+		"zh-Hans-TW",
+		"zh-Hant-TW"
 	],
 	"tags": [
 		"country",

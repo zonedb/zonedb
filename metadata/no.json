@@ -1,5 +1,7 @@
 {
 	"domain": "no",
+	"registryOperator": "Norid A/S",
+	"countryName": "Norway",
 	"whoisServer": "whois.norid.no",
 	"rdapURLs": [
 		"https://rdap.norid.no/"
@@ -11,6 +13,11 @@
 		"x.nic.no",
 		"y.nic.no",
 		"z.nic.no"
+	],
+	"languages": [
+		"nb-NO",
+		"nn-NO",
+		"no-NO"
 	],
 	"tags": [
 		"country",

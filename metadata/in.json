@@ -1,5 +1,24 @@
 {
 	"domain": "in",
+	"domainIdn": [
+		"بارت",
+		"بھارت",
+		"ڀارت",
+		"भारत",
+		"भारतम्",
+		"भारोत",
+		"ভারত",
+		"ভাৰত",
+		"ਭਾਰਤ",
+		"ભારત",
+		"ଭାରତ",
+		"இந்தியா",
+		"భారత్",
+		"ಭಾರತ",
+		"ഭാരതം"
+	],
+	"registryOperator": "National Internet Exchange of India",
+	"countryName": "India",
 	"infoURL": "https://www.registry.in/",
 	"whoisServer": "whois.nixiregistry.in",
 	"rdapURLs": [
@@ -10,6 +29,10 @@
 		"ns01.trs-dns.net",
 		"ns10.trs-dns.info",
 		"ns10.trs-dns.org"
+	],
+	"languages": [
+		"en-IN",
+		"hi-IN"
 	],
 	"tags": [
 		"country",

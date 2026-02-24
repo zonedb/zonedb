@@ -1,5 +1,7 @@
 {
 	"domain": "fj",
+	"registryOperator": "The University of the South Pacific\nIT Services",
+	"countryName": "Fiji",
 	"infoURL": "https://www.domains.fj/index.php",
 	"whoisServer": "www.whois.fj",
 	"rdapURLs": [
@@ -11,6 +13,11 @@
 		"ns3.fj",
 		"ns4.fj",
 		"ns5.fj"
+	],
+	"languages": [
+		"en-FJ",
+		"fj-FJ",
+		"hif-FJ"
 	],
 	"tags": [
 		"country",

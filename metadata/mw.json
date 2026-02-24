@@ -1,5 +1,7 @@
 {
 	"domain": "mw",
+	"registryOperator": "Malawi Sustainable Development Network Programme (Malawi SDNP)",
+	"countryName": "Malawi",
 	"infoURL": "http://nic.mw/",
 	"whoisServer": "whois.nic.mw",
 	"nameServers": [
@@ -10,6 +12,10 @@
 		"ns4.apnic.net",
 		"pch1.nic.mw",
 		"rip.psg.com"
+	],
+	"languages": [
+		"en-MW",
+		"ny-MW"
 	],
 	"tags": [
 		"country",

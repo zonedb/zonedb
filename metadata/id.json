@@ -1,5 +1,7 @@
 {
 	"domain": "id",
+	"registryOperator": "Perkumpulan Pengelola Nama Domain Internet Indonesia (PANDI)",
+	"countryName": "Indonesia",
 	"infoURL": "https://pandi.id/",
 	"whoisServer": "whois.id",
 	"rdapURLs": [
@@ -11,6 +13,9 @@
 		"d.dns.id",
 		"e.dns.id",
 		"ns4.apnic.net"
+	],
+	"languages": [
+		"id-ID"
 	],
 	"tags": [
 		"country",

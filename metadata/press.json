@@ -1,6 +1,6 @@
 {
 	"domain": "press",
-	"registryOperator": "Radix Technologies Inc SEZC",
+	"registryOperator": "Radix Technologies Inc.",
 	"whoisServer": "whois.nic.press",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/press/"

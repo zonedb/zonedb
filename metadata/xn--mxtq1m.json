@@ -1,5 +1,6 @@
 {
 	"domain": "政府",
+	"domainPunycode": "xn--mxtq1m",
 	"registryOperator": "Net-Chinese Co., Ltd.",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--mxtq1m",
 	"whoisServer": "whois.nic.政府",
@@ -11,5 +12,8 @@
 		"b.nic.政府",
 		"c.nic.政府",
 		"d.nic.政府"
+	],
+	"tags": [
+		"generic"
 	]
 }

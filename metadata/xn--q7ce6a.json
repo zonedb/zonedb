@@ -1,11 +1,18 @@
 {
 	"domain": "ລາວ",
+	"domainPunycode": "xn--q7ce6a",
+	"domainAscii": "la",
+	"registryOperator": "Lao National Internet Center (LANIC), Ministry of Technology and Communications",
+	"countryName": "Laos",
 	"whoisServer": "whois.nic.la",
 	"nameServers": [
 		"a.ລາວ.centralnic-dns.com",
 		"b.ລາວ.centralnic-dns.com",
 		"c.ລາວ.centralnic-dns.com",
 		"d.ລາວ.centralnic-dns.com"
+	],
+	"languages": [
+		"lo-LA"
 	],
 	"tags": [
 		"country",

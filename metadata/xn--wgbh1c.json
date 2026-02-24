@@ -1,5 +1,9 @@
 {
 	"domain": "مصر",
+	"domainPunycode": "xn--wgbh1c",
+	"domainAscii": "eg",
+	"registryOperator": "National Telecommunication Regulatory Authority - NTRA",
+	"countryName": "Egypt",
 	"nameServers": [
 		"ns1.dotmasr.eg",
 		"ns2.dotmasr.eg",

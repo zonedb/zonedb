@@ -1,5 +1,7 @@
 {
 	"domain": "kg",
+	"registryOperator": "AsiaInfo Telecommunication Enterprise",
+	"countryName": "Kyrgyzstan",
 	"whoisServer": "whois.domain.kg",
 	"rdapURLs": [
 		"http://rdap.cctld.kg/"
@@ -8,6 +10,10 @@
 		"kg.cctld.authdns.ripe.net",
 		"ns.kg",
 		"ns2.kg"
+	],
+	"languages": [
+		"ky-KG",
+		"ru-KG"
 	],
 	"tags": [
 		"country",

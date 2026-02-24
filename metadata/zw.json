@@ -1,5 +1,7 @@
 {
 	"domain": "zw",
+	"registryOperator": "Postal and Telecommunications Regulatory Authority of Zimbabwe (POTRAZ)",
+	"countryName": "Zimbabwe",
 	"whoisURL": "http://www.zispa.org.zw/",
 	"nameServers": [
 		"ns1.liquidtelecom.net",
@@ -7,6 +9,11 @@
 		"ns2.liquidtelecom.net",
 		"ns2zim.telone.co.zw",
 		"zw-ns.anycast.pch.net"
+	],
+	"languages": [
+		"en-ZW",
+		"nd-ZW",
+		"sn-ZW"
 	],
 	"tags": [
 		"country",

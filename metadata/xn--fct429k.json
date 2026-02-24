@@ -1,5 +1,6 @@
 {
 	"domain": "家電",
+	"domainPunycode": "xn--fct429k",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.家電/",
 	"rdapURLs": [
@@ -32,6 +33,9 @@
 		"ru",
 		"sv",
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

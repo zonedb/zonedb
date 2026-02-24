@@ -1,5 +1,9 @@
 {
 	"domain": "فلسطين",
+	"domainPunycode": "xn--ygbi2ammx",
+	"domainAscii": "ps",
+	"registryOperator": "Ministry of Telecom & Information Technology (MTIT)",
+	"countryName": "Palestinian Territories",
 	"nameServers": [
 		"dns1.gov.ps",
 		"dns3.gov.ps",
@@ -8,6 +12,9 @@
 		"ns1.pnina.ps",
 		"ps-ns.anycast.pch.net",
 		"ps.cctld.authdns.ripe.net"
+	],
+	"languages": [
+		"ar-PS"
 	],
 	"tags": [
 		"country",

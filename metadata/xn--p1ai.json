@@ -1,5 +1,9 @@
 {
 	"domain": "рф",
+	"domainPunycode": "xn--p1ai",
+	"domainAscii": "ru",
+	"registryOperator": "Coordination Center for TLD RU",
+	"countryName": "Russia",
 	"infoURL": "https://www.iana.org/domains/root/db/xn--p1ai.html",
 	"whoisServer": "whois.ripn.net",
 	"nameServers": [
@@ -10,7 +14,8 @@
 		"f.dns.ripn.net"
 	],
 	"languages": [
-		"mul-Cyrl"
+		"mul-Cyrl",
+		"ru-RU"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,9 @@
 {
 	"domain": "мкд",
+	"domainPunycode": "xn--d1alf",
+	"domainAscii": "mk",
+	"registryOperator": "Macedonian Academic Research Network Skopje",
+	"countryName": "Macedonia",
 	"infoURL": "https://www.iana.org/domains/root/db/xn--d1alf.html",
 	"whoisServer": "whois.marnet.mk",
 	"nameServers": [
@@ -7,6 +11,9 @@
 		"dns-mk.univie.ac.at",
 		"mk-e.ns.nic.cz",
 		"tld1.marnet.mk"
+	],
+	"languages": [
+		"mk-MK"
 	],
 	"tags": [
 		"country",

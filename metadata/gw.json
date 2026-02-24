@@ -1,10 +1,15 @@
 {
 	"domain": "gw",
+	"registryOperator": "Autoridade Reguladora Nacional - Tecnologias de Informação e Comunicação da Guiné-Bissau",
+	"countryName": "Guinea-Bissau",
 	"whoisURL": "http://nic.gw/en/whois/",
 	"nameServers": [
 		"gw01.dns.pt",
 		"gw03.dns.pt",
 		"h.dns.pt"
+	],
+	"languages": [
+		"pt-GW"
 	],
 	"tags": [
 		"country",

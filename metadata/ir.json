@@ -1,5 +1,10 @@
 {
 	"domain": "ir",
+	"domainIdn": [
+		"ایران"
+	],
+	"registryOperator": "Institute for Research in Fundamental Sciences",
+	"countryName": "Iran",
 	"whoisServer": "whois.nic.ir",
 	"nameServers": [
 		"a.nic.ir",
@@ -8,7 +13,8 @@
 		"d.nic.ir"
 	],
 	"languages": [
-		"fa"
+		"fa",
+		"fa-IR"
 	],
 	"tags": [
 		"country",

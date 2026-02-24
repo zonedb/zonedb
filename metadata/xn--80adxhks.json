@@ -1,5 +1,6 @@
 {
 	"domain": "москва",
+	"domainPunycode": "xn--80adxhks",
 	"registryOperator": "Foundation for Assistance for Internet Technologies and Infrastructure Development (FAITID)",
 	"whoisServer": "whois.nic.москва",
 	"rdapURLs": [

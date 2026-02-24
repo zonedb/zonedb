@@ -1,10 +1,17 @@
 {
 	"domain": "سورية",
+	"domainPunycode": "xn--ogbpf8fl",
+	"domainAscii": "sy",
+	"registryOperator": "National Authority for Information Technology Services (NAITS)",
+	"countryName": "Syria",
 	"whoisServer": "whois.tld.sy",
 	"nameServers": [
 		"ns1.tld.sy",
 		"pch.anycast.tld.sy",
 		"sy.cctld.authdns.ripe.net"
+	],
+	"languages": [
+		"ar-SY"
 	],
 	"tags": [
 		"country",

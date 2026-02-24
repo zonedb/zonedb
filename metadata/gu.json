@@ -1,5 +1,7 @@
 {
 	"domain": "gu",
+	"registryOperator": "University of Guam",
+	"countryName": "Guam",
 	"infoURL": "https://www.iana.org/domains/root/db/gu.html",
 	"whoisURL": "http://gadao.gov.gu/domainsearch.htm",
 	"nameServers": [
@@ -7,6 +9,10 @@
 		"green.uog.edu",
 		"gu.cctld.authdns.ripe.net",
 		"phloem.uoregon.edu"
+	],
+	"languages": [
+		"ch-GU",
+		"en-GU"
 	],
 	"tags": [
 		"country",

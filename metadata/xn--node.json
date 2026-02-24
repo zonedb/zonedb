@@ -1,5 +1,9 @@
 {
 	"domain": "გე",
+	"domainPunycode": "xn--node",
+	"domainAscii": "ge",
+	"registryOperator": "Information Technologies Development Center (ITDC)",
+	"countryName": "Georgia",
 	"infoURL": "http://nic.გე/",
 	"nameServers": [
 		"გე.ns.anycast.pch.net",
@@ -7,6 +11,9 @@
 	],
 	"wildcards": [
 		"188.93.95.11"
+	],
+	"languages": [
+		"ka-GE"
 	],
 	"tags": [
 		"country",

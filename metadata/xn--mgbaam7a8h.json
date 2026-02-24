@@ -1,5 +1,9 @@
 {
 	"domain": "امارات",
+	"domainPunycode": "xn--mgbaam7a8h",
+	"domainAscii": "ae",
+	"registryOperator": "Telecommunications and Digital Government Regulatory Authority (TDRA)",
+	"countryName": "United Arab Emirates",
 	"whoisServer": "whois.aeda.net.ae",
 	"nameServers": [
 		"ns1.aedns.ae",

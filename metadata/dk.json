@@ -1,5 +1,7 @@
 {
 	"domain": "dk",
+	"registryOperator": "Dansk Internet Forum",
+	"countryName": "Denmark",
 	"infoURL": "https://www.dk-hostmaster.dk/da",
 	"whoisServer": "whois.dk-hostmaster.dk",
 	"nameServers": [
@@ -9,6 +11,9 @@
 		"l.nic.dk",
 		"s.nic.dk",
 		"t.nic.dk"
+	],
+	"languages": [
+		"da-DK"
 	],
 	"tags": [
 		"country",

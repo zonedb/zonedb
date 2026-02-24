@@ -1,5 +1,9 @@
 {
 	"domain": "المغرب",
+	"domainPunycode": "xn--mgbc0a9azcg",
+	"domainAscii": "ma",
+	"registryOperator": "Agence Nationale de Réglementation des Télécommunications (ANRT)",
+	"countryName": "Morocco",
 	"infoURL": "https://www.iana.org/domains/root/db/xn--mgbc0a9azcg.html",
 	"whoisServer": "whois.iam.net.ma",
 	"nameServers": [
@@ -10,6 +14,11 @@
 		"e.tld.ma",
 		"f.tld.ma",
 		"ns-ma.nic.fr"
+	],
+	"languages": [
+		"ar-MA",
+		"fr-MA",
+		"tzm-MA"
 	],
 	"tags": [
 		"country",

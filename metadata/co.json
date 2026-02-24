@@ -1,5 +1,7 @@
 {
 	"domain": "co",
+	"registryOperator": "Ministry of Information and Communications Technologies (MinTIC)",
+	"countryName": "Colombia",
 	"infoURL": "https://registry.co/",
 	"whoisServer": "whois.registry.co",
 	"rdapURLs": [
@@ -15,6 +17,7 @@
 		"da",
 		"de",
 		"es",
+		"es-CO",
 		"fi",
 		"fr",
 		"hu",

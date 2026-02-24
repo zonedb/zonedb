@@ -1,5 +1,7 @@
 {
 	"domain": "vg",
+	"registryOperator": "Telecommunications Regulatory Commission of the Virgin Islands",
+	"countryName": "British Virgin Islands",
 	"whoisServer": "whois.nic.vg",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/vg/"
@@ -12,6 +14,9 @@
 	],
 	"wildcards": [
 		"88.198.29.97"
+	],
+	"languages": [
+		"en-VG"
 	],
 	"tags": [
 		"country",

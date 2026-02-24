@@ -1,5 +1,10 @@
 {
 	"domain": "ua",
+	"domainIdn": [
+		"укр"
+	],
+	"registryOperator": "Hostmaster Ltd.",
+	"countryName": "Ukraine",
 	"infoURL": "https://www.nic.net.ua/",
 	"whoisServer": "whois.ua",
 	"rdapURLs": [
@@ -15,7 +20,9 @@
 		"rcz.ns.ua"
 	],
 	"languages": [
-		"mul-Cyrl"
+		"mul-Cyrl",
+		"ru-UA",
+		"uk-UA"
 	],
 	"tags": [
 		"country",

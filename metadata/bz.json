@@ -1,5 +1,7 @@
 {
 	"domain": "bz",
+	"registryOperator": "University of Belize",
+	"countryName": "Belize",
 	"infoURL": "https://www.belizenic.bz/",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
@@ -11,6 +13,9 @@
 		"b2.cctld.afilias-nst.org",
 		"c0.cctld.afilias-nst.info",
 		"d0.cctld.afilias-nst.org"
+	],
+	"languages": [
+		"en-BZ"
 	],
 	"tags": [
 		"country",

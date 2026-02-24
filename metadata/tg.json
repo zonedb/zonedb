@@ -1,5 +1,7 @@
 {
 	"domain": "tg",
+	"registryOperator": "Autorité de Régulation des Communications Electroniques et des Postes (ARCEP)",
+	"countryName": "Togo",
 	"infoURL": "https://www.nic.tg/",
 	"whoisServer": "whois.nic.tg",
 	"nameServers": [
@@ -11,6 +13,9 @@
 		"ns4.admin.net",
 		"ns5.admin.net",
 		"tld.cafe.tg"
+	],
+	"languages": [
+		"fr-TG"
 	],
 	"tags": [
 		"country",

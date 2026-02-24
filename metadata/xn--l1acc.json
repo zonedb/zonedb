@@ -1,13 +1,17 @@
 {
 	"domain": "мон",
+	"domainPunycode": "xn--l1acc",
+	"domainAscii": "mn",
 	"registryOperator": "Datacom Co.,Ltd",
+	"countryName": "Mongolia",
 	"infoURL": "https://www.mon.mn/",
 	"nameServers": [
 		"ns10.dns.mn",
 		"ns11.dns.mn"
 	],
 	"languages": [
-		"mn"
+		"mn",
+		"mn-MN"
 	],
 	"tags": [
 		"country",

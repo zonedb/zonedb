@@ -1,5 +1,7 @@
 {
 	"domain": "ar",
+	"registryOperator": "Presidencia de la Nación , Secretaría Legal y Técnica",
+	"countryName": "Argentina",
 	"infoURL": "https://nic.ar/",
 	"whoisServer": "whois.nic.ar",
 	"rdapURLs": [
@@ -11,6 +13,9 @@
 		"d.dns.ar",
 		"e.dns.ar",
 		"f.dns.ar"
+	],
+	"languages": [
+		"es-AR"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,7 @@
 {
 	"domain": "cw",
+	"registryOperator": "University of Curacao",
+	"countryName": "Curaçao",
 	"infoURL": "https://en.wikipedia.org/wiki/.cw",
 	"nameServers": [
 		"cw.cctld.authdns.ripe.net",
@@ -9,6 +11,10 @@
 		"ns1.bna.cw",
 		"ns1.dns.cw",
 		"ns2.bna.cw"
+	],
+	"languages": [
+		"nl-CW",
+		"pap-CW"
 	],
 	"tags": [
 		"country",

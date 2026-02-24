@@ -1,5 +1,11 @@
 {
 	"domain": "lk",
+	"domainIdn": [
+		"இலங்கை",
+		"ලංකා"
+	],
+	"registryOperator": "Council for Information Technology\nLK Domain Registrar",
+	"countryName": "Sri Lanka",
 	"nameServers": [
 		"d.nic.lk",
 		"h.nic.lk",
@@ -9,6 +15,10 @@
 		"pendragon.cs.purdue.edu",
 		"t.nic.lk",
 		"z.nic.lk"
+	],
+	"languages": [
+		"si-LK",
+		"ta-LK"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,6 @@
 {
 	"domain": "닷컴",
+	"domainPunycode": "xn--mk1bu44c",
 	"registryOperator": "VeriSign Sarl",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--mk1bu44c",
 	"whoisServer": "whois.nic.닷컴",
@@ -110,6 +111,9 @@
 		"ru",
 		"uk",
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

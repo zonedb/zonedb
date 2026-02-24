@@ -1,5 +1,7 @@
 {
 	"domain": "io",
+	"registryOperator": "Internet Computer Bureau Limited",
+	"countryName": "British Indian Ocean Territory",
 	"infoURL": "https://www.nic.io/",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
@@ -9,6 +11,9 @@
 		"a2.nic.io",
 		"b0.nic.io",
 		"c0.nic.io"
+	],
+	"languages": [
+		"en-IO"
 	],
 	"tags": [
 		"country",

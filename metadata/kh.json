@@ -1,10 +1,15 @@
 {
 	"domain": "kh",
+	"registryOperator": "Telecommunication Regulator of Cambodia (TRC)",
+	"countryName": "Cambodia",
 	"nameServers": [
 		"dns1.online.com.kh",
 		"ns.camnet.com.kh",
 		"ns1.dns.net.kh",
 		"ns4.apnic.net"
+	],
+	"languages": [
+		"km-KH"
 	],
 	"tags": [
 		"country",

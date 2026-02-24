@@ -1,5 +1,7 @@
 {
 	"domain": "bt",
+	"registryOperator": "Ministry of Information and Communications",
+	"countryName": "Bhutan",
 	"whoisURL": "http://www.nic.bt/",
 	"nameServers": [
 		"auth00.ns.uu.net",
@@ -9,6 +11,9 @@
 		"ns2.druknet.bt",
 		"ns3.druknet.bt",
 		"phloem.uoregon.edu"
+	],
+	"languages": [
+		"dz-BT"
 	],
 	"tags": [
 		"country",

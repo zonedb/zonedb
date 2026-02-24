@@ -1,10 +1,15 @@
 {
 	"domain": "hr",
+	"registryOperator": "CARNet - Croatian Academic and Research Network",
+	"countryName": "Croatia",
 	"whoisServer": "whois.dns.hr",
 	"nameServers": [
 		"hr-ns-1.carnet.hr",
 		"n.dns.hr",
 		"pch.carnet.hr"
+	],
+	"languages": [
+		"hr-HR"
 	],
 	"tags": [
 		"country",

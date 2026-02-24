@@ -1,5 +1,7 @@
 {
 	"domain": "ci",
+	"registryOperator": "Autorité de Régulation des Télécommunications/TIC de Côte d’lvoire (ARTCI)",
+	"countryName": "Côte d’Ivoire",
 	"whoisServer": "whois.nic.ci",
 	"nameServers": [
 		"any.nic.ci",
@@ -7,6 +9,9 @@
 		"ns-ci.afrinic.net",
 		"ns.nic.ci",
 		"phloem.uoregon.edu"
+	],
+	"languages": [
+		"fr-CI"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,7 @@
 {
 	"domain": "re",
+	"registryOperator": "Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.)",
+	"countryName": "Réunion",
 	"whoisServer": "whois.nic.re",
 	"rdapURLs": [
 		"https://rdap.nic.re/"
@@ -8,6 +10,9 @@
 		"d.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
+	],
+	"languages": [
+		"fr-RE"
 	],
 	"tags": [
 		"country",

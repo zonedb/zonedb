@@ -1,5 +1,6 @@
 {
 	"domain": "嘉里",
+	"domainPunycode": "xn--w4rs40l",
 	"registryOperator": "Kerry Trading Co. Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--w4rs40l",
 	"rdapURLs": [
@@ -14,6 +15,7 @@
 		"v2n1.nic.嘉里"
 	],
 	"tags": [
-		"brand"
+		"brand",
+		"generic"
 	]
 }

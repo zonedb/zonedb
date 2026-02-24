@@ -1,11 +1,20 @@
 {
 	"domain": "pk",
+	"domainIdn": [
+		"پاکستان"
+	],
+	"registryOperator": "PKNIC",
+	"countryName": "Pakistan",
 	"whoisServer": "whois.pknic.net.pk",
 	"nameServers": [
 		"root-c1.pknic.pk",
 		"root-c2.pknic.pk",
 		"root-e.pknic.pk",
 		"root-s.pknic.pk"
+	],
+	"languages": [
+		"en-PK",
+		"ur-PK"
 	],
 	"tags": [
 		"country",

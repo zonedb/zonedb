@@ -1,5 +1,7 @@
 {
 	"domain": "tm",
+	"registryOperator": "TM Domain Registry Ltd",
+	"countryName": "Turkmenistan",
 	"infoURL": "https://nic.tm/",
 	"whoisServer": "whois.nic.tm",
 	"nameServers": [
@@ -10,6 +12,9 @@
 		"ns-d1.tm",
 		"ns-l1.tm",
 		"ns-y1.tm"
+	],
+	"languages": [
+		"tk-TM"
 	],
 	"tags": [
 		"country",

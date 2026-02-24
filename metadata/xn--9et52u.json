@@ -1,5 +1,6 @@
 {
 	"domain": "时尚",
+	"domainPunycode": "xn--9et52u",
 	"registryOperator": "RISE VICTORY LIMITED",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--9et52u",
 	"whoisServer": "whois.gtld.knet.cn",
@@ -19,6 +20,9 @@
 	"languages": [
 		"zh-Hans",
 		"zh-Hant"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

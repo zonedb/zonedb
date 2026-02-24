@@ -1,5 +1,7 @@
 {
 	"domain": "si",
+	"registryOperator": "Academic and Research Network of Slovenia (ARNES)",
+	"countryName": "Slovenia",
 	"whoisServer": "whois.arnes.si",
 	"rdapURLs": [
 		"https://rdap.register.si/"
@@ -13,7 +15,8 @@
 		"l.dns.si"
 	],
 	"languages": [
-		"mul-Latn"
+		"mul-Latn",
+		"sl-SI"
 	],
 	"tags": [
 		"country",

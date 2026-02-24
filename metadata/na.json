@@ -1,5 +1,7 @@
 {
 	"domain": "na",
+	"registryOperator": "Namibian Network Information Center",
+	"countryName": "Namibia",
 	"rdapURLs": [
 		"https://keetmans.omadhina.co.na/"
 	],
@@ -8,6 +10,9 @@
 		"etld-1.anycast.net",
 		"na-ns.anycast.pch.net",
 		"na.anycastdns.cz"
+	],
+	"languages": [
+		"en-NA"
 	],
 	"tags": [
 		"country",

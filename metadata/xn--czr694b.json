@@ -1,5 +1,6 @@
 {
 	"domain": "商标",
+	"domainPunycode": "xn--czr694b",
 	"registryOperator": "Internet DotTrademark Organisation Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--czr694b",
 	"rdapURLs": [
@@ -18,6 +19,9 @@
 	"languages": [
 		"zh-Hans",
 		"zh-Hant"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

@@ -1,5 +1,7 @@
 {
 	"domain": "au",
+	"registryOperator": ".au Domain Administration (auDA)",
+	"countryName": "Australia",
 	"infoURL": "https://www.auda.org.au/",
 	"whoisServer": "whois.auda.org.au",
 	"rdapURLs": [
@@ -11,6 +13,9 @@
 		"r.au",
 		"s.au",
 		"t.au"
+	],
+	"languages": [
+		"en-AU"
 	],
 	"tags": [
 		"country",

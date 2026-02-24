@@ -1,5 +1,7 @@
 {
 	"domain": "tz",
+	"registryOperator": "Tanzania Communications Regulatory Authority",
+	"countryName": "Tanzania",
 	"whoisServer": "whois.tznic.or.tz",
 	"rdapURLs": [
 		"https://whois.tznic.or.tz/rdap/"
@@ -10,6 +12,10 @@
 		"ns2.tznic.or.tz",
 		"rip.psg.com",
 		"tz-e.ns.nic.cz"
+	],
+	"languages": [
+		"en-TZ",
+		"sw-TZ"
 	],
 	"tags": [
 		"closed",

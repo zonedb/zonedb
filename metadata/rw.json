@@ -1,5 +1,7 @@
 {
 	"domain": "rw",
+	"registryOperator": "Rwanda Internet Community and Technology  Alliance (RICTA) Ltd",
+	"countryName": "Rwanda",
 	"infoURL": "https://ricta.org.rw/",
 	"whoisServer": "whois.ricta.org.rw",
 	"rdapURLs": [
@@ -13,6 +15,11 @@
 		"ns2.ricta.org.rw",
 		"ns3.ricta.org.rw",
 		"pch.ricta.org.rw"
+	],
+	"languages": [
+		"en-RW",
+		"fr-RW",
+		"rw-RW"
 	],
 	"tags": [
 		"country",

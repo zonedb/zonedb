@@ -1,5 +1,7 @@
 {
 	"domain": "np",
+	"registryOperator": "Mercantile Communications Pvt. Ltd.",
+	"countryName": "Nepal",
 	"whoisURL": "http://register.mos.com.np/np-whois-lookup",
 	"nameServers": [
 		"np-ns.npix.net.np",
@@ -7,6 +9,9 @@
 		"ns4.apnic.net",
 		"pch.nnic.np",
 		"shikhar.mos.com.np"
+	],
+	"languages": [
+		"ne-NP"
 	],
 	"tags": [
 		"closed",

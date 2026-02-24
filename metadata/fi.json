@@ -1,5 +1,7 @@
 {
 	"domain": "fi",
+	"registryOperator": "Finnish Transport and Communications Agency Traficom",
+	"countryName": "Finland",
 	"whoisServer": "whois.ficora.fi",
 	"rdapURLs": [
 		"https://rdap.fi/rdap/rdap/"
@@ -15,6 +17,10 @@
 		"i.fi",
 		"j.fi",
 		"k.fi"
+	],
+	"languages": [
+		"fi-FI",
+		"sv-FI"
 	],
 	"tags": [
 		"country",

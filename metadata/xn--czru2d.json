@@ -1,5 +1,6 @@
 {
 	"domain": "商城",
+	"domainPunycode": "xn--czru2d",
 	"registryOperator": "Zodiac Aquarius Limited",
 	"whoisServer": "whois.gtld.knet.cn",
 	"rdapURLs": [
@@ -18,6 +19,9 @@
 	"languages": [
 		"zh-Hans",
 		"zh-Hant"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

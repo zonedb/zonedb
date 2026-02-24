@@ -1,5 +1,6 @@
 {
 	"domain": "招聘",
+	"domainPunycode": "xn--otu796d",
 	"registryOperator": "Jiang Yu Liang Cai Technology Company Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--otu796d",
 	"rdapURLs": [
@@ -18,6 +19,9 @@
 	"languages": [
 		"zh-Hans",
 		"zh-Hant"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

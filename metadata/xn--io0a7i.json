@@ -1,5 +1,6 @@
 {
 	"domain": "网络",
+	"domainPunycode": "xn--io0a7i",
 	"registryOperator": "China Internet Network Information Center (CNNIC)",
 	"whoisServer": "whois.ngtld.cn",
 	"rdapURLs": [
@@ -15,6 +16,9 @@
 	"languages": [
 		"zh-Hans",
 		"zh-Hant"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

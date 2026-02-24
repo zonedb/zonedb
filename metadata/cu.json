@@ -1,5 +1,7 @@
 {
 	"domain": "cu",
+	"registryOperator": "CENIAInternet",
+	"countryName": "Cuba",
 	"whoisURL": "http://www.nic.cu/",
 	"nameServers": [
 		"cu.cctld.authdns.ripe.net",
@@ -8,6 +10,9 @@
 		"ns2.ceniai.net.cu",
 		"ns2.gip.net",
 		"rip.psg.com"
+	],
+	"languages": [
+		"es-CU"
 	],
 	"tags": [
 		"country",

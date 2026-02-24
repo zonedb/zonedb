@@ -1,5 +1,7 @@
 {
 	"domain": "tc",
+	"registryOperator": "Melrex TC",
+	"countryName": "Turks & Caicos Islands",
 	"whoisServer": "whois.nic.tc",
 	"nameServers": [
 		"root1.zone.tc",
@@ -10,6 +12,9 @@
 		"root6.zone.tc",
 		"root7.zone.tc",
 		"root8.zone.tc"
+	],
+	"languages": [
+		"en-TC"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,7 @@
 {
 	"domain": "fm",
+	"registryOperator": "FSM Telecommunications Corporation",
+	"countryName": "Micronesia",
 	"infoURL": "https://dot.fm/",
 	"whoisServer": "whois.nic.fm",
 	"rdapURLs": [
@@ -14,6 +16,7 @@
 		"f.nic.fm"
 	],
 	"languages": [
+		"en-FM",
 		"he",
 		"mul-Cyrl",
 		"mul-Mymr",

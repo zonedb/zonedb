@@ -1,9 +1,14 @@
 {
 	"domain": "ga",
+	"registryOperator": "Agence Nationale des Infrastructures Numériques et des Fréquences (ANINF)",
+	"countryName": "Gabon",
 	"nameServers": [
 		"d.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
+	],
+	"languages": [
+		"fr-GA"
 	],
 	"tags": [
 		"country",

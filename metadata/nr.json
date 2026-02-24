@@ -1,11 +1,17 @@
 {
 	"domain": "nr",
+	"registryOperator": "CENPAC NET",
+	"countryName": "Nauru",
 	"whoisURL": "http://www.cenpac.net.nr/dns/whois.html",
 	"nameServers": [
 		"ns0.cenpac.net.nr",
 		"ns1.cenpac.net.nr",
 		"ns2.cenpac.net.nr",
 		"phloem.uoregon.edu"
+	],
+	"languages": [
+		"en-NR",
+		"na-NR"
 	],
 	"tags": [
 		"country",

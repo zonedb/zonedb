@@ -1,5 +1,7 @@
 {
 	"domain": "it",
+	"registryOperator": "IIT - CNR",
+	"countryName": "Italy",
 	"infoURL": "https://www.nic.it/it",
 	"whoisServer": "whois.nic.it",
 	"nameServers": [
@@ -9,6 +11,9 @@
 		"nameserver.cnr.it",
 		"r.dns.it",
 		"v.dns.it"
+	],
+	"languages": [
+		"it-IT"
 	],
 	"tags": [
 		"country",

@@ -1,10 +1,19 @@
 {
 	"domain": "kz",
+	"domainIdn": [
+		"қаз"
+	],
+	"registryOperator": "Association of IT Companies of Kazakhstan",
+	"countryName": "Kazakhstan",
 	"whoisServer": "whois.nic.kz",
 	"nameServers": [
 		"ns.nic.kz",
 		"ns1.nic.kz",
 		"ns2.nic.kz"
+	],
+	"languages": [
+		"kk-KZ",
+		"ru-KZ"
 	],
 	"tags": [
 		"country",

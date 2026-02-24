@@ -1,5 +1,7 @@
 {
 	"domain": "ky",
+	"registryOperator": "Utility Regulation and Competition Office (OfReg)",
+	"countryName": "Cayman Islands",
 	"infoURL": "https://uniregistry.ky/",
 	"whoisServer": "whois.kyregistry.ky",
 	"rdapURLs": [
@@ -10,6 +12,9 @@
 		"ns01.trs-dns.net",
 		"ns10.trs-dns.info",
 		"ns10.trs-dns.org"
+	],
+	"languages": [
+		"en-KY"
 	],
 	"tags": [
 		"country",

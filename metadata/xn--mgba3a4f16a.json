@@ -1,9 +1,16 @@
 {
 	"domain": "ایران",
+	"domainPunycode": "xn--mgba3a4f16a",
+	"domainAscii": "ir",
+	"registryOperator": "Institute for Research in Fundamental Sciences (IPM)",
+	"countryName": "Iran",
 	"whoisServer": "whois.nic.ir",
 	"nameServers": [
 		"a.nic.ir",
 		"b.nic.ir"
+	],
+	"languages": [
+		"fa-IR"
 	],
 	"tags": [
 		"country",

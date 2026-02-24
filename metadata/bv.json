@@ -1,5 +1,7 @@
 {
 	"domain": "bv",
+	"registryOperator": "Norid A/S",
+	"countryName": "Bouvet Island",
 	"whoisServer": "whois.norid.no",
 	"nameServers": [
 		"nac.no",

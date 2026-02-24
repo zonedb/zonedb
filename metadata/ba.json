@@ -1,5 +1,7 @@
 {
 	"domain": "ba",
+	"registryOperator": "University Tele-Informatic Center (UTIC)",
+	"countryName": "Bosnia & Herzegovina",
 	"infoURL": "https://www.nic.ba/",
 	"whoisURL": "http://nic.ba/lat/menu/view/13",
 	"nameServers": [
@@ -7,6 +9,13 @@
 		"lim.utic.net.ba",
 		"sava.utic.net.ba",
 		"una.utic.net.ba"
+	],
+	"languages": [
+		"bs-BA",
+		"bs-Cyrl-BA",
+		"hr-BA",
+		"sr-BA",
+		"sr-Latn-BA"
 	],
 	"tags": [
 		"country",

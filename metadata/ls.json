@@ -1,5 +1,7 @@
 {
 	"domain": "ls",
+	"registryOperator": "Lesotho Network Information Centre Proprietary (LSNIC)",
+	"countryName": "Lesotho",
 	"infoURL": "https://www.nic.ls/",
 	"whoisServer": "whois.nic.ls",
 	"nameServers": [
@@ -7,6 +9,10 @@
 		"ns-ls.afrinic.net",
 		"ns1.nic.ls",
 		"ns2.nic.ls"
+	],
+	"languages": [
+		"en-LS",
+		"st-LS"
 	],
 	"tags": [
 		"country",

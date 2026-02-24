@@ -1,5 +1,6 @@
 {
 	"domain": "gov",
+	"registryOperator": "Cybersecurity and Infrastructure Security Agency",
 	"whoisServer": "whois.nic.gov",
 	"rdapURLs": [
 		"https://rdap.nic.gov/rdap/"

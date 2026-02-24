@@ -1,5 +1,6 @@
 {
 	"domain": "娱乐",
+	"domainPunycode": "xn--fjq720a",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
 	"rdapURLs": [
@@ -30,6 +31,9 @@
 		"und-Taml",
 		"und-Thai",
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

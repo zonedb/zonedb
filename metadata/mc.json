@@ -1,5 +1,7 @@
 {
 	"domain": "mc",
+	"registryOperator": "Direction des Plateformes et des Ressources Numériques",
+	"countryName": "Monaco",
 	"infoURL": "https://www.nic.mc/",
 	"whoisServer": "whois.nic.mc",
 	"nameServers": [
@@ -7,6 +9,9 @@
 		"ns1.nic.mc",
 		"ns2.nic.mc",
 		"ns3.nic.mc"
+	],
+	"languages": [
+		"fr-MC"
 	],
 	"tags": [
 		"country",

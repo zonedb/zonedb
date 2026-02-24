@@ -1,5 +1,9 @@
 {
 	"domain": "ישראל",
+	"domainPunycode": "xn--4dbrk0ce",
+	"domainAscii": "il",
+	"registryOperator": "The Israel Internet Association (RA)",
+	"countryName": "Israel",
 	"whoisServer": "whois.isoc.org.il",
 	"nameServers": [
 		"ilns.ilan.net.il",
@@ -10,6 +14,10 @@
 		"nsa.ns.il",
 		"nsb.ns.il",
 		"nse.ns.il"
+	],
+	"languages": [
+		"ar-IL",
+		"he-IL"
 	],
 	"tags": [
 		"country",

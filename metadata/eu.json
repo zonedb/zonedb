@@ -1,5 +1,11 @@
 {
 	"domain": "eu",
+	"domainIdn": [
+		"ευ",
+		"ею"
+	],
+	"registryOperator": "EURid vzw",
+	"countryName": "European Union",
 	"whoisServer": "whois.eu",
 	"nameServers": [
 		"be.dns.eu",

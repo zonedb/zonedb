@@ -1,11 +1,16 @@
 {
 	"domain": "st",
+	"registryOperator": "Tecnisys",
+	"countryName": "São Tomé & Príncipe",
 	"whoisServer": "whois.nic.st",
 	"nameServers": [
 		"dns-st.bahnhof.net",
 		"ns1.bahnhof.net",
 		"southeast-2.dns-au.st",
 		"west-2.dns-us.st"
+	],
+	"languages": [
+		"pt-ST"
 	],
 	"tags": [
 		"country",

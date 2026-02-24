@@ -1,5 +1,7 @@
 {
 	"domain": "ec",
+	"registryOperator": "ECUADORDOMAIN S.A.",
+	"countryName": "Ecuador",
 	"whoisServer": "whois.nic.ec",
 	"rdapURLs": [
 		"https://rdap.registry.ec/"
@@ -10,6 +12,10 @@
 		"n3.dns.ec",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
+	],
+	"languages": [
+		"es-EC",
+		"qu-EC"
 	],
 	"tags": [
 		"country",

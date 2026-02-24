@@ -1,5 +1,7 @@
 {
 	"domain": "bo",
+	"registryOperator": "Agencia para el Desarrollo de la Información de la Sociedad en Bolivia",
+	"countryName": "Bolivia",
 	"nameServers": [
 		"anycast.ns.nic.bo",
 		"ns.dns.br",
@@ -7,7 +9,10 @@
 		"ns2.nic.fr"
 	],
 	"languages": [
-		"es"
+		"ay-BO",
+		"es",
+		"es-BO",
+		"qu-BO"
 	],
 	"tags": [
 		"country",

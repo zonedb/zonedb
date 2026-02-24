@@ -1,5 +1,7 @@
 {
 	"domain": "sc",
+	"registryOperator": "VCS Pty Ltd",
+	"countryName": "Seychelles",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
@@ -13,6 +15,8 @@
 		"ns1.nic.sc"
 	],
 	"languages": [
+		"en-SC",
+		"fr-SC",
 		"zh"
 	],
 	"tags": [

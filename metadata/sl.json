@@ -1,10 +1,15 @@
 {
 	"domain": "sl",
+	"registryOperator": "Sierratel",
+	"countryName": "Sierra Leone",
 	"infoURL": "https://www.nic.sl/",
 	"whoisServer": "whois.nic.sl",
 	"nameServers": [
 		"ns1.neoip.com",
 		"ns2.neoip.com"
+	],
+	"languages": [
+		"en-SL"
 	],
 	"tags": [
 		"country",

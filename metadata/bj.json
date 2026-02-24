@@ -1,5 +1,7 @@
 {
 	"domain": "bj",
+	"registryOperator": "Autorité de Régulation des Communications Electroniques et de la Poste du Bénin (ARCEP BENIN)",
+	"countryName": "Benin",
 	"whoisServer": "whois.nic.bj",
 	"nameServers": [
 		"ns-bj.afrinic.net",
@@ -7,6 +9,9 @@
 		"ns1.nic.bj",
 		"ns2.nic.bj",
 		"pch.nic.bj"
+	],
+	"languages": [
+		"fr-BJ"
 	],
 	"tags": [
 		"country",

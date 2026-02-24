@@ -1,5 +1,7 @@
 {
 	"domain": "ms",
+	"registryOperator": "MNI Networks Ltd.",
+	"countryName": "Montserrat",
 	"whoisServer": "whois.nic.ms",
 	"rdapURLs": [
 		"https://rdap.nic.ms/"
@@ -9,6 +11,9 @@
 		"ms-ns.anycast.pch.net",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
+	],
+	"languages": [
+		"en-MS"
 	],
 	"tags": [
 		"country",

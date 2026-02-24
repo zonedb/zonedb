@@ -1,5 +1,7 @@
 {
 	"domain": "ht",
+	"registryOperator": "Consortium FDS/RDDH",
+	"countryName": "Haiti",
 	"whoisServer": "whois.nic.ht",
 	"rdapURLs": [
 		"https://rdap.nic.ht/"
@@ -8,6 +10,10 @@
 		"a.lactld.org",
 		"ns-ht.nic.fr",
 		"pch.nic.ht"
+	],
+	"languages": [
+		"fr-HT",
+		"ht-HT"
 	],
 	"tags": [
 		"country",

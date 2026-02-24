@@ -1,5 +1,7 @@
 {
 	"domain": "sr",
+	"registryOperator": "Telesur",
+	"countryName": "Suriname",
 	"whoisURL": "http://www.register.sr/",
 	"rdapURLs": [
 		"https://whois.sr/rdap/"
@@ -7,6 +9,9 @@
 	"nameServers": [
 		"ns1.nic.sr",
 		"ns2.nic.sr"
+	],
+	"languages": [
+		"nl-SR"
 	],
 	"tags": [
 		"country",

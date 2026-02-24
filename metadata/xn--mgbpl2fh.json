@@ -1,8 +1,16 @@
 {
 	"domain": "سودان",
+	"domainPunycode": "xn--mgbpl2fh",
+	"domainAscii": "sd",
+	"registryOperator": "Sudan Internet Society",
+	"countryName": "Sudan",
 	"nameServers": [
 		"ans1.sis.sd",
 		"pch.sis.sd"
+	],
+	"languages": [
+		"ar-SD",
+		"en-SD"
 	],
 	"tags": [
 		"country",

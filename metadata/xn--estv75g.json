@@ -1,6 +1,8 @@
 {
 	"domain": "工行",
+	"domainPunycode": "xn--estv75g",
 	"tags": [
+		"generic",
 		"retired"
 	]
 }

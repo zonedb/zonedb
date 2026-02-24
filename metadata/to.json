@@ -1,5 +1,7 @@
 {
 	"domain": "to",
+	"registryOperator": "Government of the Kingdom of Tonga, H.R.H. Crown Prince Tupouto'a, c/o Consulate of Tonga",
+	"countryName": "Tonga",
 	"infoURL": "https://www.tonic.to/",
 	"whoisServer": "whois.tonicregistry.to",
 	"rdapURLs": [
@@ -10,6 +12,10 @@
 		"ns01.trs-dns.net",
 		"ns10.trs-dns.info",
 		"ns10.trs-dns.org"
+	],
+	"languages": [
+		"en-TO",
+		"to-TO"
 	],
 	"tags": [
 		"country",

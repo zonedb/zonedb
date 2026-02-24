@@ -1,5 +1,10 @@
 {
 	"domain": "mn",
+	"domainIdn": [
+		"мон"
+	],
+	"registryOperator": "Datacom Co., Ltd.",
+	"countryName": "Mongolia",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
@@ -14,6 +19,9 @@
 		"ns2.magic.mn",
 		"ns3.magic.mn",
 		"ns4.magic.mn"
+	],
+	"languages": [
+		"mn-MN"
 	],
 	"tags": [
 		"country",

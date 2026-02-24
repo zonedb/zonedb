@@ -1,5 +1,10 @@
 {
 	"domain": "bg",
+	"domainIdn": [
+		"бг"
+	],
+	"registryOperator": "Register.BG",
+	"countryName": "Bulgaria",
 	"infoURL": "https://www.register.bg/user/",
 	"whoisServer": "whois.register.bg",
 	"nameServers": [

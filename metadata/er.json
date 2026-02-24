@@ -1,9 +1,16 @@
 {
 	"domain": "er",
+	"registryOperator": "Eritrea Telecommunication Services Corporation (EriTel)",
+	"countryName": "Eritrea",
 	"nameServers": [
 		"er.cctld.authdns.ripe.net",
 		"sawanew.noc.net.er",
 		"zaranew.noc.net.er"
+	],
+	"languages": [
+		"ar-ER",
+		"en-ER",
+		"ti-ER"
 	],
 	"tags": [
 		"closed",

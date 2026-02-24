@@ -1,5 +1,7 @@
 {
 	"domain": "bm",
+	"registryOperator": "Registry General Department, Ministry of Home Affairs",
+	"countryName": "Bermuda",
 	"infoURL": "https://www.bermudanic.bm/",
 	"whoisServer": "whois.nic.bm",
 	"rdapURLs": [
@@ -12,6 +14,9 @@
 		"b2.bm.afilias-nst.org",
 		"c0.bm.afilias-nst.info",
 		"d0.bm.afilias-nst.org"
+	],
+	"languages": [
+		"en-BM"
 	],
 	"tags": [
 		"country",

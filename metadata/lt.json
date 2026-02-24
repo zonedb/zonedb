@@ -1,5 +1,7 @@
 {
 	"domain": "lt",
+	"registryOperator": "Kaunas University of Technology",
+	"countryName": "Lithuania",
 	"whoisServer": "whois.domreg.lt",
 	"nameServers": [
 		"a.tld.lt",
@@ -8,6 +10,9 @@
 		"d.tld.lt",
 		"e.tld.lt",
 		"f.tld.lt"
+	],
+	"languages": [
+		"lt-LT"
 	],
 	"tags": [
 		"country",

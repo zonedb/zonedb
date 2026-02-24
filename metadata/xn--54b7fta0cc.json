@@ -1,9 +1,16 @@
 {
 	"domain": "বাংলা",
+	"domainPunycode": "xn--54b7fta0cc",
+	"domainAscii": "bd",
+	"registryOperator": "Posts and Telecommunications Division",
+	"countryName": "Bangladesh",
 	"nameServers": [
 		"bayanno.btcl.net.bd",
 		"bd-ns.anycast.pch.net",
 		"ekushey.btcl.net.bd"
+	],
+	"languages": [
+		"bn-BD"
 	],
 	"tags": [
 		"country",

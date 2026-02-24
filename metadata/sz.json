@@ -1,9 +1,15 @@
 {
 	"domain": "sz",
+	"registryOperator": "University of Swaziland\nDepartment of Computer Science",
+	"countryName": "Swaziland",
 	"nameServers": [
 		"ns1.sispa.org.sz",
 		"rip.psg.com",
 		"sz.cctld.authdns.ripe.net"
+	],
+	"languages": [
+		"en-SZ",
+		"ss-SZ"
 	],
 	"tags": [
 		"country",

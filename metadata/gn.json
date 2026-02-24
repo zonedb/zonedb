@@ -1,11 +1,16 @@
 {
 	"domain": "gn",
+	"registryOperator": "Centre National des Sciences Halieutiques de Boussoura",
+	"countryName": "Guinea",
 	"whoisServer": "whois.ande.gov.gn",
 	"nameServers": [
 		"fork.sth.dnsnode.net",
 		"ns-gn.afrinic.net",
 		"ns-pch.gn",
 		"ns1.gn"
+	],
+	"languages": [
+		"fr-GN"
 	],
 	"tags": [
 		"closed",

@@ -1,6 +1,10 @@
 {
 	"domain": "mf",
+	"countryName": "St. Martin",
 	"infoURL": "https://en.wikipedia.org/wiki/.mf",
+	"languages": [
+		"fr-MF"
+	],
 	"tags": [
 		"country",
 		"geo",

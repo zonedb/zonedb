@@ -1,5 +1,7 @@
 {
 	"domain": "kw",
+	"registryOperator": "Communications and Information Technology Regulatory Authority",
+	"countryName": "Kuwait",
 	"whoisURL": "http://www.kw/",
 	"nameServers": [
 		"a.nic.kw",
@@ -7,6 +9,9 @@
 		"c.nic.kw",
 		"d.nic.kw",
 		"pch.nic.kw"
+	],
+	"languages": [
+		"ar-KW"
 	],
 	"tags": [
 		"country",

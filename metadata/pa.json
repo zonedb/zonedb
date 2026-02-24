@@ -1,5 +1,7 @@
 {
 	"domain": "pa",
+	"registryOperator": "Universidad Tecnologica de Panama",
+	"countryName": "Panama",
 	"infoURL": "http://www.nic.pa/",
 	"whoisURL": "http://www.nic.pa/",
 	"nameServers": [
@@ -12,6 +14,9 @@
 		"ns2.anycastdns.cz",
 		"ns2.nic.pa",
 		"ssdns-tld.nic.cl"
+	],
+	"languages": [
+		"es-PA"
 	],
 	"tags": [
 		"country",
