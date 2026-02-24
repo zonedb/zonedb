@@ -282,6 +282,60 @@ func TestFetchIDNTablesFromCentralNic_StaleRemoval(t *testing.T) {
 	}
 }
 
+// TestFetchIDNTablesFromCentralNic_PreservesIndependentLanguages is a regression
+// test for the same bug as the IANA counterpart: languages not backed by any
+// CentralNic policy should survive stale-removal.
+func TestFetchIDNTablesFromCentralNic_PreservesIndependentLanguages(t *testing.T) {
+	srv := httptest.NewServer(centralNicTestHandler())
+	defer srv.Close()
+
+	origIndexURL := centralNicIndexURL
+	origBaseURL := centralNicBaseURL
+	centralNicIndexURL = srv.URL + "/idn-tables/"
+	centralNicBaseURL = srv.URL
+	defer func() {
+		centralNicIndexURL = origIndexURL
+		centralNicBaseURL = origBaseURL
+	}()
+
+	origIANABase := ianaBaseURL
+	defer func() { ianaBaseURL = origIANABase }()
+	ianaBaseURL = "https://www.iana.org"
+
+	// Pre-populate with a stale CentralNic policy + an independent language
+	staleCNSource := srv.URL + "/idn-tables/"
+	independentLang := "ru-RU"
+	zones := map[string]*Zone{
+		"best": {
+			Domain: "best",
+			Policies: []Policy{
+				{Type: TypeIDNTable, Key: "stale-lang", Value: srv.URL + "/stale", Source: staleCNSource},
+			},
+			Languages: []string{"stale-lang", independentLang},
+		},
+		"qpon": {Domain: "qpon"},
+	}
+
+	if err := FetchIDNTablesFromCentralNic(zones, nil); err != nil {
+		t.Fatalf("FetchIDNTablesFromCentralNic: %v", err)
+	}
+
+	langSet := make(map[string]bool)
+	for _, l := range zones["best"].Languages {
+		langSet[l] = true
+	}
+
+	// Independent language should be preserved
+	if !langSet[independentLang] {
+		t.Errorf("independent language %q was removed — languages = %v", independentLang, zones["best"].Languages)
+	}
+
+	// Stale language with no remaining policy should be removed
+	if langSet["stale-lang"] {
+		t.Errorf("stale language %q should have been removed — languages = %v", "stale-lang", zones["best"].Languages)
+	}
+}
+
 // TestIDNPipeline_IANAThenCentralNic runs the real pipeline order:
 // FetchIDNTablesFromIANA → FetchIDNTablesFromCentralNic, and verifies
 // that IANA data takes precedence, CentralNic supplements with new

@@ -138,24 +138,13 @@ func FetchIDNTablesFromCentralNic(zones map[string]*Zone, cache *ETagCache) erro
 		return err
 	}
 
-	// Phase 1: Clear stale CentralNic entries
+	// Phase 1: Clear stale CentralNic entries. Languages from other sources
+	// are preserved.
 	centralNicPrefix := centralNicBaseURL + "/"
 	for _, z := range zones {
-		var filtered []Policy
-		var nonCNLangs []string
-		for _, p := range z.Policies {
-			if p.Type == TypeIDNTable && strings.HasPrefix(p.Source, centralNicPrefix) {
-				continue
-			}
-			filtered = append(filtered, p)
-			if p.Type == TypeIDNTable && p.Key != "" {
-				nonCNLangs = append(nonCNLangs, p.Key)
-			}
-		}
-		if len(filtered) != len(z.Policies) {
-			z.Policies = filtered
-			z.Languages = nonCNLangs
-		}
+		z.PruneStalePolicies(func(p Policy) bool {
+			return p.Type == TypeIDNTable && strings.HasPrefix(p.Source, centralNicPrefix)
+		})
 	}
 
 	// Phase 2: Parse index, fetch detail pages

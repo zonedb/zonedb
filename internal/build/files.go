@@ -223,6 +223,7 @@ func writeMetadataFile(z *Zone, path string) (err error) {
 	}()
 	enc := json.NewEncoder(f)
 	enc.SetIndent("", "\t")
+	enc.SetEscapeHTML(false)
 	err = enc.Encode(&z)
 	return
 }

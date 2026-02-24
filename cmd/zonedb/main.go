@@ -243,6 +243,16 @@ func main() {
 		}
 	}
 
+	// IANA root DB index: registryOperator for all TLDs, domainPunycode,
+	// domainAscii/domainIdn mappings, and country tags.
+	if *updateICANN || *updateAll {
+		err := build.FetchRootDBIndex(workZones, cache)
+		if err != nil {
+			errs = append(errs, err)
+			build.LogError(err)
+		}
+	}
+
 	if *updateRubyWhois {
 		err := build.FetchRubyWhoisServers(workZones, addNew, cache)
 		if err != nil {
@@ -300,6 +310,18 @@ func main() {
 		build.ApplyIDNOverrides(workZones)
 
 		err = build.FetchIDNTablesFromCentralNic(workZones, cache)
+		if err != nil {
+			errs = append(errs, err)
+			build.LogError(err)
+		}
+	}
+
+	// CLDR territory metadata: languages and country names for ccTLDs.
+	// Runs after IDN tables so that CLDR-derived languages are additive
+	// to IDN-table-derived languages. Also runs with -update-icann since
+	// it depends on domainAscii set by FetchRootDBIndex.
+	if *updateIDN || *updateICANN || *updateAll {
+		err := build.FetchAndApplyCLDRMetadata(workZones, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)

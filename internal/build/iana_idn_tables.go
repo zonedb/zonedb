@@ -38,28 +38,16 @@ func FetchIDNTablesFromIANA(zones map[string]*Zone, cache *ETagCache) error {
 		return err
 	}
 
-	// Clear IANA-sourced IDN table policies and languages so that the
-	// IANA page is treated as the authoritative snapshot. Stale entries
-	// that IANA no longer lists will be removed and tracked via git
-	// history. Non-IANA entries (e.g. from registry operators) are
-	// preserved.
+	// Clear IANA-sourced IDN table policies so that the IANA page is
+	// treated as the authoritative snapshot. Stale entries that IANA no
+	// longer lists will be removed. Languages from other sources (CLDR,
+	// manual, etc.) are preserved.
 	ianaPrefix := ianaBaseURL + "/"
 	for _, z := range zones {
-		var filtered []Policy
-		var nonIANALangs []string
-		for _, p := range z.Policies {
-			if p.Type == TypeIDNTable && (strings.HasPrefix(p.Source, ianaPrefix) || (p.Source == "" && strings.HasPrefix(p.Value, ianaPrefix))) {
-				continue
-			}
-			filtered = append(filtered, p)
-			if p.Type == TypeIDNTable && p.Key != "" {
-				nonIANALangs = append(nonIANALangs, p.Key)
-			}
-		}
-		if len(filtered) != len(z.Policies) {
-			z.Policies = filtered
-			z.Languages = nonIANALangs
-		}
+		z.PruneStalePolicies(func(p Policy) bool {
+			return p.Type == TypeIDNTable &&
+				(strings.HasPrefix(p.Source, ianaPrefix) || (p.Source == "" && strings.HasPrefix(p.Value, ianaPrefix)))
+		})
 	}
 
 	var (
