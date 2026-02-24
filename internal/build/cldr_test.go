@@ -94,6 +94,16 @@ func TestTerritoryFromCCTLD(t *testing.T) {
 		{"uk", "GB"},
 		{"de", "DE"},
 		{"us", "US"},
+		// Defunct/historical → successor states
+		{"an", "CW"},
+		{"su", "RU"},
+		{"tp", "TL"},
+		{"yu", "RS"},
+		// Uninhabited → administering countries
+		{"ac", "SH"},
+		{"bv", "NO"},
+		{"hm", "AU"},
+		{"tf", "FR"},
 	}
 
 	for _, tt := range tests {

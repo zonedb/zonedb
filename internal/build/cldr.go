@@ -58,20 +58,69 @@ func (info *CLDRTerritoryInfo) OfficialLanguages(territory string) []string {
 	return langs
 }
 
-// ccTLDToTerritory maps ccTLD domains to ISO 3166 territory codes where
-// the mapping is not a simple uppercase transformation.
-var ccTLDToTerritory = map[string]string{
+// ccTLDLangTerritory maps ccTLD domains to ISO 3166 territory codes for
+// CLDR language lookup. These overrides point to territories that have
+// language data in CLDR, which may differ from the ccTLD's own territory.
+// Country names are derived separately (see CountryNameForCCTLD).
+var ccTLDLangTerritory = map[string]string{
 	"uk": "GB", // .uk → United Kingdom (ISO 3166: GB)
+
+	// Defunct/historical ccTLDs → successor states (for language data)
+	"an": "CW", // .an → Netherlands Antilles → Curaçao
+	"su": "RU", // .su → Soviet Union → Russia
+	"tp": "TL", // .tp → East Timor → Timor-Leste
+	"yu": "RS", // .yu → Yugoslavia → Serbia
+
+	// Uninhabited/minimal territories → administering countries (for language data)
+	"ac": "SH", // .ac → Ascension Island → Saint Helena
+	"bv": "NO", // .bv → Bouvet Island → Norway
+	"hm": "AU", // .hm → Heard & McDonald Islands → Australia
+	"tf": "FR", // .tf → French Southern Territories → France
 }
 
-// TerritoryFromCCTLD derives the ISO 3166 territory code from an ASCII ccTLD domain.
-// Most ccTLDs are simply the uppercased domain (e.g., "ru" → "RU"), with
-// exceptions like "uk" → "GB".
+// ccTLDCountryName provides explicit country names for defunct ccTLDs whose
+// ISO 3166 codes are not recognized by golang.org/x/text.
+var ccTLDCountryName = map[string]string{
+	"an": "Netherlands Antilles",
+	"su": "USSR",
+	"yu": "Yugoslavia",
+}
+
+// CCTLDsWithoutOfficialLanguages lists ASCII ccTLD domains whose territories
+// have no official languages in CLDR. These zones get countryName but not
+// languages. IDN ccTLDs inherit this via their domainAscii mapping.
+var CCTLDsWithoutOfficialLanguages = NewSet(
+	"aq", // Antarctica — no permanent population, no official language
+	"eu", // European Union — supranational; member states have their own ccTLDs
+)
+
+// TerritoryFromCCTLD derives the ISO 3166 territory code for CLDR language
+// lookup from an ASCII ccTLD domain. Most ccTLDs are simply the uppercased
+// domain (e.g., "ru" → "RU"), with overrides for territories where CLDR
+// has no language data under the direct code.
 func TerritoryFromCCTLD(domain string) string {
-	if t, ok := ccTLDToTerritory[domain]; ok {
+	if t, ok := ccTLDLangTerritory[domain]; ok {
 		return t
 	}
 	return strings.ToUpper(domain)
+}
+
+// CountryNameForCCTLD returns the country name for a ccTLD domain.
+// It prefers the ccTLD's own territorial identity (e.g., .tf → "French
+// Southern Territories") over the language-lookup override (which would
+// give "France"). For defunct ccTLDs whose codes are not in golang.org/x/text,
+// explicit names are provided via ccTLDCountryName.
+func CountryNameForCCTLD(domain string) string {
+	// Explicit override for defunct codes not in x/text
+	if name, ok := ccTLDCountryName[domain]; ok {
+		return name
+	}
+	// Try the ccTLD's own territory code first (preserves territorial identity)
+	if name := CountryName(strings.ToUpper(domain)); name != "" {
+		return name
+	}
+	// Fall back to the language-lookup territory
+	return CountryName(TerritoryFromCCTLD(domain))
 }
 
 // ComposeBCP47Tags composes BCP 47 language-region tags from a list of CLDR
@@ -158,23 +207,24 @@ func ApplyCLDRMetadata(zones map[string]*Zone, cldr *CLDRTerritoryInfo) {
 			continue
 		}
 
-		territory := TerritoryFromCCTLD(asciiDomain)
-
-		// Country name
-		if name := CountryName(territory); name != "" {
+		// Country name: use the ccTLD's own territorial identity
+		if name := CountryNameForCCTLD(asciiDomain); name != "" {
 			if z.CountryName == "" {
 				namesSet++
 			}
 			z.CountryName = name
 		}
 
+		// Language territory may differ (e.g., .tf → FR for French language data)
+		langTerritory := TerritoryFromCCTLD(asciiDomain)
+
 		// Official languages from CLDR
-		officialLangs := cldr.OfficialLanguages(territory)
+		officialLangs := cldr.OfficialLanguages(langTerritory)
 		if len(officialLangs) == 0 {
 			continue
 		}
 
-		bcp47Tags := ComposeBCP47Tags(officialLangs, territory)
+		bcp47Tags := ComposeBCP47Tags(officialLangs, langTerritory)
 		if len(bcp47Tags) == 0 {
 			continue
 		}
