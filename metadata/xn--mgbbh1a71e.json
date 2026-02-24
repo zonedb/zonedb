@@ -21,11 +21,6 @@
 		"IN-WB",
 		"IN-DL"
 	],
-	"languages": [
-		"en-IN",
-		"hi-IN",
-		"ur-IN"
-	],
 	"tags": [
 		"country",
 		"geo"

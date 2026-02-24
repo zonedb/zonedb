@@ -12,11 +12,6 @@
 		"ns10.trs-dns.info",
 		"ns10.trs-dns.org"
 	],
-	"languages": [
-		"en-IN",
-		"hi-IN",
-		"sa-IN"
-	],
 	"tags": [
 		"country",
 		"geo"

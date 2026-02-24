@@ -10,10 +10,6 @@
 		"ns2.bnnic.bn",
 		"ns4.apnic.net"
 	],
-	"languages": [
-		"ms-Arab-BN",
-		"ms-BN"
-	],
 	"tags": [
 		"country",
 		"geo"

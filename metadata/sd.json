@@ -18,10 +18,6 @@
 		"pch.sis.sd",
 		"sd.cctld.authdns.ripe.net"
 	],
-	"languages": [
-		"ar-SD",
-		"en-SD"
-	],
 	"tags": [
 		"country",
 		"geo"

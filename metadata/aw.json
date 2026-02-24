@@ -11,10 +11,6 @@
 		"ns3.dns.aw",
 		"ns4.dns.aw"
 	],
-	"languages": [
-		"nl-AW",
-		"pap-AW"
-	],
 	"tags": [
 		"country",
 		"geo"

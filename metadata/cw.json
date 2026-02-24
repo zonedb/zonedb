@@ -12,10 +12,6 @@
 		"ns1.dns.cw",
 		"ns2.bna.cw"
 	],
-	"languages": [
-		"nl-CW",
-		"pap-CW"
-	],
 	"tags": [
 		"country",
 		"geo"

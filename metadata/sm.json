@@ -9,9 +9,6 @@
 		"ns3.telecomitalia.sm",
 		"sm.cctld.authdns.ripe.net"
 	],
-	"languages": [
-		"it-SM"
-	],
 	"tags": [
 		"country",
 		"geo"

@@ -24,14 +24,11 @@
 	"languages": [
 		"de",
 		"fr",
-		"hak-Hant-TW",
 		"ja",
 		"ko",
-		"nan-Hant-TW",
 		"th",
 		"zh",
-		"zh-Hant",
-		"zh-Hant-TW"
+		"zh-Hant"
 	],
 	"tags": [
 		"country",

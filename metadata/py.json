@@ -11,9 +11,7 @@
 		"u.dns.py"
 	],
 	"languages": [
-		"es-PY",
-		"gn",
-		"gn-PY"
+		"gn"
 	],
 	"tags": [
 		"closed",

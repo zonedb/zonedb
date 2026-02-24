@@ -16,11 +16,6 @@
 		"ns3.ricta.org.rw",
 		"pch.ricta.org.rw"
 	],
-	"languages": [
-		"en-RW",
-		"fr-RW",
-		"rw-RW"
-	],
 	"tags": [
 		"country",
 		"geo"

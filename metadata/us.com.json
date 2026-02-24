@@ -10,11 +10,6 @@
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
 	],
-	"languages": [
-		"he",
-		"mul-Cans",
-		"mul-Cyrl"
-	],
 	"tags": [
 		"private"
 	],

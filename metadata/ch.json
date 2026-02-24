@@ -13,12 +13,6 @@
 		"e.nic.ch",
 		"f.nic.ch"
 	],
-	"languages": [
-		"de-CH",
-		"fr-CH",
-		"gsw-CH",
-		"it-CH"
-	],
 	"tags": [
 		"country",
 		"geo"

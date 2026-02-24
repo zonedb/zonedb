@@ -9,10 +9,6 @@
 		"ns3.intrans.az",
 		"rip.psg.com"
 	],
-	"languages": [
-		"az-AZ",
-		"az-Cyrl-AZ"
-	],
 	"tags": [
 		"country",
 		"geo"

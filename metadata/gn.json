@@ -9,9 +9,6 @@
 		"ns-pch.gn",
 		"ns1.gn"
 	],
-	"languages": [
-		"fr-GN"
-	],
 	"tags": [
 		"closed",
 		"country",

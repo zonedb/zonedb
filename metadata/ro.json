@@ -11,9 +11,6 @@
 		"sec-dns-a.rotld.ro",
 		"sec-dns-b.rotld.ro"
 	],
-	"languages": [
-		"ro-RO"
-	],
 	"tags": [
 		"country",
 		"geo"

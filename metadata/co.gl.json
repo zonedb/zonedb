@@ -7,9 +7,6 @@
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
 	],
-	"languages": [
-		"gl"
-	],
 	"policies": [
 		{
 			"type": "idn-table",

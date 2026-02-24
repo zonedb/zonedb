@@ -1,10 +1,6 @@
 {
 	"domain": "tp",
 	"countryName": "Timor-Leste",
-	"languages": [
-		"pt-TL",
-		"tet-TL"
-	],
 	"tags": [
 		"country",
 		"geo",

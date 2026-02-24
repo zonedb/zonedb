@@ -11,10 +11,6 @@
 		"ns1.nic.kz",
 		"ns2.nic.kz"
 	],
-	"languages": [
-		"kk-KZ",
-		"ru-KZ"
-	],
 	"tags": [
 		"country",
 		"geo"

@@ -15,9 +15,6 @@
 		"ns1.registry.om",
 		"ns2.registry.om"
 	],
-	"languages": [
-		"ar-OM"
-	],
 	"tags": [
 		"country",
 		"geo"

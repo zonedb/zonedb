@@ -11,11 +11,6 @@
 		"ns1.dns.lu",
 		"p.dns.lu"
 	],
-	"languages": [
-		"de-LU",
-		"fr-LU",
-		"lb-LU"
-	],
 	"tags": [
 		"country",
 		"geo"

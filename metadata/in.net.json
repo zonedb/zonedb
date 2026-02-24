@@ -12,10 +12,6 @@
 		"ns3.nic.in.net",
 		"ns4.nic.in.net"
 	],
-	"languages": [
-		"he",
-		"mul-Cyrl"
-	],
 	"policies": [
 		{
 			"type": "idn-table",
