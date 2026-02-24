@@ -24,12 +24,12 @@ func TestLanguages(t *testing.T) {
 		domain string
 		want   []string
 	}{
-		{"us", nil},
-		{"中国", []string{"zh-Hans-CN"}},
-		{"中國", []string{"zh-Hant-CN"}},
-		{"台湾", []string{"zh-Hans-TW"}},
-		{"台灣", []string{"zh-Hant-TW"}},
-		{"香港", []string{"zh-Hans-HK"}},
+		{"us", []string{"en-US"}},
+		{"中国", []string{"zh-CN", "zh-Hans-CN"}},
+		{"中國", []string{"zh-CN", "zh-Hant-CN"}},
+		{"台湾", []string{"hak-Hant-TW", "nan-Hant-TW", "zh-Hans-TW", "zh-Hant-TW"}},
+		{"台灣", []string{"hak-Hant-TW", "nan-Hant-TW", "zh-Hant-TW"}},
+		{"香港", []string{"en-HK", "zh-Hans-HK", "zh-Hant-HK"}},
 	}
 
 	for _, tt := range tests {
