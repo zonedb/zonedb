@@ -106,15 +106,6 @@ func TestMetadataLanguageTagsValid(t *testing.T) {
 	t.Logf("validated %d language tags across %d zones", checked, len(zones))
 }
 
-// asciiCCTLD returns the ASCII ccTLD domain for a zone, used for exception
-// lookups. For IDN ccTLDs this is domainAscii; for ASCII ccTLDs it's the
-// domain itself.
-func asciiCCTLD(z *Zone) string {
-	if z.DomainAscii != "" {
-		return z.DomainAscii
-	}
-	return z.Domain
-}
 
 // TestMetadataCCTLDsHaveCountryName validates that every country-code TLD has
 // a countryName populated.
@@ -148,7 +139,7 @@ func TestMetadataCCTLDsHaveLanguages(t *testing.T) {
 		if !z.IsTLD() || !NewSet(z.Tags...)[TagCountry] {
 			continue
 		}
-		if CCTLDsWithoutOfficialLanguages[asciiCCTLD(z)] {
+		if CCTLDsWithoutOfficialLanguages[z.ASCIICcTLD()] {
 			skipped++
 			continue
 		}

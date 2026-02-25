@@ -289,10 +289,11 @@ func idnScriptCountsByTerritory(zones map[string]*Zone) map[string]int {
 			continue
 		}
 		tags := NewSet(z.Tags...)
-		if !tags[TagCountry] || z.DomainAscii == "" {
+		asciiDomain := z.ASCIICcTLD()
+		if !tags[TagCountry] || asciiDomain == "" {
 			continue
 		}
-		territory := TerritoryFromCCTLD(z.DomainAscii)
+		territory := TerritoryFromCCTLD(asciiDomain)
 		script := dominantNonHanScript(z.Domain)
 		if script != "" {
 			counts[territory+":"+script]++
@@ -469,20 +470,14 @@ func ApplyCLDRMetadata(zones map[string]*Zone, cldr *CLDRTerritoryInfo) {
 			continue
 		}
 
-		// Determine the ASCII ccTLD domain for territory lookup
-		var asciiDomain string
 		tags := NewSet(z.Tags...)
 		if !tags[TagCountry] {
 			continue
 		}
 
-		if z.DomainAscii != "" {
-			// IDN ccTLD — use the linked ASCII domain
-			asciiDomain = z.DomainAscii
-		} else if !z.IsIDN() {
-			// ASCII ccTLD
-			asciiDomain = z.Domain
-		} else {
+		// Determine the ASCII ccTLD domain for territory lookup
+		asciiDomain := z.ASCIICcTLD()
+		if asciiDomain == "" {
 			continue
 		}
 

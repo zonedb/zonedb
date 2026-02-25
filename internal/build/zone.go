@@ -252,6 +252,19 @@ func (z *Zone) ParentDomain() string {
 	return strings.Join(labels[1:], ".")
 }
 
+// ASCIICcTLD returns the ASCII ccTLD domain for territory lookups.
+// For IDN ccTLDs, this is DomainAscii. For ASCII ccTLDs, it's the Domain itself.
+// Returns "" for IDN zones that don't have a DomainAscii mapping.
+func (z *Zone) ASCIICcTLD() string {
+	if z.DomainAscii != "" {
+		return z.DomainAscii
+	}
+	if !z.IsIDN() {
+		return z.Domain
+	}
+	return ""
+}
+
 // IsTLD returns true if z is a TLD.
 func (z *Zone) IsTLD() bool {
 	return !strings.Contains(z.Domain, ".")
