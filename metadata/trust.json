@@ -2,7 +2,7 @@
 	"domain": "trust",
 	"registryOperator": "Internet Naming Co.",
 	"infoURL": "https://uniregistry.link/extensions/trust/",
-	"whoisServer": "whois.tucowsregistry.net",
+	"whoisServer": "whois.nic.trust",
 	"rdapURLs": [
 		"https://rdap.tucowsregistry.net/rdap/"
 	],

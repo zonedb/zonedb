@@ -7,10 +7,6 @@
 		"https://rdap.centralnic.com/kfh/"
 	],
 	"nameServers": [
-		"a.nic.kfh",
-		"b.nic.kfh",
-		"c.nic.kfh",
-		"d.nic.kfh",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
 		"ns10.trs-dns.info",

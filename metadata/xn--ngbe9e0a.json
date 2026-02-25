@@ -8,10 +8,6 @@
 		"https://rdap.centralnic.com/xn--ngbe9e0a/"
 	],
 	"nameServers": [
-		"a.nic.بيتك",
-		"b.nic.بيتك",
-		"c.nic.بيتك",
-		"d.nic.بيتك",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
 		"ns10.trs-dns.info",
