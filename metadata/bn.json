@@ -1,5 +1,7 @@
 {
 	"domain": "bn",
+	"registryOperator": "Authority for Info-communications Technology Industry of Brunei Darussalam (AITI)",
+	"countryName": "Brunei",
 	"infoURL": "https://www.iana.org/domains/root/db/bn.html",
 	"whoisServer": "whois.bnnic.bn",
 	"nameServers": [

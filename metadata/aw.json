@@ -1,5 +1,7 @@
 {
 	"domain": "aw",
+	"registryOperator": "SETAR",
+	"countryName": "Aruba",
 	"infoURL": "https://www.setarnet.aw/",
 	"whoisServer": "whois.nic.aw",
 	"nameServers": [

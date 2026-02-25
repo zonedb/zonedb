@@ -1,6 +1,7 @@
 {
 	"domain": "新闻",
-	"registryOperator": "Guangzhou YU Wei Information Technology Co., Ltd.",
+	"domainPunycode": "xn--efvy88h",
+	"registryOperator": "Guangzhou YU Wei Information and Technology Co.,Ltd",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--efvy88h",
 	"whoisServer": "whois.nic.新闻",
 	"rdapURLs": [
@@ -19,6 +20,9 @@
 	"languages": [
 		"zh-Hans",
 		"zh-Hant"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

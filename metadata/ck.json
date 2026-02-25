@@ -1,6 +1,7 @@
 {
 	"domain": "ck",
-	"registryOperator": "Telecom Cook Islands",
+	"registryOperator": "Telecom Cook Islands Ltd.",
+	"countryName": "Cook Islands",
 	"infoURL": "https://www.vodafone.co.ck/domain-admin-policy",
 	"nameServers": [
 		"circa.mcs.vuw.ac.nz",

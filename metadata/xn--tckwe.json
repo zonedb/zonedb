@@ -1,5 +1,6 @@
 {
 	"domain": "コム",
+	"domainPunycode": "xn--tckwe",
 	"registryOperator": "VeriSign Sarl",
 	"whoisServer": "whois.nic.コム",
 	"rdapURLs": [
@@ -109,6 +110,9 @@
 		"ru",
 		"uk",
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

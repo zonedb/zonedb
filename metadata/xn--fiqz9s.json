@@ -1,5 +1,9 @@
 {
 	"domain": "中國",
+	"domainPunycode": "xn--fiqz9s",
+	"domainAscii": "cn",
+	"registryOperator": "China Internet Network Information Center (CNNIC)",
+	"countryName": "China",
 	"infoURL": "https://wanwang.aliyun.com/hosting/cn_domain",
 	"whoisServer": "whois.cnnic.cn",
 	"nameServers": [

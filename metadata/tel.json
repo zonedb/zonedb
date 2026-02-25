@@ -1,6 +1,6 @@
 {
 	"domain": "tel",
-	"registryOperator": "Telnames Limited",
+	"registryOperator": "Telnames Ltd.",
 	"whoisServer": "whois.nic.tel",
 	"rdapURLs": [
 		"https://rdap.nic.tel/"

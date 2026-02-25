@@ -1,5 +1,7 @@
 {
 	"domain": "gy",
+	"registryOperator": "University of Guyana",
+	"countryName": "Guyana",
 	"whoisServer": "whois.registry.gy",
 	"rdapURLs": [
 		"https://rdap.registry.gy/"

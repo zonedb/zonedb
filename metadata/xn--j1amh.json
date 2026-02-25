@@ -1,5 +1,9 @@
 {
 	"domain": "укр",
+	"domainPunycode": "xn--j1amh",
+	"domainAscii": "ua",
+	"registryOperator": "Ukrainian Network Information Centre (UANIC), Inc.",
+	"countryName": "Ukraine",
 	"infoURL": "http://uanic.net/",
 	"whoisServer": "whois.dotukr.com",
 	"nameServers": [
@@ -11,8 +15,6 @@
 		"ukr.ukrnames.ua"
 	],
 	"languages": [
-		"crh-UA",
-		"mul-Cyrl-UA",
 		"ru-UA",
 		"uk-UA"
 	],

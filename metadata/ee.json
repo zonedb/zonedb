@@ -1,5 +1,7 @@
 {
 	"domain": "ee",
+	"registryOperator": "Eesti Interneti Sihtasutus (EIS)",
+	"countryName": "Estonia",
 	"whoisServer": "whois.tld.ee",
 	"nameServers": [
 		"b.tld.ee",

@@ -1,5 +1,7 @@
 {
 	"domain": "ao",
+	"registryOperator": "Ministry of Telecommunications and Information Technologies (MTTI)",
+	"countryName": "Angola",
 	"infoURL": "https://www.dns.ao/ao/",
 	"nameServers": [
 		"a.ns.ao",

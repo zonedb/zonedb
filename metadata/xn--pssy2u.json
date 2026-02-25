@@ -1,5 +1,6 @@
 {
 	"domain": "大拿",
+	"domainPunycode": "xn--pssy2u",
 	"registryOperator": "VeriSign Sarl",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--pssy2u",
 	"whoisServer": "whois.nic.大拿",
@@ -110,6 +111,9 @@
 		"ru",
 		"uk",
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

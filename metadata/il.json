@@ -1,5 +1,10 @@
 {
 	"domain": "il",
+	"domainIdn": [
+		"ישראל"
+	],
+	"registryOperator": "The Israel Internet Association (RA)",
+	"countryName": "Israel",
 	"infoURL": "https://www.isoc.org.il/domain-name-registry",
 	"whoisServer": "whois.isoc.org.il",
 	"nameServers": [

@@ -1,5 +1,9 @@
 {
 	"domain": "ভাৰত",
+	"domainPunycode": "xn--45br5cyl",
+	"domainAscii": "in",
+	"registryOperator": "National Internet eXchange of India",
+	"countryName": "India",
 	"infoURL": "https://www.registry.in/",
 	"whoisServer": "whois.nixiregistry.in",
 	"nameServers": [
@@ -12,9 +16,6 @@
 		"IN-AS",
 		"IN-AR",
 		"IN-NL"
-	],
-	"languages": [
-		"as-IN"
 	],
 	"tags": [
 		"country",

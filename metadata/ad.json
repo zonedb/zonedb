@@ -1,5 +1,7 @@
 {
 	"domain": "ad",
+	"registryOperator": "Andorra Telecom",
+	"countryName": "Andorra",
 	"infoURL": "https://www.iana.org/domains/root/db/ad.html",
 	"whoisServer": "whois.nic.ad",
 	"rdapURLs": [

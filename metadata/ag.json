@@ -1,5 +1,7 @@
 {
 	"domain": "ag",
+	"registryOperator": "UHSA School of Medicine",
+	"countryName": "Antigua & Barbuda",
 	"infoURL": "https://www.nic.ag/",
 	"whoisServer": "whois.nic.ag",
 	"rdapURLs": [

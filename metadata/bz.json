@@ -1,5 +1,7 @@
 {
 	"domain": "bz",
+	"registryOperator": "University of Belize",
+	"countryName": "Belize",
 	"infoURL": "https://www.belizenic.bz/",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"

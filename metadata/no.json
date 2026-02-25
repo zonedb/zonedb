@@ -1,5 +1,7 @@
 {
 	"domain": "no",
+	"registryOperator": "Norid A/S",
+	"countryName": "Norway",
 	"whoisServer": "whois.norid.no",
 	"rdapURLs": [
 		"https://rdap.norid.no/"

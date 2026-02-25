@@ -1,5 +1,7 @@
 {
 	"domain": "hu",
+	"registryOperator": "Council of Hungarian Internet Providers (CHIP)",
+	"countryName": "Hungary",
 	"whoisServer": "whois.nic.hu",
 	"nameServers": [
 		"a.hu",
@@ -9,6 +11,9 @@
 		"e.hu",
 		"f.hu",
 		"p.hu"
+	],
+	"languages": [
+		"hu-HU"
 	],
 	"tags": [
 		"country",

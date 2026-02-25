@@ -1,5 +1,7 @@
 {
 	"domain": "al",
+	"registryOperator": "Electronic and Postal Communications Authority - AKEP",
+	"countryName": "Albania",
 	"infoURL": "https://www.iana.org/domains/root/db/al.html",
 	"whoisURL": "http://www.akep.al/sq/kerkoni-domain",
 	"nameServers": [

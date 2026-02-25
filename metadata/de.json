@@ -1,5 +1,7 @@
 {
 	"domain": "de",
+	"registryOperator": "DENIC eG",
+	"countryName": "Germany",
 	"infoURL": "https://www.denic.de/",
 	"whoisServer": "whois.denic.de",
 	"rdapURLs": [
@@ -12,6 +14,9 @@
 		"n.de.net",
 		"s.de.net",
 		"z.nic.de"
+	],
+	"languages": [
+		"mul-Latn"
 	],
 	"tags": [
 		"country",

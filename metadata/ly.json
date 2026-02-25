@@ -1,5 +1,7 @@
 {
 	"domain": "ly",
+	"registryOperator": "General Authority of Communications and Informatics (GACI)",
+	"countryName": "Libya",
 	"infoURL": "https://nic.ly/",
 	"whoisServer": "whois.nic.ly",
 	"rdapURLs": [

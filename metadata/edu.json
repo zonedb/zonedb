@@ -1,5 +1,6 @@
 {
 	"domain": "edu",
+	"registryOperator": "EDUCAUSE",
 	"whoisServer": "whois.educause.net",
 	"nameServers": [
 		"a.edu-servers.net",

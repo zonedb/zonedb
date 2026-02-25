@@ -1,5 +1,10 @@
 {
 	"domain": "th",
+	"domainIdn": [
+		"ไทย"
+	],
+	"registryOperator": "Thai Network Information Center Foundation",
+	"countryName": "Thailand",
 	"infoURL": "https://www.thnic.co.th/",
 	"whoisServer": "whois.thnic.net",
 	"rdapURLs": [

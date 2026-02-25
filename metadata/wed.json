@@ -1,5 +1,6 @@
 {
 	"domain": "wed",
+	"registryOperator": "Emergency Back-End Registry Operator Program - ICANN",
 	"infoURL": "https://www.icann.org/resources/pages/ebero-2013-04-02-en",
 	"rdapURLs": [
 		"https://rdap.nominet.uk/wed/"

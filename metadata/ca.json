@@ -1,5 +1,7 @@
 {
 	"domain": "ca",
+	"registryOperator": "Canadian Internet Registration Authority (CIRA) Autorité Canadienne pour les enregistrements Internet (ACEI)",
+	"countryName": "Canada",
 	"whoisServer": "whois.cira.ca",
 	"rdapURLs": [
 		"https://rdap.ca.fury.ca/rdap/"

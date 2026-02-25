@@ -1,5 +1,10 @@
 {
 	"domain": "jo",
+	"domainIdn": [
+		"الاردن"
+	],
+	"registryOperator": "Ministry of Digital Economy and Entrepreneurship (MoDEE)",
+	"countryName": "Jordan",
 	"whoisURL": "http://www.dns.jo/Whois.aspx",
 	"nameServers": [
 		"b.cctld-servers.net.jo",

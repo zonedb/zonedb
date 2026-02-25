@@ -1,5 +1,7 @@
 {
 	"domain": "az",
+	"registryOperator": "IntraNS",
+	"countryName": "Azerbaijan",
 	"infoURL": "https://www.nic.az/",
 	"nameServers": [
 		"az.hostmaster.ua",

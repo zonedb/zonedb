@@ -1,5 +1,6 @@
 {
 	"domain": "点看",
+	"domainPunycode": "xn--3pxu8k",
 	"registryOperator": "VeriSign Sarl",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--3pxu8k",
 	"whoisServer": "whois.nic.点看",
@@ -110,6 +111,9 @@
 		"ru",
 		"uk",
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

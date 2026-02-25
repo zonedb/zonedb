@@ -1,5 +1,7 @@
 {
 	"domain": "gd",
+	"registryOperator": "The National Telecommunications Regulatory Commission (NTRC)",
+	"countryName": "Grenada",
 	"whoisServer": "whois.nic.gd",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/gd/"

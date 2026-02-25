@@ -1,5 +1,7 @@
 {
 	"domain": "ax",
+	"registryOperator": "Ålands landskapsregering",
+	"countryName": "Åland Islands",
 	"infoURL": "https://whois.ax/",
 	"whoisServer": "whois.ax",
 	"nameServers": [

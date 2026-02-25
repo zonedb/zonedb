@@ -1,5 +1,7 @@
 {
 	"domain": "uz",
+	"registryOperator": "Single Integrator for Creation and Support of State Information Systems UZINFOCOM",
+	"countryName": "Uzbekistan",
 	"whoisServer": "whois.cctld.uz",
 	"rdapURLs": [
 		"https://rdap.cctld.uz/"

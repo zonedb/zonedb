@@ -1,5 +1,6 @@
 {
 	"domain": "餐厅",
+	"domainPunycode": "xn--imr513n",
 	"registryOperator": "Internet DotTrademark Organisation Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--imr513n",
 	"rdapURLs": [
@@ -18,6 +19,9 @@
 	"languages": [
 		"zh-Hans",
 		"zh-Hant"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

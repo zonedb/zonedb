@@ -1,5 +1,7 @@
 {
 	"domain": "gi",
+	"registryOperator": "Sapphire Networks",
+	"countryName": "Gibraltar",
 	"whoisServer": "whois.identitydigital.services",
 	"nameServers": [
 		"a0.cctld.afilias-nst.info",

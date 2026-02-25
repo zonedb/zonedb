@@ -1,5 +1,7 @@
 {
 	"domain": "na",
+	"registryOperator": "Namibian Network Information Center",
+	"countryName": "Namibia",
 	"rdapURLs": [
 		"https://keetmans.omadhina.co.na/"
 	],

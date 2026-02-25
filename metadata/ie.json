@@ -1,5 +1,7 @@
 {
 	"domain": "ie",
+	"registryOperator": "University College Dublin, Computing Services, Computer Centre",
+	"countryName": "Ireland",
 	"infoURL": "https://www.weare.ie/",
 	"whoisServer": "whois.domainregistry.ie",
 	"nameServers": [
@@ -9,6 +11,9 @@
 		"e.ns.ie",
 		"h.ns.ie",
 		"i.ns.ie"
+	],
+	"languages": [
+		"en-IE"
 	],
 	"tags": [
 		"country",

@@ -15,7 +15,11 @@ import (
 // Zone represents a build-time DNS zone (public suffix).
 type Zone struct {
 	Domain           string   `json:"domain,omitempty"`
+	DomainPunycode   string   `json:"domainPunycode,omitempty"`
+	DomainAscii      string   `json:"domainAscii,omitempty"`
+	DomainIdn        []string `json:"domainIdn,omitempty"`
 	RegistryOperator string   `json:"registryOperator,omitempty"`
+	CountryName      string   `json:"countryName,omitempty"`
 	InfoURL          string   `json:"infoURL,omitempty"`
 	WhoisServer      string   `json:"whoisServer,omitempty"`
 	WhoisURL         string   `json:"whoisURL,omitempty"`
@@ -151,6 +155,39 @@ func (z *Zone) RemoveTags(tags ...string) int {
 	return d
 }
 
+// PruneStalePolicies removes IDN table policies matching isStale, then prunes
+// any languages that were only backed by removed policies. Languages backed by
+// remaining policies or set independently (e.g. from CLDR) are preserved.
+func (z *Zone) PruneStalePolicies(isStale func(Policy) bool) {
+	var filtered []Policy
+	removedLangs := NewSet()
+	keptLangs := NewSet()
+	for _, p := range z.Policies {
+		if isStale(p) {
+			if p.Key != "" {
+				removedLangs.Add(p.Key)
+			}
+			continue
+		}
+		filtered = append(filtered, p)
+		if p.Type == TypeIDNTable && p.Key != "" {
+			keptLangs.Add(p.Key)
+		}
+	}
+	if len(filtered) == len(z.Policies) {
+		return // nothing removed
+	}
+	z.Policies = filtered
+	var langs []string
+	for _, l := range z.Languages {
+		if removedLangs[l] && !keptLangs[l] {
+			continue
+		}
+		langs = append(langs, l)
+	}
+	z.Languages = langs
+}
+
 // AddPolicy adds a single policy to Zone z.
 func (z *Zone) AddPolicy(ptype, key, value, source, comment string) {
 	if ptype == "" {
@@ -213,6 +250,19 @@ func (z *Zone) ParentDomain() string {
 		return ""
 	}
 	return strings.Join(labels[1:], ".")
+}
+
+// ASCIICcTLD returns the ASCII ccTLD domain for territory lookups.
+// For IDN ccTLDs, this is DomainAscii. For ASCII ccTLDs, it's the Domain itself.
+// Returns "" for IDN zones that don't have a DomainAscii mapping.
+func (z *Zone) ASCIICcTLD() string {
+	if z.DomainAscii != "" {
+		return z.DomainAscii
+	}
+	if !z.IsIDN() {
+		return z.Domain
+	}
+	return ""
 }
 
 // IsTLD returns true if z is a TLD.

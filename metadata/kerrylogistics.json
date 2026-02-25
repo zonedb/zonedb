@@ -5,6 +5,7 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"tags": [
+		"generic",
 		"retired"
 	]
 }

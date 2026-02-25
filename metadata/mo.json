@@ -1,5 +1,10 @@
 {
 	"domain": "mo",
+	"domainIdn": [
+		"澳門"
+	],
+	"registryOperator": "Macao Post and Telecommunications Bureau (CTT)",
+	"countryName": "Macau SAR China",
 	"whoisServer": "whois.monic.mo",
 	"nameServers": [
 		"a.monic.mo",

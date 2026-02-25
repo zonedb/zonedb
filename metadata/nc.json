@@ -1,5 +1,7 @@
 {
 	"domain": "nc",
+	"registryOperator": "Office des Postes et Telecommunications",
+	"countryName": "New Caledonia",
 	"whoisServer": "whois.nc",
 	"nameServers": [
 		"any-ns1.nc",

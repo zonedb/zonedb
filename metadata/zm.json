@@ -1,5 +1,7 @@
 {
 	"domain": "zm",
+	"registryOperator": "Zambia Information and Communications Technology Authority (ZICTA)",
+	"countryName": "Zambia",
 	"whoisServer": "whois.zicta.zm",
 	"rdapURLs": [
 		"https://rdap.nic.zm/"

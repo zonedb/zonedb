@@ -1,5 +1,7 @@
 {
 	"domain": "ss",
+	"registryOperator": "National Communication Authority (NCA)",
+	"countryName": "South Sudan",
 	"whoisServer": "whois.nic.ss",
 	"rdapURLs": [
 		"https://rdap.nic.ss/"
@@ -8,5 +10,9 @@
 		"ns-ss.afrinic.net",
 		"pch.nic.ss",
 		"ssnic.anycastdns.cz"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

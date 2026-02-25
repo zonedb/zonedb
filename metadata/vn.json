@@ -1,5 +1,7 @@
 {
 	"domain": "vn",
+	"registryOperator": "Viet Nam Internet Network Information Center (VNNIC)",
+	"countryName": "Vietnam",
 	"whoisURL": "http://www.vnnic.vn/en/domain",
 	"nameServers": [
 		"a.dns-servers.vn",
@@ -10,6 +12,9 @@
 		"f.dns-servers.vn",
 		"g.dns-servers.vn",
 		"h.dns-servers.vn"
+	],
+	"languages": [
+		"vi-VN"
 	],
 	"tags": [
 		"country",

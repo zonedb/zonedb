@@ -1,5 +1,9 @@
 {
 	"domain": "台灣",
+	"domainPunycode": "xn--kpry57d",
+	"domainAscii": "tw",
+	"registryOperator": "Taiwan Network Information Center (TWNIC)",
+	"countryName": "Taiwan",
 	"whoisServer": "whois.twnic.net.tw",
 	"rdapURLs": [
 		"https://ccrdap.twnic.tw/taiwan/"

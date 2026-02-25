@@ -1,5 +1,7 @@
 {
 	"domain": "kn",
+	"registryOperator": "Ministry of Finance, Sustainable Development Information & Technology",
+	"countryName": "St. Kitts & Nevis",
 	"infoURL": "https://www.nic.kn/",
 	"whoisServer": "whois.nic.kn",
 	"nameServers": [

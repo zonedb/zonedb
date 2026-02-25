@@ -1,5 +1,7 @@
 {
 	"domain": "nf",
+	"registryOperator": "Norfolk Island Data Services",
+	"countryName": "Norfolk Island",
 	"whoisServer": "whois.nic.nf",
 	"rdapURLs": [
 		"https://rdap.nic.nf/"

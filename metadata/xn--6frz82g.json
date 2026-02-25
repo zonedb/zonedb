@@ -1,6 +1,7 @@
 {
 	"domain": "移动",
-	"registryOperator": "Identity Digital Domains Limited",
+	"domainPunycode": "xn--6frz82g",
+	"registryOperator": "Identity Digital Limited",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
@@ -39,6 +40,9 @@
 		"sv",
 		"uk",
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

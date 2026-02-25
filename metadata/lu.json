@@ -1,5 +1,7 @@
 {
 	"domain": "lu",
+	"registryOperator": "RESTENA",
+	"countryName": "Luxembourg",
 	"whoisServer": "whois.dns.lu",
 	"nameServers": [
 		"g.dns.lu",

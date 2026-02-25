@@ -1,5 +1,7 @@
 {
 	"domain": "ai",
+	"registryOperator": "Government of Anguilla",
+	"countryName": "Anguilla",
 	"infoURL": "http://nic.com.ai/",
 	"whoisServer": "whois.nic.ai",
 	"rdapURLs": [

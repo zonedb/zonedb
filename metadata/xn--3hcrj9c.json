@@ -1,5 +1,9 @@
 {
 	"domain": "ଭାରତ",
+	"domainPunycode": "xn--3hcrj9c",
+	"domainAscii": "in",
+	"registryOperator": "National Internet eXchange of India",
+	"countryName": "India",
 	"infoURL": "https://www.registry.in/",
 	"whoisServer": "whois.nixiregistry.in",
 	"nameServers": [

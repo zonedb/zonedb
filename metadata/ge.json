@@ -1,5 +1,10 @@
 {
 	"domain": "ge",
+	"domainIdn": [
+		"გე"
+	],
+	"registryOperator": "Caucasus Online LLC",
+	"countryName": "Georgia",
 	"infoURL": "https://nic.ge/",
 	"whoisServer": "whois.nic.ge",
 	"nameServers": [

@@ -1,5 +1,7 @@
 {
 	"domain": "fk",
+	"registryOperator": "Falkland Islands Government",
+	"countryName": "Falkland Islands",
 	"whoisURL": "http://whois.marcaria.com/",
 	"nameServers": [
 		"ns1.horizon.net.fk",

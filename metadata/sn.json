@@ -1,5 +1,7 @@
 {
 	"domain": "sn",
+	"registryOperator": "Universite Cheikh Anta Diop",
+	"countryName": "Senegal",
 	"whoisServer": "whois.nic.sn",
 	"nameServers": [
 		"dns-tld.ird.fr",

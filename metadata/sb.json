@@ -1,5 +1,7 @@
 {
 	"domain": "sb",
+	"registryOperator": "Solomon Telekom Company Limited",
+	"countryName": "Solomon Islands",
 	"nameServers": [
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz",

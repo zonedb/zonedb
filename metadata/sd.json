@@ -1,5 +1,10 @@
 {
 	"domain": "sd",
+	"domainIdn": [
+		"سودان"
+	],
+	"registryOperator": "Sudan Internet Society",
+	"countryName": "Sudan",
 	"whoisServer": "whois.nic.sd",
 	"rdapURLs": [
 		"https://rdap.nic.sd/"

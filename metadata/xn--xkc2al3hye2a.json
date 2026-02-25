@@ -1,5 +1,9 @@
 {
 	"domain": "இலங்கை",
+	"domainPunycode": "xn--xkc2al3hye2a",
+	"domainAscii": "lk",
+	"registryOperator": "LK Domain Registry",
+	"countryName": "Sri Lanka",
 	"infoURL": "https://www.iana.org/domains/root/db/xn--xkc2al3hye2a.html",
 	"nameServers": [
 		"h.nic.lk",
@@ -8,6 +12,9 @@
 		"p.nic.lk",
 		"t.nic.lk",
 		"y.nic.lk"
+	],
+	"languages": [
+		"ta-LK"
 	],
 	"tags": [
 		"country",

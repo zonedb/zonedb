@@ -1,5 +1,6 @@
 {
 	"domain": "書籍",
+	"domainPunycode": "xn--rovu88b",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.書籍/",
 	"rdapURLs": [
@@ -32,6 +33,9 @@
 		"ru",
 		"sv",
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

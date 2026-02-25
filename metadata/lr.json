@@ -1,5 +1,7 @@
 {
 	"domain": "lr",
+	"registryOperator": "Data Technology Solutions, Inc.",
+	"countryName": "Liberia",
 	"nameServers": [
 		"fork.sth.dnsnode.net",
 		"ns-lr.afrinic.net",

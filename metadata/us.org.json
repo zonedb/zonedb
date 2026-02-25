@@ -10,10 +10,6 @@
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
 	],
-	"languages": [
-		"he",
-		"mul-Cyrl"
-	],
 	"policies": [
 		{
 			"type": "idn-table",

@@ -1,5 +1,7 @@
 {
 	"domain": "sm",
+	"registryOperator": "Telecom Italia San Marino S.p.A.",
+	"countryName": "San Marino",
 	"whoisServer": "whois.nic.sm",
 	"nameServers": [
 		"dns.intelcom.sm",

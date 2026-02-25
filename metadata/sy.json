@@ -1,5 +1,10 @@
 {
 	"domain": "sy",
+	"domainIdn": [
+		"سورية"
+	],
+	"registryOperator": "National Authority for Information Technology Services (NAITS)",
+	"countryName": "Syria",
 	"infoURL": "https://nic.sy/",
 	"whoisServer": "whois.tld.sy",
 	"nameServers": [

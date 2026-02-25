@@ -1,5 +1,7 @@
 {
 	"domain": "mt",
+	"registryOperator": "NIC (Malta)",
+	"countryName": "Malta",
 	"whoisURL": "https://www.nic.org.mt/dotmt/",
 	"nameServers": [
 		"a.ns.mt",

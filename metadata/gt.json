@@ -1,5 +1,7 @@
 {
 	"domain": "gt",
+	"registryOperator": "Universidad del Valle de Guatemala",
+	"countryName": "Guatemala",
 	"whoisURL": "http://www.gt/",
 	"nameServers": [
 		"a.lactld.org",

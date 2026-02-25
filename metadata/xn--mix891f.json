@@ -1,5 +1,9 @@
 {
 	"domain": "澳門",
+	"domainPunycode": "xn--mix891f",
+	"domainAscii": "mo",
+	"registryOperator": "Macao Post and Telecommunications Bureau (CTT)",
+	"countryName": "Macau SAR China",
 	"whoisServer": "whois.monic.mo",
 	"nameServers": [
 		"a.monic.mo",
@@ -9,6 +13,9 @@
 		"e.monic.mo",
 		"ns17.cdns.net",
 		"ns2.cuhk.edu.hk"
+	],
+	"languages": [
+		"zh-Hant-MO"
 	],
 	"tags": [
 		"country",

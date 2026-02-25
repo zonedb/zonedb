@@ -1,5 +1,7 @@
 {
 	"domain": "be",
+	"registryOperator": "DNS Belgium vzw/asbl",
+	"countryName": "Belgium",
 	"whoisServer": "whois.dns.be",
 	"nameServers": [
 		"a.nsset.be",

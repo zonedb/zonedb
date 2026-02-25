@@ -1,5 +1,7 @@
 {
 	"domain": "gg",
+	"registryOperator": "Island Networks Ltd.",
+	"countryName": "Guernsey",
 	"whoisServer": "whois.gg",
 	"nameServers": [
 		"c.ci-servers.org",

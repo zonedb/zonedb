@@ -1,5 +1,10 @@
 {
 	"domain": "la",
+	"domainIdn": [
+		"ລາວ"
+	],
+	"registryOperator": "Lao National Internet Center (LANIC), Ministry of Technology and Communications",
+	"countryName": "Laos",
 	"whoisServer": "whois.nic.la",
 	"nameServers": [
 		"ns1.nic.la",

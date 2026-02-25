@@ -1,5 +1,7 @@
 {
 	"domain": "pg",
+	"registryOperator": "PNG DNS Administration, Vice Chancellors Office, The Papua New Guinea University of Technology",
+	"countryName": "Papua New Guinea",
 	"whoisServer": "whois.nic.pg",
 	"rdapURLs": [
 		"https://rdap.nic.pg/"

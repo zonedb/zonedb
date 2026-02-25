@@ -1,5 +1,7 @@
 {
 	"domain": "gl",
+	"registryOperator": "TELE Greenland A/S",
+	"countryName": "Greenland",
 	"whoisServer": "whois.nic.gl",
 	"nameServers": [
 		"a.nic.gl",
@@ -7,6 +9,9 @@
 		"d.nic.gl",
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz"
+	],
+	"languages": [
+		"kl-GL"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,9 @@
 {
 	"domain": "موريتانيا",
+	"domainPunycode": "xn--mgbah1a3hjkrd",
+	"domainAscii": "mr",
+	"registryOperator": "Université de Nouakchott Al Aasriya",
+	"countryName": "Mauritania",
 	"whoisServer": "whois.nic.mr",
 	"nameServers": [
 		"ns-mr.afrinic.net",
@@ -7,6 +11,9 @@
 		"ns1.nic.mr",
 		"ns2.nic.mr",
 		"ns3.nic.mr"
+	],
+	"languages": [
+		"ar-MR"
 	],
 	"tags": [
 		"country",

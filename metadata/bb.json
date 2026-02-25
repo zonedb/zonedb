@@ -1,5 +1,7 @@
 {
 	"domain": "bb",
+	"registryOperator": "Ministry of Innovation, Science and Smart Technology",
+	"countryName": "Barbados",
 	"infoURL": "https://whois.telecoms.gov.bb/",
 	"whoisURL": "http://whois.telecoms.gov.bb/search_domain.php",
 	"nameServers": [

@@ -1,5 +1,9 @@
 {
 	"domain": "香港",
+	"domainPunycode": "xn--j6w193g",
+	"domainAscii": "hk",
+	"registryOperator": "Hong Kong Internet Registration Corporation Ltd.",
+	"countryName": "Hong Kong SAR China",
 	"whoisServer": "whois.hkirc.hk",
 	"nameServers": [
 		"c.hkirc.net.hk",
@@ -13,7 +17,7 @@
 		"z.hkirc.net.hk"
 	],
 	"languages": [
-		"zh-Hans-HK"
+		"zh-Hant-HK"
 	],
 	"tags": [
 		"country",

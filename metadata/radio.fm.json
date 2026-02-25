@@ -9,12 +9,6 @@
 		"c.nic.fm",
 		"d.nic.fm"
 	],
-	"languages": [
-		"he",
-		"mul-Cyrl",
-		"mul-Mymr",
-		"mul-Zyyy"
-	],
 	"policies": [
 		{
 			"type": "idn-table",

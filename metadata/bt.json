@@ -1,5 +1,7 @@
 {
 	"domain": "bt",
+	"registryOperator": "Ministry of Information and Communications",
+	"countryName": "Bhutan",
 	"whoisURL": "http://www.nic.bt/",
 	"nameServers": [
 		"auth00.ns.uu.net",

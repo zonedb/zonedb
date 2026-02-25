@@ -1,5 +1,9 @@
 {
 	"domain": "ею",
+	"domainPunycode": "xn--e1a4c",
+	"domainAscii": "eu",
+	"registryOperator": "EURid vzw",
+	"countryName": "European Union",
 	"whoisServer": "whois.eu",
 	"nameServers": [
 		"be.dns.eu",

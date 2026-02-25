@@ -1,5 +1,7 @@
 {
 	"domain": "do",
+	"registryOperator": "Pontificia Universidad Catolica Madre y Maestra, Recinto Santo Tomas de Aquino",
+	"countryName": "Dominican Republic",
 	"infoURL": "https://www.nic.do/",
 	"whoisServer": "whois.nic.do",
 	"nameServers": [

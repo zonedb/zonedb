@@ -1,5 +1,7 @@
 {
 	"domain": "bw",
+	"registryOperator": "Botswana Communications Regulatory Authority (BOCRA)",
+	"countryName": "Botswana",
 	"whoisServer": "whois.nic.net.bw",
 	"nameServers": [
 		"dns1.nic.net.bw",

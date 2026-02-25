@@ -1,5 +1,7 @@
 {
 	"domain": "jm",
+	"registryOperator": "University of West Indies",
+	"countryName": "Jamaica",
 	"nameServers": [
 		"jm.cctld.authdns.ripe.net",
 		"ns.jm",

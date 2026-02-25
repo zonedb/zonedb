@@ -1,5 +1,6 @@
 {
 	"domain": "健康",
+	"domainPunycode": "xn--nyqy26a",
 	"registryOperator": "Stable Tone Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--nyqy26a",
 	"whoisServer": "whois.nic.健康",
@@ -33,6 +34,9 @@
 		"sv",
 		"zh-Hans",
 		"zh-Hant"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

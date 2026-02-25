@@ -1,5 +1,7 @@
 {
 	"domain": "ye",
+	"registryOperator": "TeleYemen",
+	"countryName": "Yemen",
 	"whoisServer": "whois.y.net.ye",
 	"rdapURLs": [
 		"https://rdap.y.net.ye/"

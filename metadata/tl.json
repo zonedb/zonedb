@@ -1,5 +1,7 @@
 {
 	"domain": "tl",
+	"registryOperator": "Autoridade Nacional de Comunicações",
+	"countryName": "Timor-Leste",
 	"whoisServer": "whois.nic.tl",
 	"nameServers": [
 		"ns.anycast.nic.tl",

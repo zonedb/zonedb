@@ -1,6 +1,7 @@
 {
 	"domain": "网址",
-	"registryOperator": "KNET Co., Ltd.",
+	"domainPunycode": "xn--ses554g",
+	"registryOperator": "KNET Co., Ltd",
 	"infoURL": "http://nic.网址/",
 	"rdapURLs": [
 		"https://rdap.zdnsgtld.com/xn--ses554g/"
@@ -23,6 +24,9 @@
 		"ru",
 		"zh-Hans",
 		"zh-Hant"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

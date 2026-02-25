@@ -1,5 +1,10 @@
 {
 	"domain": "gr",
+	"domainIdn": [
+		"ελ"
+	],
+	"registryOperator": "ICS-FORTH GR",
+	"countryName": "Greece",
 	"whoisURL": "https://grweb.ics.forth.gr/",
 	"nameServers": [
 		"estia.ics.forth.gr",
@@ -8,6 +13,9 @@
 		"gr-d.ics.forth.gr",
 		"gr-m.ics.forth.gr",
 		"grdns.ics.forth.gr"
+	],
+	"languages": [
+		"el-GR"
 	],
 	"tags": [
 		"country",

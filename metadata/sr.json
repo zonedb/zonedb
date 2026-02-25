@@ -1,5 +1,7 @@
 {
 	"domain": "sr",
+	"registryOperator": "Telesur",
+	"countryName": "Suriname",
 	"whoisURL": "http://www.register.sr/",
 	"rdapURLs": [
 		"https://whois.sr/rdap/"

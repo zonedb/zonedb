@@ -1,10 +1,15 @@
 {
 	"domain": "tk",
+	"registryOperator": "Telecommunication Tokelau Corporation (Teletok)",
+	"countryName": "Tokelau",
 	"nameServers": [
 		"a.ns.tk",
 		"b.ns.tk",
 		"c.ns.tk",
 		"d.ns.tk"
+	],
+	"languages": [
+		"tkl-TK"
 	],
 	"tags": [
 		"country",

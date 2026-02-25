@@ -1,5 +1,7 @@
 {
 	"domain": "lb",
+	"registryOperator": "Internet Society Lebanon",
+	"countryName": "Lebanon",
 	"whoisServer": "whois.lbdr.org.lb",
 	"rdapURLs": [
 		"https://rdap.lbdr.org.lb/"

@@ -1,6 +1,6 @@
 {
 	"domain": "foundation",
-	"registryOperator": "Public Interest Registry",
+	"registryOperator": "Public Interest Registry (PIR)",
 	"whoisServer": "whois.nic.foundation",
 	"rdapURLs": [
 		"https://rdap.publicinterestregistry.org/rdap/"

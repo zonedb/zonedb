@@ -1,5 +1,10 @@
 {
 	"domain": "bh",
+	"domainIdn": [
+		"البحرين"
+	],
+	"registryOperator": "Telecommunications Regulatory Authority (TRA)",
+	"countryName": "Bahrain",
 	"whoisServer": "whois.nic.bh",
 	"nameServers": [
 		"a.nic.bh",

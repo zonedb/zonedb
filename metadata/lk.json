@@ -1,5 +1,11 @@
 {
 	"domain": "lk",
+	"domainIdn": [
+		"இலங்கை",
+		"ලංකා"
+	],
+	"registryOperator": "Council for Information Technology\nLK Domain Registrar",
+	"countryName": "Sri Lanka",
 	"nameServers": [
 		"d.nic.lk",
 		"h.nic.lk",

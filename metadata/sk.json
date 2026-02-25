@@ -1,5 +1,7 @@
 {
 	"domain": "sk",
+	"registryOperator": "SK-NIC, a.s.",
+	"countryName": "Slovakia",
 	"whoisServer": "whois.sk-nic.sk",
 	"nameServers": [
 		"a.tld.sk",

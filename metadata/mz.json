@@ -1,5 +1,7 @@
 {
 	"domain": "mz",
+	"registryOperator": "Centro de Informatica de Universidade Eduardo Mondlane",
+	"countryName": "Mozambique",
 	"infoURL": "https://www.domains.co.mz/",
 	"whoisServer": "whois.nic.mz",
 	"nameServers": [

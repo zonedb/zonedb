@@ -10,10 +10,6 @@
 		"ns3.centralnic.net",
 		"ns4.centralnic.net"
 	],
-	"languages": [
-		"mul-Cyrl",
-		"ru"
-	],
 	"tags": [
 		"private"
 	],

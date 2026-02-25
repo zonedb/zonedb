@@ -1,5 +1,10 @@
 {
 	"domain": "my",
+	"domainIdn": [
+		"مليسيا"
+	],
+	"registryOperator": "MYNIC Berhad",
+	"countryName": "Malaysia",
 	"infoURL": "https://mynic.my/",
 	"whoisServer": "whois.mynic.my",
 	"nameServers": [

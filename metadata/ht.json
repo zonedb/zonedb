@@ -1,5 +1,7 @@
 {
 	"domain": "ht",
+	"registryOperator": "Consortium FDS/RDDH",
+	"countryName": "Haiti",
 	"whoisServer": "whois.nic.ht",
 	"rdapURLs": [
 		"https://rdap.nic.ht/"

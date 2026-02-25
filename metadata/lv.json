@@ -1,5 +1,7 @@
 {
 	"domain": "lv",
+	"registryOperator": "University of Latvia, Institute of Mathematics and Computer Science, Department of Network Solutions (DNS)",
+	"countryName": "Latvia",
 	"whoisServer": "whois.nic.lv",
 	"nameServers": [
 		"a.nic.lv",
@@ -9,6 +11,9 @@
 		"n.nic.lv",
 		"nu.nic.lv",
 		"sunic.sunet.se"
+	],
+	"languages": [
+		"lv-LV"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,7 @@
 {
 	"domain": "tf",
+	"registryOperator": "Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.)",
+	"countryName": "French Southern Territories",
 	"whoisServer": "whois.nic.tf",
 	"rdapURLs": [
 		"https://rdap.nic.tf/"
@@ -8,6 +10,9 @@
 		"d.nic.fr",
 		"f.ext.nic.fr",
 		"g.ext.nic.fr"
+	],
+	"languages": [
+		"fr-FR"
 	],
 	"tags": [
 		"country",

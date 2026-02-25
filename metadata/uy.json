@@ -1,5 +1,7 @@
 {
 	"domain": "uy",
+	"registryOperator": "SeCIU - Universidad de la Republica",
+	"countryName": "Uruguay",
 	"nameServers": [
 		"a.lactld.org",
 		"a.nic.uy",

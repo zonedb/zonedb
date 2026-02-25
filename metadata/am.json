@@ -1,5 +1,10 @@
 {
 	"domain": "am",
+	"domainIdn": [
+		"հայ"
+	],
+	"registryOperator": "\"Internet Society\" Non-governmental Organization",
+	"countryName": "Armenia",
 	"infoURL": "https://www.amnic.net/",
 	"whoisServer": "whois.amnic.net",
 	"nameServers": [
@@ -7,6 +12,9 @@
 		"ns-cdn.amnic.net",
 		"ns-pch.amnic.net",
 		"ns-pri.nic.am"
+	],
+	"languages": [
+		"hy-AM"
 	],
 	"tags": [
 		"country",

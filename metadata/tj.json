@@ -1,5 +1,7 @@
 {
 	"domain": "tj",
+	"registryOperator": "Information Technology Center",
+	"countryName": "Tajikistan",
 	"whoisURL": "http://www.nic.tj/whois.html",
 	"nameServers": [
 		"ns1.nic.tj",

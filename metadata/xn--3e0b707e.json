@@ -1,5 +1,9 @@
 {
 	"domain": "한국",
+	"domainPunycode": "xn--3e0b707e",
+	"domainAscii": "kr",
+	"registryOperator": "KISA (Korea Internet & Security Agency)",
+	"countryName": "South Korea",
 	"whoisServer": "whois.kr",
 	"nameServers": [
 		"b.dns.kr",

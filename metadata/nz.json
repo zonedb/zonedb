@@ -1,5 +1,7 @@
 {
 	"domain": "nz",
+	"registryOperator": "InternetNZ",
+	"countryName": "New Zealand",
 	"whoisServer": "whois.srs.net.nz",
 	"nameServers": [
 		"ns1.dns.net.nz",

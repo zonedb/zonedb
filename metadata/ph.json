@@ -1,5 +1,7 @@
 {
 	"domain": "ph",
+	"registryOperator": "PH Domain Foundation",
+	"countryName": "Philippines",
 	"whoisURL": "http://www.dot.ph/whois",
 	"nameServers": [
 		"1.ns.ph",

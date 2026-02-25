@@ -1,5 +1,7 @@
 {
 	"domain": "pn",
+	"registryOperator": "Pitcairn Island Administration",
+	"countryName": "Pitcairn Islands",
 	"infoURL": "https://nic.pn/",
 	"whoisURL": "https://nic.pn/whois.html",
 	"rdapURLs": [
@@ -14,6 +16,9 @@
 		"dnsb.nic.pn",
 		"dnsc.nic.pn",
 		"dnsd.nic.pn"
+	],
+	"languages": [
+		"en-PN"
 	],
 	"tags": [
 		"country",

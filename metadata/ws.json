@@ -1,5 +1,7 @@
 {
 	"domain": "ws",
+	"registryOperator": "Government of Samoa Ministry of Foreign Affairs & Trade",
+	"countryName": "Samoa",
 	"infoURL": "https://www.worldsite.ws/",
 	"whoisServer": "whois.worldsite.ws",
 	"nameServers": [
@@ -12,6 +14,9 @@
 	],
 	"wildcards": [
 		"64.70.19.203"
+	],
+	"languages": [
+		"sm-WS"
 	],
 	"tags": [
 		"country",

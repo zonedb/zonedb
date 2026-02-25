@@ -1,5 +1,6 @@
 {
 	"domain": "八卦",
+	"domainPunycode": "xn--45q11c",
 	"registryOperator": "Zodiac Gemini Ltd",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--45q11c",
 	"whoisServer": "whois.gtld.knet.cn",
@@ -19,6 +20,9 @@
 	"languages": [
 		"zh-Hans",
 		"zh-Hant"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

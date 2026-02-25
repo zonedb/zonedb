@@ -1,10 +1,17 @@
 {
 	"domain": "البحرين",
+	"domainPunycode": "xn--mgbcpq6gpa1a",
+	"domainAscii": "bh",
+	"registryOperator": "Telecommunications Regulatory Authority (TRA)",
+	"countryName": "Bahrain",
 	"nameServers": [
 		"a.nic.البحرين",
 		"b.nic.البحرين",
 		"c.nic.البحرين",
 		"d.nic.البحرين"
+	],
+	"languages": [
+		"ar-BH"
 	],
 	"tags": [
 		"country",

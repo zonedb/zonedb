@@ -1,5 +1,6 @@
 {
 	"domain": "游戏",
+	"domainPunycode": "xn--unup4y",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
 	"rdapURLs": [
@@ -30,6 +31,9 @@
 		"und-Taml",
 		"und-Thai",
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

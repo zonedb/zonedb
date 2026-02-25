@@ -1,5 +1,7 @@
 {
 	"domain": "ng",
+	"registryOperator": "Nigeria Internet Registration Association",
+	"countryName": "Nigeria",
 	"infoURL": "https://web4africa.ng/ng-domains/",
 	"rdapURLs": [
 		"http://rdap.nic.net.ng/"

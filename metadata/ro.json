@@ -1,5 +1,7 @@
 {
 	"domain": "ro",
+	"registryOperator": "National Institute for R&D in Informatics",
+	"countryName": "Romania",
 	"whoisServer": "whois.rotld.ro",
 	"nameServers": [
 		"dns-at.rotld.ro",

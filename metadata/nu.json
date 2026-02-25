@@ -1,5 +1,7 @@
 {
 	"domain": "nu",
+	"registryOperator": "The IUSN Foundation",
+	"countryName": "Niue",
 	"infoURL": "https://www.nic.nu/",
 	"whoisServer": "whois.iis.nu",
 	"nameServers": [

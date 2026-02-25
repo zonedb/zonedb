@@ -1,5 +1,6 @@
 {
 	"domain": "קום",
+	"domainPunycode": "xn--9dbq2a",
 	"registryOperator": "VeriSign Sarl",
 	"whoisServer": "whois.nic.קום",
 	"rdapURLs": [
@@ -109,6 +110,9 @@
 		"ru",
 		"uk",
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

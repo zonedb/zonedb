@@ -1,10 +1,17 @@
 {
 	"domain": "عراق",
+	"domainPunycode": "xn--mgbtx2b",
+	"domainAscii": "iq",
+	"registryOperator": "Communications and Media Commission (CMC)",
+	"countryName": "Iraq",
 	"nameServers": [
 		"ns.cmc.iq",
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
 		"nsp-anycast.cmc.iq"
+	],
+	"languages": [
+		"ar-IQ"
 	],
 	"tags": [
 		"country",

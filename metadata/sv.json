@@ -1,5 +1,7 @@
 {
 	"domain": "sv",
+	"registryOperator": "SVNet",
+	"countryName": "El Salvador",
 	"whoisURL": "http://www.svnet.org.sv/",
 	"nameServers": [
 		"a.lactld.org",

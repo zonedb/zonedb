@@ -1,5 +1,7 @@
 {
 	"domain": "nr",
+	"registryOperator": "CENPAC NET",
+	"countryName": "Nauru",
 	"whoisURL": "http://www.cenpac.net.nr/dns/whois.html",
 	"nameServers": [
 		"ns0.cenpac.net.nr",

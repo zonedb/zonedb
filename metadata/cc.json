@@ -1,5 +1,7 @@
 {
 	"domain": "cc",
+	"registryOperator": "eNIC Cocos (Keeling) Islands Pty. Ltd. d/b/a Island Internet Services",
+	"countryName": "Cocos (Keeling) Islands",
 	"whoisServer": "ccwhois.verisign-grs.com",
 	"rdapURLs": [
 		"https://tld-rdap.verisign.com/cc/v1/"

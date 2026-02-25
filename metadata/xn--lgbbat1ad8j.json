@@ -1,9 +1,16 @@
 {
 	"domain": "الجزائر",
+	"domainPunycode": "xn--lgbbat1ad8j",
+	"domainAscii": "dz",
+	"registryOperator": "CERIST",
+	"countryName": "Algeria",
 	"infoURL": "https://www.iana.org/domains/root/db/xn--lgbbat1ad8j.html",
 	"nameServers": [
 		"idn1.nic.dz",
 		"idn2.nic.dz"
+	],
+	"languages": [
+		"ar-DZ"
 	],
 	"tags": [
 		"country",

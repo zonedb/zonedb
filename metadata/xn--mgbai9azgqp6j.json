@@ -1,8 +1,19 @@
 {
 	"domain": "پاکستان",
+	"domainPunycode": "xn--mgbai9azgqp6j",
+	"domainAscii": "pk",
+	"registryOperator": "National Telecommunication Corporation",
+	"countryName": "Pakistan",
 	"nameServers": [
 		"ns1.ntc.org.pk",
 		"ns2.ntc.org.pk",
 		"ns3.ntc.org.pk"
+	],
+	"languages": [
+		"ur-PK"
+	],
+	"tags": [
+		"country",
+		"geo"
 	]
 }

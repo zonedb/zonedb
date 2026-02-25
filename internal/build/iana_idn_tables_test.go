@@ -107,6 +107,121 @@ func TestFetchIDNTablesFromIANA_StaleRemoval(t *testing.T) {
 	}
 }
 
+// TestFetchIDNTablesFromIANA_PreservesIndependentLanguages is a regression test
+// for the bug where z.Languages was rebuilt solely from remaining policy keys,
+// dropping languages that were independently set (e.g., from CLDR or manual
+// curation). This is the .ru/.рф scenario: a zone has a language like "ru-RU"
+// that was set independently of any IDN table policy.
+func TestFetchIDNTablesFromIANA_PreservesIndependentLanguages(t *testing.T) {
+	srv := httptest.NewServer(http.FileServer(http.Dir("testdata")))
+	defer srv.Close()
+
+	origTablesURL := ianaTablesURL
+	origBaseURL := ianaBaseURL
+	ianaBaseURL = srv.URL
+	defer func() {
+		ianaTablesURL = origTablesURL
+		ianaBaseURL = origBaseURL
+	}()
+
+	// Step 1: Populate .aaa from the full fixture (gives it IANA policies + languages).
+	ianaTablesURL = srv.URL + "/idn-tables-full.html"
+	zones := map[string]*Zone{
+		"aaa": {Domain: "aaa"},
+	}
+	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
+		t.Fatalf("fetch from full fixture: %v", err)
+	}
+
+	// Step 2: Add an independent language not backed by any policy.
+	// This simulates what CLDR automation does: adding "ru-RU" to a zone
+	// based on territory data, not IDN table data.
+	independentLang := "ru-RU"
+	zones["aaa"].Languages = append(zones["aaa"].Languages, independentLang)
+
+	// Step 3: Re-fetch from the reduced fixture. Some IANA policies are removed,
+	// but the independent language must survive.
+	ianaTablesURL = srv.URL + "/idn-tables-reduced.html"
+	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
+		t.Fatalf("fetch from reduced fixture: %v", err)
+	}
+
+	langSet := make(map[string]bool)
+	for _, l := range zones["aaa"].Languages {
+		langSet[l] = true
+	}
+	if !langSet[independentLang] {
+		t.Errorf("independent language %q was removed — languages = %v", independentLang, zones["aaa"].Languages)
+	}
+}
+
+// TestFetchIDNTablesFromIANA_RemovesOrphanedLanguages verifies that when an
+// IANA policy is removed and no other policy backs that language, the language
+// IS removed from z.Languages (the stale-removal should still clean up policy-
+// derived languages that become orphaned).
+func TestFetchIDNTablesFromIANA_RemovesOrphanedLanguages(t *testing.T) {
+	srv := httptest.NewServer(http.FileServer(http.Dir("testdata")))
+	defer srv.Close()
+
+	origTablesURL := ianaTablesURL
+	origBaseURL := ianaBaseURL
+	ianaBaseURL = srv.URL
+	defer func() {
+		ianaTablesURL = origTablesURL
+		ianaBaseURL = origBaseURL
+	}()
+
+	// Step 1: Populate .aaa from the full fixture.
+	ianaTablesURL = srv.URL + "/idn-tables-full.html"
+	zones := map[string]*Zone{
+		"aaa": {Domain: "aaa"},
+	}
+	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
+		t.Fatalf("fetch from full fixture: %v", err)
+	}
+
+	fullLangs := make(map[string]bool)
+	for _, l := range zones["aaa"].Languages {
+		fullLangs[l] = true
+	}
+	if len(fullLangs) == 0 {
+		t.Fatal("full fixture produced no languages")
+	}
+
+	// Step 2: Re-fetch from the reduced fixture.
+	ianaTablesURL = srv.URL + "/idn-tables-reduced.html"
+	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
+		t.Fatalf("fetch from reduced fixture: %v", err)
+	}
+
+	// Step 3: Get the expected languages from a clean parse of the reduced fixture.
+	expectedZones := map[string]*Zone{
+		"aaa": {Domain: "aaa"},
+	}
+	if err := FetchIDNTablesFromIANA(expectedZones, nil); err != nil {
+		t.Fatalf("fetch expected: %v", err)
+	}
+	expectedLangs := make(map[string]bool)
+	for _, l := range expectedZones["aaa"].Languages {
+		expectedLangs[l] = true
+	}
+
+	// Languages that were in the full fixture but not the reduced fixture
+	// should be removed (they were only backed by IANA policies that got removed).
+	afterLangs := make(map[string]bool)
+	for _, l := range zones["aaa"].Languages {
+		afterLangs[l] = true
+	}
+	for lang := range fullLangs {
+		if expectedLangs[lang] {
+			continue // Still expected
+		}
+		if afterLangs[lang] {
+			t.Errorf("orphaned language %q should have been removed", lang)
+		}
+	}
+}
+
 func TestFetchIDNTablesFromIANA_NonIANAOnly(t *testing.T) {
 	// A zone not listed on the IANA IDN tables page, with policies
 	// from another source, must be left completely untouched.

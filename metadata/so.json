@@ -1,5 +1,7 @@
 {
 	"domain": "so",
+	"registryOperator": "Ministry of Post and Telecommunications",
+	"countryName": "Somalia",
 	"whoisServer": "whois.nic.so",
 	"nameServers": [
 		"d.nic.so",

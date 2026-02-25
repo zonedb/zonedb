@@ -1,5 +1,6 @@
 {
 	"domain": "食品",
+	"domainPunycode": "xn--jvr189m",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.食品/",
 	"rdapURLs": [
@@ -32,6 +33,9 @@
 		"ru",
 		"sv",
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

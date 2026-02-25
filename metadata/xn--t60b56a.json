@@ -1,5 +1,6 @@
 {
 	"domain": "닷넷",
+	"domainPunycode": "xn--t60b56a",
 	"registryOperator": "VeriSign Sarl",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--t60b56a",
 	"whoisServer": "whois.nic.닷넷",
@@ -110,6 +111,9 @@
 		"ru",
 		"uk",
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

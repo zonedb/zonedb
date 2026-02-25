@@ -1,10 +1,15 @@
 {
 	"domain": "bs",
+	"registryOperator": "University of The Bahamas",
+	"countryName": "Bahamas",
 	"whoisURL": "http://www.nic.bs/cgi-bin/search.pl",
 	"nameServers": [
 		"anyns.dns.bs",
 		"anyns.pch.net",
 		"ns36.cdns.net"
+	],
+	"languages": [
+		"en-BS"
 	],
 	"tags": [
 		"country",

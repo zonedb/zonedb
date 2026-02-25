@@ -1,5 +1,7 @@
 {
 	"domain": "sc",
+	"registryOperator": "VCS Pty Ltd",
+	"countryName": "Seychelles",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

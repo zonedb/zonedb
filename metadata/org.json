@@ -1,6 +1,6 @@
 {
 	"domain": "org",
-	"registryOperator": "Public Interest Registry",
+	"registryOperator": "Public Interest Registry (PIR)",
 	"infoURL": "https://pir.org/products/org-domain/",
 	"whoisServer": "whois.publicinterestregistry.net",
 	"rdapURLs": [

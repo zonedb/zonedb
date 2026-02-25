@@ -1,5 +1,7 @@
 {
 	"domain": "mp",
+	"registryOperator": "Saipan Datacom, Inc.",
+	"countryName": "Northern Mariana Islands",
 	"infoURL": "https://get.mp/",
 	"nameServers": [
 		"ns1.nic.mp",

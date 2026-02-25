@@ -1,5 +1,7 @@
 {
 	"domain": "cd",
+	"registryOperator": "Office Congolais des Postes et Télécommunications - OCPT",
+	"countryName": "Congo - Kinshasa",
 	"infoURL": "https://www.nic.cd/nic.cd/",
 	"nameServers": [
 		"gransy-anycast1.nic.cd",

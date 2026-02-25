@@ -1,5 +1,9 @@
 {
 	"domain": "عمان",
+	"domainPunycode": "xn--mgb9awbf",
+	"domainAscii": "om",
+	"registryOperator": "Telecommunications Regulatory Authority (TRA)",
+	"countryName": "Oman",
 	"whoisServer": "whois.registry.om",
 	"nameServers": [
 		"cctld.alpha.aridns.net.au",
@@ -8,6 +12,9 @@
 		"cctld.gamma.aridns.net.au",
 		"ns1.registry.om",
 		"ns2.registry.om"
+	],
+	"languages": [
+		"ar-OM"
 	],
 	"tags": [
 		"country",

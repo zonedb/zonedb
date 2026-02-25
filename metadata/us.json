@@ -1,5 +1,7 @@
 {
 	"domain": "us",
+	"registryOperator": "Registry Services, LLC",
+	"countryName": "United States",
 	"whoisServer": "whois.nic.us",
 	"nameServers": [
 		"b.cctld.us",

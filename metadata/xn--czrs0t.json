@@ -1,5 +1,6 @@
 {
 	"domain": "商店",
+	"domainPunycode": "xn--czrs0t",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
 	"rdapURLs": [
@@ -30,6 +31,9 @@
 		"und-Taml",
 		"und-Thai",
 		"zh"
+	],
+	"tags": [
+		"generic"
 	],
 	"policies": [
 		{

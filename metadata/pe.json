@@ -1,5 +1,7 @@
 {
 	"domain": "pe",
+	"registryOperator": "Red Cientifica Peruana",
+	"countryName": "Peru",
 	"infoURL": "https://punto.pe/",
 	"whoisServer": "kero.yachay.pe",
 	"nameServers": [
@@ -7,6 +9,9 @@
 		"pch.rcp.pe",
 		"pe1.dnsnode.net",
 		"quipu.rcp.net.pe"
+	],
+	"languages": [
+		"es-PE"
 	],
 	"tags": [
 		"country",

@@ -1,6 +1,7 @@
 {
 	"domain": "aq",
 	"registryOperator": "Antarctica Network Information Centre Limited",
+	"countryName": "Antarctica",
 	"infoURL": "https://www.iana.org/domains/root/db/aq.html",
 	"nameServers": [
 		"fork.sth.dnsnode.net",

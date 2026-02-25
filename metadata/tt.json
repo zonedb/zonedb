@@ -1,5 +1,7 @@
 {
 	"domain": "tt",
+	"registryOperator": "University of the West Indies, Faculty of Engineering",
+	"countryName": "Trinidad & Tobago",
 	"whoisURL": "http://www.nic.tt/cgi-bin/search.pl",
 	"nameServers": [
 		"a.lactld.org",

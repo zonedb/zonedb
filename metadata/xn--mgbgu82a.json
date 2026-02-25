@@ -1,5 +1,9 @@
 {
 	"domain": "ڀارت",
+	"domainPunycode": "xn--mgbgu82a",
+	"domainAscii": "in",
+	"registryOperator": "National Internet eXchange of India",
+	"countryName": "India",
 	"infoURL": "https://www.registry.in/",
 	"whoisServer": "whois.nixiregistry.in",
 	"nameServers": [
@@ -12,9 +16,6 @@
 		"IN-RJ",
 		"IN-GJ",
 		"IN-MP"
-	],
-	"languages": [
-		"sd-IN"
 	],
 	"tags": [
 		"country",

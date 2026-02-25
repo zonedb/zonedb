@@ -1,5 +1,10 @@
 {
 	"domain": "bd",
+	"domainIdn": [
+		"বাংলা"
+	],
+	"registryOperator": "Posts and Telecommunications Division",
+	"countryName": "Bangladesh",
 	"infoURL": "http://www.bttb.net.bd/",
 	"whoisURL": "http://whois.btcl.net.bd/",
 	"nameServers": [
@@ -7,6 +12,9 @@
 		"dns.bd",
 		"jamuna.btcl.net.bd",
 		"surma.btcl.net.bd"
+	],
+	"languages": [
+		"bn-BD"
 	],
 	"tags": [
 		"closed",

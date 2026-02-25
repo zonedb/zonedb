@@ -1,5 +1,10 @@
 {
 	"domain": "sa",
+	"domainIdn": [
+		"السعودية"
+	],
+	"registryOperator": "Communications, Space and Technology Commission",
+	"countryName": "Saudi Arabia",
 	"whoisServer": "whois.nic.net.sa",
 	"nameServers": [
 		"c1.dns.sa",

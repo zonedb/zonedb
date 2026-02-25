@@ -1,5 +1,7 @@
 {
 	"domain": "pw",
+	"registryOperator": "Micronesia Investment and Development Corporation",
+	"countryName": "Palau",
 	"whoisServer": "whois.nic.pw",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/pw/"

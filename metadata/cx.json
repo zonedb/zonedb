@@ -1,5 +1,7 @@
 {
 	"domain": "cx",
+	"registryOperator": "Christmas Island Domain Administration Limited",
+	"countryName": "Christmas Island",
 	"whoisServer": "whois.nic.cx",
 	"rdapURLs": [
 		"https://rdap.nic.cx/"

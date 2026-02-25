@@ -1,5 +1,7 @@
 {
 	"domain": "as",
+	"registryOperator": "AS Domain Registry",
+	"countryName": "American Samoa",
 	"infoURL": "https://nic.as/",
 	"whoisServer": "whois.nic.as",
 	"rdapURLs": [

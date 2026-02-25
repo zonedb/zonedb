@@ -1,5 +1,7 @@
 {
 	"domain": "td",
+	"registryOperator": "l'Agence de Développement des Technologies de l'Information et de la Communication (ADETIC)",
+	"countryName": "Chad",
 	"infoURL": "https://nic.td/",
 	"whoisServer": "whois.nic.td",
 	"nameServers": [

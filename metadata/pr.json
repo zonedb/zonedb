@@ -1,5 +1,7 @@
 {
 	"domain": "pr",
+	"registryOperator": "Gauss Research Laboratory Inc.",
+	"countryName": "Puerto Rico",
 	"infoURL": "https://domains.pr/",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
@@ -13,6 +15,9 @@
 		"c0.pr.afilias-nst.info",
 		"d0.pr.afilias-nst.org",
 		"pr-dns.denic.de"
+	],
+	"languages": [
+		"es-PR"
 	],
 	"tags": [
 		"country",

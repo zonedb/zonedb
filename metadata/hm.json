@@ -1,5 +1,7 @@
 {
 	"domain": "hm",
+	"registryOperator": "HM Domain Registry",
+	"countryName": "Heard & McDonald Islands",
 	"infoURL": "http://www.registry.hm/",
 	"nameServers": [
 		"ns1.registry.hm",

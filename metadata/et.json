@@ -1,5 +1,7 @@
 {
 	"domain": "et",
+	"registryOperator": "Ethio telecom",
+	"countryName": "Ethiopia",
 	"infoURL": "https://www.iana.org/domains/root/db/et.html",
 	"nameServers": [
 		"a.nic.et",

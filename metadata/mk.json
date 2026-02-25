@@ -1,5 +1,10 @@
 {
 	"domain": "mk",
+	"domainIdn": [
+		"мкд"
+	],
+	"registryOperator": "Macedonian Academic Research Network Skopje",
+	"countryName": "Macedonia",
 	"whoisServer": "whois.marnet.mk",
 	"nameServers": [
 		"b.dns.si",

@@ -1,5 +1,9 @@
 {
 	"domain": "срб",
+	"domainPunycode": "xn--90a3ac",
+	"domainAscii": "rs",
+	"registryOperator": "Serbian National Internet Domain Registry (RNIDS)",
+	"countryName": "Serbia",
 	"whoisServer": "whois.rnids.rs",
 	"nameServers": [
 		"a.nic.rs",
@@ -16,6 +20,7 @@
 		"ru",
 		"rue-Cyrl",
 		"sr-Cyrl",
+		"sr-RS",
 		"uk"
 	],
 	"tags": [

@@ -1,5 +1,7 @@
 {
 	"domain": "je",
+	"registryOperator": "Island Networks (Jersey) Ltd.",
+	"countryName": "Jersey",
 	"whoisServer": "whois.je",
 	"nameServers": [
 		"c.ci-servers.org",

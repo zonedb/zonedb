@@ -1,5 +1,9 @@
 {
 	"domain": "ഭാരതം",
+	"domainPunycode": "xn--rvc1e0am3e",
+	"domainAscii": "in",
+	"registryOperator": "National Internet eXchange of India",
+	"countryName": "India",
 	"infoURL": "https://www.registry.in/",
 	"whoisServer": "whois.nixiregistry.in",
 	"nameServers": [

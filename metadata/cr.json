@@ -1,5 +1,7 @@
 {
 	"domain": "cr",
+	"registryOperator": "National Academy of Sciences (Academia Nacional de Ciencias)",
+	"countryName": "Costa Rica",
 	"infoURL": "https://www.nic.cr/",
 	"whoisServer": "whois.nic.cr",
 	"rdapURLs": [

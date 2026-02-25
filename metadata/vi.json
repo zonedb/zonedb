@@ -1,5 +1,7 @@
 {
 	"domain": "vi",
+	"registryOperator": "Virgin Islands Public Telecommunications System, Inc.",
+	"countryName": "U.S. Virgin Islands",
 	"infoURL": "https://secure.nic.vi/",
 	"rdapURLs": [
 		"https://rdap.nic.vi/"

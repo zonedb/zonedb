@@ -1,11 +1,18 @@
 {
 	"domain": "հայ",
+	"domainPunycode": "xn--y9a3aq",
+	"domainAscii": "am",
+	"registryOperator": "\"Internet Society\" Non-governmental Organization",
+	"countryName": "Armenia",
 	"whoisServer": "whois.amnic.net",
 	"nameServers": [
 		"fork.sth.dnsnode.net",
 		"ns-cdn.amnic.net",
 		"ns-pch.amnic.net",
 		"ns-pri.nic.am"
+	],
+	"languages": [
+		"hy-AM"
 	],
 	"tags": [
 		"country",

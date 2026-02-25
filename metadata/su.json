@@ -1,5 +1,7 @@
 {
 	"domain": "su",
+	"registryOperator": "Russian Institute for Development of Public Networks (ROSNIIROS)",
+	"countryName": "USSR",
 	"whoisServer": "whois.ripn.net",
 	"nameServers": [
 		"a.dns.ripn.net",

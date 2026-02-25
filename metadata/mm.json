@@ -1,5 +1,7 @@
 {
 	"domain": "mm",
+	"registryOperator": "Ministry of Transport and Communications",
+	"countryName": "Myanmar (Burma)",
 	"whoisServer": "whois.registry.gov.mm",
 	"nameServers": [
 		"a.nic.net.mm",

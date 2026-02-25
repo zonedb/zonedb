@@ -1,5 +1,7 @@
 {
 	"domain": "dj",
+	"registryOperator": "Djibouti Telecom S.A",
+	"countryName": "Djibouti",
 	"whoisURL": "http://www.nic.dj/whois.php",
 	"nameServers": [
 		"ns1.djibtelecom.dj",

@@ -1,5 +1,7 @@
 {
 	"domain": "cz",
+	"registryOperator": "CZ.NIC, z.s.p.o",
+	"countryName": "Czechia",
 	"infoURL": "https://www.nic.cz/",
 	"whoisServer": "whois.nic.cz",
 	"rdapURLs": [
@@ -10,6 +12,9 @@
 		"b.ns.nic.cz",
 		"c.ns.nic.cz",
 		"d.ns.nic.cz"
+	],
+	"languages": [
+		"cs-CZ"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,10 @@
 {
 	"domain": "kr",
+	"domainIdn": [
+		"한국"
+	],
+	"registryOperator": "Korea Internet & Security Agency (KISA)",
+	"countryName": "South Korea",
 	"whoisServer": "whois.krnic.net",
 	"nameServers": [
 		"b.dns.kr",

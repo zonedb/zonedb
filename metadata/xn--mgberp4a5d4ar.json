@@ -1,5 +1,9 @@
 {
 	"domain": "السعودية",
+	"domainPunycode": "xn--mgberp4a5d4ar",
+	"domainAscii": "sa",
+	"registryOperator": "Communications, Space and Technology Commission",
+	"countryName": "Saudi Arabia",
 	"whoisServer": "whois.nic.net.sa",
 	"nameServers": [
 		"c1.dns.sa",
@@ -14,7 +18,8 @@
 		"sh1.dns.sa"
 	],
 	"languages": [
-		"ar"
+		"ar",
+		"ar-SA"
 	],
 	"tags": [
 		"country",

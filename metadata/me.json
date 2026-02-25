@@ -1,5 +1,7 @@
 {
 	"domain": "me",
+	"registryOperator": "Government of Montenegro",
+	"countryName": "Montenegro",
 	"infoURL": "https://domain.me/",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"

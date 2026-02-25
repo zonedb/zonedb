@@ -1,5 +1,10 @@
 {
 	"domain": "tn",
+	"domainIdn": [
+		"تونس"
+	],
+	"registryOperator": "Agence Tunisienne d'Internet",
+	"countryName": "Tunisia",
 	"whoisServer": "whois.ati.tn",
 	"nameServers": [
 		"ns-tn.afrinic.net",

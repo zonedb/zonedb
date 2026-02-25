@@ -1,5 +1,7 @@
 {
 	"domain": "pl",
+	"registryOperator": "Research and Academic Computer Network",
+	"countryName": "Poland",
 	"whoisServer": "whois.dns.pl",
 	"rdapURLs": [
 		"https://rdap.dns.pl/"

@@ -1,5 +1,7 @@
 {
 	"domain": "py",
+	"registryOperator": "NIC-PY",
+	"countryName": "Paraguay",
 	"whoisURL": "http://www.nic.py/consulta-datos.php",
 	"nameServers": [
 		"b.dns.py",

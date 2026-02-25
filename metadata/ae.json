@@ -1,5 +1,10 @@
 {
 	"domain": "ae",
+	"domainIdn": [
+		"امارات"
+	],
+	"registryOperator": "Telecommunications and Digital Government Regulatory Authority (TDRA)",
+	"countryName": "United Arab Emirates",
 	"infoURL": "https://www.nic.ae/",
 	"whoisServer": "whois.aeda.net.ae",
 	"nameServers": [
@@ -7,6 +12,9 @@
 		"ns2.aedns.ae",
 		"ns4.apnic.net",
 		"nsext-pch.aedns.ae"
+	],
+	"languages": [
+		"ar-AE"
 	],
 	"tags": [
 		"country",

@@ -1,5 +1,10 @@
 {
 	"domain": "dz",
+	"domainIdn": [
+		"الجزائر"
+	],
+	"registryOperator": "CERIST",
+	"countryName": "Algeria",
 	"nameServers": [
 		"ns-dz.afrinic.net",
 		"ns1.nic.dz",

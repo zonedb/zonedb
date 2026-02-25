@@ -1,5 +1,7 @@
 {
 	"domain": "va",
+	"registryOperator": "Holy See - Vatican City State",
+	"countryName": "Vatican City",
 	"whoisServer": "whois.iana.org",
 	"nameServers": [
 		"a.nic.va",

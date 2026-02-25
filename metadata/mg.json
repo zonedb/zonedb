@@ -1,5 +1,7 @@
 {
 	"domain": "mg",
+	"registryOperator": "NIC-MG (Network Information Center Madagascar)",
+	"countryName": "Madagascar",
 	"whoisServer": "whois.nic.mg",
 	"rdapURLs": [
 		"http://rdap.nic.mg/"

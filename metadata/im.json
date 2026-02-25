@@ -1,5 +1,7 @@
 {
 	"domain": "im",
+	"registryOperator": "Isle of Man Government",
+	"countryName": "Isle of Man",
 	"whoisServer": "whois.nic.im",
 	"nameServers": [
 		"barney.advsys.co.uk",

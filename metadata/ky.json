@@ -1,5 +1,7 @@
 {
 	"domain": "ky",
+	"registryOperator": "Utility Regulation and Competition Office (OfReg)",
+	"countryName": "Cayman Islands",
 	"infoURL": "https://uniregistry.ky/",
 	"whoisServer": "whois.kyregistry.ky",
 	"rdapURLs": [

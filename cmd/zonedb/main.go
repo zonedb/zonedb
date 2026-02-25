@@ -20,6 +20,7 @@ func main() {
 	flag.BoolVar(&build.Verbose, "v", false, "enable verbose logging")
 	flag.StringVar(&build.BaseDir, "dir", "./", "working directory (location of zones.txt and metadata dir)")
 	flag.IntVar(&build.Concurrency, "c", build.Concurrency, "number of concurrent connections")
+	noCache := flag.Bool("no-cache", false, "disable ETag cache (force fresh fetches)")
 
 	// Filters
 	tlds := flag.Bool("tlds", false, "work on top-level domains only")
@@ -83,10 +84,12 @@ func main() {
 
 	// Load ETag cache for conditional HTTP requests
 	cache := build.NewETagCache(filepath.Join(build.BaseDir, ".cache", "etags.json"))
-	if err := cache.Load(); err != nil {
-		color.Fprintf(os.Stderr, "@{y}Warning: failed to load ETag cache, starting fresh: %s\n", err)
+	if !*noCache {
+		if err := cache.Load(); err != nil {
+			color.Fprintf(os.Stderr, "@{y}Warning: failed to load ETag cache, starting fresh: %s\n", err)
+		}
+		defer cache.Save()
 	}
-	defer cache.Save()
 
 	startTime := time.Now()
 	defer func() {
@@ -243,6 +246,16 @@ func main() {
 		}
 	}
 
+	// IANA root DB index: registryOperator for all TLDs, domainPunycode,
+	// domainAscii/domainIdn mappings, and country tags.
+	if *updateICANN || *updateAll {
+		err := build.FetchRootDBIndex(workZones, cache)
+		if err != nil {
+			errs = append(errs, err)
+			build.LogError(err)
+		}
+	}
+
 	if *updateRubyWhois {
 		err := build.FetchRubyWhoisServers(workZones, addNew, cache)
 		if err != nil {
@@ -300,6 +313,18 @@ func main() {
 		build.ApplyIDNOverrides(workZones)
 
 		err = build.FetchIDNTablesFromCentralNic(workZones, cache)
+		if err != nil {
+			errs = append(errs, err)
+			build.LogError(err)
+		}
+	}
+
+	// CLDR territory metadata: languages and country names for ccTLDs.
+	// Runs after IDN tables so that CLDR-derived languages are additive
+	// to IDN-table-derived languages. Also runs with -update-icann since
+	// it depends on domainAscii set by FetchRootDBIndex.
+	if *updateIDN || *updateICANN || *updateAll {
+		err := build.FetchAndApplyCLDRMetadata(workZones, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)

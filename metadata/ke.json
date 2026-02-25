@@ -1,5 +1,7 @@
 {
 	"domain": "ke",
+	"registryOperator": "Kenya Network Information Center (KeNIC)",
+	"countryName": "Kenya",
 	"infoURL": "https://kenic.or.ke/",
 	"whoisServer": "whois.kenic.or.ke",
 	"rdapURLs": [

@@ -1,5 +1,9 @@
 {
 	"domain": "ไทย",
+	"domainPunycode": "xn--o3cw4h",
+	"domainAscii": "th",
+	"registryOperator": "Thai Network Information Center Foundation",
+	"countryName": "Thailand",
 	"whoisServer": "whois.thnic.co.th",
 	"rdapURLs": [
 		"https://rdap.thains.co.th/"
@@ -10,6 +14,9 @@
 		"nn1.thains.co.th",
 		"ns.thnic.net",
 		"p.thains.co.th"
+	],
+	"languages": [
+		"th-TH"
 	],
 	"tags": [
 		"country",

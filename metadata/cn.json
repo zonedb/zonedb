@@ -1,5 +1,11 @@
 {
 	"domain": "cn",
+	"domainIdn": [
+		"中国",
+		"中國"
+	],
+	"registryOperator": "China Internet Network Information Center (CNNIC)",
+	"countryName": "China",
 	"infoURL": "https://www.cnnic.net.cn/",
 	"whoisServer": "whois.cnnic.net.cn",
 	"nameServers": [

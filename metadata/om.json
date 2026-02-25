@@ -1,5 +1,10 @@
 {
 	"domain": "om",
+	"domainIdn": [
+		"عمان"
+	],
+	"registryOperator": "Telecommunications Regulatory Authority (TRA)",
+	"countryName": "Oman",
 	"infoURL": "https://www.registry.om/",
 	"whoisServer": "whois.registry.om",
 	"nameServers": [

@@ -1,5 +1,7 @@
 {
 	"domain": "se",
+	"registryOperator": "The Internet Infrastructure Foundation",
+	"countryName": "Sweden",
 	"whoisServer": "whois.iis.se",
 	"nameServers": [
 		"a.ns.se",

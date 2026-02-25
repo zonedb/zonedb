@@ -1,5 +1,7 @@
 {
 	"domain": "mv",
+	"registryOperator": "Dhivehi Raajjeyge Gulhun PLC",
+	"countryName": "Maldives",
 	"nameServers": [
 		"baraveli.ns.mv",
 		"boli.ns.mv",

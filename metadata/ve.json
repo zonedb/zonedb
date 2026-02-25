@@ -1,5 +1,7 @@
 {
 	"domain": "ve",
+	"registryOperator": "Comisión Nacional de Telecomunicaciones (CONATEL)",
+	"countryName": "Venezuela",
 	"whoisServer": "whois.nic.ve",
 	"nameServers": [
 		"a.lactld.org",

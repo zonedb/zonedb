@@ -1,5 +1,7 @@
 {
 	"domain": "nl",
+	"registryOperator": "SIDN (Stichting Internet Domeinregistratie Nederland)",
+	"countryName": "Netherlands",
 	"whoisServer": "whois.domain-registry.nl",
 	"rdapURLs": [
 		"https://rdap.sidn.nl/"

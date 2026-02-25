@@ -1,5 +1,9 @@
 {
 	"domain": "بارت",
+	"domainPunycode": "xn--mgbbh1a",
+	"domainAscii": "in",
+	"registryOperator": "National Internet eXchange of India",
+	"countryName": "India",
 	"infoURL": "https://www.registry.in/",
 	"whoisServer": "whois.nixiregistry.in",
 	"nameServers": [
@@ -10,9 +14,6 @@
 	],
 	"locations": [
 		"IN-MH"
-	],
-	"languages": [
-		"ks-IN"
 	],
 	"tags": [
 		"country",

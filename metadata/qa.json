@@ -1,5 +1,10 @@
 {
 	"domain": "qa",
+	"domainIdn": [
+		"قطر"
+	],
+	"registryOperator": "Communications Regulatory Authority",
+	"countryName": "Qatar",
 	"whoisServer": "whois.registry.qa",
 	"nameServers": [
 		"a.registry.qa",

@@ -1,5 +1,7 @@
 {
 	"domain": "fo",
+	"registryOperator": "FO Council",
+	"countryName": "Faroe Islands",
 	"whoisServer": "whois.nic.fo",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/fo/"

@@ -1,5 +1,10 @@
 {
 	"domain": "rs",
+	"domainIdn": [
+		"срб"
+	],
+	"registryOperator": "Serbian National Internet Domain Registry (RNIDS)",
+	"countryName": "Serbia",
 	"whoisServer": "whois.rnids.rs",
 	"nameServers": [
 		"a.nic.rs",

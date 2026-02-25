@@ -1,5 +1,10 @@
 {
 	"domain": "iq",
+	"domainIdn": [
+		"عراق"
+	],
+	"registryOperator": "Communications and Media Commission (CMC)",
+	"countryName": "Iraq",
 	"nameServers": [
 		"ns.cmc.iq",
 		"ns01.trs-dns.com",

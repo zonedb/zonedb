@@ -1,5 +1,10 @@
 {
 	"domain": "eg",
+	"domainIdn": [
+		"مصر"
+	],
+	"registryOperator": "Egyptian Universities Network (EUN), Supreme Council of Universities",
+	"countryName": "Egypt",
 	"whoisURL": "http://lookup.egregistry.eg/english.aspx",
 	"nameServers": [
 		"dns-eg.univie.ac.at",

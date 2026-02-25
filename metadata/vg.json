@@ -1,5 +1,7 @@
 {
 	"domain": "vg",
+	"registryOperator": "Telecommunications Regulatory Commission of the Virgin Islands",
+	"countryName": "British Virgin Islands",
 	"whoisServer": "whois.nic.vg",
 	"rdapURLs": [
 		"https://rdap.centralnic.com/vg/"

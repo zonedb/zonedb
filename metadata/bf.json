@@ -1,5 +1,7 @@
 {
 	"domain": "bf",
+	"registryOperator": "Autorité de Régulation des Communications Electroniques et des Postes (ARCEP)",
+	"countryName": "Burkina Faso",
 	"whoisServer": "whois.registre.bf",
 	"nameServers": [
 		"a.registre.bf",

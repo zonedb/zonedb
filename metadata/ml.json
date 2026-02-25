@@ -1,5 +1,7 @@
 {
 	"domain": "ml",
+	"registryOperator": "Agence des Technologies de l’Information et de la Communication",
+	"countryName": "Mali",
 	"whoisServer": "whois.nic.ml",
 	"rdapURLs": [
 		"https://rdap.nic.ml/"

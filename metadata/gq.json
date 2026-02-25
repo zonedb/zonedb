@@ -1,11 +1,16 @@
 {
 	"domain": "gq",
+	"registryOperator": "GETESA",
+	"countryName": "Equatorial Guinea",
 	"whoisServer": "whois.dominio.gq",
 	"nameServers": [
 		"a.ns.gq",
 		"b.ns.gq",
 		"c.ns.gq",
 		"d.ns.gq"
+	],
+	"languages": [
+		"es-GQ"
 	],
 	"tags": [
 		"country",

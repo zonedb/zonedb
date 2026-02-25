@@ -24,12 +24,16 @@ func TestLanguages(t *testing.T) {
 		domain string
 		want   []string
 	}{
+		// .us has idn-disallowed — no languages assigned
 		{"us", nil},
+		// Han variant domains: only the script-specific zh tag.
+		// Mustang indexes zh-Hans-CN under zh-CN automatically.
 		{"中国", []string{"zh-Hans-CN"}},
 		{"中國", []string{"zh-Hant-CN"}},
 		{"台湾", []string{"zh-Hans-TW"}},
 		{"台灣", []string{"zh-Hant-TW"}},
-		{"香港", []string{"zh-Hans-HK"}},
+		// HK: single Han domain, CLDR derives Hant from zh_Hant
+		{"香港", []string{"zh-Hant-HK"}},
 	}
 
 	for _, tt := range tests {
