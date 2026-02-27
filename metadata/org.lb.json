@@ -2,6 +2,7 @@
 	"domain": "org.lb",
 	"nameServers": [
 		"b.ns.lb",
+		"i.ns.lb",
 		"n.ns.lb",
 		"nabil.ns.lb",
 		"r.ns.lb",
