@@ -1,6 +1,6 @@
 {
 	"domain": "weather",
-	"registryOperator": "International Business Machines Corporation",
+	"registryOperator": "The Weather Company, LLC",
 	"infoURL": "http://www.nic.weather/",
 	"whoisServer": "whois.nic.weather",
 	"rdapURLs": [
