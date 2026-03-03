@@ -7,12 +7,8 @@
 	"nameServers": [
 		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
-		"ns1.nic.in.net",
 		"ns10.trs-dns.info",
-		"ns10.trs-dns.org",
-		"ns2.nic.in.net",
-		"ns3.nic.in.net",
-		"ns4.nic.in.net"
+		"ns10.trs-dns.org"
 	],
 	"policies": [
 		{
