@@ -36,6 +36,7 @@
 		"mul-Glag",
 		"mul-Grek",
 		"mul-Gujr",
+		"mul-Hang",
 		"mul-Hano",
 		"mul-Hebr",
 		"mul-Khmr",
@@ -207,6 +208,12 @@
 			"type": "idn-table",
 			"key": "mul-Gujr",
 			"value": "https://centralnicregistry.com/services/idn-table/gujr/314/",
+			"source": "https://centralnicregistry.com/idn-tables/"
+		},
+		{
+			"type": "idn-table",
+			"key": "mul-Hang",
+			"value": "https://centralnicregistry.com/services/idn-table/hang/134/",
 			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
