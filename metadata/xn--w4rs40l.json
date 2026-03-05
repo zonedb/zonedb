@@ -3,6 +3,7 @@
 	"domainPunycode": "xn--w4rs40l",
 	"registryOperator": "Kerry Trading Co. Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--w4rs40l",
+	"whoisServer": "whois.nic.嘉里",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

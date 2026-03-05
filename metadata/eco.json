@@ -12,12 +12,144 @@
 		"c.ns.nic.eco",
 		"d.ns.nic.eco"
 	],
+	"languages": [
+		"be",
+		"bg",
+		"bs",
+		"cnr-Cyrl",
+		"da",
+		"fi",
+		"hu",
+		"is",
+		"it",
+		"ko",
+		"lt",
+		"lv",
+		"mk",
+		"pl",
+		"pt",
+		"ru",
+		"sr-Cyrl",
+		"sv",
+		"uk"
+	],
 	"tags": [
 		"generic"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "be",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_be_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "bg",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_bg_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "bs",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_bs_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "cnr-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_cnr-cyrl_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "da",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_da_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "fi",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_fi_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "hu",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_hu_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "is",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_is_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "it",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_it_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "ko",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_ko_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "lt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_lt_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "lv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_lv_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "mk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_mk_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "pl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_pl_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_pt_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "ru",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_ru_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "sr-Cyrl",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_sr-cyrl_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "sv",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_sv_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "uk",
+			"value": "https://www.iana.org/domains/idn-tables/tables/eco_uk_4.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }
