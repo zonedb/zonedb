@@ -2,6 +2,7 @@
 	"domain": "nikon",
 	"registryOperator": "NIKON CORPORATION",
 	"infoURL": "https://www.nic.nikon/",
+	"whoisServer": "whois.nic.nikon",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
