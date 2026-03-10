@@ -1,8 +1,13 @@
 {
 	"domain": "bus.pro",
 	"nameServers": [
-		"launch1.spaceship.net",
-		"launch2.spaceship.net"
+		"ns1dhl.name.com",
+		"ns2knz.name.com",
+		"ns3cfp.name.com",
+		"ns4lrt.name.com"
+	],
+	"wildcards": [
+		"91.195.240.94"
 	],
 	"policies": [
 		{
