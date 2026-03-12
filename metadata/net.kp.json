@@ -1,9 +1,5 @@
 {
 	"domain": "net.kp",
-	"nameServers": [
-		"ns1.net.kp",
-		"ns2.net.kp"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
