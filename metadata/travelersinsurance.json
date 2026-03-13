@@ -2,6 +2,7 @@
 	"domain": "travelersinsurance",
 	"registryOperator": "Travelers TLD, LLC",
 	"infoURL": "https://nic.travelersinsurance/",
+	"whoisServer": "whois.nic.travelersinsurance",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -3,6 +3,9 @@
 	"registryOperator": "Universite Cheikh Anta Diop",
 	"countryName": "Senegal",
 	"whoisServer": "whois.nic.sn",
+	"rdapURLs": [
+		"https://rdap.nic.sn/whois43/"
+	],
 	"nameServers": [
 		"dns-tld.ird.fr",
 		"ns-sn.nic.fr",
