@@ -6,12 +6,6 @@
 		"ns3cfp.name.com",
 		"ns4lrt.name.com"
 	],
-	"wildcards": [
-		"16.145.39.211",
-		"52.27.146.4",
-		"elasticbeanstalk.premium.domains",
-		"premium-sales-lp-shrdsrv-blue.eba-mpsypmud.us-west-2.elasticbeanstalk.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

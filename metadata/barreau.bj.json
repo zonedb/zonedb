@@ -1,8 +1,8 @@
 {
 	"domain": "barreau.bj",
 	"nameServers": [
-		"dina.ns.cloudflare.com",
-		"ken.ns.cloudflare.com"
+		"ns5.afriregister.co.ke",
+		"ns6.afriregister.co.ke"
 	],
 	"policies": [
 		{
