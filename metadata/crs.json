@@ -2,6 +2,7 @@
 	"domain": "crs",
 	"registryOperator": "Federated Co-operatives Limited",
 	"infoURL": "http://nic.crs/",
+	"whoisServer": "whois.nic.crs",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
