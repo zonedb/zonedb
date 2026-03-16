@@ -5,8 +5,7 @@
 		"ns2.gov.bh"
 	],
 	"wildcards": [
-		"198.135.184.22",
-		"sinkhole.paloaltonetworks.com"
+		"198.135.184.22"
 	],
 	"policies": [
 		{
