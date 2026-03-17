@@ -4,9 +4,6 @@
 	"countryName": "Slovakia",
 	"whoisServer": "whois.sk-nic.sk",
 	"nameServers": [
-		"a.tld.sk",
-		"b.tld.sk",
-		"c.tld.sk",
 		"e.tld.sk",
 		"f.tld.sk",
 		"g.tld.sk",
