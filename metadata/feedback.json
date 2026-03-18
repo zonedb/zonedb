@@ -2,7 +2,7 @@
 	"domain": "feedback",
 	"registryOperator": "Top Level Spectrum, Inc.",
 	"infoURL": "http://www.nic.feedback/",
-	"whoisServer": "whois.registry.click",
+	"whoisServer": "whois.nic.feedback",
 	"rdapURLs": [
 		"https://rdap.registry.click/rdap/"
 	],

@@ -4,7 +4,7 @@
 	"countryName": "Palau",
 	"whoisServer": "whois.nic.pw",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/pw/"
+		"https://rdap.radix.host/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",

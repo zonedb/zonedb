@@ -4,7 +4,7 @@
 	"infoURL": "https://radix.website/dot-space",
 	"whoisServer": "whois.nic.space",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/space/"
+		"https://rdap.radix.host/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",

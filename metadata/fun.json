@@ -4,7 +4,7 @@
 	"infoURL": "https://radix.website/dot-fun",
 	"whoisServer": "whois.nic.fun",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/fun/"
+		"https://rdap.radix.host/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",

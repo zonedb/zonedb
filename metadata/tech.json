@@ -4,7 +4,7 @@
 	"infoURL": "https://radix.website/dot-tech",
 	"whoisServer": "whois.nic.tech",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/tech/"
+		"https://rdap.radix.host/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",

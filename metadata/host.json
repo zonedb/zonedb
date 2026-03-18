@@ -3,7 +3,7 @@
 	"registryOperator": "Radix Technologies Inc.",
 	"whoisServer": "whois.nic.host",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/host/"
+		"https://rdap.radix.host/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",
