@@ -2,6 +2,7 @@
 	"domain": "nab",
 	"registryOperator": "National Australia Bank Limited",
 	"infoURL": "https://www.nab.com.au/nic",
+	"whoisServer": "whois.nic.nab",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
