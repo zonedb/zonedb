@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.kfh/",
 	"whoisServer": "whois.nic.kfh",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/kfh/"
+		"https://rdap.registry.kfh/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",

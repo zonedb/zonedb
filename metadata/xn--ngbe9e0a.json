@@ -5,7 +5,7 @@
 	"infoURL": "https://nic.بيتك/",
 	"whoisServer": "whois.nic.بيتك",
 	"rdapURLs": [
-		"https://rdap.centralnic.com/xn--ngbe9e0a/"
+		"https://rdap.registry.kfh/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",

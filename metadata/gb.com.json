@@ -2,8 +2,8 @@
 	"domain": "gb.com",
 	"whoisServer": "whois.centralnic.com",
 	"nameServers": [
-		"ns1.dyna-ns.net",
-		"ns2.dyna-ns.net"
+		"jin1.ddd.com",
+		"jin2.ddd.com"
 	],
 	"tags": [
 		"private"
