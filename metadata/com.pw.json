@@ -4,10 +4,6 @@
 		"ns13.xincache.com",
 		"ns14.xincache.com"
 	],
-	"wildcards": [
-		"170.106.38.15",
-		"xinparking.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
