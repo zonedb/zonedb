@@ -1,0 +1,7 @@
+{
+	"domain": "pod.pro",
+	"nameServers": [
+		"harley.ns.cloudflare.com",
+		"venus.ns.cloudflare.com"
+	]
+}
