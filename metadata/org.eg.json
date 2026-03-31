@@ -2,8 +2,7 @@
 	"domain": "org.eg",
 	"nameServers": [
 		"frcu.eun.eg",
-		"rip.psg.com",
-		"www.frcu.eun.eg"
+		"rip.psg.com"
 	],
 	"policies": [
 		{
