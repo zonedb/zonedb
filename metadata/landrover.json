@@ -2,6 +2,7 @@
 	"domain": "landrover",
 	"registryOperator": "Jaguar Land Rover Ltd",
 	"infoURL": "http://nic.landrover/",
+	"whoisServer": "whois.nic.landrover",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

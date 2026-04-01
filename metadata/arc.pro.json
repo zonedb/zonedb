@@ -1,8 +1,11 @@
 {
 	"domain": "arc.pro",
 	"nameServers": [
-		"ns1.timeweb.ru",
-		"ns2.timeweb.ru"
+		"dns5.parkpage.foundationapi.com",
+		"dns6.parkpage.foundationapi.com"
+	],
+	"wildcards": [
+		"15.197.240.20"
 	],
 	"policies": [
 		{
