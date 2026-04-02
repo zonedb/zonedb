@@ -30,8 +30,7 @@
 		"ru",
 		"sr",
 		"sv",
-		"uk",
-		"zh"
+		"uk"
 	],
 	"tags": [
 		"brand",
@@ -145,12 +144,6 @@
 			"key": "uk",
 			"value": "https://www.iana.org/domains/idn-tables/tables/nokia_uk_2.6.txt",
 			"source": "https://www.iana.org/domains/idn-tables"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh",
-			"value": "https://centralnicregistry.com/services/idn-table/zh/757/",
-			"source": "https://centralnicregistry.com/idn-tables/"
 		}
 	]
 }

@@ -5,7 +5,7 @@
 	],
 	"registryOperator": "Korea Internet & Security Agency (KISA)",
 	"countryName": "South Korea",
-	"whoisServer": "whois.kr",
+	"whoisServer": "whois.krnic.net",
 	"nameServers": [
 		"b.dns.kr",
 		"c.dns.kr",
