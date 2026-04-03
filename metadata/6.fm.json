@@ -5,5 +5,9 @@
 		"ns2.bb-online.org",
 		"ns3.bb-online.info",
 		"ns4.bb-online.biz"
+	],
+	"wildcards": [
+		"139.162.244.72",
+		"6.fm"
 	]
 }
