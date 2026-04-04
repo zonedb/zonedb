@@ -1,11 +1,5 @@
 {
 	"domain": "nom.mg",
-	"nameServers": [
-		"dns-tld.ird.fr",
-		"ns.dts.mg",
-		"ns.nic.mg",
-		"pch.nic.mg"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

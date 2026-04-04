@@ -2,7 +2,7 @@
 	"domain": "tv",
 	"registryOperator": "Ministry of Transport, Energy, Communications and Innovations",
 	"countryName": "Tuvalu",
-	"whoisServer": "tvwhois.verisign-grs.com",
+	"whoisServer": "whois.nic.tv",
 	"rdapURLs": [
 		"https://rdap.nic.tv/"
 	],
