@@ -1,8 +1,6 @@
 {
 	"domain": "tur.ec",
 	"nameServers": [
-		"n2.nic.ec",
-		"ns1.anycastdns.cz",
-		"ns2.anycastdns.cz"
+		"n2.nic.ec"
 	]
 }
