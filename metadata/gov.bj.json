@@ -1,5 +1,8 @@
 {
 	"domain": "gov.bj",
+	"nameServers": [
+		"ns1.intnet.bj"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

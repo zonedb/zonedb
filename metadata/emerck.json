@@ -2,6 +2,7 @@
 	"domain": "emerck",
 	"registryOperator": "Merck KGaA",
 	"infoURL": "http://www.nic.emerck/darmstadt/germany/",
+	"whoisServer": "whois.nic.emerck",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

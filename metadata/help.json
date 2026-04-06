@@ -19,8 +19,7 @@
 		"it",
 		"mul-Cyrl",
 		"pt",
-		"ru",
-		"zh"
+		"ru"
 	],
 	"tags": [
 		"generic"
@@ -66,12 +65,6 @@
 			"type": "idn-table",
 			"key": "ru",
 			"value": "https://centralnicregistry.com/services/idn-table/ru/17/",
-			"source": "https://centralnicregistry.com/idn-tables/"
-		},
-		{
-			"type": "idn-table",
-			"key": "zh",
-			"value": "https://centralnicregistry.com/services/idn-table/zh/757/",
 			"source": "https://centralnicregistry.com/idn-tables/"
 		}
 	]
