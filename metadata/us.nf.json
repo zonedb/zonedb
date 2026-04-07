@@ -1,5 +1,9 @@
 {
 	"domain": "us.nf",
+	"nameServers": [
+		"ns1.subdomain.net",
+		"ns2.subdomain.net"
+	],
 	"wildcards": [
 		"95.217.58.108",
 		"us.nf"
