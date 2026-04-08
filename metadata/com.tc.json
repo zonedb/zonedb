@@ -1,5 +1,5 @@
 {
-	"domain": "net.tc",
+	"domain": "com.tc",
 	"nameServers": [
 		"root1.zone.tc",
 		"root2.zone.tc",
@@ -7,11 +7,7 @@
 		"root4.zone.tc",
 		"root5.zone.tc",
 		"root6.zone.tc",
-		"root7.zone.tc"
-	],
-	"policies": [
-		{
-			"type": "idn-disallowed"
-		}
+		"root7.zone.tc",
+		"root8.zone.tc"
 	]
 }

@@ -1,6 +1,7 @@
 {
 	"domain": "gov.lk",
 	"nameServers": [
+		"c.nic.lk",
 		"d.nic.lk",
 		"m.nic.lk",
 		"ns1.gov.lk",
