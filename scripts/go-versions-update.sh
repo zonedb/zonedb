@@ -12,8 +12,8 @@ cd "$(git -C "$SCRIPT_DIR" rev-parse --show-toplevel)"
 
 # Run check script and extract KEY=VALUE pairs
 CHECK_OUTPUT=$("$SCRIPT_DIR/go-versions-check.sh" 2>&1) || true
-echo "$CHECK_OUTPUT" | grep -v '^[A-Z_]*='
-eval "$(echo "$CHECK_OUTPUT" | grep '^[A-Z_]*=')"
+echo "$CHECK_OUTPUT" | grep -v '^[A-Z_][A-Z_]*='
+eval "$(echo "$CHECK_OUTPUT" | grep '^[A-Z_][A-Z_]*=')"
 
 if [ "$NEEDS_UPDATE" = "false" ]; then
   echo "Everything is up to date."

@@ -27,7 +27,7 @@ jobs:
           OUTPUT=$(scripts/go-versions-check.sh 2>&1) && NEEDS_UPDATE=false || NEEDS_UPDATE=true
           echo "$OUTPUT"
           echo "needs_update=$NEEDS_UPDATE" >> "$GITHUB_OUTPUT"
-          eval "$(echo "$OUTPUT" | grep '^[A-Z_]*=')"
+          eval "$(echo "$OUTPUT" | grep '^[A-Z_][A-Z_]*=')"
           {
             echo "go_prev=$GO_PREV"
             echo "tinygo_go=$TINYGO_GO"
