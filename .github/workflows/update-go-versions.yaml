@@ -1,0 +1,81 @@
+name: Update Go & TinyGo Versions
+
+on:
+  schedule:
+    - cron: "0 9 * * 1" # Weekly Monday 9am UTC
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-versions:
+    name: Update Go & TinyGo Versions
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+
+      - name: Check versions
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          OUTPUT=$(scripts/go-versions-check.sh 2>&1) && NEEDS_UPDATE=false || NEEDS_UPDATE=true
+          echo "$OUTPUT"
+          echo "needs_update=$NEEDS_UPDATE" >> "$GITHUB_OUTPUT"
+          eval "$(echo "$OUTPUT" | grep '^[A-Z_]*=')"
+          {
+            echo "go_prev=$GO_PREV"
+            echo "tinygo_go=$TINYGO_GO"
+            echo "tinygo_prev=$TINYGO_PREV"
+            echo "tinygo_latest=$TINYGO_LATEST"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Set up Go
+        if: steps.check.outputs.needs_update == 'true'
+        uses: actions/setup-go@v6
+        with:
+          go-version: stable
+
+      - name: Update files
+        if: steps.check.outputs.needs_update == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: scripts/go-versions-update.sh
+
+      - name: Create pull request
+        if: steps.check.outputs.needs_update == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GO_PREV: ${{ steps.check.outputs.go_prev }}
+          TINYGO_GO: ${{ steps.check.outputs.tinygo_go }}
+          TINYGO_PREV: ${{ steps.check.outputs.tinygo_prev }}
+          TINYGO_LATEST: ${{ steps.check.outputs.tinygo_latest }}
+        run: |
+          BRANCH="update-go-versions"
+          git checkout -b "$BRANCH"
+          git add go.mod go.sum .github/workflows/go.yaml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update Go to ${GO_PREV}.0, TinyGo to ${TINYGO_LATEST}"
+          git push -f origin "$BRANCH"
+          EXISTING_PR=$(gh pr list --head "$BRANCH" --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING_PR" ]; then
+            echo "PR #$EXISTING_PR already exists, updated branch."
+          else
+            gh pr create \
+              --title "Update Go to ${GO_PREV}.0, TinyGo to ${TINYGO_LATEST}" \
+              --body "Automated version update per [Go release policy](https://go.dev/doc/devel/release#policy).
+
+          - go.mod minimum: \`go ${GO_PREV}.0\`
+          - go.yaml Go version for TinyGo tests: \`${TINYGO_GO}\`
+          - go.yaml TinyGo versions: \`${TINYGO_PREV}\`, \`${TINYGO_LATEST}\`
+
+          > [!NOTE]
+          > This PR was created by the \`update-go-versions\` workflow.
+          > CI won't run automatically — close and reopen to trigger tests."
+          fi
