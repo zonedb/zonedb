@@ -5,6 +5,7 @@
 	],
 	"registryOperator": "CERIST",
 	"countryName": "Algeria",
+	"whoisServer": "whois.nic.dz",
 	"nameServers": [
 		"ns-dz.afrinic.net",
 		"ns1.nic.dz",

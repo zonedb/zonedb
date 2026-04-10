@@ -2,7 +2,7 @@
 	"domain": "su",
 	"registryOperator": "Russian Institute for Development of Public Networks (ROSNIIROS)",
 	"countryName": "USSR",
-	"whoisServer": "whois.ripn.net",
+	"whoisServer": "whois.tcinet.ru",
 	"nameServers": [
 		"a.dns.ripn.net",
 		"b.dns.ripn.net",
