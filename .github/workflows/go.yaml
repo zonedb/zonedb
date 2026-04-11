@@ -102,17 +102,17 @@ jobs:
       # Go version from go.mod. See usage in the actions/setup-go step.
       matrix:
         go-version:
-          - big: "1.24"
-            tiny: "0.36.0"
-          - big: "1.24"
-            tiny: "0.37.0"
+          - big: "1.25"
+            tiny: "0.39.0"
+          - big: "1.25"
+            tiny: "0.40.1"
         # FIXME: TinyGo needs to be manually bumped; it doesn't immediately
         # release support for new major Go versions something should ping when a
         # new version is available.
         include:
           - go-version:
               file: "go.mod"
-              tiny: "0.37.0"
+              tiny: "0.40.1"
 
     env:
       GODEBUG: toolchaintrace=1
@@ -132,8 +132,8 @@ jobs:
 
       - name: Add Go wasm exec to $PATH (for Go < 1.24 and Go >= 1.24)
         run: |
-          echo "$(go env GOROOT)/misc/wasm" >> $GITHUB_PATH
-          echo "$(go env GOROOT)/lib/wasm" >> $GITHUB_PATH
+          echo "$(go env GOROOT)/misc/wasm" >> "$GITHUB_PATH"
+          echo "$(go env GOROOT)/lib/wasm" >> "$GITHUB_PATH"
 
       - name: Check for wasmtime bridge
         run: which go_wasip1_wasm_exec

@@ -88,7 +88,11 @@ func main() {
 		if err := cache.Load(); err != nil {
 			color.Fprintf(os.Stderr, "@{y}Warning: failed to load ETag cache, starting fresh: %s\n", err)
 		}
-		defer cache.Save()
+		defer func() {
+			if err := cache.Save(); err != nil {
+				color.Fprintf(os.Stderr, "@{y}Warning: failed to save ETag cache: %s\n", err)
+			}
+		}()
 	}
 
 	startTime := time.Now()

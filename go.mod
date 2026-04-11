@@ -1,11 +1,9 @@
 module github.com/zonedb/zonedb
 
-// Minimum supported Go version
-// (current version -2, except when security fixes are only backported to the current version -1)
-// Note: this should use the latest dot release in CI, once GitHub has added it to "actions/go-versions"
-//
-// EDIT[2025.12.09]: golang.org/x/net requires go1.24.0 - so we have to avoid go1.23.x
-go 1.24.10
+// Minimum supported Go version: the older of the two most recent major
+// releases, per the Go release policy: https://go.dev/doc/devel/release#policy
+// Checked automatically by .github/workflows/update-go-versions.yaml
+go 1.25.0
 
 require (
 	github.com/PuerkitoBio/goquery v1.11.0

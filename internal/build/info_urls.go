@@ -2,7 +2,6 @@ package build
 
 import (
 	"io"
-	"io/ioutil"
 	"net/http"
 	"strings"
 	"time"
@@ -73,7 +72,7 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 				}
 				continue
 			}
-			CloseN(res.Body, 10_000_000)
+			_, _ = CloseN(res.Body, 10_000_000)
 			// Don’t use redirected URL, use the URL we crafted
 			// infoURL = NormalizeURL(res.Request.URL.String())
 			infoURL = u
@@ -97,21 +96,10 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 // It returns the number of bytes drained and the first error encountered.
 // Regardless of any errors, rc.Close() is guaranteed to be called.
 func CloseN(rc io.ReadCloser, n int64) (int64, error) {
-	n, cerr := io.Copy(ioutil.Discard, io.LimitReader(rc, n))
+	n, cerr := io.Copy(io.Discard, io.LimitReader(rc, n))
 	err := rc.Close()
 	if cerr != nil {
 		err = cerr
 	}
 	return n, err
-}
-
-// trimURL trims query strings and /index.htm(l)? from a URL.
-func trimURL(u string) string {
-	u, _, _ = strings.Cut(u, "?")
-	if strings.HasSuffix(u, "/index.html") {
-		u = strings.TrimSuffix(u, "/index.html")
-	} else {
-		u = strings.TrimSuffix(u, "/index.htm")
-	}
-	return u
 }

@@ -56,6 +56,14 @@ tag-version: .git/refs/heads/main
 	git tag $(tag_version) $(git_revision)
 	git push --tags
 
+.PHONY: go-versions-check
+go-versions-check:
+	@scripts/go-versions-check.sh || true
+
+.PHONY: go-versions-update
+go-versions-update:
+	scripts/go-versions-update.sh
+
 .PHONY: test-makefile-integrity
 test-makefile-integrity:
 	@echo ">>> Testing 'make install'..."
