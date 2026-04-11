@@ -169,7 +169,7 @@ func centralNicTestHandler() http.Handler {
 	// For any other detail page, serve an empty page (no zones)
 	mux.HandleFunc("/services/idn-table/", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "text/html")
-		w.Write([]byte(`<!doctype html><html><body></body></html>`))
+		_, _ = w.Write([]byte(`<!doctype html><html><body></body></html>`))
 	})
 
 	return mux

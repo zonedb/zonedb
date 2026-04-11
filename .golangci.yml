@@ -10,3 +10,5 @@ linters:
         # Deferred and post-read Close() calls — error on close after
         # successful read is harmless for HTTP bodies, files, and connections.
         - (io.Closer).Close
+        - (*os.File).Close
+        - (net.Conn).Close

@@ -28,16 +28,6 @@ func TestApplyIDNOverrides(t *testing.T) {
 	defer func() { IDNOverrides = origOverrides }()
 
 	zones := map[string]*Zone{
-		"source": {Domain: "aaa"},  // .aaa exists in the fixture
-		"target": {Domain: "target"},
-	}
-
-	// Populate source from fixture.
-	// Note: source has Domain "aaa" so FetchIDNTablesFromIANA matches
-	// IANA entries for .aaa. But the zones map key is "source" so the
-	// fetch won't find it. We need to use the real domain.
-	// Let's restructure: use real domain names.
-	zones = map[string]*Zone{
 		"aaa": {Domain: "aaa"},
 		"cc":  {Domain: "cc"},
 	}

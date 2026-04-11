@@ -153,9 +153,8 @@ func FetchIDNTablesFromCentralNic(zones map[string]*Zone, cache *ETagCache) erro
 
 	// Normalize mnemonics and collect detail page fetches
 	type fetchJob struct {
-		lang     string
-		entry    centralNicEntry
-		detailID string // URL path suffix for the detail page
+		lang  string
+		entry centralNicEntry
 	}
 	var jobs []fetchJob
 	for _, entry := range entries {

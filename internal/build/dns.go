@@ -384,7 +384,7 @@ func randLabel(n int) string {
 
 func exchange(ctx context.Context, host, qname string, qtype uint16) (*dns.Msg, error) {
 	qmsg := &dns.Msg{}
-	qmsg.MsgHdr.RecursionDesired = true
+	qmsg.RecursionDesired = true
 	qmsg.SetQuestion(dns.Fqdn(qname), qtype)
 	client := &dns.Client{}
 	// if deadline, ok := ctx.Deadline(); ok {

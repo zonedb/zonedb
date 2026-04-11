@@ -24,16 +24,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          OUTPUT=$(scripts/go-versions-check.sh 2>&1) && NEEDS_UPDATE=false || NEEDS_UPDATE=true
+          OUTPUT=$(scripts/go-versions-check.sh 2>&1) || true
           echo "$OUTPUT"
-          echo "needs_update=$NEEDS_UPDATE" >> "$GITHUB_OUTPUT"
-          eval "$(echo "$OUTPUT" | grep '^[A-Z_][A-Z_]*=')"
-          {
-            echo "go_prev=$GO_PREV"
-            echo "tinygo_go=$TINYGO_GO"
-            echo "tinygo_prev=$TINYGO_PREV"
-            echo "tinygo_latest=$TINYGO_LATEST"
-          } >> "$GITHUB_OUTPUT"
+          # Forward machine-readable values (e.g. GO_PREV=1.25) to GITHUB_OUTPUT as lowercase keys
+          echo "$OUTPUT" | grep '^[A-Z][A-Z_]*=' | tr '[:upper:]' '[:lower:]' >> "$GITHUB_OUTPUT"
 
       - name: Set up Go
         if: steps.check.outputs.needs_update == 'true'
@@ -57,23 +51,25 @@ jobs:
           TINYGO_LATEST: ${{ steps.check.outputs.tinygo_latest }}
         run: |
           BRANCH="update-go-versions"
+          TITLE="Update Go to ${GO_PREV}.0, TinyGo to ${TINYGO_LATEST}"
           git checkout -b "$BRANCH"
           git add go.mod go.sum .github/workflows/go.yaml
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update Go to ${GO_PREV}.0, TinyGo to ${TINYGO_LATEST}"
-          git push -f origin "$BRANCH"
+          git commit -m "$TITLE"
+          git push --force-with-lease origin "$BRANCH"
           EXISTING_PR=$(gh pr list --head "$BRANCH" --json number --jq '.[0].number // empty')
           if [ -n "$EXISTING_PR" ]; then
-            echo "PR #$EXISTING_PR already exists, updated branch."
+            gh pr edit "$EXISTING_PR" --title "$TITLE"
+            echo "Updated PR #$EXISTING_PR."
           else
             gh pr create \
-              --title "Update Go to ${GO_PREV}.0, TinyGo to ${TINYGO_LATEST}" \
+              --title "$TITLE" \
               --body "Automated version update per [Go release policy](https://go.dev/doc/devel/release#policy).
 
           - go.mod minimum: \`go ${GO_PREV}.0\`
-          - go.yaml Go version for TinyGo tests: \`${TINYGO_GO}\`
-          - go.yaml TinyGo versions: \`${TINYGO_PREV}\`, \`${TINYGO_LATEST}\`
+          - CI Go version for TinyGo tests: \`${TINYGO_GO}\`
+          - CI TinyGo versions: \`${TINYGO_PREV}\`, \`${TINYGO_LATEST}\`
 
           > [!NOTE]
           > This PR was created by the \`update-go-versions\` workflow.
