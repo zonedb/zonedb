@@ -1,0 +1,12 @@
+version: "2"
+
+linters:
+  default: standard
+  settings:
+    errcheck:
+      exclude-functions:
+        # Cosmetic terminal color output to stderr — errors are meaningless.
+        - github.com/wsxiaoys/terminal/color.Fprintf
+        # Deferred and post-read Close() calls — error on close after
+        # successful read is harmless for HTTP bodies, files, and connections.
+        - (io.Closer).Close

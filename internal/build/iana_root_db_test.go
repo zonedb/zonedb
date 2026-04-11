@@ -271,12 +271,12 @@ func TestApplyRootDBIndex(t *testing.T) {
 	// Every TLD should get a type-based tag matching its IANA classification.
 	t.Run("TypeTags", func(t *testing.T) {
 		typeToTag := map[string]string{
-			"country-code":     TagCountry,
-			"generic":          TagGeneric,
+			"country-code":       TagCountry,
+			"generic":            TagGeneric,
 			"generic-restricted": TagGeneric,
-			"sponsored":        TagSponsored,
-			"infrastructure":   TagInfrastructure,
-			"test":             TagTest,
+			"sponsored":          TagSponsored,
+			"infrastructure":     TagInfrastructure,
+			"test":               TagTest,
 		}
 		for _, e := range entries {
 			wantTag, ok := typeToTag[e.Type]

@@ -8,9 +8,9 @@ import (
 
 func TestStripDeprecatedSuffix(t *testing.T) {
 	tests := []struct {
-		input        string
-		wantDomain   string
-		wantRetired  bool
+		input       string
+		wantDomain  string
+		wantRetired bool
 	}{
 		// Deprecated markers should be stripped
 		{"eap-noob.arpa. (DEPRECATED)", "eap-noob.arpa", true},

@@ -106,7 +106,6 @@ func TestMetadataLanguageTagsValid(t *testing.T) {
 	t.Logf("validated %d language tags across %d zones", checked, len(zones))
 }
 
-
 // TestMetadataCCTLDsHaveCountryName validates that every country-code TLD has
 // a countryName populated.
 func TestMetadataCCTLDsHaveCountryName(t *testing.T) {

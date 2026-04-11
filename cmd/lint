@@ -1,0 +1,110 @@
+#!/usr/bin/env bash
+#
+# cmd/lint — run all linters for the zonedb project.
+# Missing optional tools are skipped, not failed.
+#
+set -euo pipefail
+
+cd "$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
+
+passed=0
+failed=0
+skipped=0
+failures=()
+
+# Run a named lint check. Fails on non-zero exit code.
+check() {
+  local name="$1"; shift
+  local output rc=0
+  output=$("$@" 2>&1) || rc=$?
+  if [ "$rc" -eq 0 ]; then
+    printf "  ✅  %s\n" "$name"
+    passed=$((passed + 1))
+  else
+    printf "  ❌  %s\n" "$name"
+    printf '%s\n' "$output" | head -20 | sed 's/^/       /'
+    failed=$((failed + 1))
+    failures+=("$name")
+  fi
+}
+
+# Like check, but skips when the tool is not on PATH.
+check_optional() {
+  local name="$1" tool="$2"
+  if ! command -v "$tool" &>/dev/null; then
+    printf "  SKIP  %s (%s not installed)\n" "$name" "$tool"
+    skipped=$((skipped + 1))
+    return 0
+  fi
+  check "$name" "${@:2}"
+}
+
+# --- Go ----------------------------------------------------------------
+echo "Go"
+check "gofmt" bash -c '
+  out=$(gofmt -l .)
+  if [ -n "$out" ]; then
+    echo "$out"
+    exit 1
+  fi'
+check "go vet" go vet ./...
+check_optional "golangci-lint" golangci-lint run ./...
+
+# --- Shell --------------------------------------------------------------
+echo ""
+echo "Shell"
+shell_files=$(find . -name '*.sh' -not -path './.git/*' -type f 2>/dev/null || true)
+if [ -n "$shell_files" ]; then
+  # shellcheck disable=SC2086
+  check_optional "shellcheck" shellcheck $shell_files
+else
+  printf "  SKIP  shellcheck (no .sh files)\n"
+  skipped=$((skipped + 1))
+fi
+
+# --- YAML ---------------------------------------------------------------
+echo ""
+echo "YAML"
+check_optional "yamllint" yamllint .github/
+check_optional "actionlint" actionlint
+
+# --- TOML ---------------------------------------------------------------
+echo ""
+echo "TOML"
+check "toml syntax" python3 -c "
+import tomllib, sys, pathlib
+errors = []
+for f in sorted(pathlib.Path('.').rglob('*.toml')):
+    try:
+        tomllib.loads(f.read_text())
+    except Exception as e:
+        errors.append(f'{f}: {e}')
+if errors:
+    print('\n'.join(errors), file=sys.stderr)
+    sys.exit(1)
+"
+
+# --- Dockerfile ----------------------------------------------------------
+echo ""
+echo "Dockerfile"
+dockerfile_files=$(find . -name 'Dockerfile*' -not -path './.git/*' -type f 2>/dev/null || true)
+if [ -n "$dockerfile_files" ]; then
+  # shellcheck disable=SC2086
+  check_optional "hadolint" hadolint $dockerfile_files
+else
+  printf "  SKIP  hadolint (no Dockerfiles)\n"
+  skipped=$((skipped + 1))
+fi
+
+# --- Summary -------------------------------------------------------------
+echo ""
+if [ "$failed" -eq 0 ]; then
+  printf "✅ All %d checks passed" "$passed"
+  [ "$skipped" -gt 0 ] && printf " (%d skipped)" "$skipped"
+  printf ".\n"
+else
+  printf "❌ %d passed, %d failed" "$passed" "$failed"
+  [ "$skipped" -gt 0 ] && printf ", %d skipped" "$skipped"
+  printf ": %s\n" "${failures[*]}"
+  exit 1
+fi

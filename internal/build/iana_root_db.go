@@ -38,7 +38,7 @@ var idnToAsciiOverrides = map[string]string{
 	"xn--90ae": "bg", // .бг
 
 	// Sri Lanka: "LK Domain Registry" vs "Council for Information Technology LK Domain Registrar"
-	"xn--fzc2c9e2c":   "lk", // .ලංකා (Sinhala)
+	"xn--fzc2c9e2c":    "lk", // .ලංකා (Sinhala)
 	"xn--xkc2al3hye2a": "lk", // .இலங்கை (Tamil)
 
 	// Ukraine: "Ukrainian Network Information Centre (UANIC), Inc." vs "Hostmaster Ltd."
@@ -48,7 +48,7 @@ var idnToAsciiOverrides = map[string]string{
 	"xn--l1acc": "mn", // .мон
 
 	// TRA disambiguations: Telecommunications Regulatory Authority manages both .bh and .om
-	"xn--mgb9awbf":   "om", // .عمان (Oman)
+	"xn--mgb9awbf":     "om", // .عمان (Oman)
 	"xn--mgbcpq6gpa1a": "bh", // .البحرين (Bahrain)
 
 	// Iran: "Institute for Research in Fundamental Sciences (IPM)" vs without "(IPM)"
@@ -148,8 +148,8 @@ func applyRootDBIndex(zones map[string]*Zone, doc *goquery.Document) error {
 
 	// Pre-compute normalized (Unicode) domain for each entry, and build
 	// lookups needed for IDN→ASCII mapping.
-	normalized := make([]string, len(entries))         // parallel to entries
-	orgToAscii := make(map[string][]string)            // org → []ASCII domain
+	normalized := make([]string, len(entries)) // parallel to entries
+	orgToAscii := make(map[string][]string)    // org → []ASCII domain
 	for i, e := range entries {
 		normalized[i] = Normalize(e.Punycode)
 		if e.Type == "country-code" && !strings.HasPrefix(e.Punycode, "xn--") {

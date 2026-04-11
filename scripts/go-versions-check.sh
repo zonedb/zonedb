@@ -43,18 +43,18 @@ CUR_TINY_LATEST=$(sed -n 's/.*tiny: "\([0-9.]*\)".*/\1/p' .github/workflows/go.y
 CUR_GOMOD=$(sed -n 's/^go \([0-9.]*\).*/\1/p' go.mod)
 
 echo "=== Go & TinyGo Version Check ==="
-echo "Go stable releases:  $GO_PREV, $GO_CURRENT"
-echo "TinyGo releases:     $TINYGO_PREV, $TINYGO_LATEST (supports up to Go $TINYGO_MAX_GO)"
+echo "Go stable releases:       $GO_PREV, $GO_CURRENT"
+echo "TinyGo releases:          $TINYGO_PREV, $TINYGO_LATEST (supports up to Go $TINYGO_MAX_GO)"
 echo ""
-echo "go.mod minimum:      $CUR_GOMOD -> ${GO_PREV}.0"
-echo "go.yaml Go (TinyGo): $CUR_BIG -> $TINYGO_GO"
-echo "go.yaml TinyGo:      $CUR_TINY_PREV, $CUR_TINY_LATEST -> $TINYGO_PREV, $TINYGO_LATEST"
+echo "go.mod minimum:           $CUR_GOMOD -> ${GO_PREV}.0"
+echo "go.yaml CI Go (TinyGo):   $CUR_BIG -> $TINYGO_GO"
+echo "go.yaml CI TinyGo:        $CUR_TINY_PREV, $CUR_TINY_LATEST -> $TINYGO_PREV, $TINYGO_LATEST"
 
 # Check if updates are needed
 NEEDS_UPDATE=false
-[ "$CUR_BIG" != "$TINYGO_GO" ] && NEEDS_UPDATE=true || true
-[ "$CUR_TINY_LATEST" != "$TINYGO_LATEST" ] && NEEDS_UPDATE=true || true
-[ "$CUR_GOMOD" != "${GO_PREV}.0" ] && NEEDS_UPDATE=true || true
+if [ "$CUR_BIG" != "$TINYGO_GO" ]; then NEEDS_UPDATE=true; fi
+if [ "$CUR_TINY_LATEST" != "$TINYGO_LATEST" ]; then NEEDS_UPDATE=true; fi
+if [ "$CUR_GOMOD" != "${GO_PREV}.0" ]; then NEEDS_UPDATE=true; fi
 echo ""
 echo "Needs update: $NEEDS_UPDATE"
 
@@ -69,4 +69,4 @@ echo "CUR_TINY_PREV=$CUR_TINY_PREV"
 echo "CUR_TINY_LATEST=$CUR_TINY_LATEST"
 echo "NEEDS_UPDATE=$NEEDS_UPDATE"
 
-[ "$NEEDS_UPDATE" = "true" ] && exit 1 || exit 0
+if [ "$NEEDS_UPDATE" = "true" ]; then exit 1; else exit 0; fi
