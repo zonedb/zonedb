@@ -6,7 +6,7 @@
 	"registryOperator": "Thai Network Information Center Foundation",
 	"countryName": "Thailand",
 	"infoURL": "https://www.thnic.co.th/",
-	"whoisServer": "whois.thnic.net",
+	"whoisServer": "whois.thnic.co.th",
 	"rdapURLs": [
 		"https://rdap.thains.co.th/"
 	],

@@ -2,6 +2,7 @@
 	"domain": "info.np",
 	"infoURL": "https://register.com.np/",
 	"nameServers": [
+		"np-ns.npix.net.np",
 		"np.cctld.authdns.ripe.net",
 		"ns4.apnic.net",
 		"pch.nnic.np",
