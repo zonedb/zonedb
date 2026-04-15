@@ -1,9 +1,5 @@
 {
 	"domain": "gov.sl",
-	"nameServers": [
-		"ns1.neoip.com",
-		"ns2.neoip.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -1,12 +1,5 @@
 {
 	"domain": "nom.ni",
-	"nameServers": [
-		"dns-ext.nic.cr",
-		"ns.ni",
-		"ns2.ni",
-		"ns3.ni",
-		"ns4.ni"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -1,8 +1,6 @@
 {
 	"domain": "ac.zw",
 	"nameServers": [
-		"ns01.uz.ac.zw",
-		"ns02.uz.ac.zw",
 		"ns1.liquidtelecom.net",
 		"ns2.liquidtelecom.net",
 		"uofzns01.uz.ac.zw",
