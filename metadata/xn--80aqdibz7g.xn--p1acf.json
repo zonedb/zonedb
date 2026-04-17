@@ -1,5 +1,9 @@
 {
 	"domain": "марийэл.рус",
+	"nameServers": [
+		"ns1.nameself.com",
+		"ns2.nameself.com"
+	],
 	"tags": [
 		"private"
 	]

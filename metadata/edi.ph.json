@@ -3,9 +3,5 @@
 	"nameServers": [
 		"ns1.commonmx.com",
 		"ns2.commonmx.com"
-	],
-	"wildcards": [
-		"172.93.103.100",
-		"212.92.105.197"
 	]
 }

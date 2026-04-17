@@ -2,10 +2,8 @@
 	"domain": "edu.ru",
 	"nameServers": [
 		"ns.informika.ru",
-		"ns.msu.ru",
-		"ns.runnet.ru",
-		"ns2.free.net",
-		"ns2.informika.ru"
+		"ns0.ficto.ru",
+		"ns1.ficto.ru"
 	],
 	"policies": [
 		{

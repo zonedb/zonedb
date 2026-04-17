@@ -8,7 +8,8 @@
 	],
 	"nameServers": [
 		"ns1.nic.sr",
-		"ns2.nic.sr"
+		"ns2.nic.sr",
+		"ns3.nic.sr"
 	],
 	"tags": [
 		"country",
