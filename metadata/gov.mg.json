@@ -1,5 +1,10 @@
 {
 	"domain": "gov.mg",
+	"nameServers": [
+		"ns.gov.mg",
+		"ns1.gov.mg",
+		"ns2.gov.mg"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

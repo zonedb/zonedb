@@ -7,7 +7,6 @@
 	"whoisServer": "whois.mynic.my",
 	"nameServers": [
 		"a.mynic.centralnic-dns.com",
-		"a.nic.my",
 		"b.mynic.centralnic-dns.com",
 		"c.mynic.centralnic-dns.com",
 		"d.mynic.centralnic-dns.com",

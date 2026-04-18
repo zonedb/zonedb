@@ -4,6 +4,9 @@
 		"ns01.webme.com",
 		"ns02.webme.com"
 	],
+	"wildcards": [
+		"193.238.27.36"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
