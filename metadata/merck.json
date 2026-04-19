@@ -1,6 +1,9 @@
 {
 	"domain": "merck",
 	"registryOperator": "Merck Registry Holdings, Inc.",
+	"rdapURLs": [
+		"https://rdap-merck.dns.business/rdap/"
+	],
 	"nameServers": [
 		"ns1.dns.business",
 		"ns2us.dns.business",
