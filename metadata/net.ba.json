@@ -2,7 +2,6 @@
 	"domain": "net.ba",
 	"nameServers": [
 		"bosna.utic.net.ba",
-		"ns1.lynxdance.net",
 		"sava.utic.net.ba",
 		"una.utic.net.ba"
 	],

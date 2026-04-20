@@ -1,7 +1,8 @@
 {
 	"domain": "in.na",
 	"nameServers": [
-		"suspended.omadhina.co.na"
+		"burt.ns.cloudflare.com",
+		"tori.ns.cloudflare.com"
 	],
 	"policies": [
 		{

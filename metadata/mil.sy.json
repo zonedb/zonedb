@@ -1,9 +1,5 @@
 {
 	"domain": "mil.sy",
-	"nameServers": [
-		"suspend1.tld.sy",
-		"suspend2.tld.sy"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

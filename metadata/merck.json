@@ -1,6 +1,7 @@
 {
 	"domain": "merck",
 	"registryOperator": "Merck Registry Holdings, Inc.",
+	"whoisServer": "whois.nic.merck",
 	"rdapURLs": [
 		"https://rdap-merck.dns.business/rdap/"
 	],
