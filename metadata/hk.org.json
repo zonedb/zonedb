@@ -9,10 +9,6 @@
 		"dns8.cloudns.net",
 		"ns3.he.net"
 	],
-	"wildcards": [
-		"127.0.0.1",
-		"::1"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
