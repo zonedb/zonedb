@@ -3,7 +3,7 @@
 	"domainPunycode": "xn--3bst00m",
 	"registryOperator": "Eagle Horizon Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--3bst00m",
-	"whoisServer": "whois.gtld.knet.cn",
+	"whoisServer": "whois.zdns.cn",
 	"rdapURLs": [
 		"https://rdap.zdnsgtld.com/xn--3bst00m/"
 	],

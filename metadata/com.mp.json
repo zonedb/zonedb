@@ -1,9 +1,5 @@
 {
 	"domain": "com.mp",
-	"nameServers": [
-		"vip1.volcengine-dns.com",
-		"vip2.volcengine-dns.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
