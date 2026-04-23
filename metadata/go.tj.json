@@ -1,5 +1,11 @@
 {
 	"domain": "go.tj",
+	"nameServers": [
+		"dns1.ahost.uz",
+		"dns2.ahost.uz",
+		"ns1.ahost.cloud",
+		"ns2.ahost.cloud"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
