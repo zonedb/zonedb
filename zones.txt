@@ -2033,6 +2033,7 @@ com.bo
 edu.bo
 gob.bo
 gov.bo
+info.bo
 int.bo
 mil.bo
 net.bo

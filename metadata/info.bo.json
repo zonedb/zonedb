@@ -1,0 +1,8 @@
+{
+	"domain": "info.bo",
+	"policies": [
+		{
+			"type": "idn-disallowed"
+		}
+	]
+}
