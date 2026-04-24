@@ -1,9 +1,5 @@
 {
 	"domain": "gov.mp",
-	"nameServers": [
-		"ns1.nic.net.mp",
-		"ns2.nic.net.mp"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
