@@ -114,9 +114,13 @@ func parseCentralNicDetailPage(doc *goquery.Document) []string {
 }
 
 // FetchIDNTablesFromCentralNic fetches IDN table data from CentralNic and
-// applies it to zones. IANA-sourced policies take precedence and are not
-// overwritten.
-func FetchIDNTablesFromCentralNic(zones map[string]*Zone, cache *ETagCache) error {
+// applies changes only to zones in the working set. IANA-sourced policies
+// take precedence and are not overwritten.
+//
+// allZones is the full known-zone set, used to prune stale policies across
+// the database and to drive a health-check sentinel that detects CentralNic
+// HTML-schema changes independently of the caller's filter.
+func FetchIDNTablesFromCentralNic(zones, allZones map[string]*Zone, cache *ETagCache) error {
 	// Phase 0: Fetch index with ETag check
 	res, err := FetchWithETag(centralNicIndexURL, cache)
 	if err != nil {
@@ -138,10 +142,11 @@ func FetchIDNTablesFromCentralNic(zones map[string]*Zone, cache *ETagCache) erro
 		return err
 	}
 
-	// Phase 1: Clear stale CentralNic entries. Languages from other sources
-	// are preserved.
+	// Phase 1: Prune stale CentralNic entries across all zones so a
+	// filtered run does not leave stale policies elsewhere. Languages
+	// from other sources are preserved.
 	centralNicPrefix := centralNicBaseURL + "/"
-	for _, z := range zones {
+	for _, z := range allZones {
 		z.PruneStalePolicies(func(p Policy) bool {
 			return p.Type == TypeIDNTable && strings.HasPrefix(p.Source, centralNicPrefix)
 		})
@@ -221,11 +226,19 @@ func FetchIDNTablesFromCentralNic(zones map[string]*Zone, cache *ETagCache) erro
 
 	Trace("@{.}CentralNic: fetched %d detail pages, %d skipped\n", fetched, skipped)
 
-	// Phase 3: Apply results, IANA takes precedence
+	// Phase 3: Apply results, IANA takes precedence. Writes are gated on
+	// the working set so a filtered run does not mutate zones the user
+	// did not select. matched counts detail-page zone names that resolve
+	// to any known zone and drives the HTML-change sentinel below —
+	// separate from added so the sentinel stays meaningful under a filter.
 	ianaPrefix := ianaBaseURL + "/"
-	var added uint64
+	var matched, added uint64
 	for _, r := range results {
 		for _, zoneName := range r.zones {
+			if _, known := allZones[zoneName]; !known {
+				continue
+			}
+			matched++
 			z, ok := zones[zoneName]
 			if !ok {
 				continue
@@ -250,13 +263,15 @@ func FetchIDNTablesFromCentralNic(zones map[string]*Zone, cache *ETagCache) erro
 			if z.IsTLD() {
 				z.Languages = append(z.Languages, r.lang)
 			}
-			atomic.AddUint64(&added, 1)
+			added++
 		}
 	}
 
-	Trace("@{.}CentralNic: added %d IDN table policies\n", added)
-	if added == 0 && len(entries) > 10 {
-		return fmt.Errorf("CentralNic: no policies added from %d entries, HTML change?", len(entries))
+	Trace("@{.}CentralNic: added %d IDN table policies (%d matched across all zones)\n", added, matched)
+	// HTML-change sentinel: keyed on matched (not added) so a user
+	// filter can't mask a real parser regression.
+	if matched == 0 && len(entries) > 10 {
+		return fmt.Errorf("CentralNic: no detail-page zones matched any known zone from %d entries, HTML change?", len(entries))
 	}
 
 	return nil

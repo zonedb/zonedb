@@ -5,6 +5,7 @@ import (
 	"net/http/httptest"
 	"net/url"
 	"os"
+	"path/filepath"
 	"strings"
 	"testing"
 
@@ -205,7 +206,7 @@ func TestFetchIDNTablesFromCentralNic_IANAPrecedence(t *testing.T) {
 		"tickets": {Domain: "tickets"},
 	}
 
-	if err := FetchIDNTablesFromCentralNic(zones, nil); err != nil {
+	if err := FetchIDNTablesFromCentralNic(zones, zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromCentralNic: %v", err)
 	}
 
@@ -260,7 +261,7 @@ func TestFetchIDNTablesFromCentralNic_StaleRemoval(t *testing.T) {
 	)
 	zones["best"].Languages = append(zones["best"].Languages, "mul-Latn")
 
-	if err := FetchIDNTablesFromCentralNic(zones, nil); err != nil {
+	if err := FetchIDNTablesFromCentralNic(zones, zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromCentralNic: %v", err)
 	}
 
@@ -316,7 +317,7 @@ func TestFetchIDNTablesFromCentralNic_PreservesIndependentLanguages(t *testing.T
 		"qpon": {Domain: "qpon"},
 	}
 
-	if err := FetchIDNTablesFromCentralNic(zones, nil); err != nil {
+	if err := FetchIDNTablesFromCentralNic(zones, zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromCentralNic: %v", err)
 	}
 
@@ -399,7 +400,7 @@ func TestIDNPipeline_IANAThenCentralNic(t *testing.T) {
 	}
 
 	// Step 2: CentralNic
-	if err := FetchIDNTablesFromCentralNic(zones, nil); err != nil {
+	if err := FetchIDNTablesFromCentralNic(zones, zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromCentralNic: %v", err)
 	}
 
@@ -445,5 +446,119 @@ func TestIDNPipeline_IANAThenCentralNic(t *testing.T) {
 	}
 	if !foLangSet["fo"] {
 		t.Errorf("fo languages = %v, want 'fo' present", zones["fo"].Languages)
+	}
+}
+
+// TestFetchIDNTablesFromCentralNic_FilteredWorkingSet is a regression test
+// for a bug where passing a filtered workZones map (as the CLI does with
+// -zones) caused the function to fail with a bogus "HTML change?" error,
+// because zone lookups in the apply phase only hit the working subset.
+//
+// After the fix:
+//   - Writes are gated on the working set (qpon, not in workZones, must
+//     not have a CentralNic policy applied).
+//   - The HTML-change sentinel keys off matches in allZones, not added
+//     writes, so a filter that excludes all CentralNic-served zones does
+//     not trigger a spurious error.
+//   - A real ETagCache is exercised (not nil), to keep the cache-present
+//     code path in FetchWithETag covered.
+func TestFetchIDNTablesFromCentralNic_FilteredWorkingSet(t *testing.T) {
+	srv := httptest.NewServer(centralNicTestHandler())
+	defer srv.Close()
+
+	origIndexURL := centralNicIndexURL
+	origBaseURL := centralNicBaseURL
+	centralNicIndexURL = srv.URL + "/idn-tables/"
+	centralNicBaseURL = srv.URL
+	defer func() {
+		centralNicIndexURL = origIndexURL
+		centralNicBaseURL = origBaseURL
+	}()
+
+	origIANABase := ianaBaseURL
+	defer func() { ianaBaseURL = origIANABase }()
+	ianaBaseURL = "https://www.iana.org"
+
+	// allZones contains a zone listed on CentralNic (qpon) plus an unrelated
+	// zone (info.bo). workZones holds only info.bo, mimicking the CLI's
+	// -zones info.bo filter.
+	allZones := map[string]*Zone{
+		"qpon":    {Domain: "qpon"},
+		"info.bo": {Domain: "info.bo"},
+	}
+	workZones := map[string]*Zone{
+		"info.bo": allZones["info.bo"],
+	}
+
+	cache := NewETagCache(filepath.Join(t.TempDir(), "etags.json"))
+	if err := FetchIDNTablesFromCentralNic(workZones, allZones, cache); err != nil {
+		t.Fatalf("FetchIDNTablesFromCentralNic: %v", err)
+	}
+
+	// qpon is not in workZones, so despite being listed on a CentralNic
+	// detail page, it must not have received a policy write.
+	qponPolicies := idnPolicies(allZones["qpon"])
+	if _, ok := qponPolicies["ar"]; ok {
+		t.Errorf("qpon is outside the working set — CentralNic policy must not have been written; policies = %v", qponPolicies)
+	}
+
+	// info.bo is in workZones but not listed on any CentralNic detail
+	// page — no policies expected.
+	if got := len(idnPolicies(allZones["info.bo"])); got != 0 {
+		t.Errorf("info.bo should have no IDN policies; got %d", got)
+	}
+}
+
+// TestFetchIDNTablesFromCentralNic_StalePruneAcrossNonWorkingZones asserts
+// that stale CentralNic policies on zones outside the working set are
+// pruned. Under the filtered-write semantics, Phase 1 (prune) deliberately
+// iterates allZones so a filtered CLI run does not leave stale policies
+// accumulating on unrelated zones.
+func TestFetchIDNTablesFromCentralNic_StalePruneAcrossNonWorkingZones(t *testing.T) {
+	srv := httptest.NewServer(centralNicTestHandler())
+	defer srv.Close()
+
+	origIndexURL := centralNicIndexURL
+	origBaseURL := centralNicBaseURL
+	centralNicIndexURL = srv.URL + "/idn-tables/"
+	centralNicBaseURL = srv.URL
+	defer func() {
+		centralNicIndexURL = origIndexURL
+		centralNicBaseURL = origBaseURL
+	}()
+
+	origIANABase := ianaBaseURL
+	defer func() { ianaBaseURL = origIANABase }()
+	ianaBaseURL = "https://www.iana.org"
+
+	staleCNSource := srv.URL + "/idn-tables/"
+
+	// best is outside the working set but carries a stale CentralNic policy
+	// that no longer corresponds to anything in the live CentralNic data
+	// for this test's fixtures.
+	allZones := map[string]*Zone{
+		"best": {
+			Domain: "best",
+			Policies: []Policy{
+				{Type: TypeIDNTable, Key: "stale-lang", Value: srv.URL + "/stale", Source: staleCNSource},
+			},
+			Languages: []string{"stale-lang"},
+		},
+		"info.bo": {Domain: "info.bo"},
+	}
+	workZones := map[string]*Zone{
+		"info.bo": allZones["info.bo"],
+	}
+
+	cache := NewETagCache(filepath.Join(t.TempDir(), "etags.json"))
+	if err := FetchIDNTablesFromCentralNic(workZones, allZones, cache); err != nil {
+		t.Fatalf("FetchIDNTablesFromCentralNic: %v", err)
+	}
+
+	// The stale CentralNic policy on best (not in workZones) must have
+	// been pruned — Phase 1 runs across allZones.
+	bestPolicies := idnPolicies(allZones["best"])
+	if _, ok := bestPolicies["stale-lang"]; ok {
+		t.Errorf("stale CentralNic policy on non-working zone 'best' should have been pruned; policies = %v", bestPolicies)
 	}
 }

@@ -316,7 +316,7 @@ func main() {
 		}
 		build.ApplyIDNOverrides(workZones)
 
-		err = build.FetchIDNTablesFromCentralNic(workZones, cache)
+		err = build.FetchIDNTablesFromCentralNic(workZones, zones, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
