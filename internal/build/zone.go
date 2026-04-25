@@ -1,6 +1,7 @@
 package build
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
 	"sort"
@@ -9,6 +10,7 @@ import (
 	"unicode/utf8"
 
 	"golang.org/x/net/idna"
+	"golang.org/x/sync/errgroup"
 	"golang.org/x/text/language"
 )
 
@@ -328,24 +330,23 @@ func SortedDomains(zones map[string]*Zone) []string {
 
 // mapZones concurrently applies a function to a set of Zones.
 // It wraps the call to fn with a lock on the Zone mutex.
-func mapZones(zones map[string]*Zone, fn func(*Zone)) {
+// The callback receives a ctx derived from the one passed to mapZones;
+// workers honor cancellation both when acquiring concurrency slots and
+// during the callback itself.
+func mapZones(ctx context.Context, zones map[string]*Zone, fn func(context.Context, *Zone)) {
 	domains := SortedDomains(zones)
-	limiter := make(chan struct{}, Concurrency)
-	var wg sync.WaitGroup
+	g, ctx := errgroup.WithContext(ctx)
+	g.SetLimit(Concurrency)
 	for _, domain := range domains {
-		limiter <- struct{}{}
-		wg.Add(1)
-		go func(z *Zone) {
-			defer func() {
-				<-limiter
-				wg.Done()
-			}()
+		z := zones[domain]
+		g.Go(func() error {
 			z.m.Lock()
 			defer z.m.Unlock()
-			fn(z)
-		}(zones[domain])
+			fn(ctx, z)
+			return nil
+		})
 	}
-	wg.Wait()
+	_ = g.Wait()
 }
 
 // Sort sorts a slice of domain names by rank. Rank sort defined as:

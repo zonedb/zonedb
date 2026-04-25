@@ -1,6 +1,7 @@
 package build
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
 )
@@ -8,8 +9,8 @@ import (
 const ianaRDAPURL = "https://data.iana.org/rdap/dns.json"
 
 // FetchRDAPFromIANA retrieves the map of zones to RDAP service endpoints from IANA.
-func FetchRDAPFromIANA(zones map[string]*Zone, cache *ETagCache) error {
-	res, err := FetchWithETag(ianaRDAPURL, cache)
+func FetchRDAPFromIANA(ctx context.Context, zones map[string]*Zone, cache *ETagCache) error {
+	res, err := FetchWithETag(ctx, ianaRDAPURL, cache)
 	if err != nil {
 		return err
 	}

@@ -35,7 +35,7 @@ func TestFetchIDNTablesFromIANA_StaleRemoval(t *testing.T) {
 	zones := map[string]*Zone{
 		"aaa": {Domain: "aaa"},
 	}
-	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
+	if err := FetchIDNTablesFromIANA(t.Context(), zones, nil); err != nil {
 		t.Fatalf("fetch from full fixture: %v", err)
 	}
 
@@ -52,7 +52,7 @@ func TestFetchIDNTablesFromIANA_StaleRemoval(t *testing.T) {
 
 	// Step 3: Re-fetch from the reduced fixture (some entries removed).
 	ianaTablesURL = srv.URL + "/idn-tables-reduced.html"
-	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
+	if err := FetchIDNTablesFromIANA(t.Context(), zones, nil); err != nil {
 		t.Fatalf("fetch from reduced fixture: %v", err)
 	}
 
@@ -63,7 +63,7 @@ func TestFetchIDNTablesFromIANA_StaleRemoval(t *testing.T) {
 	expectedZones := map[string]*Zone{
 		"aaa": {Domain: "aaa"},
 	}
-	if err := FetchIDNTablesFromIANA(expectedZones, nil); err != nil {
+	if err := FetchIDNTablesFromIANA(t.Context(), expectedZones, nil); err != nil {
 		t.Fatalf("fetch expected from reduced fixture: %v", err)
 	}
 
@@ -129,7 +129,7 @@ func TestFetchIDNTablesFromIANA_PreservesIndependentLanguages(t *testing.T) {
 	zones := map[string]*Zone{
 		"aaa": {Domain: "aaa"},
 	}
-	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
+	if err := FetchIDNTablesFromIANA(t.Context(), zones, nil); err != nil {
 		t.Fatalf("fetch from full fixture: %v", err)
 	}
 
@@ -142,7 +142,7 @@ func TestFetchIDNTablesFromIANA_PreservesIndependentLanguages(t *testing.T) {
 	// Step 3: Re-fetch from the reduced fixture. Some IANA policies are removed,
 	// but the independent language must survive.
 	ianaTablesURL = srv.URL + "/idn-tables-reduced.html"
-	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
+	if err := FetchIDNTablesFromIANA(t.Context(), zones, nil); err != nil {
 		t.Fatalf("fetch from reduced fixture: %v", err)
 	}
 
@@ -176,7 +176,7 @@ func TestFetchIDNTablesFromIANA_RemovesOrphanedLanguages(t *testing.T) {
 	zones := map[string]*Zone{
 		"aaa": {Domain: "aaa"},
 	}
-	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
+	if err := FetchIDNTablesFromIANA(t.Context(), zones, nil); err != nil {
 		t.Fatalf("fetch from full fixture: %v", err)
 	}
 
@@ -190,7 +190,7 @@ func TestFetchIDNTablesFromIANA_RemovesOrphanedLanguages(t *testing.T) {
 
 	// Step 2: Re-fetch from the reduced fixture.
 	ianaTablesURL = srv.URL + "/idn-tables-reduced.html"
-	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
+	if err := FetchIDNTablesFromIANA(t.Context(), zones, nil); err != nil {
 		t.Fatalf("fetch from reduced fixture: %v", err)
 	}
 
@@ -198,7 +198,7 @@ func TestFetchIDNTablesFromIANA_RemovesOrphanedLanguages(t *testing.T) {
 	expectedZones := map[string]*Zone{
 		"aaa": {Domain: "aaa"},
 	}
-	if err := FetchIDNTablesFromIANA(expectedZones, nil); err != nil {
+	if err := FetchIDNTablesFromIANA(t.Context(), expectedZones, nil); err != nil {
 		t.Fatalf("fetch expected: %v", err)
 	}
 	expectedLangs := make(map[string]bool)
@@ -247,7 +247,7 @@ func TestFetchIDNTablesFromIANA_NonIANAOnly(t *testing.T) {
 		},
 	}
 
-	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
+	if err := FetchIDNTablesFromIANA(t.Context(), zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromIANA: %v", err)
 	}
 
@@ -283,7 +283,7 @@ func TestFetchIDNTablesFromIANA_Full(t *testing.T) {
 		"aaa": {Domain: "aaa"},
 	}
 
-	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
+	if err := FetchIDNTablesFromIANA(t.Context(), zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromIANA: %v", err)
 	}
 

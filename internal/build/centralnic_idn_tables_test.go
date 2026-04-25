@@ -205,7 +205,7 @@ func TestFetchIDNTablesFromCentralNic_IANAPrecedence(t *testing.T) {
 		"tickets": {Domain: "tickets"},
 	}
 
-	if err := FetchIDNTablesFromCentralNic(zones, nil); err != nil {
+	if err := FetchIDNTablesFromCentralNic(t.Context(), zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromCentralNic: %v", err)
 	}
 
@@ -260,7 +260,7 @@ func TestFetchIDNTablesFromCentralNic_StaleRemoval(t *testing.T) {
 	)
 	zones["best"].Languages = append(zones["best"].Languages, "mul-Latn")
 
-	if err := FetchIDNTablesFromCentralNic(zones, nil); err != nil {
+	if err := FetchIDNTablesFromCentralNic(t.Context(), zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromCentralNic: %v", err)
 	}
 
@@ -316,7 +316,7 @@ func TestFetchIDNTablesFromCentralNic_PreservesIndependentLanguages(t *testing.T
 		"qpon": {Domain: "qpon"},
 	}
 
-	if err := FetchIDNTablesFromCentralNic(zones, nil); err != nil {
+	if err := FetchIDNTablesFromCentralNic(t.Context(), zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromCentralNic: %v", err)
 	}
 
@@ -379,7 +379,7 @@ func TestIDNPipeline_IANAThenCentralNic(t *testing.T) {
 	}
 
 	// Step 1: IANA
-	if err := FetchIDNTablesFromIANA(zones, nil); err != nil {
+	if err := FetchIDNTablesFromIANA(t.Context(), zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromIANA: %v", err)
 	}
 
@@ -399,7 +399,7 @@ func TestIDNPipeline_IANAThenCentralNic(t *testing.T) {
 	}
 
 	// Step 2: CentralNic
-	if err := FetchIDNTablesFromCentralNic(zones, nil); err != nil {
+	if err := FetchIDNTablesFromCentralNic(t.Context(), zones, nil); err != nil {
 		t.Fatalf("FetchIDNTablesFromCentralNic: %v", err)
 	}
 

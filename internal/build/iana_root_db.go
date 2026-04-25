@@ -1,6 +1,7 @@
 package build
 
 import (
+	"context"
 	"fmt"
 	"path"
 	"sort"
@@ -120,8 +121,8 @@ func ParseRootDBIndex(doc *goquery.Document) ([]RootDBEntry, error) {
 // FetchRootDBIndex fetches the IANA root zone database index page, parses it,
 // and populates zone metadata: registryOperator, domainPunycode, domainAscii,
 // domainIdn, and country tags.
-func FetchRootDBIndex(zones map[string]*Zone, cache *ETagCache) error {
-	res, err := FetchWithETag(ianaRootDBURL, cache)
+func FetchRootDBIndex(ctx context.Context, zones map[string]*Zone, cache *ETagCache) error {
+	res, err := FetchWithETag(ctx, ianaRootDBURL, cache)
 	if err != nil {
 		return err
 	}

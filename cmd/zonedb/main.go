@@ -1,14 +1,17 @@
 package main
 
 import (
+	"context"
 	"encoding/json"
 	"errors"
 	"flag"
 	"fmt"
 	"os"
+	"os/signal"
 	"path/filepath"
 	"regexp"
 	"strings"
+	"syscall"
 	"time"
 
 	"github.com/wsxiaoys/terminal/color"
@@ -82,7 +85,25 @@ func main() {
 	}
 	flag.Parse()
 
-	// Load ETag cache for conditional HTTP requests
+	// Root context: cancelled on SIGINT/SIGTERM so in-flight network ops can
+	// unwind cleanly and deferred cleanup (ETag cache save) still runs.
+	// A second signal falls through to the Go runtime's default handler,
+	// which exits immediately without running deferreds.
+	ctx, cancel := context.WithCancel(context.Background())
+	defer cancel()
+	sig := make(chan os.Signal, 1)
+	signal.Notify(sig, os.Interrupt, syscall.SIGTERM)
+	go func() {
+		<-sig
+		color.Fprintf(os.Stderr, "@{y}Received signal, cancelling in-flight operations...\n")
+		cancel()
+	}()
+
+	// Load ETag cache for conditional HTTP requests.
+	//
+	// The cache save runs via the normal defer path, so a second Ctrl-C
+	// during drain skips it. Acceptable because stale ETags cause extra
+	// fetches on the next run, not incorrect data.
 	cache := build.NewETagCache(filepath.Join(build.BaseDir, ".cache", "etags.json"))
 	if !*noCache {
 		if err := cache.Load(); err != nil {
@@ -235,7 +256,7 @@ func main() {
 	}
 
 	if *updateRoot || *updateAll {
-		err := build.FetchRootZone(workZones, addNew, cache)
+		err := build.FetchRootZone(ctx, workZones, addNew, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -243,7 +264,7 @@ func main() {
 	}
 
 	if *updateICANN || *updateAll {
-		err := build.FetchGTLDsFromICANN(workZones, cache)
+		err := build.FetchGTLDsFromICANN(ctx, workZones, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -253,7 +274,7 @@ func main() {
 	// IANA root DB index: registryOperator for all TLDs, domainPunycode,
 	// domainAscii/domainIdn mappings, and country tags.
 	if *updateICANN || *updateAll {
-		err := build.FetchRootDBIndex(workZones, cache)
+		err := build.FetchRootDBIndex(ctx, workZones, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -261,7 +282,7 @@ func main() {
 	}
 
 	if *updateRubyWhois {
-		err := build.FetchRubyWhoisServers(workZones, addNew, cache)
+		err := build.FetchRubyWhoisServers(ctx, workZones, addNew, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -270,7 +291,7 @@ func main() {
 
 	// whois-servers.net overrides Ruby Whois
 	if *updateWhois || *updateAll {
-		err := build.QueryWhoisServers(workZones)
+		err := build.QueryWhoisServers(ctx, workZones)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -279,7 +300,7 @@ func main() {
 
 	// IANA overrides the above
 	if *updateIANA || *updateAll {
-		err := build.QueryIANA(workZones)
+		err := build.QueryIANA(ctx, workZones)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -287,7 +308,7 @@ func main() {
 	}
 
 	if *updateIANASpecial || *updateAll {
-		err := build.FetchSpecialUseDomainsFromIANA(workZones, addNew, cache)
+		err := build.FetchSpecialUseDomainsFromIANA(ctx, workZones, addNew, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -295,28 +316,30 @@ func main() {
 	}
 
 	if *updateNS || *updateAll {
-		err := build.FetchNameServers(workZones, zones)
+		err := build.FetchNameServers(ctx, workZones, zones)
 		if err != nil {
+			errs = append(errs, err)
 			build.LogError(err)
 		}
 	}
 
 	if *updateWildcards || *updateAll {
-		err := build.FindWildcards(workZones)
+		err := build.FindWildcards(ctx, workZones)
 		if err != nil {
+			errs = append(errs, err)
 			build.LogError(err)
 		}
 	}
 
 	if *updateIDN || *updateAll {
-		err := build.FetchIDNTablesFromIANA(workZones, cache)
+		err := build.FetchIDNTablesFromIANA(ctx, workZones, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
 		}
 		build.ApplyIDNOverrides(workZones)
 
-		err = build.FetchIDNTablesFromCentralNic(workZones, cache)
+		err = build.FetchIDNTablesFromCentralNic(ctx, workZones, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -328,7 +351,7 @@ func main() {
 	// to IDN-table-derived languages. Also runs with -update-icann since
 	// it depends on domainAscii set by FetchRootDBIndex.
 	if *updateIDN || *updateICANN || *updateAll {
-		err := build.FetchAndApplyCLDRMetadata(workZones, cache)
+		err := build.FetchAndApplyCLDRMetadata(ctx, workZones, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -336,7 +359,7 @@ func main() {
 	}
 
 	if *updateRDAP || *updateAll {
-		err := build.FetchRDAPFromIANA(workZones, cache)
+		err := build.FetchRDAPFromIANA(ctx, workZones, cache)
 		if err != nil {
 			errs = append(errs, err)
 			build.LogError(err)
@@ -410,21 +433,21 @@ func main() {
 	}
 
 	if *updateInfoURL {
-		build.UpdateInfoURLs(workZones)
+		build.UpdateInfoURLs(ctx, workZones)
 	}
 
 	if *verifyNS {
-		build.VerifyNameServers(workZones)
+		build.VerifyNameServers(ctx, workZones)
 	}
 
-	build.CountNameServers(workZones)
+	build.CountNameServers(ctx, workZones)
 
 	if *verifyWhois {
-		build.VerifyWhois(workZones)
+		build.VerifyWhois(ctx, workZones)
 	}
 
 	if *checkPS {
-		build.CheckPublicSuffix(workZones)
+		build.CheckPublicSuffix(ctx, workZones)
 	}
 
 	err := build.ValidateTags(workZones)

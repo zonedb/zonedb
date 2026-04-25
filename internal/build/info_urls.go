@@ -1,15 +1,20 @@
 package build
 
 import (
+	"context"
 	"io"
 	"net/http"
 	"strings"
 	"time"
 )
 
-func UpdateInfoURLs(zones map[string]*Zone) {
+func UpdateInfoURLs(ctx context.Context, zones map[string]*Zone) {
 	Trace("@{.}Updating info URLs for %d zones...\n", len(zones))
 
+	// Info-URL updates have a different workload profile than the shared
+	// httpClient in net.go: many short GETs against many different hosts.
+	// MaxIdleConnsPerHost=10 helps when we retry several candidate URLs per
+	// zone against the same registry host, so we keep a dedicated client.
 	transport := http.DefaultTransport.(*http.Transport).Clone()
 	transport.TLSHandshakeTimeout = 5 * time.Second
 	transport.MaxIdleConnsPerHost = 10
@@ -18,7 +23,7 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 		Timeout:   10 * time.Second,
 	}
 
-	mapZones(zones, func(z *Zone) {
+	mapZones(ctx, zones, func(ctx context.Context, z *Zone) {
 		var urls []string
 
 		if strings.HasPrefix(z.InfoURL, "http:") {
@@ -54,7 +59,7 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 				continue
 			}
 			u = NormalizeURL(u)
-			req, err := http.NewRequest(http.MethodGet, u, nil)
+			req, err := http.NewRequestWithContext(ctx, http.MethodGet, u, nil)
 			if err != nil {
 				Trace("@{y!}Warning:@{y} error fetching info URL for @{y!}%s@{y}: (%s): %v\n", z.Domain, u, err)
 				continue

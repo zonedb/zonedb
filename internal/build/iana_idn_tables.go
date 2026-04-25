@@ -1,6 +1,7 @@
 package build
 
 import (
+	"context"
 	"errors"
 	"net/url"
 	"strings"
@@ -19,13 +20,13 @@ var ianaTypos = map[string]string{
 }
 
 // FetchIDNTablesFromIANA fetches IDN table references from the IANA website.
-func FetchIDNTablesFromIANA(zones map[string]*Zone, cache *ETagCache) error {
+func FetchIDNTablesFromIANA(ctx context.Context, zones map[string]*Zone, cache *ETagCache) error {
 	tlds := TLDs(zones)
 	baseURL, err := url.Parse(ianaBaseURL)
 	if err != nil {
 		return err
 	}
-	res, err := FetchWithETag(ianaTablesURL, cache)
+	res, err := FetchWithETag(ctx, ianaTablesURL, cache)
 	if err != nil {
 		return err
 	}

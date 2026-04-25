@@ -1,6 +1,7 @@
 package build
 
 import (
+	"context"
 	"os"
 	"strings"
 
@@ -12,9 +13,9 @@ import (
 const pfx = "zonedb-test."
 
 // CheckPublicSuffix compares the zones against the Public Suffix List.
-func CheckPublicSuffix(zones map[string]*Zone) {
+func CheckPublicSuffix(ctx context.Context, zones map[string]*Zone) {
 	color.Fprintf(os.Stderr, "@{.}Checking against the Public Suffix List for %d zones...\n", len(zones))
-	mapZones(zones, func(z *Zone) {
+	mapZones(ctx, zones, func(_ context.Context, z *Zone) {
 		host, err := idna.ToASCII(pfx + z.Domain)
 		if err != nil {
 			LogWarning(err)
