@@ -178,20 +178,20 @@ func centralNicTestHandler() http.Handler {
 
 func TestFetchIDNTablesFromCentralNic_IANAPrecedence(t *testing.T) {
 	srv := httptest.NewServer(centralNicTestHandler())
-	defer srv.Close()
+	t.Cleanup(srv.Close)
 
 	origIndexURL := centralNicIndexURL
 	origBaseURL := centralNicBaseURL
 	centralNicIndexURL = srv.URL + "/idn-tables/"
 	centralNicBaseURL = srv.URL
-	defer func() {
+	t.Cleanup(func() {
 		centralNicIndexURL = origIndexURL
 		centralNicBaseURL = origBaseURL
-	}()
+	})
 
 	// Pre-populate "best" with an IANA-sourced "ar" policy
 	origIANABase := ianaBaseURL
-	defer func() { ianaBaseURL = origIANABase }()
+	t.Cleanup(func() { ianaBaseURL = origIANABase })
 	ianaBaseURL = "https://www.iana.org"
 
 	zones := map[string]*Zone{
@@ -227,19 +227,19 @@ func TestFetchIDNTablesFromCentralNic_IANAPrecedence(t *testing.T) {
 
 func TestFetchIDNTablesFromCentralNic_StaleRemoval(t *testing.T) {
 	srv := httptest.NewServer(centralNicTestHandler())
-	defer srv.Close()
+	t.Cleanup(srv.Close)
 
 	origIndexURL := centralNicIndexURL
 	origBaseURL := centralNicBaseURL
 	centralNicIndexURL = srv.URL + "/idn-tables/"
 	centralNicBaseURL = srv.URL
-	defer func() {
+	t.Cleanup(func() {
 		centralNicIndexURL = origIndexURL
 		centralNicBaseURL = origBaseURL
-	}()
+	})
 
 	origIANABase := ianaBaseURL
-	defer func() { ianaBaseURL = origIANABase }()
+	t.Cleanup(func() { ianaBaseURL = origIANABase })
 	ianaBaseURL = "https://www.iana.org"
 
 	// Pre-populate with a stale CentralNic policy that should be removed
@@ -288,19 +288,19 @@ func TestFetchIDNTablesFromCentralNic_StaleRemoval(t *testing.T) {
 // CentralNic policy should survive stale-removal.
 func TestFetchIDNTablesFromCentralNic_PreservesIndependentLanguages(t *testing.T) {
 	srv := httptest.NewServer(centralNicTestHandler())
-	defer srv.Close()
+	t.Cleanup(srv.Close)
 
 	origIndexURL := centralNicIndexURL
 	origBaseURL := centralNicBaseURL
 	centralNicIndexURL = srv.URL + "/idn-tables/"
 	centralNicBaseURL = srv.URL
-	defer func() {
+	t.Cleanup(func() {
 		centralNicIndexURL = origIndexURL
 		centralNicBaseURL = origBaseURL
-	}()
+	})
 
 	origIANABase := ianaBaseURL
-	defer func() { ianaBaseURL = origIANABase }()
+	t.Cleanup(func() { ianaBaseURL = origIANABase })
 	ianaBaseURL = "https://www.iana.org"
 
 	// Pre-populate with a stale CentralNic policy + an independent language
@@ -347,30 +347,30 @@ func TestIDNPipeline_IANAThenCentralNic(t *testing.T) {
 	ianaSrv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		http.ServeFile(w, r, "testdata/idn-tables-full.html")
 	}))
-	defer ianaSrv.Close()
+	t.Cleanup(ianaSrv.Close)
 
 	cnSrv := httptest.NewServer(centralNicTestHandler())
-	defer cnSrv.Close()
+	t.Cleanup(cnSrv.Close)
 
 	// Override IANA URLs
 	origIANATablesURL := ianaTablesURL
 	origIANABaseURL := ianaBaseURL
 	ianaTablesURL = ianaSrv.URL + "/idn-tables-full.html"
 	ianaBaseURL = ianaSrv.URL
-	defer func() {
+	t.Cleanup(func() {
 		ianaTablesURL = origIANATablesURL
 		ianaBaseURL = origIANABaseURL
-	}()
+	})
 
 	// Override CentralNic URLs
 	origCNIndexURL := centralNicIndexURL
 	origCNBaseURL := centralNicBaseURL
 	centralNicIndexURL = cnSrv.URL + "/idn-tables/"
 	centralNicBaseURL = cnSrv.URL
-	defer func() {
+	t.Cleanup(func() {
 		centralNicIndexURL = origCNIndexURL
 		centralNicBaseURL = origCNBaseURL
-	}()
+	})
 
 	// Zones: "best" is in both IANA and CentralNic Arabic detail page,
 	// "fo" is a ccTLD only in CentralNic (Faroese detail page).
@@ -464,19 +464,19 @@ func TestIDNPipeline_IANAThenCentralNic(t *testing.T) {
 //     code path in FetchWithETag covered.
 func TestFetchIDNTablesFromCentralNic_FilteredWorkingSet(t *testing.T) {
 	srv := httptest.NewServer(centralNicTestHandler())
-	defer srv.Close()
+	t.Cleanup(srv.Close)
 
 	origIndexURL := centralNicIndexURL
 	origBaseURL := centralNicBaseURL
 	centralNicIndexURL = srv.URL + "/idn-tables/"
 	centralNicBaseURL = srv.URL
-	defer func() {
+	t.Cleanup(func() {
 		centralNicIndexURL = origIndexURL
 		centralNicBaseURL = origBaseURL
-	}()
+	})
 
 	origIANABase := ianaBaseURL
-	defer func() { ianaBaseURL = origIANABase }()
+	t.Cleanup(func() { ianaBaseURL = origIANABase })
 	ianaBaseURL = "https://www.iana.org"
 
 	// allZones contains a zone listed on CentralNic (qpon) plus an unrelated
@@ -516,19 +516,19 @@ func TestFetchIDNTablesFromCentralNic_FilteredWorkingSet(t *testing.T) {
 // accumulating on unrelated zones.
 func TestFetchIDNTablesFromCentralNic_StalePruneAcrossNonWorkingZones(t *testing.T) {
 	srv := httptest.NewServer(centralNicTestHandler())
-	defer srv.Close()
+	t.Cleanup(srv.Close)
 
 	origIndexURL := centralNicIndexURL
 	origBaseURL := centralNicBaseURL
 	centralNicIndexURL = srv.URL + "/idn-tables/"
 	centralNicBaseURL = srv.URL
-	defer func() {
+	t.Cleanup(func() {
 		centralNicIndexURL = origIndexURL
 		centralNicBaseURL = origBaseURL
-	}()
+	})
 
 	origIANABase := ianaBaseURL
-	defer func() { ianaBaseURL = origIANABase }()
+	t.Cleanup(func() { ianaBaseURL = origIANABase })
 	ianaBaseURL = "https://www.iana.org"
 
 	staleCNSource := srv.URL + "/idn-tables/"
