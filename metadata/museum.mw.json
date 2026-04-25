@@ -1,9 +1,5 @@
 {
 	"domain": "museum.mw",
-	"nameServers": [
-		"dina.ns.cloudflare.com",
-		"ken.ns.cloudflare.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
