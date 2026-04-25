@@ -2045,6 +2045,7 @@ adv.br
 agr.br
 am.br
 aparecida.br
+api.br
 app.br
 arq.br
 art.br
@@ -2093,6 +2094,7 @@ geo.br
 ggf.br
 gov.br
 gru.br
+ia.br
 imb.br
 ind.br
 inf.br
@@ -2132,6 +2134,7 @@ sec3.br
 seg.br
 sjc.br
 slg.br
+social.br
 srv.br
 taxi.br
 tec.br
@@ -2144,6 +2147,7 @@ vet.br
 vix.br
 vlog.br
 wiki.br
+xyz.br
 zlg.br
 com.bs
 edu.bs
@@ -2389,6 +2393,7 @@ gov.dz
 net.dz
 org.dz
 pol.dz
+tm.dz
 adm.ec
 art.ec
 bar.ec
