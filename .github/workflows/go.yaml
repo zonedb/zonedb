@@ -103,16 +103,16 @@ jobs:
       matrix:
         go-version:
           - big: "1.25"
-            tiny: "0.39.0"
+            tiny: "0.41.1"
           - big: "1.25"
-            tiny: "0.40.1"
+            tiny: "0.41.1"
         # FIXME: TinyGo needs to be manually bumped; it doesn't immediately
         # release support for new major Go versions something should ping when a
         # new version is available.
         include:
           - go-version:
               file: "go.mod"
-              tiny: "0.40.1"
+              tiny: "0.41.1"
 
     env:
       GODEBUG: toolchaintrace=1
