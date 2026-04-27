@@ -1,0 +1,52 @@
+name: Check Go & TinyGo Versions
+
+on:
+  schedule:
+    - cron: "0 9 * * 1" # Weekly Monday 9am UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-versions:
+    name: Check Go & TinyGo Versions
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      LABEL: go-version-update
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - id: check
+        run: |
+          OUTPUT=$(scripts/go-versions-check.sh 2>&1) || true
+          echo "$OUTPUT"
+          echo "$OUTPUT" | grep '^[A-Z][A-Z_]*=' | tr '[:upper:]' '[:lower:]' >> "$GITHUB_OUTPUT"
+
+      - name: Ensure label exists
+        run: gh label create "$LABEL" --color FBCA04 --description "Go/TinyGo version update available" || true
+
+      - name: Open or update tracking issue
+        if: steps.check.outputs.needs_update == 'true'
+        env:
+          GO_PREV: ${{ steps.check.outputs.go_prev }}
+          TINYGO_LATEST: ${{ steps.check.outputs.tinygo_latest }}
+        run: |
+          TITLE="Update Go to ${GO_PREV}.0, TinyGo to ${TINYGO_LATEST}"
+          BODY="New Go / TinyGo versions are available. Run \`scripts/go-versions-update.sh\` from a clean \`main\` checkout, then open a PR. This issue auto-closes once versions are in sync."
+          EXISTING=$(gh issue list --label "$LABEL" --state open --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            gh issue edit "$EXISTING" --title "$TITLE" --body "$BODY"
+          else
+            gh issue create --title "$TITLE" --body "$BODY" --label "$LABEL"
+          fi
+
+      - name: Close tracking issue if up to date
+        if: steps.check.outputs.needs_update == 'false'
+        run: |
+          gh issue list --label "$LABEL" --state open --json number --jq '.[].number' \
+            | xargs -r -I{} gh issue close {} --comment "Versions are in sync."
