@@ -1,6 +1,8 @@
 {
 	"domain": "ac.ls",
 	"nameServers": [
+		"ls-ns.anycast.pch.net",
+		"ns-ls.afrinic.net",
 		"ns1.nic.ls",
 		"ns2.nic.ls",
 		"thaba.nul.ls"
