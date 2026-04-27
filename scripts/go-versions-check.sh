@@ -61,6 +61,7 @@ echo "Needs update: $NEEDS_UPDATE"
 # Machine-readable values (used by go-versions-update.sh)
 echo ""
 echo "GO_PREV=$GO_PREV"
+echo "GO_CURRENT=$GO_CURRENT"
 echo "TINYGO_GO=$TINYGO_GO"
 echo "TINYGO_PREV=$TINYGO_PREV"
 echo "TINYGO_LATEST=$TINYGO_LATEST"
