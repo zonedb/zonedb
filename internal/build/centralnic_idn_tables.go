@@ -180,13 +180,18 @@ func FetchIDNTablesFromCentralNic(ctx context.Context, zones map[string]*Zone, c
 		fetched uint64
 		skipped uint64
 	)
-	g, ctx := errgroup.WithContext(ctx)
+	g, gctx := errgroup.WithContext(ctx)
 	g.SetLimit(Concurrency)
 
 	for _, job := range jobs {
 		g.Go(func() error {
-			detailRes, err := Fetch(ctx, job.entry.URL)
+			detailRes, err := Fetch(gctx, job.entry.URL)
 			if err != nil {
+				// Abort the batch when the parent ctx is done; otherwise this
+				// is a per-URL fetch failure and the other jobs keep going.
+				if gctx.Err() != nil {
+					return gctx.Err()
+				}
 				Trace("@{r}CentralNic: error fetching %s: %v\n", job.entry.URL, err)
 				atomic.AddUint64(&skipped, 1)
 				return nil

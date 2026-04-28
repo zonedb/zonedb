@@ -19,33 +19,15 @@ var (
 	// Concurrency specifies the maximimum number of concurrent build operations to execute.
 	Concurrency = 32
 
-	// Timeout specifies the maximum duration to wait for network operations to complete.
-	// It applies as a cap on top of any deadline already on the ctx passed to
-	// Fetch, FetchWithETag, and CanDial: the earliest deadline wins.
-	Timeout = 10 * time.Second
+	// DialTimeout bounds the TCP/UDP dial performed by CanDial and queryWhois.
+	// HTTP fetches use httpClient.Timeout (see below), not this value.
+	DialTimeout = 10 * time.Second
 )
 
 // httpClient is the shared HTTP client for all build-package fetches.
-//
-// Introduced alongside the context.Context refactor of Fetch / FetchWithETag:
-// threading ctx into those functions is only meaningful if the underlying
-// transport has default bounds, otherwise callers passing context.Background()
-// would get the same unbounded behavior the ctx-aware API suggests it prevents.
-// Timeout is applied to the TCP dial, TLS handshake, and the overall request-
-// response cycle; per-call ctx deadlines compose on top via
-// http.NewRequestWithContext (earliest deadline wins).
-//
-// KeepAlive matches the Domainr house convention in mustang
-// (internal/maintenance/fetcher.go).
+// Timeout caps the whole request (DNS → body); per-call ctx deadlines compose on top.
 var httpClient = &http.Client{
-	Timeout: Timeout,
-	Transport: &http.Transport{
-		DialContext: (&net.Dialer{
-			Timeout:   Timeout,
-			KeepAlive: 30 * time.Second,
-		}).DialContext,
-		TLSHandshakeTimeout: 5 * time.Second,
-	},
+	Timeout: time.Minute,
 }
 
 // Fetch fetches a URL.
@@ -104,15 +86,14 @@ func FetchWithETag(ctx context.Context, u string, cache *ETagCache) (*http.Respo
 	return res, nil
 }
 
-// CanDial verifies if possible to connect to a given network and address.
-// Returns nil for successful dial or an error.
-//
-// Results are cached in a process-global map keyed by "network addr". Errors
-// from context cancellation or deadline are NOT cached, so that a cancelled
-// dial does not poison future attempts with a fresh ctx.
-//
-// TODO: the process-global cache should be per-run or per-test to avoid
-// cross-run state leakage. Tracked as a follow-up to the ctx refactor.
+// dialer is reused by CanDial and queryWhois to avoid allocating a net.Dialer
+// per call. It has no per-call state that varies with ctx.
+var dialer = &net.Dialer{Timeout: DialTimeout}
+
+// CanDial reports whether network/addr accepts a connection, discarding it.
+// Results are cached process-wide; ctx-induced errors are not cached so a
+// cancelled dial doesn't poison future callers.
+// FIXME: scope the cache per-run instead of package-global.
 func CanDial(ctx context.Context, network, addr string) error {
 	k := network + " " + addr
 	mtx.RLock()
@@ -121,19 +102,22 @@ func CanDial(ctx context.Context, network, addr string) error {
 	if ok {
 		return err
 	}
-	d := &net.Dialer{Timeout: Timeout}
-	c, err := d.DialContext(ctx, network, addr)
+	c, err := dialer.DialContext(ctx, network, addr)
 	// Do not cache ctx-induced errors: a future caller with a fresh ctx
 	// should get a real dial attempt.
-	if !errors.Is(err, context.Canceled) && !errors.Is(err, context.DeadlineExceeded) {
+	if err != nil {
+		if errors.Is(err, context.Canceled) || errors.Is(err, context.DeadlineExceeded) {
+			return err
+		}
 		mtx.Lock()
 		dialCache[k] = err
 		mtx.Unlock()
-	}
-	if err != nil {
 		return err
 	}
 	c.Close()
+	mtx.Lock()
+	dialCache[k] = nil
+	mtx.Unlock()
 	return nil
 }
 

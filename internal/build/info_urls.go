@@ -8,13 +8,14 @@ import (
 	"time"
 )
 
-func UpdateInfoURLs(ctx context.Context, zones map[string]*Zone) {
+// UpdateInfoURLs probes candidate info URLs for each zone and rewrites
+// z.InfoURL to the first reachable one. Returns ctx.Err() so callers can
+// distinguish a completed pass from an interrupted one.
+func UpdateInfoURLs(ctx context.Context, zones map[string]*Zone) error {
 	Trace("@{.}Updating info URLs for %d zones...\n", len(zones))
 
-	// Info-URL updates have a different workload profile than the shared
-	// httpClient in net.go: many short GETs against many different hosts.
-	// MaxIdleConnsPerHost=10 helps when we retry several candidate URLs per
-	// zone against the same registry host, so we keep a dedicated client.
+	// Dedicated client: many short GETs per registry host; MaxIdleConnsPerHost
+	// helps reuse connections across the candidate URLs tried per zone.
 	transport := http.DefaultTransport.(*http.Transport).Clone()
 	transport.TLSHandshakeTimeout = 5 * time.Second
 	transport.MaxIdleConnsPerHost = 10
@@ -23,7 +24,7 @@ func UpdateInfoURLs(ctx context.Context, zones map[string]*Zone) {
 		Timeout:   10 * time.Second,
 	}
 
-	mapZones(ctx, zones, func(ctx context.Context, z *Zone) {
+	err := mapZones(ctx, zones, func(gctx context.Context, z *Zone) error {
 		var urls []string
 
 		if strings.HasPrefix(z.InfoURL, "http:") {
@@ -59,7 +60,7 @@ func UpdateInfoURLs(ctx context.Context, zones map[string]*Zone) {
 				continue
 			}
 			u = NormalizeURL(u)
-			req, err := http.NewRequestWithContext(ctx, http.MethodGet, u, nil)
+			req, err := http.NewRequestWithContext(gctx, http.MethodGet, u, nil)
 			if err != nil {
 				Trace("@{y!}Warning:@{y} error fetching info URL for @{y!}%s@{y}: (%s): %v\n", z.Domain, u, err)
 				continue
@@ -67,6 +68,10 @@ func UpdateInfoURLs(ctx context.Context, zones map[string]*Zone) {
 			req.Header.Set("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36")
 			res, err := client.Do(req)
 			if err != nil {
+				// Abort only on group cancellation; per-request failures mean "try the next URL".
+				if gctx.Err() != nil {
+					return gctx.Err()
+				}
 				if u == z.InfoURL {
 					Trace("@{y!}Warning:@{y} error fetching info URL for @{y!}%s@{y}: (%s): %v\n", z.Domain, u, err)
 				}
@@ -94,7 +99,12 @@ func UpdateInfoURLs(ctx context.Context, zones map[string]*Zone) {
 			}
 			z.InfoURL = infoURL
 		}
+		return nil
 	})
+	if err != nil {
+		return err
+	}
+	return ctx.Err()
 }
 
 // CloseN drains rc up to a maximum of n bytes and closes rc.

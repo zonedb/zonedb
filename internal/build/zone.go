@@ -328,25 +328,23 @@ func SortedDomains(zones map[string]*Zone) []string {
 	return domains
 }
 
-// mapZones concurrently applies a function to a set of Zones.
-// It wraps the call to fn with a lock on the Zone mutex.
-// The callback receives a ctx derived from the one passed to mapZones;
-// workers honor cancellation both when acquiring concurrency slots and
-// during the callback itself.
-func mapZones(ctx context.Context, zones map[string]*Zone, fn func(context.Context, *Zone)) {
+// mapZones concurrently applies fn to every zone, holding z.m per call and
+// bounded by Concurrency via errgroup. fn receives the errgroup ctx (name it
+// gctx to avoid shadowing). A non-nil return cancels siblings; most per-zone
+// failures should be logged and return nil.
+func mapZones(ctx context.Context, zones map[string]*Zone, fn func(gctx context.Context, z *Zone) error) error {
 	domains := SortedDomains(zones)
-	g, ctx := errgroup.WithContext(ctx)
+	g, gctx := errgroup.WithContext(ctx)
 	g.SetLimit(Concurrency)
 	for _, domain := range domains {
 		z := zones[domain]
 		g.Go(func() error {
 			z.m.Lock()
 			defer z.m.Unlock()
-			fn(ctx, z)
-			return nil
+			return fn(gctx, z)
 		})
 	}
-	_ = g.Wait()
+	return g.Wait()
 }
 
 // Sort sorts a slice of domain names by rank. Rank sort defined as:

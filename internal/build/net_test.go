@@ -6,15 +6,9 @@ import (
 	"testing"
 )
 
-// TestCanDialCacheSkipsCtxErrors verifies that CanDial does not cache errors
-// caused by context cancellation or deadline. A cancelled dial must not
-// poison the cache for subsequent callers passing a fresh ctx — otherwise
-// the first Ctrl-C during a build would cause every future build to
-// instant-fail for the cached hosts.
-//
-// NOTE: this test directly touches the package-global dialCache / mtx.
-// When the follow-up to scope the cache per-run lands, update this test
-// accordingly (see net.go's TODO above CanDial).
+// TestCanDialCacheSkipsCtxErrors: a cancelled dial in one build phase must
+// not poison the shared dialCache for the next phase's fresh ctx. Touches
+// package-global dialCache/mtx; revisit when the cache is scoped per-run.
 func TestCanDialCacheSkipsCtxErrors(t *testing.T) {
 	ln, err := net.Listen("tcp", "127.0.0.1:0")
 	if err != nil {

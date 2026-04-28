@@ -85,25 +85,20 @@ func main() {
 	}
 	flag.Parse()
 
-	// Root context: cancelled on SIGINT/SIGTERM so in-flight network ops can
-	// unwind cleanly and deferred cleanup (ETag cache save) still runs.
-	// A second signal falls through to the Go runtime's default handler,
-	// which exits immediately without running deferreds.
+	// Root ctx cancels on signal for graceful shutdown. signal.Reset restores
+	// the default handler so a second signal force-exits.
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 	sig := make(chan os.Signal, 1)
 	signal.Notify(sig, os.Interrupt, syscall.SIGTERM)
 	go func() {
 		<-sig
-		color.Fprintf(os.Stderr, "@{y}Received signal, cancelling in-flight operations...\n")
+		color.Fprintf(os.Stderr, "@{y}Received signal, cancelling in-flight operations (Ctrl-C again to force exit)...\n")
+		signal.Reset(os.Interrupt, syscall.SIGTERM)
 		cancel()
 	}()
 
-	// Load ETag cache for conditional HTTP requests.
-	//
-	// The cache save runs via the normal defer path, so a second Ctrl-C
-	// during drain skips it. Acceptable because stale ETags cause extra
-	// fetches on the next run, not incorrect data.
+	// Load ETag cache. Skipped on force-exit; stale ETags only cause extra fetches.
 	cache := build.NewETagCache(filepath.Join(build.BaseDir, ".cache", "etags.json"))
 	if !*noCache {
 		if err := cache.Load(); err != nil {
@@ -433,21 +428,36 @@ func main() {
 	}
 
 	if *updateInfoURL {
-		build.UpdateInfoURLs(ctx, workZones)
+		if err := build.UpdateInfoURLs(ctx, workZones); err != nil {
+			errs = append(errs, err)
+			build.LogError(err)
+		}
 	}
 
 	if *verifyNS {
-		build.VerifyNameServers(ctx, workZones)
+		if err := build.VerifyNameServers(ctx, workZones); err != nil {
+			errs = append(errs, err)
+			build.LogError(err)
+		}
 	}
 
-	build.CountNameServers(ctx, workZones)
+	if err := build.CountNameServers(ctx, workZones); err != nil {
+		errs = append(errs, err)
+		build.LogError(err)
+	}
 
 	if *verifyWhois {
-		build.VerifyWhois(ctx, workZones)
+		if err := build.VerifyWhois(ctx, workZones); err != nil {
+			errs = append(errs, err)
+			build.LogError(err)
+		}
 	}
 
 	if *checkPS {
-		build.CheckPublicSuffix(ctx, workZones)
+		if err := build.CheckPublicSuffix(ctx, workZones); err != nil {
+			errs = append(errs, err)
+			build.LogError(err)
+		}
 	}
 
 	err := build.ValidateTags(workZones)
