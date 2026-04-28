@@ -36,7 +36,7 @@ type Zone struct {
 	// Internal
 	subdomains     []string
 	oldNameServers []string
-	m              sync.Mutex
+	mut            sync.Mutex
 
 	// Exported for use in text/template
 	IDNDisallowed                                 bool   `json:"-"`
@@ -328,10 +328,10 @@ func SortedDomains(zones map[string]*Zone) []string {
 	return domains
 }
 
-// mapZones concurrently applies fn to every zone, holding z.m per call and
-// bounded by Concurrency via errgroup. fn receives the errgroup ctx (name it
-// gctx to avoid shadowing). A non-nil return cancels siblings; most per-zone
-// failures should be logged and return nil.
+// mapZones concurrently applies fn to every zone, bounded by Concurrency.
+// Each call holds z.mut for its duration. fn receives a ctx derived from the
+// errgroup; a non-nil return cancels siblings. Most per-zone failures should
+// be logged and return nil.
 func mapZones(ctx context.Context, zones map[string]*Zone, fn func(gctx context.Context, z *Zone) error) error {
 	domains := SortedDomains(zones)
 	g, gctx := errgroup.WithContext(ctx)
@@ -339,12 +339,15 @@ func mapZones(ctx context.Context, zones map[string]*Zone, fn func(gctx context.
 	for _, domain := range domains {
 		z := zones[domain]
 		g.Go(func() error {
-			z.m.Lock()
-			defer z.m.Unlock()
+			z.mut.Lock()
+			defer z.mut.Unlock()
 			return fn(gctx, z)
 		})
 	}
-	return g.Wait()
+	if err := g.Wait(); err != nil {
+		return err
+	}
+	return ctx.Err()
 }
 
 // Sort sorts a slice of domain names by rank. Rank sort defined as:

@@ -141,7 +141,7 @@ func FetchIDNTablesFromCentralNic(ctx context.Context, zones, allZones map[strin
 		return err
 	}
 
-	// Phase 1: Prune stale CentralNic entries across all zones — a
+	// Phase 1: Prune stale CentralNic entries across all zones. A
 	// filtered run must not leave stale policies elsewhere. Languages
 	// from other sources are preserved.
 	centralNicPrefix := centralNicBaseURL + "/"

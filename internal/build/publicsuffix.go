@@ -13,10 +13,9 @@ import (
 const pfx = "zonedb-test."
 
 // CheckPublicSuffix compares the zones against the Public Suffix List.
-// Returns ctx.Err() so callers can tell a completed check from an interrupted one.
 func CheckPublicSuffix(ctx context.Context, zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Checking against the Public Suffix List for %d zones...\n", len(zones))
-	err := mapZones(ctx, zones, func(_ context.Context, z *Zone) error {
+	return mapZones(ctx, zones, func(_ context.Context, z *Zone) error {
 		host, err := idna.ToASCII(pfx + z.Domain)
 		if err != nil {
 			LogWarning(err)
@@ -39,8 +38,4 @@ func CheckPublicSuffix(ctx context.Context, zones map[string]*Zone) error {
 		}
 		return nil
 	})
-	if err != nil {
-		return err
-	}
-	return ctx.Err()
 }

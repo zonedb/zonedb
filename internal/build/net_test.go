@@ -17,7 +17,7 @@ func TestCanDialCacheSkipsCtxErrors(t *testing.T) {
 	t.Cleanup(func() { _ = ln.Close() })
 	addr := ln.Addr().String()
 
-	// Ensure the cache starts clean for this address — other tests or
+	// Ensure the cache starts clean for this address. Other tests or
 	// prior runs in the same process could have seeded it.
 	key := "tcp " + addr
 	mtx.Lock()

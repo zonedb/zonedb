@@ -9,8 +9,7 @@ import (
 )
 
 // UpdateInfoURLs probes candidate info URLs for each zone and rewrites
-// z.InfoURL to the first reachable one. Returns ctx.Err() so callers can
-// distinguish a completed pass from an interrupted one.
+// z.InfoURL to the first reachable one.
 func UpdateInfoURLs(ctx context.Context, zones map[string]*Zone) error {
 	Trace("@{.}Updating info URLs for %d zones...\n", len(zones))
 
@@ -24,7 +23,7 @@ func UpdateInfoURLs(ctx context.Context, zones map[string]*Zone) error {
 		Timeout:   10 * time.Second,
 	}
 
-	err := mapZones(ctx, zones, func(gctx context.Context, z *Zone) error {
+	return mapZones(ctx, zones, func(gctx context.Context, z *Zone) error {
 		var urls []string
 
 		if strings.HasPrefix(z.InfoURL, "http:") {
@@ -101,10 +100,6 @@ func UpdateInfoURLs(ctx context.Context, zones map[string]*Zone) error {
 		}
 		return nil
 	})
-	if err != nil {
-		return err
-	}
-	return ctx.Err()
 }
 
 // CloseN drains rc up to a maximum of n bytes and closes rc.

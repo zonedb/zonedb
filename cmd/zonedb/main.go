@@ -314,7 +314,6 @@ func main() {
 		err := build.FetchNameServers(ctx, workZones, zones)
 		if err != nil {
 			errs = append(errs, err)
-			build.LogError(err)
 		}
 	}
 
@@ -322,7 +321,6 @@ func main() {
 		err := build.FindWildcards(ctx, workZones)
 		if err != nil {
 			errs = append(errs, err)
-			build.LogError(err)
 		}
 	}
 
@@ -430,33 +428,28 @@ func main() {
 	if *updateInfoURL {
 		if err := build.UpdateInfoURLs(ctx, workZones); err != nil {
 			errs = append(errs, err)
-			build.LogError(err)
 		}
 	}
 
 	if *verifyNS {
 		if err := build.VerifyNameServers(ctx, workZones); err != nil {
 			errs = append(errs, err)
-			build.LogError(err)
 		}
 	}
 
 	if err := build.CountNameServers(ctx, workZones); err != nil {
 		errs = append(errs, err)
-		build.LogError(err)
 	}
 
 	if *verifyWhois {
 		if err := build.VerifyWhois(ctx, workZones); err != nil {
 			errs = append(errs, err)
-			build.LogError(err)
 		}
 	}
 
 	if *checkPS {
 		if err := build.CheckPublicSuffix(ctx, workZones); err != nil {
 			errs = append(errs, err)
-			build.LogError(err)
 		}
 	}
 

@@ -141,7 +141,7 @@ func QueryIANA(ctx context.Context, zones map[string]*Zone) error {
 		g.Go(func() error {
 			if err := tldWhois(gctx, z); err != nil {
 				// Abort the batch only on group cancellation; per-TLD errors
-				// are logged and skipped — many TLDs have flaky whois servers.
+				// are logged and skipped. Many TLDs have flaky whois servers.
 				if gctx.Err() != nil {
 					return gctx.Err()
 				}
@@ -211,8 +211,9 @@ func queryWhois(ctx context.Context, addr, query string) ([]byte, error) {
 		_ = c.SetDeadline(dl)
 	}
 	if _, err = fmt.Fprint(c, query, "\r\n"); err != nil {
-		// Re-wrap with ctx.Err() so callers can detect cancellation/deadline
-		// uniformly — SetDeadline surfaces os.ErrDeadlineExceeded otherwise.
+		// When the ctx deadline fires, SetDeadline causes a *net.OpError
+		// wrapping os.ErrDeadlineExceeded, not context.DeadlineExceeded.
+		// Re-wrap so callers can use errors.Is uniformly.
 		if ctxErr := ctx.Err(); ctxErr != nil {
 			return nil, fmt.Errorf("writing whois query: %w", ctxErr)
 		}
@@ -229,14 +230,12 @@ func queryWhois(ctx context.Context, addr, query string) ([]byte, error) {
 }
 
 // VerifyWhois verifies that the whois servers respond on TCP port 43.
-// Per-zone verification failures clear the bad server and are logged; ctx
-// cancellation surfaces so an interrupted pass isn't reported as success.
+// Per-zone verification failures clear the bad server and are logged.
 func VerifyWhois(ctx context.Context, zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Verifying whois servers for %d zones...\n", len(zones))
-	err := mapZones(ctx, zones, func(gctx context.Context, z *Zone) error {
+	return mapZones(ctx, zones, func(gctx context.Context, z *Zone) error {
 		if z.WhoisServer != "" {
 			if err := verifyWhois(gctx, z.WhoisServer); err != nil {
-				// Abort only on group cancellation; otherwise clear the unreachable server and continue.
 				if gctx.Err() != nil {
 					return gctx.Err()
 				}
@@ -246,10 +245,6 @@ func VerifyWhois(ctx context.Context, zones map[string]*Zone) error {
 		}
 		return nil
 	})
-	if err != nil {
-		return err
-	}
-	return ctx.Err()
 }
 
 func verifyWhois(ctx context.Context, host string) error {
