@@ -3,7 +3,7 @@
 	"registryOperator": "Comite Gestor da Internet no Brasil",
 	"countryName": "Brazil",
 	"infoURL": "https://nic.br/",
-	"whoisServer": "whois.registro.br",
+	"whoisServer": "whois.nic.br",
 	"rdapURLs": [
 		"https://rdap.registro.br/"
 	],
