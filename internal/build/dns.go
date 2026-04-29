@@ -143,6 +143,7 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 
 		// Iterate over name servers
 		counts := make(map[string]int, 8)
+		successfulResponses := 0 // parents that returned a valid DNS response (NOERROR or NXDOMAIN), not network failures
 		for _, host := range parentNS {
 			if _, ok := nx.Load(host); ok {
 				continue
@@ -173,6 +174,7 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 				// }
 				continue
 			}
+			successfulResponses++
 			if rmsg.Rcode == dns.RcodeNameError {
 				// color.Fprintf(os.Stderr, "@{y}Warning: %s returned NXDOMAIN for %s (NS)\n", host, z.Domain)
 				continue
@@ -215,8 +217,12 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 			atomic.AddInt32(&found, 1)
 		}
 
-		// Sanity check
-		if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 {
+		// If every parent query failed at the network layer, keep prior NS list.
+		// Authoritative NXDOMAIN/NOERROR responses still clear the list.
+		if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 && successfulResponses == 0 {
+			z.NameServers = z.oldNameServers
+			color.Fprintf(os.Stderr, "@{y}All parent queries failed for %s, keeping previous NS list@{y}\n", z)
+		} else if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 {
 			color.Fprintf(os.Stderr, "@{y}Zone lost all name servers: @{y!}%s@{y}\n", z)
 		}
 
