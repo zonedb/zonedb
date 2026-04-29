@@ -382,7 +382,11 @@ func randLabel(n int) string {
 	return string(b)
 }
 
-func exchange(ctx context.Context, host, qname string, qtype uint16) (*dns.Msg, error) {
+// exchange performs a DNS query against host for qname/qtype. It is a
+// package-level var so tests can substitute a scripted implementation.
+var exchange = defaultExchange
+
+func defaultExchange(ctx context.Context, host, qname string, qtype uint16) (*dns.Msg, error) {
 	qmsg := &dns.Msg{}
 	qmsg.RecursionDesired = true
 	qmsg.SetQuestion(dns.Fqdn(qname), qtype)
