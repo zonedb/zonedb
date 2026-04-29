@@ -104,3 +104,33 @@ func TestFetchNameServers_AllParentsReturnNXDOMAIN(t *testing.T) {
 		t.Errorf("NS list should be cleared on authoritative NXDOMAIN; got %v", child.NameServers)
 	}
 }
+
+// TestFetchNameServers_PreviouslyKnownNSSurvivesPartialDisagreement verifies
+// that an NS previously in the zone's list is not dropped by the consensus
+// filter just because only one parent happens to return it in a given run.
+func TestFetchNameServers_PreviouslyKnownNSSurvivesPartialDisagreement(t *testing.T) {
+	prior := []string{"ns-a.example", "ns-b.example", "ns-extra.example"}
+	parent := &Zone{Domain: "tld", NameServers: []string{"p1", "p2", "p3", "p4", "p5"}}
+	child := &Zone{Domain: "example.tld", NameServers: slices.Clone(prior)}
+	allZones := map[string]*Zone{"tld": parent, "example.tld": child}
+
+	origExchange := exchange
+	t.Cleanup(func() { exchange = origExchange })
+	exchange = scriptedExchange(t, map[string]scriptedResponse{
+		"p1": {nsRecords: []string{"ns-a.example", "ns-b.example"}},
+		"p2": {nsRecords: []string{"ns-a.example", "ns-b.example"}},
+		"p3": {nsRecords: []string{"ns-a.example", "ns-b.example"}},
+		"p4": {nsRecords: []string{"ns-a.example", "ns-b.example"}},
+		"p5": {nsRecords: []string{"ns-a.example", "ns-b.example", "ns-extra.example"}},
+	})
+
+	if err := FetchNameServers(map[string]*Zone{"example.tld": child}, allZones); err != nil {
+		t.Fatalf("FetchNameServers returned error: %v", err)
+	}
+
+	got := sorted(child.NameServers)
+	want := sorted([]string{"ns-a.example", "ns-b.example", "ns-extra.example"})
+	if !slices.Equal(got, want) {
+		t.Errorf("previously-known NS should not be dropped by consensus filter; got %v, want %v", got, want)
+	}
+}

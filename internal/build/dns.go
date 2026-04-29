@@ -201,9 +201,9 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 
 		// Store new name servers
 		for ns, count := range counts {
-			// Ignore non-consensus values where > 1 name server does not return ns
-			// FIXME: this criteria is subjective)
-			if count == 1 && max > 2 {
+			// Drop non-consensus NSs (count=1 while max>2), UNLESS the NS was
+			// previously trusted — mirrors FetchRootZone's "keep if known" rule.
+			if count == 1 && max > 2 && !slices.Contains(z.oldNameServers, ns) {
 				color.Fprintf(os.Stderr, "@{y}Warning: non-consensus name server for %s: %s (%d < %d)\n", z, ns, count, max)
 				atomic.AddInt32(&skipped, 1)
 				continue
