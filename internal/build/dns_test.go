@@ -105,10 +105,11 @@ func TestFetchNameServers_AllParentsReturnNXDOMAIN(t *testing.T) {
 	}
 }
 
-// TestFetchNameServers_PreviouslyKnownNSSurvivesPartialDisagreement verifies
-// that an NS previously in the zone's list is not dropped by the consensus
-// filter just because only one parent happens to return it in a given run.
-func TestFetchNameServers_PreviouslyKnownNSSurvivesPartialDisagreement(t *testing.T) {
+// Verifies that a previously-known NS still returned by at least one
+// parent survives the consensus filter, even when count==1 and max>2.
+// An NS absent from every parent response is dropped by a different
+// codepath, not exercised here.
+func TestFetchNameServers_ConsensusFilterKeepsKnownNS(t *testing.T) {
 	prior := []string{"ns-a.example", "ns-b.example", "ns-extra.example"}
 	parent := &Zone{Domain: "tld", NameServers: []string{"p1", "p2", "p3", "p4", "p5"}}
 	child := &Zone{Domain: "example.tld", NameServers: slices.Clone(prior)}
