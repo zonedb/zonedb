@@ -2,7 +2,7 @@
 	"domain": "mx",
 	"registryOperator": "NIC-Mexico\nITESM - Campus Monterrey",
 	"countryName": "Mexico",
-	"whoisServer": "whois.mx",
+	"whoisServer": "whois.nic.mx",
 	"nameServers": [
 		"c.mx-ns.mx",
 		"e.mx-ns.mx",

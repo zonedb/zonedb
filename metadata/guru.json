@@ -1,7 +1,6 @@
 {
 	"domain": "guru",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.guru",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

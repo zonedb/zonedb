@@ -2,7 +2,6 @@
 	"domain": "hkt",
 	"registryOperator": "PCCW-HKT DataCom Services Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/hkt",
-	"whoisServer": "whois.nic.hkt",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

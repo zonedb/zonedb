@@ -2,7 +2,6 @@
 	"domain": "pt",
 	"registryOperator": "Associação DNS.PT",
 	"countryName": "Portugal",
-	"whoisServer": "whois.dns.pt",
 	"nameServers": [
 		"a.dns.pt",
 		"b.dns.pt",

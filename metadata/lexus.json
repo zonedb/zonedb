@@ -2,7 +2,6 @@
 	"domain": "lexus",
 	"registryOperator": "TOYOTA MOTOR CORPORATION",
 	"infoURL": "http://www.nic.lexus/",
-	"whoisServer": "whois.nic.lexus",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

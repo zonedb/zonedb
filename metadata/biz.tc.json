@@ -5,9 +5,6 @@
 		"ns1.nudrv.com",
 		"ns2.nudrv.com"
 	],
-	"wildcards": [
-		"64.136.20.39"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
