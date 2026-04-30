@@ -3,8 +3,7 @@
 	"infoURL": "https://register.com.np/",
 	"nameServers": [
 		"np-ns.npix.net.np",
-		"pch.nnic.np",
-		"sec2.apnic.net"
+		"pch.nnic.np"
 	],
 	"policies": [
 		{

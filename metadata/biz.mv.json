@@ -1,8 +1,5 @@
 {
 	"domain": "biz.mv",
-	"nameServers": [
-		"webns.mv"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
