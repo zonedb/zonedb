@@ -1,6 +1,7 @@
 package build
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
 	"strings"
@@ -10,8 +11,8 @@ import (
 const icannGTLDsURL = "https://www.icann.org/resources/registries/gtlds/v2/gtlds.json"
 
 // FetchGTLDsFromICANN retrieves the list of gTLDs from ICANN.
-func FetchGTLDsFromICANN(zones map[string]*Zone, cache *ETagCache) error {
-	res, err := FetchWithETag(icannGTLDsURL, cache)
+func FetchGTLDsFromICANN(ctx context.Context, zones map[string]*Zone, cache *ETagCache) error {
+	res, err := FetchWithETag(ctx, icannGTLDsURL, cache)
 	if err != nil {
 		return err
 	}

@@ -1,15 +1,20 @@
 package build
 
 import (
+	"context"
 	"io"
 	"net/http"
 	"strings"
 	"time"
 )
 
-func UpdateInfoURLs(zones map[string]*Zone) {
+// UpdateInfoURLs probes candidate info URLs for each zone and rewrites
+// z.InfoURL to the first reachable one.
+func UpdateInfoURLs(ctx context.Context, zones map[string]*Zone) error {
 	Trace("@{.}Updating info URLs for %d zones...\n", len(zones))
 
+	// Dedicated client: many short GETs per registry host; MaxIdleConnsPerHost
+	// helps reuse connections across the candidate URLs tried per zone.
 	transport := http.DefaultTransport.(*http.Transport).Clone()
 	transport.TLSHandshakeTimeout = 5 * time.Second
 	transport.MaxIdleConnsPerHost = 10
@@ -18,7 +23,7 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 		Timeout:   10 * time.Second,
 	}
 
-	mapZones(zones, func(z *Zone) {
+	return mapZones(ctx, zones, func(gctx context.Context, z *Zone) error {
 		var urls []string
 
 		if strings.HasPrefix(z.InfoURL, "http:") {
@@ -54,7 +59,7 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 				continue
 			}
 			u = NormalizeURL(u)
-			req, err := http.NewRequest(http.MethodGet, u, nil)
+			req, err := http.NewRequestWithContext(gctx, http.MethodGet, u, nil)
 			if err != nil {
 				Trace("@{y!}Warning:@{y} error fetching info URL for @{y!}%s@{y}: (%s): %v\n", z.Domain, u, err)
 				continue
@@ -62,6 +67,10 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 			req.Header.Set("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36")
 			res, err := client.Do(req)
 			if err != nil {
+				// Abort only on group cancellation; per-request failures mean "try the next URL".
+				if gctx.Err() != nil {
+					return gctx.Err()
+				}
 				if u == z.InfoURL {
 					Trace("@{y!}Warning:@{y} error fetching info URL for @{y!}%s@{y}: (%s): %v\n", z.Domain, u, err)
 				}
@@ -89,6 +98,7 @@ func UpdateInfoURLs(zones map[string]*Zone) {
 			}
 			z.InfoURL = infoURL
 		}
+		return nil
 	})
 }
 

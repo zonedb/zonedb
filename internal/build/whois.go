@@ -8,27 +8,26 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"net"
 	"os"
 	"regexp"
 	"strings"
-	"sync"
 	"sync/atomic"
 	"time"
 
 	"github.com/miekg/dns"
 	"github.com/wsxiaoys/terminal/color"
 	"golang.org/x/net/idna"
+	"golang.org/x/sync/errgroup"
 )
 
 // QueryWhoisServers queries whois-servers.net for CNAME’d whois servers.
-func QueryWhoisServers(zones map[string]*Zone) error {
+func QueryWhoisServers(ctx context.Context, zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Querying whois-servers.net for %d zones...\n", len(zones))
 
 	// Get name servers for whois-servers.net
-	rrs, err := resolver.LookupNS(context.Background(), "whois-servers.net")
+	rrs, err := resolver.LookupNS(ctx, "whois-servers.net")
 	if err != nil {
-		return err
+		return fmt.Errorf("looking up NS for whois-servers.net: %w", err)
 	}
 	if len(rrs) == 0 {
 		return errors.New("no name servers for whois-servers.net")
@@ -37,16 +36,20 @@ func QueryWhoisServers(zones map[string]*Zone) error {
 
 	// Iterate zones
 	var found int32
-	mapZones(zones, func(z *Zone) {
-		ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	err = mapZones(ctx, zones, func(gctx context.Context, z *Zone) error {
+		qctx, cancel := context.WithTimeout(gctx, 10*time.Second)
 		defer cancel()
 		name := z.ASCII() + ".whois-servers.net."
-		rmsg, err := exchange(ctx, host, name, dns.TypeCNAME) // Single-depth CNAME query
+		rmsg, err := exchange(qctx, host, name, dns.TypeCNAME) // Single-depth CNAME query
 		if err != nil {
+			// Abort siblings only on group cancellation; per-zone qctx timeouts are per-zone.
+			if gctx.Err() != nil {
+				return gctx.Err()
+			}
 			if terr, ok := err.(timeouter); ok && !terr.Timeout() {
 				color.Fprintf(os.Stderr, "@{r}Error querying %s for %s: %s\n", name, z, err.Error())
 			}
-			return
+			return nil
 		}
 		for _, rr := range rmsg.Answer {
 			if cname, ok := rr.(*dns.CNAME); ok {
@@ -54,26 +57,27 @@ func QueryWhoisServers(zones map[string]*Zone) error {
 
 				// whois-servers.net occasionally returns whois.ripe.net (unusable)
 				if addr == "whois.ripe.net." {
-					return
+					return nil
 				}
-				if verifyWhois(addr) != nil {
-					return
+				if verifyWhois(qctx, addr) != nil {
+					return nil
 				}
 				z.WhoisServer = Normalize(addr)
 				atomic.AddInt32(&found, 1)
-				return
+				return nil
 			}
 		}
+		return nil
 	})
 	color.Fprintf(os.Stderr, "@{.}Found %d whois servers\n", found)
-	return nil
+	return err
 }
 
 const rubyWhoisURL = "https://github.com/weppos/whois/raw/HEAD/data/tld.json"
 
 // FetchRubyWhoisServers fetches whois servers from the Ruby Whois project.
-func FetchRubyWhoisServers(zones map[string]*Zone, addNew bool, cache *ETagCache) error {
-	res, err := FetchWithETag(rubyWhoisURL, cache)
+func FetchRubyWhoisServers(ctx context.Context, zones map[string]*Zone, addNew bool, cache *ETagCache) error {
+	res, err := FetchWithETag(ctx, rubyWhoisURL, cache)
 	if err != nil {
 		return err
 	}
@@ -89,7 +93,7 @@ func FetchRubyWhoisServers(zones map[string]*Zone, addNew bool, cache *ETagCache
 	d := json.NewDecoder(res.Body)
 	err = d.Decode(&records)
 	if err != nil {
-		return err
+		return fmt.Errorf("decoding Ruby Whois JSON: %w", err)
 	}
 	var servers, urls int
 	for d, rec := range records {
@@ -112,7 +116,7 @@ func FetchRubyWhoisServers(zones map[string]*Zone, addNew bool, cache *ETagCache
 			zones[d] = z
 		}
 		if rec.Host != "" && rec.Host != z.WhoisServer {
-			err := verifyWhois(rec.Host)
+			err := verifyWhois(ctx, rec.Host)
 			if err == nil {
 				z.WhoisServer = Normalize(rec.Host)
 				servers++
@@ -128,28 +132,25 @@ func FetchRubyWhoisServers(zones map[string]*Zone, addNew bool, cache *ETagCache
 }
 
 // QueryIANA fetches whois data from whois.iana.org.
-func QueryIANA(zones map[string]*Zone) error {
+func QueryIANA(ctx context.Context, zones map[string]*Zone) error {
 	tlds := TLDs(zones)
 	color.Fprintf(os.Stderr, "@{.}Querying whois.iana.org for %d TLDs...\n", len(tlds))
-	limiter := make(chan struct{}, Concurrency)
-	var wg sync.WaitGroup
+	g, gctx := errgroup.WithContext(ctx)
+	g.SetLimit(Concurrency)
 	for _, z := range tlds {
-		limiter <- struct{}{}
-		wg.Add(1)
-		go func(z *Zone) {
-			defer func() {
-				<-limiter
-				wg.Done()
-			}()
-			err := tldWhois(z)
-			if err != nil {
-				err = fmt.Errorf("%s: whois.iana.org: %w", z, err)
-				LogWarning(err)
+		g.Go(func() error {
+			if err := tldWhois(gctx, z); err != nil {
+				// Abort the batch only on group cancellation; per-TLD errors
+				// are logged and skipped. Many TLDs have flaky whois servers.
+				if gctx.Err() != nil {
+					return gctx.Err()
+				}
+				LogWarning(fmt.Errorf("%s: whois.iana.org: %w", z, err))
 			}
-		}(z)
+			return nil
+		})
 	}
-	wg.Wait()
-	return nil
+	return g.Wait()
 }
 
 var (
@@ -157,8 +158,8 @@ var (
 	nserverValue = regexp.MustCompile(`^(\S+)`)
 )
 
-func tldWhois(z *Zone) error {
-	b, err := queryWhois("whois.iana.org", z.ASCII())
+func tldWhois(ctx context.Context, z *Zone) error {
+	b, err := queryWhois(ctx, "whois.iana.org", z.ASCII())
 	if err != nil {
 		return err
 	}
@@ -184,55 +185,72 @@ func tldWhois(z *Zone) error {
 			z.NameServers = append(z.NameServers, Normalize(vm[1]))
 
 		case "whois":
-			if verifyWhois(v) != nil {
+			if verifyWhois(ctx, v) != nil {
 				break
 			}
 			z.WhoisServer = Normalize(v)
 		}
 	}
 	if err = s.Err(); err != nil {
-		return err
+		return fmt.Errorf("scanning whois response: %w", err)
 	}
 	return nil
 }
 
-func queryWhois(addr, query string) ([]byte, error) {
+func queryWhois(ctx context.Context, addr, query string) ([]byte, error) {
 	if !strings.Contains(addr, ":") {
 		addr = addr + ":43"
 	}
-	c, err := net.Dial("tcp", addr)
+	c, err := dialer.DialContext(ctx, "tcp", addr)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("dialing %s: %w", addr, err)
 	}
 	defer c.Close()
+	// Propagate ctx deadline to the connection so read/write are also bounded.
+	if dl, ok := ctx.Deadline(); ok {
+		_ = c.SetDeadline(dl)
+	}
 	if _, err = fmt.Fprint(c, query, "\r\n"); err != nil {
-		return nil, err
+		// When the ctx deadline fires, SetDeadline causes a *net.OpError
+		// wrapping os.ErrDeadlineExceeded, not context.DeadlineExceeded.
+		// Re-wrap so callers can use errors.Is uniformly.
+		if ctxErr := ctx.Err(); ctxErr != nil {
+			return nil, fmt.Errorf("writing whois query: %w", ctxErr)
+		}
+		return nil, fmt.Errorf("writing whois query: %w", err)
 	}
 	res, err := io.ReadAll(c)
 	if err != nil {
-		return nil, err
+		if ctxErr := ctx.Err(); ctxErr != nil {
+			return nil, fmt.Errorf("reading whois response: %w", ctxErr)
+		}
+		return nil, fmt.Errorf("reading whois response: %w", err)
 	}
 	return res, nil
 }
 
 // VerifyWhois verifies that the whois servers respond on TCP port 43.
-func VerifyWhois(zones map[string]*Zone) {
+// Per-zone verification failures clear the bad server and are logged.
+func VerifyWhois(ctx context.Context, zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Verifying whois servers for %d zones...\n", len(zones))
-	mapZones(zones, func(z *Zone) {
+	return mapZones(ctx, zones, func(gctx context.Context, z *Zone) error {
 		if z.WhoisServer != "" {
-			if err := verifyWhois(z.WhoisServer); err != nil {
+			if err := verifyWhois(gctx, z.WhoisServer); err != nil {
+				if gctx.Err() != nil {
+					return gctx.Err()
+				}
 				LogWarning(fmt.Errorf("can’t verify whois server %s: %s", z.WhoisServer, err))
 				z.WhoisServer = ""
 			}
 		}
+		return nil
 	})
 }
 
-func verifyWhois(host string) error {
+func verifyWhois(ctx context.Context, host string) error {
 	host, err := idna.ToASCII(Normalize(host))
 	if err != nil {
-		return err
+		return fmt.Errorf("normalizing host %q: %w", host, err)
 	}
-	err = CanDial("tcp", host+":43")
-	return err
+	return CanDial(ctx, "tcp", host+":43")
 }

@@ -409,7 +409,7 @@ func TestFetchAndApplyCLDRMetadata_304(t *testing.T) {
 	// Pre-populate the cache with an ETag so the request includes If-None-Match
 	cache.Set(cldrTerritoryInfoURL, `"some-etag"`)
 
-	err := FetchAndApplyCLDRMetadata(zones, cache)
+	err := FetchAndApplyCLDRMetadata(t.Context(), zones, cache)
 	if err != nil {
 		t.Fatalf("FetchAndApplyCLDRMetadata: %v", err)
 	}

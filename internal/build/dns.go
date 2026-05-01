@@ -17,13 +17,14 @@ import (
 	"github.com/miekg/dns"
 	"github.com/wsxiaoys/terminal/color"
 	"golang.org/x/net/idna"
+	"golang.org/x/sync/errgroup"
 )
 
 const rootZoneURL = "https://www.internic.net/domain/root.zone"
 
 // FetchRootZone fetches the IANA root zone file and adds name servers to zones.
-func FetchRootZone(zones map[string]*Zone, addNew bool, cache *ETagCache) error {
-	res, err := FetchWithETag(rootZoneURL, cache)
+func FetchRootZone(ctx context.Context, zones map[string]*Zone, addNew bool, cache *ETagCache) error {
+	res, err := FetchWithETag(ctx, rootZoneURL, cache)
 	if err != nil {
 		return err
 	}
@@ -58,13 +59,13 @@ func FetchRootZone(zones map[string]*Zone, addNew bool, cache *ETagCache) error 
 	}
 
 	if err := zp.Err(); err != nil {
-		return err
+		return fmt.Errorf("parsing root zone: %w", err)
 	}
 
 	color.Fprintf(os.Stderr, "@{.}Verifying %d RRs in root zone...\n", len(rrs))
 
-	limiter := make(chan struct{}, Concurrency)
-	var wg sync.WaitGroup
+	g, gctx := errgroup.WithContext(ctx)
+	g.SetLimit(Concurrency)
 
 	for _, rr := range rrs {
 		d := Normalize(rr.Header().Name)
@@ -82,22 +83,24 @@ func FetchRootZone(zones map[string]*Zone, addNew bool, cache *ETagCache) error 
 
 		// Extract name server
 		if ns, ok := rr.(*dns.NS); ok {
-			limiter <- struct{}{}
-			wg.Add(1)
-			go func(z *Zone, host string) {
-				host = Normalize(host)
-				if slices.Contains(z.oldNameServers, host) || verifyNS(host) == nil {
-					z.m.Lock()
+			host := Normalize(ns.Ns)
+			g.Go(func() error {
+				if slices.Contains(z.oldNameServers, host) || verifyNS(gctx, host) == nil {
+					z.mut.Lock()
 					z.NameServers = append(z.NameServers, host)
-					z.m.Unlock()
+					z.mut.Unlock()
+				} else if gctx.Err() != nil {
+					// Surface group cancellation; per-host verifyNS failures still return nil.
+					return gctx.Err()
 				}
-				<-limiter
-				wg.Done()
-			}(z, ns.Ns)
+				return nil
+			})
 		}
 	}
 
-	wg.Wait()
+	if err := g.Wait(); err != nil {
+		return err
+	}
 
 	// Detect retired or withdrawn TLDs
 	for _, z := range zones {
@@ -114,28 +117,28 @@ func FetchRootZone(zones map[string]*Zone, addNew bool, cache *ETagCache) error 
 }
 
 // FetchNameServers fetches NS records for zones.
-func FetchNameServers(zones, allZones map[string]*Zone) error {
+func FetchNameServers(ctx context.Context, zones, allZones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zone(s)...\n", len(zones))
 	var nx sync.Map
 	var found, added, removed, skipped, failed, unresolved int32
-	mapZones(zones, func(z *Zone) {
+	err := mapZones(ctx, zones, func(gctx context.Context, z *Zone) error {
 		// Skip TLDs
 		if z.IsTLD() {
-			return
+			return nil
 		}
 
 		// Get parent
 		parent := allZones[z.ParentDomain()]
 		if parent == nil {
 			color.Fprintf(os.Stderr, "@{r}Error: parent zone %s does not exist for %s\n", z.ParentDomain(), z.Domain)
-			return
+			return nil
 		}
 
 		// Copy parent name servers
-		parent.m.Lock()
+		parent.mut.Lock()
 		parentNS := make([]string, len(parent.NameServers))
 		copy(parentNS, parent.NameServers)
-		parent.m.Unlock()
+		parent.mut.Unlock()
 
 		// Clear out existing name servers
 		z.oldNameServers = z.NameServers
@@ -145,12 +148,17 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 		counts := make(map[string]int, 8)
 		successfulResponses := 0 // parents that returned a valid DNS response (NOERROR or NXDOMAIN), not network failures
 		for _, host := range parentNS {
+			// Short-circuit on cancellation. Without this, the callback would fall
+			// off the end returning nil and errgroup wouldn't see the cancellation.
+			if gctx.Err() != nil {
+				return gctx.Err()
+			}
 			if _, ok := nx.Load(host); ok {
 				continue
 			}
-			ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
-			defer cancel()
-			rmsg, err := exchange(ctx, host, z.ASCII(), dns.TypeNS)
+			qctx, cancel := context.WithTimeout(gctx, 30*time.Second)
+			rmsg, err := exchange(qctx, host, z.ASCII(), dns.TypeNS)
+			cancel()
 			if err != nil {
 				var to timeouter
 				if errors.As(err, &to) && to.Timeout() {
@@ -165,6 +173,9 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 						atomic.AddInt32(&unresolved, 1)
 					}
 				}
+				// miekg/dns doesn't always wrap to *net.DNSError, so the
+				// string match above is used instead. Revisit if that changes.
+				//
 				// var derr *net.DNSError
 				// if errors.As(err, &derr) && derr.IsNotFound {
 				// 	if _, ok := nx.LoadOrStore(host, struct{}{}); !ok {
@@ -176,6 +187,8 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 			}
 			successfulResponses++
 			if rmsg.Rcode == dns.RcodeNameError {
+				// Expected. Many parent NS don't serve the child zone authoritatively. Uncomment to debug.
+				//
 				// color.Fprintf(os.Stderr, "@{y}Warning: %s returned NXDOMAIN for %s (NS)\n", host, z.Domain)
 				continue
 			}
@@ -183,6 +196,8 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 				if ns, ok := rr.(*dns.NS); ok {
 					v := Normalize(ns.Ns)
 					counts[v] = counts[v] + 1
+					// Uncomment to trace which parent NS returned which child NS record.
+					//
 					// color.Fprintf(os.Stderr, "@{.}DNS record for %s: %s\n", z.Domain, v)
 				}
 			}
@@ -195,6 +210,9 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 				max = count
 			}
 		}
+		// Partial consensus is normal during delegation updates; the per-NS
+		// voting below handles it. Uncomment to investigate count mismatches.
+		//
 		// if max > 0 && max < len(parentNS) {
 		// 	color.Fprintf(os.Stderr, "@{y}Warning: inconsistent DNS responses (%d < %d) for @{y!}%s\n", max, len(parentNS), z.Domain)
 		// }
@@ -208,6 +226,9 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 				atomic.AddInt32(&skipped, 1)
 				continue
 			}
+			// Disabled: many valid NS don't respond to unsolicited UDP (firewalls),
+			// producing false negatives. See VerifyNameServers for the offline path.
+			//
 			// if verifyNS(ns) != nil {
 			// 	color.Fprintf(os.Stderr, "@{y}Warning: unable to verify name server for %s: %s\n", z.Domain, ns)
 			// 	atomic.AddInt32(&failed, 1)
@@ -239,45 +260,47 @@ func FetchNameServers(zones, allZones map[string]*Zone) error {
 				atomic.AddInt32(&removed, 1)
 			}
 		}
+		return nil
 	})
 	color.Fprintf(os.Stderr, "@{.}\nFound %d name servers, %d added, %d removed, %d non-consensus, %d failed, %d NXDOMAIN\n", found, added, removed, skipped, failed, unresolved)
-
-	return nil
+	return err
 }
 
 // VerifyNameServers verifies the name servers for zones.
-func VerifyNameServers(zones map[string]*Zone) {
+// Per-zone verification failures are logged and the failing entries dropped.
+func VerifyNameServers(ctx context.Context, zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Verifying name servers for %d zones...\n", len(zones))
-	mapZones(zones, func(z *Zone) {
+	return mapZones(ctx, zones, func(gctx context.Context, z *Zone) error {
 		var nameServers []string
 		for _, ns := range z.NameServers {
-			if err := verifyNS(ns); err != nil {
+			if err := verifyNS(gctx, ns); err != nil {
+				if gctx.Err() != nil {
+					return gctx.Err()
+				}
 				LogWarning(fmt.Errorf("can’t verify name server %s: %s", ns, err))
 			} else {
 				nameServers = append(nameServers, ns)
 			}
 		}
 		z.NameServers = nameServers
+		return nil
 	})
 }
 
-func verifyNS(host string) error {
+func verifyNS(ctx context.Context, host string) error {
 	host, err := idna.ToASCII(Normalize(host))
 	if err != nil {
-		return err
+		return fmt.Errorf("normalizing host %q: %w", host, err)
 	}
-	// Do long colored lines break GitHub Actions logging?
-	// Trace("@{.}.")
-	err = CanDial("udp", host+":53")
-	return err
+	return CanDial(ctx, "udp", host+":53")
 }
 
 // CountNameServers counts unique name servers for zones.
-func CountNameServers(zones map[string]*Zone) {
+func CountNameServers(ctx context.Context, zones map[string]*Zone) error {
 	var found int32
 	var mu sync.Mutex
 	all := NewSet()
-	mapZones(zones, func(z *Zone) {
+	err := mapZones(ctx, zones, func(_ context.Context, z *Zone) error {
 		if len(z.NameServers) > 0 {
 			atomic.AddInt32(&found, 1)
 			for _, tag := range z.Tags {
@@ -291,21 +314,25 @@ func CountNameServers(zones map[string]*Zone) {
 			all.Add(ns)
 			mu.Unlock()
 		}
+		return nil
 	})
+	// Uncomment to enumerate every unique nameserver.
+	//
 	// for ns := range all {
 	// 	color.Fprintf(os.Stderr, "@{.}%s ", ns)
 	// }
-	// ccolor.Fprintf(os.Stderr, "\n")
+	// color.Fprintf(os.Stderr, "\n")
 	color.Fprintf(os.Stderr, "@{.}Counted %d unique name servers in %d of %d zone(s)\n", len(all), found, len(zones))
+	return err
 }
 
 // FindWildcards finds wildcard DNS records for a zone.
-func FindWildcards(zones map[string]*Zone) error {
+func FindWildcards(ctx context.Context, zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Finding wildcards for %d zones...\n", len(zones))
 	var found int32
 	var mu sync.Mutex
 	all := NewSet()
-	mapZones(zones, func(z *Zone) {
+	err := mapZones(ctx, zones, func(gctx context.Context, z *Zone) error {
 		// Zero out wildcards
 		z.Wildcards = nil
 
@@ -314,23 +341,32 @@ func FindWildcards(zones map[string]*Zone) error {
 		var resolved int
 		addrs := NewSet()
 		for i := 0; i < n; i++ {
+			// Short-circuit on cancellation. Without this, the loop would finish
+			// and return nil; errgroup wouldn't see the cancellation.
+			if gctx.Err() != nil {
+				return gctx.Err()
+			}
 			if i > 2 && len(addrs) == 0 {
 				break
 			}
-			ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
-			defer cancel()
+			qctx, cancel := context.WithTimeout(gctx, 10*time.Second)
 			rand := randLabel(32)
 			name := rand + "." + z.ASCII()
-			cname, err := resolver.LookupCNAME(ctx, name)
+			cname, err := resolver.LookupCNAME(qctx, name)
 			if err == nil && cname != "" {
-				// LookupCNAME returns name and nil error if no CNAME records are found.
-				if strings.Contains(cname, rand) {
-					// color.Fprintf(os.Stderr, "@{y}Wildcard matching random name: @{w}%s@{.} ← @{c}%s@{.}\n", cname, z.Domain)
-				} else {
+				// Skip self-referential CNAMEs (cname contains the random label).
+				// That's a normal wildcard shape. Uncomment to trace matches.
+				//
+				// if strings.Contains(cname, rand) {
+				// 	color.Fprintf(os.Stderr, "@{y}Wildcard matching random name: @{w}%s@{.} ← @{c}%s@{.}\n", cname, z.Domain)
+				// }
+				if !strings.Contains(cname, rand) {
 					addrs.Add(Normalize(cname))
 				}
 			}
-			ipaddrs, err := resolver.LookupIPAddr(ctx, name)
+			ipaddrs, err := resolver.LookupIPAddr(qctx, name)
+			// Explicit cancel, not defer: deferred cancels would accumulate across n=8 iterations.
+			cancel()
 			if err != nil {
 				continue
 			}
@@ -348,7 +384,7 @@ func FindWildcards(zones map[string]*Zone) error {
 
 		// Must have resolved at least n/2 domains
 		if resolved < n/2 {
-			return
+			return nil
 		}
 
 		// Record unique addrs
@@ -357,6 +393,7 @@ func FindWildcards(zones map[string]*Zone) error {
 		all.Add(addrs.Values()...)
 		mu.Unlock()
 		z.Wildcards = addrs.Values()
+		return nil
 	})
 
 	// Make reverse mapping
@@ -376,7 +413,7 @@ func FindWildcards(zones map[string]*Zone) error {
 
 	color.Fprintf(os.Stderr, "@{.}Found %d unique wildcard addresses for %d zone(s) (%d not wildcarded)\n",
 		len(all), found, int32(len(zones))-found)
-	return nil
+	return err
 }
 
 func randLabel(n int) string {
@@ -397,6 +434,8 @@ func defaultExchange(ctx context.Context, host, qname string, qtype uint16) (*dn
 	qmsg.RecursionDesired = true
 	qmsg.SetQuestion(dns.Fqdn(qname), qtype)
 	client := &dns.Client{}
+	// ExchangeContext already honors ctx; setting DialTimeout would be redundant.
+	//
 	// if deadline, ok := ctx.Deadline(); ok {
 	// 	client.DialTimeout = time.Until(deadline)
 	// }

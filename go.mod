@@ -10,13 +10,13 @@ require (
 	github.com/miekg/dns v1.1.72
 	github.com/wsxiaoys/terminal v0.0.0-20160513160801-0940f3fc43a0
 	golang.org/x/net v0.53.0
+	golang.org/x/sync v0.20.0
 	golang.org/x/text v0.36.0
 )
 
 require (
 	github.com/andybalholm/cascadia v1.3.3 // indirect
 	golang.org/x/mod v0.34.0 // indirect
-	golang.org/x/sync v0.20.0 // indirect
 	golang.org/x/sys v0.43.0 // indirect
 	golang.org/x/tools v0.43.0 // indirect
 )

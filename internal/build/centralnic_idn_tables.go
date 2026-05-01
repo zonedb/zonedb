@@ -1,6 +1,7 @@
 package build
 
 import (
+	"context"
 	"fmt"
 	"net/url"
 	"strconv"
@@ -9,6 +10,7 @@ import (
 	"sync/atomic"
 
 	"github.com/PuerkitoBio/goquery"
+	"golang.org/x/sync/errgroup"
 )
 
 var (
@@ -114,15 +116,12 @@ func parseCentralNicDetailPage(doc *goquery.Document) []string {
 }
 
 // FetchIDNTablesFromCentralNic fetches IDN table data from CentralNic and
-// applies changes only to zones in the working set. IANA-sourced policies
-// take precedence and are not overwritten.
-//
-// allZones is the full known-zone set, used to prune stale policies across
-// the database and to drive a health-check sentinel that detects CentralNic
-// HTML-schema changes independently of the caller's filter.
-func FetchIDNTablesFromCentralNic(zones, allZones map[string]*Zone, cache *ETagCache) error {
+// applies changes to zones in the working set; IANA-sourced policies take
+// precedence. allZones is used to prune stale policies across the full
+// database and to drive an HTML-schema health-check sentinel.
+func FetchIDNTablesFromCentralNic(ctx context.Context, zones, allZones map[string]*Zone, cache *ETagCache) error {
 	// Phase 0: Fetch index with ETag check
-	res, err := FetchWithETag(centralNicIndexURL, cache)
+	res, err := FetchWithETag(ctx, centralNicIndexURL, cache)
 	if err != nil {
 		return err
 	}
@@ -142,8 +141,8 @@ func FetchIDNTablesFromCentralNic(zones, allZones map[string]*Zone, cache *ETagC
 		return err
 	}
 
-	// Phase 1: Prune stale CentralNic entries across all zones so a
-	// filtered run does not leave stale policies elsewhere. Languages
+	// Phase 1: Prune stale CentralNic entries across all zones. A
+	// filtered run must not leave stale policies elsewhere. Languages
 	// from other sources are preserved.
 	centralNicPrefix := centralNicBaseURL + "/"
 	for _, z := range allZones {
@@ -180,34 +179,32 @@ func FetchIDNTablesFromCentralNic(zones, allZones map[string]*Zone, cache *ETagC
 	var (
 		results []detailResult
 		mu      sync.Mutex
-		wg      sync.WaitGroup
 		fetched uint64
 		skipped uint64
 	)
-	limiter := make(chan struct{}, Concurrency)
+	g, gctx := errgroup.WithContext(ctx)
+	g.SetLimit(Concurrency)
 
 	for _, job := range jobs {
-		limiter <- struct{}{}
-		wg.Add(1)
-		go func(j fetchJob) {
-			defer func() {
-				<-limiter
-				wg.Done()
-			}()
-
-			detailRes, err := Fetch(j.entry.URL)
+		g.Go(func() error {
+			detailRes, err := Fetch(gctx, job.entry.URL)
 			if err != nil {
-				Trace("@{r}CentralNic: error fetching %s: %v\n", j.entry.URL, err)
+				// Abort the batch when the parent ctx is done; otherwise this
+				// is a per-URL fetch failure and the other jobs keep going.
+				if gctx.Err() != nil {
+					return gctx.Err()
+				}
+				Trace("@{r}CentralNic: error fetching %s: %v\n", job.entry.URL, err)
 				atomic.AddUint64(&skipped, 1)
-				return
+				return nil
 			}
 			defer detailRes.Body.Close()
 
 			detailDoc, err := goquery.NewDocumentFromReader(detailRes.Body)
 			if err != nil {
-				Trace("@{r}CentralNic: error parsing %s: %v\n", j.entry.URL, err)
+				Trace("@{r}CentralNic: error parsing %s: %v\n", job.entry.URL, err)
 				atomic.AddUint64(&skipped, 1)
-				return
+				return nil
 			}
 
 			zoneNames := parseCentralNicDetailPage(detailDoc)
@@ -215,14 +212,17 @@ func FetchIDNTablesFromCentralNic(zones, allZones map[string]*Zone, cache *ETagC
 
 			mu.Lock()
 			results = append(results, detailResult{
-				lang:  j.lang,
-				entry: j.entry,
+				lang:  job.lang,
+				entry: job.entry,
 				zones: zoneNames,
 			})
 			mu.Unlock()
-		}(job)
+			return nil
+		})
 	}
-	wg.Wait()
+	if err := g.Wait(); err != nil {
+		return err
+	}
 
 	Trace("@{.}CentralNic: fetched %d detail pages, %d skipped\n", fetched, skipped)
 

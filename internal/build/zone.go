@@ -1,6 +1,7 @@
 package build
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
 	"sort"
@@ -9,6 +10,7 @@ import (
 	"unicode/utf8"
 
 	"golang.org/x/net/idna"
+	"golang.org/x/sync/errgroup"
 	"golang.org/x/text/language"
 )
 
@@ -34,7 +36,7 @@ type Zone struct {
 	// Internal
 	subdomains     []string
 	oldNameServers []string
-	m              sync.Mutex
+	mut            sync.Mutex
 
 	// Exported for use in text/template
 	IDNDisallowed                                 bool   `json:"-"`
@@ -326,26 +328,26 @@ func SortedDomains(zones map[string]*Zone) []string {
 	return domains
 }
 
-// mapZones concurrently applies a function to a set of Zones.
-// It wraps the call to fn with a lock on the Zone mutex.
-func mapZones(zones map[string]*Zone, fn func(*Zone)) {
+// mapZones concurrently applies fn to every zone, bounded by Concurrency.
+// Each call holds z.mut for its duration. fn receives a ctx derived from the
+// errgroup; a non-nil return cancels siblings. Most per-zone failures should
+// be logged and return nil.
+func mapZones(ctx context.Context, zones map[string]*Zone, fn func(gctx context.Context, z *Zone) error) error {
 	domains := SortedDomains(zones)
-	limiter := make(chan struct{}, Concurrency)
-	var wg sync.WaitGroup
+	g, gctx := errgroup.WithContext(ctx)
+	g.SetLimit(Concurrency)
 	for _, domain := range domains {
-		limiter <- struct{}{}
-		wg.Add(1)
-		go func(z *Zone) {
-			defer func() {
-				<-limiter
-				wg.Done()
-			}()
-			z.m.Lock()
-			defer z.m.Unlock()
-			fn(z)
-		}(zones[domain])
+		z := zones[domain]
+		g.Go(func() error {
+			z.mut.Lock()
+			defer z.mut.Unlock()
+			return fn(gctx, z)
+		})
 	}
-	wg.Wait()
+	if err := g.Wait(); err != nil {
+		return err
+	}
+	return ctx.Err()
 }
 
 // Sort sorts a slice of domain names by rank. Rank sort defined as:

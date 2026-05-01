@@ -1,6 +1,7 @@
 package build
 
 import (
+	"context"
 	"os"
 	"strings"
 
@@ -12,28 +13,29 @@ import (
 const pfx = "zonedb-test."
 
 // CheckPublicSuffix compares the zones against the Public Suffix List.
-func CheckPublicSuffix(zones map[string]*Zone) {
+func CheckPublicSuffix(ctx context.Context, zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Checking against the Public Suffix List for %d zones...\n", len(zones))
-	mapZones(zones, func(z *Zone) {
+	return mapZones(ctx, zones, func(_ context.Context, z *Zone) error {
 		host, err := idna.ToASCII(pfx + z.Domain)
 		if err != nil {
 			LogWarning(err)
-			return
+			return nil
 		}
 		s, _ := publicsuffix.PublicSuffix(host)
 		s = Normalize(s)
 		switch {
 		// ZoneDB and PSL agree
 		case s == z.Domain:
-			return
+			return nil
 
 		// PSL wildcard
 		case strings.HasPrefix(s, pfx) && len(z.subdomains) != 0:
-			return
+			return nil
 
 		// ZoneDB and PSL disagree
 		default:
 			color.Fprintf(os.Stderr, "@{y}Public Suffix List: @{y!}%s@{y} for @{y!}%s\n", s, z.Domain)
 		}
+		return nil
 	})
 }

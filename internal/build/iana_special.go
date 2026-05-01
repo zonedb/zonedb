@@ -1,6 +1,7 @@
 package build
 
 import (
+	"context"
 	"encoding/csv"
 	"io"
 	"os"
@@ -30,8 +31,8 @@ func stripDeprecatedSuffix(domain string) (string, bool) {
 }
 
 // FetchSpecialUseDomainsFromIANA fetches special use domains from the IANA website.
-func FetchSpecialUseDomainsFromIANA(zones map[string]*Zone, addNew bool, cache *ETagCache) error {
-	res, err := FetchWithETag(ianaSpecialUseURL, cache)
+func FetchSpecialUseDomainsFromIANA(ctx context.Context, zones map[string]*Zone, addNew bool, cache *ETagCache) error {
+	res, err := FetchWithETag(ctx, ianaSpecialUseURL, cache)
 	if err != nil {
 		return err
 	}

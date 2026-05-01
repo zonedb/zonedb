@@ -1,6 +1,7 @@
 package build
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -421,8 +422,8 @@ func CountryName(territory string) string {
 
 // FetchAndApplyCLDRMetadata fetches CLDR territoryInfo.json and applies
 // language and country metadata to country-code TLDs.
-func FetchAndApplyCLDRMetadata(zones map[string]*Zone, cache *ETagCache) error {
-	res, err := FetchWithETag(cldrTerritoryInfoURL, cache)
+func FetchAndApplyCLDRMetadata(ctx context.Context, zones map[string]*Zone, cache *ETagCache) error {
+	res, err := FetchWithETag(ctx, cldrTerritoryInfoURL, cache)
 	if err != nil {
 		return err
 	}
