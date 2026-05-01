@@ -3,7 +3,6 @@
 	"registryOperator": "Registry General Department, Ministry of Home Affairs",
 	"countryName": "Bermuda",
 	"infoURL": "https://www.bermudanic.bm/",
-	"whoisServer": "whois.nic.bm",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

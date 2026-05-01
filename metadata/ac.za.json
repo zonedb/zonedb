@@ -1,6 +1,5 @@
 {
 	"domain": "ac.za",
-	"whoisServer": "whois.ac.za",
 	"nameServers": [
 		"disa.tenet.ac.za",
 		"ns2.dns.net.za",

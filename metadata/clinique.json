@@ -2,7 +2,6 @@
 	"domain": "clinique",
 	"registryOperator": "The Estée Lauder Companies Inc.",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/clinique",
-	"whoisServer": "whois.nic.clinique",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

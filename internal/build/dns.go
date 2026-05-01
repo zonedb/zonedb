@@ -146,6 +146,7 @@ func FetchNameServers(ctx context.Context, zones, allZones map[string]*Zone) err
 
 		// Iterate over name servers
 		counts := make(map[string]int, 8)
+		successfulResponses := 0 // parents that returned a valid DNS response (NOERROR or NXDOMAIN), not network failures
 		for _, host := range parentNS {
 			// Short-circuit on cancellation. Without this, the callback would fall
 			// off the end returning nil and errgroup wouldn't see the cancellation.
@@ -184,6 +185,7 @@ func FetchNameServers(ctx context.Context, zones, allZones map[string]*Zone) err
 				// }
 				continue
 			}
+			successfulResponses++
 			if rmsg.Rcode == dns.RcodeNameError {
 				// Expected. Many parent NS don't serve the child zone authoritatively. Uncomment to debug.
 				//
@@ -217,9 +219,9 @@ func FetchNameServers(ctx context.Context, zones, allZones map[string]*Zone) err
 
 		// Store new name servers
 		for ns, count := range counts {
-			// Ignore non-consensus values where > 1 name server does not return ns.
-			// FIXME: this criteria is subjective.
-			if count == 1 && max > 2 {
+			// Drop non-consensus NSs (count=1 while max>2), UNLESS the NS was
+			// previously trusted — mirrors FetchRootZone's "keep if known" rule.
+			if count == 1 && max > 2 && !slices.Contains(z.oldNameServers, ns) {
 				color.Fprintf(os.Stderr, "@{y}Warning: non-consensus name server for %s: %s (%d < %d)\n", z, ns, count, max)
 				atomic.AddInt32(&skipped, 1)
 				continue
@@ -236,8 +238,12 @@ func FetchNameServers(ctx context.Context, zones, allZones map[string]*Zone) err
 			atomic.AddInt32(&found, 1)
 		}
 
-		// Sanity check
-		if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 {
+		// If every parent query failed at the network layer, keep prior NS list.
+		// Authoritative NXDOMAIN/NOERROR responses still clear the list.
+		if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 && successfulResponses == 0 {
+			z.NameServers = z.oldNameServers
+			color.Fprintf(os.Stderr, "@{y}All parent queries failed for %s, keeping previous NS list@{y}\n", z)
+		} else if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 {
 			color.Fprintf(os.Stderr, "@{y}Zone lost all name servers: @{y!}%s@{y}\n", z)
 		}
 
@@ -419,7 +425,11 @@ func randLabel(n int) string {
 	return string(b)
 }
 
-func exchange(ctx context.Context, host, qname string, qtype uint16) (*dns.Msg, error) {
+// exchange performs a DNS query against host for qname/qtype. It is a
+// package-level var so tests can substitute a scripted implementation.
+var exchange = defaultExchange
+
+func defaultExchange(ctx context.Context, host, qname string, qtype uint16) (*dns.Msg, error) {
 	qmsg := &dns.Msg{}
 	qmsg.RecursionDesired = true
 	qmsg.SetQuestion(dns.Fqdn(qname), qtype)

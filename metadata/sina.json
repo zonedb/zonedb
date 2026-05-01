@@ -2,7 +2,6 @@
 	"domain": "sina",
 	"registryOperator": "Sina Corporation",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/sina",
-	"whoisServer": "whois.nic.sina",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

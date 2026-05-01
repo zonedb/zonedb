@@ -1,8 +1,8 @@
 {
 	"domain": "edu.cc",
 	"nameServers": [
-		"ns3.afternic.com",
-		"ns4.afternic.com"
+		"ns1.afternic.com",
+		"ns2.afternic.com"
 	],
 	"wildcards": [
 		"13.248.169.48",

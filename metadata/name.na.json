@@ -1,8 +1,5 @@
 {
 	"domain": "name.na",
-	"nameServers": [
-		"suspended.omadhina.co.na"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

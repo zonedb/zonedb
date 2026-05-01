@@ -1,7 +1,6 @@
 {
 	"domain": "engineer",
 	"registryOperator": "Dog Beach, LLC",
-	"whoisServer": "whois.nic.engineer",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

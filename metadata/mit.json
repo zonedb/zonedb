@@ -2,7 +2,6 @@
 	"domain": "mit",
 	"registryOperator": "Massachusetts Institute of Technology",
 	"infoURL": "https://nic.mit/",
-	"whoisServer": "whois.nic.mit",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

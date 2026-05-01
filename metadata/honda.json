@@ -2,7 +2,6 @@
 	"domain": "honda",
 	"registryOperator": "Honda Motor Co., Ltd.",
 	"infoURL": "https://nic.honda/",
-	"whoisServer": "whois.nic.honda",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

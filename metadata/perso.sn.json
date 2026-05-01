@@ -1,17 +1,8 @@
 {
 	"domain": "perso.sn",
 	"nameServers": [
-		"c.name-servers.ch",
-		"d.name-servers.ch"
-	],
-	"wildcards": [
-		"107.150.44.27",
-		"107.150.44.30",
-		"192.154.96.62",
-		"204.209.56.71",
-		"216.244.81.66",
-		"216.244.81.67",
-		"45.135.163.190"
+		"ns1-nonameservers.netim.net",
+		"ns2-nonameservers.netim.net"
 	],
 	"policies": [
 		{

@@ -2,7 +2,6 @@
 	"domain": "mckinsey",
 	"registryOperator": "McKinsey Holdings, Inc.",
 	"infoURL": "https://www.mckinsey.com/nic",
-	"whoisServer": "whois.nic.mckinsey",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

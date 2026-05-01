@@ -1,10 +1,5 @@
 {
 	"domain": "co.st",
-	"nameServers": [
-		"ns1-se.ns.gov.st",
-		"ns1-us.ns.gov.st",
-		"ns2-se.ns.gov.st"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
