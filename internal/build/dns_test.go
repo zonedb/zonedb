@@ -66,7 +66,7 @@ func TestFetchNameServers_AllParentsTimeOut(t *testing.T) {
 		"p5": {timeout: true},
 	})
 
-	if err := FetchNameServers(map[string]*Zone{"example.tld": child}, allZones); err != nil {
+	if err := FetchNameServers(context.Background(), map[string]*Zone{"example.tld": child}, allZones); err != nil {
 		t.Fatalf("FetchNameServers returned error: %v", err)
 	}
 
@@ -96,7 +96,7 @@ func TestFetchNameServers_AllParentsReturnNXDOMAIN(t *testing.T) {
 		"p5": {rcode: dns.RcodeNameError},
 	})
 
-	if err := FetchNameServers(map[string]*Zone{"example.tld": child}, allZones); err != nil {
+	if err := FetchNameServers(context.Background(), map[string]*Zone{"example.tld": child}, allZones); err != nil {
 		t.Fatalf("FetchNameServers returned error: %v", err)
 	}
 
@@ -125,7 +125,7 @@ func TestFetchNameServers_ConsensusFilterKeepsKnownNS(t *testing.T) {
 		"p5": {nsRecords: []string{"ns-a.example", "ns-b.example", "ns-extra.example"}},
 	})
 
-	if err := FetchNameServers(map[string]*Zone{"example.tld": child}, allZones); err != nil {
+	if err := FetchNameServers(context.Background(), map[string]*Zone{"example.tld": child}, allZones); err != nil {
 		t.Fatalf("FetchNameServers returned error: %v", err)
 	}
 
