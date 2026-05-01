@@ -2,7 +2,6 @@
 	"domain": "bet",
 	"registryOperator": "Identity Digital Limited",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.bet",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
