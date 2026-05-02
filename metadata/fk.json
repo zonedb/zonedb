@@ -4,7 +4,6 @@
 	"countryName": "Falkland Islands",
 	"whoisURL": "http://whois.marcaria.com/",
 	"nameServers": [
-		"ns1.horizon.net.fk",
 		"ns2.horizon.net.fk",
 		"ns3.horizon.net.fk"
 	],

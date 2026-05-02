@@ -4,10 +4,10 @@
 	"countryName": "Congo - Brazzaville",
 	"whoisURL": "http://www.nic.cg/cgi-bin/whois.pl",
 	"nameServers": [
-		"dns-ca.dnsafrica.net",
-		"dns-fr.dnsafrica.net",
-		"dns-sg.dnsafrica.net",
-		"dns-za.dnsafrica.net",
+		"c.nic.cg",
+		"f.nic.cg",
+		"p.nic.cg",
+		"s.nic.cg",
 		"sunic.sunet.se"
 	],
 	"tags": [

@@ -3,7 +3,6 @@
 	"registryOperator": "TM Domain Registry Ltd",
 	"countryName": "Turkmenistan",
 	"infoURL": "https://nic.tm/",
-	"whoisServer": "whois.nic.tm",
 	"nameServers": [
 		"ns-a1.tm",
 		"ns-a2.tm",

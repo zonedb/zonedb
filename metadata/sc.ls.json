@@ -1,8 +1,7 @@
 {
 	"domain": "sc.ls",
 	"nameServers": [
-		"ns1.nic.ls",
-		"ns2.nic.ls"
+		"ns1.nic.ls"
 	],
 	"policies": [
 		{
