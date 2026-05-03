@@ -9,8 +9,7 @@
 	"nameServers": [
 		"a.nic.audio",
 		"b.nic.audio",
-		"c.nic.audio",
-		"d.nic.audio"
+		"c.nic.audio"
 	],
 	"languages": [
 		"de",

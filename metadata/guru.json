@@ -1,12 +1,10 @@
 {
 	"domain": "guru",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.guru",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"v0n0.nic.guru",
 		"v0n1.nic.guru",
 		"v0n2.nic.guru",
 		"v0n3.nic.guru",

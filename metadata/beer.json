@@ -7,7 +7,6 @@
 		"https://rdap.nic.beer/"
 	],
 	"nameServers": [
-		"a.nic.beer",
 		"b.nic.beer",
 		"c.nic.beer",
 		"x.nic.beer",

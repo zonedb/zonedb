@@ -8,8 +8,7 @@
 	"nameServers": [
 		"a0.nic.istanbul",
 		"a2.nic.istanbul",
-		"b0.nic.istanbul",
-		"c0.nic.istanbul"
+		"b0.nic.istanbul"
 	],
 	"locations": [
 		"Istanbul",

@@ -11,7 +11,6 @@
 		"b.nic.download",
 		"c.nic.download",
 		"ns1.dns.nic.download",
-		"ns2.dns.nic.download",
 		"ns3.dns.nic.download"
 	],
 	"languages": [

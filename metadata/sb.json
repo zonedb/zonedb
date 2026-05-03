@@ -4,8 +4,7 @@
 	"countryName": "Solomon Islands",
 	"nameServers": [
 		"ns1.anycastdns.cz",
-		"ns2.anycastdns.cz",
-		"pch.nic.sb"
+		"ns2.anycastdns.cz"
 	],
 	"tags": [
 		"country",

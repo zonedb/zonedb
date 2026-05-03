@@ -9,8 +9,7 @@
 	"nameServers": [
 		"a.nic.inc",
 		"b.nic.inc",
-		"c.nic.inc",
-		"d.nic.inc"
+		"c.nic.inc"
 	],
 	"languages": [
 		"de",

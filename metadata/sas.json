@@ -7,7 +7,6 @@
 		"https://rdap.nic.sas/"
 	],
 	"nameServers": [
-		"a.nic.sas",
 		"b.nic.sas",
 		"c.nic.sas",
 		"ns1.dns.nic.sas",

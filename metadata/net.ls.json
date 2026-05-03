@@ -1,7 +1,6 @@
 {
 	"domain": "net.ls",
 	"nameServers": [
-		"ls-ns.anycast.pch.net",
-		"ns1.nic.ls"
+		"ls-ns.anycast.pch.net"
 	]
 }

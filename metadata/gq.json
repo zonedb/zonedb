@@ -5,7 +5,6 @@
 	"whoisServer": "whois.dominio.gq",
 	"nameServers": [
 		"a.ns.gq",
-		"b.ns.gq",
 		"c.ns.gq",
 		"d.ns.gq"
 	],
