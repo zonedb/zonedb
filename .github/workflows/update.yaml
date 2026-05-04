@@ -52,6 +52,11 @@ jobs:
           # same defaults as the workflow_dispatch input so the nightly run
           # also performs whois and nameserver verification.
           ZONEDB_ARGS: ${{ github.event.inputs.zonedbArgs || '-verify-whois -verify-ns' }}
+          # Temporary: capture per-zone NS fetch/verify diagnostics for the
+          # .рус flap investigation. Remove once the root cause is identified.
+          # See temp/Plans/2026-05-NS-flapping/.
+          ZONEDB_DEBUG_NS: "1"
+          ZONEDB_DEBUG_NS_SUFFIX: "рус"
         run: make update
 
       - name: Vet Go code
