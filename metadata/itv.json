@@ -6,7 +6,9 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"a0.nic.itv",
 		"a2.nic.itv",
+		"b0.nic.itv",
 		"c0.nic.itv"
 	],
 	"languages": [

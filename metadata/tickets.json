@@ -9,6 +9,7 @@
 	"nameServers": [
 		"a.nic.tickets",
 		"b.nic.tickets",
+		"c.nic.tickets",
 		"d.nic.tickets"
 	],
 	"languages": [

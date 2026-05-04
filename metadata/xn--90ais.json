@@ -4,7 +4,6 @@
 	"domainAscii": "by",
 	"registryOperator": "Belarusian Cloud Technologies LLC",
 	"countryName": "Belarus",
-	"whoisServer": "whois.cctld.by",
 	"nameServers": [
 		"dns1.tld.becloudby.com",
 		"dns2.tld.becloudby.tech",

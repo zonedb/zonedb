@@ -6,6 +6,7 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"a0.nic.jaguar",
 		"a2.nic.jaguar",
 		"b0.nic.jaguar",
 		"c0.nic.jaguar"

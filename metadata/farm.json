@@ -1,12 +1,14 @@
 {
 	"domain": "farm",
 	"registryOperator": "Binky Moon, LLC",
+	"whoisServer": "whois.nic.farm",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.farm",
 		"v0n1.nic.farm",
+		"v0n2.nic.farm",
 		"v0n3.nic.farm",
 		"v2n0.nic.farm",
 		"v2n1.nic.farm"

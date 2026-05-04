@@ -11,6 +11,7 @@
 		"b.nic.homegoods",
 		"c.nic.homegoods",
 		"ns1.dns.nic.homegoods",
+		"ns2.dns.nic.homegoods",
 		"ns3.dns.nic.homegoods"
 	],
 	"tags": [

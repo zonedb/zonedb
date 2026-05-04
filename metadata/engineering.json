@@ -6,6 +6,7 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"v0n0.nic.engineering",
 		"v0n1.nic.engineering",
 		"v0n2.nic.engineering",
 		"v0n3.nic.engineering",

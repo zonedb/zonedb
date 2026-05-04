@@ -1,5 +1,9 @@
 {
 	"domain": "coop.uz",
+	"nameServers": [
+		"ns3.uzinfocom.uz",
+		"rdns3.uzinfocom.uz"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

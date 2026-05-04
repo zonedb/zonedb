@@ -8,6 +8,7 @@
 	"whoisServer": "whois.rnids.rs",
 	"nameServers": [
 		"a.nic.rs",
+		"b.nic.rs",
 		"c.nic.rs",
 		"f.nic.rs",
 		"h.nic.rs",

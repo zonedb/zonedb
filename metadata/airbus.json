@@ -2,7 +2,6 @@
 	"domain": "airbus",
 	"registryOperator": "Airbus S.A.S.",
 	"infoURL": "https://nic.airbus/",
-	"whoisServer": "whois.nic.airbus",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -5,6 +5,7 @@
 	"whoisServer": "whois.dns.be",
 	"nameServers": [
 		"a.nsset.be",
+		"b.nsset.be",
 		"c.nsset.be",
 		"d.nsset.be",
 		"y.nsset.be",

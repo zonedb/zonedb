@@ -1,5 +1,8 @@
 {
 	"domain": "sch.lk",
+	"nameServers": [
+		"ns1.sch.lk"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

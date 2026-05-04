@@ -2,13 +2,15 @@
 	"domain": "istanbul",
 	"registryOperator": "Istanbul Metropolitan Municipality",
 	"infoURL": "https://nic.istanbul/",
+	"whoisServer": "whois.nic.istanbul",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.istanbul",
 		"a2.nic.istanbul",
-		"b0.nic.istanbul"
+		"b0.nic.istanbul",
+		"c0.nic.istanbul"
 	],
 	"locations": [
 		"Istanbul",

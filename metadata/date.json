@@ -11,6 +11,7 @@
 		"b.nic.date",
 		"c.nic.date",
 		"ns1.dns.nic.date",
+		"ns2.dns.nic.date",
 		"ns3.dns.nic.date"
 	],
 	"languages": [

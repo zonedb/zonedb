@@ -8,7 +8,9 @@
 	],
 	"nameServers": [
 		"a.nic.beauty",
-		"c.nic.beauty"
+		"b.nic.beauty",
+		"c.nic.beauty",
+		"d.nic.beauty"
 	],
 	"languages": [
 		"ja",

@@ -7,6 +7,7 @@
 	"nameServers": [
 		"dns1.nic.jobs",
 		"dns2.nic.jobs",
+		"dns3.nic.jobs",
 		"dns4.nic.jobs",
 		"dnsa.nic.jobs",
 		"dnsb.nic.jobs",

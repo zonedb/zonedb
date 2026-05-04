@@ -1,7 +1,6 @@
 {
 	"domain": "dental",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.dental",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

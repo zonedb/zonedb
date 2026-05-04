@@ -9,6 +9,7 @@
 	"nameServers": [
 		"a.registry.qa",
 		"b.registry.qa",
+		"c.registry.qa",
 		"d.registry.qa",
 		"e.registry.qa",
 		"f.registry.qa",

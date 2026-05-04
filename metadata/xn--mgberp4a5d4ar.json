@@ -4,7 +4,6 @@
 	"domainAscii": "sa",
 	"registryOperator": "Communications, Space and Technology Commission",
 	"countryName": "Saudi Arabia",
-	"whoisServer": "whois.nic.net.sa",
 	"nameServers": [
 		"c1.dns.sa",
 		"c2.dns.sa",

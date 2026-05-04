@@ -6,7 +6,9 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"a0.nic.jeep",
 		"a2.nic.jeep",
+		"b0.nic.jeep",
 		"c0.nic.jeep"
 	],
 	"tags": [
