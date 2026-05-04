@@ -121,6 +121,7 @@ func FetchNameServers(ctx context.Context, zones, allZones map[string]*Zone) err
 	color.Fprintf(os.Stderr, "@{.}Fetching name servers for %d zone(s)...\n", len(zones))
 	var nx sync.Map
 	var found, added, removed, skipped, failed, unresolved int32
+	resetParentStats()
 	err := mapZones(ctx, zones, func(gctx context.Context, z *Zone) error {
 		// Skip TLDs
 		if z.IsTLD() {
@@ -147,6 +148,11 @@ func FetchNameServers(ctx context.Context, zones, allZones map[string]*Zone) err
 		// Iterate over name servers
 		counts := make(map[string]int, 8)
 		successfulResponses := 0 // parents that returned a valid DNS response (NOERROR or NXDOMAIN), not network failures
+		// Populated only when ZONEDB_DEBUG_NS is set.
+		var perParent []parentObservation
+		if nsDebugEnabled() {
+			perParent = make([]parentObservation, 0, len(parentNS))
+		}
 		for _, host := range parentNS {
 			// Short-circuit on cancellation. Without this, the callback would fall
 			// off the end returning nil and errgroup wouldn't see the cancellation.
@@ -163,9 +169,17 @@ func FetchNameServers(ctx context.Context, zones, allZones map[string]*Zone) err
 				var to timeouter
 				if errors.As(err, &to) && to.Timeout() {
 					Trace("@{.}Timeout querying %s for @{!}%s@{.}: %s\n", host, z, err.Error())
+					recordParentStat(host, parentOutcomeTimeout)
+					if perParent != nil {
+						perParent = append(perParent, parentObservation{host: host, outcome: "timeout", errMsg: err.Error()})
+					}
 					continue
 				}
 				color.Fprintf(os.Stderr, "@{r}Error querying %s for @{r!}%s@{r}: %s\n", host, z, err.Error())
+				recordParentStat(host, parentOutcomeOtherErr)
+				if perParent != nil {
+					perParent = append(perParent, parentObservation{host: host, outcome: "err", errMsg: err.Error()})
+				}
 
 				// Cache host not found
 				if strings.Contains(err.Error(), "no such host") {
@@ -190,16 +204,26 @@ func FetchNameServers(ctx context.Context, zones, allZones map[string]*Zone) err
 				// Expected. Many parent NS don't serve the child zone authoritatively. Uncomment to debug.
 				//
 				// color.Fprintf(os.Stderr, "@{y}Warning: %s returned NXDOMAIN for %s (NS)\n", host, z.Domain)
+				recordParentStat(host, parentOutcomeNXDOMAIN)
+				if perParent != nil {
+					perParent = append(perParent, parentObservation{host: host, outcome: "nxdomain"})
+				}
 				continue
 			}
+			nsReturned := 0
 			for _, rr := range append(rmsg.Answer, rmsg.Ns...) {
 				if ns, ok := rr.(*dns.NS); ok {
 					v := Normalize(ns.Ns)
 					counts[v] = counts[v] + 1
+					nsReturned++
 					// Uncomment to trace which parent NS returned which child NS record.
 					//
 					// color.Fprintf(os.Stderr, "@{.}DNS record for %s: %s\n", z.Domain, v)
 				}
+			}
+			recordParentStat(host, parentOutcomeNOERROR)
+			if perParent != nil {
+				perParent = append(perParent, parentObservation{host: host, outcome: "noerror", nsReturned: nsReturned})
 			}
 		}
 
@@ -240,11 +264,20 @@ func FetchNameServers(ctx context.Context, zones, allZones map[string]*Zone) err
 
 		// If every parent query failed at the network layer, keep prior NS list.
 		// Authoritative NXDOMAIN/NOERROR responses still clear the list.
+		branch := fetchBranchChanged
 		if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 && successfulResponses == 0 {
 			z.NameServers = z.oldNameServers
 			color.Fprintf(os.Stderr, "@{y}All parent queries failed for %s, keeping previous NS list@{y}\n", z)
+			branch = fetchBranchPreservedAllFailed
 		} else if len(z.NameServers) == 0 && len(z.oldNameServers) > 0 {
 			color.Fprintf(os.Stderr, "@{y}Zone lost all name servers: @{y!}%s@{y}\n", z)
+			branch = fetchBranchLostAllNS
+		} else if slicesEqualUnordered(z.oldNameServers, z.NameServers) {
+			branch = fetchBranchUnchanged
+		}
+
+		if perParent != nil {
+			emitFetchObservation(z, parentNS, perParent, counts, successfulResponses, branch)
 		}
 
 		// Record changes
@@ -263,6 +296,7 @@ func FetchNameServers(ctx context.Context, zones, allZones map[string]*Zone) err
 		return nil
 	})
 	color.Fprintf(os.Stderr, "@{.}\nFound %d name servers, %d added, %d removed, %d non-consensus, %d failed, %d NXDOMAIN\n", found, added, removed, skipped, failed, unresolved)
+	emitParentStats()
 	return err
 }
 
@@ -272,17 +306,35 @@ func VerifyNameServers(ctx context.Context, zones map[string]*Zone) error {
 	color.Fprintf(os.Stderr, "@{.}Verifying name servers for %d zones...\n", len(zones))
 	return mapZones(ctx, zones, func(gctx context.Context, z *Zone) error {
 		var nameServers []string
+		var perNS []nsVerifyObservation
+		if nsDebugEnabled() {
+			perNS = make([]nsVerifyObservation, 0, len(z.NameServers))
+		}
+		prior := slices.Clone(z.NameServers)
 		for _, ns := range z.NameServers {
 			if err := verifyNS(gctx, ns); err != nil {
 				if gctx.Err() != nil {
 					return gctx.Err()
 				}
 				LogWarning(fmt.Errorf("can’t verify name server %s: %s", ns, err))
+				if perNS != nil {
+					perNS = append(perNS, nsVerifyObservation{ns: ns, errMsg: err.Error()})
+				}
 			} else {
 				nameServers = append(nameServers, ns)
+				if perNS != nil {
+					perNS = append(perNS, nsVerifyObservation{ns: ns})
+				}
 			}
 		}
 		z.NameServers = nameServers
+		if perNS != nil {
+			branch := verifyBranchUnchanged
+			if !slicesEqualUnordered(prior, z.NameServers) {
+				branch = verifyBranchDropped
+			}
+			emitVerifyObservation(z, prior, perNS, branch)
+		}
 		return nil
 	})
 }
