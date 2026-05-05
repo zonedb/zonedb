@@ -2,7 +2,6 @@
 	"domain": "broker",
 	"registryOperator": "Dog Beach, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.broker",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

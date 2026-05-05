@@ -6,7 +6,6 @@
 		"https://rdap.nic.nyc/"
 	],
 	"nameServers": [
-		"a.nic.nyc",
 		"b.nic.nyc",
 		"c.nic.nyc",
 		"ns1.dns.nic.nyc",

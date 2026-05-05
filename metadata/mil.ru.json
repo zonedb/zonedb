@@ -1,9 +1,5 @@
 {
 	"domain": "mil.ru",
-	"nameServers": [
-		"ns1.mil.ru",
-		"ns2.mil.ru"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

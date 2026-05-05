@@ -1,7 +1,7 @@
 {
 	"domain": "trentinosudtirol.it",
 	"nameServers": [
-		"dns.widhost.net",
-		"dns2.widhost.net"
+		"apollo.dns-parking.com",
+		"athena.dns-parking.com"
 	]
 }

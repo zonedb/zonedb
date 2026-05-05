@@ -2,6 +2,7 @@
 	"domain": "epson",
 	"registryOperator": "Seiko Epson Corporation",
 	"infoURL": "https://nic.epson/",
+	"whoisServer": "whois.nic.epson",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

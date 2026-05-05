@@ -1,9 +1,5 @@
 {
 	"domain": "gov.lc",
-	"nameServers": [
-		"dns2.server.ag",
-		"ns2.dnsserver.ag"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

@@ -10,7 +10,6 @@
 	"nameServers": [
 		"kenic.anycastdns.cz",
 		"mzizi.kenic.or.ke",
-		"ns-ke.afrinic.net",
 		"ns.anycast.kenic.or.ke"
 	],
 	"tags": [

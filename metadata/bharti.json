@@ -7,7 +7,6 @@
 		"https://rdap.nic.bharti/"
 	],
 	"nameServers": [
-		"a.nic.bharti",
 		"b.nic.bharti",
 		"c.nic.bharti",
 		"x.nic.bharti",
