@@ -2,7 +2,6 @@
 	"domain": "chanel",
 	"registryOperator": "Chanel International B.V.",
 	"infoURL": "http://nic.chanel/",
-	"whoisServer": "whois.nic.chanel",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

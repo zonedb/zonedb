@@ -2,6 +2,7 @@
 	"domain": "ggee",
 	"registryOperator": "GMO Internet, Inc.",
 	"infoURL": "https://nic.ggee/",
+	"whoisServer": "whois.nic.ggee",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],
