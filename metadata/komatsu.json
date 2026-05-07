@@ -2,7 +2,6 @@
 	"domain": "komatsu",
 	"registryOperator": "Komatsu Ltd.",
 	"infoURL": "https://nic.komatsu/",
-	"whoisServer": "whois.nic.komatsu",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

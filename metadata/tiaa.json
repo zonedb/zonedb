@@ -2,6 +2,7 @@
 	"domain": "tiaa",
 	"registryOperator": "Teachers Insurance and Annuity Association of America",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/tiaa",
+	"whoisServer": "whois.nic.tiaa",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

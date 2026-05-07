@@ -17,7 +17,6 @@
 		"es",
 		"fr",
 		"it",
-		"ja",
 		"mul-Cyrl",
 		"pt",
 		"ru"
@@ -49,12 +48,6 @@
 			"key": "it",
 			"value": "https://www.iana.org/domains/idn-tables/tables/christmas_it_1.1.txt",
 			"source": "https://www.iana.org/domains/idn-tables"
-		},
-		{
-			"type": "idn-table",
-			"key": "ja",
-			"value": "https://centralnicregistry.com/services/idn-table/ja/737/",
-			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
 			"type": "idn-table",
