@@ -13,25 +13,19 @@
 		"anycast9.irondns.net"
 	],
 	"languages": [
-		"el",
 		"he",
 		"ja",
 		"ko",
 		"mul-Arab",
 		"mul-Cyrl",
 		"mul-Latn",
+		"und-Grek",
 		"zh"
 	],
 	"tags": [
 		"generic"
 	],
 	"policies": [
-		{
-			"type": "idn-table",
-			"key": "el",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_el_1.0.txt",
-			"source": "https://www.iana.org/domains/idn-tables"
-		},
 		{
 			"type": "idn-table",
 			"key": "he",
@@ -66,6 +60,12 @@
 			"type": "idn-table",
 			"key": "mul-Latn",
 			"value": "https://www.iana.org/domains/idn-tables/tables/radio_latn_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "und-Grek",
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_und-grek_1.1.xml",
 			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{

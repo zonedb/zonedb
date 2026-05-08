@@ -2,7 +2,6 @@
 	"domain": "asda",
 	"registryOperator": "Asda Stores Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/asda",
-	"whoisServer": "whois.nic.asda",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

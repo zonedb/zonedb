@@ -1,7 +1,6 @@
 {
 	"domain": "bargains",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.bargains",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

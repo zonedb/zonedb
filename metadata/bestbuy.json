@@ -2,7 +2,6 @@
 	"domain": "bestbuy",
 	"registryOperator": "BBY Solutions, Inc.",
 	"infoURL": "http://nic.bestbuy/",
-	"whoisServer": "whois.nic.bestbuy",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

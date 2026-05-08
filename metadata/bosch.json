@@ -2,7 +2,6 @@
 	"domain": "bosch",
 	"registryOperator": "Robert Bosch GMBH",
 	"infoURL": "https://nic.bosch/",
-	"whoisServer": "whois.nic.bosch",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

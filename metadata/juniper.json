@@ -2,6 +2,7 @@
 	"domain": "juniper",
 	"registryOperator": "JUNIPER NETWORKS, INC.",
 	"infoURL": "http://nic.juniper/",
+	"whoisServer": "whois.nic.juniper",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

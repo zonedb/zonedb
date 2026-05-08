@@ -1,9 +1,5 @@
 {
 	"domain": "009.рус",
-	"nameServers": [
-		"ns1.rlnic.ru",
-		"ns2.rlnic.ru"
-	],
 	"tags": [
 		"private"
 	]

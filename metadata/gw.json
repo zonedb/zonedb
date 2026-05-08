@@ -8,13 +8,19 @@
 		"gw03.dns.pt",
 		"h.dns.pt"
 	],
+	"languages": [
+		"mul-Latn"
+	],
 	"tags": [
 		"country",
 		"geo"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "mul-Latn",
+			"value": "https://www.iana.org/domains/idn-tables/tables/gw_latn_1.0.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }
