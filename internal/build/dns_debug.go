@@ -23,6 +23,19 @@ const (
 	parentOutcomeOtherErr
 )
 
+// parentOutcomeStrings maps parentOutcome values to log-line labels.
+var parentOutcomeStrings = map[parentOutcome]string{
+	parentOutcomeNOERROR:  "noerror",
+	parentOutcomeNXDOMAIN: "nxdomain",
+	parentOutcomeTimeout:  "timeout",
+	parentOutcomeOtherErr: "err",
+}
+
+// String returns the short label used in NS_CHANGE/NS_TRACE log lines.
+func (o parentOutcome) String() string {
+	return parentOutcomeStrings[o]
+}
+
 // fetchBranch tags which preservation/removal path fired in FetchNameServers.
 type fetchBranch string
 
@@ -43,9 +56,9 @@ const (
 
 type parentObservation struct {
 	host       string
-	outcome    string // "noerror" | "nxdomain" | "timeout" | "err"
-	errMsg     string
-	nsReturned int
+	outcome    parentOutcome
+	errMsg     string // populated only on timeout/err
+	nsReturned int    // populated only on noerror
 }
 
 type nsVerifyObservation struct {
@@ -61,9 +74,6 @@ var (
 	nsDebugOnce     sync.Once
 	nsDebugOn       bool
 	nsDebugSuffixes []string
-
-	parentStatsMu sync.Mutex
-	parentStats   = map[string]*parentStatRow{}
 )
 
 // nsDebugEnabled reports whether debug logging is on. Cached after first call.
@@ -96,22 +106,32 @@ func nsDebugMatchesTraceSuffix(domain string) bool {
 	return false
 }
 
-func resetParentStats() {
-	parentStatsMu.Lock()
-	defer parentStatsMu.Unlock()
-	parentStats = map[string]*parentStatRow{}
+// nsDebugger is the per-invocation debug state. Goroutine-safe; nil-safe.
+type nsDebugger struct {
+	mut         sync.Mutex
+	parentStats map[string]*parentStatRow
 }
 
-func recordParentStat(host string, outcome parentOutcome) {
+// newNSDebugger returns an initialized debugger when ZONEDB_DEBUG_NS is set,
+// nil otherwise. A nil *nsDebugger is the normal "debug off" value.
+func newNSDebugger() *nsDebugger {
 	if !nsDebugEnabled() {
+		return nil
+	}
+	return &nsDebugger{parentStats: map[string]*parentStatRow{}}
+}
+
+// recordParentStat tallies a single parent-query outcome. No-op on nil.
+func (d *nsDebugger) recordParentStat(host string, outcome parentOutcome) {
+	if d == nil {
 		return
 	}
-	parentStatsMu.Lock()
-	defer parentStatsMu.Unlock()
-	row := parentStats[host]
+	d.mut.Lock()
+	defer d.mut.Unlock()
+	row := d.parentStats[host]
 	if row == nil {
 		row = &parentStatRow{}
-		parentStats[host] = row
+		d.parentStats[host] = row
 	}
 	row.queries++
 	switch outcome {
@@ -126,17 +146,19 @@ func recordParentStat(host string, outcome parentOutcome) {
 	}
 }
 
-func emitParentStats() {
-	if !nsDebugEnabled() {
+// EmitParentStats writes one PARENT_STATS line per distinct parent host seen.
+// No-op on nil.
+func (d *nsDebugger) EmitParentStats() {
+	if d == nil {
 		return
 	}
 	// Snapshot under a single lock, then sort and emit without holding it.
-	parentStatsMu.Lock()
-	snapshot := make(map[string]parentStatRow, len(parentStats))
-	for h, r := range parentStats {
+	d.mut.Lock()
+	snapshot := make(map[string]parentStatRow, len(d.parentStats))
+	for h, r := range d.parentStats {
 		snapshot[h] = *r
 	}
-	parentStatsMu.Unlock()
+	d.mut.Unlock()
 
 	hosts := make([]string, 0, len(snapshot))
 	for h := range snapshot {
@@ -150,76 +172,126 @@ func emitParentStats() {
 	}
 }
 
-// emitFetchObservation is called once per zone after FetchNameServers has
-// finished processing it. Emits NS_CHANGE for changed zones, NS_TRACE for
-// zones matching ZONEDB_DEBUG_NS_SUFFIX regardless of change.
-func emitFetchObservation(
-	z *Zone,
-	parentNS []string,
-	obs []parentObservation,
-	counts map[string]int,
-	successful int,
-	branch fetchBranch,
-) {
-	if !nsDebugEnabled() {
+// emitKind decides whether a zone's observation should produce an NS_CHANGE
+// line, an NS_TRACE line, or nothing. Returns empty string to skip.
+func emitKind(domain string, changed bool) string {
+	if changed {
+		return "NS_CHANGE"
+	}
+	if nsDebugMatchesTraceSuffix(domain) {
+		return "NS_TRACE"
+	}
+	return ""
+}
+
+// fetchZoneObserver collects per-parent observations for a single zone.
+type fetchZoneObserver struct {
+	debugger  *nsDebugger
+	zone      *Zone
+	perParent []parentObservation
+}
+
+// ForFetchZone returns an observer for a single zone. No-op on nil: returns
+// nil, which every *fetchZoneObserver method tolerates.
+func (d *nsDebugger) ForFetchZone(z *Zone, parentCount int) *fetchZoneObserver {
+	if d == nil {
+		return nil
+	}
+	return &fetchZoneObserver{
+		debugger:  d,
+		zone:      z,
+		perParent: make([]parentObservation, 0, parentCount),
+	}
+}
+
+// ObserveParent records a parent-query observation both per-zone (for emit)
+// and in the cross-zone parent-stats tally. No-op on nil.
+func (o *fetchZoneObserver) ObserveParent(observation parentObservation) {
+	if o == nil {
 		return
 	}
-	changed := branch != fetchBranchUnchanged
-	trace := nsDebugMatchesTraceSuffix(z.Domain)
-	if !changed && !trace {
+	o.perParent = append(o.perParent, observation)
+	o.debugger.recordParentStat(observation.host, observation.outcome)
+}
+
+// EmitFetch writes NS_CHANGE for changed zones and NS_TRACE for zones matching
+// ZONEDB_DEBUG_NS_SUFFIX. No-op on nil.
+func (o *fetchZoneObserver) EmitFetch(parentNS []string, counts map[string]int, successful int, branch fetchBranch) {
+	if o == nil {
 		return
 	}
-	kind := "NS_CHANGE"
-	if !changed {
-		kind = "NS_TRACE"
+	kind := emitKind(o.zone.Domain, branch != fetchBranchUnchanged)
+	if kind == "" {
+		return
 	}
 	var b strings.Builder
 	fmt.Fprintf(&b, "%s step=fetch branch=%s zone=%s old=%s new=%s parents=%d successful=%d counts=%s\n",
-		kind, branch, z.Domain,
-		formatNSList(z.oldNameServers), formatNSList(z.NameServers),
+		kind, branch, o.zone.Domain,
+		formatNSList(o.zone.oldNameServers), formatNSList(o.zone.NameServers),
 		len(parentNS), successful, formatCounts(counts))
-	for _, o := range obs {
-		switch o.outcome {
-		case "noerror":
-			fmt.Fprintf(&b, "  parent=%s outcome=noerror ns_returned=%d\n", o.host, o.nsReturned)
-		case "nxdomain":
-			fmt.Fprintf(&b, "  parent=%s outcome=nxdomain\n", o.host)
-		case "timeout":
-			fmt.Fprintf(&b, "  parent=%s outcome=timeout err=%q\n", o.host, o.errMsg)
-		case "err":
-			fmt.Fprintf(&b, "  parent=%s outcome=err err=%q\n", o.host, o.errMsg)
+	for _, p := range o.perParent {
+		switch p.outcome {
+		case parentOutcomeNOERROR:
+			fmt.Fprintf(&b, "  parent=%s outcome=%s ns_returned=%d\n", p.host, p.outcome, p.nsReturned)
+		case parentOutcomeNXDOMAIN:
+			fmt.Fprintf(&b, "  parent=%s outcome=%s\n", p.host, p.outcome)
+		case parentOutcomeTimeout, parentOutcomeOtherErr:
+			fmt.Fprintf(&b, "  parent=%s outcome=%s err=%q\n", p.host, p.outcome, p.errMsg)
 		}
 	}
 	color.Fprintf(os.Stderr, "%s", b.String())
 }
 
-// emitVerifyObservation is the Verify-step analog of emitFetchObservation.
-func emitVerifyObservation(
-	z *Zone,
-	prior []string,
-	obs []nsVerifyObservation,
-	branch verifyBranch,
-) {
-	if !nsDebugEnabled() {
+// verifyZoneObserver collects per-NS verification results for a single zone.
+type verifyZoneObserver struct {
+	zone  *Zone
+	prior []string
+	perNS []nsVerifyObservation
+}
+
+// ForVerifyZone returns an observer for a single zone. No-op on nil.
+func (d *nsDebugger) ForVerifyZone(z *Zone, prior []string) *verifyZoneObserver {
+	if d == nil {
+		return nil
+	}
+	return &verifyZoneObserver{
+		zone:  z,
+		prior: prior,
+		perNS: make([]nsVerifyObservation, 0, len(prior)),
+	}
+}
+
+// ObserveNS records a verifyNS outcome. err is nil on success. No-op on nil.
+func (o *verifyZoneObserver) ObserveNS(ns string, err error) {
+	if o == nil {
 		return
 	}
-	changed := branch != verifyBranchUnchanged
-	trace := nsDebugMatchesTraceSuffix(z.Domain)
-	if !changed && !trace {
+	observation := nsVerifyObservation{ns: ns}
+	if err != nil {
+		observation.errMsg = err.Error()
+	}
+	o.perNS = append(o.perNS, observation)
+}
+
+// EmitVerify writes NS_CHANGE for dropped NSs and NS_TRACE for zones matching
+// ZONEDB_DEBUG_NS_SUFFIX. No-op on nil.
+func (o *verifyZoneObserver) EmitVerify(branch verifyBranch) {
+	if o == nil {
 		return
 	}
-	kind := "NS_CHANGE"
-	if !changed {
-		kind = "NS_TRACE"
+	kind := emitKind(o.zone.Domain, branch != verifyBranchUnchanged)
+	if kind == "" {
+		return
 	}
 	var b strings.Builder
 	fmt.Fprintf(&b, "%s step=verify branch=%s zone=%s old=%s new=%s\n",
-		kind, branch, z.Domain, formatNSList(prior), formatNSList(z.NameServers))
-	for _, o := range obs {
-		if o.errMsg == "" {
-			fmt.Fprintf(&b, "  ns=%s outcome=ok\n", o.ns)
+		kind, branch, o.zone.Domain,
+		formatNSList(o.prior), formatNSList(o.zone.NameServers))
+	for _, p := range o.perNS {
+		if p.errMsg == "" {
+			fmt.Fprintf(&b, "  ns=%s outcome=ok\n", p.ns)
 		} else {
-			fmt.Fprintf(&b, "  ns=%s outcome=fail err=%q\n", o.ns, o.errMsg)
+			fmt.Fprintf(&b, "  ns=%s outcome=fail err=%q\n", p.ns, p.errMsg)
 		}
 	}
 	color.Fprintf(os.Stderr, "%s", b.String())
