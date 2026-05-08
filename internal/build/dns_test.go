@@ -105,7 +105,8 @@ func TestFetchNameServers_AllParentsReturnNXDOMAIN(t *testing.T) {
 	}
 }
 
-// 2 of 10 parents return extras: count==2, max==10, filter keeps them.
+// Flap first half (paired with *_OneParent_DropsExtras): 2/10 parents return
+// extras, count==2 passes the filter, extras added.
 func TestFetchNameServers_PartialConsensus_TwoParents_AddsExtras(t *testing.T) {
 	core := []string{"ns1.core.example", "ns2.core.example", "ns3.core.example", "ns4.core.example"}
 	extras := []string{"extra-a.example", "extra-b.example"}
@@ -142,7 +143,8 @@ func TestFetchNameServers_PartialConsensus_TwoParents_AddsExtras(t *testing.T) {
 	}
 }
 
-// 1 of 10 parents returns extras: count==1, max==10, filter drops them.
+// Flap second half (paired with *_TwoParents_AddsExtras): same child and
+// prior state, but 1/10 parents return extras, count==1 is dropped.
 func TestFetchNameServers_PartialConsensus_OneParent_DropsExtras(t *testing.T) {
 	core := []string{"ns1.core.example", "ns2.core.example", "ns3.core.example", "ns4.core.example"}
 	extras := []string{"extra-a.example", "extra-b.example"}

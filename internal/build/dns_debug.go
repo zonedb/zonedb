@@ -11,25 +11,8 @@ import (
 	"github.com/wsxiaoys/terminal/color"
 )
 
-// NS debug logging.
-//
-// Enabled by setting ZONEDB_DEBUG_NS in the environment. Emits three kinds
-// of lines to stderr:
-//
-//	NS_CHANGE step=fetch|verify  per-zone, only when the NS list changed.
-//	NS_TRACE  step=fetch|verify  per-zone, always, but only for zones whose
-//	                             domain matches one of the suffixes in
-//	                             ZONEDB_DEBUG_NS_SUFFIX (comma-separated).
-//	                             Used to capture "healthy" runs for
-//	                             comparison against wipe runs.
-//	PARENT_STATS                 one line per distinct parent host queried,
-//	                             emitted at the end of FetchNameServers.
-//
-// Every emit includes a branch= tag identifying which code path fired, so the
-// log can be grepped for specific preservation/removal behavior.
-//
-// Zero cost when ZONEDB_DEBUG_NS is unset. sync.Once caches the lookup, all
-// record/emit helpers early-return.
+// NS flap debug logging. Gated by ZONEDB_DEBUG_NS; ZONEDB_DEBUG_NS_SUFFIX
+// (comma-separated) additionally emits NS_TRACE for matching zones unchanged.
 
 type parentOutcome int
 
@@ -99,9 +82,8 @@ func nsDebugEnabled() bool {
 	return nsDebugOn
 }
 
-// nsDebugMatchesTraceSuffix reports whether a zone domain is covered by the
-// always-on NS_TRACE logging, based on ZONEDB_DEBUG_NS_SUFFIX. Returns false
-// when no suffix is configured or when the domain matches none of them.
+// nsDebugMatchesTraceSuffix reports whether a zone's domain matches any
+// suffix in ZONEDB_DEBUG_NS_SUFFIX.
 func nsDebugMatchesTraceSuffix(domain string) bool {
 	if !nsDebugEnabled() || len(nsDebugSuffixes) == 0 {
 		return false
