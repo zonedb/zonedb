@@ -6,7 +6,6 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.oracle",
 		"a2.nic.oracle",
 		"b0.nic.oracle",
 		"c0.nic.oracle"

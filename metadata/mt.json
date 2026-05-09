@@ -6,7 +6,6 @@
 	"nameServers": [
 		"a.ns.mt",
 		"b.ns.mt",
-		"f.ns.mt",
 		"p.ns.mt"
 	],
 	"tags": [

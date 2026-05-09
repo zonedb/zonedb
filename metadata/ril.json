@@ -2,6 +2,7 @@
 	"domain": "ril",
 	"registryOperator": "Reliance Industries Limited",
 	"infoURL": "http://nic.ril/",
+	"whoisServer": "whois.nic.ril",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -2,6 +2,7 @@
 	"domain": "edu.sy",
 	"nameServers": [
 		"ns1.tld.sy",
+		"pch.anycast.tld.sy",
 		"sy.cctld.authdns.ripe.net"
 	],
 	"policies": [

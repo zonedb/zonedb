@@ -2,6 +2,7 @@
 	"domain": "maif",
 	"registryOperator": "Mutuelle Assurance Instituteur France (MAIF)",
 	"infoURL": "http://nic.maif/",
+	"whoisServer": "whois.nic.maif",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
