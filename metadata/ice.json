@@ -8,6 +8,7 @@
 	"nameServers": [
 		"a0.nic.ice",
 		"a2.nic.ice",
+		"b0.nic.ice",
 		"c0.nic.ice"
 	],
 	"tags": [

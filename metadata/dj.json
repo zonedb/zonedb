@@ -5,7 +5,6 @@
 	"whoisURL": "http://www.nic.dj/whois.php",
 	"nameServers": [
 		"ns1.djibtelecom.dj",
-		"ns2.djibtelecom.dj",
 		"ns3.djibtelecom.dj"
 	],
 	"tags": [

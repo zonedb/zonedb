@@ -2,7 +2,6 @@
 	"domain": "volvo",
 	"registryOperator": "Volvo Holding Sverige Aktiebolag",
 	"infoURL": "https://www.nic.volvo/en/",
-	"whoisServer": "whois.nic.volvo",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

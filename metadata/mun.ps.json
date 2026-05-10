@@ -6,6 +6,12 @@
 		"ns2.palgov.net",
 		"ns2.pnina.ps"
 	],
+	"wildcards": [
+		"192.154.96.62",
+		"204.209.56.115",
+		"216.244.81.67",
+		"216.244.81.70"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

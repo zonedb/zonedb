@@ -8,6 +8,7 @@
 	],
 	"nameServers": [
 		"a.nic.netbank",
+		"b.nic.netbank",
 		"c.nic.netbank",
 		"x.nic.netbank",
 		"y.nic.netbank",

@@ -9,7 +9,8 @@
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",
-		"k.gmoregistry.net"
+		"k.gmoregistry.net",
+		"l.gmoregistry.net"
 	],
 	"locations": [
 		"JP-46",

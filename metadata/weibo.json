@@ -2,7 +2,6 @@
 	"domain": "weibo",
 	"registryOperator": "Sina Corporation",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/weibo",
-	"whoisServer": "whois.nic.weibo",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

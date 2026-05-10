@@ -8,6 +8,7 @@
 	"nameServers": [
 		"a.nic.buzz",
 		"b.nic.buzz",
+		"c.nic.buzz",
 		"ns1.dns.nic.buzz",
 		"ns2.dns.nic.buzz",
 		"ns3.dns.nic.buzz"

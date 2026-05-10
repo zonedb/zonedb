@@ -2,6 +2,7 @@
 	"domain": "edeka",
 	"registryOperator": "EDEKA Verband kaufmännischer Genossenschaften e.V.",
 	"infoURL": "https://www.nic.edeka/",
+	"whoisServer": "whois.nic.edeka",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

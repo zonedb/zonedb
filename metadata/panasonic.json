@@ -2,14 +2,14 @@
 	"domain": "panasonic",
 	"registryOperator": "Panasonic Corporation",
 	"infoURL": "https://nic.panasonic/",
-	"whoisServer": "whois.nic.gmo",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],
 	"nameServers": [
 		"a.gmoregistry.net",
 		"b.gmoregistry.net",
-		"k.gmoregistry.net"
+		"k.gmoregistry.net",
+		"l.gmoregistry.net"
 	],
 	"languages": [
 		"ja"

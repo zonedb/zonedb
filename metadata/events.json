@@ -10,7 +10,8 @@
 		"v0n1.nic.events",
 		"v0n2.nic.events",
 		"v0n3.nic.events",
-		"v2n0.nic.events"
+		"v2n0.nic.events",
+		"v2n1.nic.events"
 	],
 	"languages": [
 		"ar",
