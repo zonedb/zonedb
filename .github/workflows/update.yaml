@@ -17,7 +17,7 @@ concurrency:
 jobs:
   update:
     name: Update ZoneDB
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     timeout-minutes: 60
     steps:
       - name: Checkout repo
@@ -51,6 +51,7 @@ jobs:
           # Temporary NS flap diagnostics; remove once the root cause is found.
           ZONEDB_DEBUG_NS: "1"
           ZONEDB_DEBUG_NS_SUFFIX: "рус"
+          CGO_ENABLED: "0"
         run: make update
 
       - name: Vet Go code

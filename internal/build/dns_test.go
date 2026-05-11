@@ -248,3 +248,57 @@ func TestFetchNameServers_ConsensusFilterKeepsKnownNS(t *testing.T) {
 		t.Errorf("previously-known NS should not be dropped by consensus filter; got %v, want %v", got, want)
 	}
 }
+
+// Parents with IDN hostnames (stored in Unicode form by Normalize) must be
+// Punycoded before reaching exchange; otherwise glibc resolution fails.
+func TestFetchNameServers_IDNParentHosts_PunycodedForExchange(t *testing.T) {
+	parent := &Zone{Domain: "рус", NameServers: []string{"ns1.nic.рус", "ns2.nic.рус", "ns1.anycastdns.cz"}}
+	prior := []string{"ns1.rlnic.ru", "ns2.rlnic.ru"}
+	child := &Zone{Domain: "001.рус", NameServers: slices.Clone(prior)}
+	allZones := map[string]*Zone{"рус": parent, "001.рус": child}
+
+	origExchange := exchange
+	t.Cleanup(func() { exchange = origExchange })
+	exchange = scriptedExchange(t, map[string]scriptedResponse{
+		"ns1.nic.xn--p1acf": {nsRecords: prior},
+		"ns2.nic.xn--p1acf": {nsRecords: prior},
+		"ns1.anycastdns.cz": {nsRecords: prior},
+	})
+
+	if err := FetchNameServers(t.Context(), map[string]*Zone{"001.рус": child}, allZones); err != nil {
+		t.Fatalf("FetchNameServers returned error: %v", err)
+	}
+
+	got := sorted(child.NameServers)
+	want := sorted(prior)
+	if !slices.Equal(got, want) {
+		t.Errorf("IDN parent hosts must be Punycoded before DNS exchange; got %v, want %v", got, want)
+	}
+}
+
+// Reproduces observed prod flap: 2 IDN parents fail to resolve, 1 non-IDN
+// parent returns NOERROR/0 NS, successful=1 bypasses PR #1124's escape hatch.
+func TestFetchNameServers_IDNParentHost_MixedOutcome_DoesNotFlap(t *testing.T) {
+	parent := &Zone{Domain: "рус", NameServers: []string{"ns1.nic.рус", "ns2.nic.рус", "ns1.anycastdns.cz"}}
+	prior := []string{"ns1.rlnic.ru", "ns2.rlnic.ru"}
+	child := &Zone{Domain: "001.рус", NameServers: slices.Clone(prior)}
+	allZones := map[string]*Zone{"рус": parent, "001.рус": child}
+
+	origExchange := exchange
+	t.Cleanup(func() { exchange = origExchange })
+	exchange = scriptedExchange(t, map[string]scriptedResponse{
+		"ns1.nic.xn--p1acf": {nsRecords: prior},
+		"ns2.nic.xn--p1acf": {nsRecords: prior},
+		"ns1.anycastdns.cz": {nsRecords: nil},
+	})
+
+	if err := FetchNameServers(t.Context(), map[string]*Zone{"001.рус": child}, allZones); err != nil {
+		t.Fatalf("FetchNameServers returned error: %v", err)
+	}
+
+	got := sorted(child.NameServers)
+	want := sorted(prior)
+	if !slices.Equal(got, want) {
+		t.Errorf("zone must not flap when IDN parents are reachable by Punycode; got %v, want %v", got, want)
+	}
+}

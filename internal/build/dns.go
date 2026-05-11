@@ -155,6 +155,13 @@ func FetchNameServers(ctx context.Context, zones, allZones map[string]*Zone) err
 			if gctx.Err() != nil {
 				return gctx.Err()
 			}
+			// Punycode IDN hosts before resolving. Matches verifyNS.
+			asciiHost, err := idna.ToASCII(host)
+			if err != nil {
+				LogWarningFor(err, host)
+				continue
+			}
+			host = asciiHost
 			if _, ok := nx.Load(host); ok {
 				continue
 			}
