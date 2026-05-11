@@ -51,6 +51,7 @@ jobs:
           # Temporary NS flap diagnostics; remove once the root cause is found.
           ZONEDB_DEBUG_NS: "1"
           ZONEDB_DEBUG_NS_SUFFIX: "рус"
+          CGO_ENABLED: "0"
         run: make update
 
       - name: Vet Go code
