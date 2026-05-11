@@ -1,7 +1,6 @@
 {
 	"domain": "camera",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.camera",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

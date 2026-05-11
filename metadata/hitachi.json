@@ -2,6 +2,7 @@
 	"domain": "hitachi",
 	"registryOperator": "Hitachi, Ltd.",
 	"infoURL": "https://nic.hitachi/",
+	"whoisServer": "whois.nic.gmo",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

@@ -1,6 +1,7 @@
 {
 	"domain": "democrat",
 	"registryOperator": "Dog Beach, LLC",
+	"whoisServer": "whois.nic.democrat",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

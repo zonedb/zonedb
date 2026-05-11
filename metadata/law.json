@@ -7,6 +7,7 @@
 		"https://rdap.nic.law/"
 	],
 	"nameServers": [
+		"a.nic.law",
 		"b.nic.law",
 		"c.nic.law",
 		"x.nic.law",
