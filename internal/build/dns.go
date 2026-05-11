@@ -158,7 +158,12 @@ func FetchNameServers(ctx context.Context, zones, allZones map[string]*Zone) err
 			// Punycode IDN hosts: Normalize stores them as Unicode, but Linux
 			// glibc's getaddrinfo requires AI_IDN (which Go does not set) to
 			// resolve Unicode names. Matches verifyNS.
-			host, _ = idna.ToASCII(host)
+			asciiHost, err := idna.ToASCII(host)
+			if err != nil {
+				LogWarningFor(err, host)
+				continue
+			}
+			host = asciiHost
 			if _, ok := nx.Load(host); ok {
 				continue
 			}
