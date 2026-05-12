@@ -8,7 +8,8 @@
 	"nameServers": [
 		"a0.nic.delta",
 		"a2.nic.delta",
-		"b0.nic.delta"
+		"b0.nic.delta",
+		"c0.nic.delta"
 	],
 	"tags": [
 		"brand",

@@ -8,6 +8,7 @@
 	],
 	"nameServers": [
 		"a.nic.cpa",
+		"b.nic.cpa",
 		"c.nic.cpa",
 		"x.nic.cpa",
 		"y.nic.cpa",

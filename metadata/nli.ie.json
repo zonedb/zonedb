@@ -1,9 +1,8 @@
 {
 	"domain": "nli.ie",
 	"nameServers": [
-		"auth-ns2.heanet.ie",
-		"auth-ns3.heanet.ie",
-		"ns.heanet.ie"
+		"desiree.ns.cloudflare.com",
+		"yisroel.ns.cloudflare.com"
 	],
 	"policies": [
 		{

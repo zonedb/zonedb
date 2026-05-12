@@ -11,6 +11,7 @@
 		"b.nic.dell",
 		"c.nic.dell",
 		"ns1.dns.nic.dell",
+		"ns2.dns.nic.dell",
 		"ns3.dns.nic.dell"
 	],
 	"languages": [

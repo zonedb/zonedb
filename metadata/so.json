@@ -4,8 +4,7 @@
 	"countryName": "Somalia",
 	"whoisServer": "whois.nic.so",
 	"nameServers": [
-		"d.nic.so",
-		"e.nic.so"
+		"d.nic.so"
 	],
 	"tags": [
 		"country",

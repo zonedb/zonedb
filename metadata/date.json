@@ -8,6 +8,7 @@
 	],
 	"nameServers": [
 		"a.nic.date",
+		"b.nic.date",
 		"c.nic.date",
 		"ns1.dns.nic.date",
 		"ns2.dns.nic.date",
