@@ -2,7 +2,6 @@
 	"domain": "es",
 	"registryOperator": "Red.es",
 	"countryName": "Spain",
-	"whoisServer": "whois.nic.es",
 	"nameServers": [
 		"a.nic.es",
 		"c.nic.es",

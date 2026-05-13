@@ -6,6 +6,7 @@
 	"countryName": "Pakistan",
 	"nameServers": [
 		"ns1.ntc.org.pk",
+		"ns2.ntc.org.pk",
 		"ns3.ntc.org.pk"
 	],
 	"languages": [

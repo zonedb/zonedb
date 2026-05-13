@@ -7,7 +7,6 @@
 		"https://rdap.dns.pl/"
 	],
 	"nameServers": [
-		"a-dns.pl",
 		"b-dns.pl",
 		"d-dns.pl",
 		"f-dns.pl",

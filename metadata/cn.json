@@ -7,7 +7,7 @@
 	"registryOperator": "China Internet Network Information Center (CNNIC)",
 	"countryName": "China",
 	"infoURL": "https://www.cnnic.net.cn/",
-	"whoisServer": "whois.cnnic.cn",
+	"whoisServer": "whois.cnnic.net.cn",
 	"nameServers": [
 		"a.dns.cn",
 		"b.dns.cn",

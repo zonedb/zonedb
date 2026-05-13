@@ -11,7 +11,8 @@
 		"b.nic.faith",
 		"c.nic.faith",
 		"ns1.dns.nic.faith",
-		"ns2.dns.nic.faith"
+		"ns2.dns.nic.faith",
+		"ns3.dns.nic.faith"
 	],
 	"languages": [
 		"da",
