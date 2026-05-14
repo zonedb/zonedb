@@ -325,7 +325,9 @@ func verifyNS(ctx context.Context, host string) error {
 	if err != nil {
 		return fmt.Errorf("normalizing host %q: %w", host, err)
 	}
-	return CanDial(ctx, "udp", host+":53")
+	qctx, cancel := context.WithTimeout(ctx, VerifyDialTimeout)
+	defer cancel()
+	return CanDial(qctx, "udp", host+":53")
 }
 
 // CountNameServers counts unique name servers for zones.
