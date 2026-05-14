@@ -16,7 +16,6 @@
 		"f.nic.fm"
 	],
 	"languages": [
-		"he",
 		"mul-Cyrl",
 		"mul-Mymr",
 		"mul-Zyyy"
@@ -26,12 +25,6 @@
 		"geo"
 	],
 	"policies": [
-		{
-			"type": "idn-table",
-			"key": "he",
-			"value": "https://centralnicregistry.com/services/idn-table/he/8/",
-			"source": "https://centralnicregistry.com/idn-tables/"
-		},
 		{
 			"type": "idn-table",
 			"key": "mul-Cyrl",

@@ -9,7 +9,8 @@
 	"nameServers": [
 		"a.nic.luxury",
 		"b.nic.luxury",
-		"c.nic.luxury"
+		"c.nic.luxury",
+		"d.nic.luxury"
 	],
 	"tags": [
 		"generic"

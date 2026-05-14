@@ -34,12 +34,6 @@
 		},
 		{
 			"type": "idn-table",
-			"key": "he",
-			"value": "https://centralnicregistry.com/services/idn-table/he/8/",
-			"source": "https://centralnicregistry.com/idn-tables/"
-		},
-		{
-			"type": "idn-table",
 			"key": "hr",
 			"value": "https://centralnicregistry.com/services/idn-table/hr/800/",
 			"source": "https://centralnicregistry.com/idn-tables/"

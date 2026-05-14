@@ -8,7 +8,8 @@
 	"nameServers": [
 		"a0.nic.nikon",
 		"a2.nic.nikon",
-		"b0.nic.nikon"
+		"b0.nic.nikon",
+		"c0.nic.nikon"
 	],
 	"tags": [
 		"brand",

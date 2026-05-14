@@ -1,6 +1,12 @@
 {
 	"domain": "christmas.np",
 	"infoURL": "https://register.com.np/",
+	"nameServers": [
+		"np-ns.npix.net.np",
+		"ns4.apnic.net",
+		"pch.nnic.np",
+		"shikhar.mos.com.np"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

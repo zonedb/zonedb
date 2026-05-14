@@ -16,12 +16,6 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"key": "he",
-			"value": "https://centralnicregistry.com/services/idn-table/he/8/",
-			"source": "https://centralnicregistry.com/idn-tables/"
-		},
-		{
-			"type": "idn-table",
 			"key": "mul-Cans",
 			"value": "https://centralnicregistry.com/services/idn-table/cans/199/",
 			"source": "https://centralnicregistry.com/idn-tables/"

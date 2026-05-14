@@ -2,6 +2,7 @@
 	"domain": "agro.pl",
 	"infoURL": "https://domain.by/",
 	"nameServers": [
+		"a-dns.pl",
 		"b-dns.pl",
 		"d-dns.pl",
 		"f-dns.pl",

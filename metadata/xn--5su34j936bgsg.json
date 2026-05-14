@@ -3,6 +3,7 @@
 	"domainPunycode": "xn--5su34j936bgsg",
 	"registryOperator": "Shangri-La International Hotel Management Limited",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--5su34j936bgsg",
+	"whoisServer": "whois.nic.香格里拉",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
