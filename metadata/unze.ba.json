@@ -2,7 +2,6 @@
 	"domain": "unze.ba",
 	"nameServers": [
 		"ns1.first-ns.de",
-		"pi.unze.ba",
 		"robotns2.second-ns.de",
 		"robotns3.second-ns.com"
 	],

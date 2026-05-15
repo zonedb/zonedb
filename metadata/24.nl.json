@@ -4,10 +4,6 @@
 		"ns1.subdomain.net",
 		"ns2.subdomain.net"
 	],
-	"wildcards": [
-		"24.nl",
-		"95.217.58.108"
-	],
 	"tags": [
 		"private"
 	]

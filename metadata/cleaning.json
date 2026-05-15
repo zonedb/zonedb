@@ -1,6 +1,7 @@
 {
 	"domain": "cleaning",
 	"registryOperator": "Binky Moon, LLC",
+	"whoisServer": "whois.nic.cleaning",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
