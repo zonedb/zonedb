@@ -5,6 +5,10 @@
 		"ns1.sn.apc.org",
 		"ns2.sn.apc.org"
 	],
+	"wildcards": [
+		"127.0.0.1",
+		"::1"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
