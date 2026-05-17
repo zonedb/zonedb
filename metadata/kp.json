@@ -3,7 +3,6 @@
 	"registryOperator": "Star Joint Venture Company",
 	"countryName": "North Korea",
 	"nameServers": [
-		"ns1.kptc.kp",
 		"ns2.kptc.kp"
 	],
 	"tags": [

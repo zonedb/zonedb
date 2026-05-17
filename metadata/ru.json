@@ -5,7 +5,7 @@
 	],
 	"registryOperator": "Coordination Center for TLD RU",
 	"countryName": "Russia",
-	"whoisServer": "whois.tcinet.ru",
+	"whoisServer": "whois.ripn.net",
 	"nameServers": [
 		"a.dns.ripn.net",
 		"b.dns.ripn.net",
