@@ -22,6 +22,10 @@ var (
 	// DialTimeout bounds the TCP/UDP dial performed by CanDial and queryWhois.
 	// HTTP fetches use httpClient.Timeout (see below), not this value.
 	DialTimeout = 10 * time.Second
+
+	// VerifyDialTimeout bounds verifyNS's local UDP probe.
+	// Not for high-latency paths; queryWhois keeps DialTimeout.
+	VerifyDialTimeout = 2 * time.Second
 )
 
 // httpClient is the shared HTTP client for all build-package fetches.
@@ -86,13 +90,15 @@ func FetchWithETag(ctx context.Context, u string, cache *ETagCache) (*http.Respo
 	return res, nil
 }
 
-// dialer is reused by CanDial and queryWhois to avoid allocating a net.Dialer
-// per call. It has no per-call state that varies with ctx.
+// dialer is reused by queryWhois and (via dialContext) by CanDial.
 var dialer = &net.Dialer{Timeout: DialTimeout}
 
+// dialContext is the dial entry point for CanDial; package-level so tests
+// can substitute it (mirrors var exchange = defaultExchange in dns.go).
+var dialContext = dialer.DialContext
+
 // CanDial reports whether network/addr accepts a connection, discarding it.
-// Results are cached process-wide; ctx-induced errors are not cached so a
-// cancelled dial doesn't poison future callers.
+// Cached process-wide; only durable failures are cached (see cacheable).
 // FIXME: scope the cache per-run instead of package-global.
 func CanDial(ctx context.Context, network, addr string) error {
 	k := network + " " + addr
@@ -102,11 +108,9 @@ func CanDial(ctx context.Context, network, addr string) error {
 	if ok {
 		return err
 	}
-	c, err := dialer.DialContext(ctx, network, addr)
-	// Do not cache ctx-induced errors: a future caller with a fresh ctx
-	// should get a real dial attempt.
+	c, err := dialContext(ctx, network, addr)
 	if err != nil {
-		if errors.Is(err, context.Canceled) || errors.Is(err, context.DeadlineExceeded) {
+		if !cacheable(err) {
 			return err
 		}
 		mtx.Lock()
@@ -119,6 +123,23 @@ func CanDial(ctx context.Context, network, addr string) error {
 	dialCache[k] = nil
 	mtx.Unlock()
 	return nil
+}
+
+// cacheable reports whether err is a durable failure worth caching.
+// Excludes ctx errors and transient network/DNS errors so flakes don't poison.
+func cacheable(err error) bool {
+	if errors.Is(err, context.Canceled) || errors.Is(err, context.DeadlineExceeded) {
+		return false
+	}
+	var nerr net.Error
+	if errors.As(err, &nerr) && nerr.Timeout() {
+		return false
+	}
+	var dnsErr *net.DNSError
+	if errors.As(err, &dnsErr) && dnsErr.IsTemporary {
+		return false
+	}
+	return true
 }
 
 var (
