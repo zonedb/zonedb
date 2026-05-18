@@ -8,7 +8,6 @@
 		"https://rdap.nominet.uk/pn/"
 	],
 	"nameServers": [
-		"dns1.nic.pn",
 		"dns2.nic.pn",
 		"dns3.nic.pn",
 		"dns4.nic.pn",

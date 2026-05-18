@@ -3,8 +3,5 @@
 	"nameServers": [
 		"webns1.telecom.tm",
 		"webns2.telecom.tm"
-	],
-	"wildcards": [
-		"127.0.0.1"
 	]
 }
