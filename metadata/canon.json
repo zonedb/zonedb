@@ -2,7 +2,6 @@
 	"domain": "canon",
 	"registryOperator": "Canon Inc.",
 	"infoURL": "https://nic.canon/",
-	"whoisServer": "whois.nic.canon",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

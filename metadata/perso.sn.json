@@ -1,9 +1,5 @@
 {
 	"domain": "perso.sn",
-	"nameServers": [
-		"ns1-nonameservers.netim.net",
-		"ns2-nonameservers.netim.net"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

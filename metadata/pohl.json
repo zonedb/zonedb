@@ -9,7 +9,8 @@
 	"nameServers": [
 		"a.nic.pohl",
 		"b.nic.pohl",
-		"c.nic.pohl"
+		"c.nic.pohl",
+		"d.nic.pohl"
 	],
 	"languages": [
 		"de"

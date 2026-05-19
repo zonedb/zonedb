@@ -9,6 +9,7 @@
 	"nameServers": [
 		"a.nic.pfizer",
 		"b.nic.pfizer",
+		"c.nic.pfizer",
 		"ns1.dns.nic.pfizer",
 		"ns2.dns.nic.pfizer",
 		"ns3.dns.nic.pfizer"

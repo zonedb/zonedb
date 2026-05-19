@@ -1,12 +1,12 @@
 {
 	"domain": "cruises",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.cruises",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.cruises",
+		"v0n1.nic.cruises",
 		"v0n2.nic.cruises",
 		"v0n3.nic.cruises",
 		"v2n0.nic.cruises",

@@ -2,7 +2,6 @@
 	"domain": "bbt",
 	"registryOperator": "BB&T Corporation",
 	"infoURL": "http://www.nic.bbt/",
-	"whoisServer": "whois.nic.bbt",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
