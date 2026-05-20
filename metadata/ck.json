@@ -3,10 +3,6 @@
 	"registryOperator": "Telecom Cook Islands Ltd.",
 	"countryName": "Cook Islands",
 	"infoURL": "https://www.vodafone.co.ck/domain-admin-policy",
-	"nameServers": [
-		"downstage.mcs.vuw.ac.nz",
-		"poiparau.oyster.net.ck"
-	],
 	"tags": [
 		"closed",
 		"country",

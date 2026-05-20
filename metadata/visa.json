@@ -2,6 +2,7 @@
 	"domain": "visa",
 	"registryOperator": "Visa Worldwide Pte. Limited",
 	"infoURL": "https://usa.visa.com/legal/visa-nic.html",
+	"whoisServer": "whois.nic.visa",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
