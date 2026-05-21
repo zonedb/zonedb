@@ -2,6 +2,7 @@
 	"domain": "ug",
 	"registryOperator": "Uganda Online Ltd.",
 	"countryName": "Uganda",
+	"whoisServer": "whois.co.ug",
 	"nameServers": [
 		"anycast.eahd.or.ug",
 		"ns-ug.afrinic.net",

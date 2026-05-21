@@ -9,8 +9,7 @@
 	"nameServers": [
 		"a0.nic.juniper",
 		"a2.nic.juniper",
-		"b0.nic.juniper",
-		"c0.nic.juniper"
+		"b0.nic.juniper"
 	],
 	"tags": [
 		"brand",

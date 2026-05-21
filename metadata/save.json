@@ -6,7 +6,6 @@
 		"https://rdap.nominet.uk/save/"
 	],
 	"nameServers": [
-		"dns1.nic.save",
 		"dns2.nic.save",
 		"dns3.nic.save",
 		"dns4.nic.save",

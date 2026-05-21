@@ -2,6 +2,7 @@
 	"domain": "sanofi",
 	"registryOperator": "Sanofi",
 	"infoURL": "http://nic.sanofi/",
+	"whoisServer": "whois.nic.sanofi",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

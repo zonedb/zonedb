@@ -7,7 +7,6 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.kerryproperties",
 		"a2.nic.kerryproperties",
 		"b0.nic.kerryproperties",
 		"c0.nic.kerryproperties"

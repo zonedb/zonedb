@@ -4,7 +4,7 @@
 	"infoURL": "http://nic.alibaba/",
 	"whoisServer": "whois.nic.alibaba",
 	"rdapURLs": [
-		"https://rdap.identitydigital.services/rdap/"
+		"https://rdap.aliregistry.cn/rdap/"
 	],
 	"nameServers": [
 		"ns1.nic.alibaba",

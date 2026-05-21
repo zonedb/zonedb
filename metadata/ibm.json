@@ -7,7 +7,6 @@
 		"https://rdap.nic.ibm/"
 	],
 	"nameServers": [
-		"a.nic.ibm",
 		"b.nic.ibm",
 		"c.nic.ibm",
 		"x.nic.ibm",

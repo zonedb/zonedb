@@ -3,8 +3,7 @@
 	"nameServers": [
 		"ns1.nic.dz",
 		"ns2.nic.dz",
-		"ns3.nic.dz",
-		"ns6.nic.dz"
+		"ns3.nic.dz"
 	],
 	"policies": [
 		{

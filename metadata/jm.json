@@ -5,7 +5,6 @@
 	"nameServers": [
 		"jm.cctld.authdns.ripe.net",
 		"ns.jm",
-		"ns3-jm.fsl.org.jm",
 		"phloem.uoregon.edu"
 	],
 	"tags": [
