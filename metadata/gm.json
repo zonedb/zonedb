@@ -4,6 +4,7 @@
 	"countryName": "Gambia",
 	"whoisURL": "http://www.nic.gm/htmlpages/whois.htm",
 	"nameServers": [
+		"ns-gm.afrinic.net",
 		"ns1.nic.gm",
 		"ns2.nic.gm"
 	],

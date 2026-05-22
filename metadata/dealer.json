@@ -7,8 +7,6 @@
 		"https://rdap.centralnic.com/dealer/"
 	],
 	"nameServers": [
-		"a.nic.dealer",
-		"b.nic.dealer",
 		"c.nic.dealer",
 		"d.nic.dealer"
 	],

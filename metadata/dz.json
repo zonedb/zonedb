@@ -8,7 +8,10 @@
 	"nameServers": [
 		"ns-dz.afrinic.net",
 		"ns1.nic.dz",
-		"ns3.nic.fr"
+		"ns2.nic.dz",
+		"ns3.nic.fr",
+		"ns4.nic.dz",
+		"ns5.nic.dz"
 	],
 	"tags": [
 		"country",

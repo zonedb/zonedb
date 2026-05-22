@@ -9,6 +9,7 @@
 	"nameServers": [
 		"a.nic.hotels",
 		"b.nic.hotels",
+		"c.nic.hotels",
 		"ns1.dns.nic.hotels",
 		"ns2.dns.nic.hotels",
 		"ns3.dns.nic.hotels"

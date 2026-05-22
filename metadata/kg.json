@@ -7,6 +7,7 @@
 		"http://rdap.cctld.kg/"
 	],
 	"nameServers": [
+		"kg.cctld.authdns.ripe.net",
 		"ns.kg",
 		"ns2.kg"
 	],

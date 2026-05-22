@@ -6,14 +6,12 @@
 		"https://rdap.nominet.uk/deal/"
 	],
 	"nameServers": [
-		"dns1.nic.deal",
 		"dns2.nic.deal",
 		"dns3.nic.deal",
 		"dns4.nic.deal",
 		"dnsa.nic.deal",
 		"dnsb.nic.deal",
-		"dnsc.nic.deal",
-		"dnsd.nic.deal"
+		"dnsc.nic.deal"
 	],
 	"languages": [
 		"ar",

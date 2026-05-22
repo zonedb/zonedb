@@ -1,6 +1,7 @@
 {
 	"domain": "furniture",
 	"registryOperator": "Binky Moon, LLC",
+	"whoisServer": "whois.nic.furniture",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
