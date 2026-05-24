@@ -2,6 +2,7 @@
 	"domain": "rexroth",
 	"registryOperator": "Robert Bosch GMBH",
 	"infoURL": "https://apps.boschrexroth.com/microsites/nic_rexroth/index.html",
+	"whoisServer": "whois.nic.rexroth",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

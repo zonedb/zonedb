@@ -2,7 +2,6 @@
 	"domain": "cv",
 	"registryOperator": "Agência Reguladora Multissectorial da Economia (ARME)",
 	"countryName": "Cape Verde",
-	"whoisServer": "whois.nic.cv",
 	"rdapURLs": [
 		"https://rdap.nic.cv/"
 	],

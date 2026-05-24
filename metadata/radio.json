@@ -22,7 +22,6 @@
 		"und-Arab",
 		"und-Cyrl",
 		"und-Grek",
-		"und-Jpan",
 		"und-Latn",
 		"zh"
 	],
@@ -83,12 +82,6 @@
 			"key": "und-Grek",
 			"value": "https://www.iana.org/domains/idn-tables/tables/radio_und-grek_1.1.xml",
 			"source": "https://www.iana.org/domains/idn-tables"
-		},
-		{
-			"type": "idn-table",
-			"key": "und-Jpan",
-			"value": "https://centralnicregistry.com/services/idn-table/und-Jpan/997/",
-			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
 			"type": "idn-table",
