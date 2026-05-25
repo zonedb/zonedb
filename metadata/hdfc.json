@@ -2,7 +2,6 @@
 	"domain": "hdfc",
 	"registryOperator": "HOUSING DEVELOPMENT FINANCE CORPORATION LIMITED",
 	"infoURL": "http://nic.hdfc/",
-	"whoisServer": "whois.nic.hdfc",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

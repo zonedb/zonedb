@@ -6,6 +6,7 @@
 		"https://rdap.nominet.uk/realestate/"
 	],
 	"nameServers": [
+		"dns1.nic.realestate",
 		"dns2.nic.realestate",
 		"dns3.nic.realestate",
 		"dns4.nic.realestate",

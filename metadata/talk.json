@@ -8,6 +8,7 @@
 	"nameServers": [
 		"dns1.nic.talk",
 		"dns2.nic.talk",
+		"dns3.nic.talk",
 		"dns4.nic.talk",
 		"dnsa.nic.talk",
 		"dnsb.nic.talk",

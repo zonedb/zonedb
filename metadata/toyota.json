@@ -2,6 +2,7 @@
 	"domain": "toyota",
 	"registryOperator": "TOYOTA MOTOR CORPORATION",
 	"infoURL": "http://www.nic.toyota/",
+	"whoisServer": "whois.nic.toyota",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

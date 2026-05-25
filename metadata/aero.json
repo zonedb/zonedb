@@ -2,7 +2,6 @@
 	"domain": "aero",
 	"registryOperator": "Societe Internationale de Telecommunications Aeronautique (SITA INC USA)",
 	"infoURL": "https://information.aero/",
-	"whoisServer": "whois.aero",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

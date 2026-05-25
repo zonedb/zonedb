@@ -2,6 +2,7 @@
 	"domain": "discover",
 	"registryOperator": "Discover Financial Services",
 	"infoURL": "https://www.nic.discover//",
+	"whoisServer": "whois.nic.discover",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
