@@ -5,7 +5,6 @@
 	"infoURL": "https://www.nic.cd/nic.cd/",
 	"nameServers": [
 		"gransy-anycast1.nic.cd",
-		"gransy-anycast2.nic.cd",
 		"pch.nic.cd"
 	],
 	"tags": [

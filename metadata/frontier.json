@@ -8,6 +8,7 @@
 	],
 	"nameServers": [
 		"a.nic.frontier",
+		"b.nic.frontier",
 		"c.nic.frontier",
 		"ns1.dns.nic.frontier",
 		"ns2.dns.nic.frontier",

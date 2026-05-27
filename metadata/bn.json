@@ -7,7 +7,6 @@
 	"nameServers": [
 		"bn-ns.anycast.pch.net",
 		"ns1.bnnic.bn",
-		"ns2.bnnic.bn",
 		"ns4.apnic.net"
 	],
 	"tags": [

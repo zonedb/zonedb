@@ -1,5 +1,9 @@
 {
 	"domain": "school.na",
+	"nameServers": [
+		"beau.ns.cloudflare.com",
+		"reza.ns.cloudflare.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
