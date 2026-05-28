@@ -1,12 +1,14 @@
 {
 	"domain": "dance",
 	"registryOperator": "Dog Beach, LLC",
+	"whoisServer": "whois.nic.dance",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.dance",
 		"v0n1.nic.dance",
+		"v0n2.nic.dance",
 		"v0n3.nic.dance",
 		"v2n0.nic.dance",
 		"v2n1.nic.dance"

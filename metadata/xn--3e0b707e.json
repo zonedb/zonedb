@@ -4,7 +4,6 @@
 	"domainAscii": "kr",
 	"registryOperator": "KISA (Korea Internet & Security Agency)",
 	"countryName": "South Korea",
-	"whoisServer": "whois.kr",
 	"nameServers": [
 		"b.dns.kr",
 		"c.dns.kr",

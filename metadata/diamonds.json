@@ -1,6 +1,7 @@
 {
 	"domain": "diamonds",
 	"registryOperator": "Binky Moon, LLC",
+	"whoisServer": "whois.nic.diamonds",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
@@ -8,6 +9,7 @@
 		"v0n0.nic.diamonds",
 		"v0n1.nic.diamonds",
 		"v0n2.nic.diamonds",
+		"v0n3.nic.diamonds",
 		"v2n0.nic.diamonds",
 		"v2n1.nic.diamonds"
 	],

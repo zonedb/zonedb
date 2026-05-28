@@ -2,6 +2,7 @@
 	"domain": "jio",
 	"registryOperator": "Reliance Industries Limited",
 	"infoURL": "http://nic.jio/",
+	"whoisServer": "whois.nic.jio",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

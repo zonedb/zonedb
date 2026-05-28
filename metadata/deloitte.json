@@ -9,7 +9,8 @@
 	"nameServers": [
 		"a.nic.deloitte",
 		"b.nic.deloitte",
-		"c.nic.deloitte"
+		"c.nic.deloitte",
+		"d.nic.deloitte"
 	],
 	"languages": [
 		"ar",

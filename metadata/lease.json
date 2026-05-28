@@ -6,6 +6,7 @@
 	],
 	"nameServers": [
 		"v0n0.nic.lease",
+		"v0n1.nic.lease",
 		"v0n2.nic.lease",
 		"v0n3.nic.lease",
 		"v2n0.nic.lease",
