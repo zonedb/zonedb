@@ -5,6 +5,7 @@
 	],
 	"registryOperator": "Datacom Co., Ltd.",
 	"countryName": "Mongolia",
+	"whoisServer": "whois.nic.mn",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

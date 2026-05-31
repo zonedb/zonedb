@@ -4,8 +4,7 @@
 	"countryName": "Swaziland",
 	"nameServers": [
 		"ns1.sispa.org.sz",
-		"rip.psg.com",
-		"sz.cctld.authdns.ripe.net"
+		"rip.psg.com"
 	],
 	"tags": [
 		"country",
