@@ -2,6 +2,7 @@
 	"domain": "citadel",
 	"registryOperator": "Citadel Domain LLC",
 	"infoURL": "http://www.nic.citadel/",
+	"whoisServer": "whois.nic.citadel",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
