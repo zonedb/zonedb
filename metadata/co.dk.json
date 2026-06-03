@@ -2,7 +2,6 @@
 	"domain": "co.dk",
 	"nameServers": [
 		"dns2000.euro-isp.net",
-		"dns2001.euro-isp.net",
 		"mail.digitalmarketing.net",
 		"ns.digitalmarketing.net",
 		"post.digitalmarketing.net",

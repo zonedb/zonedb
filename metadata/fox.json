@@ -7,7 +7,6 @@
 		"https://rdap.nic.fox/"
 	],
 	"nameServers": [
-		"a.nic.fox",
 		"b.nic.fox",
 		"c.nic.fox",
 		"ns1.dns.nic.fox",

@@ -1,6 +1,9 @@
 {
 	"domain": "dental.np",
 	"infoURL": "https://register.com.np/",
+	"nameServers": [
+		"shikhar.mos.com.np"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

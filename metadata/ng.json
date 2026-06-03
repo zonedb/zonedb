@@ -4,7 +4,7 @@
 	"countryName": "Nigeria",
 	"infoURL": "https://web4africa.ng/ng-domains/",
 	"rdapURLs": [
-		"http://rdap.nic.net.ng/"
+		"https://rdap.nic.net.ng/"
 	],
 	"nameServers": [
 		"ns2.nic.net.ng",
