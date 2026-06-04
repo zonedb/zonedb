@@ -5,6 +5,7 @@
 	"whoisServer": "whois.norid.no",
 	"nameServers": [
 		"a.nic.bv",
+		"nac.no",
 		"nn.uninett.no",
 		"server.nordu.net",
 		"x.nic.no",

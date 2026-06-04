@@ -4,7 +4,8 @@
 		"b.dns.id",
 		"c.dns.id",
 		"d.dns.id",
-		"e.dns.id"
+		"e.dns.id",
+		"f.dns.id"
 	],
 	"policies": [
 		{

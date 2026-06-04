@@ -6,7 +6,6 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.frogans",
 		"a2.nic.frogans",
 		"b0.nic.frogans",
 		"c0.nic.frogans"

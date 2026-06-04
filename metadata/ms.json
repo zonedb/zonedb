@@ -2,7 +2,6 @@
 	"domain": "ms",
 	"registryOperator": "MNI Networks Ltd.",
 	"countryName": "Montserrat",
-	"whoisServer": "whois.nic.ms",
 	"rdapURLs": [
 		"https://rdap.nic.ms/"
 	],
