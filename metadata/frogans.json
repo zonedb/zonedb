@@ -2,10 +2,12 @@
 	"domain": "frogans",
 	"registryOperator": "OP3FT",
 	"infoURL": "https://nic.frogans/en/main.html",
+	"whoisServer": "whois.nic.frogans",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"a0.nic.frogans",
 		"a2.nic.frogans",
 		"b0.nic.frogans",
 		"c0.nic.frogans"

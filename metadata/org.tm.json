@@ -6,9 +6,7 @@
 		"dns2.nic.tm",
 		"dns3.nic.tm",
 		"dns4.nic.tm",
-		"dns5.nic.tm",
-		"dns6.nic.tm",
-		"dns7.nic.tm"
+		"dns6.nic.tm"
 	],
 	"policies": [
 		{

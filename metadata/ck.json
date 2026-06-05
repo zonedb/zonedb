@@ -4,8 +4,8 @@
 	"countryName": "Cook Islands",
 	"infoURL": "https://www.vodafone.co.ck/domain-admin-policy",
 	"nameServers": [
-		"circa.mcs.vuw.ac.nz",
-		"parau.oyster.net.ck"
+		"parau.oyster.net.ck",
+		"poiparau.oyster.net.ck"
 	],
 	"tags": [
 		"closed",
