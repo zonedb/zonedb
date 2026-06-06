@@ -6,8 +6,7 @@
 	"nameServers": [
 		"barney.advsys.co.uk",
 		"hoppy.iom.com",
-		"ns4.ja.net",
-		"pebbles.iom.com"
+		"ns4.ja.net"
 	],
 	"tags": [
 		"country",

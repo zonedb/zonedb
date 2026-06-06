@@ -2,7 +2,6 @@
 	"domain": "cafe",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.cafe",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
@@ -10,7 +9,6 @@
 		"v0n0.nic.cafe",
 		"v0n1.nic.cafe",
 		"v0n2.nic.cafe",
-		"v0n3.nic.cafe",
 		"v2n0.nic.cafe",
 		"v2n1.nic.cafe"
 	],

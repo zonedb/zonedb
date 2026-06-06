@@ -1,5 +1,9 @@
 {
 	"domain": "edu.km",
+	"nameServers": [
+		"dns1.nic.km",
+		"dns2.nic.km"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
