@@ -7,7 +7,6 @@
 		"https://rdap.nic.latrobe/"
 	],
 	"nameServers": [
-		"a.nic.latrobe",
 		"b.nic.latrobe",
 		"c.nic.latrobe",
 		"x.nic.latrobe",

@@ -5,7 +5,6 @@
 		"https://rdap.nominet.uk/career/"
 	],
 	"nameServers": [
-		"dns1.nic.career",
 		"dns2.nic.career",
 		"dns3.nic.career",
 		"dns4.nic.career",

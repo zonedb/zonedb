@@ -9,6 +9,7 @@
 	"nameServers": [
 		"a.nic.cisco",
 		"b.nic.cisco",
+		"c.nic.cisco",
 		"ns1.dns.nic.cisco",
 		"ns2.dns.nic.cisco",
 		"ns3.dns.nic.cisco"

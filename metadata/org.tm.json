@@ -1,6 +1,7 @@
 {
 	"domain": "org.tm",
 	"nameServers": [
+		"dns01.nic.tm",
 		"dns1.nic.tm",
 		"dns2.nic.tm",
 		"dns3.nic.tm",

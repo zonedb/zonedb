@@ -1,7 +1,7 @@
 {
 	"domain": "cologne",
 	"registryOperator": "dotKoeln GmbH",
-	"whoisServer": "whois.ryce-rsp.com",
+	"whoisServer": "whois.nic.cologne",
 	"rdapURLs": [
 		"https://rdap.ryce-rsp.com/rdap/"
 	],

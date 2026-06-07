@@ -6,6 +6,7 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"v0n0.nic.jewelry",
 		"v0n1.nic.jewelry",
 		"v0n2.nic.jewelry",
 		"v0n3.nic.jewelry",

@@ -7,9 +7,9 @@
 	],
 	"nameServers": [
 		"v0n0.nic.bike",
-		"v0n1.nic.bike",
 		"v0n2.nic.bike",
 		"v0n3.nic.bike",
+		"v2n0.nic.bike",
 		"v2n1.nic.bike"
 	],
 	"languages": [

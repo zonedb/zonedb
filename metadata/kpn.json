@@ -8,7 +8,6 @@
 	"nameServers": [
 		"a.nic.kpn",
 		"b.nic.kpn",
-		"c.nic.kpn",
 		"d.nic.kpn"
 	],
 	"tags": [

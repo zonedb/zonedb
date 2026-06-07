@@ -9,6 +9,7 @@
 	"nameServers": [
 		"a.nic.frl",
 		"b.nic.frl",
+		"c.nic.frl",
 		"d.nic.frl"
 	],
 	"locations": [

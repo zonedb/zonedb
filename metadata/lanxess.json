@@ -7,7 +7,6 @@
 		"https://rdap.nic.lanxess/"
 	],
 	"nameServers": [
-		"a.nic.lanxess",
 		"b.nic.lanxess",
 		"c.nic.lanxess",
 		"ns1.dns.nic.lanxess",

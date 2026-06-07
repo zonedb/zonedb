@@ -2,7 +2,6 @@
 	"domain": "nv.com",
 	"nameServers": [
 		"a.root-servers.nv.com",
-		"b.root-servers.nv.com",
 		"c.root-servers.nv.com",
 		"d.root-servers.nv.com"
 	],
