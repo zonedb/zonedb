@@ -2,7 +2,6 @@
 	"domain": "brother",
 	"registryOperator": "Brother Industries, Ltd.",
 	"infoURL": "https://nic.brother/",
-	"whoisServer": "whois.nic.brother",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

@@ -9,7 +9,8 @@
 	"nameServers": [
 		"a0.nic.kuokgroup",
 		"a2.nic.kuokgroup",
-		"b0.nic.kuokgroup"
+		"b0.nic.kuokgroup",
+		"c0.nic.kuokgroup"
 	],
 	"tags": [
 		"brand",

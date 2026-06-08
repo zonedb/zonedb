@@ -1,6 +1,7 @@
 {
 	"domain": "community",
 	"registryOperator": "Binky Moon, LLC",
+	"whoisServer": "whois.nic.community",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -7,7 +7,6 @@
 		"https://rdap.nic.cm/"
 	],
 	"nameServers": [
-		"auth02.ns.uu.net",
 		"ns-cm.afrinic.net",
 		"ns-cm.nic.fr",
 		"ns.itu.ch",

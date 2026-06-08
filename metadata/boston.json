@@ -8,6 +8,7 @@
 	],
 	"nameServers": [
 		"a.nic.boston",
+		"b.nic.boston",
 		"c.nic.boston",
 		"x.nic.boston",
 		"y.nic.boston",

@@ -7,6 +7,7 @@
 	],
 	"nameServers": [
 		"dns1.nic.kindle",
+		"dns2.nic.kindle",
 		"dns3.nic.kindle",
 		"dns4.nic.kindle",
 		"dnsa.nic.kindle",

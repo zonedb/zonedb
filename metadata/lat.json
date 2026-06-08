@@ -7,6 +7,7 @@
 		"https://rdap.centralnic.com/lat/"
 	],
 	"nameServers": [
+		"a.nic.lat",
 		"b.nic.lat",
 		"c.nic.lat",
 		"d.nic.lat"
