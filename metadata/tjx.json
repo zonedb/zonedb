@@ -7,7 +7,6 @@
 		"https://rdap.nic.tjx/"
 	],
 	"nameServers": [
-		"a.nic.tjx",
 		"b.nic.tjx",
 		"c.nic.tjx",
 		"ns1.dns.nic.tjx",

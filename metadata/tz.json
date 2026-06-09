@@ -4,7 +4,7 @@
 	"countryName": "Tanzania",
 	"whoisServer": "whois.tznic.or.tz",
 	"rdapURLs": [
-		"https://whois.tznic.or.tz/rdap/"
+		"https://rdap.tznic.or.tz/"
 	],
 	"nameServers": [
 		"fork.sth.dnsnode.net",

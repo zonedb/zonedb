@@ -2,7 +2,6 @@
 	"domain": "sharp",
 	"registryOperator": "Sharp Corporation",
 	"infoURL": "https://nic.sharp/",
-	"whoisServer": "whois.nic.gmo",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

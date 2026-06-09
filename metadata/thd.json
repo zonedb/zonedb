@@ -8,8 +8,7 @@
 	"nameServers": [
 		"a0.nic.thd",
 		"a2.nic.thd",
-		"b0.nic.thd",
-		"c0.nic.thd"
+		"b0.nic.thd"
 	],
 	"tags": [
 		"brand",

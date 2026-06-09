@@ -11,8 +11,7 @@
 		"b.nic.tdk",
 		"c.nic.tdk",
 		"ns1.dns.nic.tdk",
-		"ns2.dns.nic.tdk",
-		"ns3.dns.nic.tdk"
+		"ns2.dns.nic.tdk"
 	],
 	"languages": [
 		"ja"

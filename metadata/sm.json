@@ -3,7 +3,6 @@
 	"registryOperator": "Telecom Italia San Marino S.p.A.",
 	"countryName": "San Marino",
 	"nameServers": [
-		"dns.intelcom.sm",
 		"dns.omniway.sm",
 		"ns3.telecomitalia.sm",
 		"sm.cctld.authdns.ripe.net"

@@ -3,6 +3,7 @@
 	"registryOperator": "Nigeria Internet Registration Association",
 	"countryName": "Nigeria",
 	"infoURL": "https://web4africa.ng/ng-domains/",
+	"whoisServer": "whois.nic.net.ng",
 	"rdapURLs": [
 		"https://rdap.nic.net.ng/"
 	],

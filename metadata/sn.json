@@ -8,7 +8,6 @@
 	],
 	"nameServers": [
 		"dns-tld.ird.fr",
-		"ns-sn.nic.fr",
 		"ns.ucad.sn",
 		"ns1.sonatel.sn",
 		"sn.cctld.authdns.ripe.net"

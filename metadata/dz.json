@@ -6,6 +6,7 @@
 	"registryOperator": "CERIST",
 	"countryName": "Algeria",
 	"nameServers": [
+		"ns-dz.afrinic.net",
 		"ns1.nic.dz",
 		"ns2.nic.dz",
 		"ns3.nic.fr",

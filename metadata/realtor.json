@@ -12,8 +12,7 @@
 		"dns4.nic.realtor",
 		"dnsa.nic.realtor",
 		"dnsb.nic.realtor",
-		"dnsc.nic.realtor",
-		"dnsd.nic.realtor"
+		"dnsc.nic.realtor"
 	],
 	"tags": [
 		"generic"
