@@ -11,6 +11,7 @@
 		"b.nic.stream",
 		"c.nic.stream",
 		"ns1.dns.nic.stream",
+		"ns2.dns.nic.stream",
 		"ns3.dns.nic.stream"
 	],
 	"languages": [

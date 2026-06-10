@@ -7,6 +7,7 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"v0n0.nic.tiaa",
 		"v0n1.nic.tiaa",
 		"v0n2.nic.tiaa",
 		"v0n3.nic.tiaa",

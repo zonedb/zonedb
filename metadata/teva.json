@@ -8,6 +8,7 @@
 	],
 	"nameServers": [
 		"a.nic.teva",
+		"b.nic.teva",
 		"c.nic.teva",
 		"ns1.dns.nic.teva",
 		"ns2.dns.nic.teva",

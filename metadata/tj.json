@@ -6,7 +6,8 @@
 	"nameServers": [
 		"ns1.nic.tj",
 		"ns2.tojikiston.com",
-		"phloem.uoregon.edu"
+		"phloem.uoregon.edu",
+		"tj.cctld.authdns.ripe.net"
 	],
 	"tags": [
 		"country",
