@@ -5,10 +5,6 @@
 		"nsn1.mijndomein.nl",
 		"nsn2.mijndomein.nl"
 	],
-	"wildcards": [
-		"213.249.67.10",
-		"2a01:448:2001::10"
-	],
 	"tags": [
 		"private"
 	],

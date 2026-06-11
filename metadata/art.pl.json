@@ -4,9 +4,6 @@
 		"dns14.ovh.net",
 		"ns14.ovh.net"
 	],
-	"wildcards": [
-		"146.59.33.164"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
