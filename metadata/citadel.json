@@ -9,7 +9,6 @@
 	"nameServers": [
 		"a0.nic.citadel",
 		"a2.nic.citadel",
-		"b0.nic.citadel",
 		"c0.nic.citadel"
 	],
 	"tags": [

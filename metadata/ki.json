@@ -2,7 +2,6 @@
 	"domain": "ki",
 	"registryOperator": "Ministry of Information, Communications and Transport (MICT)",
 	"countryName": "Kiribati",
-	"whoisServer": "whois.nic.ki",
 	"nameServers": [
 		"anycastdns1.nic.ki",
 		"anycastdns2.nic.ki",
