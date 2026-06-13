@@ -1,8 +1,7 @@
 {
 	"domain": "ac.tj",
 	"nameServers": [
-		"ns.tojikiston.com",
-		"ns1.tojikiston.com"
+		"ns.tojikiston.com"
 	],
 	"policies": [
 		{

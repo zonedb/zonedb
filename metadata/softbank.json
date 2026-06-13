@@ -2,7 +2,6 @@
 	"domain": "softbank",
 	"registryOperator": "SoftBank Group Corp.",
 	"infoURL": "https://nic.softbank/",
-	"whoisServer": "whois.nic.softbank",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

@@ -2,7 +2,6 @@
 	"domain": "lefrak",
 	"registryOperator": "LeFrak Organization, Inc.",
 	"infoURL": "http://nic.lefrak/",
-	"whoisServer": "whois.nic.lefrak",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

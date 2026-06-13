@@ -3,7 +3,6 @@
 	"whoisServer": "whois.biz.ua",
 	"nameServers": [
 		"ns1.uadns.com",
-		"ns2.uadns.com",
 		"ns3.uadns.com"
 	],
 	"policies": [

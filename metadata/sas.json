@@ -9,7 +9,6 @@
 	"nameServers": [
 		"a.nic.sas",
 		"b.nic.sas",
-		"c.nic.sas",
 		"ns1.dns.nic.sas",
 		"ns2.dns.nic.sas",
 		"ns3.dns.nic.sas"

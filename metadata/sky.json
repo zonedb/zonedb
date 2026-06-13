@@ -6,7 +6,6 @@
 		"https://rdap.nominet.uk/sky/"
 	],
 	"nameServers": [
-		"dns1.nic.sky",
 		"dns2.nic.sky",
 		"dns3.nic.sky",
 		"dns4.nic.sky",

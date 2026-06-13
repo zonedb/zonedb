@@ -2,6 +2,7 @@
 	"domain": "arpa",
 	"registryOperator": "Internet Architecture Board (IAB)",
 	"infoURL": "https://www.iana.org/domains/arpa",
+	"whoisServer": "whois.iana.org",
 	"nameServers": [
 		"a.ns.arpa",
 		"b.ns.arpa",

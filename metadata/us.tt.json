@@ -2,8 +2,7 @@
 	"domain": "us.tt",
 	"nameServers": [
 		"ns1.us.tt",
-		"ns2.us.tt",
-		"ns3.us.tt"
+		"ns2.us.tt"
 	],
 	"wildcards": [
 		"2607:5300:205:200::579b",

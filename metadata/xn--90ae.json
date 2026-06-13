@@ -4,6 +4,7 @@
 	"domainAscii": "bg",
 	"registryOperator": "Imena.BG AD",
 	"countryName": "Bulgaria",
+	"whoisServer": "whois.imena.bg",
 	"nameServers": [
 		"a.nic.bg",
 		"b.nic.bg",

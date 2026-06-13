@@ -1,6 +1,7 @@
 {
 	"domain": "int",
 	"registryOperator": "Internet Assigned Numbers Authority",
+	"whoisServer": "whois.iana.org",
 	"rdapURLs": [
 		"https://rdap.iana.org/"
 	],
