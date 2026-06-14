@@ -1,6 +1,5 @@
 {
 	"domain": "gov.uk",
-	"whoisServer": "whois.ja.net",
 	"nameServers": [
 		"dns1.nic.uk",
 		"dns2.nic.uk",

@@ -8,6 +8,7 @@
 	],
 	"nameServers": [
 		"a.nic.select",
+		"b.nic.select",
 		"c.nic.select",
 		"x.nic.select",
 		"y.nic.select",

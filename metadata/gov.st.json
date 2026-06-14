@@ -1,6 +1,7 @@
 {
 	"domain": "gov.st",
 	"nameServers": [
+		"ns1.gov.st",
 		"ns2.gov.st"
 	],
 	"policies": [

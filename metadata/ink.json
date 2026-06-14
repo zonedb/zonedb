@@ -6,6 +6,7 @@
 		"https://rdap.nic.ink/"
 	],
 	"nameServers": [
+		"a.nic.ink",
 		"b.nic.ink",
 		"c.nic.ink",
 		"x.nic.ink",

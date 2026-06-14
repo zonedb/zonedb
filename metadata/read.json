@@ -10,7 +10,6 @@
 		"dns2.nic.read",
 		"dns3.nic.read",
 		"dns4.nic.read",
-		"dnsa.nic.read",
 		"dnsb.nic.read",
 		"dnsc.nic.read",
 		"dnsd.nic.read"

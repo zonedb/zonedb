@@ -5,6 +5,7 @@
 	"infoURL": "http://nic.mw/",
 	"whoisServer": "whois.nic.mw",
 	"nameServers": [
+		"chambo.sdnp.org.mw",
 		"domwe.sdn.mw",
 		"mw-e.ns.nic.cz",
 		"mw.cctld.authdns.ripe.net",

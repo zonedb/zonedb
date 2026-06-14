@@ -1,6 +1,5 @@
 {
 	"domain": "ac.uk",
-	"whoisServer": "whois.ja.net",
 	"nameServers": [
 		"auth03.ns.uu.net",
 		"dns-3.dfn.de",

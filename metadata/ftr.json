@@ -8,6 +8,7 @@
 	],
 	"nameServers": [
 		"a.nic.ftr",
+		"b.nic.ftr",
 		"c.nic.ftr",
 		"ns1.dns.nic.ftr",
 		"ns2.dns.nic.ftr",
