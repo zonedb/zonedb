@@ -1,8 +1,8 @@
 {
 	"domain": "untz.ba",
 	"nameServers": [
-		"gradina.untz.ba",
-		"slatina.untz.ba"
+		"hayes.ns.cloudflare.com",
+		"rachel.ns.cloudflare.com"
 	],
 	"policies": [
 		{

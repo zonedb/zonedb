@@ -2,6 +2,7 @@
 	"domain": "sener",
 	"registryOperator": "Sener Ingeniería y Sistemas, S.A.",
 	"infoURL": "http://nic.sener/",
+	"whoisServer": "whois.nic.rwe",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

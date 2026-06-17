@@ -4,6 +4,7 @@
 	"countryName": "Luxembourg",
 	"whoisServer": "whois.dns.lu",
 	"nameServers": [
+		"1.ns.lu",
 		"g.dns.lu",
 		"i.dns.lu",
 		"j.dns.lu",

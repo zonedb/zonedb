@@ -3,6 +3,7 @@
 	"registryOperator": "Ministry of Communications and IT",
 	"countryName": "Afghanistan",
 	"infoURL": "https://nic.af/",
+	"whoisServer": "whois.nic.af",
 	"nameServers": [
 		"ns.anycast.nic.af",
 		"ns1.anycastdns.cz",

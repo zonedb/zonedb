@@ -7,7 +7,6 @@
 		"https://rdap.centralnic.com/cyou/"
 	],
 	"nameServers": [
-		"a.nic.cyou",
 		"b.nic.cyou",
 		"c.nic.cyou",
 		"d.nic.cyou"
