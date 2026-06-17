@@ -68,7 +68,8 @@ func TestZone_WhoisServer(t *testing.T) {
 		"er":     "",
 		"uk.com": ZoneMap["us.com"].WhoisServer(),
 		"com.er": "",
-		"ac.uk":  ZoneMap["gov.uk"].WhoisServer(),
+		"ac.uk":  "whois.ja.net", // JANET serves .ac.uk directly; no longer inherits whois.nic.uk from uk
+		"gov.uk": ZoneMap["uk"].WhoisServer(),
 		"co.uk":  ZoneMap["uk"].WhoisServer(),
 		"org.uk": ZoneMap["uk"].WhoisServer(),
 	}

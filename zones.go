@@ -7195,7 +7195,7 @@ func i4719() {
 	z[4722] = Zone{"or.ug", &z[1451], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[4723] = Zone{"org.ug", &z[1451], x, 0, e, e, n, n, n, n, e, e, n, f}
 	z[4724] = Zone{"sc.ug", &z[1451], x, 0, e, e, n, n, n, n, e, e, n, f}
-	z[4725] = Zone{"ac.uk", &z[1452], x, 0, e, e, w{"auth03.ns.uu.net", "dns-3.dfn.de", "ns0.ja.net", "ns1.surfnet.nl", "ns2.ja.net", "ns3.ja.net", "ns4.ja.net"}, n, n, n, e, e, n, f}
+	z[4725] = Zone{"ac.uk", &z[1452], x, 0, e, e, w{"auth03.ns.uu.net", "dns-3.dfn.de", "ns0.ja.net", "ns1.surfnet.nl", "ns2.ja.net", "ns3.ja.net", "ns4.ja.net"}, n, n, n, "whois.ja.net", e, n, f}
 	z[4726] = Zone{"co.uk", &z[1452], x, 0, e, e, w{"dns1.nic.uk", "dns2.nic.uk", "dns3.nic.uk", "dns4.nic.uk", "nsa.nic.uk", "nsb.nic.uk", "nsc.nic.uk", "nsd.nic.uk"}, n, n, n, "whois.nic.uk", e, n, f}
 	z[4727] = Zone{"gov.uk", &z[1452], x, 0, e, e, w{"dns1.nic.uk", "dns2.nic.uk", "dns3.nic.uk", "dns4.nic.uk", "nsa.nic.uk", "nsb.nic.uk", "nsc.nic.uk", "nsd.nic.uk"}, n, n, n, e, e, n, f}
 }
