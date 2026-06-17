@@ -58,7 +58,8 @@ jobs:
         run: go vet ./...
 
       - name: Run Go tests
-        run: go test -mod=readonly -v -race ./...
+        # No -v: only failures matter in the nightly run, and -v buries them in PASS noise.
+        run: go test -mod=readonly -race ./...
 
       - name: Commit changes
         run: |
