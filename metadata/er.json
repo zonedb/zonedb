@@ -3,7 +3,6 @@
 	"registryOperator": "Eritrea Telecommunication Services Corporation (EriTel)",
 	"countryName": "Eritrea",
 	"nameServers": [
-		"er.cctld.authdns.ripe.net",
 		"sawanew.noc.net.er",
 		"zaranew.noc.net.er"
 	],

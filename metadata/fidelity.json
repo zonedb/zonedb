@@ -2,7 +2,6 @@
 	"domain": "fidelity",
 	"registryOperator": "Fidelity Brokerage Services LLC",
 	"infoURL": "https://www.fidelity.com/why-fidelity/nic",
-	"whoisServer": "whois.nic.fidelity",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -3,7 +3,7 @@
 	"registryOperator": "Dansk Internet Forum",
 	"countryName": "Denmark",
 	"infoURL": "https://www.dk-hostmaster.dk/da",
-	"whoisServer": "whois.dk-hostmaster.dk",
+	"whoisServer": "whois.punktum.dk",
 	"nameServers": [
 		"b.nic.dk",
 		"c.nic.dk",
