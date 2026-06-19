@@ -8,7 +8,8 @@
 	"nameServers": [
 		"a.nic.dhl",
 		"b.nic.dhl",
-		"c.nic.dhl"
+		"c.nic.dhl",
+		"d.nic.dhl"
 	],
 	"languages": [
 		"mul-Latn"

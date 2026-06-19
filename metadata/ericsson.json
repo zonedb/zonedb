@@ -8,6 +8,7 @@
 	"nameServers": [
 		"a0.nic.ericsson",
 		"a2.nic.ericsson",
+		"b0.nic.ericsson",
 		"c0.nic.ericsson"
 	],
 	"tags": [

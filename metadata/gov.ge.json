@@ -1,9 +1,5 @@
 {
 	"domain": "gov.ge",
-	"nameServers": [
-		"a-root-ns.gov.ge",
-		"b-root-ns.gov.ge"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

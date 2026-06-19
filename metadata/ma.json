@@ -7,6 +7,7 @@
 	"countryName": "Morocco",
 	"whoisServer": "whois.registre.ma",
 	"nameServers": [
+		"a.tld.ma",
 		"b.tld.ma",
 		"c.tld.ma",
 		"d.tld.ma",

@@ -9,7 +9,8 @@
 	"nameServers": [
 		"a.nic.diet",
 		"b.nic.diet",
-		"c.nic.diet"
+		"c.nic.diet",
+		"d.nic.diet"
 	],
 	"languages": [
 		"de",

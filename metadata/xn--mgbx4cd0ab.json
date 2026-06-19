@@ -9,7 +9,8 @@
 		"a.mynic.centralnic-dns.com",
 		"b.mynic.centralnic-dns.com",
 		"c.mynic.centralnic-dns.com",
-		"d.mynic.centralnic-dns.com"
+		"d.mynic.centralnic-dns.com",
+		"e.nic.my"
 	],
 	"tags": [
 		"country",

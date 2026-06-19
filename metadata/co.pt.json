@@ -3,5 +3,8 @@
 	"nameServers": [
 		"ns61.plako.net",
 		"ns62.plako.net"
+	],
+	"wildcards": [
+		"185.98.250.164"
 	]
 }
