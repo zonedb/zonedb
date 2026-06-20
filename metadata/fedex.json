@@ -2,7 +2,6 @@
 	"domain": "fedex",
 	"registryOperator": "Federal Express Corporation",
 	"infoURL": "https://www.fedex.com/en-us/shipping.html",
-	"whoisServer": "whois.nic.fedex",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

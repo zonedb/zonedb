@@ -2,7 +2,6 @@
 	"domain": "bingo",
 	"registryOperator": "Binky Moon, LLC",
 	"infoURL": "https://identity.digital/",
-	"whoisServer": "whois.nic.bingo",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
