@@ -1,8 +1,7 @@
 {
 	"domain": "org.ga",
 	"nameServers": [
-		"ns1.aninf.ga",
-		"ns2.aninf.ga"
+		"ns1.aninf.ga"
 	],
 	"policies": [
 		{

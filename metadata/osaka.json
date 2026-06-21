@@ -8,7 +8,6 @@
 	],
 	"nameServers": [
 		"a.nic.osaka",
-		"b.nic.osaka",
 		"c.nic.osaka",
 		"ns1.dns.nic.osaka",
 		"ns2.dns.nic.osaka",
