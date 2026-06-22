@@ -7,6 +7,7 @@
 	],
 	"nameServers": [
 		"a.nic.ooo",
+		"b.nic.ooo",
 		"c.nic.ooo",
 		"d.nic.ooo"
 	],

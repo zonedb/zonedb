@@ -7,7 +7,6 @@
 		"https://rdap.nic.americanexpress/"
 	],
 	"nameServers": [
-		"a.nic.americanexpress",
 		"b.nic.americanexpress",
 		"c.nic.americanexpress",
 		"ns1.dns.nic.americanexpress",

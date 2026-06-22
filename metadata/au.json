@@ -8,11 +8,9 @@
 		"https://rdap.cctld.au/rdap/"
 	],
 	"nameServers": [
-		"a.au",
 		"q.au",
 		"r.au",
-		"s.au",
-		"t.au"
+		"s.au"
 	],
 	"tags": [
 		"country",

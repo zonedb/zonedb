@@ -6,11 +6,9 @@
 	],
 	"nameServers": [
 		"v0n0.nic.graphics",
-		"v0n1.nic.graphics",
 		"v0n2.nic.graphics",
 		"v0n3.nic.graphics",
-		"v2n0.nic.graphics",
-		"v2n1.nic.graphics"
+		"v2n0.nic.graphics"
 	],
 	"languages": [
 		"ar",

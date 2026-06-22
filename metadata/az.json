@@ -5,7 +5,6 @@
 	"infoURL": "https://www.nic.az/",
 	"nameServers": [
 		"az.hostmaster.ua",
-		"ns13.intrans.az",
 		"ns3.intrans.az",
 		"rip.psg.com"
 	],

@@ -6,9 +6,7 @@
 	"whoisURL": "http://nic.ba/lat/menu/view/13",
 	"nameServers": [
 		"bosna.utic.net.ba",
-		"lim.utic.net.ba",
-		"sava.utic.net.ba",
-		"una.utic.net.ba"
+		"lim.utic.net.ba"
 	],
 	"tags": [
 		"country",

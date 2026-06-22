@@ -9,7 +9,6 @@
 	"nameServers": [
 		"a0.nic.ups",
 		"a2.nic.ups",
-		"b0.nic.ups",
 		"c0.nic.ups"
 	],
 	"tags": [

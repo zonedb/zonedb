@@ -6,10 +6,6 @@
 	"rdapURLs": [
 		"https://rdap.nic.vi/"
 	],
-	"nameServers": [
-		"ns3.nic.vi",
-		"pch.nic.vi"
-	],
 	"tags": [
 		"closed",
 		"country",

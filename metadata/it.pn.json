@@ -1,11 +1,7 @@
 {
 	"domain": "it.pn",
 	"nameServers": [
-		"ns1.parkingcrew.net",
 		"ns2.parkingcrew.net"
-	],
-	"wildcards": [
-		"104.247.81.99"
 	],
 	"tags": [
 		"private"

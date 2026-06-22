@@ -7,7 +7,6 @@
 	],
 	"nameServers": [
 		"dns1.nic.aws",
-		"dns2.nic.aws",
 		"dns3.nic.aws",
 		"dns4.nic.aws",
 		"dnsa.nic.aws",

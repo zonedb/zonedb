@@ -3,7 +3,6 @@
 	"nameServers": [
 		"ns1.anycastdns.cz",
 		"ns2.anycastdns.cz",
-		"ns3.nic.vi",
-		"pch.nic.vi"
+		"ns3.nic.vi"
 	]
 }

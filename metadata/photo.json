@@ -7,6 +7,7 @@
 		"https://rdap.nic.photo/"
 	],
 	"nameServers": [
+		"a.nic.photo",
 		"b.nic.photo",
 		"c.nic.photo",
 		"x.nic.photo",

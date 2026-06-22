@@ -7,7 +7,6 @@
 		"https://rdap.nic.axa/"
 	],
 	"nameServers": [
-		"a.nic.axa",
 		"b.nic.axa",
 		"c.nic.axa",
 		"ns1.dns.nic.axa",

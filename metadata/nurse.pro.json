@@ -1,8 +1,7 @@
 {
 	"domain": "nurse.pro",
 	"nameServers": [
-		"standard3.encirca.net",
-		"standard4.encirca.net"
+		"standard3.encirca.net"
 	],
 	"policies": [
 		{

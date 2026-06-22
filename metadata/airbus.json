@@ -6,7 +6,6 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"v0n0.nic.airbus",
 		"v0n1.nic.airbus",
 		"v0n2.nic.airbus",
 		"v0n3.nic.airbus",

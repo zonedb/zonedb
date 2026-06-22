@@ -10,9 +10,7 @@
 		"d.nic.bank",
 		"e.nic.bank",
 		"f.nic.bank",
-		"w.nic.bank",
-		"x.nic.bank",
-		"y.nic.bank"
+		"w.nic.bank"
 	],
 	"tags": [
 		"generic"

@@ -8,9 +8,7 @@
 	"nameServers": [
 		"v0n0.nic.catering",
 		"v0n1.nic.catering",
-		"v0n3.nic.catering",
-		"v2n0.nic.catering",
-		"v2n1.nic.catering"
+		"v0n2.nic.catering"
 	],
 	"languages": [
 		"ar",

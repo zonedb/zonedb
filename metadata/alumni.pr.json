@@ -1,7 +1,6 @@
 {
 	"domain": "alumni.pr",
 	"nameServers": [
-		"descartes.nic.pr",
 		"golomb.nic.pr",
 		"pascal.nic.pr",
 		"pr-dns.denic.de",

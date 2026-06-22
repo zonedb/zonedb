@@ -6,7 +6,6 @@
 		"https://rdap.nominet.uk/broadway/"
 	],
 	"nameServers": [
-		"dns1.nic.broadway",
 		"dns2.nic.broadway",
 		"dns3.nic.broadway",
 		"dns4.nic.broadway",

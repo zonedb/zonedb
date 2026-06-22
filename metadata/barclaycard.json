@@ -7,8 +7,6 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.barclaycard",
-		"a2.nic.barclaycard",
 		"b0.nic.barclaycard",
 		"c0.nic.barclaycard"
 	],

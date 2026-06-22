@@ -7,8 +7,6 @@
 		"https://rdap.centralnic.com/vg/"
 	],
 	"nameServers": [
-		"a.nic.vg",
-		"b.nic.vg",
 		"c.nic.vg",
 		"d.nic.vg"
 	],

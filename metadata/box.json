@@ -7,7 +7,6 @@
 		"https://rdap.centralnic.com/box/"
 	],
 	"nameServers": [
-		"a.nic.box",
 		"b.nic.box",
 		"c.nic.box",
 		"d.nic.box"

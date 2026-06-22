@@ -1,7 +1,6 @@
 {
 	"domain": "ngo.pl",
 	"nameServers": [
-		"janet.ns.cloudflare.com",
 		"julian.ns.cloudflare.com"
 	],
 	"policies": [

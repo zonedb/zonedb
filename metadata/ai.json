@@ -8,9 +8,7 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"v0n0.nic.ai",
 		"v0n1.nic.ai",
-		"v0n2.nic.ai",
 		"v0n3.nic.ai",
 		"v2n0.nic.ai",
 		"v2n1.nic.ai"

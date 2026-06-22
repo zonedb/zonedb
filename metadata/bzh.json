@@ -8,8 +8,7 @@
 	],
 	"nameServers": [
 		"d.nic.fr",
-		"f.ext.nic.fr",
-		"g.ext.nic.fr"
+		"f.ext.nic.fr"
 	],
 	"locations": [
 		"FR-E"
