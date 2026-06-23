@@ -8,6 +8,9 @@
 	],
 	"nameServers": [
 		"a.nic.health",
+		"b.nic.health",
+		"c.nic.health",
+		"ns1.dns.nic.health",
 		"ns2.dns.nic.health",
 		"ns3.dns.nic.health"
 	],

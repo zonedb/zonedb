@@ -11,7 +11,9 @@
 		"dns3.nic.cymru",
 		"dns4.nic.cymru",
 		"dnsa.nic.cymru",
-		"dnsb.nic.cymru"
+		"dnsb.nic.cymru",
+		"dnsc.nic.cymru",
+		"dnsd.nic.cymru"
 	],
 	"locations": [
 		"GB-WLS"

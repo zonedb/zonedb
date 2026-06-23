@@ -6,7 +6,8 @@
 	"nameServers": [
 		"a.ns.ao",
 		"ao-e.ns.nic.cz",
-		"ao02.dns.pt"
+		"ao02.dns.pt",
+		"etld-1.anycast.net"
 	],
 	"tags": [
 		"country",

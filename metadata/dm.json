@@ -5,8 +5,11 @@
 	"whoisServer": "whois.nic.dm",
 	"nameServers": [
 		"ns.blacknightsolutions.com",
+		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
-		"ns2.nic.dm"
+		"ns2.blacknightsolutions.com",
+		"ns2.nic.dm",
+		"ns34.cdns.net"
 	],
 	"languages": [
 		"en-DM"

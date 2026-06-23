@@ -4,7 +4,8 @@
 	"countryName": "Gabon",
 	"nameServers": [
 		"d.nic.fr",
-		"f.ext.nic.fr"
+		"f.ext.nic.fr",
+		"g.ext.nic.fr"
 	],
 	"languages": [
 		"fr-GA"

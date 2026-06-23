@@ -8,7 +8,9 @@
 	],
 	"nameServers": [
 		"a.nic.olayan",
+		"b.nic.olayan",
 		"c.nic.olayan",
+		"x.nic.olayan",
 		"y.nic.olayan",
 		"z.nic.olayan"
 	],

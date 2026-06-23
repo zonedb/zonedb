@@ -2,6 +2,7 @@
 	"domain": "lublin.pl",
 	"nameServers": [
 		"bilbo.nask.org.pl",
+		"ns1.lublin.pl",
 		"ns2.lublin.pl",
 		"ns3.lubman.pl",
 		"ns4.lubman.pl"

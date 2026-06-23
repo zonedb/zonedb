@@ -9,6 +9,9 @@
 	"nameServers": [
 		"a.nic.grocery",
 		"b.nic.grocery",
+		"c.nic.grocery",
+		"x.nic.grocery",
+		"y.nic.grocery",
 		"z.nic.grocery"
 	],
 	"tags": [

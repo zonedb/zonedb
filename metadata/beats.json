@@ -9,7 +9,8 @@
 	"nameServers": [
 		"a0.nic.beats",
 		"a2.nic.beats",
-		"b0.nic.beats"
+		"b0.nic.beats",
+		"c0.nic.beats"
 	],
 	"tags": [
 		"brand",

@@ -9,7 +9,12 @@
 		"a0.nic.weibo",
 		"a2.nic.weibo",
 		"b0.nic.weibo",
-		"c0.nic.weibo"
+		"c0.nic.weibo",
+		"ta.ngtld.cn",
+		"tb.ngtld.cn",
+		"tc.ngtld.cn",
+		"td.ngtld.cn",
+		"te.ngtld.cn"
 	],
 	"languages": [
 		"zh-CN",

@@ -5,6 +5,7 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"v0n0.nic.attorney",
 		"v0n1.nic.attorney",
 		"v0n2.nic.attorney",
 		"v0n3.nic.attorney",

@@ -7,6 +7,7 @@
 		"https://rdap.nic.adult/"
 	],
 	"nameServers": [
+		"a.nic.adult",
 		"b.nic.adult",
 		"c.nic.adult",
 		"x.nic.adult",

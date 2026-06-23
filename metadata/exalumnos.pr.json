@@ -3,6 +3,7 @@
 	"nameServers": [
 		"descartes.nic.pr",
 		"golomb.nic.pr",
+		"pascal.nic.pr",
 		"pr-dns.denic.de",
 		"pr-ns.anycast.pch.net"
 	]

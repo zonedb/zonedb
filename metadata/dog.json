@@ -6,6 +6,9 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"v0n0.nic.dog",
+		"v0n1.nic.dog",
+		"v0n2.nic.dog",
 		"v0n3.nic.dog",
 		"v2n0.nic.dog",
 		"v2n1.nic.dog"

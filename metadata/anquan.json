@@ -7,6 +7,7 @@
 		"https://rdap.teleinfo.cn/"
 	],
 	"nameServers": [
+		"ns1.teleinfo.cn",
 		"ns2.teleinfoo.com",
 		"ns3.teleinfo.cn",
 		"ns4.teleinfoo.com"

@@ -8,6 +8,8 @@
 	],
 	"nameServers": [
 		"a0.nic.allstate",
+		"a2.nic.allstate",
+		"b0.nic.allstate",
 		"c0.nic.allstate"
 	],
 	"tags": [

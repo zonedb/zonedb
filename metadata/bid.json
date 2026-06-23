@@ -7,6 +7,8 @@
 		"https://rdap.nic.bid/"
 	],
 	"nameServers": [
+		"a.nic.bid",
+		"b.nic.bid",
 		"c.nic.bid",
 		"ns1.dns.nic.bid",
 		"ns2.dns.nic.bid",

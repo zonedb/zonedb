@@ -1,7 +1,8 @@
 {
 	"domain": "gov.fo",
 	"nameServers": [
-		"ns1.elektron.fo"
+		"ns1.elektron.fo",
+		"ns2.elektron.fo"
 	],
 	"policies": [
 		{

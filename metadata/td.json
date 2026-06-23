@@ -7,7 +7,8 @@
 	"nameServers": [
 		"anycastdns1.nic.td",
 		"anycastdns2.nic.td",
-		"ns-td.afrinic.net"
+		"ns-td.afrinic.net",
+		"pch.nic.td"
 	],
 	"tags": [
 		"country",

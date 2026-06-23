@@ -5,6 +5,7 @@
 	"infoURL": "https://www.nic.at/",
 	"whoisServer": "whois.nic.at",
 	"nameServers": [
+		"d.ns.at",
 		"j.ns.at",
 		"n.ns.at",
 		"ns1.univie.ac.at",

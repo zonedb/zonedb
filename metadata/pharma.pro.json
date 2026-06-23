@@ -1,6 +1,7 @@
 {
 	"domain": "pharma.pro",
 	"nameServers": [
+		"ns1.sedoparking.com",
 		"ns2.sedoparking.com"
 	],
 	"wildcards": [

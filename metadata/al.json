@@ -6,6 +6,7 @@
 	"whoisURL": "http://www.akep.al/sq/kerkoni-domain",
 	"nameServers": [
 		"munnari.oz.au",
+		"ns1.nic.al",
 		"nsx.nic.al",
 		"rip.psg.com"
 	],

@@ -6,6 +6,7 @@
 		"https://rdap.nominet.uk/azure/"
 	],
 	"nameServers": [
+		"dns1.nic.azure",
 		"dns2.nic.azure",
 		"dns3.nic.azure",
 		"dns4.nic.azure",

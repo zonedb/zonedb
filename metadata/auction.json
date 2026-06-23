@@ -6,10 +6,12 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"v0n0.nic.auction",
 		"v0n1.nic.auction",
 		"v0n2.nic.auction",
 		"v0n3.nic.auction",
-		"v2n0.nic.auction"
+		"v2n0.nic.auction",
+		"v2n1.nic.auction"
 	],
 	"languages": [
 		"ar",

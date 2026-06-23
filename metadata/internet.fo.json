@@ -1,6 +1,7 @@
 {
 	"domain": "internet.fo",
 	"nameServers": [
+		"ns1.olivant.fo",
 		"ns2.olivant.fo"
 	],
 	"policies": [

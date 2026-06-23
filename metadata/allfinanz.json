@@ -7,6 +7,7 @@
 		"https://rdap.centralnic.com/allfinanz/"
 	],
 	"nameServers": [
+		"a.nic.allfinanz",
 		"b.nic.allfinanz",
 		"c.nic.allfinanz",
 		"d.nic.allfinanz"

@@ -3,6 +3,7 @@
 	"domainPunycode": "xn--9krt00a",
 	"registryOperator": "Sina Corporation",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--9krt00a",
+	"whoisServer": "whois.nic.微博",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
@@ -10,7 +11,12 @@
 		"a0.nic.微博",
 		"a2.nic.微博",
 		"b0.nic.微博",
-		"c0.nic.微博"
+		"c0.nic.微博",
+		"ta.ngtld.cn",
+		"tb.ngtld.cn",
+		"tc.ngtld.cn",
+		"td.ngtld.cn",
+		"te.ngtld.cn"
 	],
 	"languages": [
 		"zh-CN",

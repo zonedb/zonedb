@@ -8,6 +8,8 @@
 	],
 	"nameServers": [
 		"a.nic.auspost",
+		"b.nic.auspost",
+		"c.nic.auspost",
 		"x.nic.auspost",
 		"y.nic.auspost",
 		"z.nic.auspost"
