@@ -2,6 +2,7 @@
 	"domain": "abc",
 	"registryOperator": "Disney Enterprises, Inc.",
 	"infoURL": "https://www.nic.abc/",
+	"whoisServer": "whois.nic.abc",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

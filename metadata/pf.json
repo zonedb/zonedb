@@ -4,7 +4,8 @@
 	"countryName": "French Polynesia",
 	"nameServers": [
 		"ns03.pf",
-		"ns1.mana.pf"
+		"ns1.mana.pf",
+		"ns2.mana.pf"
 	],
 	"tags": [
 		"country",

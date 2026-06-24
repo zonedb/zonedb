@@ -6,6 +6,7 @@
 		"https://rdap.nominet.uk/prime/"
 	],
 	"nameServers": [
+		"dns1.nic.prime",
 		"dns2.nic.prime",
 		"dns3.nic.prime",
 		"dns4.nic.prime",

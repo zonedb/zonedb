@@ -5,6 +5,7 @@
 	"infoURL": "https://www.nic.ni/",
 	"whoisURL": "http://www.nic.ni/",
 	"nameServers": [
+		"dns-ext.nic.cr",
 		"ns.ni",
 		"ns2.ni",
 		"ns3.ni",

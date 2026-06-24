@@ -2,6 +2,7 @@
 	"domain": "com.pa",
 	"nameServers": [
 		"a.lactld.org",
+		"dns-ext.nic.cr",
 		"ns.dns.br",
 		"ns.nic.pa",
 		"ns1.anycastdns.cz",

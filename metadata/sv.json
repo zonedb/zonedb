@@ -5,6 +5,7 @@
 	"whoisURL": "http://www.svnet.org.sv/",
 	"nameServers": [
 		"a.lactld.org",
+		"dns-ext.nic.cr",
 		"ix.red.sv",
 		"ns.dns.br",
 		"p.ns.sv",

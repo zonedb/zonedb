@@ -4,7 +4,7 @@
 	"infoURL": "https://nic.property/",
 	"whoisServer": "whois.tucowsregistry.net",
 	"rdapURLs": [
-		"https://rdap.tucowsregistry.net/rdap/"
+		"https://rdap.registry.click/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",
