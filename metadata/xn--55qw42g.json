@@ -12,7 +12,12 @@
 		"ns2.conac.cn",
 		"ns3.conac.cn",
 		"ns4.conac.cn",
-		"ns5.conac.cn"
+		"ns5.conac.cn",
+		"ta.ngtld.cn",
+		"tb.ngtld.cn",
+		"tc.ngtld.cn",
+		"td.ngtld.cn",
+		"te.ngtld.cn"
 	],
 	"languages": [
 		"zh"

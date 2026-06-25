@@ -4,5 +4,8 @@
 		"a.dns.subd.at",
 		"m.dns.subd.at",
 		"n.dns.subd.at"
+	],
+	"wildcards": [
+		"78.46.45.26"
 	]
 }

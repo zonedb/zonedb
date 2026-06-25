@@ -25,10 +25,10 @@
 		"https://rdap.nixiregistry.in/rdap/"
 	],
 	"nameServers": [
-		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
-		"ns10.trs-dns.info",
-		"ns10.trs-dns.org"
+		"ns1.registry.in",
+		"ns10.trs-dns.org",
+		"ns3.registry.in"
 	],
 	"tags": [
 		"country",

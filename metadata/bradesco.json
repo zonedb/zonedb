@@ -8,7 +8,8 @@
 	"nameServers": [
 		"a0.nic.bradesco",
 		"a2.nic.bradesco",
-		"b0.nic.bradesco"
+		"b0.nic.bradesco",
+		"c0.nic.bradesco"
 	],
 	"tags": [
 		"brand",

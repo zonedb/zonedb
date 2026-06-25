@@ -6,6 +6,7 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"v0n0.nic.camp",
 		"v0n1.nic.camp",
 		"v0n2.nic.camp",
 		"v0n3.nic.camp",
