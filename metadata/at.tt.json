@@ -4,6 +4,9 @@
 		"ns1.viennaweb.at",
 		"ns2.viennaweb.at"
 	],
+	"wildcards": [
+		"89.58.19.18"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
