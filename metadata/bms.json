@@ -2,6 +2,7 @@
 	"domain": "bms",
 	"registryOperator": "Bristol-Myers Squibb Company",
 	"infoURL": "http://nic.bms/",
+	"whoisServer": "whois.nic.bms",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

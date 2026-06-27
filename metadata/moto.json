@@ -8,7 +8,6 @@
 	],
 	"nameServers": [
 		"a.nic.moto",
-		"b.nic.moto",
 		"c.nic.moto",
 		"ns4.dns.nic.moto",
 		"ns5.dns.nic.moto",

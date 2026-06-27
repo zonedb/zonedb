@@ -7,12 +7,12 @@
 		"https://rdap.nic.safety/"
 	],
 	"nameServers": [
-		"a.nic.safety",
-		"b.nic.safety",
-		"c.nic.safety",
-		"ns1.dns.nic.safety",
-		"ns2.dns.nic.safety",
-		"ns3.dns.nic.safety"
+		"v0n0.nic.safety",
+		"v0n1.nic.safety",
+		"v0n2.nic.safety",
+		"v0n3.nic.safety",
+		"v2n0.nic.safety",
+		"v2n1.nic.safety"
 	],
 	"languages": [
 		"es"

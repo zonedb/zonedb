@@ -9,8 +9,7 @@
 	"nameServers": [
 		"a0.nic.nab",
 		"a2.nic.nab",
-		"b0.nic.nab",
-		"c0.nic.nab"
+		"b0.nic.nab"
 	],
 	"tags": [
 		"brand",

@@ -5,7 +5,6 @@
 	"whoisServer": "whois.registry.gov.mm",
 	"nameServers": [
 		"a.nic.net.mm",
-		"b.nic.net.mm",
 		"c.nic.net.mm",
 		"d.nic.net.mm"
 	],

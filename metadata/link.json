@@ -2,9 +2,9 @@
 	"domain": "link",
 	"registryOperator": "Nova Registry Ltd.",
 	"infoURL": "https://nova.link/",
-	"whoisServer": "whois.tucowsregistry.net",
+	"whoisServer": "whois.nic.link",
 	"rdapURLs": [
-		"https://rdap.tucowsregistry.net/rdap/"
+		"https://rdap.uniregistry.net/rdap/"
 	],
 	"nameServers": [
 		"ns01.trs-dns.com",

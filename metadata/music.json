@@ -2,7 +2,7 @@
 	"domain": "music",
 	"registryOperator": "DotMusic Limited",
 	"infoURL": "https://nic.music/",
-	"whoisServer": "whois.registryservices.music",
+	"whoisServer": "whois.nic.music",
 	"rdapURLs": [
 		"https://rdap.registryservices.music/rdap/"
 	],

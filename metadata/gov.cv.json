@@ -1,5 +1,11 @@
 {
 	"domain": "gov.cv",
+	"nameServers": [
+		"ns1.gov.cv",
+		"ns2.gov.cv",
+		"ns3.gov.cv",
+		"ns4.gov.cv"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
