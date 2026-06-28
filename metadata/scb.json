@@ -2,7 +2,6 @@
 	"domain": "scb",
 	"registryOperator": "The Siam Commercial Bank Public Company Limited (\"SCB\")",
 	"infoURL": "https://www.nic.scb/",
-	"whoisServer": "whois.nic.scb",
 	"rdapURLs": [
 		"https://rdap.nic.scb/"
 	],

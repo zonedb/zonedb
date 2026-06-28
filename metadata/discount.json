@@ -1,7 +1,6 @@
 {
 	"domain": "discount",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.discount",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

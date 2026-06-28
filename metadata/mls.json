@@ -9,6 +9,7 @@
 	"nameServers": [
 		"a.ns.nic.mls",
 		"b.ns.nic.mls",
+		"c.ns.nic.mls",
 		"d.ns.nic.mls"
 	],
 	"languages": [

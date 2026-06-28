@@ -9,6 +9,7 @@
 	"nameServers": [
 		"a.nic.mini",
 		"b.nic.mini",
+		"c.nic.mini",
 		"d.nic.mini"
 	],
 	"languages": [

@@ -2,7 +2,6 @@
 	"domain": "ups",
 	"registryOperator": "UPS Market Driver, Inc.",
 	"infoURL": "https://www.ups.com/lasso/login?reasonCode=-1",
-	"whoisServer": "whois.nic.ups",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
