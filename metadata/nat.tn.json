@@ -1,9 +1,5 @@
 {
 	"domain": "nat.tn",
-	"nameServers": [
-		"ns1.ati.tn",
-		"ns2.ati.tn"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

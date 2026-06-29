@@ -1,9 +1,5 @@
 {
 	"domain": "agrinet.tn",
-	"nameServers": [
-		"ns33.ati.tn",
-		"ns44.ati.tn"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
