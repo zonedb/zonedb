@@ -7,10 +7,6 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.微博",
-		"a2.nic.微博",
-		"b0.nic.微博",
-		"c0.nic.微博",
 		"ta.ngtld.cn",
 		"tb.ngtld.cn",
 		"tc.ngtld.cn",

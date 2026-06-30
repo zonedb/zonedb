@@ -2,7 +2,6 @@
 	"domain": "allstate",
 	"registryOperator": "Allstate Fire and Casualty Insurance Company",
 	"infoURL": "https://www.allstate.com/landingpages/nic/nic-allstate.aspx",
-	"whoisServer": "whois.nic.allstate",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
