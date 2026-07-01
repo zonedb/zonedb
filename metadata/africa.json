@@ -7,9 +7,7 @@
 		"https://rdap.nic.africa/rdap/"
 	],
 	"nameServers": [
-		"coza1.dnsnode.net",
-		"ns.coza.net.za",
-		"ns4.dns.net.za"
+		"coza1.dnsnode.net"
 	],
 	"locations": [
 		"Africa"

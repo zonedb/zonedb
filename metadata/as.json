@@ -8,7 +8,6 @@
 		"https://rdap.nic.as/"
 	],
 	"nameServers": [
-		"ns1.asnic.biz",
 		"ns2.asnic.info",
 		"ns3.asnic.org",
 		"ns4.asnic.uk",

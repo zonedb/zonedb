@@ -4,8 +4,7 @@
 	"countryName": "Croatia",
 	"nameServers": [
 		"hr-ns-1.carnet.hr",
-		"n.dns.hr",
-		"pch.carnet.hr"
+		"n.dns.hr"
 	],
 	"tags": [
 		"country",

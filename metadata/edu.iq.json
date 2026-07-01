@@ -3,7 +3,6 @@
 	"nameServers": [
 		"ns.cmc.iq",
 		"ns01.trs-dns.com",
-		"ns01.trs-dns.net",
 		"nsp-anycast.cmc.iq"
 	],
 	"policies": [

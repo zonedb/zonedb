@@ -5,7 +5,6 @@
 	"infoURL": "https://www.nic.it/it",
 	"whoisServer": "whois.nic.it",
 	"nameServers": [
-		"a.dns.it",
 		"dns.nic.it",
 		"m.dns.it",
 		"nameserver.cnr.it",

@@ -6,8 +6,6 @@
 		"https://rdap.nic.aco/"
 	],
 	"nameServers": [
-		"a.dns.nic.aco",
-		"m.dns.nic.aco",
 		"n.dns.nic.aco"
 	],
 	"languages": [

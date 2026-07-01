@@ -7,8 +7,6 @@
 		"https://rdap.nic.amsterdam/"
 	],
 	"nameServers": [
-		"ns1.dns.amsterdam",
-		"ns3.dns.amsterdam",
 		"ns4.dns.amsterdam"
 	],
 	"locations": [

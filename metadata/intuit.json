@@ -7,7 +7,6 @@
 		"https://rdap.nic.intuit/"
 	],
 	"nameServers": [
-		"a.nic.intuit",
 		"b.nic.intuit",
 		"c.nic.intuit",
 		"ns4.dns.nic.intuit",

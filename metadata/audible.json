@@ -6,7 +6,6 @@
 		"https://rdap.nominet.uk/audible/"
 	],
 	"nameServers": [
-		"dns1.nic.audible",
 		"dns2.nic.audible",
 		"dns3.nic.audible",
 		"dns4.nic.audible",

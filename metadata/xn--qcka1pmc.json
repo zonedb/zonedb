@@ -7,9 +7,7 @@
 		"https://pubapi.registry.google/rdap/"
 	],
 	"nameServers": [
-		"ns-tld1.charlestonroadregistry.com",
 		"ns-tld2.charlestonroadregistry.com",
-		"ns-tld3.charlestonroadregistry.com",
 		"ns-tld4.charlestonroadregistry.com",
 		"ns-tld5.charlestonroadregistry.com"
 	],

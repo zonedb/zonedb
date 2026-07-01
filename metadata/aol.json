@@ -6,10 +6,7 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.aol",
-		"a2.nic.aol",
-		"b0.nic.aol",
-		"c0.nic.aol"
+		"a2.nic.aol"
 	],
 	"tags": [
 		"brand",

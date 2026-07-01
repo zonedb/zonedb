@@ -1,6 +1,8 @@
 {
 	"domain": "rnrt.tn",
 	"nameServers": [
+		"ns1.cck.rnu.tn",
+		"ns2.cck.rnu.tn",
 		"ns3.cck.rnu.tn"
 	],
 	"policies": [

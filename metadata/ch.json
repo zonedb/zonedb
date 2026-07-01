@@ -7,9 +7,7 @@
 		"https://rdap.nic.ch/"
 	],
 	"nameServers": [
-		"a.nic.ch",
 		"b.nic.ch",
-		"d.nic.ch",
 		"e.nic.ch",
 		"f.nic.ch"
 	],

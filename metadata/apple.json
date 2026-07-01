@@ -6,8 +6,6 @@
 		"https://rdap.nic.apple/"
 	],
 	"nameServers": [
-		"apple-ns.pch.net",
-		"c.ns.apple.com",
 		"d.ns.apple.com"
 	],
 	"tags": [

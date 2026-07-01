@@ -7,7 +7,6 @@
 		"https://rdap.aliregistry.cn/rdap/"
 	],
 	"nameServers": [
-		"ns1.nic.alibaba",
 		"ns2.nic.alibaba",
 		"ns3.nic.alibaba",
 		"ns4.nic.alibaba"
