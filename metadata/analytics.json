@@ -7,6 +7,7 @@
 		"https://rdap.nic.analytics/"
 	],
 	"nameServers": [
+		"a.nic.analytics",
 		"b.nic.analytics",
 		"c.nic.analytics",
 		"ns1.dns.nic.analytics",

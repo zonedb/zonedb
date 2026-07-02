@@ -5,6 +5,7 @@
 	"whoisServer": "whois.nic.hu",
 	"nameServers": [
 		"a.hu",
+		"b.hu",
 		"c.hu",
 		"d.hu",
 		"e.hu",

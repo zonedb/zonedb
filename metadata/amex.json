@@ -7,6 +7,7 @@
 		"https://rdap.nic.amex/"
 	],
 	"nameServers": [
+		"a.nic.amex",
 		"b.nic.amex",
 		"c.nic.amex",
 		"ns1.dns.nic.amex",

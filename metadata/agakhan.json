@@ -7,7 +7,10 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"b0.nic.agakhan"
+		"a0.nic.agakhan",
+		"a2.nic.agakhan",
+		"b0.nic.agakhan",
+		"c0.nic.agakhan"
 	],
 	"tags": [
 		"brand",

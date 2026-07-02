@@ -11,7 +11,8 @@
 		"b.nic.earth",
 		"c.nic.earth",
 		"ns1.dns.nic.earth",
-		"ns2.dns.nic.earth"
+		"ns2.dns.nic.earth",
+		"ns3.dns.nic.earth"
 	],
 	"languages": [
 		"ja",

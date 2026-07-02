@@ -2,7 +2,6 @@
 	"domain": "statebank",
 	"registryOperator": "STATE BANK OF INDIA",
 	"infoURL": "http://nic.statebank/",
-	"whoisServer": "whois.nic.statebank",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

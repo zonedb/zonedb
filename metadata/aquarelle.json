@@ -9,6 +9,7 @@
 	"nameServers": [
 		"a.nic.aquarelle",
 		"b.nic.aquarelle",
+		"c.nic.aquarelle",
 		"d.nic.aquarelle"
 	],
 	"languages": [

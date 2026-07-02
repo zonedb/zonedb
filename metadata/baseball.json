@@ -7,6 +7,7 @@
 		"https://rdap.nic.baseball/"
 	],
 	"nameServers": [
+		"a.nic.baseball",
 		"b.nic.baseball",
 		"c.nic.baseball",
 		"ns1.dns.nic.baseball",

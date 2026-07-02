@@ -8,6 +8,7 @@
 		"https://rdap.zdnsgtld.com/xn--hxt814e/"
 	],
 	"nameServers": [
+		"a.zdnscloud.cn",
 		"b.zdnscloud.cn",
 		"c.zdnscloud.com",
 		"d.zdnscloud.com",

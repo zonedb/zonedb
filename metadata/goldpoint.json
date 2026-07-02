@@ -2,6 +2,7 @@
 	"domain": "goldpoint",
 	"registryOperator": "YODOBASHI CAMERA CO.,LTD.",
 	"infoURL": "https://nic.goldpoint/",
+	"whoisServer": "whois.nic.goldpoint",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],
