@@ -2,7 +2,7 @@
 	"domain": "country",
 	"registryOperator": "Internet Naming Co.",
 	"infoURL": "https://uniregistry.link/extensions/country/",
-	"whoisServer": "whois.nic.country",
+	"whoisServer": "whois.registry.click",
 	"rdapURLs": [
 		"https://rdap.registry.click/rdap/"
 	],
