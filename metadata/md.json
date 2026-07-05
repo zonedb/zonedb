@@ -2,7 +2,6 @@
 	"domain": "md",
 	"registryOperator": "IP Serviciul Tehnologia Informatiei si Securitate Cibernetica",
 	"countryName": "Moldova",
-	"whoisServer": "whois.nic.md",
 	"nameServers": [
 		"nsa.tld.md",
 		"nsb.tld.md",

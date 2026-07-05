@@ -3,8 +3,7 @@
 	"registryOperator": "Office of the Cabinet",
 	"countryName": "Marshall Islands",
 	"nameServers": [
-		"ns.amarshallinc.com",
-		"ns.ntamar.net"
+		"ns.amarshallinc.com"
 	],
 	"tags": [
 		"closed",

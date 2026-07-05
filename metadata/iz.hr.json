@@ -2,7 +2,9 @@
 	"domain": "iz.hr",
 	"nameServers": [
 		"dns-ez-1.carnet.hr",
+		"dns1.from.hr",
 		"dns1.iz.hr",
+		"dns2.from.hr",
 		"dns2.iz.hr"
 	],
 	"policies": [

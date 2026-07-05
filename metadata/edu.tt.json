@@ -2,7 +2,8 @@
 	"domain": "edu.tt",
 	"nameServers": [
 		"ns1.afraid.org",
-		"ns1.edu.tt"
+		"ns1.edu.tt",
+		"ns2.edu.tt"
 	],
 	"policies": [
 		{

@@ -2,6 +2,7 @@
 	"domain": "aeg",
 	"registryOperator": "Aktiebolaget Electrolux",
 	"infoURL": "https://nic.aeg/",
+	"whoisServer": "whois.nic.aeg",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
