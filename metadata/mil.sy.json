@@ -1,5 +1,9 @@
 {
 	"domain": "mil.sy",
+	"nameServers": [
+		"ns2231.ucg.ltd",
+		"ns231.ucg.ltd"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

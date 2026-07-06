@@ -2,7 +2,6 @@
 	"domain": "nissay",
 	"registryOperator": "Nippon Life Insurance Company",
 	"infoURL": "https://www.nissay.co.jp/sorry/gtld/",
-	"whoisServer": "whois.nic.nissay",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

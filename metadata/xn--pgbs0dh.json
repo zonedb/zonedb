@@ -4,6 +4,7 @@
 	"domainAscii": "tn",
 	"registryOperator": "Agence Tunisienne d'Internet",
 	"countryName": "Tunisia",
+	"whoisServer": "whois.ati.tn",
 	"nameServers": [
 		"ns-tn.afrinic.net",
 		"ns1.ati.tn",
