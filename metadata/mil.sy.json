@@ -1,8 +1,9 @@
 {
 	"domain": "mil.sy",
 	"nameServers": [
-		"ns2231.ucg.ltd",
-		"ns231.ucg.ltd"
+		"a.dnspod.com",
+		"b.dnspod.com",
+		"c.dnspod.com"
 	],
 	"policies": [
 		{

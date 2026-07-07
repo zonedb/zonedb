@@ -2,7 +2,6 @@
 	"domain": "akdn",
 	"registryOperator": "Fondation Aga Khan (Aga Khan Foundation)",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/akdn",
-	"whoisServer": "whois.nic.akdn",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

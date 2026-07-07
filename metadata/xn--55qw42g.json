@@ -5,7 +5,7 @@
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/xn--55qw42g",
 	"whoisServer": "whois.conac.cn",
 	"rdapURLs": [
-		"https://rdap.conac.cn/"
+		"https://rdap.ngtld.cn/"
 	],
 	"nameServers": [
 		"ta.ngtld.cn",

@@ -6,8 +6,7 @@
 	"countryName": "Bangladesh",
 	"nameServers": [
 		"bayanno.btcl.net.bd",
-		"bd-ns.anycast.pch.net",
-		"ekushey.btcl.net.bd"
+		"bd-ns.anycast.pch.net"
 	],
 	"languages": [
 		"bn-BD"

@@ -3,7 +3,7 @@
 	"registryOperator": "Sina Corporation",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/weibo",
 	"rdapURLs": [
-		"https://rdap.identitydigital.services/rdap/"
+		"https://rdap.ngtld.cn/"
 	],
 	"nameServers": [
 		"ta.ngtld.cn",

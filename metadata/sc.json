@@ -2,7 +2,6 @@
 	"domain": "sc",
 	"registryOperator": "VCS Pty Ltd",
 	"countryName": "Seychelles",
-	"whoisServer": "whois.nic.sc",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
