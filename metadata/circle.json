@@ -6,14 +6,12 @@
 		"https://rdap.nominet.uk/circle/"
 	],
 	"nameServers": [
-		"dns1.nic.circle",
-		"dns2.nic.circle",
-		"dns3.nic.circle",
-		"dns4.nic.circle",
-		"dnsa.nic.circle",
-		"dnsb.nic.circle",
-		"dnsc.nic.circle",
-		"dnsd.nic.circle"
+		"v0n0.nic.circle",
+		"v0n1.nic.circle",
+		"v0n2.nic.circle",
+		"v0n3.nic.circle",
+		"v2n0.nic.circle",
+		"v2n1.nic.circle"
 	],
 	"languages": [
 		"ar",

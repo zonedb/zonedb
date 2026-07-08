@@ -6,14 +6,12 @@
 		"https://rdap.nominet.uk/got/"
 	],
 	"nameServers": [
-		"dns1.nic.got",
-		"dns2.nic.got",
-		"dns3.nic.got",
-		"dns4.nic.got",
-		"dnsa.nic.got",
-		"dnsb.nic.got",
-		"dnsc.nic.got",
-		"dnsd.nic.got"
+		"v0n0.nic.got",
+		"v0n1.nic.got",
+		"v0n2.nic.got",
+		"v0n3.nic.got",
+		"v2n0.nic.got",
+		"v2n1.nic.got"
 	],
 	"languages": [
 		"ar",

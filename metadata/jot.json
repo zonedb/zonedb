@@ -6,14 +6,12 @@
 		"https://rdap.nominet.uk/jot/"
 	],
 	"nameServers": [
-		"dns1.nic.jot",
-		"dns2.nic.jot",
-		"dns3.nic.jot",
-		"dns4.nic.jot",
-		"dnsa.nic.jot",
-		"dnsb.nic.jot",
-		"dnsc.nic.jot",
-		"dnsd.nic.jot"
+		"v0n0.nic.jot",
+		"v0n1.nic.jot",
+		"v0n2.nic.jot",
+		"v0n3.nic.jot",
+		"v2n0.nic.jot",
+		"v2n1.nic.jot"
 	],
 	"languages": [
 		"ar",

@@ -2,7 +2,6 @@
 	"domain": "中文网",
 	"domainPunycode": "xn--fiq228c5hs",
 	"registryOperator": "Beijing TLD Registry Technology Limited",
-	"whoisServer": "whois.teleinfo.cn",
 	"rdapURLs": [
 		"https://rdap.teleinfo.cn/xn--fiq228c5hs/"
 	],

@@ -7,7 +7,6 @@
 		"https://rdap.centralnic.com/pics/"
 	],
 	"nameServers": [
-		"a.nic.pics",
 		"b.nic.pics",
 		"c.nic.pics",
 		"d.nic.pics"

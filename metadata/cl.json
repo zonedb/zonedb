@@ -4,7 +4,6 @@
 	"countryName": "Chile",
 	"whoisServer": "whois.nic.cl",
 	"nameServers": [
-		"a.nic.cl",
 		"b.nic.cl",
 		"c.nic.cl",
 		"cl-ns.anycast.pch.net",
