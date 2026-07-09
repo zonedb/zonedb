@@ -31,7 +31,7 @@ test-tinygo:
 test-tinygo-wasm:
 	tinygo test -target wasip1 $(GO_TEST_ARGS)
 
-zones.go: zones.txt metadata/*.json internal/* internal/*/*
+zones.go: zones.txt metadata/*.json content/overrides.hujson internal/* internal/*/*
 	go generate -x
 
 .PHONY: update

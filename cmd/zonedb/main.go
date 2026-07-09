@@ -453,7 +453,18 @@ func main() {
 		}
 	}
 
-	err := build.ValidateTags(workZones)
+	// Apply human-authored overrides after the upstream feeds and before
+	// validate/write/generate, so cached (304) and generate-only builds apply them too.
+	overrides, err := build.ReadOverrides()
+	if err != nil {
+		build.LogFatal(err)
+	}
+	if oerrs := overrides.ApplyBrandExempt(zones); len(oerrs) > 0 {
+		errs = append(errs, oerrs...)
+		build.LogFatal(fmt.Errorf("brand_exempt overrides: %d unknown zone(s)", len(oerrs)))
+	}
+
+	err = build.ValidateTags(workZones)
 	if err != nil {
 		build.LogFatal(err)
 	}
