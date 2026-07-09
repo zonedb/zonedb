@@ -1,10 +1,9 @@
 {
 	"domain": "safety",
-	"registryOperator": "Safety Registry Services, LLC.",
+	"registryOperator": "Jolly Host, LLC",
 	"infoURL": "http://nic.safety/",
-	"whoisServer": "whois.nic.safety",
 	"rdapURLs": [
-		"https://rdap.nic.safety/"
+		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"v0n0.nic.safety",

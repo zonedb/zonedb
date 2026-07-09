@@ -1,8 +1,10 @@
 {
 	"domain": "com.rw",
 	"nameServers": [
-		"ns1.com.rw",
-		"ns2.com.rw"
+		"a.ns.1cn.com",
+		"b.ns.1cn.net",
+		"c.ns.1cn.com",
+		"d.ns.1cn.net"
 	],
 	"policies": [
 		{

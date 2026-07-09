@@ -11,9 +11,7 @@
 		"dns3.nic.author",
 		"dns4.nic.author",
 		"dnsa.nic.author",
-		"dnsb.nic.author",
-		"dnsc.nic.author",
-		"dnsd.nic.author"
+		"dnsb.nic.author"
 	],
 	"languages": [
 		"ar",

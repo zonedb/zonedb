@@ -4,7 +4,7 @@
 	"registryOperator": "China Internet Network Information Center (CNNIC)",
 	"whoisServer": "whois.ngtld.cn",
 	"rdapURLs": [
-		"https://restwhois.ngtld.cn/"
+		"https://rdap.ngtld.cn/"
 	],
 	"nameServers": [
 		"a.ngtld.cn",

@@ -7,7 +7,6 @@
 		"https://rdap.nic.men/"
 	],
 	"nameServers": [
-		"a.nic.men",
 		"b.nic.men",
 		"c.nic.men",
 		"x.nic.men",

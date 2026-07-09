@@ -7,10 +7,8 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.bms",
 		"a2.nic.bms",
-		"b0.nic.bms",
-		"c0.nic.bms"
+		"b0.nic.bms"
 	],
 	"tags": [
 		"brand",
