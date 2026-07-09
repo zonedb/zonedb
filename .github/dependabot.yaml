@@ -3,9 +3,7 @@ updates:
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: weekly
-      time: "13:00" # 5am Pacific
-    open-pull-requests-limit: 10
+      interval: monthly
     groups:
       github-actions-minor-patch:
         update-types:
@@ -15,9 +13,7 @@ updates:
   - package-ecosystem: gomod
     directory: "/"
     schedule:
-      interval: daily
-      time: "01:00" # 5pm Pacific
-    open-pull-requests-limit: 10
+      interval: monthly
     groups:
       golang-x:
         patterns:
