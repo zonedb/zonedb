@@ -1,0 +1,19 @@
+// ZoneDB build overrides
+//
+// Applied by internal/build/overrides.go after the IANA/ICANN feeds during the
+// build, so these manual corrections win over auto-derived data.
+{
+  // brand_exempt: TLDs ICANN still marks Specification 13 (dot-brand) but which
+  // operate open public registration, so must NOT be auto-tagged "brand".
+  //
+  // Reverse-staleness risk: ICANN's feed will not signal a registry re-closing
+  // registration while keeping Spec 13. Audit periodically; remove an entry if
+  // its TLD is no longer open to the public.
+  "brand_exempt": {
+    "nexus": "Charleston Road Registry (Google) opened public registration despite Spec 13. https://www.registry.google/policies/registration/nexus/",
+    "monster": "Operated by XYZ.COM LLC as an open generic.",
+    "sbs": "Operated by ShortDot SA as an open generic.",
+    "diy": "Operated by Internet Naming Company LLC as an open generic.",
+    "food": "Operated by Internet Naming Company LLC as an open generic.",
+  },
+}
