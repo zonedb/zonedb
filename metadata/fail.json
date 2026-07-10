@@ -8,7 +8,9 @@
 	"nameServers": [
 		"v0n0.nic.fail",
 		"v0n1.nic.fail",
+		"v0n2.nic.fail",
 		"v0n3.nic.fail",
+		"v2n0.nic.fail",
 		"v2n1.nic.fail"
 	],
 	"languages": [

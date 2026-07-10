@@ -2,7 +2,6 @@
 	"domain": "helsinki",
 	"registryOperator": "City of Helsinki",
 	"infoURL": "https://www.hel.fi/Helsinki/en/administration/information/information/nic.helsinki/",
-	"whoisServer": "whois.nic.helsinki",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

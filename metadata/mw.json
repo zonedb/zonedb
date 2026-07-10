@@ -3,6 +3,7 @@
 	"registryOperator": "Malawi Sustainable Development Network Programme (Malawi SDNP)",
 	"countryName": "Malawi",
 	"infoURL": "http://nic.mw/",
+	"whoisServer": "whois.nic.mw",
 	"nameServers": [
 		"chambo.sdnp.org.mw",
 		"domwe.sdn.mw",

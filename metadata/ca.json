@@ -9,6 +9,7 @@
 	"nameServers": [
 		"any.ca-servers.ca",
 		"c.ca-servers.ca",
+		"d.ca-servers.ca",
 		"j.ca-servers.ca"
 	],
 	"languages": [

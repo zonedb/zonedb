@@ -7,8 +7,6 @@
 		"https://rdap.nic.americanfamily/"
 	],
 	"nameServers": [
-		"a.nic.americanfamily",
-		"b.nic.americanfamily",
 		"c.nic.americanfamily",
 		"x.nic.americanfamily",
 		"y.nic.americanfamily",

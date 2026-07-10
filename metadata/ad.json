@@ -8,10 +8,7 @@
 		"https://rdap.nic.ad/"
 	],
 	"nameServers": [
-		"ad.ns.nic.es",
-		"anycast23.irondns.net",
-		"anycast9.irondns.net",
-		"ns3.nic.fr"
+		"ad.ns.nic.es"
 	],
 	"languages": [
 		"mul-Latn"

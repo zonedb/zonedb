@@ -7,7 +7,9 @@
 	],
 	"nameServers": [
 		"dns1.nic.book",
+		"dns2.nic.book",
 		"dns3.nic.book",
+		"dns4.nic.book",
 		"dnsa.nic.book",
 		"dnsb.nic.book",
 		"dnsc.nic.book",

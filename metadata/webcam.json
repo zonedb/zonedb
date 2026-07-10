@@ -11,6 +11,7 @@
 		"b.nic.webcam",
 		"c.nic.webcam",
 		"ns1.dns.nic.webcam",
+		"ns2.dns.nic.webcam",
 		"ns3.dns.nic.webcam"
 	],
 	"languages": [

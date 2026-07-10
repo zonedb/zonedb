@@ -7,9 +7,7 @@
 		"https://rdap.nic.alsace/"
 	],
 	"nameServers": [
-		"d.nic.fr",
-		"f.ext.nic.fr",
-		"g.ext.nic.fr"
+		"d.nic.fr"
 	],
 	"locations": [
 		"FR-A"

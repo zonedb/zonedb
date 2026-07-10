@@ -6,8 +6,6 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.asda",
-		"a2.nic.asda",
 		"b0.nic.asda",
 		"c0.nic.asda"
 	],

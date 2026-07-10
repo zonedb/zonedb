@@ -2,15 +2,15 @@
 	"domain": "asia",
 	"registryOperator": "DotAsia Organisation Ltd.",
 	"infoURL": "https://www.dot.asia/",
+	"whoisServer": "whois.nic.asia",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.asia.afilias-nst.info",
 		"a2.asia.afilias-nst.info",
 		"b0.asia.afilias-nst.asia",
-		"b2.asia.afilias-nst.org",
-		"c0.asia.afilias-nst.info"
+		"c0.asia.afilias-nst.info",
+		"d0.asia.afilias-nst.asia"
 	],
 	"languages": [
 		"ar",
