@@ -7,6 +7,8 @@
 		"https://rdap.nic.banamex/"
 	],
 	"nameServers": [
+		"a.nic.banamex",
+		"b.nic.banamex",
 		"c.nic.banamex",
 		"ns1.dns.nic.banamex",
 		"ns2.dns.nic.banamex",

@@ -2,14 +2,14 @@
 	"domain": "man",
 	"registryOperator": "MAN Truck & Bus SE",
 	"infoURL": "https://nic.man/en/index.jsp",
-	"whoisServer": "whois.nic.man",
 	"rdapURLs": [
 		"https://rdap.nic.man/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
-		"anycast24.irondns.net"
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
 	],
 	"languages": [
 		"ar",

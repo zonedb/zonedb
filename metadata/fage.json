@@ -2,7 +2,6 @@
 	"domain": "fage",
 	"registryOperator": "Fage International S.A.",
 	"infoURL": "https://nic.fage/",
-	"whoisServer": "whois.nic.fage",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

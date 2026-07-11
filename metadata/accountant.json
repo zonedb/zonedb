@@ -7,6 +7,8 @@
 		"https://rdap.nic.accountant/"
 	],
 	"nameServers": [
+		"a.nic.accountant",
+		"b.nic.accountant",
 		"c.nic.accountant",
 		"ns1.dns.nic.accountant",
 		"ns2.dns.nic.accountant",

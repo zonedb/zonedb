@@ -2,14 +2,14 @@
 	"domain": "gmx",
 	"registryOperator": "1&1 Mail & Media GmbH",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/gmx",
-	"whoisServer": "whois.nic.gmx",
 	"rdapURLs": [
 		"https://rdap.nic.gmx/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
-		"anycast24.irondns.net"
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
 	],
 	"languages": [
 		"de"

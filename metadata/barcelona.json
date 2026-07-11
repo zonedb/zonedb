@@ -2,13 +2,14 @@
 	"domain": "barcelona",
 	"registryOperator": "Municipi de Barcelona",
 	"infoURL": "https://www.domini.barcelona/",
-	"whoisServer": "whois.nic.barcelona",
 	"rdapURLs": [
 		"https://rdap.nic.barcelona/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
-		"anycast24.irondns.net"
+		"anycast23.irondns.net",
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
 	],
 	"languages": [
 		"mul-Latn"

@@ -1,14 +1,14 @@
 {
 	"domain": "gal",
 	"registryOperator": "Asociación puntoGAL",
-	"whoisServer": "whois.nic.gal",
 	"rdapURLs": [
 		"https://rdap.nic.gal/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
-		"anycast24.irondns.net"
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
 	],
 	"locations": [
 		"ES-GA"

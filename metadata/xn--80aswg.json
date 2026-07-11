@@ -2,14 +2,14 @@
 	"domain": "сайт",
 	"domainPunycode": "xn--80aswg",
 	"registryOperator": "CORE Association",
-	"whoisServer": "whois.nic.сайт",
 	"rdapURLs": [
 		"https://rdap.nic.сайт/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
-		"anycast24.irondns.net"
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
 	],
 	"languages": [
 		"mul-Cyrl"

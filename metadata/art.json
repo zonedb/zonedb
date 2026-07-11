@@ -7,6 +7,8 @@
 		"https://rdap.centralnic.com/art/"
 	],
 	"nameServers": [
+		"a.nic.art",
+		"b.nic.art",
 		"c.nic.art",
 		"d.nic.art"
 	],

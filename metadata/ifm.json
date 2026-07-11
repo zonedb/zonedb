@@ -2,14 +2,14 @@
 	"domain": "ifm",
 	"registryOperator": "ifm electronic gmbh",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/ifm",
-	"whoisServer": "whois.nic.ifm",
 	"rdapURLs": [
 		"https://rdap.nic.ifm/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
-		"anycast24.irondns.net"
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
 	],
 	"languages": [
 		"de",

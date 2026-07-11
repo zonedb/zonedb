@@ -7,6 +7,8 @@
 		"https://rdap.centralnic.com/audio/"
 	],
 	"nameServers": [
+		"a.nic.audio",
+		"b.nic.audio",
 		"c.nic.audio",
 		"d.nic.audio"
 	],

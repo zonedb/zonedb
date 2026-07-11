@@ -2,14 +2,14 @@
 	"domain": "lacaixa",
 	"registryOperator": "Fundación Bancaria Caixa d'Estalvis i Pensions de Barcelona, \"la Caixa\"",
 	"infoURL": "http://www.nic.lacaixa/",
-	"whoisServer": "whois.nic.lacaixa",
 	"rdapURLs": [
 		"https://rdap.nic.lacaixa/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
-		"anycast24.irondns.net"
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
 	],
 	"languages": [
 		"mul-Latn"

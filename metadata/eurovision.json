@@ -2,14 +2,14 @@
 	"domain": "eurovision",
 	"registryOperator": "European Broadcasting Union (EBU)",
 	"infoURL": "https://www.ebu.ch/home",
-	"whoisServer": "whois.nic.eurovision",
 	"rdapURLs": [
 		"https://rdap.nic.eurovision/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
-		"anycast24.irondns.net"
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
 	],
 	"languages": [
 		"mul-Latn"

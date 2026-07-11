@@ -2,13 +2,14 @@
 	"domain": "bauhaus",
 	"registryOperator": "Werkhaus GmbH",
 	"infoURL": "https://nic.bauhaus/",
-	"whoisServer": "whois.nic.bauhaus",
 	"rdapURLs": [
 		"https://rdap.nic.bauhaus/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
-		"anycast24.irondns.net"
+		"anycast23.irondns.net",
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
 	],
 	"tags": [
 		"brand",

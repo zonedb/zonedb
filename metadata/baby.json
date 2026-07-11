@@ -7,6 +7,8 @@
 		"https://rdap.centralnic.com/baby/"
 	],
 	"nameServers": [
+		"a.nic.baby",
+		"b.nic.baby",
 		"c.nic.baby",
 		"d.nic.baby"
 	],

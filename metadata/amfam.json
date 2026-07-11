@@ -7,6 +7,8 @@
 		"https://rdap.nic.amfam/"
 	],
 	"nameServers": [
+		"a.nic.amfam",
+		"b.nic.amfam",
 		"c.nic.amfam",
 		"x.nic.amfam",
 		"y.nic.amfam",

@@ -7,6 +7,8 @@
 		"https://rdap.nic.amica/"
 	],
 	"nameServers": [
+		"a.nic.amica",
+		"b.nic.amica",
 		"c.nic.amica",
 		"ns1.dns.nic.amica",
 		"ns2.dns.nic.amica",

@@ -2,14 +2,14 @@
 	"domain": "radio",
 	"registryOperator": "Digity, LLC",
 	"infoURL": "https://www.nic.radio/",
-	"whoisServer": "whois.nic.radio",
 	"rdapURLs": [
 		"https://rdap.nic.radio/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
-		"anycast24.irondns.net"
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
 	],
 	"languages": [
 		"he",

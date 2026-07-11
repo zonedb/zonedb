@@ -2,7 +2,6 @@
 	"domain": "swiss",
 	"registryOperator": "Swiss Confederation",
 	"infoURL": "https://www.nic.swiss/nic/de/home.html",
-	"whoisServer": "whois.nic.swiss",
 	"rdapURLs": [
 		"https://rdap.nic.swiss/"
 	],
@@ -10,6 +9,7 @@
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
 		"anycast24.irondns.net",
+		"anycast9.irondns.net",
 		"g.nic.swiss",
 		"ns15.rcode0.net",
 		"u.nic.swiss"

@@ -6,6 +6,7 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"v0n0.nic.apartments",
 		"v0n1.nic.apartments",
 		"v0n2.nic.apartments",
 		"v0n3.nic.apartments",

@@ -2,14 +2,14 @@
 	"domain": "seat",
 	"registryOperator": "SEAT, S.A. (Sociedad Unipersonal)",
 	"infoURL": "https://www.icann.org/en/registry-agreements/details/seat",
-	"whoisServer": "whois.nic.seat",
 	"rdapURLs": [
 		"https://rdap.nic.seat/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
 		"anycast23.irondns.net",
-		"anycast24.irondns.net"
+		"anycast24.irondns.net",
+		"anycast9.irondns.net"
 	],
 	"languages": [
 		"mul-Latn"
