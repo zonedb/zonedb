@@ -2,6 +2,7 @@
 	"domain": "whoswho",
 	"registryOperator": "Who's Who Registry",
 	"infoURL": "https://internet.whoswho/",
+	"whoisServer": "whois.nic.whoswho",
 	"rdapURLs": [
 		"https://rdap.nic.whoswho/"
 	],

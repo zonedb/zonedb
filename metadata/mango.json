@@ -2,6 +2,7 @@
 	"domain": "mango",
 	"registryOperator": "PUNTO FA S.L.",
 	"infoURL": "https://shop.mango.com/preHome.faces",
+	"whoisServer": "whois.nic.mango",
 	"rdapURLs": [
 		"https://rdap.nic.mango/"
 	],

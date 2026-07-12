@@ -5,7 +5,6 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"v0n0.nic.navy",
 		"v0n1.nic.navy",
 		"v0n2.nic.navy",
 		"v0n3.nic.navy",

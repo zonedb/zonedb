@@ -3,6 +3,7 @@
 	"registryOperator": "Comores Telecom",
 	"countryName": "Comoros",
 	"nameServers": [
+		"dns1.nic.km",
 		"dns2.nic.km",
 		"ns-km.afrinic.net"
 	],

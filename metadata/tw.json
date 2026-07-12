@@ -6,7 +6,7 @@
 	],
 	"registryOperator": "Taiwan Network Information Center (TWNIC)",
 	"countryName": "Taiwan",
-	"whoisServer": "whois.twnic.net.tw",
+	"whoisServer": "whois.twnic.net",
 	"rdapURLs": [
 		"https://ccrdap.twnic.tw/tw/"
 	],

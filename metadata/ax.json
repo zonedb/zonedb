@@ -3,7 +3,6 @@
 	"registryOperator": "Ålands landskapsregering",
 	"countryName": "Åland Islands",
 	"infoURL": "https://whois.ax/",
-	"whoisServer": "whois.ax",
 	"nameServers": [
 		"ns1.aland.net",
 		"ns2.aland.net",

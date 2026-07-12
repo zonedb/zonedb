@@ -2,6 +2,7 @@
 	"domain": "cat",
 	"registryOperator": "Fundacio puntCAT",
 	"infoURL": "https://domini.cat/",
+	"whoisServer": "whois.nic.cat",
 	"rdapURLs": [
 		"https://rdap.nic.cat/"
 	],

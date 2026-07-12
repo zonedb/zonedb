@@ -1,5 +1,9 @@
 {
 	"domain": "aeroport.ci",
+	"nameServers": [
+		"fns1.42.pl",
+		"fns2.42.pl"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

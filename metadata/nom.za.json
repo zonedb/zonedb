@@ -5,6 +5,9 @@
 		"nomza.cryger.com",
 		"ns0.plig.net"
 	],
+	"wildcards": [
+		"127.0.0.1"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

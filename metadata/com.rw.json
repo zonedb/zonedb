@@ -4,7 +4,11 @@
 		"a.ns.1cn.com",
 		"b.ns.1cn.net",
 		"c.ns.1cn.com",
-		"d.ns.1cn.net"
+		"d.ns.1cn.net",
+		"v0.ns.1cn.com",
+		"v0.ns.1cn.net",
+		"v0.ns.1cn.xyz",
+		"v0.ns.2ns.com"
 	],
 	"policies": [
 		{

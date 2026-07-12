@@ -7,7 +7,6 @@
 		"https://rdap.nic.olayangroup/"
 	],
 	"nameServers": [
-		"a.nic.olayangroup",
 		"b.nic.olayangroup",
 		"c.nic.olayangroup",
 		"x.nic.olayangroup",

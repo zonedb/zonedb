@@ -6,7 +6,6 @@
 		"https://rdap.nominet.uk/omega/"
 	],
 	"nameServers": [
-		"dns1.nic.omega",
 		"dns2.nic.omega",
 		"dns3.nic.omega",
 		"dns4.nic.omega",
