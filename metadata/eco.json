@@ -7,9 +7,7 @@
 		"https://rdap.eco.fury.ca/rdap/"
 	],
 	"nameServers": [
-		"a.ns.nic.eco",
 		"b.ns.nic.eco",
-		"c.ns.nic.eco",
 		"d.ns.nic.eco"
 	],
 	"languages": [

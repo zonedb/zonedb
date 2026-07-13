@@ -6,9 +6,7 @@
 		"https://rdap.nic.durban/rdap/"
 	],
 	"nameServers": [
-		"coza1.dnsnode.net",
-		"ns2.dns.net.za",
-		"ns4.dns.net.za"
+		"coza1.dnsnode.net"
 	],
 	"locations": [
 		"Durban"

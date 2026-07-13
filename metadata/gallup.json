@@ -2,6 +2,7 @@
 	"domain": "gallup",
 	"registryOperator": "Gallup, Inc.",
 	"infoURL": "http://nic.gallup/home.aspx",
+	"whoisServer": "whois.nic.gallup",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

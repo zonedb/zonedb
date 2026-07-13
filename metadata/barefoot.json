@@ -6,8 +6,6 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a0.nic.barefoot",
-		"a2.nic.barefoot",
 		"b0.nic.barefoot",
 		"c0.nic.barefoot"
 	],

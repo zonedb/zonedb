@@ -2,6 +2,7 @@
 	"domain": "zara",
 	"registryOperator": "Industria de Diseño Textil, S.A. (INDITEX, S.A.)",
 	"infoURL": "https://nic.zara/",
+	"whoisServer": "whois.nic.zara",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

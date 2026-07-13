@@ -7,7 +7,6 @@
 		"https://rdap.centralnic.com/auto/"
 	],
 	"nameServers": [
-		"a.nic.auto",
 		"b.nic.auto",
 		"c.nic.auto",
 		"d.nic.auto"

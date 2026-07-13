@@ -3,7 +3,6 @@
 	"registryOperator": "IANA",
 	"infoURL": "https://datatracker.ietf.org/doc/rfc5855",
 	"nameServers": [
-		"a.in-addr-servers.arpa",
 		"b.in-addr-servers.arpa",
 		"c.in-addr-servers.arpa",
 		"d.in-addr-servers.arpa",

@@ -6,10 +6,9 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"v0n1.nic.email",
+		"v0n0.nic.email",
 		"v0n2.nic.email",
 		"v0n3.nic.email",
-		"v2n0.nic.email",
 		"v2n1.nic.email"
 	],
 	"languages": [

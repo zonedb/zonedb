@@ -2,7 +2,6 @@
 	"domain": "edu.mn",
 	"nameServers": [
 		"ns.erdemnet.mn",
-		"ns1.erdemnet.mn",
 		"ns2.erdemnet.mn"
 	],
 	"policies": [

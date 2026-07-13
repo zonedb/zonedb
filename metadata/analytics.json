@@ -9,7 +9,6 @@
 	"nameServers": [
 		"a.nic.analytics",
 		"b.nic.analytics",
-		"c.nic.analytics",
 		"ns1.dns.nic.analytics",
 		"ns2.dns.nic.analytics",
 		"ns3.dns.nic.analytics"

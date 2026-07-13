@@ -5,9 +5,7 @@
 	"infoURL": "https://www.dns.ao/ao/",
 	"nameServers": [
 		"a.ns.ao",
-		"ao-e.ns.nic.cz",
-		"ao02.dns.pt",
-		"etld-1.anycast.net"
+		"ao-e.ns.nic.cz"
 	],
 	"tags": [
 		"country",

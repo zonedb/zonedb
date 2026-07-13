@@ -8,6 +8,7 @@
 	"nameServers": [
 		"a.nic.moe",
 		"b.nic.moe",
+		"c.nic.moe",
 		"ns1.dns.nic.moe",
 		"ns2.dns.nic.moe",
 		"ns3.dns.nic.moe"
