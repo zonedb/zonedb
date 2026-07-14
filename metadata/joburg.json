@@ -6,7 +6,9 @@
 		"https://rdap.nic.joburg/rdap/"
 	],
 	"nameServers": [
-		"coza1.dnsnode.net"
+		"coza1.dnsnode.net",
+		"ns2.dns.net.za",
+		"ns4.dns.net.za"
 	],
 	"locations": [
 		"Johannesburg"

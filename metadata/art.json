@@ -8,9 +8,7 @@
 	],
 	"nameServers": [
 		"a.nic.art",
-		"b.nic.art",
-		"c.nic.art",
-		"d.nic.art"
+		"b.nic.art"
 	],
 	"languages": [
 		"ar",

@@ -8,6 +8,7 @@
 	"whoisURL": "http://lookup.egregistry.eg/english.aspx",
 	"nameServers": [
 		"dns-eg.univie.ac.at",
+		"frcu.eun.eg",
 		"rip.psg.com"
 	],
 	"tags": [

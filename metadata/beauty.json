@@ -7,10 +7,7 @@
 		"https://rdap.centralnic.com/beauty/"
 	],
 	"nameServers": [
-		"a.nic.beauty",
-		"b.nic.beauty",
-		"c.nic.beauty",
-		"d.nic.beauty"
+		"c.nic.beauty"
 	],
 	"languages": [
 		"ja",

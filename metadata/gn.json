@@ -4,7 +4,6 @@
 	"countryName": "Guinea",
 	"whoisServer": "whois.ande.gov.gn",
 	"nameServers": [
-		"fork.sth.dnsnode.net",
 		"ns-gn.afrinic.net",
 		"ns-pch.gn",
 		"ns1.gn"

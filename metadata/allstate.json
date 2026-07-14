@@ -6,8 +6,7 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a2.nic.allstate",
-		"b0.nic.allstate",
+		"a0.nic.allstate",
 		"c0.nic.allstate"
 	],
 	"tags": [

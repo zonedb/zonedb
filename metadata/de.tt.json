@@ -4,12 +4,6 @@
 		"meera.ns.cloudflare.com",
 		"ram.ns.cloudflare.com"
 	],
-	"wildcards": [
-		"104.21.70.163",
-		"172.67.137.178",
-		"2606:4700:3034::ac43:89b2",
-		"2606:4700:3035::6815:46a3"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

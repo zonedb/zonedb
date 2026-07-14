@@ -6,9 +6,8 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
-		"a2.nic.alipay",
-		"b0.nic.alipay",
-		"c0.nic.alipay"
+		"a0.nic.alipay",
+		"b0.nic.alipay"
 	],
 	"tags": [
 		"brand",

@@ -7,6 +7,7 @@
 		"https://rdap.centralnic.com/dvag/"
 	],
 	"nameServers": [
+		"a.nic.dvag",
 		"b.nic.dvag",
 		"c.nic.dvag",
 		"d.nic.dvag"

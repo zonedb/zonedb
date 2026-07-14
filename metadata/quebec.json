@@ -1,14 +1,13 @@
 {
 	"domain": "quebec",
 	"registryOperator": "PointQuébec Inc",
+	"whoisServer": "whois.nic.quebec",
 	"rdapURLs": [
 		"https://rdap.nic.quebec/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
-		"anycast23.irondns.net",
-		"anycast24.irondns.net",
-		"anycast9.irondns.net"
+		"anycast23.irondns.net"
 	],
 	"locations": [
 		"Quebec",

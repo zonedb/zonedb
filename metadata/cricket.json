@@ -7,7 +7,6 @@
 		"https://rdap.nic.cricket/"
 	],
 	"nameServers": [
-		"a.nic.cricket",
 		"b.nic.cricket",
 		"c.nic.cricket",
 		"ns1.dns.nic.cricket",

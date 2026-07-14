@@ -7,8 +7,7 @@
 		"https://rdap.nic.aetna/"
 	],
 	"nameServers": [
-		"a.nic.aetna",
-		"c.nic.aetna",
+		"b.nic.aetna",
 		"ns1.dns.nic.aetna",
 		"ns2.dns.nic.aetna",
 		"ns3.dns.nic.aetna"

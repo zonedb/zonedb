@@ -7,7 +7,6 @@
 		"https://rdap.nic.firmdale/"
 	],
 	"nameServers": [
-		"ns1.nic.firmdale",
 		"ns2.nic.firmdale"
 	],
 	"tags": [

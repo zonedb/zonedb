@@ -2,13 +2,11 @@
 	"domain": "fido",
 	"registryOperator": "Rogers Communications Canada Inc.",
 	"infoURL": "https://www.fido.ca/nic",
-	"whoisServer": "whois.nic.fido",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
 		"a0.nic.fido",
-		"a2.nic.fido",
 		"b0.nic.fido",
 		"c0.nic.fido"
 	],

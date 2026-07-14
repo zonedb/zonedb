@@ -1,6 +1,7 @@
 {
 	"domain": "music.af",
 	"nameServers": [
+		"josh.ns.cloudflare.com",
 		"lady.ns.cloudflare.com"
 	],
 	"policies": [

@@ -7,6 +7,7 @@
 	],
 	"nameServers": [
 		"anyc2.irondns.net",
+		"etld-1.anycast.net",
 		"na-ns.anycast.pch.net",
 		"na.anycastdns.cz"
 	],

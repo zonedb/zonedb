@@ -1,6 +1,7 @@
 {
 	"domain": "inima.al",
 	"nameServers": [
+		"ns14.host.al",
 		"ns24.host.al"
 	],
 	"policies": [

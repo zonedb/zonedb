@@ -7,7 +7,8 @@
 		"https://rdap.nic.dubai/"
 	],
 	"nameServers": [
-		"gtld.beta.aridns.net.au",
+		"gtld.alpha.aridns.net.au",
+		"gtld.delta.aridns.net.au",
 		"gtld.gamma.aridns.net.au"
 	],
 	"locations": [

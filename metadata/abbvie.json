@@ -6,7 +6,6 @@
 		"https://rdap.nominet.uk/abbvie/"
 	],
 	"nameServers": [
-		"dns1.nic.abbvie",
 		"dns2.nic.abbvie",
 		"dns3.nic.abbvie",
 		"dns4.nic.abbvie",

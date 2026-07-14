@@ -5,7 +5,8 @@
 	"whoisServer": "whois.nic.ki",
 	"nameServers": [
 		"anycastdns1.nic.ki",
-		"anycastdns2.nic.ki"
+		"anycastdns2.nic.ki",
+		"pch.nic.ki"
 	],
 	"tags": [
 		"country",

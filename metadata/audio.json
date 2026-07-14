@@ -7,9 +7,8 @@
 		"https://rdap.centralnic.com/audio/"
 	],
 	"nameServers": [
-		"b.nic.audio",
-		"c.nic.audio",
-		"d.nic.audio"
+		"a.nic.audio",
+		"c.nic.audio"
 	],
 	"languages": [
 		"de",

@@ -7,11 +7,10 @@
 		"https://rdap.zdnsgtld.com/baidu/"
 	],
 	"nameServers": [
-		"a.zdnscloud.cn",
-		"b.zdnscloud.cn",
 		"c.zdnscloud.com",
 		"d.zdnscloud.com",
-		"f.zdnscloud.cn"
+		"f.zdnscloud.cn",
+		"g.zdnscloud.com"
 	],
 	"languages": [
 		"zh-Hans",

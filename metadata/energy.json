@@ -7,9 +7,11 @@
 	],
 	"nameServers": [
 		"v0n0.nic.energy",
+		"v0n1.nic.energy",
 		"v0n2.nic.energy",
 		"v0n3.nic.energy",
-		"v2n0.nic.energy"
+		"v2n0.nic.energy",
+		"v2n1.nic.energy"
 	],
 	"languages": [
 		"ar",

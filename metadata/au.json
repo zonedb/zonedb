@@ -10,7 +10,9 @@
 	"nameServers": [
 		"a.au",
 		"q.au",
-		"s.au"
+		"r.au",
+		"s.au",
+		"t.au"
 	],
 	"tags": [
 		"country",

@@ -2,14 +2,13 @@
 	"domain": "alstom",
 	"registryOperator": "ALSTOM",
 	"infoURL": "http://nic.alstom/",
+	"whoisServer": "whois.nic.alstom",
 	"rdapURLs": [
 		"https://rdap.nic.alstom/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
-		"anycast23.irondns.net",
-		"anycast24.irondns.net",
-		"anycast9.irondns.net"
+		"anycast23.irondns.net"
 	],
 	"languages": [
 		"mul-Latn"

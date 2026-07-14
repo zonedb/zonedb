@@ -7,9 +7,8 @@
 		"https://rdap.nic.aramco/"
 	],
 	"nameServers": [
-		"b.nic.aramco",
+		"a.nic.aramco",
 		"c.nic.aramco",
-		"ns4.dns.nic.aramco",
 		"ns5.dns.nic.aramco",
 		"ns6.dns.nic.aramco"
 	],

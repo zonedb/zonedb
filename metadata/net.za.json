@@ -2,6 +2,7 @@
 	"domain": "net.za",
 	"whoisServer": "net-whois.registry.net.za",
 	"nameServers": [
+		"ns2.dns.net.za",
 		"ns2us.dns.business",
 		"ns5.dns.net.za",
 		"za-ns.anycast.pch.net"

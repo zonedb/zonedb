@@ -2,14 +2,13 @@
 	"domain": "tube",
 	"registryOperator": "Latin American Telecom LLC",
 	"infoURL": "http://nic.tube/",
+	"whoisServer": "whois.nic.tube",
 	"rdapURLs": [
 		"https://rdap.nic.tube/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
-		"anycast23.irondns.net",
-		"anycast24.irondns.net",
-		"anycast9.irondns.net"
+		"anycast23.irondns.net"
 	],
 	"tags": [
 		"generic"

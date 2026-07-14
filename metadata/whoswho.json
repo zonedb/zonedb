@@ -2,14 +2,13 @@
 	"domain": "whoswho",
 	"registryOperator": "Who's Who Registry",
 	"infoURL": "https://internet.whoswho/",
+	"whoisServer": "whois.nic.whoswho",
 	"rdapURLs": [
 		"https://rdap.nic.whoswho/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
-		"anycast23.irondns.net",
-		"anycast24.irondns.net",
-		"anycast9.irondns.net"
+		"anycast23.irondns.net"
 	],
 	"languages": [
 		"de",

@@ -1,6 +1,7 @@
 {
 	"domain": "gv.ao",
 	"nameServers": [
+		"ns1.gov.ao",
 		"ns2.gov.ao",
 		"ns3.gov.ao",
 		"ns4.gov.ao"

@@ -7,7 +7,6 @@
 		"https://rdap.tznic.or.tz/"
 	],
 	"nameServers": [
-		"fork.sth.dnsnode.net",
 		"ns.anycast.co.tz",
 		"ns2.tznic.or.tz",
 		"rip.psg.com",

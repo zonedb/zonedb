@@ -8,8 +8,6 @@
 	],
 	"nameServers": [
 		"a.nic.autos",
-		"b.nic.autos",
-		"c.nic.autos",
 		"d.nic.autos"
 	],
 	"tags": [

@@ -2,14 +2,13 @@
 	"domain": "mango",
 	"registryOperator": "PUNTO FA S.L.",
 	"infoURL": "https://shop.mango.com/preHome.faces",
+	"whoisServer": "whois.nic.mango",
 	"rdapURLs": [
 		"https://rdap.nic.mango/"
 	],
 	"nameServers": [
 		"anycast10.irondns.net",
-		"anycast23.irondns.net",
-		"anycast24.irondns.net",
-		"anycast9.irondns.net"
+		"anycast23.irondns.net"
 	],
 	"languages": [
 		"mul-Latn"

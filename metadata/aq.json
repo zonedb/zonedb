@@ -4,7 +4,6 @@
 	"countryName": "Antarctica",
 	"infoURL": "https://www.iana.org/domains/root/db/aq.html",
 	"nameServers": [
-		"fork.sth.dnsnode.net",
 		"ns1.anycast.dns.aq",
 		"ns99.dns.net.nz"
 	],

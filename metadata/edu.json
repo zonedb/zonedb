@@ -3,7 +3,9 @@
 	"registryOperator": "EDUCAUSE",
 	"whoisServer": "whois.educause.net",
 	"nameServers": [
+		"a.edu-servers.net",
 		"b.edu-servers.net",
+		"c.edu-servers.net",
 		"d.edu-servers.net",
 		"e.edu-servers.net",
 		"f.edu-servers.net",

@@ -7,10 +7,8 @@
 		"https://rdap.nic.able/"
 	],
 	"nameServers": [
-		"a.nic.able",
-		"b.nic.able",
-		"c.nic.able",
 		"ns1.dns.nic.able",
+		"ns2.dns.nic.able",
 		"ns3.dns.nic.able"
 	],
 	"languages": [

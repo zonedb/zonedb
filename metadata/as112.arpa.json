@@ -3,6 +3,7 @@
 	"registryOperator": "IANA",
 	"infoURL": "https://datatracker.ietf.org/doc/rfc7535",
 	"nameServers": [
+		"a.iana-servers.net",
 		"b.iana-servers.net",
 		"c.iana-servers.net"
 	],
