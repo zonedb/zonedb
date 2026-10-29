@@ -324,3 +324,143 @@ func TestIDNccTLDOverridesAreValid(t *testing.T) {
 		}
 	}
 }
+
+// TestParseRootDBIndex_NewLayout is a regression test for the IANA root DB
+// redesign. Three things changed at once: the table id (#tld-table →
+// #ddtable), the per-TLD href (".html" suffix dropped), and a new "Status"
+// column inserted ahead of "Type", which shifted the Type and TLD Manager
+// offsets this parser had hardcoded.
+func TestParseRootDBIndex_NewLayout(t *testing.T) {
+	f, err := os.Open("testdata/iana-root-db-new-layout.html")
+	if err != nil {
+		t.Fatalf("opening fixture: %v", err)
+	}
+	defer f.Close()
+	doc, err := goquery.NewDocumentFromReader(f)
+	if err != nil {
+		t.Fatalf("parsing HTML: %v", err)
+	}
+
+	entries, err := ParseRootDBIndex(doc)
+	if err != nil {
+		t.Fatalf("ParseRootDBIndex: %v", err)
+	}
+	if len(entries) == 0 {
+		t.Fatal("no entries parsed from new-layout fixture")
+	}
+
+	byPunycode := make(map[string]RootDBEntry, len(entries))
+	for _, e := range entries {
+		byPunycode[e.Punycode] = e
+	}
+
+	tests := []struct {
+		punycode string
+		wantType string
+		wantOrg  string
+	}{
+		{"ru", "country-code", "Coordination Center for TLD RU"},
+		{"xn--p1ai", "country-code", "Coordination Center for TLD RU"},
+		{"aaa", "generic", "American Automobile Association, Inc."},
+		{"in", "country-code", "National Internet Exchange of India"},
+		// Special-use TLDs reuse the manager column for a prose purpose, so
+		// no organisation is extracted. .arpa's infrastructure tag and
+		// operator come from FetchSpecialUseDomainsFromIANA instead.
+		{"arpa", "special-use", ""},
+	}
+	for _, tt := range tests {
+		e, ok := byPunycode[tt.punycode]
+		if !ok {
+			t.Errorf("%s: not parsed (href suffix handling?)", tt.punycode)
+			continue
+		}
+		// Guards against reading the new "Status" column, which would
+		// yield "Active" for every TLD, and against the display-text type
+		// values ("Country Code") that no longer match the tagging switch.
+		if e.Type != tt.wantType {
+			t.Errorf("%s: Type = %q, want %q", tt.punycode, e.Type, tt.wantType)
+		}
+		if e.Organisation != tt.wantOrg {
+			t.Errorf("%s: Organisation = %q, want %q", tt.punycode, e.Organisation, tt.wantOrg)
+		}
+	}
+
+	// The type column must survive as far as the tags, since that is what
+	// silently regressed: ccTLDs would parse fine but lose "country".
+	zones := zonesFromEntries(entries)
+	doc2, err := goquery.NewDocumentFromReader(strings.NewReader(rawNewLayout(t)))
+	if err != nil {
+		t.Fatalf("reparsing fixture: %v", err)
+	}
+	if err := applyRootDBIndex(zones, doc2); err != nil {
+		t.Fatalf("applyRootDBIndex: %v", err)
+	}
+	for _, d := range []string{"ru", "xn--p1ai", "in"} {
+		z := zones[Normalize(d)]
+		if z == nil {
+			t.Errorf("%s: zone missing", d)
+			continue
+		}
+		if _, ok := NewSet(z.Tags...)[TagCountry]; !ok {
+			t.Errorf("%s: missing %q tag, got %v", d, TagCountry, z.Tags)
+		}
+	}
+}
+
+// rawNewLayout returns the new-layout fixture HTML.
+func rawNewLayout(t *testing.T) string {
+	t.Helper()
+	b, err := os.ReadFile("testdata/iana-root-db-new-layout.html")
+	if err != nil {
+		t.Fatalf("reading fixture: %v", err)
+	}
+	return string(b)
+}
+
+// TestParseRootDBIndex_SpecialUseNotAnOrganisation guards two mistakes that
+// the root DB redesign made easy to introduce.
+//
+// IANA reuses the "TLD Manager / Purpose" column for two different things:
+// an organisation name for ordinary TLDs, and a prose description for
+// special-use ones ("Used for clearly invalid domain names."). Writing the
+// latter into registryOperator overwrote "IANA" on .alt, .example,
+// .internal, .invalid, .local, .localhost, .onion and .test.
+//
+// "Special Use" also must not be folded into "infrastructure": it spans
+// nine TLDs and only .arpa is infrastructure.
+func TestParseRootDBIndex_SpecialUseNotAnOrganisation(t *testing.T) {
+	doc, err := goquery.NewDocumentFromReader(strings.NewReader(rawNewLayout(t)))
+	if err != nil {
+		t.Fatalf("parsing fixture: %v", err)
+	}
+	entries, err := ParseRootDBIndex(doc)
+	if err != nil {
+		t.Fatalf("ParseRootDBIndex: %v", err)
+	}
+
+	var sawSpecialUse bool
+	for _, e := range entries {
+		if e.Type != "special-use" {
+			continue
+		}
+		sawSpecialUse = true
+		if e.Organisation != "" {
+			t.Errorf("%s: Organisation = %q, want empty (prose purpose, not an org)", e.Punycode, e.Organisation)
+		}
+		if e.Type == "infrastructure" {
+			t.Errorf("%s: special-use must not be mapped to infrastructure", e.Punycode)
+		}
+	}
+	if !sawSpecialUse {
+		t.Fatal("fixture has no special-use row; test proves nothing")
+	}
+
+	// A pre-existing registryOperator must survive applying the index.
+	zones := map[string]*Zone{"arpa": {Domain: "arpa", RegistryOperator: "IANA"}}
+	if err := applyRootDBIndex(zones, doc); err != nil {
+		t.Fatalf("applyRootDBIndex: %v", err)
+	}
+	if got := zones["arpa"].RegistryOperator; got != "IANA" {
+		t.Errorf("arpa: RegistryOperator = %q, want %q (overwritten by prose?)", got, "IANA")
+	}
+}
