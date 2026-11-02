@@ -24,9 +24,21 @@ TINYGO_PREV=$(echo "$TINYGO_VERSIONS" | head -1)   # e.g. "0.39.0"
 TINYGO_LATEST=$(echo "$TINYGO_VERSIONS" | tail -1) # e.g. "0.40.1"
 
 # Highest Go minor version TinyGo supports, e.g. "1.25"
-# Parsed from TinyGo source: `const minorMax = 25` -> "1.25"
-TINYGO_MAX_GO="1.$(curl -sS 'https://raw.githubusercontent.com/tinygo-org/tinygo/release/builder/config.go' | \
-  sed -n 's/.*minorMax[[:space:]]*=[[:space:]]*\([0-9]*\).*/\1/p')"
+# Parsed from TinyGo source. TinyGo 0.44.0 and later declare
+# `MaximumGoMinorVersion = 27` in compileopts/config.go. Older releases
+# declare `const minorMax = 26` in builder/config.go.
+TINYGO_SRC='https://raw.githubusercontent.com/tinygo-org/tinygo/release'
+TINYGO_MAX_MINOR=$(curl -sS "$TINYGO_SRC/compileopts/config.go" | \
+  sed -n 's/.*MaximumGoMinorVersion[[:space:]]*=[[:space:]]*\([0-9][0-9]*\).*/\1/p' | head -1)
+if [ -z "$TINYGO_MAX_MINOR" ]; then
+  TINYGO_MAX_MINOR=$(curl -sS "$TINYGO_SRC/builder/config.go" | \
+    sed -n 's/.*minorMax[[:space:]]*=[[:space:]]*\([0-9][0-9]*\).*/\1/p' | head -1)
+fi
+if [ -z "$TINYGO_MAX_MINOR" ]; then
+  echo "ERROR: cannot find the maximum Go version in the TinyGo source" >&2
+  exit 2
+fi
+TINYGO_MAX_GO="1.$TINYGO_MAX_MINOR"
 
 # TinyGo tests should use the oldest supported Go that TinyGo can handle
 if [ "$(printf '%s\n%s' "$GO_PREV" "$TINYGO_MAX_GO" | sort -V | head -1)" = "$GO_PREV" ]; then
