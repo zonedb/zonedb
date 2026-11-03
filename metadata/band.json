@@ -6,6 +6,8 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"v0n0.nic.band",
+		"v0n1.nic.band",
 		"v0n2.nic.band",
 		"v0n3.nic.band",
 		"v2n0.nic.band",
@@ -42,7 +44,7 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/band_de_5.xml",
+			"value": "https://www.iana.org/domains/idn-tables/tables/band_de_5.1.xml",
 			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{

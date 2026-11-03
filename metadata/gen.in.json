@@ -1,9 +1,10 @@
 {
 	"domain": "gen.in",
 	"nameServers": [
-		"ns01.trs-dns.net",
-		"ns10.trs-dns.info",
-		"ns10.trs-dns.org"
+		"ns1.registry.in",
+		"ns2.registry.in",
+		"ns3.registry.in",
+		"ns4.registry.in"
 	],
 	"tags": [
 		"private"

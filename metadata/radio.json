@@ -3,18 +3,18 @@
 	"registryOperator": "Digity, LLC",
 	"infoURL": "https://www.nic.radio/",
 	"rdapURLs": [
-		"https://rdap.nic.radio/"
+		"https://rdap.centralnic.com/radio/"
 	],
 	"nameServers": [
-		"anycast10.irondns.net",
-		"anycast23.irondns.net"
+		"a.nic.radio",
+		"b.nic.radio",
+		"c.nic.radio",
+		"d.nic.radio"
 	],
 	"languages": [
 		"he",
 		"ja",
 		"ko",
-		"mul-Arab",
-		"mul-Cyrl",
 		"mul-Latn",
 		"und-Arab",
 		"und-Cyrl",
@@ -29,50 +29,38 @@
 		{
 			"type": "idn-table",
 			"key": "he",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_he_1.0.txt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_he_4.0.xml",
 			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ja",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_ja_1.0.txt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_ja_4.0.xml",
 			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "ko",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_ko_1.0.txt",
-			"source": "https://www.iana.org/domains/idn-tables"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Arab",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_arab_1.3.txt",
-			"source": "https://www.iana.org/domains/idn-tables"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Cyrl",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_cyrl_1.0.txt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_ko_4.0.xml",
 			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "mul-Latn",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_latn_1.0.txt",
-			"source": "https://www.iana.org/domains/idn-tables"
+			"value": "https://centralnicregistry.com/services/idn-table/latn/986/",
+			"source": "https://centralnicregistry.com/idn-tables/"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Arab",
-			"value": "https://centralnicregistry.com/services/idn-table/und-Arab/987/",
-			"source": "https://centralnicregistry.com/idn-tables/"
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_und-arab_4.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "und-Cyrl",
-			"value": "https://centralnicregistry.com/services/idn-table/und-Cyrl/991/",
-			"source": "https://centralnicregistry.com/idn-tables/"
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_und-cyrl_4.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
@@ -83,13 +71,13 @@
 		{
 			"type": "idn-table",
 			"key": "und-Latn",
-			"value": "https://centralnicregistry.com/services/idn-table/und-Latn/1001/",
-			"source": "https://centralnicregistry.com/idn-tables/"
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_und-latn_4.0.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
 			"type": "idn-table",
 			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/radio_zh_1.0.txt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/radio_zh_4.0.xml",
 			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]

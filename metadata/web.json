@@ -1,5 +1,16 @@
 {
 	"domain": "web",
+	"registryOperator": "VeriSign, Inc.",
+	"whoisServer": "whois.nic.web",
+	"rdapURLs": [
+		"https://tld-rdap.verisign.com/web/v1/"
+	],
+	"nameServers": [
+		"ac1.nstld.com",
+		"ac2.nstld.com",
+		"ac3.nstld.com",
+		"ac4.nstld.com"
+	],
 	"tags": [
 		"generic",
 		"withdrawn"

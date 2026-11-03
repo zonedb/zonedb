@@ -3,8 +3,8 @@
 	"nameServers": [
 		"anyc2.irondns.net",
 		"katima.omadhina.net",
-		"na-ns.anycast.pch.net",
-		"ns-na.afrinic.net"
+		"na-e.ns.nic.cz",
+		"na-ns.anycast.pch.net"
 	],
 	"policies": [
 		{

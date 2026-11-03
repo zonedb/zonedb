@@ -6,6 +6,7 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"v0n0.nic.creditcard",
 		"v0n1.nic.creditcard",
 		"v0n2.nic.creditcard",
 		"v0n3.nic.creditcard",
@@ -20,8 +21,6 @@
 		"he",
 		"ja",
 		"ko",
-		"mul-Arab",
-		"mul-Hebr",
 		"und-Cyrl",
 		"und-Deva",
 		"und-Grek",
@@ -43,7 +42,7 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/creditcard_de_5.xml",
+			"value": "https://www.iana.org/domains/idn-tables/tables/creditcard_de_5.1.xml",
 			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{
@@ -74,18 +73,6 @@
 			"type": "idn-table",
 			"key": "ko",
 			"value": "https://www.iana.org/domains/idn-tables/tables/creditcard_ko_5.xml",
-			"source": "https://www.iana.org/domains/idn-tables"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Arab",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_arab_1.0.txt",
-			"source": "https://www.iana.org/domains/idn-tables"
-		},
-		{
-			"type": "idn-table",
-			"key": "mul-Hebr",
-			"value": "https://www.iana.org/domains/idn-tables/tables/academy_hebr_1.0.txt",
 			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{

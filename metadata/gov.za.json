@@ -1,6 +1,5 @@
 {
 	"domain": "gov.za",
-	"whoisServer": "whois.gov.za",
 	"nameServers": [
 		"ns1.gov.za",
 		"ns1.inx.net.za",

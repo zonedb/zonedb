@@ -7,9 +7,10 @@
 	"infoURL": "https://www.registry.in/",
 	"whoisServer": "whois.nixiregistry.in",
 	"nameServers": [
-		"ns01.trs-dns.net",
-		"ns10.trs-dns.info",
-		"ns10.trs-dns.org"
+		"ns1.registry.in",
+		"ns2.registry.in",
+		"ns3.registry.in",
+		"ns4.registry.in"
 	],
 	"locations": [
 		"IN-WB",

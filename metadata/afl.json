@@ -7,6 +7,8 @@
 		"https://rdap.nic.afl/"
 	],
 	"nameServers": [
+		"a.nic.afl",
+		"b.nic.afl",
 		"c.nic.afl",
 		"x.nic.afl",
 		"y.nic.afl",

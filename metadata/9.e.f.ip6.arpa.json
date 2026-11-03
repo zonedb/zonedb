@@ -1,7 +1,7 @@
 {
 	"domain": "9.e.f.ip6.arpa",
 	"registryOperator": "IANA",
-	"infoURL": "https://datatracker.ietf.org/doc/rfc6762",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc%206762",
 	"tags": [
 		"closed",
 		"infrastructure"

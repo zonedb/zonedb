@@ -8,6 +8,7 @@
 	],
 	"nameServers": [
 		"a.nic.anz",
+		"b.nic.anz",
 		"c.nic.anz",
 		"x.nic.anz",
 		"y.nic.anz",

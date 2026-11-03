@@ -6,7 +6,8 @@
 	"whoisServer": "whois.nic.af",
 	"nameServers": [
 		"ns.anycast.nic.af",
-		"ns1.anycastdns.cz"
+		"ns1.anycastdns.cz",
+		"ns2.anycastdns.cz"
 	],
 	"tags": [
 		"country",

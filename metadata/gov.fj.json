@@ -2,6 +2,8 @@
 	"domain": "gov.fj",
 	"nameServers": [
 		"itcns1.gov.fj",
-		"itcns2.gov.fj"
+		"itcns2.gov.fj",
+		"itcns3.gov.fj",
+		"itcns4.gov.fj"
 	]
 }

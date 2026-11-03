@@ -8,8 +8,7 @@
 	"infoURL": "https://nic.sy/",
 	"nameServers": [
 		"ns1.tld.sy",
-		"pch.anycast.tld.sy",
-		"sy.cctld.authdns.ripe.net"
+		"pch.anycast.tld.sy"
 	],
 	"tags": [
 		"country",

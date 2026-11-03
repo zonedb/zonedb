@@ -1,5 +1,9 @@
 {
 	"domain": "be.tt",
+	"nameServers": [
+		"alan.ns.cloudflare.com",
+		"ashley.ns.cloudflare.com"
+	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

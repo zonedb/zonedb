@@ -2,13 +2,13 @@
 	"domain": "sld.pa",
 	"nameServers": [
 		"a.lactld.org",
-		"dns-ext.nic.cr",
 		"ns.dns.br",
 		"ns.nic.pa",
 		"ns1.anycastdns.cz",
 		"ns1.nic.pa",
 		"ns2.anycastdns.cz",
 		"ns2.nic.pa",
+		"nsca.nic.cr",
 		"ssdns-tld.nic.cl"
 	],
 	"policies": [

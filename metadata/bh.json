@@ -6,11 +6,14 @@
 	"registryOperator": "Telecommunications Regulatory Authority (TRA)",
 	"countryName": "Bahrain",
 	"whoisServer": "whois.nic.bh",
+	"rdapURLs": [
+		"https://rdap.bhregistry.bh/rdap/"
+	],
 	"nameServers": [
-		"a.nic.bh",
-		"b.nic.bh",
-		"c.nic.bh",
-		"d.nic.bh"
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.net",
+		"ns10.trs-dns.info",
+		"ns10.trs-dns.org"
 	],
 	"tags": [
 		"country",

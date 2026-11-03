@@ -1,7 +1,10 @@
 {
 	"domain": "ne.pw",
 	"nameServers": [
-		"n1.xundns.com",
-		"n2.xundns.com"
+		"ns1.dyna-ns.net",
+		"ns2.dyna-ns.net"
+	],
+	"wildcards": [
+		"54.215.31.113"
 	]
 }

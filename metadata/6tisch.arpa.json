@@ -1,7 +1,7 @@
 {
 	"domain": "6tisch.arpa",
 	"registryOperator": "IANA",
-	"infoURL": "https://datatracker.ietf.org/doc/rfc9031",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc%209031",
 	"tags": [
 		"closed",
 		"infrastructure"

@@ -6,6 +6,7 @@
 	"nameServers": [
 		"dns-at.rotld.ro",
 		"dns-c.rotld.ro",
+		"dns-d.rotld.ro",
 		"dns-ro.denic.de",
 		"primary.rotld.ro",
 		"sec-dns-a.rotld.ro",

@@ -15,7 +15,8 @@
 		"te.ngtld.cn"
 	],
 	"languages": [
-		"zh"
+		"zh-Hans",
+		"zh-Hant"
 	],
 	"tags": [
 		"generic"
@@ -23,8 +24,14 @@
 	"policies": [
 		{
 			"type": "idn-table",
-			"key": "zh",
-			"value": "https://www.iana.org/domains/idn-tables/tables/xn--55qw42g_zh_4.1.txt",
+			"key": "zh-Hans",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--55qw42g_zh-hans_4.1.txt",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "zh-Hant",
+			"value": "https://www.iana.org/domains/idn-tables/tables/xn--55qw42g_zh-hant_4.1.txt",
 			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]

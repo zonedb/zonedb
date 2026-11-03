@@ -3,6 +3,7 @@
 	"registryOperator": "Presidencia de la Nación , Secretaría Legal y Técnica",
 	"countryName": "Argentina",
 	"infoURL": "https://nic.ar/",
+	"whoisServer": "whois.nic.ar",
 	"rdapURLs": [
 		"https://rdap.nic.ar/"
 	],

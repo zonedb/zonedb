@@ -4,11 +4,14 @@
 	"domainAscii": "bh",
 	"registryOperator": "Telecommunications Regulatory Authority (TRA)",
 	"countryName": "Bahrain",
+	"rdapURLs": [
+		"https://rdap.bhregistry.bh/rdap/"
+	],
 	"nameServers": [
-		"a.nic.البحرين",
-		"b.nic.البحرين",
-		"c.nic.البحرين",
-		"d.nic.البحرين"
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.net",
+		"ns10.trs-dns.info",
+		"ns10.trs-dns.org"
 	],
 	"languages": [
 		"ar-BH"

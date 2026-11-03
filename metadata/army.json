@@ -5,6 +5,7 @@
 		"https://rdap.identitydigital.services/rdap/"
 	],
 	"nameServers": [
+		"v0n0.nic.army",
 		"v0n1.nic.army",
 		"v0n2.nic.army",
 		"v0n3.nic.army",
@@ -42,7 +43,7 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/army_de_5.xml",
+			"value": "https://www.iana.org/domains/idn-tables/tables/army_de_5.1.xml",
 			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{

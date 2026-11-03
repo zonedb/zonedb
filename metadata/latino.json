@@ -7,16 +7,30 @@
 		"https://rdap.mobile-registry.com/rdap/"
 	],
 	"nameServers": [
+		"ns01.trs-dns.com",
 		"ns01.trs-dns.net",
 		"ns10.trs-dns.info",
 		"ns10.trs-dns.org"
+	],
+	"languages": [
+		"es",
+		"pt"
 	],
 	"tags": [
 		"generic"
 	],
 	"policies": [
 		{
-			"type": "idn-disallowed"
+			"type": "idn-table",
+			"key": "es",
+			"value": "https://www.iana.org/domains/idn-tables/tables/latino_es_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
+		},
+		{
+			"type": "idn-table",
+			"key": "pt",
+			"value": "https://www.iana.org/domains/idn-tables/tables/latino_pt_3.xml",
+			"source": "https://www.iana.org/domains/idn-tables"
 		}
 	]
 }

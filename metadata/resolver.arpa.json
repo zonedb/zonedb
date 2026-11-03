@@ -1,7 +1,7 @@
 {
 	"domain": "resolver.arpa",
 	"registryOperator": "IANA",
-	"infoURL": "https://datatracker.ietf.org/doc/rfc9462",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc%209462",
 	"tags": [
 		"closed",
 		"infrastructure"

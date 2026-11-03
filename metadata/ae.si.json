@@ -1,10 +1,12 @@
 {
 	"domain": "ae.si",
 	"nameServers": [
-		"b.ns14.net",
-		"c.ns14.net",
-		"d.ns14.net",
-		"ns.2020.si"
+		"ns1.afternic.com",
+		"ns2.afternic.com"
+	],
+	"wildcards": [
+		"13.248.169.48",
+		"76.223.54.146"
 	],
 	"policies": [
 		{

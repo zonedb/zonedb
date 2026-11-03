@@ -7,10 +7,10 @@
 	"countryName": "Laos",
 	"whoisServer": "whois.nic.la",
 	"nameServers": [
-		"ns1.nic.la",
-		"ns2.nic.la",
-		"ns3.nic.la",
-		"ns4.nic.la"
+		"ns01.trs-dns.com",
+		"ns01.trs-dns.net",
+		"ns10.trs-dns.info",
+		"ns10.trs-dns.org"
 	],
 	"locations": [
 		"Los Angeles"

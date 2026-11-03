@@ -6,6 +6,9 @@
 	"registryOperator": "Korea Internet & Security Agency (KISA)",
 	"countryName": "South Korea",
 	"whoisServer": "whois.krnic.net",
+	"rdapURLs": [
+		"https://rdap.nic.or.kr/"
+	],
 	"nameServers": [
 		"b.dns.kr",
 		"c.dns.kr",

@@ -1,10 +1,9 @@
 {
 	"domain": "poznan.pl",
 	"nameServers": [
-		"bilbo.nask.org.pl",
-		"dns.amu.edu.pl",
-		"dns3.amu.edu.pl",
-		"kirdan.nask.net.pl"
+		"berberis.man.poznan.pl",
+		"rose.man.poznan.pl",
+		"sunflower.man.poznan.pl"
 	],
 	"policies": [
 		{

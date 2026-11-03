@@ -8,7 +8,9 @@
 	],
 	"nameServers": [
 		"a.nic.cam",
-		"b.nic.cam"
+		"b.nic.cam",
+		"c.nic.cam",
+		"d.nic.cam"
 	],
 	"languages": [
 		"ar",

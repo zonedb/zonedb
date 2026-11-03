@@ -1,6 +1,8 @@
 {
 	"domain": "me.tz",
 	"nameServers": [
+		"bongo.anycast.tz",
+		"fork.sth.dnsnode.net",
 		"ns.anycast.co.tz",
 		"ns2.tznic.or.tz",
 		"tz-e.ns.nic.cz"

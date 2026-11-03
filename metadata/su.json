@@ -6,6 +6,7 @@
 	"nameServers": [
 		"a.dns.ripn.net",
 		"b.dns.ripn.net",
+		"c.tld-servers.ru",
 		"d.dns.ripn.net",
 		"e.dns.ripn.net",
 		"f.dns.ripn.net"

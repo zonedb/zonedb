@@ -7,9 +7,12 @@
 		"https://rdap.nic.ally/"
 	],
 	"nameServers": [
+		"a.nic.ally",
 		"b.nic.ally",
 		"c.nic.ally",
-		"x.nic.ally"
+		"x.nic.ally",
+		"y.nic.ally",
+		"z.nic.ally"
 	],
 	"tags": [
 		"brand",

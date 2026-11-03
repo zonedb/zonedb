@@ -7,6 +7,8 @@
 		"https://rdap.nic.abogado/"
 	],
 	"nameServers": [
+		"a.nic.abogado",
+		"b.nic.abogado",
 		"c.nic.abogado",
 		"x.nic.abogado",
 		"y.nic.abogado",

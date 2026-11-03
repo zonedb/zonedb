@@ -8,6 +8,7 @@
 	"infoURL": "https://www.nic.ae/",
 	"whoisServer": "whois.aeda.net.ae",
 	"nameServers": [
+		"ns1.aedns.ae",
 		"ns2.aedns.ae",
 		"ns4.apnic.net",
 		"nsext-pch.aedns.ae"

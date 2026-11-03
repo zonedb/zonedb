@@ -2,7 +2,6 @@
 	"domain": "toray",
 	"registryOperator": "Toray Industries, Inc.",
 	"infoURL": "https://nic.toray/",
-	"whoisServer": "whois.nic.toray",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

@@ -9,7 +9,8 @@
 	"nameServers": [
 		"a0.nic.barclaycard",
 		"a2.nic.barclaycard",
-		"b0.nic.barclaycard"
+		"b0.nic.barclaycard",
+		"c0.nic.barclaycard"
 	],
 	"tags": [
 		"brand",

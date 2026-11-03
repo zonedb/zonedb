@@ -1,6 +1,7 @@
 {
 	"domain": "global",
 	"registryOperator": "Identity Digital Limited",
+	"whoisServer": "whois.nic.global",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
@@ -91,7 +92,7 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/global_de_5.xml",
+			"value": "https://www.iana.org/domains/idn-tables/tables/global_de_5.1.xml",
 			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{

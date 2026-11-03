@@ -1,7 +1,7 @@
 {
 	"domain": "170.0.0.192.in-addr.arpa",
 	"registryOperator": "IANA",
-	"infoURL": "https://datatracker.ietf.org/doc/rfc8880",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc%208880",
 	"tags": [
 		"closed",
 		"infrastructure"

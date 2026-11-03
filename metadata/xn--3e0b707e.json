@@ -4,6 +4,9 @@
 	"domainAscii": "kr",
 	"registryOperator": "KISA (Korea Internet & Security Agency)",
 	"countryName": "South Korea",
+	"rdapURLs": [
+		"https://rdap.nic.or.kr/"
+	],
 	"nameServers": [
 		"b.dns.kr",
 		"c.dns.kr",

@@ -2,7 +2,6 @@
 	"domain": "bridgestone",
 	"registryOperator": "Bridgestone Corporation",
 	"infoURL": "https://nic.bridgestone/",
-	"whoisServer": "whois.nic.bridgestone",
 	"rdapURLs": [
 		"https://rdap.gmoregistry.net/rdap/"
 	],

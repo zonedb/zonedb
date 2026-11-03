@@ -2,19 +2,13 @@
 	"domain": "juniper",
 	"registryOperator": "JUNIPER NETWORKS, INC.",
 	"infoURL": "http://nic.juniper/",
-	"whoisServer": "whois.nic.juniper",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
-	"nameServers": [
-		"a0.nic.juniper",
-		"a2.nic.juniper",
-		"b0.nic.juniper",
-		"c0.nic.juniper"
-	],
 	"tags": [
 		"brand",
-		"generic"
+		"generic",
+		"retired"
 	],
 	"policies": [
 		{

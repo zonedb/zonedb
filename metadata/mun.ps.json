@@ -1,10 +1,9 @@
 {
 	"domain": "mun.ps",
 	"nameServers": [
-		"dns1.gov.ps",
 		"ns1.gov.ps",
-		"ns2.palgov.net",
-		"ns2.pnina.ps"
+		"ns2.gov.ps",
+		"ns3.gov.ps"
 	],
 	"policies": [
 		{

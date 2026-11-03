@@ -1,7 +1,7 @@
 {
 	"domain": "eap-noob.arpa",
 	"registryOperator": "IANA",
-	"infoURL": "https://datatracker.ietf.org/doc/rfc9140][rfc9965",
+	"infoURL": "https://datatracker.ietf.org/doc/rfc%209140%5D;%20%5Brfc%209965",
 	"tags": [
 		"infrastructure",
 		"retired"

@@ -81,7 +81,7 @@
 		{
 			"type": "idn-table",
 			"key": "de",
-			"value": "https://www.iana.org/domains/idn-tables/tables/voto_de_3.xml",
+			"value": "https://www.iana.org/domains/idn-tables/tables/voto_de_5.1.xml",
 			"source": "https://www.iana.org/domains/idn-tables"
 		},
 		{

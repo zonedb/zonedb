@@ -1,11 +1,10 @@
 {
 	"domain": "lublin.pl",
 	"nameServers": [
-		"bilbo.nask.org.pl",
 		"ns1.lublin.pl",
 		"ns2.lublin.pl",
-		"ns3.lubman.pl",
-		"ns4.lubman.pl"
+		"ns3.lublin.pl",
+		"ns4.lublin.pl"
 	],
 	"tags": [
 		"geo",

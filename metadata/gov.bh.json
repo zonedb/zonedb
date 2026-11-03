@@ -2,7 +2,8 @@
 	"domain": "gov.bh",
 	"nameServers": [
 		"ns1.gov.bh",
-		"ns2.gov.bh"
+		"ns2.gov.bh",
+		"ns5.gov.bh"
 	],
 	"wildcards": [
 		"198.135.184.22",

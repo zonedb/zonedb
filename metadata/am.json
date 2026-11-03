@@ -8,6 +8,7 @@
 	"infoURL": "https://www.amnic.net/",
 	"whoisServer": "whois.amnic.net",
 	"nameServers": [
+		"fork.sth.dnsnode.net",
 		"ns-cdn.amnic.net",
 		"ns-pch.amnic.net",
 		"ns-pri.nic.am"
