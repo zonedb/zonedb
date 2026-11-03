@@ -61,6 +61,14 @@ func (z *Zone) Normalize() {
 	z.subdomains = NormalizeDomains(z.subdomains)
 	z.WhoisServer = Normalize(z.WhoisServer)
 	z.WhoisURL = NormalizeURL(z.WhoisURL)
+	// A zone has a whoisServer or a whoisURL, never both (#812). The URL is
+	// a human-facing fallback for zones with no port-43 service, so a
+	// working server wins. Enforced here because Normalize runs after
+	// VerifyWhois has cleared any unreachable server, so a zone is never
+	// left with neither.
+	if z.WhoisServer != "" {
+		z.WhoisURL = ""
+	}
 	z.normalizePolicies()
 	z.normalizeLanguages()
 }

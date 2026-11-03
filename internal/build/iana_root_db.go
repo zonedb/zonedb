@@ -76,11 +76,62 @@ type RootDBEntry struct {
 	Organisation string // Registry operator name
 }
 
+// normalizeRootDBType canonicalizes the root DB type column to the slug form
+// the tagging switch expects. IANA now renders display text ("Country Code")
+// where it previously emitted slugs ("country-code"). Downstream matching is
+// exact, so an unnormalized value silently drops country tags.
+//
+// "Special Use" is deliberately not mapped to "infrastructure": it covers
+// nine TLDs (.alt, .example, .internal, .invalid, .local, .localhost, .onion,
+// .test and .arpa), and only .arpa is infrastructure. Leaving it unmapped
+// means those zones get no type tag from this source, which is correct —
+// their tags come from FetchSpecialUseDomainsFromIANA.
+func normalizeRootDBType(s string) string {
+	s = strings.ToLower(strings.Join(strings.Fields(s), " "))
+	return strings.ReplaceAll(s, " ", "-")
+}
+
+// isRootDBOrganisation reports whether the TLD Manager column holds an
+// organisation name rather than a prose purpose. IANA reuses that column for
+// both: special-use TLDs carry descriptions ("Used for clearly invalid domain
+// names.") that must not be written into registryOperator.
+func isRootDBOrganisation(tldType string) bool {
+	return tldType != "special-use"
+}
+
+// rootDBColumns locates the "Type" and "TLD Manager" columns by header text.
+// IANA added a "Status" column ahead of them in 2026, shifting the fixed
+// offsets this code previously assumed. Falls back to the historic 1 and 2
+// when no usable header is present.
+func rootDBColumns(table *goquery.Selection) (typeCol, orgCol int) {
+	typeCol, orgCol = 1, 2
+	headers := table.Find("thead tr").First().Find("th")
+	if headers.Length() == 0 {
+		return typeCol, orgCol
+	}
+	foundType, foundOrg := false, false
+	headers.Each(func(i int, th *goquery.Selection) {
+		switch h := strings.ToLower(strings.TrimSpace(th.Text())); {
+		case !foundType && h == "type":
+			typeCol, foundType = i, true
+		// The manager column has been titled "TLD Manager", "Sponsoring
+		// Organisation", and "TLD Manager / Purpose" over time.
+		case !foundOrg && (strings.Contains(h, "manager") || strings.Contains(h, "organisation")):
+			orgCol, foundOrg = i, true
+		}
+	})
+	return typeCol, orgCol
+}
+
 // ParseRootDBIndex parses the IANA root zone database index HTML page and
 // returns a slice of entries, one per TLD row.
 func ParseRootDBIndex(doc *goquery.Document) ([]RootDBEntry, error) {
 	var entries []RootDBEntry
-	doc.Find("table#tld-table tbody tr").Each(func(_ int, row *goquery.Selection) {
+	table := doc.Find("table#ddtable, table#tld-table").First()
+	typeCol, orgCol := rootDBColumns(table)
+	// IANA renamed the table from #tld-table to #ddtable; match either so a
+	// cached or reverted copy still parses.
+	table.Find("tbody tr").Each(func(_ int, row *goquery.Selection) {
 		cells := row.Find("td")
 		if cells.Length() < 3 {
 			return
@@ -91,14 +142,18 @@ func ParseRootDBIndex(doc *goquery.Document) ([]RootDBEntry, error) {
 		domainText := strings.TrimPrefix(strings.TrimSpace(link.Text()), ".")
 		href, _ := link.Attr("href")
 
-		// Extract punycode from href (e.g., "/domains/root/db/xn--p1ai.html" → "xn--p1ai")
+		// Extract punycode from href. The suffix is optional: the current
+		// layout uses "/domains/root/db/xn--p1ai", the older one appended
+		// ".html".
 		punycode := strings.TrimSuffix(path.Base(href), ".html")
 
-		// Column 2: type
-		tldType := strings.TrimSpace(cells.Eq(1).Text())
-
-		// Column 3: organisation
-		org := strings.TrimSpace(cells.Eq(2).Text())
+		// The current layout inserts a "Status" column before "Type", so
+		// locate the columns by header rather than fixed offset.
+		tldType := normalizeRootDBType(cells.Eq(typeCol).Text())
+		var org string
+		if isRootDBOrganisation(tldType) {
+			org = strings.TrimSpace(cells.Eq(orgCol).Text())
+		}
 
 		if domainText == "" || punycode == "" {
 			return

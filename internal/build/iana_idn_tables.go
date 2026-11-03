@@ -3,6 +3,7 @@ package build
 import (
 	"context"
 	"errors"
+	"fmt"
 	"net/url"
 	"strings"
 	"sync/atomic"
@@ -55,19 +56,23 @@ func FetchIDNTablesFromIANA(ctx context.Context, zones map[string]*Zone, cache *
 		matchCount     uint64
 		extractedCount uint64
 	)
-	doc.Find("body table#idn-table > tbody > tr > td:first-child").Each(func(i int, s *goquery.Selection) {
+	doc.Find("body table#idn-table > tbody > tr").Each(func(i int, tr *goquery.Selection) {
+		// Group header rows carry no table link; skip them before counting.
+		if tr.HasClass("idn-group-row") {
+			return
+		}
+		s := tr.Find("td").First()
+		if s.Length() == 0 {
+			return
+		}
 		atomic.AddUint64(&matchCount, 1)
-		domain := s.Find("span").Text()
+		domain := domainFromRow(tr, s)
 		forLabel := s.Find("a").Text()
 		if forLabel == "" {
 			forLabel = domain
 		}
 		partURL, exists := s.Find("a[href]").Attr("href")
 		if !exists {
-			forLabel := s.Find("a").Text()
-			if forLabel == "" {
-				forLabel = domain
-			}
 			Trace("@{r}missing href for %q\n", forLabel)
 			return
 		}
@@ -79,7 +84,7 @@ func FetchIDNTablesFromIANA(ctx context.Context, zones map[string]*Zone, cache *
 
 		// At this point, "domain" looks like ".<tld>" and u should have u.String() which is an absolute working URL
 		// The partURL's last component, after directory-separator, looks like "<tld>_<language>_<version.info>.txt"
-		if domain[0] != '.' {
+		if domain == "" || domain[0] != '.' {
 			Trace("@{r}bad domain name %q\n", domain)
 			return
 		}
@@ -110,11 +115,37 @@ func FetchIDNTablesFromIANA(ctx context.Context, zones map[string]*Zone, cache *
 		atomic.AddUint64(&extractedCount, 1)
 	})
 	Trace("@{.}saw %d matches, extracted %d entries\n", matchCount, extractedCount)
-	if extractedCount == 0 && len(tlds) > 100 {
-		return errors.New("failed to extract any URLs from IANA index page, HTML change?")
+	if len(tlds) > 100 {
+		if extractedCount == 0 {
+			return errors.New("failed to extract any URLs from IANA index page, HTML change?")
+		}
+		// Stale IANA policies are pruned above, before parsing. A partial
+		// HTML change that still yields some rows would silently delete the
+		// rest, so treat a large drop as an error rather than committing the
+		// loss. The 2026-08 regrouping broke every row at once; a narrower
+		// one (e.g. a single column moving) would not.
+		if matchCount > 0 && extractedCount*2 < matchCount {
+			return fmt.Errorf("extracted only %d of %d IANA IDN table rows, HTML change?", extractedCount, matchCount)
+		}
 	}
 
 	return nil
+}
+
+// domainFromRow extracts the ".<tld>" label for an IDN table row.
+//
+// IANA's current layout groups rows by zone and carries the domain on the
+// row (data-idn-domain) or cell (data-sort-value), with the <span> holding
+// the language name. The older layout put the domain in the <span>. Both
+// are handled so a future revert or cached copy still parses.
+func domainFromRow(tr, td *goquery.Selection) string {
+	if d, ok := tr.Attr("data-idn-domain"); ok && d != "" {
+		return strings.TrimSpace(d)
+	}
+	if d, ok := td.Attr("data-sort-value"); ok && d != "" {
+		return strings.TrimSpace(d)
+	}
+	return strings.TrimSpace(td.Find("span").First().Text())
 }
 
 func langFromURL(u string) (string, error) {

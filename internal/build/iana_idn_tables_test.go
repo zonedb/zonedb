@@ -3,6 +3,7 @@ package build
 import (
 	"net/http"
 	"net/http/httptest"
+	"strings"
 	"testing"
 )
 
@@ -294,5 +295,60 @@ func TestFetchIDNTablesFromIANA_Full(t *testing.T) {
 	}
 	if len(z.Languages) == 0 {
 		t.Fatal("expected languages for .aaa, got none")
+	}
+}
+
+// TestFetchIDNTablesFromIANA_NewLayout is a regression test for the 2026-08-18
+// breakage, where IANA regrouped the IDN tables page by zone. The domain moved
+// from the cell's <span> (which now holds the language name) to a row
+// attribute, so every row failed the leading-dot check and the fetch aborted
+// with "failed to extract any URLs from IANA index page".
+func TestFetchIDNTablesFromIANA_NewLayout(t *testing.T) {
+	srv := httptest.NewServer(http.FileServer(http.Dir("testdata")))
+	defer srv.Close()
+
+	origTablesURL := ianaTablesURL
+	origBaseURL := ianaBaseURL
+	ianaTablesURL = srv.URL + "/idn-tables-new-layout.html"
+	ianaBaseURL = srv.URL
+	defer func() {
+		ianaTablesURL = origTablesURL
+		ianaBaseURL = origBaseURL
+	}()
+
+	zones := map[string]*Zone{
+		"aaa":     {Domain: "aaa"},
+		"academy": {Domain: "academy"},
+		"bg":      {Domain: "bg"},
+	}
+
+	if err := FetchIDNTablesFromIANA(t.Context(), zones, nil); err != nil {
+		t.Fatalf("FetchIDNTablesFromIANA: %v", err)
+	}
+
+	for _, d := range []string{"aaa", "academy", "bg"} {
+		z := zones[d]
+		if len(idnPolicies(z)) == 0 {
+			t.Errorf("expected idn-table policies for .%s, got none", d)
+		}
+		if len(z.Languages) == 0 {
+			t.Errorf("expected languages for .%s, got none", d)
+		}
+	}
+
+	// The group header rows carry a domain but no table link; they must not
+	// produce policies pointing at the index page itself.
+	for _, p := range zones["aaa"].Policies {
+		if p.Type == TypeIDNTable && p.Value == ianaTablesURL {
+			t.Errorf("group header row produced a bogus policy: %+v", p)
+		}
+	}
+
+	// Languages must be real tags parsed from the table filename, not the
+	// human-readable language names the <span> now contains.
+	for _, l := range zones["bg"].Languages {
+		if strings.ContainsAny(l, " ()") {
+			t.Errorf("language %q looks like a display name, not a BCP 47 tag", l)
+		}
 	}
 }
