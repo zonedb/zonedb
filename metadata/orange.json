@@ -2,7 +2,6 @@
 	"domain": "orange",
 	"registryOperator": "Orange Brand Services Limited",
 	"infoURL": "https://www.orange.com/en/nic/domains",
-	"whoisServer": "whois.nic.orange",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

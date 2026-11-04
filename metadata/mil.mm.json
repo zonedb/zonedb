@@ -1,0 +1,8 @@
+{
+	"domain": "mil.mm",
+	"nameServers": [
+		"master.mil.mm",
+		"ns1.mil.mm",
+		"ns2.mil.mm"
+	]
+}

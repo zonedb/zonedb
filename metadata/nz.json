@@ -2,7 +2,7 @@
 	"domain": "nz",
 	"registryOperator": "InternetNZ",
 	"countryName": "New Zealand",
-	"whoisServer": "whois.irs.net.nz",
+	"whoisServer": "whois.srs.net.nz",
 	"nameServers": [
 		"ns1.dns.net.nz",
 		"ns2.dns.net.nz",
