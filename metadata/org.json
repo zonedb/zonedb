@@ -7,12 +7,12 @@
 		"https://rdap.publicinterestregistry.org/rdap/"
 	],
 	"nameServers": [
-		"a0.org.afilias-nst.info",
 		"a2.org.afilias-nst.info",
-		"b0.org.afilias-nst.org",
 		"b2.org.afilias-nst.org",
-		"c0.org.afilias-nst.info",
-		"d0.org.afilias-nst.org"
+		"d0.org.afilias-nst.org",
+		"v0n0.pir-ns.org",
+		"v0n1.pir-ns.org",
+		"v0n2.pir-ns.org"
 	],
 	"languages": [
 		"be",

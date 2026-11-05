@@ -1,8 +1,5 @@
 {
 	"domain": "org.kp",
-	"nameServers": [
-		"ns1.org.kp"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"

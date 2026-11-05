@@ -2,7 +2,6 @@
 	"domain": "coupon",
 	"registryOperator": "Amazon Registry Services, Inc.",
 	"infoURL": "https://nic.coupon/",
-	"whoisServer": "whois.nic.coupon",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

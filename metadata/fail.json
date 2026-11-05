@@ -1,6 +1,7 @@
 {
 	"domain": "fail",
 	"registryOperator": "Binky Moon, LLC",
+	"whoisServer": "whois.nic.fail",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

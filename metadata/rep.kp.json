@@ -1,8 +1,5 @@
 {
 	"domain": "rep.kp",
-	"nameServers": [
-		"ns2.rep.kp"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
