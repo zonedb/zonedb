@@ -6,9 +6,9 @@ module github.com/zonedb/zonedb
 go 1.26.0
 
 require (
-	github.com/PuerkitoBio/goquery v1.12.0
+	github.com/PuerkitoBio/goquery v1.13.0
 	github.com/miekg/dns v1.1.73
-	github.com/tailscale/hujson v0.0.0-20260302212456-ecc657c15afd
+	github.com/tailscale/hujson v0.0.0-20260727124030-b80ff77dac4f
 	github.com/wsxiaoys/terminal v0.0.0-20160513160801-0940f3fc43a0
 	golang.org/x/net v0.62.0
 	golang.org/x/sync v0.24.0
@@ -16,6 +16,6 @@ require (
 )
 
 require (
-	github.com/andybalholm/cascadia v1.3.3 // indirect
+	github.com/andybalholm/cascadia v1.3.4 // indirect
 	golang.org/x/sys v0.49.0 // indirect
 )
