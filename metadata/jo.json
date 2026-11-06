@@ -5,7 +5,7 @@
 	],
 	"registryOperator": "Ministry of Digital Economy and Entrepreneurship (MoDEE)",
 	"countryName": "Jordan",
-	"whoisURL": "http://www.dns.jo/Whois.aspx",
+	"whoisServer": "whois.nic.net.jo",
 	"nameServers": [
 		"a.cctld-servers.net.jo",
 		"b.cctld-servers.net.jo",

@@ -2,6 +2,7 @@
 	"domain": "erni",
 	"registryOperator": "ERNI Group Holding AG",
 	"infoURL": "https://www.nic.erni/",
+	"whoisServer": "whois.nic.erni",
 	"rdapURLs": [
 		"https://rdap.nic.erni/"
 	],

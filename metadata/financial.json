@@ -1,7 +1,6 @@
 {
 	"domain": "financial",
 	"registryOperator": "Binky Moon, LLC",
-	"whoisServer": "whois.nic.financial",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

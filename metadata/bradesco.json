@@ -2,6 +2,7 @@
 	"domain": "bradesco",
 	"registryOperator": "Banco Bradesco S.A.",
 	"infoURL": "https://nic.bradesco/",
+	"whoisServer": "whois.nic.bradesco",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
