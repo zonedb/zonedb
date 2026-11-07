@@ -1,6 +1,7 @@
 {
 	"domain": "haus",
 	"registryOperator": "Dog Beach, LLC",
+	"whoisServer": "whois.nic.haus",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

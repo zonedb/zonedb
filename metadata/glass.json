@@ -1,6 +1,7 @@
 {
 	"domain": "glass",
 	"registryOperator": "Binky Moon, LLC",
+	"whoisServer": "whois.nic.glass",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

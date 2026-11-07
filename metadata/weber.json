@@ -2,6 +2,7 @@
 	"domain": "weber",
 	"registryOperator": "Saint-Gobain Weber SA",
 	"infoURL": "https://nic.weber/",
+	"whoisServer": "whois.nic.weber",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

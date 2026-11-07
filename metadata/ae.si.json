@@ -1,8 +1,8 @@
 {
 	"domain": "ae.si",
 	"nameServers": [
-		"ns1.afternic.com",
-		"ns2.afternic.com"
+		"ns1.nameclub.com",
+		"ns2.nameclub.com"
 	],
 	"policies": [
 		{
