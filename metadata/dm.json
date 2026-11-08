@@ -2,7 +2,7 @@
 	"domain": "dm",
 	"registryOperator": "DotDM Corporation",
 	"countryName": "Dominica",
-	"whoisServer": "whois.dmdomains.dm",
+	"whoisServer": "whois.nic.dm",
 	"nameServers": [
 		"ns.blacknightsolutions.com",
 		"ns01.trs-dns.com",

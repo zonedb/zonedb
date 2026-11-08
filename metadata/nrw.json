@@ -2,6 +2,7 @@
 	"domain": "nrw",
 	"registryOperator": "Minds + Machines GmbH",
 	"infoURL": "https://nic.nrw/",
+	"whoisServer": "whois.nic.nrw",
 	"rdapURLs": [
 		"https://rdap.nic.nrw/"
 	],

@@ -2,7 +2,6 @@
 	"domain": "scholarships",
 	"registryOperator": "Scholarships.com, LLC",
 	"infoURL": "http://nic.scholarships/",
-	"whoisServer": "whois.nic.scholarships",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],
