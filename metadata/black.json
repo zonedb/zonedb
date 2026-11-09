@@ -2,6 +2,7 @@
 	"domain": "black",
 	"registryOperator": "Identity Digital Limited",
 	"infoURL": "https://identity.digital/",
+	"whoisServer": "whois.nic.black",
 	"rdapURLs": [
 		"https://rdap.identitydigital.services/rdap/"
 	],

@@ -5,6 +5,7 @@
 	"registryOperator": "Sudan Internet Society",
 	"countryName": "Sudan",
 	"nameServers": [
+		"ans1.sis.sd",
 		"pch.sis.sd"
 	],
 	"languages": [

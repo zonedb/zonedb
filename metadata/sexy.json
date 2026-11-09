@@ -2,7 +2,7 @@
 	"domain": "sexy",
 	"registryOperator": "Internet Naming Co.",
 	"infoURL": "https://nic.sexy/",
-	"whoisServer": "whois.nic.sexy",
+	"whoisServer": "whois.registry.click",
 	"rdapURLs": [
 		"https://rdap.registry.click/rdap/"
 	],
