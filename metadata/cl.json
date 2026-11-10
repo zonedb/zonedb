@@ -2,6 +2,7 @@
 	"domain": "cl",
 	"registryOperator": "NIC Chile (University of Chile)",
 	"countryName": "Chile",
+	"whoisServer": "whois.nic.cl",
 	"nameServers": [
 		"a.nic.cl",
 		"b.nic.cl",

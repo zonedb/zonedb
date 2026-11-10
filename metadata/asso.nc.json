@@ -5,10 +5,6 @@
 		"ns1.nc",
 		"ns2.nc"
 	],
-	"wildcards": [
-		"198.135.184.22",
-		"sinkhole.paloaltonetworks.com"
-	],
 	"policies": [
 		{
 			"type": "idn-disallowed"
