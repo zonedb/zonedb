@@ -1,21 +1,20 @@
 {
-	"domain": "in.net",
-	"whoisServer": "whois.centralnic.com",
-	"rdapURLs": [
-		"https://rdap.centralnic.com/in.net/"
-	],
-	"nameServers": [
-		"ns01.trs-dns.com",
-		"ns01.trs-dns.net",
-		"ns10.trs-dns.info",
-		"ns10.trs-dns.org"
-	],
-	"policies": [
-		{
-			"type": "idn-table",
-			"key": "mul-Cyrl",
-			"value": "https://centralnicregistry.com/services/idn-table/cyrl/58/",
-			"source": "https://centralnicregistry.com/idn-tables/"
-		}
-	]
+        "domain": "in.net",
+        "registryOperator": "Radix FZC",
+        "infoURL": "https://in.net/",
+        "whoisServer": "whois.radix.host",
+        "nameServers": [
+                "://trs-dns.com",
+                "ns.trs-dns.info",
+                "ns.trs-dns.net",
+                "ns.trs-dns.org"
+        ],
+        "tags": [
+                "private"
+        ],
+        "policies": [
+                {
+                        "type": "idn-disallowed"
+                }
+        ]
 }
